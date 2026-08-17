@@ -18,4 +18,4 @@ logic belongs in `<cc>/scripts/`, not here.
 
 | Script | Formats | Usage |
 |--------|---------|-------|
-| `extract_text.py` | PDF, XLSX, JSON/MD/TXT | `python extract_text.py <cc> [file ...]` — extracts to `<cc>/.extractions/` with `=== PAGE n ===` markers; `--check` reports quality only. Flags scanned/garbled PDFs (exit 1). Needs `pypdf` + `openpyxl` (venv: `~/.venvs/localizations`). `.xls`/`.docx` not supported yet. |
+| `extract_text.py` | PDF, XLSX, XLS, DOCX, JSON/MD/TXT | `python extract_text.py <cc> [file ...]` — extracts to `<cc>/.extractions/` with `=== PAGE n ===` markers; `--check` reports quality only; `--ocr` runs Spanish OCR (ocrmypdf/tesseract) on scanned PDFs. Flags scanned/garbled PDFs (exit 1). Needs the venv from the [root README](../../README.md#development-environment). |

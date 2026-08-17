@@ -73,3 +73,45 @@ Each country directory follows the same layout:
 - [El Salvador (sv)](sv/README.md) — Ministerio de Hacienda (MH)
 - [Guatemala (gt)](gt/README.md) — Superintendencia de Administración Tributaria (SAT)
 - [Honduras (hn)](hn/README.md) — Servicio de Administración de Rentas (SAR)
+
+## Development environment
+
+The helper scripts in [shared/scripts/](shared/scripts/) need a Python 3.10+
+environment with a handful of packages, plus system libraries for PDF OCR.
+
+### System packages (sudo)
+
+```bash
+sudo apt install tesseract-ocr tesseract-ocr-spa ghostscript qpdf unpaper -y
+```
+
+`tesseract-ocr-spa` (Spanish language data) is required — all source
+documents are in Spanish.
+
+### Python environment
+
+```bash
+python3 -m venv ~/.venvs/localizations
+~/.venvs/localizations/bin/pip install pypdf openpyxl ocrmypdf xlrd python-docx
+```
+
+Or with `uv`:
+
+```bash
+uv venv ~/.venvs/localizations
+uv pip install --python ~/.venvs/localizations/bin/python pypdf openpyxl ocrmypdf xlrd python-docx
+```
+
+| Package | Used for |
+|---------|----------|
+| `pypdf` | PDF text extraction with page markers |
+| `openpyxl` | `.xlsx` dumps (MH catalogs) |
+| `ocrmypdf` | OCR fallback for scanned PDFs (`extract_text.py --ocr`; wraps tesseract) |
+| `xlrd` | legacy `.xls` (F-07/F-14 templates) |
+| `python-docx` | `.docx` (comunicados) |
+
+Run scripts with the venv interpreter, e.g.:
+
+```bash
+~/.venvs/localizations/bin/python shared/scripts/extract_text.py sv --check
+```

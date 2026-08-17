@@ -11,18 +11,35 @@ sheet markers. JSON/MD files are copied unchanged.
 
 Options:
     --check    only report extraction quality (pages, chars/page), write nothing
+    --ocr      OCR scanned PDFs first (tesseract + spa) and keep the text layer
+               (requires: tesseract-ocr, tesseract-ocr-spa, ghostscript, qpdf)
 
 Exit code 1 if any requested file fails. Flags scanned/garbled PDFs with a
-warning: those need OCR before evidence work — do not read through them.
+warning: those need OCR (use --ocr) before evidence work — do not read
+through them. `.xls` (xlrd) and `.docx` (python-docx) are supported.
 """
 
 import json
+import subprocess
 import sys
+import tempfile
 import unicodedata
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
 WARN_CHARS = {"\ufffd"}  # replacement chars signal bad decode
+
+
+def ocr_pdf(path: Path) -> Path:
+    """Return a path to a text-layer copy of path (OCR with Spanish)."""
+    tmp = Path(tempfile.mkdtemp(prefix="ocr-"))
+    out = tmp / path.name
+    subprocess.run(
+        [sys.executable, "-m", "ocrmypdf", "--language", "spa", "--deskew",
+         "--force-ocr", "-q", str(path), str(out)],
+        check=True,
+    )
+    return out
 
 
 def out_name(src: Path) -> Path:
@@ -73,10 +90,39 @@ def extract_xlsx(path: Path):
     return blocks
 
 
+def extract_xls(path: Path):
+    import xlrd
+
+    wb = xlrd.open_workbook(str(path))
+    blocks = []
+    for ws in wb.sheets():
+        lines = [f"=== SHEET {ws.name} ==="]
+        for row in range(ws.nrows):
+            cells = ["" if c is None else str(c) for c in ws.row_values(row)]
+            if any(c.strip() for c in cells):
+                lines.append(";".join(cells))
+        blocks.append("\n".join(lines))
+    return blocks
+
+
+def extract_docx(path: Path):
+    import docx
+
+    d = docx.Document(str(path))
+    parts = ["=== PARAGRAPHS ==="]
+    parts += [p.text for p in d.paragraphs if p.text.strip()]
+    for i, t in enumerate(d.tables, 1):
+        parts.append(f"=== TABLE {i} ===")
+        for row in t.rows:
+            parts.append(";".join(c.text.strip() for c in row.cells))
+    return ["\n".join(parts)]
+
+
 def main() -> int:
     args = sys.argv[1:]
     check_only = "--check" in args
-    args = [a for a in args if a != "--check"]
+    use_ocr = "--ocr" in args
+    args = [a for a in args if a not in ("--check", "--ocr")]
     if not args:
         print(__doc__)
         return 2
@@ -98,8 +144,15 @@ def main() -> int:
             if src.suffix.lower() == ".pdf":
                 pages, _ = extract_pdf(src)
                 quality = pdf_quality(pages)
+                if quality.startswith(("SCANNED", "GARBLED", "EMPTY")) and use_ocr:
+                    print(f"{src.name}: scanned -> OCR (spa)...", file=sys.stderr)
+                    ocr_path = ocr_pdf(src)
+                    pages, _ = extract_pdf(ocr_path)
+                    quality = "OCR: " + pdf_quality(pages)
                 print(f"{src.name}: {len(pages)} pages, {quality}")
-                if quality.startswith(("SCANNED", "GARBLED", "EMPTY")):
+                if quality.startswith(("SCANNED", "GARBLED", "EMPTY")) or (
+                    quality.startswith("OCR") and quality[5:].startswith(("SCANNED", "GARBLED", "EMPTY"))
+                ):
                     failures += 1
                     continue
                 if not check_only:
@@ -113,6 +166,20 @@ def main() -> int:
                         "\n\n".join(blocks), encoding="utf-8"
                     )
                 print(f"{src.name}: xlsx dumped")
+            elif src.suffix.lower() == ".xls":
+                if not check_only:
+                    blocks = extract_xls(src)
+                    out_dir.joinpath(src.name + ".txt").write_text(
+                        "\n\n".join(blocks), encoding="utf-8"
+                    )
+                print(f"{src.name}: xls dumped")
+            elif src.suffix.lower() == ".docx":
+                if not check_only:
+                    blocks = extract_docx(src)
+                    out_dir.joinpath(src.name + ".txt").write_text(
+                        "\n\n".join(blocks), encoding="utf-8"
+                    )
+                print(f"{src.name}: docx dumped")
             elif src.suffix.lower() in {".json", ".md", ".txt"}:
                 if not check_only:
                     out_dir.joinpath(src.name).write_text(
