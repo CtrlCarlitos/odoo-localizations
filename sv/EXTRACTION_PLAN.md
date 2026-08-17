@@ -69,10 +69,15 @@ Dependency-aware; each batch's outputs feed the next.
 
 - **Repeals**: IVA/ISR Reglamento procedural articles repealed by Código Tributario (hint layer flagged many; confirm per article during merge).
 - **Wrong-document incident**: file `14_` was previously an unconstitutional version; current file is Decreto 431 (2007) + Reglamento 131 (`17b_`). Verified at import.
-- **Scanned PDFs**: F-07/F-14 manuals are form scans; extraction quality must be checked — OCR fallback if needed.
-- **Numbering gaps** in sources (21, 23, 24, 28): documents not carried over; if coverage matrix shows gaps, retrieve from MH.
-- **FOVIAL/COTRANS**: quantity-based taxes ($/gallon) — no native Odoo tax; Odoo Mapping needs explicit design decision.
+- **Scanned PDFs (extraction check 2026-08-16)**: `18_Normativa_Cumplimiento_DTE` (16 chars/page), `26_Manual_Consola_Administrativa` (33), `35_F14_v16_manual` (27), `43_DUCA_Instructivo_COMIECO` (15) — need OCR before evidence passes.
+- **Corrupt PDF**: `17_Reglamento_Lavado_Activos` fails parsing — re-download from MH needed.
+- **Unsupported formats**: `36/37_*.xls` (F-07/F-14 templates), `42_*.docx` (Panama comunicado) — add converter or manual transcription when read.
+- **FOVIAL/COTRANS**: quantity-based taxes ($/gallon) — no native Odoo tax; Odoo Mapping needs explicit design decision. Confirmed mechanics in 40_manual Anexo 5 (EVID-007).
 - **Sello/estado dual management**: MH state vs Odoo state — likely cross-topic FR cluster; assign home in synthesis.
+
+## Extraction log
+
+- 2026-08-16 — Stage 1 check: 36/41 PDFs extract clean; 4 scanned (see risks), 1 corrupt (17_). Catalogs batch (20_, 25_ PDF+XLSX, 40_) extracted to scratch. **Pilot evidence pass done**: `40_manual_estructuras_catalogo.evidence.md` (15 EVID entries; §V per-DTE structures still unread — next unit). Evidence format validated: Loc + verbatim + gloss + candidate CR + topics + xref + doubts; OQs collected at file end.
 
 ## Deliverables
 
