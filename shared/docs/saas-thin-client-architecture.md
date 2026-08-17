@@ -187,3 +187,15 @@ Mitigation is aggressive pre-cutoff UX, not soft degradation:
 **Consequence:** private protocol responses must carry subscription/entitlement
 state (status, expiry, grace flags) as a standing field — client banner FRs
 derive from it.
+
+### D5 — Client license (2026-08-16)
+
+**Decision:** LGPL-3 for the Odoo thin client; SaaS (Elixir/Phoenix) stays
+proprietary and is never distributed. Trademark (product name/logo)
+explicitly NOT licensed — reserved even though code is open.
+
+**Alternatives rejected:** OPL-1 (anti-competition clauses redundant given
+D2's private protocol — a wrapped client is useless without our SaaS — and
+it friction-izes distribution); AGPL-3 (network-compilation risk if any
+code is ever shared client↔SaaS); MIT/BSD (gives up weak copyleft on
+client improvements for no strategic gain, since the moat is elsewhere).
