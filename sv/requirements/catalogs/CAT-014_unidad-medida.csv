@@ -1,0 +1,47 @@
+code,value
+1,metro
+2,Yarda 1
+6,milímetro
+9,kilómetro cuadrado
+10,Hectárea
+13,metro cuadrado
+15,Vara cuadrada 2
+18,metro cúbico
+20,Barril 3
+22,"Galón 1, 4"
+23,Litro
+24,Botella
+26,Mililitro
+30,Tonelada
+32,Quintal 1
+33,Arroba 1
+34,Kilogramo
+36,Libra 1
+37,Onza troy 5
+38,Onza 1
+39,Gramo
+40,Miligramo
+42,Megawatt
+43,Kilowatt
+44,Watt
+45,Megavoltio-amperio
+46,Kilovoltio-amperio
+47,Voltio-amperio
+49,Gigawatt-hora
+50,Megawatt-hora
+51,Kilowatt-hora
+52,Watt-hora
+53,Kilovoltio
+54,Voltio
+55,Millar
+56,Medio millar
+57,Ciento
+58,Docena
+59,Unidad
+99,Otra 6
+1: Unidad de medida que se utilizará según el Reglamento Técnico Salvadoreño RTS. 01.02.01:18 Metrología (SI).,
+2: Unidad de medida dejará de utilizarse con la entrada en vigencia del Reglamento Técnico Salvadoreño RTS. 01.02.01:18 Metrología (SI).,
+3: Aplica solo para productos derivados del petróleo.,
+4: Se refiere al Galón USA.,
+5: Medida aplica solo para tipo de bien oro.,
+6: Utilizada para detallar formas de presentación del producto,

@@ -19,3 +19,4 @@ logic belongs in `<cc>/scripts/`, not here.
 | Script | Formats | Usage |
 |--------|---------|-------|
 | `extract_text.py` | PDF, XLSX, XLS, DOCX, JSON/MD/TXT | `python extract_text.py <cc> [file ...]` — extracts to `<cc>/.extractions/` with `=== PAGE n ===` markers; `--check` reports quality only; `--ocr` runs Spanish OCR (ocrmypdf/tesseract) on scanned PDFs. Flags scanned/garbled PDFs (exit 1). Needs the venv from the [root README](../../README.md#development-environment). |
+| `build_catalogs.py` | MH catalogs (sv) | `python build_catalogs.py <cc> <extracted_xlsx_txt> [--pdf <extracted_pdf_txt>]` — emits one CSV per catalog to `<cc>/requirements/catalogs/` + `_INDEX.md` with corrections log. XLSX is primary; PDF overlays missing codes. |
