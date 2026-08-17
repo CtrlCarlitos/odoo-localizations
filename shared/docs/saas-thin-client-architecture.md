@@ -151,3 +151,21 @@ generation to mitigate it would leak the rules engine into the open client.
   storage, per-environment (test/prod) cert handling.
 - Offline posture per D1: without SaaS connectivity the client cannot
   generate — accepted.
+
+### D3 — Archive & exit: tiered retention (2026-08-16)
+
+**Decision:** Archive custody is a PAID TIER CHOICE, not a single posture:
+
+- **Tier A (base):** Client is system of record — every sealed DTE (Archivo
+  DTE + RG) mirrored into Odoo at response time; CT 147 duty satisfied
+  locally even with zero SaaS. Exit = keep everything, lose service.
+- **Tier B (paid):** SaaS-hosted archive — long-term conservation, search,
+  re-download, RG re-rendering on the platform; exit export (structured
+  dump) included while account is in good standing.
+- Tier-down (B→A or cancel) always leaves the emitter compliant via the
+  local mirror; ToS makes clear SaaS hosting is a convenience on top of the
+  emitter's own duty.
+
+**Rationale (user):** monetization opportunity — "we get paid more if we do
+more" — while keeping every customer's legal baseline satisfied by Tier A
+(mirroring is not optional on the client side; hosting is).
