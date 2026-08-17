@@ -52,12 +52,15 @@ Entities, fields, catalogs, and code lists. Machine-readable versions
 
 ## 5. Odoo Mapping
 
-How each functional requirement maps onto Odoo models and fields. Note
-version-specific behavior for Odoo 17/18/19/20 wherever they differ.
+How each functional requirement maps onto the solution, with version notes
+where 17/18/19/20 differ. The **Layer** column records where the logic lives
+when the product architecture splits the Odoo module (thin client) from a
+SaaS core — see [saas-thin-client-architecture.md](saas-thin-client-architecture.md);
+use `odoo` / `saas` / `shared`; write `n/a` only with a justification line.
 
-| FR | Odoo model | Field(s) | Notes / version differences |
-|----|------------|----------|------------------------------|
-| | | | |
+| FR | Layer | Odoo model | Field(s) | Notes / version differences |
+|----|-------|------------|----------|------------------------------|
+| | | | | |
 
 ## 6. Acceptance Criteria
 

@@ -1,7 +1,15 @@
 # Building an Odoo Localization Package
 
 Shared reference for turning the requirements in this repository into Odoo
-localization modules. Target versions: **17.0, 18.0, 19.0, 20.0**.
+localizations. Target versions: **17.0, 18.0, 19.0, 20.0**.
+
+> **Product architecture caveat:** the module-per-package anatomy below
+> describes a conventional self-contained localization. Our current direction
+> is a **thin-client Odoo module + proprietary Elixir/Phoenix SaaS core**
+> (open-source client, paid service). Where that split lands is pending —
+> see [saas-thin-client-architecture.md](saas-thin-client-architecture.md).
+> Requirements carry the split via the Odoo Mapping **Layer** column; this
+> guide's anatomy applies to whatever portions end up Odoo-side.
 
 ## Package anatomy
 
