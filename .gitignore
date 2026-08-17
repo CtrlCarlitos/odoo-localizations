@@ -10,3 +10,8 @@ venv/
 
 # Scratch outputs
 *.tmp
+
+# Extraction scratch
+sv/.extractions/
+gt/.extractions/
+hn/.extractions/
