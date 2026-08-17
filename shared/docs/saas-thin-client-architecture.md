@@ -199,3 +199,40 @@ D2's private protocol — a wrapped client is useless without our SaaS — and
 it friction-izes distribution); AGPL-3 (network-compilation risk if any
 code is ever shared client↔SaaS); MIT/BSD (gives up weak copyleft on
 client improvements for no strategic gain, since the moat is elsewhere).
+
+### D6 — Multi-country architecture (2026-08-16)
+
+**Decision:** Hybrid — one Elixir/Phoenix SaaS with a **shared protocol
+core** (auth, entitlement, subscription state, archive, transmission state
+machine, webhooks/callbacks) and **namespaced document payloads** per
+country (`"common": {...}, "sv": {...}` today; `"gt": {...}` for FEL
+later). HN (no e-invoicing) needs only whatever fiscal-reporting surface
+its requirements eventually demand.
+
+**Rationale:** plumbing built once; country divergence (document shapes,
+regimes, regulator cadence) isolated in namespaces so one country's
+regulatory churn can never break another country's contract — the lesson
+of the SV v1.2→v2.0 transition, applied to our own protocol. Matches the
+per-country extraction reality ("each country is a different world")
+without per-country infrastructure duplication.
+
+**Consequences:**
+- Private protocol spec = core spec + one section per country namespace;
+  each namespace versions independently (semver per namespace).
+- Odoo client modules (`l10n_sv_edi`, future `l10n_gt_edi`) share client
+  plumbing (auth, vault, mirrors, banners) and implement their namespace.
+- `shared/docs/patterns.md` (cross-country pattern log per the extraction
+  procedure) now doubles as the input for shared protocol-core design.
+
+## S0.5 session status
+
+Decided: D1 (resilience/Fly.io, no local fallback), D2 (SaaS generation +
+client signing + private minimal protocol + dual validation), D3 (tiered
+archive custody), D4 (hard entitlement wall + escalating reminders),
+D5 (LGPL-3 + trademark reservation), D6 (hybrid multi-country protocol).
+
+Remaining from the Q-list: Q2 (protocol shape detail — largely settled by
+D2/D6; remaining detail = error/warning taxonomy + webhook design, fold
+into S1 API-contract FRs rather than more socratic rounds), Q5 (data
+residency — folded into D3's ToS/export work; flag for legal review).
+S0.5 is sufficiently complete to start S1 synthesis.
