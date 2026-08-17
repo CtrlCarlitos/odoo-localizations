@@ -78,6 +78,7 @@ Dependency-aware; each batch's outputs feed the next.
 ## Extraction log
 
 - 2026-08-16 — Stage 1 check: 36/41 PDFs extract clean; 4 scanned (see risks), 1 corrupt (17_). Catalogs batch (20_, 25_ PDF+XLSX, 40_) extracted to scratch. **Pilot evidence pass done**: `40_manual_estructuras_catalogo.evidence.md` (15 EVID entries; §V per-DTE structures still unread — next unit). Evidence format validated: Loc + verbatim + gloss + candidate CR + topics + xref + doubts; OQs collected at file end.
+- 2026-08-16 (W1 complete) — **40_ manual FULLY READ**: all 11 §V structures; evidence file now 35 EVID entries. Key per-doc findings: FE=IVA-inclusive prices vs CCFE=net+IVA (schema arbitrates); receptor thresholds ($200 FE name; $11,428.57 responsible parties on CCFE/NRE/NCE/NDE/CLE/CRE); NC adjusts CCF/CR, ND adjusts CCF/NC/ND/CR; CLE liquidates docs net-of-IVA with negative re-entry of annulled; DCLE=2% card perception; FEXE foreign receptor + C3 0% mandatory + seguro/flete + INCOTERMS; FSEE simplified + retentions; CDE mandatory qualification resolution, async seal 24-72h. **41_ events manual FULLY READ** (10 EVID entries, 036-045): invalidation deadlines confirmed (1 day / 3 months); 24h/24h/72h contingency clocks; 5s timeout trigger; 3 open questions (retry-policy doc missing, contingency type list 6-vs-7, motivo length). Foundations batch (units 1-2, 13) evidence COMPLETE — ready for catalogs sidecars (W2) and merge.
 
 ## Deliverables
 
