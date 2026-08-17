@@ -108,3 +108,46 @@ Illustrative only:
 - S1 deliverables add: `sv/requirements/e-invoicing/` files must include
   the client↔SaaS API contract FRs (transmission/state/archive/entitlement
   surfaces) alongside fiscal FRs.
+
+---
+
+## S0.5 DECISION LOG (in progress)
+
+### D1 — Contingency & resilience posture (2026-08-16)
+
+**Decision:** SaaS deployed on Fly.io multi-region (distributed sites). No
+local-fallback generation in the client. Residual risk = customer↔SaaS
+network partition, accepted and framed contractually (target: availability
+≥ MH's own; ToS positions residual risk as force majeure per CT 119-F
+logic).
+
+**Rationale:** MH-outage contingency (the legally-recognized case) is
+handled centrally by the SaaS in deferred mode. Our own outage is an
+engineering problem (multi-region) not an architectural one; adding local
+generation to mitigate it would leak the rules engine into the open client.
+
+### D2 — Generation/signing split + private protocol (2026-08-16)
+
+**Decision:**
+- **Generation, sequencing, transmission, events, state, catalogs, version
+  management: SaaS-side** (numeroControl sequencing stays a single
+  server-side store — no fleet drift).
+- **Signing: client-side** (Odoo holds the emitter's cert + private key in
+  an encrypted vault model; Python JWS/RS512 signer; MH's own on-prem
+  firmador pattern — SaaS never touches private keys).
+- **The client↔SaaS wire format is a PRIVATE MINIMAL PROTOCOL** — it does
+  not resemble the government JSON. The SaaS compiles/transforms it into
+  the public MH schema (which lives only SaaS-side, with the transformation
+  and validation logic = core IP).
+- **Validation runs at BOTH ends**: client-side pre-validation (cheap,
+  early rejection in Odoo) + SaaS-side authoritative validation; the
+  round-trip must surface every validation result to the client.
+
+**Consequences adopted:**
+- The private protocol is a first-class versioned contract artifact
+  (semver + changelog + deprecation windows), maintained in this repo's
+  requirements; it decouples from MH's spec cadence.
+- Client-side cert vault is client-side security surface we own: encrypted
+  storage, per-environment (test/prod) cert handling.
+- Offline posture per D1: without SaaS connectivity the client cannot
+  generate — accepted.
