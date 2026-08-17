@@ -70,7 +70,7 @@ Dependency-aware; each batch's outputs feed the next.
 - **Repeals**: IVA/ISR Reglamento procedural articles repealed by Código Tributario (hint layer flagged many; confirm per article during merge).
 - **Wrong-document incident**: file `14_` was previously an unconstitutional version; current file is Decreto 431 (2007) + Reglamento 131 (`17b_`). Verified at import.
 - **Scanned PDFs (extraction check 2026-08-16)**: `18_Normativa_Cumplimiento_DTE` (16 chars/page), `26_Manual_Consola_Administrativa` (33), `35_F14_v16_manual` (27), `43_DUCA_Instructivo_COMIECO` (15) — OCR now wired (`--ocr`); DUCA verified readable (2018 chars/page). Remaining three pending OCR run.
-- **Corrupt PDF**: `17_Reglamento_Lavado_Activos` fails parsing — re-download from MH needed.
+- **Damaged PDF (2026-08-16 resolved)**: `17_Reglamento_Lavado_Activos` has a broken xref + malformed stream (object 16) — renders in lenient viewers (pdf.js) but fails strict parsers. Not corrupt content-wise. `extract_text.py` now auto-repairs via qpdf into a temp copy (sources untouched); extracts cleanly (6 pp, 3.3k chars/page). No re-download needed.
 - **Unsupported formats**: `36/37_*.xls` (F-07/F-14 templates), `42_*.docx` (Panama comunicado) — add converter or manual transcription when read.
 - **FOVIAL/COTRANS**: quantity-based taxes ($/gallon) — no native Odoo tax; Odoo Mapping needs explicit design decision. Confirmed mechanics in 40_manual Anexo 5 (EVID-007).
 - **Sello/estado dual management**: MH state vs Odoo state — likely cross-topic FR cluster; assign home in synthesis.

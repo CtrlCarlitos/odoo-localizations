@@ -13,6 +13,8 @@ Options:
     --check    only report extraction quality (pages, chars/page), write nothing
     --ocr      OCR scanned PDFs first (tesseract + spa) and keep the text layer
                (requires: tesseract-ocr, tesseract-ocr-spa, ghostscript, qpdf)
+    Damaged PDFs (broken xref/streams) are auto-repaired via qpdf into a temp
+    copy — sources are never modified.
 
 Exit code 1 if any requested file fails. Flags scanned/garbled PDFs with a
 warning: those need OCR (use --ocr) before evidence work — do not read
@@ -39,6 +41,21 @@ def ocr_pdf(path: Path) -> Path:
          "--force-ocr", "-q", str(path), str(out)],
         check=True,
     )
+    return out
+
+
+def repair_pdf(path: Path) -> Path:
+    """Return a path to a qpdf-repaired copy for structurally damaged PDFs.
+
+    Some PDFs render in lenient viewers (pdf.js) but fail strict parsers
+    (pypdf) due to a broken xref or malformed streams. qpdf rebuilds the
+    cross-reference table; exit code 3 (warnings) still yields a usable file.
+    """
+    tmp = Path(tempfile.mkdtemp(prefix="repair-"))
+    out = tmp / path.name
+    subprocess.run(["qpdf", str(path), str(out)], check=False)
+    if not out.exists():
+        raise RuntimeError("qpdf repair produced no output")
     return out
 
 
@@ -142,7 +159,12 @@ def main() -> int:
             continue
         try:
             if src.suffix.lower() == ".pdf":
-                pages, _ = extract_pdf(src)
+                try:
+                    pages, _ = extract_pdf(src)
+                except Exception:
+                    # Structurally damaged PDF: repair a temp copy via qpdf
+                    print(f"{src.name}: pypdf failed -> qpdf repair...", file=sys.stderr)
+                    pages, _ = extract_pdf(repair_pdf(src))
                 quality = pdf_quality(pages)
                 if quality.startswith(("SCANNED", "GARBLED", "EMPTY")) and use_ocr:
                     print(f"{src.name}: scanned -> OCR (spa)...", file=sys.stderr)
