@@ -66,3 +66,13 @@ Built on Odoo's EDI framework (`account.edi.format`):
 3. `e-invoicing/` builds on the fiscal core; `payroll/` is independent.
 4. Record any discovered Odoo constraints back into the requirement file's
    "Open Questions" section — this repository is the single source of truth.
+
+## Regulatory change management
+
+Spec versions change mid-flight (El Salvador changed its Normativa twice in six
+months and re-versioned its catalogs). How modules handle spec upgrades,
+historical periods, and dual-version calculation is an open design question —
+see [regulatory-change-management.md](regulatory-change-management.md) for the
+framing note and pending socratic discussion. Until decided, requirements
+files must record the version regime (version fields, effective dates,
+adaptation windows) wherever it affects an FR.

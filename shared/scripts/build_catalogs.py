@@ -21,16 +21,21 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
 
-# Catalog display names / slugs (from manual §IV registry, EVID-004)
+# Catalog display names / slugs.
+# v1.1 (2026 re-versioning) — matches Catálogos Facturación Electrónica v1.1:
+# CAT-002 now includes DTE AND event types (17/18); CAT-008 = Distrito (no longer
+# deleted); CAT-023 = Operaciones Especiales (replaces Tipo Doc. Contingencia);
+# CAT-024 renamed "Motivo del evento"; new CAT-033 Tipo de Régimen (+ customs
+# regimes), and more beyond 033 are emitted generically when present.
 CATALOGS = {
     "CAT-001": "ambiente-destino",
-    "CAT-002": "tipo-documento",
+    "CAT-002": "tipo-documento-evento",
     "CAT-003": "modelo-facturacion",
     "CAT-004": "tipo-transmision",
     "CAT-005": "tipo-contingencia",
     "CAT-006": "retencion-iva-mh",
     "CAT-007": "tipo-generacion-documento",
-    "CAT-008": "ELIMINADO",
+    "CAT-008": "distrito",
     "CAT-009": "tipo-establecimiento",
     "CAT-010": "servicio-medico",
     "CAT-011": "tipo-item",
@@ -43,10 +48,10 @@ CATALOGS = {
     "CAT-018": "plazo",
     "CAT-019": "actividad-economica",
     "CAT-020": "pais",
-    "CAT-021": "otros-documentos-asociados",
+    "CAT-021": "documentos-asociados",
     "CAT-022": "tipo-documento-receptor",
-    "CAT-023": "tipo-documento-contingencia",
-    "CAT-024": "tipo-invalidacion",
+    "CAT-023": "operaciones-especiales",
+    "CAT-024": "motivo-evento",
     "CAT-025": "titulo-remision-bienes",
     "CAT-026": "tipo-donacion",
     "CAT-027": "recinto-fiscal",
@@ -55,7 +60,15 @@ CATALOGS = {
     "CAT-030": "transporte",
     "CAT-031": "incoterms",
     "CAT-032": "domicilio-fiscal",
+    "CAT-033": "tipo-regimen",
 }
+
+# Fallback slugs for catalogs present in a source but not in the map (e.g.
+# future CAT-034+): derive from the header line text.
+def slugify(text: str) -> str:
+    import re
+    s = re.sub(r"[^a-záéíóúñA-ZÁÉÍÓÚÑ0-9 ]", "", text.lower())
+    return "-".join(s.split())[:40]
 
 CAT_RE = re.compile(r"^(CAT-\d{3})\b[^;]*;?\s*$")
 CODE_RE = re.compile(r"^([^;]+);(.*)$")
@@ -138,9 +151,14 @@ def main() -> int:
 
     corrections = []
     rows_written = {}
-    for cat, slug in CATALOGS.items():
-        if cat == "CAT-008":
-            continue  # deleted catalog — never emitted
+    # Merge mapped catalogs with any unmapped ones found in the source
+    all_cats = dict(CATALOGS)
+    for cat in wb:
+        if cat not in all_cats:
+            header = cat  # derive slug from raw "CAT-0XX Nombre;" line
+            name = header.split(None, 1)[1].strip().rstrip(";") if " " in header else cat
+            all_cats[cat] = slugify(name)
+    for cat, slug in all_cats.items():
         entries = wb.get(cat, [])
         has_sections = any(sec for _, _, sec in entries)
         # Overlay: if workbook misses codes the PDF has, take PDF's full list
@@ -168,11 +186,8 @@ def main() -> int:
             + ".\nRegenerate after any source version change.\n\n"
         )
         f.write("| Catalog | File | Rows |\n|---|---|---|\n")
-        for cat, slug in CATALOGS.items():
-            if cat == "CAT-008":
-                f.write(f"| {cat} | (eliminado — not emitted) | — |\n")
-            else:
-                f.write(f"| {cat} | `{cat}_{slug}.csv` | {rows_written[cat]} |\n")
+        for cat, slug in all_cats.items():
+            f.write(f"| {cat} | `{cat}_{slug}.csv` | {rows_written[cat]} |\n")
         if corrections:
             f.write("\n## Corrections applied (workbook vs PDF)\n\n")
             for c in corrections:
