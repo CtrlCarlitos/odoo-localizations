@@ -16,7 +16,7 @@ are kept inline with an English translation on first use, e.g.
 | Field   | Value |
 |---------|-------|
 | Country | sv / gt / hn |
-| Topic   | e-invoicing / taxation / chart-of-accounts / payroll / fiscal-reporting |
+| Topic   | e-invoicing / taxation / chart-of-accounts / payroll / fiscal-reporting / commercial-legal / special-regimes |
 | Status  | draft / in-review / approved |
 | Authors | name(s) |
 | Updated | YYYY-MM-DD |

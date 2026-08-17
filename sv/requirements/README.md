@@ -11,5 +11,7 @@ Language: English, Spanish legal terms inline with translations.
 | [chart-of-accounts](chart-of-accounts/) | Not started | — |
 | [payroll](payroll/) | Not started | — |
 | [fiscal-reporting](fiscal-reporting/) | Not started | — |
+| [commercial-legal](commercial-legal/) | Not started | — |
+| [special-regimes](special-regimes/) | Not started | — |
 
 Status values: Not started, In progress, In review, Complete.
