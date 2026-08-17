@@ -169,3 +169,21 @@ generation to mitigate it would leak the rules engine into the open client.
 **Rationale (user):** monetization opportunity — "we get paid more if we do
 more" — while keeping every customer's legal baseline satisfied by Tier A
 (mirroring is not optional on the client side; hosting is).
+
+### D4 — Entitlement enforcement (2026-08-16)
+
+**Decision:** Hard wall — no valid subscription, no DTE generation (SaaS
+refuses private-protocol calls; client cannot invoice electronically).
+Mitigation is aggressive pre-cutoff UX, not soft degradation:
+
+- Escalating reminders via email AND Odoo interface (banner states:
+  warning → urgent → final) driven by SaaS-reported subscription state in
+  every protocol response.
+- Grace/dunning windows configurable per ToS; the client renders them but
+  enforcement is server-side only (never trust the client).
+- Read paths (local mirrored archive) keep working offline of entitlement —
+  they are the emitter's own data (per D3 Tier A).
+
+**Consequence:** private protocol responses must carry subscription/entitlement
+state (status, expiry, grace flags) as a standing field — client banner FRs
+derive from it.
