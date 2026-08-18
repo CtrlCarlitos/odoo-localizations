@@ -322,7 +322,8 @@ an annual load (OQ-003).
   Enero; F-910/F-915/F-986/F-987-1H appear with window month 2,
   F-455 (+F-957/F-972/F-983) with 3, F-11/F-971/F-944/F-30/F-40/
   F-982 with 4, the CT-131 auditor appointments with 5, F-987-2H with
-  7; the F-950 row carries the SOQ-14 flag and generates no deadline;
+  7 (inferred from the 2026 grids — OQ-001); the F-950 row carries the
+  SOQ-14 flag and generates no deadline;
   the F-985/F-975/F-995/F-990 rows carry taxpayer_scope =
   third_party_informational and generate no taxpayer deadline,
   reminder or overdue object (FR-195, FR-197, FR-198, FR-208).

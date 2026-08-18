@@ -95,7 +95,7 @@ resolved.
 - OQ-003 — Art. 74-A override mechanics (total-consideration reading, mora/quota measurement). open
 - OQ-004 — Pool-consumption ordering for ordinary distributions (untaxed-pool default). open
 - OQ-005 — Art. 25 inciso 1 vs inciso 2 deemed-loan overlap (exception sets). open
-- OQ-006 — Electronic reporting surface for the 5% retention (MOQ-10 kin). open
+- OQ-006 — Electronic reporting surface for the 5% retention (MOQ-10 kin). open (answered-kin by S3: surfaces = F-14 codes 43-46 + F-910 + F-915 — see `../fiscal-reporting/07_codes-and-informs.md` §3)
 - OQ-007 — Exemption-proof artifact class for Art. 74-B final inciso. open
 
 ### 06_isr-assets.md (7)

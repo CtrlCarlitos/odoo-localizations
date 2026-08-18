@@ -24,11 +24,11 @@ cited-as-LB.
 
 | Source | Status | Cited in / note |
 |--------|--------|-----------------|
-| 01_Ley_IVA.pdf | cited-as-LB | `e-invoicing/01` LB-008/009/010; `e-invoicing/03` LB-012 |
+| 01_Ley_IVA.pdf | cited-as-LB | `e-invoicing/01` LB-008/009/010; `e-invoicing/03` LB-012; `fiscal-reporting/02` LB-008 (Ley IVA Art. 57) |
 | 02_Reglamento_IVA.pdf | pending-S2+ | taxation / commercial-legal wave |
 | 03_Ley_ISR.pdf | cited-as-LB | historical — authority-order preambles of `taxation/01..06`; superseded as current authority by 54_ (reform chain D.L. 762-2014/458-2019/969-2024/293-2025); supplies analysis via EVID ids |
 | 04_Reglamento_ISR.pdf | cited-as-LB | `taxation/01..06` LB rows (21 rows; D.E. 101-1992 consolidated, survivor articles only per R17) |
-| 05_Codigo_Tributario.pdf | cited-as-LB | `e-invoicing/01` LB-007/011/012 |
+| 05_Codigo_Tributario.pdf | cited-as-LB | `e-invoicing/01` LB-007/011/012; `fiscal-reporting/06` LB-008 (CT 154-160); `fiscal-reporting/07` LB-006 (CT 123/124) |
 | 06_Guia_Facturacion_Electronica.pdf | not-applicable-this-wave | non-normative guide; S1 rests on 44_/45_/46_/50_/51_/52_ |
 | 07_Codigo_Comercio.pdf | pending-S2+ | commercial-legal wave |
 | 08_Ley_ISSS.pdf | pending-S2+ | payroll wave |

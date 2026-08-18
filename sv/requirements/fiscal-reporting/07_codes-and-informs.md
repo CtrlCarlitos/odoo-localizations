@@ -281,7 +281,7 @@ Manual/form pages are printed pages.
   DISTRIBUYÓ, capitalized book values under CAPITALIZÓ (the form
   prints both checkboxes and both column families; no presentation
   mode beyond the checkboxes is printed — single-vs-multiple
-  presentation behavior is a filing-practice question, OQ-004 kin).
+  presentation behavior is a filing-practice question).
   (LB-004; EVID-188)
 - **SV-FREP-FR-185:** The system shall fill §B "Calidad de Socios"
   (partner quality) with the three transition buckets verbatim —

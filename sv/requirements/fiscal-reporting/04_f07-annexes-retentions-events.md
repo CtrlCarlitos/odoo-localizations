@@ -439,7 +439,7 @@ SV-FREP-FR-043) is operative; the inverted cutover is NEVER encoded.
 - **SV-FREP-FR-123:** The system shall expose this file's feeds as the
   §4 wiring interface into the Task 1 casilla engine — annex 4 → 108
   (kept out of 105 by SV-FREP-FR-009); annexes 6/7/8 → 161/162/163
-  (into 166 per SV-FREP-FR-016); annexes   9/10/11/12 → 169/170/171/172
+  (into 166 per SV-FREP-FR-016); annexes 9/10/11/12 → 169/170/171/172
   (into 187/188/190 per SV-FREP-FR-022/023) — with casilla 108 fed by
   the Anexo 4 H MONTO column (the sin-IVA base, per FR-097 — H-only
   basis, OQ-002); no casilla is filled manually (SV-FREP-FR-038) and

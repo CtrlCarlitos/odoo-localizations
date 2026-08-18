@@ -61,7 +61,7 @@ PDF page N+2).
 
 | ID | Citation (Spanish) | English translation | Source file | Location |
 |----|--------------------|---------------------|-------------|----------|
-| LB-001 | Formulario F-07 v14, encabezado + A. Identificación del Contribuyente: "PERÍODO TRIBUTARIO MES AÑO"; "Marque con una X si está Disminuyendo Saldo por Aplicación de Art. 74-A del C.T." (casilla 495); "Número de declaración que Modifica" (casilla 55; a printed "0" sits adjacent — form-sample digit); fields "1 NIT" (14), "3 NRC" (13), "2 Apellido(s), Nombre(s) / Razón Social o Denominación" (22), "3 Actividad Económica Principal" (14), "4 Nombre Comercial" (9), "7 Teléfono" (16) | F-07 v14 form header and taxpayer identification block: tax period month/year; Art. 74-A CT balance-reduction checkbox (casilla 495); amended-declaration number (casilla 55); NIT, NRC, name/trade name, main economic activity, telephone with printed field lengths | `sv/sources/39_F07_v14_form_visual.pdf` | p.1 (EVID-179) |
+| LB-001 | Formulario F-07 v14, encabezado + A. Identificación del Contribuyente: "PERÍODO TRIBUTARIO MES AÑO"; "Marque con una X si está Disminuyendo Saldo por Aplicación de Art. 74-A del C.T." (casilla 495); "Número de declaración que Modifica" (casilla 55; a printed "0" sits adjacent — form-sample digit); fields "1 NIT" (14), "3 NRC", "2 Apellido(s), Nombre(s) / Razón Social o Denominación" (22), "3 Actividad Económica Principal" (14), "4 Nombre Comercial" (9), "7 Teléfono" (16) | F-07 v14 form header and taxpayer identification block: tax period month/year; Art. 74-A CT balance-reduction checkbox (casilla 495); amended-declaration number (casilla 55); NIT, NRC, name/trade name, main economic activity, telephone with printed field lengths | `sv/sources/39_F07_v14_form_visual.pdf` | p.1 (EVID-179) |
 | LB-002 | F-07 v14, B. Ventas de Bienes y/o Servicios Débitos, rows 5-23: "5 Ventas Internas Exentas 85 / 6 Ventas Internas No Sujetas 86 / 7 Ventas Gravadas por Cuenta de Terceros No Domiciliados Comprobante de Liquidación con C.C.F. 88 (Débitos ... Comprobante Crédito Fiscal 141) / 8 ... Comprobante de Liquidación con Facturas 89 (Débito ... con Factura 142) / 9 Exportaciones de Bienes (Fuera de Región Centroamericana) 90 / 10 ... (Región Centroamericana) 91 / 11 Exportaciones de Servicios 94 / 12 Ventas Internas Exentas No Sujetas a Proporcionalidad 92 / 13 Ventas Efectuadas a Zonas Francas y D.P.A. (Tasa Cero) 93 / 14 Ventas Internas Gravadas con Comprobante de Crédito Fiscal 95 (Débito ... 135) / 15 ... con Factura 96 (Débito ... 140) / 16 Ventas Gravadas de Combustible con tasas diferenciadas de IVA 586 (Débito Fiscal ... 587) / 17 Devoluciones, Rebajas, Descuentos u otras Deducciones sobre Ventas 97− (Débito ... 143−) / 18 Operaciones Gravadas con Comprobante de Liquidación 98 (Débito ... 144) / 19 Operaciones con Comprobante de Liquidación gravadas tasa 0 y/o exentas 99 / 20 Débito Proveniente de Crédito Negativo 146− / 21 Devoluciones ... por precios máximos de combustibles 552− (Débito ... 553)"; "22 SUMA DE VENTAS (Casillas 85+86+88+89+90+91+92+93+94+95+96+98+99+586-97-552) 105"; "SUMA DE DÉBITOS (Casillas 141+142+135+140+144+587-143-553) 150"; "23 Ventas Gravadas por Cuenta de Terceros Domiciliados (No debe incluirse en sumatoria de casilla 105) 108" | F-07 v14 Section B sales/debit rows 5-23 with the verbatim SUMA DE VENTAS (casilla 105) and SUMA DE DÉBITOS (casilla 150) formulas, and the third-party domiciled sales casilla 108 explicitly excluded from casilla 105 | `sv/sources/39_F07_v14_form_visual.pdf` | p.1 (EVID-179) |
 | LB-003 | F-07 v14, C. Compra de Bienes y/o Servicios Créditos, rows 24-44: "24 Compras Internas Exentas y/o No sujetas 65 / 25 Compras a sujetos excluidos 66 / 26 Importaciones Exentas y/o No Sujetas 70 / 27 Importaciones Gravadas de Servicios 77 (Crédito por Importación de Servicios 127) / 28 Importaciones Gravadas de Mercancías (Fuera de Región C.A.) 75 (Crédito ... 125) / 29 Internaciones Gravadas de Mercancías (Dentro Región C.A.) 76 (Crédito ... 126) / 30 Compras Internas Gravadas 80 (Crédito ... 130) / 31 Compras Gravadas de Combustible con tasas diferenciadas de IVA 588 (Crédito ... 589) / 32 Devoluciones ... sobre Compras 81− (Crédito ... 131−) / 33 ... por precios máximos de combustibles 550− (Crédito ... 551−)"; OTROS CRÉDITOS: "34 Remanente de Crédito del Período anterior 110+ / 35 Reintegro Crédito Fiscal IVA por Exportaciones (en el período que se Notificó Resolución) 115− / 36 Crédito por Retención 13% IVA a terceros domiciliados (Art. 162 C.T) 128+ / 37 Crédito IVA por Proporcionalidad mensual (No deducible del Débito) 132− / 38 Crédito IVA por Ajuste de Proporcionalidad Anual (si resulta Superior al efectivamente Deducido) 133+ / 39 ... (si resulta Inferior ...) 134− / 40 Disminución de Saldo a Favor (Remanente de Crédito Fiscal) por aplicación del Art 74-A del C.T. Resolución No. 201 ... 200− / 41 Crédito Proveniente de Débito Negativo 151−"; "42 SUMA DE COMPRAS (Casillas 65+66+70+77+75+76+80+588-81-550) 100"; "SUMA DE CRÉDITOS (Casillas 127+125+126+130-131+589-551+110-115+128-132+133-134-200) 145"; "43 REMANENTE CRÉDITO PRÓXIMO PERÍODO (Si la Suma de los Créditos 'Casilla 145' es Mayor que la Suma de los Débitos 'Casilla 150') 155"; "44 IMPUESTO DETERMINADO (Si la Suma de los Débitos 'Casilla 150' es Mayor que la Suma de los Créditos 'Casilla 145') 160" | F-07 v14 Section C purchase/credit rows 24-44 with the verbatim SUMA DE COMPRAS (casilla 100) and SUMA DE CRÉDITOS (casilla 145) formulas, the "Art. 162 C.T" anchor printed on casilla 128, the Art. 74-A resolution field (201) on casilla 200, and the conditional remanente (155) / tax-determined (160) split | `sv/sources/39_F07_v14_form_visual.pdf` | p.1 (EVID-179) |
 | LB-004 | F-07 v14, D. Retención, Percepción y Anticipo a Cuenta Efectuadas al Declarante, rows 45-60: "45 Anticipo a Cuenta IVA del 2% efectuada al Declarante 161 / 46 Retención IVA del 1% Efectuada al Declarante 162 / 47 Percepción IVA del 1% efectuada al Declarante 163 / 48 Excedente de Impuesto Período Anterior 164 / 49 Impuesto IVA por Operaciones según Declaración que Modifica 165 / 50 TOTAL ... (Casillas 161+162+163+164+165) 166"; "51 Disminución de Saldo por Aplicación del Art. 74-A del C.T. Resolucion No. 202 / 52 Percepción IVA del 1% ... 491 / 53 Retención IVA del 1% ... 492 / 54 Anticipo a Cuenta IVA del 2% ... 493 / 55 TOTAL DISMINUCIÓN ... (Casillas 491+492+493) 203"; "56 EXCEDENTE DEL IMPUESTO PARA PRÓXIMO PERÍODO A FAVOR DEL DECLARANTE (Casillas 166-160-203, Si Resultado es Positivo) 167"; "57 TOTAL DE IMPUESTO POR OPERACIONES DEL PERÍODO (Casillas 160-166+203, Si Resultado es Positivo) 168"; "58 Acreditación de Retención del Impuesto por Control de Liquidez Conforme Constancias de Retención (Según Inciso 7 de Art. 10 Decreto Legislativo N° 764/2014) 520−"; "59 Acreditación por FOVIAL 525−"; "60 TOTAL ... MENOS ACREDITACIÓN ... MENOS ACREDITACIÓN POR FOVIAL (Casillas 168-520-525) 521" | F-07 v14 Section D rows 45-60: credits effected on the declarant (161-166), the Art. 74-A reduction block (resolution 202; 491-493 → 203), the conditional excedente (167) and period tax (168), the D.L. 764-2014 Art. 10.7 liquidity-control retention credit (520), the FOVIAL credit (525) and casilla 521 = 168 − 520 − 525 | `sv/sources/39_F07_v14_form_visual.pdf` | p.2 (EVID-179) |
@@ -90,7 +90,7 @@ PDF page N+2).
   (LB-001; LB-006; EVID-179)
 - **SV-FREP-FR-002:** The system shall populate the identification block
   of every F-07 declaration from the taxpayer master data: NIT (14),
-  NRC (13), *Apellido(s), Nombre(s) / Razón Social o Denominación*
+  NRC, *Apellido(s), Nombre(s) / Razón Social o Denominación*
   (surname(s)/trade name, 22), *Actividad Económica Principal* (main
   economic activity, 14), *Nombre Comercial* (commercial name, 9) and
   *Teléfono* (telephone, 16), with the printed field lengths enforced as
@@ -155,10 +155,13 @@ PDF page N+2).
   125, 126, 130, 589 (row models owned by
   `03_f07-annexes-purchases.md` §3). (LB-003; EVID-179)
 - **SV-FREP-FR-011:** The system shall compute the purchase-return
-  casillas 81 (devoluciones/rebajas/descuentos over purchases, negative)
-  with its credit companion 131 (negative), and 550/551 (the fuel
-  price-cap equivalents, negative — annex 14 wiring per
-  `05_f07-annexes-special.md` §3). (LB-003; EVID-179)
+  casillas 81 (devoluciones/rebajas/descuentos over purchases) with its
+  credit companion 131, and 550/551 (the fuel price-cap equivalents —
+  annex 14 wiring per `05_f07-annexes-special.md` §3): each casilla
+  value is entered and stored as a POSITIVE magnitude and the minus
+  signs of the FR-013/FR-014 formulas perform the subtraction (− 81 −
+  550 in casilla 100; − 131 − 551 in casilla 145) — the same sign
+  convention as FR-019/FR-020/FR-024. (LB-003; EVID-179)
 - **SV-FREP-FR-012:** The system shall compute the OTROS CRÉDITOS block:
   110 (*remanente de crédito del período anterior*, prior-period credit
   balance — fed by the FR-026 carryforward); 115 (*reintegro de crédito
@@ -271,10 +274,11 @@ PDF page N+2).
   of period N recomputes N's balances and re-feeds N+1 only from the
   amended values. (LB-003; LB-004; EVID-179)
 - **SV-FREP-FR-027:** The system shall compute and store every casilla
-  amount rounded to two decimals (consistent with the two-decimal upload
-  discipline of SV-FREP-FR-030), applying each verbatim formula to
-  two-decimal operands; no intermediate rounding beyond two decimals is
-  emitted. (LB-003; LB-004; LB-005; LB-007; EVID-179)
+  amount to two decimals, applying each verbatim formula to two-decimal
+  operands; no intermediate value beyond two decimals is emitted, and at
+  export time any amount carrying more than two decimals is truncated
+  (not rounded) per SV-FREP-FR-030 ("el Sistema tomará únicamente 2").
+  (LB-003; LB-004; LB-005; LB-007; EVID-179)
 
 ### 3.2 F-07 annex upload engine: file format, validations, modificatorias
 
@@ -373,7 +377,7 @@ row/casilla map with sign, role and source):**
 | Form section / rows | Casilla (sign in formula) | Label (Spanish, abbreviated) | Role | Source | FR |
 |---------------------|---------------------------|------------------------------|------|--------|----|
 | Header | 495 · 55 | Art. 74-A flag X · nº declaración que modifica | input_flag · input_ref | res.partner/res.company + prior declaration | FR-003 |
-| A. Identificación | NIT 14 · NRC 13 · razón 22 · actividad 14 · n. comercial 9 · teléfono 16 | identification fields | input_master | taxpayer master data | FR-002 |
+| A. Identificación | NIT 14 · NRC · razón 22 · actividad 14 · n. comercial 9 · teléfono 16 | identification fields | input_master | taxpayer master data | FR-002 |
 | B rows 5-6 | 85+ · 86+ | ventas internas exentas · no sujetas | annex_total | annexes 1-2 (file 02) | FR-004 |
 | B rows 7-8 | 88+ · 89+ · 141+ · 142+ | terceros no domiciliados CL c/CCF · CL c/factura + débitos | annex_total | annexes 1-2 (file 02) | FR-004, FR-006 |
 | B rows 9-13 | 90+ · 91+ · 94+ · 92+ · 93+ | exportaciones fuera/dentro CA · servicios · exentas no sujetas a proporcionalidad · ZF/DPA tasa cero | annex_total | annexes 1-2 (file 02) | FR-004 |
@@ -433,15 +437,15 @@ headers/merged cells (FR-029); filename ≤ 25 characters + .CSV extension
 
 Layer semantics for this wave: `odoo` = computation/bookkeeping logic
 living in the LGPL client. No SaaS rows are introduced: none of these FRs
-touch DTE generation/transformation (the only architecture-split surface
-per `shared/docs/saas-thin-client-architecture.md`). Model names are
+touch DTE generation/transformation (an architecture-split surface per
+`shared/docs/saas-thin-client-architecture.md`). Model names are
 stable across Odoo 17/18/19/20; version-specific behavior is recorded per
 row where a legal vintage exists.
 
 | FR | Layer | Odoo model | Field(s) | Notes / version differences |
 |----|-------|------------|----------|------------------------------|
 | FR-001 | odoo | l10n_sv.f07.declaration | period, form_version, currency | Version regime (D12): v14 operative (39_ footer 15/08/2025; 34_ manual ENERO 2025); USD-only per LB-006 |
-| FR-002 | odoo | l10n_sv.f07.declaration + res.partner/res.company | identification snapshot | Printed max lengths NIT 14/NRC 13/razón 22/actividad 14/nombre comercial 9/teléfono 16; actividad sourced from the fiscal actividad code |
+| FR-002 | odoo | l10n_sv.f07.declaration + res.partner/res.company | identification snapshot | Printed max lengths NIT 14/NRC/razón 22/actividad 14/nombre comercial 9/teléfono 16; actividad sourced from the fiscal actividad code |
 | FR-003 | odoo | l10n_sv.f07.declaration | flag_74a, amends_declaration_id, declaration_no_modifies | Flag 495 gates FR-017; amendment number feeds FR-040 |
 | FR-004 | odoo | l10n_sv.f07.casilla.value + l10n_sv.f07.annex.upload | casillas 85-96 | Annex totals from annexes 1-2 (02_f07-annexes-sales.md §3 owns row builders) |
 | FR-005 | odoo | l10n_sv.f07.casilla.value | 586/587, 552/553 | D12: Decreto 321 Mar-2022+ and precios-máximos Abr-2022+ windows owned by 05_f07-annexes-special.md §3 |
