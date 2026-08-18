@@ -4,23 +4,23 @@
 |---------|-------|
 | Country | sv |
 | Topic   | all (cross-topic) |
-| Status  | draft (S1 + S2 ISR waves) |
+| Status  | draft (S1 + S2 ISR + S3 fiscal-reporting waves) |
 | Authors | Controller (hand-built; script to regenerate later) |
 | Updated | 2026-08-18 |
 
-Every file in [../sources/](../sources/) mapped against the S1 and S2 (ISR)
-requirements waves. Status values:
+Every file in [../sources/](../sources/) mapped against the S1, S2 (ISR)
+and S3 (fiscal-reporting) requirements waves. Status values:
 
 - **cited-as-LB** — appears in a Legal Basis row (or as direct schema read) of a requirements file; the citing file(s) named.
 - **not-applicable-this-wave** — out of the current wave's scope or superseded-without-content-need; reason noted.
-- **pending-S2+** — earmarked for later waves: F-07/F-14, payroll, commercial-legal, special-regimes, NIIF / fiscal-reporting.
+- **pending-S2+** — earmarked for later waves: payroll, commercial-legal, special-regimes, NIIF.
 - **superseded-not-cited** — superseded extraction retained on disk for reference; not a legal-basis citation (the superseding source is the cited LB).
 
 No orphans: every row carries at least one of the four. Sources fully
 superseded but cited as historical LB (25_\*, 40_, 41_) still count as
 cited-as-LB.
 
-## Matrix (58 source files + schemas/ dir = 59 rows)
+## Matrix (62 source files + schemas/ dir = 63 rows)
 
 | Source | Status | Cited in / note |
 |--------|--------|-----------------|
@@ -40,8 +40,12 @@ cited-as-LB.
 | 56_Reforma_Ley_ISR_DL969_DO_2024-03-14.pdf | cited-as-LB | `taxation/01` (Art. 3.4 foreign-source exclusion + derogations) |
 | 57_InterpAut_Art30_DL192_DO_2018-12-12.pdf | cited-as-LB | `taxation/06` (Art. 30.1 seasonal depreciation) |
 | 58_InterpAut_Art28_DL345_DO_2019-05-31.pdf | cited-as-LB | `taxation/02` (Art. 28 mermas deductibility) |
-| 59_F14_v17_form_visual.pdf | pending-S2+ | fiscal-reporting wave (F-14 v1.7 current form — Quincena-25 section row 61 casillas 417/418; rows 62-105 renumbered vs v1.6) |
+| 59_F14_v17_form_visual.pdf | cited-as-LB | `fiscal-reporting/06` LB rows (v17 form — Quincena-25 section row 61 casillas 417/418; rows 62-105 renumbered vs v1.6; annex-level representation blocked pending a v17 manual — SOQ-09) |
 | 60_DE10_Tablas_Retencion_DO_2025-04-30.pdf | cited-as-LB | `taxation/04` LB-013 (co-cited: D.O. pin + gazette digit verification, EVID-171 — SOQ-03 resolved) |
+| 61_F910v9_informe_anual_retenciones.pdf | cited-as-LB | `fiscal-reporting/07` LB rows (F-910 v9 annual ISR retentions inform — CT Art. 123 surface) |
+| 62_F915v4_informe_distribucion_utilidades.pdf | cited-as-LB | `fiscal-reporting/07` LB rows (F-915 v4 distributions/shareholder-list inform) |
+| 63_F930v3_informe_mensual_retIVA.pdf | cited-as-LB | `fiscal-reporting/04` LB rows (F-930 v3 monthly retIVA inform homed there); `fiscal-reporting/07` (referenced, re-check cadence OQ-004) |
+| 64_F935v1_informe_mensual_agentes_extranjeros.pdf | cited-as-LB | `fiscal-reporting/07` LB rows (F-935 v1 monthly foreign-agents inform; SOQ-13 anchor OQ) |
 | 11_Codigo_Trabajo.pdf | pending-S2+ | payroll wave |
 | 12_Ley_Zonas_Francas.pdf | pending-S2+ | special-regimes wave |
 | 13_Ley_Organica_Aduanas.pdf | pending-S2+ | special-regimes / customs-export wave |
@@ -58,17 +62,17 @@ cited-as-LB.
 | 25_Catalogos_Transmision_v1.2.xlsx | cited-as-LB | `catalogs/05` LB-005 — superseded-historical (v1.2 regime documents) |
 | 26_Manual_Consola_Administrativa.pdf | not-applicable-this-wave | MH emitter-console manual; S1 scope is system-to-system (46_); candidate for onboarding (A11) wave |
 | 27_Manual_Obtencion_Certificado.pdf | cited-as-LB | `e-invoicing/04` LB-008 |
-| 29_Modificacion_Anexos_F07_F14.pdf | pending-S2+ | F-07/F-14 wave |
-| 30_Calendario_Tributario_2026.pdf | pending-S2+ | fiscal-reporting wave (deadline calendar config) |
+| 29_Modificacion_Anexos_F07_F14.pdf | not-applicable-this-wave | mislabeled source: the PDF's actual content is the CNR *Registro de Comercio* F-985 regime (extraction `29_F985_CNR_RegComercio`), NOT the F-07/F-14 annex-modification resolutions — the intended resolutions behind v14/v16/v17 remain absent from the corpus (SOQ-12; referenced only as "29_-file OQ-1 kin" in `fiscal-reporting/06` OQ-004 / `07` OQ-001); registry-side F-985 content is out of this wave's scope |
+| 30_Calendario_Tributario_2026.pdf | cited-as-LB | `fiscal-reporting/08` LB rows (2026 tax calendar — obligation inventory, due-day visual layer, asueto legend) |
 | 31_Guia_FOVIAL_COTRANS.pdf | pending-S2+ | special-regimes wave (FOVIAL/COTRANS) |
 | 32_NIIF_PYMES_2025.pdf | pending-S2+ | NIIF wave |
 | 33_Guia_NIIF_Sostenibilidad_2024-2025.pdf | pending-S2+ | NIIF wave |
-| 34_F07_v14_manual.pdf | pending-S2+ | F-07/F-14 wave |
-| 35_F14_v16_manual.pdf | pending-S2+ | F-07/F-14 wave |
-| 36_F07_v14_plantilla.xls | pending-S2+ | F-07/F-14 wave |
-| 37_F14_v16_plantilla.xls | pending-S2+ | F-07/F-14 wave |
-| 38_F14_v16_form_visual.pdf | pending-S2+ | F-07/F-14 wave |
-| 39_F07_v14_form_visual.pdf | pending-S2+ | F-07/F-14 wave |
+| 34_F07_v14_manual.pdf | cited-as-LB | `fiscal-reporting/01` LB rows (upload-engine §II/§XVI/§XVII); `02` LB rows (§III-§IV sales annexes); `03` (§V/§VII purchase annexes); `04` (§XIX anulados + SOQ-10 defect ruling LB-007); `05` (§XX-§XXIV special annexes); `07` (EVID-182 income-code apéndice transcription) |
+| 35_F14_v16_manual.pdf | cited-as-LB | `fiscal-reporting/06` LB rows (F-14 v16 annex row model + export contract); `07` (income-code catalog vintage, Oct-2025) |
+| 36_F07_v14_plantilla.xls | cited-as-LB | plantilla anchors: `fiscal-reporting/02` (Anexo 1/2 sheet columns); `03` (Anexo 3/5 sheets); `04` (annexes 4/6-12 sheets; anulados absent from sheets 1-12 — OQ-003) |
+| 37_F14_v16_plantilla.xls | cited-as-LB | plantilla anchors: `fiscal-reporting/06` ("Detalle" sheet — annex column template; F-14 export-format OQ-006) |
+| 38_F14_v16_form_visual.pdf | cited-as-LB | `fiscal-reporting/06` LB rows (v16 seven-tab form architecture); `07` (v16 row/casilla zones behind the catalog mapping) |
+| 39_F07_v14_form_visual.pdf | cited-as-LB | `fiscal-reporting/01` LB rows (v14 77-row casilla graph, USD footer); `03` (purchase credit casilla labels); `04` (retention credit labels); `05` (fuel/price-cap casilla labels) |
 | 40_manual_estructuras_catalogo.md | cited-as-LB | `e-invoicing/01` LB-015; `04` LB-011 — superseded-primary, cited as historical LB (MOQ-08 flags) |
 | 41_manual_eventos_invalidacion.md | cited-as-LB | `e-invoicing/03` LB-009 — superseded-primary, cited as historical LB |
 | 42_Comunicado_Exportaciones_Panama.docx | pending-S2+ | special-regimes / exports wave |
@@ -88,8 +92,8 @@ cited-as-LB.
 
 | Status | Rows |
 |--------|------|
-| cited-as-LB | 24 |
+| cited-as-LB | 36 |
 | superseded-not-cited | 1 (schemas/) |
-| not-applicable-this-wave | 8 |
-| pending-S2+ | 26 |
-| **Total** | **59** |
+| not-applicable-this-wave | 9 |
+| pending-S2+ | 17 |
+| **Total** | **63** |

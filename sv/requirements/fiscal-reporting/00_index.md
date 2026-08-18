@@ -1,0 +1,123 @@
+# SV — Fiscal reporting (F-07/F-14/informs/calendar) requirements index
+
+| Field   | Value |
+|---------|-------|
+| Country | sv |
+| Topic   | fiscal-reporting |
+| Status  | draft (S3 wave, in review) |
+| Authors | Takumi synthesis wave 3 + controller |
+| Updated | 2026-08-18 |
+
+This directory holds the S3 (synthesis wave 3) fiscal-reporting
+requirements: the F-07 monthly IVA declaration casilla engine and its
+annex upload family (sales 1-2, purchases 3/5, retentions/perceptions
+4/6-12, special dated-regime annexes 13-17, anulados/emitidos), the F-14
+monthly ISR retention declaration with the Quincena-25 v17 vintage, the
+F-14 income-code catalog and the F-910/F-915/F-930/F-935 informs, and the
+filing calendar / due-day / *días hábiles* engine — with the income-code
+catalog as verbatim dated data in one CSV sidecar. Source-to-requirements
+coverage: [../COVERAGE.md](../COVERAGE.md).
+
+## Files & FR ranges
+
+| File | Scope | FR range | FRs | LBs | ACs | OQs |
+|------|-------|----------|-----|-----|-----|-----|
+| [01_f07-declaration.md](01_f07-declaration.md) | F-07 v14 declaration casilla engine (77-row graph, USD-only, Art. 74-A flag, verbatim SUMA arithmetic, remanente/impuesto split, retention credits on/by the declarant, D.L. 764-2014 control-de-liquidez + FOVIAL credits, multas → TOTAL A PAGAR) + the generic annex upload engine (semicolon-CSV format, §XVI validation set, response handling, modificatoria carryover/re-upload) | SV-FREP-FR-001..041 | 41 | 11 | 18 | 5 |
+| [02_f07-annexes-sales.md](02_f07-annexes-sales.md) | Anexo 1 Ventas a Contribuyentes (per-document B2B rows, CCF/NC/ND, DUI-vs-NIT gate, Enero-2025 R/S renta pair feeding the F-14/F-910/F-11 family, canonical DTE identifier mapping) + Anexo 2 Ventas a Consumidor Final (aggregated B2C rows, DEL/AL pre-printed ranges, DTE day-groups with primer/último código, IVA-inclusive gravadas, export buckets) | SV-FREP-FR-042..066 | 25 | 8 | 14 | 6 |
+| [03_f07-annexes-purchases.md](03_f07-annexes-purchases.md) | Anexo 3 Compras (IVA base buckets × compras internas/internaciones/importaciones, crédito fiscal N, ND+/NC− totals, Tesorería pseudo-NIT, Febrero-2024 ISR quartet Q/R/S/T) + Anexo 5 sujetos excluidos (twin quartet I-L) + the post-entero casilla-128 credit re-entry | SV-FREP-FR-067..094 | 28 | 9 | 11 | 6 |
+| [04_f07-annexes-retentions-events.md](04_f07-annexes-retentions-events.md) | Anexo 4 ventas por cuenta de terceros (→ casilla 108), Anexos 6-8 retentions effected on the declarant (→ 161-163), Anexos 9-12 retentions by the declarant, §XIX anulados/emitidos annex (SOQ-10 defect ruling in LB-007; FR-118), F-930 v3 monthly retIVA informe | SV-FREP-FR-095..123 | 29 | 10 | 12 | 7 |
+| [05_f07-annexes-special.md](05_f07-annexes-special.md) | The five dated-regime annexes: 13 fuel tasas diferenciadas (Decreto 321, manual-entry only, → 586-589), 14 price-cap credit notes (→ 550-553), 15/16 Decreto 357 informativo pair (→ 92/65), 17 fuel-importers closed window; the regime-validity gate engine (closed windows never re-activate) | SV-FREP-FR-124..136 | 13 | 6 | 10 | 5 |
+| [06_f14-declaration.md](06_f14-declaration.md) | F-14 v16/v17 ISR retention declaration: A-W annex row model (identification, payroll devengado/bonificaciones/aguinaldo split, seven SS columns with SOQ-11 caps as dated data), export validation contract, declaration-as-pure-projection invariant, seven-tab form architecture (Pago a Cuenta with dead pago-mínimo row, Op. Financieras 501-529, No Domiciliados matrix, Agentes Extranjeros 701-780), modificatoria flow, v17 Quincena-25 casillas 417/418 (annex level blocked) | SV-FREP-FR-137..170 | 34 | 8 | 14 | 7 |
+| [07_codes-and-informs.md](07_codes-and-informs.md) | F-14 income-code catalog — all 48 codes × 4 classes as dated data with row/casilla mapping and CT anchors (distributions 43-46, haven 40, CT 123 aggregate 47; CSV sidecar `f14_income_codes.csv`), the F-07 R/S ↔ F-14 ↔ F-11 coupling, F-910 v9 annual consolidation (CT 123 surface), F-915 v4 distributions inform, F-935 v1 foreign-agents inform; F-930 referenced only (homed in 04) | SV-FREP-FR-171..194 | 24 | 9 | 9 | 7 |
+| [08_filing-calendar.md](08_filing-calendar.md) | Calendario Tributario 2026 obligation inventory as dated data (monthly/annual/registry rows, incl. F-950), due-day window mechanism as unpinned configuration (SOQ-08), asueto table 2026, the shared días hábiles engine (consumed by e-invoicing/taxation deadlines by FR id), per-company deadline/reminder model | SV-FREP-FR-195..208 | 14 | 5 | 6 | 4 |
+| **Total** | | SV-FREP-FR-001..208 | **208** | **66** | **94** | **47** |
+
+Numbering note: FR numbering is wave-sequential within the `SV-FREP`
+prefix (001-208, no gaps, no renumbering). The CSV
+`f14_income_codes.csv` (48 code rows + header) is a dated-data sidecar of
+`07_codes-and-informs.md`; it carries no FRs of its own.
+
+## Open-questions rollup (ids + titles)
+
+Status legend: `open` unless noted `resolved`. 47 open / 0 resolved
+(SOQ-10 is the only ruled S3 question and it is recorded as an LB note —
+`04` LB-007 — not an OQ).
+
+Master-index SOQ mapping: SOQ-08 = `08` OQ-001 (which owns the `06`
+OQ-005 pointer — due-day windows); SOQ-09 = `06` OQ-001 (F-14 v17
+Quincena-25 annex format); SOQ-10 = `04` LB-007 (ruling applied and
+recorded, kin FR-118); SOQ-11 = `06` OQ-002 (SS caps as dated data);
+SOQ-12 = `01` OQ-001 (kin: `06` OQ-004 + `07` OQ-001); SOQ-13 = `07`
+OQ-003 (F-935 donantes-locales anchor); SOQ-14 = `08` OQ-002 (F-950
+frequency/applicability).
+
+### 01_f07-declaration.md (5)
+
+- OQ-001 — SOQ-12 carried: DGII annex-modification resolutions not in the corpus; manual (34_) + form (39_) are the only authority. open
+- OQ-002 — Manual §II heading "CSV (delimitado por comas)" vs the operative semicolon list separator; semicolon encoded (FR-028). open
+- OQ-003 — Casilla 525 FOVIAL credit: no printed formula/source; computation stays with the special-regimes/taxation waves. open
+- OQ-004 — IVA retention rates (1%/2%/13%) anchored as form labels only; index task wires cross-references when the IVA taxation file lands. open
+- OQ-005 — Casillas 146/151 negative-balance carriers printed on the form but in no formula — recorded-unwired. open
+
+### 02_f07-annexes-sales.md (6)
+
+- OQ-001 — Anexo 2 DTE day-group row ordering unstated (EV34 OQ-3 carried). open
+- OQ-002 — Anexo 1 inferences: L net-of-IVA convention + P = J+K+L+N total addition label-inferred. open
+- OQ-003 — R/S lengths: column table's "10" vs text "máximo dos caracteres" — manual typo, 2 encoded. open
+- OQ-004 — Anexo 2 U/V code lists not printed; same-lists-as-R/S assumption. open
+- OQ-005 — Terceros wiring N/O → 88/141 and S → 89 label-matched. open
+- OQ-006 — Anexo 2 H/I primer/último código per-column assignment on day-group rows. open
+
+### 03_f07-annexes-purchases.md (6)
+
+- OQ-001 — Anexo 3 D-column DTE fill: single NÚMERO slot by label match. open
+- OQ-002 — Q/R/S/T pre-gate fill ("0") and lengths unprinted — parity encoding. open
+- OQ-003 — Anexo 5 I-L code lists: same-lists assumption (twin of 02's OQ-004). open
+- OQ-004 — Anexo 5 H 13%-retention applicability — future IVA taxation file matter. open
+- OQ-005 — Post-entero credit re-entry: own vs following period (own encoded). open
+- OQ-006 — Wiring label-inferences: H/I → 70; N split → 125/126/127/130; tipo-12/13 channels; O unwired. open
+
+### 04_f07-annexes-retentions-events.md (7)
+
+- OQ-001 — F-930 codificación values not in corpus; code lists to seed. open
+- OQ-002 — Anexo 4 amounts: casilla-108 basis H-only; H/I split on CCF/NC/ND rows. open
+- OQ-003 — §XIX printed-model gaps: no trailing annex-number/date column. open
+- OQ-004 — §XIX anulados/emitidos modificatoria carryover fate unprinted. open
+- OQ-005 — Annexes 6-12 column letters/lengths by printed position + family conventions. open
+- OQ-006 — F-930 v3 vintage: 2017 print still listed by MH 2026-08-18. open
+- OQ-007 — F-930 §B class↔tipo mapping label-matched (7 classes ↔ annex tipos). open
+
+### 05_f07-annexes-special.md (5)
+
+- OQ-001 — Decreto 321 regime status + differentiated rate values not in corpus. open
+- OQ-002 — Auto-complement bases: which columns total 550-553; anexos 15/16 vs casillas 92/65. open
+- OQ-003 — FOVIAL/COTRANS interplay (casilla 525): pointer only — taxation/special-regimes waves own the design. open
+- OQ-004 — Annexes 13-17 modificatoria carryover unprinted. open
+- OQ-005 — "Fin de la obra" window-end semantics (per-project vs decree-level). open
+
+### 06_f14-declaration.md (7)
+
+- OQ-001 — SOQ-09: F-14 v17 annex format unknown (Quincena-25; v16 columns + new income code assumed, unconfirmed). open
+- OQ-002 — SOQ-11: SS caps as dated data; feed/cadence owned by the payroll wave. open
+- OQ-003 — Op. Financieras tracks 501-529: CT 159/164-165 anchor + rates re-check. open
+- OQ-004 — Income-code catalog fidelity pointer (owned by 07's OQ-001). open
+- OQ-005 — SOQ-08 pointer: F-14 due-day scheduling owned by 08. open
+- OQ-006 — F-14 export file mechanics untranscribed in 35_; F-07 §II conventions by parity. open
+- OQ-007 — MH country-code + tax-haven list refresh cadence (web-published, undated). open
+
+### 07_codes-and-informs.md (7)
+
+- OQ-001 — Income-code catalog fidelity (owns 06's OQ-004; SOQ-12 kin): v16 apéndice vs v17 rows + resolutions. open
+- OQ-002 — Per-code row/casilla assignment granularity: zone-level only in the corpus. open
+- OQ-003 — SOQ-13 (owns the anchor): F-935 "donantes locales" entero track's governing article. open
+- OQ-004 — Inform vintage re-check cadence: F-910 v9 / F-915 v4 / F-930 v3 / F-935 v1; F-910 upload format not in corpus. open
+- OQ-005 — "(Según ley)" anchors (codes 70-72) + unpinned matrix-zone codes. open
+- OQ-006 — F-11 rentas matrix acquisition (coupling counterpart). open
+- OQ-007 — Index-task wiring row: answers to taxation/04 OQ-007 (F-910), taxation/05 OQ-006 and the partial answer to taxation/05 OQ-002 (F-915) recorded in §3.3/§3.4. open
+
+### 08_filing-calendar.md (4)
+
+- OQ-001 — SOQ-08 (owns 06's OQ-005 pointer): due-day windows unpinned — visual layer only. open
+- OQ-002 — SOQ-14: F-950 frequency (Ene/Abr/Jul? +Agosto) and applicability. open
+- OQ-003 — Asueto exact-date pinning + the fixed-day next-día-hábil shift anchor. open
+- OQ-004 — Calendar provenance for years ≠ 2026 (30_ covers 2026 only). open

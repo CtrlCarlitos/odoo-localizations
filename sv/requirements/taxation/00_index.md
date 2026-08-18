@@ -85,13 +85,13 @@ resolved.
 - OQ-004 — Part-time without subordination: retention tables vs 10% honorarios rule. open
 - OQ-005 — Retention-decree chain gap D.E. 25-1992 → D.E. 95-2015 (pre-2025-05-08 tables absent). open
 - OQ-006 — 10_ 1992 vintage print anomalies (row-3 offsets, quincenal overlap, semanal typo). open
-- OQ-007 — MOQ-10 kin: electronic reporting surface for ISR retentions (CT 123/123-A). open
+- OQ-007 — MOQ-10 kin: electronic reporting surface for ISR retentions (CT 123/123-A). open (partially answered by S3: F-910/F-915 — see `../fiscal-reporting/07_codes-and-informs.md` §7)
 - OQ-008 — Art. 37 straddle kin for WITHHOLDING: wages earned 1-Jan–7-May-2025. open
 
 ### 05_isr-distributions.md (7)
 
 - OQ-001 — CT Art. 158-A carve-out scope beyond the 25% tax-haven rate. open
-- OQ-002 — Art. 74-C Registro de Control de Utilidades: DGII administrative norms. open
+- OQ-002 — Art. 74-C Registro de Control de Utilidades: DGII administrative norms. open (partially answered by S3: F-910/F-915 — see `../fiscal-reporting/07_codes-and-informs.md` §7)
 - OQ-003 — Art. 74-A override mechanics (total-consideration reading, mora/quota measurement). open
 - OQ-004 — Pool-consumption ordering for ordinary distributions (untaxed-pool default). open
 - OQ-005 — Art. 25 inciso 1 vs inciso 2 deemed-loan overlap (exception sets). open

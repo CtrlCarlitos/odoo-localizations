@@ -327,6 +327,7 @@ against the v16 annex format with a v17 vintage row for the form-level Quincena-
 - S1 clusters: 12 (A1-A12). Governing EVID totals per cluster: A1=5, A2=4, A3=3, A4=3, A5=3, A6=4, A7=2, A8=3, A9=2, A10=13, A11=8, A12=4 (+6 D-items). DG45 digest governs structure/validation in A1-A8, A10.
 - S2/ISR clusters: 8 (T1-T8), from 63 EVID entries (EVID-088..108, 128..146, 148..170; 109-127 reserved-unused) across 6 evidence files + CT crossrefs (EVID-062/063/065 + Art. 62 raw read).
 - S3/fiscal-reporting clusters: 12 (F1-F12), from 19 EVID entries (EVID-172..190) across 5 evidence files (EV29/EV30/EV34/EV35/EV61-64); forms are primary authority for declaration mechanics (34_/35_ manuals + 38_/39_/59_ forms + 61_-64_ informs).
+- S3/fiscal-reporting delivered: 8 files + index + CSV sidecar (SV-FREP-FR-001..208) — see `sv/requirements/fiscal-reporting/00_index.md`.
 - Resolved contradictions: 22 (R1-R16 S1, R16 flagged [?]; R17-R22 ISR/S2).
 - Open questions: S1 = 8 (MOQ-01/03/04/05/06/07/10/11; 19 struck/resolved incl. the 2026-08-17 schema pass); S2 = 7 opened, 4 open (SOQ-02/05/06/07), 3 resolved (SOQ-01/04 in-wave via 03 §7; SOQ-03 2026-08-18 via EVID-171/60_); S3 = 7 opened (SOQ-08..14; SOQ-10 carries an applied ruling); EV53 OQ-1/OQ-3, EV54 OQ-1/OQ-3 and EV56 set already resolved.
 - Evidence corpus indexed: EVID-001..190 (S1 = 001..087 across 7 evidence files + DG45 + ARCH; S2 = ISR files 088..170; S3 = 172..190 + 171 = D.E. 10 gazette verification).

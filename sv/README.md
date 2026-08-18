@@ -15,7 +15,7 @@ invoicing (facturación electrónica).
 | Taxation | [requirements/taxation/](requirements/taxation/) | In review (draft, S2 ISR) |
 | Chart of accounts | [requirements/chart-of-accounts/](requirements/chart-of-accounts/) | Not started |
 | Payroll | [requirements/payroll/](requirements/payroll/) | Not started |
-| Fiscal reporting | [requirements/fiscal-reporting/](requirements/fiscal-reporting/) | Not started |
+| Fiscal reporting | [requirements/fiscal-reporting/](requirements/fiscal-reporting/) | In review (draft, S3) |
 | Commercial & legal | [requirements/commercial-legal/](requirements/commercial-legal/) | Not started |
 | Special regimes | [requirements/special-regimes/](requirements/special-regimes/) | Not started |
 
