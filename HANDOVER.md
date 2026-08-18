@@ -102,9 +102,16 @@ Evidence on the new sources committed (EVID-153..167):
   exclusion + Art. 28 pro-rata carve-out + **Art. 14-A incisos 6-8
   derogated** (W6 EVID-094 foreign-securities text is DEAD); 293-2025 =
   Art. 37. Art. 41/72/29-A/33 verified unchanged (03_ OQ-8 closed; W6
-  citations transfer to 54_ as current authority). 4 OQs: interpretaciones
+  citations transfer to 54_ as current authority).   4 OQs: interpretaciones
   192-2018/345-2019 scope, D.L. 969 vigencia, reglamento provenance chain
   (101-1992 vs 117-2001), consolidation dating.
+- **W7 addendum (same day):** sources 56_/57_/58_ acquired (D.O. extracts);
+  gating OQs CLOSED — D.L. 969-2024 full text (EVID-168: Art. 2 derogates
+  Art. 14-A 6º-8º + Art. 16 4ºc)/5º/7º + Art. 27 2º-4º; effective
+  2024-03-22), D.L. 192-2018 (EVID-169: Art. 30.1 seasonal depreciation —
+  full annual quota for café/caña-type activities), D.L. 345-2019 (EVID-170:
+  Art. 28 mermas/pérdidas deductibility + zero-base guard). ISR evidence
+  base COMPLETE for S2 synthesis (EVID-088..170).
 
 ### El Salvador — synthesis S1 (COMPLETE, pushed) + schema pass + §3.11 addendum (2026-08-17)
 Six Takumi files + index + coverage, **222 FRs / 70 LBs / 99 ACs / 47 OQs
@@ -330,11 +337,10 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
 3. **S2 waves** (each: extraction → evidence → synthesis, same patterns;
     source mapping authoritative in COVERAGE.md): ISR (03_/04_/10_) —
     **extraction + evidence DONE (W6); blockers CLOSED + new-source evidence
-    DONE (W6.5/W7: EVID-153..167)** → next = **S2 prep**: resolve the two
-    W7 OQs that gate clean synthesis (54_-file OQ-1: acquire
-    interpretaciones auténticas D.L. 192-2018 + 345-2019; OQ-3: D.L.
-    969-2024 text incl. vigencia) → digest/merge W6+W7 evidence into the
-    ISR cluster (master-index extension) → plan doc → subagent synthesis
+    DONE (W6.5/W7: EVID-153..170; gating OQs resolved)** → next = **S2
+    prep**: digest/merge W6+W7 evidence into the
+    ISR cluster (master-index extension; fold the 54_-file OQ-4 reglamento
+    provenance check into the merge) → plan doc → subagent synthesis
     into `sv/requirements/taxation/` (citations: 54_/53_ current authority,
     03_/10_ historical; Art. 37 = TWO dated vintages; Art. 3.4/4.16/14-A
     deltas folded) → F-07/F-14 reporting (29_/30_/34_–39_; **check F14 v17

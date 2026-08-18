@@ -20,7 +20,7 @@ No orphans: every row carries at least one of the four. Sources fully
 superseded but cited as historical LB (25_\*, 40_, 41_) still count as
 cited-as-LB.
 
-## Matrix (53 source files + schemas/ dir = 54 rows)
+## Matrix (56 source files + schemas/ dir = 57 rows)
 
 | Source | Status | Cited in / note |
 |--------|--------|-----------------|
@@ -37,6 +37,9 @@ cited-as-LB.
 | 53_Tablas_Retencion_ISR_DE10_2025.pdf | pending-S2+ | ISR wave (current retention tables) |
 | 54_Ley_ISR_consolidada_DO79_T447_2025-04-30.pdf | pending-S2+ | ISR wave (current consolidated Ley ISR; reform history) |
 | 55_Reforma_Ley_ISR_DL293_DO_2025-04-30.pdf | pending-S2+ | ISR wave (Art. 37 reform, effective 2025-05-08) |
+| 56_Reforma_Ley_ISR_DL969_DO_2024-03-14.pdf | pending-S2+ | ISR wave (foreign-source exclusion + Art. 14-A/16/27 derogations, effective 2024-03-22) |
+| 57_InterpAut_Art30_DL192_DO_2018-12-12.pdf | pending-S2+ | ISR wave (Art. 30.1 seasonal depreciation) |
+| 58_InterpAut_Art28_DL345_DO_2019-05-31.pdf | pending-S2+ | ISR wave (Art. 28 mermas deductibility) |
 | 11_Codigo_Trabajo.pdf | pending-S2+ | payroll wave |
 | 12_Ley_Zonas_Francas.pdf | pending-S2+ | special-regimes wave |
 | 13_Ley_Organica_Aduanas.pdf | pending-S2+ | special-regimes / customs-export wave |
@@ -86,5 +89,5 @@ cited-as-LB.
 | cited-as-LB | 14 |
 | superseded-not-cited | 1 (schemas/) |
 | not-applicable-this-wave | 8 |
-| pending-S2+ | 31 |
-| **Total** | **54** |
+| pending-S2+ | 34 |
+| **Total** | **57** |
