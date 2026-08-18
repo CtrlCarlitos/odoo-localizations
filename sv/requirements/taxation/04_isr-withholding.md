@@ -399,7 +399,10 @@ over_excess_of/fixed_quota) match 03's §4 table headers in story
 (Desde/Hasta/% a aplicar/Sobre el exceso de/Más cuota fija de), with the
 1992 vintage's FIVE-tramo structure (two 10% rows, anomalous row-3 offsets)
 reconciled here as printed — it never conflicts with 03's four-tramo Art.
-37 vintages because the vintage key separates them. Layer semantics: this
+37 vintages because the vintage key separates them. Note:
+`isr_brackets.csv` leaves `valid_from` BLANK for the dl_957_2011
+vintage — the D.L. 957-2011 publication/effective date is not pinned in
+the corpus and is not invented; the chain gap is covered by OQ-005. Layer semantics: this
 file introduces Odoo-side computation/bookkeeping data only (wave default
 `odoo`; see §5).
 
@@ -501,7 +504,8 @@ unindexed amounts in the current text (same class as 03-file OQ-003).
   then the retention base = 700.00 − 100.00 − 21.00 − 63.00 = $516.00 →
   Tramo I, SIN RETENCIÓN (FR-104, FR-109).
 - **AC-002:** Given a monthly base of $900.00 (2025-05+ vintage), then the
-  retention = 10% × (900.00 − 550.00) + 17.67 = $52.67 (FR-109).
+  retention = 20% × (900.00 − 895.24) + 60.00 = $60.95 (Tramo III;
+  $900.00 sits above the Tramo II ceiling of $895.24) (FR-109).
 - **AC-003:** Given a quincenal base of $500.00, then the retention =
   20% × (500.00 − 447.62) + 30.00 = $40.48; given a semanal base of
   $250.00, then the retention = 20% × (250.00 − 223.81) + 15.00 =
