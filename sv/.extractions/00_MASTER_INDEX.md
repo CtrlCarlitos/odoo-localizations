@@ -1,6 +1,6 @@
-# MASTER EVIDENCE INDEX — El Salvador localization (S1 + S2 synthesis lookup)
+# MASTER EVIDENCE INDEX — El Salvador localization (S1 + S2 + S3 synthesis lookup)
 
-Built: 2026-08-17. S1 inputs (read-only, no source PDFs re-read): the eight evidence/digest files + `shared/docs/saas-thin-client-architecture.md`. **S2/ISR extension 2026-08-17:** W6+W7 evidence files (EV03/EV04/EV10/EV53/EV54/EV56) merged into clusters T1–T8 below; rulings R17–R22; SOQ-01..07.
+Built: 2026-08-17. S1 inputs (read-only, no source PDFs re-read): the eight evidence/digest files + `shared/docs/saas-thin-client-architecture.md`. **S2/ISR extension 2026-08-17:** W6+W7 evidence files (EV03/EV04/EV10/EV53/EV54/EV56) merged into clusters T1–T8 below; rulings R17–R22; SOQ-01..07. **S3/fiscal-reporting extension 2026-08-18:** W8 evidence (EVID-172..190, files EV29/EV30/EV34/EV35/EV61-64) merged into clusters F1–F12 below; SOQ-08..14.
 **Authority order (binding):** 44_/45_/46_/50_/51_/52_ (2026) > 18_/19_/22_ (2025) > 40_/41_/25_ (2022). Where the supersession map in EV44 marks a W-item SUPERSEDED, the current-authority finding governs; old EVID ids are kept as history.
 **ISR authority order (binding, S2):** 54_ (consolidated Ley ISR, article text current incl. stamps through Jan-2026) with reform decrees 55_ (Art. 37), 56_ (Art. 3.4 + derogations), 57_/58_ (interpretaciones auténticas) for changed articles > 03_ (historical copy, consolidated through D.L. 233-2012). Retention tables: 53_ (D.E. 10-2025, operative; **published D.O. N° 79 T.447 30-abr-2025 = gazette print 60_, effective 2025-05-08 — SOQ-03 RESOLVED 2026-08-18**) > 10_ (D.E. 75/25-1992, historical). Reglamento: 04_ = D.E. 101-1992 as reformed by D.E. 8-1993/39-1993/**117-2001** (self-documented repeal map; see R17).
 
@@ -163,6 +163,78 @@ worry-list articles, so the merge re-reads 54_ article text during synthesis any
 - **Governing EVIDs:** EVID-107 (EV03; declaration/payment) · EVID-108 (EV03; repeal map + final provisions) · EVID-128 (EV04; Reglamento norm identity + repeal map — R17) · EVID-161 (EV53; online filing + $60k) · EV05:EVID-065 (sanctions zone).
 - **LB:** 54_ Arts. 48-53, 62, 75, 92, 105-A · 53_ Art. 1 i), Art. 2 · CT Arts. 62, 226-247 (05_).
 
+## Section S3-A — Fiscal-reporting topic clusters (synthesis worklist)
+
+Built from W8 evidence (EVID-172..190). **Citation rule for synthesis: the forms/manuals
+ARE the primary authority for declaration mechanics** (34_ = F-07 v14 manual ENERO 2025 +
+39_ form Actualizado 15-08-2025; 35_ = F-14 v16 manual OCTUBRE 2025 + 38_ form;
+59_ = F-14 v17 form 2026-06-03); legal anchors (CT/Ley/Decreto) cited per the S2 order
+where the forms reference them. Version regime (D12): F-07 v14 current; F-14 = v16 annex
+mechanics + v17 form layout (Quincena-25 section, EVID-184) — synthesis writes FRs
+against the v16 annex format with a v17 vintage row for the form-level Quincena-25 change.
+
+### F1 — F-07 declaration engine: casilla graph & payment computation
+**Covers:** the 77-row casilla arithmetic (39_/EVID-179): sales buckets 5-21 → SUMA VENTAS 105 / débitos 141-150; compras 24-33 + otros créditos 34-41 → SUMA COMPRAS 100 / CRÉDITOS 145; remanente 155 vs impuesto determinado 160; retenciones al declarante 161-166 + Art. 74-A disminución 491-493→203; excedente 167 / total 168; D.L. 764-2014 control-de-liquidez credit 520; FOVIAL credit 525; 521; retenciones por el declarante 169-172→187-190 (+modificatoria 401-405→188); reintegro exportadores 523/524; multas 192-195 + intereses 196 → TOTAL A PAGAR 198; Art. 74-A flag + declaración que modifica; USD-only.
+- **Governing EVIDs:** EVID-179 (39_ + 36_ index).
+- **LB:** 39_ (form arithmetic) + CT Arts. 74-A, 162, D.L. 764-2014 Art. 10.7 (anchors named on the form).
+- **Crossref:** taxation A-clusters (IVA computation = Ley IVA Arts. 54-66, W3 evidence EV01/02); FOVIAL/COTRANS quantity-tax risk (31_).
+
+### F2 — Annex upload engine: file format + validations + modificatorias
+**Covers:** semicolon CSV, all-Text cells, ≤25-char filename, no headers/merged cells, 2-decimal truncation, 0.00 nils, no negatives (except anulados CT 111), DD/MM/AAAA period-consistency (anulados + compras 3-prior-period windows: CT 111 / Ley IVA 63), annex-number column on every row, per-annex structure check; modificatorias = annexes 3-12 carryover + 1-2 re-upload; casillas auto-total from annexes (no manual fill).
+- **Governing EVIDs:** EVID-173 (34_ §II + notes) · EVID-178 §XVI-XXVII (34_).
+- **LB:** 34_ §II/§XVI-§XVII + CT Art. 111 + Ley IVA Art. 63 (anchors printed in the manual).
+
+### F3 — Sales annexes 1-2: row models + DTE identifier mapping + Renta pair
+**Covers:** Anexo 1 per-document B2B (CCF/NC/ND; clase 1/2/4; DUI/NIT XOR period-gated; R/S Tipo-Operación/Tipo-Ingreso from Enero-2025 else 0; codes 1/2/3/4/12/13 and 1-10/12/13); Anexo 2 aggregated B2C (tipos 01/02/10/11; physical ranges DEL/AL; DTE rows grouped BY DAY with first/last código de generación; N/A resolución/serie; máquina registradora for tiquetes; gravadas locales IVA-INCLUSIVE mirroring R1/FE convention; export split dentro/fuera CA (GT/HN/SV/NI/CR) + servicios + ZF/DPA tasa 0; negatives only anulados; Aduanas cross-check awareness).
+- **Governing EVIDs:** EVID-174 (34_ §III) · EVID-175 (34_ §IV).
+- **DTE identifier mapping (operative everywhere):** Serie = sello de recepción (40c); Resolución = número de control (28c), pre-Nov-2022 = código de generación (32c); Número = código de generación (32c), pre-Nov-2022 = número de control; control interno blank for DTE.
+- **Crossref:** e-invoicing FR-012/018 (identifier fields); taxation T4 (R/S feeds the F-11 rentas matrix; code 12 = F14/F910-consolidated, 13 = Art. 6 LISR excluidos).
+
+### F4 — Purchase annexes 3/5/16: IVA buckets + ISR cost/gasto quartet + excluidos
+**Covers:** Anexo 3 column model (internal/internación/importación × gravada/exenta buckets; crédito = 13% of gravadas J..M; total G..M with ND+/NC−; tipos 03/05/06/11/12/13; ZF/DPA tipo 11 per Ley ZF Art. 25; Tesorería pseudo-NIT 06140108140066 for foreign 12/13; Q/R/S/T ISR quartet from Feb-2024 with code 8 dedup + 9 public/non-deductible); Anexo 5 excluidos purchases (CT 119 anchor; 13% retention; post-entero crédito re-entry into casilla 128); Anexo 16 Decreto 357 (informativo, mayo-2022→fin-de-obra window).
+- **Governing EVIDs:** EVID-176 (34_ §V) · EVID-177 (34_ §VII).
+- **Crossref:** taxation T3 (pro-rata feeds 132-134 credits); special-regimes wave (ZF/DPA, Ley ZF Art. 25).
+
+### F5 — Retention/perception annexes 4/6-12 + F-930 view
+**Covers:** al-declarante credits (161 anticipo 2%, 162 retención 1%, 163 percepción 1%); por-declarante payables (169 percepción 1%, 170 retención 1%, 171 anticipo 2%, 172 retención 13%); Anexo 4 cuenta-de-terceros domiciliados (mandante + CCF/factura + comprobante-de-liquidación linkage, monto sin IVA for FC); CRE (07) and CL (08) document types wired via the standard DTE identifier mapping; % validation (1/2/13); F-930 v3 = the standalone monthly inform over the same ledger (document-typed summary + calidad/modalidad).
+- **Governing EVIDs:** EVID-177 (34_ §VI/VIII-XIV) · EVID-189 (63_).
+- **Crossref:** e-invoicing CRE/CL FRs; taxation T5 (IVA-side vs ISR-side matrices stay distinct).
+
+### F6 — Anulados/emitidos annex + DTE event feed
+**Covers:** XIX annex columns A-J (resolución/clase/preimpreso DESDE-HASTA/tipo 01-14/tipo-detalle/serie= sello 40c/DESDE-HASTA/código-generación); detail codes A (anulado) / X (extraviado) / D (DTE invalidado); Documentos EMITIDOS annex auto-derived from annexes 1/2/9/10/11/12 (only anulados uploaded); invalidation events feed from the e-invoicing module (this answers e-invoicing 02 OQ-008's F-07 side; NRE-on-origin-invalidation 02 OQ-009 unaffected).
+- **Governing EVIDs:** EVID-178 (34_ §XVIII-XIX).
+- **Defect ruling (S3):** §XIX col J "36 caracteres" and the inverted Sept/Oct cutover in col A are manual defects — the annexes-1-12 convention (32c; Nov-2022 cutover) is operative (see S3 OQ register).
+- **Crossref:** e-invoicing 03_events FR-103/104/117 (invalidation events are the source); R8 2-year window context.
+
+### F7 — Fuel & dated-regime annexes 13-17
+**Covers:** Anexo 13 tasas diferenciadas (Decreto 321, from Mar-2022, MANUAL entry, global net-of-IVA by SUPERIOR/REGULAR/DIÉSEL; 13% ops stay in annexes 1-3); Anexo 14 precios-máximos NC detail (Ley Especial Transitoria, from Abr-2022; galones 11+8 decimals; price/valor/descuento/IVA-del-descuento sin IVA); Anexo 15 (casilla 92) + 16 (casilla 65) Decreto 357 informatives; Anexo 17 importadores (Jun-Ago 2022 closed window, informativo). All vintage-gated (D12 dated regimes; regime-validity windows as data).
+- **Governing EVIDs:** EVID-178 (34_ §XX-XXIV).
+
+### F8 — F-14 declaration & retention annex engine
+**Covers:** annex columns A-W (domiciliado/país/NIT-NIF/DUI/código-ingreso; devengado vs bonificaciones vs aguinaldo exento/gravado split for payroll codes 01/60/80; SEVEN SS columns with legal caps AFP $472.93 + ISSS $30 + INPEP 7.5% + IPSFA 9.5% + CEFAFA 5% + Bienestar Magisterial 5.58% + ISSS-IVM 7.5% [dated data, payroll-wave feed]; Renta quartet S-V from Feb-2024; periodo MMYYYY); validations (retention % = legal rate per code — system rejects; aguinaldo gravado ≤ devengado; caps; 2-decimals; DUI/NIT XOR); haven 25% exactness; declaration = pure projection of the annex (no manual casillas); modificatoria = limpiar + full re-upload + prior-amount anchors (casillas 50/221/225/332/711/761); form tab architecture (Pago a Cuenta / Acreditables con-sin dependencia / Definitivas / Op. Financieras 501-529 liquidity tracks / Contribución Especial / No Domiciliados / Agentes Extranjeros 701-780); pago-mínimo remnant casilla printed but DEAD (R21 — never feed).
+- **Governing EVIDs:** EVID-180 (35_ + 37_) · EVID-181 (35_) · EVID-183 (38_ + country codes 35_).
+- **Crossref:** taxation T5 (rates/base FR-102..131 compute the values this annex reports; SOQ-02 proration affects rows); payroll wave (SS caps + aguinaldo/quincena splits); CT 154-160 matrix LB-017/019.
+
+### F9 — Income-code catalog & cross-tax consolidation (F-14 apéndice + F-910)
+**Covers:** income codes 01-85 with class = acreditable/definitiva/sin-retención(60)/no-gravado(70-72); 43/44/45 = distributions leg (Art. 72/74/74-A → taxation T6 earnings-register interface); 40 = haven 25%; 47 = CT 123 aggregate (NIT 14 zeros + VARIOS); F-910 v9 annual consolidation (01-vs-60 rule: retained-at-least-once → 01, never → 60; ANNUAL SS columns); F-910 = the CT 123 surface that taxation 04 OQ-007/MOQ-10 hunted (ISR side).
+- **Governing EVIDs:** EVID-182 (35_ apéndice) · EVID-187 (61_).
+- **Crossref:** taxation T5/T6; F3's R/S code 12 wording ("consolidados en F910").
+
+### F10 — F-14 v17 Quincena-25 vintage + annex-format gap
+**Covers:** v17 form = v16 + "INGRESOS NO GRAVADOS LEY ESPECIAL QUINCENA VEINTICINCO" (row 61, casillas 417 número-de-sujetos / 418 monto) with rows 61-104 → 62-105 renumbered; annex-level representation UNKNOWN (no v17 manual/plantilla yet — MH checked 2026-08-18); the Quincena-25 law itself not in corpus (acquisition candidate numbering ≥65); payroll wave co-dependency.
+- **Governing EVIDs:** EVID-184 (59_ vs 38_ diff).
+
+### F11 — Related informs: F-915 (distributions) + F-935 (agentes extranjeros)
+**Covers:** F-915 v4 (DISTRIBUYÓ/CAPITALIZÓ + acta fecha/número; socio-quality transitions antes/durante/perdió × cantidad/utilidades/valor-contable; per-socio rows incl. no-domiciliado; CT 241 + CP 249-A juramento) — the published format behind Ley ISR Art. 74-C's inform (partially answers taxation 05 OQ-002: format exists, norms resolution still absent); F-935 v1 (RETENCIÓN vs ENTERO blocks; transfer-level rows with número-de-transacción + país-de-origen; donantes-locales track anchor OQ).
+- **Governing EVIDs:** EVID-188 (62_) · EVID-190 (64_).
+- **Crossref:** taxation T6 (earnings register feeds F-915); F8's agentes-extranjeros tab.
+
+### F12 — Filing calendar & deadline engine
+**Covers:** monthly core F-07/F-14/F-06/F-930/F-935/F-945 (+F-960); annual anchors F-910/F-915/F-986/F-987 (Feb), F-455 fusión dictámenes CT 134 (Mar), F-11/F-971/F-944/F-30/F-40/F-982 (Apr), auditor-fiscal appointments CT 131 (May), F-950 quarterly pattern; asuetos table feeding días-hábiles computation; due-day windows = visual calendar layer (unpinned — S3 OQ); "fechas pueden ser modificadas por la Asamblea" disclaimer → calendar as dated data.
+- **Governing EVIDs:** EVID-185 (30_) · EVID-186 (30_).
+- **Crossref:** e-invoicing FR-103 deadlines (same días-hábiles engine); taxation T8 (10-días-hábiles remittance); 01-file FR-032.
+
+
 ---
 
 ## Section B — Resolved contradictions ledger
@@ -218,6 +290,13 @@ worry-list articles, so the merge re-reads 54_ article text during synthesis any
 | SOQ-05 | 2025/2026 aguinaldo transitory: 54_ tail lists none after D.L. 159-2024 ($1,500) → assume standing 2-SMM rule for 2025+; payroll wave re-verifies at encoding time | T5 | payroll wave (origin: EV53 OQ-5) |
 | SOQ-06 | Reglamento survivors vs CT: D.E. 117-2001 predates the CT (D.L. 230-2000? both 2000-2001 era) — whether any additional 04_ survivor articles were later repealed by CT Art. 344 ff. Non-blocking; cite survivors as printed | T1/T3/T4/T7 | taxation OQ row (origin: EV04 OQ-1) |
 | SOQ-07 | Deposit interest: Art. 27 10% (CT 159 definitive) vs Art. 4.5 exemption for natural persons < $25,000 avg monthly balance. Working harmonized reading: 4.5 carves out small depositors; 27/159 apply above. Non-blocking; synthesis records as FR note | T4/T5 | taxation FR note (origin: EV03 OQ-6) |
+| SOQ-08 | F-07/F-14 due-day scheduling (W8): the 2026 calendar's due-day windows are a visual (highlighted-cell) layer; the by-NIT-digit day-assignment rule has no normative anchor in the corpus. Working assumption: deadline windows = dated configuration data, unpinned values; extract the visual layer or find the schedule instrument before deadline FRs get AC-grade dates | F12 | fiscal-reporting deadline FRs (origin: EV34 OQ-1 / EV35 OQ-5 / EV30 OQ-1) |
+| SOQ-09 | F-14 v17 Quincena-25 annex representation (W8): v17 form adds casillas 417/418 but NO v17 manual/plantilla exists (MH checked 2026-08-18) — the annex-CSV representation of Quincena-25 rows is unknown; the Ley Especial Quincena Veinticinco itself is not in the corpus (acquisition candidate ≥65; payroll co-dependency). Form-level FR writable now; annex-level FR blocked | F10 | fiscal-reporting FR + OQ row (origin: EV35 OQ-1/OQ-2) |
+| SOQ-10 | F-07 §XIX defects (W8): anulados annex col J says código de generación "36 caracteres" (32 everywhere else) and col A's cutover instruction ("septiembre hacia atrás código de generación; octubre 2022 en adelante número de control") INVERTS the Nov-2022 rule used in annexes 1-12. **Ruling applied (S3):** manual transcription defects — annexes-1-12 convention operative; record as LB note, never encode the inverted cutover | F6 | fiscal-reporting LB note (origin: EV34 OQ-2) |
+| SOQ-11 | SS caps as dated data (W8): F-14 annex caps printed Oct-2025 (AFP $472.93, ISSS $30.00 $-caps; INPEP 7.5% / IPSFA 9.5% / CEFAFA 5% / Bienestar Magisterial 5.58% / ISSS-IVM 7.5% %-maxima) — cap feed/cadence + ceiling bases belong to the payroll wave (16_/08_/09_); the F-14 side mirrors them as validation parameters | F8 | payroll wave (origin: EV35 OQ-3) |
+| SOQ-12 | Annex-modification resolutions missing (W8): the DGII resolution(s) modifying F-07/F-14 annexes (29_'s intended content; the legal authority behind v14/v16/v17 annex sets incl. Quincena-25) are not in the corpus — manuals/forms are the only authority. Non-blocking (manuals carry full structures); acquire opportunistically | F2/F10 | sources registry (origin: EV29 OQ-1) |
+| SOQ-13 | F-935 "donantes locales" entero track: normative anchor unstated in the form (CT 156 zone or a specific regime?) — chase in the CT matrix during S3 | F11 | fiscal-reporting OQ row (origin: EV61-64 OQ-3) |
+| SOQ-14 | F-950 frequency/applicability (quarterly pattern Ene/Abr/Jul(+Oct?); whose obligation) — confirm for the reporting inventory | F12 | fiscal-reporting OQ row (origin: EV30 OQ-2) |
 
 ### Struck (resolved during evidence passes — retained for audit)
 
@@ -247,6 +326,7 @@ worry-list articles, so the merge re-reads 54_ article text during synthesis any
 
 - S1 clusters: 12 (A1-A12). Governing EVID totals per cluster: A1=5, A2=4, A3=3, A4=3, A5=3, A6=4, A7=2, A8=3, A9=2, A10=13, A11=8, A12=4 (+6 D-items). DG45 digest governs structure/validation in A1-A8, A10.
 - S2/ISR clusters: 8 (T1-T8), from 63 EVID entries (EVID-088..108, 128..146, 148..170; 109-127 reserved-unused) across 6 evidence files + CT crossrefs (EVID-062/063/065 + Art. 62 raw read).
+- S3/fiscal-reporting clusters: 12 (F1-F12), from 19 EVID entries (EVID-172..190) across 5 evidence files (EV29/EV30/EV34/EV35/EV61-64); forms are primary authority for declaration mechanics (34_/35_ manuals + 38_/39_/59_ forms + 61_-64_ informs).
 - Resolved contradictions: 22 (R1-R16 S1, R16 flagged [?]; R17-R22 ISR/S2).
-- Open questions: S1 = 8 (MOQ-01/03/04/05/06/07/10/11; 19 struck/resolved incl. the 2026-08-17 schema pass); S2 = 7 opened, 4 open (SOQ-02/05/06/07), 3 resolved (SOQ-01/04 in-wave via 03 §7; SOQ-03 2026-08-18 via EVID-171/60_); EV53 OQ-1/OQ-3, EV54 OQ-1/OQ-3 and EV56 set already resolved.
-- Evidence corpus indexed: EVID-001..170 (S1 = 001..087 across 7 evidence files + DG45 + ARCH; S2 = ISR files above).
+- Open questions: S1 = 8 (MOQ-01/03/04/05/06/07/10/11; 19 struck/resolved incl. the 2026-08-17 schema pass); S2 = 7 opened, 4 open (SOQ-02/05/06/07), 3 resolved (SOQ-01/04 in-wave via 03 §7; SOQ-03 2026-08-18 via EVID-171/60_); S3 = 7 opened (SOQ-08..14; SOQ-10 carries an applied ruling); EV53 OQ-1/OQ-3, EV54 OQ-1/OQ-3 and EV56 set already resolved.
+- Evidence corpus indexed: EVID-001..190 (S1 = 001..087 across 7 evidence files + DG45 + ARCH; S2 = ISR files 088..170; S3 = 172..190 + 171 = D.E. 10 gazette verification).
