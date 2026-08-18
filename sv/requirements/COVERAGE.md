@@ -4,12 +4,12 @@
 |---------|-------|
 | Country | sv |
 | Topic   | all (cross-topic) |
-| Status  | draft (S1 synthesis wave) |
+| Status  | draft (S1 + S2 ISR waves) |
 | Authors | Controller (hand-built; script to regenerate later) |
 | Updated | 2026-08-17 |
 
-Every file in [../sources/](../sources/) mapped against the S1 requirements
-wave. Status values:
+Every file in [../sources/](../sources/) mapped against the S1 and S2 (ISR)
+requirements waves. Status values:
 
 - **cited-as-LB** — appears in a Legal Basis row (or as direct schema read) of a requirements file; the citing file(s) named.
 - **not-applicable-this-wave** — out of S1 scope or superseded-without-content-need; reason noted.
@@ -26,20 +26,20 @@ cited-as-LB.
 |--------|--------|-----------------|
 | 01_Ley_IVA.pdf | cited-as-LB | `e-invoicing/01` LB-008/009/010; `e-invoicing/03` LB-012 |
 | 02_Reglamento_IVA.pdf | pending-S2+ | taxation / commercial-legal wave |
-| 03_Ley_ISR.pdf | pending-S2+ | ISR wave — **superseded as current authority by 54_** (retained as W6 historical LB; reform chain D.L. 762-2014/458-2019/969-2024/293-2025) |
-| 04_Reglamento_ISR.pdf | pending-S2+ | ISR wave |
+| 03_Ley_ISR.pdf | cited-as-LB | historical — authority-order preambles of `taxation/01..06`; superseded as current authority by 54_ (reform chain D.L. 762-2014/458-2019/969-2024/293-2025); supplies analysis via EVID ids |
+| 04_Reglamento_ISR.pdf | cited-as-LB | `taxation/01..06` LB rows (21 rows; D.E. 101-1992 consolidated, survivor articles only per R17) |
 | 05_Codigo_Tributario.pdf | cited-as-LB | `e-invoicing/01` LB-007/011/012 |
 | 06_Guia_Facturacion_Electronica.pdf | not-applicable-this-wave | non-normative guide; S1 rests on 44_/45_/46_/50_/51_/52_ |
 | 07_Codigo_Comercio.pdf | pending-S2+ | commercial-legal wave |
 | 08_Ley_ISSS.pdf | pending-S2+ | payroll wave |
 | 09_Ley_Sistema_Pensiones.pdf | pending-S2+ | payroll wave |
-| 10_Tablas_Retencion_ISR.pdf | pending-S2+ | ISR wave — 1992 colones-era (D.E. 75/25); superseded by 53_ (D.E. 10-2025); retained as historical LB |
-| 53_Tablas_Retencion_ISR_DE10_2025.pdf | pending-S2+ | ISR wave (current retention tables) |
-| 54_Ley_ISR_consolidada_DO79_T447_2025-04-30.pdf | pending-S2+ | ISR wave (current consolidated Ley ISR; reform history) |
-| 55_Reforma_Ley_ISR_DL293_DO_2025-04-30.pdf | pending-S2+ | ISR wave (Art. 37 reform, effective 2025-05-08) |
-| 56_Reforma_Ley_ISR_DL969_DO_2024-03-14.pdf | pending-S2+ | ISR wave (foreign-source exclusion + Art. 14-A/16/27 derogations, effective 2024-03-22) |
-| 57_InterpAut_Art30_DL192_DO_2018-12-12.pdf | pending-S2+ | ISR wave (Art. 30.1 seasonal depreciation) |
-| 58_InterpAut_Art28_DL345_DO_2019-05-31.pdf | pending-S2+ | ISR wave (Art. 28 mermas deductibility) |
+| 10_Tablas_Retencion_ISR.pdf | cited-as-LB | historical — `taxation/04` LB-020 (1992 colones-era D.E. 75/25; superseded by the 53_ chain via D.E. 95-2015; dated-data rows in `isr_brackets.csv`) |
+| 53_Tablas_Retencion_ISR_DE10_2025.pdf | cited-as-LB | `taxation/04` LB rows (8 — current tables) + `taxation/01` LB-028 (filing/threshold bits) |
+| 54_Ley_ISR_consolidada_DO79_T447_2025-04-30.pdf | cited-as-LB | `taxation/01..06` LB rows (71 rows — current consolidated Ley ISR) |
+| 55_Reforma_Ley_ISR_DL293_DO_2025-04-30.pdf | cited-as-LB | `taxation/03` (Art. 37 table vintage, effective 2025-05-08) |
+| 56_Reforma_Ley_ISR_DL969_DO_2024-03-14.pdf | cited-as-LB | `taxation/01` (Art. 3.4 foreign-source exclusion + derogations) |
+| 57_InterpAut_Art30_DL192_DO_2018-12-12.pdf | cited-as-LB | `taxation/06` (Art. 30.1 seasonal depreciation) |
+| 58_InterpAut_Art28_DL345_DO_2019-05-31.pdf | cited-as-LB | `taxation/02` (Art. 28 mermas deductibility) |
 | 11_Codigo_Trabajo.pdf | pending-S2+ | payroll wave |
 | 12_Ley_Zonas_Francas.pdf | pending-S2+ | special-regimes wave |
 | 13_Ley_Organica_Aduanas.pdf | pending-S2+ | special-regimes / customs-export wave |
@@ -86,8 +86,8 @@ cited-as-LB.
 
 | Status | Rows |
 |--------|------|
-| cited-as-LB | 14 |
+| cited-as-LB | 23 |
 | superseded-not-cited | 1 (schemas/) |
 | not-applicable-this-wave | 8 |
-| pending-S2+ | 34 |
+| pending-S2+ | 25 |
 | **Total** | **57** |

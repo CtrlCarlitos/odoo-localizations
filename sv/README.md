@@ -12,7 +12,7 @@ invoicing (facturación electrónica).
 |-------|-----------|--------|
 | Electronic invoicing | [requirements/e-invoicing/](requirements/e-invoicing/) | In review (draft, S1) |
 | Catalogs | [requirements/catalogs/](requirements/catalogs/) | In review (draft, S1) |
-| Taxation | [requirements/taxation/](requirements/taxation/) | Not started |
+| Taxation | [requirements/taxation/](requirements/taxation/) | In review (draft, S2 ISR) |
 | Chart of accounts | [requirements/chart-of-accounts/](requirements/chart-of-accounts/) | Not started |
 | Payroll | [requirements/payroll/](requirements/payroll/) | Not started |
 | Fiscal reporting | [requirements/fiscal-reporting/](requirements/fiscal-reporting/) | Not started |
