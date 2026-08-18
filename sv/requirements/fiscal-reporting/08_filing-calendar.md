@@ -281,11 +281,15 @@ table; single implementation):**
 ## 5. Odoo Mapping
 
 Layer semantics for this wave: `odoo` = computation/bookkeeping logic
-living in the LGPL client. No SaaS rows: none of these FRs touch DTE
-generation/transmission (the only architecture-split surface per
-`shared/docs/saas-thin-client-architecture.md`); the engine merely
-serves the e-invoicing deadlines that DO split, on the client side.
-Model names are stable across Odoo 17/18/19/20.
+living in the LGPL client. No SaaS rows are introduced here: none of
+these FRs touch DTE generation/transmission (the only
+architecture-split surface per
+`shared/docs/saas-thin-client-architecture.md`). Note: the CONSUMER
+SV-EINV-FR-103 is itself saas-layered in its own file — this file's
+engine serves the odoo-side consumers (filing deadlines, reminders)
+and publishes the asueto table as the single dated data source, so
+any saas-side consumption reads the same data rather than a second
+holiday table. Model names are stable across Odoo 17/18/19/20.
 
 | FR | Layer | Odoo model | Field(s) | Notes / version differences |
 |----|-------|------------|----------|------------------------------|
