@@ -1,4 +1,4 @@
-# MASTER EVIDENCE INDEX — El Salvador localization (S1 + S2 + S3 + S4 synthesis lookup)
+# MASTER EVIDENCE INDEX — El Salvador localization (S1 + S2 + S3 + S4 + S5-prep synthesis lookup)
 
 Built: 2026-08-17. S1 inputs (read-only, no source PDFs re-read): the eight evidence/digest files + `shared/docs/saas-thin-client-architecture.md`. **S2/ISR extension 2026-08-17:** W6+W7 evidence files (EV03/EV04/EV10/EV53/EV54/EV56) merged into clusters T1–T8 below; rulings R17–R22; SOQ-01..07. **S3/fiscal-reporting extension 2026-08-18:** W8 evidence (EVID-172..190, files EV29/EV30/EV34/EV35/EV61-64) merged into clusters F1–F12 below; SOQ-08..14. **S4/payroll extension 2026-08-18:** W9 evidence (EVID-191..210, files EV16/EV08/EV09/EV11/EV65) merged into clusters P1–P10 below; rulings R23–R24; SOQ-15..21.
 **Authority order (binding):** 44_/45_/46_/50_/51_/52_ (2026) > 18_/19_/22_ (2025) > 40_/41_/25_ (2022). Where the supersession map in EV44 marks a W-item SUPERSEDED, the current-authority finding governs; old EVID ids are kept as history.
@@ -310,6 +310,78 @@ dated data from the F-14 v16 print (SOQ-11 discipline) with instrument OQs.
 
 ---
 
+## Section S5-A — Commercial-legal topic clusters (synthesis worklist)
+
+Built from W10 evidence (EVID-211..235). **Citation rule for synthesis: mercantile-registry
+and accounting LBs cite 07_ (D.L. 671, consolidated ≤ reform (29) D.L. 641-2008 — post-2008
+reforms UNVERIFIED, SOQ-22); AML thresholds/clocks cite 15_ Art. 9/9-A/9-B (as reformed
+(2)–(6), current) — NEVER 17_'s superseded colones/3-day values (R26); 17_ citable only
+for window mechanics, no-tip-off, and red-flag catalogs; society type menu may be
+incomplete without the SAS law (SOQ-23); cap/threshold values are code-text (not
+instrument-dated) unless flagged.**
+
+### C1 — Comerciante status, matrícula & Registro de Comercio
+**Covers:** comerciante definitions (individual/social; presumption by publicity/establishment, Arts. 1-6); the four professional obligations (Art. 411); matrícula de empresa = registro único, permanent + ANNUAL renewal, locales/agencias/sucursales registration (412-420); constancia = sole proof of status (418); closure sanction + 30-hábiles grace (419); cancellation cases (422); Registro architecture under CNR (matrículas/documentos/balances; poderes-nombramientos-credenciales; 456-487); matrícula-precondition-to-registration (469); publication rule 3× alternate D.O.+daily, deadlines from last D.O. publication (486); ag/professional-collective exemption from L.II except 411 I/IV (Art. 20).
+- **Governing EVIDs:** EVID-211 · EVID-212 · EVID-217 (all EV07).
+- **LB:** 07_ Arts. 1-6, 20, 411-422, 456-487.
+- **Crossref:** 29_ CNR F985/F-975 mechanics (EVID-172); e-invoicing emitter identity (A11).
+
+### C2 — Accounting regime: books, legalization, no-alteration, retention
+**Covers:** organized system per accepted standards + electronic systems EXPRESSLY legal with watchdog notice (435); castellano + USD accounts + in-country keeping (436); keeper thresholds ≥$12k individuals / all sociedades (437); book legalization by Contador Público / Auditor Externo + folios + opening razón (438); **no-blancos/raspaduras + immediate rectification-asiento regime (439)** extended to ALL statutory registers (440); **retention 10y + 5y post-liquidation; received/issued facturas + correspondence anexas to the books (451/454)**; media migration (microfilm/optical) only ≥24 months after emission, notarized copies equivalent (455); <$12k single bound book + annual balance (452); inventory/balance first Diario partida (446); labor-obligation provision (447).
+- **Governing EVIDs:** EVID-213 · EVID-215 · EVID-216 (all EV07).
+- **LB:** 07_ Arts. 435-455.
+- **Crossref:** e-invoicing 02 §3.11 correction-accounting invariants (kin); D3 archive tiers; AML retention C10 (longest-per-object matrix = synthesis deliverable, SOQ-28).
+
+### C3 — Annual financial statements & balance deposit
+**Covers:** FY-close balance general + resultados + cambios-en-patrimonio within 3 months IMPRORROGABLE, auditor externo handoff (282-283); auditor dictamen 30d (284); junta approval → **DEPOSIT in Registro de Comercio = third-party effect, no deposit no fe** (286/441); threshold ladder: individuals ≥$12k signed propietario+contador, ≥$34k + auditor-certified, sociedades+EIRL always full set with dictamen (474); registro de balances (459); registro de Estados Financieros contents (442); valuation criteria Consejo de Vigilancia → NIC fallback (443-444) = the NIIF hook for chart-of-accounts; revaluation reserva (445); MH exception for ISR declarations (286 final).
+- **Governing EVIDs:** EVID-214 (EV07).
+- **LB:** 07_ Arts. 282-286, 441-445, 459, 474.
+- **Crossref:** chart-of-accounts wave (32_/33_ consume the NIC anchor); fiscal-reporting F12 calendar kin.
+
+### C4 — Society data model: types, formation, capital, reserves
+**Covers:** type taxonomy personas/capitales × fijo/variable (18); escritura pública + 12-field content (21-22); **personality ONLY at inscription (25)** + inscription catalogue (24/465); estatutos deposit (23); capital = pasivo-side invariant, assets ≥ capital (29); apportations incl. non-money valuation rules (31-33); dividend ceiling = realized per-balance profit (37-38); **reserva legal: colectiva 5% → 1/6 capital (91); SRL+S.A.+EIRL 7% → 1/5 floor (123/295/616)** with restoration duty (39); 4 society books incl. capital-variable movements (40); SRL profile (Ltda. suffix, $2,000 min, participaciones $1+ multiples, 5% exhibit, voto-por-dólar, 3/4-quorum, Registro de Socios 7-field book, auditor mandatory) (101-125); S.A. profile (acciones $1+, nominativas-until-paid, no below-par, no self-acquisition/no own-share loans, share-ledger 8 fields, 15-day preferential windows, auditor monthly duties) (126-160, 289-293); cooperative special rules (19).
+- **Governing EVIDs:** EVID-218 · EVID-219 · EVID-220 (all EV07).
+- **LB:** 07_ Arts. 17-43, 101-160, 289-295.
+- **Crossref:** SAS type = SOQ-23 acquisition; taxation/05 distributions (reserve/profit interplay).
+
+### C5 — Society lifecycle: capital variable, fusión, liquidación, nullity, extranjeras
+**Covers:** capital variable (de C.V. suffix, movement book consultable, withdrawal year-end effects, minimum disclosure) (306-314); fusión (90-day opposition window, publication of agreement+last balance, Ley de Competencia inscription checkpoint, personality until inscription) (315-321); transformación (successor continuity, unlimited-liability survival for pre-change ops, auditor valúo for personas→capital) (322-325); liquidación ("en liquidación" suffix, ≤2y, liquidator faculties incl. fiscal obligations, final balance deposited, **post-liquidation books+papers bank deposit 10y**) (326-342); revocación de disolución (342-A); nullity/irregularity (illicit object, 90-120d regularization windows, unlimited liability, **15-day escritura-presentation duty**, 4-month registro check, out-of-object reform, single-socio 3-month collapse → empresa individual) (343-357); extranjeras (registration package: statutes, domicile decision, resident representative + poder, MINEC investment-registry capital proof, balance inicial certified; sucursal domicile) (358-361).
+- **Governing EVIDs:** EVID-221 · EVID-222 (all EV07).
+- **LB:** 07_ Arts. 306-361.
+- **Crossref:** CT solvencia at liquidation (EIRL, 620); e-invoicing emitter-name suffix propagation (A8 kin).
+
+### C6 — Auxiliares del comercio & authority defaults
+**Covers:** factores (general authority from appointment, registry inscription of powers + terminación, post-revocation validity until notice/inscription) (365-377); dependientes (bind principal; in-store collection unless caja-reserve posted; outside sale/collection = written authorization + ID or recibo/factura with firma y sello; viajeros order-taking + guarantees but no advance collection/plazos/quitas/descuentos) (378-383); agentes dependientes (plaza exclusivity default, operations book per principal, monthly documented-account remuneration) (384-391); agentes representantes/distribuidores (continuous designation, exclusive-zone commissions incl. principal's own deals, 3-month termination notice, 5-head indemnification scale, just causes, foreign-principal import bar until compliance) (392-399-B); intermediarios (own registro + diario books, no representation) (400-410).
+- **Governing EVIDs:** EVID-223 (EV07).
+- **LB:** 07_ Arts. 365-410.
+- **Crossref:** payroll salesperson/authority profiles (11_ labor layer governs employment side).
+
+### C7 — Empresa mercantil, establecimiento & EIRL
+**Covers:** empresa = transferable bien mueble; statutory element package (establecimiento, clientela+fama, nombre+distintivos, arrendamientos, mobiliario/maquinaria, labor contracts, mercancías/créditos); debt succession on transmission; >6-month inactivity kills empresa character; transferor 2-year non-compete; local-change publication 15d (553-569); nombre comercial/distintivos/patentes DEROGATED to IP laws (570-599); EIRL (E. de R. L. suffix, auditor-certified pre-constitution inventory, free capital, formulario-based 7-field registration, capital down not below 1/4 paid, 30-day opposition on inventory publication, reserve/profit/statements/vigilancia incorporation by reference, forced-liquidation triggers, **CT-solvency-checked voluntary liquidation**) (600-622).
+- **Governing EVIDs:** EVID-224 (EV07).
+- **LB:** 07_ Arts. 553-622.
+- **Crossref:** C5 (lifecycle); taxation (liquidation solvencia — CT link).
+
+### C8 — Payment instruments, prescription & proof
+**Covers:** títulos valores general rules (castellano; words-over-figures + lower-sum; máquina protectora precedence; inhábil-day extension; salvo buen cobro; enrichment action 1y) (623-653); pagaré (6-field content, default vista/domicilio rules) (788-792); **cheque (número+serie mandatory, 7-field form, raspaduras void; presentation 15d same-plaza / 1m national / 3m cross-border; agency 72h; protest ≤15d or bank note; caducidad cascade; 1y prescription; ≥20% refusal indemnity; special cheques: cruzado, abono-en-cuenta, certificado, viajero 2y, limitado, circular, caja/gerencia)** (793-838); mora interest pactado→legal, legal rate fixed periodically by Economía (960); solidarity of codeudores/fiadores (962); **mercantile prescription matrix 6m cta-cte rectification / 1y cheque-letra-regreso-vicios-transporte-corporate / 2y compraventa-sociedad-suministro-comisión / 5y credit contracts from LAST RECOGNITION** (995); caducidad no-suspension (996-998); proof means incl. **facturas + registros contables** (999) + legally-kept books win (1002).
+- **Governing EVIDs:** EVID-225 · EVID-226 (all EV07).
+- **LB:** 07_ Arts. 623-653, 788-838, 945-1012.
+- **Crossref:** fiscal-reporting F12 días-hábiles engine (inhábil-day extension kin); aging/prescription clocks on ledgers.
+
+### C9 — Sales & intermediary contracts
+**Covers:** mercantile-sale scope + farm/artisan carve-out (1013); price determination + arras-to-price (1014); signed pedido binds buyer (1015); delivery defaults (1020); **defect/warranty clocks: apparent-on-examination waiver, packaged 8d, hidden 15d-from-discovery + 1y-from-delivery; functioning-warranty 30d-denounce/6m-action/3y-default-period (1019-1021)**; sample/gusto/perfection rules (1022-1024); resolution-on-installments + registry for identifiable goods (1025-1026); documents-over-goods + D/a D/P (1027-1029); **CSF/CIF/CAF, CF, LAB/FOB in-code clauses with risk-pass points (1030-1035)**; venta a plazos de bienes muebles (reserved domain, registry, 10-day intimate resolution, 3-month prescription, colones-remnant threshold) (1038-1050); estimatorio/consignment ownership-invariant (1051); permuta (1052-1054); suministro (periodic/continued, min-max, exclusivity both ways, 3-month denounce) (1055-1065); comisión (own-name/foreign-account, 8-day silence-acceptance, **no credit without authorization — else cash-demandable**, named-buyer reporting, retention + commission-withholding) (1066-1082); mandato mercantil (account+name, silence-ratification) (1083-1097).
+- **Governing EVIDs:** EVID-227 (EV07).
+- **LB:** 07_ Arts. 1013-1097.
+- **Crossref:** e-invoicing FEX INCOTERMs (01/03); warehouse/consignment locations; SOQ-29 colones remnants.
+
+### C10 — AML compliance (Ley D. 498 + Reglamento D. 2-2000)
+**Covers:** sujetos obligados = 20 categories incl. **ANY mercantile society (Art. 2.20)** + professionals >$10k; unsupervised exempt ONLY from Oficialía (Art. 2 tail); UIF under FGR (3); threshold reporting **cash >$10,000 per client same-day or rolling-month (window = 30 continuous days back from last transaction, 17_ Art. 3 mechanics) / other financial media >$25,000; deadline 5 días hábiles from operation; insurers indemnizations too** (15_ Art. 9); suspicion reports amount-irrelevant, ≤15(+15)días-hábiles analysis then 5 días hábiles, attempts included, terrorism nexus (9-A); due diligence + **PEP enhanced identification** (9-B); KYC obligations: identify + on-whose-behalf; **retention 5y operation docs (from operation end) / 5y client ID+account+correspondence (from relation end) / ≥15y transaction registers (reconstructable)**; nominative-only, no anonymous/fictitious accounts (11-12); **8-field transaction capture incl. employee code + hour (13)**; Oficialía de Cumplimiento requirements + independence (14); electronic records/transmission valid (15-A); safe harbor (26-A) + tip-off crimes (26-B); no-tip-off rule (17_ Art. 4j); compliance-liaison 15-días-hábiles designation/change notice (17_ Art. 4g); **red-flag catalogs = configurable detection menu (structuring, velocity, activity-consistency, KYC-refusal, pattern-shift — case-creation, never auto-report)** (17_ Arts. 12-18); border $10k declaration context (4-8-A, 19-22).
+- **Governing EVIDs:** EVID-228 · EVID-229 · EVID-230 · EVID-231 (EV15) · EVID-232 · EVID-233 · EVID-234 · EVID-235 (EV17).
+- **LB:** 15_ Arts. 2-15-A, 19-26-B (current, post-reform (6)) · 17_ Arts. 3 (window mechanics only), 4, 11-19 (methodology only — R26).
+- **Crossref:** C2 retention matrix (SOQ-28); payroll user/role kin; fiscal-reporting días-hábiles engine.
+
+---
+
 ## Section B — Resolved contradictions ledger
 
 | # | Contradiction | Resolution (current authority) | Authority cite |
@@ -338,6 +410,8 @@ dated data from the F-14 v16 print (SOQ-11 discipline) with instrument OQs.
 | R22 | Aguinaldo retention: CT Art. 155 inc.2 "aguinaldo exempt from ISR retention" (EVID-063) vs Ley Art. 4.16 (2-SMM floor; excess retained, floor DEDUCTED since D.L. 458-2019) | **Ley 4.16 governs** (lex specialis, later in time): exemption up to 2 SMM comercio y servicios; excess = retention base after deducting the floor. CT 155-II read as within the floor. Vintage rows: 2014-2018 full-exemption transitories; 2021 $1,100; 2022-2024 $1,500 caps; 2025+ standing 2-SMM rule (SOQ-05 re-verifies) | EV54:EVID-165/167; EV05:EVID-063; EV53:EVID-159 xref |
 | R23 | Pensioner health cotización: 08_ Art. 29 "6% de su pensión" vs 09_ Art. 154 "7.80% de su pensión mensual" (S4/W9 find) | **7.80% governs** — D.L. 614 (2022) is later in time and specifically regulates the pensioner health cotización (also extends coverage to cónyuge/conviviente). 08_'s 6% = historical text; no reform needed (08_ Art. 29 only covers active-worker splits as operative) | EV09:EVID-199 (Art. 154 verbatim); historical EV08:EVID-193 |
 | R24 | 09_ registry title ("Ley del Sistema de Ahorro para Pensiones") vs content (Ley INTEGRAL del Sistema de Pensiones, D.L. 614, effective 2022-12-29, which DEROGATES D.L. 927-1996 the SAP) | **Content governs; title is a misnomer** (registry row amended 2026-08-18). Any SAP-era rate lore (e.g. 6.25%/6.75% splits) is DEAD for current periods — only D.L. 614 Art. 16's 16% (7.25/8.75) may be cited; SAP-era Normas Técnicas survive only where not contrary (09_ Art. 159) | EV09:EVID-197/200 (Arts. 16, 162, 164) |
+| R25 | 15_ registry title ("Ley contra el Lavado de Activos y del Financiamiento al Terrorismo") vs document content | **Content governs: Ley Contra el Lavado de Dinero y de Activos, D. 498 (2-dic-1998, D.O. 240 T.341 23-dic-1998), consolidated through reform (6) D.L. 104-2015** — no "Financiamiento al Terrorismo" in the title; registry row amended (2026-08-18, W10). Third title-vs-content incident after 29_/09_ — standing lesson reconfirmed | EV15: header + REFORMAS block (EVID-228 context) |
+| R26 | AML reglamento thresholds: 17_ Art. 3 "Quinientos Mil Colones" + 3 días hábiles vs 15_ Art. 9 (post-reform (2) D.L. 568-2013) "$10,000 efectivo / $25,000 otros medios" + 5 días hábiles | **15_ governs thresholds and clocks** (later-in-time restatement of Art. 9); 17_ (D. 2-2000) predates ALL six law reforms and is stale there — but its **window mechanics survive as the only corpus definition of the Art. 9 "término de un mes" (30 continuous days counted back from the last transaction, early-report once the multiple-operation total crosses the threshold)**, plus no-tip-off (Art. 4j), liaison notice (4g) and the red-flag catalogs (12-18). Post-reform reglamento acquisition queued (SOQ-27) | EV15:EVID-229 (Art. 9/9-A verbatim); EV17:EVID-232 (Art. 3 verbatim + supersession note) |
 
 ---
 
@@ -380,6 +454,19 @@ dated data from the F-14 v16 print (SOQ-11 discipline) with instrument OQs.
 | SOQ-20 | SMM 2025 **three-decimal prints** (daily/hourly tariffs): both PSM reads agree; transcribe exact-as-printed ([sic] discipline, D.E. 10-2025 precedent); gazette re-verification optional when D.O. recovers | P2 | payroll CSV fidelity note (origin: EV16 OQ-1) |
 | SOQ-21 | CT copy vintage: Índice Legislativo edition, stamps through (22), no as-of date — cross-checks consistent with post-2017 consolidation; re-verify stamped articles if a later CT reform lands | P1-P8 | payroll LB note (origin: EV11 OQ-3; non-blocking) |
 
+### S5 open questions (commercial-legal wave)
+
+| SOQ | Question | Blocking for | Record answer in |
+|---|---|---|---|
+| SOQ-22 | **07_ consolidation cutoff mid-2008** (reform (29) D.L. 641): post-2008 CC reforms unverified — before S5 synthesis trusts any article, check the Asamblea reform list (kin of 03_/54_ resolution); articles reformed by (29) carry USD wording, unreformed colones phrasing = textual remnant | C1-C9 trust | S5 prep acquisition/verification (origin: EV07 OQ-1) |
+| SOQ-23 | **SAS law absent**: Sociedad por Acciones Simplificada exists (if at all) under separate legislation — company-type menu incomplete; acquire the SAS law (numbering ≥66) and record side-by-side vs S.A./SRL | C4 | sources registry + C4 FR note (origin: EV07 OQ-2) |
+| SOQ-24 | **Quiebra block vintage** (Arts. 498-552, classic 1970 regime): verify whether modern insolvency/concursos legislation derogated it before citing beyond terminology | C5 (minor) | S5 OQ row (origin: EV07 OQ-3) |
+| SOQ-25 | **Ley de Registro de Comercio + Reglamento absent** (referenced 415/420/456 for matrícula renewal epochs, fees, sanctions, registry operations) | C1 | acquisition candidate ≥66 (origin: EV07 OQ-4) |
+| SOQ-26 | **Interés legal mercantil rate instrument** (Art. 960: fixed periodically by Economía) — dated config outside corpus; never hardcode | C8 | S5 FR config + OQ row (origin: EV07 OQ-6) |
+| SOQ-27 | **Current AML reglamento + UIF forms absent**: 17_ = 2000 pre-reform instrument (R26); the post-D.L.-568-2013 reglamento and UIF/FGR report formularios are not in corpus | C10 | acquisition candidate ≥66 + external-interface assumption (origin: EV17 OQ-1/OQ-2; EV15 OQ-1/OQ-2) |
+| SOQ-28 | **Retention matrix reconciliation** (synthesis deliverable): CC 10y books + issued/received facturas-anexas + 5y post-liquidation (07_ 451/454) vs AML 5y docs / 15y transaction registers (15_ 10-B/12) vs any DTE-specific retention in 45_/46_ — write the longest-per-object matrix in the S5 file; SaaS archive tiers (D3) must satisfy it | C2, C10, e-invoicing archive | S5 FR + OQ row |
+| SOQ-29 | Colones-era remnants in unreformed CC articles ("moneda nacional" 31; "un mil colones" 1038; ¢5,000 cooperative cap 19-II) — operative currency USD; cite as historical text, flag each value-level use (10_ discipline) | C4, C9 | S5 LB notes (origin: EV07 OQ-7) |
+
 ### Struck (resolved during evidence passes — retained for audit)
 
 - ~~40_ OQ-1~~ numeroControl alphanumeric — RESOLVED (EV18:EVID-070; DG45 §3.1 N°5) → R8.
@@ -412,6 +499,7 @@ dated data from the F-14 v16 print (SOQ-11 discipline) with instrument OQs.
 - S3/fiscal-reporting delivered: 8 files + index + CSV sidecar (SV-FREP-FR-001..208) — see `sv/requirements/fiscal-reporting/00_index.md`.
 - S4/payroll clusters: 10 (P1-P10), from 20 EVID entries (EVID-191..210) across 5 evidence files (EV16/EV08/EV09/EV11/EV65); P10 (Quincena-25) BLOCKED on the D.L. 499 acquisition (D.O. route down 2026-08-18).
 - S4/payroll delivered: 8 files + index + 2 CSV sidecars (SV-PAY-FR-001..137) — see `sv/requirements/payroll/00_index.md`.
-- Resolved contradictions: 24 (R1-R16 S1, R16 flagged [?]; R17-R22 ISR/S2; R23-R24 payroll/S4).
-- Open questions: S1 = 8 (MOQ-01/03/04/05/06/07/10/11; 19 struck/resolved incl. the 2026-08-17 schema pass); S2 = 7 opened, 4 open (SOQ-02/05/06/07), 3 resolved (SOQ-01/04 in-wave via 03 §7; SOQ-03 2026-08-18 via EVID-171/60_); S3 = 7 opened (SOQ-08..14; SOQ-10 carries an applied ruling); S4 = 7 opened (SOQ-15..21); EV53 OQ-1/OQ-3, EV54 OQ-1/OQ-3 and EV56 set already resolved.
-- Evidence corpus indexed: EVID-001..210 (S1 = 001..087 across 7 evidence files + DG45 + ARCH; S2 = ISR files 088..170; S3 = 172..190 + 171 = D.E. 10 gazette verification; S4/payroll = 191..210).
+- S5/commercial-legal clusters: 10 (C1-C10), from 25 EVID entries (EVID-211..235) across 3 evidence files (EV07/EV15/EV17); built W10 2026-08-18; synthesis pending (SOQ-22 verification + SOQ-23/25/27 acquisitions first).
+- Resolved contradictions: 26 (R1-R16 S1, R16 flagged [?]; R17-R22 ISR/S2; R23-R24 payroll/S4; R25-R26 commercial-legal/W10).
+- Open questions: S1 = 8 (MOQ-01/03/04/05/06/07/10/11; 19 struck/resolved incl. the 2026-08-17 schema pass); S2 = 7 opened, 4 open (SOQ-02/05/06/07), 3 resolved (SOQ-01/04 in-wave via 03 §7; SOQ-03 2026-08-18 via EVID-171/60_); S3 = 7 opened (SOQ-08..14; SOQ-10 carries an applied ruling); S4 = 7 opened (SOQ-15..21); S5 = 8 opened (SOQ-22..29); EV53 OQ-1/OQ-3, EV54 OQ-1/OQ-3 and EV56 set already resolved.
+- Evidence corpus indexed: EVID-001..235 (S1 = 001..087 across 7 evidence files + DG45 + ARCH; S2 = ISR files 088..170; S3 = 172..190 + 171 = D.E. 10 gazette verification; S4/payroll = 191..210; S5/commercial-legal = 211..235).
