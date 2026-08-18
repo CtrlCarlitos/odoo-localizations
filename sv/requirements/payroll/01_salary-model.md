@@ -173,9 +173,10 @@ consolidation — re-verify if a later CT reform lands (OQ-001).
 ## 4. Data Model
 
 Layer semantics: payroll is Odoo-native — all entities below live in the
-client (wave default `odoo`; see §5). No dated values live in this file;
-the SMM and SS-cap sidecars belong to `02_minimum-wage.md` and
-`05_social-security-contributions.md` respectively.
+client (wave default `odoo`; see §5). No dated values live in this file
+except the §5 version-regime notes; the SMM and SS-cap sidecars belong to
+`02_minimum-wage.md` and `05_social-security-contributions.md`
+respectively.
 
 **Earning-category model (on salary rules, stamped onto payslip lines):**
 
@@ -192,7 +193,7 @@ wave-wide authority; consumers reference the FR id, never restate):**
 
 | Earning class (anchor) | Category | In salario (CT 119) | In IBC (SIP 14) | ISR gravada input (53_ 1.d) | F-14 column family (35_ §2) |
 |------------------------|----------|--------------------|-----------------|------------------------------|------------------------------|
-| Ordinary pay — money retribution for ordinary services (time, unit-of-work, commission ordinary salaries; carries the presumed séptimo-día/asueto components of period salaries, decomposed by file 03) | salario_integrante | yes | yes | gravada | G (codes 01/60/80 — totality rule) |
+| Ordinary pay — money retribution for ordinary services (time, unit-of-work, commission ordinary salaries; carries the presumed séptimo-día/asueto components of period salaries, decomposed by file 03) | salario_integrante | yes | yes | gravada | G (codes 01/60/80 — totality rule; code semantics owned by `fiscal-reporting/07_codes-and-informs.md` SV-FREP-FR-171, EVID-182) |
 | Habitual sobresueldos y bonificaciones | salario_integrante | yes | yes | gravada | H |
 | Overtime remuneration (trabajo extraordinario) | salario_integrante | yes | yes | gravada | G |
 | Rest-day / asueto-day work remuneration | salario_integrante | yes | yes | gravada | G |
