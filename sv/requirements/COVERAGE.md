@@ -20,20 +20,23 @@ No orphans: every row carries at least one of the four. Sources fully
 superseded but cited as historical LB (25_\*, 40_, 41_) still count as
 cited-as-LB.
 
-## Matrix (50 source files + schemas/ dir = 51 rows)
+## Matrix (53 source files + schemas/ dir = 54 rows)
 
 | Source | Status | Cited in / note |
 |--------|--------|-----------------|
 | 01_Ley_IVA.pdf | cited-as-LB | `e-invoicing/01` LB-008/009/010; `e-invoicing/03` LB-012 |
 | 02_Reglamento_IVA.pdf | pending-S2+ | taxation / commercial-legal wave |
-| 03_Ley_ISR.pdf | pending-S2+ | ISR wave |
+| 03_Ley_ISR.pdf | pending-S2+ | ISR wave — **superseded as current authority by 54_** (retained as W6 historical LB; reform chain D.L. 762-2014/458-2019/969-2024/293-2025) |
 | 04_Reglamento_ISR.pdf | pending-S2+ | ISR wave |
 | 05_Codigo_Tributario.pdf | cited-as-LB | `e-invoicing/01` LB-007/011/012 |
 | 06_Guia_Facturacion_Electronica.pdf | not-applicable-this-wave | non-normative guide; S1 rests on 44_/45_/46_/50_/51_/52_ |
 | 07_Codigo_Comercio.pdf | pending-S2+ | commercial-legal wave |
 | 08_Ley_ISSS.pdf | pending-S2+ | payroll wave |
 | 09_Ley_Sistema_Pensiones.pdf | pending-S2+ | payroll wave |
-| 10_Tablas_Retencion_ISR.pdf | pending-S2+ | ISR wave |
+| 10_Tablas_Retencion_ISR.pdf | pending-S2+ | ISR wave — 1992 colones-era (D.E. 75/25); superseded by 53_ (D.E. 10-2025); retained as historical LB |
+| 53_Tablas_Retencion_ISR_DE10_2025.pdf | pending-S2+ | ISR wave (current retention tables) |
+| 54_Ley_ISR_consolidada_DO79_T447_2025-04-30.pdf | pending-S2+ | ISR wave (current consolidated Ley ISR; reform history) |
+| 55_Reforma_Ley_ISR_DL293_DO_2025-04-30.pdf | pending-S2+ | ISR wave (Art. 37 reform, effective 2025-05-08) |
 | 11_Codigo_Trabajo.pdf | pending-S2+ | payroll wave |
 | 12_Ley_Zonas_Francas.pdf | pending-S2+ | special-regimes wave |
 | 13_Ley_Organica_Aduanas.pdf | pending-S2+ | special-regimes / customs-export wave |
@@ -83,5 +86,5 @@ cited-as-LB.
 | cited-as-LB | 14 |
 | superseded-not-cited | 1 (schemas/) |
 | not-applicable-this-wave | 8 |
-| pending-S2+ | 28 |
-| **Total** | **51** |
+| pending-S2+ | 31 |
+| **Total** | **54** |

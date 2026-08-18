@@ -15,10 +15,10 @@ available.
 |------|-------|-------|--------|-----------|------------------|
 | `01_Ley_IVA.pdf` | taxation | Ley de Impuesto a la Transferencia de Bienes Muebles y a la Prestación de Servicios (IVA) | pending | pending | pending |
 | `02_Reglamento_IVA.pdf` | taxation | Reglamento de la Ley IVA | pending | pending | pending |
-| `03_Ley_ISR.pdf` | taxation | Ley de Impuesto sobre la Renta (ISR) | pending | pending | pending |
+| `03_Ley_ISR.pdf` | taxation | Ley de Impuesto sobre la Renta (ISR) — consolidated through reform (21) D.L. 233-2012 — **SUPERSEDED as current authority by `54_`** | pending | pending | pending |
 | `04_Reglamento_ISR.pdf` | taxation | Reglamento de la Ley ISR | pending | pending | pending |
 | `05_Codigo_Tributario.pdf` | taxation | Código Tributario | pending | pending | pending |
-| `10_Tablas_Retencion_ISR.pdf` | taxation | Tablas de Retención ISR (asalariados) | pending | pending | pending |
+| `10_Tablas_Retencion_ISR.pdf` | taxation | Tablas de Retención ISR (D.E. 75-1991/D.E. 25-1992, colones-era) — **SUPERSEDED by `53_` (D.E. 10-2025)**; retained as historical LB | pending | pending | pending |
 | `31_Guia_FOVIAL_COTRANS.pdf` | taxation | Guía FOVIAL y COTRANS | pending | pending | pending |
 | `07_Codigo_Comercio.pdf` | commercial-legal | Código de Comercio | pending | pending | pending |
 | `15_Ley_Lavado_Activos.pdf` | commercial-legal | Ley contra el Lavado de Activos y del Financiamiento al Terrorismo | pending | pending | pending |
@@ -70,6 +70,20 @@ Current official set from factura.gob.sv. These supersede the 2022-2025 document
 | `51_Catalogos_Facturacion_Electronica_v1.1_2026-07.xlsx` | catalogs | Catálogos Facturación Electrónica v1.1 — machine-readable workbook (supersedes `25_*.xlsx`) | 2026-07-01 | 2026-08-16 | factura.gob.sv → wpdmdl 5353 |
 | `52_Json_Schemas_DTE_Eventos_2026-08-11.zip` | e-invoicing | JSON Schemas por DTE y evento (2026-08-11): version bumps CCF v4, F/CD/CL/CR/DCL/FSE v2, FEX v3, NC/ND/NR v4, contingencia v4, invalidación v3 + **NEW: `fe-eop-v1` (Evento de Operaciones Especiales), `fe-eret-v1` (Evento de Retorno)** — supersedes `schemas/` | 2026-08-11 | 2026-08-16 | factura.gob.sv → wpdmdl 4399 |
 
+## Registry — ISR 2025 update (retrieved 2026-08-17)
+
+Post-W6 source acquisition closing the two ISR synthesis blockers (missing
+current retention tables; post-2012 reform verification). Reform chain now
+fully enumerated (see `54_` tail): post-2012 reforms = D.L. 762-2014
+(declared unconstitutional, sent. 96-2014), D.L. 458-2019, D.L. 969-2024,
+D.L. 293-2025 (+ interpretaciones auténticas D.L. 192-2018, D.L. 345-2019).
+
+| File | Topic | Title | Issued | Retrieved | Provenance (URL) |
+|------|-------|-------|--------|-----------|------------------|
+| `53_Tablas_Retencion_ISR_DE10_2025.pdf` | taxation | Tablas de Retención del ISR — **Decreto Ejecutivo No. 10** (30-abr-2025; certified copy, Casa Presidencial). Monthly/quincenal/semanal + June/December recálculo tables; base-exenta $550/mes ($6,600/yr); repeals D.E. 95-2015 (D.O. 236 T.409, 22-dic-2015); vigencia 8 days after D.O. publication, in effect from May-2025 (scanned; OCR ok) | 2025-04-30 | 2026-08-17 | [transparenciafiscal.gob.sv/downloads/pdf/700-DGII-DC-2025-01.pdf](https://www.transparenciafiscal.gob.sv/downloads/pdf/700-DGII-DC-2025-01.pdf) (via [MH aviso](https://www.mh.gob.sv/modificacion-a-las-tablas-de-retencion-del-impuesto-sobre-la-renta-decreto-ejecutivo-no-10/)) |
+| `54_Ley_ISR_consolidada_DO79_T447_2025-04-30.pdf` | taxation | Ley de Impuesto sobre la Renta — Asamblea Legislativa official consolidation, titled "actualizada con D.O. N° 79, T. 447, 30-abr-2025" (content carries later related-law refs through Jan-2026). 65 pp; **current authority superseding `03_`** (2012 consolidation). Tail block = authoritative reform history (25 reforms + interpretaciones + inconstitutionalities + related transitories) | 2025-04-30 (title) | 2026-08-17 | [sitio.aduana.gob.sv download 16147](https://sitio.aduana.gob.sv/download/ley-de-impuesto-sobre-la-renta-actualizada-con-el-d-o-n-79-t-447-30-de-abril-de-2025/) |
+| `55_Reforma_Ley_ISR_DL293_DO_2025-04-30.pdf` | taxation | Reforma a la Ley ISR — **D.L. 293 (30-abr-2025)**, D.O. N° 79, T. 447, 30-abr-2025 (volume pp. 21-23; extracted from the full D.O. issue). Reforms Art. 37 Tramos I/II only: exempt band $4,064 → $6,600 (Tramos III/IV + cuotas fijas unchanged); vigencia 8 days after publication → effective 2025-05-08 (scanned; OCR via PSM 6) | 2025-04-30 | 2026-08-17 | [diariooficial.gob.sv/seleccion/31505](https://www.diariooficial.gob.sv/seleccion/31505) (volume Id 31505) |
+
 ## Registry — Tax reporting (F-07 / F-14 / calendar)
 
 | File | Topic | Title | Issued | Retrieved | Provenance (URL) |
@@ -110,7 +124,7 @@ Official MH JSON schemas for DTE transmission, one per document/event type.
   with Decreto 431 (2007); its Reglamento (Decreto 131) is file `17b_`.
 - Numbering gaps (21, 23, 24, 28) are intentional — those documents were not
   carried over from the prior project. New acquisitions continue the sequence
-  after the highest existing number (currently 52).
+  after the highest existing number (currently 55).
 - **2026-08-16 update (files 44-52):** the current MH official set postdates
   most tuky-era documents. Superseded files are RETAINED (they are cited Legal
   Basis for evidence already collected); requirement synthesis must prefer the

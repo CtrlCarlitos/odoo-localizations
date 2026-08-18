@@ -65,8 +65,29 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
   (4) Ley ISR copy consolidated only through D.L. 233-2012 — verify post-2012
   reforms (Art. 37 brackets / 41 rates / 72 5% / 29-A limits) before
   synthesis trusts them.
-- 50 source files (numbering 01–52; gaps 21/23/24/28 unused; next file = 53)
-  + superseded 2022 `schemas/` dir + current 15 schemas inside the 52_ zip.
+- 50 source files (numbering 01–52; gaps 21/23/24/28 unused) + superseded 2022
+  `schemas/` dir + current 15 schemas inside the 52_ zip.
+
+### El Salvador — W6.5 ISR source acquisition (COMPLETE 2026-08-17, same day)
+Both ISR synthesis blockers closed; sources 53_/54_/55_ registered:
+- **53_ = D.E. 10-2025** (certified copy via transparenciafiscal): the CURRENT
+  retention tables — monthly $550 exempt / quincenal $275 / semanal $137.50,
+  June/December recálculo tables, base definition (closes 10_ OQ-4 for the
+  current regime), multi-employer rule, repeals D.E. 95-2015, effective
+  May-2025. Supersedes 10_ (1992 colones-era) as operative authority.
+- **54_ = Ley ISR Asamblea consolidation** (title: D.O. 79 T.447 30-abr-2025;
+  content refs through Jan-2026): current authority superseding 03_. Tail
+  block = authoritative reform history: post-2012 = D.L. 762-2014
+  (unconstitutional, sent. 96-2014), D.L. 458-2019, D.L. 969-2024, D.L.
+  293-2025 + interpretaciones D.L. 192-2018/345-2019 + related transitories.
+- **55_ = D.L. 293-2025** (D.O. extract pp. 21-23): Art. 37 Tramos I/II only —
+  exempt $4,064 → $6,600 (10% bracket $6,600.01–$9,142.86 + $212.12; III/IV +
+  cuotas unchanged); effective 2025-05-08.
+- Verified against 54_: Art. 41 (30%/25%), Art. 72 (5%), Art. 29-A limits
+  unchanged → 03_ OQ-8 substantively resolved (Art. 3 changed — movimientos
+  de dinero; exact D.L. attribution 458-2019 vs 969-2024 pending W7 read).
+- Also spotted (not yet acquired): **F14 v17** form (2026-06-03) newer than
+  our 35_F14_v16 manual — matters for the fiscal-reporting wave.
 
 ### El Salvador — synthesis S1 (COMPLETE, pushed) + schema pass + §3.11 addendum (2026-08-17)
 Six Takumi files + index + coverage, **222 FRs / 70 LBs / 99 ACs / 47 OQs
@@ -246,6 +267,18 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
   4728=Normativa v2.0, 4725=catalogs XLSX-as-pdf, 5353=catalogs XLSX,
   4399=schemas zip, 4726=Manual Funcional, 4397=eventos manual,
   4398=estructuras manual v1.6 (237pp). Re-verify before reuse.
+- **Diario Oficial volumes (recipe, verified 2026-08-17)**:
+  `POST https://www.diariooficial.gob.sv/api/v1/diarios-disponibles`
+  (form data `year`, `month`) → JSON rows with `Id`/`NombreArchivo` →
+  `https://www.diariooficial.gob.sv/seleccion/{Id}` serves the full volume
+  PDF (opens with EMPTY password in pypdf). Online copies are watermarked
+  "SOLO PARA CONSULTA — NO TIENE VALIDEZ LEGAL" (fine for extraction).
+  D.O. scans OCR only under tesseract PSM 6 (same quirk as 44_).
+- **Asamblea consolidations**: asamblea.gob.sv was network-unreachable
+  2026-08-17; the official-mirror route that worked is the DGA (Aduanas)
+  WordPress download-manager: fetch the `/download/<slug>/` page, parse the
+  embedded `?wpdmdl=<id>` href, download that (plain URL of the file 404s —
+  the degree-sign `°` in filenames gets mangled).
 
 ## 7. Gotchas & verified lessons
 
@@ -278,16 +311,18 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
    decided and recorded (see §5 register + regulatory-change-management.md);
    template/guide updated; correction corollary → 02 §3.11 FR-159..164.
 3. **S2 waves** (each: extraction → evidence → synthesis, same patterns;
-   source mapping authoritative in COVERAGE.md): ISR (03_/04_/10_) —
-   **extraction + evidence DONE (W6); synthesis pending** → F-07/F-14
-   reporting (29_/30_/34_–39_) → payroll (08_/09_/11_/16_) →
-   commercial-legal (07_/15_/17_) → special-regimes (12_/13_/14_/17b_/42_/
-   43_) → NIIF/chart-of-accounts (32_/33_). F-14 manual (35_) is OCR'd.
-   ISR synthesis blockers to resolve first: (a) acquire the CURRENT
-   retention-tables executive decree (10_ is 1992-colones, superseded;
-   check MH/factura.gob.sv, register from 53_); (b) verify post-2012 Ley
-   ISR reforms (OQ-8); then prep (digest/merge) → plan doc → subagent
-   synthesis into `sv/requirements/taxation/`.
+    source mapping authoritative in COVERAGE.md): ISR (03_/04_/10_) —
+    **extraction + evidence DONE (W6); blockers CLOSED (W6.5: 53_/54_/55_
+    acquired, 03_ OQ-8 substantively resolved)** → next = **W7 evidence
+    pass** on 53_/54_/55_ (new-authority read: Art. 37 new table, Art. 3
+    movimientos-de-dinero scope, D.L. 458-2019 & 969-2024 article mapping,
+    10_ OQ-5 chain: D.E. 75/25 → [interim?] → D.E. 95-2015 → D.E. 10-2025;
+    EVID numbering continues from 153) → prep (digest/merge, update the W6
+    rulings) → plan doc → subagent synthesis into `sv/requirements/taxation/`
+    → F-07/F-14 reporting (29_/30_/34_–39_; **check F14 v17 2026-06 vs our
+    v16 manual — acquire if the layout moved**) → payroll (08_/09_/11_/16_)
+    → commercial-legal (07_/15_/17_) → special-regimes (12_/13_/14_/17b_/42_/
+    43_) → NIIF/chart-of-accounts (32_/33_). F-14 manual (35_) is OCR'd.
 4. **Externally-blocked OQs** (check factura.gob.sv periodically): Retorno/
    OpEsp endpoints (MOQ-05 — 52_-schema absence verified 2026-08-17; 03
    OQ-006, 02 OQ-003); CAT-024 vs Cuadro-2 taxonomy confirmation. When new
