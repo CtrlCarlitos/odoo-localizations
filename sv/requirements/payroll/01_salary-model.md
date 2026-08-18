@@ -131,7 +131,8 @@ consolidation — re-verify if a later CT reform lands (OQ-001).
   applying exactly one of the seven Art. 142-A derivation rules selected
   by the worker's pay form (catalog in §4): SB-R1 hourly pay — hourly
   rate × hours of the ordinary *jornada* (workday); SB-R2 period pay
-  (week, *quincena*, month or longer) — period total ÷ days of the
+  (week, *quincena* (fortnight), month or longer) — period total ÷
+  days of the
   period; SB-R3 mixed remuneration forms — six-day average; SB-R4
   *unidad de obra* (unit of work) — six-day total; SB-R5 *destajo*
   (piecework) — total ÷ days used; SB-R6 *a domicilio* (home work) — per
@@ -203,6 +204,11 @@ wave-wide authority; consumers reference the FR id, never restate):**
 | Vacation pay (prestación with express IBC inclusion "incluido el período de vacaciones") | prestacion_social | no | yes (express inclusion) | gravada (EVID-204 mapping note) | G |
 | Aguinaldo | prestacion_social | no | no (14.b) | split_exento_gravado — floor 2×SMM comercio y servicios, taxation-owned (SV-TAX-FR-120) | J / K pair |
 | Other CT statutory benefits (indemnización, illness/maternity subsidies, sepelio; séptimo día decomposes into ordinary pay per Art. 174) | prestacion_social | no | no (14.c prestaciones sociales) | crosscheck_oq (Ley ISR Art. 4 cross-check — OQ-003) | value feed via `08_isr-interfaces.md` |
+
+Matrix resolution note: the crosscheck_oq cells above are resolved by
+`08_isr-interfaces.md` §3.2 (FR-123..125), 2026-08-18 — indemnización
+split_exento_gravado, sepelio no_gravada, illness/maternity subsidies
+gravada (OQ-002/OQ-003 below).
 
 **Salario básico engine (per contract):**
 
@@ -303,5 +309,5 @@ files (D.E. 10-2025 effective 2025-05-08; F-14 v16 print Oct-2025).
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
 | OQ-001 | SOQ-21 carried: CT copy vintage — the 11_ source is the Índice Legislativo edition with reform stamps (1)-(22) and no as-of date; the articles cited here (119-123, 140-143) cross-check consistent with a post-2017 consolidation. Re-verify stamped articles if a later CT reform lands (D.O. watch). | no | Takumi S4 (sources watch) | open |
-| OQ-002 | Occasional gratuities ISR treatment: CT Art. 119 excludes them from *salario* and SIP Art. 14.a excludes them from IBC, but no corpus norm excludes them from the ISR *remuneraciones gravadas* concept; the matrix marks gravada = yes pending confirmation in the interfaces file (`08_isr-interfaces.md`, taxation cross-check). | no | Takumi S4 (task 8) | open |
-| OQ-003 | ISR gravada classification of the non-vacation/aguinaldo *prestaciones* (indemnización, illness/maternity subsidies, sepelio): the Ley ISR Art. 4 exemption-list cross-check belongs to `08_isr-interfaces.md` + taxation; the matrix cell carries crosscheck_oq until then (EVID-204/209 mapping notes). | no | Takumi S4 (task 8) | open |
+| OQ-002 | Occasional gratuities ISR treatment: CT Art. 119 excludes them from *salario* and SIP Art. 14.a excludes them from IBC, but no corpus norm excludes them from the ISR *remuneraciones gravadas* concept; the matrix marks gravada = yes pending confirmation in the interfaces file (`08_isr-interfaces.md`, taxation cross-check). | no | Takumi S4 (task 8) | resolved 2026-08-18 — `08` §3.2 FR-125 confirms gravada (no exclusion in the Ley ISR Art. 3-4 lists); crosscheck flag cleared |
+| OQ-003 | ISR gravada classification of the non-vacation/aguinaldo *prestaciones* (indemnización, illness/maternity subsidies, sepelio): the Ley ISR Art. 4 exemption-list cross-check belongs to `08_isr-interfaces.md` + taxation; the matrix cell carries crosscheck_oq until then (EVID-204/209 mapping notes). | no | Takumi S4 (task 8) | resolved 2026-08-18 — `08` §3.2 FR-123 (indemnización split_exento_gravado per Art. 4.3), FR-124 (sepelio no_gravada), FR-125 (subsidies gravada); crosscheck_oq cells resolved |

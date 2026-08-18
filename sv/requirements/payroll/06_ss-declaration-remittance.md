@@ -359,11 +359,12 @@ instrument acquisition via the catalog's source_article re-seed.
 ## 6. Acceptance Criteria
 
 - **AC-001:** Given a declaration month whose following month M+1
-  opens with three non-business days among its first thirteen
-  calendar days (a weekend pair plus one asueto — placeholder dates)
-  so that only nine días hábiles elapse by calendar day 13, then
-  due_date = the 10th día hábil = the 14th calendar day of M+1 —
-  the deadline falls beyond the 10th calendar day due to the asueto,
+  opens with four non-business days among its first thirteen
+  calendar days (a weekend pair plus two asuetos — placeholder
+  dates) so that only nine días hábiles elapse by calendar day 13
+  (13 − 4 = 9), then due_date = the 10th día hábil = the 14th
+  calendar day of M+1 — the deadline lands beyond calendar day 13,
+  pushed past the 10th calendar day by the non-business days,
   computed exclusively by SV-FREP-FR-203's first_n_habiles(M+1, 10),
   and the payroll module ships no business-day table of its own
   (FR-086; cross-ref SV-FREP-FR-203).

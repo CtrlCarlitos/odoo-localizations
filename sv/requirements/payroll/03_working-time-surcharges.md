@@ -183,9 +183,10 @@ consumed here by FR id).
   just-cause absences preserve it (per-complete-week accrual: the right
   attaches to complete semanas laborales — a week not completed within
   the employment, e.g. a mid-week hire's or a termination's tail week,
-  is not a complete semana laboral and accrues nothing; justification
-  governs absences inside an employment week, not the employment
-  window itself). (LB-008; LB-011; EVID-203)
+  is treated as not a complete semana laboral and accruing nothing —
+  a disclosed working assumption, the corpus being silent on the tail
+  week (OQ-005); justification governs absences inside an employment
+  week, not the employment window itself). (LB-008; LB-011; EVID-203)
 - **SV-PAY-FR-033:** The system shall accrue the rest-day prestación
   for workers NOT subject to work schedules (incl. the Decreto
   11-2025 Art. 3 collection rubros, "no sujetos a horarios de
@@ -453,3 +454,4 @@ them.
 | OQ-002 | Local-festivity day quantification: CT Art. 190's third row is "el día principal de la festividad más importante del lugar, según la costumbre" — no national municipality catalog exists in the corpus; FR-037 carries it as per-locality configuration and each deployment must record its municipality's day (custom, not corpus). | no | Takumi S4 (payroll config) | open |
 | OQ-003 | Art. 193 stay-open sector catalog: the article enumerates the public essential services that may remain open on asuetos, but the evidence record abbreviates the list ("enumerated sectors"); FR-041 ships the catalog structure empty of invented values pending transcription from the article at implementation. | no | Takumi S4 (sources watch) | open |
 | OQ-004 | Hourly-básico conversion for sub-8h jornadas: file 01's stored hourly rate derives daily ÷ 8 on the 8-hour precedent (its AC-002), and Art. 142-B pins ÷ 8 only for a domicilio (SB-R6); whether a 7-hour nocturna or 6-hour peligrosa jornada converts daily ÷ its own jornada hours is corpus-silent — implementations must not re-derive here (file 01 owns the rate), so the divisor convention needs an 01-side ruling before sub-8h nocturnal recargos compute on a stored hourly rate. | no | Takumi S4 (file 01 owner) | open |
+| OQ-005 | Séptimo día of an employment-incomplete week: CT Arts. 171-176 condition the prestación on completing the semana laboral and address absences inside a week, but are silent on whether a termination's tail week (or a mid-week hire's first week) earns a proportional séptimo or nothing; FR-032's zero-accrual reading ships as a disclosed working assumption (corpus-silent default) pending guidance — proportional proration being the live alternative. | no | Takumi S4 (labor ruling watch) | open |

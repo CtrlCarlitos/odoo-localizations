@@ -411,6 +411,7 @@ dated data from the F-14 v16 print (SOQ-11 discipline) with instrument OQs.
 - S3/fiscal-reporting clusters: 12 (F1-F12), from 19 EVID entries (EVID-172..190) across 5 evidence files (EV29/EV30/EV34/EV35/EV61-64); forms are primary authority for declaration mechanics (34_/35_ manuals + 38_/39_/59_ forms + 61_-64_ informs).
 - S3/fiscal-reporting delivered: 8 files + index + CSV sidecar (SV-FREP-FR-001..208) — see `sv/requirements/fiscal-reporting/00_index.md`.
 - S4/payroll clusters: 10 (P1-P10), from 20 EVID entries (EVID-191..210) across 5 evidence files (EV16/EV08/EV09/EV11/EV65); P10 (Quincena-25) BLOCKED on the D.L. 499 acquisition (D.O. route down 2026-08-18).
+- S4/payroll delivered: 8 files + index + 2 CSV sidecars (SV-PAY-FR-001..137) — see `sv/requirements/payroll/00_index.md`.
 - Resolved contradictions: 24 (R1-R16 S1, R16 flagged [?]; R17-R22 ISR/S2; R23-R24 payroll/S4).
 - Open questions: S1 = 8 (MOQ-01/03/04/05/06/07/10/11; 19 struck/resolved incl. the 2026-08-17 schema pass); S2 = 7 opened, 4 open (SOQ-02/05/06/07), 3 resolved (SOQ-01/04 in-wave via 03 §7; SOQ-03 2026-08-18 via EVID-171/60_); S3 = 7 opened (SOQ-08..14; SOQ-10 carries an applied ruling); S4 = 7 opened (SOQ-15..21); EV53 OQ-1/OQ-3, EV54 OQ-1/OQ-3 and EV56 set already resolved.
 - Evidence corpus indexed: EVID-001..210 (S1 = 001..087 across 7 evidence files + DG45 + ARCH; S2 = ISR files 088..170; S3 = 172..190 + 171 = D.E. 10 gazette verification; S4/payroll = 191..210).
