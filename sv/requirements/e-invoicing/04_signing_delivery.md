@@ -23,8 +23,8 @@ electronic delivery of the *entrega* (delivery package = Archivo DTE +
 RG) under both transmission modalities and both channels, the composition
 of the *Archivo DTE* (DTE file), and archive/conservation under decision
 D3 (mandatory Tier A client mirror + paid Tier B SaaS hosting). It merges
-what earlier files in this directory referenced as `04_signing.md` (A6)
-and `05_delivery.md` (A7).
+the originally planned signing cluster (A6) and delivery cluster (A7) into
+this single file.
 
 It does **not** cover: document structures (`01_document-types.md`), the
 MH connector, transmission modalities' clocks and the state machine
@@ -32,9 +32,10 @@ MH connector, transmission modalities' clocks and the state machine
 semantics and deadlines (`03_events.md`), catalog governance (A9,
 `../catalogs/`), tax computation (A10), onboarding/authorization beyond
 certificate acquisition (A11), or the private protocol's own contract
-detail and versioning (`06_api-protocol.md`, A12). Where this file and
-`03_events.md` FR-090 differ on where event signing executes, this file
-governs (per D2); see OQ-008.
+detail and versioning (`06_api-protocol.md`, A12). Where event signing
+executes, `03_events.md` FR-090 (as amended, S1) and this file agree:
+the SaaS orchestrates — it generates and validates, the CLIENT signs
+(per D2 and FR-131/134 here), the SaaS transmits; see OQ-008 (resolved).
 
 ## 2. Legal Basis
 
@@ -66,7 +67,7 @@ arbitrated, the resolution id (R1–R16) from the master index is noted.
 - **SV-EINV-FR-131:** The system shall implement the JWS signer CLIENT-SIDE in the Odoo module (Python, RS512): the emitter's certificate and private key live only in the client's encrypted vault, and the SaaS shall never hold, receive, generate, proxy or back up private key material; no private key or key password shall ever cross the private protocol. The implementation follows the MH reference *firmador* pattern (local-only signer; MH distributes Java/Docker/Windows references) but is an independent Python re-implementation with no runtime dependency on the MH firmador. (LB-013 D2; LB-007; LB-003)
 - **SV-EINV-FR-132:** The system shall implement the signing round-trip over the private minimal protocol: (a) the SaaS generates/validates the document payload and returns a signing request (exact bytes to be signed, artifact type DTE/event, ambiente, algorithm RS512); (b) the Odoo client checks the request's ambiente against the vault's per-environment certificate, signs locally, and returns the JWS compact serialization; (c) the SaaS verifies the signature against the emitter's public certificate before transmission, assembles the signed artifact, and transmits it; (d) every round-trip state (pending-sign, signed, verify-failed) is surfaced to the client. The exact wire envelope (full MH JSON vs. an opaque canonical payload — see OQ-001) is owned by `06_api-protocol.md`. (LB-013 D2; LB-003)
 - **SV-EINV-FR-133:** The signer shall produce `firmaElectronica` as a JWS compact serialization (algorithm RS512) computed over the full DTE or event JSON, using the emitter's AT-issued simple-signature certificate and asymmetric keys with the private key held PKCS8-encoded and password-protected in the vault. (LB-003; LB-007; OCR items RSASSA/CAGES → OQ-002)
-- **SV-EINV-FR-134:** All four event types (invalidación, contingencia, retorno, operaciones especiales) shall ride the SAME client-side signing round-trip as DTEs — events are signed with the emitter's certificate before transmission, and the AT validates the certificate on every document and event. (LB-003; LB-013 D2; cross-ref `03_events.md` FR-090 — this file governs where signing executes, OQ-008)
+- **SV-EINV-FR-134:** All four event types (invalidación, contingencia, retorno, operaciones especiales) shall ride the SAME client-side signing round-trip as DTEs — events are signed with the emitter's certificate before transmission, and the AT validates the certificate on every document and event. (LB-003; LB-013 D2; cross-ref `03_events.md` FR-090 — amended S1 to orchestration wording consistent with this FR; OQ-008 resolved)
 - **SV-EINV-FR-135:** The system shall classify certificate-related MH rejections (expired, revoked or mismatched certificate) as a distinct error family — separate from data/validation errors — shall block further signing attempts with the offending certificate, and shall raise proactive expiry alarms from the vault (FR-138). (LB-003; LB-008)
 
 ### 3.2 Certificate vault & credential lifecycle
@@ -181,7 +182,7 @@ required by this file.
 | FR-131 | odoo | l10n_sv_edi.signer (new) | — | Python JWS RS512 signer; no MH endpoint calls; no runtime dependency on MH firmador |
 | FR-132 | shared | — | protocol envelope | Round-trip contract; exact envelope = `06_api-protocol.md` (OQ-001); client pre-validation runs before requesting a sign (D2 dual validation) |
 | FR-133 | odoo | l10n_sv_edi.signer | firmaElectronica | JWS execution client-side; SaaS verifies against public cert before transmission |
-| FR-134 | shared | l10n_sv_edi.event | — | Same round-trip for the 4 event types (03_events.md FR-090 wording conflict → OQ-008; this file governs) |
+| FR-134 | shared | l10n_sv_edi.event | — | Same round-trip for the 4 event types (03_events.md FR-090 amended S1 to orchestration wording; OQ-008 resolved) |
 | FR-135 | saas | account.move, l10n_sv_edi.event | rejection family | Cert-error taxonomy surfaced through protocol state pushes; client renders vault-linked remediation |
 | FR-136 | odoo | l10n_sv_edi.certificate | environment | Per-env vault rows; env binding enforced at sign time |
 | FR-137 | odoo | l10n_sv_edi.certificate | key_password | Policy check at entry; SaaS API creds counterpart = 02 FR-057 |
@@ -229,12 +230,12 @@ required by this file.
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
-| OQ-001 | Signing envelope shape (FR-132): JWS must cover the exact bytes MH validates (full DTE/event JSON per Cuadro 10), but the private protocol is designed NOT to resemble the MH schema (D2). Decide: (a) opaque full-MH-JSON signing envelope (schema passes through the client for signing only), (b) server-side canonicalization with client-side digest signing (verify MH accepts the derived signature), or (c) hybrid. Cryptographic + IP design owned by `06_api-protocol.md`. | yes | Takumi + SaaS team | open |
+| OQ-001 | Signing envelope shape (FR-132): JWS must cover the exact bytes MH validates (full DTE/event JSON per Cuadro 10), but the private protocol is designed NOT to resemble the MH schema (D2). Decide: (a) opaque full-MH-JSON signing envelope (schema passes through the client for signing only), (b) server-side canonicalization with client-side digest signing (verify MH accepts the derived signature), or (c) hybrid. Cryptographic + IP design owned by `06_api-protocol.md`. | no | Takumi + SaaS team | resolved — Resolved by SV-PROT-FR-021..024 (envelope: opaque full MH JSON bytes; digest-signing rejected) |
 | OQ-002 | Cuadro 10 OCR garbles (DG45 §5): "RSAS12" (likely RSASSA-PKCS1-v1_5), "CAGES" (2022 text read PKCS8EncodedKeySpec), "IWS" (= JWS). Confirm exact algorithm/key-encoding identifiers from 45_/46_ raw text; RS512 is taken from the firmador contract (22_). | no | Takumi (raw-text pass) | open |
 | OQ-003 | QR `fechaEmi` parameter format (DD-MM-YYYY vs YYYY-MM-DD) and URL-encoding rules are not stated in the extracts; confirm from 22_/46_ raw text or live consultaPublica behavior (FR-147). | no | Takumi (raw-text pass) | open |
 | OQ-004 | Download-site minimum requirements (Cuadro 11 p. 43) not fully extracted (availability, retention, formats); obtain from 45_ raw text before the SaaS download portal is specified (FR-149). | no | SaaS team | open |
 | OQ-005 | Email channel scope: Cuadro 11 says email carries "solo contenido de la entrega" — determine whether the Archivo DTE may be attached or only the RG/link; set the product default (FR-149). | no | Takumi + SaaS team | open |
 | OQ-006 | Certificate renewal/revocation procedure post-acreditamiento (prod renewal cadence, test-cert re-issuance after the 2-month window, revocation notice channel) is not detailed in the 27_/46_ extracts; obtain before vault lifecycle FRs are implemented (FR-138). | no | Takumi (raw-text pass) | open |
 | OQ-007 | Per-type Versión Legible A/B/C/D sidecar: the 2022 manual carries category columns per structure; v2.0 carries the Versión Legible column in Anexo II (per DG45 §4 concept note). Build the machine-readable per-type category sidecar during the catalogs pass and verify the v2.0 column exists for all 11 types (FR-143). | no | Takumi (catalogs pass) | open |
-| OQ-008 | Cross-file conflict: `03_events.md` FR-090 states events are "generate[d], validate[d], sign[ed] and transmit[ted] exclusively in the SaaS core", which contradicts D2 (client-side signing; SaaS never holds private keys) and FR-131/134 here. This file governs; recommend amending 03 FR-090 wording ("orchestrate the signing round-trip") in a later pass. | no | Controller | open |
+| OQ-008 | Cross-file conflict: `03_events.md` FR-090 states events are "generate[d], validate[d], sign[ed] and transmit[ted] exclusively in the SaaS core", which contradicts D2 (client-side signing; SaaS never holds private keys) and FR-131/134 here. This file governs; recommend amending 03 FR-090 wording ("orchestrate the signing round-trip") in a later pass. | no | Controller | resolved — `03_events.md` FR-090 amended (S1 controller pass) to orchestration wording: SaaS generates/validates/transmits, client signs; consistent with D2 and FR-131/134 here |
 | OQ-009 | Normal-diferida entrega marking (FR-145): EVID-073 (18_ §11) ties the CAT-004 code 2 marking to contingency documents, and normal diferida is a normal modality held under AT resolution (`02_transmission.md` FR-068). Does 45_ §11.2 (v2.0 entrega framework) mandate any additional RG marking for normal-diferida entregas delivered in estado transitorio? Confirm from 45_ raw text. | no | Takumi (raw-text pass) | open |

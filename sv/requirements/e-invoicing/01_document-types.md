@@ -22,12 +22,13 @@ the types map onto Odoo.
 
 It does **not** cover: the transmission connector and API lifecycle
 (`02_transmission.md`, cluster A2), the four event types in detail
-(`03_events.md`, clusters A3–A5), signing and certificates (`04_signing.md`,
-A6), Representación Gráfica / QR / delivery (`05_delivery.md`, A7), the
-document state machine and correction windows (`06_state-machine.md`, A8),
-catalog governance beyond per-type usage (A9), general tax computation rules
+(`03_events.md`, clusters A3–A5), signing and certificates
+(`04_signing_delivery.md`, A6), Representación Gráfica / QR / delivery
+(`04_signing_delivery.md`, A7), the document state machine and correction
+windows (`02_transmission.md`, A8), catalog governance beyond per-type usage
+(A9), general tax computation rules
 (A10, `taxation/`), onboarding/authorization (A11), or the client↔SaaS private
-protocol contract (A12, `07_api-contract.md`). Those files reference this one
+protocol contract (A12, `06_api-protocol.md`). Those files reference this one
 for per-type structure.
 
 ## 2. Legal Basis

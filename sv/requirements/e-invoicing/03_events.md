@@ -36,11 +36,11 @@ mirrors the sealed event archive (Tier A).
 It does **not** cover: the transport the events ride on — authentication,
 endpoints, retry, lots, state vocabulary and the 24-hour correction rule
 (`02_transmission.md`, cluster A2/A8), per-type DTE structures
-(`01_document-types.md`, A1), signing (`04_signing.md`, A6), RG/QR/delivery
-mechanics (`05_delivery.md`, A7), catalog governance (A9), the tax
-computation feeding retorno caps (A10, `taxation/`), onboarding tests per
-event (A11), or the private protocol's own contract detail (A12,
-`07_api-contract.md`).
+(`01_document-types.md`, A1), signing (`04_signing_delivery.md`, A6),
+RG/QR/delivery mechanics (`04_signing_delivery.md`, A7), catalog governance
+(A9), the tax computation feeding retorno caps (A10, `taxation/`),
+onboarding tests per event (A11), or the private protocol's own contract
+detail (A12, `06_api-protocol.md`).
 
 ## 2. Legal Basis
 
@@ -76,7 +76,7 @@ inline and in Section 7.
 - **SV-EINV-FR-087:** The system shall support the four event types with their CAT-002 v1.1 identities: *Evento de Invalidación* (invalidation, structural — carries no tipoEvento field), *Evento de Contingencia* (contingency, structural), *Evento de Retorno* (return, tipoEvento "18") and *Evento de Operaciones Especiales* (special operations, tipoEvento "17"); events are signed JSON messages legally distinct from DTEs (CT Art. 119-A event power; 2022 principle carried per EVID-036). (LB-001; LB-011; EVID-084/086)
 - **SV-EINV-FR-088:** The system shall stamp each event with its authoritative JSON `version`: invalidación = 3, contingencia = 4, retorno = 1, operaciones especiales = 1. The 52_ schemas are authoritative (contingencia `const: 4`, invalidacion `const: 3`, fe-eret/fe-eop `const: 1`, verified by direct read); Anexo V N°1 prints "3" for contingencia and is superseded by the later schema set (master-index R7 amendment → OQ-001). (LB-010; DG45 §2 vs 52_; R7)
 - **SV-EINV-FR-089:** The system shall generate each event's `codigoGeneracion` as a UUID v4, 36 characters including 4 hyphens, digits and UPPERCASE letters only, unique per event. (LB-007 N°7; LB-010)
-- **SV-EINV-FR-090:** The system shall generate, validate, sign and transmit all four event types exclusively in the SaaS core via the private minimal protocol (D2); the Odoo client shall initiate events with protocol payloads, receive event state pushes, render the event's Representación Gráfica where produced, and mirror every sealed event file in the Tier A local archive (D3). (LB-013)
+- **SV-EINV-FR-090:** The SaaS core shall orchestrate the full lifecycle of all four event types via the private minimal protocol (D2): the SaaS generates and validates each event, the CLIENT signs it through the same client-side signing round-trip as DTEs (`04_signing_delivery.md` FR-132..134 — the SaaS never holds private keys), and the SaaS transmits the sealed event; the Odoo client shall initiate events with protocol payloads, receive event state pushes, render the event's Representación Gráfica where produced, and mirror every sealed event file in the Tier A local archive (D3). (LB-013; amended S1 — resolves `04_signing_delivery.md` OQ-008)
 - **SV-EINV-FR-091:** The system shall enforce affected-before-affecting ordering for events: an invalidation or retorno event may only reference a DTE or event that is already transmitted and sealed, and a DTE may only be affected by an event if it is already transmitted; dependent events shall be held in the SaaS queue until their target is sealed (cross-ref `02_transmission.md` FR-074/075). (LB-005 §9.2; EVID-084)
 - **SV-EINV-FR-092:** The system shall obtain and archive the 40-character alphanumeric `selloRecibido` for every event, excepting retorno operations generated in contingency (Anexo V N°121); a rejected event follows the 24-hour same-codigoGeneración correction rule owned by `02_transmission.md` FR-078/079. (LB-007 N°121; DG45 §4; cross-ref 02)
 - **SV-EINV-FR-093:** The system shall emit the shared identification fields per event: `ambiente` from CAT-001 (00 pruebas / 01 producción); `tipoEvento` const "18"/"17" for retorno/OpEsp only; the merger NIT field (`fusion` per schemas) for invalidación and retorno, null or a 9/14-digit NIT on the AT merged-contributors list; `tipoMoneda` = "USD" for retorno and OpEsp. (LB-006 N°2/7/8/13/14; LB-010; DG45 §2.1)
@@ -211,7 +211,7 @@ nothing in this file requires version-specific behavior.
 | FR-087 | saas | l10n_sv_edi.event.type | key, tipoEvento | Registry seeded per CAT-002; per-event enablement gated by acreditamiento (A11) |
 | FR-088 | saas | l10n_sv_edi.event.type | json_version | Stamped at generation; contingencia = 4 per 52_ (OQ-001 record) |
 | FR-089 | saas | — | codigoGeneracion | UUID v4 server-side; mirrored to client |
-| FR-090 | shared | l10n_sv_edi.event | protocol payload contract | D2/D3: client initiates, never compiles; Tier A mirror at response time |
+| FR-090 | shared | l10n_sv_edi.event | protocol payload contract | D2/D3: client initiates, never compiles; SaaS generates/validates/transmits, client signs (04 FR-132..134; amended S1); Tier A mirror at response time |
 | FR-091 | saas | saas.transmission_queue | depends_on | Same dependency edges as 02 FR-074/075 |
 | FR-092 | saas | l10n_sv_edi.event | l10n_sv_edi_sello | Sello exception rule for contingency retorno encoded SaaS-side |
 | FR-093 | saas | — | — | Identification fields at compilation |

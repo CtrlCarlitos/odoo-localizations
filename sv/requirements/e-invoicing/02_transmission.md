@@ -33,10 +33,10 @@ logic to the `saas` layer and defines the client-side queue/state surface
 
 It does **not** cover: per-type document structures (`01_document-types.md`),
 event semantics, clocks and deadlines per event type (`03_events.md`,
-clusters A3–A5), signing and certificates (`04_signing.md`, A6),
-Representación Gráfica / delivery mechanics (`05_delivery.md`, A7),
+clusters A3–A5), signing and certificates (`04_signing_delivery.md`, A6),
+Representación Gráfica / delivery mechanics (`04_signing_delivery.md`, A7),
 catalog governance (A9), onboarding/authorization (A11), or the private
-protocol's own contract detail (`07_api-contract.md`, A12). Event
+protocol's own contract detail (`06_api-protocol.md`, A12). Event
 transmission deadlines are owned by `03_events.md`; this file owns the
 transport they ride on.
 
@@ -58,7 +58,7 @@ R4, R11, R15 and R16 from the master index are noted where they apply.
 | LB-008 | Manual Tecnológico (22_), §§2–5 | Prior technology manual: full API surface (verified identical in 46_ per EVID-085), fixed 24h/48h token validity (superseded by configurable — R15), 1-day-after-fecEmi reception holgura (status in v2.0 unresolved — R16/MOQ-07) | `sv/sources/22_Manual_Tecnologico_Transmision.pdf` | §§2–5 (EVID-079) |
 | LB-009 | Normativa de Cumplimiento DTE v1.2 (18_), §§10–10.2 | DTE Regulation v1.2: state taxonomy (Transmitido [Ajustado/Observado]/Rechazado/Invalidado), 24-hour same-code correction then new code, generation-date bookkeeping (mid authority; yields to 45_ where they overlap) | `sv/sources/18_Normativa_Cumplimiento_DTE.pdf` | §§10–10.2 pp. 14–16 (EVID-072) |
 | LB-010 | Catálogos de Facturación Electrónica v1.1 (jul-2026) | e-Invoicing Catalogs v1.1: CAT-001 ambiente (00 pruebas / 01 producción), CAT-004 tipo de transmisión (1 normal / 2 contingencia) | `sv/sources/51_Catalogos_Facturacion_Electronica_v1.1_2026-07.xlsx` | CAT-001, CAT-004 sidecars (EVID-086) |
-| LB-011 | Product architecture decision log D1/D2/D6 | SaaS-only MH connector, private minimal protocol, shared transmission state machine in the protocol core (binding architecture constraint) | `shared/docs/saas-thin-client-architecture.md` | §S0.5 D1, D2, D6 |
+| LB-011 | Product architecture decision log D1–D6 | SaaS-only MH connector, private minimal protocol, shared transmission state machine in the protocol core (binding architecture constraint) | `shared/docs/saas-thin-client-architecture.md` | §S0.5 D1–D6 |
 
 ## 3. Functional Requirements
 
@@ -188,7 +188,7 @@ in this file requires version-specific behavior.
 | FR-064 | saas | — | — | Retry state machine in queue; escalation flags contingency mode (03_events.md owns clocks) |
 | FR-065 | saas | — | — | Response-loss dedup; same consultadte path as FR-061 |
 | FR-066 | saas | — | — | Window scheduler per environment registry; cyclic-invoicing emitters only |
-| FR-067 | saas | account.move | l10n_sv_edi_transmission_mode | Default mode; entrega flow gated on seal (05_delivery.md) |
+| FR-067 | saas | account.move | l10n_sv_edi_transmission_mode | Default mode; entrega flow gated on seal (`04_signing_delivery.md`) |
 | FR-068 | saas | res.company | l10n_sv_edi_diferida_resolution | AT-resolution flag stored per emitter; lote-only; 8-type gate |
 | FR-069 | saas | account.move | l10n_sv_edi_transmission_mode | Contingency mode; 72h doc clock from event seal; alarm to client on deadline approach |
 | FR-070 | shared | account.move | l10n_sv_edi_state, overdue alarm | Transitory semantics contract; overdue computation SaaS-side, banner client-side |
@@ -213,13 +213,13 @@ in this file requires version-specific behavior.
 
 - **AC-001:** Given a uno-a-uno send with no response after 8 seconds, when the retry policy runs, then consultadte is called before any resend, resends occur at most 2 times, and on the last failure the document is flagged for contingency escalation (FR-064).
 - **AC-002:** Given a response that the emitter side failed to process, when recovery runs, then the connector queries status first and does not resend a document already received (FR-065, FR-085).
-- **AC-003:** Given a lote containing 101 documents, when assembled, then the SaaS splits it before submission; given a lot built at 17:30 in the test environment, then dispatch waits until the next 08:00–17:00 window (FR-066).
+- **AC-003:** Given a cyclic-invoicing emitter (the scope FR-066's schedule restriction applies to), when it submits a lote containing 101 documents, then the SaaS splits it before submission; given such an emitter's lot built at 17:30 in the test environment, then dispatch waits until the next 08:00–17:00 window (FR-066).
 - **AC-004:** Given a DTE rejected at time T, when the corrected document is retransmitted at T+23h with the same codigoGeneración, then it is accepted for processing; given retransmission attempted at T+25h with the same code, then it is blocked and the new-code path (FR-079) is required (FR-078/079).
 - **AC-005:** Given a rejection whose motive is the codigoGeneración itself, when correcting within 24h, then retransmission proceeds with a NEW codigoGeneración (FR-078).
 - **AC-006:** Given an NCE queued while its related CCFE has no seal, when the queue is evaluated, then the NCE is held (blocked-by-dependency); when the CCFE seal arrives, then the NCE is released for transmission (FR-074/075).
 - **AC-007:** Given a DTE received with estado PROCESADO and observaciones (codigoMsg 002), then the document shows state procesado/observado, the observations are stored and displayed, and no downstream flow is blocked (FR-076/077).
 - **AC-008:** Given a DTE transmitted 27-June with fecEmi 30-June, then it passes the window check; given the same transmission with fecEmi 01-July, then it is rejected as crossing the tax period (FR-071).
-- **AC-009:** Given an emission on the last day of a month at horEmi 25 minutes past the transitory deadline, then horEmi is accepted; at 35 minutes past, then rejected (FR-072).
+- **AC-009:** Given an emission on the last day of a month whose emitter clock reads horEmi 25 minutes past the transitory deadline, then horEmi is accepted — the referent is the emitter's recorded `horEmi` vs the MH system clock, which is the skew FR-072's 30-minute holgura bridges; at 35 minutes past on the emitter's clock, then rejected (FR-072).
 - **AC-010:** Given a cached token nearing expiry before a submission wave, then the connector refreshes it; given an auth error in the 100–111 range, then it is surfaced as an authentication failure, not a document rejection (FR-056).
 - **AC-011:** Given the Odoo client codebase, when statically scanned, then no reference to `*.dtes.mh.gob.sv` endpoints exists outside SaaS configuration test fixtures (FR-053).
 - **AC-012:** Given a company configured with environment 00, when a user attempts to set the production base URL (or vice versa), then the configuration is rejected (FR-054).
@@ -237,4 +237,4 @@ in this file requires version-specific behavior.
 | OQ-004 | Test-environment lot cap: 22_ says 300 lots, 46_ v2.0 says 400 (both 08:00–17:00) — 46_ governs (FR-066); confirm the live figure during integration testing. | no | SaaS team | open |
 | OQ-005 | Service-status consultation endpoint (Anexo I rule 3.5, new in v2.0): URL and contract not published in 46_ — obtain from AT manuals before wave scheduling (FR-063) ships. | no | SaaS team | open |
 | OQ-006 | Production base URL OCR variants in 46_: "apidtes.mh.gob.sv" vs "api.dtes.mh.gob.sv" (22_ form) — confirm exact hostname at integration. | no | Takumi (schema pass) | open |
-| OQ-007 | MOQ-11: CDE async seal "24–72h after transmission" (2022 manual) — still true under v2.0? Affects CDE state-machine timing (seal may lag reception) and entrega flow (05_delivery.md). | no | SaaS team | open |
+| OQ-007 | MOQ-11: CDE async seal "24–72h after transmission" (2022 manual) — still true under v2.0? Affects CDE state-machine timing (seal may lag reception) and entrega flow (`04_signing_delivery.md`). | no | SaaS team | open |
