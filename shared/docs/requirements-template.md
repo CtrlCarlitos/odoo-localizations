@@ -62,6 +62,10 @@ use `odoo` / `saas` / `shared`; write `n/a` only with a justification line.
 |----|-------|------------|----------|------------------------------|
 | | | | | |
 
+Version-regime note (D12): any FR whose behavior depends on a spec version
+must record version + effective date + adaptation window in the Notes
+column — see [regulatory-change-management.md](regulatory-change-management.md) D7–D12.
+
 ## 6. Acceptance Criteria
 
 Given/When/Then criteria. These are what Takumi must satisfy; each must be

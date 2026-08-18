@@ -126,6 +126,17 @@ R4, R11, R15 and R16 from the master index are noted where they apply.
 - **SV-EINV-FR-085:** The system shall prevent redundant retransmission: once a reception or rejection response has been obtained for a document, the connector shall deduplicate any repeat submission of the same codigoGeneración/idEnvio. (LB-004 §10; LB-007 §5.5)
 - **SV-EINV-FR-086:** The Odoo client shall store and display every MH response field on the document (estado, clasificaMsg, codigoMsg, observaciones, selloRecibido, codigoLote/idEnvio) as read-only transmission metadata, for audit and support. (LB-007 §4; LB-011 D2/D3)
 
+### 3.11 Fiscal immutability & correction accounting (post-S1 addendum, FR-159..164)
+
+The transmission state machine (§3.9) governs the DTE lifecycle at MH; this section governs what those states mean for the Odoo `account.move` ledger surface — the safeguard layer that makes Odoo's native draft/cancel/delete affordances safe on fiscally sealed documents. Corrections ALWAYS post as new entries in the correction period; originals are immutable (D9 corollary, regulatory-change decision log).
+
+- **SV-EINV-FR-159:** The client shall lock the account.move lifecycle by transmission state: a move never transmitted (no codigoGeneración issued) is unrestricted (native draft/edit/delete); from first transmission onward deletion shall be blocked; once sealed (PROCESADO), reset-to-draft, cancellation and any edit altering fiscal content (partner, lines, amounts, dates, document type) shall be blocked — only non-fiscal metadata may change; once INVALIDADO the move is locked forever. The 24-hour rejection correction flow (FR-078/079) is the only authorized edit path past first transmission. (LB-009 §10; FR-076; FR-096; D9 corollary)
+- **SV-EINV-FR-160:** The system shall account a sealed DTE's invalidation as an auto-generated, NON-EDITABLE full-mirror reversal entry (unlike Odoo's native credit note, which opens an editable draft): the reversal mirrors every line of the invalidated DTE, is posted in the invalidation event's period, and is never user-modifiable; the original move stays posted, marked INVALIDADO, and is never cancelled, reset or deleted. Same-month invalidation nets both legs to zero within the month; cross-month invalidation keeps the original in its filed period M and posts the reversal in M+1 (credit-note treatment), so no filed period ever changes; where a replacement DTE exists (codigoGeneracionR, FR-101), it posts in its own generation period and the correction-period legs (reversal + replacement) net to the corrected operation. (LB-009 §10.2 generation-date books; FR-083; FR-096; `03_events.md` FR-096/101/103; D9 corollary)
+- **SV-EINV-FR-161:** The system shall route window-expired adjustments of CCF and CR documents through NCE/NDE (Ley IVA Arts. 62–63 deadlines; `03_events.md` FR-101) instead of invalidation; the NCE/NDE move itself is the correction document and no internal reversal entry is generated for that path. (LB-008 via `01_document-types.md` FR-015; cross-ref FR-101)
+- **SV-EINV-FR-162:** The system shall account a sealed retorno event as a credit entry posted in the retorno period implementing FR-118's fiscal effects (FE: decrease sale + IVA débito; FEXE: decrease export value + crédito-fiscal remanente; FSEE: decrease purchases), linked to the origin move; the origin stays posted (retorno never invalidates it, FR-119). Traceability invariants (requirement level): a correction entry whose goods physically moved back shall reference the origin delivery and the return reception; a price-only correction shall carry no stock movement linkage; a product exchange = retorno (returned item) + new FE (replacement item) as two independent fiscal documents. Selection rule: goods physically returned ⇒ retorno; invoice wrong / not delivered as invoiced ⇒ invalidación code 3 + replacement (FR-097). (Line-level move↔picking linkage mechanics → OQ-011.) (LB-005 §13.3; `03_events.md` FR-118/119; D9 corollary)
+- **SV-EINV-FR-163:** On invalidation-with-replacement of a DIFFERENT document type (e.g. FE invalidated, CCF issued for the same operation), the replacement move shall link to the same sale order and the same delivery pickings as the invalidated original, and the invalidated move's picking links shall be marked superseded — never deleted — so the physical flow remains auditable across the correction chain (original → invalidation event → reversal → replacement). Where an NRE (Guía de Remisión) documented the transport, the working assumption is the NRE remains valid (the transport physically occurred; no invalidation precondition involves NREs) and the replacement should relate it — timing-rule conflict → OQ-009. (FR-015; `03_events.md` FR-102; D9 corollary)
+- **SV-EINV-FR-164:** The client shall support commercial transactions in any Odoo-supported currency (Quetzales, Lempiras, Mexican Pesos, Euros, etc. — all bank-tradable in El Salvador) while the DTE layer remains USD-only (FR-007/093): the origin DTE's USD amounts are converted once at the origin document's date-rate, and every correction DTE and correction entry (NCE/NDE, invalidation reversal, retorno credit) shall derive its USD amounts from the ORIGIN document's rate — never re-converted at the correction-date rate — so the act of correction can never create currency gain or loss; ordinary Odoo multi-currency behavior (payment-realization FX differences) is unaffected. (LB-004 N°12 via FR-007; D9 corollary; declaration-side FX → OQ-010)
+
 ## 4. Data Model
 
 The MH wire protocol exists only SaaS-side (D2); this section documents the
@@ -162,6 +173,16 @@ Catalog sidecars live in [../catalogs/](../catalogs/) (CAT-001, CAT-004).
 | account.move (DTE/event) | l10n_sv_edi_id_envio / codigo_lote | char(36) | UUID v4 uppercase / codigoLote | FR-058/059 |
 | saas.transmission_queue | depends_on | many2one queue item | dependency edge; item held until dependency sealed | FR-074/075 |
 | saas.transmission_queue | retry_count / next_attempt_at | integer / datetime | ≤2 resends after 8s timeout | FR-064 |
+
+**Correction-accounting fields** (post-S1 addendum):
+
+| Entity | Field | Type | Catalog / values | Reference |
+|--------|-------|------|------------------|-----------|
+| account.move (correction entry) | l10n_sv_edi_correction_of | many2one account.move | origin DTE move (invalidation reversal · retorno credit · reissue replacement) | FR-160/162/163 |
+| account.move (correction entry) | l10n_sv_edi_correction_kind | select | invalidation_reversal · retorno_credit · reissue_replacement · nc_nd | FR-160/161/162/163 |
+| account.move (correction entry) | l10n_sv_edi_origin_rate | float | origin DTE's USD conversion rate, reused by all its corrections | FR-164 |
+| account.move (goods-return correction) | l10n_sv_edi_return_picking_id | many2one stock.picking, null | set only when goods physically returned; null = price-only correction | FR-162 (line-level linkage → OQ-011) |
+| account.move (invalidated origin) | l10n_sv_edi_picking_superseded_by | many2one account.move | replacement move inheriting the delivery links; links marked, never deleted | FR-163 |
 
 ## 5. Odoo Mapping
 
@@ -208,6 +229,12 @@ in this file requires version-specific behavior.
 | FR-084 | odoo | l10n_sv_edi.outbox | state, countdown | Pure client surface over pushed states; per environment |
 | FR-085 | saas | — | — | Dedup at connector; client cannot force duplicate transmission |
 | FR-086 | odoo | account.move | response metadata fields | Read-only mirror fields (see Data Model); audit surface |
+| FR-159 | odoo | account.move | lock overrides (button_draft/button_cancel/unlink) | Lock keyed on l10n_sv_edi_state; rejection-correction path (FR-078/079) is the sole edit gate |
+| FR-160 | odoo | account.move (reversal) | l10n_sv_edi_correction_of/kind, locked lines | Generated full mirror, never a user-draft credit note; posting date = event period; identical across 17–20 |
+| FR-161 | shared | account.move (NC/ND) | l10n_sv_edi_correction_kind = nc_nd | Routing decision (window expired ⇒ NCE/NDE) SaaS-validated, client surfaces it |
+| FR-162 | odoo | account.move (retorno credit) | l10n_sv_edi_correction_of/kind, l10n_sv_edi_return_picking_id | Credit entry from sealed retorno event; goods vs price-only linkage invariant (line-level design → OQ-011) |
+| FR-163 | odoo | account.move + stock.picking | l10n_sv_edi_picking_superseded_by | Reissue inherits sale order + pickings; supersede marks, never unlink |
+| FR-164 | odoo | account.move | l10n_sv_edi_origin_rate, currency_id | Origin-rate reuse on corrections; native Odoo multi-currency untouched otherwise |
 
 ## 6. Acceptance Criteria
 
@@ -226,6 +253,12 @@ in this file requires version-specific behavior.
 - **AC-013:** Given a consultadtelote response with mixed per-DTE results (2 PROCESADO, 1 RECHAZADO), then each document's state, seal (40-char) and observaciones are applied individually (FR-060, FR-076).
 - **AC-014:** Given a transitory document whose modality deadline passes without transmission, then its state becomes not_emitted, the CT 199 presumed-income warning is displayed, and an overdue alarm fires (FR-070, FR-081).
 - **AC-015:** Given any document with reception or rejection response already recorded, when a duplicate submission of the same codigoGeneración/idEnvio arrives, then the connector suppresses it (FR-085).
+- **AC-016:** Given a sealed FE, when a user clicks Reset to Draft (or Cancel, or Delete), then the action is blocked with an explanatory message; given the same move before any transmission, then all three actions work natively (FR-159).
+- **AC-017:** Given an FE sealed in month M and invalidated by an event sealed in month M+1, when the invalidation is sealed, then a non-editable full-mirror reversal entry posts dated in M+1, the original stays posted in M marked invalidado, and no M-period figure changes; given the invalidation lands within month M, then both legs post in M and net to zero (FR-160).
+- **AC-018:** Given a correction attempt on a CCF whose 3-month invalidation window has expired, then the system routes to NCE generation (no invalidation event, no internal reversal) (FR-161).
+- **AC-019:** Given a sealed retorno event for one returned item of a 3-item FE, then a credit entry posts for that item's values referencing the origin move and the return picking, the origin stays posted, and no delivery link is created for a price-only NCE (FR-162).
+- **AC-020:** Given an FE invalidated and replaced by a CCF for the same delivered goods, then the CCF move links to the same sale order and delivery pickings, and the FE's picking links are marked superseded (queryable, not deleted) (FR-163).
+- **AC-021:** Given a EUR-denominated sale whose origin DTE converted at rate R on its document date, when a retorno credit is posted 2 months later, then its USD amounts derive from rate R — not the retorno-date rate — and the correction legs produce zero FX gain/loss (FR-164).
 
 ## 7. Open Questions
 
@@ -238,3 +271,7 @@ in this file requires version-specific behavior.
 | OQ-005 | Service-status consultation endpoint (Anexo I rule 3.5, new in v2.0): URL and contract not published in 46_ — obtain from AT manuals before wave scheduling (FR-063) ships. | no | SaaS team | open |
 | OQ-006 | Production base URL OCR variants in 46_: "apidtes.mh.gob.sv" vs "api.dtes.mh.gob.sv" (22_ form) — confirm exact hostname at integration. | no | Takumi (schema pass) | open |
 | OQ-007 | MOQ-11: CDE async seal "24–72h after transmission" (2022 manual) — still true under v2.0? Affects CDE state-machine timing (seal may lag reception) and entrega flow (`04_signing_delivery.md`). | no | SaaS team | open |
+| OQ-008 | How do invalidated DTEs and retorno events present in the F-07/F-14 declaration annexes (anulados/invalidados columns, period attribution of the reversal)? Books keep both legs per FR-160/162; the declaration PRESENTATION rules are S2 fiscal-reporting scope (34_/35_ manuals likely carry the annex field definitions). | no | S2 fiscal-reporting wave | open |
+| OQ-009 | NRE (Guía de Remisión) fate when its related FE/CCF is invalidated: no invalidation precondition involves NREs (FR-102 blocks only on NCE/NDE and retorno events); working assumption = NRE survives (transport physically occurred) and the replacement DTE should relate it — but FR-015's same-period/3-day window may block re-relation when the replacement issues later. Research: 41_/45_ invalidation manual silent; needs AT guidance or a 45_ revision. | no | Takumi + SaaS team | open |
+| OQ-010 | Declaration-side FX: whether F-07/F-14 annexes state any conversion rule for non-USD operations (expected silent — DTE layer is USD-only per FR-007); S2 annex scan confirms or closes. | no | S2 fiscal-reporting wave | open |
+| OQ-011 | Line-level account.move ↔ stock.picking linkage design: Odoo links them only indirectly via sale.order (header level); the real audit relationship is line-level (move lines ↔ picking move lines). A prior implementation by the product owner holds working mechanics — import as design input in a dedicated pass before FR-162/163 implementation. | no | Takumi + product owner | open |

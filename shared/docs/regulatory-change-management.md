@@ -1,6 +1,9 @@
 # Regulatory Change Management — Working Note
 
-**Status: OPEN — framing note for a dedicated socratic discussion. Not a decision record.**
+**Status: DECIDED (Q1–Q7, socratic session 2026-08-17).** The framing below
+is retained verbatim; the decision log (D7–D12) at the end of this document
+is binding for S2+ synthesis, alongside D1–D6 in
+[saas-thin-client-architecture.md](saas-thin-client-architecture.md).
 
 ## The problem
 
@@ -114,7 +117,99 @@ frozen at close, wizards/migrations for rule changes.
 - Catalog sidecars regenerate to current version; the v1.1 lesson (code
   re-assignment) is the argument for dated catalog storage in the modules.
 
-## Session output (to fill after discussion)
+## Session output (filled 2026-08-17)
 
-- Decision per Q1–Q7, with rationale, recorded as a decision log entry.
-- Template/localization-guide updates flowing from the decisions.
+- Decision per Q1–Q7 recorded below as D7–D12, continuing the D-numbering
+  from the S0.5 architecture session. Binding for S2+ synthesis.
+- Template/localization-guide updates flowing from the decisions: done
+  (template §5 version-regime note; guide pointer).
+
+---
+
+## DECISION LOG (Q1–Q7 socratic session, 2026-08-17)
+
+### D7 — SaaS MH-spec runtime: replace-in-place + switchover dates (Q1)
+
+The SaaS always implements the CURRENT MH spec; switchover dates (Cuadro 4
+adaptation windows) are configuration, not code paths. MH itself enforces
+the spec version at seal time and refuses non-compliant documents after the
+adaptation deadline, so an old-spec engine has a regulator-enforced death
+date. History is immutable, self-describing artifacts (each DTE carries its
+own `version`), never a live engine. The Odoo client never sees MH versions
+at all — only private-protocol semver (D6).
+
+### D8 — Catalogs: immutable releases via SaaS feed (Q3)
+
+The Odoo client stores catalog RELEASES (set + version label + publication/
+effective date + rows) as atomic immutable units delivered through the
+private protocol. Lookup "code X at date D" = latest release effective ≤ D;
+emission pickers use the latest release. Catalog changes become DATA events,
+never module upgrades; the Tier A mirror stays self-sufficient for rendering
+historical documents (CAT-013 code re-assignment lesson; reinforces
+SV-CAT-FR-007..010).
+
+### D9 — Reporting: freeze at filing + post-time amounts; correction corollary (Q5)
+
+Move lines freeze tax amounts at posting (Odoo-native); the declaration
+record (F-07/F-14) snapshots its computed report lines AT FILING — the
+snapshot is the legal artifact. Unfiled periods recompute freely.
+Rectificativas derive from the frozen original + explicit adjustment moves,
+never from re-running reports over old periods with new config. Tax/rule
+changes ship as ADDITIVE dated data (new templates, cutover dates); existing
+records are never edited in place — the same discipline as D8 catalogs.
+
+**Correction corollary (binding):** fiscal corrections ALWAYS post as new
+entries in the correction period; originals are immutable. Specifically:
+invalidation ⇒ auto-generated non-editable full-mirror reversal entry dated
+in the event's period (credit-note treatment cross-month); retorno ⇒ credit
+entry in the retorno period; window-expired CCF/CR ⇒ NCE/NDE. Where the
+commercial currency ≠ USD, corrections derive their USD amounts from the
+ORIGIN document's conversion rate — never the correction-date rate — so
+correction can never create currency gain/loss. Operational FRs:
+`sv/requirements/e-invoicing/02_transmission.md` §3.11 (FR-159..164).
+
+### D10 — Dual-version disposition + protocol version guarantee (Q2)
+
+(a) Rectificativas for pre-change periods ⇒ D9 artifacts (legal obligation,
+CT 280 transition principle). (b) Audits/fiscalización of old periods ⇒ D9
+artifacts + Tier A mirror (obligation). (c) Transition-window operation ⇒
+D7 (each period freezes at its own filing; windows are configuration).
+(d) Cross-version adjustments (e.g. NCE v4 referencing a CCF v3) ⇒ the
+SaaS generation engine (D2) — schemas are self-describing and generation is
+central. NEW protocol guarantee: every document/event record the SaaS
+returns carries its MH schema version (06_api-protocol OQ-008 formalizes
+the FR wording) so the Odoo mirror renders history without knowing MH
+schemas. No live old-spec engine exists anywhere.
+
+### D11 — Normative packs + wizard; the SaaS absorbs urgency (Q4/Q6)
+
+Odoo-side law changes ship as additive dated data ("normative packs": new
+tax templates, report lines, fiscal-position flips keyed by cutover date)
+applied by a lightweight "cambio de normativa" wizard per branch (l10n_es
+precedent; CoA templates never touch live taxes). MH adaptation deadlines
+bind the SaaS (central deploy, days), NOT the client — a client release is
+needed only when its own surface changes (booking-affecting taxes, report
+layout) or the private protocol MAJORs. Support policy: develop newest
+branch first; backport additive packs to every supported branch (17–20) —
+packs are additive, so backports are cheap.
+
+### D12 — Repo conventions: version-regime as first-class requirements data (Q7)
+
+(1) The requirements template §5 requires any FR whose behavior depends on
+a spec version to record version + effective date + adaptation window in
+the version-notes column. (2) The W5.5 supersession-map pattern (delta +
+effective date + adaptation window captured BEFORE synthesis) is standing
+policy for every extraction wave. (3) D7–D12 join D1–D6 as binding
+citations for synthesis Layer/version assignments.
+
+## Q → D mapping
+
+| Question | Decision |
+|---|---|
+| Q1 module runtime | D7 |
+| Q2 dual-version calculation | D10 (disposition matrix) |
+| Q3 data model | D8 |
+| Q4 migration mechanics | D11 |
+| Q5 reporting | D9 (+ correction corollary) |
+| Q6 maintenance model | D11 |
+| Q7 this repo | D12 |

@@ -236,3 +236,7 @@ D2/D6; remaining detail = error/warning taxonomy + webhook design, fold
 into S1 API-contract FRs rather than more socratic rounds), Q5 (data
 residency — folded into D3's ToS/export work; flag for legal review).
 S0.5 is sufficiently complete to start S1 synthesis.
+
+> Post-S1 note: the version-regime questions raised here are decided as
+> D7–D12 in [regulatory-change-management.md](regulatory-change-management.md)
+> (2026-08-17 session) — read both logs together; D-numbering is continuous.

@@ -26,7 +26,7 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
 2. `shared/docs/saas-thin-client-architecture.md` — D1–D6 decision log (S0.5 socratic session output)
 3. `shared/docs/requirements-extraction-procedure.md` — the method spine (pipeline, NotebookLM policy, evidence format)
 4. `shared/docs/requirements-template.md` — 7-section format authority; Topic row now includes `catalogs`
-5. `shared/docs/regulatory-change-management.md` — version-regime framing; **Q1–Q7 socratic session still pending**
+5. `shared/docs/regulatory-change-management.md` — version-regime framing + **D7–D12 decision log (decided 2026-08-17)**
 6. `shared/docs/odoo-localization-guide.md` — module anatomy (with thin-client caveat)
 7. `sv/.extractions/00_MASTER_INDEX.md` — synthesis lookup: 12 topic clusters (A1–A12), 16 resolved contradictions (R1–R16), 12 MOQs
 8. `sv/requirements/e-invoicing/00_index.md` + `sv/requirements/COVERAGE.md` — S1 corpus index + source coverage matrix (authoritative for source→wave mapping)
@@ -55,14 +55,14 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
 - 50 source files (numbering 01–52; gaps 21/23/24/28 unused; next file = 53)
   + superseded 2022 `schemas/` dir + current 15 schemas inside the 52_ zip.
 
-### El Salvador — synthesis S1 (COMPLETE, pushed) + schema pass 2026-08-17 (COMPLETE)
-Six Takumi files + index + coverage, **216 FRs / 70 LBs / 93 ACs / 42 OQs
-(29 open, 13 resolved)**:
+### El Salvador — synthesis S1 (COMPLETE, pushed) + schema pass + §3.11 addendum (2026-08-17)
+Six Takumi files + index + coverage, **222 FRs / 70 LBs / 99 ACs / 47 OQs
+(34 open, 13 resolved)**:
 
 | File | FRs | Prefix range |
 |---|---|---|
 | `sv/requirements/e-invoicing/01_document-types.md` | 52 | SV-EINV-FR-001..052 |
-| `sv/requirements/e-invoicing/02_transmission.md` | 34 | SV-EINV-FR-053..086 |
+| `sv/requirements/e-invoicing/02_transmission.md` | 40 | SV-EINV-FR-053..086 + 159..164 (§3.11 addendum) |
 | `sv/requirements/e-invoicing/03_events.md` | 43 | SV-EINV-FR-087..129 |
 | `sv/requirements/e-invoicing/04_signing_delivery.md` | 29 | SV-EINV-FR-130..158 |
 | `sv/requirements/e-invoicing/06_api-protocol.md` | 40 | SV-PROT-FR-001..040 |
@@ -84,6 +84,21 @@ regenerable) + 45_/18_ raw text closed 10 OQs — 01 OQ-002/003/004/005/008,
 FR updates: FR-012/018/022/035 (01), FR-103/104/117 (03), FR-133 (04);
 Data Model codTributo row (01). OQ rollup in `00_index.md` = 29 open /
 13 resolved.
+
+**§3.11 addendum (user-driven design session, same day):** fiscal
+immutability & correction accounting — FR-159..164 in `02_transmission.md`:
+account.move lifecycle lock keyed to transmission state (no reset-to-draft/
+cancel/delete past seal); invalidation ⇒ auto-generated NON-EDITABLE
+full-mirror reversal entry in the event's period (credit-note treatment
+cross-month; replacement nets in its own period); window-expired CCF/CR ⇒
+NCE/NDE; retorno ⇒ credit entry + goods-vs-price-only traceability
+invariants; cross-type reissue inherits sale order + pickings (supersede,
+never delete); corrections derive USD from the ORIGIN rate (multi-currency
+books; DTE layer stays USD-only). New OQs 02 OQ-008..011 (F-07/F-14 annex
+presentation → S2; NRE fate on origin invalidation — evidence silent,
+working assumption NRE survives; declaration FX → S2; line-level
+move↔picking linkage design pass — product owner has prior-implementation
+mechanics to import).
 
 ### GT / HN
 Scaffolded only (READMEs, sources/scripts/requirements dirs, topic sets; hn
@@ -168,6 +183,28 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
     motivoContingencia/motivoContin maxLength 500 (both schemas);
     event apéndice exists only on eret/eop among events.
 
+### Regulatory-change session rulings (D7–D12, 2026-08-17 — in regulatory-change-management.md)
+11. **D7** SaaS MH-spec runtime = replace-in-place + switchover dates
+    (Cuadro 4 windows are configuration; no old-spec engine; Odoo sees only
+    private-protocol semver).
+12. **D8** Catalogs = immutable releases via SaaS feed (set-level atomic
+    units; "code X at date D" lookup; catalog changes are data events, not
+    module upgrades).
+13. **D9** Reporting = freeze at filing + post-time amounts; rectificativas
+    from frozen snapshot + adjustment moves; tax changes additive-with-
+    cutover. **Correction corollary:** corrections always post as new
+    entries in the correction period; originals immutable; invalidation
+    reversal non-editable full mirror; retorno credit; origin-rate FX reuse
+    (→ 02 §3.11 FR-159..164).
+14. **D10** Dual-version disposition matrix accepted; protocol carries MH
+    schema version per document record (06 OQ-008 formalizes).
+15. **D11** Normative packs + "cambio de normativa" wizard Odoo-side; MH
+    deadlines bind the SaaS, not the client; newest branch first, additive
+    backports 17–20.
+16. **D12** Repo conventions: template §5 version-regime note; W5.5
+    supersession-map pattern standing for every wave; D7–D12 binding for
+    synthesis.
+
 ### Standing policies
 - Evidence-based answers only; RAG (NotebookLM) is validator, never source
   (notebook `c7ca0391-4822-4d3c-8090-b0d8c147ba94`, owner
@@ -224,10 +261,9 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
 1. ~~**DTE schema pass**~~ **DONE 2026-08-17** — 10 OQs + 4 MOQs closed;
    rulings 5–10 above; resolutions recorded in-file and in master-index
    Section C.
-2. **Regulatory-change socratic session** (Q1–Q7 in
-   regulatory-change-management.md) — BEFORE S2 Odoo Mappings; S2 (taxes/
-   reporting) hits recomputation/version issues hardest (Q5). Some
-   complexity already resolved by D2 (central SaaS spec upgrades).
+2. ~~**Regulatory-change socratic session**~~ **DONE 2026-08-17** — D7–D12
+   decided and recorded (see §5 register + regulatory-change-management.md);
+   template/guide updated; correction corollary → 02 §3.11 FR-159..164.
 3. **S2 waves** (each: extraction → evidence → synthesis, same patterns;
    source mapping authoritative in COVERAGE.md): ISR (03_/04_/10_) →
    F-07/F-14 reporting (29_/30_/34_–39_) → payroll (08_/09_/11_/16_) →
@@ -238,9 +274,13 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
    OQ-006, 02 OQ-003); CAT-024 vs Cuadro-2 taxonomy confirmation. When new
    docs appear: continue source numbering from 53, register with provenance,
    capture supersession.
-5. **Remaining S1 OQs** (29 open): most are business decisions (FVS flow,
+5. **Remaining S1 OQs** (34 open): most are business decisions (FVS flow,
    email scope) or AT-publication dependencies; 45_ §10 re-read for MOQ-07
    (02 OQ-001/002) can ride along with the S2 transmission-adjacent work.
+   Addendum follow-ups: 02 OQ-011 (line-level move↔picking design pass —
+   product owner's prior implementation as input) before FR-162/163
+   implementation; 02 OQ-009 (NRE fate — watch AT/45_ revisions); 06
+   OQ-008 (D10 protocol guarantee FR wording, next 06 edit).
 6. **Deferred cleanups** (§9 below, batch them).
 7. **GT/HN bootstrap** when sv is sufficiently far along (GT sources first:
    SAT/FEL normative; HN: SAR fiscal reporting).

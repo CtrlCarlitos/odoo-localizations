@@ -78,9 +78,11 @@ Built on Odoo's EDI framework (`account.edi.format`):
 ## Regulatory change management
 
 Spec versions change mid-flight (El Salvador changed its Normativa twice in six
-months and re-versioned its catalogs). How modules handle spec upgrades,
-historical periods, and dual-version calculation is an open design question —
-see [regulatory-change-management.md](regulatory-change-management.md) for the
-framing note and pending socratic discussion. Until decided, requirements
-files must record the version regime (version fields, effective dates,
-adaptation windows) wherever it affects an FR.
+months and re-versioned its catalogs). The version-regime decisions are SETTLED
+(D7–D12 in [regulatory-change-management.md](regulatory-change-management.md)):
+SaaS-side replace-in-place with switchover dates, immutable catalog releases,
+freeze-at-filing reporting with a correction corollary (corrections post as new
+entries in the correction period; originals immutable; origin-rate FX reuse),
+additive normative packs + wizard Odoo-side. Requirements files must record the
+version regime (version fields, effective dates, adaptation windows) wherever
+it affects an FR (template §5 note, D12).
