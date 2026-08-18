@@ -222,10 +222,11 @@ tracks are recorded in `01_isr-framework.md` §2 and are not restated here.
   acquired or extracted during the ejercicio, minus closing inventory; shall
   apply the inventory valuation method adopted under CT Art. 143; shall
   verify that opening/closing inventories correspond to the CT Art. 142
-  inventory-control registry and actas, rejecting cost-of-sales differences
-  when those duties are unmet; shall admit production cost (raw material +
-  labor + indirect fabrication costs) only for finished goods sold in the
-  period; and shall accumulate manufacturing/transformation costs prorata
+  inventory-control registry and *actas* (certified inventory records),
+  rejecting cost-of-sales differences when those duties are unmet; shall
+  admit production cost (raw material + labor + indirect fabrication costs)
+  only for finished goods sold in the period; and shall accumulate
+  manufacturing/transformation costs prorata
   under the taxpayer's costing systems, deducting them as the finished
   products are sold, used or consumed in gravable-renta operations.
   (LB-007; EVID-098)
@@ -239,7 +240,7 @@ tracks are recorded in `01_isr-framework.md` §2 and are not restated here.
 ### 3.3 Art. 29-A non-deductible classifier
 
 - **SV-TAX-FR-052:** The system shall classify every cost, expense or
-  *erogación* against the Art. 29-A catalog and tag it with the applicable
+  *erogación* (expenditure) against the Art. 29-A catalog and tag it with the applicable
   non-deductible head(s): personal/living costs of the contributor, family,
   partners, consultants, advisers, representatives, directors or executives
   (1); remunerations for services alien to computable-income production — the
@@ -389,9 +390,9 @@ tracks are recorded in `01_isr-framework.md` §2 and are not restated here.
   moment of realization of the good as capital gain or loss according to the
   definitively recovered net value (computation per `03_isr-rates-gains.md`
   §3); and shall declare as renta gravable, in the ejercicio of the
-  transfer, the deducted deduction or reserve value when a receivables
-  portfolio is transferred or a receivable is reclassified to a lower-risk
-  category. (LB-011; EVID-099)
+  transfer, the fiscally-claimed deduction or reserve value when a
+  receivables portfolio is transferred or a receivable is reclassified to a
+  lower-risk category. (LB-011; EVID-099)
 - **SV-TAX-FR-066:** The system shall admit donations to Art. 6 entities up
   to the maximum cap of twenty percent of the value resulting from
   subtracting the donation from the donor's renta neta in the respective
