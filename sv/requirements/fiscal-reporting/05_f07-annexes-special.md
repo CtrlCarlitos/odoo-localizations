@@ -187,9 +187,10 @@ pages are printed pages (printed page N = PDF page N+2).
 
 - **SV-FREP-FR-133:** The system shall gate every annex 13-17 surface
   by a regime-validity window stored as DATED DATA — annex 13: Mar-2022
-  → end of Decreto 321's vigencia; annex 14: Abr-2022 → end of the Ley
-  Especial Transitoria's vigencia; annexes 15/16: Mayo-2022 →
-  fin-de-obra; annex 17: Jun-2022 → Ago-2022 (fixed) — with a
+  → end of Decreto 321's *vigencia* (validity); annex 14: Abr-2022 →
+  end of the Ley Especial Transitoria's validity; annexes 15/16:
+  Mayo-2022 → fin-de-obra; annex 17: Jun-2022 → Ago-2022 (fixed) — with
+  a
   regime-active flag DERIVED from the decree status: a period inside
   the window accepts rows; a period before the window start or after
   the window end rejects them and leaves the surface unavailable.
@@ -210,7 +211,8 @@ pages are printed pages (printed page N = PDF page N+2).
   in the last column — 14/15/16/17 respectively), with the Anexo 14
   galones column as the printed exception to the two-decimal discipline
   (FR-128); Anexo 13 produces NO file under any condition (FR-124); the
-  *declaración modificatoria* carryover of SV-FREP-FR-040 prints
+  *declaración modificatoria* (amended return) carryover of
+  SV-FREP-FR-040 prints
   "anexos 3 al 12" only — the 13-17 carryover behavior is unprinted and
   not asserted (OQ-004). (LB-001; LB-002; LB-005; EVID-178; EVID-173;
   cross-ref SV-FREP-FR-028..041/040)
@@ -235,10 +237,10 @@ computation/bookkeeping data only (wave default `odoo`; see §5).
 
 | Annex | Instrument (as printed) | Window start | Window end | End kind | Status |
 |-------|--------------------------|--------------|------------|----------|--------|
-| 13 | Decreto 321 (tasas diferenciadas) | 2022-03 | null | decree vigencia (regime-active from decree status; 2026 successor status unpinned — OQ-001) | open [?] |
-| 14 | Ley Especial Transitoria para Fijar Precios Máximos de los Combustibles | 2022-04 | null | decree vigencia | open [?] |
-| 15 | Decreto No. 357 (ventas exentas no sujetas a proporcionalidad) | 2022-05 | fin de la obra | dated data, semantics unpinned (OQ-005) | open [?] |
-| 16 | Decreto No. 357 (compras internas exentas) | 2022-05 | fin de la obra | dated data, semantics unpinned (OQ-005) | open [?] |
+| 13 | Decreto 321 (tasas diferenciadas) | 2022-03 | null | decree vigencia (regime-active from decree status) | open — OQ-001 (2026 successor status unpinned) |
+| 14 | Ley Especial Transitoria para Fijar Precios Máximos de los Combustibles | 2022-04 | null | decree vigencia | open — OQ-001 kin |
+| 15 | Decreto No. 357 (ventas exentas no sujetas a proporcionalidad) | 2022-05 | fin de la obra | dated data | open — OQ-005 (end semantics unpinned) |
+| 16 | Decreto No. 357 (compras internas exentas) | 2022-05 | fin de la obra | dated data | open — OQ-005 (end semantics unpinned) |
 | 17 | precios máximos importadores | 2022-06 | 2022-08 | fixed | CLOSED (FR-134 — never re-activates) |
 
 **Anexo 13 manual grid — l10n_sv.f07.annex13.entry (no file surface):**
@@ -376,8 +378,10 @@ this file feeds.
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
-| OQ-001 | Decreto 321 dated-regime status and rates (34_-file OQ-4 carried): (a) is Decreto 321 (or a successor) still in force for 2026 — the regime-active flag of FR-133 and the Mar-2022+ availability of Anexo 13 depend on it; (b) the differentiated IVA rate VALUES per fuel grade (SUPERIOR/REGULAR/DIÉSEL) are not in the corpus — FR-126 consumes them as dated regime configuration, and 587/589 cannot compute until seeded. Acquire Decreto 321 (and the Ley Especial Transitoria's rate/duration text) via the special-regimes wave / sources registry. | no | Takumi S3 (sources registry) + special-regimes/taxation waves | open |
-| OQ-002 | Anexo 14-17 column models vs the evidence extract: manual §XXI-§XXIV names the captured families (tipo operación, galones 11+8, precio 2+2 sin IVA, valor/descuento/IVA-del-descuento; 15/16 topics + windows; 17 CCF-only) but the full A-P letter assignment of Anexo 14 and the complete column models of 15/16/17 were not captured verbatim; likewise unprinted: the exact column basis wiring 550-553 (descuento vs valor-operación; FR-129 encodes the label match) and whether 15/16 auto-total casillas 92/65 or only detail them. Seed at implementation from a §XXI-§XXIV re-read and confirm wiring against MH behavior. | no | Takumi S3 | open |
+| OQ-001 | Decreto 321 dated-regime status and rates (34_-file OQ-4 carried): (a) is Decreto 321 (or a successor) still in force for 2026 — the regime-active flag of FR-133 and the Mar-2022+ availability of Anexo 13 depend on it; (b) the differentiated IVA rate VALUES per fuel grade (SUPERIOR/REGULAR/DIÉSEL) are not in the corpus — FR-126 consumes them as dated regime configuration, and 587/589   cannot compute until seeded. Acquire Decreto 321 (and the Ley Especial
+  Transitoria's duration text for the Anexo 14 window) via the
+  special-regimes wave / sources registry. | no | Takumi S3 (sources registry) + special-regimes/taxation waves | open |
+| OQ-002 | Anexo 14-17 column models vs the evidence extract: manual §XXI-§XXIV names the captured families (tipo operación, galones 11+8, precio 2+2 sin IVA, valor/descuento/IVA-del-descuento; 15/16 topics + windows; 17 CCF-only) but the full A-P letter assignment of Anexo 14 and the complete column models of 15/16/17 (including whether each carries the generic trailing annex-number column of SV-FREP-FR-034 — the §XIX precedent of 04 OQ-003 shows exceptions exist) were not captured verbatim; likewise unprinted: the exact column basis wiring 550-553 (descuento vs valor-operación; FR-129 encodes the label match), the issued/received → tipo-operación mapping of FR-127's parenthetical, and whether 15/16 auto-total casillas 92/65 or only detail them. Seed at implementation from a §XXI-§XXIV re-read and confirm wiring against MH behavior. | no | Takumi S3 | open |
 | OQ-003 | FOVIAL/COTRANS interplay (casilla 525; 31_ guide pointer): the per-gallon quantity-tax credit design decision stays OPEN with the taxation/special-regimes waves (01 §7 OQ-003 kin). This file's fuel surfaces record the pointer only — no FR encodes the interplay. | no | special-regimes/taxation waves (pointer recorded by Takumi S3) | open |
 | OQ-004 | Annexes 13-17 modificatoria carryover: manual §XVII prints the carryover for "anexos 3 al 12" only — the fate of annexes 13-17 (and the Anexo 13 manual grid) in amended returns is unprinted. FR-135 does not assert it (kin to `04_f07-annexes-retentions-events.md` OQ-004 for §XIX). Confirm against MH system behavior. | no | Takumi S3 | open |
 | OQ-005 | "Fin de la obra" window-end semantics for Anexos 15/16: whether the Decreto 357 window ends per-taxpayer/per-project (an obra-completion fact Odoo must store per company) or by a global decree-level end date is not elaborated in the manual extract. FR-133/FR-130 encode the end as dated data; the seed table leaves end_kind open. Confirm from Decreto 357 text (acquisition candidate; special-regimes wave kin). | no | Takumi S3 (sources registry) + special-regimes wave | open |
