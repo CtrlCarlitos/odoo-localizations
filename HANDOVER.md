@@ -89,6 +89,23 @@ Both ISR synthesis blockers closed; sources 53_/54_/55_ registered:
 - Also spotted (not yet acquired): **F14 v17** form (2026-06-03) newer than
   our 35_F14_v16 manual — matters for the fiscal-reporting wave.
 
+### El Salvador — W7 evidence pass (COMPLETE 2026-08-17, same day)
+Evidence on the new sources committed (EVID-153..167):
+- **53_ evidence** (EVID-153..161): D.E. 10-2025 fully transcribed — tables
+  a)-c), June/December recálculo (derived as Art. 37 shifted +$1,600),
+  NET base definition (closes the old OQ-4 for the current regime),
+  multi-employer rules, proration for special periods. 9 OQs incl. the
+  printed-digit fidelity set and the $1,600-proration ambiguity.
+- **54_/55_ delta evidence** (EVID-162..167): post-2012 reform set CLOSED —
+  D.L. 762-2014 void; **458-2019 = Art. 4.16** (aguinaldo-excess retention
+  now deducts the 2-SMM floor); **969-2024 = Art. 3.4** foreign-source
+  exclusion + Art. 28 pro-rata carve-out + **Art. 14-A incisos 6-8
+  derogated** (W6 EVID-094 foreign-securities text is DEAD); 293-2025 =
+  Art. 37. Art. 41/72/29-A/33 verified unchanged (03_ OQ-8 closed; W6
+  citations transfer to 54_ as current authority). 4 OQs: interpretaciones
+  192-2018/345-2019 scope, D.L. 969 vigencia, reglamento provenance chain
+  (101-1992 vs 117-2001), consolidation dating.
+
 ### El Salvador — synthesis S1 (COMPLETE, pushed) + schema pass + §3.11 addendum (2026-08-17)
 Six Takumi files + index + coverage, **222 FRs / 70 LBs / 99 ACs / 47 OQs
 (34 open, 13 resolved)**:
@@ -312,17 +329,19 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
    template/guide updated; correction corollary → 02 §3.11 FR-159..164.
 3. **S2 waves** (each: extraction → evidence → synthesis, same patterns;
     source mapping authoritative in COVERAGE.md): ISR (03_/04_/10_) —
-    **extraction + evidence DONE (W6); blockers CLOSED (W6.5: 53_/54_/55_
-    acquired, 03_ OQ-8 substantively resolved)** → next = **W7 evidence
-    pass** on 53_/54_/55_ (new-authority read: Art. 37 new table, Art. 3
-    movimientos-de-dinero scope, D.L. 458-2019 & 969-2024 article mapping,
-    10_ OQ-5 chain: D.E. 75/25 → [interim?] → D.E. 95-2015 → D.E. 10-2025;
-    EVID numbering continues from 153) → prep (digest/merge, update the W6
-    rulings) → plan doc → subagent synthesis into `sv/requirements/taxation/`
-    → F-07/F-14 reporting (29_/30_/34_–39_; **check F14 v17 2026-06 vs our
-    v16 manual — acquire if the layout moved**) → payroll (08_/09_/11_/16_)
-    → commercial-legal (07_/15_/17_) → special-regimes (12_/13_/14_/17b_/42_/
-    43_) → NIIF/chart-of-accounts (32_/33_). F-14 manual (35_) is OCR'd.
+    **extraction + evidence DONE (W6); blockers CLOSED + new-source evidence
+    DONE (W6.5/W7: EVID-153..167)** → next = **S2 prep**: resolve the two
+    W7 OQs that gate clean synthesis (54_-file OQ-1: acquire
+    interpretaciones auténticas D.L. 192-2018 + 345-2019; OQ-3: D.L.
+    969-2024 text incl. vigencia) → digest/merge W6+W7 evidence into the
+    ISR cluster (master-index extension) → plan doc → subagent synthesis
+    into `sv/requirements/taxation/` (citations: 54_/53_ current authority,
+    03_/10_ historical; Art. 37 = TWO dated vintages; Art. 3.4/4.16/14-A
+    deltas folded) → F-07/F-14 reporting (29_/30_/34_–39_; **check F14 v17
+    2026-06 vs our v16 manual — acquire if the layout moved**) → payroll
+    (08_/09_/11_/16_) → commercial-legal (07_/15_/17_) → special-regimes
+    (12_/13_/14_/17b_/42_/43_; D.L. 598-2020 + EVID-167 tail laws feed it)
+    → NIIF/chart-of-accounts (32_/33_). F-14 manual (35_) is OCR'd.
 4. **Externally-blocked OQs** (check factura.gob.sv periodically): Retorno/
    OpEsp endpoints (MOQ-05 — 52_-schema absence verified 2026-08-17; 03
    OQ-006, 02 OQ-003); CAT-024 vs Cuadro-2 taxonomy confirmation. When new
