@@ -1,8 +1,9 @@
-# MASTER EVIDENCE INDEX — El Salvador localization (S1 + S2 + S3 synthesis lookup)
+# MASTER EVIDENCE INDEX — El Salvador localization (S1 + S2 + S3 + S4 synthesis lookup)
 
-Built: 2026-08-17. S1 inputs (read-only, no source PDFs re-read): the eight evidence/digest files + `shared/docs/saas-thin-client-architecture.md`. **S2/ISR extension 2026-08-17:** W6+W7 evidence files (EV03/EV04/EV10/EV53/EV54/EV56) merged into clusters T1–T8 below; rulings R17–R22; SOQ-01..07. **S3/fiscal-reporting extension 2026-08-18:** W8 evidence (EVID-172..190, files EV29/EV30/EV34/EV35/EV61-64) merged into clusters F1–F12 below; SOQ-08..14.
+Built: 2026-08-17. S1 inputs (read-only, no source PDFs re-read): the eight evidence/digest files + `shared/docs/saas-thin-client-architecture.md`. **S2/ISR extension 2026-08-17:** W6+W7 evidence files (EV03/EV04/EV10/EV53/EV54/EV56) merged into clusters T1–T8 below; rulings R17–R22; SOQ-01..07. **S3/fiscal-reporting extension 2026-08-18:** W8 evidence (EVID-172..190, files EV29/EV30/EV34/EV35/EV61-64) merged into clusters F1–F12 below; SOQ-08..14. **S4/payroll extension 2026-08-18:** W9 evidence (EVID-191..210, files EV16/EV08/EV09/EV11/EV65) merged into clusters P1–P10 below; rulings R23–R24; SOQ-15..21.
 **Authority order (binding):** 44_/45_/46_/50_/51_/52_ (2026) > 18_/19_/22_ (2025) > 40_/41_/25_ (2022). Where the supersession map in EV44 marks a W-item SUPERSEDED, the current-authority finding governs; old EVID ids are kept as history.
 **ISR authority order (binding, S2):** 54_ (consolidated Ley ISR, article text current incl. stamps through Jan-2026) with reform decrees 55_ (Art. 37), 56_ (Art. 3.4 + derogations), 57_/58_ (interpretaciones auténticas) for changed articles > 03_ (historical copy, consolidated through D.L. 233-2012). Retention tables: 53_ (D.E. 10-2025, operative; **published D.O. N° 79 T.447 30-abr-2025 = gazette print 60_, effective 2025-05-08 — SOQ-03 RESOLVED 2026-08-18**) > 10_ (D.E. 75/25-1992, historical). Reglamento: 04_ = D.E. 101-1992 as reformed by D.E. 8-1993/39-1993/**117-2001** (self-documented repeal map; see R17).
+**Payroll authority order (binding, S4):** pensions = 09_ (**D.L. 614, Ley Integral del Sistema de Pensiones, effective 2022-12-29 — derogates D.L. 927-1996/SAP per Art. 162; registry title is a misnomer, see R24**) over any SAP-era lore; ISSS = 08_ (D.L. 1263 law-level rates; caps in the Reglamento — absent, SOQ-15) with 09_ Art. 154 governing pensioner-health (R23); labor = 11_ (CT, Índice Legislativo edition); SMM = 16_ (Decreto 11-2025, effective 2025-06-01) over the 2021 pair. Retention/ISR interfaces owned by 53_/54_ (S2 files); F-14 column model by 35_/38_/59_ (S3 files).
 
 **File keys (citation prefixes):**
 | Key | File |
@@ -22,6 +23,11 @@ Built: 2026-08-17. S1 inputs (read-only, no source PDFs re-read): the eight evid
 | EV53 | `sv/.extractions/53_Tablas_Retencion_ISR_DE10_2025.evidence.md` (EVID-153..161) |
 | EV54 | `sv/.extractions/54_Ley_ISR_consolidada_DO79_T447.evidence.md` (EVID-162..167; covers 55_ delta) |
 | EV56 | `sv/.extractions/56-58_ISR_DL969_DL192_DL345.evidence.md` (EVID-168..170) |
+| EV16 | `sv/.extractions/16_Salarios_Minimos_2025.evidence.md` (EVID-191..192) |
+| EV08 | `sv/.extractions/08_Ley_ISSS.evidence.md` (EVID-193..196) |
+| EV09 | `sv/.extractions/09_Ley_Sistema_Pensiones.evidence.md` (EVID-197..200) |
+| EV11 | `sv/.extractions/11_Codigo_Trabajo.evidence.md` (EVID-201..209) |
+| EV65 | `sv/.extractions/65_F11_v18_form_visual.evidence.md` (EVID-210) |
 
 DG45 sections cited as: §1 (Anexo II structures/versions), §2 (Anexo III events), §3.1 (Anexo IV DTE validations), §3.2 (Anexo V event validations), §3.3 (contingency-type resolution), §4 (Anexo I technical specs), §5 (OCR warnings).
 
@@ -234,6 +240,73 @@ against the v16 annex format with a v17 vintage row for the form-level Quincena-
 - **Governing EVIDs:** EVID-185 (30_) · EVID-186 (30_).
 - **Crossref:** e-invoicing FR-103 deadlines (same días-hábiles engine); taxation T8 (10-días-hábiles remittance); 01-file FR-032.
 
+## Section S4-A — Payroll topic clusters (synthesis worklist)
+
+Built from W9 evidence (EVID-191..210). **Citation rule for synthesis: labor LBs cite
+11_ (CT); SS rates cite 08_ Art. 29 (ISSS) / 09_ Arts. 13-16 (SIP D.L. 614 — never
+SAP-era lore); SMM values cite 16_ as dated data; ISR/retention interfaces cite the
+S2 files by FR id (no re-derivation); F-14 column semantics cite the S3 files.** Cap
+VALUES not in any law (ISSS base cap, AFP IBC ceiling, instituto rates) enter as
+dated data from the F-14 v16 print (SOQ-11 discipline) with instrument OQs.
+
+### P1 — Salary model: salario vs salario básico
+**Covers:** CT Art. 119 salario definition (integrantes: habitual bonuses, overtime, rest/asueto-day pay, profit shares; excluded: occasional gratuities, reimbursements, prestaciones sociales), Art. 140-143 salario básico as the universal base for employer money obligations, Art. 142 seven derivation rules (hourly/period/mixed/obra/destajo/a domicilio/commission-6-month), equal pay (Art. 123), salary credits first-priority (CT 121; ISSS first-class 08_ Art. 36; SIP privileged 09_ Art. 25).
+- **Governing EVIDs:** EVID-201 (EV11) · EVID-195 (EV08, credits) · EVID-198 (EV09, privileged).
+- **LB:** 11_ Arts. 119-123, 140-143 · 08_ Art. 36 · 09_ Art. 25.
+- **Crossref:** 09_ Art. 14 IBC (near-identical exclusion list — synthesis maps, does not duplicate).
+
+### P2 — Salario mínimo chassis + dated tables
+**Covers:** CT Arts. 144-148 (8h reference; 5-8h full SMM; <5h proportional unless completing week; piece-rate floor per jornada; de-pleno-derecho substitution of inferior wages), Art. 159 triennial review, Decreto 11-2025 tables (4 time-based sectors + piece-rate caña/café + Art. 6 descanso prestación table), rendimiento caps (2 t/jornada, tarea geometry), home-worker routing, benefit bases = max(daily SMM, actual salary) (16_ Art. 7).
+- **Governing EVIDs:** EVID-191 (EV16) · EVID-192 (EV16) · EVID-208 (EV11).
+- **LB:** 16_ Arts. 1-15 (D.O. 95 T.447 23-May-2025; effective 2025-06-01; repeals D.E. 9/10-2021) · 11_ Arts. 144-160.
+- **Version regime (D12):** SMM rows = dated data; prior vintage (2021 pair) absent from corpus (EV16 OQ-3).
+
+### P3 — Work time, surcharges, descanso semanal, asuetos
+**Covers:** jornada limits (8/44 diurno, 7/39 nocturno, >4h-nocturna classification, peligrosas 7/39-6/36), ≥8h rest between jornadas, nocturnal +25% (Art. 168), overtime +100% of salario básico/hour with weekly-excess base rule (Art. 169 + Art. 142 final), fuerza-mayor exception, permanent-extra pacts (Art. 170), séptimo día (complete-week accrual at básico; presumed included in period salaries — decomposition; rest-day work básico+≥50%+compensatorio; no-horario 6-day rule; piece-rate prestación from 16_ Art. 6), asueto set (CT 190 static list + 191 básico + 192 2× pay + 193 exceptions + 194 coincidence) with the calendar dated-data overlay (30_; divergence → SOQ-19).
+- **Governing EVIDs:** EVID-202 (EV11) · EVID-203 (EV11) · EVID-205 (EV11) · EVID-192 (EV16, piece-rate prestación).
+- **LB:** 11_ Arts. 161-176, 190-195 · 16_ Arts. 5-6 · 30_ (dated asueto data, EV30 crossref).
+- **Crossref:** fiscal-reporting/08 días-hábiles engine (shared asueto table).
+
+### P4 — Vacaciones
+**Covers:** 15 days + 30% surcharge (Art. 177), 200-worked-days gate (180), continuity rules (181), scheduling windows + 30-day notice (182), base derivation (183: current básico or 6-month average ÷ días laborables), lodging/food +25% each (184), pre-payment rule (185), termination proration (187), cash-compensation prohibition + fractional schemes (188-189).
+- **Governing EVIDs:** EVID-204 (EV11).
+- **LB:** 11_ Arts. 177-189.
+
+### P5 — Aguinaldo (labor computation)
+**Covers:** obligation + tiers 15/19/21 days by seniority (Arts. 196-198), proportional for <1 year at Dec-12 (197), base derivation (199), payment window 12-20 December (200), no disciplinary forfeiture (201), termination proration (202), justifiable-absence days count (203). ISR exento/gravado split = taxation-owned (R22 vintages in taxation/04); payroll supplies the gross prima + the floor check (2×SMM comercio y servicios = $817.60 with 16_ feed).
+- **Governing EVIDs:** EVID-206 (EV11) · EVID-191 (EV16, SMM feed).
+- **LB:** 11_ Arts. 196-203 · 16_ Art. 2 (comercio y servicios row).
+- **Crossref:** taxation/04 aguinaldo FRs (R22/SOQ-05); fiscal-reporting/06 F-14 annex aguinaldo exento/gravado pair.
+
+### P6 — Social-security contributions: rates, bases, caps, regime routing
+**Covers:** ISSS salud 7.5% patrono / 3% trabajador (08_ Art. 29); Art. 99 public special 6.68%/2.67%; SIP 16% = 7.25% trabajador + 8.75% empleador with 9.0/6.0/1.0 destination split and the never-pass-through invariant (09_ Art. 16); IBC = ordinary-services money remuneration (vacations/commissions in; aguinaldo/viáticos/ocasionales out), SMM floor, calendar-day months, multi-job per-salary, subsidy months (09_ Art. 14); independent workers full-share (09_ Art. 15); affiliation/routing (AFP choice, 20-day default, IPSFA/IvD exclusions — 09_ Arts. 8/11); pensioner-side rates (7.80% health R23; 7% solidarity >6×PM — payroll-adjacent); CAPS as dated data (F-14 print: AFP $472.93, ISSS $30, INPEP 7.5%, IPSFA 9.5%, CEFAFA 5%, Bien. Mag. 5.58%, ISSS-IVM 7.5% — SOQ-11/16/17 instrument OQs).
+- **Governing EVIDs:** EVID-193 (EV08) · EVID-194 (EV08) · EVID-197 (EV09) · EVID-200 (EV09).
+- **LB:** 08_ Arts. 3, 29, 33-34, 99-100 · 09_ Arts. 8, 11, 13-16, 121, 154 · F-14 v16 print (caps as dated data).
+- **Crossref:** taxation T5 (retention base nets worker-side cotizaciones per 53_ literal d); fiscal-reporting F8 (annex column model).
+
+### P7 — SS declaration, remittance, sanctions
+**Covers:** declare + pay pension cotizaciones within the FIRST 10 DÍAS HÁBILES of the following month, electronic planilla carrying BOTH the AFP declaration and the ISSS obrero-patronal planilla (09_ Art. 21); omission/inconsistency cure procedure (09_ Art. 22); ISSS late recargo 1%/month-or-fraction (08_ Art. 33); SIP sanctions (late declaration 5% ≤20d / 10% >; non-enrollment 15%; non-payment 20% + 2%/mo; underpayment 10% + 5%/mo — 09_ Arts. 143-145); employer-share no-deduction invariant + restitution (08_ Art. 33); work-accident reports ≤48h (08_ Art. 75); planilla única mechanism (09_ Art. 27); employer record duties (16_ Art. 11 planillas/asistencia/recibos; CT Art. 160 inspection).
+- **Governing EVIDs:** EVID-195 (EV08) · EVID-198 (EV09) · EVID-192 (EV16).
+- **LB:** 09_ Arts. 21-24, 27, 143-146 · 08_ Arts. 33, 75 · 16_ Arts. 11-13 · 11_ Art. 160.
+- **Crossref:** fiscal-reporting/08 días-hábiles engine; taxation T8 (same 10-días-hábiles window family).
+
+### P8 — Contracts, termination, indemnización, illness & maternity benefits
+**Covers:** contract taxonomy (indefinido presumption + plazo validity gates Art. 25; obra with 7-day notice Art. 26; interinos Art. 27; 30-day trial Art. 28); unjustified-dismissal indemnización = 30 days básico/year + prorated fractions, min 15 days, countable salary capped at 4× daily SMM (Art. 58); fixed-term variant (59); termination constancia (60); illness subsidy 75% with seniority-tier day caps (307-308); chronic-illness stability + full ISSS subsidy (308-A/B); maternity 16 weeks @75% básico, 10 post-partum mandatory, ISSS subsidy deductible, **Art. 311 tenure gate VOID (sent. 105-2014)** (309-312); lactancia 1h/d paid (312); sepelio 60 days básico (313); vacation/aguinaldo termination proration (187/202).
+- **Governing EVIDs:** EVID-207 (EV11) · EVID-209 (EV11).
+- **LB:** 11_ Arts. 25-28, 55-60, 307-313 + notes block (sent. 105-2014).
+- **Crossref:** P2 (4×SMM cap feed).
+
+### P9 — Payroll ↔ ISR/reporting interfaces
+**Covers:** worker SS/pension cotizaciones excluded from the ISR retention base (53_ literal d — consumes taxation/04 FRs, no re-derivation); aguinaldo exento/gravado split feed to F-14 annex (F8 columns); the 7 SS columns + Renta quartet S-V as payroll-produced values (SOQ-11: payroll owns the values, F-14 mirrors as validation params); F-910 annual consolidation feeds (61_: 01-vs-60 rule, annual SS columns); F-11 personal deductions 711-725 (SS rows 713-724, AFP voluntary 717 with the stale-label warning, deducción fija 722); voluntary pension savings ≤10% IBC deductible + 5-year withdrawal clawback (09_ Art. 138); cotizaciones/rendimientos rentas no gravadas (09_ Art. 26 ↔ Ley ISR Art. 4); rentas matrix S-wiring (65_ OQ-1, taxation-side).
+- **Governing EVIDs:** EVID-199 (EV09) · EVID-210 (EV65) · EVID-198 (EV09, 10-días deadline family).
+- **LB:** 09_ Arts. 21, 26, 138 · 65_ (form zones/casillas) · S2/S3 files by FR id.
+- **Crossref:** taxation/04 + 01; fiscal-reporting/06 + 07.
+
+### P10 — Quincena Veinticinco (BLOCKED)
+**Covers:** the Ley Especial Quincena Veinticinco = **D.L. 499, D.O. 14-ene-2026 (volume Id 31679)** — NOT in corpus (D.O. /seleccion route down at acquisition time 2026-08-18; law-firm mirrors not registrable). Known surface only: F-14 v17 section "INGRESOS NO GRAVADOS LEY ESPECIAL QUINCENA VEINTICINCO" casillas 417/418 (EVID-184). Payroll FRs about quincena-25 income treatment are BLOCKED on acquisition (SOQ-09 kin); only the pointer FRs from S3 (FREP FR-165/166) exist.
+- **Governing EVIDs:** EVID-184 (EV35, form surface) — no law text.
+- **Status:** acquisition queued (numbering 66).
+
 
 ---
 
@@ -263,6 +336,8 @@ against the v16 annex format with a v17 vintage row for the form-level Quincena-
 | R20 | Art. 37 brackets: 03_ transcription (exempt $4,064.00; Tramo II $4,064.01–$9,142.86 s/ $4,064.00 + $212.12) vs D.L. 293-2025 | **TWO dated vintages (D7/D12):** (a) 957-2011 config — vigencia ≤ 2025-05-07; (b) 293-2025 config — exempt $6,600.00; Tramo II $6,600.01–$9,142.86, 10% s/ $6,600.00 + $212.12; Tramos III/IV + all cuotas unchanged; effective 2025-05-08. Non-resident 30% inciso unchanged | EV54:EVID-163 (55_ Art. 1 verbatim + 54_ p.38 stamps (1)(19)(25)); superseded rows: EV03:EVID-095 |
 | R21 | Pago mínimo (Arts. 76-81, 1%/0.6% gross minimum) | **VOID — never implement.** Sentencia 18-2012 (D.O. 216 T.401, 19-XI-2013) struck the unitary regulation; sent. 98-2014 struck Art. 77 again + connected; D.L. 762-2014 (attempted re-enactment) void per sent. 96-2014. No successor regime appears in the 54_ reform tail through Jan-2026 | EV03:EVID-105; EV54:EVID-162 |
 | R22 | Aguinaldo retention: CT Art. 155 inc.2 "aguinaldo exempt from ISR retention" (EVID-063) vs Ley Art. 4.16 (2-SMM floor; excess retained, floor DEDUCTED since D.L. 458-2019) | **Ley 4.16 governs** (lex specialis, later in time): exemption up to 2 SMM comercio y servicios; excess = retention base after deducting the floor. CT 155-II read as within the floor. Vintage rows: 2014-2018 full-exemption transitories; 2021 $1,100; 2022-2024 $1,500 caps; 2025+ standing 2-SMM rule (SOQ-05 re-verifies) | EV54:EVID-165/167; EV05:EVID-063; EV53:EVID-159 xref |
+| R23 | Pensioner health cotización: 08_ Art. 29 "6% de su pensión" vs 09_ Art. 154 "7.80% de su pensión mensual" (S4/W9 find) | **7.80% governs** — D.L. 614 (2022) is later in time and specifically regulates the pensioner health cotización (also extends coverage to cónyuge/conviviente). 08_'s 6% = historical text; no reform needed (08_ Art. 29 only covers active-worker splits as operative) | EV09:EVID-199 (Art. 154 verbatim); historical EV08:EVID-193 |
+| R24 | 09_ registry title ("Ley del Sistema de Ahorro para Pensiones") vs content (Ley INTEGRAL del Sistema de Pensiones, D.L. 614, effective 2022-12-29, which DEROGATES D.L. 927-1996 the SAP) | **Content governs; title is a misnomer** (registry row amended 2026-08-18). Any SAP-era rate lore (e.g. 6.25%/6.75% splits) is DEAD for current periods — only D.L. 614 Art. 16's 16% (7.25/8.75) may be cited; SAP-era Normas Técnicas survive only where not contrary (09_ Art. 159) | EV09:EVID-197/200 (Arts. 16, 162, 164) |
 
 ---
 
@@ -297,6 +372,13 @@ against the v16 annex format with a v17 vintage row for the form-level Quincena-
 | SOQ-12 | Annex-modification resolutions missing (W8): the DGII resolution(s) modifying F-07/F-14 annexes (29_'s intended content; the legal authority behind v14/v16/v17 annex sets incl. Quincena-25) are not in the corpus — manuals/forms are the only authority. Non-blocking (manuals carry full structures); acquire opportunistically | F2/F10 | sources registry (origin: EV29 OQ-1) |
 | SOQ-13 | F-935 "donantes locales" entero track: normative anchor unstated in the form (CT 156 zone or a specific regime?) — chase in the CT matrix during S3 | F11 | fiscal-reporting OQ row (origin: EV61-64 OQ-3) |
 | SOQ-14 | F-950 frequency/applicability (quarterly pattern Ene/Abr/Jul(+Oct?); whose obligation) — confirm for the reporting inventory | F12 | fiscal-reporting OQ row (origin: EV30 OQ-2) |
+| SOQ-15 | ISSS **Reglamento de Aplicación absent** (W9): it alone fixes the high-income exclusion threshold (08_ Art. 3), the cotizable-base CAP behind the F-14 ISSS $30 print, remittance/planilla mechanics (08_ Art. 33), variable-income bases (08_ Art. 34). Acquisition candidate (≥66); until then caps = F-14 print dated data | P6, P7 | payroll FR + OQ row (origin: EV08 OQ-1/OQ-2) |
+| SOQ-16 | SIP **IBC ceiling instrument absent** (W9): no base cap in D.L. 614; F-14 v16 print caps AFP $472.93 — instrument (BCR Norma Técnica?) unacquired; value enters as dated data with OQ | P6 | payroll FR + OQ row (origin: EV09 OQ-1) |
+| SOQ-17 | SIP **Reglamento + Normas Técnicas + Institutos Previsionales laws absent** (W9): planilla-única spec, acreditación windows; INPEP/IPSFA/CEFAFA/Bienestar-Magisterial/ISSS-IVM rate laws (public-sector employers) — F-14 print is the only anchor | P6, P7 | payroll OQ row (origin: EV09 OQ-2/OQ-3) |
+| SOQ-18 | **SMM sector selection** (W9): aguinaldo floor pinned to "comercio y servicios" (Ley 4.16); FE-receptor ≥3×SMM (e-invoicing 01 OQ-007) and the 25-SMM cash ban (taxation/02 OQ-002) name no sector — config decision + MH guidance hunt | P2, P5 | payroll + taxation OQ rows (origin: EV16 OQ-2) |
+| SOQ-19 | **Asueto dual-layer** (W9): CT Art. 190 static list vs Calendario-2026 legend extras (2-Jan, Día del Padre, 5-6-Aug pattern, fin-de-año) — extra days are decree instruments absent from corpus; design = CT base + calendar dated-data overlay; visual-layer kin of SOQ-08 | P3 | payroll FR note + OQ row (origin: EV11 OQ-1) |
+| SOQ-20 | SMM 2025 **three-decimal prints** (daily/hourly tariffs): both PSM reads agree; transcribe exact-as-printed ([sic] discipline, D.E. 10-2025 precedent); gazette re-verification optional when D.O. recovers | P2 | payroll CSV fidelity note (origin: EV16 OQ-1) |
+| SOQ-21 | CT copy vintage: Índice Legislativo edition, stamps through (22), no as-of date — cross-checks consistent with post-2017 consolidation; re-verify stamped articles if a later CT reform lands | P1-P8 | payroll LB note (origin: EV11 OQ-3; non-blocking) |
 
 ### Struck (resolved during evidence passes — retained for audit)
 
@@ -328,6 +410,7 @@ against the v16 annex format with a v17 vintage row for the form-level Quincena-
 - S2/ISR clusters: 8 (T1-T8), from 63 EVID entries (EVID-088..108, 128..146, 148..170; 109-127 reserved-unused) across 6 evidence files + CT crossrefs (EVID-062/063/065 + Art. 62 raw read).
 - S3/fiscal-reporting clusters: 12 (F1-F12), from 19 EVID entries (EVID-172..190) across 5 evidence files (EV29/EV30/EV34/EV35/EV61-64); forms are primary authority for declaration mechanics (34_/35_ manuals + 38_/39_/59_ forms + 61_-64_ informs).
 - S3/fiscal-reporting delivered: 8 files + index + CSV sidecar (SV-FREP-FR-001..208) — see `sv/requirements/fiscal-reporting/00_index.md`.
-- Resolved contradictions: 22 (R1-R16 S1, R16 flagged [?]; R17-R22 ISR/S2).
-- Open questions: S1 = 8 (MOQ-01/03/04/05/06/07/10/11; 19 struck/resolved incl. the 2026-08-17 schema pass); S2 = 7 opened, 4 open (SOQ-02/05/06/07), 3 resolved (SOQ-01/04 in-wave via 03 §7; SOQ-03 2026-08-18 via EVID-171/60_); S3 = 7 opened (SOQ-08..14; SOQ-10 carries an applied ruling); EV53 OQ-1/OQ-3, EV54 OQ-1/OQ-3 and EV56 set already resolved.
-- Evidence corpus indexed: EVID-001..190 (S1 = 001..087 across 7 evidence files + DG45 + ARCH; S2 = ISR files 088..170; S3 = 172..190 + 171 = D.E. 10 gazette verification).
+- S4/payroll clusters: 10 (P1-P10), from 20 EVID entries (EVID-191..210) across 5 evidence files (EV16/EV08/EV09/EV11/EV65); P10 (Quincena-25) BLOCKED on the D.L. 499 acquisition (D.O. route down 2026-08-18).
+- Resolved contradictions: 24 (R1-R16 S1, R16 flagged [?]; R17-R22 ISR/S2; R23-R24 payroll/S4).
+- Open questions: S1 = 8 (MOQ-01/03/04/05/06/07/10/11; 19 struck/resolved incl. the 2026-08-17 schema pass); S2 = 7 opened, 4 open (SOQ-02/05/06/07), 3 resolved (SOQ-01/04 in-wave via 03 §7; SOQ-03 2026-08-18 via EVID-171/60_); S3 = 7 opened (SOQ-08..14; SOQ-10 carries an applied ruling); S4 = 7 opened (SOQ-15..21); EV53 OQ-1/OQ-3, EV54 OQ-1/OQ-3 and EV56 set already resolved.
+- Evidence corpus indexed: EVID-001..210 (S1 = 001..087 across 7 evidence files + DG45 + ARCH; S2 = ISR files 088..170; S3 = 172..190 + 171 = D.E. 10 gazette verification; S4/payroll = 191..210).
