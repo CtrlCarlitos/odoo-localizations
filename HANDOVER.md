@@ -1,8 +1,9 @@
 # HANDOVER — Session State & Continuation Guide
 
-**For the next controller session.** Written 2026-08-17, updated 2026-08-18 at the close of
-the S2 ISR synthesis wave. Read this document fully before acting; it is the
-authoritative cross-session memory (conversation context does not survive).
+**For the next controller session.** Written 2026-08-17, updated 2026-08-18 (S3 close)
+and 2026-08-18 again at the close of the W9 payroll evidence wave. Read this
+document fully before acting; it is the authoritative cross-session memory
+(conversation context does not survive).
 **Update it at every session boundary** — replace stale sections, append new
 rulings, refresh "Next actions".
 
@@ -48,13 +49,19 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
   `334497f..d2e5e4a`).
 
 ### El Salvador — sources & evidence state
-- **EVID corpus 001..190** (gap 109-127 reserved-unused). W8 files:
+- **EVID corpus 001..210** (gaps 109-127 reserved-unused). W9 files:
+  `16_Salarios_Minimos_2025` (EVID-191..192), `08_Ley_ISSS` (EVID-193..196),
+  `09_Ley_Sistema_Pensiones` (EVID-197..200), `11_Codigo_Trabajo`
+  (EVID-201..209), `65_F11_v18_form_visual` (EVID-210). W8 files:
   `29_F985_CNR_RegComercio` (EVID-172), `34_36_39_F07_v14` (EVID-173..179),
   `35_37_38_59_F14_v16_v17` (EVID-180..184), `30_Calendario_Tributario_2026`
   (EVID-185..186), `61-64_report_forms` (EVID-187..190); `60_DE10_...` (EVID-171).
-  **62 registered source files, numbering 01-64** (gaps 21/23/24/28; + schemas/ dir).
-- Source registry carries: 29_ mislabel note; 38_/39_ current-form notes; 59_ (F14 v17),
-  60_ (D.E. 10 gazette print), 61_-64_ (F910v9/F915v4/F930v3/F935v1) with provenance.
+  **63 registered source files, numbering 01-65** (gaps 21/23/24/28; + schemas/ dir;
+  65_ = F-11 v18 added W9; Quincena-25 = 66 when acquired).
+- Source registry carries: 29_ mislabel note; 38_/39_ current-form notes; 59_
+  (F14 v17), 60_ (D.E. 10 gazette print), 61_-64_ (F910v9/F915v4/F930v3/F935v1)
+  with provenance; **08_ law-level-rates-only note; 09_ D.L. 614 identity
+  note (registry misnomer)**; 65_ (F-11 v18) with provenance.
 
 ### El Salvador — extraction (S1 scope COMPLETE; W6/ISR COMPLETE 2026-08-17)
 - **EVID corpus now 001..152** (gap 109–127 reserved-unused): S1 = 87 entries
@@ -232,6 +239,57 @@ third-party report; the intended annex-modification resolutions are NOT in the c
 blocks the annex-level FR); F-07/F-14 manuals are the primary authority for declaration
 mechanics; DTE-identifier mapping (Serie=sello 40c / Resolución=NC-28 pre-Nov-2022 CG-32 /
 Número=CG-32 pre-Nov-2022 NC-28) is now FR-042/043 canonical.
+
+### El Salvador — W9 payroll evidence pass (COMPLETE 2026-08-18, same day)
+Sources read end-to-end + evidence EVID-191..210 (5 files, 16 file-level OQs):
+- **16_ = Decreto 11-2025 SMM** (D.O. 95 T.447 23-May-2025, effective 1-Jun-2025;
+  repeals D.E. 9/10-2021): Agrícola $305.23 / Industria $408.80 / Comercio y
+  servicios $408.80 / Maquila $402.32; piece-rate caña $5.018/t + $2.007/arroba,
+  café $0.080/lb + Art. 6 descanso prestación table; 3-decimal daily/hourly prints
+  transcribed [sic]. Feeds: aguinaldo floor $817.60 (2× comercio y servicios),
+  FE-receptor 3×SMM, 25-SMM ban (sector selection = 16_ OQ-2 open).
+- **08_ = Ley Seguro Social D.L. 1263** (1953 consolidation, last reform 1994):
+  law-level rates only — salud 7.5%/3%, Art. 99 public 6.68%/2.67%, pensioner
+  health 6% (superseded by 09_ 7.80%). **CAPS live in the Reglamento — NOT in
+  corpus** (08_ OQ-1 acquisition candidate); withholding/remittance duty,
+  1%/month late recargo, first-class credits, 48h accident reports,
+  Art. 100 benefit-substitution rule.
+- **09_ = IDENTITY FIND: Ley INTEGRAL del Sistema de Pensiones, D.L. 614**
+  (D.O. 241 T.437 21-dic-2022 → effective 2022-12-29; **derogates D.L. 927-1996
+  SAP** — the registry title "Ley del Sistema de Ahorro para Pensiones" is a
+  MISNOMER, registry row amended). Cotización **16% = 7.25% trabajador +
+  8.75% empleador** (9.0/6.0/1.0 split); IBC = ordinary-services money
+  remuneration (aguinaldo/viáticos/ocasionales OUT, SMM floor, calendar-day
+  months, multi-job per-salary); **declare+pay first 10 días hábiles**,
+  electronic planilla (AFP + ISSS); sanctions 5/10/15% + 20%+2%/mo +
+  10%+5%/mo; privileged imprescriptible credits; ISR hooks (cotizaciones no
+  gravadas; **voluntary savings ≤10% IBC deductible, 5-y withdrawal clawback**);
+  IPSFA excluded; IBC ceiling instrument ABSENT (F-14's AFP $472.93 value is
+  the only corpus anchor — 09_ OQ-1).
+- **11_ = Código de Trabajo** (Índice Legislativo edition, payroll books read
+  full): salario vs **salario básico** (7 derivation rules — the universal
+  employer-obligation base); jornada 8/44 (+nocturno 7/39; +25% nocturnal,
+  **+100% overtime**); séptimo día per complete week (presumed in period
+  salaries); **vacaciones 15d+30%** (200-day gate, no cash-out except
+  termination); asuetos static list + 2× pay (CT list vs Calendario-2026
+  legend divergence → dated data, 11_ OQ-1); **aguinaldo tiers 15/19/21 días,
+  window 12-20 Dec, no disciplinary forfeiture**; **indemnización 30d/year
+  min 15d, salary cap 4× daily SMM**; contract taxonomy (indefinido/plazo/
+  obra/interino/30-day trial); SMM chassis (5-8h full SMM; triennial);
+  illness 75% seniority tiers; **maternity 16w @75% básico (10 post-partum),
+  Art. 311 tenure gate VOID per sent. 105-2014**; lactancia 1h/d paid.
+- **65_ = F-11 v18 acquired** (ISR annual declaration, Feb-2025): rentas
+  matrix 105-145 = the F-07 R/S consumer surface (closes 07 OQ-006's
+  acquisition half); personal deductions 711-725 incl. SS rows (form label
+  still cites dead Ley SAP Art. 22 — print-vs-law defect); **pago-mínimo
+  casillas 630-648 printed but DEAD (R21 — never feed)**; devolución ≤$5,000.
+- **Quincena-25 acquisition BLOCKED (pinned)**: law = **D.L. 499, D.O.
+  14-ene-2026, volume Id 31679**; the D.O. `/seleccion/{Id}` route 500s
+  server-wide since 2026-08-18 ~13:55 (worked that morning for 60_). Retry
+  when up; law-firm PDF mirrors exist but are NOT official (do not register).
+- Resolution candidates recorded in evidence (formalize at S4 prep):
+  pensioner-health 6% → **7.80%** (later-in-time, 09_ Art. 154);
+  11_ OQ-1 asueto dual-layer design; 16_ OQ-1 fidelity discipline.
 
 ### GT / HN
 Scaffolded only (READMEs, sources/scripts/requirements dirs, topic sets; hn
@@ -416,13 +474,18 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
   4728=Normativa v2.0, 4725=catalogs XLSX-as-pdf, 5353=catalogs XLSX,
   4399=schemas zip, 4726=Manual Funcional, 4397=eventos manual,
   4398=estructuras manual v1.6 (237pp). Re-verify before reuse.
-- **Diario Oficial volumes (recipe, verified 2026-08-17)**:
+- **Diario Oficial volumes (recipe, verified 2026-08-17; OUTAGE 2026-08-18 ≥13:55)**:
   `POST https://www.diariooficial.gob.sv/api/v1/diarios-disponibles`
   (form data `year`, `month`) → JSON rows with `Id`/`NombreArchivo` →
   `https://www.diariooficial.gob.sv/seleccion/{Id}` serves the full volume
-  PDF (opens with EMPTY password in pypdf). Online copies are watermarked
-  "SOLO PARA CONSULTA — NO TIENE VALIDEZ LEGAL" (fine for extraction).
-  D.O. scans OCR only under tesseract PSM 6 (same quirk as 44_).
+  PDF (opens with EMPTY password in pypdf). **The `/seleccion/{Id}` route
+  returned HTTP 500 server-wide (all Ids, both UAs) from 2026-08-18 ~13:55 —
+  retry on next session; the API listing route still works.** Online copies
+  are watermarked "SOLO PARA CONSULTA — NO TIENE VALIDEZ LEGAL" (fine for
+  extraction). D.O. scans OCR only under tesseract PSM 6 (same quirk as 44_);
+  **D.O. TABLE pages need PSM 4 at 400dpi** (PSM 6 merges table rows into
+  digit soup; verified again on 16_ — gs rasterize + `tesseract --psm 4`
+  recovers labels/values PSM 6 loses).
 - **Asamblea consolidations**: asamblea.gob.sv was network-unreachable
   2026-08-17; the official-mirror route that worked is the DGA (Aduanas)
   WordPress download-manager: fetch the `/download/<slug>/` page, parse the
@@ -452,13 +515,22 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
 - `docs/superpowers/` holds process artifacts (specs/plans) — keep using it.
 - **MH formularios page** (mh.gob.sv/servicios/formularios-tributarios-para-descarga/):
   direct wp-content URLs (no wpdmdl shuffling); forms verified 2026-08-18: F14-V17-1.pdf
-  (2026-06), F07_V14_COMPLE.pdf (= our 39_, updated 15-08-2025), F910=PMHDC8240,
-  F915=PMHDC8241, F-930=PMHDC8242, F935v1.pdf (2025-10). Watch for F14 v17 manual +
-  newer F910/F915/F930 prints; F11-V18.pdf = ISR annual declaration (acquisition
-  candidate).
-- **29_ mislabel**: `29_Modificacion_Anexos_F07_F14.pdf` is actually the F985/F-975
-  CNR Registro de Comercio manual (CT 121 a)2) — the annex-modification resolutions
+  (2026-06, still NO v17 manual/plantilla — SOQ-09 open), F07_V14_COMPLE.pdf (= our 39_,
+  updated 15-08-2025), F910=PMHDC8240, F915=PMHDC8241, F-930=PMHDC8242, F935v1.pdf
+  (2025-10), **F11-V18.pdf = acquired as 65_ (2026-08-18)**. Watch for F14 v17 manual +
+  newer F910/F915/F930 prints.
+- **29_ mislabel**: `29_Modificacion_Anexos_F07_F14.pdf` is actually the F985/F-975 CNR
+  Registro de Comercio manual (CT 121 a)2) — the annex-modification resolutions
   are NOT in the corpus (SOQ-12).
+- **09_ misnomer** (W9): registry title says "Ley del Sistema de Ahorro para
+  Pensiones" but the content is the NEWER **Ley Integral del Sistema de
+  Pensiones D.L. 614 (2022)** which derogated the SAP — row amended; trust
+  content, not old titles (same lesson as 29_, opposite direction).
+- **CT Art. 311 is VOID** (sent. 105-2014, D.O. 225 T.417 1-dic-2017):
+  maternity-benefit tenure gate produces no legal effect — never implement.
+- **F-11 v18 + F-14 v17 both still PRINT dead pago-mínimo casillas** (Dec.
+  762/2015 references) — R21 discipline: never feed, flag as print-vs-law
+  defects.
 
 ## 8. Next actions (ordered)
 
@@ -473,17 +545,20 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
    index + CSVs), final review clean. See §3 S2 section.
 4. ~~**S2 next wave — F-07/F-14 fiscal reporting**~~ **DONE 2026-08-18** — W8 evidence +
     acquisitions 59_-64_ + S3 synthesis (208 FRs, 8 files + index + CSV). See §3 S3 section.
-5. **S2 remaining waves** (each: extraction → evidence → synthesis): payroll
-    (08_/09_/11_/16_; consumes 04's thresholds/base FRs + SOQ-05 aguinaldo re-verify +
-    **SOQ-11 SS-cap feed** (F-14 mirrors the caps; payroll owns the values) + **the Ley
-    Especial Quincena Veinticinco acquisition (numbering ≥65 — F-14 v17 + payroll both
-    need it)**) → commercial-legal (07_/15_/17_) → special-regimes
+5. **S4 payroll wave — evidence DONE (W9), synthesis NEXT**: (a) retry the
+    Quincena-25 acquisition (**D.L. 499, D.O. 14-ene-2026, volume Id 31679**;
+    D.O. `/seleccion` was 500ing server-wide 2026-08-18 — number it 66 on
+    acquisition); (b) S4 prep = master-index extension (P-clusters from
+    EVID-191..210 + formalize the pensioner-health 6%→7.80% supersession +
+    SOQ-15.. register from the 16 W9 OQs); (c) plan doc + subagent synthesis
+    into `sv/requirements/payroll/` (consumes taxation/04 thresholds/base
+    FRs, SOQ-05 aguinaldo re-verify, SOQ-11 SS-cap feed from 16_/08_/09_;
+    F-11 v18's 711-725 deduction rows are a payroll feed). Then:
+    commercial-legal (07_/15_/17_) → special-regimes
     (12_/13_/14_/17b_/42_/43_; D.L. 598-2020 + EVID-167 tail laws) → NIIF/chart-of-accounts
     (32_/33_; consumes 06's register interface). Taxation topic also still owes the
     IVA-core files (01_ cited in S1; 02_ Reglamento unread; the R/S and IVA-retention
     cross-refs from S3's 01/04 files land there) — fold into a later taxation wave.
-    **F-11 v18** (ISR annual declaration, mh.gob.sv Feb-2025) = acquisition candidate
-    for the R/S-classification consumer interface.
 6. **SOQ follow-ups**: taxation — SOQ-02 ($1,600 proration quincenal/semanal; MH
     guidance), 03 OQ-009 (vintage straddle; watch MH guidance); fiscal-reporting —
     **SOQ-08** (due-day windows: extract the calendar's visual layer or find the

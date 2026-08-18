@@ -23,8 +23,8 @@ available.
 | `07_Codigo_Comercio.pdf` | commercial-legal | Código de Comercio | pending | pending | pending |
 | `15_Ley_Lavado_Activos.pdf` | commercial-legal | Ley contra el Lavado de Activos y del Financiamiento al Terrorismo | pending | pending | pending |
 | `17_Reglamento_Lavado_Activos.pdf` | commercial-legal | Reglamento de la Ley de Lavado de Activos | pending | pending | pending |
-| `08_Ley_ISSS.pdf` | payroll | Ley del Instituto Salvadoreño del Seguro Social (ISSS) | pending | pending | pending |
-| `09_Ley_Sistema_Pensiones.pdf` | payroll | Ley del Sistema de Ahorro para Pensiones | pending | pending | pending |
+| `08_Ley_ISSS.pdf` | payroll | Ley del Seguro Social (D.L. Nº 1263, 1953, consolidation through reform (9) D.L. 45-1994; law-level ISSS rates Art. 29: salud 7.5% patrono / 3% trabajador; caps live in the Reglamento — NOT in corpus, see 08_ OQ-1) | pending | pending | pending |
+| `09_Ley_Sistema_Pensiones.pdf` | payroll | **MISNOMER: content = Ley INTEGRAL del Sistema de Pensiones, D.L. No. 614 (20-dic-2022, D.O. 241 T.437 21-dic-2022; effective 2022-12-29) — REPLACES the Ley del Sistema de Ahorro para Pensiones (D.L. 927-1996, derogated Art. 162)**. Cotización 16% = 7.25% trabajador + 8.75% empleador (Art. 16); IBC excludes aguinaldo/viáticos/ocasionales (Art. 14); declare+pay first 10 días hábiles (Art. 21); sanctions Arts. 143-145 | 2022-12-20 | 2026-08-16 (tuky) | pending |
 | `11_Codigo_Trabajo.pdf` | payroll | Código de Trabajo | pending | pending | pending |
 | `16_Salarios_Minimos_2025.pdf` | payroll | Salario Mínimo 2025 (por sector) | pending | pending | pending |
 | `12_Ley_Zonas_Francas.pdf` | special-regimes | Ley de Zonas Francas y Recintos Comerciales | pending | pending | pending |
@@ -106,6 +106,12 @@ D.L. 293-2025 (+ interpretaciones auténticas D.L. 192-2018, D.L. 345-2019).
 | `39_F07_v14_form_visual.pdf` | fiscal-reporting | F-07 v1.4 — Formulario visual — verified byte-identical (text) to the current MH copy (updated 2025-08-15) on 2026-08-18; still current | pending | pending | pending |
 | `59_F14_v17_form_visual.pdf` | fiscal-reporting | Formulario F-14 **v1.7** — Declaración Mensual de Pago Cuenta e Impuestos Retenidos de Renta y Agentes Extranjeros ("borrador"; 4 pp, p.4 blank continuation). vs v1.6: NEW section "INGRESOS NO GRAVADOS LEY ESPECIAL QUINCENA VEINTICINCO" (row 61: número de sujetos casilla 417, monto casilla 418) inserted after row 58; rows 61-104 renumbered → 62-105 (casilla numbers unchanged except the new 417/418). No v1.7 manual/plantilla published yet (checked 2026-08-18) — `35_`/`37_` mechanics assumed carried forward, to verify in evidence pass | 2026-06-03 (page "Actualizado") | 2026-08-18 | [mh.gob.sv formularios tributarios](https://www.mh.gob.sv/servicios/formularios-tributarios-para-descarga/) → [F14-V17-1.pdf](https://www.mh.gob.sv/wp-content/uploads/2026/06/F14-V17-1.pdf) |
 
+## Registry — Payroll / ISR declaration update (retrieved 2026-08-18)
+
+| File | Topic | Title | Issued | Retrieved | Provenance (URL) |
+|------|-------|-------|--------|-----------|------------------|
+| `65_F11_v18_form_visual.pdf` | fiscal-reporting, taxation | Formulario F-11 **v18** — Declaración del Impuesto sobre la Renta y Contribución Especial (3 pp; USD-only; also the asalariados/rentas-diversas devolution request up to $5,000). The R/S-classification consumer interface (F-07 anexo 1 R/S pair → F-11 rentas matrix; fiscal-reporting/07 OQ-006 coupling counterpart). Acquisition supports the payroll wave + later taxation file | 2025-02-27 (page date) | 2026-08-18 | [mh.gob.sv formularios tributarios](https://www.mh.gob.sv/servicios/formularios-tributarios-para-descarga/) → [F11-V18.pdf](https://www.mh.gob.sv/wp-content/uploads/2025/02/F11-V18.pdf) |
+
 ## Registry — MH JSON schemas (`schemas/`)
 
 Official MH JSON schemas for DTE transmission, one per document/event type.
@@ -133,7 +139,7 @@ Official MH JSON schemas for DTE transmission, one per document/event type.
   with Decreto 431 (2007); its Reglamento (Decreto 131) is file `17b_`.
 - Numbering gaps (21, 23, 24, 28) are intentional — those documents were not
   carried over from the prior project. New acquisitions continue the sequence
-  after the highest existing number (currently 64).
+  after the highest existing number (currently 65).
 - **2026-08-16 update (files 44-52):** the current MH official set postdates
   most tuky-era documents. Superseded files are RETAINED (they are cited Legal
   Basis for evidence already collected); requirement synthesis must prefer the
