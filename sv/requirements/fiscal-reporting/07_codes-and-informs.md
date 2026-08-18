@@ -276,10 +276,12 @@ Manual/form pages are printed pages.
   (capitalized) checkboxes with the *ACTA JUNTA GENERAL DE
   ACCIONISTAS* (general shareholders' meeting minutes) linkage "04
   Fecha / 05 Número" (date / number), plus 01 EJERCICIO FISCAL,
-  02 FOLIO MODIFICA and 03 NIT — a DISTRIBUYÓ presentation reports
-  the distribution amounts, a CAPITALIZÓ presentation the
-  capitalized book values (both modes may apply to the same ejercicio
-  through separate presentations as the checkboxes are per-form).
+  02 FOLIO MODIFICA and 03 NIT — the checked mode(s) governing which
+  §B/§C amount columns are populated: distributed amounts under
+  DISTRIBUYÓ, capitalized book values under CAPITALIZÓ (the form
+  prints both checkboxes and both column families; no presentation
+  mode beyond the checkboxes is printed — single-vs-multiple
+  presentation behavior is a filing-practice question, OQ-004 kin).
   (LB-004; EVID-188)
 - **SV-FREP-FR-185:** The system shall fill §B "Calidad de Socios"
   (partner quality) with the three transition buckets verbatim —
