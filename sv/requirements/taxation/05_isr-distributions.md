@@ -194,7 +194,7 @@ printed, read per LB-007.
 - **SV-TAX-FR-139:** The system shall compute the 5% retention on sums of
   money or in-kind goods delivered by domiciled personas jurídicas or
   entes sin personalidad jurídica as *préstamos, mutuos, anticipos o
-  cualquier otra forma de financiamento* (loans, mutual loans, advances
+  cualquier otra forma de financiamiento* (loans, mutual loans, advances
   or any other form of financing) to: (a) their socios, accionistas,
   asociados, partícipes, fideicomisarios or beneficiarios and the
   subjects related to them per the Art. 25 inciso final circle (spouse
@@ -421,15 +421,15 @@ vintages.
 
 ## 6. Acceptance Criteria
 
-- **AC-001:** Given a domiciled society with rentas gravadas of $200,000,
-  no exentas/no sujetas rents, costs/expenses/deductions of $140,000 and
-  gravadas ≤ $150,000 after deductions (renta imponible $60,000 → ISR
-  Art. 41 at 25% = $15,000, consumed from `03_isr-rates-gains.md`
-  FR-077), then utilidades = 200,000 − 140,000 − 15,000 = $45,000, and a
-  distribution to Partner A (60%) and Partner B (40%) retains 5% ×
-  27,000 = $1,350.00 and 5% × 18,000 = $900.00 respectively, both
-  definitive and excluded from the recipients' ISR bases (FR-132,
-  FR-133).
+- **AC-001:** Given a domiciled society with rentas gravadas of $120,000
+  (≤ $150,000 → 25% rate per `03_isr-rates-gains.md` FR-077), no
+  exentas/no sujetas rents and costs/expenses/deductions of $60,000
+  (renta imponible $60,000 → ISR Art. 41 at 25% = $15,000, consumed from
+  the 03-file rate FRs), then utilidades = 120,000 − 60,000 − 15,000 =
+  $45,000, and a distribution to Partner A (60%) and Partner B (40%)
+  retains 5% × 27,000 = $1,350.00 and 5% × 18,000 = $900.00
+  respectively, both definitive and excluded from the recipients' ISR
+  bases (FR-132, FR-133).
 - **AC-002:** Given the same society with rentas gravadas of $250,000 and
   deductions of $150,000 (renta imponible $100,000 → 30% rate per
   FR-077, ISR = $30,000), then utilidades = 250,000 − 150,000 − 30,000 =
