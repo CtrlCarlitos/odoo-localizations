@@ -25,3 +25,5 @@ regenerating from the new source (then recording the supersession — see
   (§3 — includes an extended list beyond what the structures manual's
   Anexo 5 documents).
 - Known corrections are recorded in `_INDEX.md`.
+- Governance requirements (versioning, regeneration, dated storage):
+  [05_governance.md](05_governance.md).
