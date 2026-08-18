@@ -248,5 +248,5 @@ worry-list articles, so the merge re-reads 54_ article text during synthesis any
 - S1 clusters: 12 (A1-A12). Governing EVID totals per cluster: A1=5, A2=4, A3=3, A4=3, A5=3, A6=4, A7=2, A8=3, A9=2, A10=13, A11=8, A12=4 (+6 D-items). DG45 digest governs structure/validation in A1-A8, A10.
 - S2/ISR clusters: 8 (T1-T8), from 63 EVID entries (EVID-088..108, 128..146, 148..170; 109-127 reserved-unused) across 6 evidence files + CT crossrefs (EVID-062/063/065 + Art. 62 raw read).
 - Resolved contradictions: 22 (R1-R16 S1, R16 flagged [?]; R17-R22 ISR/S2).
-- Open questions: S1 = 8 (MOQ-01/03/04/05/06/07/10/11; 19 struck/resolved incl. the 2026-08-17 schema pass); S2 = 7 (SOQ-01..07; EV54 OQ-1/OQ-3 and EV56 set already resolved in the W7 addendum).
+- Open questions: S1 = 8 (MOQ-01/03/04/05/06/07/10/11; 19 struck/resolved incl. the 2026-08-17 schema pass); S2 = 7 opened, 5 open (SOQ-02/03/05/06/07), 2 resolved (SOQ-01/04 in-wave via 03 §7); EV54 OQ-1/OQ-3 and EV56 set already resolved in the W7 addendum.
 - Evidence corpus indexed: EVID-001..170 (S1 = 001..087 across 7 evidence files + DG45 + ARCH; S2 = ISR files above).

@@ -12,8 +12,8 @@ Every file in [../sources/](../sources/) mapped against the S1 and S2 (ISR)
 requirements waves. Status values:
 
 - **cited-as-LB** — appears in a Legal Basis row (or as direct schema read) of a requirements file; the citing file(s) named.
-- **not-applicable-this-wave** — out of S1 scope or superseded-without-content-need; reason noted.
-- **pending-S2+** — earmarked for later waves: ISR, F-07/F-14, payroll, commercial-legal, special-regimes, NIIF / fiscal-reporting.
+- **not-applicable-this-wave** — out of the current wave's scope or superseded-without-content-need; reason noted.
+- **pending-S2+** — earmarked for later waves: F-07/F-14, payroll, commercial-legal, special-regimes, NIIF / fiscal-reporting.
 - **superseded-not-cited** — superseded extraction retained on disk for reference; not a legal-basis citation (the superseding source is the cited LB).
 
 No orphans: every row carries at least one of the four. Sources fully

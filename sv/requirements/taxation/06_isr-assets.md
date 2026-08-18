@@ -39,7 +39,7 @@ requirement with the *usufructuario* (usufructuary) rule; land and inventory
 never depreciable with the land/building value-separation duty; mixed
 gravadas/no-gravadas use prorated per the Art. 28 final-inciso allocator owned
 by `02_isr-deductions.md`; no catch-up of missed or deficient quotas;
-full-redeemption stop); the evidence rules (*documentos de pago idóneos*
+full redemption stop); the evidence rules (*documentos de pago idóneos*
 (suitable payment documents); real-estate transfer tax never part of
 acquisition cost); the Art. 30-A software mirror (25% maximum, used-software
 caps, own-produced double-deduction ban, CT Arts. 156-A/158 retention

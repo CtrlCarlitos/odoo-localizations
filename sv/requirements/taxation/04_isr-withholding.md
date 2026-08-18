@@ -402,9 +402,13 @@ reconciled here as printed — it never conflicts with 03's four-tramo Art.
 37 vintages because the vintage key separates them. Note:
 `isr_brackets.csv` leaves `valid_from` BLANK for the dl_957_2011
 vintage — the D.L. 957-2011 publication/effective date is not pinned in
-the corpus and is not invented; the chain gap is covered by OQ-005. Layer semantics: this
-file introduces Odoo-side computation/bookkeeping data only (wave default
-`odoo`; see §5).
+the corpus and is not invented; the chain gap is covered by OQ-005. The
+D.E. 25-1992 rows carry an open-ended `valid_to` (supersession date of
+the 1992 tables is not pinned in the corpus — OQ-005 chain gap) and MUST
+NOT be auto-selected for pre-2025-05-08 periods; loaders rely on
+FR-108's chain note until OQ-005 resolves the intermediate decrees.
+Layer semantics: this file introduces Odoo-side computation/bookkeeping
+data only (wave default `odoo`; see §5).
 
 **Withholding tables and engine:**
 
