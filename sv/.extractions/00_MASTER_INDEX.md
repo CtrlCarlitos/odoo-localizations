@@ -130,17 +130,13 @@ DG45 sections cited as: §1 (Anexo II structures/versions), §2 (Anexo III event
 | MOQ | Question | Blocking for | Record answer in |
 |---|---|---|---|
 | MOQ-01 | CAT-019 actividad-económica canonical source/URL (source link broken; count 775→? post-v1.1) | A9 | Catalog sidecar `_INDEX.md` + A9 FRs (origin: EV40 OQ-2/EVID-004; EV44:EVID-086 note) |
-| MOQ-02 | motivoContingencia max length: 500 (41_ field spec) vs 1000 (prose) — v2.0 length not restated | A1, A4 | Field-spec table vs `schemas_2026/contingencia v4` (origin: EV41 OQ-3/EVID-044) |
 | MOQ-03 | Ley IVA Art. 28 exclusion thresholds in colones — current administered status (non-blocking; FSEE regime documented regardless) | A10 (minor) | Taxation synthesis footnote (origin: EV01 OQ-1) |
 | MOQ-04 | FOVIAL/COTRANS legal basis not in sources (laws absent; only guide 31_); are they in IVA base (Art. 51.d tension)? FEXE usage requires AT authorization (DG45 §3.1 N°96) | A10 | Taxation synthesis; obtain FOVIAL/COTRANS laws (origin: EV01 OQ-2) |
-| MOQ-05 | Retorno/EOP endpoint paths — absent from 46_ v2.0 (25-May) AND from Anexos (deferred to Manuales); check 52_ schemas for hints or later manual revision | A2, A5 | Connector spec (origin: EV44 OQ-1; DG45 §4 confirms absence) |
+| MOQ-05 | Retorno/EOP endpoint paths — absent from 46_ v2.0 (25-May) AND from Anexos (deferred to Manuales); check 52_ schemas for hints or later manual revision | A2, A5 | Connector spec (origin: EV44 OQ-1; DG45 §4 confirms absence). **Schema pass 2026-08-17: all 15 files in 52_ scanned — zero endpoint strings; absence schema-verified; externally blocked on AT** |
 | MOQ-06 | FVS: does Odoo need an FVS print flow (SMM-threshold users) or is FE always used? Business decision | A5, A11 | S1 decision log (origin: EV44 OQ-3) |
 | MOQ-07 | 45_ v2.0 main body §10 not verified (digest covers Anexos only): 24h same-code rejection fix + late-transmission grace (R16) | A8, A2 | State-machine FRs; re-read 45_ §10 + 46_ §transmission |
-| MOQ-08 | OCR-garbled JSON keys → verify against 52_ schemas: DTE N°84 `tributoSujetoIVA[?]`, `tipoOperacion` vs `tipoTransmision` (N°7), event N°92 `totalCompraExc…`, CRE N°103 `montoSujeto…`, DCLE N°116/117/121, event N°31 `tipoItemExpor[?]`, Cuadro-10 "RSAS12/CAGES"; event apéndice scope (Retorno/OpEsp only [?]); NCE/NDE allowed tributo codes in v2.0 (2022 anomaly T1/D8/C5, EV40:EVID-030) | A1, A5 | Schema-mapping table from `schemas_2026/` (DG45 §5 warnings 2/3/4/6) |
-| MOQ-09 | Global-discount sign in subTotal: FE md 411 (−) vs CCFE md 599 (+) — 2022 formula conflict never arbitrated | A1 | Totals-formula FR + schema check (EV40:EVID-023 note) |
 | MOQ-10 | CRE structure is IVA-retention-only; how are ISR retentions reported electronically? (reteRenta now FSEE-only N°147) | A10 | Retention FRs; CAT-006 + CT 154-160 review (EV40:EVID-027 doubt) |
 | MOQ-11 | CDE async seal "24-72h after transmission" (2022) — still true in v2.0? | A1, A8 (minor) | State-machine / CDE FRs (EV40:EVID-035) |
-| MOQ-12 | DCLE item cap: 500 (18_ v1.2 campo-21 change, CRE/DCL/CL) vs 45_ digest restating only "CRE y CLE 500" [?] | A1 (minor) | Anexo II N°74 / schema check (EV18:EVID-078 vs DG45 §1.5) |
 
 ### Struck (resolved during evidence passes — retained for audit)
 
@@ -159,6 +155,10 @@ DG45 sections cited as: §1 (Anexo II structures/versions), §2 (Anexo III event
 - ~~18_ OQ-3~~ CAT-024 "3 Otro" survives? — RESOLVED (EV44:EVID-086: renamed "Motivo del evento", same 1/2/3) → R6.
 - ~~44-52 OQ-2~~ 45_ Anexos not fully read — RESOLVED by DG45 digest (residual garbled-keys work = MOQ-08).
 - ~~supersession-map verifies~~ item caps (→ DG45 §1.5, R10), invalidation deadlines (→ DG45 §3.2, R6), contingency list (→ DG45 §3.3, R2) — all verified.
+- ~~MOQ-02~~ motivoContingencia length — RESOLVED (2026-08-17 schema pass): `motivo.motivoContingencia` and DTE `motivoContin` both maxLength **500** in 52_ schemas; written into 03_events FR-109.
+- ~~MOQ-08~~ OCR-garbled keys — RESOLVED (2026-08-17 schema pass, all items): N°84 = `codTributo` ("Tributo sujeto a cálculo de IVA"); N°7 = `tipoOperacion`; CRE N°103 = `montoSujetoGrav`; event N°31 = `emisor.tipoItemExpor` (eret); event N°92 = `resumen.totalCompraExcluidos` (eret); DCLE cuerpo = single object (periodoLiquidacionFechaInicio/Fin, codLiquidacion, cantidadDoc, valorOperaciones, montoSinPercepcion, montoSujetoPercepcion, ivaPercibido, comision, porcentComision, ivaComision, liquidoApagar…); Cuadro 10 = JWS / CAdES label / PKCS8EncodedKeySpec / **RS512** (example header base64-decodes `{"alg":"RS512"}`; printed "RSA512" = regulator typo; 18_ twin row confirms CAdES); event apéndice scope = **Retorno + OpEsp only** (invalidación/contingencia schemas carry no apendice); NCE/NDE tributos = CAT-015 §1+3 per Anexo IV N°96 (T1/D8 nonexistent in v1.1; FE-only 20/C3 exclusion) → 01 OQ-002/003, 03 OQ-005, 04 OQ-002 resolved.
+- ~~MOQ-09~~ subTotal sign — RESOLVED (2026-08-17): Anexo IV N°139 raw = "Sumatoria de operaciones" − global discounts (FE/CCFE/NRE; FSEE variant "Total de operaciones" − descuento global). Subtraction uniform; 2022 CCFE "+" = copy-paste defect → 01 OQ-004.
+- ~~MOQ-12~~ DCLE item cap — RESOLVED (2026-08-17): fe-dcl-v2 `cuerpoDocumento` is a single object, no array caps → 01 OQ-005.
 
 ---
 
@@ -166,5 +166,5 @@ DG45 sections cited as: §1 (Anexo II structures/versions), §2 (Anexo III event
 
 - Clusters: 12 (A1-A12). Governing EVID totals per cluster: A1=5, A2=4, A3=3, A4=3, A5=3, A6=4, A7=2, A8=3, A9=2, A10=13, A11=8, A12=4 (+6 D-items). DG45 digest governs structure/validation in A1-A8, A10.
 - Resolved contradictions: 16 (R1-R16; R16 flagged [?]).
-- Open questions: 12 (MOQ-01..12); 15 struck/resolved.
+- Open questions: 8 (MOQ-01/03/04/05/06/07/10/11); 19 struck/resolved (15 evidence-pass + 4 in the 2026-08-17 schema pass: MOQ-02/08/09/12).
 - Evidence corpus indexed: EVID-001..087 across 7 evidence files + DG45 + ARCH.

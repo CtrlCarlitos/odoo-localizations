@@ -55,9 +55,9 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
 - 50 source files (numbering 01–52; gaps 21/23/24/28 unused; next file = 53)
   + superseded 2022 `schemas/` dir + current 15 schemas inside the 52_ zip.
 
-### El Salvador — synthesis S1 (COMPLETE, pushed)
+### El Salvador — synthesis S1 (COMPLETE, pushed) + schema pass 2026-08-17 (COMPLETE)
 Six Takumi files + index + coverage, **216 FRs / 70 LBs / 93 ACs / 42 OQs
-(39 open, 3 resolved)**:
+(29 open, 13 resolved)**:
 
 | File | FRs | Prefix range |
 |---|---|---|
@@ -75,6 +75,15 @@ Executed subagent-driven: per-task implementer + reviewer + scoped
 re-reviews; two fix rounds (T4, T6); final whole-wave review ("usable with
 fixes") + one fix wave — all findings closed. Coverage matrix: 51 rows, no
 orphans (14 cited / 1 superseded-not-cited / 8 N/A / 28 pending-S2+).
+
+**Schema pass 2026-08-17 (controller-executed, committed):** the 15 schemas
+inside the 52_ zip (`sv/.extractions/schemas_2026/svfe-json-schemas/`,
+regenerable) + 45_/18_ raw text closed 10 OQs — 01 OQ-002/003/004/005/008,
+03 OQ-001/002/003/005, 04 OQ-002 — plus master-index MOQ-02/08/09/12
+(struck); MOQ-05 endpoint-absence schema-verified (still AT-blocked).
+FR updates: FR-012/018/022/035 (01), FR-103/104/117 (03), FR-133 (04);
+Data Model codTributo row (01). OQ rollup in `00_index.md` = 29 open /
+13 resolved.
 
 ### GT / HN
 Scaffolded only (READMEs, sources/scripts/requirements dirs, topic sets; hn
@@ -131,6 +140,34 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
    asserts 4 with OQ-001 recording the erratum.
 4. CAN-STAND minors deferred (logged below in §9).
 
+### Schema-pass rulings (2026-08-17; recorded in-file + master index)
+5. **Wire keys beat the digest**: DTE N°84 = `codTributo` ("Tributo sujeto a
+   cálculo de IVA"); N°7 = `tipoOperacion`; CRE = `montoSujetoGrav`; eret
+   `emisor.tipoItemExpor`, `resumen.totalCompraExcluidos`; eop cuerpo
+   `docDel`/`docAl`; identificacion `fusion` (singular, NC/ND/CR/CL + eret +
+   invalidación); domicilio fiscal = `codDomiciliado` on BOTH surfaces
+   (receptor CDE/CLE and ventaTercero — not "domicilioFiscal"). DG45's
+   divergent names are OCR/digest artifacts, not the wire.
+6. **Type codes**: schema `tipoDte` consts pin CAT-002 v1.1 exactly
+   (F=01, CCF=03, NR=04, NC=05, ND=06, CR=07, CL=08, DCL=09, FEX=11,
+   FSE=14, CD=15). DG45 §3.3 parentheticals (15/16/17) = errata; Anexo V
+   N°48's "16" = ghost code (no catalog referent) — codigoGeneracionR
+   null-set = {05, 08, 17, 18}.
+7. **subTotal sign**: Anexo IV N°139 (raw) = sumatoria − global discounts,
+   uniformly (FE/CCFE/NRE; FSEE variant) — 2022 CCFE "+" was the copy-paste
+   defect. FR-022 stands.
+8. **2-year invalidation window** (Anexo V N°9 rule 7): binds invalidación
+   AND retorno, FE/FEXE only (not FSEE), from the target DTE's seal date,
+   conditional on the target's emisor activity code ∈ {21001, 21008, 46482,
+   46484, 46491, 47721}. FR-103/104/117 amended.
+9. **Signing identifiers**: both normativas' example `firmaElectronica`
+   header base64-decodes to `{"alg":"RS512"}` — the printed "RSA512" is the
+   regulator's typo; "CAGES" = CAdES (18_ v1.2 twin row prints it clean).
+   Operative: JWS / RS512 / PKCS8EncodedKeySpec.
+10. **DCLE cuerpo** = single object (no array) — item caps inapplicable;
+    motivoContingencia/motivoContin maxLength 500 (both schemas);
+    event apéndice exists only on eret/eop among events.
+
 ### Standing policies
 - Evidence-based answers only; RAG (NotebookLM) is validator, never source
   (notebook `c7ca0391-4822-4d3c-8090-b0d8c147ba94`, owner
@@ -184,12 +221,9 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
 
 ## 8. Next actions (ordered)
 
-1. **DTE schema pass** (highest value, in-repo evidence): close the
-   schema-verifiable OQs by reading `sv/sources/52_Json_Schemas_DTE_...zip`
-   (extract to scratch) against the OQ sections of the S1 files. Final
-   review flagged: 01 OQ-002/003/004/005/008, 02 OQ-003, 03 OQ-003/005 —
-   confirm each against in-file OQ tables before resolving; record
-   resolutions in-file AND in `00_MASTER_INDEX.md` Section C.
+1. ~~**DTE schema pass**~~ **DONE 2026-08-17** — 10 OQs + 4 MOQs closed;
+   rulings 5–10 above; resolutions recorded in-file and in master-index
+   Section C.
 2. **Regulatory-change socratic session** (Q1–Q7 in
    regulatory-change-management.md) — BEFORE S2 Odoo Mappings; S2 (taxes/
    reporting) hits recomputation/version issues hardest (Q5). Some
@@ -200,21 +234,25 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
    commercial-legal (07_/15_/17_) → special-regimes (12_/13_/14_/17b_/42_/
    43_) → NIIF/chart-of-accounts (32_/33_). F-14 manual (35_) is OCR'd.
 4. **Externally-blocked OQs** (check factura.gob.sv periodically): Retorno/
-   OpEsp endpoints (MOQ-05; 03 OQ-006, 02 OQ-005-adjacent); CAT-024 vs
-   Cuadro-2 taxonomy confirmation. When new docs appear: continue source
-   numbering from 53, register with provenance, capture supersession.
-5. **Deferred cleanups** (§9 below, batch them).
-6. **GT/HN bootstrap** when sv is sufficiently far along (GT sources first:
-  SAT/FEL normative; HN: SAR fiscal reporting).
+   OpEsp endpoints (MOQ-05 — 52_-schema absence verified 2026-08-17; 03
+   OQ-006, 02 OQ-003); CAT-024 vs Cuadro-2 taxonomy confirmation. When new
+   docs appear: continue source numbering from 53, register with provenance,
+   capture supersession.
+5. **Remaining S1 OQs** (29 open): most are business decisions (FVS flow,
+   email scope) or AT-publication dependencies; 45_ §10 re-read for MOQ-07
+   (02 OQ-001/002) can ride along with the S2 transmission-adjacent work.
+6. **Deferred cleanups** (§9 below, batch them).
+7. **GT/HN bootstrap** when sv is sufficiently far along (GT sources first:
+   SAT/FEL normative; HN: SAR fiscal reporting).
 
 ## 9. Deliberately deferred (CAN-STAND list)
 
 - `catalogs/README.md` + `_INDEX.md` still say "PDF overlay"; and
   `build_catalogs.py` keeps a `--pdf` overlay path — contradicts SV-CAT
   FR-002 (workbook = sole parse source). Align at next sidecar regeneration.
-- T3 wording: 03_events FR-094 5-day anchor (generation vs transmission —
-  add verify note to 03 OQ-002); UUID "uppercase hexadecimal digits"
-  tightening (M-1).
+- T3 wording: 03_events FR-094 5-day anchor — RESOLVED 2026-08-17 (raw 45_
+  p.123 quote folded into FR-094 with the anchor-noun ambiguity note);
+  UUID "uppercase hexadecimal digits" tightening (M-1) still open.
 - 06_api-protocol OQ-005 is resolved-but-noisy (used as work-log) — fold
   into next 06 edit.
 - 02_transmission AC-011 over-broad ("no *.dtes.mh.gob.sv reference" vs

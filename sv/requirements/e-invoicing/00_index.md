@@ -34,24 +34,24 @@ is no file 05 in this directory (it lives in `../catalogs/`).
 
 ## Open-questions rollup (ids + titles)
 
-Status legend: `open` unless noted `resolved`. 39 open / 3 resolved.
+Status legend: `open` unless noted `resolved`. 29 open / 13 resolved (schema pass 2026-08-17 closed 10).
 
 ### 01_document-types.md (8)
 
 - OQ-001 — CT Art. 114 signature requirement vs v2.0's dropped Sección 10 EXTENSIÓN. open
-- OQ-002 — MOQ-08: exact JSON key spellings (verify vs 52_ schemas). open
-- OQ-003 — MOQ-08 (part): NCE/NDE allowed CAT-015 codes. open
-- OQ-004 — MOQ-09: global-discount sign in resumen.subTotal. open
-- OQ-005 — MOQ-12: DCLE cuerpo item-cap applicability. open
+- OQ-002 — MOQ-08: exact JSON key spellings (verify vs 52_ schemas). **resolved** — wire keys `codTributo` / `tipoOperacion` / `montoSujetoGrav` confirmed in schemas
+- OQ-003 — MOQ-08 (part): NCE/NDE allowed CAT-015 codes. **resolved** — CAT-015 §1+3 (Anexo IV N°96); T1/D8 dropped from catalog v1.1
+- OQ-004 — MOQ-09: global-discount sign in resumen.subTotal. **resolved** — Anexo IV N°139: subtraction uniformly
+- OQ-005 — MOQ-12: DCLE cuerpo item-cap applicability. **resolved** — cuerpo is a single object; caps inapplicable
 - OQ-006 — MOQ-11: CDE async seal 24–72h still true under v2.0? open
 - OQ-007 — FE receptor SMM threshold: which salarios-mínimos figure applies. open
-- OQ-008 — Type-code discrepancy: DG45 §3.3 parentheticals vs CAT-002 v1.1. open
+- OQ-008 — Type-code discrepancy: DG45 §3.3 parentheticals vs CAT-002 v1.1. **resolved** — schema tipoDte consts confirm CAT-002 (CLE=08/DCLE=09/CDE=15); DG45 parentheticals are errata
 
 ### 02_transmission.md (7)
 
 - OQ-001 — MOQ-07 residual: after-window correction behavior (re-read 45_ §10/§10.2). open
 - OQ-002 — R16: 22_-era reception holgura status under v2.0. open
-- OQ-003 — MOQ-05: Retorno/OpEsp event endpoint paths unpublished. open
+- OQ-003 — MOQ-05: Retorno/OpEsp event endpoint paths unpublished. open — 52_ schema scan verified zero endpoint strings; externally blocked on AT
 - OQ-004 — Test-environment lot cap: 22_ 300 vs 46_ 400. open
 - OQ-005 — Service-status consultation endpoint (Anexo I rule 3.5) URL/contract. open
 - OQ-006 — Production base URL OCR variants in 46_. open
@@ -59,17 +59,17 @@ Status legend: `open` unless noted `resolved`. 39 open / 3 resolved.
 
 ### 03_events.md (6)
 
-- OQ-001 — Contingencia `version`: Anexo V prints 3 vs 52_ schema const 4 (R7 amendment). open
-- OQ-002 — Anexo V N°9 scope: 2-year activity-code window and same-date correspondence. open
-- OQ-003 — Anexo V N°48 `codigoGeneracionR` null-type list vs CAT-002. open
+- OQ-001 — Contingencia `version`: Anexo V prints 3 vs 52_ schema const 4 (R7 amendment). **resolved** — const 4 re-verified; R7 amended; no cycle mismatch
+- OQ-002 — Anexo V N°9 scope: 2-year activity-code window and same-date correspondence. **resolved** — raw 45_ pp.123–124: 2-year window = invalidación **and** retorno, FE/FEXE only, from target seal; same-date rule binds non-FE/FEXE/FSEE targets
+- OQ-003 — Anexo V N°48 `codigoGeneracionR` null-type list vs CAT-002. **resolved** — null-set {05, 08, 17, 18}; "16" = ghost code (no CAT-002 referent), erratum
 - OQ-004 — MOQ-06: FVS physical-document flow needed for AT-authorized emitters? open
-- OQ-005 — Wire keys vs Anexo III unified names (schema-pass mapping table). open
-- OQ-006 — MOQ-05 cross-ref: Retorno/OpEsp endpoint paths (blocks FR-090 completion). open
+- OQ-005 — Wire keys vs Anexo III unified names (schema-pass mapping table). **resolved** — full mapping confirmed (tipoOperacion, tipoAnulacion, fTransmision/hTransmision, fusion, codDomiciliado, docDel/docAl, codTributo, tipoItemExpor, totalCompraExcluidos)
+- OQ-006 — MOQ-05 cross-ref: Retorno/OpEsp endpoint paths (blocks FR-090 completion). open — schema-absence verified
 
 ### 04_signing_delivery.md (9)
 
 - OQ-001 — Signing envelope shape (a/b/c options). **resolved** — by SV-PROT-FR-021..024 (opaque full MH JSON bytes; digest-signing rejected).
-- OQ-002 — Cuadro 10 OCR garbles (RSAS12/CAGES/IWS; RS512 identifier). open
+- OQ-002 — Cuadro 10 OCR garbles (RSAS12/CAGES/IWS; RS512 identifier). **resolved** — JWS / RS512 (example header decodes `{"alg":"RS512"}`) / PKCS8EncodedKeySpec; "CAGES" = CAdES (18_ twin row); "RSA512" print = regulator typo
 - OQ-003 — QR `fechaEmi` parameter format and URL-encoding rules. open
 - OQ-004 — Download-site minimum requirements (Cuadro 11) not fully extracted. open
 - OQ-005 — Email channel scope: Archivo DTE attach vs RG/link only. open
