@@ -92,7 +92,7 @@ D.L. 293-2025 (+ interpretaciones auténticas D.L. 192-2018, D.L. 345-2019).
 
 | File | Topic | Title | Issued | Retrieved | Provenance (URL) |
 |------|-------|-------|--------|-----------|------------------|
-| `29_Modificacion_Anexos_F07_F14.pdf` | fiscal-reporting | Modificación de Anexos F-07/F-14 | pending | pending | pending |
+| `29_Modificacion_Anexos_F07_F14.pdf` | fiscal-reporting | **MISLABELED FILE (found W8 2026-08-18): actual content = "Manual de Usuario para Carga de Archivos en Informe CNR, Registro de Comercio F985 V1"** — the CNR's own CT Art. 121 a)2 semi-annual societies report (upload mechanics; CSV cols A-I; trámite codes 1-6). NOT a taxpayer obligation — retained as CT-121/third-party-report reference (EVID-172). NOTE: 2026 calendar names this duty F-975 while the manual titles itself F985 (MH numbering inconsistency). The intended "Modificación de Anexos F07/F14" resolution is NOT in the corpus — unacquired | pending | 2026-08-16 (tuky) | pending |
 | `30_Calendario_Tributario_2026.pdf` | fiscal-reporting | Calendario Tributario 2026 | pending | pending | pending |
 | `34_F07_v14_manual.pdf` | fiscal-reporting | Formulario F-07 v1.4 — Manual | pending | pending | pending |
 | `35_F14_v16_manual.pdf` | fiscal-reporting | Formulario F-14 v1.6 — Manual | pending | pending | pending |
