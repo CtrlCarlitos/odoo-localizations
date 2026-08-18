@@ -97,7 +97,7 @@ frequency/applicability).
 
 ### 06_f14-declaration.md (7)
 
-- OQ-001 — SOQ-09: F-14 v17 annex format unknown (Quincena-25; v16 columns + new income code assumed, unconfirmed). open
+- OQ-001 — SOQ-09: F-14 v17 annex format — **RESOLVED 2026-08-18 (W11, sources 66_-70_)**: 7-column semicolon CSV (APELLIDOS 100 uppercase; NIT 14 XOR DUI 9; dd/mm/aaaa; SALARIO 4+2; QUINCENA 3+2; mmaaaa), January-only upload via F-14 v17, independent of retention annex, code 73 auto-assigned at presentation (EVID-238/239). Annex-level FR fold-in queued for the next edit wave. resolved (fold-in pending)
 - OQ-002 — SOQ-11: SS caps as dated data; feed/cadence owned by the payroll wave. open (S4: the cap VALUES are owned by `../payroll/05_social-security-contributions.md` + its `ss_contributions.csv` sidecar)
 - OQ-003 — Op. Financieras tracks 501-529: CT 159/164-165 anchor + rates re-check. open
 - OQ-004 — Income-code catalog fidelity pointer (owned by 07's OQ-001). open

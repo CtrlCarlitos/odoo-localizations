@@ -59,8 +59,14 @@ OQ-004 SMM-floor sector association); SOQ-19 = `03` OQ-001; SOQ-20 =
 `02` OQ-003 (CSV three-decimal fidelity note); SOQ-21 = `01` OQ-001 and
 the CT-vintage LB notes of every 11_-citing file; SOQ-05 kin = `04`
 OQ-005 (2025+ standing 2-SMM aguinaldo rule re-verified at encoding);
-SOQ-09 kin = `08` OQ-002 (Quincena-25 law absent — blocks the payroll
-income-treatment family).
+SOQ-09 kin = `08` OQ-002 — **UNBLOCKED 2026-08-18 (W11)**: D.L. 499
+acquired as `66_` + package 67_-70_ (transparenciafiscal); evidence
+EVID-236..239 in `sv/.extractions/66-70_Quincena25.evidence.md`. Law:
+50% salario básico/nominal, gate ≤$1,500, paid 15–25 Jan (2026 public
+mandatory / private voluntary + 100% ISR credit; 2027+ mandatory all);
+renta no gravada + zero retention/SS + not-in-benefit-bases +
+inembargable; eligibility mirrors aguinaldo/CAE. Fold into `01` (category
+matrix) + `08` (income-treatment FRs) at the next edit wave.
 
 ### 01_salary-model.md (3)
 
@@ -123,6 +129,6 @@ income-treatment family).
 ### 08_isr-interfaces.md (4)
 
 - OQ-001 — F-14 S/T/U/V stamped values for salaried rows label-inferred only (config + documented default set). open
-- OQ-002 — SOQ-09 kin: Ley Especial Quincena Veinticinco (D.L. 499) not in corpus — BLOCKS payroll income-treatment FRs; acquisition queued as source 66. open (blocking: Quincena-25 features only)
+- OQ-002 — SOQ-09 kin: Ley Especial Quincena Veinticinco — **acquired 2026-08-18 as `66_`** (EVID-236..239): renta no gravada + zero retention/SS + not-in-benefit-bases; 50% salario básico/nominal ≤$1,500 gate; 15–25 Jan (2026 public mandatory / private voluntary + ISR credit; 2027+ mandatory). Fold into FRs at next edit wave. resolved-acquisition (FR fold-in pending)
 - OQ-003 — Non-affiliated voluntary-savings cap input = worker's own prior-year declared renta (worker-supplied provenance to confirm). open
 - OQ-004 — F-11 v18 currency watch (footer stamp 27-02-2025; a v19 would renumber casillas 711-725/734 — feed keys re-verify). open

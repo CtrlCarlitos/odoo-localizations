@@ -20,7 +20,7 @@ No orphans: every row carries at least one of the four. Sources fully
 superseded but cited as historical LB (25_\*, 40_, 41_) still count as
 cited-as-LB.
 
-## Matrix (63 source files + schemas/ dir = 64 rows)
+## Matrix (68 source files + schemas/ dir = 69 rows)
 
 | Source | Status | Cited in / note |
 |--------|--------|-----------------|
@@ -46,7 +46,12 @@ cited-as-LB.
 | 62_F915v4_informe_distribucion_utilidades.pdf | cited-as-LB | `fiscal-reporting/07` LB rows (F-915 v4 distributions/shareholder-list inform) |
 | 63_F930v3_informe_mensual_retIVA.pdf | cited-as-LB | `fiscal-reporting/04` LB rows (F-930 v3 monthly retIVA inform homed there); `fiscal-reporting/07` (referenced, re-check cadence OQ-004) |
 | 64_F935v1_informe_mensual_agentes_extranjeros.pdf | cited-as-LB | `fiscal-reporting/07` LB rows (F-935 v1 monthly foreign-agents inform; SOQ-13 anchor OQ) |
-| 65_F11_v18_form_visual.pdf | cited-as-LB | `payroll/08` LB-004..006 (F-11 v18 personal-deduction value feeds — SS rows 713/714/716/721/724, AFP voluntary quota 717, deducción fija 722, total 725; no-gravadas 734; dead pago-mínimo print); `fiscal-reporting/07` OQ-006 coupling counterpart |
+| 65_F11_v18_form_visual.pdf | cited-as-LB | `payroll/08` LB-004..006 (F-11 v18 personal-deduction value feeds — SS rows 713/714/716/721/724, AFP voluntary quota 717, deducción fija 722, total 725; no-gravadas 734; dead pago-mínimo print); `fiscal-reporting/07` OQ-006 coupling counterpart. **Superseded as current print by v19/v20 (per 67_ Anexos 1/8) — not yet acquired (66-70_ OQ-5)** |
+| 66_Ley_Quincena25_DL499.pdf | pending-S2+ | W11 evidence `66-70_Quincena25.evidence.md` (EVID-236/237) — law LB ready; FR fold-in queued: payroll/08 income-treatment family, payroll/01 category, taxation renta-no-gravada, fiscal-reporting 06/07 |
+| 67_Guia_Orientacion_Quincena25.pdf | pending-S2+ | W11 evidence (EVID-237/238) — fiscal surfaces LB (F-14 v17 January annex; F-910 code 73; casilla 724 extension; F-11 v19 casilla 319; v20 + certificado; tercerización FCF exento); FR fold-in queued |
+| 68_Instrucciones_Carga_Quincena25.pdf | pending-S2+ | W11 evidence (EVID-239) — upload-flow LB (January-only window; replace-via-Limpiar; code-73 auto-assign); FR fold-in queued |
+| 69_Manual_Usuario_Carga_Quincena25.pdf | pending-S2+ | W11 evidence (EVID-239) — the annex-CSV format spec LB; FR fold-in queued |
+| 70_Plantilla_Quincena25.xls | pending-S2+ | W11 evidence (EVID-239) — semicolon-delimiter confirmation; FR fold-in queued |
 | 11_Codigo_Trabajo.pdf | cited-as-LB | `payroll/01` LB-001..007; `payroll/02` LB-001..004, LB-011; `payroll/03` LB-001..020; `payroll/04` LB-001..020, LB-022; `payroll/06` LB-013; `payroll/07` LB-001..010, LB-013..021 |
 | 12_Ley_Zonas_Francas.pdf | pending-S2+ | special-regimes wave |
 | 13_Ley_Organica_Aduanas.pdf | pending-S2+ | special-regimes / customs-export wave |
@@ -96,5 +101,5 @@ cited-as-LB.
 | cited-as-LB | 41 |
 | superseded-not-cited | 1 (schemas/) |
 | not-applicable-this-wave | 9 |
-| pending-S2+ | 13 |
-| **Total** | **64** |
+| pending-S2+ | 18 |
+| **Total** | **69** |

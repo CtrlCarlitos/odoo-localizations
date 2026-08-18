@@ -1,7 +1,7 @@
 # HANDOVER — Session State & Continuation Guide
 
 **For the next controller session.** Written 2026-08-17, updated 2026-08-18 (S3 close),
-2026-08-18 twice more (W9/S4 closes), and 2026-08-18 a fourth time (W10 + S5 prep close).
+2026-08-18 twice more (W9/S4 closes), and 2026-08-18 twice more again (W10+S5 prep, then W11 Quincena-25 package).
 Read this
 document fully before acting; it is the authoritative cross-session memory
 (conversation context does not survive).
@@ -50,7 +50,8 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
   `c75610c`; before that S4 close `2f5ead3`, S4 `87df6b5..33edf2d`, S3 `34691b8..d2e5e4a`).
 
 ### El Salvador — sources & evidence state
-- **EVID corpus 001..235** (gaps 109-127 reserved-unused). W10 files:
+- **EVID corpus 001..240** (gaps 109-127 reserved-unused). W11 file:
+  `66-70_Quincena25` (EVID-236..239). W10 files:
   `07_Codigo_Comercio` (EVID-211..227), `15_Ley_Lavado_Activos` (EVID-228..231),
   `17_Reglamento_Lavado_Activos` (EVID-232..235). W9 files:
   `16_Salarios_Minimos_2025` (EVID-191..192), `08_Ley_ISSS` (EVID-193..196),
@@ -59,13 +60,14 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
   `29_F985_CNR_RegComercio` (EVID-172), `34_36_39_F07_v14` (EVID-173..179),
   `35_37_38_59_F14_v16_v17` (EVID-180..184), `30_Calendario_Tributario_2026`
   (EVID-185..186), `61-64_report_forms` (EVID-187..190); `60_DE10_...` (EVID-171).
-  **63 registered source files, numbering 01-65** (gaps 21/23/24/28; + schemas/ dir;
-  65_ = F-11 v18 added W9; Quincena-25 = 66 when acquired).
+  **68 registered source files, numbering 01-70** (gaps 21/23/24/28; + schemas/ dir;
+  65_ = F-11 v18; 66_-70_ = Quincena-25 package added W11; next numbering = 71).
 - Source registry carries: 29_ mislabel note; 38_/39_ current-form notes; 59_
   (F14 v17), 60_ (D.E. 10 gazette print), 61_-64_ (F910v9/F915v4/F930v3/F935v1)
   with provenance; 08_ law-level-rates-only note; 09_ D.L. 614 identity
-  note (registry misnomer); 65_ (F-11 v18) with provenance; **07_ consolidation-≤2008
-  note; 15_ title-mislabel amendment (R25); 17_ PRE-REFORM note (R26)**.
+  note (registry misnomer); 65_ (F-11 v18 + **superseded-by-v19/v20 note**);
+  **07_ consolidation-≤2008 note; 15_ title-mislabel amendment (R25); 17_
+  PRE-REFORM note (R26); 66_-70_ with transparenciafiscal provenance**.
 
 ### El Salvador — extraction (S1 scope COMPLETE; W6/ISR COMPLETE 2026-08-17)
 - **EVID corpus now 001..152** (gap 109–127 reserved-unused): S1 = 87 entries
@@ -327,6 +329,26 @@ stale-717-label guard; pago-mínimo dead-print guards (R21). COVERAGE rollup
 now 41 cited / 13 pending / 9 N/A / 1 superseded (64 rows incl. 65_).
 Cross-refs: taxation/00_index F-11-feed pointer; fiscal-reporting/00_index
 SOQ-11 values-owned-by-payroll/05 pointer.
+
+### El Salvador — W11 Quincena-25 acquisition + evidence (COMPLETE 2026-08-18, same session)
+User supplied a transparenciafiscal search (D.O. `/seleccion` still 500 server-wide —
+also confirmed via the D.O. website UI by the user). Acquired + registered + read:
+- **66_ = D.L. 499 Ley Especial Quincena Veinticinco** (D.O. N° 8 T.450 14-ene-2026,
+  effective same day; official DGII copy). **67_** = Guía de Orientación
+  MH.UVI.DGII/006.001/2026 (+8 anexos). **68_/69_** = upload instructions/manual
+  (annex-CSV spec). **70_** = plantilla macro (semicolon-delimiter confirmation).
+- Evidence EVID-236..239 (`66-70_Quincena25.evidence.md`): benefit = 50% salario
+  básico/nominal, gate ≤$1,500, 15–25 Jan; 2026 public-mandatory/private-VOLUNTARY
+  + 100% ISR credit (ZF/DPA/LSI → transferable Certificado de Crédito Tributario);
+  2027+ mandatory all; renta no gravada + zero retention/SS + not-in-benefit-bases
+  + inembargable; employer gasto deducible; tercerización FCF-exento + no Art.-66
+  pro-rata; reporting chain F-14 v17 January-only annex (7-col `;` CSV; NIT XOR DUI)
+  → 417/418 → F-910 code 73 → casilla 724 → **F-11 v19 casilla 319**; **F-11 v20**
+  special-regime (NEW FORMS — acquisition candidates ≥71; 65_ = v18 superseded).
+- **P10 UNBLOCKED; SOQ-09 RESOLVED; payroll/08 OQ-002 + FREP 06 OQ-001 flipped
+  resolved-acquisition; COVERAGE = 69 rows (5 pending-S2+ added).** FR fold-ins
+  into payroll/01+08, fiscal-reporting/06+07, taxation, special-regimes = QUEUED
+  edit wave (S6-fix candidate).
 
 ### El Salvador — W10 commercial-legal evidence pass + S5 prep (COMPLETE 2026-08-18, pushed; commits 3cd4ad4/c75610c)
 Sources read end-to-end + evidence EVID-211..235 (3 files, 11 file-level OQs → SOQ-22..29):
@@ -626,7 +648,9 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
   (2026-06, still NO v17 manual/plantilla — SOQ-09 open), F07_V14_COMPLE.pdf (= our 39_,
   updated 15-08-2025), F910=PMHDC8240, F915=PMHDC8241, F-930=PMHDC8242, F935v1.pdf
   (2025-10), **F11-V18.pdf = acquired as 65_ (2026-08-18)**. Watch for F14 v17 manual +
-  newer F910/F915/F930 prints.
+  newer F910/F915/F930 prints + **F-11 v19/v20** (v19 = casilla 319 Quincena-25 credit,
+  still printing dead pago-mínimo rows; v20 = "Sujetos con Régimen Especial" + certificado
+  anexo — discovered via 67_ Anexos 1/8, 2026-08-18; acquisition candidates ≥71).
 - **29_ mislabel**: `29_Modificacion_Anexos_F07_F14.pdf` is actually the F985/F-975 CNR
   Registro de Comercio manual (CT 121 a)2) — the annex-modification resolutions
   are NOT in the corpus (SOQ-12).
@@ -654,29 +678,36 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
 4. ~~**S2 next wave — F-07/F-14 fiscal reporting**~~ **DONE 2026-08-18** — W8 evidence +
     acquisitions 59_-64_ + S3 synthesis (208 FRs, 8 files + index + CSV). See §3 S3 section.
 5. **S2 remaining waves** (each: extraction → evidence → synthesis):
-    (a) **Quincena-25 acquisition retry FIRST** (D.L. 499, D.O. 14-ene-2026,
-     volume Id 31679 — the `/seleccion` route was 500ing server-wide
-     2026-08-18 both sessions; number it 66 on acquisition; then payroll/08 OQ-002 +
-     fiscal-reporting SOQ-09 unblock); (b) **S5 commercial-legal synthesis READY**
-     (W10 evidence + C1-C10 clusters + SOQ-22..29 in master index; run the SOQ-22
-     post-2008 CC reform verification first, opportunistically SOQ-23/25/27
-     acquisitions — SAS law, Ley Registro de Comercio, current AML reglamento);
-     then special-regimes (12_/13_/14_/17b_/42_/43_; D.L. 598-2020 + EVID-167 tail
-     laws) → NIIF/chart-of-accounts (32_/33_; consumes 06's register
-     interface + C3 NIC anchor); (c) IVA-core taxation files still owed (01_ cited in S1;
+    (a) ~~Quincena-25 acquisition~~ **DONE 2026-08-18 (W11)** — D.L. 499 + package
+     acquired as 66_-70_ via transparenciafiscal (D.O. route still down; retry
+     opportunistically only for a cleaner law print to pin the [sic] article
+     numbering, 66-70_ OQ-1). **Quincena-25 FR fold-in edit wave now queued**
+     (payroll/01 category + /08 income-treatment FRs; fiscal-reporting/06
+     annex engine + /07 code-73/F-910; taxation renta-no-gravada +
+     credit/certificado; special-regimes certificado); (b) **S5 commercial-legal
+     synthesis READY** (W10 evidence + C1-C10 clusters + SOQ-22..29 in master
+     index; run the SOQ-22 post-2008 CC reform verification first,
+     opportunistically SOQ-23/25/27 acquisitions — SAS law, Ley Registro de
+     Comercio, current AML reglamento); then special-regimes (12_/13_/14_/17b_/42_/43_;
+     D.L. 598-2020 + EVID-167 tail laws; consumes W11 certificado) →
+     NIIF/chart-of-accounts (32_/33_; consumes 06's register interface + C3 NIC
+     anchor); (c) IVA-core taxation files still owed (01_ cited in S1;
      02_ Reglamento unread; the R/S and IVA-retention cross-refs from S3's
      01/04 files land there) — fold into a later taxation wave.
 6. **SOQ follow-ups**: taxation — SOQ-02 ($1,600 proration quincenal/semanal; MH
     guidance), 03 OQ-009 (vintage straddle; watch MH guidance); fiscal-reporting —
     **SOQ-08** (due-day windows: extract the calendar's visual layer or find the
-    schedule instrument), **SOQ-09** (watch MH for the F-14 v17 manual/plantilla +
-    acquire the Quincena-25 law), SOQ-13 (F-935 donantes-locales CT anchor — CT
+    schedule instrument), ~~SOQ-09~~ **RESOLVED W11** (watch MH for the F-14 v17
+    manual remains open as a doc-completeness item; the annex representation is
+    resolved from 67_-70_), SOQ-13 (F-935 donantes-locales CT anchor — CT
     matrix pass), SOQ-14 (F-950 frequency); commercial-legal — **SOQ-22** (CC
     post-2008 reform verification — run FIRST at S5 synthesis prep), SOQ-23 (SAS
     law), SOQ-25 (Ley Registro de Comercio + Reglamento), SOQ-26 (interés-legal
     rate instrument = dated config), SOQ-27 (current AML reglamento + UIF forms),
     SOQ-28 (retention matrix CC-vs-AML-vs-DTE = S5 FR), SOQ-29 (colones remnants
-    discipline).
+    discipline); W11/Quincena-25 — **F-11 v19/v20 prints to acquire (≥71; watch
+    MH formularios page)**; 2026 double-benefit OQ (deduction + credit, 66-70_
+    OQ-4).
 7. **Externally-blocked OQs** (check factura.gob.sv periodically): Retorno/
     OpEsp endpoints (MOQ-05 — 52_-schema absence verified 2026-08-17; 03
     OQ-006, 02 OQ-003); CAT-024 vs Cuadro-2 taxonomy confirmation. When new
