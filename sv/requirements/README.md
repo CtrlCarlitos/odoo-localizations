@@ -6,7 +6,8 @@ Language: English, Spanish legal terms inline with translations.
 
 | Topic | Status | Files |
 |-------|--------|-------|
-| [e-invoicing](e-invoicing/) | Not started | — |
+| [e-invoicing](e-invoicing/) | In review (draft, S1) | [00_index.md](e-invoicing/00_index.md) |
+| [catalogs](catalogs/) | In review (draft, S1) | [05_governance.md](catalogs/05_governance.md) + 33 sidecars |
 | [taxation](taxation/) | Not started | — |
 | [chart-of-accounts](chart-of-accounts/) | Not started | — |
 | [payroll](payroll/) | Not started | — |
