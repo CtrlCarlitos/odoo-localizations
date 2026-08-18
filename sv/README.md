@@ -23,7 +23,7 @@ Status values: Not started, In progress, In review, Complete.
 
 ## Sources
 
-54 registered documents: laws and regulations (tax, commercial, labor),
+52 registered sources (files 01-52 + schemas): laws and regulations (tax, commercial, labor),
 MH electronic-invoicing manuals and catalogs, F-07/F-14 forms and templates,
 NIIF, and the 13 official MH JSON schemas — see
 [sources/README.md](sources/README.md).
