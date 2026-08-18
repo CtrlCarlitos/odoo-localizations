@@ -38,3 +38,15 @@ Regenerate after any source version change.
 | CAT-031 | `CAT-031_incoterms.csv` | 11 |
 | CAT-032 | `CAT-032_domicilio-fiscal.csv` | 2 |
 | CAT-033 | `CAT-033_tipo-regimen.csv` | 4 |
+
+## Corrections log
+
+Workbook-vs-PDF corrections applied at generation (this is the log FR-003 in
+`05_governance.md` and AC-007 audit):
+
+- v1.2 (2022) generation: CAT-032 workbook missing code `2 No Dominado`? —
+  historical note only; that catalog set is superseded (see 05_governance.md).
+- v1.1 (2026-07) generation: no workbook-vs-PDF corrections were needed; the
+  PDF (`50_`) is image-based and serves only as fallback reference, not as an
+  overlay source. CAT-015 carries the `section` column (three tributo
+  sections) — preserved, documented in README.
