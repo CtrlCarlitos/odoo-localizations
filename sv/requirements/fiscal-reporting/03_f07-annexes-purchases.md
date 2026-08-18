@@ -50,8 +50,10 @@ references them by id and never restates); the retention/perception
 annexes 4/6-12, the anulados/extraviados annex and the
 invalidation-event feed (`04_f07-annexes-retentions-events.md` §3); the
 fuel and dated-regime annexes 13-17 (`05_f07-annexes-special.md` §3 —
-the Anexo 16 Decreto 357 informativo over casilla 65 is that file's, F7
-cluster); the F-14 declaration family and income-code catalog
+including Anexo 16, the Decreto 357 informativo over casilla 65, which
+cluster F4 lists among the purchase annexes but which this wave's file
+split assigns to the dated-regime file, F7); the F-14 declaration
+family and income-code catalog
 (`06_f14-declaration.md`, `07_codes-and-informs.md` — consumers of the
 canonical quartet); the filing calendar (`08_filing-calendar.md` —
 SOQ-08); the IVA computation proper (13% rate base, deductibility Arts.
@@ -162,8 +164,10 @@ printed pages (printed page N = PDF page N+2).
   "para los tipos de documento 12 y 13 puede colocar el NIT de la
   Dirección General de Tesorería 06140108140066" — implemented as a
   seeded Tesorería pseudo-supplier record, with the foreign supplier's
-  real name kept in F; the substitution applies ONLY to tipos 12/13.
-  (LB-002; EVID-176)
+  real name kept in F; the manual words the substitution as an
+  allowance ("puede colocar") — the system applies it BY DEFAULT for
+  foreign suppliers without a Salvadoran NIT, and the substitution
+  applies ONLY to tipos 12/13. (LB-002; EVID-176)
 - **SV-FREP-FR-073:** The system shall admit TIPO 11 (*Factura de
   Exportación*, export invoice) on Anexo 3 ONLY for users of *Zona
   Franca* (free zone) or *DPA* (*depósito de perfeccionamiento
@@ -177,16 +181,17 @@ printed pages (printed page N = PDF page N+2).
   special-regimes wave, not this file); a tipo-11 row whose buyer is
   not a ZF/DPA user is rejected. (LB-001; EVID-176)
 - **SV-FREP-FR-074:** The system shall route the customs document
-  channels: TIPO 12 (*Declaración de Mercancías*) is the merchandise
-  import channel — its taxed values land in L (IMPORTACIONES GRAVADAS
-  DE BIENES) or I (exempt) according to the customs declaration's tax
-  status, with K (INTERNACIONES GRAVADAS DE BIENES) receiving the
-  CA-region internations; TIPO 13 (*Mandamiento de Ingreso*) is the
-  channel through which taxed SERVICE imports are reported — its
-  taxed values land in M (IMPORTACIONES GRAVADAS DE SERVICIOS) —
-  services having no merchandise declaration (channel/bucket
-  association is label-matched from the column names and the
-  dentro/fuera Región C.A. casilla labels — OQ-006).
+  channels: TIPO 12 (*Declaración de Mercancías*) is the SINGLE
+  goods-customs channel — its taxed values land in L (IMPORTACIONES
+  GRAVADAS DE BIENES) for imports from OUTSIDE the CA region or in K
+  (INTERNACIONES GRAVADAS DE BIENES) for internations from WITHIN it
+  (dentro Región C.A., per the casilla-76 label), and its exempt
+  values in I or H under the same origin split; TIPO 13 (*Mandamiento
+  de Ingreso*) is the channel through which taxed SERVICE imports are
+  reported — its taxed values land in M (IMPORTACIONES GRAVADAS DE
+  SERVICIOS) — services having no merchandise declaration
+  (channel/bucket association is label-matched from the column names
+  and the dentro/fuera Región C.A. casilla labels — OQ-006).
   (LB-001; LB-009; EVID-176; EVID-179)
 - **SV-FREP-FR-075:** The system shall fill the IVA base buckets G-M
   per column semantics — G *compras internas exentas y/o no sujetas*
@@ -454,10 +459,11 @@ from manual §V / plantilla sheet "3"):**
 | T | TIPO DE COSTO / GASTO | 2 (as Q) | 1-7 cost/expense types; "0" pre-gate | FR-079, FR-083 |
 | U | NÚMERO DE ANEXO | 1 | literal 3 on every row | FR-068, FR-092 |
 
-Length note: manual §V prints the lengths only for D (100) and E (14);
-amount columns follow the generic §II 10-character format (01 §3.2);
-P/Q/R/S/T lengths are not printed in §V — recorded by family convention
-and analogy (OQ-002).
+Length note: manual §V prints the lengths only for D (100) and E
+(14); the A/B/C lengths (10/1/2) follow the Anexo 1 family convention
+(02 §4), amount columns the generic §II 10-character format (01 §3.2);
+P/Q/R/S/T lengths are not printed in §V — recorded by family
+convention and analogy (OQ-002).
 
 **Anexo 5 row model — l10n_sv.f07.annex5.row (seed structure; verbatim
 from manual §VII / plantilla sheet "5"):**
