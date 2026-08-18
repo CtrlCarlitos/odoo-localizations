@@ -30,8 +30,10 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
 6. `shared/docs/odoo-localization-guide.md` — module anatomy (with thin-client caveat)
 7. `sv/.extractions/00_MASTER_INDEX.md` — synthesis lookup: 12 topic clusters (A1–A12), 16 resolved contradictions (R1–R16), 12 MOQs
 8. `sv/requirements/e-invoicing/00_index.md` +
-   `sv/requirements/taxation/00_index.md` + `sv/requirements/COVERAGE.md` —
-   S1+S2 corpus indexes + source coverage matrix (authoritative for
+   `sv/requirements/taxation/00_index.md` +
+   `sv/requirements/fiscal-reporting/00_index.md` +
+   `sv/requirements/COVERAGE.md` —
+   S1+S2+S3 corpus indexes + source coverage matrix (authoritative for
    source→wave mapping)
 9. `HANDOVER.md` (this file)
 
@@ -41,8 +43,18 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
 - Branch `main` only; remote `origin` = `git@github-CtrlCarlitos:CtrlCarlitos/odoo-localizations.git` (SSH alias `github-CtrlCarlitos` from `~/.ssh/config`); push after each wave; never force-push. `gh` CLI at `~/.local/bin/gh`, authenticated as CtrlCarlitos.
 - Commits are SSH-signed; local `%G?=N` is a verification-only artifact (`gpg.ssh.allowedSignersFile` unset) — signatures ARE present; don't chase it.
 - `.gitattributes`: `*.csv text eol=lf`.
-- Commits through `82944ff` (2026-08-18 session: S2 prep `5ffbf10`, S2 tasks 1-7
-  `10d654c..992811d`, final-review fixes `82944ff`).
+- Commits through `d2e5e4a` (2026-08-18 session: W8 prep `dd7525b`, W8 evidence
+  `b1c78ce`, forms 61-64 `a1b0846`, S3 prep `34691b8`, plan `a495444`, S3 tasks+fixes
+  `334497f..d2e5e4a`).
+
+### El Salvador — sources & evidence state
+- **EVID corpus 001..190** (gap 109-127 reserved-unused). W8 files:
+  `29_F985_CNR_RegComercio` (EVID-172), `34_36_39_F07_v14` (EVID-173..179),
+  `35_37_38_59_F14_v16_v17` (EVID-180..184), `30_Calendario_Tributario_2026`
+  (EVID-185..186), `61-64_report_forms` (EVID-187..190); `60_DE10_...` (EVID-171).
+  **62 registered source files, numbering 01-64** (gaps 21/23/24/28; + schemas/ dir).
+- Source registry carries: 29_ mislabel note; 38_/39_ current-form notes; 59_ (F14 v17),
+  60_ (D.E. 10 gazette print), 61_-64_ (F910v9/F915v4/F930v3/F935v1) with provenance.
 
 ### El Salvador — extraction (S1 scope COMPLETE; W6/ISR COMPLETE 2026-08-17)
 - **EVID corpus now 001..152** (gap 109–127 reserved-unused): S1 = 87 entries
@@ -192,6 +204,35 @@ anomalies — extra finds 1,731.42, semanal III 509.52), SOQ-05 (2025+ aguinaldo
 transitory), 03 OQ-009 (mid-2025 vintage straddle for one annual liquidation).
 COVERAGE rollup now 23 cited / 25 pending / 8 N/A / 1 superseded.
 
+### El Salvador — synthesis S3 (fiscal reporting F-07/F-14) (COMPLETE 2026-08-18, pushed)
+W8 evidence (EVID-172..190) + acquisitions 59_-64_ + master-index clusters F1-F12 + SOQ-08..14
+fed a subagent-driven wave (9 tasks, per-task reviews, 6 fix rounds, final whole-wave review
+"usable with fixes" + one fix wave 9/9 addressed; commits 334497f..d2e5e4a). Deliverables in
+`sv/requirements/fiscal-reporting/`:
+
+| File | FRs | Prefix range |
+|---|---|---|
+| `01_f07-declaration.md` | 41 | SV-FREP-FR-001..041 (casilla engine + upload engine) |
+| `02_f07-annexes-sales.md` | 25 | SV-FREP-FR-042..066 (canonical DTE-identifier mapping FR-042/043) |
+| `03_f07-annexes-purchases.md` | 28 | SV-FREP-FR-067..094 (canonical ISR quartet FR-079..085) |
+| `04_f07-annexes-retentions-events.md` | 29 | SV-FREP-FR-095..123 (F-930 view; SOQ-10 ruling LB-007) |
+| `05_f07-annexes-special.md` | 13 | SV-FREP-FR-124..136 (fuel/357 dated regimes) |
+| `06_f14-declaration.md` | 34 | SV-FREP-FR-137..170 (SS caps; dead pago-mínimo FR-163; Quincena-25 v17 FR-165/166) |
+| `07_codes-and-informs.md` | 24 | SV-FREP-FR-171..194 + `f14_income_codes.csv` (48 codes) |
+| `08_filing-calendar.md` | 14 | SV-FREP-FR-195..208 (SOQ-08 windows as config) |
+
+Totals: **208 FRs / 66 LBs / 94 ACs / 47 OQs**. In-wave answers: F-910 = the CT 123 ISR
+retention surface (taxation 04 OQ-007 answered ISR-side); F-915 = the Art. 74-C inform
+format (taxation 05 OQ-002 partially answered); F-07 anulados detail code "D" closes
+e-invoicing 02 OQ-008's F-07 side (retorno gap open with e-invoicing). COVERAGE now
+36 cited / 17 pending / 9 N/A / 1 superseded (63 rows). Key session finds recorded in
+W8 log: **29_ is MISLABELED** (actual content = F985/F-975 CNR manual — CT 121 a)2
+third-party report; the intended annex-modification resolutions are NOT in the corpus);
+**F-14 v17 = Quincena-25 section only** (casillas 417/418; no v17 manual yet — SOQ-09
+blocks the annex-level FR); F-07/F-14 manuals are the primary authority for declaration
+mechanics; DTE-identifier mapping (Serie=sello 40c / Resolución=NC-28 pre-Nov-2022 CG-32 /
+Número=CG-32 pre-Nov-2022 NC-28) is now FR-042/043 canonical.
+
 ### GT / HN
 Scaffolded only (READMEs, sources/scripts/requirements dirs, topic sets; hn
 has no e-invoicing). No sources collected yet. GT gets FEL (SAT), HN fiscal
@@ -325,6 +366,25 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
     review — all verified); Task 7 carried the master-index SOQ strikes
     (plan gap, controller-added interface).
 
+### S3 wave rulings (2026-08-18; preserved from the deleted SDD ledger)
+24. **Forward file+§ refs allowed** (S2 precedent reused): 06→07 §3 catalog
+    forward-reference; all resolved/verified at final review.
+25. **Extraction .txt counts as LB-citable source**: evidence files summarize the
+    extraction txts; when the evidence file abbreviates a verbatim table (e.g. F-07
+    §XXI-XXIV column maps), implementers cite the txt with page anchors — OQs only for
+    data absent from every corpus file.
+26. **Taxation 04 OQ-007 answered (ISR side)**: F-910 = the CT 123 annual retention
+    report (pointer wired in taxation 00_index + 07 §3.3); 05 OQ-002 partially answered
+    (F-915 format published; norms resolution still absent); 05 OQ-006 answered-kin
+    (F-14 codes 43-46 + F-910 + F-915). IVA-side surface = F-930 (04 file owns the view).
+27. **Casilla semantics honesty rules** (from fix rounds): unprinted wirings
+    (146/151, 155→110, 167→164) recorded-but-unwired with OQs — never invented into
+    formulas; sign convention = positive magnitude entered, formula subtracts
+    (520/523/81/131/550/551 harmonized); two-decimal discipline = computation rounds
+    never, export truncates (FR-027/030 aligned).
+28. **README source-count fix**: registry recount = 62 files (the S2-era "50" +
+    53-64); controller's interim 56 was a miscount — corrected in 595eec1.
+
 ### Standing policies
 - Evidence-based answers only; RAG (NotebookLM) is validator, never source
   (notebook `c7ca0391-4822-4d3c-8090-b0d8c147ba94`, owner
@@ -347,6 +407,9 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
   CSV sidecars; v1.1-aware; `--pdf` overlay path is legacy-2022 — see §9).
 - **OCR quirk (critical)**: Diario Oficial scans (watermarked pages) need
   `--tesseract-pageseg 6`; default PSM returns near-empty text (hit on 44_).
+  **D.O. TABLE pages need PSM 4 at 400dpi** (PSM 6 merges table rows into
+  digit soup; hit on the D.E. 10-2025 tables 2026-08-18 — considerandos stay
+  PSM 6). MH form PDFs and manual scans OCR fine under the script's defaults.
 - **Fetching from factura.gob.sv**: wpdmdl download-manager LABELS DO NOT
   MATCH CONTENT (IDs were shuffled). Always verify by reading page 1 with
   pypdf. Known IDs as of 2026-08-16: 4388=Manual Tecnológico v2.0,
@@ -387,6 +450,15 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
 - `17_Reglamento_Lavado_Activos.pdf` is structurally damaged (renders in
   pdf.js, fails strict parsers) — auto-repaired via qpdf in the script.
 - `docs/superpowers/` holds process artifacts (specs/plans) — keep using it.
+- **MH formularios page** (mh.gob.sv/servicios/formularios-tributarios-para-descarga/):
+  direct wp-content URLs (no wpdmdl shuffling); forms verified 2026-08-18: F14-V17-1.pdf
+  (2026-06), F07_V14_COMPLE.pdf (= our 39_, updated 15-08-2025), F910=PMHDC8240,
+  F915=PMHDC8241, F-930=PMHDC8242, F935v1.pdf (2025-10). Watch for F14 v17 manual +
+  newer F910/F915/F930 prints; F11-V18.pdf = ISR annual declaration (acquisition
+  candidate).
+- **29_ mislabel**: `29_Modificacion_Anexos_F07_F14.pdf` is actually the F985/F-975
+  CNR Registro de Comercio manual (CT 121 a)2) — the annex-modification resolutions
+  are NOT in the corpus (SOQ-12).
 
 ## 8. Next actions (ordered)
 
@@ -399,38 +471,37 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
 3. ~~**S2 ISR wave**~~ **DONE 2026-08-18** — extraction/evidence (W6/W6.5/W7),
    prep (master-index T1-T8 + R17-R22 + SOQs), synthesis (172 FRs, 6 files +
    index + CSVs), final review clean. See §3 S2 section.
-4. **S2 next wave — F-07/F-14 fiscal reporting** (sources 29_/30_/34_–39_):
-   same patterns (extraction → evidence → synthesis into
-   `sv/requirements/fiscal-reporting/`). **FIRST: check F14 v17 (2026-06-03)
-   vs our 35_F14_v16 manual — acquire from MH if the layout moved** (numbering
-   continues from 59). Feeds: 02 OQ-008 (invalidated/retorno annex
-   presentation), 02 OQ-010 (declaration FX), 03/04 ISR computation FRs,
-   05 earnings register. 35_ is OCR'd.
+4. ~~**S2 next wave — F-07/F-14 fiscal reporting**~~ **DONE 2026-08-18** — W8 evidence +
+    acquisitions 59_-64_ + S3 synthesis (208 FRs, 8 files + index + CSV). See §3 S3 section.
 5. **S2 remaining waves** (each: extraction → evidence → synthesis): payroll
-   (08_/09_/11_/16_; consumes 04's thresholds/base FRs + SOQ-05 aguinaldo
-   re-verify) → commercial-legal (07_/15_/17_) → special-regimes
-   (12_/13_/14_/17b_/42_/43_; D.L. 598-2020 + EVID-167 tail laws) →
-   NIIF/chart-of-accounts (32_/33_; consumes 06's register interface).
-   Taxation topic also still owes the IVA-core files (01_ cited in S1; 02_
-   Reglamento unread) — fold into a later taxation wave or the
-   fiscal-reporting prep.
-6. **SOQ follow-ups (taxation)**: SOQ-03 — fetch the D.E. 10-2025-publishing
-   D.O. volume (Apr/May-2025) via the `/api/v1/diarios-disponibles` recipe
-   (PSM 6) to pin vigencia + verify printed digits (anomalies list in 04
-   OQ-002); SOQ-02 — MH guidance check for the $1,600 proration; 03 OQ-009
-   (vintage straddle) — watch for MH/administrative guidance.
+    (08_/09_/11_/16_; consumes 04's thresholds/base FRs + SOQ-05 aguinaldo re-verify +
+    **SOQ-11 SS-cap feed** (F-14 mirrors the caps; payroll owns the values) + **the Ley
+    Especial Quincena Veinticinco acquisition (numbering ≥65 — F-14 v17 + payroll both
+    need it)**) → commercial-legal (07_/15_/17_) → special-regimes
+    (12_/13_/14_/17b_/42_/43_; D.L. 598-2020 + EVID-167 tail laws) → NIIF/chart-of-accounts
+    (32_/33_; consumes 06's register interface). Taxation topic also still owes the
+    IVA-core files (01_ cited in S1; 02_ Reglamento unread; the R/S and IVA-retention
+    cross-refs from S3's 01/04 files land there) — fold into a later taxation wave.
+    **F-11 v18** (ISR annual declaration, mh.gob.sv Feb-2025) = acquisition candidate
+    for the R/S-classification consumer interface.
+6. **SOQ follow-ups**: taxation — SOQ-02 ($1,600 proration quincenal/semanal; MH
+    guidance), 03 OQ-009 (vintage straddle; watch MH guidance); fiscal-reporting —
+    **SOQ-08** (due-day windows: extract the calendar's visual layer or find the
+    schedule instrument), **SOQ-09** (watch MH for the F-14 v17 manual/plantilla +
+    acquire the Quincena-25 law), SOQ-13 (F-935 donantes-locales CT anchor — CT
+    matrix pass), SOQ-14 (F-950 frequency).
 7. **Externally-blocked OQs** (check factura.gob.sv periodically): Retorno/
-   OpEsp endpoints (MOQ-05 — 52_-schema absence verified 2026-08-17; 03
-   OQ-006, 02 OQ-003); CAT-024 vs Cuadro-2 taxonomy confirmation. When new
-   docs appear: continue source numbering from 59, register with provenance,
-   capture supersession.
+    OpEsp endpoints (MOQ-05 — 52_-schema absence verified 2026-08-17; 03
+    OQ-006, 02 OQ-003); CAT-024 vs Cuadro-2 taxonomy confirmation. When new
+    docs appear: continue source numbering from 65, register with provenance,
+    capture supersession.
 8. **Remaining S1 OQs** (34 open): most are business decisions (FVS flow,
-   email scope) or AT-publication dependencies; 45_ §10 re-read for MOQ-07
-   (02 OQ-001/002) can ride along with the S2 fiscal-reporting work.
-   Addendum follow-ups: 02 OQ-011 (line-level move↔picking design pass —
-   product owner's prior implementation as input) before FR-162/163
-   implementation; 02 OQ-009 (NRE fate — watch AT/45_ revisions); 06
-   OQ-008 (D10 protocol guarantee FR wording, next 06 edit).
+    email scope) or AT-publication dependencies; 45_ §10 re-read for MOQ-07
+    (02 OQ-001/002) can ride along with the payroll or IVA-core wave.
+    Addendum follow-ups: 02 OQ-011 (line-level move↔picking design pass —
+    product owner's prior implementation as input) before FR-162/163
+    implementation; 02 OQ-009 (NRE fate — watch AT/45_ revisions); 06
+    OQ-008 (D10 protocol guarantee FR wording, next 06 edit).
 9. **Deferred cleanups** (§9 below, batch them).
 10. **GT/HN bootstrap** when sv is sufficiently far along (GT sources first:
     SAT/FEL normative; HN: SAR fiscal reporting).
@@ -454,6 +525,16 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
 - D4 email-escalation channel ownership → ToS/onboarding backlog (not a
   requirements file yet).
 - COVERAGE regeneration script (currently hand-built matrix).
+- **"Only architecture-split surface" boilerplate** exists in ~11 requirements files
+  across waves (S3 final-fix found 01's instance; 02:467 + taxation files untouched) —
+  one sweep to soften all instances.
+- S3 deferred minors (final review, deferrable): 01 FR-005 missing EVID-178 cite; 01
+  FR-023 else-branch phrasing; 01 §4 sign-header wording; 01 Art. 66 attribution
+  looseness; 02 FR-064 compressed inventory; 02 §5 FR-048 row missing P-formula pointer;
+  03 AC-005 code-8 parity un-OQ'd; 03 FR-071 could name EVID-174; 03 FR-092 glosses 01's
+  upload rules; 04/06 Given/then style; 06 FR-162 antecedent + FR-168 FR-106 gloss; 08
+  LB-005 gloss restates consumer values (verified correct); index §7 pointer wording;
+  taxation 05-OQ-002 pointer's "F-910/F-915" phrasing (F-910 marginally irrelevant there).
 
 ## 10. Session-protocol checklist for the next controller
 
