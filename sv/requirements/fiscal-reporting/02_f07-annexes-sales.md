@@ -218,7 +218,7 @@ N+2).
 - **SV-FREP-FR-054:** The system shall emit every Anexo 2 row with the
   verbatim column model A-W of manual §IV — A FECHA EMISIÓN · B CLASE ·
   C TIPO · D-J identifier block (D resolución · E serie · F/G número
-  DEL/AL · H/I control interno DEL/AL · J N° DE MÁQUINA REGISTRADORA 14)
+  DEL/AL · H/I control interno DEL/AL · J N° DE MAQUINA REGISTRADORA 14)
   · K VENTAS EXENTAS · L VENTAS INTERNAS EXENTAS NO SUJETAS A
   PROPORCIONALIDAD · M VENTAS NO SUJETAS · N VENTAS GRAVADAS LOCALES ·
   O EXPORTACIONES DENTRO DEL ÁREA CENTROAMERICANA · P EXPORTACIONES
@@ -385,7 +385,7 @@ manual §IV / plantilla sheet "2"):**
 | G | NÚMERO DE DOCUMENTO (AL) | plantilla | physical: range end (identity F = G single doc); DTE = last código de generación (32) | FR-055, FR-056 |
 | H | NÚMERO DE CONTROL INTERNO (DEL) | plantilla | physical: internal-control range start; DTE = blank | FR-055, FR-056 |
 | I | NÚMERO DE CONTROL INTERNO (AL) | plantilla | physical: internal-control range end (identity H = I); DTE = blank | FR-055, FR-056 |
-| J | N° DE MÁQUINA REGISTRADORA | 14 | cash-register number (tipo 10) | FR-055 |
+| J | N° DE MAQUINA REGISTRADORA | 14 | cash-register number (tipo 10) | FR-055 |
 | K | VENTAS EXENTAS | 10 | exempt sales → casilla 85 | FR-058, FR-066 |
 | L | VENTAS INTERNAS EXENTAS NO SUJETAS A PROPORCIONALIDAD | 10 | exempt not subject to proportionality → casilla 92 | FR-058, FR-066 |
 | M | VENTAS NO SUJETAS | 10 | non-subject sales → casilla 86 | FR-058, FR-066 |
@@ -414,7 +414,7 @@ table files 03/04 reference as SV-FREP-FR-042/043):**
 | SERIE | printed series | — | sello de recepción (40) | sello de recepción (40) |
 | NÚMERO (DEL/AL or single) | pre-printed number (range endpoints) | — | código de generación, hyphenless (32) | número de control, hyphenless (28) |
 | CONTROL INTERNO | emitter's internal control (books) | formulario único control number | BLANK | BLANK |
-| MÁQUINA REGISTRADORA (Anexo 2 J) | cash-register number (tiquetes) | — | blank | blank |
+| MAQUINA REGISTRADORA (Anexo 2 J) | cash-register number (tiquetes) | — | blank | blank |
 
 **Code lists (seed data):**
 
