@@ -40,18 +40,31 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
 - `.gitattributes`: `*.csv text eol=lf`.
 - Last S1 commit: `72e06b0`; evidence tracking added `58b8b81`.
 
-### El Salvador — extraction (COMPLETE for S1 scope)
-- **87 EVID entries** across 7 evidence files + the 45_Anexos digest, all
-  committed under `sv/.extractions/` (`.evidence.md`, `00_MASTER_INDEX.md`,
-  `45_Anexos.digest.md` are tracked; `.txt` dumps + `schemas_2026/` remain
-  ignored — regenerable via `shared/scripts/extract_text.py` and the 52_ zip).
+### El Salvador — extraction (S1 scope COMPLETE; W6/ISR COMPLETE 2026-08-17)
+- **EVID corpus now 001..152** (gap 109–127 reserved-unused): S1 = 87 entries
+  across 7 evidence files + the 45_Anexos digest (committed under
+  `sv/.extractions/`; `.txt` dumps + `schemas_2026/` stay ignored —
+  regenerable). **W6 ISR**: `03_Ley_ISR.evidence.md` (EVID-088..108),
+  `04_Reglamento_ISR.evidence.md` (EVID-128..146),
+  `10_Tablas_Retencion_ISR.evidence.md` (EVID-148..152); 23 new OQs
+  (per-file OQ-1.. numbering; not yet MOQ-rolled).
 - Waves done: W1 foundations (11 DTE structures + events manual), W2 catalogs
   sidecars, W3 Ley IVA + Reglamento, W4 Código Tributario, W5 DTE stack, W5.5
-  2026-regulatory-update re-read. Sources refreshed mid-project: files 44–52
+  2026-regulatory-update re-read, W6 ISR (Ley + Reglamento + retention tables).
+  Sources refreshed mid-project: files 44–52
   fetched from factura.gob.sv (D.L. 487 CT reform, Normativa v2.0 25-May-2026,
   Manual Tecnológico v2.0, catalogs v1.1 2026 re-versioning, JSON schemas
   2026-08-11). **Authority order: 44_/45_/46_/50_/51_/52_ (2026) > 18_/19_/22_
   (2025) > 40_/41_/25_ (2022).** Superseded sources retained as historical LB.
+- **W6 rulings (see EXTRACTION_PLAN W6 entry for detail):** (1) 10_ tables
+  are 1992 colones-era (D.E. 75/25) — superseded in practice; the operative
+  retention tables decree is MISSING → acquire from MH (next-file numbering
+  continues from 53); (2) Reglamento ISR carries a self-documented repeal map
+  (D.E. 117-2001) — only substantive computation articles survive; (3) pago
+  mínimo declared UNCONSTITUTIONAL (sent. 18-2012) — do not implement;
+  (4) Ley ISR copy consolidated only through D.L. 233-2012 — verify post-2012
+  reforms (Art. 37 brackets / 41 rates / 72 5% / 29-A limits) before
+  synthesis trusts them.
 - 50 source files (numbering 01–52; gaps 21/23/24/28 unused; next file = 53)
   + superseded 2022 `schemas/` dir + current 15 schemas inside the 52_ zip.
 
@@ -265,10 +278,16 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
    decided and recorded (see §5 register + regulatory-change-management.md);
    template/guide updated; correction corollary → 02 §3.11 FR-159..164.
 3. **S2 waves** (each: extraction → evidence → synthesis, same patterns;
-   source mapping authoritative in COVERAGE.md): ISR (03_/04_/10_) →
-   F-07/F-14 reporting (29_/30_/34_–39_) → payroll (08_/09_/11_/16_) →
+   source mapping authoritative in COVERAGE.md): ISR (03_/04_/10_) —
+   **extraction + evidence DONE (W6); synthesis pending** → F-07/F-14
+   reporting (29_/30_/34_–39_) → payroll (08_/09_/11_/16_) →
    commercial-legal (07_/15_/17_) → special-regimes (12_/13_/14_/17b_/42_/
    43_) → NIIF/chart-of-accounts (32_/33_). F-14 manual (35_) is OCR'd.
+   ISR synthesis blockers to resolve first: (a) acquire the CURRENT
+   retention-tables executive decree (10_ is 1992-colones, superseded;
+   check MH/factura.gob.sv, register from 53_); (b) verify post-2012 Ley
+   ISR reforms (OQ-8); then prep (digest/merge) → plan doc → subagent
+   synthesis into `sv/requirements/taxation/`.
 4. **Externally-blocked OQs** (check factura.gob.sv periodically): Retorno/
    OpEsp endpoints (MOQ-05 — 52_-schema absence verified 2026-08-17; 03
    OQ-006, 02 OQ-003); CAT-024 vs Cuadro-2 taxonomy confirmation. When new
