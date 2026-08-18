@@ -45,7 +45,7 @@ arbitrated, the resolution id (R1–R16) from the master index is noted.
 | ID | Citation (Spanish) | English translation | Source file | Location |
 |----|--------------------|---------------------|-------------|----------|
 | LB-001 | D.L. 487-2022 (reforma al Código Tributario, régimen DTE), Arts. 119-B y 119-C | Art. 119-B: a DTE exists once generated, signed, transmitted and sealed; Art. 119-C: emission = generation → signature → transmission → delivery, electronically; receivers are OBLIGED to demand sealed DTEs (except *fedatarios*) | `sv/sources/44_Reforma_CT_DTE_DL487_2022-09-20.pdf` | Arts. 119-B/119-C (EVID-083) |
-| LB-002 | D.L. 487-2022, Art. 3 (CT 147 reformado) y Arts. 5–8 | CT 147 as reformed: DTE conservation for 10 years counted from GENERATION date, emitter's responsibility; AT is explicitly not the emitter's storage service; RGs conserved in their original format/medium | `sv/sources/44_Reforma_CT_DTE_DL487_2022-09-20.pdf` | Art. 3 + Arts. 5–8 (EVID-083) |
+| LB-002 | D.L. 487-2022, Art. 3 (CT 147 reformado) | CT 147 as reformed: DTE conservation for 10 years (term per CT 147 itself, carried by LB-010 / 18_ §12) counted from GENERATION date, emitter's responsibility; AT is explicitly not the emitter's storage service; RGs conserved in their original format/medium | `sv/sources/44_Reforma_CT_DTE_DL487_2022-09-20.pdf` | Art. 3 (EVID-083) |
 | LB-003 | Normativa de Cumplimiento DTE v2.0, Anexo I, Cuadro 10 (firma electrónica) | Annex I Table 10: *firma electrónica simple* (simple electronic signature) with AT-issued certificates; JSON Web Signature (JWS) standard; PKCS8-encoded key material; asymmetric private/public keys; `firmaElectronica` = JWS over the full DTE/event JSON; AT validates the certificate on every document and event | `sv/sources/45_Normativa_Cumplimiento_DTE_v2.0_2026-05-25.pdf` | Anexo I Cuadro 10 pp. 40–41 (via DG45 §4; OCR items → OQ-002) |
 | LB-004 | Normativa v2.0, Anexo I, Cuadro 11 (Archivo DTE y entrega) | Annex I Table 11: Archivo DTE parts (JSON structure + `firmaElectronica` + `selloRecibido`); base objects list; the signed structure must be incorporated *íntegra* (unaltered — alteration is *lesiva al interés fiscal*, harmful to the fiscal interest); entrega = faithful RG via download site (minimum requirements) or email (entrega content only) | `sv/sources/45_Normativa_Cumplimiento_DTE_v2.0_2026-05-25.pdf` | Anexo I Cuadro 11 pp. 43–44 (via DG45 §4; site requirements → OQ-004) |
 | LB-005 | Normativa v2.0, Anexo I, módulos y seguridad | Annex I: the four emission modules — 1 Generación, 2 Firmado, 3 Transmisión, 4 Entrega (Módulo de Entrega newly incorporated); suggested reference architecture (high availability, DRP, load balancing, auto-scaling, backups, traceability, monitoring); backups of the JSON + sello (Sistema de Transmisión) | `sv/sources/45_Normativa_Cumplimiento_DTE_v2.0_2026-05-25.pdf` | Anexo I pp. 44–45 (via DG45 §4) |
@@ -83,7 +83,7 @@ arbitrated, the resolution id (R1–R16) from the master index is noted.
 - **SV-EINV-FR-142:** The system shall treat the RG as having NO probative value, and shall record the CT 206 evidential hierarchy (AT copy > taxpayer copy > RG) on the archived document — deduction and audit workflows shall never rely on the RG. (LB-009 §11; cross-ref `02_transmission.md` FR-082)
 - **SV-EINV-FR-143:** The system shall render every RG according to the binding Versión Legible field categories: A = must be reflected; B = reflected whenever required by business, activity, operation, amount or other conditions; C = never displayed; D = when unused, the section/field name is printed followed by a dash. Suggested layouts in the structures manual are NOT binding; the category assignment per field is. A machine-readable per-type category sidecar (Anexo II Versión Legible column) shall drive rendering (→ OQ-007). (LB-011)
 - **SV-EINV-FR-144:** The RG shall display the *sello de recepción* for sealed documents; the sello is NOT part of the emitter's outbound signed JSON (it exists only in the MH response) and is incorporated into the Archivo DTE and RG after reception — except contingency/unsealed documents, which carry the FR-145 marking instead. (LB-011; LB-004; LB-003 selloRecibido N°175)
-- **SV-EINV-FR-145:** Documents delivered under a deferred modality without seal (normal diferida or contingency — `02_transmission.md` FR-068/069) shall be delivered in *estado transitorio* with the RG explicitly marked as contingency transmission, CAT-004 code 2 (tipo de transmisión *contingencia*); the marking shall disappear from the record's current view once the document is sealed, while the delivered transitory copies remain as delivered. (LB-009 §11; LB-012 CAT-004)
+- **SV-EINV-FR-145:** Documents delivered under a deferred modality without seal (normal diferida or contingency — `02_transmission.md` FR-068/069) shall be delivered in *estado transitorio*; the explicit RG marking as contingency transmission, CAT-004 code 2 (tipo de transmisión *contingencia*), applies ONLY to contingency-modality documents — normal diferida is a NORMAL transmission modality held under AT resolution (EVID-073 ties the code-2 marking to contingency documents; cross-ref `02_transmission.md` FR-068; whether 45_ §11.2 mandates any additional marking for normal-diferida entregas → OQ-009). The transitory marking shall disappear from the record's current view once the document is sealed, while the delivered transitory copies remain as delivered. (LB-009 §11; LB-012 CAT-004)
 - **SV-EINV-FR-146:** RG rendering shall be implemented SaaS-side (shared decision point, recorded here): a single rendering service keeps per-type templates, category assignments and version churn centralized as core IP, guaranteeing uniform compliance across clients; the Odoo client shall display, print and re-download RGs from its Tier A mirror and shall be able to re-render on demand through the SaaS. Offline read access to the mirrored RG is a Tier A right (FR-157). (LB-013 D2/D3; LB-011)
 
 ### 3.4 QR code
@@ -92,7 +92,7 @@ arbitrated, the resolution id (R1–R16) from the master index is noted.
 
 ### 3.5 Electronic delivery — modalities & channels
 
-- **SV-EINV-FR-148:** The system shall deliver electronically under BOTH modalities: (a) normal prior transmission — entrega carries the sello de recepción (`02_transmission.md` FR-067); and (b) transitory delivery for the deferred modalities — entrega in estado transitorio marked per FR-145, with the modality clocks owned by `02_transmission.md` FR-068–070. (LB-009 §11; LB-001)
+- **SV-EINV-FR-148:** The system shall deliver electronically under BOTH modalities: (a) normal prior transmission — entrega carries the sello de recepción (`02_transmission.md` FR-067); and (b) transitory delivery for the deferred modalities — entrega in estado transitorio, with the CAT-004 code 2 contingency marking of FR-145 scoped to contingency-modality documents only (normal diferida carries the transitory state without it — → OQ-009), with the modality clocks owned by `02_transmission.md` FR-068–070. (LB-009 §11; LB-001)
 - **SV-EINV-FR-149:** The system shall support the two entrega channels per Cuadro 11: (a) a download site — hosted by the SaaS on behalf of the emitter, satisfying the AT minimum requirements (→ OQ-004) — where the receiver obtains the Archivo DTE + RG; and (b) email, carrying the entrega content (scope → OQ-005), triggered from the Odoo client's document flow. Both channels shall deliver the same package defined by FR-140. (LB-004; LB-005 Módulo de Entrega)
 - **SV-EINV-FR-150:** The system shall support the RECEIVER-side obligation on the emitter's own purchase flows: documents received by the client company shall display seal presence, and unsealed/non-compliant DTEs shall carry a warning that accepting them forfeits CT 206 deductions (receivers are obliged to demand sealed DTEs; *fedatarios* are the exception and verify RG delivery instead). (LB-001 119-C inc. 6; LB-009)
 - **SV-EINV-FR-151:** The system shall map onto the four AT emission modules — 1 Generación, 2 Firmado, 3 Transmisión, 4 Entrega — as: Generación/Transmisión/Entrega orchestrated by the SaaS, Firmado executed client-side (FR-131); the AT's suggested reference architecture (high availability, DRP, load balancing, security, auto-scaling, backup, traceability, monitoring, reporting) is recorded as design guidance for the SaaS deployment posture (D1 multi-region). (LB-005; LB-013 D1/D2)
@@ -112,9 +112,12 @@ arbitrated, the resolution id (R1–R16) from the master index is noted.
 
 ## 4. Data Model
 
-The MH JSON and the JWS never exist as client-side first-class data except
-inside the signing envelope (D2: private minimal protocol; SaaS compiles
-and assembles). This section documents the vault, the signing envelope,
+GENERATION-TIME (pre-seal) scope: the client never generates or transforms
+MH-format JSON — MH-shape data reaches the client only inside the signing
+envelope (D2: private minimal protocol; the SaaS compiles and assembles).
+Post-seal, the Archivo DTE (verbatim sealed MH JSON) and the JWS ARE
+first-class client-side data as Tier A mirrored archive artifacts
+(FR-152/154). This section documents the vault, the signing envelope,
 entrega metadata and the Tier A mirror.
 
 **Certificate vault** (odoo-side security surface):
@@ -148,7 +151,7 @@ entrega metadata and the Tier A mirror.
 | account.move (DTE) / l10n_sv_edi.event | rg_document | binary | rendered RG, original format conserved | FR-141, FR-146, FR-155 |
 | (sidecar) | rg_categories | data | per tipoDte × field → A/B/C/D | FR-143; OQ-007 |
 | account.move (DTE) | qr_url | char(200) | consultaPublica?ambiente=&codGen=&fechaEmi= | FR-147 |
-| account.move (DTE) | delivery_modality | derived | sealed normal (CAT-004 1) / transitory (CAT-004 2) | FR-145, FR-148 |
+| account.move (DTE) | delivery_modality | derived | sealed normal (CAT-004 1) / transitory normal-diferida / transitory contingency (CAT-004 2) | FR-145, FR-148 |
 | account.move (DTE) | delivery_channel | selection | download_site / email | FR-149 |
 | account.move (purchase) | seal_present | boolean | receiver-side demand check | FR-150 |
 
@@ -189,7 +192,7 @@ required by this file.
 | FR-142 | odoo | account.move, l10n_sv_edi.archivo | evidential_tier | Display + archive metadata; deduction logic never consults RG (02 FR-081/082) |
 | FR-143 | saas | — | rg_categories sidecar | Category sidecar drives SaaS rendering; sidecar maintenance in catalogs pass (OQ-007) |
 | FR-144 | saas | — | — | Sello merged into RG at seal time; sello never in outbound signed JSON |
-| FR-145 | saas | account.move | delivery_modality | Transitory marking CAT-004 code 2; cleared on seal in current view, delivered copies immutable |
+| FR-145 | saas | account.move | delivery_modality | Estado transitorio for both deferred modalities; CAT-004 code 2 RG marking contingency-only; cleared on seal in current view, delivered copies immutable |
 | FR-146 | saas | account.move | rg_document | SaaS renders (decision point recorded); client displays/prints from Tier A mirror and re-renders on demand |
 | FR-147 | saas | — | qr_url | QR embedded in rendered RG from document data |
 | FR-148 | shared | account.move | delivery_modality | Rides 02 FR-067–070 modality clocks; marking per FR-145 |
@@ -234,3 +237,4 @@ required by this file.
 | OQ-006 | Certificate renewal/revocation procedure post-acreditamiento (prod renewal cadence, test-cert re-issuance after the 2-month window, revocation notice channel) is not detailed in the 27_/46_ extracts; obtain before vault lifecycle FRs are implemented (FR-138). | no | Takumi (raw-text pass) | open |
 | OQ-007 | Per-type Versión Legible A/B/C/D sidecar: the 2022 manual carries category columns per structure; v2.0 carries the Versión Legible column in Anexo II (per DG45 §4 concept note). Build the machine-readable per-type category sidecar during the catalogs pass and verify the v2.0 column exists for all 11 types (FR-143). | no | Takumi (catalogs pass) | open |
 | OQ-008 | Cross-file conflict: `03_events.md` FR-090 states events are "generate[d], validate[d], sign[ed] and transmit[ted] exclusively in the SaaS core", which contradicts D2 (client-side signing; SaaS never holds private keys) and FR-131/134 here. This file governs; recommend amending 03 FR-090 wording ("orchestrate the signing round-trip") in a later pass. | no | Controller | open |
+| OQ-009 | Normal-diferida entrega marking (FR-145): EVID-073 (18_ §11) ties the CAT-004 code 2 marking to contingency documents, and normal diferida is a normal modality held under AT resolution (`02_transmission.md` FR-068). Does 45_ §11.2 (v2.0 entrega framework) mandate any additional RG marking for normal-diferida entregas delivered in estado transitorio? Confirm from 45_ raw text. | no | Takumi (raw-text pass) | open |
