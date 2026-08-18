@@ -161,8 +161,9 @@ N+2).
   OQ-002), N *ventas a cuenta de terceros no domiciliados* (sales for the
   account of non-domiciled third parties) with its O débito companion,
   and P *total ventas* = J + K + L + N (the row's sale-value columns; the
-  débito companions M/O are tax columns, not sale values).
-  (LB-001; LB-008; EVID-174)
+  débito companions M/O are tax columns, not sale values; §III prints NO
+  formula for P — the addition is label-inferred from the TOTAL VENTAS
+  header, OQ-002). (LB-001; LB-008; EVID-174)
 - **SV-FREP-FR-049:** The system shall emit credit and debit notes
   (tipos 05/06) as rows of their own with POSITIVE magnitudes classified
   into the same value buckets as the documents they adjust — never as
@@ -243,11 +244,15 @@ N+2).
   Documento Tributario Electrónico deberá colocar: N/A (Esto debido a que
   los documentos se agruparán por día)"), F = the *código de generación*
   of the FIRST DTE emitted that day, G = the *código de generación* of
-  the LAST DTE emitted that day (both hyphenless, 32), H/I = blank
-  (control interno is blank for DTE per FR-043), J = blank, and whose
-  value buckets aggregate all documents of the day-group; the required
-  ordering of the daily groups in the file is not printed by the manual
-  (OQ-001). (LB-005; EVID-175)
+  the LAST DTE emitted that day (both hyphenless, 32), H/I = blank as the
+  ENCODING'S EXTENSION CHOICE (manual §IV prints the primer/último
+  *código de generación* instruction under the F/G/H/I group COLLECTIVELY
+  without per-column assignment; this file fills the número pair F/G with
+  the endpoints and extends FR-043's control-interno-blank rule to H/I —
+  the alternative H=primer/I=último reading is recorded in OQ-006), J =
+  blank, and whose value buckets aggregate all documents of the day-group;
+  the required ordering of the daily groups in the file is not printed by
+  the manual (OQ-001). (LB-005; EVID-175)
 - **SV-FREP-FR-057:** The system shall admit tipos 02 and 10 on Anexo 2
   as VALID codes for the physical regimes only, carrying the regime note:
   *tiquetes* are banned for DTE emitters since 01-January-2025 and the
@@ -365,7 +370,7 @@ manual §III / plantilla sheet "1"):**
 | M | DÉBITO FISCAL | 10 | IVA debit on L → casilla 135 | FR-048, FR-066 |
 | N | VENTAS A CUENTA DE TERCEROS NO DOMICILIADOS | 10 | third-party non-domiciled sales → casilla 88 | FR-048, FR-066 |
 | O | DÉBITO FISCAL POR VENTA A CUENTA DE TERCEROS | 10 | IVA debit on N → casilla 141 | FR-048, FR-066 |
-| P | TOTAL VENTAS | 10 | J + K + L + N | FR-048 |
+| P | TOTAL VENTAS | 10 | J + K + L + N (addition label-inferred — OQ-002) | FR-048 |
 | Q | DUI DEL CLIENTE | 9 | client DUI; XOR with H (Enero-2022 gate) | FR-050 |
 | R | TIPO DE OPERACIÓN (Renta) | 2 (table's "10" = typo, OQ-003) | R codes; "0" pre-Enero-2025 | FR-051, FR-052 |
 | S | TIPO DE INGRESO (Renta) | 2 (as R) | S codes; "0" pre-Enero-2025 | FR-051, FR-052 |
@@ -383,8 +388,8 @@ manual §IV / plantilla sheet "2"):**
 | E | NÚMERO DE SERIE | plantilla | physical: series; DTE = "N/A" | FR-055, FR-056 |
 | F | NÚMERO DE DOCUMENTO (DEL) | plantilla | physical: range start; DTE = first código de generación (32) | FR-055, FR-056 |
 | G | NÚMERO DE DOCUMENTO (AL) | plantilla | physical: range end (identity F = G single doc); DTE = last código de generación (32) | FR-055, FR-056 |
-| H | NÚMERO DE CONTROL INTERNO (DEL) | plantilla | physical: internal-control range start; DTE = blank | FR-055, FR-056 |
-| I | NÚMERO DE CONTROL INTERNO (AL) | plantilla | physical: internal-control range end (identity H = I); DTE = blank | FR-055, FR-056 |
+| H | NÚMERO DE CONTROL INTERNO (DEL) | plantilla | physical: internal-control range start; DTE = blank (extension choice, OQ-006) | FR-055, FR-056 |
+| I | NÚMERO DE CONTROL INTERNO (AL) | plantilla | physical: internal-control range end (identity H = I); DTE = blank (extension choice, OQ-006) | FR-055, FR-056 |
 | J | N° DE MAQUINA REGISTRADORA | 14 | cash-register number (tipo 10) | FR-055 |
 | K | VENTAS EXENTAS | 10 | exempt sales → casilla 85 | FR-058, FR-066 |
 | L | VENTAS INTERNAS EXENTAS NO SUJETAS A PROPORCIONALIDAD | 10 | exempt not subject to proportionality → casilla 92 | FR-058, FR-066 |
@@ -481,7 +486,7 @@ where a legal vintage exists.
 | FR-053 | odoo | l10n_sv.f07.annex2.row | aggregation_mode | Modes: range (physical) · day_group (DTE); never per-document for DTE |
 | FR-054 | odoo | l10n_sv.f07.annex2.row | column order A-W | Plantilla sheet "2" conformance; W = 2 on every row |
 | FR-055 | odoo | l10n_sv.f07.annex2.row | range rows | DEL/AL endpoints; F=G / H=I identity rules per clase; J máquina registradora for tipo 10 |
-| FR-056 | odoo | l10n_sv.f07.annex2.row + .source | day groups | D/E = "N/A"; F/G = first/last código de generación (hyphenless 32); H/I/J blank; row ordering → OQ-001 |
+| FR-056 | odoo | l10n_sv.f07.annex2.row + .source | day groups | D/E = "N/A"; F/G = first/last código de generación (hyphenless 32); H/I/J blank (H/I = extension choice — OQ-006); row ordering → OQ-001 |
 | FR-057 | odoo | l10n_latam.document.type | tipo catalog note | 02/10 = non-DTE-emitter codes only (R12; SV-EINV-FR-129); historical compatibility rows |
 | FR-058 | odoo | l10n_sv.f07.annex2.row | K..T buckets | T = K+L+M+N+O+P+Q+R+S; no débito columns on this annex |
 | FR-059 | odoo | account.tax + l10n_sv.f07.annex2.row | convention switch | N IVA-INCLUSIVE (R1/SV-EINV-FR-019) vs Anexo 1 L net (FR-024); must mirror the e-invoicing price_include configuration (SV-EINV §5 FR-019/024 rows) |
@@ -582,9 +587,9 @@ ruling R12's 01-Jan-2025 tiquete ban for DTE emitters.
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
 | OQ-001 | EV34 OQ-3 carried: Anexo 2 DTE daily grouping — "Código de Generación del primer/último DTE emitido" per day — the required ROW ORDERING of the daily groups (by day? by code?) is unstated and the validations beyond the generic §XVI set are unknown. FR-056 encodes no ordering rule; AC-014 accepts both orderings. Confirm against a live MH upload or the annex-modification resolutions (01 §7 OQ-001 kin). | no | Takumi S3 | open |
-| OQ-002 | Anexo 1 L (VENTAS GRAVADAS LOCALES) net-of-IVA convention: manual §III prints no explicit "sin IVA" wording for L (unlike Anexo 2 N's explicit "Deberá detallarlas con IVA incluido"). Net encoding rests on the separate M DÉBITO FISCAL column + ruling R1 / SV-EINV-FR-024 (Ley IVA Art. 57, LB-008). Confirm before certifying exports. | no | Takumi S3 | open |
+| OQ-002 | Anexo 1 inferences pending confirmation: (a) L (VENTAS GRAVADAS LOCALES) net-of-IVA convention — manual §III prints no explicit "sin IVA" wording for L (unlike Anexo 2 N's explicit "Deberá detallarlas con IVA incluido"); net encoding rests on the separate M DÉBITO FISCAL column + ruling R1 / SV-EINV-FR-024 (Ley IVA Art. 57, LB-008); (b) the P = J + K + L + N TOTAL VENTAS addition — §III prints no formula; the addition is label-inferred (M/O excluded as tax columns). Confirm both before certifying exports. | no | Takumi S3 | open |
 | OQ-003 | R/S column lengths: the §III column table prints "Total de caracteres 10" for R/S while its own text says "máximo dos caracteres" — the table's "10" is the manual's typo (EVID-174 doubt). FR-051 encodes 2-character codes. | no | Takumi S3 | open |
 | OQ-004 | Anexo 2 U/V code lists: manual §IV prints the U/V gate (from Enero-2025, else "0") but no separate U/V code lists — FR-062 assumes the same lists as Anexo 1's R/S (EVID-175 prints only "U/V Renta pair"). Confirm whether §IV carries its own lists in a manual revision. | no | Takumi S3 | open |
 | OQ-005 | Terceros-casilla wiring: routing Anexo 1 N/O → casillas 88/141 and Anexo 2 S → casilla 89 (débito 142 computed, no column) rests on the document-family reading of the casilla labels ("Comprobante de Liquidación con C.C.F." / "con Facturas" — LB-002 of 01). Label-matched inference; confirm against MH auto-totalization behavior. | no | Takumi S3 | open |
-| OQ-006 | Anexo 2 H/I treatment on DTE day-group rows: the manual's grouping instruction covers F/G (first/last código de generación); FR-056 leaves H/I blank by extension of the control-interno-blank rule (FR-043/LB-002), but §IV does not print H/I's DTE value explicitly (N/A vs blank unstated). | no | Takumi S3 | open |
+| OQ-006 | Anexo 2 H/I treatment on DTE day-group rows: manual §IV prints the primer/último código-de-generación instruction under the F/G/H/I group COLLECTIVELY (EVID-175: "F/G/H/I: ... Código de Generación del primer DTE emitido / del último DTE emitido"), with no per-column assignment. FR-056's operative fill adopts F=primer/G=último with H/I blank (extension of FR-043's control-interno-blank rule); the literal alternative — H=primer/I=último mirroring the DEL/AL pairs — was NOT adopted because it conflicts with the control-interno-blank rule and duplicates the endpoints. Confirm the per-column assignment (and Task 4's anulados-annex row model) against a live MH upload or plantilla validation. | no | Takumi S3 | open |
 
