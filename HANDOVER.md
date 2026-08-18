@@ -1,7 +1,8 @@
 # HANDOVER — Session State & Continuation Guide
 
 **For the next controller session.** Written 2026-08-17, updated 2026-08-18 (S3 close)
-and 2026-08-18 again at the close of the W9 payroll evidence wave. Read this
+and 2026-08-18 twice more: at the close of the W9 payroll evidence wave and
+of the S4 payroll synthesis wave. Read this
 document fully before acting; it is the authoritative cross-session memory
 (conversation context does not survive).
 **Update it at every session boundary** — replace stale sections, append new
@@ -291,6 +292,39 @@ Sources read end-to-end + evidence EVID-191..210 (5 files, 16 file-level OQs):
   pensioner-health 6% → **7.80%** (later-in-time, 09_ Art. 154);
   11_ OQ-1 asueto dual-layer design; 16_ OQ-1 fidelity discipline.
 
+### El Salvador — synthesis S4 (payroll) (COMPLETE 2026-08-18, pushed)
+Prep (controller-executed): master index extended with clusters P1-P10 + rulings
+R23-R24 + SOQ-15..21 (commit 87df6b5). Wave plan
+`docs/superpowers/plans/2026-08-18-s4-payroll-synthesis.md`; executed
+subagent-driven (9 tasks, per-task reviews, fix rounds T1/T4, final whole-wave
+review "usable with fixes" + one fix wave 10/10 addressed; commits
+87df6b5..33edf2d). Deliverables in `sv/requirements/payroll/`:
+
+| File | FRs | Prefix range |
+|---|---|---|
+| `01_salary-model.md` | 10 | SV-PAY-FR-001..010 (canonical category matrix FR-004) |
+| `02_minimum-wage.md` | 13 | SV-PAY-FR-011..023 + `smm_2025.csv` (18 rows [sic]-faithful) |
+| `03_working-time-surcharges.md` | 20 | SV-PAY-FR-024..043 (asueto dual-layer SOQ-19) |
+| `04_statutory-benefits.md` | 19 | SV-PAY-FR-044..062 (vacaciones/aguinaldo labor side) |
+| `05_social-security-contributions.md` | 23 | SV-PAY-FR-063..085 + `ss_contributions.csv` (14 rows) |
+| `06_ss-declaration-remittance.md` | 15 | SV-PAY-FR-086..100 |
+| `07_contracts-termination.md` | 20 | SV-PAY-FR-101..120 (Art. 311 VOID invariant) |
+| `08_isr-interfaces.md` | 17 | SV-PAY-FR-121..137 (by-id feeds; Quincena-25 BLOCKED) |
+
+Totals: **137 FRs / 126 LBs / 94 ACs / 41 OQs (39 open, 2 resolved)**.
+Key encodings: SIP = D.L. 614 16% = 7.25/8.75 (R24 — SAP lore dead); ISSS
+7.5/3 law-level; ALL cap values = F-14-print dated data with instrument-OQs
+(SOQ-15/16/17) — never arithmetic-derived; 4×SMM cap $53.76 = config-default
+(comercio y servicios row ×4, SOQ-18 kin); indemnización 30d/yr min 15d;
+vacaciones 15d+30%; aguinaldo tiers 15/19/21 window 12-20 Dec no-forfeiture;
++25% nocturnal / +100% overtime; first-10-días-hábiles SS remittance (consumes
+FREP FR-203 engine); ISSS 1%/mo vs SIP sanction scales kept distinct;
+voluntary pension savings ≤10% IBC + 5-y clawback; F-11 711-725 feeds with
+stale-717-label guard; pago-mínimo dead-print guards (R21). COVERAGE rollup
+now 41 cited / 13 pending / 9 N/A / 1 superseded (64 rows incl. 65_).
+Cross-refs: taxation/00_index F-11-feed pointer; fiscal-reporting/00_index
+SOQ-11 values-owned-by-payroll/05 pointer.
+
 ### GT / HN
 Scaffolded only (READMEs, sources/scripts/requirements dirs, topic sets; hn
 has no e-invoicing). No sources collected yet. GT gets FEL (SAT), HN fiscal
@@ -443,6 +477,22 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
 28. **README source-count fix**: registry recount = 62 files (the S2-era "50" +
     53-64); controller's interim 56 was a miscount — corrected in 595eec1.
 
+### S4 wave rulings (2026-08-18; preserved from the deleted SDD ledger)
+29. **R23/R24 (master index):** pensioner-health cotización = **7.80%**
+    (09_ Art. 154, later-in-time — supersedes 08_ Art. 29's 6%); 09_'s
+    registry title is a MISNOMER — content = Ley INTEGRAL del Sistema de
+    Pensiones D.L. 614 (effective 2022-12-29), which DEROGATES the SAP
+    (D.L. 927-1996): only Art. 16's 16% (7.25/8.75) is citable; SAP-era
+    rate lore is dead text.
+30. **S4-process rulings:** execute on main (S2/S3 precedent); tasks strictly
+    sequential (FR-numbering chain — worked cleanly 001..137); caps discipline
+    = value-level-only from the F-14 print with instrument-OQs (never
+    arithmetic-derived — e.g. "$30 ÷ 3% = $1,000" is NOT corpus fact);
+    caña-floor→agrícola + tail-week + 4×SMM-sector readings ship as disclosed
+    working assumptions with OQs (SOQ-18 family); Art. 311 VOID = never-
+    implement invariant with negative AC; 01's crosscheck-OQ family resolved
+    in-wave by 08 §3.2.
+
 ### Standing policies
 - Evidence-based answers only; RAG (NotebookLM) is validator, never source
   (notebook `c7ca0391-4822-4d3c-8090-b0d8c147ba94`, owner
@@ -545,20 +595,16 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
    index + CSVs), final review clean. See §3 S2 section.
 4. ~~**S2 next wave — F-07/F-14 fiscal reporting**~~ **DONE 2026-08-18** — W8 evidence +
     acquisitions 59_-64_ + S3 synthesis (208 FRs, 8 files + index + CSV). See §3 S3 section.
-5. **S4 payroll wave — evidence DONE (W9), synthesis NEXT**: (a) retry the
-    Quincena-25 acquisition (**D.L. 499, D.O. 14-ene-2026, volume Id 31679**;
-    D.O. `/seleccion` was 500ing server-wide 2026-08-18 — number it 66 on
-    acquisition); (b) S4 prep = master-index extension (P-clusters from
-    EVID-191..210 + formalize the pensioner-health 6%→7.80% supersession +
-    SOQ-15.. register from the 16 W9 OQs); (c) plan doc + subagent synthesis
-    into `sv/requirements/payroll/` (consumes taxation/04 thresholds/base
-    FRs, SOQ-05 aguinaldo re-verify, SOQ-11 SS-cap feed from 16_/08_/09_;
-    F-11 v18's 711-725 deduction rows are a payroll feed). Then:
-    commercial-legal (07_/15_/17_) → special-regimes
-    (12_/13_/14_/17b_/42_/43_; D.L. 598-2020 + EVID-167 tail laws) → NIIF/chart-of-accounts
-    (32_/33_; consumes 06's register interface). Taxation topic also still owes the
-    IVA-core files (01_ cited in S1; 02_ Reglamento unread; the R/S and IVA-retention
-    cross-refs from S3's 01/04 files land there) — fold into a later taxation wave.
+5. **S2 remaining waves** (each: extraction → evidence → synthesis):
+    (a) **Quincena-25 acquisition retry FIRST** (D.L. 499, D.O. 14-ene-2026,
+    volume Id 31679 — the `/seleccion` route was 500ing server-wide
+    2026-08-18; number it 66 on acquisition; then payroll/08 OQ-002 +
+    fiscal-reporting SOQ-09 unblock); (b) commercial-legal (07_/15_/17_) →
+    special-regimes (12_/13_/14_/17b_/42_/43_; D.L. 598-2020 + EVID-167 tail
+    laws) → NIIF/chart-of-accounts (32_/33_; consumes 06's register
+    interface); (c) IVA-core taxation files still owed (01_ cited in S1;
+    02_ Reglamento unread; the R/S and IVA-retention cross-refs from S3's
+    01/04 files land there) — fold into a later taxation wave.
 6. **SOQ follow-ups**: taxation — SOQ-02 ($1,600 proration quincenal/semanal; MH
     guidance), 03 OQ-009 (vintage straddle; watch MH guidance); fiscal-reporting —
     **SOQ-08** (due-day windows: extract the calendar's visual layer or find the
@@ -608,8 +654,20 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
   looseness; 02 FR-064 compressed inventory; 02 §5 FR-048 row missing P-formula pointer;
   03 AC-005 code-8 parity un-OQ'd; 03 FR-071 could name EVID-174; 03 FR-092 glosses 01's
   upload rules; 04/06 Given/then style; 06 FR-162 antecedent + FR-168 FR-106 gloss; 08
-  LB-005 gloss restates consumer values (verified correct); index §7 pointer wording;
-  taxation 05-OQ-002 pointer's "F-910/F-915" phrasing (F-910 marginally irrelevant there).
+  LB-005 gloss restates consumer values (verified correct);   index §7 pointer wording;
+    taxation 05-OQ-002 pointer's "F-910/F-915" phrasing (F-910 marginally irrelevant there).
+- S4 deferred minors (final review, deferrable): 06 AC-001 placeholder
+  composition "weekend pair + two asuetos" → "two weekend pairs" at next
+  touch; T1 ISR-cell 2×SMM restatement + unanchored Art. 174/183/199
+  navigational mentions; T2 CSV row-level EVID provenance; T3 FR-029
+  two-resolution compression + navigational glosses; T4 FR-051/058 negative
+  asymmetry implicit + LB-023 vintage restatement (verified zero-drift vs
+  taxation/04); T5 voluntary-ISSS 10.50 regime-dependence (CSV note covers) +
+  art99 valid_from caveat + LB-009 gloss-kin; T6 FR-089 kin phrasing + LB-004
+  page-pin; T7 LB-018 chamber attribution + FR-107 floor-exclusion inference +
+  AC-002 boundary convention; T8 FR-123 min() arithmetic bend (in-mandate per
+  P9) + casillas 718-720/738 silence (evidence-faithful); T9 taxation-pointer
+  placement.
 
 ## 10. Session-protocol checklist for the next controller
 
