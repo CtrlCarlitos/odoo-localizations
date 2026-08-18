@@ -1,7 +1,7 @@
 # HANDOVER — Session State & Continuation Guide
 
-**For the next controller session.** Written 2026-08-17 at the close of the
-S1 synthesis wave. Read this document fully before acting; it is the
+**For the next controller session.** Written 2026-08-17, updated 2026-08-18 at the close of
+the S2 ISR synthesis wave. Read this document fully before acting; it is the
 authoritative cross-session memory (conversation context does not survive).
 **Update it at every session boundary** — replace stale sections, append new
 rulings, refresh "Next actions".
@@ -29,7 +29,10 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
 5. `shared/docs/regulatory-change-management.md` — version-regime framing + **D7–D12 decision log (decided 2026-08-17)**
 6. `shared/docs/odoo-localization-guide.md` — module anatomy (with thin-client caveat)
 7. `sv/.extractions/00_MASTER_INDEX.md` — synthesis lookup: 12 topic clusters (A1–A12), 16 resolved contradictions (R1–R16), 12 MOQs
-8. `sv/requirements/e-invoicing/00_index.md` + `sv/requirements/COVERAGE.md` — S1 corpus index + source coverage matrix (authoritative for source→wave mapping)
+8. `sv/requirements/e-invoicing/00_index.md` +
+   `sv/requirements/taxation/00_index.md` + `sv/requirements/COVERAGE.md` —
+   S1+S2 corpus indexes + source coverage matrix (authoritative for
+   source→wave mapping)
 9. `HANDOVER.md` (this file)
 
 ## 3. Current state (2026-08-17)
@@ -38,8 +41,8 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
 - Branch `main` only; remote `origin` = `git@github-CtrlCarlitos:CtrlCarlitos/odoo-localizations.git` (SSH alias `github-CtrlCarlitos` from `~/.ssh/config`); push after each wave; never force-push. `gh` CLI at `~/.local/bin/gh`, authenticated as CtrlCarlitos.
 - Commits are SSH-signed; local `%G?=N` is a verification-only artifact (`gpg.ssh.allowedSignersFile` unset) — signatures ARE present; don't chase it.
 - `.gitattributes`: `*.csv text eol=lf`.
-- Commits through `81c0bd6` (2026-08-17 session: W6.5 acquisition `a26f4b6`,
-  W7 evidence `8a1599e`, W7 addendum `81c0bd6`).
+- Commits through `82944ff` (2026-08-18 session: S2 prep `5ffbf10`, S2 tasks 1-7
+  `10d654c..992811d`, final-review fixes `82944ff`).
 
 ### El Salvador — extraction (S1 scope COMPLETE; W6/ISR COMPLETE 2026-08-17)
 - **EVID corpus now 001..152** (gap 109–127 reserved-unused): S1 = 87 entries
@@ -159,6 +162,36 @@ working assumption NRE survives; declaration FX → S2; line-level
 move↔picking linkage design pass — product owner has prior-implementation
 mechanics to import).
 
+### El Salvador — synthesis S2 (ISR) (COMPLETE 2026-08-18, pushed)
+Prep (controller-executed): master index extended with clusters T1-T8 + rulings
+R17-R22 + SOQ-01..07; CT Art. 62 FX rule captured from raw txt (closes 03_ OQ-2);
+54_-file OQ-4 reglamento provenance RESOLVED (R17: 04_ = D.E. 101-1992
+consolidated incl. reform D.E. 117-2001 — the 54_ tail listing is editorially
+partial). Wave plan `docs/superpowers/plans/2026-08-17-s2-isr-synthesis.md`;
+executed subagent-driven (7 tasks, per-task reviews, 3 fix rounds, final
+whole-wave review "usable with fixes" + one fix wave). Deliverables in
+`sv/requirements/taxation/`:
+
+| File | FRs | Prefix range |
+|---|---|---|
+| `01_isr-framework.md` | 33 | SV-TAX-FR-001..033 |
+| `02_isr-deductions.md` | 40 | SV-TAX-FR-034..073 (payroll gate = FR-040) |
+| `03_isr-rates-gains.md` | 28 | SV-TAX-FR-074..101 |
+| `04_isr-withholding.md` | 30 | SV-TAX-FR-102..131 + 2 CSV sidecars |
+| `05_isr-distributions.md` | 18 | SV-TAX-FR-132..149 (register: `l10n_sv.isr.earnings.register`) |
+| `06_isr-assets.md` | 23 | SV-TAX-FR-150..172 |
+
+Totals: **172 FRs / 111 LBs / 118 ACs / 44 OQs (42 open, 2 resolved)**.
+CSVs: `withholding_tables.csv` (20 rows, D.E. 10-2025 exact-as-printed with
+[sic] flags — fidelity rule) + `isr_brackets.csv` (23 rows: both Art. 37
+vintages + 3×1992 tables; dl_957_2011 valid_from unpinned → OQ-005 chain gap).
+In-wave resolutions: SOQ-01 (Art. 42 stamp (14)=D.L. 496-2004 governs; Art. 17
+media-tasa historical), SOQ-04 (NO general NOL; CT scan negative). Open notables:
+SOQ-02 ($1,600 proration quincenal/semanal), SOQ-03 (D.E. 10 D.O. pin + digit
+anomalies — extra finds 1,731.42, semanal III 509.52), SOQ-05 (2025+ aguinaldo
+transitory), 03 OQ-009 (mid-2025 vintage straddle for one annual liquidation).
+COVERAGE rollup now 23 cited / 25 pending / 8 N/A / 1 superseded.
+
 ### GT / HN
 Scaffolded only (READMEs, sources/scripts/requirements dirs, topic sets; hn
 has no e-invoicing). No sources collected yet. GT gets FEL (SAT), HN fiscal
@@ -264,6 +297,34 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
     supersession-map pattern standing for every wave; D7–D12 binding for
     synthesis.
 
+### S2 wave rulings (2026-08-18; preserved from the deleted SDD ledger + master index)
+17. **R17 (master index):** Reglamento provenance — 04_ = D.E. 101-1992
+    consolidated incl. reform D.E. 117-2001 (self-printed REFORMAS block);
+    54_ tail's listing is editorially partial. Repeal authority = D.E.
+    117-2001, NOT the CT.
+18. **R18:** foreign-source income tracks DEAD per D.L. 969-2024 (effective
+    2024-03-22): Art. 3.4 exclusion + Art. 14-A 6º-8º / Art. 16 4ºc)/5º/7º /
+    Art. 27 2º-4º derogated; domestic 10% tracks survive; EVID-092 gross-up
+    dead for foreign rents.
+19. **R19/R20/R21/R22:** 53_ tables operative (NET base per literal d)) over
+    10_ historical; Art. 37 = two dated vintages (957-2011 ≤2025-05-07;
+    293-2025 from 2025-05-08); pago mínimo never implement (void 3 ways);
+    aguinaldo Ley 4.16 governs over CT 155-II (vintage rows 2014-24).
+20. **SOQ-01 verdict:** capital gains = Ley Art. 42 flat 10% (>12mo) current
+    law; Reglamento Art. 17 media-tasa = historical method only (stale rate
+    anchors; stamp (14) = D.L. 496-2004 on Art. 42).
+21. **SOQ-04 verdict:** NO general NOL carryforward exists in the corpus
+    (CT "pérdida" hits are all document-loss/sanction contexts); only the
+    capital-loss 5y ledger (Art. 14/14-A).
+22. **CT Art. 62** = the FX conversion rule (hecho-generador-day rate;
+    installment FX deltas into base; payment-date FX difference never in
+    base) — read from 05_ raw txt lines 840-844 (controller, 2026-08-17).
+23. **SDD-process rulings:** execute on `main` per repo policy (no
+    worktree); "tests" = structural verification commands (no suite in
+    repo); forward cross-file refs cite file+§ (resolved into ids at final
+    review — all verified); Task 7 carried the master-index SOQ strikes
+    (plan gap, controller-added interface).
+
 ### Standing policies
 - Evidence-based answers only; RAG (NotebookLM) is validator, never source
   (notebook `c7ca0391-4822-4d3c-8090-b0d8c147ba94`, owner
@@ -335,35 +396,44 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
 2. ~~**Regulatory-change socratic session**~~ **DONE 2026-08-17** — D7–D12
    decided and recorded (see §5 register + regulatory-change-management.md);
    template/guide updated; correction corollary → 02 §3.11 FR-159..164.
-3. **S2 waves** (each: extraction → evidence → synthesis, same patterns;
-    source mapping authoritative in COVERAGE.md): ISR (03_/04_/10_) —
-    **extraction + evidence DONE (W6); blockers CLOSED + new-source evidence
-    DONE (W6.5/W7: EVID-153..170; gating OQs resolved)** → next = **S2
-    prep**: digest/merge W6+W7 evidence into the
-    ISR cluster (master-index extension; fold the 54_-file OQ-4 reglamento
-    provenance check into the merge) → plan doc → subagent synthesis
-    into `sv/requirements/taxation/` (citations: 54_/53_ current authority,
-    03_/10_ historical; Art. 37 = TWO dated vintages; Art. 3.4/4.16/14-A
-    deltas folded) → F-07/F-14 reporting (29_/30_/34_–39_; **check F14 v17
-    2026-06 vs our v16 manual — acquire if the layout moved**) → payroll
-    (08_/09_/11_/16_) → commercial-legal (07_/15_/17_) → special-regimes
-    (12_/13_/14_/17b_/42_/43_; D.L. 598-2020 + EVID-167 tail laws feed it)
-    → NIIF/chart-of-accounts (32_/33_). F-14 manual (35_) is OCR'd.
-4. **Externally-blocked OQs** (check factura.gob.sv periodically): Retorno/
+3. ~~**S2 ISR wave**~~ **DONE 2026-08-18** — extraction/evidence (W6/W6.5/W7),
+   prep (master-index T1-T8 + R17-R22 + SOQs), synthesis (172 FRs, 6 files +
+   index + CSVs), final review clean. See §3 S2 section.
+4. **S2 next wave — F-07/F-14 fiscal reporting** (sources 29_/30_/34_–39_):
+   same patterns (extraction → evidence → synthesis into
+   `sv/requirements/fiscal-reporting/`). **FIRST: check F14 v17 (2026-06-03)
+   vs our 35_F14_v16 manual — acquire from MH if the layout moved** (numbering
+   continues from 59). Feeds: 02 OQ-008 (invalidated/retorno annex
+   presentation), 02 OQ-010 (declaration FX), 03/04 ISR computation FRs,
+   05 earnings register. 35_ is OCR'd.
+5. **S2 remaining waves** (each: extraction → evidence → synthesis): payroll
+   (08_/09_/11_/16_; consumes 04's thresholds/base FRs + SOQ-05 aguinaldo
+   re-verify) → commercial-legal (07_/15_/17_) → special-regimes
+   (12_/13_/14_/17b_/42_/43_; D.L. 598-2020 + EVID-167 tail laws) →
+   NIIF/chart-of-accounts (32_/33_; consumes 06's register interface).
+   Taxation topic also still owes the IVA-core files (01_ cited in S1; 02_
+   Reglamento unread) — fold into a later taxation wave or the
+   fiscal-reporting prep.
+6. **SOQ follow-ups (taxation)**: SOQ-03 — fetch the D.E. 10-2025-publishing
+   D.O. volume (Apr/May-2025) via the `/api/v1/diarios-disponibles` recipe
+   (PSM 6) to pin vigencia + verify printed digits (anomalies list in 04
+   OQ-002); SOQ-02 — MH guidance check for the $1,600 proration; 03 OQ-009
+   (vintage straddle) — watch for MH/administrative guidance.
+7. **Externally-blocked OQs** (check factura.gob.sv periodically): Retorno/
    OpEsp endpoints (MOQ-05 — 52_-schema absence verified 2026-08-17; 03
    OQ-006, 02 OQ-003); CAT-024 vs Cuadro-2 taxonomy confirmation. When new
-   docs appear: continue source numbering from 53, register with provenance,
+   docs appear: continue source numbering from 59, register with provenance,
    capture supersession.
-5. **Remaining S1 OQs** (34 open): most are business decisions (FVS flow,
+8. **Remaining S1 OQs** (34 open): most are business decisions (FVS flow,
    email scope) or AT-publication dependencies; 45_ §10 re-read for MOQ-07
-   (02 OQ-001/002) can ride along with the S2 transmission-adjacent work.
+   (02 OQ-001/002) can ride along with the S2 fiscal-reporting work.
    Addendum follow-ups: 02 OQ-011 (line-level move↔picking design pass —
    product owner's prior implementation as input) before FR-162/163
    implementation; 02 OQ-009 (NRE fate — watch AT/45_ revisions); 06
    OQ-008 (D10 protocol guarantee FR wording, next 06 edit).
-6. **Deferred cleanups** (§9 below, batch them).
-7. **GT/HN bootstrap** when sv is sufficiently far along (GT sources first:
-   SAT/FEL normative; HN: SAR fiscal reporting).
+9. **Deferred cleanups** (§9 below, batch them).
+10. **GT/HN bootstrap** when sv is sufficiently far along (GT sources first:
+    SAT/FEL normative; HN: SAR fiscal reporting).
 
 ## 9. Deliberately deferred (CAN-STAND list)
 
