@@ -1,0 +1,2 @@
+
+> **SUPERSESSION (W5.5, 2026-08-16):** This file documents the 2022 catalogs (v1.2), which are REPLACED by Catálogos Facturación Electrónica v1.1 (2026 re-versioning; sources 50_/51_). EVID-046's findings are historical: CAT-023 is no longer contingency-types (now Operaciones Especiales), CAT-008 is no longer deleted (now Distrito), CAT-013 has been restructured to the 44-municipio model. Current sidecars + deltas: see EVID-086/087 in `44-52_RegulatoryUpdate2026.evidence.md`. Retained as Legal Basis for documents emitted under the v1.2 regime.

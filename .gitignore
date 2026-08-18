@@ -11,7 +11,12 @@ venv/
 # Scratch outputs
 *.tmp
 
-# Extraction scratch
-sv/.extractions/
+# Extraction scratch: text dumps / schema extracts are regenerable by
+# shared/scripts/extract_text.py — but the ANALYZED artifacts (evidence
+# files, master index, anexos digest) are committed work products.
+sv/.extractions/*
+!sv/.extractions/*.evidence.md
+!sv/.extractions/00_MASTER_INDEX.md
+!sv/.extractions/45_Anexos.digest.md
 gt/.extractions/
 hn/.extractions/
