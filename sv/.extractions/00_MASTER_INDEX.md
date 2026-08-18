@@ -1,7 +1,8 @@
-# MASTER EVIDENCE INDEX — El Salvador DTE localization (S1 synthesis lookup)
+# MASTER EVIDENCE INDEX — El Salvador localization (S1 + S2 synthesis lookup)
 
-Built: 2026-08-17. Inputs (read-only, no source PDFs re-read): the eight evidence/digest files + `shared/docs/saas-thin-client-architecture.md`.
+Built: 2026-08-17. S1 inputs (read-only, no source PDFs re-read): the eight evidence/digest files + `shared/docs/saas-thin-client-architecture.md`. **S2/ISR extension 2026-08-17:** W6+W7 evidence files (EV03/EV04/EV10/EV53/EV54/EV56) merged into clusters T1–T8 below; rulings R17–R22; SOQ-01..07.
 **Authority order (binding):** 44_/45_/46_/50_/51_/52_ (2026) > 18_/19_/22_ (2025) > 40_/41_/25_ (2022). Where the supersession map in EV44 marks a W-item SUPERSEDED, the current-authority finding governs; old EVID ids are kept as history.
+**ISR authority order (binding, S2):** 54_ (consolidated Ley ISR, article text current incl. stamps through Jan-2026) with reform decrees 55_ (Art. 37), 56_ (Art. 3.4 + derogations), 57_/58_ (interpretaciones auténticas) for changed articles > 03_ (historical copy, consolidated through D.L. 233-2012). Retention tables: 53_ (D.E. 10-2025, operative; effective 2025-05-08 per MH dating, D.O. pin = SOQ-03) > 10_ (D.E. 75/25-1992, historical). Reglamento: 04_ = D.E. 101-1992 as reformed by D.E. 8-1993/39-1993/**117-2001** (self-documented repeal map; see R17).
 
 **File keys (citation prefixes):**
 | Key | File |
@@ -15,6 +16,12 @@ Built: 2026-08-17. Inputs (read-only, no source PDFs re-read): the eight evidenc
 | EV44 | `sv/.extractions/44-52_RegulatoryUpdate2026.evidence.md` |
 | DG45 | `sv/.extractions/45_Anexos.digest.md` (authoritative v2.0 structure digest) |
 | ARCH | `shared/docs/saas-thin-client-architecture.md` |
+| EV03 | `sv/.extractions/03_Ley_ISR.evidence.md` (EVID-088..108) |
+| EV04 | `sv/.extractions/04_Reglamento_ISR.evidence.md` (EVID-128..146) |
+| EV10 | `sv/.extractions/10_Tablas_Retencion_ISR.evidence.md` (EVID-148..152) |
+| EV53 | `sv/.extractions/53_Tablas_Retencion_ISR_DE10_2025.evidence.md` (EVID-153..161) |
+| EV54 | `sv/.extractions/54_Ley_ISR_consolidada_DO79_T447.evidence.md` (EVID-162..167; covers 55_ delta) |
+| EV56 | `sv/.extractions/56-58_ISR_DL969_DL192_DL345.evidence.md` (EVID-168..170) |
 
 DG45 sections cited as: §1 (Anexo II structures/versions), §2 (Anexo III events), §3.1 (Anexo IV DTE validations), §3.2 (Anexo V event validations), §3.3 (contingency-type resolution), §4 (Anexo I technical specs), §5 (OCR warnings).
 
@@ -102,6 +109,62 @@ DG45 sections cited as: §1 (Anexo II structures/versions), §2 (Anexo III event
 
 ---
 
+## Section S2-A — Taxation (ISR) topic clusters (synthesis worklist)
+
+Built from W6+W7 evidence (EVID-088..108, 128..146, 148..170). Cross-topic EVIDs from S1
+(A10) still apply where cited. **Citation rule for synthesis: every ISR LB cites 54_ (or the
+specific reform decree 55_/56_/57_/58_) as current authority; 03_/10_ citations are
+historical-LB only** (EVID-166 residual-risk note: the delta pass verified only changed +
+worry-list articles, so the merge re-reads 54_ article text during synthesis anyway).
+
+### T1 — Subjects, periods & computation methods
+**Covers:** hecho generador & renta-obtenida concept (categories a–d incl. catch-all), subjects (incl. sucesiones/fideicomisos/conjuntos/irregular societies), Art. 6 exclusions + utilidad-pública qualification, fiscal year, cash vs accrual per taxpayer type (irrevocable accrual election), estate/trust period splits, branch consolidation, FX conversion (CT Art. 62).
+- **Governing EVIDs:** EVID-088 (EV03; categories + catch-all + D.L. 629 representación) · EVID-090 (EV03; subjects/exclusions) · EVID-091 (EV03; periods/methods; FX doubt → resolved via CT Art. 62, T8) · EVID-129 (EV04; subjects + qualification dossier) · EVID-130 (EV04; renta concept, constructive receipt) · EVID-131 (EV04; territorial source + branch consolidation).
+- **LB:** 54_ Arts. 1-2, 5-6, 13, 17-24 · 04_ Arts. 2, 6-7, 9-11, 20 · CT Art. 62 (05_ raw txt, lines 840-844: foreign-currency base converts at hecho-generador-day rate; installment-sale FX deltas added; payment-date FX difference never in base — controller read 2026-08-17, closes 03_ OQ-2).
+- **History:** none (03_ = same articles, older consolidation).
+
+### T2 — Territoriality & foreign-source exclusion (D.L. 969-2024)
+**Covers:** SV-source rules (goods/services/IP/securities/government), Art. 127 partial-territory apportionment, the Art. 3.4 foreign-source exclusion, the Art. 28 pro-rata carve-out for mixed subjects, dead foreign tracks (14-A 6º-8º; 16 4ºc)/5º/7º; 27 2º-4º), surviving domestic 10% deposit/securities tracks.
+- **Governing EVIDs:** EVID-092 (EV03; territoriality + anti-exemption gross-up — gross-up DEAD for foreign rents per 969-2024) · EVID-164 (EV54; Art. 3.4 + carve-out + derogations as consolidated) · EVID-168 (EV56; FULL Art. 2 derogation scope + vigencia 2024-03-22) · EVID-094 (EV03; **foreign-securities/deposit paragraphs = DEAD TEXT** per EVID-164/168; domestic Art. 27 inciso 1º / Art. 16 4º a)-b) survive).
+- **LB:** 54_ Arts. 3.4, 14-A, 16, 27 (current state) · 56_ Art. 2 (derogation scope) · 57_/58_ n/a here.
+- **Version note (D12):** cutover 2024-03-22; periods before it keep the old foreign tracks (dated data).
+
+### T3 — Renta neta: deductions, non-deductibles & pro-rata
+**Covers:** Art. 28 necessary-cost gate + gravadas/total pro-rata (+ 969 carve-out), Art. 29 general deductions (numerals 1-11: payroll-retention gate, relatives proof, travel/viáticos, leases, insurance 50% home-office, taxes, fuel whitelist, repairs, interest rules, inventories), Art. 29-A non-deductibles (thin-cap 3:1, active-rate+4pts, 25-SMM cash ban, IVA-doc defects, retention-linked block), Art. 31-32 (reserva legal 25% separate, bad debts + evidence checklist, donations 20% cap + qualified donee, social-benefit expenses), mermas deductibility (345-2019: inherent/measurable/real-cost + regulator recognition + zero-base guard), Reglamento segregation 50/50 + P&L adjustment layer, social funds Art. 141.
+- **Governing EVIDs:** EVID-097 (EV03; Art. 28 pro-rata) · EVID-098 (EV03; Art. 29 numerals) · EVID-099 (EV03; Arts. 31-32) · EVID-100 (EV03; Art. 29-A) · EVID-139 (EV04; viáticos/tools; deposit interest — Art. 29 stale vs Ley 4.5) · EVID-140 (EV04; gravable/no-gravable segregation, 50/50 common costs) · EVID-143 (EV04; bad-debt evidence + child<25 deduction proof) · EVID-146 (EV04; employer social funds) · EVID-170 (EV56; mermas + zero-base guard).
+- **LB:** 54_ Arts. 28-33, 126 · 58_ Art. 1 · 04_ Arts. 28, 31-32, 37-39, 141.
+- **Crossref:** A10 EVID-050 (IVA 58-SMM cash rule vs ISR 25-SMM — different taxes, do not conflate).
+
+### T4 — Rates, brackets & special computations
+**Covers:** Art. 37 progressive table (TWO vintages: 2011-957 config exempt $4,064 / 293-2025 config exempt $6,600 effective 2025-05-08 — dated data, D7/D12), Art. 41 entities 30%/25% @ $150k, non-resident natural persons 30%, foreign conjuntos 5% gross, final-withheld rents excluded from base; capital gains (12-month rule → 10% separate vs ordinary; basis = cost − admitted depreciation; improvements; banks/insurers liquidations ordinary; capital-loss 5y ledger restricted to capital gains; **no general NOL** — SOQ-04); securities/deposits 10% separate liquidation (weighted-average cost; loss netting same-period + 5y); media-tasa method status (SOQ-01); special computations: >24-month instalment deferral (habitual traders; capital gains carved out), repossession gain/loss, rent-with-promise-to-sell, POC >1y contracts, life annuities, interest presumption, insurer/fianza determination, export income valuation; reserva legal 25% separate liquidation (from EVID-099).
+- **Governing EVIDs:** EVID-093 (EV03; ganancia de capital) · EVID-094 (EV03; securities 10% — domestic tracks only post-969) · EVID-095 (EV03; tariffs; **Tramos I/II superseded by EVID-163**) · EVID-106 (EV03; losses/no-NOL) · EVID-132 (EV04; instalments/repossession) · EVID-133 (EV04; habitualidad) · EVID-134 (EV04; basis/holding-period counting) · EVID-135 (EV04; media-tasa 9-step — see SOQ-01) · EVID-137 (EV04; annuities/insurers/non-compete) · EVID-138 (EV04; POC) · EVID-141 (EV04; insurers/export income) · EVID-163 (EV54; Art. 37 current table + vintages).
+- **LB:** 54_ Arts. 14, 14-A, 37, 40-42, 31.1 · 55_ Art. 1 (table verbatim) · 04_ Arts. 12-19, 22-26, 33-34.
+
+### T5 — Withholding: payroll tables + CT retention matrix
+**Covers:** salaried regime (Art. 29.7 $1,600 fixed deduction embedded in retention; Art. 33 $800×2 personal deductions; Art. 38 thresholds $9,100/$60,000), D.E. 10-2025 operative tables: monthly/quincenal/semanal brackets, NET base (bruto − no gravadas − cotizaciones laborales SS/AFP), Tramo II $1,600 not embedded, June/December recálculo (cumulative + prior-retention netting + zero floor; last-employer responsibility; CT 145 constancia 15 días hábiles), special periods via regla de tres, extraordinary remunerations aggregation, multi-employer (table on highest + 10% flat rest, excluded from recalc; January/15-días information duty), voluntary increase via DGII form, online-only filing; CT matrix for non-payroll retentions (honorarios 10%, intangibles 10%/5%, capital yields 10%, non-residents 20% definitive with reduced rates, tax havens 25%, deposits Art. 159 definitive, prizes); part-time = servicio permanente (hours-based contracts → tables, not 10%); aguinaldo Art. 4.16 (2-SMM floor; excess retention DEDUCTS floor since 458-2019; 2021-2024 $-cap transitories); deposit-interest exemption interplay (Art. 4.5 < $25k avg balance vs Art. 27/CT 159 — harmonized reading: 4.5 carves out small depositors; SOQ-07 confirms).
+- **Governing EVIDs:** EVID-096 (EV03; salaried regime) · EVID-104 (EV03; retention mechanics survivors) · EVID-144 (EV04; part-time) · EVID-153..161 (EV53; D.E. 10-2025 in full) · EVID-165 (EV54; aguinaldo 4.16) · EVID-167 (EV54; transitory caps + related laws) · EV05:EVID-062/063 (CT Arts. 154-160 matrix; note EVID-063's "aguinaldo exempt" = CT 155 inc.2 general statement, yields to Ley 4.16 specifics — R22).
+- **LB:** 54_ Arts. 4.16, 29.7, 33, 38-39 · 53_ Art. 1 a)-i), Arts. 2-4 · CT Arts. 154-160, 145 (05_).
+- **History:** EVID-148..152 (EV10; 1992 colones-era tables — dated data rows only; D.E. 75/25 → D.E. 36 chain).
+
+### T6 — Distributions & deemed distributions (5%)
+**Covers:** Art. 72 dividend withholding (5% definitive, domiciled or not; "utilidades" broad definition incl. reserva legal distribution; payment/credit events incl. in-kind/compensation/loss application), Art. 73 permanent establishments, Art. 74 capital reductions (profits-first), Art. 74-A partner/preferential-regime/head-office loans (5%; default >6 installments or >1y → full consideration gravable + interest non-deductible; exceptions), Art. 74-B no-retention cases, Art. 74-C Registro de Control de Utilidades per shareholder, Art. 25 society loans to shareholders = dividends; exempt-entity distributions flow-through (Reglamento Art. 18).
+- **Governing EVIDs:** EVID-103 (EV03; full 5% regime) · EVID-136 (EV04; exempt-society distributions).
+- **LB:** 54_ Arts. 25, 72-74-C · 04_ Arts. 18-19 · CT Art. 158-A carve-out + 242 b)/c)1) sanctions (05_, collect in synthesis from EVID-063/065 zone).
+- **Crossref:** A10 EVID-063 (CT 156-B capital-yield advances 10% — distinct from 72's 5%; synthesis must keep the two withholding tracks apart).
+
+### T7 — Fixed assets: depreciation, software & registers
+**Covers:** Art. 30 rates (5/20/25/50% edificaciones/maquinaria/vehículos/otros), used-asset base caps (80/60/40/20%), ≤12-month assets full cost, construction-asset capitalization into cost, no revaluation, land not depreciable, mixed-use pro-rata, no catch-up, DGII authorization for % changes, IVA-exempt import machinery DGII value cap; Art. 30-A software 25% mirror; seasonal-activity full-quota rule (192-2018; cafetalero/cañero exemplars = open list → config flag); mandatory per-asset depreciation register field list (Reglamento Art. 84 survivor: specification, value, start date, useful life, improvements, additions, quota, balance, retirement, disposal); maquinaria definition (Reglamento Art. 35).
+- **Governing EVIDs:** EVID-101 (EV03; Art. 30) · EVID-102 (EV03; Art. 30-A) · EVID-142 (EV04; export income + maquinaria) · EVID-145 (EV04; Art. 84 register) · EVID-169 (EV56; seasonal depreciation).
+- **LB:** 54_ Arts. 30, 30-A · 57_ Art. 1 · 04_ Arts. 34-35, 84.
+- **Crossref:** T4 capital-gain basis (= cost − accumulated admitted depreciation, EVID-093/134).
+
+### T8 — Filing, payment & procedure routing
+**Covers:** annual declaration 4-month window (Art. 48/51), Art. 92 filing-duty catalog (incl. IVA-registered persons; salaried Art. 38 exception; $60,000 mandatory threshold per 53_ Art. 1 i)), conjunto event returns (día hábil siguiente, solidarity), online-only filing for withheld persons (53_ Art. 2), Art. 105-A stale sanction (colon minimum — superseded by CT 226-247 zone per EVID-065), the massive repeal map routing procedures to CT (Ley ~70 arts; Reglamento D.E. 117-2001 map), 10-días-hábiles retention remittance + December rule (Art. 62 — likely CT-superseded, flag), FX conversion rule (CT Art. 62).
+- **Governing EVIDs:** EVID-107 (EV03; declaration/payment) · EVID-108 (EV03; repeal map + final provisions) · EVID-128 (EV04; Reglamento norm identity + repeal map — R17) · EVID-161 (EV53; online filing + $60k) · EV05:EVID-065 (sanctions zone).
+- **LB:** 54_ Arts. 48-53, 62, 75, 92, 105-A · 53_ Art. 1 i), Art. 2 · CT Arts. 62, 226-247 (05_).
+
+---
+
 ## Section B — Resolved contradictions ledger
 
 | # | Contradiction | Resolution (current authority) | Authority cite |
@@ -122,6 +185,12 @@ DG45 sections cited as: §1 (Anexo II structures/versions), §2 (Anexo III event
 | R14 | CT copy lacked Arts. 119-A..119-H/239-A/206 (DTE legal base missing) | **Obtained & read: D.L. 487-2022 (44_)** — full DTE regime incl. events power, sello effects, sanctions 239-A a)-j) | EV18:EVID-069 (gap) → EV44:EVID-083 (resolution) |
 | R15 | Token validity: fixed 24h prod / 48h test (22_) | **Configurable in AT platform; guidance = authenticate once per 24h** (softening, not conflict — design for configurable) | EV18:EVID-079 → EV44:EVID-085 |
 | R16 | Transmission-vs-fecEmi windows: 22_ holgura (docs accepted 1 day after fecEmi; period-end +30 min) vs 45_ Anexo IV N°10 (fecEmi up to 5 days AFTER transmission, not crossing next period) | **45_ v2.0 governs where they overlap** [? — possibly different axes: forward-dating vs late-transmission grace]; confirm 22_-grace status in 46_ v2.0 → MOQ-07 | DG45 §3.1 N°10 vs EV18:EVID-079 [?] |
+| R17 | Reglamento ISR provenance: 54_ tail lists "REGLAMENTO: D.E. 101, 21-XII-1992 + reforms 8/39-1993" vs 04_ self-documenting a D.E. 117-2001 repeal map (54_-file OQ-4) | **Same instrument chain; no conflict.** 04_ = D.E. 101-1992 consolidated, printing its own REFORMAS block (p.20): (1) D.E. 8-1993, (2) D.E. 39-1993, (3) D.E. 117-2001 — the mass-repeal reform. The 54_ tail listing is editorially partial (omits the 2001 reform). Cite 04_ for Reglamento LBs; repeal authority = D.E. 117-2001 (NOT the CT) | EV04:EVID-128 (REFORMAS block verbatim); EV54:EVID-167 (tail listing) |
+| R18 | Foreign-source income: W6 EVID-094 foreign-securities/deposit paragraphs (10% regime, top-up, gross-up) vs current consolidated text | **Foreign tracks DEAD per D.L. 969-2024 (effective 2024-03-22):** Art. 3.4 excludes ALL foreign-source values from the renta concept; derogated: Art. 14-A incisos 6º-8º, Art. 16 4º c)/5º/7º (in part), Art. 27 2º-4º; Art. 28 pro-rata carve-out for mixed subjects. Domestic 10% tracks (Art. 27 1º, Art. 16 4º a)-b)) survive. EVID-092's anti-exemption gross-up equally dead for foreign rents | EV56:EVID-168 (Art. 2 full scope + vigencia); EV54:EVID-164; dead text: EV03:EVID-094 |
+| R19 | Retention tables: 10_ (D.E. 75/25-1992, colones-era, gross base unstated) vs 53_ (D.E. 10-2025) | **53_ OPERATIVE** (repeals D.E. 95-2015; effective 2025-05-08 per MH dating): monthly/quincenal/semanal + June/December recálculo; base = NET (bruto − remuneraciones no gravadas − cotizaciones laborales SS y previsionales); Tramo II does NOT embed the $1,600. 10_ = historical dated data only (its OQ-4 base question is resolved for the CURRENT regime by 53_ literal d)) | EV53:EVID-153..158; history EV10:EVID-148..152 |
+| R20 | Art. 37 brackets: 03_ transcription (exempt $4,064.00; Tramo II $4,064.01–$9,142.86 s/ $4,064.00 + $212.12) vs D.L. 293-2025 | **TWO dated vintages (D7/D12):** (a) 957-2011 config — vigencia ≤ 2025-05-07; (b) 293-2025 config — exempt $6,600.00; Tramo II $6,600.01–$9,142.86, 10% s/ $6,600.00 + $212.12; Tramos III/IV + all cuotas unchanged; effective 2025-05-08. Non-resident 30% inciso unchanged | EV54:EVID-163 (55_ Art. 1 verbatim + 54_ p.38 stamps (1)(19)(25)); superseded rows: EV03:EVID-095 |
+| R21 | Pago mínimo (Arts. 76-81, 1%/0.6% gross minimum) | **VOID — never implement.** Sentencia 18-2012 (D.O. 216 T.401, 19-XI-2013) struck the unitary regulation; sent. 98-2014 struck Art. 77 again + connected; D.L. 762-2014 (attempted re-enactment) void per sent. 96-2014. No successor regime appears in the 54_ reform tail through Jan-2026 | EV03:EVID-105; EV54:EVID-162 |
+| R22 | Aguinaldo retention: CT Art. 155 inc.2 "aguinaldo exempt from ISR retention" (EVID-063) vs Ley Art. 4.16 (2-SMM floor; excess retained, floor DEDUCTED since D.L. 458-2019) | **Ley 4.16 governs** (lex specialis, later in time): exemption up to 2 SMM comercio y servicios; excess = retention base after deducting the floor. CT 155-II read as within the floor. Vintage rows: 2014-2018 full-exemption transitories; 2021 $1,100; 2022-2024 $1,500 caps; 2025+ standing 2-SMM rule (SOQ-05 re-verifies) | EV54:EVID-165/167; EV05:EVID-063; EV53:EVID-159 xref |
 
 ---
 
@@ -137,6 +206,18 @@ DG45 sections cited as: §1 (Anexo II structures/versions), §2 (Anexo III event
 | MOQ-07 | 45_ v2.0 main body §10 not verified (digest covers Anexos only): 24h same-code rejection fix + late-transmission grace (R16) | A8, A2 | State-machine FRs; re-read 45_ §10 + 46_ §transmission |
 | MOQ-10 | CRE structure is IVA-retention-only; how are ISR retentions reported electronically? (reteRenta now FSEE-only N°147) | A10 | Retention FRs; CAT-006 + CT 154-160 review (EV40:EVID-027 doubt) |
 | MOQ-11 | CDE async seal "24-72h after transmission" (2022) — still true in v2.0? | A1, A8 (minor) | State-machine / CDE FRs (EV40:EVID-035) |
+
+### S2 open questions (ISR wave)
+
+| SOQ | Question | Blocking for | Record answer in |
+|---|---|---|---|
+| SOQ-01 | Capital-gain method: Reglamento Art. 17 media-tasa/1.0%-fallback (rate anchors stale: "Art. 41" pre-tier era) vs Ley Art. 42 flat 10% >12mo. Working resolution: Ley displaces for current periods (hierarchy + later specific rule; Art. 17 = historical method) — verify Art. 42 reform stamps in 54_ p.40 during synthesis before writing the FR | T4 capital-gain FRs | taxation capital-gain FR + OQ row (origin: EV04 OQ-2) |
+| SOQ-02 | $1,600 (Art. 29.7) proration for quincenal/semanal Tramo II calculations (53_ literal e) mandates inclusion, gives no factor; /12 implied by recálculo shifts) + ordering vs literal d) SS netting. Define for Odoo; check MH guidance | T5 | taxation withholding FR + OQ row (origin: EV53 OQ-4) |
+| SOQ-03 | D.E. 10-2025 fidelity + provenance: pin the publishing D.O. issue (vigencia 8 días tras publicación → 2025-05-08 assumed) and verify printed-digit anomalies (June table 5,371.44 / 12,228.60 / cuota 106.20; semanal 509.53; quincenal 1,019.06). Path: fetch Apr/May-2025 D.O. volume via the `/api/v1/diarios-disponibles` recipe (PSM 6) | T5 table-data FRs | taxation data-model note + sources registry (origin: EV53 OQ-1/OQ-3) |
+| SOQ-04 | General NOL (pérdida fiscal) carryforward: absent from the Ley (only capital losses 5y, Art. 14/14-A); confirm no CT/Reglamento rule adds one (targeted "pérdida fiscal" scan of 05_/04_ txt) before any NOL FR; working assumption = none | T4 | taxation losses FR + OQ row (origin: EV03 OQ-1) |
+| SOQ-05 | 2025/2026 aguinaldo transitory: 54_ tail lists none after D.L. 159-2024 ($1,500) → assume standing 2-SMM rule for 2025+; payroll wave re-verifies at encoding time | T5 | payroll wave (origin: EV53 OQ-5) |
+| SOQ-06 | Reglamento survivors vs CT: D.E. 117-2001 predates the CT (D.L. 230-2000? both 2000-2001 era) — whether any additional 04_ survivor articles were later repealed by CT Art. 344 ff. Non-blocking; cite survivors as printed | T1/T3/T4/T7 | taxation OQ row (origin: EV04 OQ-1) |
+| SOQ-07 | Deposit interest: Art. 27 10% (CT 159 definitive) vs Art. 4.5 exemption for natural persons < $25,000 avg monthly balance. Working harmonized reading: 4.5 carves out small depositors; 27/159 apply above. Non-blocking; synthesis records as FR note | T4/T5 | taxation FR note (origin: EV03 OQ-6) |
 
 ### Struck (resolved during evidence passes — retained for audit)
 
@@ -164,7 +245,8 @@ DG45 sections cited as: §1 (Anexo II structures/versions), §2 (Anexo III event
 
 ## Coverage totals
 
-- Clusters: 12 (A1-A12). Governing EVID totals per cluster: A1=5, A2=4, A3=3, A4=3, A5=3, A6=4, A7=2, A8=3, A9=2, A10=13, A11=8, A12=4 (+6 D-items). DG45 digest governs structure/validation in A1-A8, A10.
-- Resolved contradictions: 16 (R1-R16; R16 flagged [?]).
-- Open questions: 8 (MOQ-01/03/04/05/06/07/10/11); 19 struck/resolved (15 evidence-pass + 4 in the 2026-08-17 schema pass: MOQ-02/08/09/12).
-- Evidence corpus indexed: EVID-001..087 across 7 evidence files + DG45 + ARCH.
+- S1 clusters: 12 (A1-A12). Governing EVID totals per cluster: A1=5, A2=4, A3=3, A4=3, A5=3, A6=4, A7=2, A8=3, A9=2, A10=13, A11=8, A12=4 (+6 D-items). DG45 digest governs structure/validation in A1-A8, A10.
+- S2/ISR clusters: 8 (T1-T8), from 63 EVID entries (EVID-088..108, 128..146, 148..170; 109-127 reserved-unused) across 6 evidence files + CT crossrefs (EVID-062/063/065 + Art. 62 raw read).
+- Resolved contradictions: 22 (R1-R16 S1, R16 flagged [?]; R17-R22 ISR/S2).
+- Open questions: S1 = 8 (MOQ-01/03/04/05/06/07/10/11; 19 struck/resolved incl. the 2026-08-17 schema pass); S2 = 7 (SOQ-01..07; EV54 OQ-1/OQ-3 and EV56 set already resolved in the W7 addendum).
+- Evidence corpus indexed: EVID-001..170 (S1 = 001..087 across 7 evidence files + DG45 + ARCH; S2 = ISR files above).
