@@ -38,7 +38,8 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
 - Branch `main` only; remote `origin` = `git@github-CtrlCarlitos:CtrlCarlitos/odoo-localizations.git` (SSH alias `github-CtrlCarlitos` from `~/.ssh/config`); push after each wave; never force-push. `gh` CLI at `~/.local/bin/gh`, authenticated as CtrlCarlitos.
 - Commits are SSH-signed; local `%G?=N` is a verification-only artifact (`gpg.ssh.allowedSignersFile` unset) — signatures ARE present; don't chase it.
 - `.gitattributes`: `*.csv text eol=lf`.
-- Last S1 commit: `72e06b0`; evidence tracking added `58b8b81`.
+- Commits through `81c0bd6` (2026-08-17 session: W6.5 acquisition `a26f4b6`,
+  W7 evidence `8a1599e`, W7 addendum `81c0bd6`).
 
 ### El Salvador — extraction (S1 scope COMPLETE; W6/ISR COMPLETE 2026-08-17)
 - **EVID corpus now 001..152** (gap 109–127 reserved-unused): S1 = 87 entries
