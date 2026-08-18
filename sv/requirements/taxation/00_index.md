@@ -33,6 +33,9 @@ Numbering note: FR numbering is wave-sequential within the `SV-TAX` prefix
 The two CSVs are dated-data sidecars of `04_isr-withholding.md`
 (`isr_brackets.csv` additionally carries the historical D.E. 25-1992
 colones-era vintage rows); they carry no FRs of their own.
+Cross-ref (S4 payroll): the F-11 v18 casillas 711-725 personal-deduction
+feed VALUES are owned by `../payroll/08_isr-interfaces.md` (source
+`65_F11_v18_form_visual.pdf` acquired 2026-08-18).
 
 ## Open-questions rollup (ids + titles)
 

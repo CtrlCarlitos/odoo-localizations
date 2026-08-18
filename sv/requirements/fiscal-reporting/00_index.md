@@ -98,7 +98,7 @@ frequency/applicability).
 ### 06_f14-declaration.md (7)
 
 - OQ-001 — SOQ-09: F-14 v17 annex format unknown (Quincena-25; v16 columns + new income code assumed, unconfirmed). open
-- OQ-002 — SOQ-11: SS caps as dated data; feed/cadence owned by the payroll wave. open
+- OQ-002 — SOQ-11: SS caps as dated data; feed/cadence owned by the payroll wave. open (S4: the cap VALUES are owned by `../payroll/05_social-security-contributions.md` + its `ss_contributions.csv` sidecar)
 - OQ-003 — Op. Financieras tracks 501-529: CT 159/164-165 anchor + rates re-check. open
 - OQ-004 — Income-code catalog fidelity pointer (owned by 07's OQ-001). open
 - OQ-005 — SOQ-08 pointer: F-14 due-day scheduling owned by 08. open

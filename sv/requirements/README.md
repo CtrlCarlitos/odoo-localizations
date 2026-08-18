@@ -10,7 +10,7 @@ Language: English, Spanish legal terms inline with translations.
 | [catalogs](catalogs/) | In review (draft, S1) | [05_governance.md](catalogs/05_governance.md) + 33 sidecars |
 | [taxation](taxation/) | In review (draft, S2 ISR) | [00_index.md](taxation/00_index.md) + 6 files + 2 CSVs |
 | [chart-of-accounts](chart-of-accounts/) | Not started | — |
-| [payroll](payroll/) | Not started | — |
+| [payroll](payroll/) | In review (draft, S4 payroll) | [00_index.md](payroll/00_index.md) + 8 files + 2 CSVs |
 | [fiscal-reporting](fiscal-reporting/) | Not started | — |
 | [commercial-legal](commercial-legal/) | Not started | — |
 | [special-regimes](special-regimes/) | Not started | — |

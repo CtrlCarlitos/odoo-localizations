@@ -14,7 +14,7 @@ invoicing (facturación electrónica).
 | Catalogs | [requirements/catalogs/](requirements/catalogs/) | In review (draft, S1) |
 | Taxation | [requirements/taxation/](requirements/taxation/) | In review (draft, S2 ISR) |
 | Chart of accounts | [requirements/chart-of-accounts/](requirements/chart-of-accounts/) | Not started |
-| Payroll | [requirements/payroll/](requirements/payroll/) | Not started |
+| Payroll | [requirements/payroll/](requirements/payroll/) | In review (draft, S4) |
 | Fiscal reporting | [requirements/fiscal-reporting/](requirements/fiscal-reporting/) | In review (draft, S3) |
 | Commercial & legal | [requirements/commercial-legal/](requirements/commercial-legal/) | Not started |
 | Special regimes | [requirements/special-regimes/](requirements/special-regimes/) | Not started |
@@ -23,7 +23,7 @@ Status values: Not started, In progress, In review, Complete.
 
 ## Sources
 
-62 registered source files (numbering 01-64; gaps 21/23/24/28 unused) — laws
+63 registered source files (numbering 01-65; gaps 21/23/24/28 unused) — laws
 and regulations (tax, commercial, labor), MH electronic-invoicing manuals and
 catalogs, F-07/F-14 forms and templates, NIIF — plus the 15 current official
 MH JSON schemas inside `52_Json_Schemas_DTE_Eventos_2026-08-11.zip` and a

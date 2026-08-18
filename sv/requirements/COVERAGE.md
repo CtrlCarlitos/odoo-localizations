@@ -4,12 +4,12 @@
 |---------|-------|
 | Country | sv |
 | Topic   | all (cross-topic) |
-| Status  | draft (S1 + S2 ISR + S3 fiscal-reporting waves) |
+| Status  | draft (S1 + S2 ISR + S3 fiscal-reporting + S4 payroll waves) |
 | Authors | Controller (hand-built; script to regenerate later) |
 | Updated | 2026-08-18 |
 
-Every file in [../sources/](../sources/) mapped against the S1, S2 (ISR)
-and S3 (fiscal-reporting) requirements waves. Status values:
+Every file in [../sources/](../sources/) mapped against the S1, S2 (ISR),
+S3 (fiscal-reporting) and S4 (payroll) requirements waves. Status values:
 
 - **cited-as-LB** — appears in a Legal Basis row (or as direct schema read) of a requirements file; the citing file(s) named.
 - **not-applicable-this-wave** — out of the current wave's scope or superseded-without-content-need; reason noted.
@@ -20,7 +20,7 @@ No orphans: every row carries at least one of the four. Sources fully
 superseded but cited as historical LB (25_\*, 40_, 41_) still count as
 cited-as-LB.
 
-## Matrix (62 source files + schemas/ dir = 63 rows)
+## Matrix (63 source files + schemas/ dir = 64 rows)
 
 | Source | Status | Cited in / note |
 |--------|--------|-----------------|
@@ -31,8 +31,8 @@ cited-as-LB.
 | 05_Codigo_Tributario.pdf | cited-as-LB | `e-invoicing/01` LB-007/011/012; `fiscal-reporting/06` LB-008 (CT 154-160); `fiscal-reporting/07` LB-006 (CT 123/124) |
 | 06_Guia_Facturacion_Electronica.pdf | not-applicable-this-wave | non-normative guide; S1 rests on 44_/45_/46_/50_/51_/52_ |
 | 07_Codigo_Comercio.pdf | pending-S2+ | commercial-legal wave |
-| 08_Ley_ISSS.pdf | pending-S2+ | payroll wave |
-| 09_Ley_Sistema_Pensiones.pdf | pending-S2+ | payroll wave |
+| 08_Ley_ISSS.pdf | cited-as-LB | `payroll/01` LB-008; `payroll/05` LB-001..005; `payroll/06` LB-009..011 |
+| 09_Ley_Sistema_Pensiones.pdf | cited-as-LB | `payroll/01` LB-009/010; `payroll/04` LB-021; `payroll/05` LB-006..011; `payroll/06` LB-001..008; `payroll/07` LB-021; `payroll/08` LB-001/002 |
 | 10_Tablas_Retencion_ISR.pdf | cited-as-LB | historical — `taxation/04` LB-020 (1992 colones-era D.E. 75/25; superseded by the 53_ chain via D.E. 95-2015; dated-data rows in `isr_brackets.csv`) |
 | 53_Tablas_Retencion_ISR_DE10_2025.pdf | cited-as-LB | `taxation/04` LB rows (8 — current tables) + `taxation/01` LB-028 (filing/threshold bits) |
 | 54_Ley_ISR_consolidada_DO79_T447_2025-04-30.pdf | cited-as-LB | `taxation/01..06` LB rows (71 rows — current consolidated Ley ISR) |
@@ -46,12 +46,13 @@ cited-as-LB.
 | 62_F915v4_informe_distribucion_utilidades.pdf | cited-as-LB | `fiscal-reporting/07` LB rows (F-915 v4 distributions/shareholder-list inform) |
 | 63_F930v3_informe_mensual_retIVA.pdf | cited-as-LB | `fiscal-reporting/04` LB rows (F-930 v3 monthly retIVA inform homed there); `fiscal-reporting/07` (referenced, re-check cadence OQ-004) |
 | 64_F935v1_informe_mensual_agentes_extranjeros.pdf | cited-as-LB | `fiscal-reporting/07` LB rows (F-935 v1 monthly foreign-agents inform; SOQ-13 anchor OQ) |
-| 11_Codigo_Trabajo.pdf | pending-S2+ | payroll wave |
+| 65_F11_v18_form_visual.pdf | cited-as-LB | `payroll/08` LB-004..006 (F-11 v18 personal-deduction value feeds — SS rows 713/714/716/721/724, AFP voluntary quota 717, deducción fija 722, total 725; no-gravadas 734; dead pago-mínimo print); `fiscal-reporting/07` OQ-006 coupling counterpart |
+| 11_Codigo_Trabajo.pdf | cited-as-LB | `payroll/01` LB-001..007; `payroll/02` LB-001..004, LB-011; `payroll/03` LB-001..020; `payroll/04` LB-001..020, LB-022; `payroll/06` LB-013; `payroll/07` LB-001..010, LB-013..021 |
 | 12_Ley_Zonas_Francas.pdf | pending-S2+ | special-regimes wave |
 | 13_Ley_Organica_Aduanas.pdf | pending-S2+ | special-regimes / customs-export wave |
 | 14_Ley_Servicios_Internacionales.pdf | pending-S2+ | special-regimes wave |
 | 15_Ley_Lavado_Activos.pdf | pending-S2+ | commercial-legal (KYC/AML) wave |
-| 16_Salarios_Minimos_2025.pdf | pending-S2+ | payroll wave (SMM figure also feeds `e-invoicing/01` OQ-007 threshold config) |
+| 16_Salarios_Minimos_2025.pdf | cited-as-LB | `payroll/02` LB-005..010 (Decreto 11-2025 tariffs → `smm_2025.csv`); `payroll/03` LB-021; `payroll/04` LB-024; `payroll/06` LB-012; `payroll/07` LB-011 (SMM figure also feeds `e-invoicing/01` OQ-007 threshold config) |
 | 17_Reglamento_Lavado_Activos.pdf | pending-S2+ | commercial-legal (KYC/AML) wave |
 | 17b_Reglamento_Servicios_Internacionales.pdf | pending-S2+ | special-regimes wave |
 | 18_Normativa_Cumplimiento_DTE.pdf | cited-as-LB | `e-invoicing/01` LB-014; `02` LB-009; `03` LB-008; `04` LB-009/010; `catalogs/05` LB-003 |
@@ -92,8 +93,8 @@ cited-as-LB.
 
 | Status | Rows |
 |--------|------|
-| cited-as-LB | 36 |
+| cited-as-LB | 41 |
 | superseded-not-cited | 1 (schemas/) |
 | not-applicable-this-wave | 9 |
-| pending-S2+ | 17 |
-| **Total** | **63** |
+| pending-S2+ | 13 |
+| **Total** | **64** |
