@@ -52,11 +52,12 @@ acreditable/definitiva/sin-retención/no-gravado classes, the code →
 rate map, the distributions codes 43/44/45, the haven code 40 and the
 CT 123 aggregate code 47 — owned by `07_codes-and-informs.md` §3 and
 cited forward as file+§ only; the retention COMPUTATION itself (bases,
-tables, thresholds and the CT matrix — `taxation/
-04_isr-withholding.md` SV-TAX-FR-102/104/106/109/120..131 own it; this
-file's annex REPORTS those values, it never recomputes them); the
-social-security cap VALUES and their ceiling bases plus the
-Quincena-25 payment mechanics (payroll wave — SOQ-11/SOQ-09 feeds);
+tables, thresholds and the CT matrix, owned by
+`taxation/04_isr-withholding.md`
+SV-TAX-FR-102/104/106/109/120..131; this file's annex REPORTS those
+values, it never recomputes them); the social-security cap VALUES and
+their ceiling bases plus the Quincena-25 payment mechanics (payroll
+wave — SOQ-11/SOQ-09 feeds);
 the F-07 declaration engine and its generic annex upload mechanics
 (files 01-05 — the F-14 upload flow is governed by its own manual
 `35_`, with F-07 §II conventions consumed by parity only where noted);
@@ -134,8 +135,10 @@ pages.
   from the Enero-2022 period a natural person states either the DUI
   (E filled ⇒ D empty) or the NIT (D filled ⇒ E empty), never both;
   before Enero-2022 the NIT is mandatory with E empty; juridical
-  persons and non-domiciliados carry D only (E empty — no Salvadoran
-  DUI); violations block the export. (LB-001; EVID-180)
+  persons and non-domiciliados carry D only with E empty (the DUI is a
+  Salvadoran natural-person document — family-convention inference
+  from the XOR's printed natural-person scope, cf. 04-file OQ-005
+  kin); violations block the export. (LB-001; EVID-180)
 - **SV-FREP-FR-141:** The system shall apply the tax-haven 25%
   EXACTNESS check: when a row's country code (B) carries the haven
   flag, the system shall block the export with the manual's warning —
@@ -160,7 +163,8 @@ pages.
   the 296-328 block (FR-157), and the CT 123 aggregate code 47 (NIT
   of 14 zeros + "VARIOS") emitted as its aggregation-row mechanics
   (subject identification per code-47 rules owned by 07 §3).
-  (LB-001; EVID-180; forward-ref `07_codes-and-informs.md` §3)
+  (LB-001; EVID-180; EVID-182; forward-ref `07_codes-and-informs.md`
+  §3)
 
 ### 3.2 Payroll columns: devengado split, aguinaldo pair, social-security caps
 
@@ -212,7 +216,10 @@ pages.
   no slashes, structure MMYYYY ("W. Período: 6 dígitos, sin plecas,
   con la siguiente estructura: MMYYYY"), and shall validate that
   every row's period matches the declaration's declared tax period —
-  rows of other periods are rejected. (LB-001; EVID-180)
+  rows of other periods are rejected (period consistency by parity
+  with the upload-family convention of `01_f07-declaration.md`
+  SV-FREP-FR-032; the F-14 notas print the W structure, not the
+  mismatch rejection). (LB-001; EVID-180; cross-ref SV-FREP-FR-032)
 
 ### 3.4 Export validation contract (MH-parity pre-validation)
 
@@ -296,7 +303,7 @@ pages.
   104/105 casilla zone) and into the "INGRESOS NO GRAVADOS" rows
   59-60 (the aguinaldo-exento aggregate in the casilla-416 zone and
   the no-gravado codes 70-72) — reporting-only tracks that enter no
-  retention total. (LB-005; EVID-183; forward-ref
+  retention total. (LB-005; EVID-183; EVID-182; forward-ref
   `07_codes-and-informs.md` §3)
 - **SV-FREP-FR-157:** The system shall project the definitiva rows
   into the Retenciones Renta Definitivas tab (rows 28-46 → casillas
@@ -451,8 +458,8 @@ pages.
   consolidation rules are OWNED by `07_codes-and-informes.md` and
   cited forward by file+§; this file guarantees only that the monthly
   rows carry the fields that consolidation consumes (subject, code,
-  amounts, SS columns, period). (LB-001; EVID-180; forward-ref
-  `07_codes-and-informs.md`)
+  amounts, SS columns, period). (LB-001; EVID-180; EVID-182;
+  forward-ref `07_codes-and-informs.md`)
 
 ## 4. Data Model
 
