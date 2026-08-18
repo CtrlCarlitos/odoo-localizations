@@ -14,8 +14,9 @@ wave. Status values:
 - **cited-as-LB** — appears in a Legal Basis row (or as direct schema read) of a requirements file; the citing file(s) named.
 - **not-applicable-this-wave** — out of S1 scope or superseded-without-content-need; reason noted.
 - **pending-S2+** — earmarked for later waves: ISR, F-07/F-14, payroll, commercial-legal, special-regimes, NIIF / fiscal-reporting.
+- **superseded-not-cited** — superseded extraction retained on disk for reference; not a legal-basis citation (the superseding source is the cited LB).
 
-No orphans: every row carries at least one of the three. Sources fully
+No orphans: every row carries at least one of the four. Sources fully
 superseded but cited as historical LB (25_\*, 40_, 41_) still count as
 cited-as-LB.
 
@@ -70,16 +71,17 @@ cited-as-LB.
 | 47_Manual_Funcional_Sistema_Transmision_2026-05-25.pdf | not-applicable-this-wave | v2.0 functional manual; S1 LB rests on 45_ §§ + 46_ (raw-text verified); cite in later waves when entrega/consola UX detail is specified |
 | 48_Manual_Estructuras_Catalogos_Modelos_v1.6.pdf | not-applicable-this-wave | pre-v2.0 structures manual; superseded by 45_ Anexo II (+ 40_ historical citations) |
 | 49_Manual_Eventos_Invalidacion_Contingencia_v1.1.pdf | not-applicable-this-wave | PDF original of the 2022 events manual; the .md extraction (41_) is the cited LB (`03` LB-009) |
-| 50_Catalogos_Facturacion_Electronica_v1.1_2026-07.pdf | cited-as-LB | `catalogs/05` LB-002 (overlay source) |
+| 50_Catalogos_Facturacion_Electronica_v1.1_2026-07.pdf | cited-as-LB | `catalogs/05` LB-002 (human-reference fallback) |
 | 51_Catalogos_Facturacion_Electronica_v1.1_2026-07.xlsx | cited-as-LB | `catalogs/05` LB-001; `e-invoicing/01` LB-016; `02` LB-010; `03` LB-011; `04` LB-012 |
 | 52_Json_Schemas_DTE_Eventos_2026-08-11.zip | cited-as-LB | `e-invoicing/01` LB-006; `03` LB-010; `06` LB-007 |
-| schemas/ (13 extracted JSON schema files) | cited-as-LB | extracted from 52_; read directly for `e-invoicing/03` (LB-010 direct read); OQ verification target across `01`/`02`/`03`/`06` |
+| schemas/ (13 JSON schema files) | superseded-not-cited | superseded 2022-era extraction (fe-ccf-v3, contingencia-v3, anulacion-v2 era; no fe-eret/fe-eop) — NOT the current set; the current 15-schema set lives inside `52_Json_Schemas_DTE_Eventos_2026-08-11.zip`, which is the LB cited directly (`e-invoicing/01` LB-006; `03` LB-010) |
 
 ## Rollup
 
 | Status | Rows |
 |--------|------|
-| cited-as-LB | 15 (14 files + schemas/) |
+| cited-as-LB | 14 |
+| superseded-not-cited | 1 (schemas/) |
 | not-applicable-this-wave | 8 |
 | pending-S2+ | 28 |
 | **Total** | **51** |

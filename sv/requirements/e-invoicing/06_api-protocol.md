@@ -283,6 +283,7 @@ version-specific behavior.
 - **AC-017:** Given Odoo restarted mid-operation (kill before sign-response), when the client resumes, then the pending operation continues with its original `client_request_id` and is neither lost nor double-submitted (FR-039, FR-013).
 - **AC-018:** Given any support log bundle from either side, when scanned, then it contains correlation ids but no API key, private key material or webhook secret (FR-040).
 - **AC-019:** Given a client crash after local signing but before the `sign_response` is acknowledged, when the client resumes and re-signs the same payload bytes, then it produces a second JWS DISTINCT from the first and the SaaS accepts it for the SAME `saas_operation_id` (public-certificate verification + `payload_sha256` match per FR-023; retry key per FR-013) with no duplicate document and no additional sequence consumption (FR-013, FR-022, FR-039).
+- **AC-020:** Given a mutating request reusing an existing `client_request_id` with a different payload hash, when the SaaS receives it, then it responds with an `E-IDEM` finding, does not serve, resume or disclose the original operation, and the client retries with a newly generated `client_request_id` (FR-013, FR-019).
 
 ## 7. Open Questions
 
