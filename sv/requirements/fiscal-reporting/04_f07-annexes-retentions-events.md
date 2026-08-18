@@ -136,9 +136,9 @@ SV-FREP-FR-043) is operative; the inverted cutover is NEVER encoded.
   operations with a consumer-final invoice, you must detail them without
   IVA): on TIPO 01 rows the H MONTO column carries the operation value
   NET of IVA and the I IVA column carries the tax separately (the
-  manual prints the rule for consumer-final facturas; CCF/NC/ND rows
-  follow the same H/I base-vs-tax split by the family's base convention
-  — OQ-002 records the unprinted counterpart). (LB-001; EVID-177)
+  manual prints the rule for consumer-final facturas; for CCF/NC/ND
+  rows the same H/I base-vs-tax split is applied by family convention
+  — both inferences are recorded in OQ-002). (LB-001; EVID-177)
 - **SV-FREP-FR-098:** The system shall fill the
   *comprobante-de-liquidación* linkage block J/K/L + M on every Anexo 4
   row: the series, resolution and number of the CL (*comprobante de
@@ -334,19 +334,23 @@ SV-FREP-FR-043) is operative; the inverted cutover is NEVER encoded.
   (100) · B CLASE DE DOCUMENTO (1/2/4) · C DESDE (PREIMPRESO) ·
   D HASTA (PREIMPRESO) · E TIPO DE DOCUMENTO · F TIPO DE DETALLE ·
   G SERIE · H DESDE · I HASTA · J CÓDIGO DE GENERACIÓN — in exactly
-  this order (§XIX prints NO trailing annex-number column — its
-  relation to the generic last-column rule of SV-FREP-FR-034 is
-  recorded in OQ-003); amount-free row model (dates/values live in
-  the §II discipline only where the upload screen requires them).
-  (LB-006; EVID-178)
+  this order; §XIX prints NO trailing annex-number column and NO
+  date/amount column in the A-J model (the annex-number gap vs the
+  generic last-column rule of SV-FREP-FR-034 and the date gap vs the
+  §II DD/MM/AAAA discipline — which the CT 111 window of FR-119
+  presupposes — are recorded in OQ-003; the row STORES its underlying
+  document date as the window-validation field even though A-J does
+  not print it). (LB-006; EVID-178)
 - **SV-FREP-FR-116:** The system shall fill the F TIPO DE DETALLE
   column with the verbatim detail codes — **A** for *Documentos
   Anulados/Invalidados* (voided documents, physical/business
   annulment), **X** for *Documentos Extraviados* (lost documents),
   **D** for *Documento DTE Invalidado* (a DTE invalidated by sealed
   invalidation event) — and the clase-dependent fills: clase 1/2 rows
-  carry the pre-printed DESDE/HASTA ranges in C/D and H/I with G = the
-  physical series and J EMPTY; clase 4 rows carry "cero" (0) in C/D
+  carry the physical document ranges in the two DESDE/HASTA pairs —
+  C/D (the PREIMPRESO pre-printed range) and H/I (the document-number
+  range) — with G = the physical series and J EMPTY; clase 4 rows
+  carry "cero" (0) in C/D
   and H/I ("PREIMPRESO; DTE = 'cero'", "DTE = 0"), G = the *sello de
   recepción* (reception seal) of 40 characters (example printed:
   "2116A00512396DCF4A4F9W9429HF171C58134TTG"), and J = the *código
@@ -435,10 +439,11 @@ SV-FREP-FR-043) is operative; the inverted cutover is NEVER encoded.
 - **SV-FREP-FR-123:** The system shall expose this file's feeds as the
   §4 wiring interface into the Task 1 casilla engine — annex 4 → 108
   (kept out of 105 by SV-FREP-FR-009); annexes 6/7/8 → 161/162/163
-  (into 166 per SV-FREP-FR-016); annexes 9/10/11/12 → 169/170/171/172
-  (into 187/188/190 per SV-FREP-FR-022/023) — and the F-930 view per
-  FR-111..114; no casilla is filled manually (SV-FREP-FR-038) and the
-  §XIX/emitidos surfaces feed NO casilla (they are informational
+  (into 166 per SV-FREP-FR-016); annexes   9/10/11/12 → 169/170/171/172
+  (into 187/188/190 per SV-FREP-FR-022/023) — with casilla 108 fed by
+  the Anexo 4 H MONTO column (the sin-IVA base, per FR-097 — H-only
+  basis, OQ-002); no casilla is filled manually (SV-FREP-FR-038) and
+  the §XIX/emitidos surfaces feed NO casilla (they are informational
   detail of the declaration). (LB-004; LB-010; EVID-177; EVID-179;
   cross-ref SV-FREP-FR-009/016/022/023/038)
 
@@ -665,11 +670,14 @@ own the event lifecycle this file consumes.
   172 read 30.00/10.00/8.00/26.00 (entering 187 = 74.00 per 01
   FR-022/023), with every MONTO SUJETO column absent from the casilla
   feeds and no manual casilla edit anywhere (FR-110, FR-123).
-- **AC-008:** Given a §XIX row for a DTE dated 08/2022 (pre-cutover),
-  then A carries the *código de generación* hyphenless (32); given a
-  DTE dated 12/2022 (post-cutover), then A carries the *número de
+- **AC-008:** Given a §XIX row for a DTE dated 08/2022, then A carries
+  the *código de generación* hyphenless (32); given the DISCRIMINATING
+  boundary case — a DTE dated 10/2022 — then A carries the *código de
+  generación* hyphenless (32) per the canonical pre-Nov-2022 rule, NOT
+  the *número de control* the manual's inverted instruction would
+  require; given a DTE dated 12/2022, then A carries the *número de
   control* hyphenless (28) — the annexes-1-12 Nov-2022 convention
-  applied, the manual's inverted September/October wording never
+  applied throughout, the inverted September/October wording never
   encoded (FR-118).
 - **AC-009:** Given an anulados row carrying −100.00, then it is
   accepted (CT 111 exception — the only annex admitting negatives);
@@ -697,8 +705,8 @@ own the event lifecycle this file consumes.
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
 | OQ-001 | F-930 codificación values: the form's coding appendix (CALIDAD EN LA QUE ACTÚA agent/perceiver categories, Modalidad, Código) is not in the corpus — only its existence is printed (EVID-189). FR-113 consumes calidad/modalidad as configuration data. Acquire the appendix (or a newer form print) and seed the code lists. | no | Takumi S3 (sources registry) | open |
-| OQ-002 | Casilla 108 basis: the manual prints the 108 auto-total but not which Anexo 4 columns total into it — H only (sin-IVA base, consistent with FR-097) vs H+I. Encoded: H only. Likewise the CL-side débito wiring (casillas 98/99/144 from annex 4) stays recorded-unwired per `01_f07-declaration.md` OQ-005 — not asserted here. Confirm against MH auto-totalization behavior. | no | Takumi S3 | open |
-| OQ-003 | §XIX last-column annex number: manual §XIX prints the A-J model with NO trailing annex-number column, while the generic rule (SV-FREP-FR-034 / manual §XVI) requires the annex number on the last column of every line. Encoded: A-J as printed, no annex-number column emitted for the §XIX file. Confirm against a live MH upload or plantilla validation (the plantilla sheets 1-12 do not include the anulados section). | no | Takumi S3 | open |
+| OQ-002 | Anexo 4 amount inferences: (a) casilla 108 basis — the manual prints the 108 auto-total but not which columns total into it: H only (sin-IVA base, consistent with FR-097) vs H+I; (b) the H/I base-vs-tax split on CCF/NC/ND rows (the sin-IVA rule is printed for tipo-01 rows only). Encoded: H-only basis and the same split on all tipos (family convention; FR-123 wires 108 = H). Likewise the CL-side débito wiring (casillas 98/99/144 from annex 4) stays recorded-unwired per `01_f07-declaration.md` OQ-005 — not asserted here. Confirm against MH auto-totalization behavior. | no | Takumi S3 | open |
+| OQ-003 | §XIX printed-model gaps: manual §XIX prints the A-J model with (a) NO trailing annex-number column, while the generic rule (SV-FREP-FR-034 / manual §XVI) requires the annex number on the last column of every line; and (b) NO date column, while the §II DD/MM/AAAA discipline and the CT 111 three-prior-period window (FR-119) presuppose one — FR-115 stores the document date as the window-validation field without printing it. Encoded: A-J as printed, no annex-number/date column emitted for the §XIX file. Confirm against a live MH upload or plantilla validation (the plantilla sheets 1-12 do not include the anulados section). | no | Takumi S3 | open |
 | OQ-004 | §XIX modificatoria carryover: manual §XVII lists the carryover for "anexos 3 al 12" only — the anulados/emitidos section's fate in amended returns is unprinted (emitidos auto-recompute from carried annexes; anulados carryover or re-upload unknown). FR-122 does not assert it. Confirm against MH system behavior. | no | Takumi S3 | open |
 | OQ-005 | Annexes 6-12 column letters and lengths: the manual prints ordered column lists without letters (letters here assigned by printed position, per-annex TIPO positions per the plantilla), and without lengths — NIT/NRC 14, DUI 9, sello 40, código 32, número de control 28 follow the family conventions; amount/date columns the §II discipline (01 §3.2). Confirm letters/positions against the plantilla sheets 6-12 before certifying byte-exact exports. | no | Takumi S3 | open |
 | OQ-006 | F-930 v3 vintage: 63_ is a 2017-era print still listed by MH as of 2026-08-18 (EVID-189 doubt; 61-64 addendum OQ-2's F-930 half — the F-915 half belongs to `07_codes-and-informs.md`). FR-114 seeds the layout per form_version. Re-verify if a calendar year rolls or a v4 appears. | no | Takumi S3 | open |
