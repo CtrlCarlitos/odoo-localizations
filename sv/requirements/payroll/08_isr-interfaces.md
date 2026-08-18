@@ -177,7 +177,7 @@ SV-FREP-FR-165 (cited, never restated).
   maternity subsidy prestaciones of `07_contracts-termination.md`
   SV-PAY-FR-111/SV-PAY-FR-116 as GRAVADA remunerations — they replace
   ordinary remuneration during leave (the Art. 4.3 exemption covers
-  death/inapacity INDEMNITIES, not leave-replacing remuneration; sick
+  death/incapacity INDEMNITIES, not leave-replacing remuneration; sick
   leave ordinary remunerations are taxable per EVID-089, and D.L. 614
   Art. 14 itself cotizes the illness/accident/maternity subsidy as IBC
   via `05_social-security-contributions.md` SV-PAY-FR-079) — and shall
@@ -443,13 +443,16 @@ SV-FREP-FR-165 and never restated as local configuration.
   them = 1,000.00 − 102.50 = US$897.50 — this file supplies the
   aggregates only; the employer's 8.75% + 7.5% legs never appear in any
   input (FR-121).
-- **AC-002:** Given an indemnización quantum of US$3,225.60 (the
-  `07_contracts-termination.md` AC-007 worker) after 2 years of
-  service with a twelve-month average retained salary of US$14.00/day
-  (US$4,480.00/year retained ≈ cap), then the Art. 4.3 exempt cap =
-  30 days × 2 years × min(básico, US$14.00) and the split stamps the
-  exempt portion no_gravada with the excess (if any) gravada and routed
-  to SV-TAX-FR-116 — the matrix crosscheck_oq flag is gone (FR-123).
+- **AC-002:** Given a settlement of indemnización US$2,400.00
+  (60 day-credits = 30 days × 2 years of service at daily básico
+  US$40.00, below the 4×SMM clamp) PLUS a voluntary-retirement bonus
+  of US$1,000.00 — total US$3,400.00 — and a twelve-month average of
+  salaries subject to retention of US$35.00/day, then the Art. 4.3
+  exempt cap = 30 days × 2 years × min(US$40.00, US$35.00) =
+  US$2,100.00: US$2,100.00 stamps no_gravada and the excess
+  US$1,300.00 stamps gravada, routed to SV-TAX-FR-116 as an
+  extraordinary remuneration — the matrix crosscheck_oq flag is gone
+  (FR-123).
 - **AC-003:** Given a death-termination settlement paying sepelio of
   US$960.00 (07 AC-015), then the sepelio line stamps no_gravada in
   full — no retention line, no split, no F-14 gravadas contribution
@@ -460,12 +463,13 @@ SV-FREP-FR-165 and never restated as local configuration.
   per 05 FR-079) — and the occasional-gratuity and vacation rows of the
   01 matrix keep gravada with the crosscheck flags cleared (FR-125).
 - **AC-005:** Given the FR-121 worker's f14.feed record, then it
-  carries G = US$1,102.50-equivalent devengado split per the matrix
-  families (AFP/SS cotizaciones INCLUDED in G per the plantilla note),
-  H for any bonus lines, the seven SS columns L=72.50 · M=30.00 ·
-  N..R=0.00 (regime isss_sip) and W=MMYYYY — consumed by
-  SV-FREP-FR-143/145 and passing the SV-FREP-FR-150 cap validation
-  unchanged (FR-126).
+  carries G = US$1,000.00 — the full gross devengado per the matrix
+  families, with the AFP/SS cotizaciones INSIDE G per the plantilla
+  note (never netted at the G level; the netting lives only in the
+  FR-121 retention inputs) — H = 0.00 (no bonus lines), the seven SS
+  columns L=72.50 · M=30.00 · N..R=0.00 (regime isss_sip) and
+  W=MMYYYY — consumed by SV-FREP-FR-143/145 and passing the
+  SV-FREP-FR-150 cap validation unchanged (FR-126).
 - **AC-006:** Given an SIP worker with IBC US$8,000.00 whose AFP
   worker share 7.25% = US$580.00, then column L carries the FR-082
   clamp US$472.93 (the f14.feed value already clamped payroll-side;
