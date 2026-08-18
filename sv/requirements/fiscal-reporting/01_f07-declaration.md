@@ -125,11 +125,15 @@ PDF page N+2).
   companions: 141/142 (debits on non-domiciled third-party CL sales with
   CCF/factura), 135 (debit on CCF sales), 140 (debit on factura sales),
   144 (debit on CL-taxed operations), 587 (fuel debit, FR-005), and the
-  deduction 143 (debits on returns/rebajas/discounts over sales,
-  negative); plus the value-only rows 98 (CL-taxed operations), 99 (CL
-  operations at 0% and/or exempt) and 146 (*débito proveniente de crédito
-  negativo*, debit arising from negative credit — negative sign in 150).
-  (LB-002; EVID-179)
+  deduction 143 (debits on returns/rebajas/discounts over sales — a
+  positive magnitude subtracted by the FR-008 formula); plus the
+  value-only rows 98 (CL-taxed operations) and 99 (CL operations at 0%
+  and/or exempt), and row 146 (*débito proveniente de crédito negativo*,
+  debit arising from negative credit), which the v14 form prints as a
+  row but which is NOT a term of the printed SUMA DE DÉBITOS formula
+  (FR-008): the system records the 146 value with NO downstream
+  computation — its casilla wiring is not printed on the form and is
+  flagged OQ-005. (LB-002; EVID-179)
 - **SV-FREP-FR-007:** The system shall compute SUMA DE VENTAS casilla
   105 with the verbatim form arithmetic: **105 = 85 + 86 + 88 + 89 + 90 +
   91 + 92 + 93 + 94 + 95 + 96 + 98 + 99 + 586 − 97 − 552**.
@@ -159,17 +163,23 @@ PDF page N+2).
   110 (*remanente de crédito del período anterior*, prior-period credit
   balance — fed by the FR-026 carryforward); 115 (*reintegro de crédito
   fiscal IVA por exportaciones* — exporter credit refund in the period
-  the resolution is notified, negative sign in 145); 128 (credit for the
-  13% IVA retention on domiciled third parties, "Art. 162 C.T" as
-  printed — its post-*entero* (after remittance) re-entry mechanics are
-  owned by `03_f07-annexes-purchases.md` §3 per EVID-177); 132/133/134
-  (IVA proportionality monthly credit not deductible from the debit /
+  the resolution is notified; a positive magnitude subtracted by the
+  FR-014 formula); 128 (credit for the 13% IVA retention on domiciled
+  third parties, "Art. 162 C.T" as printed — its post-*entero* (after
+  remittance) re-entry mechanics are owned by
+  `03_f07-annexes-purchases.md` §3 per EVID-177); 132/133/134 (IVA
+  proportionality monthly credit not deductible from the debit /
   annual-proportionality adjustment if higher / if lower — computed by
   the Ley IVA Art. 66 pro-rata regime of the future IVA taxation file
-  and consumed here as dated inputs); 200 (Art. 74-A CT balance
-  reduction, negative, resolution number 201 recorded); 151 (*crédito
-  proveniente de débito negativo*, credit arising from negative debit —
-  negative sign in 145). (LB-003; EVID-179; EVID-177)
+  and consumed here as dated inputs; 132 and 134 are magnitudes the
+  FR-014 formula subtracts, 133 one it adds); 200 (Art. 74-A CT balance
+  reduction, resolution number 201 recorded; a positive magnitude
+  subtracted by the FR-014 formula); and 151 (*crédito proveniente de
+  débito negativo*, credit arising from negative debit), which the v14
+  form prints as a row but which is NOT a term of the printed SUMA DE
+  CRÉDITOS formula (FR-014): the system records the 151 value with NO
+  downstream computation — its casilla wiring is not printed on the form
+  and is flagged OQ-005. (LB-003; EVID-179; EVID-177)
 - **SV-FREP-FR-013:** The system shall compute SUMA DE COMPRAS casilla
   100 with the verbatim form arithmetic: **100 = 65 + 66 + 70 + 77 + 75 +
   76 + 80 + 588 − 81 − 550**. (LB-003; EVID-179)
@@ -207,14 +217,17 @@ PDF page N+2).
   de Retención del Impuesto por Control de Liquidez Conforme Constancias
   de Retención* (credit for liquidity-control tax withholding per
   retention certificates, D.L. 764-2014 Art. 10 inciso 7 as printed on
-  the form), as a negative-sign input backed by the retention
-  *constancias* (certificate references stored), entering casilla 521.
-  (LB-004; EVID-179)
+  the form), backed by the retention *constancias* (certificate
+  references stored): the casilla value is entered and stored as a
+  POSITIVE magnitude and the minus sign of the FR-021 formula performs
+  the subtraction (521 = 168 − 520 − 525) — the same sign convention as
+  FR-020 and FR-024. (LB-004; EVID-179)
 - **SV-FREP-FR-020:** The system shall record casilla 525, *Acreditación
-  por FOVIAL* (FOVIAL credit — road-maintenance fund tax credit), as a
-  negative-sign credit input entering casilla 521; its quantity-based
-  computation basis is NOT defined by the form and remains a cross-wave
-  interface (OQ-003). (LB-004; EVID-179)
+  por FOVIAL* (FOVIAL credit — road-maintenance fund tax credit) as a
+  POSITIVE magnitude subtracted by the FR-021 formula (521 = 168 − 520 −
+  525), under the same sign convention as FR-019 and FR-024; its
+  quantity-based computation basis is NOT defined by the form and
+  remains a cross-wave interface (OQ-003). (LB-004; EVID-179)
 - **SV-FREP-FR-021:** The system shall compute casilla 521 with the
   verbatim arithmetic: **521 = 168 − 520 − 525** (TOTAL DE IMPUESTO POR
   OPERACIONES DEL PERÍODO MENOS ACREDITACIÓN DEL IMPUESTO POR CONTROL DE
@@ -239,9 +252,11 @@ PDF page N+2).
   case with the written-request flag set. (LB-005; EVID-179)
 - **SV-FREP-FR-024:** The system shall record casilla 523, *Acreditación
   de Reintegro de IVA Exportador Autorizado* (authorized exporter IVA
-  refund credit), as a negative-sign input and compute **524 = 190 −
-  523** (TOTAL A PAGAR DE IMPUESTO POR RETENCIONES Y PERCEPCIONES DEL
-  PERÍODO POR EL DECLARANTE). (LB-005; EVID-179)
+  refund credit) as a POSITIVE magnitude — the same sign convention as
+  FR-019/FR-020: the casilla value is entered and stored positive and
+  the formula's minus sign performs the subtraction — and compute
+  **524 = 190 − 523** (TOTAL A PAGAR DE IMPUESTO POR RETENCIONES Y
+  PERCEPCIONES DEL PERÍODO POR EL DECLARANTE). (LB-005; EVID-179)
 - **SV-FREP-FR-025:** The system shall compute the fines/interest block
   and the payment total with the verbatim arithmetic: multas (fines)
   194 (impuesto), 192 (percepción 1%), 199 (anticipo 2%), 193
@@ -365,7 +380,7 @@ row/casilla map with sign, role and source):**
 | B rows 14-15 | 95+ · 96+ · 135+ · 140+ | gravadas con CCF · con factura + débitos | annex_total | annexes 1-2 (file 02) | FR-004, FR-006 |
 | B row 16 | 586+ · 587+ | combustible tasas diferenciadas + débito | annex_total | annex 13 wiring (file 05; D12 Decreto 321 Mar-2022+) | FR-005 |
 | B row 17 | 97− · 143− | devoluciones sobre ventas + débito | annex_total | annexes 1-2 NC rows (file 02) | FR-006 |
-| B rows 18-20 | 98+ · 99+ · 146− | operaciones CL gravadas · CL tasa 0/exentas · débito de crédito negativo | annex_total · input_balance | annexes 1/4 + prior-period balance | FR-006 |
+| B rows 18-20 | 98+ · 99+ · 146− | operaciones CL gravadas · CL tasa 0/exentas · débito de crédito negativo | annex_total · input_unwired | annexes 1/4 · wiring not printed — OQ-005 | FR-006 |
 | B row 21 | 552− · 553 | devoluciones precios máximos combustibles + débito | annex_total | annex 14 wiring (file 05; D12 Abr-2022+) | FR-005 |
 | B row 22 | 105 · 150 | SUMA DE VENTAS · SUMA DE DÉBITOS | derived | verbatim formulas FR-007/FR-008 | FR-007, FR-008 |
 | B row 23 | 108 | terceros domiciliados (EXCLUDED from 105) | annex_total | annex 4 (file 04) | FR-009 |
@@ -375,7 +390,7 @@ row/casilla map with sign, role and source):**
 | Otros créditos 35 | 115− | reintegro crédito IVA exportaciones | input_event | DGII resolution notification | FR-012 |
 | Otros créditos 36 | 128+ | retención 13% IVA terceros domiciliados (Art. 162 C.T.) | input_event | annex 5 post-entero re-entry (file 03; EVID-177) | FR-012 |
 | Otros créditos 37-39 | 132− · 133+ · 134− | proporcionalidad mensual · ajuste anual sup. · inf. | input_computed | Ley IVA Art. 66 pro-rata (future IVA taxation file) | FR-012 |
-| Otros créditos 40-41 | 200− · 151− | disminución Art. 74-A (resolución 201) · crédito de débito negativo | input_event · input_balance | Art. 74-A resolution · prior-period balance | FR-012 |
+| Otros créditos 40-41 | 200− · 151− | disminución Art. 74-A (resolución 201) · crédito de débito negativo | input_event · input_unwired | Art. 74-A resolution · wiring not printed — OQ-005 | FR-012 |
 | C row 42 | 100 · 145 | SUMA DE COMPRAS · SUMA DE CRÉDITOS | derived | verbatim formulas FR-013/FR-014 | FR-013, FR-014 |
 | C rows 43-44 | 155 · 160 | remanente próximo período · impuesto determinado | derived_conditional | FR-015 | FR-015 |
 | D rows 45-49 | 161+ · 162+ · 163+ · 164+ · 165+ | anticipo 2% · retención 1% · percepción 1% al declarante · excedente anterior · según declaración que modifica | annex_total · carryforward · input_ref | annexes 6-8 (file 04) · 167 prior period · prior declaration | FR-016 |
@@ -394,7 +409,7 @@ row/casilla map with sign, role and source):**
 |--------|-------|------|------------------|-----------|
 | l10n_sv.f07.declaration (new) | company_id, period_month, period_year, form_version, is_amendment, amends_declaration_id, flag_74a (495), declaration_no_modifies (55) | m2o/int/boolean/char | form_version default f07_v14; amends_declaration_id → prior declaration same period | FR-001, FR-003, FR-040 |
 | l10n_sv.f07.casilla.value (new) | declaration_id, casilla_spec_id, amount | m2o/monetary(2dp) | one row per populated casilla; USD only | FR-001, FR-027 |
-| l10n_sv.f07.casilla.spec (new) | form_version, section, row_no, casilla, label_es, sign, role, formula, source_ref | char/select | role: annex_total · derived · derived_conditional · carryforward · input_event · input_computed · input_balance · input_master · input_flag · informational; seeded from the in-file table above | FR-004..FR-025 |
+| l10n_sv.f07.casilla.spec (new) | form_version, section, row_no, casilla, label_es, sign, role, formula, source_ref | char/select | role: annex_total · derived · derived_conditional · carryforward · input_event · input_computed · input_master · input_flag · input_unwired · informational (input_unwired = printed row with no downstream formula term — OQ-005); seeded from the in-file table above | FR-004..FR-025 |
 | l10n_sv.f07.annex.upload (new) | declaration_id, annex_no, filename, file, status, uploaded_at, response_summary | int/char(≤25)/binary/select | annex_no 1-14; status: draft · validated · rejected · accepted; response_summary = resumen per FR-037 | FR-028, FR-037, FR-041 |
 | l10n_sv.f07.annex.upload.error (new) | upload_id, line_no, validation_code, message | int/select/text | validation_code: extension_csv · blank_amount · annex_number · structure · date_period · window_3periods · negative_gate | FR-039 |
 | l10n_sv.f07.upload.format.spec (new) | annex_no, delimiter, cell_type, amount_rule, date_rule, negative_policy, period_window | char/select | seeded from the in-file format table below | FR-028..FR-036 |
@@ -430,25 +445,25 @@ row where a legal vintage exists.
 | FR-003 | odoo | l10n_sv.f07.declaration | flag_74a, amends_declaration_id, declaration_no_modifies | Flag 495 gates FR-017; amendment number feeds FR-040 |
 | FR-004 | odoo | l10n_sv.f07.casilla.value + l10n_sv.f07.annex.upload | casillas 85-96 | Annex totals from annexes 1-2 (02_f07-annexes-sales.md §3 owns row builders) |
 | FR-005 | odoo | l10n_sv.f07.casilla.value | 586/587, 552/553 | D12: Decreto 321 Mar-2022+ and precios-máximos Abr-2022+ windows owned by 05_f07-annexes-special.md §3 |
-| FR-006 | odoo | l10n_sv.f07.casilla.value | 141/142/135/140/144/587/143, 98/99/146 | 146 role input_balance (prior-period state); no annex feed |
+| FR-006 | odoo | l10n_sv.f07.casilla.value | 141/142/135/140/144/587/143, 98/99/146 | 146 recorded as printed (row mark −); NOT a term of the 150 formula — role input_unwired, no downstream wiring (OQ-005) |
 | FR-007 | odoo | l10n_sv.f07.casilla.value | 105 | Verbatim formula; AC-001 arithmetic spot-check |
 | FR-008 | odoo | l10n_sv.f07.casilla.value | 150 | Verbatim formula; AC-002 |
 | FR-009 | odoo | l10n_sv.f07.casilla.value | 108 | Hard exclusion from 105; annex 4 feed (04 file §3) |
 | FR-010 | odoo | l10n_sv.f07.casilla.value | 65-80/588 + 127-130/589 | Annexes 3/5 feeds (03 file §3); 588/589 annex 13 (05 file §3) |
 | FR-011 | odoo | l10n_sv.f07.casilla.value | 81/131, 550/551 | 550/551 annex 14 wiring (05 file §3) |
-| FR-012 | odoo | l10n_sv.f07.casilla.value | 110/115/128/132-134/200/151 | 128 = post-entero re-entry (03 file §3; EVID-177); 132-134 = Ley IVA Art. 66 pro-rata inputs (future IVA taxation file — OQ-004 kin); 200 records resolución 201 |
+| FR-012 | odoo | l10n_sv.f07.casilla.value | 110/115/128/132-134/200/151 | 128 = post-entero re-entry (03 file §3; EVID-177); 132-134 = Ley IVA Art. 66 pro-rata inputs (future IVA taxation file — OQ-004 kin); 200 records resolución 201; 151 recorded as printed — NOT in the 145 formula, role input_unwired (OQ-005) |
 | FR-013 | odoo | l10n_sv.f07.casilla.value | 100 | Verbatim formula; AC-003 |
 | FR-014 | odoo | l10n_sv.f07.casilla.value | 145 | Verbatim formula; AC-003 |
 | FR-015 | odoo | l10n_sv.f07.casilla.value | 155/160 | Conditional split; AC-004 |
 | FR-016 | odoo | l10n_sv.f07.casilla.value | 161-166 | Annexes 6-8 feeds (04 file §3); 164 = prior 167 (FR-026); 165 from amended declaration |
 | FR-017 | odoo | l10n_sv.f07.casilla.value + l10n_sv.f07.declaration | 491-493 → 203 | Gated by flag 495; resolución 202 stored; CT Art. 74-A anchor as printed |
 | FR-018 | odoo | l10n_sv.f07.casilla.value | 167/168 | Exactly one non-zero; AC-005 |
-| FR-019 | odoo | l10n_sv.f07.casilla.value | 520 + constancia refs | D.L. 764-2014 Art. 10.7 anchor as printed; certificate references required |
-| FR-020 | odoo | l10n_sv.f07.casilla.value | 525 | Computation basis open — OQ-003 (FOVIAL quantity-tax interplay, 31_ pointer) |
+| FR-019 | odoo | l10n_sv.f07.casilla.value | 520 + constancia refs | D.L. 764-2014 Art. 10.7 anchor as printed; certificate references required; positive-magnitude convention — FR-021's minus sign subtracts |
+| FR-020 | odoo | l10n_sv.f07.casilla.value | 525 | Computation basis open — OQ-003 (FOVIAL quantity-tax interplay, 31_ pointer); positive-magnitude convention as FR-019 |
 | FR-021 | odoo | l10n_sv.f07.casilla.value | 521 | Verbatim formula; AC-005 chain |
 | FR-022 | odoo | l10n_sv.f07.casilla.value | 169-172 + 401/403/404/405 | Annexes 9-12 feeds (04 file §3); [405 sub-label "Percepción 2%" carried as printed] |
 | FR-023 | odoo | l10n_sv.f07.casilla.value | 187/188/190/189 | 189 informational mirror with written-request flag |
-| FR-024 | odoo | l10n_sv.f07.casilla.value | 523/524 | 523 negative-sign input; 524 = 190 − 523 |
+| FR-024 | odoo | l10n_sv.f07.casilla.value | 523/524 | 523 positive magnitude (FR-019 sign convention); 524 = 190 − 523 |
 | FR-025 | odoo | l10n_sv.f07.casilla.value | 192-196/198 | Payment total chain; AC-005 |
 | FR-026 | odoo | l10n_sv.f07.declaration (compute) | carryforward job | 155→110, 167→164; amendment re-feeds from amended values |
 | FR-027 | odoo | l10n_sv.f07.casilla.value | 2dp discipline | Consistent with FR-030 upload truncation |
@@ -489,15 +504,19 @@ SOQ-08) — no deadline behavior is encoded here.
   = **12,175.00** (FR-007).
 - **AC-002:** Given débito casillas 141=0.00, 142=0.00, 135=1,300.00,
   140=43.48, 144=0.00, 587=0.00, 143=13.00 and 553=0.00, then 150 =
-  0+0+1,300+43.48+0+0−13−0 = **1,330.48** (FR-008).
+  0+0+1,300+43.48+0+0−13−0 = **1,330.48**; given additionally 146=5.00,
+  then 150 remains **1,330.48** — 146 is not a term of the printed
+  formula (recorded, unwired — OQ-005) (FR-006, FR-008).
 - **AC-003:** Given 65=500.00, 66=345.13, 70=0.00, 77=100.00, 75=200.00,
   76=0.00, 80=5,000.00, 588=0.00, 81=50.00, 550=0.00, then 100 =
   500+345.13+0+100+200+0+5,000+0−50−0 = **6,095.13**; and given
   127=13.00, 125=26.00, 126=0.00, 130=650.00, 131=6.50, 589=0.00,
   551=0.00, 110=1,000.00, 115=0.00, 128=130.00, 132=20.00, 133=0.00,
   134=0.00, 200=0.00, then 145 =
-  13+26+0+650−6.50+0−0+1,000−0+130−20+0−0−0 = **1,792.50** (FR-013,
-  FR-014).
+  13+26+0+650−6.50+0−0+1,000−0+130−20+0−0−0 = **1,792.50**; given
+  additionally 151=8.00, then 145 remains **1,792.50** — 151 is not a
+  term of the printed formula (recorded, unwired — OQ-005) (FR-012,
+  FR-013, FR-014).
 - **AC-004:** Given 145=2,000.00 and 150=1,330.48, then 155 = **669.52**
   and 160 = 0.00; given instead 150=2,500.00 and 145=1,792.50, then 160 =
   **707.50** and 155 = 0.00 (FR-015).
@@ -505,10 +524,13 @@ SOQ-08) — no deadline behavior is encoded here.
   → 166 = **709.52**; given 203=0.00, 160=1,330.48 → 167 = max(0,
   709.52−1,330.48−0) = **0.00** and 168 = max(0, 1,330.48−709.52+0) =
   **620.96**; given 520=100.00, 525=0.00 → 521 = 620.96−100−0 =
-  **520.96**; given 187=30.00, 188=0.00 → 190 = **30.00**; given
-  523=0.00 → 524 = **30.00**; given 194=192=199=193=0.00 → 195=0.00,
-  196=5.00 → TOTAL A PAGAR 198 = 520.96+30.00+0.00+5.00 = **555.96**
-  (FR-016, FR-018, FR-021, FR-023, FR-024, FR-025).
+  **520.96** (520 stored positive; the formula's minus sign subtracts);
+  given 187=30.00, 188=0.00 → 190 = **30.00**; given 523=10.00 → 524 =
+  30.00−10.00 = **20.00** (523 stored positive under the same
+  convention as 520 — the formula's minus sign subtracts); given
+  194=192=199=193=0.00 → 195=0.00, 196=5.00 → TOTAL A PAGAR 198 =
+  520.96+20.00+0.00+5.00 = **545.96** (FR-016, FR-018, FR-019, FR-021,
+  FR-023, FR-024, FR-025).
 - **AC-006:** Given an annex row with amount 1,234.5 and three nil
   amount cells, when the upload file is exported, then the amount cell
   reads exactly `1234.50`, the nil cells read `0.00`, the delimiter is
@@ -574,3 +596,4 @@ SOQ-08) — no deadline behavior is encoded here.
 | OQ-002 | EVID-173 doubt: manual §II heading says "CSV (delimitado por comas)" while the operative configuration uses the semicolon list separator (the usual MH wording defect). Working assumption encoded in FR-028: semicolon is the delimiter. Confirm against a live MH upload (or the resolution of OQ-001) before certifying byte-exact exports. | no | Takumi S3 | open |
 | OQ-003 | Casilla 525 (Acreditación por FOVIAL): the form prints no formula or source — the credit's quantity-based computation (FOVIAL per-gallon tax interplay; 31_ guide; F1 crossref "FOVIAL/COTRANS quantity-tax risk") is undefined here and coordinated with the special-regimes/taxation waves. FR-020 consumes it as an input only. | no | Takumi S3 + special-regimes/taxation waves | open |
 | OQ-004 | IVA retention-rate cross-ref target: the 1%/2%/13% IVA retention/perception/anticipo rates printed on the F-07 rows are anchored here via the form labels (LB-004/LB-005) only, because no IVA taxation requirements file exists yet (the S2 taxation wave wrote ISR only — SV-TAX-FR-102..131 are the ISR CT matrix, a different tax). Nothing blocks: F-07 casillas consume annex totals (files 03/04). When the IVA taxation file lands, the index task must wire the rate cross-references (CT Arts. 161-162-A zone, EVID-062). | no | Takumi S3 (index task) + future IVA taxation wave | open |
+| OQ-005 | F-07 v14 rows 20 (casilla 146, Débito Proveniente de Crédito Negativo) and 41 (casilla 151, Crédito Proveniente de Débito Negativo) are printed on the form (with row-sign marks "−") but appear in NO printed casilla formula: the verbatim SUMA DE DÉBITOS (150) and SUMA DE CRÉDITOS (145) sums exclude them. Downstream wiring is unknown (presumably prior-period negative-balance carriers inside MH's online system — the form does not print it, and inventing a wiring was rejected in review). Encoded as recorded-but-unwired (FR-006/FR-012; casilla-spec role input_unwired); resolve via MH system behavior or the annex-modification resolutions (OQ-001). | no | Takumi S3 | open |
