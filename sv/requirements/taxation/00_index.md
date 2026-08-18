@@ -6,7 +6,7 @@
 | Topic   | taxation |
 | Status  | draft (S2 ISR synthesis wave, in review) |
 | Authors | Takumi synthesis wave 2 + controller |
-| Updated | 2026-08-17 |
+| Updated | 2026-08-18 |
 
 This directory holds the S2 (synthesis wave 2) ISR (*Impuesto sobre la
 Renta*, income tax) requirements: the subject/period/territoriality/filing
@@ -36,12 +36,15 @@ colones-era vintage rows); they carry no FRs of their own.
 
 ## Open-questions rollup (ids + titles)
 
-Status legend: `open` unless noted `resolved`. 42 open / 2 resolved
-(SOQ-01 and SOQ-04, both closed in `03_isr-rates-gains.md` §7).
+Status legend: `open` unless noted `resolved`. 40 open / 4 resolved
+(SOQ-01 and SOQ-04 in `03_isr-rates-gains.md` §7; SOQ-03 in `04`
+OQ-002 + `01` OQ-005 — D.O. pin + digit-fidelity verification against
+the gazette print, source `60_`/EVID-171, 2026-08-18).
 
-Master-index SOQ mapping: 04's OQ-001 = SOQ-02; 04's OQ-002 = SOQ-03; 04's
-OQ-003 = SOQ-05; SOQ-06 lives in 01's OQ-004 + 06's OQ-001; SOQ-07 in 03's
-OQ-007 (kin: 02's OQ-006). SOQ-01/SOQ-04 = 03's OQ-001/OQ-002, resolved.
+Master-index SOQ mapping: 04's OQ-001 = SOQ-02; 04's OQ-002 = SOQ-03;
+04's OQ-003 = SOQ-05; SOQ-06 lives in 01's OQ-004 + 06's OQ-001; SOQ-07
+in 03's OQ-007 (kin: 02's OQ-006). SOQ-01/SOQ-04 = 03's OQ-001/OQ-002,
+resolved.
 
 ### 01_isr-framework.md (6)
 
@@ -49,7 +52,7 @@ OQ-007 (kin: 02's OQ-006). SOQ-01/SOQ-04 = 03's OQ-001/OQ-002, resolved.
 - OQ-002 — Art. 92 num. 9 obsolete stamp-tax duty; CT-era restatement of the filing-duty list. open
 - OQ-003 — Art. 105-A stale sanction (repealed anchor, colon minimum) disposition. open
 - OQ-004 — SOQ-06 carried: D.E. 117-2001 survivors vs later CT Art. 344 ff. repeals. open
-- OQ-005 — SOQ-03 (partial): D.E. 10-2025 publishing D.O. issue unpinned (vigencia 2025-05-08 assumed). open
+- OQ-005 — SOQ-03 (partial): D.E. 10-2025 publishing D.O. issue unpinned (vigencia 2025-05-08 assumed). **resolved** (60_/EVID-171: D.O. 79 T.447 30-abr-2025, effective 2025-05-08)
 - OQ-006 — CT Art. 62 FX conversion: operational rate source/feed selection. open
 
 ### 02_isr-deductions.md (7)
@@ -77,7 +80,7 @@ OQ-007 (kin: 02's OQ-006). SOQ-01/SOQ-04 = 03's OQ-001/OQ-002, resolved.
 ### 04_isr-withholding.md (8)
 
 - OQ-001 — SOQ-02: $1,600 fixed-deduction proration (quincenal/semanal Tramo II) + ordering vs SS/AFP netting. open — working assumption implemented (FR-103/104)
-- OQ-002 — SOQ-03: D.E. 10-2025 provenance (publishing D.O. issue) + printed-digit anomalies. open
+- OQ-002 — SOQ-03: D.E. 10-2025 provenance (publishing D.O. issue) + printed-digit anomalies. **resolved** (60_/EVID-171: effective 2025-05-08 confirmed; all anomaly digits gazette-original)
 - OQ-003 — SOQ-05: 2025/2026 aguinaldo transitory (standing 2-SMM rule assumed for 2025+). open
 - OQ-004 — Part-time without subordination: retention tables vs 10% honorarios rule. open
 - OQ-005 — Retention-decree chain gap D.E. 25-1992 → D.E. 95-2015 (pre-2025-05-08 tables absent). open

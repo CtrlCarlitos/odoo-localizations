@@ -6,7 +6,7 @@
 | Topic   | all (cross-topic) |
 | Status  | draft (S1 + S2 ISR waves) |
 | Authors | Controller (hand-built; script to regenerate later) |
-| Updated | 2026-08-17 |
+| Updated | 2026-08-18 |
 
 Every file in [../sources/](../sources/) mapped against the S1 and S2 (ISR)
 requirements waves. Status values:
@@ -20,7 +20,7 @@ No orphans: every row carries at least one of the four. Sources fully
 superseded but cited as historical LB (25_\*, 40_, 41_) still count as
 cited-as-LB.
 
-## Matrix (56 source files + schemas/ dir = 57 rows)
+## Matrix (58 source files + schemas/ dir = 59 rows)
 
 | Source | Status | Cited in / note |
 |--------|--------|-----------------|
@@ -40,6 +40,8 @@ cited-as-LB.
 | 56_Reforma_Ley_ISR_DL969_DO_2024-03-14.pdf | cited-as-LB | `taxation/01` (Art. 3.4 foreign-source exclusion + derogations) |
 | 57_InterpAut_Art30_DL192_DO_2018-12-12.pdf | cited-as-LB | `taxation/06` (Art. 30.1 seasonal depreciation) |
 | 58_InterpAut_Art28_DL345_DO_2019-05-31.pdf | cited-as-LB | `taxation/02` (Art. 28 mermas deductibility) |
+| 59_F14_v17_form_visual.pdf | pending-S2+ | fiscal-reporting wave (F-14 v1.7 current form — Quincena-25 section row 61 casillas 417/418; rows 62-105 renumbered vs v1.6) |
+| 60_DE10_Tablas_Retencion_DO_2025-04-30.pdf | cited-as-LB | `taxation/04` LB-013 (co-cited: D.O. pin + gazette digit verification, EVID-171 — SOQ-03 resolved) |
 | 11_Codigo_Trabajo.pdf | pending-S2+ | payroll wave |
 | 12_Ley_Zonas_Francas.pdf | pending-S2+ | special-regimes wave |
 | 13_Ley_Organica_Aduanas.pdf | pending-S2+ | special-regimes / customs-export wave |
@@ -86,8 +88,8 @@ cited-as-LB.
 
 | Status | Rows |
 |--------|------|
-| cited-as-LB | 23 |
+| cited-as-LB | 24 |
 | superseded-not-cited | 1 (schemas/) |
 | not-applicable-this-wave | 8 |
-| pending-S2+ | 25 |
-| **Total** | **57** |
+| pending-S2+ | 26 |
+| **Total** | **59** |

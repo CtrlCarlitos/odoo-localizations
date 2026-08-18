@@ -415,8 +415,10 @@ file.
 Version-regime notes (D12): FR-022/FR-025 record the D.L. 969-2024 cutover
 (2024-03-22) — any computation on pre-cutover periods must select the dated
 foreign-track data instead. FR-029 thresholds ($60,000 / $9,100) are stable
-in current text; the D.E. 10-2025 vintage date (2025-05-08 assumed per MH
-dating, SOQ-03) affects the tables decree, tracked in `04_isr-withholding.md`.
+in current text; the D.E. 10-2025 vintage date (2025-05-08 CONFIRMED:
+published D.O. N° 79 T.447 30-abr-2025, gazette print 60_, EVID-171 —
+SOQ-03 resolved) affects the tables decree, tracked in
+`04_isr-withholding.md`.
 
 ## 6. Acceptance Criteria
 
@@ -488,5 +490,5 @@ dating, SOQ-03) affects the tables decree, tracked in `04_isr-withholding.md`.
 | OQ-002 | Art. 92 numeral 9 obliges subjects of the "impuesto de timbres" (obsolete stamp tax) and the whole declaration-duty list may be restated by CT declaration articles (03_ OQ-9 carried). Confirm CT-era restatement; numeral disabled in FR-028 meanwhile. | no | Takumi S2 (CT pass) | open |
 | OQ-003 | Art. 105-A sanction cites the repealed "inciso 6º del Art. 72" and a 1,000-colon minimum — superseded by the CT sanctions regime (CT Arts. 226-247 zone, EV05 EVID-065). Recorded as informational LB only; no sanction FR written. Confirm final disposition in the fiscal-reporting wave. | no | Takumi S2 (fiscal-reporting wave) | open |
 | OQ-004 | SOQ-06 carried: D.E. 117-2001 (the Reglamento mass-repeal instrument) predates the CT — whether any additional 04_ survivor article was later repealed by CT Art. 344 ff. Non-blocking; survivors cited as printed (LB-031; R17). | no | Takumi S2 | open |
-| OQ-005 | SOQ-03 (partial): the publishing D.O. issue of D.E. 10-2025 is not pinned in the certified copy — vigencia 2025-05-08 is assumed per MH dating. Affects LB-028 vintage dating and `04_isr-withholding.md` table data. | no | Takumi S2 (sources registry) | open |
+| OQ-005 | SOQ-03 (partial): the publishing D.O. issue of D.E. 10-2025 is not pinned in the certified copy — vigencia 2025-05-08 is assumed per MH dating. Affects LB-028 vintage dating and `04_isr-withholding.md` table data. **RESOLVED 2026-08-18 (EVID-171, source 60_): published D.O. N° 79, T. 447, 30-abr-2025, pp. 25-32 → effective 2025-05-08 confirmed; digit fidelity verified in the same pass (see 04 §7 OQ-002).** | no | Takumi S2 (sources registry) | resolved |
 | OQ-006 | CT Art. 62 governs FX conversion ("tipo de cambio que corresponda al día" of the hecho generador) but the operational rate source/feed (BCCR/AT-published rate vs. bank rate) is outside the corpus; the Odoo currency-rate feed for the fiscal layer needs selection. | no | Takumi + Odoo implementation | open |
