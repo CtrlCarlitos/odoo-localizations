@@ -1,8 +1,8 @@
 # HANDOVER — Session State & Continuation Guide
 
-**For the next controller session.** Written 2026-08-17, updated 2026-08-18 (S3 close)
-and 2026-08-18 twice more: at the close of the W9 payroll evidence wave and
-of the S4 payroll synthesis wave. Read this
+**For the next controller session.** Written 2026-08-17, updated 2026-08-18 (S3 close),
+2026-08-18 twice more (W9/S4 closes), and 2026-08-18 a fourth time (W10 + S5 prep close).
+Read this
 document fully before acting; it is the authoritative cross-session memory
 (conversation context does not survive).
 **Update it at every session boundary** — replace stale sections, append new
@@ -30,12 +30,13 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
 4. `shared/docs/requirements-template.md` — 7-section format authority; Topic row now includes `catalogs`
 5. `shared/docs/regulatory-change-management.md` — version-regime framing + **D7–D12 decision log (decided 2026-08-17)**
 6. `shared/docs/odoo-localization-guide.md` — module anatomy (with thin-client caveat)
-7. `sv/.extractions/00_MASTER_INDEX.md` — synthesis lookup: 12 topic clusters (A1–A12), 16 resolved contradictions (R1–R16), 12 MOQs
+7. `sv/.extractions/00_MASTER_INDEX.md` — synthesis lookup: topic clusters (A1–A12, T1-T8, F1-F12, P1-P10, C1-C10), 26 resolved contradictions (R1–R26), 12 MOQs + SOQ registers
 8. `sv/requirements/e-invoicing/00_index.md` +
    `sv/requirements/taxation/00_index.md` +
    `sv/requirements/fiscal-reporting/00_index.md` +
+   `sv/requirements/payroll/00_index.md` +
    `sv/requirements/COVERAGE.md` —
-   S1+S2+S3 corpus indexes + source coverage matrix (authoritative for
+   S1+S2+S3+S4 corpus indexes + source coverage matrix (authoritative for
    source→wave mapping)
 9. `HANDOVER.md` (this file)
 
@@ -45,12 +46,13 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
 - Branch `main` only; remote `origin` = `git@github-CtrlCarlitos:CtrlCarlitos/odoo-localizations.git` (SSH alias `github-CtrlCarlitos` from `~/.ssh/config`); push after each wave; never force-push. `gh` CLI at `~/.local/bin/gh`, authenticated as CtrlCarlitos.
 - Commits are SSH-signed; local `%G?=N` is a verification-only artifact (`gpg.ssh.allowedSignersFile` unset) — signatures ARE present; don't chase it.
 - `.gitattributes`: `*.csv text eol=lf`.
-- Commits through `d2e5e4a` (2026-08-18 session: W8 prep `dd7525b`, W8 evidence
-  `b1c78ce`, forms 61-64 `a1b0846`, S3 prep `34691b8`, plan `a495444`, S3 tasks+fixes
-  `334497f..d2e5e4a`).
+- Commits through `c75610c` (2026-08-18 4th session: W10 evidence `3cd4ad4`, S5 prep
+  `c75610c`; before that S4 close `2f5ead3`, S4 `87df6b5..33edf2d`, S3 `34691b8..d2e5e4a`).
 
 ### El Salvador — sources & evidence state
-- **EVID corpus 001..210** (gaps 109-127 reserved-unused). W9 files:
+- **EVID corpus 001..235** (gaps 109-127 reserved-unused). W10 files:
+  `07_Codigo_Comercio` (EVID-211..227), `15_Ley_Lavado_Activos` (EVID-228..231),
+  `17_Reglamento_Lavado_Activos` (EVID-232..235). W9 files:
   `16_Salarios_Minimos_2025` (EVID-191..192), `08_Ley_ISSS` (EVID-193..196),
   `09_Ley_Sistema_Pensiones` (EVID-197..200), `11_Codigo_Trabajo`
   (EVID-201..209), `65_F11_v18_form_visual` (EVID-210). W8 files:
@@ -61,8 +63,9 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
   65_ = F-11 v18 added W9; Quincena-25 = 66 when acquired).
 - Source registry carries: 29_ mislabel note; 38_/39_ current-form notes; 59_
   (F14 v17), 60_ (D.E. 10 gazette print), 61_-64_ (F910v9/F915v4/F930v3/F935v1)
-  with provenance; **08_ law-level-rates-only note; 09_ D.L. 614 identity
-  note (registry misnomer)**; 65_ (F-11 v18) with provenance.
+  with provenance; 08_ law-level-rates-only note; 09_ D.L. 614 identity
+  note (registry misnomer); 65_ (F-11 v18) with provenance; **07_ consolidation-≤2008
+  note; 15_ title-mislabel amendment (R25); 17_ PRE-REFORM note (R26)**.
 
 ### El Salvador — extraction (S1 scope COMPLETE; W6/ISR COMPLETE 2026-08-17)
 - **EVID corpus now 001..152** (gap 109–127 reserved-unused): S1 = 87 entries
@@ -325,6 +328,51 @@ now 41 cited / 13 pending / 9 N/A / 1 superseded (64 rows incl. 65_).
 Cross-refs: taxation/00_index F-11-feed pointer; fiscal-reporting/00_index
 SOQ-11 values-owned-by-payroll/05 pointer.
 
+### El Salvador — W10 commercial-legal evidence pass + S5 prep (COMPLETE 2026-08-18, pushed; commits 3cd4ad4/c75610c)
+Sources read end-to-end + evidence EVID-211..235 (3 files, 11 file-level OQs → SOQ-22..29):
+- **07_ = Código de Comercio D.L. 671/1970** (consolidation through reform (29)
+  D.L. 641-2008 — post-2008 reforms UNVERIFIED, SOQ-22; 260pp; commercial-legal
+  books full, quiebra skimmed, seguros/transporte/bancarios N/A). Key: matrícula =
+  registro único + ANNUAL renewal; contabilidad electronic-legal/castellano/USD/
+  in-country + **no-alteration + immediate-rectification-asiento regime (Art. 439)**
+  = §3.11 kin; annual statements 3 months IMPRORROGABLE + auditor + **Registro
+  deposit = third-party effect** ($12k/$34k thresholds; sociedades/EIRL always);
+  **retention 10y books + issued/received facturas anexas + 5y post-liquidation**;
+  microfilm/optical ≥24 months; reserva legal 5%→1/6 (colectiva) / 7%→1/5
+  (SRL/S.A./EIRL); SRL $2,000/Ltda.; S.A. share-ledger + no self-acquisition;
+  fusión 90-day window + Competencia checkpoint; liquidación suffix + 2y cap +
+  10y post-liquidation paper deposit; single-socio 3-month collapse; extranjeras
+  package; auxiliares authority defaults (factor registry powers, dependiente
+  caja/outside rules, distribuidor indemnity scale); cheque 15d/1m/3m + protest
+  15d + 1y + 20% indemnity; **prescription matrix 6m/1y/2y/5y-from-last-recognition
+  (Art. 995)**; mora interest pactado→legal (Economía rate, SOQ-26); facturas +
+  registros contables = statutory proof (999/1002); compraventa defect/warranty
+  clocks (8d/15d/1y; 30d/6m/3y) + CSF/CF/FOB in-code; estimatorio/suministro/
+  comisión no-credit-default.
+- **15_ = Ley Contra el Lavado de Dinero y de Activos D. 498/1998** (reforms (1)-(6)
+  through D.L. 104-2015; registry title was a MISLABEL — row amended, R25).
+  **Sujetos obligados include ANY mercantile society (Art. 2.20)**; unsupervised
+  exempt only from Oficialía; threshold reporting **$10,000 cash per client
+  same-day/rolling-month / $25,000 other media, 5 días hábiles**; suspicion
+  reports amount-irrelevant (≤15+15d analysis); PEP enhanced DD; retention 5y
+  docs / 15y transaction registers; Art. 13 8-field capture; safe harbor 26-A;
+  tip-off crimes 26-B.
+- **17_ = Reglamento D. 2-2000** — complete 6pp (the "partial document" suspicion
+  CLOSED) but **PRE-REFORM**: colones ¢500k threshold + 3-day clock superseded by
+  15_ Art. 9 post D.L. 568-2013 (R26); citable for window mechanics (30 continuous
+  days back from last transaction), no-tip-off (4j), liaison 15-day notice (4g),
+  red-flag catalogs (12-18, case-creation never auto-report). Current reglamento
+  + UIF forms = SOQ-27 acquisition.
+- **S5 prep (controller-executed, c75610c):** master index extended with clusters
+  **C1-C10** + rulings **R25/R26** + **SOQ-22..29** (incl. SOQ-28 retention-matrix
+  reconciliation CC vs AML vs DTE = S5 synthesis deliverable; SOQ-23 SAS law;
+  SOQ-25 Ley Registro de Comercio).
+- **Quincena-25 retry (same session): D.O. `/seleccion` route STILL 500 server-wide**
+  (all Ids; API listing works; Id 31679 = 14-01-2026 volume confirmed). Keep retrying.
+- Periodic checks: MH formularios unchanged (F14-V17-1 2026/06; no v17 manual —
+  SOQ-09 open); factura.gob.sv /downloads no longer exposes wpdmdl links in raw
+  HTML (JS-driven) — re-verify IDs before reuse.
+
 ### GT / HN
 Scaffolded only (READMEs, sources/scripts/requirements dirs, topic sets; hn
 has no e-invoicing). No sources collected yet. GT gets FEL (SAT), HN fiscal
@@ -493,6 +541,16 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
     implement invariant with negative AC; 01's crosscheck-OQ family resolved
     in-wave by 08 §3.2.
 
+### W10/S5-prep rulings (2026-08-18; recorded in master index Section B)
+31. **R25/R26:** 15_'s registry title was a mislabel — content = **Ley Contra el
+    Lavado de Dinero y de Activos, D. 498/1998** (third title-vs-content incident
+    after 29_/09_; row amended). 17_ reglamento (D. 2-2000) is PRE-REFORM: its
+    colones ¢500k threshold + 3-días-hábiles clock are superseded by 15_ Art. 9
+    ($10k/$25k + 5 días hábiles, post D.L. 568-2013); 17_ citable ONLY for window
+    mechanics (rolling 30-continuous-days-back-from-last-transaction anchor),
+    no-tip-off, liaison notice, and red-flag catalogs; current reglamento
+    acquisition queued (SOQ-27).
+
 ### Standing policies
 - Evidence-based answers only; RAG (NotebookLM) is validator, never source
   (notebook `c7ca0391-4822-4d3c-8090-b0d8c147ba94`, owner
@@ -597,20 +655,28 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
     acquisitions 59_-64_ + S3 synthesis (208 FRs, 8 files + index + CSV). See §3 S3 section.
 5. **S2 remaining waves** (each: extraction → evidence → synthesis):
     (a) **Quincena-25 acquisition retry FIRST** (D.L. 499, D.O. 14-ene-2026,
-    volume Id 31679 — the `/seleccion` route was 500ing server-wide
-    2026-08-18; number it 66 on acquisition; then payroll/08 OQ-002 +
-    fiscal-reporting SOQ-09 unblock); (b) commercial-legal (07_/15_/17_) →
-    special-regimes (12_/13_/14_/17b_/42_/43_; D.L. 598-2020 + EVID-167 tail
-    laws) → NIIF/chart-of-accounts (32_/33_; consumes 06's register
-    interface); (c) IVA-core taxation files still owed (01_ cited in S1;
-    02_ Reglamento unread; the R/S and IVA-retention cross-refs from S3's
-    01/04 files land there) — fold into a later taxation wave.
+     volume Id 31679 — the `/seleccion` route was 500ing server-wide
+     2026-08-18 both sessions; number it 66 on acquisition; then payroll/08 OQ-002 +
+     fiscal-reporting SOQ-09 unblock); (b) **S5 commercial-legal synthesis READY**
+     (W10 evidence + C1-C10 clusters + SOQ-22..29 in master index; run the SOQ-22
+     post-2008 CC reform verification first, opportunistically SOQ-23/25/27
+     acquisitions — SAS law, Ley Registro de Comercio, current AML reglamento);
+     then special-regimes (12_/13_/14_/17b_/42_/43_; D.L. 598-2020 + EVID-167 tail
+     laws) → NIIF/chart-of-accounts (32_/33_; consumes 06's register
+     interface + C3 NIC anchor); (c) IVA-core taxation files still owed (01_ cited in S1;
+     02_ Reglamento unread; the R/S and IVA-retention cross-refs from S3's
+     01/04 files land there) — fold into a later taxation wave.
 6. **SOQ follow-ups**: taxation — SOQ-02 ($1,600 proration quincenal/semanal; MH
     guidance), 03 OQ-009 (vintage straddle; watch MH guidance); fiscal-reporting —
     **SOQ-08** (due-day windows: extract the calendar's visual layer or find the
     schedule instrument), **SOQ-09** (watch MH for the F-14 v17 manual/plantilla +
     acquire the Quincena-25 law), SOQ-13 (F-935 donantes-locales CT anchor — CT
-    matrix pass), SOQ-14 (F-950 frequency).
+    matrix pass), SOQ-14 (F-950 frequency); commercial-legal — **SOQ-22** (CC
+    post-2008 reform verification — run FIRST at S5 synthesis prep), SOQ-23 (SAS
+    law), SOQ-25 (Ley Registro de Comercio + Reglamento), SOQ-26 (interés-legal
+    rate instrument = dated config), SOQ-27 (current AML reglamento + UIF forms),
+    SOQ-28 (retention matrix CC-vs-AML-vs-DTE = S5 FR), SOQ-29 (colones remnants
+    discipline).
 7. **Externally-blocked OQs** (check factura.gob.sv periodically): Retorno/
     OpEsp endpoints (MOQ-05 — 52_-schema absence verified 2026-08-17; 03
     OQ-006, 02 OQ-003); CAT-024 vs Cuadro-2 taxonomy confirmation. When new
