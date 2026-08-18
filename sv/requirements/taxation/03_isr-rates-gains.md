@@ -114,8 +114,7 @@ unconstitutional (`01_isr-framework.md` §2; R21).
   not duplicated here. (LB-001; LB-002; EVID-163/095; R20)
 - **SV-TAX-FR-075:** The system shall compute ISR for non-domiciled
   natural persons, sucesiones and fideicomisos as a flat 30% on their
-  renta neta o imponible (no brackets, no deductions beyond the ordinary
-  determination). (LB-003; EVID-163)
+  renta neta o imponible (no brackets). (LB-003; EVID-163)
 - **SV-TAX-FR-076:** The system shall exclude from the ISR computation
   base — both the Art. 37 progressive table and the Art. 41 flat rates —
   every rent that was subject to *retención definitiva* (definitive
@@ -548,10 +547,11 @@ are stable unindexed amounts in the current text (OQ-003).
   (FR-084).
 - **AC-013:** Given a 2025 capital loss of $8,000.00 declared on the DGII
   form, 2026 capital gains of $5,000.00 and 2027 capital gains of
-  $2,000.00, then 2026 nets to zero gain (tax $0) leaving $3,000.00
-  carried, 2027 nets to $1,000.00 taxable at 10% ($100.00), and any
-  remainder expires after 2030; the ledger blocks applying the loss
-  against ordinary income in every year (FR-085).
+  $4,000.00, then 2026 nets to zero gain (tax $0) leaving $3,000.00
+  carried, 2027 nets to $1,000.00 taxable at 10% ($100.00) with the loss
+  exhausted, and any unused remainder would expire after 2030 (5-year
+  window); the ledger blocks applying the loss against ordinary income in
+  every year (FR-085).
 - **AC-014:** Given an ordinary-income loss of $12,000.00 in 2025 and
   ordinary renta imponible of $30,000.00 in 2026, then the 2026
   liquidation ignores the 2025 loss entirely (no general NOL) (FR-086).
