@@ -425,19 +425,19 @@ tier/surcharge/window values are STATIC law (SOQ-21 vintage watch).
   PROPORTIONAL vacation pay for those 8 months is paid — both as the
   sole Art. 188 exceptions (FR-051, FR-052).
 - **AC-006:** Given one worker hired 10-December-2022 and another
-  hired 15-December-2022, both employed at the 2025 aguinaldo paid
-  15-December-2025, then the first takes the 19-day tier (exactly
-  3 years of service at payment) and the second the 15-day tier
-  (2y11m) — each at minimum quantum = tier × daily base (FR-053;
+  hired 20-December-2022, both employed at the 2025 aguinaldo paid
+  15-December-2025, then the first takes the 19-day tier (3 years
+  and 5 days of service at payment) and the second the 15-day tier
+  (2y11m25d) — each at minimum quantum = tier × daily base (FR-053;
   the Dec-12-alternative reading recorded as OQ-003).
-- **AC-007:** Given a worker hired 1-April-2026 with 255 countable
-  days (240 worked + 15 vacation/license days per Art. 203),
+- **AC-007:** Given a worker hired 1-April-2026 with 254 countable
+  days (239 worked + 15 vacation/license days per Art. 203),
   terminated 10-December-2026 with employer responsibility, then
   the Art. 202 termination proration pays
-  (255 ÷ 365) × 15 × daily base at termination — outside the
+  (254 ÷ 365) × 15 × daily base at termination — outside the
   12-20-December window as the FR-056 exception; had the employment
-  survived to 12-December, the same quantum would pay under Art. 197
-  inside the window (FR-054, FR-058, FR-059).
+  survived to 12-December, the same proportional computation would
+  apply under Art. 197 inside the window (FR-054, FR-058, FR-059).
 - **AC-008:** Given two same-seniority same-base colleagues, one
   with recorded unjustified absences and an active disciplinary
   sanction, then both receive the IDENTICAL gross aguinaldo prima —
