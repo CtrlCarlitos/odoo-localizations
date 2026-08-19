@@ -220,9 +220,12 @@ unencoded configuration.
   stamped on payslip lines — the vacation period, commissions and
   sales percentages are IN; occasional gratuities/bonuses, the
   aguinaldo, viáticos/representation allowances and legal social
-  benefits are OUT): the IBC builder sums the flagged lines and
+  benefits are OUT, and the Quincena-25 — 66_ Art. 1; SV-PAY-FR-141;
+  LB-kin of this row's LB-007 exclusion list via `04_statutory-
+  benefits.md` LB-025, arriving through the matrix row, never
+  restated here): the IBC builder sums the flagged lines and
   RESTATES none of the matrix. (LB-007; EVID-197; cross-ref
-  SV-PAY-FR-004)
+  SV-PAY-FR-004, SV-PAY-FR-141)
 - **SV-PAY-FR-076:** The system shall floor the IBC at the worker's
   current legal monthly SMM — the dated sector row loaded from
   `02_minimum-wage.md`'s sidecar `smm_2025.csv` per its SV-PAY-FR-011

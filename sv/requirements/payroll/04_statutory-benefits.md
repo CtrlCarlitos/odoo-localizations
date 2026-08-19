@@ -1,4 +1,4 @@
-# SV — Payroll — Statutory benefits: vacaciones and aguinaldo (labor computation + by-reference interfaces)
+# SV — Payroll — Statutory benefits: vacaciones, aguinaldo and Quincena Veinticinco (labor computation + by-reference interfaces)
 
 | Field   | Value |
 |---------|-------|
@@ -10,8 +10,8 @@
 
 ## 1. Purpose
 
-This file defines the two statutory annual benefits of Salvadoran
-labor law: the *vacaciones* (annual vacation) engine of Código de
+This file defines the statutory annual benefits of Salvadoran labor
+law: the *vacaciones* (annual vacation) engine of Código de
 Trabajo (Labor Code, CT) Arts. 177-189 — 15 days after one year of
 continuous work remunerated at the ordinary salary of the period PLUS
 a 30% surcharge (Art. 177), the non-extension rules for
@@ -32,7 +32,22 @@ engine of Arts. 196-203 — the annual prima with seniority tiers of
 for workers under one year at 12-December (197), the Art. 199 base,
 the 12-20 December payment window (200), the no-disciplinary-
 forfeiture invariant (201), termination proration before 12-December
-(202) and the justifiable-absence days that count as worked (203).
+(202) and the justifiable-absence days that count as worked (203);
+and the *Quincena Veinticinco* (special-law annual complement)
+engine of Ley Especial Quincena Veinticinco, D.L. 499 (effective
+14-ene-2026) — the annual complementary income paid inside the
+15–25 January window at 50% of the monthly *salario básico o
+nominal* perceived at materialization, gated to a monthly salario
+básico o nominal of ≤ US$1,500.00 (Arts. 1-2), eligibility
+MIRRORED from the aguinaldo / compensación-adicional-en-efectivo
+requirements of each sector regime (the Art. 2 cross-reference —
+requirements mirrored, the benefit never equated; §3.2 consumed by
+reference), the termination proportional right (Art. 3 [printed
+"Art. 5" — sic]), the 2026 public-mandatory / private-voluntary
+transitory split becoming mandatory for ALL employers from 2027
+(Art. 6), and the paid-in-full invariants — no retention of any
+kind, no SS/pension cotización, never a calculation base of
+another prestación, *inembargable* (Arts. 1/4).
 The file also records the ISR/IBC/*salario* interfaces — strictly BY
 REFERENCE: the exento/gravado split and vintages (taxation/04
 SV-TAX-FR-120), the extraordinary-remuneration aggregation and
@@ -66,7 +81,10 @@ stamps (1)-(22) — SOQ-21/OQ watch); pensions interface = 09_ (Ley
 Integral del Sistema de Pensiones, D.L. 614); ISR interface anchors
 consumed from the S2 files by FR id (54_ Ley ISR / 53_ D.E. 10-2025);
 SMM feed consumed from `02_minimum-wage.md`'s sidecar by FR id (16_
-Decreto 11-2025).
+Decreto 11-2025); Quincena Veinticinco = 66_ (Ley Especial Quincena
+Veinticinco, D.L. 499, D.O. N° 8 T.450 14-ene-2026 — the law,
+current, effective on publication 14-ene-2026; official DGII OCR'd
+copy — LB quotes reproduce its print).
 
 | ID | Citation (Spanish) | English translation | Source file | Location |
 |----|--------------------|---------------------|-------------|----------|
@@ -94,6 +112,10 @@ Decreto 11-2025).
 | LB-022 | Código de Trabajo, Art. 119 (final clause): "ni tampoco las prestaciones sociales de que trata este Código" constitute salario — interface anchor only; the matrix is OWNED by `01_salary-model.md` SV-PAY-FR-004 and consumed by reference | Salario interface: the CT statutory social benefits (vacaciones, aguinaldo among them) are NOT *salario* for CT purposes — the CT exclusion never propagates to the ISR base, which uses its own remuneraciones-gravadas concept | `sv/sources/11_Codigo_Trabajo.pdf` | Art. 119 p.31 (EVID-201/204; via 01 FR-004 matrix) |
 | LB-023 | Ley ISR, Art. 4 num. 16 + D.E. 10-2025, Arts. 1 f)/g): aguinaldo exempt up to TWO SMM of the commerce-and-services sector, excess retained DEDUCTING the floor (stamp (23) = D.L. 458-2019; R22 — vintages 2014-2018 full exemption, 2021 $1,100, 2022-2024 $1,500, 2025+ standing 2-SMM); aguinaldo = extraordinary remuneration aggregated per Art. 1 g) and entering the June/December recálculo per Art. 1 f) — interface anchors OWNED by `taxation/04_isr-withholding.md` (SV-TAX-FR-120 split/vintages; SV-TAX-FR-116 aggregation; SV-TAX-FR-110/111 recálculo) and consumed by reference | ISR interface by reference: the exento/gravado split, the retention vintages and the recálculo mechanics are taxation-owned; this file supplies only the gross prima and the payment date | `sv/sources/54_Ley_ISR_consolidada_DO79_T447_2025-04-30.pdf` + `sv/sources/53_Tablas_Retencion_ISR_DE10_2025.pdf` | Art. 4.16 p.7 (EVID-165); Arts. 1 f)/g) (EVID-158/159; via taxation/04 LB-004/LB-010/LB-011) |
 | LB-024 | Decreto 11-2025, Art. 2, comercio y servicios sector row (monthly SMM $408.80, valid_from 2025-06-01) — interface anchor only; the dated VALUE is OWNED by `02_minimum-wage.md`'s sidecar `smm_2025.csv` (loaded per its SV-PAY-FR-011; sector pinning per its SV-PAY-FR-022) and consumed by reference, never restated as a constant of this file | The 2-SMM aguinaldo floor's SMM value is dated data from the Task-2 sidecar row (floor 2 × $408.80 = US$817.60 while that vintage is operative); re-seeded per SMM decree | `sv/sources/16_Salarios_Minimos_2025.pdf` | Art. 2 p.20 (EVID-191; via 02 smm_2025.csv) |
+| LB-025 | Ley Especial Quincena Veinticinco (D.L. 499), Art. 1: "'Quincena Veinticinco' ... consiste en un ingreso complementario, que deberá pagarse entre el quince y el veinticinco de enero de cada año, a partir del año dos mil veintisiete, a todos los servidores públicos, personal civil o militar al servicio de la Administración Pública, a los empleados municipales, así como a los empleados y trabajadores del sector privado. La Quincena Veinticinco es un beneficio económico de carácter especial que debe ser pagado de forma integra y sin ningún descuento a los sujetos beneficiados, independiente del salario ordinario, aguinaldo, compensación adicional en efectivo y de otras prestaciones laborales... y no formará parte de la base de cálculo de otras prestaciones, por lo que no sera objeto de ninguna clase de retención. Consecuentemente, el ingreso complementario Quincena Veinticinco... en ningún caso deberá ser objeto de retención ni descuento alguno por concepto de aportes u otras obligaciones de Seguridad Social o del Régimen Previsional." | The Quincena Veinticinco is a complementary income paid between 15 and 25 January of each year from 2027, to ALL public servants, civil/military personnel of the Administración Pública, municipal employees and private-sector employees/workers; a special-character economic benefit paid IN FULL and without any discount, INDEPENDENT of ordinary salary, aguinaldo, compensación adicional en efectivo and other labor benefits; it never forms part of the calculation base of other prestaciones, is never subject to any retention, and in no case to retention nor deduction of any kind for SS or Régimen Previsional contributions | `sv/sources/66_Ley_Quincena25_DL499.pdf` | Art. 1, Arts. 1-3, 5-6 pp.2-6 (EVID-236) |
+| LB-026 | Ley Especial Quincena Veinticinco, Art. 2: "La cantidad gue deberá pagarse en concepto de Quincena Veinticinco, será del cincuenta por ciento (50%) sobre el salario básico o nominal mensual que cada uno de los sujetos beneficiados esté percibiendo al momento en que la prestación se materialice... y solo será aplicable para aquellos trabajadores cuyo salario básico o nominal mensual sea igual o Inferior a mil quinientos dólares de los Estados Unidos de América." (elegibilidad = mismos requisitos que aguinaldo/compensación adicional en efectivo per sector regime, "sin que ello implique equiparar"; public sector + municipalities must be "laborando para la entidad pública correspondiente al momento de materializarse el pago"; special-regime institutions: Ley Compensación Adicional supletoria) | Quincena amount = 50% of the monthly *salario básico o nominal* each beneficiary is perceiving at the moment the prestación materializes, applicable ONLY to workers whose monthly salario básico o nominal is ≤ US$1,500.00 (the law's printed constant — its OWN base, not the CT 119 salario integrante); eligibility requirements = the SAME as the aguinaldo/CAE of the worker's sector regime ("without this implying an equation" — requirements mirrored, the benefit never equated); public-sector/municipal workers must be laborando for the corresponding entity at the moment of payment; special-regime institutions follow the Ley Compensación Adicional supletoria | `sv/sources/66_Ley_Quincena25_DL499.pdf` | Art. 2, Arts. 1-3, 5-6 pp.2-6 (EVID-236) |
+| LB-027 | Ley Especial Quincena Veinticinco, Art. 3 [printed "Art. 5" — sic; positional attribution per the evidence OQ-1, carried as this file's OQ-006] (gloss-level per EVID-236): Condición especial — a worker terminated with employer responsibility or *despido de hecho* before or on 25-January retains the right to the benefit, proportional per the aguinaldo/CAE proportional rules | Termination before or on 25-January with employer responsibility or de-facto dismissal preserves a PROPORTIONAL right to the Quincena, computed per the aguinaldo / compensación-adicional-en-efectivo proportional rules (the §3.2 kin, consumed by reference) | `sv/sources/66_Ley_Quincena25_DL499.pdf` | Art. 3 [printed Art. 5], Arts. 1-3, 5-6 pp.2-6 (EVID-236) |
+| LB-028 | Ley Especial Quincena Veinticinco, Art. 6 (transitory): public sector 2026 = mandatory (budget modifications); "En el caso del sector privado, para el año dos mil veintiséis, el pago de la Quincena Veinticinco... tendrá carácter voluntario para los patronos, debiendo realizarse en su caso, a mas tardar el veinticinco de enero de dos mil veintiséis. Los patronos que realicen voluntariamente el pago referido... tendrán derecho a un crédito tributario acreditable contra el pago del Impuesto sobre la Renta del ejercicio fiscal dos mil veintiséis, por el monto total pagado" | 2026 transitory split: public sector MANDATORY (budget modifications); private sector VOLUNTARY, any voluntary payment falling due at the latest 25-January-2026, voluntary payers earning a tax credit for the FULL amount paid against FY-2026 ISR (credit mechanics = taxation-owned, SV-TAX-FR-174 cited by id); from 2027 the payment is mandatory for ALL employers public and private (Art. 1) | `sv/sources/66_Ley_Quincena25_DL499.pdf` | Art. 6, Arts. 1-3, 5-6 pp.2-6 (EVID-236/237) |
 
 Version regime (D12): NO dated data is owned by this file — the SMM
 feed lives in `02_minimum-wage.md`'s `smm_2025.csv` (SV-PAY-FR-011,
@@ -103,7 +125,12 @@ tiers, the 30% surcharge, the 200-day gate, the scheduling windows,
 the December window and every other value cited here are STATIC law
 (CT Arts. 177-203); the CT text basis is the Índice Legislativo
 edition (stamps through (22), no as-of date — SOQ-21 watch, kin of
-file 01's OQ-001).
+file 01's OQ-001). Exception (S6): the Quincena-25 US$1,500.00 gate
+is D.L. 499's printed constant (66_ Art. 2; EVID-236) and the
+Quincena regime flag is configuration DATED BY EJERCICIO (2026
+public-mandatory/private-voluntary split, 2027+ mandatory — 66_
+Art. 6; FR-140); both are cited from 66_ (current, effective
+14-ene-2026), never restated as undated constants of this file.
 
 ## 3. Functional Requirements
 
@@ -310,6 +337,64 @@ file 01's OQ-001).
   `08_isr-interfaces.md`, fiscal-reporting/06-07) read the matrix
   flags stamped on these lines. (LB-021; LB-022; EVID-197/201/204)
 
+### 3.4 Quincena Veinticinco (D.L. 499)
+
+- **SV-PAY-FR-138:** The system shall compute, for every eligible
+  worker, the annual Quincena Veinticinco benefit as FIFTY PERCENT
+  of the monthly *salario básico o nominal* the worker is perceiving
+  at the moment the prestación materializes — the law's OWN base
+  (salario básico o nominal, NOT the CT 119 *salario integrante*;
+  the law names its base), gated to workers whose monthly salario
+  básico o nominal is ≤ US$1,500.00, and shall schedule payment
+  inside the ANNUAL WINDOW of 15 through 25 January (payment lines
+  dated outside the window raise a compliance flag; sole exception
+  the FR-139 termination prorations, paid at termination) — the
+  line classifies per the canonical matrix of
+  `01_salary-model.md` SV-PAY-FR-004 (quincena_25 row, consumed by
+  id); the gate threshold is the law's printed constant as dated
+  data (D12, §2 exception), never an invented or re-derived value.
+  (LB-026; LB-025; EVID-236)
+- **SV-PAY-FR-139:** The system shall derive Quincena eligibility
+  by MIRRORING the aguinaldo / compensación-adicional-en-efectivo
+  requirements of the worker's sector regime — the law's express
+  cross-reference, "sin que ello implique equiparar": requirements
+  mirrored, the benefit NEVER equated (the aguinaldo rules of §3.2
+  are consumed by reference, never re-implemented): the
+  continuous/durational gates per §3.2 FR-053/FR-054 kin; the
+  Art. 203 countable days of FR-059 apply to the proportional
+  numerators; public-sector and municipal workers must be
+  *laborando* for the entity at the moment of payment;
+  special-regime institutions follow the Ley Compensación Adicional
+  supletoria; and a worker terminated with employer responsibility
+  or *despido de hecho* before or on 25-January retains a
+  PROPORTIONAL right computed per the aguinaldo/CAE proportional
+  rules (66_ Art. 3 [printed Art. 5 — sic]; positional attribution
+  per the evidence OQ-1, carried as this file's OQ-006).
+  (LB-027; LB-026; EVID-236; cross-ref FR-053..059)
+- **SV-PAY-FR-140:** The system shall drive the Quincena payment
+  duty by a DATED regime flag (D12): ejercicio 2026 = public sector
+  MANDATORY (budget modification) / private sector VOLUNTARY — a
+  voluntary private payment falling due at the latest
+  25-January-2026 and carrying the employer tax credit owned by
+  `taxation/01_isr-framework.md` SV-TAX-FR-174 (cited by id, never
+  restated here); from ejercicio 2027 = MANDATORY for ALL
+  employers, public and private (66_ Art. 1 "a partir del año dos
+  mil veintisiete"); the flag is configuration dated by ejercicio
+  (l10n_sv.pay.quincena.regime, §4), never a global constant.
+  (LB-028; EVID-236/238)
+- **SV-PAY-FR-141:** The system shall enforce the Quincena payment
+  invariants: the benefit is paid IN FULL — NO ISR retention, NO SS
+  or pension cotización, NO deduction or discount of any kind
+  attaches to the Quincena line; it NEVER enters the calculation
+  base of any other prestación (the aguinaldo daily base FR-055,
+  the vacaciones base FR-047, the indemnización bases of
+  `07_contracts-termination.md` FR-105, the SMM-derived gates) nor
+  the SS IBC (`05_social-security-contributions.md` FR-075); and it
+  is *inembargable* (66_ Art. 4); the not-in-any-base invariant is
+  verified as a NEGATIVE test (AC-014) — every base and the IBC
+  compute exactly as if the Quincena were absent.
+  (LB-025; LB-027; EVID-236)
+
 ## 4. Data Model
 
 Layer semantics: payroll is Odoo-native — all entities below live in
@@ -317,7 +402,10 @@ the client (wave default `odoo`; see §5). No sidecar lives next to
 this file: the only dated data consumed is the SMM feed owned by
 `02_minimum-wage.md` (`smm_2025.csv` rows, SV-PAY-FR-011) and the
 ISR vintages owned by `taxation/04_isr-withholding.md`
-(SV-TAX-FR-120) — both consumed by FR id.
+(SV-TAX-FR-120) — both consumed by FR id; the Quincena-25 regime
+flag is configuration dated BY EJERCICIO owned by this file (FR-140)
+and its US$1,500.00 gate is 66_'s printed constant (FR-138) — no
+sidecar rows, per the §2 exception.
 
 **Vacaciones engine:**
 
@@ -351,6 +439,17 @@ ISR vintages owned by `taxation/04_isr-withholding.md`
 | l10n_sv.pay.aguinaldo | exempt_floor_smm_row | m2o (dated data) | the `smm_2025.csv` comercio_y_servicios month row via 02 FR-011/FR-022; floor = 2 × row value at runtime | FR-060 |
 | hr.payslip.line (both benefits) | matrix flags | stamped (from 01 FR-004) | vacation: IBC in · gravada · G; aguinaldo: IBC out · split_exento_gravado · J/K | FR-062 |
 
+**Quincena Veinticinco engine (D.L. 499):**
+
+| Entity | Field | Type | Catalog / values | Reference |
+|--------|-------|------|------------------|-----------|
+| l10n_sv.pay.quincena.regime (new, config) | ejercicio · regime | integer/select | regime: mandatory (2027+ ALL employers) · voluntary_2026 (private-sector 2026 opt-in) · public_2026 (public-sector 2026 mandatory) — computed by ejercicio per 66_ Art. 6, never a global constant | FR-140 |
+| l10n_sv.pay.quincena.regime | payment_window | date range (derived) | 15–25 January of each ejercicio; outside-window lines = compliance flag (termination prorations excepted) | FR-138 |
+| hr.salary.rule (quincena category) | existing matrix flags only — NO new rule fields | stamped (from 01 FR-004) | sv_pay_earning_class = quincena_25; every other classification rides the 01 matrix row consumed by id | FR-138, FR-141 |
+| hr.payslip.line (quincena) | amount · base · gate_provenance | monetary/select (computed) | 0.5 × monthly salario básico o nominal at materialization; gate ≤ US$1,500.00 (66_ Art. 2 printed constant, D12); base = the law's own, never CT 119 integrante | FR-138 |
+| l10n_sv.pay.quincena (eligibility) | eligible · proportional | boolean (by reference) | §3.2 mirroring (FR-053..059 kin); laborando-at-payment flag for public/municipal workers; Ley Compensación Adicional supletoria routing for special-regime institutions | FR-139 |
+| termination flow (hr.departure) | sv_pay_quincena_proration | monetary (computed) | proportional right on employer-responsibility / despacho de hecho before or on 25-Jan, per the aguinaldo/CAE proportional rules; paid at termination | FR-139 |
+
 ## 5. Odoo Mapping
 
 Layer semantics for this wave: payroll is Odoo-native (hr /
@@ -382,6 +481,10 @@ required beyond the dated-data regime below.
 | FR-060 | odoo | l10n_sv.pay.aguinaldo | gross supply + floor provenance | Split/vintages = SV-TAX-FR-120 (by reference); floor = 2 × smm_2025.csv comercio row (02 FR-011/FR-022); F-14 J/K via SV-FREP-FR-143/144 |
 | FR-061 | odoo | hr.payslip.line | extraordinary tag + payment date | Aggregation/recálculo = SV-TAX-FR-116/110/111 (by reference; 53_-owned) |
 | FR-062 | odoo | hr.payslip.line (stamped flags) | matrix consumption | Vacation: IBC in/gravada/G; aguinaldo: IBC out (14.b)/split/J-K; matrix owner 01 FR-004 |
+| FR-138 | odoo | hr.payslip (computation) + hr.payslip.line | 0.5 × salario básico o nominal; ≤ US$1,500.00 gate | Law's own base (never CT 119 integrante); gate = 66_ printed constant (D12); 15–25 Jan window compliance check; class per 01 FR-004 quincena_25 row (by id) |
+| FR-139 | odoo | l10n_sv.pay.quincena + hr.departure flow | eligibility mirroring | §3.2 FR-053..059 consumed by reference; laborando-at-payment (public/municipal); Art. 3 [printed Art. 5 — sic] proportional right before/on 25-Jan |
+| FR-140 | odoo | l10n_sv.pay.quincena.regime | regime select by ejercicio | mandatory (2027+) · voluntary_2026 · public_2026; voluntary due ≤ 25-Jan-2026 + SV-TAX-FR-174 credit (by id); never a global constant |
+| FR-141 | odoo | hr.payslip.line (invariants) + salary-rule gating | paid-in-full / not-in-any-base | No retention/cotización/deduction line; never in FR-047/FR-055/07-FR-105 bases nor the IBC (05 FR-075); inembargable (66_ Art. 4); negative AC test |
 
 Version-regime notes (D12): no dated values live in this file. The
 SMM feed re-seeds per SMM decree (owned by 02's sidecar — the
@@ -389,6 +492,11 @@ comercio-y-servicios row driving the 2-SMM floor); the aguinaldo
 exemption vintages re-key per transitory law (owned by taxation/04
 SV-TAX-FR-120 — SOQ-05 re-verification rides its OQ-003); the CT
 tier/surcharge/window values are STATIC law (SOQ-21 vintage watch).
+Exception (S6): the Quincena-25 regime flag re-keys by ejercicio
+(2026 split / 2027+ mandatory — FR-140 configuration) and the
+US$1,500.00 gate stands as 66_'s printed constant (FR-138); the
+15–25 January window and the 50% quantum are STATIC law of D.L. 499
+(effective 14-ene-2026).
 
 ## 6. Acceptance Criteria
 
@@ -459,6 +567,36 @@ tier/surcharge/window values are STATIC law (SOQ-21 vintage watch).
   14.b), ISR split_exento_gravado (SV-TAX-FR-120), F-14 J/K; both
   prestación_social and NOT salario per CT 119 — flags consumed
   from `01_salary-model.md` SV-PAY-FR-004, never restated (FR-062).
+- **AC-011:** Given a worker whose monthly salario básico o nominal
+  is US$1,500.00 in January 2027 (mandatory ejercicio), then the
+  Quincena Veinticinco benefit = 50% × 1,500.00 = US$750.00
+  scheduled inside 15–25 January 2027; a same-window colleague at
+  US$1,500.01 generates NO entitlement line at all — the gate is
+  the printed ≤ US$1,500.00 constant with no boundary rounding
+  (FR-138).
+- **AC-012:** Given a worker hired 1-November-2026 continuously
+  employed to 25-January-2027 (under one year of service), then
+  the eligibility mirror grants a PROPORTIONAL Quincena right
+  computed per the §3.2 aguinaldo proportional mechanics
+  (FR-054/FR-059 kin — countable days ÷ denominator × the 50%
+  benefit); and a same-schedule worker dismissed *despido de
+  hecho* 10-January-2027 retains the proportional right (66_
+  Art. 3 [printed Art. 5 — sic]) (FR-139).
+- **AC-013:** Given a private employer in ejercicio 2026 WITHOUT
+  the voluntary opt-in, then NO Quincena accrual exists
+  (voluntary_2026 regime is opt-in only); with the opt-in, the
+  payment is scheduled ≤ 25-January-2026 and the employer credit
+  feed of `taxation/01_isr-framework.md` SV-TAX-FR-174 activates
+  (asserted by id, never restated); the same employer in ejercicio
+  2027 accrues MANDATORILY with no opt-in (regime = mandatory)
+  (FR-140).
+- **AC-014:** Given a worker with an ordinary salary, an accrued
+  aguinaldo and a Quincena Veinticinco line of US$750.00, then the
+  aguinaldo daily base (FR-055) and the SS IBC
+  (`05_social-security-contributions.md` FR-075) compute EXACTLY as
+  if the Quincena were absent (before/after delta = zero), and NO
+  retention, cotización or deduction line of any kind appears
+  attached to the Quincena line (FR-141; negative test).
 
 ## 7. Open Questions
 
@@ -469,3 +607,4 @@ tier/surcharge/window values are STATIC law (SOQ-21 vintage watch).
 | OQ-003 | Aguinaldo tier measurement date: Art. 197 fixes 12-December only for the <1-year proportional right; Art. 198's tiers say "tuviere" without a date. FR-053 measures seniority at the payment date (per cluster P5); an anniversary falling 13-20 December would flip the tier under that reading but not under a Dec-12 measurement. Corpus-silent; default = payment date. | no | Takumi S4 (labor ruling watch) | open |
 | OQ-004 | Aguinaldo proportional denominator: Art. 197 says "parte proporcional al tiempo laborado" without a denominator (365 calendar days? días laborables of the year?); FR-054/FR-058 default to 365. Consistent market practice in SV payroll; no corpus norm pins it. | no | Takumi S4 (payroll config) | open |
 | OQ-005 | SOQ-05 carried (via taxation/04 OQ-003): does a 2025/2026 aguinaldo transitory exist capping the Art. 4.16 2-SMM exemption at a fixed $-figure? The 54_ related-laws tail lists none after D.L. 159-2024 → SV-TAX-FR-120's 2025+ standing-2-SMM row stands; this file re-verifies at encoding time and owns only the SMM feed provenance (the 02 sidecar row — never the split, which is taxation-owned). | no | Takumi S4 (sources watch) | open |
+| OQ-006 | 66_ print article numbering [sic]: "Art. 5." prints twice (Condición especial + Compatibilidad); the Condición especial (the termination proportional right of FR-139) is cited as Art. 3 POSITIONALLY — sequence 1-9 inferred from Art. 9 = Vigencia last, and the guía cites Art. 4 = Tratamiento fiscal explicitly (matches). Pin the numbering from a cleaner D.O. print if the /seleccion route recovers (volume Id 31679) — evidence OQ-1 carried. | no | Takumi S4 (sources watch) | open |
