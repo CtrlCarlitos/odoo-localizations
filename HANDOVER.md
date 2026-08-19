@@ -910,6 +910,29 @@ all countries.
     by live posted records or filed snapshots. D15(c) ledger line amended
     accordingly; guide + template §5 cite D18.
 
+### D19 go-live/cut-over rulings (2026-08-19, owner brainstorm session)
+48. **D19 cut-over mechanics + go-live-readiness doc (owner-approved after
+    3 amendment rounds):** (a) posting tiers — closed items GL-neutral via
+    config migration/clearing account (XML-ID default), open items real
+    (subledger ↔ `00/ZZ` control accounts, config w/ XML-ID defaults,
+    matching suppressed, payments route to control); (b) legacy amounts
+    VERBATIM (Odoo matches legacy rounding; residuals absorb drift);
+    (c) sequence init via canceled GL-neutral **`is_sequence_init`**
+    records in LIVE journals (owner correction: NOT is_historical —
+    journal invariant forbids it; read-only flag, set only by server
+    action/special import) — sequences + range counters (CAI kin) derive
+    from imports, users never type first numbers; (d) straddle-filing
+    checkpoint = explicit deployment choice (predecessor-filed T2
+    snapshot vs Odoo-files-complete); (f) trial-balance ROUTING not
+    restriction (owner correction: TB lines post to real accounts
+    unrestricted; only control-set lines route to control accounts;
+    residual detection via control-account netting; consistency
+    validation only). Scope OUT: parallel-run tooling, decommission/
+    retention, rollback (logged). NEW shared/doc `go-live-readiness.md`
+    (universal concern catalog + SV/GT/HN registers seeded — verify at
+    each synthesis close). D18 amended (T3 elaborated; posting modes).
+    Guide + template §5 cite D19.
+
 ### Standing policies
 
 - Evidence-based answers only; RAG (NotebookLM) is validator, never source

@@ -184,6 +184,13 @@ the recommended grouper; suppress sequences/transmission/recompute, allow
 validate+post with original-date resolution); prior-FY filings import as
 frozen declaration snapshots; carryovers as dated rows; corrections via
 import-batch reversal or a single config-gated delete with audit trail.
-Requirements files
+**Cut-over mechanics (D19 + [go-live-readiness.md](go-live-readiness.md)):**
+closed items GL-neutral through a config migration account; open items real
+(subledger ↔ configurable control accounts w/ XML-ID defaults); trial
+balance dated at cut-over with control-account ROUTING + residual clearing;
+legacy amounts verbatim (Odoo matches legacy rounding); sequences + range
+counters initialized from canceled `is_sequence_init` imports (read-only
+flag, server-action-set, live journals); straddle-filing responsibility =
+explicit deployment checkpoint. Requirements files
 must record the version regime (version fields, effective dates, adaptation
 windows) wherever it affects an FR (template §5 notes, D12/D15/D16/D18).

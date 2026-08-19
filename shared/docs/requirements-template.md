@@ -78,6 +78,11 @@ filed-period protection, ingestion reconciliation). Mid-year go-live FRs
 historical journals (natural journal type), suppress/reallow semantics,
 tiered ingestion (straddle-FY detail / prior-FY declaration snapshots /
 balances / carryover rows), batch-reversal or config-gated deletion.
+Go-live/cut-over FRs must follow D19 + go-live-readiness.md: posting
+tiers (GL-neutral closed items / real open items via configurable
+control accounts with XML-ID defaults), verbatim legacy rounding,
+`is_sequence_init` sequence initialization, trial-balance routing, and
+the explicit straddle-filing checkpoint.
 ## 6. Acceptance Criteria
 
 Given/When/Then criteria. These are what Takumi must satisfy; each must be

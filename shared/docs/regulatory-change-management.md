@@ -410,6 +410,74 @@ completeness, never regulator truth. Two paths:
 - **Guard:** deletion by either path is BLOCKED when a live (non-historical)
   posted record or a filed declaration snapshot references the record.
 
+### D19 — Cut-over mechanics: posting tiers, config accounts, sequence-init records, straddle-filing checkpoint (decided 2026-08-19)
+
+Complements D18; operational catalog + country registers in
+[go-live-readiness.md](go-live-readiness.md). Scope ruling: parallel-run
+tooling, predecessor decommission/retention, and rollback doctrine are
+explicitly OUT of scope (logged there §5).
+
+**(a) Posting tiers at cut-over + config accounts.**
+- **Closed historical items** (paid/settled): GL-NEUTRAL report fuel —
+  posted net-zero against a single migration/clearing account with
+  tax-grid lines attached (report derivation: tax grids, annexes, annual
+  surfaces); P&L untouched; line granularity = full lines OR summary
+  lines, whatever the legacy export provides.
+- **Open items** (uncollected AR, unpaid AP, stock, bank): posted FOR
+  REAL — actual subledger account ↔ `00/ZZ`-style control-account pair;
+  matching stays suppressed (D18) — post-go-live payments on predecessor
+  items route to the control account.
+- **Opening trial balance**: dated AT CUT-OVER (not FY start), carrying
+  everything cumulative; closed history exists alongside it purely as
+  report fuel.
+- **Config, never hardcode (D19(a+)):** the migration/clearing account
+  and the control-account set are `res.config.settings` fields, each
+  defaulting to a module-data account created with a **stable XML ID**
+  (upgrade-safe): one clearing account + one control account per
+  subledger (AR/AP/Stock/Bank).
+
+**(b) Rounding.** Legacy amounts stored VERBATIM — never recomputed with
+Odoo rounding; Odoo matches the legacy system, not the reverse; the
+residual surface absorbs drift.
+
+**(c) Sequence initialization via import.** The last legacy document per
+(document type × establishment × point of sale) imports as a CANCELED,
+GL-NEUTRAL move in the LIVE journal carrying an **`is_sequence_init`**
+flag — NOT `is_historical` (those records live in live journals; D18's
+journal invariant forbids the historical flag there). `is_sequence_init`
+is READ-ONLY, settable ONLY by a server action or special import
+procedure (never by hand). Sequences AND authorization-range
+consumed-to counters (HN CAI kin) derive from these records; users never
+type first numbers. Mid-range continuation is the automatic outcome;
+fresh-range start remains a deployment choice.
+
+**(d) Straddle-filing checkpoint.** Both paths supported —
+predecessor-already-filed (declaration imports as a D18-T2 frozen
+snapshot; Odoo's first live filing = the next period) or unfiled (Odoo
+files the period complete from `is_historical` + live records). The
+choice is an EXPLICIT go-live checklist item, never implicit.
+
+**(f) Trial-balance ROUTING (not restriction).** A trial balance is
+complete by nature: every line posts to its own REAL account,
+unrestricted (assets, loans, equity, P&L — no allowlist, no import
+blocking). The **control-treatment set** (defaults: AR/AP/Inventory/Bank;
+extensible per company/customer) is the only special case: lines for
+those accounts ROUTE to their configured control accounts instead of the
+real subledger accounts, because their detail arrives separately via the
+open-items import. Residual detection falls out naturally: each control
+account nets trial-balance total against open-item imports; nonzero
+balance = drift (rounding/omissions) → surfaced and cleared per
+accountant instructions. The only validation is CONSISTENCY of
+treatment: a control-set line that posted direct to the real subledger
+account (bypassing the control account) would double-count once open
+items land — that is blocked/flagged.
+
+**D18 amendments flowing from D19:** T3 elaborated to the
+control-account pattern; `is_historical` gains the two posting modes
+(neutral report-fuel / open-item-real); matching stays suppressed for
+open items; sequence-init records are `is_sequence_init`, not
+`is_historical`.
+
 ## Q → D mapping
 
 | Question | Decision |
@@ -424,3 +492,4 @@ completeness, never regulator truth. Two paths:
 | Applicability windows (session 2026-08-19) | D15 |
 | Date-driven compliance (dated rates/forms/regimes, retro payroll, no past-dated transmission; GT-proposed, HN-amended) | D16 |
 | Mid-year go-live ingestion (is_historical, tiers, journal grouper, correction paths) | D18 |
+| Cut-over mechanics (posting tiers, config accounts w/ XML IDs, is_sequence_init, straddle checkpoint, TB routing) | D19 |
