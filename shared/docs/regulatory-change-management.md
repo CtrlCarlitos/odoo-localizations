@@ -210,7 +210,10 @@ every dated parameter** (tax rates, brackets, caps, SMM-indexed thresholds,
 regime schedules, sanction scales). Binding for all remaining synthesis
 waves (special-regimes, IVA-core, NIIF/COA) and retroactively consistent
 with S1–S6 output (no existing FR contradicts it; the S4/S6 dated-config
-disciplines are its precursors).
+disciplines are its precursors). **D16 (decided in parallel on the
+GT/HN branches, unified at the 2026-08-19 merge) is the cross-country
+mechanics canon of this same doctrine — cite D15+D16 together; country
+instantiations: GT D-GT10, HN D-H2/D-H3.**
 
 **(a) Mechanics — snapshot-on-write over dated rows.** Every legal parameter
 lives as a **dated row** (`valid_from`, open-ended `valid_to`; immutable once
@@ -273,40 +276,54 @@ Period already filed → original slip immutable + **delta/refund slip in the
 correction period computed with the ORIGINAL-period parameters** (D9/§3.11
 mirror; SS declaration corrections follow the same split).
 
-||||||| parent of 8304e06 (shared D13: date-driven compliance mechanics (approved); gt spec D-GT10 instantiates it; handover cross-refs)
-### D13 — Date-driven compliance mechanics (cross-country; proposed GT 2026-08-19, approved by product owner same day)
+### D16 — Date-driven compliance mechanics (cross-country; proposed as "D13" on gt-research 2026-08-19, approved by product owner same day; renumbered at the 2026-08-19 merge — D13/D14 already taken by the journal/establishment-model decisions in [odoo-localization-guide.md](odoo-localization-guide.md))
 
 Taxes, e-invoicing, filings, and payroll all carry dated applicability
-(vigencia). Odoo mechanics — binding for every country's synthesis (GT
-D-GT10 instantiates this; SV/HN files reference it at their next touch):
+(vigencia). Odoo mechanics — binding for every country's synthesis.
+**Complements D15** (D16 = mechanics canon; D15 = SV-anchored as-of doctrine
+with the anchor-date table, snapshot-on-write, history-import contract).
+Country instantiations: GT = D-GT10 (spec
+`docs/superpowers/specs/2026-08-18-gt-source-research-design.md`); HN =
+D-H2/D-H3 (`hn/EXTRACTION_PLAN.md`, `hn/HANDOVER.md`):
 
 1. **Dated rule rows.** Every externally-sourced normative datum — tax
    rates, retention tables/percentages, salario mínimo / wage tables, social
    security cuotas, ISR brackets, FEL/DTE Reglas-XSD-catalog versions, form
-   validities — is stored with `valid_from` (required), `valid_to`
+   validities, authorization ranges (HN: CAI) — is stored with `valid_from` (required), `valid_to`
    (nullable), and instrument provenance. Rate changes ADD rows; they never
    mutate history. Extraction sidecars carry these columns from day one.
 2. **Rule selection key.** The document's fecha de emisión (payslip período;
    declaration periodo) selects the in-force rule set ("rules at date D"
-   lookup), at posting AND at recomputation (corrections use the origin
-   period's rules where the law says so).
+   lookup = D15 anchor-date resolution). Unposted drafts re-resolve freely;
+   POSTED records carry D15 snapshots — recomputation of anything posted
+   (corrections, retro runs) always selects the ORIGIN period's rules.
 3. **E-invoicing: emission = certification timestamp.** No past-dated
    transmission (the DTE's legal timestamp is the certification moment).
    Drafts dated ≠ today are BLOCKED from transmission with guidance to the
    corrective path (current-dated NC/ND referencing the original, or
-   anulación within its window). History reconstruction (migration, paper
-   era) = accounting-only entries under a historical/non-transmittable
-   document class — never a DTE.
+   anulación within its window). Emission outside an authorization range's
+   vigencia (HN CAI kin) = HARD BLOCK, no override — the supervisor-override
+   variant was considered and rejected (HN D-H2, adopted cross-country).
+   History reconstruction (migration, paper era) = accounting-only entries
+   under a historical/non-transmittable document class — never a DTE
+   (D15(c)).
 4. **Payroll: fully retro-capable.** The payslip period selects wage floor,
    cuotas, retention tables, statutory-benefit parameters. Retroactive runs
    recompute with the ORIGINAL period's rates; corrections post in the
-   current period.
+   current period (SV adds hybrid-by-window: replace in place while the
+   declaration period is still open — D15(d)).
 5. **Filings: period rules + freeze-at-filing** (extends D9): a declaration
    for period P uses P's forms and windows; rectificativas file from the
-   frozen snapshot plus adjustment moves.
+   frozen snapshot plus adjustment moves. Filed periods are write-protected
+   (HN D-H2 kin).
 6. **Backdating UX.** Past date → period rules auto-selected;
    transmission-required actions blocked with explanation; accounting-only
    actions allowed with historical rates and an immutable audit note.
+7. **Go-live ingestion reconciles against FILED history** (HN D-H3,
+   adopted cross-country): imported historical detail/aggregates are
+   reconciled against the declarations actually FILED with the country's
+   authority (SAR in HN; MH in SV; SAT in GT) — discrepancies surface as
+   exceptions, never silently absorbed (extends D15(c)).
 
 ## Q → D mapping
 
@@ -320,5 +337,4 @@ D-GT10 instantiates this; SV/HN files reference it at their next touch):
 | Q6 maintenance model | D11 |
 | Q7 this repo | D12 |
 | Applicability windows (session 2026-08-19) | D15 |
-||||||| parent of 8304e06 (shared D13: date-driven compliance mechanics (approved); gt spec D-GT10 instantiates it; handover cross-refs)
-| Date-driven compliance (dated rates/forms/regimes, retro payroll, no past-dated transmission) | D13 |
+| Date-driven compliance (dated rates/forms/regimes, retro payroll, no past-dated transmission; GT-proposed, HN-amended) | D16 |

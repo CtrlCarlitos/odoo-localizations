@@ -65,11 +65,14 @@ use `odoo` / `saas` / `shared`; write `n/a` only with a justification line.
 Version-regime note (D12): any FR whose behavior depends on a spec version
 must record version + effective date + adaptation window in the Notes
 column — see [regulatory-change-management.md](regulatory-change-management.md) D7–D12.
-Applicability note (D15): any FR whose value/behavior depends on a dated
-legal parameter (rate, bracket, cap, SMM-derived threshold, regime schedule)
-must resolve it as-of the domain's anchor date, store the resolved value on
-the record (snapshot-on-write), and carry `valid_from/valid_to` rows for the
-parameter — see D15 and its anchor-date table.
+Applicability note (D15/D16): any FR whose value/behavior depends on a dated
+legal parameter (rate, bracket, cap, SMM-derived threshold, regime schedule,
+authorization range) must resolve it as-of the domain's anchor date, store
+the resolved value on the record (snapshot-on-write), and carry
+`valid_from/valid_to` rows for the parameter — see D15 (SV anchor table +
+history-import contract) and D16 (cross-country mechanics: dated rows,
+retro payroll with original-period rules, hard no-override emission block,
+filed-period protection, ingestion reconciliation).
 
 ## 6. Acceptance Criteria
 

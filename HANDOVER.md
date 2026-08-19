@@ -533,63 +533,44 @@ v19/v20, no F14 v17 manual); **UIF marco-legal hosts 74_ + "36-Ley-de-
 Simplificacion-Aduanera" — its AML "Reglamento" PDF = D. 2-2000 verbatim
 (duplicate of 17_; new D.L.-426 reglamento still absent — watch continues)**.
 
-### GT / HN
+### GT / HN — merged to main; branch-based country workflow (2026-08-19)
 
-**GT source-research phase COMPLETE 2026-08-18** (branch `gt-research`,
-worktree `.worktrees/gt-research`, NOT yet merged — merge at milestone by
-owner decision; see `docs/superpowers/specs/2026-08-18-gt-source-research-design.md`
-for decisions D-GT1..9). Corpus: 66 files + 2 schema dirs (registry in
-`gt/sources/README.md`; research record `gt/SOURCE_RESEARCH.md` with OQ1-16;
-pending owner-browser items `gt/DOWNLOAD_QUEUE.md` rev 5 — DCA: AG 256-2025
-salario 2026, D-78-89 bono 14, AML D-67-2001?/AG 75-2006?, ZF-successor check,
-post-2018 Ley IVA 27-92 [OQ10], D-6-2021 verify [OQ4]; SAT portal: LET
-IVA-general manual, form instructivos, calendario windows). Key GT facts:
-FEL = SAT XML standard + **certificadores** (18; TotalDoc = GRUPO CDS S.A.
-NIT 107902281, auth expires 02/12/2026); no "Anexo técnico" — equivalents =
-Reglas y validaciones v1.7.10 (Feb-2025) + Doc. Técnico Servicios + 26 XSDs +
-3 JSON catalogs (GitHub channel RATIFIED official, OQ1; cat.desa drift =
-OQ3); ISR today = LAT D-10-2012 (26-92 codification superseded); IVA
-retenciones = Dto 20-2006 + AG 425-2006 (NOT "2-2010" — rejected); ISR anual
-= SAT-1371 (2236 legacy, rejected); IGSS rates live in Res. 08-SGF/2026
-(OQ11); INTECAP = D-17-72; IRTRA = D-15-1928; SAT portal = Cloudflare-blocked
-to bots (acquisition via owner browser + Wayback-with-provenance per OQ2
-rulings); SAT mislabel incidents recorded (639-2011 under 639-2020 id;
-1218-duplicate under 1240 id — real 1240 acquired via digest-verified 2022
-captures). Design notes D-GT8 (`l10n_latam_invoice_document` one journal /
-multi-doc-type) + D-GT9 (sucursales/warehouses/cash registers → FEL
-establishment codes) binding for GT synthesis. **NEXT**: close queue-rev-5
-items → draft `gt/EXTRACTION_PLAN.md` Stage 0 → W1 evidence pass (FEL stack).
-HN: scaffolded only (READMEs, sources/scripts/requirements dirs, no
-e-invoicing), separate session working in `.worktrees/` per main-repo
-convention.
-### GT / HN — SEPARATE WORKTREES (do not work them here)
+**Both `gt-research` and `hn-research` were rebased onto main and
+fast-forward-merged 2026-08-19** (owner decision; policy honored: rebase
+then merge, no force-push — hn-research's rewritten remote ref was updated
+by delete + re-push, gt-research pushed for the first time). The
+cross-country decision sets were unified the same day (see §5 rulings
+42-43): **D15 (SV as-of doctrine) + D16 (GT-proposed date-driven
+mechanics, HN-amended) are the shared canon**; country instantiations GT
+D-GT10 / HN D-H2/D-H3 stay in their country docs.
 
-**GT and HN run in dedicated git worktrees/branches, NOT in this main
-workspace** (2026-08-18 note):
+**Country work model (binding from now on):**
+- **Every country works in its own branch + worktree; `main` is the
+  integration branch.** Worktrees: `.worktrees/gt-research`,
+  `.worktrees/hn-research`, `.worktrees/sv` (branch `sv-research`,
+  created 2026-08-19 — SV synthesis waves run there from now on; this
+  main workspace is used for integration/merges only).
+- Each country keeps its own cross-session memory INSIDE its tree:
+  `gt/HANDOVER.md`, `hn/HANDOVER.md`, and (for SV) this root HANDOVER
+  until SV work moves fully into the worktree. **Read the country
+  HANDOVER before any country work.** Their in-progress state is NOT
+  duplicated here.
+- Merge country branches to main at milestones by owner decision
+  (rebase-then-merge; never force-push; remote refs updated via
+  delete + re-push when history was rebased).
+- **Future countries: Colombia and Peru are planned** (owner, 2026-08-19;
+  not started). Bootstrap per the GT/HN pattern: country dir scaffold +
+  research spec in `docs/superpowers/specs/` + own HANDOVER + worktree.
 
-- `git worktree list` shows: `.worktrees/gt-research` (branch `gt-research`)
-  and `.worktrees/hn-research` (branch `hn-research`).
-- Each worktree keeps its OWN wave logs/registers/HANDOVER state — their
-  in-progress status is NOT tracked in this file. Before any GT/HN work (or
-  merge decisions), read their state with:
-  `git log --oneline main..gt-research` / `main..hn-research` plus the files
-  in the worktree (their own HANDOVER sections/logs).
-- As of 2026-08-18 both are FAR past scaffolding: gt-research ≈ W1-W5
-  complete (source acquisition engine: 36+ sources across payroll/fiscal
-  reporting/COA/special regimes; DCA/Wayback/SAT-portal queue discipline);
-  hn-research ≈ W1e (EVID-056+; Código Tributario + D.17-2010 family +
-  ISR tabla vintages evidence passes).
-- This main workspace stays sv-focused: no GT/HN edits land on `main` from
-  here. Worktree branches sync/merge to `main` by explicit decision when
-  their waves close (rebase-then-merge; never force-push).
-- Original scope note stands: GT gets FEL (SAT), HN fiscal reporting only
-  (no e-invoicing).
-||||||| parent of cc9e268 (gt milestone bookkeeping: README sources section + HANDOVER GT state (W1-W5 complete))
-
-### GT / HN
-Scaffolded only (READMEs, sources/scripts/requirements dirs, topic sets; hn
-has no e-invoicing). No sources collected yet. GT gets FEL (SAT), HN fiscal
-reporting only. Extractions begin after sv S2 or in parallel by decision.
+**State at merge:** GT = source-research phase COMPLETE (66 files + 2
+schema dirs; FEL stack, payroll, ZF/maquila, AML D-15-2026; decisions
+D-GT1..10; queue rev 5 open items in `gt/DOWNLOAD_QUEUE.md`; next = close
+queue → `gt/EXTRACTION_PLAN.md` → W1 evidence). HN = research + taxation
+core COMPLETE (100 registered files, EVID-001..071, 27 OQs open; decisions
+D-H1..D-H3; next per `hn/HANDOVER.md`). Shared docs adopted: D16 canon,
+`.gitattributes` byte-fidelity for gt/+hn/ sources (sv/ deliberately
+exempt — predates the rule), `.gitignore` evidence exceptions pattern for
+all countries.
 
 ## 4. How work is done here (process that has proven itself)
 
@@ -861,9 +842,31 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
     window:** period open → replace in place; filed → immutable original +
     delta slip in correction period under original rules. Retro-consistent
     with S1–S6 (S4/S6 dated-config disciplines were its precursors); template
-    §5 + guide updated; new OQ families recorded (straddle anchors;
-    pre-DTE import; physical-invoice gap).
+     §5 + guide updated; new OQ families recorded (straddle anchors;
+     pre-DTE import; physical-invoice gap).
 
+### Cross-country unification rulings (2026-08-19 merge session)
+43. **D16 canon + branch workflow (owner decisions at the gt/hn merge):**
+    (a) GT's branch-proposed "shared D13" (date-driven compliance mechanics)
+    became **D16** — renumbered (D13/D14 taken by journal/establishment
+    models), reconciled with D15 (D15 = anchor table + snapshot-on-write +
+    history contract; D16 = mechanics canon), and AMENDED with HN's
+    contributions promoted cross-country: hard no-override emission block
+    outside authorization-range vigencia (D-H2) + ingestion reconciliation
+    against previously-FILED declarations (D-H3, D16 ¶7). Template §5 +
+    guide cite D15+D16 jointly. (b) **Branch-based country workflow**: all
+    countries (incl. SV from now on — `.worktrees/sv`, branch
+    `sv-research`) work in branches/worktrees; main = integration; merges
+    at milestones, rebase-then-merge, never force-push; remote refs fixed
+    via delete + re-push after rebase. (c) `.gitattributes` byte-fidelity
+    extended to hn/ (sv/ deliberately exempt — predates the rule; needs a
+    byte-fidelity migration pass first). (d) Colombia + Peru planned as
+    future countries (not started). (e) gt-research + hn-research MERGED to
+    main 2026-08-19 (18 + 22 commits rebased; conflict surface: root
+    HANDOVER GT/HN section, shared decision doc D13-vs-D15, .gitignore EOF
+    union + one stale-line fix).
+
+### Standing policies
 
 - Evidence-based answers only; RAG (NotebookLM) is validator, never source
   (notebook `c7ca0391-4822-4d3c-8090-b0d8c147ba94`, owner
@@ -1031,8 +1034,12 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
     implementation; 02 OQ-009 (NRE fate — watch AT/45_ revisions); 06
     OQ-008 (D10 protocol guarantee FR wording, next 06 edit).
 9. **Deferred cleanups** (§9 below, batch them).
-10. **GT/HN bootstrap** when sv is sufficiently far along (GT sources first:
-    SAT/FEL normative; HN: SAR fiscal reporting).
+10. **GT/HN continuation — now branch-merged (2026-08-19):** research phases
+    are ON main; continue per `gt/HANDOVER.md` / `hn/HANDOVER.md` inside
+    their worktrees (GT: close queue rev 5 → EXTRACTION_PLAN → W1 evidence;
+    HN: per its HANDOVER next-actions). SV work moves to
+    `.worktrees/sv` (branch `sv-research`). **Colombia + Peru = future
+    countries** (bootstrap per the GT/HN pattern when started).
 
 ## 9. Deliberately deferred (CAN-STAND list)
 
@@ -1087,8 +1094,11 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
 
 1. Read §1–§8 of this file; read the documents in §2 in order.
 2. Confirm state: `git log --oneline -20`, `git status` (expect clean),
-   `ls sv/requirements/e-invoicing/` and `ls sv/requirements/commercial-legal/`
-   (10 files + index).
+   `git worktree list`, `ls sv/requirements/e-invoicing/` and
+   `ls sv/requirements/commercial-legal/` (10 files + index). SV synthesis
+   work happens in `.worktrees/sv` (branch `sv-research`); this workspace
+   is integration-only. For GT/HN: read `gt/HANDOVER.md` / `hn/HANDOVER.md`
+   in their worktrees first.
 3. Follow skills (brainstorming gate for new design work; SDD for plan
    execution; systematic-debugging for any investigation).
 4. Before ANY source citation: check authority order (§3) and COVERAGE.md.

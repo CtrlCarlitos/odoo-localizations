@@ -2,5 +2,9 @@
 
 # Source documents are preserved byte-identical to downloads — never
 # normalize line endings inside country sources (drift comparisons depend
-# on exact bytes; global core.autocrlf=input must not touch these)
+# on exact bytes; global core.autocrlf=input must not touch these).
+# sv/ predates this rule (files committed normalized) — extending -text
+# to sv/ would churn the whole registry; deliberate exception, do not
+# "fix" without a byte-fidelity migration pass.
 gt/sources/** -text
+hn/sources/** -text
