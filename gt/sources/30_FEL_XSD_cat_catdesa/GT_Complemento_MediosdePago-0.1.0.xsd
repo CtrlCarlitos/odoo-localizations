@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:cmdp="http://www.sat.gob.gt/face2/ComplementoMediosDePago/0.1.0" targetNamespace="http://www.sat.gob.gt/face2/ComplementoMediosDePago/0.1.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="MediosDePago">
+		<xs:annotation>
+			<xs:documentation>El presente complemento, debe incluirse únicamente en los documentos del tipo: Factura, Factura Cambiaria, Factura de Pequeño Contribuyente y Factura Cambiaria de Pequeño Contribuyente.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="TipoFormaPago" type="cmdp:TipoFormaPagoLista" minOccurs="1">
+					<xs:annotation>
+						<xs:documentation>Indica que medio de pago fue utilizado para cancelar el Gran Total del DTE, pueden ser utilizados varios en el complemento. Medio de Pago Sigla: * Tarjeta de Crédito - TC, * Tarjeta de Débito - TD, * Efectivo - EF, * Cheque - CH.</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="NumeroTransaccion" minOccurs="0">
+					<xs:simpleType>
+						<xs:annotation>
+							<xs:documentation>Describe el número de autorización del documento original, al que se le aplica la constancia que se está emitiendo.</xs:documentation>
+						</xs:annotation>
+						<xs:restriction base="xs:string">
+							<xs:maxLength value="36"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="FechaTransaccion" minOccurs="0">
+					<xs:simpleType>
+						<xs:annotation>
+							<xs:documentation>Fecha de transacción del pago del documento al cual se le está pagando.</xs:documentation>
+						</xs:annotation>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="\d{2}[/]\d{2}[/]\d{4}"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Monto" type="cmdp:NumerosDecimales" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Monto pagado con ese medio seleccionado.</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="Version" type="xs:decimal" use="required">
+				<xs:annotation>
+					<xs:documentation>Indica la versión de este complemento.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="NumerosDecimales" final="">
+		<xs:annotation>
+			<xs:documentation>Acepta cantidades mayores a 0</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="0"/>
+			<xs:fractionDigits value="10"/>
+			<xs:totalDigits value="22"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="TipoFormaPagoLista">
+		<xs:annotation>
+			<xs:documentation>Catálogo Tipo de aporte</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="2"/>
+			<xs:enumeration value="TC"/> <!-- Tarjeta de credito -->
+			<xs:enumeration value="TD"/> <!-- Tarjeta de Debito -->
+			<xs:enumeration value="EF"/> <!-- Efectivo -->
+			<xs:enumeration value="CH"/> <!-- Cheque -->
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

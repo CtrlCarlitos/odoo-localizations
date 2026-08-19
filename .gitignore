@@ -23,3 +23,6 @@ sv/.extractions/*
 !sv/.extractions/45_Anexos.digest.md
 gt/.extractions/
 hn/.extractions/
+
+# Manual-download inbox (unverified until page-1 read + registry)
+gt/sources/inbox/

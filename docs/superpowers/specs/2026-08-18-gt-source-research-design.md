@@ -132,16 +132,13 @@ Verdicts: **ACQUIRE** / **FLAG** (owner decision) / **REJECT** (+reason) /
 
 ## Open questions (owner rulings pending)
 
-1. **GitHub `notificacioneselectfel/Catalogo-FEL` as official channel** —
-   non-`.gob.gt` host but README claims SAT Gerencia de Informática
-   maintenance and SAT's own portal links it for every schema item. Ratify as
-   official (provenance-noted) or restrict to `.gob.gt` (cat.desa serves a
-   drifted subset)?
-2. **Acquisition route for portal-SAT PDFs under Cloudflare block** — Wayback
-   snapshots of official URLs (provenance-noted, flagged for re-verification
-   against live official copy) vs owner manual browser downloads vs both.
-3. **Schema drift (cat.desa vs GitHub)** — which revision do certificadores
-   validate against in production? Affects which copy is corpus authority.
+1. ~~GitHub ratification~~ **RESOLVED 2026-08-18**: ratified; both GitHub
+   (pinned SHA 961133c) and cat.desa acquired as `29_`/`30_`.
+2. ~~Portal PDF acquisition route~~ **RESOLVED 2026-08-18**: manual browser
+   downloads by owner; queue `gt/DOWNLOAD_QUEUE.md`; inbox-staged.
+3. **Schema drift (cat.desa vs GitHub)** — 8 of 17 shared files differ
+   (measured). Which revision do certificadores validate against in
+   production? Affects which copy is corpus authority.
 4. **"Decreto 6-2021"** — hypothesized e-invoicing mandate law, unverified on
    any official page. Do not cite until confirmed.
 

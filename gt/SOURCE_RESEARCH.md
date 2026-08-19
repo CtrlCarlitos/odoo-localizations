@@ -141,14 +141,19 @@ confirmation.
 
 ## Open questions / blockers
 
-1. **OQ1 (ruling)**: ratify GitHub `Catalogo-FEL` as official channel?
-   (SAT-linked + SAT-maintained per README; non-.gob.gt host). cat.desa
-   subset drifts from GitHub main.
-2. **OQ2 (ruling)**: acquisition route for portal-SAT PDFs (CF 403):
-   Wayback-of-official-URL with provenance + re-verify flag / owner browser
-   downloads / both.
-3. **OQ3**: which schema revision (cat.desa vs GitHub) does production
-   validate against? (certificador docs or SAT answer needed; ask TotalDoc.)
+1. ~~OQ1: ratify GitHub Catalogo-FEL as official?~~ **RESOLVED 2026-08-18
+   (owner)**: ratified — acquire BOTH GitHub (pinned SHA) and cat.desa;
+   registry carries both; drift tracked as OQ3. Done: `29_` + `30_` acquired.
+2. ~~OQ2: acquisition route for portal-SAT PDFs~~ **RESOLVED 2026-08-18
+   (owner)**: manual browser downloads by owner; queue at
+   `gt/DOWNLOAD_QUEUE.md` (01–28 + optional 31); inbox staging
+   `gt/sources/inbox/` (git-ignored until verified).
+3. **OQ3 (SHARPENED — material)**: cat.desa vs GitHub drift is 8-of-17 shared
+   files (measured 2026-08-18): GT_Documento-0.2.1 (52,176 vs 67,278 B),
+   Exportaciones, MediosdePago, PartidosPoliticos, AnulacionDocumento,
+   ExportacionProvisional (1 byte), catalogoMensajes, unidadesGravables;
+   plus 11 GitHub-only files + Frases 0.1.2-vs-0.6.0. Which set does
+   production validation use? → ask TotalDoc (partner) / SAT.
 4. **OQ4**: "Decreto 6-2021" — verify via DCA browser session; until then
    untouchable.
 5. **OQ5**: Reglas y validaciones current internal version + date — read
@@ -159,4 +164,14 @@ confirmation.
    (registry page re-check at milestone).
 8. **OQ8**: FELPLEX (utm_source seen) — unknown internal SAT/certifier
    portal; ignore unless it surfaces again.
+
+## Acquisition log
+
+- 2026-08-18 — `29_FEL_XSD_cat_github_961133c/` (25 XSD + 3 JSON, pinned
+  commit 961133c 2026-08-04) + `30_FEL_XSD_cat_catdesa/` (18 files, direct
+  download) acquired + PROVENANCE.md each + registry rows. Controller-side
+  verification: clone SHA checked; cat.desa files probed filename-by-filename
+  (misses recorded); byte-diff measured → OQ3.
+- 2026-08-18 — Manual queue (28 items + optional) handed to owner
+  (`gt/DOWNLOAD_QUEUE.md`); inbox/ staged + git-ignored.
 
