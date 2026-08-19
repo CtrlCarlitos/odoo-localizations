@@ -500,11 +500,28 @@ regime cutover 2025-10-17 dated rows + adaptation windows (2026-04-09/07-09/10-1
 rulings ×2 (71_ Art. 24's 24h over 72_ Art. 43's 5-días; ≥25% beneficiario-final over 72_'s
 10%) OQ-tracked. COVERAGE now 52 cited / 10 pending / 9 N/A / 1 superseded (72 rows);
 README commercial-legal → In review (draft, S5); master-index S5 DELIVERED + SOQ-28 closed.
-### GT / HN
+### GT / HN — SEPARATE WORKTREES (do not work them here)
 
-Scaffolded only (READMEs, sources/scripts/requirements dirs, topic sets; hn
-has no e-invoicing). No sources collected yet. GT gets FEL (SAT), HN fiscal
-reporting only. Extractions begin after sv S2 or in parallel by decision.
+**GT and HN run in dedicated git worktrees/branches, NOT in this main
+workspace** (2026-08-18 note):
+
+- `git worktree list` shows: `.worktrees/gt-research` (branch `gt-research`)
+  and `.worktrees/hn-research` (branch `hn-research`).
+- Each worktree keeps its OWN wave logs/registers/HANDOVER state — their
+  in-progress status is NOT tracked in this file. Before any GT/HN work (or
+  merge decisions), read their state with:
+  `git log --oneline main..gt-research` / `main..hn-research` plus the files
+  in the worktree (their own HANDOVER sections/logs).
+- As of 2026-08-18 both are FAR past scaffolding: gt-research ≈ W1-W5
+  complete (source acquisition engine: 36+ sources across payroll/fiscal
+  reporting/COA/special regimes; DCA/Wayback/SAT-portal queue discipline);
+  hn-research ≈ W1e (EVID-056+; Código Tributario + D.17-2010 family +
+  ISR tabla vintages evidence passes).
+- This main workspace stays sv-focused: no GT/HN edits land on `main` from
+  here. Worktree branches sync/merge to `main` by explicit decision when
+  their waves close (rebase-then-merge; never force-push).
+- Original scope note stands: GT gets FEL (SAT), HN fiscal reporting only
+  (no e-invoicing).
 
 ## 4. How work is done here (process that has proven itself)
 
