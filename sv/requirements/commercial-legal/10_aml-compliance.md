@@ -748,7 +748,7 @@ sidecar owns the values). No other dated values live in this file.
   72_-provenance row — no code change (FR-193, FR-214; OQ-001).
 - **AC-006:** Given a natural-person client whose last PEP position
   ceased on 2026-02-01, when PEP status is evaluated on 2030-06-01,
-  then the PEP flag is expired (cese + 5 years = 2031-02-01 not yet
+  then the PEP flag is not expired (cese + 5 years = 2031-02-01 not yet
   reached — flag still live); on 2031-06-01 it is expired; the client's
   spouse receives enhanced DD without a PEP flag (FR-205).
 - **AC-007:** Given a client legal person whose ownership chain shows a

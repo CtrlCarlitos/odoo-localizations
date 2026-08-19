@@ -283,7 +283,7 @@ the §3.7 matrix and never restated.
   any row; the Tier A local mirror satisfies row e's conservation and
   rows a/b's in-country posture (FR-020). (v) Sanction: Art. 451
   inciso 2 — the Registrador refuses or cancels the matrícula of
-  violators (cross-ref   SV-CML-FR-012).
+  violators (cross-ref SV-CML-FR-012).
   (LB-009; LB-011; LB-012; LB-013; EVID-215/244)
 - **SV-CML-FR-029:** The system shall compute and enforce per-object
   retention from the FR-028 matrix: every retained object (journal entry,

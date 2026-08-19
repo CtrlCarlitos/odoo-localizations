@@ -405,7 +405,7 @@ text under the SOQ-22 residual watch.
   granted functioning authorizations so their records cancel (tracking
   surface only — the oficios are registry-side); uncollected debts
   (civil, mercantile, TRIBUTARY or any nature) and unsold goods are
-  liquidated to the socios by CESSSION / DACIÓN EN PAGO pro-rata to
+  liquidated to the socios by CESSION / DACIÓN EN PAGO pro-rata to
   their shares, the liquidators effecting the tradition of dominio in
   the society's representation, the credit-cession notification
   publishable as an extract ONCE in TWO national dailies (its own
