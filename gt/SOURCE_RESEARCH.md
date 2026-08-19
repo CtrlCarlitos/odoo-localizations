@@ -156,27 +156,50 @@ confirmation.
    ExportacionProvisional (1 byte), catalogoMensajes, unidadesGravables;
    plus 11 GitHub-only files + Frases 0.1.2-vs-0.6.0. Which set does
    production validation use? → ask TotalDoc (partner) / SAT.
+   **W-GT1 additions (2026-08-19)**: full drift matrix + substantive
+   characterizations now in `gt/.extractions/29_30_FEL_XSDs_catalogs.evidence.md`;
+   NEW hard findings — GitHub's MediosdePago XSD is an uncompilable
+   TurismoPasaje overwrite (cat.desa copy coherent); catalogoMensajes drift
+   hides under an identical header date (RCP108/109 bodies swapped);
+   unidadesGravables PETROLEO 15/16 = different products/factors. GitHub =
+   working authority EXCEPT MediosdePago (use cat.desa there) until SAT answers.
 4. **OQ4**: "Decreto 6-2021" — verify via DCA browser session; until then
    untouchable.
-5. ~~OQ5: Reglas y validaciones current version~~ **PARTIALLY RESOLVED**:
-   acquired copy prints **v1.7.10, Febrero 2025** (146pp) with a "VERSIÓN
-   2.0" header — the two version strings must be reconciled in the evidence
-   pass (presumably content v2.0 / document revision 1.7.10).
-6. **OQ6**: doc-type abbreviations (FPEQ/FCEQ/RD…) — confirm inside Reglas
-   PDF; never hard-code from hearsay.
+5. ~~OQ5: Reglas y validaciones current version~~ **RESOLVED 2026-08-19
+   (W-GT1 evidence)**: content = **v2.0** — changelog row "2.0 19/12/2024,
+   vigencia abril 2025", 146pp, adds 5 DTE types (FEPE/FARP/FCRP/FPEC/FCPC,
+   Decreto 31-2024); the chain jumps 1.7.9→2.0 (no 1.7.10 row). "Versión
+   1.7.10 … 1 de 132 … Febrero 2025" = stale cover footer (residual OQ in
+   evidence: whether a 132-pp 1.7.10 interim ever existed). Cite as
+   "Reglas v2.0".
+6. ~~OQ6: doc-type abbreviations~~ **RESOLVED 2026-08-19 (W-GT1 evidence)**:
+   Reglas v2.0 §1.2 = 26 DTE types in 11 families (FACT, FCAM | FPEQ, FCAP |
+   FESP, NABN, RDON, RECI, FEPE | NDEB, NCRE | FACA, FCCA | FAPE, FCPE |
+   FAAE, FCAE | FARP, FCRP | FPEC, FCPC | CIVA, CAIS | NEV, RANT, FACP);
+   pre-v2.0 set = 21. Tension vs GitHub XSD (six types commented out there;
+   BIDP XSD-only) = evidence-file OQ.
 7. **OQ7**: Grupo CDS authorization expires 02/12/2026 — renewal watch
    (registry page re-check at milestone).
 8. **OQ8**: FELPLEX (utm_source seen) — unknown internal SAT/certifier
    portal; ignore unless it surfaces again.
 9. **OQ9**: casos-de-prueba ZIP (17_) is vintage 2018-05-30 — may lag
    current catalogs/Reglas v1.7.10; refresh candidate (SAT may distribute
-   test cases directly to certificadores now).
+   test cases directly to certificadores now). **W-GT1 (2026-08-19)**:
+   supersession watchlist now recorded — Reglas v2.0 supersedes the 2018
+   values on anulación window (→ IVA-declaration due date of emission
+   period), fecha-emisión 5-day rule scope, frase-tipo-4 scenarios (1–12 →
+   1–35), contingencia re-send timing; 17_ stays citable as historical
+   validation examples only.
 10. **OQ10**: **post-2018 reformed edition of Ley IVA 27-92 with Art.
     29-"A"** — 23_ is consolidated only through ~2012 (GFACE era); SAT
     removed the law from the portal; MINFIN/DCA/Congreso routes dead or
     JS-only. Interim legal basis = AD 13-2018 + 26-2019 + 15-2020 + the
     SAT-DSI incorporation chain. Hunt routes: DCA Edición Legal browser
     session (valid ≥17-12-2018), SAT re-publication request.
+    **W-GT1 PROVENANCE PINNED (2026-08-19, verbatim in 02_ considerando)**:
+    Art. 29-"A" was added to Dto. 27-92 by **Decreto 4-2019 (Ley para la
+    Reactivación Económica del Café), art. 6** — the consolidated-IVA hunt
+    now has an exact anchor. Full post-2018 text still missing (keep OQ).
 
 ## Acquisition log
 

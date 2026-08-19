@@ -21,7 +21,9 @@ sv/.extractions/*
 !sv/.extractions/*.evidence.md
 !sv/.extractions/00_MASTER_INDEX.md
 !sv/.extractions/45_Anexos.digest.md
-gt/.extractions/
+gt/.extractions/*
+!gt/.extractions/*.evidence.md
+!gt/.extractions/00_MASTER_INDEX.md
 
 # Manual-download inbox (unverified until page-1 read + registry)
 gt/sources/inbox/

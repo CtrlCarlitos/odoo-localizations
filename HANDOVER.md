@@ -576,10 +576,14 @@ D-GT10 / HN D-H2/D-H3 stay in their country docs.
   Bootstrap per the GT/HN pattern: country dir scaffold + research spec in
   `docs/superpowers/specs/` + own HANDOVER + worktree.
 
-**State at merge (2026-08-19):** GT = source-research phase COMPLETE (66 files + 2
-schema dirs; FEL stack, payroll, ZF/maquila, AML D-15-2026; decisions
-D-GT1..10; queue rev 5 open items in `gt/DOWNLOAD_QUEUE.md`; next = close
-queue → `gt/EXTRACTION_PLAN.md` → W1 evidence). HN = research + taxation
+**State at merge (updated 2026-08-19 W-GT1 close, branch-side):** GT =
+source research COMPLETE (82 entries + 2 schema dirs; decisions D-GT1..10)
+**+ EXTRACTION_PLAN approved + W-GT1 (FEL-stack evidence) COMPLETE** — 6
+evidence files committed (EVID-001..160; Reglas = v2.0, OQ5/OQ6 resolved,
+OQ3 drift matrix, mandate chronology, Dto. 4-2019 = IVA Art. 29-"A"
+provenance, D-GT9 establishment-field refinement — see `gt/HANDOVER.md`
+§5a); next = W-GT2 taxation-core evidence. Queue rev 6 in
+`gt/DOWNLOAD_QUEUE.md`. HN = research + taxation
 core COMPLETE (decisions D-H1..D-H3). Shared docs adopted: D16 canon,
 `.gitattributes` byte-fidelity for gt/+hn/ sources (sv/ deliberately
 exempt — predates the rule), `.gitignore` evidence exceptions pattern for

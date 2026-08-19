@@ -8,20 +8,20 @@ read-only.
 
 | File | Topic | Title | Issued | Retrieved | Provenance (URL) |
 |------|-------|-------|--------|-----------|------------------|
-| 01_AD_13-2018_FEL.pdf | e-invoicing | Acuerdo de Directorio 13-2018 — creates Régimen FEL (certified copy; in force 23-May-2018 per SAT) | 2018 | 2026-08-18 | https://portal.sat.gob.gt/portal/descarga/1897/normativa-sat/25094/acuerdo-de-directorio-13-2018.pdf |
+| 01_AD_13-2018_FEL.pdf | e-invoicing | Acuerdo de Directorio 13-2018 — creates Régimen FEL (certified copy 20-abr-2018; in force 23-May-2018 per SAT). **W-GT1: CONSOLIDATED edition — asterisks fold in 26-2019 + 15-2020 reforms; original 2018 wordings of reformed articles not in corpus** | 2018 | 2026-08-18 | https://portal.sat.gob.gt/portal/descarga/1897/normativa-sat/25094/acuerdo-de-directorio-13-2018.pdf |
 | 02_AD_26-2019_FEL_reformas.pdf | e-invoicing | AD 26-2019 — reformas al Régimen FEL (DCA gazette print N° 54, 27-nov-2019; scanned, OCR OK) | 2019 | 2026-08-18 | …/1897/normativa-sat/45898/acuerdo-de-directorio-26-2019-reformas-al-regimen-de-factura-electronica-en-linea-fel.pdf |
 | 03_AD_15-2020_FEL.pdf | e-invoicing | AD 15-2020 — reformas FEL; amplía requisitos Certificadores (DCA print N° 6, 25-nov-2020; scanned, OCR OK; cites Ley IVA Art. 29-"A") | 2020 | 2026-08-18 | …/1897/normativa-sat/49283/acuerdo-de-directorio-numero-15-2020.pdf |
 | 05_SAT-DSI-838-2019_fel_serv_prof.pdf | e-invoicing | Resolución SAT-DSI-838-2019 — incorpora servicios profesionales individuales (DCA print 11-sep-2019; scanned, OCR OK) | 2019 | 2026-08-18 | …/1897/normativa-sat/39867/… (verified: FEL+incorpora content present) |
-| 07_SAT-DSI-640-2020_fel_emisores_face.pdf | e-invoicing | Resolución SAT-DSI-640-2020 — incorpora emisores FACE (DCA N° 24, 30-jul-2020; scanned, OCR OK) | 2020 | 2026-08-18 | …/1897/normativa-sat/46215/… |
+| 07_SAT-DSI-640-2020_fel_emisores_face.pdf | e-invoicing | Resolución SAT-DSI-640-2020 — incorpora emisores FACE (DCA N° 24, 30-jul-2020; scanned, OCR OK). **W-GT1: file ALSO carries a 639-2020 DCA-print duplicate before 640-2020 — two resolutions in one file** | 2020 | 2026-08-18 | …/1897/normativa-sat/46215/… |
 | 08_SAT-DSI-887-2020_fel_baja_cuantia.pdf | e-invoicing | Resolución SAT-DSI-887-2020 — compra directa y baja cuantía (DCA N° 80, 19-oct-2020; scanned, OCR OK) | 2020 | 2026-08-18 | …/1897/normativa-sat/47495/sat-dsi-887-2020.pdf |
 | 09_SAT-DSI-398-2021_fel_proveedores_estado.pdf | e-invoicing | Resolución SAT-DSI-398-2021 — proveedores del Estado: proveedor único, arrendamiento, dragado (DCA N° 20, 10-may-2021; scanned, OCR OK) | 2021 | 2026-08-18 | …/1897/normativa-sat/51799/… |
 | 10_SAT-DSI-1074-2021_fel_salud.pdf | e-invoicing | Resolución SAT-DSI-1074-2021 — bienes/servicios de salud y asistencia social (DCA N° 34, 19-oct-2021; scanned, OCR OK) | 2021 | 2026-08-18 | …/1897/normativa-sat/57857/… |
-| 11_SAT-DSI-1218-2021_fel_contadores.pdf | e-invoicing | Resolución SAT-DSI-1218-2021 — peritos contadores, auditores y firmas contables (DCA N° 58, 24-nov-2021; scanned, OCR OK) | 2021 | 2026-08-18 | …/1897/normativa-sat/57856/… |
+| 11_SAT-DSI-1218-2021_fel_contadores.pdf | e-invoicing | Resolución SAT-DSI-1218-2021 — peritos contadores, auditores y firmas contables (DCA N° 58, 24-nov-2021; scanned, OCR OK). **W-GT1: file ALSO carries the full 1240-2021 text — same DCA page; root cause of the portal 1240↔1218 swap incident** | 2021 | 2026-08-18 | …/1897/normativa-sat/57856/… |
 | 13_SAT-DSI-1350-2022_fel_pequenos.pdf | e-invoicing | Resolución SAT-DSI-1350-2022 — incorpora Pequeños Contribuyentes del IVA (DCA N° 85, 17-oct-2022; scanned, OCR OK) | 2022 | 2026-08-18 | …/1897/normativa-sat/66005/… |
 | 14_SAT-DSI-400-2023_fel_pequenos_ampliacion.pdf | e-invoicing | Resolución SAT-DSI-400-2023 — ampliación pequeños contribuyentes (DCA N° 99, 31-mar-2023; scanned, OCR OK) | 2023 | 2026-08-18 | …/1897/normativa-sat/69739/… |
-| 15_FEL_Reglas_y_validaciones_v1.7.10_2025-02.pdf | e-invoicing | Reglas y Validaciones FEL, **v1.7.10 Febrero 2025** (146pp; header also prints "VERSIÓN 2.0" — evidence pass to reconcile; supersedes 1.7.9) | 2025-02 | 2026-08-18 | …/14852/reglas-y-validaciones/85864/reglas-y-validaciones-fel-3.pdf |
-| 16_FEL_DocTecnico_Servicios.pdf | e-invoicing | Documento Técnico Servicios SAT (SAT↔certificador webservice spec; 27pp — updated vs 20pp 2020 archive) | n/s | 2026-08-18 | …/6524/factura-electronica-fel/25830/documento-tecnico-servicios-sat.pdf |
-| 18_FEL_guia_requisitos_minimos.pdf | e-invoicing | Guía de requisitos mínimos en los DTE-FEL, representación gráfica (8pp) | n/s | 2026-08-18 | …/6524/factura-electronica-fel/77253/guia-de-requisitos-minimos-dte-2.pdf |
+| 15_FEL_Reglas_y_validaciones_v1.7.10_2025-02.pdf | e-invoicing | Reglas y Validaciones FEL — **content = v2.0** (changelog row "2.0 19/12/2024", vigencia abril 2025; 146pp, 26-DTE-type taxonomy). "Versión 1.7.10 … 1 de 132 … Febrero 2025" on the cover = **stale footer; filename encodes it**. Chain jumps 1.7.9→2.0 (no 1.7.10 changelog row). **Cite as "Reglas v2.0"** (W-GT1; OQ5 resolved) | 2024-12-19 (v2.0) | 2026-08-18 | …/14852/reglas-y-validaciones/85864/reglas-y-validaciones-fel-3.pdf |
+| 16_FEL_DocTecnico_Servicios.pdf | e-invoicing | Documento Técnico Informático para certificadores del Régimen FEL — **Versión 1.2, undated**; SAT↔certificador webservice spec (27pp; reception API postFactura/postAnulacionDTE + mini-RTU push; **references XSDs at -0.1.0 — predates the 0.2.1 set; desa URLs only**; W-GT1) | n/s | 2026-08-18 | …/6524/factura-electronica-fel/25830/documento-tecnico-servicios-sat.pdf |
+| 18_FEL_guia_requisitos_minimos.pdf | e-invoicing | Guía de requisitos mínimos en los DTE-FEL — **subject = graphic-representation display requirements (9 areas + auth block); NOT a software-certification guide; undated** (W-GT1 identity note) | n/s | 2026-08-18 | …/6524/factura-electronica-fel/77253/guia-de-requisitos-minimos-dte-2.pdf |
 | 22_FEL_autorizacion_certificador.pdf | e-invoicing | Procedimiento de Autorización del Certificador (42pp — updated vs 20pp archive) | n/s | 2026-08-18 | …/6524/factura-electronica-fel/80213/procedimiento-de-autorizacion-de-certificador.pdf |
 | 24_Reglamento_IVA_AG_5-2013.pdf | taxation | Reglamento de la Ley del IVA, Acuerdo Gubernativo 5-2013 (26pp, dated 4-ene-2013; considerandos cite Decretos 4-2012 + 10-2012) | 2013-01-04 | 2026-08-18 | …/1817/orientacion-legal-y-derechos-de-contribuyentes/53919/… |
 | 25_Codigo_Tributario_6-91.pdf | taxation | Código Tributario, Decreto 6-91 (95pp; **reform tail UNVERIFIED — check in Stage 1**) | 1991 (reforms?) | 2026-08-18 | https://portal.sat.gob.gt/portal/wpfd_file/codigo-tributario-decreto-numero-6-91 |
@@ -95,6 +95,11 @@ read-only.
 **Rejected at verification (2026-08-19, owner DCA batch)**: gtdcx73-2000 = D-73-2000 treaty approval (UN convention, narcotráfico/AML treaty — international instrument, off-scope); gtdcx00072000 = D-7-2000 aviation treaty approval (off-scope); gua67562 = Reglamento Ley SINAS food-security (off-scope); gtdcx20-2006 10pp scan + acuerdo_242-90 7pp = duplicates of 78_/68_ (fuller copies held); Manual-LET-Pequeño = md5-identical to 57_.
 
 Prefix `…` = `https://portal.sat.gob.gt/portal/descarga/`. "n/s" = not shown on doc/pages.
+
+**Instrument-type note (W-GT1)**: the 04_–14_ instruments self-identify as
+"RESOLUCIÓN DE SUPERINTENDENCIA" (Despacho del Superintendente) — the
+"Directorio Superior" expansion sometimes attached to "SAT-DSI" is wrong;
+cite as Resolución SAT-DSI-N-YYYY (Resolución de Superintendencia).
 
 **Numbering allocation (W1, 2026-08-18)**: 01–03 FEL acuerdos de directorio,
 04–14 incorporación resolutions SAT-DSI, 15 Reglas y validaciones, 16 Doc.

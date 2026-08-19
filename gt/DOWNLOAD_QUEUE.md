@@ -1,21 +1,24 @@
-# GT — Manual Download Queue (ruling OQ2) — rev 5
+# GT — Manual Download Queue (ruling OQ2) — rev 6
 
 Browser-only items remaining after W1–W5 automated acquisition. Drop files
 into `.worktrees/gt-research/gt/sources/inbox/` (any filename; I verify,
-rename, register).
+rename, register). Rev 6 (2026-08-19): struck rows delivered by the
+2026-08-19 owner DCA batch (37_/41_/75_/80_/81_ registered).
 
 ## A. legal.dca.gob.gt interactive search (Edición Legal — works in a real
 browser; "Búsqueda avanzada" → filters by organismo/tipo/año + texto)
 
 | # | Save as | Search |
 |---|---------|--------|
-| 37 | 37_Salario_Minimo_AG_256-2025.pdf | Acuerdos Gubernativos 2025 (dic-2025) — "256-2025" (salarios mínimos; amounts known: C1 3,791.20/4,002.28/3,409.73; C2 3,625.89/3,816.90/3,321.10 monthly, eff 2026-01-01) |
-| 41 | 41_Bono14_D78-89.pdf | Decretos 1989 — "78-89" (bonificación anual; Q250/mes rate already confirmed via DCA news) |
-| — | gt_sources_aml_ley.pdf (any name) | Decretos 2001 — "Lavado de Dinero" (expected Decreto 67-2001 — VERIFY identifier from the document itself) |
-| — | gt_sources_aml_reglamento.pdf | Acuerdos Gubernativos 2006 — "Lavado" (expected AG 75-2006 — verify) |
-| — | gt_sources_zf_successor.pdf | Decretos 2022 — "Zonas Francas" / "Exportación" (check whether Decreto 16-2022 exists; if only AG 65-2022 (reformas al reglamento) surfaces, grab that too) |
-| — | gt_sources_iva_27-92_post2018.pdf | Decretos 1992 → 27-92 — look for a consolidated edition listing reforms through ≥2018 (must include Art. 29-"A" FEL hook; closes OQ10) |
-| — | gt_sources_decreto_6-2021.pdf | Decretos 2021 — "6-2021" (verify existence + subject; OQ4) |
+| — | gt_sources_aml_reglamento.pdf | Acuerdos Gubernativos 2006 — "Lavado" (expected AG 75-2006 — verify; OQ14 also asks its post-D-15-2026 status) |
+| — | gt_sources_iva_27-92_post2018.pdf | Decretos 1992 → 27-92 — look for a consolidated edition listing reforms through ≥2018 (must include Art. 29-"A" FEL hook; closes OQ10; ideally through D-10-2025) |
+| — | gt_sources_decreto_19-2016.pdf | Decretos 2016 — "19-2016" (Ley Emergente de Modernización de la Zona Franca — the missing D-65-89 → D-6-2021 chain link) |
+
+Struck (delivered/resolved 2026-08-19): ~~37_ AG 256-2025~~, ~~41_ bono 14
+D-78-89~~, ~~AML ley D-67-2001~~ (= 75_), ~~ZF successor "D-16-2022"~~
+(hypothesis retired — no such replacement; AG 65-2022 = ZOLIC reglamento
+reformas, registered as 81_), ~~D-6-2021~~ (= 80_, verified ZF reform, not
+an e-invoicing mandate — OQ4 resolved).
 
 ## B. SAT portal (portal.sat.gob.gt — works in browser)
 

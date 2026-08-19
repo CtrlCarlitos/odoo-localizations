@@ -4,7 +4,9 @@ Execution plan per
 [shared/docs/requirements-extraction-procedure.md](../shared/docs/requirements-extraction-procedure.md)
 (Stage 0). Drafted 2026-08-19 from the completed source-research record
 (`gt/SOURCE_RESEARCH.md`, waves W1–W5 + owner DCA batches). **Status:
-DRAFT — awaiting owner review before W-GT1 starts.**
+APPROVED 2026-08-19** — owner review passed as-drafted (wave decomposition +
+reading order + drift stance); evidence files are COMMITTED work products
+(SV-style gitignore exceptions, owner ruling same day).
 
 ## Context
 
@@ -197,3 +199,27 @@ commit. Never leave a session with evidence unmerged. Update
 - 2026-08-19 — Stage 0 plan drafted (this file) from the completed
   research record; awaiting owner review of wave decomposition + reading
   order before W-GT1 begins.
+- 2026-08-19 — **Plan APPROVED by owner (as-drafted)**; W-GT1 launched.
+  Owner ruling: evidence files commit (gitignore exceptions added,
+  SV/HN pattern).
+- 2026-08-19 — **W-GT1 COMPLETE** (FEL stack, Stage 1 + Stage 2). Stage 1:
+  21 PDFs extracted (12 DCA prints via OCR spa) + 25 casos-de-prueba txts
+  unzipped. Stage 2 executed subagent-driven (6 reader agents, controller
+  spot-verified quotes + structure); 6 evidence files COMMITTED
+  (EVID-001..160, gaps 077-080): `29_30_FEL_XSDs_catalogs` (001-030),
+  `01-03_AD_FEL_legal_chain` (031-050), `04-14_SAT-DSI_incorporaciones`
+  (051-076), `17-22_31_FEL_manuales_casos_roster` (081-110),
+  `15_FEL_Reglas` (111-145), `16_FEL_DocTecnico` (146-160). Key outcomes:
+  **Reglas content = v2.0** (changelog 2.0 19/12/2024, vigencia abril 2025;
+  "1.7.10" = stale cover footer) — OQ5 resolved; **26-DTE-type taxonomy**
+  (11 families) — OQ6 resolved; full drift matrix + GitHub MediosdePago
+  defect — OQ3 sharpened; **Dto. 4-2019 art. 6 added IVA Art. 29-"A"**
+  (verbatim in 02_) — OQ10 provenance pinned; mandate chronology built
+  (régimen general ≤01-jul-2022, pequeño ≤01-jul-2023 per 400-2023);
+  **D-GT9 refinement: no taxpayer punto-de-emisión field exists —
+  establishment = Emisor/@CodigoEstablecimiento (1-9999) only, Dispositivo
+  = SAT-apps-exclusive; Serie/Numero UUID-derived post-certificación**;
+  Doc Técnico = v1.2 undated, SAT↔certificador surface only (provider-side
+  boundary for the product's TotalDoc integration). Registry amended
+  (01_/07_/11_/15_/16_/18_ notes + instrument-type note). OQ3/OQ5/OQ6/OQ9/
+  OQ10 statuses updated in SOURCE_RESEARCH.
