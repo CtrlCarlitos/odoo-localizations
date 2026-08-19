@@ -71,6 +71,49 @@ Consequences for requirements and modules:
   (sello, codigoGeneración, transmission state) lives in the SV EDI layer
   on top; `l10n_latam` supplies only the journal/document-type shape.
 
+### Establishment & point-of-sale model (D14 — binding, decided 2026-08-18)
+
+**Odoo warehouses map to *establecimientos* (sucursales); a *caja*
+(cash register / punto de venta) is a first-class mapping concept and IS
+part of the DTE number sequencing.**
+
+Corpus anchors (binding):
+
+- **numeroControl** (Normativa v2.0 Anexo IV N°5, via DG45 §3.1; 40_ Anexo 3
+  EVID-005 verbatim): 31 chars = `DTE-{tipo:2}-{establecimiento:4}{punto-de-venta:4}-{consecutivo:15}`.
+  Sección 3 = "código de Casa Matriz, sucursal o Agencia, Bodega y/o
+  Predio o Patio (4 dígitos)" — alphabet **M/B/S/P + 3 digits**;
+  positions 5–8 = "**P** + 3 dígitos" = the punto de venta (the caja);
+  sección 4 = 15-digit consecutive, **restarting each ejercicio**, unique
+  01-Jan–31-Dec.
+- **Emisor fields 24–27** (DG45 §3): `codEstablecimientoMH` (MH-assigned,
+  structure **M000/S000/B000/P000**; carried on Invalidación/Contingencia/
+  Retorno events), `codEstablecimiento` (internal, optional),
+  `codPuntoVentaMH`, `codPuntoVenta` (internal); CAT-009 *Tipo
+  establecimiento* classifies the establishment.
+
+Design consequences:
+
+- `stock.warehouse` (per-company) = the establecimiento unit: its MH code
+  (M/B/S/P + 3) feeds numeroControl sección 3 + `codEstablecimientoMH`.
+  Matriz/sucursal/agencia/bodega/predio-patio are warehouse-level
+  classifications, NOT separate journals (D13) — the two models are
+  orthogonal: (journal × document type) × (warehouse × establishment) ×
+  (caja × punto de venta) all key the sequence space.
+- The *caja* maps to the POS/cash-register register (e.g. `pos.config`
+  where Odoo POS is used; a lighter `l10n_sv` register entity otherwise),
+  feeding numeroControl positions 5–8 + `codPuntoVentaMH`.
+- **Sequencing granularity = (company, document type, establishment,
+  punto de venta):** the consecutive restarts yearly; the corpus pins
+  year-reset + calendar-year uniqueness of the full 31-char value.
+  Whether the 15-digit consecutive is partitioned per (establishment,
+  punto de venta) or global-per-type is not corpus-pinned — default
+  design: per (type, establecimiento, punto de venta) sequence (MH
+  practice; disclosed working assumption).
+- B2C echo: F-07 Anexo 2 groups physical tiquete ranges per **máquina
+  registradora** (fiscal-reporting F3) — the same caja identity surfaces
+  in sales-annex reporting.
+
 ## Version targeting (17 → 20)
 
 - Develop against the newest stable version first, then port. Most breakage
