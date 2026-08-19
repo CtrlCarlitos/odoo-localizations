@@ -42,18 +42,21 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
    source→wave mapping)
 9. `HANDOVER.md` (this file)
 
-## 3. Current state (2026-08-18)
+## 3. Current state (2026-08-19)
 
 ### Git / repo
 - Branch `main` only; remote `origin` = `git@github-CtrlCarlitos:CtrlCarlitos/odoo-localizations.git` (SSH alias `github-CtrlCarlitos` from `~/.ssh/config`); push after each wave; never force-push. `gh` CLI at `~/.local/bin/gh`, authenticated as CtrlCarlitos.
 - Commits are SSH-signed; local `%G?=N` is a verification-only artifact (`gpg.ssh.allowedSignersFile` unset) — signatures ARE present; don't chase it.
 - `.gitattributes`: `*.csv text eol=lf`.
-- Commits through `9bb37e9` (2026-08-18 5th session: W12 AML replacement `b4cd790`,
-  D13 `b8d0b77`, D14 `464574f`, S5 synthesis `4be0fca..6160bdf`, final fix wave
-  `46b649d` + residual `9bb37e9`; before that S6 close through `d3bf3bc`).
+- Commits through `cc7a307` (2026-08-19 6th session: D15 as-of doctrine;
+  before that `3929470` GT/HN worktree note and the W12+S5 close `260d039`/
+  `9bb37e9` per §3).
 
 ### El Salvador — sources & evidence state
-- **EVID corpus 001..250** (gaps 109-127, 240 reserved-unused). W12 file:
+- **EVID corpus 001..274** (gaps 109-127, 240 reserved-unused). W13 files (2026-08-19):
+  `12_Ley_Zonas_Francas` (EVID-251..258), `14_17b_Servicios_Internacionales`
+  (EVID-259..267), `13_42_43_74_Aduanas` (EVID-268..273),
+  `31_Guia_FOVIAL_COTRANS` (EVID-274). W12 file:
   `71-73_AML_DL426_Instructivo380_CCverify` (EVID-241..250). W11 file:
   `66-70_Quincena25` (EVID-236..239). W10 files:
   `07_Codigo_Comercio` (EVID-211..227), `15_Ley_Lavado_Activos` (EVID-228..231,
@@ -65,9 +68,10 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
   `29_F985_CNR_RegComercio` (EVID-172), `34_36_39_F07_v14` (EVID-173..179),
   `35_37_38_59_F14_v16_v17` (EVID-180..184), `30_Calendario_Tributario_2026`
   (EVID-185..186), `61-64_report_forms` (EVID-187..190); `60_DE10_...` (EVID-171).
-  **71 registered source files, numbering 01-73** (gaps 21/23/24/28; 65_ = F-11 v18;
+  **72 registered source files, numbering 01-74** (gaps 21/23/24/28;
   66_-70_ = Quincena-25 (W11); 71_ = D.L. 426 AML law, 72_ = UIF Instructivo 380,
-  73_ = CC verification copy (W12); next numbering = 74).
+  73_ = CC verification copy (W12); 74_ = Ley Simplificación Aduanera D. 529,
+  acquired W13 from uif.gob.sv; next numbering = 75).
 - Source registry carries: 29_ mislabel note; 38_/39_ current-form notes; 59_
   (F14 v17), 60_ (D.E. 10 gazette print), 61_-64_ (F910v9/F915v4/F930v3/F935v1)
   with provenance; 08_ law-level-rates-only note; 09_ D.L. 614 identity
@@ -500,6 +504,35 @@ regime cutover 2025-10-17 dated rows + adaptation windows (2026-04-09/07-09/10-1
 rulings ×2 (71_ Art. 24's 24h over 72_ Art. 43's 5-días; ≥25% beneficiario-final over 72_'s
 10%) OQ-tracked. COVERAGE now 52 cited / 10 pending / 9 N/A / 1 superseded (72 rows);
 README commercial-legal → In review (draft, S5); master-index S5 DELIVERED + SOQ-28 closed.
+### El Salvador — W13 special-regimes evidence pass + D15 (COMPLETE 2026-08-19, pushed; see §5 ruling 42)
+Sources read end-to-end + evidence **EVID-251..274** (4 files, 17 file-level OQs):
+12_ ZF (title mislabel fixed — content = "Ley de Zonas Francas Industriales y de
+Comercialización" D.L. 405-1998, consolidated through D.L. 318-2013) · 13_ LOA
+D. 903 (through 121-2012) · 14_ LSI D.L. 431 (2007) + 17b_ Reglamento D. 131
+(2008) · 31_ FOVIAL guide DG-002/2001 (COTRANS NOT covered — title defect,
+MOQ-04 half-open) · 42_ Panamá DUCA-F (SIECA 03-mar-2025) · 43_ DUCA Res.
+409-2018 · **74_ Ley de Simplificación Aduanera D. 529 ACQUIRED** (uif.gob.sv;
+through D.L. 23-2012; damaged PDF qpdf-repaired). Key encodings for S7:
+ZF ladders (usuario ISR 15/20y→60%→40%; municipal 100→90→75%; DPA 10/15y;
+dividends taxed from 13th ejercicio; requisitos 17-A/19-A; breach split);
+ZF aduanero clocks (12m improrrogable per DM; traslados 12/6/2m; TAN→ZF 0%
+IVA + Ley IVA 76/77 = Art. 25); LSI (indefinite ISR exemption; 1.5% ISR + 1%
+IVA local retentions Art. 8; **17b_ Art. 22 caps 50/40/30%**; 24m admisión
+temporal ≠ ZF; semestral auditor dictamen; 90% Salvadoran staffing);
+74_ (teledespacho chassis; presumed flete/seguro 1.25/1.50/10% FOB; **$18
+inspection tasa** + biennial ≤10%; courier $200/$3,000; 5y records +
+5y caducidad); DUCA 62-field contract (F = 30 días hábiles); FOVIAL
+$0.20/gal outside IVA base + B2B control-account chain. **Numbering next =
+75.** Acquisition gaps queued: Reglamento General ZF, **LESIA**, DUCA user
+manual, Ley Fondo Vial + COTRANS instrument, current consolidations for
+12_/13_/14_/17b_/74_, $18-tasa acuerdos. **Special-regimes synthesis (S7) is
+NEXT**: master-index clusters + SOQ register → plan → subagent wave; D15
+binding (per-acuerdo exemption rows; never global constants). External checks
+this session: D.O. /seleccion still 500; MH formularios unchanged (no F-11
+v19/v20, no F14 v17 manual); **UIF marco-legal hosts 74_ + "36-Ley-de-
+Simplificacion-Aduanera" — its AML "Reglamento" PDF = D. 2-2000 verbatim
+(duplicate of 17_; new D.L.-426 reglamento still absent — watch continues)**.
+
 ### GT / HN — SEPARATE WORKTREES (do not work them here)
 
 **GT and HN run in dedicated git worktrees/branches, NOT in this main
@@ -923,8 +956,10 @@ workspace** (2026-08-18 note):
       clusters + synthesis; hunt D.L. 598-2020 + Ley ZF reforms when official
       routes recover). **Binding: D15 as-of doctrine (§5 ruling 42) — the ZF/
       LSI/DPA exemption schedules are the canonical D15 consumers (per-acuerdo
-      dated rows + 60/40 phase-down ladders, never global constants); W13
-      evidence pass + 74_ acquisition in progress (see §3 W13 section).**
+      dated rows + 60/40 phase-down ladders, never global constants). **W13
+      evidence pass + 74_ acquisition COMPLETE 2026-08-19 (see §3 W13 section)
+      — S7 synthesis is the next concrete step (master-index clusters → plan →
+      subagent wave).**
       Then NIIF/chart-of-accounts (32_/33_; consumes 06's
       register interface + C3 NIC anchor + T3's Consejo-criteria OQ); (c) IVA-core
      taxation files still owed (01_ cited in S1; 02_ Reglamento unread; the R/S

@@ -4,9 +4,9 @@
 |---------|-------|
 | Country | sv |
 | Topic   | special-regimes |
-| Status  | pre-wave (no requirement files yet) |
-| Authors | Controller (wave-prep stub) |
-| Updated | 2026-08-18 |
+| Status  | evidence pass COMPLETE (W13, 2026-08-19) — synthesis pending |
+| Authors | Controller (wave-prep stub; W13 evidence) |
+| Updated | 2026-08-19 |
 
 This is a **wave-prep anchor stub, explicitly NOT a requirements file**:
 it carries no FRs, no LBs and no ACs of its own. It exists to hold the
@@ -20,14 +20,25 @@ between waves. Source-to-requirements coverage:
 Acquired sources earmarked for the wave (all currently `pending-S2+`
 in [../COVERAGE.md](../COVERAGE.md)):
 
-- [12_Ley_Zonas_Francas.pdf](../../sources/12_Ley_Zonas_Francas.pdf) — Ley de Zonas Francas y Recintos Comerciales (ZF; already kin-cited by `../fiscal-reporting/02_f07-annexes-sales.md` for the Anexo 2 export ZF tasa-0 bucket and `03` for the ZF/DPA tipo-11 purchases).
-- [13_Ley_Organica_Aduanas.pdf](../../sources/13_Ley_Organica_Aduanas.pdf) — Ley Orgánica de Aduanas (customs/export regime; DUCA kin).
-- [14_Ley_Servicios_Internacionales.pdf](../../sources/14_Ley_Servicios_Internacionales.pdf) — Ley de Servicios Internacionales (LSI).
-- [17b_Reglamento_Servicios_Internacionales.pdf](../../sources/17b_Reglamento_Servicios_Internacionales.pdf) — its Reglamento.
-- [42_Comunicado_Exportaciones_Panama.docx](../../sources/42_Comunicado_Exportaciones_Panama.docx) — exports comunicado (Panamá).
-- [43_DUCA_Instructivo_COMIECO.pdf](../../sources/43_DUCA_Instructivo_COMIECO.pdf) — DUCA instructivo (COMIECO).
-- [31_Guia_FOVIAL_COTRANS.pdf](../../sources/31_Guia_FOVIAL_COTRANS.pdf) — FOVIAL/COTRANS guide (the only corpus anchor for the casilla-525 credit pointers left open by `../fiscal-reporting/01_f07-declaration.md` OQ-003 and `05` OQ-003; the underlying laws are absent — MOQ-04).
+- [12_Ley_Zonas_Francas.pdf](../../sources/12_Ley_Zonas_Francas.pdf) — Ley de Zonas Francas Industriales y de Comercialización, D.L. 405 (consolidated through D.L. 318-2013; **READ W13** — EVID-251..258 in `sv/.extractions/12_Ley_Zonas_Francas.evidence.md`; already kin-cited by `../fiscal-reporting/02_f07-annexes-sales.md` for the Anexo 2 export ZF tasa-0 bucket and `03` for the ZF/DPA tipo-11 purchases — its Art. 25 is that 0%-IVA authority).
+- [13_Ley_Organica_Aduanas.pdf](../../sources/13_Ley_Organica_Aduanas.pdf) — Ley Orgánica de la DGA, D. 903 (through D.L. 121-2012; **READ W13** — EVID-268: institutional frame; ZF/DPA/parques inside the servicio aduanero).
+- [14_Ley_Servicios_Internacionales.pdf](../../sources/14_Ley_Servicios_Internacionales.pdf) — Ley de Servicios Internacionales, D.L. 431 (2007; **READ W13** — EVID-259..264: indefinite ISR exemptions; 1.5%/1% local-service retentions; 24-month admisión temporal).
+- [17b_Reglamento_Servicios_Internacionales.pdf](../../sources/17b_Reglamento_Servicios_Internacionales.pdf) — its Reglamento, D. 131 (2008; **READ W13** — EVID-265..267: **Art. 22 local-market caps 50/40/30%**; DGA inventory-report contract; semestral auditor dictamen).
+- [42_Comunicado_Exportaciones_Panama.docx](../../sources/42_Comunicado_Exportaciones_Panama.docx) — exports comunicado (Panamá; **READ W13** — EVID-273: DUCA-F SIECA transmission from 03-mar-2025).
+- [43_DUCA_Instructivo_COMIECO.pdf](../../sources/43_DUCA_Instructivo_COMIECO.pdf) — DUCA instructivo (COMIECO Res. 409-2018; **READ W13** — EVID-272: 62-field contract; DUCA-F 30 días hábiles).
+- [31_Guia_FOVIAL_COTRANS.pdf](../../sources/31_Guia_FOVIAL_COTRANS.pdf) — FOVIAL guide DG-002/2001 (the only corpus anchor for the casilla-525 credit pointers left open by `../fiscal-reporting/01_f07-declaration.md` OQ-003 and `05` OQ-003; **READ W13** — EVID-274: $0.20/galón outside IVA base; **COTRANS not covered — instrument still absent, MOQ-04 half-open**; underlying laws absent).
+- [74_Ley_Simplificacion_Aduanera_D529.pdf](../../sources/74_Ley_Simplificacion_Aduanera_D529.pdf) — **ACQUIRED+READ W13** (uif.gob.sv; EVID-269..271 in `sv/.extractions/13_42_43_74_Aduanas.evidence.md`): teledespacho chassis; presumed flete/seguro 1.25/1.50/10% FOB; $18 inspection tasa; 5-year caducidad/records.
 - **D.L. 598-2020** (Ley Especial y Transitoria sobre la Modalidad de Pago del ISR aplicable a pequeños contribuyentes, turismo, energía eléctrica, servicios de TV/internet/telefonía) + the **EVID-167 tail laws** (D.L. 95-2024 inmobiliarios en altura; 201-2025 Aeropuerto Internacional del Pacífico; 308-2025 Ley de Agentes Extranjeros; 386-2025 biogás Acelhuate; 411-2025 energía eléctrica universal access) — special-payment/incentive regimes named in the 54_ related-laws tail; **acquisition candidates**, not yet in corpus (see `sv/.extractions/54_Ley_ISR_consolidada_DO79_T447.evidence.md` EVID-167).
+- **Cross-cutting acquisition gaps surfaced by W13** (file OQs): Reglamento General Ley ZF (Art. 51); **LESIA** (Ley Especial para Sancionar Infracciones Aduaneras — cited by 12_/74_); DUCA user manual (mandatory fields); Ley Fondo de Conservación Vial D.L. 208-2000 + COTRANS instrument (31_ OQ-1/2); current-consolidation hunts for 12_/13_/14_/17b_/74_ (all end 2012-2013).
+
+## Binding decisions for the synthesis wave
+
+- **D15 as-of doctrine (§5 ruling 42, decided 2026-08-19)** — this wave is its
+  canonical consumer: ZF/LSI/DPA exemption schedules are per-beneficiary dated
+  rows (acuerdo D.O. date + location track + 60/40 phase-down ladders or
+  LSI indefinite-until-cessation rows, never global constants); the $18 tasa /
+  presumed flete-seguro / cap percentages / SMM-sanction values are dated
+  config rows with instrument provenance.
 
 ## W11 discoveries feeding the wave (by-id pointers)
 
