@@ -1,1 +1,6 @@
 *.csv text eol=lf
+
+# Source documents are preserved byte-identical to downloads — never
+# normalize line endings inside country sources (drift comparisons depend
+# on exact bytes; global core.autocrlf=input must not touch these)
+gt/sources/** -text
