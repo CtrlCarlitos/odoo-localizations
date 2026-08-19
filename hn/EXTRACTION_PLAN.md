@@ -21,7 +21,7 @@ Started 2026-08-19 (source-research pass complete). Status: active.
 | 4 | `05_Ley_Eficiencia` (D. 113-2011 cons.) | Impuesto mínimo (1.5% activo neto), 5% solidario, pagos a cuenta | whole | taxation |
 | 5 | `02_Ley_ISV` (D.L. 24 cons. D.L. 59-2022) | ISV 15%, base, exenciones Art. 15, débito/crédito, retenciones Art. 8 | Art. 1-8 core → taxation; Art. 15 exemptions → taxation; regimen simplificado → taxation | taxation, fiscal-reporting |
 | 6 | `03_Codigo_Tributario` (D. 170-2016 act. 2020) + `23_sentencia` | RTN, obligaciones, declaraciones, prescripción, sanciones, deberes formales; Art. 206 VOID | libros/deberes → all; sanciones → taxation; RTN → all | all |
-| 7 | `24/25/26/76/77/78` facturación stack + `18_compras_eventuales` | Régimen de facturación: documentos fiscales, imprentas, autoimpresores, autorizaciones, límites/validez, notificaciones | whole (consolidado 68 pp main) | e-invoicing |
+| 7 | `24/25/26/76/77/78` facturación stack + `18_compras_eventuales` | Régimen de facturación: documentos fiscales, CAI/rangos/vigencia, imprentas, autoimpresores (máquinas registradoras + sistemas computarizados specs), **Sistema de Emisión Electrónica + CAEE (Arts. 50-58)**, authorization procedure (Art. 59-61), compras eventuales | `24_` whole: T. I-II defs + documentos → T. IV medios (imprenta/autoimpresor/SEE) → T. V autorización → T. VI imprentas registro | e-invoicing |
 | 8 | `14/15/16/17` (DJIMR, DMC chain) + `19/20` (tarjetas/retenciones mods) | Monthly informativas: retenciones detail + compras detail; ISV card-retention procedure | whole each | fiscal-reporting |
 | 9 | `13_SAR-619` + `67_Ayuda_EEFF` | EEFF previo a DJ ISR (FY2024+) | whole | fiscal-reporting, chart-of-accounts |
 | 10 | `29-75` Ayuda/Generalidades (42 files) | Per-código declaration mechanics (102/103/106/107/111-138/152/154/201-217/259/502-545) + regime overviews | per-código, batched by family (ISR annual / retenciones / ISV / selectivo / contribuciones / informativas) | fiscal-reporting |
@@ -90,6 +90,12 @@ top, payroll parallel, facturación standalone):
 - **La Gaceta archive absent**: gazette originals only via SAR republications
   (fine — official copies with gazette numbers); pin publication dates from
   the PDFs themselves.
+- **SEE technical documentation absent**: the CAEE algorithm/specs and the
+  incorporation calendarización (Acuerdo 481-2017 Arts. 57-58) are not
+  publicly posted — SEE FRs can only cite the reglamento's own text until the
+  docs are acquired (open lead 1, RESEARCH.md §5). Hint-layer recollection
+  (CAI/ranges/expiry/overlap/exhaustion) is corpus-confirmed — see RESEARCH.md
+  §7; exhaustion-alert FRs are operational derivations, flag as such.
 - **LJT bill**: if passed, taxation core needs a supersession pass before
   synthesis — check status at wave start.
 
