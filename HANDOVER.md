@@ -43,7 +43,7 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
    source→wave mapping)
 9. `HANDOVER.md` (this file)
 
-## 3. Current state (2026-08-19)
+## 3. Current state (2026-08-20)
 
 ### Git / repo
 - Branch `main` only; remote `origin` = `git@github-CtrlCarlitos:CtrlCarlitos/odoo-localizations.git` (SSH alias `github-CtrlCarlitos` from `~/.ssh/config`); push after each wave; never force-push. `gh` CLI at `~/.local/bin/gh`, authenticated as CtrlCarlitos.
@@ -54,10 +54,15 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
   unification `5eb6d6b` → universalization + D17 + roadmap `b67dfa0` →
   D18 `4cd719a` → D19 + go-live-readiness.md `53edd55`; all pushed). **HN
   wave-2 merge 2026-08-20:** `hn-research` fast-forward-merged (`7fdacba` +
-  `92f35dd`, W1+W2 evidence EVID-001..185); main ahead of sv-research
-  (`01f04c9`) and gt-research (`2ad364e`) — those merge at their own
-  milestones. This HANDOVER update commits on main directly (integration
-  branch).
+  `92f35dd`, W1+W2 evidence EVID-001..185). **HN wave-3 merge 2026-08-20
+  (§4.6 protocol, first run):** `hn-research` rebased onto `c077455` (2
+  commits rewritten: `78082e3` HANDOVER-pointer + `c1f9fa8` W3 facturación
+  evidence EVID-186..214, D-H1 inputs evidence-complete) then
+  fast-forward-merged; remote branch ref updated via delete + re-push. HN =
+  taxation + fiscal-reporting + facturación evidence complete; next W4
+  payroll. Main ahead of sv-research (`01f04c9`) and gt-research
+  (`2ad364e`) — those merge at their own milestones. This HANDOVER update
+  commits on main directly (integration branch).
 
 ### El Salvador — sources & evidence state
 - **EVID corpus 001..274** (gaps 109-127, 240 reserved-unused). W13 files (2026-08-19):

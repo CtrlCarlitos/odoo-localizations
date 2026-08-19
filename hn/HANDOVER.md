@@ -13,9 +13,11 @@ boundary.
 
 ## 1. Where you are
 
-- **Worktree:** `.worktrees/hn-research`, branch `hn-research`. **The 2026-08-19
-  merge happened** (hn-research → main, rebase-then-merge; owner-executed) and
-  the cross-country canon D15-D19 was adopted — HN's D-H2/D-H3 are country
+- **Worktree:** `.worktrees/hn-research`, branch `hn-research`. **Merges to
+  date: 2026-08-19 (W1) and 2026-08-20 (W2 then W3 at `c1f9fa8`) — rebase-
+  then-merge per root HANDOVER §4.6, owner-executed; main carries HN
+  evidence through EVID-214.** The cross-country canon D15-D19 was adopted
+  at the W1 merge — HN's D-H2/D-H3 are country
   instantiations of D16/D18 (see `shared/docs/regulatory-change-management.md`,
   `shared/docs/go-live-readiness.md`). **Country work model (binding):** every
   country works in its own branch+worktree; `main` = integration; merge at
