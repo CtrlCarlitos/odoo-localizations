@@ -558,9 +558,10 @@ D-GT10 / HN D-H2/D-H3 stay in their country docs.
 - Merge country branches to main at milestones by owner decision
   (rebase-then-merge; never force-push; remote refs updated via
   delete + re-push when history was rebased).
-- **Future countries: Colombia and Peru are planned** (owner, 2026-08-19;
-  not started). Bootstrap per the GT/HN pattern: country dir scaffold +
-  research spec in `docs/superpowers/specs/` + own HANDOVER + worktree.
+- **Future countries: Colombia, Peru, Nicaragua, Costa Rica, Belize,
+  Panama, Dominican Republic** (owner roadmap 2026-08-19; not started).
+  Bootstrap per the GT/HN pattern: country dir scaffold + research spec in
+  `docs/superpowers/specs/` + own HANDOVER + worktree.
 
 **State at merge:** GT = source-research phase COMPLETE (66 files + 2
 schema dirs; FEL stack, payroll, ZF/maquila, AML D-15-2026; decisions
@@ -866,6 +867,30 @@ all countries.
     HANDOVER GT/HN section, shared decision doc D13-vs-D15, .gitignore EOF
     union + one stale-line fix).
 
+### Universality + D17 rulings (2026-08-19, second merge-session commit)
+44. **Shared docs are country-neutral; examples live in instantiation
+    registers.** D15 rewritten universal (generic anchor-date pattern
+    table; SV citations moved into a labeled "Country instantiation
+    register" — illustrative for other countries, never normative across
+    borders; GT/HN pointers already there; future countries append at
+    synthesis time). Template §5 + guide scrubbed to match.
+45. **D17 — document-type model cross-country default** (guide, binding):
+    `l10n_latam_invoice_document`, ONE journal / MANY document types, is
+    the default for every country in scope — the official Odoo pattern for
+    regulator-defined document-type families (l10n_ar/cl/co/ec/pe/uy;
+    **Colombia uses it** — Factura de Venta/NC/ND; Peru too — owner
+    confirmed; Mexico = the known single-document exception shape,
+    deviations need explicit rulings). Countries verify dependency +
+    document-type catalog at bootstrap. SV D13/D14 relabeled as SV
+    instantiations of D17 (numbers unchanged); establishment/point-of-sale
+    mapping stays per-country (D14/D-GT9/D-H1).
+46. **Country roadmap expanded (owner 2026-08-19):** planned after the
+    current three — **Colombia, Peru, Nicaragua, Costa Rica, Belize,
+    Panama, Dominican Republic** (none started; bootstrap per the GT/HN
+    pattern — scaffold + research spec + own HANDOVER + worktree). Note
+    Belize is English-speaking/common-law (GST world) — expect the Spanish-
+    Latam extraction template to need adaptation there.
+
 ### Standing policies
 
 - Evidence-based answers only; RAG (NotebookLM) is validator, never source
@@ -1038,8 +1063,9 @@ all countries.
     are ON main; continue per `gt/HANDOVER.md` / `hn/HANDOVER.md` inside
     their worktrees (GT: close queue rev 5 → EXTRACTION_PLAN → W1 evidence;
     HN: per its HANDOVER next-actions). SV work moves to
-    `.worktrees/sv` (branch `sv-research`). **Colombia + Peru = future
-    countries** (bootstrap per the GT/HN pattern when started).
+    `.worktrees/sv` (branch `sv-research`). **Roadmap: Colombia, Peru,
+    Nicaragua, Costa Rica, Belize, Panama, Dominican Republic follow**
+    (ruling 46; bootstrap per the GT/HN pattern when started).
 
 ## 9. Deliberately deferred (CAN-STAND list)
 

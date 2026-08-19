@@ -49,7 +49,27 @@ Built on Odoo's EDI framework (`account.edi.format`):
 - Requirements come from `requirements/e-invoicing/` in the country folder;
   every acceptance criterion there must map to a test in the module.
 
-### Journal & document-type model (D13 — binding, decided 2026-08-18)
+### Document-type model — cross-country default (D17 — binding, decided 2026-08-19)
+
+**`l10n_latam_invoice_document` is the DEFAULT document model for every
+country in scope: ONE journal carries MANY document types** (statutory
+document types = `l10n_latam.document.type` records; move-level
+`l10n_latam_document_type_id` + `l10n_latam_document_number`; one-journal-
+per-document-type is explicitly rejected). This is the same pattern as the
+official Odoo localizations that face regulator-defined document-type
+families (`l10n_ar`, `l10n_cl`, `l10n_co`, `l10n_ec`, `l10n_pe`, `l10n_uy`
+— Colombia's Factura de Venta/NC/ND and Peru's comprobantes included).
+Known exception pattern: Mexico (`l10n_mx`) — a single CFDI document family
+on standard journals; if a country investigation ever shows that shape, the
+deviation needs an explicit ruling recorded here. Each country verifies at
+bootstrap (dependency + its document-type catalog from the corpus); country
+instantiations of this default so far: SV = D13 below, GT = D-GT8
+(`docs/superpowers/specs/2026-08-18-gt-source-research-design.md`), HN =
+D-H1 (`hn/EXTRACTION_PLAN.md`). Establishment/point-of-sale mapping is NOT
+part of the default — it is a per-country instantiation (SV = D14,
+GT = D-GT9, HN = D-H1).
+
+### Journal & document-type model (D13 — SV instantiation of D17; binding, decided 2026-08-18)
 
 **Use `l10n_latam_invoice_document`: ONE journal carries MANY document
 types.** The SV package depends on `l10n_latam_invoice_document` and models
@@ -71,7 +91,7 @@ Consequences for requirements and modules:
   (sello, codigoGeneración, transmission state) lives in the SV EDI layer
   on top; `l10n_latam` supplies only the journal/document-type shape.
 
-### Establishment & point-of-sale model (D14 — binding, decided 2026-08-18)
+### Establishment & point-of-sale model (D14 — SV instantiation; binding, decided 2026-08-18)
 
 **Odoo warehouses map to *establecimientos* (sucursales); a *caja*
 (cash register / punto de venta) is a first-class mapping concept and IS

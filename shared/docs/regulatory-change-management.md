@@ -203,78 +203,97 @@ effective date + adaptation window captured BEFORE synthesis) is standing
 policy for every extraction wave. (3) D7–D12 join D1–D6 as binding
 citations for synthesis Layer/version assignments.
 
-### D15 — Applicability windows: as-of resolution + snapshot-on-write; no retro-transmission; history-import contract (decided 2026-08-19)
+### D15 — Applicability windows: as-of resolution + snapshot-on-write; no retro-transmission; history-import contract (decided 2026-08-19; universalized same day)
 
 Extends D7–D12 from *spec* versioning to **legal applicability windows for
-every dated parameter** (tax rates, brackets, caps, SMM-indexed thresholds,
-regime schedules, sanction scales). Binding for all remaining synthesis
-waves (special-regimes, IVA-core, NIIF/COA) and retroactively consistent
-with S1–S6 output (no existing FR contradicts it; the S4/S6 dated-config
-disciplines are its precursors). **D16 (decided in parallel on the
-GT/HN branches, unified at the 2026-08-19 merge) is the cross-country
-mechanics canon of this same doctrine — cite D15+D16 together; country
-instantiations: GT D-GT10, HN D-H2/D-H3.**
+every dated parameter** (tax rates, brackets, caps, wage-indexed thresholds,
+regime schedules, sanction scales, authorization ranges). Binding for every
+country's synthesis. **D16 is the cross-country mechanics canon of this same
+doctrine — cite D15+D16 together.** Country instantiations (anchor tables +
+concrete surfaces): see the instantiation register at the end of this
+decision — the canon below is country-neutral; examples live ONLY in the
+register, and no country's citation is normative for another country.
 
 **(a) Mechanics — snapshot-on-write over dated rows.** Every legal parameter
 lives as a **dated row** (`valid_from`, open-ended `valid_to`; immutable once
 cited by a posted/validated record; a change = a NEW row, never an edit —
 same discipline as D8 catalog releases). At creation time Odoo resolves each
-parameter **as-of the domain's anchor date** (table below) and **stores the
+parameter **as-of the domain's anchor date** (see (b)) and **stores the
 resolved values on the record** (move-line tax amounts, payslip line amounts,
-DTE payload fields, report-line figures). Already-posted documents never
-re-resolve; corrections compute with the ORIGINAL-period parameters (D9
-corollary kin). Rejected alternative: resolve-at-read (documents store only
-inputs; every view recomputes) — silent retroactive drift, breaks D9
-freeze-at-filing and §3.11 immutability. Layering: transactional taxes ALSO
-version the `account.tax`/template record itself (Odoo-native snapshot
+e-document payload fields, report-line figures). Already-posted documents
+never re-resolve; corrections compute with the ORIGINAL-period parameters
+(D9 corollary kin). Rejected alternative: resolve-at-read (documents store
+only inputs; every view recomputes) — silent retroactive drift, breaks D9
+freeze-at-filing and correction immutability. Layering: transactional taxes
+ALSO version the `account.tax`/template record itself (Odoo-native snapshot
 carrier; deactivate-old-at-cutover per D7/D11 normative packs), while the
-dated-row layer carries the numeric lookups (brackets, caps, SMM-derived
-values, thresholds). The CSV sidecars with `valid_from` columns
-(`isr_brackets.csv`, `smm_2025.csv`, `ss_contributions.csv`, catalog
-sidecars) are the seed data for these rows.
+dated-row layer carries the numeric lookups (brackets, caps, indexed values,
+thresholds). Extraction sidecars with `valid_from` columns are the seed data
+for these rows.
 
-**(b) Anchor-date table** (what "as-of" means per domain; the instrument's
-own language always wins; corpus-silent straddles become OQs with disclosed
-working assumptions — never invented formulas):
+**(b) Anchor-date selection (universal pattern).** What "as-of" means per
+domain; two rules override everything: (1) the instrument's own language
+always wins (a law that pins its anchor differently is followed literally);
+(2) corpus-silent straddles (a parameter changing inside a period) become
+OQs with disclosed working assumptions — never invented formulas.
 
-| Domain | Anchor date |
+| Domain (universal) | Anchor date |
 |---|---|
-| IVA on a document | invoice/credit-note date (hecho generador; Ley IVA Art. 4, W3) |
-| ISR wage retention | the payment period per D.E. 10-2025 (June/Dec recálculo tables carry their own rules) |
-| ISR annual liquidation (F-11) | the fiscal year; mid-year bracket straddle stays OQ until MH guidance (taxation 03 OQ-009) |
-| SS caps + SMM-derived values (4×SMM indemnización cap, 3×SMM FE threshold, 25-SMM cash ban, AML SMM sanctions) | the payroll/transaction period; effective-date straddle within a period = period-start working assumption (SOQ-02/SOQ-18 kin, OQ-tracked) |
-| DTE schema/catalog version | emission moment (D10/D8) |
-| Declarations F-07/F-14/F-910/F-930/F-935/F-11 | rules in force for the DECLARED period, frozen at filing (D9) |
-| ZF/LSI/DPA exemptions | the beneficiary's per-acuerdo dated schedule: acuerdo D.O. publication + N-year window by location + 60%/40% phase-down ladder (ZF Arts. 11/17/19; LSI Arts. 14/17/21/25) — per-company config rows, never global constants |
-| AML regime | transaction/report date against the 2025-10-17 cutover rows (CML/10) |
-| Quincena-25 | payment window (15–25 Jan) + year-based mandate flags (2026 voluntary-private/2027+ all-mandatory) |
+| Transactional taxes on a document | document/emission date (the hecho generador / taxable event date per each country's law) |
+| Wage withholding / payroll statutory values | the wage or payment period; recalculation windows carry their own rules |
+| Annual liquidations | the fiscal year; mid-year parameter straddles = OQ until regulator guidance |
+| Index-derived values (multiples of minimum wage, indexed caps, sanctions in wage units) | the payroll/transaction period; straddle assumption = period start (OQ-tracked) |
+| E-document schema/catalog version | emission moment (D10/D8) |
+| Declarations/reports | rules in force for the DECLARED period, frozen at filing (D9) |
+| Special-regime incentives (free zones, services parks, sector regimes) | the beneficiary's per-instrument dated schedule (grant date + N-year window + phase-down ladders) — per-company config rows, never global constants |
+| Regime cutovers (new laws replacing old) | transaction/report date against dated cutover rows |
+| Time-boxed benefits/transitories | the instrument's own window + year-based mandate flags |
 
-**(c) No retro-transmission.** Odoo/the SaaS never emit a DTE or filing
-dated in the past; regulators' clocks are unidirectional. History enters as
-**read-only external records** (history-import contract):
+**(c) No retro-transmission; history-import contract.** Odoo/the SaaS never
+emit an e-document or filing dated in the past; regulators' clocks are
+unidirectional. History enters as **read-only external records**:
 
-- **Historical DTEs** (pre-go-live, emitted by another system): imported
-  read-only with original numbering, flagged `emitted-externally`, no
-  re-transmission/no re-numbering, rendered from their own stored payload
-  (D10 version guarantee). Import is **validated against MH consulta
-  endpoints** (22_/46_ surface) producing a non-blocking exceptions report
-  (mismatches flagged for follow-up, import proceeds) — needed so F-07
-  annexes/emitidos derive a complete period. Physical pre-e-invoicing
-  invoices (facturas pre-DTE): config-gap OQ — optional import as deduction
-  evidence, never the default path.
-- **Payroll history**: per-employee **monthly aggregates** (devengado/
-  bonificaciones/retención/SS per month) + **contract tenure records**
-  (start/end dates) — sufficient for indemnización (30d/year), vacaciones
-  (200-day gate), aguinaldo (10/15-25 Dec tiers; Art. 4.16 split) and the
-  F-910/F-11 annual surfaces; full historical payslips are NOT imported.
+- **Historical e-documents** (pre-go-live, emitted by another system):
+  imported read-only with original numbering, flagged `emitted-externally`,
+  no re-transmission/no re-numbering, rendered from their own stored payload
+  (D10 version guarantee); import **validated against the regulator's
+  consultation endpoint** producing a NON-BLOCKING exceptions report
+  (mismatches flagged, import proceeds) so period declarations derive
+  complete totals. Paper-era pre-e-invoicing documents: config-gap OQ —
+  optional import as deduction evidence, never the default path.
+- **Payroll history**: per-employee **monthly aggregates** + **contract
+  tenure records** (start/end dates) — sufficient for every tenure-based
+  statutory benefit (severance, vacation, year-end bonuses) and the annual
+  reporting surfaces; full historical payslips are NOT imported.
 - **Ledger / stock / banks**: opening balances only — no movement-level
   history import.
+- **Reconciliation against FILED history**: see D16 ¶7.
 
 **(d) Payroll corrections — hybrid by window.** Declaration period still
 open → recompute + replace in place (always with original-period rules).
 Period already filed → original slip immutable + **delta/refund slip in the
-correction period computed with the ORIGINAL-period parameters** (D9/§3.11
-mirror; SS declaration corrections follow the same split).
+correction period computed with the ORIGINAL-period parameters** (D9 kin;
+social-security declaration corrections follow the same split).
+
+**Country instantiation register (D15).** Each country records its concrete
+anchor mapping (instruments + citations) at synthesis time; the register is
+illustrative for other countries, never normative across borders:
+
+- **SV (decided 2026-08-19):** anchor table — IVA → invoice/credit-note date
+  (Ley IVA Art. 4); wage retention → payment period per D.E. 10-2025;
+  F-11 annual → fiscal year (straddle OQ taxation 03 OQ-009); SMM-derived
+  values → payroll/transaction period (SOQ-02/SOQ-18 kin); DTE
+  schema/catalog → emission moment; declarations F-07/F-14/F-910/F-930/
+  F-935/F-11 → declared period frozen at filing; ZF/LSI/DPA exemptions →
+  per-acuerdo schedule (D.L. 405 Arts. 11/17/19; D.L. 431/131); AML →
+  transaction date vs 2025-10-17 cutover; Quincena-25 → payment window +
+  year flags. History-import surfaces: F-07 annexes/emitidos derivation,
+  F-910/F-11 feeds, pre-DTE invoices = config-gap OQ; seeds
+  `isr_brackets.csv`/`smm_2025.csv`/`ss_contributions.csv`.
+- **GT:** D-GT10 (spec `docs/superpowers/specs/2026-08-18-gt-source-research-design.md`).
+- **HN:** D-H2/D-H3 (`hn/EXTRACTION_PLAN.md`; hecho-generador/period keys,
+  CAI-range hard block, SAR-filing reconciliation).
+- *(Future countries append their instantiation here at synthesis time.)*
 
 ### D16 — Date-driven compliance mechanics (cross-country; proposed as "D13" on gt-research 2026-08-19, approved by product owner same day; renumbered at the 2026-08-19 merge — D13/D14 already taken by the journal/establishment-model decisions in [odoo-localization-guide.md](odoo-localization-guide.md))
 

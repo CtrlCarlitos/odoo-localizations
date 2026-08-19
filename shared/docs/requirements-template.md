@@ -69,8 +69,8 @@ Applicability note (D15/D16): any FR whose value/behavior depends on a dated
 legal parameter (rate, bracket, cap, SMM-derived threshold, regime schedule,
 authorization range) must resolve it as-of the domain's anchor date, store
 the resolved value on the record (snapshot-on-write), and carry
-`valid_from/valid_to` rows for the parameter — see D15 (SV anchor table +
-history-import contract) and D16 (cross-country mechanics: dated rows,
+`valid_from/valid_to` rows for the parameter — see D15 (anchor-date
+pattern + country instantiation register + history-import contract) and D16 (cross-country mechanics: dated rows,
 retro payroll with original-period rules, hard no-override emission block,
 filed-period protection, ingestion reconciliation).
 
