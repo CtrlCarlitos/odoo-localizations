@@ -15,8 +15,9 @@ Session bootstrap command: `Read gt/HANDOVER.md and continue.`
 GT requirements-extraction for the Odoo localization, per
 `shared/docs/requirements-extraction-procedure.md` (method spine) and the SV
 corpus as precedent. Currently in **Stage 1/2 (evidence waves)**:
-EXTRACTION_PLAN approved 2026-08-19; **W-GT1 (FEL stack) COMPLETE** —
-6 evidence files committed (EVID-001..160); W-GT2 (taxation core) is next.
+EXTRACTION_PLAN approved 2026-08-19; **W-GT1 (FEL stack) + W-GT2 (taxation
+core) COMPLETE** — 10 evidence files committed (EVID-001..265); W-GT3
+(payroll) is next.
 Product architecture context: root `HANDOVER.md` §1 (SaaS thin-client + Odoo;
 Takumi consumes requirements).
 
@@ -57,7 +58,8 @@ Técnico Servicios, 26 XSDs + 3 JSON catalogs × 2 channels (29_ GitHub pinned
 961133c; 30_ cat.desa), manuals, casos-de-prueba 2018, contingencia 2018);
 taxation core (IVA 27-92 **pre-FEL vintage — OQ10**, Reglamento IVA AG
 5-2013, Código Tributario 6-91, LAT 10-2012 + AG 213-2013, **D-10-2025 IVA
-reform — derogates Art. 3-"A"**, D-20-2006 + AG 425-2006 retenciones basis);
+reform — derogates Art. 8-"A"** (added D-31-2024; the "3-'A'" belief was a
+myth — W-GT2), D-20-2006 + AG 425-2006 retenciones basis);
 payroll (Código de Trabajo D-1441, IGSS set incl. Res. 08-SGF/2026, IRTRA
 D-15-1928, INTECAP **D-17-72**, aguinaldo D-42-92, bono 14 D-78-89, salario
 AG 250-2020 + **AG 256-2025 (2026 rates)** + Historia); fiscal reporting
@@ -90,9 +92,8 @@ vintage FEL docs). Reform chains are recorded in SOURCE_RESEARCH.md.
   ("resolución 2-2010" = rejected myth).
 - **FEL legal chain**: AD 13-2018 → 26-2019 → 15-2020 + SAT-DSI incorporations
   243-2019…400-2023 (04_–14_). Ley IVA Art. 29-"A" is the law-level hook
-  (cited by AD 15-2020) — post-2018 consolidated IVA still missing (OQ10,
-  now joined by OQ17: which decree added Art. 3-"A" that D-10-2025
-  derogated).
+  (cited by AD 15-2020; **provenance pinned: added by Dto. 4-2019 art. 6**)
+  — post-2018 consolidated IVA still missing (OQ10).
 - **D-GT8/D-GT9/D-GT10 bind synthesis**: `l10n_latam_invoice_document`
   (one journal, multi document types — now also shared default **D17** in
   `shared/docs/odoo-localization-guide.md`; D-GT8 = its GT instantiation);
@@ -169,6 +170,48 @@ vintage FEL docs). Reform chains are recorded in SOURCE_RESEARCH.md.
   2026 (AINNOVA/CARI/DIGIFACT/FORCON/INFILE/INFORUM/MEGAPRINT/TEKRA —
   re-check roster at next milestone).
 
+## 5b. W-GT2 facts a synthesis session MUST know (2026-08-19)
+
+- **OQ13 RESOLVED (verbatim, both halves)**: IVA retentions = **% OF THE
+  IVA**, not of base (D-20-2006 arts. 1-6): 65% exportadores
+  agropecuarios/silvícolas + D.29-89 empresas; 15% otros exportaciones +
+  especiales + otros agentes; 25% sector público (municipalidades
+  excepted); 15% operadoras de tarjeta (afiliado liable for the 85% not
+  retained); **1.5% sobre el VALOR TOTAL** for fuel paid by card (the only
+  base-exception). Q2,500 de minimis (art. 10); agent-to-agent abstention;
+  declare primeros 15 días hábiles even-if-zero; constancia at retention
+  moment. ISR (LAT): asalariados **5% to Q300k annual + Q15,000 + 7%**
+  (withholding = annual projection/12); Opcional 5/7% monthly Q30,000;
+  capital 10% + dividends 5% definitive; no-residentes 5/3/10/15/25;
+  facturas especiales 5% definitive.
+- **OQ17 RESOLVED-AS-MYTH**: D-10-2025 derogates IVA Art. **8-"A"** (added
+  by **D-31-2024** "Ley Integración Sector Productivo Primario y
+  Agropecuario" art. 13 — MINEDUC alimentación-escolar retention), NOT
+  Art. 3-"A". "Art. 3-'A'" joins the rejected-myths list. D-31-2024 full
+  text = acquisition candidate (also the source of the 5 new DTE types).
+- **Consolidation cuts (evidence-verified)**: 23_ IVA through D-10-2012/
+  D-4-2012 (no 29-"A", no 8-"A"); 24_ Reglamento IVA tail = **AG 222-2019
+  only — 11 FEL arts (new registrants FEL-only from 1-jul-2021; 6-month
+  cap on legacy docs)**; 25_ CT through **D-37-2016** + CC annotations to
+  03-12-2019 — **no FEL-era reforms; CT Art. 120 IVA-suspension ¶ VOID per
+  CC 680-2013** (FEL suspension hook must cite 98"A" not 120); 26_ LAT
+  through **D-46-2022** (≤2013 registry risk REFUTED); 28_ with AG 167-2014
+  only; 79_ art. 32 reformed AG 125-2022.
+- **IVA core values**: tarifa única 12% price-inclusive + 5pp earmarks
+  (3.5+1.5); exenciones Art. 7 (15 numerales) vs constancia-based 8/9;
+  crédito fiscal prorrateo verbatim (Reg. art. 20-kin ÷1.12 mechanics);
+  saldo = traslado, devolución trimestral/semestral; pequeño = **Q150,000
+  annual gross threshold (2012 value — dated-row discipline) + 5% pago
+  definitivo** + Q2,500 op floor + Q50 planilla; used vehicles/motorcycles
+  = FIXED Q fees (Q1,000/500/300/200), not ad-valorem; ISR/LAT deducciones
+  caps Q48,000/Q12,000/Q60,000; LAT Utilidades 25%, transitional 31/28/25;
+  no NOL carryforward for lucrativas in consolidated text.
+- **CT mechanics**: prescription 4 años (8 unregistered) / sanctions 5 años;
+  mora 0.0005/day; omisión/retenidos 100% (50% pre-requirement); multa
+  scale Q50/day→Q10,000+1%; cierre 10-20d; resarcitorio = Junta Monetaria
+  rate (external — OQ); books retention = plazo de prescripción (no fixed
+  years); e-documents/signature arts. 125/A/B.
+
 ## 6. Access realities & gotchas (verified)
 
 - `portal.sat.gob.gt`/`www.sat.gob.gt` = **Cloudflare 403 to ALL non-browser
@@ -200,19 +243,21 @@ vintage FEL docs). Reform chains are recorded in SOURCE_RESEARCH.md.
 
 - **OQ3** schema drift cat.desa vs GitHub → ask TotalDoc/SAT (drift matrix
   complete; GitHub MediosdePago defect = use cat.desa there meanwhile).
-- **OQ10/OQ17** post-2018 consolidated Ley IVA 27-92 — Art. 29-"A"
-  provenance now PINNED (Dto. 4-2019 art. 6); which decree added Art.
-  3-"A"; D-10-2025 full inventory.
-- **OQ11** IGSS cuota split (12.67/4.83 priors) — inside 35_/36_ (evidence
-  pass resolves; accountant can confirm).
-- **OQ12** IRTRA cuota brackets — inside 42_/43_/44_.
-- **OQ13** IVA-retention % + ISR retention rates — inside 78_/79_/26_/28_.
+- **OQ10** post-2018 consolidated Ley IVA 27-92 — Art. 29-"A" provenance
+  pinned (Dto. 4-2019 art. 6); full text still missing. ~~OQ17~~
+  RESOLVED-AS-MYTH (D-10-2025 derogated Art. 8-"A", added D-31-2024;
+  "3-'A'" never existed). **D-31-2024 full text = acquisition candidate.**
+- **OQ11** IGSS cuota split (12.67/4.83 priors) — inside 35_/36_ (W-GT3
+  evidence resolves; accountant can confirm).
+- **OQ12** IRTRA cuota brackets — inside 42_/43_/44_ (W-GT3 evidence).
+- ~~OQ13~~ **RESOLVED W-GT2** (see §5b).
 - **OQ14** D-15-2026 derogation inventory; AML reglamento status; Q2,000
   threshold wording.
 - **OQ15** ZF reglamento (AG 242-90) current-reform status.
 - **OQ16** does a numbered Reglamento del Código de Comercio exist?
-- **Evidence-file OQs (W-GT1)**: ~60 per-file OQ-1.. live in the 6 evidence
-  files — MOQ-roll into a master index at synthesis prep (SV pattern).
+- **Evidence-file OQs (W-GT1+W-GT2)**: ~95 per-file OQ-1.. live in the 10
+  evidence files — MOQ-roll into a master index at synthesis prep (SV
+  pattern).
 
 ## 8. Accountant track (asked 2026-08-19; assume yes, plan B ready)
 
@@ -232,11 +277,12 @@ synthesized with these as flagged open questions and back-filled later.
 
 ## 9. Next actions (ordered)
 
-1. ~~EXTRACTION_PLAN~~ approved + ~~W-GT1~~ **COMPLETE 2026-08-19** (see
-   §5a + plan extraction log). **Next: W-GT2 — taxation core evidence
-   pass** (IVA 23_+74_ pair-read, Reglamento IVA 24_, CT 25_ decomposed,
-   LAT 26_+28_, retenciones 78_+79_; OQ13 resolves here; OQ10/OQ17 hunt
-   continues — Dto. 4-2019 anchor now pinned).
+1. ~~EXTRACTION_PLAN~~ approved + ~~W-GT1~~ + ~~W-GT2~~ **COMPLETE
+   2026-08-19** (see §5a/§5b + plan extraction log). **Next: W-GT3 —
+   payroll evidence pass** (Código de Trabajo 32_, IGSS set 33_-36_,
+   salarios 37_-39_, aguinaldo/bono 40_/41_, IRTRA/INTECAP 42_-46_,
+   planilla IVA-FEL 56_; OQ11/OQ12 resolve here; several files are scans —
+   OCR-verify page 1 first).
 2. Opportunistic gap closure: queue rev-6 items (AG 75-2006 AML reglamento,
    consolidated IVA post-2018, D-19-2016); instructivos cat 15812;
    calendario transcription via SAT JSF app; accountant answers fold in

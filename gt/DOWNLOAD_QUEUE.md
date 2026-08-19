@@ -13,6 +13,7 @@ browser; "Búsqueda avanzada" → filters by organismo/tipo/año + texto)
 | — | gt_sources_aml_reglamento.pdf | Acuerdos Gubernativos 2006 — "Lavado" (expected AG 75-2006 — verify; OQ14 also asks its post-D-15-2026 status) |
 | — | gt_sources_iva_27-92_post2018.pdf | Decretos 1992 → 27-92 — look for a consolidated edition listing reforms through ≥2018 (must include Art. 29-"A" FEL hook; closes OQ10; ideally through D-10-2025) |
 | — | gt_sources_decreto_19-2016.pdf | Decretos 2016 — "19-2016" (Ley Emergente de Modernización de la Zona Franca — the missing D-65-89 → D-6-2021 chain link) |
+| — | gt_sources_decreto_31-2024.pdf | Decretos 2024 — "31-2024" (Ley para la Integración del Sector Productivo Primario y Agropecuario — added IVA Art. 8-"A" (derogated D-10-2025) + LAE changes + the 5 new DTE types FEPE/FARP/FCRP/FPEC/FCPC; W-GT2 addition) |
 
 Struck (delivered/resolved 2026-08-19): ~~37_ AG 256-2025~~, ~~41_ bono 14
 D-78-89~~, ~~AML ley D-67-2001~~ (= 75_), ~~ZF successor "D-16-2022"~~

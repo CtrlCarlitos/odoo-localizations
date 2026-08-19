@@ -310,8 +310,18 @@ RM site in maintenance.
 11. **OQ11**: IGSS cuota split (patronal 12.67% / laboral 4.83% priors) +
     INATEC share — verify inside 35_/36_ (rates not on any official HTML).
 12. **OQ12**: IRTRA cuota mensual brackets — extract from 42_/43_/44_.
-13. **OQ13**: IVA-retention percentage + ISR retention rates — inside Dto
-    20-2006 / AG 425-2006 (NOT yet in corpus) + LAT arts. (26_/28_ held).
+13. ~~OQ13: IVA-retention percentage + ISR retention rates~~ **RESOLVED
+    2026-08-19 (W-GT2 evidence, both halves, verbatim)**: IVA = D-20-2006
+    arts. 1-6 (**% OF THE IVA**, not base): 65% exportadores agropecuarios +
+    D.29-89 empresas / 15% otros exportaciones + especiales + otros agentes /
+    25% sector público (munis excepted) / 15% operadoras de tarjeta (afiliado
+    liable for 85% not retained) / 1.5% sobre el VALOR TOTAL for fuel-card;
+    Q2,500 de minimis (art. 10); declare primeros 15 días hábiles. ISR =
+    LAT arts. 44/73/75-82/90-94/104: asalariados 5%/Q15,000+7% (annual
+    Q300,000 bracket, projection/12), Opcional 5/7% monthly Q30,000, capital
+    10% + dividends 5%, no-residentes 5/3/10/15/25, facturas especiales 5%
+    definitive. Full tables in `gt/.extractions/78_79_Retenciones_IVA…` and
+    `26_28_47_LAT_ISR…`.
 14. **OQ14**: AML identifiers (D-67-2001? AG 75-2006? Art. 51 Q2,000
     efectivo-documentation rule?) — legal.dca.gob.gt browser hunt.
 15. **OQ15**: ZF successor law ("Decreto 16-2022"?) unverified; AG 65-2022
@@ -383,6 +393,14 @@ LET-pequeño md5-identical).
 - OQ15 (ZF successor): AMENDED — no "Decreto 16-2022" replacement; chain =
   D-65-89 → D-19-2016 → D-6-2021 (80_); AG 242-90 reglamento reform status
   still open (AG 65-2022 turned out ZOLIC-specific).
-- OQ17 (new): Ley IVA 27-92 Art. 3-"A" history — D-10-2025 (74_) derogates
-  it; which decree added it, and is a post-2018 consolidated IVA edition
-  still needed for Art. 29-"A" (OQ10)? Both ride the same hunt/accountant ask.
+- ~~OQ17 (new): Ley IVA 27-92 Art. 3-"A" history~~ **RESOLVED-AS-MYTH
+  2026-08-19 (W-GT2, verbatim in 74_ resolutivo)**: D-10-2025 derogates IVA
+  **Art. 8-"A"** — "Se deroga el artículo 8 'A' de la Ley del Impuesto al
+  Valor Agregado" — NOT "Art. 3-'A'" (the W1-L23 lead was wrong; join the
+  rejected-myths list). Art. 8-"A" was added by **D-31-2024 (Ley para la
+  Integración del Sector Productivo Primario y Agropecuario) art. 13**
+  (MINEDUC alimentación-escolar retention); D-10-2025 also deroga the LAE
+  D-16-2017 art. 16 final ¶ (same D-31-2024 lineage). **D-31-2024 full text
+  = new acquisition candidate** (it is also the Reglas-v2.0 DTE-type source:
+  FEPE/FARP/FCRP/FPEC/FCPC). The consolidated-IVA hunt (OQ10) continues for
+  Art. 29-"A" text + D-31-2024 layers.

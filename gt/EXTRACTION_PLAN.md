@@ -42,7 +42,7 @@ Grouped like the SV plan; registry rows are authoritative for filenames.
 | 4 | `01_/02_/03_` AD 13-2018 / 26-2019 / 15-2020 | FEL legal chain (creation + reforms; 03_ cites Ley IVA Art. 29-"A") | whole each, repeal-aware (later reform wins) | e-invoicing, taxation (IVA hooks) |
 | 5 | `04_–14_` SAT-DSI incorporations (11 resolutions, 243-2019…400-2023) | Mandate cohorts: proveedores Estado, serv. prof./técnicos, FACE emisores, baja cuantía, salud, contadores, **régimen general (12_ = the mass mandate)**, pequeños | whole each; per-resolution incorporation dates + cohort taxonomy = dated rows | e-invoicing |
 | 6 | `18_` guía requisitos mínimos, `19_` contingencia (2018 vintage), `20_` anulación manual, `21_` firma/habilitación manual, `22_` autorización certificador, `17_` casos de prueba (2018), `31_` certificador registry snapshot | FEL operational manuals + test cases + certificador roster | whole each; 17_/19_ read as 2018-vintage (supersession check vs Reglas v1.7.10); 31_ = dated roster data (incl. TotalDoc validity 02/12/2021→02/12/2026, OQ7) | e-invoicing |
-| 7 | `23_` Ley IVA 27-92 (**pre-FEL consolidation, ≤~2012**) + `74_` D-10-2025 (IVA reform: **derogates Art. 3-"A"**) | IVA core: rate, base, exenciones, crédito fiscal, retenciones hooks | 23_ whole (historical base); 74_ as delta (article-by-article derogation/amendment inventory); **OQ10/OQ17: post-2018 edition with Art. 29-"A" still missing — pair-read, never cite 23_ as current alone** | taxation |
+| 7 | `23_` Ley IVA 27-92 (**pre-FEL consolidation, ≤~2012 — W-GT2 verified: tail ends D-10-2012/D-4-2012**) + `74_` D-10-2025 (IVA reform: **derogates Art. 8-"A"** — added D-31-2024 art. 13; the "3-'A'" belief was a myth) | IVA core: rate, base, exenciones, crédito fiscal, retenciones hooks | 23_ whole (historical base); 74_ as delta (article-by-article derogation/amendment inventory); **OQ10: post-2018 edition with Art. 29-"A" still missing — pair-read, never cite 23_ as current alone** | taxation |
 | 8 | `24_` Reglamento IVA AG 5-2013 | IVA regulation | whole; repeal-aware vs CT + later reforms | taxation |
 | 9 | `25_` Código Tributario 6-91 (95pp; **reform tail unverified**) | Tax procedures: registry, document authorization, books, declarations, sanctions, fiscalización | decompose: NIT/registry + document rules → e-invoicing; books/declarations/LET anchors → fiscal-reporting; procedures/sanctions/prescription → taxation | all |
 | 10 | `26_` LAT 10-2012 (64pp; consolidation ≤2013) + `28_` Reglamento LAT AG 213-2013 | **ISR current regime** (replaces Dto. 26-92): rentas del trabajo/capital/actividades, tariffs, retenciones ISR | 26_ Libro I (ISR) core → taxation; its IVA-reform articles → taxation unit 7 kin; 28_ whole; post-2013 reform check first (Stage 1) | taxation |
@@ -114,7 +114,8 @@ subagent-driven wave → reviews → COVERAGE.
 - **Supersession chains (repeal-aware reading mandatory)**:
   - IVA: 23_ (≤~2012 consolidation) is NOT current law text alone — AD
     15-2020 cites Art. 29-"A" (not in 23_); D-10-2025 (74_) derogates
-    Art. 3-"A" (which decree added it = OQ17). Post-2018 consolidated
+    Art. 3-"A" (which decree added it = OQ17 — **RESOLVED-AS-MYTH W-GT2:
+    the article was 8-"A", added by D-31-2024; see log**). Post-2018 consolidated
     edition missing (OQ10).
   - AML: 75_ likely superseded by 77_ (D-15-2026) — derogation inventory
     BEFORE synthesis trusts either; 76_ = penal layer.
@@ -164,7 +165,14 @@ subagent-driven wave → reviews → COVERAGE.
 ## Gap set (acquisition candidates ≥84, opportunistic)
 
 1. **Post-2018 consolidated Ley IVA 27-92** incl. Arts. 3-"A"/29-"A"
-   (OQ10/OQ17) — accountant ask or DCA Edición Legal hunt.
+   (OQ10/OQ17) — accountant ask or DCA Edición Legal hunt. **W-GT2 update:
+   Art. 29-"A" provenance = Dto. 4-2019 art. 6 (pinned); the "3-'A'"
+   sub-item was a myth — real = Art. 8-"A" (D-31-2024 art. 13, derogated
+   D-10-2025).**
+1a. **D-31-2024 (Ley Integración Sector Productivo Primario y
+   Agropecuario)** — added IVA 8-"A" + LAE changes + the 5 new DTE types
+   (FEPE/FARP/FCRP/FPEC/FCPC per Reglas v2.0 changelog) — DCA hunt
+   (W-GT2 addition).
 2. **D-19-2016 Ley Emergente** (ZF chain middle link) — DCA hunt.
 3. Instructivos for SAT-2237/1371/1361/2046/1321 (cat 15812, AJAX-gated).
 4. Calendario tributario vencimiento windows (JSF transcription, owner).
@@ -220,6 +228,21 @@ commit. Never leave a session with evidence unmerged. Update
   establishment = Emisor/@CodigoEstablecimiento (1-9999) only, Dispositivo
   = SAT-apps-exclusive; Serie/Numero UUID-derived post-certificación**;
   Doc Técnico = v1.2 undated, SAT↔certificador surface only (provider-side
-  boundary for the product's TotalDoc integration). Registry amended
+  boundary for the product's TotalDoc integration).   Registry amended
   (01_/07_/11_/15_/16_/18_ notes + instrument-type note). OQ3/OQ5/OQ6/OQ9/
   OQ10 statuses updated in SOURCE_RESEARCH.
+- 2026-08-19 — **W-GT2 COMPLETE** (taxation core). Stage 1: 9 PDFs
+  extracted (74_ via OCR). 4 evidence files committed (EVID-161..265):
+  `23_24_74_IVA` (161-190), `25_Codigo_Tributario` (191-215),
+  `26_28_47_LAT_ISR` (216-245), `78_79_Retenciones_IVA` (246-265). Key
+  outcomes: **OQ13 RESOLVED both halves** (IVA retentions = % of the IVA:
+  65/15/25/15/1.5-of-total + Q2,500 de minimis + 15 días hábiles; ISR:
+  5%/7% annual Q300k, capital 10%, dividends 5%, no-residentes 5/3/10/15/25,
+  facturas especiales 5%); **OQ17 RESOLVED-AS-MYTH** (D-10-2025 derogates
+  IVA Art. **8-"A"** — added by D-31-2024 art. 13, NOT "3-'A'"); **LAT
+  consolidation-through-D-46-2022** (≤2013 risk refuted); **CT consolidated
+  through D-37-2016, no FEL-era reforms; CT Art. 120 suspension ¶ void per
+  CC 680-2013**; Reglamento IVA tail = AG 222-2019 (FEL cluster: new
+  registrants FEL-only 1-jul-2021); pequeño threshold Q150,000 (2012 value)
+  + 5% definitivo; IVA 12% with 5pp earmarks + fixed-fee used-vehicle
+  regime. D-31-2024 added to gap set (new acquisition candidate).
