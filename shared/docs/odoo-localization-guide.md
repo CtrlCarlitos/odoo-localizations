@@ -144,10 +144,16 @@ Design consequences:
 
 Spec versions change mid-flight (El Salvador changed its Normativa twice in six
 months and re-versioned its catalogs). The version-regime decisions are SETTLED
-(D7–D12 in [regulatory-change-management.md](regulatory-change-management.md)):
+(D7–D12 + D15 in [regulatory-change-management.md](regulatory-change-management.md)):
 SaaS-side replace-in-place with switchover dates, immutable catalog releases,
 freeze-at-filing reporting with a correction corollary (corrections post as new
 entries in the correction period; originals immutable; origin-rate FX reuse),
-additive normative packs + wizard Odoo-side. Requirements files must record the
-version regime (version fields, effective dates, adaptation windows) wherever
-it affects an FR (template §5 note, D12).
+additive normative packs + wizard Odoo-side. **D15 (as-of doctrine):** dated
+legal parameters are immutable dated rows resolved as-of each domain's anchor
+date (D15 anchor table) and snapshotted onto the record at creation — posted
+documents never re-resolve; no retro-transmission ever (history = read-only
+external records: DTEs validated against MH consulta endpoints, payroll
+monthly aggregates + tenure, opening balances for ledger/stock/banks);
+payroll corrections are hybrid by declaration window. Requirements files must
+record the version regime (version fields, effective dates, adaptation
+windows) wherever it affects an FR (template §5 notes, D12/D15).

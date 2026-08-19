@@ -1,8 +1,9 @@
 # Regulatory Change Management — Working Note
 
-**Status: DECIDED (Q1–Q7, socratic session 2026-08-17).** The framing below
-is retained verbatim; the decision log (D7–D12) at the end of this document
-is binding for S2+ synthesis, alongside D1–D6 in
+**Status: DECIDED (Q1–Q7, socratic session 2026-08-17; D15 applicability
+session 2026-08-19).** The framing below is retained verbatim; the decision
+log (D7–D15) at the end of this document is binding for S2+ synthesis,
+alongside D1–D6 in
 [saas-thin-client-architecture.md](saas-thin-client-architecture.md).
 
 ## The problem
@@ -202,6 +203,76 @@ effective date + adaptation window captured BEFORE synthesis) is standing
 policy for every extraction wave. (3) D7–D12 join D1–D6 as binding
 citations for synthesis Layer/version assignments.
 
+### D15 — Applicability windows: as-of resolution + snapshot-on-write; no retro-transmission; history-import contract (decided 2026-08-19)
+
+Extends D7–D12 from *spec* versioning to **legal applicability windows for
+every dated parameter** (tax rates, brackets, caps, SMM-indexed thresholds,
+regime schedules, sanction scales). Binding for all remaining synthesis
+waves (special-regimes, IVA-core, NIIF/COA) and retroactively consistent
+with S1–S6 output (no existing FR contradicts it; the S4/S6 dated-config
+disciplines are its precursors).
+
+**(a) Mechanics — snapshot-on-write over dated rows.** Every legal parameter
+lives as a **dated row** (`valid_from`, open-ended `valid_to`; immutable once
+cited by a posted/validated record; a change = a NEW row, never an edit —
+same discipline as D8 catalog releases). At creation time Odoo resolves each
+parameter **as-of the domain's anchor date** (table below) and **stores the
+resolved values on the record** (move-line tax amounts, payslip line amounts,
+DTE payload fields, report-line figures). Already-posted documents never
+re-resolve; corrections compute with the ORIGINAL-period parameters (D9
+corollary kin). Rejected alternative: resolve-at-read (documents store only
+inputs; every view recomputes) — silent retroactive drift, breaks D9
+freeze-at-filing and §3.11 immutability. Layering: transactional taxes ALSO
+version the `account.tax`/template record itself (Odoo-native snapshot
+carrier; deactivate-old-at-cutover per D7/D11 normative packs), while the
+dated-row layer carries the numeric lookups (brackets, caps, SMM-derived
+values, thresholds). The CSV sidecars with `valid_from` columns
+(`isr_brackets.csv`, `smm_2025.csv`, `ss_contributions.csv`, catalog
+sidecars) are the seed data for these rows.
+
+**(b) Anchor-date table** (what "as-of" means per domain; the instrument's
+own language always wins; corpus-silent straddles become OQs with disclosed
+working assumptions — never invented formulas):
+
+| Domain | Anchor date |
+|---|---|
+| IVA on a document | invoice/credit-note date (hecho generador; Ley IVA Art. 4, W3) |
+| ISR wage retention | the payment period per D.E. 10-2025 (June/Dec recálculo tables carry their own rules) |
+| ISR annual liquidation (F-11) | the fiscal year; mid-year bracket straddle stays OQ until MH guidance (taxation 03 OQ-009) |
+| SS caps + SMM-derived values (4×SMM indemnización cap, 3×SMM FE threshold, 25-SMM cash ban, AML SMM sanctions) | the payroll/transaction period; effective-date straddle within a period = period-start working assumption (SOQ-02/SOQ-18 kin, OQ-tracked) |
+| DTE schema/catalog version | emission moment (D10/D8) |
+| Declarations F-07/F-14/F-910/F-930/F-935/F-11 | rules in force for the DECLARED period, frozen at filing (D9) |
+| ZF/LSI/DPA exemptions | the beneficiary's per-acuerdo dated schedule: acuerdo D.O. publication + N-year window by location + 60%/40% phase-down ladder (ZF Arts. 11/17/19; LSI Arts. 14/17/21/25) — per-company config rows, never global constants |
+| AML regime | transaction/report date against the 2025-10-17 cutover rows (CML/10) |
+| Quincena-25 | payment window (15–25 Jan) + year-based mandate flags (2026 voluntary-private/2027+ all-mandatory) |
+
+**(c) No retro-transmission.** Odoo/the SaaS never emit a DTE or filing
+dated in the past; regulators' clocks are unidirectional. History enters as
+**read-only external records** (history-import contract):
+
+- **Historical DTEs** (pre-go-live, emitted by another system): imported
+  read-only with original numbering, flagged `emitted-externally`, no
+  re-transmission/no re-numbering, rendered from their own stored payload
+  (D10 version guarantee). Import is **validated against MH consulta
+  endpoints** (22_/46_ surface) producing a non-blocking exceptions report
+  (mismatches flagged for follow-up, import proceeds) — needed so F-07
+  annexes/emitidos derive a complete period. Physical pre-e-invoicing
+  invoices (facturas pre-DTE): config-gap OQ — optional import as deduction
+  evidence, never the default path.
+- **Payroll history**: per-employee **monthly aggregates** (devengado/
+  bonificaciones/retención/SS per month) + **contract tenure records**
+  (start/end dates) — sufficient for indemnización (30d/year), vacaciones
+  (200-day gate), aguinaldo (10/15-25 Dec tiers; Art. 4.16 split) and the
+  F-910/F-11 annual surfaces; full historical payslips are NOT imported.
+- **Ledger / stock / banks**: opening balances only — no movement-level
+  history import.
+
+**(d) Payroll corrections — hybrid by window.** Declaration period still
+open → recompute + replace in place (always with original-period rules).
+Period already filed → original slip immutable + **delta/refund slip in the
+correction period computed with the ORIGINAL-period parameters** (D9/§3.11
+mirror; SS declaration corrections follow the same split).
+
 ## Q → D mapping
 
 | Question | Decision |
@@ -213,3 +284,4 @@ citations for synthesis Layer/version assignments.
 | Q5 reporting | D9 (+ correction corollary) |
 | Q6 maintenance model | D11 |
 | Q7 this repo | D12 |
+| Applicability windows (session 2026-08-19) | D15 |

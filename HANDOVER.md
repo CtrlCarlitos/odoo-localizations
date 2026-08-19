@@ -774,7 +774,29 @@ workspace** (2026-08-18 note):
      LB-027 source-check at txt:7998) before committing; ledger preserved
      here before workspace deletion.
 
-### Standing policies
+### Applicability-windows session rulings (D15, 2026-08-19 — in regulatory-change-management.md)
+42. **D15 as-of doctrine (user session, binding on all remaining waves):**
+    dated legal parameters = immutable dated rows (`valid_from/valid_to`),
+    resolved **as-of the domain's anchor date** and **snapshotted onto the
+    record at creation** (never re-resolved; corrections use ORIGINAL-period
+    parameters). Anchor table per domain in the decision doc (IVA=invoice
+    date; retención=payment period; declarations=declared period frozen at
+    filing; SMM-derived=period with OQ-tracked straddle assumptions;
+    ZF/LSI/DPA=per-acuerdo company schedule; AML=transaction date vs
+    2025-10-17; Quincena-25=window+year flags). Transactional taxes also
+    version the `account.tax` record (Odoo-native snapshot; D7/D11 packs);
+    CSV sidecars = seed rows. **No retro-transmission ever**; history =
+    read-only external records (historical DTEs imported emitted-externally +
+    non-blocking MH-consulta validation; payroll monthly aggregates + tenure
+    records, not payslips; ledger/stock/banks = opening balances; physical
+    pre-DTE invoices = config-gap OQ). **Payroll corrections hybrid by
+    window:** period open → replace in place; filed → immutable original +
+    delta slip in correction period under original rules. Retro-consistent
+    with S1–S6 (S4/S6 dated-config disciplines were its precursors); template
+    §5 + guide updated; new OQ families recorded (straddle anchors;
+    pre-DTE import; physical-invoice gap).
+
+
 - Evidence-based answers only; RAG (NotebookLM) is validator, never source
   (notebook `c7ca0391-4822-4d3c-8090-b0d8c147ba94`, owner
   c20260202@gmail.com; MCP: github.com/jacob-bd/gemini-notebook-mcp-cli).
@@ -894,13 +916,17 @@ workspace** (2026-08-18 note):
     acquisitions 59_-64_ + S3 synthesis (208 FRs, 8 files + index + CSV). See §3 S3 section.
 5. **S2 remaining waves** (each: extraction → evidence → synthesis):
      (a) ~~Quincena-25~~ + ~~S6 fold-in~~ + ~~S5 commercial-legal~~ **ALL DONE
-     2026-08-18** (§3 sections above); (b) **NEXT = special-regimes synthesis**
-     (12_/13_/14_/17b_/42_/43_; D.L. 598-2020 + EVID-167 tail laws; consumes the
-     W11 certificado — `special-regimes/00_index.md` stub exists; extraction +
-     evidence pass FIRST (none of these sources read yet), then master-index
-     clusters + synthesis; hunt D.L. 598-2020 + Ley ZF reforms when official
-     routes recover); then NIIF/chart-of-accounts (32_/33_; consumes 06's
-     register interface + C3 NIC anchor + T3's Consejo-criteria OQ); (c) IVA-core
+      2026-08-18** (§3 sections above); (b) **NEXT = special-regimes synthesis**
+      (12_/13_/14_/17b_/42_/43_; D.L. 598-2020 + EVID-167 tail laws; consumes the
+      W11 certificado — `special-regimes/00_index.md` stub exists; extraction +
+      evidence pass FIRST (none of these sources read yet), then master-index
+      clusters + synthesis; hunt D.L. 598-2020 + Ley ZF reforms when official
+      routes recover). **Binding: D15 as-of doctrine (§5 ruling 42) — the ZF/
+      LSI/DPA exemption schedules are the canonical D15 consumers (per-acuerdo
+      dated rows + 60/40 phase-down ladders, never global constants); W13
+      evidence pass + 74_ acquisition in progress (see §3 W13 section).**
+      Then NIIF/chart-of-accounts (32_/33_; consumes 06's
+      register interface + C3 NIC anchor + T3's Consejo-criteria OQ); (c) IVA-core
      taxation files still owed (01_ cited in S1; 02_ Reglamento unread; the R/S
      and IVA-retention cross-refs from S3's 01/04 files land there; IVA
      tercerización FCF-exento pointer from S6) — fold into a later taxation wave.
