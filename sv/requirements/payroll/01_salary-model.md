@@ -111,8 +111,12 @@ consolidation — re-verify if a later CT reform lands (OQ-001).
   consumed by `fiscal-reporting/06_f14-declaration.md`
   SV-FREP-FR-143/144 — and every consumer file (`05_social-security-
   contributions.md`, `08_isr-interfaces.md`, fiscal-reporting/06-07)
-  shall reference this FR id instead of restating the mapping.
-  (LB-001; LB-010; LB-011; LB-012; EVID-201/197)
+  shall reference this FR id instead of restating the mapping; the
+  Quincena Veinticinco row (class `quincena_25`, D.L. 499) is consumed
+  by id by `SV-PAY-FR-138..143` (payroll/04 benefit mechanics +
+  payroll/08 income treatment and feeds) and `SV-FREP-FR-209..212` (the
+  F-14 January-annex engine and the F-910 code-73 surface).
+  (LB-001; LB-010; LB-011; LB-012; EVID-201/197/236)
 
 ### 3.2 Salario básico: the universal derivation base (CT Arts. 140-143)
 
@@ -184,7 +188,7 @@ respectively.
 | Entity | Field | Type | Catalog / values | Reference |
 |--------|-------|------|------------------|-----------|
 | hr.salary.rule → hr.payslip.line | sv_pay_earning_category | select | salario_integrante · non_salario · prestacion_social | FR-001 |
-| hr.salary.rule | sv_pay_earning_class | select | ordinary_pay · habitual_bonus · overtime_pay · rest_asueto_day_pay · profit_participation · occasional_gratuity · reimbursement · vacation_pay · aguinaldo · other_ct_benefit | FR-002, FR-003, FR-004 |
+| hr.salary.rule | sv_pay_earning_class | select | ordinary_pay · habitual_bonus · overtime_pay · rest_asueto_day_pay · profit_participation · occasional_gratuity · reimbursement · vacation_pay · aguinaldo · other_ct_benefit · quincena_25 | FR-002, FR-003, FR-004 |
 | hr.salary.rule | sv_pay_ibc_included | boolean | per matrix below; consumed by `05_social-security-contributions.md` | FR-004 |
 | hr.salary.rule | sv_pay_isr_gravada_input | select | gravada · no_gravada · split_exento_gravado · crosscheck_oq | consumed by SV-TAX-FR-104 and `08_isr-interfaces.md` | FR-004 |
 | hr.salary.rule | sv_pay_f14_column_family | select | devengado_g · bonificaciones_h · aguinaldo_jk · none | consumed by SV-FREP-FR-143/144 | FR-004 |
@@ -204,6 +208,7 @@ wave-wide authority; consumers reference the FR id, never restate):**
 | Vacation pay (prestación with express IBC inclusion "incluido el período de vacaciones") | prestacion_social | no | yes (express inclusion) | gravada (EVID-204 mapping note) | G |
 | Aguinaldo | prestacion_social | no | no (14.b) | split_exento_gravado — floor 2×SMM comercio y servicios, taxation-owned (SV-TAX-FR-120) | J / K pair |
 | Other CT statutory benefits (indemnización, illness/maternity subsidies, sepelio; séptimo día decomposes into ordinary pay per Art. 174) | prestacion_social | no | no (14.c prestaciones sociales) | crosscheck_oq (Ley ISR Art. 4 cross-check — OQ-003) | value feed via `08_isr-interfaces.md` |
+| Quincena Veinticinco annual complement (D.L. 499; paid 15–25 Jan; 50% of monthly salario básico o nominal, gate ≤ US$1,500.00) | quincena_25 | no — ingreso complementario independiente del salario ordinario, aguinaldo y otras prestaciones (66_ Art. 1) | no — never in any benefit-calculation base nor SS/pension cotización (66_ Arts. 1/5) | no_gravada (66_ Art. 4) | none — surfaces ONLY in the separate January-only Quincena annex (SV-FREP-FR-209), never in the G/H/J-K retention-annex families |
 
 Matrix resolution note: the crosscheck_oq cells above are resolved by
 `08_isr-interfaces.md` §3.2 (FR-123..125), 2026-08-18 — indemnización
@@ -254,7 +259,7 @@ behavior is required by this file.
 | FR-001 | odoo | hr.salary.rule / hr.payslip.line | sv_pay_earning_category | Category set on the rule, stamped on each line at computation; drives all matrix flags |
 | FR-002 | odoo | hr.salary.rule | sv_pay_earning_class | Integrante subclasses (habitual bonus, overtime, rest/asueto-day pay, profit participation) |
 | FR-003 | odoo | hr.salary.rule | sv_pay_earning_class | Non-salary/reimbursement and prestación classes; non-salary rules never feed básico or IBC |
-| FR-004 | odoo | hr.salary.rule + §4 matrix | sv_pay_ibc_included, sv_pay_isr_gravada_input, sv_pay_f14_column_family | Canonical matrix as rule-level flags; consumers: file 05, file 08, SV-FREP-FR-143/144, SV-TAX-FR-104 — reference by FR id |
+| FR-004 | odoo | hr.salary.rule + §4 matrix | sv_pay_ibc_included, sv_pay_isr_gravada_input, sv_pay_f14_column_family | Canonical matrix as rule-level flags; consumers: file 05, file 08, SV-FREP-FR-143/144, SV-TAX-FR-104 — reference by FR id; quincena_25 row added S6 (D.L. 499; EVID-236) |
 | FR-005 | odoo | hr.contract | sv_pay_salario_basico_day/_hour | Computed stored rate; consumer files 02-07 read it, never re-derive |
 | FR-006 | odoo | hr.contract | sv_pay_pay_form, sv_pay_basico_rule | Pay-form → SB-rule selection; rolling six-month feeds maintained for commission/mixed forms |
 | FR-007 | odoo | hr.contract | sv_pay_salario_basico_hour | Hourly base reused for weekly-excess overtime; file 03 applies the Art. 169 recargo on it |
@@ -303,6 +308,12 @@ files (D.E. 10-2025 effective 2025-05-08; F-14 v16 print Oct-2025).
   then the vacation pay carries sv_pay_ibc_included = true (express
   Art. 14 inclusion "incluido el período de vacaciones") while the
   aguinaldo carries sv_pay_ibc_included = false (Art. 14.b) (FR-004).
+- **AC-007:** Given a January payslip with an ordinary salary line and a
+  Quincena-25 line of US$750.00, then the Quincena line classifies
+  quincena_25 with ibc_included=false, isr=no_gravada and
+  f14_column_family=none, and it appears in NO retention-annex export
+  column (only in the Quincena annex feed of SV-PAY-FR-142) (FR-004;
+  EVID-236).
 
 ## 7. Open Questions
 
