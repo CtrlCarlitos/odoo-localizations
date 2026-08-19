@@ -407,12 +407,12 @@ transitory; no 2027+ continuation):**
 
 | Entity | Field | Type | Catalog / values | Reference |
 |--------|-------|------|------------------|-----------|
-| l10n_sv.tax.quincena.credit (new) | ejercicio | year | 2026 only — dated regime; no rows for 2027+ | FR-174 |
-| l10n_sv.tax.quincena.credit | amount_paid | monetary | amounts actually paid (voluntary private / mandatory public) | FR-174 |
-| l10n_sv.tax.quincena.credit | credit_amount | monetary (computed) | = 100% × amount_paid ("por el monto total pagado") | FR-174 |
-| l10n_sv.tax.quincena.credit | applied_against · remanent | monetary (computed) | crediting against the FY-2026 ISR payment; remanent → other substantive ISR obligations | FR-174 |
-| l10n_sv.tax.quincena.credit | route | select | isr_payment · other_isr_obligations · certificado_zf_dpa_lsi | FR-174 |
-| l10n_sv.tax.quincena.credit | certificado_ref | char null | MH Certificado de Crédito Tributario reference (issuance = MH external, at FY-2026 declaration presentation) | FR-174 |
+| l10n_sv.isr.quincena.credit (new) | ejercicio | year | 2026 only — dated regime; no rows for 2027+ | FR-174 |
+| l10n_sv.isr.quincena.credit | amount_paid | monetary | amounts actually paid (voluntary private / mandatory public) | FR-174 |
+| l10n_sv.isr.quincena.credit | credit_amount | monetary (computed) | = 100% × amount_paid ("por el monto total pagado") | FR-174 |
+| l10n_sv.isr.quincena.credit | applied_against · remanent | monetary (computed) | crediting against the FY-2026 ISR payment; remanent → other substantive ISR obligations | FR-174 |
+| l10n_sv.isr.quincena.credit | route | select | isr_payment · other_isr_obligations · certificado_zf_dpa_lsi | FR-174 |
+| l10n_sv.isr.quincena.credit | certificado_ref | char null | MH Certificado de Crédito Tributario reference (issuance = MH external, at FY-2026 declaration presentation) | FR-174 |
 
 ## 5. Odoo Mapping
 
@@ -459,7 +459,7 @@ file.
 | FR-032 | odoo | l10n_sv.isr.remittance.period | due_date, december_rule | 10 días hábiles computation (business-day calendar); OQ-001 may re-anchor deadline to CT |
 | FR-033 | odoo | l10n_sv.isr.filing.duty | duty_reasons | Presumed-paid vs unretained self-declaration flags on non-domiciled partners |
 | FR-173 | odoo | account.move.line | isr_no_renta_rule (+ quincena_25_art4_66_) | Special-law no-gravada stamp fed by SV-PAY-FR-137 (payroll matrix): never in the SV-TAX-FR-104 retention base nor the annual liquidation renta; only surface = no-gravado reporting (F-910 code 73 / 724-kin, SV-FREP-FR-212) |
-| FR-174 | odoo | l10n_sv.tax.quincena.credit | all | FY-2026-only dated regime (Art. 6 transitory); F-11 v19 casilla-319 feed key inside the casilla-330 subtraction; v19's dead pago-mínimo rows never fed (R21 extends — AC-020); ZF/DPA/LSI certificado entitlement recorded, issuance external to MH; special-regimes wave consumes the certificado by id |
+| FR-174 | odoo | l10n_sv.isr.quincena.credit | all | FY-2026-only dated regime (Art. 6 transitory); F-11 v19 casilla-319 feed key inside the casilla-330 subtraction; v19's dead pago-mínimo rows never fed (R21 extends — AC-020); ZF/DPA/LSI certificado entitlement recorded, issuance external to MH; special-regimes wave consumes the certificado by id |
 
 Version-regime notes (D12): FR-022/FR-025 record the D.L. 969-2024 cutover
 (2024-03-22) — any computation on pre-cutover periods must select the dated
