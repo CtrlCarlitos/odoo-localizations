@@ -99,9 +99,12 @@ calendarización updates or published technical docs — re-check `/facturacion/
   D. 47-2024: 1.5% + 1.5%) + Fondo de Reserva Laboral (D. 47-2024: employer
   4%, ceiling 3× top SMM, RAP-administered; CT-Art.-95-pact grandfathering) +
   sector exceptions (INJUPEMP/INPREMA/IPM/INPREUNAH). D. 40-2026 adds a
-  6-month RAP regularization + FOVIIF integration. **Honduras has NO
-  December double-bonus law like SV/GT** — aguinaldo = 13th month (CT Art.
-  376-family, "decimotercer mes"), no 14th; cesantía is the RAP fondo.
+  6-month RAP regularization + FOVIIF integration. **ISR recognizes BOTH a
+  décimo tercer mes (aguinaldo) AND a décimo cuarto mes de salario — each
+  exempt up to 10 salarios mínimos promedio (Art. 10.h)** [CORRECTED
+  2026-08-19 from earlier draft that denied the 14th month; the labor-side
+  instrument for the 14th is a pending evidence question — Código del
+  Trabajo wave]; cesantía is the RAP fondo.
 - **Salario mínimo:** bienio instrument SETRASS-109-2024 (2024-2025, `82_`)
   still current as of Feb-2026 (SAR-43-2026 cites its promedio L.13,985.16);
   2026-2027 successor NOT yet published at research date — watch.
@@ -143,6 +146,11 @@ the 2024-2025 bienio values still govern 2026; no new instrument);
 calendario API = `oficinavirtualapipre.sar.gob.hn/api` responds **401**
 (auth-walled — manual SPA capture at evidence); rap.hn's Reglamento-F.pdf
 link is dead (redirects to internal-IP 404).
+
+**Retry round 3 (scheduled): 2026-08-20 — re-probe congresonacional.gob.hn,
+stss.gob.hn, upap.gob.hn, cpmcp.hn, enag.hn (all 000 in rounds 1-2).**
+Round-2.5 (2026-08-19 evening): CT post-2020 gap CLOSED (D. 117-2021
+acquired as `89_`); ISR-table image OCR proven feasible (PSM 4 @400dpi).
 
 1. **SEE technical documentation + calendarización** — still publicly absent
    (wp-search "comprobante electrónico"/"documento electrónico fiscal" also

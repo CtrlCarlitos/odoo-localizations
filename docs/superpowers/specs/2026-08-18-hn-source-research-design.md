@@ -4,6 +4,13 @@
 **Status:** Approved in session — pending spec review
 **Branch:** `hn-research` (worktree `.worktrees/hn-research`); merge to `main` at milestone
 
+**Phase extension (2026-08-19, product owner):** with the corpus saturated
+(all remaining leads externally blocked) and the SV session still running on
+`main`, evidence waves (Stage 1+2 of the shared procedure) START on this
+branch. "Out of scope for this phase" below is thereby superseded: evidence
+files and extraction scratch for HN are now in scope on `hn-research`. The
+merge milestone becomes "corpus + plan + first evidence wave(s)".
+
 ## Purpose
 
 Bootstrap the Honduras (HN) localization from scratch: deep research across

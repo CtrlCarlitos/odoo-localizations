@@ -26,3 +26,6 @@ hn/.extractions/
 
 # Manual-download inbox (unverified until page-1 read + registry)
 gt/sources/inbox/
+hn/.extractions/*
+!hn/.extractions/*.evidence.md
+!hn/.extractions/00_MASTER_INDEX.md
