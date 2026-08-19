@@ -194,6 +194,31 @@ link is dead (redirects to internal-IP 404).
 Per the shared procedure's hint-layer policy (pointers for where to read;
 every item must be confirmed against corpus text before it influences an FR):
 
+- **[2026-08-19, product-owner recollection, item 3]** A requirement they
+  "couldn't get quite right": **selecting the cash register (terminal) when
+  generating an invoice**, with **per-user terminal exclusivity** (UserA may
+  invoice only from terminal 1, UserB only from terminal 2). In their prior
+  Odoo implementation the terminal lived on BOTH `account.move` and
+  `account.journal`; the per-user rule was never properly scoped — pure
+  customer directive, no documentation.
+  **Corpus verification (same day):** the per-user terminal restriction is
+  **NOT statutory** — `24_` has no operator/user emission restrictions
+  ("usuario" 0 hits; "responsable" hits are generic liability text: Arts. 39
+  verification duty, 56 system-security responsibility). It is an internal
+  control practice. HOWEVER a statutory-adjacent hook exists: SAR's own
+  inscription workflow (`76_` step 6) requires **"acreditación de
+  responsables"** — named natural persons (full name, email, ID type+number)
+  registered as part of the régimen enrollment. So "responsible emitters"
+  are a real SAR-registered concept, but user↔punto-de-emisión binding and
+  its exclusivity are the taxpayer's choice.
+  **Requirement-shape consequence (for synthesis):** (a) model emission
+  point on the move (or a dedicated emission-point entity feeding sequences),
+  NOT on the journal — the prior journal-level terminal attribute is
+  incompatible with D-H1 (one journal, many document types/points);
+  (b) "user ↔ punto de emisión authorization matrix" is a legitimate FR
+  candidate as an operational/internal-control derivation (like the
+   exhaustion alerts) — never cite `24_` for it; optionally anchored to the
+   acreditación-de-responsables concept from `76_`.
 - **[2026-08-19, product-owner recollection, item 2]** The document numbering
   had a **structure with branch (sucursal) and cash register (caja)**
   components; in their prior Odoo implementation **sucursal mapped to Odoo

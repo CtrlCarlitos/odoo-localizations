@@ -136,6 +136,14 @@ top, payroll parallel, facturación standalone):
     (establecimiento, punto de emisión, document type) = (warehouse,
     emission point, `l10n_latam.document.type`). Note for evidence pass:
     "caja" is implementation vocabulary — the statute says punto de emisión.
+  - **Emission point does NOT live on `account.journal`** (prior
+    implementation put the terminal on both journal and move — incompatible
+    with one-journal D-H1): it belongs on the move / a dedicated emission-
+    point entity feeding the sequences. A **user ↔ emission-point
+    authorization matrix** (per prior customer practice) is a legitimate
+    operational-internal-control FR candidate — label non-statutory
+    (24_ has no operator restrictions; hook = 76_ "acreditación de
+    responsables"). See RESEARCH.md §7 item 3.
   - Cross-country propagation (GT/SV): NOT decided here — this session owns
     HN only; raise at merge for the product owner to carry into the other
     countries' plans.
