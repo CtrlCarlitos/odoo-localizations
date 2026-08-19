@@ -193,6 +193,62 @@ lead list + dead ends:**
 - Lead status deltas below: items 12's D. 31-2019/D. 199-2006/D. 194-2002
   RESOLVED-acquired; 461-2020 + D. 31-2019-note: 93_ covers it.
 
+**Round 5 (2026-08-20, W2 wave-start) — STSS landing page dig; LJT check:**
+- **STSS "Leyes y Acuerdos sobre Fijación del Salario Mínimo" page** (Dirección
+  General de Salarios, page id 921) hosts direct PDFs of the whole SMM
+  instrument lineage. Acquired: `101_` (**Acuerdo STSS-308-2022** gazette
+  35,892 extract — the W1e 14th-month-SMM lead; 6th title-vs-content incident:
+  server filename said STSS-38-2022), `102_` (**Acuerdo 02-95 Reglamento del
+  Décimo Cuarto Mes** — statutory origin D. 135-94 Art. 34; closes the W1
+  "labor-side 14th-month instrument" open question), `104_` (**D. 103 Ley del
+  Salario Mínimo** — the SMM machinery law). Number 103 reserved-unused.
+- **D. 112 Ley del Séptimo Día y Décimo Tercer Mes (aguinaldo law):** the
+  STSS href is a dead 404 (accented filename); wp-search returns nothing;
+  media REST 401; no Wayback snapshot. **Lead stays open** — routes: SAR
+  catalog at W4, or ENAG if a gazette date is found (D. 112 is 1990s —
+  outside the ENAG 2015+ window; SAR republish route preferred).
+- **Instructivo 461-2020 (SEFIN):** sefin.gob.hn site search = "sin
+  resultados" (3rd dead end). Still needs a La Gaceta date → ENAG 2020
+  month-scan route.
+- **LJT bill: still unapproved** (SAR wp-search newest hit Sep-2025 "Congreso
+  sigue sin aprobar la Ley de Justicia Tributaria"; no passage posts after).
+  No taxation-core supersession pass needed for W2.
+- Also visible on the STSS page (not acquired, W4 candidates if needed):
+  SETRASS-013-2023 (G36,161 21-feb-2023), STSS-618-2014 maquila textil,
+  D. 354-2013 Ley Empleo por Hora, D. 43-97 Bono Educativo + Acuerdo
+  154-2000 reglamento, Acuerdo Tripartito 2014-2016, Ley MIPYME D. 135-2008.
+
+**W2 lead harvest (2026-08-20, from the W2a/W2b evidence passes — instruments
+cited by corpus documents but absent; logged per evidence-file OQs):**
+- **Ley de Equidad Tributaria D. 51-2003** — the activo-neto (1%)/aportación
+  solidaria authority (13_ considerando "Art. 7"; 30_/74_ ATN chapter;
+  W2b-1 OQ notes Cap. II vs Art. 7 citation spread). TOP acquisition
+  candidate (feeds código 103 + 102 families).
+- **Reglamento Ley ISR ("Acuerdo N°799" first-named, 63_ p.6; Art. 51
+  plantilla; Art. 84 via 13_)** — 4th independent citation; still unlocated.
+- **Acuerdo SAR-236-2024** (10-may-2024, approves Form 535 + OVI/SW channel
+  framework; quoted in ~all Ayudas) — gazette G36,538-family extract;
+  acquire for the 535/OVI channel authority chain.
+- **DEI-9382-J-2003 numerales I-VIII** (base tarjetas procedure; emitted
+  23-oct-2003, gazette 01-nov-2003 — outside ENAG window; SAR-republish
+  route) — numerales IX-XIII now in corpus via 19_.
+- **Transfer-pricing family:** D. 232-2011 + Acuerdo 027-2015 +
+  DEI-SG-004-2016 (thresholds/procedure) + SAR-653-2023 (CbCR watch).
+- **Selectivo per-product statutes:** D. 58-1982 (the general selectivo 203 —
+  separate tax, canasta/tarifas needed) + D. 131-98 (tasa turística 259).
+- **Contribuciones statutes:** D. 105-2011 LSP + D. 31-2018 LSP-reform
+  portion + Acuerdo 1775-2011 (Arts. 32/40) + D. 53-2015/D. 92-2015
+  (cooperative boundary) + D. 131-2018 (sector social) + D. 181-2006
+  (ZOLITUR).
+- Misc cited-absent: D. 110-93 (Ley Simplificación — intereses Art. 9),
+  D. 273-2013 (GC no-residente 4% vehicle per 38_), D. 96-2012 (loss
+  regimes), D. 54-96, D. 71-88, D. 82-2004 Art. 140 (folio real), Ley RAP,
+  Código de Comercio, modern Reglamento CT, DEI-SG-215/217-2010 +
+  DEI-SG-27-2011 (retention procedure ancestors), Acuerdo 0948-2003 (ATN
+  reglamento), Acuerdo No.1 01-11-1975 (depreciación), D. 62-2023 Art. 137,
+  D.L. 182-2020 Art. 100, plus a possible post-SAR-237-2024 acuerdo the DMC
+  manuals' "8 días" print implies (if any exists — gazette says 5).
+
 1. **SEE technical documentation + calendarización** — still publicly absent
    (wp-search "comprobante electrónico"/"documento electrónico fiscal" also
    empty). Routes: Oficina Virtual (login), SAR comunicados, or an
