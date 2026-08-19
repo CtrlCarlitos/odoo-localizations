@@ -93,18 +93,25 @@ calendarización updates or published technical docs — re-check `/facturacion/
 - **ISR tables print as IMAGES** in the SAR acuerdos (text layer carries
   considerandos but the table is an image on at least SAR-01-2026/SAR-07-2025)
   — OCR/PSM at extraction; the XLSX plantilla (`11_`) cross-checks the math.
-- **Payroll 2024 architecture (post-D.56-2015 void):** IHSS (D. 48-2024:
-  ceilings EM/IVM L.11,903.13 for 2025, Junta Directiva adjusts after) +
-  RAP-IVM individual accounts (Ley RAP D.L. 107-2013; Art. 43 as reformed by
-  D. 47-2024: 1.5% + 1.5%) + Fondo de Reserva Laboral (D. 47-2024: employer
-  4%, ceiling 3× top SMM, RAP-administered; CT-Art.-95-pact grandfathering) +
-  sector exceptions (INJUPEMP/INPREMA/IPM/INPREUNAH). D. 40-2026 adds a
-  6-month RAP regularization + FOVIIF integration. **ISR recognizes BOTH a
-  décimo tercer mes (aguinaldo) AND a décimo cuarto mes de salario — each
-  exempt up to 10 salarios mínimos promedio (Art. 10.h)** [CORRECTED
-  2026-08-19 from earlier draft that denied the 14th month; the labor-side
-  instrument for the 14th is a pending evidence question — Código del
-  Trabajo wave]; cesantía is the RAP fondo.
+- **Payroll architecture (RESOLVED at evidence W4, 2026-08-20):** IHSS
+  cotización matrix = IVM 3.5% employer / 2.5% worker / 0.5% State (D. 48-2024
+  Art. 1) + EM 5% / 2.5% / 0.5% (Ley IHSS Art. 55-A reformed) ⇒ **worker
+  5.0%, employer 8.5%**; TWO regime ceilings (2024: IVM L11,336.32 / EM
+  L11,109.30; 2025: both L11,903.13 — coincidence); post-2025 = Junta
+  Directiva per actuarial study (dated rows); **contribution base delegated
+  to the unacquired Reglamento General (TOP lead)**. RAP side = fondo de
+  reserva 4% employer (D. 47-2024, ceiling 3× top SMM) + RAP 1.5% + 1.5%
+  (Ley RAP Art. 43 via transcription — full law doubly load-bearing, lead);
+  fondo coexists-with-offset vs CT cesantía (CT Art. 120 lit. f hook).
+  **Salario mínimo promedio = single national value printed ONLY in DGS
+  companion tables (2026: L14,917.20), never in bienio acuerdos — the ISR
+  10×SMM 13th/14th caps resolve against it.** CT: vacaciones Arts. 345-356
+  (10/12/15/20 días), cesantía/preaviso scales, OT ×1.25/1.50/1.75, jornada
+  8h/44h-paid-48; **aguinaldo is NOT in the CT — D. 135-94 special law
+  (lead)**; 14th month = Acuerdo 02-95 reglamento (D. 135-94 Art. 34 origin);
+  D. 93-2021 touches Penal only, NOT the CT (9th mislabel). ISR recognizes
+  BOTH 13th and 14th month, each exempt ≤10 SMM promedio (Art. 10.h);
+  cesantía is the RAP fondo.
 - **Salario mínimo:** bienio instrument SETRASS-109-2024 (2024-2025, `82_`)
   still current as of Feb-2026 (SAR-43-2026 cites its promedio L.13,985.16);
   2026-2027 successor NOT yet published at research date — watch.
@@ -236,6 +243,46 @@ lead list + dead ends:**
   a post-2017 SAR instrument would resolve); any SEFIN acuerdo modifying the
   L10,000 consumer-final ID threshold (24_ Art. 11); SEE calendarización /
   technical docs (lead 1, unchanged).
+
+**W4 lead harvest (2026-08-20, from the payroll wave — instruments cited by
+corpus documents but absent; logged per evidence-file OQs):**
+- **D. 135-94 + Acuerdo 201-96** — Ley de Compensación Social (Cap. IX Art. 34 = 14th-month
+  statutory origin per 102_) + the aguinaldo reglamento: the operative AGUINALDO-family
+  instruments — W4d found NO aguinaldo in the CT, so D. 135-94/201-96 are the
+  13th-month authority (86_ OQ-3: eligibility/pro-rata/base/December-deadline/
+  termination-payout CRs cannot be LB'd without them).
+  TOP acquisition lead (SAR/STSS/ENAG routes; 1990s = outside ENAG window,
+  STSS page/republish routes first). Subsumes much of the D. 112 question.
+- **Reglamento General del IHSS / Régimen Obligatorio** — the contribution
+  BASE definition (13th/14th/OT inclusion) is delegated wholesale by Ley
+  Art. 100; also inscription deadlines, salario categories. TOP lead (W4b).
+- **Riesgos Profesionales reglamento / JD cuadro de cuotas** — RP rate absent
+  from corpus (employer-only branch); also **JD ceiling resoluciones
+  2003-2024** (historical dated rows; 2025 interregnum unaudited).
+- **DGS SMM companion table prints** — the promedio source family: need the
+  2025 print (SAR-43-2026's L13,985.16 printed nowhere in corpus) and the
+  2027 print when it exists (STSS Dirección General de Salarios page 921 kin).
+- **D. 54-95** — reform of the 14th-month reglamento (102_ cites conflicting
+  gazette numbers — OQ-2; resolves the 100%-vs-proportional gate's authority).
+- **STSS-006-2019** (G 34,840 — maquila SMM base, Cláusula Novena kin) and
+  the commission instruments (STSS-563-2021, -647-2023, -013-2023, -196-2023,
+  -101-2026, Acuerdos Ejecutivos 25-2022/029-2026, Actas 002-2024/004-2026)
+  — SMM-chain completeness, low priority.
+- **Reglamento de la Ley del Salario Mínimo + Reglamento de las Comisiones
+  de Salario Mínimo** — 104_/90_ cite both; bono educativo reglamento
+  ("154-2000" lead unverified — cited nowhere in corpus).
+- **D. 112 Ley del Séptimo Día y Décimo Tercer Mes — W4 ROUTES EXHAUSTED
+  (2026-08-20):** SAR REST search endpoint validated working (control term
+  "salario" → 5 hits) yet returns 0 for aguinaldo/séptimo día/décimo tercero;
+  cached 420-entry catalog crawl greps empty; STSS href dead-404 + no
+  Wayback (round 5). Only remaining routes: a SAR/STSS future republish or a
+  labeled non-official mirror at synthesis time. NOTE: W4d showed the CT has
+  no aguinaldo at all — D. 112/D. 135-94 are the only statutory homes.
+- **85_ CORRECTION (9th mislabel, 2026-08-20):** D. 93-2021 (G 35,760)
+  derogates Código PENAL D. 130-2017 (31 arts) + CPP D. 9-99-E + Ley Lavado
+  D. 144-2014 — **ZERO CT articles** (penal numbers collide numerically with
+  live CT payroll articles; guard table EVID-333). The round-3 acquisition
+  premise ("CT derogations") was wrong; no CT-side gap ever existed.
 
 **W2 lead harvest (2026-08-20, from the W2a/W2b evidence passes — instruments
 cited by corpus documents but absent; logged per evidence-file OQs):**

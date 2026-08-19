@@ -2,8 +2,9 @@
 
 Execution plan per [shared/docs/requirements-extraction-procedure.md](../shared/docs/requirements-extraction-procedure.md).
 Started 2026-08-19 (source-research pass complete). Status: active — **evidence
-waves W1 (taxation core) + W2 (fiscal reporting) + W3 (facturación/e-invoicing)
-COMPLETE 2026-08-20 (EVID-001..214); next W4 (payroll)**.
+waves W1 (taxation core) + W2 (fiscal reporting) + W3 (facturación/e-invoicing) +
+W4 (payroll) COMPLETE 2026-08-20 (EVID-001..333); next = synthesis prep
+(master index + OQ registers), then S-waves**.
 
 ## Wave log
 
@@ -110,6 +111,85 @@ COMPLETE 2026-08-20 (EVID-001..214); next W4 (payroll)**.
   ops (DEI-SG-004-2016), 56 op types → 10 annexes, TP adjustments auto-migrate
   into the ISR DJ base; **"Acuerdo N°799" = 4th independent citation of the
   ISR Reglamento (63_ p.6 — first-named)**.
+- **W4 (2026-08-20, DONE):** payroll, subagent-dispatched in 4 family batches
+  (EVID-215..333, 57 new OQs ≈ 227 total open). Key:
+  - **W4a SMM/13th-14th (EVID-215..240, 23 OQs):** FULL 2026 SMM table (44
+    rama×band values + zonas libres L12,930.07) + 2027 table (gaps flagged);
+    bienio % 2026: 6/6/7/7 · 2027: 6/6/7/7.5 (cuadro garbled both layers —
+    pinned by dual fragments + exact arithmetic, OQ-1); dic-2025 IPC 4.98%;
+    2027 IPC-escalator de-oficio + Jan–Apr-2026 retroactivity (Art. 4);
+    agroindustrial classification (Art. 3); **salario mínimo promedio lives
+    ONLY in the DGS companion table (91_), NOT in the bienio acuerdos — 2026
+    promedio L14,917.20 mensual → 10×SMM cap = L149,172.00; single national
+    value; NOT the table mean (L15,097.85) — never recompute (91_ OQ-1);
+    2025 promedio (SAR-43-2026's L13,985.16) + 2027 promedio printed nowhere
+    in corpus = OQ + DGS-print acquisition lead**; bono educativo 2026 full
+    block (≤2×SMM, ≤15-worker exemption, non-salary); 14th-month mechanics
+    (102_): June, 100% if 30-jun year-gate met else proportional, average of
+    ordinary salaries, SMM-average variant small employers, proportional on
+    any exit; "1991 [sic]" resolved print-error for 1994; maquila chain
+    10,457.29→12,930.07 verified exact; 104_ = machinery (Dirección General +
+    Comisiones).
+  - **W4b IHSS (EVID-250..274, 14 OQs):** **cotización matrix RESOLVED —
+    IVM 3.5% employer / 2.5% worker / 0.5% State (81_ Art. 1) + EM 5% / 2.5%
+    / 0.5% (87_ Art. 55-A, reformed text) ⇒ worker 5.0%, employer 8.5%**;
+    TWO regime ceilings (IVM 11,336.32/11,903.13; EM 11,109.30/11,903.13 for
+    2024/2025 — the 2025 equality is coincidence, not merger); post-2025 =
+    Junta Directiva via actuarial study (dated rows only); "porcentajes se
+    aplicarán SOBRE los techos" = drafting ambiguity → coherent reading
+    min(salario, techo) per LI 55-B (81_ OQ-1); interregnum 27-oct-2022→
+    28-may-2024 ceilings unaudited (OQ-2); **contribution BASE (does it
+    include 13th/14th/OT?) = corpus SILENT — LI Art. 100 delegates to the
+    Reglamento General = TOP acquisition lead, config flag never hardcode**;
+    riesgos profesionales rate NOT in corpus (OQ); incapacidad temporal: NO
+    cuarentena — days 1-3 employer-paid salary, 4-365 IHSS 66%-of-techo-capped
+    base + mandatory employer complement to full salary (RIT 71/73; Art. 73
+    dimensional bug flagged); 87_ edition note (title dates vs signature —
+    cite signature).
+  - **W4c RAP/fondo (EVID-275..289, 9 OQs):** STACKED loads, no credit: fondo
+    reserva 4% employer (D.47-2024 Art. 4) + RAP employer 1.5% (Art. 43
+    transcription) ⇒ 5.5% employer RAP-side + 8.5% IHSS; worker RAP 1.5% =
+    salary retention (IHSS-worker-kin) on salario above the IVM techo,
+    remitted ≤15 días calendario; base "salario ordinario" undefined in law
+    (no 13th/14th/vacaciones exclusions stated) → OQ-1; ceiling 3× SMM "en su
+    nivel más alto" instrument-unnamed → OQ-2; NOT the ISR 10.h promedio
+    measure; **coexists-with-offset vs CT cesantía**: despido injustificado →
+    compute CT cesantía, deduct fondo saldo, pay excess; other causes → fondo
+    pays 100% as prima de antigüedad + 35%/75% employer-complement floors
+    (CT Art. 120 lit. f — the D.47-2024 hook; earlier "Art. 95 pact" gloss
+    corrected: pact = D.150-2008 Art. 2); preaviso untouched by the fondo
+    (OQ-5); no retro-4%, vigencia 28-may-2024; D.40-2026 = 6-month
+    regularization window (dated config rows) + FOVIIF; **Ley RAP D.L.
+    107-2013 now DOUBLY load-bearing (Arts. 42/43/61 known only via the
+    ellipsis-truncated transcription) — TOP lead**.
+  - **W4d Código del Trabajo (EVID-295..333, 11 OQs):** **85_ = 9th mislabel
+    incident: D. 93-2021 derogates Código PENAL D.130-2017 (31 arts) + CPP +
+    Ley Lavado — ZERO CT articles; penal numbers collide numerically with
+    LIVE CT payroll articles (337/346/368/417) — guard table EVID-333, no CT
+    effect; registry row corrected**. 86_ vintage evidenced through D.278-2013
+    (newest visible instrument; does NOT include D.117-2021 interp → cite
+    89_). **Aguinaldo ABSENT from the CT — the 13th month is D. 135-94
+    special law (registry gap; NEW TOP acquisition lead; the task's "376
+    family" does not exist — 376-380 = salario rules)**. Jornada: diurna 8h/
+    44h-worked paid as 48, nocturna 6h/36h, mixta 7h/42h same-salary (D.96-
+    1961); night +25%; OT ×1.25 day / ×1.50 night / ×1.75 prolongation;
+    ord+OT ≤12h/day, OT ≤4×/week; planillas book OT separately (Arts.
+    318-337). Vacaciones = Arts. 345-356: 10/12/15/20 días laborables at
+    1/2/3/4+ years, 200-day continuity, pay = 6-month ordinary average ÷ days
+    worked (NO 360-day divisor in the CT — plantilla's 360 is ISR-side), pay
+    3 days before leave, termination cash-out+proration. Cesantía/preaviso:
+    preaviso 24h/1w/2w/1m/2m (indefinido only; in-lieu rules), cesantía
+    10d/20d/1-month-per-year + fraction proration, cap 25 months (15 micro
+    ≤10 employees), ≥15y voluntary-quit 35% / death 75%, base = last-6-month
+    average ÷ days worked (D.65-1966). **NO general final-pay deadline in the
+    CT (negative finding — deadline must be LB'd elsewhere, 86_ OQ-2)**.
+    Maternity 4+6 weeks at 180-day average + employer top-up, nursing 2×30min
+    paid, unauthorized firing = 60 days' wages + 10 weeks + 2× rests. Extra
+    payroll finds: Art. 95.12-13+60-A mandatory union/non-union/coop
+    deductions; Art. 104 sickness half-pay tenure schedule; Art. 339's 10
+    paid feriados ÷6 average + collision rule; Art. 368 pay-frequency caps;
+    "salario completo" (ord+OT) as indemnity base; garnishment caps L100/L200
+    (dated nominals); Art. 380 Libro de Salarios.
 - **W3 (2026-08-20, DONE):** facturación stack `24_` (full, 68 pp) + `25_` +
   `26_` + `76-78_` (EVID-186..214, 12 OQs). Key: **16-digit correlativo =
   3 establecimiento (matriz 000) + 3 punto de emisión + 2 tipo + 8 consecutive
@@ -152,8 +232,8 @@ COMPLETE 2026-08-20 (EVID-001..214); next W4 (payroll)**.
 - 103 source files registered (01-104, gap 103 reserved-unused) in
   [sources/README.md](sources/README.md); every file page-1 verified. Research
   dossier: [RESEARCH.md](RESEARCH.md).
-- Evidence numbering: corpus-global EVID (next = **215**); OQs per-file at
-  evidence-file end (~170 open after W3).
+- Evidence numbering: corpus-global EVID (next = **334**); OQs per-file at
+  evidence-file end (~227 open after W4).
 - No prior-project hint layer exists for HN (unlike SV's tuky-workspace import).
 - NotebookLM validator: none yet (corpus young; revisit at first synthesis).
 - Fiscal year = calendar year. Currency: lempira (HNL, L).
@@ -219,23 +299,37 @@ top, payroll parallel, facturación standalone):
   (interpretación Art. 113.1 — acquired as `89_`)** + the Art. 206 sentencia
   (`23_`, void). Known gap CLOSED at research level; still verify per-article
   at evidence (SV SOQ-22 lesson — catalogs can under-report).
-- **Código del Trabajo vintage**: `86_` print's consolidation date unknown —
-  pin key articles (aguinaldo 376-family, vacaciones 328-family, cesantía,
-  preaviso, jornada) against reform chain; D. 93-2021 derogations are
-  repeal-only (numbered articles dead — do not implement; list in `85` gap).
+- **Código del Trabajo vintage (RESOLVED W4d)**: consolidation evidenced
+  through D. 278-2013 (newest visible instrument); does NOT include D.
+  117-2021 (interp Art. 113.1 — cite `89_`). **The D. 93-2021 "CT
+  derogations" premise was WRONG (9th mislabel): D. 93-2021 touches Código
+  Penal/CPP/Lavado only — ZERO CT articles**; guard table at EVID-333. The
+  aguinaldo gap: **the CT contains NO aguinaldo — 13th month = D. 135-94
+  special law (TOP acquisition lead; D. 112 is the same family's
+  séptimo-día/décimo-tercer-mes instrument, still unacquired)**.
 - **IPC-indexed table vintages**: FY2026 table (SAR-01-2026) is operative;
   each annual FR must carry valid_from/valid_to — dated rows, never replace
   (SV CAT-013 lesson). Watch for SAR-xx-2027 (Jan-2027) for FY2027.
-- **Salario mínimo 2026-2027**: bienio 2024-2025 still current (Feb-2026
-  evidence via SAR-43-2026); successor instrument watch — wage floors are
-  dated data.
-- **D. 48-2024 rate split**: ceilings captured; the EM/IVM rate articles sit
-  in the damaged-text page — OCR before any FR trusts a rate value. The
-  Ley Seguro Social itself (D. 140-1959 + D. 80-2001) is only on IHSS's KB
-  pages (open lead) — capture if payroll wave needs law-level text.
-- **RAP framework**: Ley RAP D.L. 107-2013 full text not acquired — `27_`
-  Art. 16 transcription covers the operative payroll articles (42/43/61);
-  acquire the full law before any deeper RAP FRs.
+- **Salario mínimo (UPDATED W4a)**: bienio 2026-2027 (SETRASS-233-2026)
+  data COMPLETE incl. full 2026/2027 tables + %s; **the "promedio" used by
+  the ISR plantilla's 10×SMM caps lives ONLY in the DGS companion table
+  prints (91_ for 2026: L14,917.20), never in the bienio acuerdos — 2025
+  (L13,985.16 per SAR-43-2026) and 2027 promedios are NOT in corpus = OQ +
+  DGS-print acquisition lead; methodology unstated, never recompute**. Watch:
+  2027 promedio print + dic-2026 IPC trigger (escalator de-oficio possible)
+  + next bienio (late-2027?).
+- **D. 48-2024 rate split (RESOLVED W4b)**: IVM 3.5/2.5/0.5 (81_ Art. 1, OCR
+  p.3) + **EM 5/2.5/0.5 lives in the Ley IHSS reformed Art. 55-A (`87_`)**;
+  two regime ceilings (2025 both L11,903.13, coincidence). **Contribution
+  BASE (13th/14th/OT inclusion) = corpus-silent: Ley Art. 100 delegates to
+  the Reglamento General — TOP acquisition lead; config flag, never
+  hardcode.** Riesgos profesionales rate also absent (lead).
+- **RAP framework (UPDATED W4c)**: Ley RAP D.L. 107-2013 full text STILL not
+  acquired and now **doubly load-bearing** — Arts. 42/43/61 are known only
+  via `27_` Art. 16's transcription, which is **ellipsis-truncated** (OQ-6);
+  the RAP-side payroll loads (fondo 4% + RAP 1.5+1.5, worker retention
+  mechanics above the IVM techo) hang on it. Acquire the full law before any
+  deeper RAP FRs; D. 40-2026 regularization window = dated config rows.
 - **No retenciones-master reglamento**: HN retenciones live in Ley ISR Arts.
   20-23 + D. 17-2010 + per-código helps + DJIMR — do not expect an SV-anexo
   style single instrument.
