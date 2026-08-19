@@ -43,9 +43,13 @@ Financieras* financial-operations instrument tracks 501-529,
 *Contribución Especial*, the *Retenciones No Domiciliados*
 non-domiciled reduced-rate matrix, and *Agentes Extranjeros* (foreign
 agents) 701-780); the *declaración modificatoria* (amended return)
-flow (*limpiar* + full re-upload with prior-amount anchors); and the
-F-14 v17 Quincena-25 form vintage (casillas 417/418 from 2026-06,
-with the annex-level representation BLOCKED pending the v17 manual).
+flow (*limpiar* + full re-upload with prior-amount anchors); the
+F-14 v17 Quincena-25 form vintage (casillas 417/418 from 2026-06);
+and the Quincena-25 January annex upload engine — a SEPARATE
+7-column semicolon-delimited planilla CSV uploaded only in the
+January declaración period of each ejercicio from 2026, independent
+of the retention annex, from which casillas 417/418 and the F-910
+code 73 auto-derive (FR-209..211).
 
 It does **not** cover: the F-14 income-code catalog and its semantics —
 acreditable/definitiva/sin-retención/no-gravado classes, the code →
@@ -56,8 +60,9 @@ tables, thresholds and the CT matrix, owned by
 `taxation/04_isr-withholding.md`
 SV-TAX-FR-102/104/106/109/120..131; this file's annex REPORTS those
 values, it never recomputes them); the social-security cap VALUES and
-their ceiling bases plus the Quincena-25 payment mechanics (payroll
-wave — SOQ-11/SOQ-09 feeds);
+their ceiling bases plus the Quincena-25 payment mechanics and
+per-worker ledger (payroll wave — SOQ-11 feed; SV-PAY-FR-137..143,
+consumed by id);
 the F-07 declaration engine and its generic annex upload mechanics
 (files 01-05 — the F-14 upload flow is governed by its own manual
 `35_`, with F-07 §II conventions consumed by parity only where noted);
@@ -73,10 +78,14 @@ authority for declaration mechanics — 35_ (Manual de Usuario, Anexo de
 Retenciones, F-14 V16, OCTUBRE 2025) governs the annex column model
 and validations; 37_ (plantilla sheet "Detalle") is the operative
 column template; 38_ anchors the v16 form layout and 59_ the v17 delta
-(MH "Actualizado el 03/06/2026"). Version regime (D12): the v16 annex
-mechanics are current (no v17 manual/plantilla exists — MH checked
-2026-08-18); the form layout is v17 from the 2026-06 declaration
-period (EVID-184). Legal anchors behind the printed rates are cited
+(MH "Actualizado el 03/06/2026"). Version regime (D12): the v16
+RETENTION-annex mechanics are current (no v17 manual/plantilla of the
+retention annex exists — MH checked 2026-08-18); the form layout is
+v17 from the 2026-06 declaration period (EVID-184); and the
+Quincena-25 annex surface is NOT part of that annex — a SEPARATE
+January-only planilla upload governed by its own guía, instructions,
+manual and plantilla (67_ Anexo 3, 68_, 69_, 70_ — EVID-238/239;
+SOQ-09 resolved). Legal anchors behind the printed rates are cited
 per the S2 order through `taxation/04_isr-withholding.md` LB-016..019
 (rates owned there, never restated here). Manual pages are printed
 pages.
@@ -91,6 +100,10 @@ pages.
 | LB-006 | Manual F-14 v16 pp.19-23, tabla de códigos de país: 4 dígitos, "9300 EL SALVADOR ...", banda 99xx estados de EE.UU. (9900-9903 DELAWARE/NEVADA/WYOMING...); vigencia publicada en la página web del Ministerio de Hacienda | F-14 v16 manual country-code table: 4-digit codes, 9300 El Salvador, the 99xx US-states band (9900-9903 Delaware/Nevada/Wyoming...); the current list is published on the MH website (dated data) | `sv/sources/35_F14_v16_manual.pdf` | pp.19-23 (EVID-183) |
 | LB-007 | Formulario F-14 v17 (59_, MH "F14v17 ... Actualizado el 03/06/2026"), sección nueva en p.2 tras la fila 58: "INGRESOS NO GRAVADOS LEY ESPECIAL QUINCENA VEINTICINCO Número de Sujetos Monto Quincena 25" + fila "61 Ingresos No Gravados Pagados por el Agente de Retención Quincena 25 417 0 0 418 0.00 5"; consecuencia: filas 61-104 de la v16 renumeradas → 62-105 en la v17; casillas aritméticas estables (330/332/334/336, 501-529, 701-780); sin otro cambio de contenido (diciembre/junio recálculo sin cambios); NO existe manual/plantilla v17 (MH verificada 2026-08-18) | F-14 v17 form, the Quincena-25 change: a new section "NON-TAXED INCOME SPECIAL LAW QUINCENA VEINTICINCO" after row 58 with row 61 — number of subjects (casilla 417) and amount (casilla 418) of Quincena-25 non-taxed income paid by the retention agent; v16 rows 61-104 renumber to 62-105; all arithmetic casillas unchanged; no other content change; no v17 manual/plantilla exists (MH checked 2026-08-18 — annex-level representation unknown) | `sv/sources/59_F14_v17_form_visual.pdf` | pp.1-3 (EVID-184) |
 | LB-008 | Código Tributario, Arts. 154-160 (ancla legal de la matriz de retenciones impresa en el F-14): agentes y momento de retención (154); matriz de honorarios/arrendamientos/intangibles/rendimientos (156-156-B); no residentes 20% definitivo con tasas reducidas 5%/10% y paraísos fiscales 25% (158/158-A); instituciones financieras y operaciones financieras (159); premios (160) — citado por referencia a través de `taxation/04_isr-withholding.md` LB-016..019 (las tasas son propiedad de ese archivo) | Tax Code Arts. 154-160 — the legal anchor behind the F-14's per-code retention percentages, the non-domiciled 20%/5%/10% tracks, the tax-haven 25% exactness and the financial-operations tracks; cited by reference through the taxation file (rates never restated here) | `sv/sources/05_Codigo_Tributario.pdf` | Arts. 154-160 pp.83-90 zone (EVID-062/063, via taxation/04 LB-016..019) |
+| LB-009 | Guía de Orientación Quincena-25 (67_) Anexo 3 + §3.f (verbat): "El anexo de planilla Quincena Veinticinco, solo podrá ser informado en el mes de enero de cada ejercicio fiscal"; la sección del F-14 v17 "INGRESOS NO GRAVADOS LEY ESPECIAL QUINCENA VEINTICINCO — Número de Sujetos \| Monto Total Pagado" (casillas 417/418 per la impresión 59_) se totaliza desde la carga del anexo; §3.f: "En el Informe Anual de Retenciones (F-910), el monto pagado en concepto de Quincena Veinticinco, se verá reflejado en la columna de NO GRAVADOS, el cual se identificará de conformidad al Código 73 Ingresos No Gravados Pagados Quincena Veinticinco, generado de forma automática ... de acuerdo a los datos cargados en anexo ... (F-14)" | Orientation guide 67_ Anexo 3 + §3.f: the Quincena-25 planilla annex may ONLY be reported in January of each fiscal ejercicio; the F-14 v17 section "INGRESOS NO GRAVADOS LEY ESPECIAL QUINCENA VEINTICINCO — number of subjects \| total amount paid" (casillas 417/418 per the 59_ print) totals from the annex upload; §3.f: in the F-910 the amount paid is reflected in the NO GRAVADOS column identified per code 73 "Ingresos No Gravados Pagados Quincena Veinticinco", generated automatically from the data loaded in the F-14 annex | `sv/sources/67_Guia_Orientacion_Quincena25.pdf` | Anexo 3 + §3.f (pp.2-13 zone) (EVID-238) |
+| LB-010 | Instrucciones de Carga Quincena-25 (68_) pp.3/11/13-14/16 (verbat): p.11: "la opción para la carga de archivo de la Planilla Quincena Veinticinco solo estará habilitada para el periodo tributario de Enero a partir del año 2026"; p.3: aplica "exclusivamente al periodo tributario de Enero 2026" (a las entidades que pagaron) y es "independiente del anexo de retenciones"; p.13: "Los registros serán validados de modo que cumplan con la estructura requerida... si todo es correcto le mostrará mensaje de 'éxito'" — los datos cargados se reflejan en "INGRESOS NO GRAVADOS LEY ESPECIAL QUINCENA VEINTICINCO"; p.14: las inconsistencias se reportan con número de línea; "Para sustituir el archivo previamente cargado deberá dar clic en el botón Limpiar y realizar nuevamente la carga"; p.16: "el código de ingreso 73 se asignará de manera automática al momento de presentar la declaración". Lectura en-fila: el "exclusivamente Enero 2026" de 68_ refleja su momento de publicación — la regla duradera es Enero de CADA ejercicio a partir de 2026 (67_ Anexo 3 + 69_) | Upload instructions 68_: the Quincena planilla file-upload option is enabled ONLY for January tax periods from 2026; the upload applies to entities that paid and is INDEPENDENT of the retentions annex; records are validated against the required structure (success message when all correct) and the loaded data reflect in the "INGRESOS NO GRAVADOS LEY ESPECIAL QUINCENA VEINTICINCO" section; inconsistencies are reported with line numbers; replacing a previously loaded file = Limpiar (clear) then re-upload; income code 73 is assigned automatically at presentation of the declaration. In-row ruling: 68_'s "exclusivamente Enero 2026" reflects its publication moment — the durable rule is EVERY January from 2026 (67_ Anexo 3 + 69_, EVID-239 Doubts/xref ruling) | `sv/sources/68_Instrucciones_Carga_Quincena25.pdf` | pp.3, 11, 13-14, 16 (EVID-238; EVID-239) |
+| LB-011 | Manual de Usuario Carga Planilla Quincena Veinticinco (69_) §1-3 (verbat): §1: "A APELLIDOS Y NOMBRES 100 Texto; B NIT 14 Texto; C DUI 9 Texto; D FECHA DE PAGO 10 Texto; E SALARIO NOMINAL 7 Texto; F QUINCENA VEINTICINCO [6]; G PERIODO 6 Texto"; §2: A = "máximo de 100 caracteres, debe completarse en mayúsculas y en el siguiente orden: Apellidos y Nombres, sin comas ni comillas"; B NIT = "campo numérico con un máximo de 14 caracteres sin guiones y/o plecas, si esta columna es completada, la columna C 'DUI' debe quedar vacía"; C DUI = "campo numérico con un máximo de 9 caracteres sin guiones y/o plecas, si esta columna es completada, la columna B 'NIT' debe quedar vacia" (XOR); D = "dd/mm/aaaa"; E SALARIO NOMINAL = "campo numérico con un máximo de 7 caracteres incluyendo el punto decimal, 4 enteros más 2 decimales, sin separador de miles (Ejemplo: 1500.00)"; F QUINCENA VEINTICINCO = "6 caracteres incluyendo el punto decimal, 3 enteros y dos decimales (Ejemplo: 750.00)"; G PERIODO = "6 dígitos sin plecas, con la siguiente estructura: mmaaaa (Ejemplo: 012026)"; §3: guardar como CSV — "se debe verificar que la computadora tenga configurado el separador de listas, para que acepte el formato de punto y coma y no de error" | User manual 69_ §1-3: the 7-column annex spec — A names ≤100 chars completed in UPPERCASE, surnames-then-names order, no commas or quotes; B NIT ≤14 numeric characters without hyphens/plecas XOR C DUI ≤9 (whichever is completed leaves the other empty); D payment date dd/mm/aaaa; E nominal salary numeric, max 7 characters including the decimal point, 4 integers + 2 decimals, no thousands separator (example 1500.00); F Quincena amount 6 characters including the point, 3 integers + 2 decimals (example 750.00); G period 6 digits without plecas, structure mmaaaa (example 012026); §3: save as CSV verifying the computer's list-separator configuration accepts the SEMICOLON format so it does not error; §H (pp.8-9 zone): portal-side validation covers structure and montos (EVID-239 gloss) — not the benefit formula | `sv/sources/69_Manual_Usuario_Carga_Quincena25.pdf` | §1-3 pp.2-3 + §F-I pp.8-9 zone (EVID-239) |
+| LB-012 | Plantilla de importación Quincena Veinticinco (70_), línea de encabezado (celda única): "APELLIDOS Y NOMBRES;NIT;DUI;FECHA DE PAGO;SALARIO NOMINAL;QUINCENA VEINTICINCO;PERIODO" — delimitada por punto y coma; filas de ejemplo: "PRUEBA PERSONA;22222222222222;;15/01/2026;500.00;250.00;012026" y "PRUEBA PRUEBA PERSONA;;444444444;25/01/2026;1500.00;750.00;012026" (la columna XOR queda vacía en cada fila). Resolución en-fila: la etiqueta de tipo "delimitado por comas" de la plantilla queda sustituida por la propia instrucción del separador de listas de 69_ (§3, punto y coma) — el DELIMITADOR OPERATIVO es ";" | Import plantilla 70_, header line (single cell): "APELLIDOS Y NOMBRES;NIT;DUI;FECHA DE PAGO;SALARIO NOMINAL;QUINCENA VEINTICINCO;PERIODO" — semicolon-delimited; the example rows carry the empty XOR column in each row. In-file resolution carried in-row: the plantilla's "delimitado por comas" type-label is superseded by 69_'s own list-separator instruction (§3, semicolon) — the OPERATIVE delimiter is ";" (evidence OQ-2 resolved) | `sv/sources/70_Plantilla_Quincena25.xls` | header line (single sheet) (EVID-239) |
 
 ## 3. Functional Requirements
 
@@ -392,7 +405,7 @@ pages.
   (agentes extranjeros retención) and 761 (agentes extranjeros
   entero). (LB-004; EVID-181)
 
-### 3.8 F-14 v17 Quincena-25 vintage (D12)
+### 3.8 F-14 v17 Quincena-25 vintage and January annex upload engine (D12)
 
 - **SV-FREP-FR-165:** The system shall gate the form layout by
   declaration period with the v17 vintage from 2026-06 (MH
@@ -413,20 +426,59 @@ pages.
   the retention arithmetic: 417/418 never enter the 330-336
   definitivas totals, any impuesto casilla or the Pago a Cuenta
   computation (the Quincena-25 income is no-gravado; its payment
-  mechanics belong to the payroll wave — SOQ-09 cross-topic);
-  provisionally computed from an internal Quincena-25 ledger
-  classification under the FR-167 working assumption.
-  (LB-007; EVID-184)
-- **SV-FREP-FR-167:** The system shall TARGET the v16 annex export
-  structure (FR-137) for all periods — the v17 annex-level
-  representation of Quincena-25 rows is BLOCKED because no v17
-  manual or plantilla exists (MH checked 2026-08-18): whether the
-  Quincena-25 rows enter the annex CSV as a NEW income code, new
-  columns or otherwise is UNKNOWN; the working assumption (v16
-  columns + a new income code, unconfirmed — SOQ-09/OQ-001) drives
-  FR-166's provisional internal classification, and NO Quincena-25
-  annex row is emitted until the v17 manual pins the format.
-  (LB-007; EVID-184; SOQ-09)
+  mechanics belong to the payroll wave — SV-PAY-FR-137..143);
+  computed from the payroll-owned Quincena ledger and aggregates
+  (SV-PAY-FR-142/143), surfaced through the FR-209..211 upload
+  engine. (LB-007; LB-009; EVID-184; EVID-238; cross-ref
+  SV-PAY-FR-142/143)
+- **SV-FREP-FR-167:** The system shall export the retention annex
+  (FR-137 structure) WITHOUT any Quincena-25 row for ALL periods: the
+  v17 annex-level representation of Quincena-25 rows is a SEPARATE
+  January-only planilla upload — NOT an income code in, nor columns
+  of, the v16 retention annex (68_ p.3: "independiente del anexo de
+  retenciones"; SOQ-09 resolved by the W11 66_-70_ package): the
+  Quincena surface is exclusively the FR-209..211 upload engine, and
+  the former provisional assumption (v16 columns + a new income
+  code) is WITHDRAWN. (LB-007; LB-010; EVID-184; EVID-239; SOQ-09
+  resolved)
+- **SV-FREP-FR-209:** The system shall export the Quincena-25 annex
+  as a 7-column CSV, semicolon-delimited, one row per paid worker,
+  exactly per the 69_ §1-2 + 70_ spec: **A apellidos y nombres**
+  ≤100 characters, UPPERCASE, no commas/quotes · **B NIT** ≤14
+  numeric, no hyphens/plecas XOR **C DUI** ≤9 numeric · **D fecha de
+  pago** dd/mm/aaaa · **E salario nominal** 4 integers + 2 decimals,
+  no thousands separator (max 7 characters) · **F monto Quincena
+  Veinticinco** 3 integers + 2 decimals (max 6 characters) ·
+  **G período** mmaaaa — sourced from the SV-PAY-FR-142 ledger;
+  two-decimal truncation discipline at export (kin of
+  SV-FREP-FR-027/030: computation rounds never, export truncates);
+  the delimiter is the semicolon regardless of the plantilla's
+  "comas" type-label (70_ header line operative — LB-012).
+  (LB-011; LB-012; EVID-239; cross-ref SV-PAY-FR-142,
+  SV-FREP-FR-027/030)
+- **SV-FREP-FR-210:** The system shall gate the Quincena annex
+  upload to the January declaración period of each ejercicio from
+  2026 (67_ Anexo 3 + 69_ durable rule; 68_'s "exclusivamente Enero
+  2026" = its publication moment — LB-010 in-row ruling), offered
+  only when the ledger holds payments for that ejercicio (68_ p.3),
+  with replacement by clear-then-reupload ("Para sustituir el
+  archivo previamente cargado deberá dar clic en el botón Limpiar y
+  realizar nuevamente la carga") and a line-numbered validation
+  report mirroring the portal's per-record errors (68_ pp.13-14;
+  69_ §H structure-and-montos validation). (LB-009; LB-010; LB-011;
+  EVID-238; EVID-239)
+- **SV-FREP-FR-211:** The system shall derive, at annex
+  presentation: casillas **417** (subject count) / **418** (total)
+  auto-summed from the uploaded rows (67_ Anexo 3; FR-166's
+  isolation intact) and the F-910 **code-73** auto-assignment ("el
+  código de ingreso 73 se asignará de manera automática al momento
+  de presentar la declaración") wired to SV-FREP-FR-212 — single
+  data entry point: everything downstream (F-910 code 73,
+  renta-en-línea 724-kin, F-11 v19 casilla 319) derives from this
+  upload; a payroll-side cross-check warns when F ≠ 50%×E or
+  E > US$1,500.00 (WARNING only — MH validates structure + montos,
+  not the benefit formula; 69_ §H; OQ-008). (LB-009; LB-010;
+  EVID-238; EVID-239; cross-ref SV-PAY-FR-143, SV-FREP-FR-212)
 
 ### 3.9 Computation-source interfaces and export surface
 
@@ -533,6 +585,17 @@ casillas have no manual write path. Reference FR-152, FR-153.
 this file stores no code list of its own. Reference FR-142,
 FR-155..161.
 
+**Quincena-25 January annex upload — l10n_sv.f14.quincena.upload
+(new; the FR-209..211 upload-state model):**
+
+| Field | Type | Catalog / values | Reference |
+|-------|------|------------------|-----------|
+| state | select | loaded · inconsistencies · presented | FR-210, FR-211 |
+| declaration_period | char(6) MMYYYY | January-only gate (each ejercicio from 2026) | FR-210 |
+| row_count | integer | uploaded rows — one per paid worker, from the SV-PAY-FR-142 ledger | FR-209, FR-211 |
+| total_amount | monetary(2dp) | Σ F over the uploaded rows → casilla 418 | FR-211 |
+| validation_errors | text, line-numbered | per-record structure/montos errors, portal parity | FR-210 |
+
 ## 5. Odoo Mapping
 
 Layer semantics for this wave: `odoo` = computation/bookkeeping logic
@@ -573,16 +636,20 @@ is recorded per row where a legal vintage exists.
 | FR-163 | odoo | l10n_sv.f14.casilla.spec (role printed_dead) | pago-mínimo remnant | R21: void regime — row rendered 0.00, NO computation path ever feeds it; AC-011 |
 | FR-164 | odoo | l10n_sv.f14.declaration | modificatoria flow | limpiar = full data replacement + full re-upload; anchors 50/221/225/332/711/761 = prior-declaration amounts; AC-009 |
 | FR-165 | odoo | l10n_sv.f14.casilla.spec (vintage v17) | Quincena-25 form rows | D12: from 2026-06; 417 sujetos / 418 monto; rows 62-105 renumbered; arithmetic casillas stable; AC-008 |
-| FR-166 | odoo | l10n_sv.f14.casilla.value | 417/418 isolation | Reporting-only; NEVER enters 330-336/impuesto/pago-a-cuenta arithmetic; provisional internal classification per FR-167; AC-007 |
-| FR-167 | odoo | l10n_sv.f14.annex.row (export gate) | annex-level BLOCKED | No v17 manual/plantilla (MH 2026-08-18); v16 structure exported for all periods; working assumption v16+new-code (SOQ-09/OQ-001); no Quincena-25 annex row emitted |
+| FR-166 | odoo | l10n_sv.f14.casilla.value | 417/418 isolation | Reporting-only; NEVER enters 330-336/impuesto/pago-a-cuenta arithmetic; values from the SV-PAY-FR-142/143 aggregates via the FR-209..211 upload; AC-007 |
+| FR-167 | odoo | l10n_sv.f14.annex.row (export gate) | retention-annex exclusion | Quincena = SEPARATE January-only upload ("independiente del anexo de retenciones", 68_ p.3); retention annex exported WITHOUT Quincena rows for ALL periods; former v16+new-code assumption WITHDRAWN (SOQ-09 resolved — W11) |
 | FR-168 | odoo | hr.payslip / account.move.line → annex row builder | computation-source interface | I from SV-TAX-FR-102/121..131; bases from SV-TAX-FR-104; thresholds SV-TAX-FR-106 (01-vs-60 monthly); annex REPORTS, never recomputes |
 | FR-169 | odoo | l10n_sv.f14 annex export | file surface | Plantilla "Detalle" structure; F-07 §II mechanics by parity (01 FR-028..031) — F-14-specific format untranscribed, OQ-006 |
 | FR-170 | odoo | l10n_sv.f14.annex.row (read API) | F-910 feed | Consolidation rules OWNED by `07_codes-and-informs.md` (CT 123 surface; annual 01-vs-60; annual SS columns) — forward ref |
+| FR-209 | odoo | l10n_sv.f14.quincena.upload (export) | 7-column `;` CSV | One row per paid worker from the SV-PAY-FR-142 ledger; A..G spec per 69_ §1-2 + 70_ header; NIT XOR DUI; two-decimal export truncation (SV-FREP-FR-027/030 kin); AC-015 |
+| FR-210 | odoo | l10n_sv.f14.quincena.upload (state/gate) | January-window gate | Enabled only for January declaración periods from 2026 and only when the ledger holds payments; replacement = Limpiar clear-then-reupload; line-numbered validation report; AC-016 |
+| FR-211 | odoo | l10n_sv.f14.quincena.upload (presentation) | 417/418 + code-73 derivation | 417/418 auto-summed at presentation (FR-166 isolation); F-910 code 73 wired to SV-FREP-FR-212; F ≠ 0.5×E / E > 1,500 cross-check WARNING-only (OQ-008); AC-017 |
 
 Version-regime notes (D12): three dated layers govern this file —
 (1) the FORM vintage (v16 before 2026-06, v17 from 2026-06 per the MH
-03-06-2026 actualization; the annex mechanics stay v16 until a v17
-manual publishes — SOQ-09); (2) the SS-cap parameters (Oct-2025
+03-06-2026 actualization; the retention-annex mechanics stay v16 —
+the Quincena-25 annex is a SEPARATE upload with its own 69_/70_ spec,
+SOQ-09 resolved); (2) the SS-cap parameters (Oct-2025
 print; payroll-wave feed — SOQ-11); (3) the country/haven list (MH
 web, undated in the corpus — OQ-007). The income-code catalog vintage
 (Oct-2025 apéndice vs the v17 row set) is owned by
@@ -663,15 +730,33 @@ unpinned (`08_filing-calendar.md`; SOQ-08 — OQ-005 pointer).
   the canonical quartet codes from `l10n_sv.isr.costgasto.classification`
   (03 file FR-079..085) fill S/T/U/V with no code list duplicated in
   this file (FR-146).
+- **AC-015:** Given the two 70_ example workers (one NIT-identified,
+  one DUI-identified), then the Quincena annex export emits verbatim
+  `PRUEBA PERSONA;22222222222222;;15/01/2026;500.00;250.00;012026`
+  and
+  `PRUEBA PRUEBA PERSONA;;444444444;25/01/2026;1500.00;750.00;012026`
+  — semicolon-delimited with the XOR column empty in each row
+  (FR-209).
+- **AC-016:** Given a February declaración period, then the Quincena
+  upload option is absent; and given a January period with a prior
+  presentation, then replacement requires the clear (Limpiar) action
+  before re-upload (FR-210).
+- **AC-017:** Given 10 uploaded rows totalling 5,000.00 presented in
+  a January period, then casilla 417 = **10**, casilla 418 =
+  **5,000.00**, the F-910 code-73 row appears (wired to
+  SV-FREP-FR-212), and casillas 330-336 are unchanged — the
+  isolation negative test (FR-211, FR-166).
 
 ## 7. Open Questions
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
-| OQ-001 | SOQ-09: F-14 v17 annex format unknown — no v17 manual/plantilla exists (MH checked 2026-08-18): how do Quincena-25 rows enter the annex CSV (a NEW income code? new columns?)? Working assumption recorded in FR-167: v16 columns + a new income code, UNCONFIRMED; FR-166's provisional 417/418 classification and any Quincena-25 annex emission stay blocked until the v17 manual publishes. The Ley Especial Quincena Veinticinco itself is not in the corpus (acquisition candidate, numbering ≥ 65; payroll co-dependency for payment mechanics). | yes (Quincena-25 annex-level representation only) | Takumi S3 (sources registry) + payroll wave | open |
+| OQ-001 | RESOLVED (was SOQ-09): the F-14 v17 Quincena-25 annex representation — the W11 66_-70_ package (EVID-238/239) shows it is a SEPARATE January-only planilla upload, NOT an income code in nor columns of the v16 retention annex (68_ p.3 "independiente del anexo de retenciones"); the retention annex exports without Quincena rows for ALL periods (FR-167) and the upload engine is FR-209..211; the former v16-columns + new-income-code assumption is WITHDRAWN. | no (resolved 2026-08-18, W11) | Takumi S6 (fold-in) | resolved |
 | OQ-002 | SOQ-11: SS caps as dated data — AFP US$472.93 / ISSS US$30.00 ($-caps) and INPEP 7.5% / IPSFA 9.5% / CEFAFA 5% / Bienestar Magisterial 5.58% / ISSS-IVM 7.5% (%-maxima) printed Oct-2025: the cap feed/cadence and the legal ceiling bases belong to the PAYROLL wave (16_/08_/09_ sources); this file mirrors them as validation parameters (l10n_sv.f14.ss.cap). Payroll wave re-dates the values at encoding. | no | Takumi payroll wave | open |
 | OQ-003 | Op. Financieras tracks (casillas 501-529; 35_-file OQ-4 kin): the instrument taxonomy (control-de-liquidez creditable vs definitive cheque/transferencias electrónicas/mercado de valores) and the acreditable-vs-definitivo RATES need a CT 159/164-165-zone article re-check — the LB anchor is incomplete in the W8 read (form labels only). FR-159 encodes the printed track split; the CT anchor and rates stay open. | no | Takumi S3 (CT matrix re-check) | open |
 | OQ-004 | Income-code catalog fidelity (pointer): the apéndice catalog transcribed in EVID-182 is the v16 manual (Oct-2025) — verify against the v17 form's row set and any annex-modification resolutions (SOQ-12 kin; 29_-file OQ-1 kin). OWNED by `07_codes-and-informs.md` §3; this file consumes the catalog by forward reference only. | no | Takumi S3 (Task 7) | open |
 | OQ-005 | SOQ-08 (pointer): F-14 due-day scheduling — the 2026 calendar's due-day windows are a visual layer with no normative anchor in the corpus; deadline behavior is owned by `08_filing-calendar.md`. No deadline FR exists in this file. | no | Takumi S3 (Task 8) | open |
 | OQ-006 | F-14 export file mechanics: the 35_ W8 extract does not transcribe the F-14 file-format section (delimiter, ≤-character filename policy, Text-cell discipline); plantilla sheet "Detalle" carries the column template and FR-169 consumes the F-07 §II conventions (01 file SV-FREP-FR-028..031) by PARITY. Verify against the plantilla/MH upload validation before certifying byte-exact exports. | no | Takumi S3 | open |
 | OQ-007 | MH country-code + tax-haven list cadence: both tables are web-published and undated in the corpus ("La lista vigente de países ... se encuentra publicada en la página web del Ministerio de Hacienda"); FR-139 seeds them as dated data with the haven flag. Pin a refresh source/schedule; the haven CLASSIFICATION consumed by taxation/04 FR-127 must stay consistent with this table. | no | Takumi S3 (sources registry) | open |
+| OQ-008 | MH-side validation depth: whether the live portal rejects rows with F ≠ 0.5×E or E > US$1,500.00 — the 69_ §H reading is structure-and-montos-only (the benefit formula is not validated portal-side), so FR-211 ships the payroll-side cross-check as WARNING-only; watch MH guidance for any formula-level rejection. | no | Takumi S6 (MH-guidance watch) | open |
+| OQ-009 | Live-portal delimiter verification (69_ OQ-2 kin, resolved in-file): the semicolon is operative (70_ header line + 69_ §3 list-separator instruction — LB-012); AC-015 assumes `;` — test both delimiters against the live portal only if ever verified live. | no | Takumi S6 | open (resolved in-file: `;`) |
