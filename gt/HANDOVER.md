@@ -16,8 +16,8 @@ GT requirements-extraction for the Odoo localization, per
 `shared/docs/requirements-extraction-procedure.md` (method spine) and the SV
 corpus as precedent. Currently in **Stage 1/2 (evidence waves)**:
 EXTRACTION_PLAN approved 2026-08-19; **W-GT1 (FEL stack) + W-GT2 (taxation
-core) COMPLETE** — 10 evidence files committed (EVID-001..265); W-GT3
-(payroll) is next.
+core) + W-GT3 (payroll) COMPLETE** — 14 evidence files committed
+(EVID-001..370); W-GT4 (fiscal reporting) is next.
 Product architecture context: root `HANDOVER.md` §1 (SaaS thin-client + Odoo;
 Takumi consumes requirements).
 
@@ -61,8 +61,11 @@ taxation core (IVA 27-92 **pre-FEL vintage — OQ10**, Reglamento IVA AG
 reform — derogates Art. 8-"A"** (added D-31-2024; the "3-'A'" belief was a
 myth — W-GT2), D-20-2006 + AG 425-2006 retenciones basis);
 payroll (Código de Trabajo D-1441, IGSS set incl. Res. 08-SGF/2026, IRTRA
-D-15-1928, INTECAP **D-17-72**, aguinaldo D-42-92, bono 14 D-78-89, salario
-AG 250-2020 + **AG 256-2025 (2026 rates)** + Historia); fiscal reporting
+**D-1528 (1962) — identity corrected W-GT3**, INTECAP **D-17-72**, **bono 14
+D-42-92 (40_) + incentivo D-78-89 (41_) — titles corrected W-GT3; December
+aguinaldo law D-76-78 = MISSING**, salario
+AG 250-2020 + **AG 256-2025 (2026 rates; CE2 maquila = Q3,221.10)** +
+Historia 1995-2021); fiscal reporting
 (form inventory snapshot 2025-10-06, retenciones Web pages+manuals, LET
 manuals ×3, agentes roster 2025-10, criterios 6-2018/2-2019, SAT-2390 set);
 COA anchor (Código de Comercio D-2-70, 301pp); special regimes (ZF D-65-89
@@ -74,6 +77,48 @@ Integral (17-jun-2026)**, RM edictos + aranceles).
 23_ (IVA pre-FEL), 68_ (ZF reglamento pre-check), 75_ (AML, likely
 superseded by 77_ D-15-2026 — derogation inventory pending), 17_/19_ (2018
 vintage FEL docs). Reform chains are recorded in SOURCE_RESEARCH.md.
+
+## 5c. W-GT3 facts a synthesis session MUST know (2026-08-19)
+
+- **Bonus-law identity corrections (material)**: 40_ = **BONO 14** (D-42-92:
+  paid "primera quincena del mes de julio"; 100% of ordinary salary averaged
+  over the year ending June; prorated). 41_ = **old incentivo law** (D-78-89,
+  hourly floor Q0.15/Q0.30). **The December AGUINALDO law (Decreto 76-78) is
+  NOT in corpus — acquisition candidate; never invent December-bonus
+  mechanics.** Current Q250/mes incentivo = D-37-2001 (also missing).
+- **IRTRA = flat 1% on total planillas** (D-1528 art. 12 as reformed by
+  D-43-92; no brackets — OQ12 disproven). 42_ identity = Decreto 1528
+  (29-May-1962). Text layer = substituted-glyph cipher, decoded with audit
+  key in the evidence file.
+- **IGSS OQ11 still open**: no cuota rates anywhere in corpus (D-295 prints
+  only 25/50/25 financing proportions; 08-SGF/2026 defers rates to the JD
+  Reglamento de Recaudación — acquisition candidate). NO tope máximo; base
+  floor = salario mínimo AG vigente; patrono delivers both shares wholesale
+  (laboral + patronal); planilla electrónica lifecycle; single receipt
+  IGSS+IRTRA+INTECAP; mora day-after-due + 5% admin; ±1% rounding tolerance.
+- **INTECAP = 1% vigente** (law's 0.50/0.75/1.00 ladder; reglamento art. 9:
+  "uno por ciento del valor de los salarios mensuales"), base = IGSS
+  planillas, **first 20 días of next month** (IGSS collects, retains 2%).
+- **CT money rules**: jornada diurna 8/48 (45 effective paid as 48),
+  nocturna 6/36, mixta 7/42; **OT ≥ +50%** (12h/day cap; holiday work = OT
+  on top, no literal 2×); **vacaciones 15 días hábiles** + 150-day
+  qualification + no cash-out while employed + 5-year retro cap;
+  **indemnización (despido injusto) = 1 month/year uncapped**, base = 6-month
+  average, IGSS offsets; preaviso is WORKER-side (semana/10d/2sem/mes);
+  **NO auxilio de cesantía exists** (SV folk model rejected); salarios
+  caídos ≤12 months; maternidad 84 días @100% + inamovilidad; lactancia
+  2×½h/10 months; menores ≥14; inembargabilidad ladder + 50% alimentos cap;
+  **CT contains zero aguinaldo/bono/propina provisions** — those are the
+  specific laws' territory exclusively.
+- **Salario mínimo structure**: 2 circunscripciones (CE1 = Guatemala dept,
+  CE2 = rest) × 3 actividades; 2026 values transcribed [sic]-faithful (see
+  registry row 37_ — includes the internal 3,416.90-digits vs
+  3,816.90-words defect); history (39_) covers 1995-2021 only — 2022-2025
+  AGs missing (minor gap).
+- **Planilla IVA-FEL (56_)**: asalariado IVA credit via FEL DTEs + SAT-8560
+  DUCA + SAT-2901 FYDUCA + SAT-2311/2799; window 01-Jan → 10th día hábil
+  enero; Formulario SAT-1111 + Constancia; re-filing last-wins (priors =
+  ANULADAS) + must report to patrono.
 
 ## 5. GT facts a new session must know
 
@@ -247,9 +292,11 @@ vintage FEL docs). Reform chains are recorded in SOURCE_RESEARCH.md.
   pinned (Dto. 4-2019 art. 6); full text still missing. ~~OQ17~~
   RESOLVED-AS-MYTH (D-10-2025 derogated Art. 8-"A", added D-31-2024;
   "3-'A'" never existed). **D-31-2024 full text = acquisition candidate.**
-- **OQ11** IGSS cuota split (12.67/4.83 priors) — inside 35_/36_ (W-GT3
-  evidence resolves; accountant can confirm).
-- **OQ12** IRTRA cuota brackets — inside 42_/43_/44_ (W-GT3 evidence).
+- **OQ11 (SHARPENED — still open)**: IGSS cuota rates NOT in corpus — live
+  in the JD Reglamento de Recaudación (Acuerdo 1118-kin, acquisition
+  candidate); no tope máximo; base floor = salario mínimo.
+- ~~OQ12~~ **DISPROVEN + RESOLVED W-GT3**: IRTRA = flat 1% on planillas
+  (D-1528 as reformed by D-43-92; no brackets; identity corrected to 1962).
 - ~~OQ13~~ **RESOLVED W-GT2** (see §5b).
 - **OQ14** D-15-2026 derogation inventory; AML reglamento status; Q2,000
   threshold wording.
@@ -277,12 +324,13 @@ synthesized with these as flagged open questions and back-filled later.
 
 ## 9. Next actions (ordered)
 
-1. ~~EXTRACTION_PLAN~~ approved + ~~W-GT1~~ + ~~W-GT2~~ **COMPLETE
-   2026-08-19** (see §5a/§5b + plan extraction log). **Next: W-GT3 —
-   payroll evidence pass** (Código de Trabajo 32_, IGSS set 33_-36_,
-   salarios 37_-39_, aguinaldo/bono 40_/41_, IRTRA/INTECAP 42_-46_,
-   planilla IVA-FEL 56_; OQ11/OQ12 resolve here; several files are scans —
-   OCR-verify page 1 first).
+1. ~~EXTRACTION_PLAN~~ approved + ~~W-GT1~~ + ~~W-GT2~~ + ~~W-GT3~~
+   **COMPLETE 2026-08-19** (see §5a/§5b/§5c + plan extraction log).
+   **Next: W-GT4 — fiscal-reporting evidence pass** (48_ form inventory,
+   49_/50_ RetWeb pages, 51_/52_ RetWeb manuals, 53_ agentes roster,
+   54_ SAT-0261, 55_ pequeño digest, 57_/58_/82_ LET manuals, 59_ informe
+   compras/ventas, 61_ libro pequeño, 62_/63_ SAT-2390, 64_/65_ criterios,
+   30_ calendario-kin absent — JSF transcription rides any wave).
 2. Opportunistic gap closure: queue rev-6 items (AG 75-2006 AML reglamento,
    consolidated IVA post-2018, D-19-2016); instructivos cat 15812;
    calendario transcription via SAT JSF app; accountant answers fold in

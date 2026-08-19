@@ -14,9 +14,14 @@ browser; "Búsqueda avanzada" → filters by organismo/tipo/año + texto)
 | — | gt_sources_iva_27-92_post2018.pdf | Decretos 1992 → 27-92 — look for a consolidated edition listing reforms through ≥2018 (must include Art. 29-"A" FEL hook; closes OQ10; ideally through D-10-2025) |
 | — | gt_sources_decreto_19-2016.pdf | Decretos 2016 — "19-2016" (Ley Emergente de Modernización de la Zona Franca — the missing D-65-89 → D-6-2021 chain link) |
 | — | gt_sources_decreto_31-2024.pdf | Decretos 2024 — "31-2024" (Ley para la Integración del Sector Productivo Primario y Agropecuario — added IVA Art. 8-"A" (derogated D-10-2025) + LAE changes + the 5 new DTE types FEPE/FARP/FCRP/FPEC/FCPC; W-GT2 addition) |
+| — | gt_sources_aguinaldo_D76-78.pdf | Decretos 1978 — "76-78" (**THE December aguinaldo law — MISSING from corpus**; W-GT3 found 40_ = bono 14 D-42-92, not aguinaldo; December-bonus mechanics must not be invented) |
+| — | gt_sources_incentivo_D37-2001.pdf | Decretos 2001 — "37-2001" (bonificación incentivo Q250/mes current law; 41_ = D-78-89 is the old hourly-floor version) |
+| — | gt_sources_igss_reglamento_recaudacion.pdf | igssgt.org legislación section — Junta Directiva Reglamento de Recaudación (Acuerdo 1118-kin + reformas) — **the IGSS cuota rates live here (OQ11)** |
 
 Struck (delivered/resolved 2026-08-19): ~~37_ AG 256-2025~~, ~~41_ bono 14
-D-78-89~~, ~~AML ley D-67-2001~~ (= 75_), ~~ZF successor "D-16-2022"~~
+D-78-89~~ (delivered — W-GT3 corrected: actually the incentivo D-78-89;
+bono 14 = D-42-92 = 40_; aguinaldo = D-76-78 still wanted above),
+~~AML ley D-67-2001~~ (= 75_), ~~ZF successor "D-16-2022"~~
 (hypothesis retired — no such replacement; AG 65-2022 = ZOLIC reglamento
 reformas, registered as 81_), ~~D-6-2021~~ (= 80_, verified ZF reform, not
 an e-invoicing mandate — OQ4 resolved).

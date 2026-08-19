@@ -307,9 +307,20 @@ RM site in maintenance.
 
 ## Open questions (additions, W3-W5)
 
-11. **OQ11**: IGSS cuota split (patronal 12.67% / laboral 4.83% priors) +
-    INATEC share — verify inside 35_/36_ (rates not on any official HTML).
-12. **OQ12**: IRTRA cuota mensual brackets — extract from 42_/43_/44_.
+11. **OQ11 (SHARPENED — W-GT3, still open)**: IGSS cuota split (patronal
+    12.67% / laboral 4.83% priors) — **NOT verifiable from the corpus**: the
+    08-SGF/2026 instructivo prints NO rates (rates live in the Junta
+    Directiva Reglamento de Recaudación, Acuerdo 1118-kin — NOT in corpus);
+    D-295 prints only the 25/50/25 financing proportions; **no tope máximo
+    exists; base floor = salario mínimo AG vigente**. Acquisition
+    candidate: the JD reglamento (igssgt.org legislación section).
+12. ~~OQ12: IRTRA cuota mensual brackets~~ **DISPROVEN + RESOLVED
+    2026-08-19 (W-GT3)**: no bracket table exists — IRTRA = **flat 1% on
+    total planillas** (D-1528 art. 12 as reformed by D-43-92). Identity
+    correction: the law is **Decreto 1528 (29-May-1962)**, not "Decreto
+    15 de 1928" (registry misread; source URL filename itself carries
+    1528). AG 5/6-2005 = governance only. Pre-reform D-43-92 text outside
+    corpus (minor).
 13. ~~OQ13: IVA-retention percentage + ISR retention rates~~ **RESOLVED
     2026-08-19 (W-GT2 evidence, both halves, verbatim)**: IVA = D-20-2006
     arts. 1-6 (**% OF THE IVA**, not base): 65% exportadores agropecuarios +

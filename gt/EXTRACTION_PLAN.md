@@ -51,7 +51,7 @@ Grouped like the SV plan; registry rows are authoritative for filenames.
 | 13 | `32_` Código de Trabajo D-1441 (188pp; tail unverified) | Labor law: jornada, salario, prestaciones, contrato, terminación | payroll books full; contract/commercial books skim-flag | payroll, commercial-legal (fringe) |
 | 14 | `33_` IGSS Ley Orgánica D-295 + D-11-2004 · `34_` SSO reglamento AG 229-2014 (+33-2016, 57-2022 noted) · `35_` Res. 08-SGF/2026 recaudación (47pp) · `36_` guía recaudación | IGSS regime: law-level rates, cuota apparatus (**OQ11: split 12.67/4.83 priors to verify**), employer duties | 33_ law rates; 35_ = the cuota/recaudación core; 34_ OSH (light — registrar por presenting); 36_ mechanics | payroll |
 | 15 | `37_` AG 256-2025 (salario 2026) · `38_` AG 250-2020 · `39_` Historia salarios | Salario mínimo dated rows (C1/C2 × agrícola/no-agrícola/maquila, eff 2026-01-01) | as data (tables [sic]-faithful); the trio = the D15/D16 wage-row seed | payroll (feeds all SMM-indexed) |
-| 16 | `40_` aguinaldo D-42-92 · `41_` bono 14 D-78-89 (Q250/mes) | Annual statutory bonuses | whole each; tail check 40_ | payroll |
+| 16 | `40_` bono 14 D-42-92 (**corrected W-GT3; registry title said "aguinaldo"**) · `41_` incentivo D-78-89 (**corrected; old hourly-floor law — Q250/mes lives in D-37-2001, not in corpus**) | Annual statutory bonuses (**December aguinaldo law D-76-78 = acquisition candidate**) | whole each; tail check 40_ | payroll |
 | 17 | `42_` IRTRA D-15-1928 · `43_/44_` AG 5/6-2005 · `45_` INTECAP D-17-72 · `46_` INTECAP reglamento tasa patronal | Patronal institute cuotas (**OQ12: IRTRA brackets**) | whole each (all short) | payroll |
 | 18 | `56_` planilla IVA-FEL (art. 72 Dto. 10-2012) | Asalariado IVA-deduction planilla | whole; format = fiscal-reporting interface | payroll, fiscal-reporting |
 | 19 | `48_` form inventory snapshot 2025-10-06 | Master form registry (SAT-2237 IVA general, **1371 ISR anual**, 1411 asalariados, 1361 trimestral, 2046/2241 pequeño, 1321/2340/2320 retenciones, boleta 2000) | as data: form↔regime↔deadline map; per-form validities (e.g. "SAT-2237 válido Sep-2013 en adelante") = dated rows | fiscal-reporting |
@@ -244,5 +244,26 @@ commit. Never leave a session with evidence unmerged. Update
   through D-37-2016, no FEL-era reforms; CT Art. 120 suspension ¶ void per
   CC 680-2013**; Reglamento IVA tail = AG 222-2019 (FEL cluster: new
   registrants FEL-only 1-jul-2021); pequeño threshold Q150,000 (2012 value)
-  + 5% definitivo; IVA 12% with 5pp earmarks + fixed-fee used-vehicle
+  + 5% definitivo;   IVA 12% with 5pp earmarks + fixed-fee used-vehicle
   regime. D-31-2024 added to gap set (new acquisition candidate).
+- 2026-08-19 — **W-GT3 COMPLETE** (payroll). Stage 1: 16 PDFs extracted
+  (5 via OCR). 4 evidence files committed (EVID-266..370):
+  `32_Codigo_Trabajo` (266-300), `33-36_IGSS` (301-325),
+  `37-41_Salarios_Bonos` (331-350), `42-46_56_IRTRA_INTECAP_Planilla`
+  (351-370). Key outcomes: **registry corrections** — 40_ = **bono 14**
+  D-42-92 (July, 100% June-average; title said "aguinaldo"), 41_ = old
+  **incentivo** D-78-89 (names were swapped), **December aguinaldo law
+  D-76-78 = MISSING (acquisition candidate)**, Q250/mes incentivo =
+  D-37-2001 (missing); **42_ IRTRA = Decreto 1528 (1962)**, not "15 de
+  1928"; **OQ12 DISPROVEN** (flat 1% on planillas post-D-43-92, no
+  brackets); **OQ11 SHARPENED still-open** (no rates in corpus — JD
+  Reglamento de Recaudación = acquisition candidate; no tope máximo; base
+  floor = salario mínimo); **37_ rate corrections** (CE2 maquila =
+  Q3,221.10; CE2 no-agrícola internal [sic] 3,416.90-digits vs
+  3,816.90-words); CT: jornada 8/48-45, OT ≥+50%, vacaciones 15 días
+  hábiles + 150-day rule, indemnización 1 mes/año uncapped (6-mo base,
+  IGSS offsets), **no auxilio de cesantía exists** (SV-folk-model
+  rejected), maternity 84d @100%, no aguinaldo/bono in CT; INTECAP 1%
+  (law 0.50-1.00 ladder; vigente 1%) first-20-días on IGSS planillas;
+  planilla IVA-FEL = Jan 10-días-hábiles, SAT-1111, last-wins, FEL+DUCA
+  feed.
