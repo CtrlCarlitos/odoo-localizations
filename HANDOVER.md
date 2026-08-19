@@ -70,7 +70,22 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
   updated via delete + re-push. GT = EXTRACTION_PLAN approved + W-GT1/W-GT2/
   W-GT3 evidence complete (14 files, EVID-001..370; Reglas = v2.0;
   OQ5/OQ6/OQ13 resolved, OQ12 disproven, OQ17 resolved-as-myth, OQ11 open;
-  see `gt/HANDOVER.md` §5a-5c); next W-GT4 fiscal reporting. Main ahead of
+  see `gt/HANDOVER.md` §5a-5c); next W-GT4 fiscal reporting. **HN wave-4
+  merge 2026-08-20 (§4.6 protocol, third run):** `hn-research` rebased onto
+  `7007695` (1 commit rewritten: `63e854b`→`d5a2f4b` W4 payroll evidence
+  EVID-215..333) then fast-forward-merged; remote branch ref updated via
+  delete + re-push. HN = ALL FOUR evidence waves complete (taxation +
+  fiscal-reporting + facturación + payroll; 17 evidence files,
+  EVID-001..333, ~227 open OQs, corpus 103 files); next synthesis prep
+  (master index + OQ registers) then S-waves. W4 keys: IHSS matrix IVM
+  3.5/2.5/0.5 + EM 5/2.5/0.5 (worker 5% / employer 8.5%), TWO regime
+  ceilings (post-2025 = JD actuarial rows); RAP fondo 4% + 1.5+1.5 stacked,
+  coexists-with-offset vs CT cesantía (CT Art. 120 lit. f hook); SMM
+  promedio printed ONLY in DGS companion tables (2026 L14,917.20 → 10×SMM
+  cap L149,172; never recompute); aguinaldo NOT in the CT (D.135-94 +
+  Acuerdo 201-96 = TOP acquisition leads; D.112 SAR routes exhausted);
+  85_ = 9th title-vs-content incident (D.93-2021 derogates Penal-only, ZERO
+  CT articles — guard table EVID-333). Main ahead of
   sv-research (`01f04c9`) — merges at its own milestone. This HANDOVER
   update commits on main directly (integration branch).
 
