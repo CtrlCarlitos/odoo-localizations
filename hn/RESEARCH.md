@@ -194,17 +194,37 @@ link is dead (redirects to internal-IP 404).
 Per the shared procedure's hint-layer policy (pointers for where to read;
 every item must be confirmed against corpus text before it influences an FR):
 
-- **[2026-08-19, product-owner recollection]** Prior HN localization job:
-  invoices required a **CAI downloaded from the tax authority**; authorized
-  **lots/batches = ranges of documents**; sequences had to be tracked with
-  **no overlap**; ranges **expired** (vigencia) and running out of documents
-  mid-period was an operational failure mode. The system had **document
-  types** (the prior Odoo implementation used `l10n_latam_invoice_document`
-  to avoid one journal per document type — now binding decision D-H1 in
-  EXTRACTION_PLAN.md).
+- **[2026-08-19, product-owner recollection, item 2]** The document numbering
+  had a **structure with branch (sucursal) and cash register (caja)**
+  components; in their prior Odoo implementation **sucursal mapped to Odoo
+  warehouses (NOT stock.locations)** and the **caja belonged to the
+  warehouse**.
+  **Corpus verification (same day, `24_`):** structure CONFIRMED — Art. 10
+  num. 7 (p.16-17): 16 digits = establecimiento (3, SAR-assigned, casa
+  matriz=000) + punto de emisión (3, SAR-assigned) + tipo de documento (2,
+  01=Factura) + consecutive (8, starts 00000001, wraps at 99999999); the
+  first three groups are jointly the "identificador del documento".
+  Terminology mapping: statutory **establecimiento** ≈ recollected "sucursal"
+  (Art. 48 uses casa matriz/sucursales for topology); statutory **punto de
+  emisión** ≈ recollected "caja" — the word "caja" appears ZERO times in the
+  corpus; máquinas registradoras (cash registers) are each their own punto de
+  emisión (Art. 61 per-device authorization), and Art. 49 places puntos fijos
+  "ubicados en los establecimientos" (= "caja belonged to the warehouse").
+  SAR's registration workflow (`76_`) registers puntos de emisión per
+  establecimiento. Odoo-mapping part (warehouse-not-location) recorded as
+  design guidance in D-H1 (EXTRACTION_PLAN.md) — mapping hint, not statute.
+- **[2026-08-19, product-owner recollection, item 1]** Prior HN localization
+  job: invoices required a **CAI downloaded from the tax authority**;
+  authorized **lots/batches = ranges of documents**; sequences had to be
+  tracked with **no overlap**; ranges **expired** (vigencia) and running out
+  of documents mid-period was an operational failure mode. The system had
+  **document types** (the prior Odoo implementation used
+  `l10n_latam_invoice_document` to avoid one journal per document type — now
+  binding decision D-H1 in EXTRACTION_PLAN.md).
   **Corpus verification (same day, `24_`):** CONFIRMED as the
   rango-autorizado/CAI regime — CAI def. p.7; CAI + fecha límite de emisión +
-  rango autorizado as required prints (p.16, p.23); 16-digit correlativo;
+  rango autorizado as required prints (p.16, p.23); 16-digit correlativo
+  (structure above, item 2);
   Art. 59 (one authorization per punto de emisión until exhaustion, 2-month
   pre-deadline window); cancellation causes p.50. Document types CONFIRMED:
   Arts. 5-8 taxonomy (Comprobantes Fiscales: Factura, Factura Prevalorada,

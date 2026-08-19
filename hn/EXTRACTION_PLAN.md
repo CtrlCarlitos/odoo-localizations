@@ -123,6 +123,19 @@ top, payroll parallel, facturación standalone):
     structure: establecimiento/punto de emisión/tipo de documento/talomera +
     secuencia) — the CAI/authorization ledger keys on
     (punto de emisión, document type), never on journal.
+  - **Numbering-structure Odoo mapping (design guidance, product-owner
+    prior implementation; statutory anchor = 24_ Art. 10 num. 7 + Arts.
+    48-49, 61):** the sequence identifier's two location segments map to
+    inventory structures — **establecimiento ("sucursal") →
+    `stock.warehouse`** (company-level branch code, casa matriz = 000;
+    NOT `stock.location`), and **punto de emisión ("caja") → a child
+    emission point of the warehouse** (each máquina registradora/dispositivo
+    is its own punto de emisión per Art. 61; Art. 49 places puntos fijos
+    within establecimientos). Synthesis must reconcile this with
+    D-H1's document-type-level sequences: the full sequence key is
+    (establecimiento, punto de emisión, document type) = (warehouse,
+    emission point, `l10n_latam.document.type`). Note for evidence pass:
+    "caja" is implementation vocabulary — the statute says punto de emisión.
   - Cross-country propagation (GT/SV): NOT decided here — this session owns
     HN only; raise at merge for the product owner to carry into the other
     countries' plans.
