@@ -1,7 +1,8 @@
 # HANDOVER — Honduras Session State & Continuation Guide
 
 **For the next HN controller session.** Written 2026-08-20 after evidence
-wave W1e, updated same day after W1f (taxation core CLOSED). Read this fully
+wave W1e, updated same day after W1f (taxation core CLOSED), and again same
+day (lead-dig round 4: sources 93-100 + decision D-H2). Read this fully
 before acting; it is the authoritative HN cross-session memory (conversation
 context does not survive). Update it at every session boundary.
 
@@ -29,8 +30,8 @@ context does not survive). Update it at every session boundary.
    COMPLETE), reading order, risks, **Decisions (D-H1 binding)**
 3. `hn/RESEARCH.md` — research dossier: sites, fetch recipes (§6), hint
    layer w/ corpus verification (§7), open leads (§5, retry round 3 results)
-4. `hn/sources/README.md` — registry, 92 files (01-92, no gaps), full
-   provenance
+4. `hn/sources/README.md` — registry, 100 files (01-100, no gaps), full
+    provenance
 5. Evidence files in `hn/.extractions/*.evidence.md` (committed):
    `01_` (ISR, EVID-001..015), `02_` (ISV, 016..026), `03_` (CT, 027..038),
    `04-21-22_` (D.17-2010 family, 039..053), `07-12+11_` (tables+plantilla,
@@ -40,7 +41,7 @@ context does not survive). Update it at every session boundary.
 
 ## 3. State: corpus (research phase COMPLETE)
 
-92 registered files, every one page-1 verified. Structure:
+100 registered files, every one page-1 verified. Structure:
 - **Laws/consolidations:** ISR D.L. 25 (`01_`, hasta SAR-07-2025), ISV
   D.L. 24 (`02_`, hasta D.L. 59-2022), CT D. 170-2016 (`03_`, hasta
   D. 180-2020; post-2020 = only `89_` D.117-2021 interp + `23_` Art. 206
@@ -60,6 +61,16 @@ context does not survive). Update it at every session boundary.
   **2026-2027 SETRASS-233-2026 + tables (`90/91/92_` — CURRENT)**, CT D.
   189-1959 (`86_`), D. 93-2021 derogations (`85_` = Gaceta 35,760 full)
 - Misc: amnistía D. 7-2026 (`06_`), ISR reforms (`79/80_`)
+- **Lead-dig round 4 (2026-08-20, 93-100):** D. 31-2019 22-A interp/reforma
+  (`93_`; gazette header prints 34,932 vs catalog 34,934 [sic] — pin at
+  evidence), Acuerdo 464-1990 (`94_` = the 1990 ISR-withholding reglamento
+  ancestor: L10k gate, 5% services, 20-day entero — HISTORICAL; NOT the
+  modern Reglamento Ley ISR, which stays open), D. 199-2006 Adulto Mayor
+  (`95_` = L30k@60 source) + **D. 45-2025 (`96_` = NEW: Jan-2026 reform,
+  Arts. 31/31-A/31-B)**, D. 194-2002 original (`97_` = Art. 14 65+ ≤L350k
+  origin), selectivo IPC chain (`98/99/100_` = 172-2022 → 014-2023 →
+  218-2024, current 5.19%). Dead ends: Instructivo 461-2020 (not on SEFIN),
+  STSS-308-2022 (not on STSS site) — both need Gaceta dates → ENAG route.
 
 ## 4. Key findings (do not re-derive)
 
@@ -94,6 +105,15 @@ context does not survive). Update it at every session boundary.
   (establecimiento→`stock.warehouse`, punto de emisión→child emission point,
   doc type→`l10n_latam.document.type`); emission point NOT on journal;
   user↔emission-point matrix = operational FR only (non-statutory).
+  **D-H2** (2026-08-20, binding, in EXTRACTION_PLAN): temporal validity —
+  every statutory value = dated row resolved by HECHO-GENERADOR/period date
+  (payroll key = period + worker attributes, birthday-year rules); HARD
+  BLOCK emission outside a CAI range's vigencia (no override; supervisor
+  variant rejected); historical reconstruction = flagged read-only imports;
+  payroll corrections recompute with ORIGINAL-period rows; filed periods
+  write-protected (D9 kin); regime cutovers (SEE mandate, amnistía,
+  transitorias) = dated config rows. Inherits repo D9/D11/D12; SV session
+  deciding the same prompt in parallel — reconcile at merge.
 - **W1f (taxation closers):** `05_` = devolución 8% ISV tarjetas (status OQ),
   OTCD complement ORIGIN (current text = 02_ Art. 8), **E-Arts 5/10 VOID
   (sentencia RI-0763-2011, 25-mar-2021 — never feed)**, ganancias de capital
@@ -133,20 +153,25 @@ context does not survive). Update it at every session boundary.
   content (05_ "impuesto mínimo/solidario" was flat wrong — content has
   neither). Page-1 verify checks the document, not the gloss; the end-to-end
   read is the authority. Glosses corrected in-place 2026-08-20.
+- **Catalog TITLES can mislead too (round 4, 5th incident):** SAR's catalog
+  title for Acuerdo 464-1990 said "Reglamento Art. 50 Ley ISR" but content =
+  the 1990 reglamento to the D. 18-90-era reform (historical). Title ≠
+  instrument identity; page-1 read caught it. Same family as 29_/09_/15_
+  (SV) and 05_ (HN).
 
 ## 6. Next actions (ordered)
 
-1. **Lead-dig round 4:** Reglamento Ley ISR (plantilla cites Art. 51;
-    catalog grep only found Acuerdo 464-1990 `92_`-candidate — verify),
-    Acuerdo STSS-308-2022 (trabajo.gob.hn), D. 199-2006 + D. 194-2002
-    (pre-ENAG-window; catalog/mirrors), STSS reglamentos app
-    (`aplicaciones.trabajo.gob.hn/reglamentos/` — Reglamento CT / vales),
-    **W1f additions (RESEARCH §5 item 12): D. 31-2019, Instructivo 461-2020,
-    D. 194-2002 original, 8%-devolution reglamento**; plus selectivo current
-    values acuerdos (172-2022/014-2023/218-2024), DEI-9382-J-2003, Ley RAP
-    107-2013, Código de Comercio (all logged in RESEARCH §5).
+1. **Lead-dig round 4 residue (Gaceta-date-dependent):** modern Reglamento
+     Ley ISR (plantilla cites its Art. 51 — 94_ proved to be the 1990
+     ancestor), Acuerdo STSS-308-2022 (14th-month SMM), Instructivo
+     461-2020 (22-A exceptions), DEI-9382-J-2003 + 8%-devolution reglamento,
+     Ley RAP 107-2013, Código de Comercio, STSS reglamentos app (ASP.NET
+     shell — interactive). Most need a La Gaceta date → ENAG
+     `/index.php/gaceta-digital/<year>/<mes>` route. All logged in
+     RESEARCH §5.
 2. **W2 fiscal reporting:** `13-20_` procedures + 42 Ayudas batched by
-    family. OCR not needed (text layers fine).
+     family. OCR not needed (text layers fine). D-H2 rules apply (period-
+     correct parameter resolution; freeze at filing).
 3. **W3 facturación/e-invoicing:** full `24_` read + `76-78_`; D-H1 design
     inputs → FRs (CAI ledger, expiry/overlap/exhaustion guards, sequence
     key).
@@ -164,4 +189,4 @@ context does not survive). Update it at every session boundary.
 - `.gitignore`: `hn/.extractions/*` ignored EXCEPT `*.evidence.md` +
   `00_MASTER_INDEX.md` (create the master index at synthesis prep, SV-style).
 - Commits: short imperative, no emojis; push after each wave.
-- Registry additions continue numbering from `93`; page-1 verify everything.
+- Registry additions continue numbering from `101`; page-1 verify everything.
