@@ -25,7 +25,7 @@ Started 2026-08-19 (source-research pass complete). Status: active.
 | 8 | `14/15/16/17` (DJIMR, DMC chain) + `19/20` (tarjetas/retenciones mods) | Monthly informativas: retenciones detail + compras detail; ISV card-retention procedure | whole each | fiscal-reporting |
 | 9 | `13_SAR-619` + `67_Ayuda_EEFF` | EEFF previo a DJ ISR (FY2024+) | whole | fiscal-reporting, chart-of-accounts |
 | 10 | `29-75` Ayuda/Generalidades (42 files) | Per-código declaration mechanics (102/103/106/107/111-138/152/154/201-217/259/502-545) + regime overviews | per-código, batched by family (ISR annual / retenciones / ISV / selectivo / contribuciones / informativas) | fiscal-reporting |
-| 11 | `81/27/28` (IHSS aportaciones + RAP fondo reserva + regularización) | 2024 social-security architecture: IHSS ceilings/rates, RAP-IVM 1.5+1.5, fondo reserva 4% | whole each | payroll |
+| 11 | `81/27/28` (IHSS aportaciones + RAP fondo reserva + regularización) + `87_Ley_IHSS` + `88_Regl_Incapacidad` | 2024 social-security architecture: IHSS ceilings/rates, RAP-IVM 1.5+1.5, fondo reserva 4%; law-level IHSS text (scanned); sick-leave subsidy mechanics | whole each | payroll |
 | 12 | `82/83/84` salario mínimo instruments | Wage floors: sector tables 2023, bienio 2024-2025 | tables as data | payroll |
 | 13 | `86_Codigo_Trabajo` (D. 189-1959, 271 pp) | Jornada, salario, aguinaldo (13th), vacaciones, cesantía/preaviso (vs RAP fondo), terminación, mujeres/menores | Books: contrato/jornada/salario → payroll units; prestaciones (T. II) → payroll; SMT (sindicatos) skim | payroll, commercial-legal |
 | 14 | `06_D.7-2026`, `75`, `22`, `79/80` misc | Amnistía (ancillary), suspensión PN, interp Art. 19, reforms | light reads | taxation |
@@ -60,10 +60,10 @@ top, payroll parallel, facturación standalone):
 ## Known risks
 
 - **Scanned/no-text-layer sources (OCR needed)**: `04_` (D. 17-2010), `21_`
-  (Reglamento 1121-2010). Damaged text layers: `81_` (D. 48-2024 rates page),
-  `26_` (partial mojibake). ISR tables in `07_/08_/09_/10_/12_` print as
-  images — OCR with PSM-4-at-400dpi table discipline (SV lesson); `11_`
-  plantilla formulas are the cross-check.
+  (Reglamento 1121-2010), `87_` (Ley IHSS). Damaged text layers: `81_`
+  (D. 48-2024 rates page), `26_` (partial mojibake). ISR tables in
+  `07_/08_/09_/10_/12_` print as images — OCR with PSM-4-at-400dpi table
+  discipline (SV lesson); `11_` plantilla formulas are the cross-check.
 - **CT consolidation currency**: `03_` stops at D. 180-2020; post-2020 CT
   reforms unverified — per-article verification at evidence (SV SOQ-22 kin).
   Art. 206 void (`23_`) must never be implemented.
@@ -107,3 +107,22 @@ top, payroll parallel, facturación standalone):
   master index is created).
 - Registry additions continue numbering from 87 (`sources/README.md` §Numbering).
 - Fetch recipes: RESEARCH.md §6.
+
+## Decisions (binding for HN synthesis)
+
+- **D-H1 (2026-08-19, product owner): Odoo journal architecture uses
+  `l10n_latam_invoice_document`** — ONE journal per company carrying multiple
+  `l10n_latam.document.type` entries, NOT one journal per document type.
+  Consequences for synthesis:
+  - Odoo Mapping sections model the facturación document taxonomy
+    (24_ Arts. 5-8: Comprobantes Fiscales / Documentos Complementarios /
+    Otros Comprobantes) as `l10n_latam.document.type` records, not as
+    journals.
+  - Sequences attach at document-type level (per punto de emisión), aligning
+    with the CAI rango-autorizado + 16-digit correlativo regime (Art. 16
+    structure: establecimiento/punto de emisión/tipo de documento/talomera +
+    secuencia) — the CAI/authorization ledger keys on
+    (punto de emisión, document type), never on journal.
+  - Cross-country propagation (GT/SV): NOT decided here — this session owns
+    HN only; raise at merge for the product owner to carry into the other
+    countries' plans.

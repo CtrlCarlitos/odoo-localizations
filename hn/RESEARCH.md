@@ -132,35 +132,45 @@ calendarización updates or published technical docs — re-check `/facturacion/
 | INPREMA laws | JS-driven downloads + niche sector (teachers) — open lead |
 | honducompras / citas / denuncias / transparency portals | Not localization-relevant |
 
-## 5. Open leads (acquisition candidates ≥87)
+## 5. Open leads (acquisition candidates ≥89)
 
-1. **SEE technical documentation + calendarización** — the Sistema de Emisión
-   Electrónica operating procedures/CAEE specs mandated by Art. 58 of
-   Acuerdo 481-2017 are NOT publicly posted (checked 2026-08-19: wp-search,
-   catalog, FAQs all empty). Routes: Oficina Virtual (login), SAR
-   comunicados, or an SEE-incorporated taxpayer. Blocks SEE FRs beyond the
-   reglamento's own text.
+Lead-dig round 2 (2026-08-19): acquired `87_` (Ley IHSS via TSC) and `88_`
+(Reglamento Incapacidad Temporal IHSS via TSC); TSC biblioteca now FULLY
+crawled (leyes 197 + reglamentos/varios 288 entries — no Código de Comercio,
+no Ley RAP); D. 93-2021 retry failed again; salario mínimo status resolved
+(SAR post "SALARIO MÍNIMO PROMEDIO VIGENTE 2026", 13-may-2026, image-only —
+the 2024-2025 bienio values still govern 2026; no new instrument);
+calendario API = `oficinavirtualapipre.sar.gob.hn/api` responds **401**
+(auth-walled — manual SPA capture at evidence); rap.hn's Reglamento-F.pdf
+link is dead (redirects to internal-IP 404).
+
+1. **SEE technical documentation + calendarización** — still publicly absent
+   (wp-search "comprobante electrónico"/"documento electrónico fiscal" also
+   empty). Routes: Oficina Virtual (login), SAR comunicados, or an
+   SEE-incorporated taxpayer. Blocks SEE FRs beyond the reglamento's own text.
 2. **Resolución DEI-9382-J-2003** — ISV tarjetas base procedure (La Gaceta
-   01-nov-2003). Route: La Gaceta (no free archive found) or SAR re-publication.
-3. **Ley del RAP, D.L. 107-2013** full text — needed for payroll wave beyond
-   the Arts. 42/43/61 transcription in `27_`. Routes: TSC biblioteca deep
-   crawl (pagination start=0..1510), UPAP (down), La Gaceta 06-sep-2013.
-4. **Código de Comercio** (D. 4-1950 + reforms) — commercial-legal wave;
-   Congreso (down) / CEDIJ (absent) / law-school mirrors (non-official).
-5. **Reglamento General IHSS + rate-setting resolutions** (the 3.5%/1.5%
-   EM split and current operative instruments; D. 48-2024 ceilings acquired).
-6. **Salario mínimo 2026-2027** bienio instrument — expected late-2025/2026;
-   watch SAR catalog + SETRASS (site down; Gaceta when published).
-7. **Decreto 93-2021** (CT article derogations, La Gaceta 35,760) — fetch
-   failed (wpdmdl absent); retry or Gaceta route. Number 85 reserved.
-8. **Calendario fiscal (vencimientos)** — Oficina Virtual SPA (login-free
-   route exists: `/calendario-fiscal`); capture at evidence pass; API base
-   `oficinavirtualapipre.sar.gob.hn/api` (confirm prod).
+   01-nov-2003). Absent from SAR catalog; only its 2024 amendments listed.
+3. **Ley del RAP, D.L. 107-2013** full text — `27_` Art. 16 transcription
+   covers Arts. 42/43/61. TSC exhausted; rap.hn's own reglamento link dead;
+   routes left: UPAP (down), La Gaceta 06-sep-2013, Congreso (down).
+4. **Código de Comercio** (D. 4-1950 + reforms) — TSC/CEDIJ lacks it
+   (verified); Congreso down; SEFIN no yield; search engines unusable.
+   Routes: Congreso revival, or labeled non-official mirror as last resort
+   at commercial-legal wave time.
+5. **Reglamento General IHSS + remaining rate instruments** — EM/IVM rate
+   split beyond the D. 48-2024 ceilings; Ley-level text now in `87_`
+   (scanned); general reglamento still unlocated.
+6. **Salario mínimo 2027+** — bienio 2024-2025 governs through 2026
+   (confirmed May-2026); next instrument watch (SETRASS/Gaceta, late-2026?).
+7. **Decreto 93-2021** (CT derogations, La Gaceta 35,760) — two failed
+   fetches; Gaceta route. Number 85 reserved.
+8. **Calendario fiscal (vencimientos)** — 401 auth-walled; manual Oficina
+   Virtual SPA capture at evidence pass.
 9. **LJT bill tracking** — if passed, re-research taxation core.
 10. **INPREMA / INJUPEMP / IPM** sector regimes — only if payroll scope
-    includes public-sector/teachers.
-11. **Reglamento del Código de Trabajo / STSS resolutions** (vales de
-    alimentación etc.) — STSS down; Gaceta route at payroll wave.
+    includes public-sector/teachers (INPREMA downloads JS-driven).
+11. **Reglamento del Código de Trabajo / STSS resolutions** — STSS down
+    (both dig rounds); Gaceta route at payroll wave.
 
 ## 6. Fetch recipes (verified this pass)
 
@@ -188,15 +198,23 @@ every item must be confirmed against corpus text before it influences an FR):
   invoices required a **CAI downloaded from the tax authority**; authorized
   **lots/batches = ranges of documents**; sequences had to be tracked with
   **no overlap**; ranges **expired** (vigencia) and running out of documents
-  mid-period was an operational failure mode.
+  mid-period was an operational failure mode. The system had **document
+  types** (the prior Odoo implementation used `l10n_latam_invoice_document`
+  to avoid one journal per document type — now binding decision D-H1 in
+  EXTRACTION_PLAN.md).
   **Corpus verification (same day, `24_`):** CONFIRMED as the
   rango-autorizado/CAI regime — CAI def. p.7; CAI + fecha límite de emisión +
   rango autorizado as required prints (p.16, p.23); 16-digit correlativo;
   Art. 59 (one authorization per punto de emisión until exhaustion, 2-month
-  pre-deadline window); cancellation causes p.50. Terminology note: the
-  reglamento says **"rango autorizado"**, never "lote". These mechanics are
-  the core of the future e-invoicing FR cluster (sequence ledger, expiry
-  guards, overlap impossibility, exhaustion alerts — the last one is an
-  operational requirement, not statutory; derive from Art. 59's exhaustion
-  rule at synthesis). The recollection did NOT include CAEE/SEE — that came
-  from the corpus read (§2).
+  pre-deadline window); cancellation causes p.50. Document types CONFIRMED:
+  Arts. 5-8 taxonomy (Comprobantes Fiscales: Factura, Factura Prevalorada,
+  Ticket, Recibo por Honorarios Profesionales, Boleta de Compra, Constancia
+  de Donación / Documentos Complementarios: NC, ND, Guías de Remisión,
+  Comprobantes de Retención / Otros Complementarios: utilities, banks, state,
+  imports, treaties); the correlativo itself embeds a document-type segment
+  (Art. 16). Terminology note: the reglamento says **"rango autorizado"**,
+  never "lote". These mechanics are the core of the future e-invoicing FR
+  cluster (sequence ledger, expiry guards, overlap impossibility, exhaustion
+  alerts — the last one is an operational requirement, not statutory; derive
+  from Art. 59's exhaustion rule at synthesis). The recollection did NOT
+  include CAEE/SEE — that came from the corpus read (§2).
