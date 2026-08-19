@@ -4,12 +4,13 @@
 |---------|-------|
 | Country | sv |
 | Topic   | all (cross-topic) |
-| Status  | draft (S1 + S2 ISR + S3 fiscal-reporting + S4 payroll waves) |
+| Status  | draft (S1 + S2 ISR + S3 fiscal-reporting + S4 payroll + S5 commercial-legal waves) |
 | Authors | Controller (hand-built; script to regenerate later) |
 | Updated | 2026-08-18 |
 
 Every file in [../sources/](../sources/) mapped against the S1, S2 (ISR),
-S3 (fiscal-reporting) and S4 (payroll) requirements waves. Status values:
+S3 (fiscal-reporting), S4 (payroll) and S5 (commercial-legal) requirements
+waves. Status values:
 
 - **cited-as-LB** — appears in a Legal Basis row (or as direct schema read) of a requirements file; the citing file(s) named.
 - **not-applicable-this-wave** — out of the current wave's scope or superseded-without-content-need; reason noted.
@@ -30,7 +31,7 @@ cited-as-LB.
 | 04_Reglamento_ISR.pdf | cited-as-LB | `taxation/01..06` LB rows (21 rows; D.E. 101-1992 consolidated, survivor articles only per R17) |
 | 05_Codigo_Tributario.pdf | cited-as-LB | `e-invoicing/01` LB-007/011/012; `fiscal-reporting/06` LB-008 (CT 154-160); `fiscal-reporting/07` LB-006 (CT 123/124) |
 | 06_Guia_Facturacion_Electronica.pdf | not-applicable-this-wave | non-normative guide; S1 rests on 44_/45_/46_/50_/51_/52_ |
-| 07_Codigo_Comercio.pdf | pending-S2+ | commercial-legal wave |
+| 07_Codigo_Comercio.pdf | cited-as-LB | `commercial-legal/01..09` LB rows (213 — Código de Comercio D.L. 671-1970 current; article text verified vs second official copy 73_ (SOQ-22 resolved-with-residual: both reform lists end at D.L. 641-2008; editorial-artifact residual rides every 07_ LB)) |
 | 08_Ley_ISSS.pdf | cited-as-LB | `payroll/01` LB-008; `payroll/05` LB-001..005; `payroll/06` LB-009..011 |
 | 09_Ley_Sistema_Pensiones.pdf | cited-as-LB | `payroll/01` LB-009/010; `payroll/04` LB-021; `payroll/05` LB-006..011; `payroll/06` LB-001..008; `payroll/07` LB-021; `payroll/08` LB-001/002 |
 | 10_Tablas_Retencion_ISR.pdf | cited-as-LB | historical — `taxation/04` LB-020 (1992 colones-era D.E. 75/25; superseded by the 53_ chain via D.E. 95-2015; dated-data rows in `isr_brackets.csv`) |
@@ -52,16 +53,16 @@ cited-as-LB.
 | 68_Instrucciones_Carga_Quincena25.pdf | cited-as-LB | upload-flow LBs (folded S6 2026-08-18): `fiscal-reporting/06` LB-010 (January-window gate, Limpiar-to-replace, code-73 auto-assignment — FR-210/211); `fiscal-reporting/07` LB-010 co-cite (68_ p.16, FR-212) |
 | 69_Manual_Usuario_Carga_Quincena25.pdf | cited-as-LB | annex-CSV format spec LB (folded S6 2026-08-18): `fiscal-reporting/06` LB-011 (7-column spec §1-3 — FR-209) |
 | 70_Plantilla_Quincena25.xls | cited-as-LB | delimiter LB (folded S6 2026-08-18): `fiscal-reporting/06` LB-012 (semicolon header line — the `;` operative-delimiter ruling, FR-209/OQ-009) |
-| 71_Ley_LavadoActivos_DL426_2025.pdf | pending-S2+ | commercial-legal (AML) wave — **CURRENT AML LAW (W12 2026-08-18): D.L. 426 wholesale replacement of D. 498; C10 rebased on EVID-241..250** |
-| 72_Instructivo_UIF_Acuerdo380_reform2023.pdf | pending-S2+ | commercial-legal (AML) wave — kept UIF instructivo (71_ Art. 61); operative thresholds/DD/ROS mechanics (EVID-247..249) |
-| 73_Codigo_Comercio_UIF_indicelegislativo.pdf | pending-S2+ | commercial-legal wave — verification-grade second CC copy (SOQ-22 resolved-with-residual, EVID-250); no independent LB role expected beyond verification co-cites |
+| 71_Ley_LavadoActivos_DL426_2025.pdf | cited-as-LB | `commercial-legal/10` LB rows (current AML law D.L. 426, effective 2025-10-17 — wholesale replacement of D. 498; C10 rebased on EVID-241..250; R28: Art. 61 keeps 17_/72_, Art. 25 delegates thresholds) |
+| 72_Instructivo_UIF_Acuerdo380_reform2023.pdf | cited-as-LB | `commercial-legal/10` LB rows (kept UIF instructivo per 71_ Art. 61 — operative threshold values Art. 51 ($10k cash/$25k other media) + Art. 52 institutional aggregates, DD/ROS mechanics; EVID-247..249; R28 authority chain) |
+| 73_Codigo_Comercio_UIF_indicelegislativo.pdf | cited-as-LB | verification co-cites in `commercial-legal/01..09` §2 preambles (all nine files; + `04` LB-032 pointer row via the 71-73_ evidence gloss) — verification-grade second CC copy (SOQ-22 resolved-with-residual, EVID-250); no independent LB article-text role |
 | 11_Codigo_Trabajo.pdf | cited-as-LB | `payroll/01` LB-001..007; `payroll/02` LB-001..004, LB-011; `payroll/03` LB-001..020; `payroll/04` LB-001..020, LB-022; `payroll/06` LB-013; `payroll/07` LB-001..010, LB-013..021 |
 | 12_Ley_Zonas_Francas.pdf | pending-S2+ | special-regimes wave |
 | 13_Ley_Organica_Aduanas.pdf | pending-S2+ | special-regimes / customs-export wave |
 | 14_Ley_Servicios_Internacionales.pdf | pending-S2+ | special-regimes wave |
-| 15_Ley_Lavado_Activos.pdf | pending-S2+ | commercial-legal (KYC/AML) wave — **W12: derogated wholesale by 71_ D.L. 426 (Art. 61, effective 2025-10-17); historical LB only; W10 evidence EVID-228..231 historical** |
+| 15_Ley_Lavado_Activos.pdf | cited-as-LB | historical — `commercial-legal/10` §2 preamble + authority-order note (derogated wholesale by 71_ D.L. 426 Art. 61, effective 2025-10-17; historical LB for pre-cutover facts only, never current authority — R28; W10 evidence EVID-228..231 historical; no S5 LB row beyond the historical note; R25 title-vs-content: content = D. 498-1998 through reform (6) D.L. 104-2015) |
 | 16_Salarios_Minimos_2025.pdf | cited-as-LB | `payroll/02` LB-005..010 (Decreto 11-2025 tariffs → `smm_2025.csv`); `payroll/03` LB-021; `payroll/04` LB-024; `payroll/06` LB-012; `payroll/07` LB-011 (SMM figure also feeds `e-invoicing/01` OQ-007 threshold config) |
-| 17_Reglamento_Lavado_Activos.pdf | pending-S2+ | commercial-legal (KYC/AML) wave — **W12: kept in force as the OPERATIVE reglamento by 71_ Art. 61 (R26 addendum) until a new reglamento issues; citable for window mechanics/no-tip-off/red-flag catalogs** |
+| 17_Reglamento_Lavado_Activos.pdf | cited-as-LB | `commercial-legal/10` LB rows (10 co-cites — kept-in-force OPERATIVE reglamento per 71_ Art. 61 + R26 addendum (no post-568-2013 reglamento ever issued): window mechanics, no-tip-off, red-flag catalogs; stale pre-reform thresholds never cited) |
 | 17b_Reglamento_Servicios_Internacionales.pdf | pending-S2+ | special-regimes wave |
 | 18_Normativa_Cumplimiento_DTE.pdf | cited-as-LB | `e-invoicing/01` LB-014; `02` LB-009; `03` LB-008; `04` LB-009/010; `catalogs/05` LB-003 |
 | 19_Manual_Funcional_Transmision.pdf | not-applicable-this-wave | 2025 functional manual; authority-order preamble only (no LB row); content superseded by 45_/46_/47_ |
@@ -101,8 +102,8 @@ cited-as-LB.
 
 | Status | Rows |
 |--------|------|
-| cited-as-LB | 46 |
+| cited-as-LB | 52 |
 | superseded-not-cited | 1 (schemas/) |
 | not-applicable-this-wave | 9 |
-| pending-S2+ | 16 |
+| pending-S2+ | 10 |
 | **Total** | **72** |
