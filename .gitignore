@@ -11,6 +11,9 @@ venv/
 # Scratch outputs
 *.tmp
 
+# Git worktrees (isolated session workspaces, e.g. .worktrees/gt-research)
+.worktrees/
+
 # Extraction scratch: text dumps / schema extracts are regenerable by
 # shared/scripts/extract_text.py — but the ANALYZED artifacts (evidence
 # files, master index, anexos digest) are committed work products.
