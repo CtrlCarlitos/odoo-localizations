@@ -2,7 +2,8 @@
 
 **For the next controller session.** Written 2026-08-17, updated 2026-08-18 (S3 close),
 2026-08-18 twice more (W9/S4 closes), 2026-08-18 twice more again (W10+S5 prep, then W11 Quincena-25 package),
-and 2026-08-18 once more (S6 Quincena-25 fold-in close). Read this
+2026-08-18 once more (S6 Quincena-25 fold-in close), and 2026-08-18 twice more
+(W12 AML-regime replacement + S5 commercial-legal synthesis close). Read this
 document fully before acting; it is the authoritative cross-session memory
 (conversation context does not survive).
 **Update it at every session boundary** — replace stale sections, append new
@@ -29,39 +30,44 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
 3. `shared/docs/requirements-extraction-procedure.md` — the method spine (pipeline, NotebookLM policy, evidence format)
 4. `shared/docs/requirements-template.md` — 7-section format authority; Topic row now includes `catalogs`
 5. `shared/docs/regulatory-change-management.md` — version-regime framing + **D7–D12 decision log (decided 2026-08-17)**
-6. `shared/docs/odoo-localization-guide.md` — module anatomy (with thin-client caveat)
-7. `sv/.extractions/00_MASTER_INDEX.md` — synthesis lookup: topic clusters (A1–A12, T1-T8, F1-F12, P1-P10, C1-C10), 26 resolved contradictions (R1–R26), 12 MOQs + SOQ registers
+6. `shared/docs/odoo-localization-guide.md` — module anatomy (thin-client caveat) + **D13/D14 module-design decisions (journal/establishment models, 2026-08-18)**
+7. `sv/.extractions/00_MASTER_INDEX.md` — synthesis lookup: topic clusters (A1–A12, T1-T8, F1-F12, P1-P10, C1-C10), 28 resolved contradictions (R1–R28), 12 MOQs + SOQ registers
 8. `sv/requirements/e-invoicing/00_index.md` +
    `sv/requirements/taxation/00_index.md` +
    `sv/requirements/fiscal-reporting/00_index.md` +
    `sv/requirements/payroll/00_index.md` +
+   `sv/requirements/commercial-legal/00_index.md` +
    `sv/requirements/COVERAGE.md` —
-   S1+S2+S3+S4 corpus indexes + source coverage matrix (authoritative for
+   S1+S2+S3+S4+S5 corpus indexes + source coverage matrix (authoritative for
    source→wave mapping)
 9. `HANDOVER.md` (this file)
 
-## 3. Current state (2026-08-17)
+## 3. Current state (2026-08-18)
 
 ### Git / repo
 - Branch `main` only; remote `origin` = `git@github-CtrlCarlitos:CtrlCarlitos/odoo-localizations.git` (SSH alias `github-CtrlCarlitos` from `~/.ssh/config`); push after each wave; never force-push. `gh` CLI at `~/.local/bin/gh`, authenticated as CtrlCarlitos.
 - Commits are SSH-signed; local `%G?=N` is a verification-only artifact (`gpg.ssh.allowedSignersFile` unset) — signatures ARE present; don't chase it.
 - `.gitattributes`: `*.csv text eol=lf`.
-- Commits through `c75610c` (2026-08-18 4th session: W10 evidence `3cd4ad4`, S5 prep
-  `c75610c`; before that S4 close `2f5ead3`, S4 `87df6b5..33edf2d`, S3 `34691b8..d2e5e4a`).
+- Commits through `9bb37e9` (2026-08-18 5th session: W12 AML replacement `b4cd790`,
+  D13 `b8d0b77`, D14 `464574f`, S5 synthesis `4be0fca..6160bdf`, final fix wave
+  `46b649d` + residual `9bb37e9`; before that S6 close through `d3bf3bc`).
 
 ### El Salvador — sources & evidence state
-- **EVID corpus 001..240** (gaps 109-127 reserved-unused). W11 file:
+- **EVID corpus 001..250** (gaps 109-127, 240 reserved-unused). W12 file:
+  `71-73_AML_DL426_Instructivo380_CCverify` (EVID-241..250). W11 file:
   `66-70_Quincena25` (EVID-236..239). W10 files:
-  `07_Codigo_Comercio` (EVID-211..227), `15_Ley_Lavado_Activos` (EVID-228..231),
-  `17_Reglamento_Lavado_Activos` (EVID-232..235). W9 files:
+  `07_Codigo_Comercio` (EVID-211..227), `15_Ley_Lavado_Activos` (EVID-228..231,
+  **historical since W12**), `17_Reglamento_Lavado_Activos` (EVID-232..235,
+  kept-mechanics citable). W9 files:
   `16_Salarios_Minimos_2025` (EVID-191..192), `08_Ley_ISSS` (EVID-193..196),
   `09_Ley_Sistema_Pensiones` (EVID-197..200), `11_Codigo_Trabajo`
   (EVID-201..209), `65_F11_v18_form_visual` (EVID-210). W8 files:
   `29_F985_CNR_RegComercio` (EVID-172), `34_36_39_F07_v14` (EVID-173..179),
   `35_37_38_59_F14_v16_v17` (EVID-180..184), `30_Calendario_Tributario_2026`
   (EVID-185..186), `61-64_report_forms` (EVID-187..190); `60_DE10_...` (EVID-171).
-  **68 registered source files, numbering 01-70** (gaps 21/23/24/28; + schemas/ dir;
-  65_ = F-11 v18; 66_-70_ = Quincena-25 package added W11; next numbering = 71).
+  **71 registered source files, numbering 01-73** (gaps 21/23/24/28; 65_ = F-11 v18;
+  66_-70_ = Quincena-25 (W11); 71_ = D.L. 426 AML law, 72_ = UIF Instructivo 380,
+  73_ = CC verification copy (W12); next numbering = 74).
 - Source registry carries: 29_ mislabel note; 38_/39_ current-form notes; 59_
   (F14 v17), 60_ (D.E. 10 gazette print), 61_-64_ (F910v9/F915v4/F930v3/F935v1)
   with provenance; 08_ law-level-rates-only note; 09_ D.L. 614 identity
@@ -433,7 +439,69 @@ Sources read end-to-end + evidence EVID-211..235 (3 files, 11 file-level OQs →
   SOQ-09 open); factura.gob.sv /downloads no longer exposes wpdmdl links in raw
   HTML (JS-driven) — re-verify IDs before reuse.
 
+### El Salvador — W12 AML-regime-replacement acquisition + evidence pass (COMPLETE 2026-08-18, same session; commit b4cd790)
+**Route find: uif.gob.sv Marco Legal** (official FGR/UIF library — the one live official mirror;
+asamblea.gob.sv unreachable (000), D.O. /seleccion still 500 server-wide, transparenciafiscal
+JS-opaque, search engines bot-blocked). Acquired + registered + read (sources 71_/72_/73_):
+- **71_ = D.L. 426 Ley Contra el Lavado de Dinero y de Activos** (7-oct-2025, D.O. N° 190
+  T.449 9-oct-2025, effective 2025-10-17) — **WHOLESALE REPLACEMENT of D. 498-1998 (15_)**
+  per Art. 61: sujetos obligados restructured to 10 named categories (**the "any mercantile
+  society" catch-all is GONE**; digital-asset/bitcoin providers + political parties in);
+  ROS = 15 días hábiles analysis + ONE same-length extension + **24h transmit**; regulated-ops
+  thresholds DELEGATED to a future reglamento (Art. 25); **retention UNIFORM ≥15 años**
+  (old 5y/15y split dead); border declaration $15,000 (was $10k); sanctions in SMM
+  sector-comercio units (50-500/501-1000; officers + inhabilitación 5y/10y); 10y sanction
+  prescription; supervision split SSF/SOM/CSJ/CNAD/TSE; adaptation clocks 6/9/12 months.
+- **72_ = UIF Instructivo Acuerdo 380** (22-oct-2021, D.O. 205 T.433 27-oct-2021; reformed
+  Acuerdo 266-2023 + 476-2023; 93 arts + Anexo 1) — **kept in force by 71_ Art. 61** → the
+  OPERATIVE $10k-cash/$25k-other-media regime (Art. 51: single + monthly-cumulative +
+  mixed-payment decomposition, 5 días hábiles) + institutions' $1,000-wire/$200-remesa
+  monthly aggregates (Art. 52) + APNFD GAFI triggers ($3k casino/$10k metals-cash/$10k
+  lawyer-office, Art. 77) + Encargado de Cumplimiento + beneficiario-final DD.
+- **73_ = Código de Comercio Índice Legislativo edition (UIF copy)** — verification-grade:
+  its reform list ALSO ends at D.L. 641-2008 → **SOQ-22 RESOLVED-WITH-RESIDUAL** (decree-date
+  print conflict 12-vs-26-jun-2008 [sic]; same D.O. 120 T.379 27-jun-2008). Structurally
+  damaged PDF (page tree); text via ghostscript pdfwrite rebuild (regenerable .txt).
+- Evidence EVID-241..250 (`71-73_AML_DL426_Instructivo380_CCverify.evidence.md`, 6 OQs).
+  Rulings: **R26 addendum** (no post-568-2013 reglamento ever issued — 17_ is
+  operative-by-transitory), **R28** (threshold authority chain: 71_ Art. 25 delegation +
+  72_ Art. 51 operative values as dated config + pending-reglamento watch). SOQ-27
+  RESOLVED-BY-RESTRUCTURE; SOQ-23 SAS-existence confirmed via creaempresa.cnr.gob.sv
+  (statute identity still unpinned — open); SOQ-25 still open (not on the UIF library).
+  W10 AML evidence EVID-228..231 now HISTORICAL. Numbering next = 74. Registry 15_/17_
+  supersession notes amended.
+
+### El Salvador — synthesis S5 (commercial-legal) (COMPLETE 2026-08-18, pushed; commits 6c09db7..9bb37e9)
+Executed subagent-driven per plan `docs/superpowers/plans/2026-08-18-s5-commercial-legal-synthesis.md`
+(11 tasks, per-task reviews, fix rounds T1/T2/T5/T9/T10 + final-fix wave + controller one-line
+residual; final whole-wave review "usable with fixes" 5/5 + 4 mechanics addressed, rulings
+audit 5/5 upheld; re-review PASS merge-ready). Deliverables in `sv/requirements/commercial-legal/`:
+
+| File | FRs | Prefix range |
+|---|---|---|
+| `01_merchant-registration.md` | 17 | SV-CML-FR-001..017 (C1; SOQ-25 config-slots) |
+| `02_accounting-books.md` | 13 | SV-CML-FR-018..030 (**§3.7 = SOQ-28 retention matrix**) |
+| `03_financial-statements.md` | 11 | SV-CML-FR-031..041 (C3; NIIF hook pointer) |
+| `04_society-types.md` | 30 | SV-CML-FR-042..071 (C4; SAS = statute_pending, zero invented mechanics) |
+| `05_society-lifecycle.md` | 26 | SV-CML-FR-072..097 (C5; quiebra = SOQ-24 terminology-only) |
+| `06_commercial-agents.md` | 22 | SV-CML-FR-098..119 (C6; Art. 397 indemnity scale verbatim) |
+| `07_empresa-mercantil-eirl.md` | 22 | SV-CML-FR-120..141 (C7) |
+| `08_payment-instruments.md` | 23 | SV-CML-FR-142..164 (C8; Art. 995 prescription matrix verbatim; SOQ-26 config) |
+| `09_sales-contracts.md` | 28 | SV-CML-FR-165..192 (C9; CC↔CAT-031 auto-translation BANNED) |
+| `10_aml-compliance.md` | 32 | SV-CML-FR-193..224 (C10 rebased on 71_/72_/17_; R28 chain in every threshold FR) |
+
+Totals: **224 FRs / 243 LBs / 132 ACs / 35 OQs**. Key encodings: 02 §3.7 =
+the SOQ-28 longest-per-object retention matrix (CC 10y+5y-post-liquidation / facturas anexas /
+24-month media migration / AML uniform 15y / DTE row by id to SV-EINV-FR-152..158+D3); CC
+Art. 439-440 no-alteration cites e-invoicing §3.11 FR-159..164 as kin BY ID; ISR-vs-CC
+reserva-legal disambiguation pointers (SV-TAX-FR-063/101); días-hábiles engine consumed by
+id (SV-FREP-FR-202..204); AML sanctions in SMM units consuming payroll/02 by id; AML
+regime cutover 2025-10-17 dated rows + adaptation windows (2026-04-09/07-09/10-17); law-wins
+rulings ×2 (71_ Art. 24's 24h over 72_ Art. 43's 5-días; ≥25% beneficiario-final over 72_'s
+10%) OQ-tracked. COVERAGE now 52 cited / 10 pending / 9 N/A / 1 superseded (72 rows);
+README commercial-legal → In review (draft, S5); master-index S5 DELIVERED + SOQ-28 closed.
 ### GT / HN
+
 Scaffolded only (READMEs, sources/scripts/requirements dirs, topic sets; hn
 has no e-invoicing). No sources collected yet. GT gets FEL (SAT), HN fiscal
 reporting only. Extractions begin after sv S2 or in parallel by decision.
@@ -633,6 +701,62 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
     one-line residual fix directly (frep index OQ-009 status sync — S1
     precedent ruling 2).
 
+### S5 wave rulings (2026-08-18; preserved from the deleted SDD ledger)
+36. **Module-design decisions D13/D14 (user, mid-wave; recorded in
+     `shared/docs/odoo-localization-guide.md` §EDI, binding on all future
+     Odoo Mapping rows):** **D13** journal model = `l10n_latam_invoice_document`
+     — ONE journal, MANY document types (`l10n_latam.document.type` per DTE;
+     move-level `l10n_latam_document_type_id`/`_number`; per-type journals
+     REJECTED; same pattern as official latam localizations). **D14**
+     establishment model = Odoo warehouses → establecimientos (M/B/S/P+3 →
+     numeroControl sección 3 + `codEstablecimientoMH` M000/S000/B000/P000);
+     caja/punto de venta = first-class concept in numeroControl positions 5-8
+     (P+3) + `codPuntoVentaMH`; sequence space = (type, establecimiento,
+     punto de venta) with year-reset consecutive — per-(establishment,PV)
+     partition = DISCLOSED WORKING ASSUMPTION (corpus pins only year-reset +
+     calendar-year uniqueness). D13/D14 orthogonal (journal×doctype ×
+     warehouse×establishment × caja×PV). No existing file assumed the
+     per-type-journal model → no retroactive amendments needed.
+37. **Quote-fidelity rulings (wave-wide):** silent truncation of a statutory
+     catalog = Important-grade defect (T1: Art. 422 a)-j) completed);
+     single-word deviations = defects (T5 "Dichos"→"Dicho"; T9
+     "indubitable"→"indudable" ×2 — Critical-grade); truncation-marker
+     convention = "(first N…; X omitted — topic)"; omission markers must
+     describe what is ACTUALLY omitted (T9 I-1: Art. 1043 marker mis-scoped
+     the matrícula rule into Art. 1044-III); full-file programmatic
+     verbatim sweeps against the extraction txt are the norm.
+38. **Interpretive working readings (labeled in-file, OQ-tracked where
+     corpus-silent):** Arts. 282-286 read as the sociedad/EIRL-cycle
+     statements regime (they sit in the S.A. title; Art. 474-grounded);
+     Art. 442 = Art. 459 one-register reading; Art. 15-vs-452 simplified-book
+     coexistence; Art. 451 retention anchor = register-close working anchor;
+     Art. 469 matrícula-gate non-binding on constitutive inscription;
+     estatuto contradiction check = warning-only; Art. 313 last-trimester
+     boundary. Brief-vs-evidence conflicts resolve FOR the evidence (T7: the
+     plan's "≥3/4 paid at constitution" AC example had no statutory basis —
+     AC encodes Art. 609's actual 1/4-of-paid-capital rule).
+39. **Config-gap disciplines:** commission rates ("usos del lugar") +
+     distribuidor-indemnity inputs ship NO defaults (worksheet only);
+     Economía legal-interest rate = SOQ-26 dated config never hardcoded;
+     colones remnants ("un mil colones" Art. 1038) = config-gap OQ with NO
+     invented USD conversion; **CC↔CAT-031 Incoterms auto-translation
+     FORBIDDEN** (OQ — mapping must come from evidence); Ley de Competencia
+     checkpoint states + MINEC registry interface + Ley Registro de Comercio
+     epochs/fees = acquisition/config OQs; SAS = statute_pending with ZERO
+     invented mechanics (populate from the statute when acquired ≥74).
+40. **AML law-wins rulings (T10, OQ-003-tracked):** where the kept
+     instructivo diverges from the new law, the LAW wins — 71_ Art. 24's
+     24h transmit clock over 72_ Art. 43's 5-días; 71_'s ≥25%
+     beneficiario-final threshold over 72_'s 10%. Re-verify both when the
+     new instructivo issues (EV71 OQ-1 watch).
+41. **S5-process rulings:** same SDD pattern as S2-S4 (main-branch execution,
+     structural verifications as tests, per-task reviews + one final fix
+     wave, push at close); controller applied ONE one-line residual directly
+     (05 LB-020 gloss typo — S1 precedent ruling 2); the final-fix subagent
+     died pre-report — controller verified its diff item-by-item (incl. the
+     LB-027 source-check at txt:7998) before committing; ledger preserved
+     here before workspace deletion.
+
 ### Standing policies
 - Evidence-based answers only; RAG (NotebookLM) is validator, never source
   (notebook `c7ca0391-4822-4d3c-8090-b0d8c147ba94`, owner
@@ -677,10 +801,24 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
   digit soup; verified again on 16_ — gs rasterize + `tesseract --psm 4`
   recovers labels/values PSM 6 loses).
 - **Asamblea consolidations**: asamblea.gob.sv was network-unreachable
-  2026-08-17; the official-mirror route that worked is the DGA (Aduanas)
+  2026-08-17 AND 2026-08-18; the official-mirror route that worked is the DGA (Aduanas)
   WordPress download-manager: fetch the `/download/<slug>/` page, parse the
   embedded `?wpdmdl=<id>` href, download that (plain URL of the file 404s —
   the degree-sign `°` in filenames gets mangled).
+- **UIF Marco Legal (verified 2026-08-18 — the W12 route find)**:
+  `https://www.uif.gob.sv/marco-legal/` hosts direct wp-content PDFs of current
+  laws (D.L. 426 AML law, kept Instructivo 380, D.E. 2-2000 reglamento, Código
+  de Comercio, Código Tributario, Ley Bitcoin set). Watch it for the pending
+  new AML reglamento/instructivo (71_ Art. 56 deadlines already past as of
+  2026-08-18). Its Código-de-Comercio PDF is structurally damaged server-side
+  (broken page tree; qpdf fails) — rebuild with `gs -o out.pdf -sDEVICE=pdfwrite
+  in.pdf` then extract. Its PDFs sit behind Incapsula: HEAD requests return
+  500-with-HTML; plain GET with a browser UA works and returns the full file.
+  Related UIF pages: /guias-y-manuales/ (goAML registration manuals,
+  ROS buenas prácticas, compliance-manual guide), /senales-de-alerta/,
+  /tipologias/. CNR creaempresa (creaempresa.cnr.gob.sv) confirms SAS
+  constitution services ("Asesoría virtual SAS") — society-creation flows are
+  behind eCNR login.
 
 ## 7. Gotchas & verified lessons
 
@@ -738,41 +876,39 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
 4. ~~**S2 next wave — F-07/F-14 fiscal reporting**~~ **DONE 2026-08-18** — W8 evidence +
     acquisitions 59_-64_ + S3 synthesis (208 FRs, 8 files + index + CSV). See §3 S3 section.
 5. **S2 remaining waves** (each: extraction → evidence → synthesis):
-     (a) ~~Quincena-25 acquisition~~ **DONE 2026-08-18 (W11)** — D.L. 499 + package
-      acquired as 66_-70_ via transparenciafiscal (D.O. route still down; retry
-      opportunistically only for a cleaner law print to pin the [sic] article
-      numbering, 66-70_ OQ-1). ~~Quincena-25 FR fold-in edit wave~~ **DONE
-      2026-08-18 (S6)** — payroll/01+04+05+08, fiscal-reporting/06+07,
-      taxation/01+02, indexes/COVERAGE/master-index, special-regimes stub
-      (§3 S6 section); (b) **S5 commercial-legal
-     synthesis READY** (W10 evidence + C1-C10 clusters + SOQ-22..29 in master
-     index; run the SOQ-22 post-2008 CC reform verification first,
-     opportunistically SOQ-23/25/27 acquisitions — SAS law, Ley Registro de
-     Comercio, current AML reglamento); then special-regimes (12_/13_/14_/17b_/42_/43_;
-     D.L. 598-2020 + EVID-167 tail laws; consumes W11 certificado) →
-     NIIF/chart-of-accounts (32_/33_; consumes 06's register interface + C3 NIC
-     anchor); (c) IVA-core taxation files still owed (01_ cited in S1;
-     02_ Reglamento unread; the R/S and IVA-retention cross-refs from S3's
-     01/04 files land there) — fold into a later taxation wave.
+     (a) ~~Quincena-25~~ + ~~S6 fold-in~~ + ~~S5 commercial-legal~~ **ALL DONE
+     2026-08-18** (§3 sections above); (b) **NEXT = special-regimes synthesis**
+     (12_/13_/14_/17b_/42_/43_; D.L. 598-2020 + EVID-167 tail laws; consumes the
+     W11 certificado — `special-regimes/00_index.md` stub exists; extraction +
+     evidence pass FIRST (none of these sources read yet), then master-index
+     clusters + synthesis; hunt D.L. 598-2020 + Ley ZF reforms when official
+     routes recover); then NIIF/chart-of-accounts (32_/33_; consumes 06's
+     register interface + C3 NIC anchor + T3's Consejo-criteria OQ); (c) IVA-core
+     taxation files still owed (01_ cited in S1; 02_ Reglamento unread; the R/S
+     and IVA-retention cross-refs from S3's 01/04 files land there; IVA
+     tercerización FCF-exento pointer from S6) — fold into a later taxation wave.
 6. **SOQ follow-ups**: taxation — SOQ-02 ($1,600 proration quincenal/semanal; MH
-   guidance), 03 OQ-009 (vintage straddle; watch MH guidance), **new S6 OQs**
-   (double-benefit 2026 deduction+credit; IVA tercerización FCF-exento/Art.-66
-   pointer → IVA-core wave); fiscal-reporting —
-   **SOQ-08** (due-day windows: extract the calendar's visual layer or find the
-   schedule instrument), ~~SOQ-09~~ **RESOLVED W11 + FOLDED S6** (v17 manual
-   remains a doc-completeness item — 07 OQ-008 rides it), SOQ-13 (F-935 donantes-locales CT anchor — CT
-   matrix pass), SOQ-14 (F-950 frequency); commercial-legal — **SOQ-22** (CC
-   post-2008 reform verification — run FIRST at S5 synthesis prep), SOQ-23 (SAS
-   law), SOQ-25 (Ley Registro de Comercio + Reglamento), SOQ-26 (interés-legal
-   rate instrument = dated config), SOQ-27 (current AML reglamento + UIF forms),
-   SOQ-28 (retention matrix CC-vs-AML-vs-DTE = S5 FR), SOQ-29 (colones remnants
-   discipline); W11/Quincena-25 — **F-11 v19/v20 prints to acquire (≥71; watch
-   MH formularios page)**; 2026 double-benefit OQ (deduction + credit, 66-70_
-   OQ-4 — now taxation-side OQ).
-7. **Externally-blocked OQs** (check factura.gob.sv periodically): Retorno/
-    OpEsp endpoints (MOQ-05 — 52_-schema absence verified 2026-08-17; 03
-    OQ-006, 02 OQ-003); CAT-024 vs Cuadro-2 taxonomy confirmation. When new
-    docs appear: continue source numbering from 65, register with provenance,
+   guidance), 03 OQ-009 (vintage straddle; watch MH guidance), S6 OQs
+   (double-benefit 2026 deduction+credit; IVA tercerización → IVA-core wave);
+   fiscal-reporting — SOQ-08 (due-day windows), SOQ-13 (F-935 donantes-locales
+   CT anchor), SOQ-14 (F-950 frequency); commercial-legal (S5 residue) —
+   **SOQ-23 SAS law** (acquire ≥74; statute_pending mechanics in CML/04),
+   **SOQ-24 quiebra vintage** (verify modern insolvency law before citing
+   beyond terminology), **SOQ-25 Ley Registro de Comercio + Reglamento**
+   (CML/01 config-slots empty until acquired), **SOQ-26 Economía rate**
+   (dated config; acquire current instrument opportunistically), SOQ-29
+   colones flags (ride); **AML watch (new)** — the pending reglamento +
+   instructivo under D.L. 426 (EV71 OQ-1; uif.gob.sv/marco-legal watch; when
+   issued: re-anchor CML/10 thresholds, revisit OQ-003 law-wins pair and the
+   Art. 7 dynamic-inclusion feed); W11/Quincena-25 — F-11 v19/v20 prints
+   (≥74; MH formularios page watch — verified unchanged 2026-08-18);
+   2026 double-benefit OQ (taxation-side).
+7. **Externally-blocked OQs** (check factura.gob.sv + uif.gob.sv/marco-legal
+    periodically): Retorno/OpEsp endpoints (MOQ-05 — 52_-schema absence
+    verified 2026-08-17; 03 OQ-006, 02 OQ-003); CAT-024 vs Cuadro-2 taxonomy
+    confirmation; the pending D.L.-426 reglamento + instructivo (EV71 OQ-1);
+    D.O. `/seleccion` + asamblea recovery (still down 2026-08-18). When new
+    docs appear: continue source numbering from 74, register with provenance,
     capture supersession.
 8. **Remaining S1 OQs** (34 open): most are business decisions (FVS flow,
     email scope) or AT-publication dependencies; 45_ §10 re-read for MOQ-07
@@ -826,12 +962,20 @@ reporting only. Extractions begin after sv S2 or in parallel by decision.
   AC-002 boundary convention; T8 FR-123 min() arithmetic bend (in-mandate per
   P9) + casillas 718-720/738 silence (evidence-faithful); T9 taxation-pointer
   placement.
+- S5 deferred minors (final review "can-ride", deferrable): 09:75 id
+  SV-CML-FR-162 line-wrapped mid-id (grep-artifact source); 03 page-pointer
+  over-broads + §2 abbreviation overlap; 04 Art. 121 final-sentence marker +
+  Art. 149 parenthetical skip; 06 EOF blanks; 08 inner-quote normalizations
+  ×5 + "626-787" over-bread; 10 FR-209 paren scar; index 07-scope labels;
+  marker-vocabulary variance across files; T1-M3 A11 cluster-pointer
+  normalization when A11 lands.
 
 ## 10. Session-protocol checklist for the next controller
 
 1. Read §1–§8 of this file; read the documents in §2 in order.
 2. Confirm state: `git log --oneline -20`, `git status` (expect clean),
-   `ls sv/requirements/e-invoicing/`.
+   `ls sv/requirements/e-invoicing/` and `ls sv/requirements/commercial-legal/`
+   (10 files + index).
 3. Follow skills (brainstorming gate for new design work; SDD for plan
    execution; systematic-debugging for any investigation).
 4. Before ANY source citation: check authority order (§3) and COVERAGE.md.
