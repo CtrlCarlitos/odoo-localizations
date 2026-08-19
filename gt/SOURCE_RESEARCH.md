@@ -221,3 +221,9 @@ confirmation.
 - 2026-08-18 (design notes) — D-GT8 (l10n_latam_invoice_document: one journal
   multi-doc-type) + D-GT9 (sucursales/warehouses/cash-registers → FEL
   establishment/dispositivo codes) recorded in spec at owner request.
+- 2026-08-18 (owner downloads batch 3 — W1 manual queue COMPLETE) — 26 (LAT
+  10-2012, live re-id 78389; reform tail cites only Dto. 14-2013 →
+  consolidation ≤2013, post-2013 reforms unverified — Stage 1 check), 20
+  (anulación manual, live re-category 15747), 21 (firma electrónica manual,
+  live re-category 15747). **Corpus: 30 registered entries (01–31 minus
+  dropped 27; +29/30 dirs +31 html)**. W1 acquisition phase CLOSED.
