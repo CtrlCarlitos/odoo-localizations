@@ -49,6 +49,28 @@ Built on Odoo's EDI framework (`account.edi.format`):
 - Requirements come from `requirements/e-invoicing/` in the country folder;
   every acceptance criterion there must map to a test in the module.
 
+### Journal & document-type model (D13 — binding, decided 2026-08-18)
+
+**Use `l10n_latam_invoice_document`: ONE journal carries MANY document
+types.** The SV package depends on `l10n_latam_invoice_document` and models
+document types as `l10n_latam.document.type` records (one per DTE type:
+FE, CCF, NR, NC, ND, CR, CL, DCL, FEX, FSE, CD). A sales journal accepts
+multiple document types via the journal↔document-type relation; each
+`account.move` carries its own `l10n_latam_document_type_id` and
+`l10n_latam_document_number`. **One journal per document type is
+explicitly rejected** (an 11-journal sales setup is not the design).
+
+Consequences for requirements and modules:
+
+- Odoo Mapping rows reference the move-level document-type field, never a
+  per-type journal; sequence/numeroControl machinery keys off
+  (journal, document type), not journal alone.
+- This is the same pattern as official `l10n_ar/cl/co/ec/mx/pe/uy`
+  localizations — deviation from it needs an explicit ruling.
+- The l10n_latam dependency is additive for SV: MH-specific validation
+  (sello, codigoGeneración, transmission state) lives in the SV EDI layer
+  on top; `l10n_latam` supplies only the journal/document-type shape.
+
 ## Version targeting (17 → 20)
 
 - Develop against the newest stable version first, then port. Most breakage
