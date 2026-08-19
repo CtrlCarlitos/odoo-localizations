@@ -6,7 +6,7 @@
 | Topic   | taxation |
 | Status  | draft |
 | Authors | Takumi synthesis wave 2 (S2 ISR) |
-| Updated | 2026-08-17 |
+| Updated | 2026-08-18 |
 
 ## 1. Purpose
 
@@ -80,6 +80,10 @@ consolidation text (54_-verify rule; EVID-166 residual-risk note).
 | LB-029 | Ley ISR, Art. 105-A | Stale sanction: 50% fine on unentered anticipos/pagos a cuenta, minimum "mil colones" (colon-era), citing the repealed "inciso 6º del Art. 72"; self-liquidated in the declaration; no appeal but 30-day pago indebido claim — superseded in practice by the CT sanctions regime (CT Arts. 226-247 zone; see OQ-003) | `sv/sources/54_Ley_ISR_consolidada_DO79_T447_2025-04-30.pdf` | Art. 105-A pp.54-55 (EVID-107; EV05:EVID-065) |
 | LB-030 | Ley ISR, derogation map + final provisions (Arts. 7-11, 15, 26, 43-125 passim, 128-129) | Procedure routing: ~70 articles repealed (domicile, determination-officio, staged payment, retention machinery Arts. 58-59/61/63/66-71, administration/fiscalización/sanctions/procedures) — procedures live in the Código Tributario; substance survives in the Ley. Legal-basis note only, not FRs (EVID-108) | `sv/sources/54_Ley_ISR_consolidada_DO79_T447_2025-04-30.pdf` | repealed articles passim pp.8-56 (EVID-108) |
 | LB-031 | Reglamento ISR, REFORMAS block (p.20): D.E. 8-1993, D.E. 39-1993, D.E. 117-2001 | Reglamento procedure routing: D.E. 117-2001 is the mass-repeal instrument (declaración/pago, retention machinery, devoluciones, prescripción, cobro coactivo, information duties, books — Art. 84 survives — sanctions, administration, procedures); cite survivors only. Repeal authority is D.E. 117-2001, NOT the CT (R17). Legal-basis note only, not FRs | `sv/sources/04_Reglamento_ISR.pdf` | REFORMAS p.20 (EVID-128; R17) |
+| LB-032 | Ley Especial Quincena Veinticinco (D.L. 499, D.O. N° 8 T.450 14-ene-2026; effective on publication; **acquired 2026-08-18 as `66_`** — official DGII copy, OCR), Art. 4: "se declara como rentas no gravables, y en consecuencia excluidos del cómputo de la renta obtenida, el monto que reciban los trabajadores en concepto de Quincena Veinticinco. Asimismo, estos ingresos... no estarán afectos a la Retención del Impuesto sobre la Renta, y gozarán del beneficio de la inembargablilidad [sic]. Para efectos tributarios, los montos pagados en concepto de Quincena Veinticinco constituliran [sic] gasto deducible para el patrono, siempre que hayan sido efectivamente pagados y debidamente documentados, conforme a lo dispuesto en la Ley de Impuesto sobre la Renta." | Quincena-25 fiscal treatment: amounts received by workers as Quincena Veinticinco are declared rentas no gravables and excluded from the computation of renta obtenida; not subject to ISR Retention; unseizable (inembargabilidad); employer side — amounts paid constitute gasto deducible for the patrono provided effectively paid and duly documented per the Ley ISR (deduction FR owned by `02_isr-deductions.md` SV-TAX-FR-175) | `sv/sources/66_Ley_Quincena25_DL499.pdf` | Art. 4 p.4 (EVID-237) |
+| LB-033 | Ley Especial Quincena Veinticinco (D.L. 499), Art. 6 (transitory): private-sector 2026 payment "tendrá carácter voluntario para los patronos, debiendo realizarse en su caso, a mas tardar el veinticinco de enero de dos mil veintiséis"; paying employers "tendrán derecho a un crédito tributario acreditable contra el pago del Impuesto sobre la Renta del ejercicio fiscal dos mil veintiséis, por el monto total pagado"; tercerización contractors paying the full amount get the same credit (tercerizador "debera [sic] emitir al contratante, por separado, el correspondiente documento fiscal en el que conste el monto pagado en concepto de Quincena Veinticinco y, oportunamente, presentar la copia de la planilla"); credit > ISR payable → remanent "podrá utilizarse para atender el cumplimiento de otras obligaciones sustantivas relacionadas con el Impuesto sobre la Renta"; ZF/DPA/LSI users: excess → "Certificado de Crédito Tributario emitido por el Ministerio de Hacienda... el cual se obtendrá al momento de presentar su declaración del Impuesto sobre la Renta para el ejercicio fiscal dos mil veintiséis"; certificado usage "no representa la aplicación de un régimen especial tributario" | FY-2026-only employer tax credit = 100% of amounts actually paid, creditable against the FY-2026 ISR payment (public sector 2026 = mandatory, private = voluntary); remanent applicable to other substantive ISR obligations; ZF/DPA/LSI excess routed to the Certificado de Crédito Tributario auto-generated at FY-2026 declaration presentation (uses: negotiable at any financial-system institution; transferible intra-grupo or to third parties; creditable against ISR of prior/later ejercicios, pagos a cuenta and retenciones; redeemable at MH); tercerización contractors record the same credit with a separate documento fiscal to the contratante + planilla copy | `sv/sources/66_Ley_Quincena25_DL499.pdf` | Art. 6 pp.4-6 (EVID-237) |
+| LB-034 | Ley Especial Quincena Veinticinco (D.L. 499), Art. 8 — special-law character of public order: the Quincena-25 rules prevail over any contrary norm (EVID-237 gloss; verbatim text not extracted in evidence) | The Quincena-25 special law is of public order (orden público) and prevails over contrary norms — anchoring the Art. 4 renta-no-gravada declaration's precedence in the ISR computation without amending the Ley ISR exemption list | `sv/sources/66_Ley_Quincena25_DL499.pdf` | Art. 8 pp.4-6 (EVID-237) |
+| LB-035 | Guía de Orientación Quincena Veinticinco (MH.UVI.DGII/006.001/2026; **acquired 2026-08-18 as `67_`**), §§3-4 + Anexos 1/7/8: credit documentation = "planilla en original... y la suscripción de la misma por beneficiarios" + the F-14 annex; Anexo 1: "Se genera una nueva versión del Formulario F-11 versión 19" with the credit in "casilla 319 denominada 'Crédito Tributario Quincena Veinticinco'" inside the IMPUESTO DETERMINADO subtraction (casilla-330 formula includes 319), the v19 print still carrying the dead pago-mínimo rows (R21); Anexo 7: ZF/DPA/LSI checkbox "Marque si es usuario de Zona Franca, DPA o Usuario regulado en la Ley de Servicios Internacionales" on the Renta-2026 screen; Anexo 8: "Versión 20 — Declaración de Impuesto sobre la Renta para Sujetos con Régimen Especial... la que tendrá como anexo el Certificado de Crédito Tributario" | Credit documentation = original planilla subscribed (signed) by the beneficiaries + the F-14 annex; declaration surface = F-11 v19 casilla 319 inside the casilla-330 subtraction; ZF/DPA/LSI certificado seekers identified by the renta-en-línea checkbox; F-11 v20 (special-regime subjects, renamed) carries the Certificado as anexo (prints not yet acquired — OQ-007) | `sv/sources/67_Guia_Orientacion_Quincena25.pdf` | §§3-4 + Anexos 1/7/8 pp.2-13 (EVID-237; EVID-238) |
 
 Dead text — never implementable as current law (recorded here as LB notes, not
 FRs, per wave constraint): pago mínimo Arts. 76-81 (declared unconstitutional,
@@ -127,6 +131,17 @@ LB-019).
   obtained, recording as acquisition value and date the goods' value to the
   predecessor (*antecesor*) at the date they entered the recipient's patrimony
   (market price if undeterminable, verifiable by DGII). (LB-003; EVID-089)
+- **SV-TAX-FR-173:** The system shall classify amounts received by
+  workers as Quincena-25 as *rentas no gravadas* excluded from the
+  renta computation per D.L. 499 Art. 4 — a special-law declaration
+  that prevails over contrary norms per its Art. 8 (public-order),
+  operating alongside (not amending) the Ley ISR Art. 4 exemption
+  list; consequently the amounts never enter the retention base (the
+  SV-TAX-FR-104 exclusion input is fed by SV-PAY-FR-137), never appear
+  in the annual liquidation renta, and surface only as no-gravado
+  reporting (F-910 code 73 / renta-en-línea 724-kin — SV-FREP-FR-212).
+  (LB-032; LB-034; EVID-237; cross-ref SV-PAY-FR-137, SV-FREP-FR-212,
+  SV-TAX-FR-104)
 
 ### 3.2 Subjects and exclusions (T1)
 
@@ -310,6 +325,26 @@ LB-019).
   subjects who obtained Salvadoran rents without any retention having been
   effected (agent failure, dispensing norm, or no retention obligation), to be
   liquidated within the legal term. (LB-024; EVID-104)
+- **SV-TAX-FR-174:** The system shall maintain, for FY-2026 only, the
+  employer Quincena-25 tax CREDIT ledger: employers who paid the
+  (voluntary private / mandatory public) Quincena-25 record a credit
+  of 100% of amounts actually paid, creditable against the FY-2026 ISR
+  payment; a remanent after crediting is applicable to OTHER
+  substantive ISR obligations; tercerización contractors that paid the
+  full amount record the same credit (with the separate documento
+  fiscal to the contratante + planilla copy — 66_ Art. 6); ZF/DPA/LSI
+  users route the excess to the transferable Certificado de Crédito
+  Tributario issued by MH (auto-generated at the FY-2026 declaration
+  presentation; "no representa la aplicación de un régimen especial
+  tributario" — special-regimes wave consumes this by id); the credit's
+  declaration surface is F-11 v19 casilla 319 'Crédito Tributario
+  Quincena Veinticinco' inside the casilla-330 IMPUESTO DETERMINADO
+  subtraction (v19/v20 prints = acquisition candidates ≥71; layout
+  builder future); documentation = original signed planilla + the
+  F-14 annex (67_ §4); the renta-en-línea ZF/DPA/LSI checkbox routes
+  certificado seekers (67_ Anexo 7). Dated regime: valid for ejercicio
+  2026 payments only (no continuation in 2027+ — the credit is Art. 6
+  transitory). (LB-033; LB-035; EVID-237/238)
 
 ## 4. Data Model
 
@@ -340,7 +375,7 @@ computation/bookkeeping data only (wave default `odoo`; see §5).
 | account.move.line | isr_income_category | select | trabajo · empresarial · capital · catch_all | FR-001 |
 | account.move.line | isr_catch_all_rule | select | condoned_debt · undocumented_liability · excess_provision · unjustified_patrimony_ct195 · other_benefit | FR-002 |
 | account.move.line | isr_representation_allowance | boolean | true → excluded from trabajo remuneration (D.L. 629) | FR-003 |
-| account.move.line | isr_no_renta_rule | select null | work_tools_viaticos · legacy_inheritance · family_donation | FR-004, FR-005 |
+| account.move.line | isr_no_renta_rule | select null | work_tools_viaticos · legacy_inheritance · family_donation · quincena_25_art4_66_ (renta NO GRAVADA by special law — excluded from the cómputo; reporting-only code-73/724 surface) | FR-004, FR-005, FR-173 |
 | account.move.line | isr_territorial_status | select | domestic · foreign_excluded · partial_apportioned | FR-021, FR-022, FR-024 |
 | account.move.line | isr_sv_source_rule | select | goods_situated · activity_performed · capital_invested · service_provided_or_used · ip_registered_or_used · securities_emitter_domiciled · securities_capital_in_country · govt_remuneration_abroad | FR-021 |
 
@@ -366,6 +401,18 @@ computation/bookkeeping data only (wave default `odoo`; see §5).
 | l10n_sv.isr.filing.duty (new) | company, fiscal_year, must_file, duty_reasons, salaried_exception | boolean · m2m catalog | duty_reasons: above_exempt_base · legal_person · formal_accounting · withheld · prior_declarant · succession · trust · foreign_conjunto · iva_registered · over_60k · retention_mismatch · non_domiciled_unretained | FR-028, FR-029, FR-033 |
 | l10n_sv.isr.filing.duty | declaration_due_date / payment_due_date | date | period end + 4 months | FR-026, FR-027 |
 | l10n_sv.isr.remittance.period (new; mechanics in 04 file) | period, due_date, december_rule | date · boolean | 10 días hábiles after period end; December costs in December declaration | FR-032 |
+
+**FY-2026 Quincena-25 employer credit ledger (dated regime — 66_ Art. 6
+transitory; no 2027+ continuation):**
+
+| Entity | Field | Type | Catalog / values | Reference |
+|--------|-------|------|------------------|-----------|
+| l10n_sv.tax.quincena.credit (new) | ejercicio | year | 2026 only — dated regime; no rows for 2027+ | FR-174 |
+| l10n_sv.tax.quincena.credit | amount_paid | monetary | amounts actually paid (voluntary private / mandatory public) | FR-174 |
+| l10n_sv.tax.quincena.credit | credit_amount | monetary (computed) | = 100% × amount_paid ("por el monto total pagado") | FR-174 |
+| l10n_sv.tax.quincena.credit | applied_against · remanent | monetary (computed) | crediting against the FY-2026 ISR payment; remanent → other substantive ISR obligations | FR-174 |
+| l10n_sv.tax.quincena.credit | route | select | isr_payment · other_isr_obligations · certificado_zf_dpa_lsi | FR-174 |
+| l10n_sv.tax.quincena.credit | certificado_ref | char null | MH Certificado de Crédito Tributario reference (issuance = MH external, at FY-2026 declaration presentation) | FR-174 |
 
 ## 5. Odoo Mapping
 
@@ -411,6 +458,8 @@ file.
 | FR-031 | odoo | — (informational) | — | Informational notice only: system assumes MH online aplicativos; no paper path modeled |
 | FR-032 | odoo | l10n_sv.isr.remittance.period | due_date, december_rule | 10 días hábiles computation (business-day calendar); OQ-001 may re-anchor deadline to CT |
 | FR-033 | odoo | l10n_sv.isr.filing.duty | duty_reasons | Presumed-paid vs unretained self-declaration flags on non-domiciled partners |
+| FR-173 | odoo | account.move.line | isr_no_renta_rule (+ quincena_25_art4_66_) | Special-law no-gravada stamp fed by SV-PAY-FR-137 (payroll matrix): never in the SV-TAX-FR-104 retention base nor the annual liquidation renta; only surface = no-gravado reporting (F-910 code 73 / 724-kin, SV-FREP-FR-212) |
+| FR-174 | odoo | l10n_sv.tax.quincena.credit | all | FY-2026-only dated regime (Art. 6 transitory); F-11 v19 casilla-319 feed key inside the casilla-330 subtraction; v19's dead pago-mínimo rows never fed (R21 extends — AC-020); ZF/DPA/LSI certificado entitlement recorded, issuance external to MH; special-regimes wave consumes the certificado by id |
 
 Version-regime notes (D12): FR-022/FR-025 record the D.L. 969-2024 cutover
 (2024-03-22) — any computation on pre-cutover periods must select the dated
@@ -418,7 +467,9 @@ foreign-track data instead. FR-029 thresholds ($60,000 / $9,100) are stable
 in current text; the D.E. 10-2025 vintage date (2025-05-08 CONFIRMED:
 published D.O. N° 79 T.447 30-abr-2025, gazette print 60_, EVID-171 —
 SOQ-03 resolved) affects the tables decree, tracked in
-`04_isr-withholding.md`.
+`04_isr-withholding.md`. FR-174 records the FY-2026-only Quincena-25
+credit (66_ Art. 6 transitory, D.O. 14-ene-2026): no continuation in
+2027+ — the ledger accepts ejercicio 2026 rows only.
 
 ## 6. Acceptance Criteria
 
@@ -481,6 +532,18 @@ SOQ-03 resolved) affects the tables decree, tracked in
 - **AC-017:** Given a non-domiciled service provider whose SV rents were fully
   retained, then no declaration duty is generated; given the same provider with
   an unretained SV rent, then a self-declaration duty is flagged (FR-033).
+- **AC-018:** Given an employer that paid US$5,000.00 voluntarily in
+  January-2026 and has FY-2026 ISR payable of US$4,000.00, then
+  credit_amount = US$5,000.00, applied_against = US$4,000.00 and
+  remanent = US$1,000.00 routed to other ISR obligations (FR-174).
+- **AC-019:** Given a ZF user whose credit exceeds its FY-2026 ISR payable,
+  then route = certificado_zf_dpa_lsi and the entitlement is recorded with
+  certificado_ref pending (issuance = MH external, at declaration
+  presentation) (FR-174).
+- **AC-020:** Given the F-11 v19 feed for the credit of AC-018, then casilla
+  319 = 5,000.00 inside the casilla-330 IMPUESTO DETERMINADO subtraction, and
+  casillas 630-648 still carry no value under any configuration (dead
+  pago-mínimo rows — R21 extends to v19) (FR-174).
 
 ## 7. Open Questions
 
@@ -492,3 +555,4 @@ SOQ-03 resolved) affects the tables decree, tracked in
 | OQ-004 | SOQ-06 carried: D.E. 117-2001 (the Reglamento mass-repeal instrument) predates the CT — whether any additional 04_ survivor article was later repealed by CT Art. 344 ff. Non-blocking; survivors cited as printed (LB-031; R17). | no | Takumi S2 | open |
 | OQ-005 | SOQ-03 (partial): the publishing D.O. issue of D.E. 10-2025 is not pinned in the certified copy — vigencia 2025-05-08 is assumed per MH dating. Affects LB-028 vintage dating and `04_isr-withholding.md` table data. **RESOLVED 2026-08-18 (EVID-171, source 60_): published D.O. N° 79, T. 447, 30-abr-2025, pp. 25-32 → effective 2025-05-08 confirmed; digit fidelity verified in the same pass (see 04 §7 OQ-002).** | no | Takumi S2 (sources registry) | resolved |
 | OQ-006 | CT Art. 62 governs FX conversion ("tipo de cambio que corresponda al día" of the hecho generador) but the operational rate source/feed (BCCR/AT-published rate vs. bank rate) is outside the corpus; the Odoo currency-rate feed for the fiscal layer needs selection. | no | Takumi + Odoo implementation | open |
+| OQ-007 | F-11 v19/v20 prints not acquired (65_ = v18, superseded as current print): v19 adds casilla 319 "Crédito Tributario Quincena Veinticinco" inside the casilla-330 IMPUESTO DETERMINADO subtraction and STILL prints the dead pago-mínimo rows (R21 extends to v19 — casillas 630-648 stay unfed per FR-174/AC-020); v20 = special-regime subjects with the Certificado de Crédito Tributario anexo. Acquisition candidates (numbering ≥71; MH formularios page watch — kin of payroll/08 OQ-004 and evidence OQ-5; layout builder future). | no | Takumi S6 (sources watch — numbering ≥71) | open |

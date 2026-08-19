@@ -80,6 +80,8 @@ pagination from the extraction txt `=== PAGE n ===` markers).
 | LB-016 | Reglamento ISR, Arts. 37-38 | Bad-debt deduction information (implements Ley Art. 31.2 d): debtor name/profession/domicile & amount; origin/constitution with grant & maturity dates; guarantee class & fiador data; date the debt became exigible; whether judicial collection was attempted and result; formal accounting/special-record correctness; any other DGII-required data; interest-bearing obligations — no bad-debt deduction above the agreed interest percentage | `sv/sources/04_Reglamento_ISR.pdf` | Arts. 37-38 pp.12-13 (EVID-143) |
 | LB-017 | Reglamento ISR, Art. 141 | Employer social funds (aportaciones patronales within Ley Art. 32.3): the taxpayer MUST create the corresponding accounting partida named per its own catalog of accounts; foreign-situated funds of this nature NOT deductible; funds not proven really incorporated into the entity's patrimony or capital NOT deductible | `sv/sources/04_Reglamento_ISR.pdf` | Art. 141 p.19 (EVID-146) |
 | LB-018 | Reglamento ISR, Art. 28 | Employer deliveries to workers implementing Ley Art. 3.1 (reasonable viáticos for transport/food/lodging, work tools, office equipment) are not renta obtenida when they do not directly benefit the worker or increase his patrimony; the EMPLOYER bears the burden to prove via documents and registries that the money/goods were used for the assigned work | `sv/sources/04_Reglamento_ISR.pdf` | Art. 28 p.10 (EVID-139) |
+| LB-019 | Ley Especial Quincena Veinticinco (D.L. 499, D.O. N° 8 T.450 14-ene-2026; effective on publication; **acquired 2026-08-18 as `66_`**), Art. 4 (gasto deducible clause): "Para efectos tributarios, los montos pagados en concepto de Quincena Veinticinco constituliran [sic] gasto deducible para el patrono, siempre que hayan sido efectivamente pagados y debidamente documentados, conforme a lo dispuesto en la Ley de Impuesto sobre la Renta." (full Art. 4 — worker-side treatment — recorded in `01_isr-framework.md` LB-032; not restated) | Employer Quincena-25 payments are a deductible employer expense (gasto deducible para el patrono) conditioned on ACTUAL payment ("efectivamente pagados") and due documentation ("debidamente documentados") conforme a the Ley ISR | `sv/sources/66_Ley_Quincena25_DL499.pdf` | Art. 4 p.4 (EVID-237) |
+| LB-020 | Guía de Orientación Quincena Veinticinco (MH.UVI.DGII/006.001/2026; **acquired 2026-08-18 as `67_`**), §4: documentation = "planilla en original... y la suscripción de la misma por beneficiarios" + the F-14 Quincena annex (January-only upload per SV-FREP-FR-210; the same artifacts serve the FY-2026 credit documentation — `01_isr-framework.md` LB-035) | The operational documentation satisfying the Art. 4 gasto-deducible conditions: the original planilla subscribed (signed) by the beneficiaries + the F-14 v17 January annex (surfaces owned by fiscal-reporting/payroll, cited by id) | `sv/sources/67_Guia_Orientacion_Quincena25.pdf` | §4 pp.2-5 (EVID-237; EVID-238) |
 
 Dead text (never implementable as current law): none new in this cluster —
 the pago mínimo block (Arts. 76-81) and the D.L. 969-2024 derogated foreign
@@ -238,6 +240,16 @@ tracks are recorded in `01_isr-framework.md` §2 and are not restated here.
   annuity charges on property), fence conservation, pruning, cleaning
   and similar), excluding the value of products harvested in the same
   exploitation and the contributor's own labor. (LB-007; EVID-098)
+- **SV-TAX-FR-175:** The system shall treat employer Quincena-25
+  payments as *gasto deducible* per D.L. 499 Art. 4, conditioned on
+  ACTUAL payment and documentation conforme a la Ley ISR —
+  operationally the original signed planilla + the F-14 January annex
+  (67_ §4; the deduction and the FY-2026 credit of SV-TAX-FR-174
+  coexist per the law's cumulative text — OQ double-benefit); the
+  tercerización IVA-side treatment (FCF con valor exento; no Ley IVA
+  Art. 66 pro-rata) is recorded as an IVA-wave pointer (IVA-core files
+  owed — OQ). (LB-019; LB-020; EVID-237; cross-ref SV-TAX-FR-174,
+  SV-PAY-FR-142, SV-FREP-FR-209)
 
 ### 3.3 Art. 29-A non-deductible classifier
 
@@ -491,6 +503,12 @@ semantics: this file introduces Odoo-side computation/bookkeeping data only
 |--------|-------|------|------------------|-----------|
 | account.move.line (payroll expense) | isr_retention_gate | select | passed · failed_ss_retention · failed_isr_retention · failed_december_rule · not_subject | FR-040, FR-053 |
 
+**Quincena-25 employer deduction (66_ Art. 4):**
+
+| Entity | Field | Type | Catalog / values | Reference |
+|--------|-------|------|------------------|-----------|
+| account.move.line (Quincena-25 expense) | isr_quincena_deduction_gate | select | paid_documented · unpaid_accrual_pending | FR-175 |
+
 **Art. 29/29-A rule fields:**
 
 | Entity | Field | Type | Catalog / values | Reference |
@@ -573,6 +591,7 @@ recorded per row where a legal vintage exists.
 | FR-071 | odoo | l10n_sv.isr.fiscal.adjustment | bridge computation | Consumes isr_nondeductible_head addbacks + untaxed-income classification (01 file territorial statuses) |
 | FR-072 | odoo | account.move.line | isr_activity_class | Segregation dimension on accounts/journals; no-gravable results excluded from gravable determination |
 | FR-073 | odoo | account.move.line | 50/50 split | Common lines split at period close; OQ-001 governs precedence vs Art. 28 factor |
+| FR-175 | odoo | account.move.line (Quincena-25 expense journals) | isr_quincena_deduction_gate | Gate reads actual-payment state + planilla/F-14-annex documentation (67_ §4; amounts from the SV-PAY-FR-142 ledger); coexists with the FY-2026 credit (01-file SV-TAX-FR-174; OQ-008 double-benefit flag for fiscalización); IVA tercerización pointer owed to the IVA-core wave (OQ-009) |
 
 Version-regime notes (D12): FR-037 records the D.L. 969-2024 carve-out
 cutover (2024-03-22); FR-038 records the D.L. 345-2019 interpretation
@@ -580,7 +599,10 @@ effective 2019-06-08 — pre-cutover periods select the dated rule data.
 FR-056's 25-SMM threshold and FR-054's BCR active-rate are indexed external
 parameters: both store value + validity dates (OQ-002/OQ-003). All other
 rules verified stable in the 54_ consolidation (no post-2012 reform touches
-Arts. 28-32 per EVID-162/166).
+Arts. 28-32 per EVID-162/166). FR-175's Quincena-25 deduction is effective
+from the 66_ publication (14-ene-2026): pre-2026 periods carry no such
+expense class; from 2027 the benefit is mandatory but the FY-2026 credit
+of SV-TAX-FR-174 does not continue (01-file D12 note).
 
 ## 6. Acceptance Criteria
 
@@ -663,6 +685,12 @@ Arts. 28-32 per EVID-162/166).
 - **AC-022:** Given closing inventory that does not correspond to the CT
   Art. 142 registry annotations, then the resulting cost-of-sales difference
   is non-deductible (FR-050).
+- **AC-023:** Given a Quincena-25 employer payment of US$5,000.00 actually
+  paid in January-2026 and documented with the original signed planilla +
+  the F-14 January annex, then isr_quincena_deduction_gate = paid_documented
+  and the expense is deductible; given the same amount merely accrued and
+  unpaid at the deduction evaluation, then the gate = unpaid_accrual_pending
+  and no deduction is admitted until actual payment (FR-175).
 
 ## 7. Open Questions
 
@@ -675,3 +703,5 @@ Arts. 28-32 per EVID-162/166).
 | OQ-005 | Reglamento Art. 141 requires social funds "actually transferred to legally-authorized Associations/Cooperatives": the registry of authorized entities (validation source for FR-070) is outside the corpus. | no | Takumi S2 (sources registry) | open |
 | OQ-006 | Reglamento Art. 29's narrow deposit-interest exclusion (natural persons/banks only) is stale vs reformed Ley Art. 4.5 (any subject; supervised institutions incl. federations/cooperatives) — Ley governs; harmonized reading per SOQ-07 (4.5 carves out small depositors < $25,000 average balance). Recorded here so EVID-139's doubt is not dropped; substantive FRs live in `03_isr-rates-gains.md` / `04_isr-withholding.md`. | no | Takumi S2 (T4/T5 tasks) | open |
 | OQ-007 | Art. 29.6 December window for deductible taxes (caused + paid within the legal deadline): confirm no CT rule re-anchors or complements the deadline — kin to 01-file OQ-001 on the Art. 62 December retention rule (LB-014 here). | no | Takumi S2 (CT pass) | open |
+| OQ-008 | 2026 double benefit (66_ evidence OQ-4): an employer deducting the Quincena-25 payment (FR-175, 66_ Art. 4) ALSO records the FY-2026 100% credit (SV-TAX-FR-174, 66_ Art. 6) — the law text reads cumulative and no MH worked example says otherwise; both are encoded as written; flag for fiscalización criteria review (deduction + credit simultaneously on the same amounts). | no | Takumi S6 (fiscalización wave) | open |
+| OQ-009 | IVA tercerización treatment: the tercerización contractor's separate documento fiscal for the Quincena-25 pass-through = "Factura de Consumidor Final, con valor exento" and per Ley IVA Art. 66 inciso sexto parte primera "no se aplicará la proporcionalidad del Crédito Fiscal por dicha operación" — IVA-side rules are out of ISR scope; pointer owed to the IVA-core files (future wave; deferred-by-design). | no | Takumi S6 (IVA-core wave) | open (deferred-by-design) |

@@ -20,16 +20,17 @@ coverage: [../COVERAGE.md](../COVERAGE.md).
 
 | File | Scope | FR range | FRs | LBs | ACs | OQs |
 |------|-------|----------|-----|-----|-----|-----|
-| [01_isr-framework.md](01_isr-framework.md) | Subjects, renta obtenida categories, Art. 6 exclusions, periods & cash/accrual methods, territoriality (D.L. 969-2024 exclusion, Art. 127 apportionment), FX, Art. 92 filing duties | SV-TAX-FR-001..033 | 33 | 31 | 17 | 6 |
-| [02_isr-deductions.md](02_isr-deductions.md) | Renta neta: Art. 28 pro-rata (+969 carve-out), Art. 29 deductions, Art. 29-A non-deductibles (thin-cap, 25-SMM cash ban), Arts. 31-32 (reserva legal, bad debts, donations), mermas (D.L. 345-2019), Reglamento segregation | SV-TAX-FR-034..073 | 40 | 18 | 22 | 7 |
+| [01_isr-framework.md](01_isr-framework.md) | Subjects, renta obtenida categories, Art. 6 exclusions, periods & cash/accrual methods, territoriality (D.L. 969-2024 exclusion, Art. 127 apportionment), FX, Art. 92 filing duties; Quincena-25 renta no gravada (FR-173) + FY-2026 employer credit/certificado (FR-174) | SV-TAX-FR-001..033, 173..174 | 35 | 35 | 20 | 7 |
+| [02_isr-deductions.md](02_isr-deductions.md) | Renta neta: Art. 28 pro-rata (+969 carve-out), Art. 29 deductions, Art. 29-A non-deductibles (thin-cap, 25-SMM cash ban), Arts. 31-32 (reserva legal, bad debts, donations), mermas (D.L. 345-2019), Reglamento segregation; Quincena-25 employer gasto deducible (FR-175) | SV-TAX-FR-034..073, 175 | 41 | 20 | 23 | 9 |
 | [03_isr-rates-gains.md](03_isr-rates-gains.md) | Art. 37 brackets (both dated vintages), Art. 41 entity rates, capital gains (10% separate, 12-month rule, no general NOL), securities/deposits 10%, special computations (instalments, repossession, annuities, export valuation); SOQ-01/04 verdicts in §7 | SV-TAX-FR-074..101 | 28 | 19 | 23 | 9 |
 | [04_isr-withholding.md](04_isr-withholding.md) | Salaried retention regime (base, $1,600 fixed deduction, Art. 33 deductions), D.E. 10-2025 periodic + June/December recálculo tables, aguinaldo vintages, multi-employer split, CT 154-160 non-payroll matrix; CSVs `withholding_tables.csv` (20 rows) + `isr_brackets.csv` (23 rows) | SV-TAX-FR-102..131 | 30 | 21 | 18 | 8 |
 | [05_isr-distributions.md](05_isr-distributions.md) | Art. 72 5% definitive retention on utilidades, Arts. 73-74-C (permanent establishments, capital reductions, partner-loan deemed distributions, no-retention cases), Registro de Control de Utilidades | SV-TAX-FR-132..149 | 18 | 11 | 18 | 7 |
 | [06_isr-assets.md](06_isr-assets.md) | Art. 30 depreciation (rates, used-asset caps, mixed-use pro-rata, seasonal quota), Art. 30-A software 25%, Reglamento Art. 84 per-asset register, Art. 35 maquinaria | SV-TAX-FR-150..172 | 23 | 11 | 20 | 7 |
-| **Total** | | SV-TAX-FR-001..172 | **172** | **111** | **118** | **44** |
+| **Total** | | SV-TAX-FR-001..175 | **175** | **117** | **122** | **47** |
 
 Numbering note: FR numbering is wave-sequential within the `SV-TAX` prefix
-(001-172, no gaps, no renumbering) — unlike S1's per-cluster EINV ranges.
+(001-175, no gaps, no renumbering; 173-175 appended by the S6 Quincena-25
+fold-in, 2026-08-18) — unlike S1's per-cluster EINV ranges.
 The two CSVs are dated-data sidecars of `04_isr-withholding.md`
 (`isr_brackets.csv` additionally carries the historical D.E. 25-1992
 colones-era vintage rows); they carry no FRs of their own.
@@ -37,9 +38,28 @@ Cross-ref (S4 payroll): the F-11 v18 casillas 711-725 personal-deduction
 feed VALUES are owned by `../payroll/08_isr-interfaces.md` (source
 `65_F11_v18_form_visual.pdf` acquired 2026-08-18).
 
+Cross-ref (S6 Quincena-25): the Ley Especial Quincena Veinticinco (D.L.
+499, D.O. N° 8 T.450 14-ene-2026; acquired 2026-08-18 as `66_` with the
+67_ guía — EVID-236..239) lands here as **SV-TAX-FR-173..175**:
+**SV-TAX-FR-173** (01 §3.1 — renta no gravada, the ISR-side rule) and
+**SV-TAX-FR-174** (01 §3.5 — FY-2026-only employer credit ledger +
+remanent + tercerización + ZF/DPA/LSI certificado + F-11 v19
+casilla-319 feed) in `01_isr-framework.md`; **SV-TAX-FR-175** (02
+§3.2 — employer gasto deducible conditioned on actual payment +
+documentation) in `02_isr-deductions.md`.
+Feed chain: payroll/08 FR-137/142/143 (worker-side no-gravada stamp +
+seven-field ledger + 417/418 aggregates) → fiscal-reporting/06+07
+FR-209..212 (January annex engine + F-910 code 73) → taxation
+FR-173/174 (FR-175 consumes the same paid+documented ledger). F-11
+v19/v20 prints = acquisition watch (numbering ≥71; 01 OQ-007; kin
+payroll/08 OQ-004) — casillas 630-648 stay unfed on v19 too (R21).
+Special-regimes consumer note: the ZF/DPA/LSI Certificado de Crédito
+Tributario (FR-174 route `certificado_zf_dpa_lsi`) is the future
+special-regimes wave's consumption anchor, cited by id.
+
 ## Open-questions rollup (ids + titles)
 
-Status legend: `open` unless noted `resolved`. 40 open / 4 resolved
+Status legend: `open` unless noted `resolved`. 43 open / 4 resolved
 (SOQ-01 and SOQ-04 in `03_isr-rates-gains.md` §7; SOQ-03 in `04`
 OQ-002 + `01` OQ-005 — D.O. pin + digit-fidelity verification against
 the gazette print, source `60_`/EVID-171, 2026-08-18).
@@ -49,7 +69,7 @@ Master-index SOQ mapping: 04's OQ-001 = SOQ-02; 04's OQ-002 = SOQ-03;
 in 03's OQ-007 (kin: 02's OQ-006). SOQ-01/SOQ-04 = 03's OQ-001/OQ-002,
 resolved.
 
-### 01_isr-framework.md (6)
+### 01_isr-framework.md (7)
 
 - OQ-001 — Ley Art. 62 retention-remittance deadline vs CT retention-agent regime (CT re-anchor check). open
 - OQ-002 — Art. 92 num. 9 obsolete stamp-tax duty; CT-era restatement of the filing-duty list. open
@@ -57,8 +77,9 @@ resolved.
 - OQ-004 — SOQ-06 carried: D.E. 117-2001 survivors vs later CT Art. 344 ff. repeals. open
 - OQ-005 — SOQ-03 (partial): D.E. 10-2025 publishing D.O. issue unpinned (vigencia 2025-05-08 assumed). **resolved** (60_/EVID-171: D.O. 79 T.447 30-abr-2025, effective 2025-05-08)
 - OQ-006 — CT Art. 62 FX conversion: operational rate source/feed selection. open
+- OQ-007 — F-11 v19/v20 prints not acquired (casilla 319 + certificado anexo; R21 extends to v19; numbering ≥71 watch). open
 
-### 02_isr-deductions.md (7)
+### 02_isr-deductions.md (9)
 
 - OQ-001 — Art. 28 inciso final pro-rata factor vs Reglamento Art. 32 flat 50/50 common-cost split. open
 - OQ-002 — SMM parameter source for the 25-SMM cash-payment ban threshold. open
@@ -67,6 +88,8 @@ resolved.
 - OQ-005 — Registry of legally-authorized associations/cooperatives (social funds validation). open
 - OQ-006 — Reglamento Art. 29 deposit-interest exclusion stale vs Ley Art. 4.5 (SOQ-07 kin). open
 - OQ-007 — Art. 29.6 December window for deductible taxes vs CT deadline rules. open
+- OQ-008 — 2026 Quincena-25 double benefit (FR-175 deduction + FR-174 credit simultaneously; law cumulative; fiscalización criteria flag). open
+- OQ-009 — IVA tercerización (FCF exento; no Ley IVA Art. 66 pro-rata): pointer owed to the IVA-core wave. open (deferred-by-design)
 
 ### 03_isr-rates-gains.md (9)
 
