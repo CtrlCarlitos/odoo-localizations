@@ -309,3 +309,57 @@ RM site in maintenance.
   via plain re-fetch); (c) 39's 2024 capture = HTML stub (mintrabajo site
   rebuild) — 2022 PDF capture used; (d) IRTRA wp-content 403s plain curl —
   browser-UA + referer worked. **Corpus now 66 files + 2 dirs.**
+
+## Wave log (continued)
+
+### 2026-08-19 — owner DCA browser batch (12 registered, 6 rejected/dropped)
+
+Registered: 37 (AG 256-2025 salario 2026), 41 (D-78-89 bono 14), 58 (LET
+IVA-General manual), 74 (**D-10-2025 — Reformas Ley Alimentación Escolar +
+LEY IVA: derogates Art. 3-"A"** — the W1-L23 "2025 IVA reform" lead
+CONFIRMED), 75 (D-67-2001 AML), 76 (D-51-2001 AML-penal, título to pin),
+77 (**D-15-2026 Ley Integral AML — NEW 2026 regime**, activos virtuales,
+casas de empeño; likely supersedes 75_), 78 (D-20-2006, 45pp — the
+IVA-retenciones basis), 79 (AG 425-2006 reglamento), 80 (**D-6-2021 =
+Reformas Ley Zonas Francas** — OQ4 RESOLVED: NOT an e-invoicing mandate; ZF
+chain = D-65-89 → D-19-2016 → D-6-2021), 81 (AG 65-2022 = **ZOLIC** reform —
+the W5 "ZF reglamento reform AG 65-2022" hypothesis RETIRED), 82 (LET
+regímenes especiales manual), 83 (RM edictos gazette snapshot).
+Rejected: D-73-2000 (treaty approval), D-7-2000 (aviation treaty), SINAS
+reglamento (off-scope); dropped 3 duplicates (20-2006 10pp scan, 242-90 7pp,
+LET-pequeño md5-identical).
+
+### 2026-08-19 — owner-supplied link leads (assessed, NOT registered)
+
+- `sites.google.com/capacitacionessat.page/...` (SAT-2237 llenado course) —
+  Google Sites on custom .page domain, SAT-branded. **LEAD pending
+  ratification** (like OQ1 GitHub): verify it's linked from sat.gob.gt or
+  SAT-owned before any use; then it could yield instructivo-equivalent
+  material.
+- `portal.sat.gob.gt/portal/preguntas-frecuentes/cumplimiento-tributario/` —
+  official FAQ; optional page snapshot (browser save) — queue C item.
+- `diamantecontador.com` (2 forum threads re SAT-1321/ISR exterior) —
+  non-official forum: LEAD only, never registrable; useful as hint for
+  instructivo content gaps.
+- `corporacionbi.com` calendario SAT agosto-2026 + `atlas.com.gt`
+  calendario-tributario (year/month selector, works back from 2026-08) —
+  non-official reproductions of SAT vencimiento windows. **LEAD**: atlas's
+  back-year selector could let us transcribe the per-NIT-digit windows for
+  validation; MUST be confirmed against SAT's JSF app or by the GT
+  accountant before any FR trusts it (non-official data can lag/err).
+
+## Open questions (updates)
+
+- ~~OQ4 (D-6-2021 e-invoicing mandate?)~~ **RESOLVED 2026-08-19**: D-6-2021
+  = reformas a la Ley de Zonas Francas (80_). NOT an e-invoicing mandate;
+  the FEL mandate chain remains AD 13-2018 + SAT-DSI resolutions 04_-14_.
+- OQ14 (AML): PARTIALLY RESOLVED — D-67-2001 (75_) + D-51-2001 (76_) +
+  D-15-2026 (77_) acquired; REMAINS: derogation inventory of D-15-2026, its
+  reglamento status, AG 75-2006 applicability, Q2,000-cash threshold wording
+  → evidence pass + possible accountant confirm.
+- OQ15 (ZF successor): AMENDED — no "Decreto 16-2022" replacement; chain =
+  D-65-89 → D-19-2016 → D-6-2021 (80_); AG 242-90 reglamento reform status
+  still open (AG 65-2022 turned out ZOLIC-specific).
+- OQ17 (new): Ley IVA 27-92 Art. 3-"A" history — D-10-2025 (74_) derogates
+  it; which decree added it, and is a post-2018 consolidated IVA edition
+  still needed for Art. 29-"A" (OQ10)? Both ride the same hunt/accountant ask.
