@@ -2,8 +2,8 @@
 
 Execution plan per [shared/docs/requirements-extraction-procedure.md](../shared/docs/requirements-extraction-procedure.md).
 Started 2026-08-19 (source-research pass complete). Status: active — **evidence
-wave W1 COMPLETE 2026-08-20 (W1a-W1f; taxation core EVID-001..071); next W2
-(fiscal reporting), preceded by lead-dig round 4**.
+waves W1 (taxation core) + W2 (fiscal reporting) COMPLETE 2026-08-20
+(EVID-001..185); next W3 (facturación/e-invoicing)**.
 
 ## Wave log
 
@@ -58,13 +58,69 @@ wave W1 COMPLETE 2026-08-20 (W1a-W1f; taxation core EVID-001..071); next W2
   contribution = 05_ Art. 35 exception). **Taxation-core evidence COMPLETE**
   (EVID-001..071); new acquisition leads: D. 31-2019, Instructivo 461-2020,
   D. 199-2006/D. 194-2002 originals.
-- **W2 (NEXT):** fiscal-reporting procedures `13-20_` + 42 Ayudas batched by
-  family. Before that: lead-dig round 4 (RESEARCH §5).
+- **W2a (2026-08-20, DONE):** fiscal procedures `13-20_` (EVID-072..090, 7 OQs).
+  Key: Form 535 EEFF-prior gate from FY2024 (SAR-619-2024; Jan-1→Apr-30; PJ +
+  PN comerciantes individuales; EEFF = same obligation as the ISR DJ; ≤FY2023
+  omisa/rectificativa exempt); **DJIMR (SAR-238-2024)** = monthly informativa
+  PER retention código (25-code catalog), 10 días calendario, one-modality
+  rule, rectificativa → SAR rectifies the determinativa DE OFICIO (aceptada
+  only if tax↑ else rechazo), replaced DMR (D.L. 66-2015/DEI-155-2011);
+  **DMC deadline chain 10d→20d (CPAT-073-2016)→5 días calendario
+  (SAR-237-2024, current)** — **20_ gloss was WRONG (7th mislabel incident:
+  content modifies DMC, not retenciones; row amended)**; DMC sujetos incl.
+  State institutions (SAR-343-2019, from Oct-2019); **compras eventuales
+  (DEI-279-2015)** = doc type 10, buyer-issued (cat-D municipios PN sellers;
+  grava/arena/material selecto + hospedaje/alimentación/mano de obra/flete;
+  seller ≤10 SMM promedio/FY; NO crédito fiscal; provider ID flexible
+  RTN/cédula/pasaporte/residencia; buyer RETAINS the ISV caused — rate
+  unstated, OQ); **tarjetas (SAR-240-2024)**: numerales IX-XIII rewritten —
+  per-merchant monthly detail incl. **devolución 8% field (the 8% is
+  operationally ALIVE 2024)**, excepted-subject reporting, 10 días, retention
+  = pago parcial for affiliates. New leads: Ley Equidad Tributaria (D.51-2003)
+  activo-neto 1%, Reglamento Ley ISR Art. 84 (3rd Reglamento citation).
+- **W2b (2026-08-20, DONE):** 47 Ayudas/Generalidades in 6 family batches,
+  subagent-dispatched with pre-allocated EVID ranges (EVID-091..185, 133 new
+  OQs ≈ 160 total open). Key: **ISR annual** (29+30+46-49+68+74+75): 30_ pins
+  AS = 5% on RNG > L1,000,000 (PJ-only per prints; ATN = minimum tax over
+  L3M-asset exemption, rate/authority only in 74_ → D.51-2003); 74_ = the
+  30-abril package (535 + 102/103 + 119 + 545 + 506 + 107); **GC non-resident
+  retention CONFLICT: 46_ prints 2% vs 05_ Art. 14's 4% (OQ, unresolved)**;
+  revaluación tax = 6% (consistent); ZOLITUR 4% (D.181-2006 Art. 4 vs Art. 25
+  conflict, OQ). **Retenciones** (31-42+71): **215-vs-523-vs-DJIMR RESOLVED**
+  (523 = SW-only per-transaction informativa; 215 = OVI determinativa, base =
+  10% of ISV caused − devolución 8%, paid Banco Central; tarjetas entirely
+  outside the DJIMR catalog); 39_ ≡ 37_ (both 135); 116 = State buyers retain
+  the ISV itself (15%/18% bases); 32_ restates NO computation (procedure +
+  casilla contract only). **ISV** (43-45+69-73): DMC form = **527**, line
+  contract fully extracted (RTN/CAI/doc-16-digit/dual dates/bases 1511/1611/
+  1520/1620/pro-rata 270/280); **manuals print "ocho (8) días" citing
+  SAR-237-2024 whose gazette text says 5 — stale-manual conflict OQ'd, 5d =
+  record**; simplificado L250k/31-ene (no 5% anywhere in print); compras-
+  eventuales retention rate NOT in the DMC helps (stays open). **Selectivo**
+  (50-55): **52_ code = 210 (8th mislabel, row amended)**; 203 = the OLD
+  D.58-1982 general selective (separate tax, importers included, Tarifa
+  field) — coexists with D.17-2010 per-product 204/205/210/211; 259 = 4%
+  turística retention (hotels/rentals/inbound; D.131-98). **Contribuciones**
+  (56-62): 504 casinos 1% monthly; 502 telefonía 1% monthly; 503 franquicias
+  0.5% monthly; 506 coop 3.6% annual excedentes netos; 509 coop social 15% +
+  0.5% loss-year floor; 511 sector social 15%; 107 educativas 10% — none is
+  retention-at-source; 506-vs-509 boundary unresolved (OQ). **Informativas**
+  (63-67): 535 has NO contador-certification field and NO GyP section (vs
+  SAR-619/236 text — OQs); TP inform = pequeños excluded ≤USD 1M related-party
+  ops (DEI-SG-004-2016), 56 op types → 10 annexes, TP adjustments auto-migrate
+  into the ISR DJ base; **"Acuerdo N°799" = 4th independent citation of the
+  ISR Reglamento (63_ p.6 — first-named)**.
+- **W3 (NEXT):** facturación: full `24_` read + `76-78_`; D-H1 design inputs
+  → FRs (CAI ledger, expiry/overlap/exhaustion guards, sequence key; type-10
+  compras eventuales + 189-2014 Arts. 10.f/21.7/69 hooks from W2a).
 
 ## Context
 
-- 85 sources registered (01-86, gap 85) in [sources/README.md](sources/README.md);
-  every file page-1 verified. Research dossier: [RESEARCH.md](RESEARCH.md).
+- 103 source files registered (01-104, gap 103 reserved-unused) in
+  [sources/README.md](sources/README.md); every file page-1 verified. Research
+  dossier: [RESEARCH.md](RESEARCH.md).
+- Evidence numbering: corpus-global EVID (next = **186**); OQs per-file at
+  evidence-file end (~160 open after W2).
 - No prior-project hint layer exists for HN (unlike SV's tuky-workspace import).
 - NotebookLM validator: none yet (corpus young; revisit at first synthesis).
 - Fiscal year = calendar year. Currency: lempira (HNL, L).

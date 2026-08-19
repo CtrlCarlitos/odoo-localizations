@@ -1,10 +1,10 @@
 # HANDOVER — Honduras Session State & Continuation Guide
 
-**For the next HN controller session.** Written 2026-08-20 after evidence
-wave W1e, updated same day after W1f (taxation core CLOSED), and again same
-day (lead-dig round 4: sources 93-100 + decision D-H2). Read this fully
-before acting; it is the authoritative HN cross-session memory (conversation
-context does not survive). Update it at every session boundary.
+**For the next HN controller session.** Written 2026-08-20 after W1 ( taxation
+core), updated same day after round-4/D-H2/D-H3 + the merge, and again after
+the W2 fiscal-reporting wave (this refresh). Read this fully before acting; it
+is the authoritative HN cross-session memory (conversation context does not
+survive). Update it at every session boundary.
 
 **Bootstrap prompt for a fresh session:** `Read hn/HANDOVER.md and continue.`
 
@@ -12,11 +12,14 @@ context does not survive). Update it at every session boundary.
 
 ## 1. Where you are
 
-- **Worktree:** `.worktrees/hn-research`, branch `hn-research` (pushed,
-  through commit `f642e15`). The SV session works on `main` concurrently —
-  NEVER touch `main`, root `HANDOVER.md`, or `sv/` from this branch; `hn/`
-  + `docs/superpowers/specs/` are ours. Merge to `main` only at the
-  milestone, coordinated with the user, after the SV session winds down.
+- **Worktree:** `.worktrees/hn-research`, branch `hn-research`. **The 2026-08-19
+  merge happened** (hn-research → main, rebase-then-merge; owner-executed) and
+  the cross-country canon D15-D19 was adopted — HN's D-H2/D-H3 are country
+  instantiations of D16/D18 (see `shared/docs/regulatory-change-management.md`,
+  `shared/docs/go-live-readiness.md`). **Country work model (binding):** every
+  country works in its own branch+worktree; `main` = integration; merge at
+  milestones by owner decision. NEVER touch `sv/`, `gt/`, or root
+  `HANDOVER.md` from this branch; `hn/` + specs are ours.
 - **Mission:** bootstrap the Honduras Odoo localization per
   `docs/superpowers/specs/2026-08-18-hn-source-research-design.md`
   (e-invoicing IN scope; acquire+register; evidence waves authorized by the
@@ -26,18 +29,26 @@ context does not survive). Update it at every session boundary.
 ## 2. Read order for a new session
 
 1. THIS file
-2. `hn/EXTRACTION_PLAN.md` — wave log (W1a..W1f DONE — taxation core
-   COMPLETE), reading order, risks, **Decisions (D-H1 binding)**
+2. `hn/EXTRACTION_PLAN.md` — wave log (W1a-W1f taxation + **W2a/W2b fiscal
+   reporting DONE** — EVID-001..185), reading order, risks, **Decisions
+   (D-H1/D-H2/D-H3 binding; D-H2/D-H3 now also D16/D18 instantiations)**
 3. `hn/RESEARCH.md` — research dossier: sites, fetch recipes (§6), hint
-   layer w/ corpus verification (§7), open leads (§5, retry round 3 results)
-4. `hn/sources/README.md` — registry, 100 files (01-100, no gaps), full
-    provenance
-5. Evidence files in `hn/.extractions/*.evidence.md` (committed):
-   `01_` (ISR, EVID-001..015), `02_` (ISV, 016..026), `03_` (CT, 027..038),
+   layer w/ corpus verification (§7), open leads (§5, incl. W2 lead harvest)
+4. `hn/sources/README.md` — registry, 103 files (01-104, 103 reserved-unused),
+   full provenance + mislabel-correction notes (8 incidents to date)
+5. Evidence files in `hn/.extractions/*.evidence.md` (committed): `01_`
+   (ISR, EVID-001..015), `02_` (ISV, 016..026), `03_` (CT, 027..038),
    `04-21-22_` (D.17-2010 family, 039..053), `07-12+11_` (tables+plantilla,
-   054..056), `05+23+79+80_` (taxation closers, 057..071). **EVID numbering
-   is corpus-global, next = 072. OQs are per-file (OQ-1..n at file end);
-   27 open.**
+   054..056), `05+23+79+80_` (taxation closers, 057..071),
+   `13-20_fiscal-procedures.evidence.md` (W2a, 072..090),
+   `29+30+46-49+68+74+75_ISR-annual.evidence.md` (091..110),
+   `31-42+71_retenciones.evidence.md` (111..129),
+   `43-45+69+70+72+73_ISV.evidence.md` (136..150),
+   `50-55_selectivo.evidence.md` (151..158),
+   `56-62_contribuciones.evidence.md` (163..173),
+   `63-67_informativas.evidence.md` (175..185). **EVID numbering is
+   corpus-global, next = 186. OQs are per-file/per-doc at evidence-file end
+   (~160 open).**
 
 ## 3. State: corpus (research phase COMPLETE)
 
@@ -61,16 +72,15 @@ context does not survive). Update it at every session boundary.
   **2026-2027 SETRASS-233-2026 + tables (`90/91/92_` — CURRENT)**, CT D.
   189-1959 (`86_`), D. 93-2021 derogations (`85_` = Gaceta 35,760 full)
 - Misc: amnistía D. 7-2026 (`06_`), ISR reforms (`79/80_`)
-- **Lead-dig round 4 (2026-08-20, 93-100):** D. 31-2019 22-A interp/reforma
-  (`93_`; gazette header prints 34,932 vs catalog 34,934 [sic] — pin at
-  evidence), Acuerdo 464-1990 (`94_` = the 1990 ISR-withholding reglamento
-  ancestor: L10k gate, 5% services, 20-day entero — HISTORICAL; NOT the
-  modern Reglamento Ley ISR, which stays open), D. 199-2006 Adulto Mayor
-  (`95_` = L30k@60 source) + **D. 45-2025 (`96_` = NEW: Jan-2026 reform,
-  Arts. 31/31-A/31-B)**, D. 194-2002 original (`97_` = Art. 14 65+ ≤L350k
-  origin), selectivo IPC chain (`98/99/100_` = 172-2022 → 014-2023 →
-  218-2024, current 5.19%). Dead ends: Instructivo 461-2020 (not on SEFIN),
-  STSS-308-2022 (not on STSS site) — both need Gaceta dates → ENAG route.
+- **Lead-dig round 5 (2026-08-20, W2 wave-start):** `101_` = STSS-308-2022
+  (G35,892 extract — the 14th-month SMM instrument; server filename said
+  "STSS-38-2022", 6th mislabel), `102_` = Acuerdo 02-95 Reglamento Décimo
+  Cuarto Mes (statutory origin **D. 135-94 Art. 34** — closes the W1
+  "labor-side 14th-month instrument" question), `104_` = D. 103 Ley Salario
+  Mínimo. **103 reserved-unused** (D. 112 aguinaldo law: STSS href dead-404,
+  no Wayback — open lead, SAR-republish route). Corpus = **103 files
+  (01-104, gap 103)**; next number 105. LJT still unapproved (Sep-2025
+  newest SAR post). SEFIN search dead for 461-2020 (3rd dead end).
 
 ## 4. Key findings (do not re-derive)
 
@@ -100,6 +110,32 @@ context does not survive). Update it at every session boundary.
   taxable; vacaciones >30d taxable (360-day divisor); senior deduction stack
   L40k/80k + L30k@60 + L350k@65(≤350k gross); RAP 1.5+1.5 + fondo reserva
   4% employer (ceiling 3× top SMM); IHSS ceilings L11,903.13 (2025).
+- **W2 fiscal reporting (do not re-derive):** Form 535 EEFF-prior gate from
+  FY2024 (SAR-619-2024; Jan-1→Apr-30; PJ + PN comerciantes individuales;
+  EEFF = SAME obligation as the ISR DJ); **the Ayuda 67_ shows NO
+  contador-certification field and NO GyP section** (vs SAR-619/236 text —
+  OQs); DJIMR (SAR-238-2024) = monthly informativa PER retention código
+  (25-code catalog), 10 días calendario, one-modality, rectificativa → SAR
+  auto-rectifies the determinativa (aceptada only if tax↑); DMC = form 527,
+  deadline chain 10d→20d→**5 días calendario (SAR-237-2024)**, sujetos incl.
+  State institutions; **tarjetas 523 (SW informativa) + 215 (OVI
+  determinativa, base = 10% of ISV − devolución 8%, Banco Central) file
+  OUTSIDE the DJIMR catalog via DEI-9382-J-2003**; devolución 8% ALIVE in the
+  2024 declaration text; compras eventuales = doc type 10 buyer-issued,
+  buyer retains the ISV caused (rate unpinned — OQ); DMC line contract
+  (casillas 200/7/8/1511/1611/1520/1620/270/280) fully extracted; TP inform:
+  pequeños excluded ≤USD 1M related-party ops, TP adjustments auto-migrate
+  into the ISR DJ base; AS = 5% RNG>L1M (PJ-only per prints), ATN = minimum
+  tax over L3M asset exemption, both D.51-2003 Ley Equidad Tributaria
+  (un-acquired — TOP lead); contribuciones: 504 1% / 502 1% / 503 0.5%
+  monthly, 506 3.6% / 509 15%+0.5% floor / 511 15% / 107 10% annual;
+  selectivo 203 = separate D.58-1982 tax (coexists with D.17-2010 family);
+  259 = 4% turística retention.
+- **W2 conflicts (open OQs — never resolve silently):** GC non-resident
+  retention **2% (46_ print) vs 4% (05_ Art. 14)**; ZOLITUR rate article
+  Art. 4 vs Art. 25 (D.181-2006 un-acquired); **DMC manuals print "8 días"
+  citing SAR-237-2024 whose gazette text says 5** (5d = record; manuals
+  stale); 506-vs-509 cooperative boundary; 39_ ≡ 37_ (both código 135).
 - **Decisions:** **D-H1** (binding, in EXTRACTION_PLAN): one journal per
   company via `l10n_latam_invoice_document`; sequences key =
   (establecimiento→`stock.warehouse`, punto de emisión→child emission point,
@@ -168,47 +204,51 @@ context does not survive). Update it at every session boundary.
 
 ## 6. Next actions (ordered)
 
-1. **Lead-dig round 4 residue (Gaceta-date-dependent):** modern Reglamento
-     Ley ISR (plantilla cites its Art. 51 — 94_ proved to be the 1990
-     ancestor), Acuerdo STSS-308-2022 (14th-month SMM), Instructivo
-     461-2020 (22-A exceptions), DEI-9382-J-2003 + 8%-devolution reglamento,
-     Ley RAP 107-2013, Código de Comercio, STSS reglamentos app (ASP.NET
-     shell — interactive). Most need a La Gaceta date → ENAG
-     `/index.php/gaceta-digital/<year>/<mes>` route. All logged in
-     RESEARCH §5.
-2. **W2 fiscal reporting:** `13-20_` procedures + 42 Ayudas batched by
-     family. OCR not needed (text layers fine). D-H2 rules apply (period-
-     correct parameter resolution; freeze at filing).
-3. **W3 facturación/e-invoicing:** full `24_` read + `76-78_`; D-H1 design
-    inputs → FRs (CAI ledger, expiry/overlap/exhaustion guards, sequence
-    key).
-4. **W4 payroll:** `86_` CT (verify vintage vs `85_` derogations),
-    bienio tables, IHSS/RAP architecture, D. 47-2024 OCR rates page.
-5. **Merge coordination — USER OWNS THE MERGE (2026-08-20 session stop):**
-     the user will merge `hn-research` → `main` personally. AT MERGE:
-     (a) update root `HANDOVER.md` §"GT / HN" (stale: says "scaffolded
-     only") and fold HN rulings into its register per repo convention;
-     (b) **USER INTENT (recorded 2026-08-20, session-stop note): uniform
-     shared rules for the 3 countries** — the user wants the parallel-decided
-     families harmonized cross-country at merge. Known candidates:
-     D-H2 (temporal validity) ↔ SV's parallel decision on the same prompt;
-     D-H3 (go-live ingestion) ↔ SV's parallel decision; D-H1
-     (journal/sequence architecture) ↔ SV D13/D14; E-Arts-5/10-VOID-style
-     never-implement invariants; title-vs-content verification discipline;
-     prescription/retention regimes. Direction = one shared-doc rule set
-     where the problem is country-neutral, country sections only for
-     genuinely local surfaces (CAI gate vs MH transmission, etc.). HN
-     session has NOT done this harmonization — it is a merge-time task,
-     user-driven.
-     Session state at stop: commits through `46a5e24` (pushed); worktree
-     clean; taxation core evidence CLOSED (EVID-001..071, 27 open OQs);
-     corpus 100 files; W2 fiscal reporting = next evidence wave.
+1. **W3 facturación/e-invoicing (NEXT):** full `24_` (Acuerdo 481-2017
+   consolidado) read + `25_` (189-2014 hist) + `26_` (817-2018) + `76-78_`
+   workflow helps; fold in W2a hooks (type-10 compras eventuales + 189-2014
+   Arts. 10.f/21.7/69; D-H1 sequence key). D-H1 design inputs → FRs (CAI
+   ledger, expiry/overlap/exhaustion guards, sequence key, emission-point
+   model). OCR check first (04_/21_ were scanned; 24_ text layer believed OK
+   — verify at extraction).
+2. **W4 payroll:** `86_` CT (verify vintage vs `85_` derogations), bienio
+   tables, IHSS/RAP architecture, D. 47-2024 OCR rates page; **NEW W2-round
+   acquisitions ready: `101_` STSS-308-2022 (SMM 2022/2023 tables),
+   `102_` Acuerdo 02-95 (14th-month reglamento; D. 135-94 Art. 34 origin),
+   `104_` D. 103 Ley SMM.** D. 112 (aguinaldo law) still to acquire
+   (SAR-republish route).
+3. **Acquisition queue (W2 lead harvest, RESEARCH §5):** TOP = Ley Equidad
+   Tributaria D. 51-2003 (activo neto/aportación solidaria) + Acuerdo
+   SAR-236-2024 (535/OVI channels) + Reglamento Ley ISR ("Acuerdo N°799",
+   4th citation) + D. 58-1982 (selectivo 203) + D. 131-98 (tasa turística) +
+   TP family (D. 232-2011/027-2015/DEI-SG-004-2016) + contribuciones
+   statutes (D. 105-2011, Acuerdo 1775-2011, D. 53/92-2015, D. 131-2018,
+   D. 181-2006) + D. 112 + DEI-9382-J-2003 I-VIII + Código de Comercio +
+   Ley RAP 107-2013. Most are SAR-catalog fetchable (recipe §6).
+4. **Synthesis prep after W3/W4:** create `hn/.extractions/00_MASTER_INDEX.md`
+   (SV-style; gitignore exception already in place), roll OQ families into
+   MOQ/SOQ-style registers, then plan S-waves per the SV subagent pattern.
+5. **Merge to main at milestone:** owner decision; rebase-then-merge; never
+   force-push (root HANDOVER country model).
+
+Session state at stop (2026-08-20, W2 close): evidence COMPLETE through
+EVID-185 (~160 open OQs); corpus 103 files; W2a+W2b committed; next wave
+W3 facturación.
 
 ## 7. Conventions (mirroring SV)
 
 - Evidence: verbatim Spanish + gloss; candidate CRs + topic tags; doubts →
-  OQs, never guesses. Per-file OQ numbering; corpus-global EVID.
+  OQs, never guesses. Per-file OQ numbering; corpus-global EVID (next=186).
+  W2b ran subagent-dispatched with pre-allocated EVID ranges per family —
+  proven pattern for large batches; controller verifies ranges + spot-checks
+  verbatims afterward.
 - `.gitignore`: `hn/.extractions/*` ignored EXCEPT `*.evidence.md` +
   `00_MASTER_INDEX.md` (create the master index at synthesis prep, SV-style).
 - Commits: short imperative, no emojis; push after each wave.
-- Registry additions continue numbering from `101`; page-1 verify everything.
+- Registry additions continue numbering from `105` (103 reserved-unused);
+  page-1 verify everything. **8 mislabel incidents to date** (29_/09_/15_ SV;
+  05_, 94_, 101_-server-filename, 20_, 52_ HN) — title-vs-content discipline
+  on EVERY acquisition AND every evidence read.
+- **Manuals can be stale vs gazettes (W2b lesson):** Ayuda prints citing an
+  acuerdo can contradict its gazette text (45_/72_ "8 días" vs SAR-237-2024's
+  5) — the gazette text is the record; flag manual conflicts as OQs.
