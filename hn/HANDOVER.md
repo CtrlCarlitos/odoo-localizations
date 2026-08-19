@@ -2,9 +2,10 @@
 
 **For the next HN controller session.** Written 2026-08-20 after W1 (taxation
 core), updated through round-4/D-H2/D-H3 + the merge, W2 fiscal-reporting, W3
-facturación, and **W4 payroll (this refresh — all four evidence waves done)**.
-Read this fully before acting; it is the authoritative HN cross-session memory
-(conversation context does not survive). Update it at every session boundary.
+facturación, W4 payroll, and **synthesis prep (this refresh — master index +
+OQ registers done)**. Read this fully before acting; it is the authoritative HN
+cross-session memory (conversation context does not survive). Update it at every
+session boundary.
 
 **Bootstrap prompt for a fresh session:** `Read hn/HANDOVER.md and continue.`
 
@@ -33,15 +34,20 @@ Read this fully before acting; it is the authoritative HN cross-session memory
 
 1. THIS file
 2. `hn/EXTRACTION_PLAN.md` — wave log (W1a-W1f taxation + W2a/W2b fiscal
-   reporting + W3 facturación + **W4 payroll DONE** — EVID-001..333), reading
-   order, risks, **Decisions (D-H1/D-H2/D-H3 binding; D-H2/D-H3 = D16/D18
-   instantiations)**
-3. `hn/RESEARCH.md` — research dossier: sites, fetch recipes (§6), hint
+   reporting + W3 facturación + W4 payroll + **synthesis prep DONE — master
+   index built**; EVID-001..333), reading order, risks, **Decisions (D-H1/
+   D-H2/D-H3 binding; D-H2/D-H3 = D16/D18 instantiations)**
+3. **`hn/.extractions/00_MASTER_INDEX.md` — THE synthesis lookup (built
+   2026-08-19): authority orders per topic, 18 EV file keys, 43 clusters
+   (T1-T12/F1-F11/E1-E8/P1-P12) with Governing EVIDs/LB/crossrefs, R-H1..65
+   resolved-contradictions ledger, OQ registers C1-C4 (~227 open), S-wave
+   plan. READ BEFORE ANY SYNTHESIS WORK.**
+4. `hn/RESEARCH.md` — research dossier: sites, fetch recipes (§6), hint
    layer w/ corpus verification (§7), open leads (§5, incl. W2+W3+W4
    harvests)
-4. `hn/sources/README.md` — registry, 103 files (01-104, 103 reserved-unused),
+5. `hn/sources/README.md` — registry, 103 files (01-104, 103 reserved-unused),
    full provenance + mislabel-correction notes (**9 incidents to date**)
-5. Evidence files in `hn/.extractions/*.evidence.md` (committed): `01_`
+6. Evidence files in `hn/.extractions/*.evidence.md` (committed): `01_`
    (ISR, EVID-001..015), `02_` (ISV, 016..026), `03_` (CT, 027..038),
    `04-21-22_` (D.17-2010 family, 039..053), `07-12+11_` (tables+plantilla,
    054..056), `05+23+79+80_` (taxation closers, 057..071),
@@ -234,30 +240,38 @@ RESEARCH §5). Structure:
 
 ## 6. Next actions (ordered)
 
-1. **Synthesis prep (NEXT):** create `hn/.extractions/00_MASTER_INDEX.md`
-   (SV-style; gitignore exception already in place), roll the ~227 OQs into
-   MOQ/SOQ-style registers, then plan S-waves (topic synthesis per the SV
-   subagent pattern). e-invoicing + payroll + taxation + fiscal-reporting
-   evidence are ALL complete — synthesis can start on any topic (only the
-   SEE/CAEE sub-cluster is blocked on lead 1).
-2. **Acquisition queue (W2+W3+W4 lead harvests, RESEARCH §5):** TOP = Ley
-   Equidad Tributaria D. 51-2003 + **D. 135-94 (aguinaldo/compensación
-   social — the 13th-month statutory home; CT has none)** + **Reglamento
+1. **S-waves (NEXT):** topic synthesis per the SV subagent pattern, planned in
+   `00_MASTER_INDEX.md` coverage section — **S-HN1 taxation (T1-T12) first
+   (everything cites it), S-HN2 e-invoicing (E1-E8; SEE/CAEE sub-cluster
+   blocked on lead 1) parallel-able, S-HN3 fiscal-reporting (F1-F11, needs
+   S-HN1 rates), S-HN4 payroll (P1-P12, needs S-HN1 retention interfaces;
+   aguinaldo FRs config-gapped until D. 135-94 lands)**; S-HN5 thin closes
+   (chart-of-accounts/commercial-legal) decided at milestone. Requirements
+   files land in `hn/requirements/<topic>/` mirroring SV. Synthesis consumes
+   the master index (clusters + R-ledger + OQ registers) — never re-derives
+   evidence; cite `EVxx:EVID-nnn`. Acquisition waves interleave (config
+   flags/OQs open, never blocked except SEE).
+2. **Acquisition queue (W2+W3+W4 lead harvests, RESEARCH §5 + master-index
+   C-registers):** TOP = **D. 135-94 + Acuerdo 201-96 (aguinaldo/compensación
+   social — the 13th-month statutory home; P2 blocker)** + **Reglamento
    General IHSS (contribution-base definition)** + **Ley RAP D.L. 107-2013
-   (doubly load-bearing)** + Acuerdo SAR-236-2024 + Reglamento Ley ISR
-   ("Acuerdo N°799") + D. 58-1982 + D. 131-98 + TP family + contribuciones
-   statutes + **DGS SMM companion prints (2025 promedio; 2027 when exists)**
-   + D. 54-95 + Código de Comercio + DEI-9382-J-2003 I-VIII + W3 adds
-   (462-2014, 424-2018, post-2017 compras-eventuales instrument if any) +
-   riesgos-profesionales reglamento. D. 112 = routes exhausted (mirror-only
-   at synthesis). Most SAR-catalog fetchable (recipe §6).
-3. **Merge to main at milestone:** owner decision; rebase-then-merge; never
-   force-push (root HANDOVER country model). **W4 merged 2026-08-20 at
-   `d5a2f4b` — branch and main are level; future waves branch from here.**
+   (doubly load-bearing)** + Ley Equidad Tributaria D. 51-2003 (AS/ATN +
+   tarjetas Art. 18) + Acuerdo SAR-236-2024 + Reglamento Ley ISR ("Acuerdo
+   N°799") + DGS SMM companion prints (2022-2025 + 2027 when exists) +
+   D. 58-1982 + D. 131-98 + TP family (D. 232-2011 + 027-2015 +
+   DEI-SG-004-2016) + contribuciones statutes + D. 54-95 + Código de
+   Comercio + DEI-9382-J-2003 I-VIII + W3 adds (462-2014, 424-2018,
+   post-2017 compras-eventuales instrument if any) + riesgos-profesionales
+   reglamento. D. 112 = routes exhausted (mirror-only at synthesis).
+   Most SAR-catalog fetchable (recipe §6).
+ 3. **Merge to main at milestone:** owner decision; rebase-then-merge; never
+    force-push (root HANDOVER country model). **W4 merged 2026-08-20 at
+    `d5a2f4b` — branch and main are level; future waves branch from here.**
 
-Session state at stop (2026-08-20, W4 close): evidence COMPLETE through
-EVID-333 (~227 open OQs); corpus 103 files; W1+W2+W3+W4 committed; next =
-synthesis prep (master index + OQ registers) per SV pattern.
+Session state at stop (2026-08-19, synthesis prep close): evidence COMPLETE
+through EVID-333 (~227 open OQs); corpus 103 files; W1+W2+W3+W4 committed and
+merged (d5a2f4b); **master index built (43 clusters, R-H1..65, OQ registers
+C1-C4, S-wave plan); next = S-HN1 taxation synthesis (or S-HN2 in parallel).**
 
 ## 7. Conventions (mirroring SV)
 
@@ -268,8 +282,8 @@ synthesis prep (master index + OQ registers) per SV pattern.
   spot-checks verbatims afterward (done for W4: ranges + 8 source-level
   spot-checks incl. all OCR-derived quotes).
 - `.gitignore`: `hn/.extractions/*` ignored EXCEPT `*.evidence.md` +
-  `00_MASTER_INDEX.md` (create the master index at synthesis prep,
-  SV-style).
+  `00_MASTER_INDEX.md` (**created 2026-08-19 — committed; update it at every
+  wave/milestone that adds EVIDs, rulings, or resolves OQs**).
 - Commits: short imperative, no emojis; push after each wave.
 - Registry additions continue numbering from `105` (103 reserved-unused);
   page-1 verify everything. **9 mislabel incidents to date** — title-vs-

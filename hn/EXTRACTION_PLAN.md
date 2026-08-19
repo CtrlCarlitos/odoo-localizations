@@ -3,10 +3,26 @@
 Execution plan per [shared/docs/requirements-extraction-procedure.md](../shared/docs/requirements-extraction-procedure.md).
 Started 2026-08-19 (source-research pass complete). Status: active — **evidence
 waves W1 (taxation core) + W2 (fiscal reporting) + W3 (facturación/e-invoicing) +
-W4 (payroll) COMPLETE 2026-08-20 (EVID-001..333); next = synthesis prep
-(master index + OQ registers), then S-waves**.
+W4 (payroll) COMPLETE 2026-08-20 (EVID-001..333); synthesis prep DONE 2026-08-19
+(`hn/.extractions/00_MASTER_INDEX.md` — 43 clusters T1-T12/F1-F11/E1-E8/P1-P12,
+R-H1..65 ledger, ~236 OQs rolled into registers C1-C4); next = S-waves (S-HN1
+taxation → S-HN2 e-invoicing ∥ → S-HN3 fiscal-reporting → S-HN4 payroll; S-HN5
+thin closes at milestone)**.
 
 ## Wave log
+
+- **Synthesis prep (2026-08-19, DONE):** built `hn/.extractions/00_MASTER_INDEX.md`
+  (SV-style) via 4 parallel digests (one per evidence wave). Contents: authority
+  orders per topic (taxation/fiscal-reporting/facturación/payroll + OCR-sidecar +
+  mislabel discipline), 18 EV file keys, 43 topic clusters with Governing EVIDs +
+  LB + crossrefs, resolved-contradictions ledger **R-H1..R-H65** (incl. the 9
+  mislabel incidents, void-text rulings, DMC deadline chain, IHSS matrix, promedio
+  ruling, 85_ guard), and the OQ registers **C1-C4** (~236 origin lines, ~227
+  open) with LEAD/CONFIG/CONFLICT/VERIFY/DECIDE categories. S-wave plan recorded
+  in its coverage section: S-HN1 taxation → S-HN2 e-invoicing (parallel-able,
+  SEE/CAEE sub-cluster blocked on lead 1) → S-HN3 fiscal-reporting → S-HN4
+  payroll; S-HN5 (chart-of-accounts/commercial-legal) decided at milestone.
+  Acquisition waves interleave; synthesis proceeds with config flags/OQs open.
 
 - **W1a (2026-08-19, DONE):** Ley ISR `01_` evidence (EVID-001..015, 6 OQs).
   Key: PJ 25% / PN IPC-indexed progressive (FY2026 table = `07_` +4.98%);
