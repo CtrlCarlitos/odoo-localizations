@@ -4,9 +4,19 @@
 |---------|-------|
 | Country | sv |
 | Topic   | special-regimes |
-| Status  | evidence pass COMPLETE (W13, 2026-08-19) — synthesis pending |
-| Authors | Controller (wave-prep stub; W13 evidence) |
+| Status  | evidence pass COMPLETE (W13, 2026-08-19); S7 prep DONE (SR1-SR8 clusters + SOQ-30..45 in master index, 2026-08-19) — synthesis IN PROGRESS |
+| Authors | Controller (wave-prep stub; W13 evidence; S7 prep) |
 | Updated | 2026-08-19 |
+
+**S7 synthesis lookup:** master index
+[§S7-A clusters SR1-SR8 + §S7 SOQ register](../../.extractions/00_MASTER_INDEX.md)
+(`sv/.extractions/00_MASTER_INDEX.md`); special-regimes authority order in
+its header. Planned files: `01_regime-framework.md` (SR1) ·
+`02_zf-exemption-schedules.md` (SR2) · `03_lsi-regime.md` (SR3) ·
+`04_customs-clocks.md` (SR4) · `05_tan-iva-interface.md` (SR5) ·
+`06_customs-declarations.md` (SR6) · `07_obligations-reporting-sanctions.md`
+(SR7) · `08_fovial-cotrans.md` (SR8). Prefix: **SV-SPE-FR** (wave-sequential
+from 001).
 
 This is a **wave-prep anchor stub, explicitly NOT a requirements file**:
 it carries no FRs, no LBs and no ACs of its own. It exists to hold the
