@@ -115,7 +115,11 @@ consolidation — re-verify if a later CT reform lands (OQ-001).
   Quincena Veinticinco row (class `quincena_25`, D.L. 499) is consumed
   by id by `SV-PAY-FR-138..143` (payroll/04 benefit mechanics +
   payroll/08 income treatment and feeds) and `SV-FREP-FR-209..212` (the
-  F-14 January-annex engine and the F-910 code-73 surface).
+  F-14 January-annex engine and the F-910 code-73 surface). The
+  quincena_25 earning class carries its matrix flags directly and maps
+  to NO sv_pay_earning_category — the category field stays empty for
+  Quincena-25 rules (outside FR-001's three categories per 66_ Art. 1;
+  EVID-236).
   (LB-001; LB-010; LB-011; LB-012; EVID-201/197/236)
 
 ### 3.2 Salario básico: the universal derivation base (CT Arts. 140-143)
@@ -208,7 +212,7 @@ wave-wide authority; consumers reference the FR id, never restate):**
 | Vacation pay (prestación with express IBC inclusion "incluido el período de vacaciones") | prestacion_social | no | yes (express inclusion) | gravada (EVID-204 mapping note) | G |
 | Aguinaldo | prestacion_social | no | no (14.b) | split_exento_gravado — floor 2×SMM comercio y servicios, taxation-owned (SV-TAX-FR-120) | J / K pair |
 | Other CT statutory benefits (indemnización, illness/maternity subsidies, sepelio; séptimo día decomposes into ordinary pay per Art. 174) | prestacion_social | no | no (14.c prestaciones sociales) | crosscheck_oq (Ley ISR Art. 4 cross-check — OQ-003) | value feed via `08_isr-interfaces.md` |
-| Quincena Veinticinco annual complement (D.L. 499; paid 15–25 Jan; 50% of monthly salario básico o nominal, gate ≤ US$1,500.00) | quincena_25 | no — ingreso complementario independiente del salario ordinario, aguinaldo y otras prestaciones (66_ Art. 1) | no — never in any benefit-calculation base nor SS/pension cotización (66_ Arts. 1/5) | no_gravada (66_ Art. 4) | none — surfaces ONLY in the separate January-only Quincena annex (SV-FREP-FR-209), never in the G/H/J-K retention-annex families |
+| Quincena Veinticinco annual complement (D.L. 499; paid 15–25 Jan; 50% of monthly salario básico o nominal, gate ≤ US$1,500.00) | none — special-law benefit outside the CT categories (66_ Art. 1 independence declaration; EVID-236) | no — ingreso complementario independiente del salario ordinario, aguinaldo y otras prestaciones (66_ Art. 1) | no — never in any benefit-calculation base nor SS/pension cotización (66_ Art. 1) | no_gravada (66_ Art. 4) | none — surfaces ONLY in the separate January-only Quincena annex (SV-FREP-FR-209), never in the G/H/J-K retention-annex families |
 
 Matrix resolution note: the crosscheck_oq cells above are resolved by
 `08_isr-interfaces.md` §3.2 (FR-123..125), 2026-08-18 — indemnización
@@ -272,6 +276,9 @@ text basis is the Índice Legislativo edition (stamps through (22), no
 as-of date — SOQ-21/OQ-001 watch); the ISR and F-14 anchors are consumed
 by reference and carry the version regimes recorded in their owning
 files (D.E. 10-2025 effective 2025-05-08; F-14 v16 print Oct-2025).
+Exception: the Quincena-25 row's 15–25 January window and US$1,500.00
+gate are D.L. 499's printed constants, cited from 66_ (EVID-236), not
+locally owned dated data.
 
 ## 6. Acceptance Criteria
 
