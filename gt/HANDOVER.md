@@ -1,7 +1,9 @@
 # gt/HANDOVER — Guatemala Session State & Continuation Guide
 
 **For the next controller session.** Written 2026-08-19 at close of the GT
-source-research sessions (W1–W5 + owner DCA batches). Read this fully before
+source-research sessions (W1–W5 + owner DCA batches); updated 2026-08-19
+(convergence-audit session: shared-rules D16 reconciliation +
+EXTRACTION_PLAN draft). Read this fully before
 acting; it is the authoritative cross-session memory. **Update it at every
 session boundary.**
 
@@ -90,15 +92,22 @@ vintage FEL docs). Reform chains are recorded in SOURCE_RESEARCH.md.
   now joined by OQ17: which decree added Art. 3-"A" that D-10-2025
   derogated).
 - **D-GT8/D-GT9/D-GT10 bind synthesis**: `l10n_latam_invoice_document`
-  (one journal, multi document types); sucursales/warehouses/cash-registers
-  → FEL establishment/dispositivo codes; **dated-instrument regime** —
-  D-GT10 now instantiates **shared D13** (`shared/docs/regulatory-change-
-  management.md`, approved 2026-08-19): dated rule rows (valid_from/to +
-  provenance; changes add rows), fecha-emisión rule selection, no past-dated
-  transmission (certification timestamp; historical = non-transmittable
-  accounting class), retro payroll with original-period rates, freeze-at-
-  filing, backdating UX. SV/HN files reference D13 at their next touch —
-  if the SV session wrote a variant, converge on the D13 text.
+  (one journal, multi document types — now also shared default **D17** in
+  `shared/docs/odoo-localization-guide.md`; D-GT8 = its GT instantiation);
+  sucursales/warehouses/cash-registers → FEL establishment/dispositivo codes;
+  **dated-instrument regime** — D-GT10 instantiates **shared D16**
+  (`shared/docs/regulatory-change-management.md`): dated rule rows
+  (valid_from/to + provenance; changes add rows), fecha-emisión rule
+  selection, no past-dated transmission (certification timestamp;
+  historical = non-transmittable accounting class), retro payroll with
+  original-period rates, freeze-at-filing, backdating UX. **Naming note
+  (2026-08-19 merge session): GT's "shared D13" proposal was renumbered
+  D16** (D13/D14 = SV journal/establishment instantiations of D17); D16 was
+  reconciled with D15 (as-of doctrine) and amended with HN's D-H2/D-H3
+  (hard no-override emission block outside authorization-range vigencia;
+  ingestion reconciliation against filed declarations). Cite D15+D16
+  together; D18/D19 + `shared/docs/go-live-readiness.md` also bind
+  synthesis (GT register already seeded there).
 
 ## 6. Access realities & gotchas (verified)
 
@@ -159,30 +168,44 @@ synthesized with these as flagged open questions and back-filled later.
 
 ## 9. Next actions (ordered)
 
-1. **Draft `gt/EXTRACTION_PLAN.md`** (Stage 0): source inventory +
-   decomposition + reading order + topic map + risks (supersession chains,
-   dated-instrument vigencia columns per D-GT10, scan-OCR flags). Owner
-   reviews.
-2. Opportunistic gap closure: queue rev-5 leftovers (instructivos, calendario
-   transcription); accountant answers fold in when they arrive.
+1. ~~Draft `gt/EXTRACTION_PLAN.md` (Stage 0)~~ **DRAFTED 2026-08-19
+   (convergence session) — awaiting owner review**; adjust wave
+   decomposition/reading order per review before W-GT1 starts.
+2. Opportunistic gap closure: queue rev-5 leftovers (instructivos cat
+   15812, calendario transcription via SAT JSF app); **D-19-2016 (Ley
+   Emergente ZF — the missing middle link of D-65-89 → D-19-2016 →
+   D-6-2021)** flagged as an acquisition candidate in the plan's gap set;
+   accountant answers fold in when they arrive.
 3. **W-GT1 evidence pass** (FEL stack: 15_ Reglas v1.7.10 → 29_/30_ XSDs →
-   16_ Doc Técnico Servicios → 01_–03_ acuerdos → 04_–14_ resolutions) per
-   the procedure's Stage 2; evidence to `gt/.extractions/` (gitignore already
-   excludes; commit exceptions only if owner rules so, SV-style).
-4. Milestone: owner decides `gt-research` → `main` merge (preferably after
-   EXTRACTION_PLAN exists).
+   16_ Doc Técnico Servicios → 01_–03_ acuerdos → 04_–14_ resolutions →
+   manuals 18_–22_ + 17_ casos + 31_ registry) per the procedure's Stage 2;
+   evidence to `gt/.extractions/` (gitignore already excludes; commit
+   exceptions only if owner rules so, SV-style).
+4. Milestone: owner decides `gt-research` → `main` merge (EXTRACTION_PLAN
+   now exists; owner also owns the pending merge of this branch's
+   convergence commits).
 5. W6 partner follow-up when TotalDoc access exists (API manuals, sandbox,
-   OQ3 question).
+   OQ3 question). **OQ7 watch: TotalDoc/Grupo CDS authorization expires
+   02/12/2026 — re-check the certificador registry at next milestone.**
 
-## 10. Owner notes (2026-08-19, session close)
+## 10. Owner notes (2026-08-19, session close; updated same day by the
+convergence session)
 
 - **Owner will handle the `gt-research` → `main` merge personally** — next
   controller does NOT merge; verify branch state only.
-- **NEXT SESSION PRIORITY (owner directive): uniform shared rules for all 3
-  countries (SV/GT/HN).** D13 was written cross-country for exactly this;
-  the convergence work is: audit D1–D13 + the shared/docs set for
-  country-specific assumptions, generalize where GT/HN facts demand it
-  (e.g. D7–D12 were decided SV-first; D13 already neutral), and reconcile
-  any variant texts the SV/HN sessions wrote in parallel (SV was told the
-  same dated-mechanics concern — converge on one D13 text). Coordinate via
-  root HANDOVER.md since three sessions touch shared docs now.
+- ~~NEXT SESSION PRIORITY: uniform shared rules for all 3 countries
+  (SV/GT/HN)~~ **EXECUTED on main 2026-08-19** by the merge/unification
+  session (commits `5eb6d6b..53edd55`, root HANDOVER rulings 43–48): GT's
+  "shared D13" became the **D16 canon** (renumbered; reconciled with D15;
+  HN D-H2/D-H3 amended in); D15 universalized with country instantiation
+  registers; **D17** = `l10n_latam_invoice_document` cross-country default
+  (D-GT8 = GT instantiation); **D18** (mid-year go-live ingestion) and
+  **D19** (cut-over mechanics) added; `shared/docs/go-live-readiness.md`
+  created with SV/GT/HN registers. **Residue closed by the 2026-08-19 GT
+  convergence session** (this branch): D7–D12 country-scope note added to
+  `shared/docs/regulatory-change-management.md` (SV nouns = illustrations,
+  mechanics binding cross-country); GT spec D-GT10 row now cites D16; this
+  HANDOVER de-staled. Remaining convergence surface for future sessions:
+  keep country instantiations current at each synthesis close
+  (go-live-readiness registers + D15/D16 registers), and converge any
+  variant texts the SV/HN sessions write in parallel via root HANDOVER.md.

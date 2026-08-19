@@ -129,6 +129,19 @@ frozen at close, wizards/migrations for rule changes.
 
 ## DECISION LOG (Q1–Q7 socratic session, 2026-08-17)
 
+> **Country-scope note (added 2026-08-19 at the cross-country convergence,
+> GT session):** D7–D12 were decided from the El Salvador corpus — the
+> regulator nouns in their bodies (MH = Ministerio de Hacienda, Cuadro 4
+> adaptation windows, F-07/F-14 forms, CT 280, CCF/CR/NCE/NDE document
+> taxonomy) are **SV illustrations, not normative across borders**. The
+> mechanics themselves are binding for every country in scope; each country
+> instantiates them with its own regulator and instruments (GT: SAT, FEL
+> Reglas y validaciones/XSD-catalog versions, SAT-2237-family forms, Código
+> Tributario 6-91; HN: SAR/DEI, SAR formats, Código Tributario). Same rule
+> as D15's instantiation register: no country's citation is normative for
+> another country. D15/D16/D18/D19 below were written universal from the
+> start.
+
 ### D7 — SaaS MH-spec runtime: replace-in-place + switchover dates (Q1)
 
 The SaaS always implements the CURRENT MH spec; switchover dates (Cuadro 4
