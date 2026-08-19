@@ -146,8 +146,10 @@ confirmation.
    registry carries both; drift tracked as OQ3. Done: `29_` + `30_` acquired.
 2. ~~OQ2: acquisition route for portal-SAT PDFs~~ **RESOLVED 2026-08-18
    (owner)**: manual browser downloads by owner; queue at
-   `gt/DOWNLOAD_QUEUE.md` (01–28 + optional 31); inbox staging
-   `gt/sources/inbox/` (git-ignored until verified).
+   `gt/DOWNLOAD_QUEUE.md`; inbox staging `gt/sources/inbox/` (git-ignored
+   until verified). **Wayback fallback ALSO ratified** (same day, follow-up
+   ruling): archived copies of official URLs register with provenance +
+   re-verify flags when no live official route exists.
 3. **OQ3 (SHARPENED — material)**: cat.desa vs GitHub drift is 8-of-17 shared
    files (measured 2026-08-18): GT_Documento-0.2.1 (52,176 vs 67,278 B),
    Exportaciones, MediosdePago, PartidosPoliticos, AnulacionDocumento,
@@ -156,14 +158,25 @@ confirmation.
    production validation use? → ask TotalDoc (partner) / SAT.
 4. **OQ4**: "Decreto 6-2021" — verify via DCA browser session; until then
    untouchable.
-5. **OQ5**: Reglas y validaciones current internal version + date — read
-   from PDF after acquisition (pages show nothing).
+5. ~~OQ5: Reglas y validaciones current version~~ **PARTIALLY RESOLVED**:
+   acquired copy prints **v1.7.10, Febrero 2025** (146pp) with a "VERSIÓN
+   2.0" header — the two version strings must be reconciled in the evidence
+   pass (presumably content v2.0 / document revision 1.7.10).
 6. **OQ6**: doc-type abbreviations (FPEQ/FCEQ/RD…) — confirm inside Reglas
    PDF; never hard-code from hearsay.
 7. **OQ7**: Grupo CDS authorization expires 02/12/2026 — renewal watch
    (registry page re-check at milestone).
 8. **OQ8**: FELPLEX (utm_source seen) — unknown internal SAT/certifier
    portal; ignore unless it surfaces again.
+9. **OQ9**: casos-de-prueba ZIP (17_) is vintage 2018-05-30 — may lag
+   current catalogs/Reglas v1.7.10; refresh candidate (SAT may distribute
+   test cases directly to certificadores now).
+10. **OQ10**: **post-2018 reformed edition of Ley IVA 27-92 with Art.
+    29-"A"** — 23_ is consolidated only through ~2012 (GFACE era); SAT
+    removed the law from the portal; MINFIN/DCA/Congreso routes dead or
+    JS-only. Interim legal basis = AD 13-2018 + 26-2019 + 15-2020 + the
+    SAT-DSI incorporation chain. Hunt routes: DCA Edición Legal browser
+    session (valid ≥17-12-2018), SAT re-publication request.
 
 ## Acquisition log
 
@@ -191,3 +204,20 @@ confirmation.
   Lesson recorded: **SAT portal label ≠ content — verify every download**
   (kin to SV factura.gob.sv wpdmdl shuffle).
 
+- 2026-08-18 (Wayback acquisitions — owner ruling "accept with provenance") —
+  6 files registered with re-verify flags: 04 (243-2019), 06 (real 639-2020 —
+  the mislabeled-17662 hole closed), 12 (real 1240-2021 mass mandate —
+  digest-verified 2022 captures; post-2023 captures of id 57855 serve the
+  1218-duplicate), 17 (casos de prueba ZIP, 25 FEL test cases, vintage
+  2018-05-30), 19 (contingencia, Mayo 2018), 23 (Ley IVA 27-92, 52pp —
+  **consolidated only through ~2012: NO Art. 29-"A"** → OQ10). Registry
+  carries Wayback snapshot URLs as provenance.
+- 2026-08-18 (structural find — wpfd re-id/re-category pattern) — wpfd serves
+  files under their CURRENT category: manuals moved 6524→15747 (anulación
+  id 72293, firma id 75322), LAT 10-2012 re-id'd 18261→78389 (live, captured
+  2026). SAT REMOVED entirely: 243-2019, 639-2020, 1240-2021 (pre-swap),
+  Ley IVA 27-92, casos ZIP, contingencia (Dec-2025/Jan-2026 listings show
+  them gone). Lesson: portal URLs rot; pin Wayback snapshots in provenance.
+- 2026-08-18 (design notes) — D-GT8 (l10n_latam_invoice_document: one journal
+  multi-doc-type) + D-GT9 (sucursales/warehouses/cash-registers → FEL
+  establishment/dispositivo codes) recorded in spec at owner request.
