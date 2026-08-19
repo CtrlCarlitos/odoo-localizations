@@ -78,6 +78,7 @@ Manual/form pages are printed pages.
 | LB-007 | Ley ISR (texto consolidado 54_), Arts. 72, 73, 74, 74-A, 74-C — el régimen de distribuciones detrás de los códigos 43/44/45/46 y del F-915; citado POR REFERENCIA a través de `taxation/05_isr-distributions.md` LB-001..006 (la retención del 5%, las utilidades de Amplia definición, las reducciones de capital con tracing profits-first, los préstamos como distribuciones presuntas, el Registro de Control de Utilidades) — este archivo nunca reexpone el régimen | ISR Law Arts. 72-74-C (per the S2 authority order, cited through the taxation file): the distributions regime behind codes 43/44/45/46 and the F-915 inform — referenced by pointer; the regime substance, pools and earnings-register model are owned by `taxation/05_isr-distributions.md` | `sv/sources/54_Ley_ISR_consolidada_DO79_T447_2025-04-30.pdf` | Arts. 72-74-C (via taxation/05 LB-001..006; EVID-103) |
 | LB-008 | Manual F-07 v14 §III, par R/S del Anexo 1 (verbat, vía `02_f07-annexes-sales.md` LB-003): códigos R TIPO DE OPERACIÓN "1 Gravada / 2 No Gravada o Exento / 3 Excluido o no Constituye Renta / 4 Mixta / 12 Ingresos que ya fueron sujetos de retención informados en el F14 y consolidados en F910 / 13 Sujetos pasivos excluidos (art. 6 LISR)"; códigos S TIPO DE INGRESO 1-10 (12/13 como R) — el ancla del acoplamiento cross-tax | F-07 v14 manual §III Renta pair (via the 02 file's LB): R operation-type codes with code 12 = income already subject to retention, reported in the F-14 and consolidated in the F-910; S income-type codes — the cross-tax coupling anchor | `sv/sources/34_F07_v14_manual.pdf` | §III pp.1-6 (EVID-174; via 02-file LB-003) |
 | LB-009 | Formulario F-930 v3 (63_) — SOLO REFERENCIA: el informe mensual de retención/percepción/anticipo IVA ya está alojado en `04_f07-annexes-retentions-events.md` (vista sobre el mismo ledger de retención IVA); se cita aquí únicamente para el inventario de informes y las notas de vintage | F-930 v3 form — reference only: the monthly IVA retentions inform already homed in the 04 file (a view over the same IVA-retention ledger); cited here only for the inform inventory and vintage notes | `sv/sources/63_F930v3_informe_mensual_retIVA.pdf` | §A-§C (EVID-189) |
+| LB-010 | Código 73 F-910, Quincena-25 (verbat): 67_ §3.f: "En el Informe Anual de Retenciones (F-910), el monto pagado en concepto de Quincena Veinticinco, se verá reflejado en la columna de NO GRAVADOS, el cual se identificará de conformidad al Código 73 Ingresos No Gravados Pagados Quincena Veinticinco, generado de forma automática… de acuerdo a los datos cargados en anexo… (F-14)"; 68_ p.16: "el código de ingreso 73 se asignará de manera automática al momento de presentar la declaración" | F-910 code 73 (Quincena-25): per 67_ §3.f — in the Annual Retentions Inform (F-910) the amount paid in concept of Quincena Veinticinco is reflected in the NO GRAVADOS column, identified per code 73 "Ingresos No Gravados Pagados Quincena Veinticinco", generated automatically… from the data loaded in the annex… (F-14); per 68_ p.16 — income code 73 is assigned automatically at the moment of presenting the declaration | `sv/sources/67_Guia_Orientacion_Quincena25.pdf` + `sv/sources/68_Instrucciones_Carga_Quincena25.pdf` | §3.f p.4 / p.16 (EVID-238/239) |
 
 ## 3. Functional Requirements
 
@@ -192,9 +193,10 @@ Manual/form pages are printed pages.
   never restated here), and the same F-14/F-910 code surfaces feed
   the F-11 rentas matrix — the annual rentas declaration keyed by the
   income-type families that the R/S code lists prefigure (the F-11
-  layout itself is not in the corpus: acquisition candidate, OQ-006).
-  (LB-008; EVID-174; EVID-182; EVID-187; cross-ref SV-FREP-FR-051,
-  SV-FREP-FR-052)
+  layout itself is not in the corpus: acquisition candidate, OQ-006);
+  the Quincena code-73 surface is excluded (no retention happened —
+  FR-212). (LB-008; LB-010; EVID-174; EVID-182; EVID-187; EVID-238;
+  cross-ref SV-FREP-FR-051, SV-FREP-FR-052, SV-FREP-FR-212)
 
 ### 3.3 F-910 v9 — Informe Anual de Retención del ISR (the CT Art. 123 surface)
 
@@ -232,11 +234,14 @@ Manual/form pages are printed pages.
   sujetos a retención, sin retención o no gravados" (data of the
   contributors to whom income SUBJECT TO RETENTION, WITHOUT
   RETENTION or NON-TAXED was paid) — so the inform includes rows for
-  sin-retención (code 60) and no-gravado (70-72) income, keyed by the
+  sin-retención (code 60) and no-gravado (70-72) income + code 73
+  (Quincena-25, MH-package authority 2026-01; §C prints the v16
+  catalog as of the 61_ v9 print — 73 arrives with the v17-era
+  F-14/F-910 revision; F-910 v10 watch kin — FR-212), keyed by the
   SAME income-code catalog as the F-14 apéndice (the F-910 §C prints
   the identical catalog — LB-003/LB-001; this file §3.1 is the single
-  source of truth for both surfaces). (LB-001; LB-003; EVID-187;
-  EVID-182)
+  source of truth for both surfaces). (LB-001; LB-003; LB-010;
+  EVID-187; EVID-182; EVID-238)
 - **SV-FREP-FR-182:** The system shall support the F-910's FOLIO
   MODIFICA (amendment folio) field: an amended inform shall reference
   the folio of the prior presentation and be rebuilt as a full
@@ -253,6 +258,18 @@ Manual/form pages are printed pages.
   (declaration-inform consistency: the F-910 is the projection of the
   twelve F-14 declarations, never an independent entry surface).
   (LB-003; LB-006; EVID-187; EVID-064)
+- **SV-FREP-FR-212:** The system shall populate the F-910's NO
+  GRAVADOS surface with income code **73 'Ingresos No Gravados
+  Pagados Quincena Veinticinco'** — auto-assigned at declaration
+  presentation from the F-14 Quincena annex upload
+  (`06_f14-declaration.md` SV-FREP-FR-211; 68_ p.16), fed by the
+  SV-PAY-FR-142 ledger — reported as a NO-GRAVADO total (the
+  worker-side amounts), never as a retention consolidation (no R=12
+  coupling: nothing was retained) and never inside the retained-tax
+  totals; the code exists in the catalog as a dated 2026-01 row whose
+  print authority is the MH package, with F-14 apéndice v17 inclusion
+  unverified (OQ-008). (LB-010; EVID-238; cross-ref SV-FREP-FR-211,
+  SV-PAY-FR-142)
 
 > **In-file note for the index task (taxation cross-refs to wire):**
 > this file RECORDS the answer to `taxation/04_isr-withholding.md`
@@ -413,7 +430,7 @@ consumed by 06 FR-142):**
 | class | select | acreditable · definitiva · sin_retencion · no_gravado | FR-172 |
 | f14_tab, f14_row_casilla | char/char | tab + row/casilla ZONE per LB-002 (zone granularity; per-row assignment OQ-002) | FR-172, FR-174..177 |
 | ct_anchor | char | printed/derived anchor (e.g. "CT 158-A", "Ley ISR Art. 72", "CT Art. 123 Inciso Tercero"); "unpinned" rows carry OQ flags | FR-173..175 |
-| catalog_version, valid_from, source | char/date/char | v16_apendice · 2025-10-01 (print month) · 35_ pp.17-18; refresh re-check OQ-001 | FR-171 |
+| catalog_version, valid_from, source | char/date/char | v16_apendice · 2025-10-01 (print month) · 35_ pp.17-18; code 73 = DATED 2026-01 row (f17_kin vintage — MH-package authority 67_ §3.f + 68_ p.16, NOT the v16 apéndice which predates the law; FR-212); refresh re-check OQ-001 | FR-171, FR-212 |
 
 **F-910 — l10n_sv.f910.report (new) + l10n_sv.f910.row:**
 
@@ -425,6 +442,7 @@ consumed by 06 FR-142):**
 | row: aguinaldo_exento, aguinaldo_gravado | monetary(2dp) | ONLY codes 01 and 60 | FR-179 |
 | row: ss_annual_isss, ss_annual_afp, ss_annual_ipsfa, ss_annual_cefafa, ss_annual_inpep, ss_annual_bienestar_mag | monetary(2dp) | SIX annual columns as printed (no ISSS-IVM annual) | FR-179 |
 | row: payroll_class_01_60 | computed | 01 (retained ≥ 1 month) / 60 (never retained) from the monthly rows | FR-180 |
+| row: code_73_auto | boolean + m2o income_code_id (73) | code 73 handled as a catalog row + AUTO-assignment flag (set at the FR-211 Quincena annex presentation); NO-GRAVADO total (worker-side), never inside retained-tax totals | FR-212 |
 
 **F-915 — l10n_sv.f915.report (new) + l10n_sv.f915.socio.row:**
 
@@ -466,11 +484,12 @@ recorded per row where a legal vintage exists.
 | FR-176 | odoo | l10n_sv.f14.income.code (code 60) + l10n_sv.f910.row | payroll_class_01_60 | Monthly selection = SV-TAX-FR-106; annual rule FR-180; row 58 aggregate = 06 FR-156; AC-005 |
 | FR-177 | odoo | l10n_sv.f14.income.code (70-72) | no-gravado rows | "(según ley)" laws unpinned (OQ-005); reporting-only (06 FR-156 kin); Quincena-25 class stays in 06 §3.8 (SOQ-09) |
 | FR-178 | odoo | l10n_sv.f07.renta.classification (02-file model) + F-910 read API | R=12 default | Coupling FR: canonical lists/gates = SV-FREP-FR-051/052 (by id); F-910 output backs the R=12 classification; F-11 feed = acquisition candidate (OQ-006); AC-006 |
-| FR-179 | odoo | l10n_sv.f910.report/row | GROUP BY contribuyente × code | Annual sums over 12 monthly F-14 rows (06 FR-170 feed); 6 annual SS columns as printed (no ISSS-IVM); AC-005 |
+| FR-179 | odoo | l10n_sv.f910.report/row | GROUP BY contribuyente × code | Annual sums over 12 monthly F-14 rows (06 FR-170 feed); catalog scope + code 73 (Quincena-25, MH-package authority 2026-01; §C prints the v16 catalog as of the 61_ v9 print — 73 arrives with the v17-era F-14/F-910 revision; F-910 v10 watch kin); 6 annual SS columns as printed (no ISSS-IVM); AC-005 |
 | FR-180 | odoo | l10n_sv.f910.row | payroll_class_01_60 | Verbatim rule: retained ≥1 month → 01; never → 60; AC-005 |
-| FR-181 | odoo | l10n_sv.f910.row | scope | Includes sin-retención (60) + no-gravado (70-72) rows; same catalog (§3.1) for F-14 + F-910; AC-001 |
+| FR-181 | odoo | l10n_sv.f910.row | scope | Includes sin-retención (60) + no-gravado (70-72) rows + code 73 (Quincena-25, MH-package authority 2026-01; §C prints the v16 catalog as of the 61_ v9 print — 73 arrives with the v17-era F-14/F-910 revision; F-910 v10 watch kin); same catalog (§3.1) for F-14 + F-910; AC-001 |
 | FR-182 | odoo | l10n_sv.f910.report | folio_modifica | Clean-and-replace by parity with 06 FR-164 |
 | FR-183 | odoo | l10n_sv.f910.report (read/export surface) | CT 123 exposure | The CT 123 electronic surface (records taxation 04-OQ-007 answer — in-file note §3.3); due-February wiring = 08 file (SOQ-08); 04-OQ-006 kin |
+| FR-212 | odoo | l10n_sv.f910.row (code_73_auto) + l10n_sv.f14.income.code (73) | NO GRAVADOS surface | Code 73 auto-assigned at presentation from the FR-211 upload (fed by SV-PAY-FR-142); NO-GRAVADO total — no R=12 coupling, never in retained-tax totals (FR-178 exclusion); catalog row dated 2026-01 (f17_kin; v17 apéndice inclusion OQ-008); AC-010 |
 | FR-184 | odoo | l10n_sv.f915.report | mode + acta | DISTRIBUYÓ/CAPITALIZÓ checkboxes; acta fecha/número; folio-modifica; v4 vintage (FR-194) |
 | FR-185 | odoo | l10n_sv.f915.socio.row | quality_transition triple | antes/durante/perdió × cantidad/utilidades/valor-contable + TOTAL; AC-007 |
 | FR-186 | odoo | l10n_sv.f915.socio.row | §C per-socio rows | No-Domiciliado flag + NIT; code-44 kin; AC-007 |
@@ -496,7 +515,9 @@ SOQ-08).
 
 - **AC-001:** Given the catalog seed, then `f14_income_codes.csv`
   loads exactly 48 codes — 23 acreditable, 21 definitiva, 1
-  sin-retención (60), 3 no-gravado (70/71/72) — each with class, tab,
+  sin-retención (60), 3 no-gravado (70/71/72) — PLUS the dated
+  2026-01 code-73 row (Quincena-25, f17_kin vintage — FR-212; 49 rows
+  total), each with class, tab,
   row/casilla zone and CT-anchor columns populated (unpinned anchors
   flagged, not blank), and the F-910 §C consumes the SAME code list
   as the F-14 apéndice (codes 43 and 60 resolve identically on both
@@ -566,6 +587,10 @@ SOQ-08).
   file) — and a folio_modifica amendment of an F-910 rebuilds the
   whole ejercicio from the corrected F-14 rows without merging prior
   output (FR-194, FR-182).
+- **AC-010:** Given the Task-4 fixture (10 subjects, US$5,000.00
+  presented in January 2027), then the F-910 §C renders a code-73 row
+  NO GRAVADOS with US$5,000.00, zero retained tax, and the R=12
+  surface is untouched (FR-212).
 
 ## 7. Open Questions
 
@@ -578,3 +603,4 @@ SOQ-08).
 | OQ-005 | "(Según ley)" anchors (codes 70-72) and unpinned codes (49/84 investor remunerations; 19/20/26/42/48 matrix-zone codes): the specific laws behind the no-gravado classes and the per-code CT articles for the matrix-zone codes are not pinned in the corpus — catalog rows carry "unpinned"/"matrix zone" anchors; pin during the CT matrix re-check pass without inventing article text. | no | Takumi S3 (CT matrix re-check) | open |
 | OQ-006 | F-11 rentas matrix acquisition (coupling counterpart): FR-178 states the F-14/F-910 → F-11 feed at coupling level per the R/S code lists, but NO F-11 form or manual is in the corpus (the F12 calendar lists F-11 among the April annuals) — acquisition candidate; the coupling FR stays at the classification-source level until the F-11 layout lands. | no | Takumi S3 (sources registry) | open |
 | OQ-007 | Index-task wiring (tracking row, not a doubt): the in-file notes of §3.3/§3.4 record (a) the ANSWER to taxation/04 §7 OQ-007 / MOQ-10 (ISR electronic-reporting surface = F-910) and the kin answer for taxation/05 OQ-006, and (b) the PARTIAL answer to taxation/05 §7 OQ-002 (F-915 = published format; norms resolution absent) — the index task (taxation/00_index.md + fiscal-reporting/00_index.md) must wire these cross-references. | no | Takumi S3 (index task) | open |
+| OQ-008 | Code 73 in the F-14 apéndice v17 unverified — no v17 manual exists (SOQ-09 doc-completeness residue): the W11 package pins code 73's F-910 side (67_ §3.f + 68_ p.16, EVID-238) but no v17 apéndice print is in the corpus, so the catalog carries 73 as a dated 2026-01 f17_kin row on MH-package authority; re-check at the v17 manual / F-910 v10 acquisition (≥71 watch; OQ-004 kin). | no | Takumi S6 (sources registry) | open |
