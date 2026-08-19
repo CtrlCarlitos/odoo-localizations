@@ -228,8 +228,12 @@ survive). Update it at every session boundary.
 4. **Synthesis prep after W3/W4:** create `hn/.extractions/00_MASTER_INDEX.md`
    (SV-style; gitignore exception already in place), roll OQ families into
    MOQ/SOQ-style registers, then plan S-waves per the SV subagent pattern.
-5. **Merge to main at milestone:** owner decision; rebase-then-merge; never
-   force-push (root HANDOVER country model).
+5. **Merge to main:** at session close per the standard session-close &
+   merge protocol (root HANDOVER §4.6) — owner's closing prompt ("So `Read
+   hn/HANDOVER.md and continue.`? Want to merge before we nuke this
+   session?") → close out (HANDOVER refresh, commit, push) → on nuke:
+   review branch tail (`git log main..hn-research`), rebase onto main tip
+   (picks up procedure changes), merge to main, never force-push.
 
 Session state at stop (2026-08-20, W2 close): evidence COMPLETE through
 EVID-185 (~160 open OQs); corpus 103 files; W2a+W2b committed; next wave
