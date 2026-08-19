@@ -173,3 +173,16 @@ synthesized with these as flagged open questions and back-filled later.
    EXTRACTION_PLAN exists).
 5. W6 partner follow-up when TotalDoc access exists (API manuals, sandbox,
    OQ3 question).
+
+## 10. Owner notes (2026-08-19, session close)
+
+- **Owner will handle the `gt-research` → `main` merge personally** — next
+  controller does NOT merge; verify branch state only.
+- **NEXT SESSION PRIORITY (owner directive): uniform shared rules for all 3
+  countries (SV/GT/HN).** D13 was written cross-country for exactly this;
+  the convergence work is: audit D1–D13 + the shared/docs set for
+  country-specific assumptions, generalize where GT/HN facts demand it
+  (e.g. D7–D12 were decided SV-first; D13 already neutral), and reconcile
+  any variant texts the SV/HN sessions wrote in parallel (SV was told the
+  same dated-mechanics concern — converge on one D13 text). Coordinate via
+  root HANDOVER.md since three sessions touch shared docs now.
