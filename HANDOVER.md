@@ -60,9 +60,19 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
   evidence EVID-186..214, D-H1 inputs evidence-complete) then
   fast-forward-merged; remote branch ref updated via delete + re-push. HN =
   taxation + fiscal-reporting + facturación evidence complete; next W4
-  payroll. Main ahead of sv-research (`01f04c9`) and gt-research
-  (`2ad364e`) — those merge at their own milestones. This HANDOVER update
-  commits on main directly (integration branch).
+  payroll. **GT wave-1..3 merge 2026-08-20 (§4.6 protocol, second run):**
+  `gt-research` rebased onto `de420c2` (6 commits rewritten:
+  `ae78891` convergence residue + `4249ea5` EXTRACTION_PLAN Stage 0 +
+  `00830f1` W-GT1 FEL stack EVID-001..160 + `8f5fbaf` W-GT2 taxation core
+  EVID-161..265 + `12faa93` W-GT3 payroll EVID-266..370 + `58055c2`
+  HANDOVER addenda; one HANDOVER conflict resolved — GT state paragraph vs
+  main's HN-paragraph restructure) then fast-forward-merged; remote ref
+  updated via delete + re-push. GT = EXTRACTION_PLAN approved + W-GT1/W-GT2/
+  W-GT3 evidence complete (14 files, EVID-001..370; Reglas = v2.0;
+  OQ5/OQ6/OQ13 resolved, OQ12 disproven, OQ17 resolved-as-myth, OQ11 open;
+  see `gt/HANDOVER.md` §5a-5c); next W-GT4 fiscal reporting. Main ahead of
+  sv-research (`01f04c9`) — merges at its own milestone. This HANDOVER
+  update commits on main directly (integration branch).
 
 ### El Salvador — sources & evidence state
 - **EVID corpus 001..274** (gaps 109-127, 240 reserved-unused). W13 files (2026-08-19):

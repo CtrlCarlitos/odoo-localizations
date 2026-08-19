@@ -350,8 +350,11 @@ synthesized with these as flagged open questions and back-filled later.
 ## 10. Owner notes (2026-08-19, session close; updated same day by the
 convergence session; updated again at W-GT1 close)
 
-- **Owner will handle the `gt-research` → `main` merge personally** — next
-  controller does NOT merge; verify branch state only.
+- ~~Owner will handle the `gt-research` → `main` merge personally~~
+  **SUPERSEDED by root HANDOVER §4.6** (standard session-close & merge
+  protocol, 2026-08-19): at session close the controller drives the
+  rebase-then-merge + §3 merge record. GT waves 1-3 merged to main
+  2026-08-20 under §4.6.
 - ~~NEXT SESSION PRIORITY: uniform shared rules for all 3 countries~~
   **EXECUTED on main 2026-08-19**; residue closed by the GT convergence
   session (see above). Remaining convergence surface: keep country
