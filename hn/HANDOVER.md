@@ -1,9 +1,9 @@
 # HANDOVER — Honduras Session State & Continuation Guide
 
 **For the next HN controller session.** Written 2026-08-20 after evidence
-wave W1e. Read this fully before acting; it is the authoritative HN
-cross-session memory (conversation context does not survive). Update it at
-every session boundary.
+wave W1e, updated same day after W1f (taxation core CLOSED). Read this fully
+before acting; it is the authoritative HN cross-session memory (conversation
+context does not survive). Update it at every session boundary.
 
 **Bootstrap prompt for a fresh session:** `Read hn/HANDOVER.md and continue.`
 
@@ -25,8 +25,8 @@ every session boundary.
 ## 2. Read order for a new session
 
 1. THIS file
-2. `hn/EXTRACTION_PLAN.md` — wave log (W1a..W1e DONE), reading order, risks,
-   **Decisions (D-H1 binding)**
+2. `hn/EXTRACTION_PLAN.md` — wave log (W1a..W1f DONE — taxation core
+   COMPLETE), reading order, risks, **Decisions (D-H1 binding)**
 3. `hn/RESEARCH.md` — research dossier: sites, fetch recipes (§6), hint
    layer w/ corpus verification (§7), open leads (§5, retry round 3 results)
 4. `hn/sources/README.md` — registry, 92 files (01-92, no gaps), full
@@ -34,8 +34,9 @@ every session boundary.
 5. Evidence files in `hn/.extractions/*.evidence.md` (committed):
    `01_` (ISR, EVID-001..015), `02_` (ISV, 016..026), `03_` (CT, 027..038),
    `04-21-22_` (D.17-2010 family, 039..053), `07-12+11_` (tables+plantilla,
-   054..056). **EVID numbering is corpus-global, next = 057. OQs are
-   per-file (OQ-1..n at file end); 22 open.**
+   054..056), `05+23+79+80_` (taxation closers, 057..071). **EVID numbering
+   is corpus-global, next = 072. OQs are per-file (OQ-1..n at file end);
+   27 open.**
 
 ## 3. State: corpus (research phase COMPLETE)
 
@@ -93,6 +94,23 @@ every session boundary.
   (establecimiento→`stock.warehouse`, punto de emisión→child emission point,
   doc type→`l10n_latam.document.type`); emission point NOT on journal;
   user↔emission-point matrix = operational FR only (non-statutory).
+- **W1f (taxation closers):** `05_` = devolución 8% ISV tarjetas (status OQ),
+  OTCD complement ORIGIN (current text = 02_ Art. 8), **E-Arts 5/10 VOID
+  (sentencia RI-0763-2011, 25-mar-2021 — never feed)**, ganancias de capital
+  10% mechanics (per-transaction 10 días hábiles + Apr-30 annual +
+  non-resident real-estate 4% buyer retention + reorg exception), exonerations
+  personalísimas/in-kind-only + SEFIN single-document, RIT D.37-84 reformed
+  text (suspension + per-import guarantees + 5-year machinery gate + 100%
+  multa), no-simultaneidad, sacrificio-fiscal declaration, general retention
+  entero monthly 10 días calendario; `23_` = Art. 206 CT void since
+  22-feb-2022 (rubrica; SCO-800-2017; erga omnes) — 5/10/20% litigation
+  guarantee never implement; `79_` = 65+ L80k deduction + ≤L350k gross
+  exemption de pleno derecho (birthday-year rule; intereses/ganancias carved
+  out of test base); `80_` = 22-A transition (FY2018/19 L300M/L600M bands →
+  FY2020+ L1B/1.0%/0.5% sectors) + SEFIN-exception procedure + D.105/199-2011
+  contributions permanent (= the financial-transactions contribution excepted
+  in 05_ Art. 35). **Registry glosses for 05_/79_/80_ corrected (content ≠
+  gloss — 4th incident after SV 29_/09_/15_; rows amended).**
 
 ## 5. Gotchas & verified lessons
 
@@ -111,30 +129,33 @@ every session boundary.
 - `11_` plantilla formulas read fine via openpyxl (not protected).
 - IHSS site needs full browser UA. Bing/DDG useless for .hn; navigate
   catalogs directly.
+- **Registry glosses can mislead (W1f):** 05_/79_/80_ glosses misdescribed
+  content (05_ "impuesto mínimo/solidario" was flat wrong — content has
+  neither). Page-1 verify checks the document, not the gloss; the end-to-end
+  read is the authority. Glosses corrected in-place 2026-08-20.
 
 ## 6. Next actions (ordered)
 
-1. **W1f (close taxation core):** `05_` Eficiencia evidence (extracted,
-   unread) + quick reads `23_/79_/80_` (extracted). EVID continues at 057.
-2. **Lead-dig round 4:** Reglamento Ley ISR (plantilla cites Art. 51;
-   catalog grep only found Acuerdo 464-1990 `92_`-candidate — verify),
-   Acuerdo STSS-308-2022 (trabajo.gob.hn), D. 199-2006 + D. 194-2002
-   (pre-ENAG-window; catalog/mirrors), STSS reglamentos app
-   (`aplicaciones.trabajo.gob.hn/reglamentos/` — Reglamento CT / vales).
-   Also: selectivo current values acuerdos (172-2022/014-2023/218-2024),
-   DEI-9382-J-2003, Ley RAP 107-2013, Código de Comercio (all logged in
-   RESEARCH §5).
-3. **W2 fiscal reporting:** `13-20_` procedures + 42 Ayudas batched by
-   family. OCR not needed (text layers fine).
-4. **W3 facturación/e-invoicing:** full `24_` read + `76-78_`; D-H1 design
-   inputs → FRs (CAI ledger, expiry/overlap/exhaustion guards, sequence
-   key).
-5. **W4 payroll:** `86_` CT (verify vintage vs `85_` derogations),
-   bienio tables, IHSS/RAP architecture, D. 47-2024 OCR rates page.
-6. **Merge coordination** (user call): review `hn-research` → merge to
-   `main`; AT MERGE update root `HANDOVER.md` §"GT / HN" (stale: says
-   "scaffolded only") and fold HN rulings into its register per repo
-   convention.
+1. **Lead-dig round 4:** Reglamento Ley ISR (plantilla cites Art. 51;
+    catalog grep only found Acuerdo 464-1990 `92_`-candidate — verify),
+    Acuerdo STSS-308-2022 (trabajo.gob.hn), D. 199-2006 + D. 194-2002
+    (pre-ENAG-window; catalog/mirrors), STSS reglamentos app
+    (`aplicaciones.trabajo.gob.hn/reglamentos/` — Reglamento CT / vales),
+    **W1f additions (RESEARCH §5 item 12): D. 31-2019, Instructivo 461-2020,
+    D. 194-2002 original, 8%-devolution reglamento**; plus selectivo current
+    values acuerdos (172-2022/014-2023/218-2024), DEI-9382-J-2003, Ley RAP
+    107-2013, Código de Comercio (all logged in RESEARCH §5).
+2. **W2 fiscal reporting:** `13-20_` procedures + 42 Ayudas batched by
+    family. OCR not needed (text layers fine).
+3. **W3 facturación/e-invoicing:** full `24_` read + `76-78_`; D-H1 design
+    inputs → FRs (CAI ledger, expiry/overlap/exhaustion guards, sequence
+    key).
+4. **W4 payroll:** `86_` CT (verify vintage vs `85_` derogations),
+    bienio tables, IHSS/RAP architecture, D. 47-2024 OCR rates page.
+5. **Merge coordination** (user call): review `hn-research` → merge to
+    `main`; AT MERGE update root `HANDOVER.md` §"GT / HN" (stale: says
+    "scaffolded only") and fold HN rulings into its register per repo
+    convention.
 
 ## 7. Conventions (mirroring SV)
 

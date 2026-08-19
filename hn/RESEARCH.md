@@ -200,6 +200,16 @@ artifacts + found the La Gaceta archive:**
     includes public-sector/teachers (INPREMA downloads JS-driven).
 11. **Reglamento del Código de Trabajo / STSS resolutions** — STSS down
     (both dig rounds); Gaceta route at payroll wave.
+12. **(W1f additions, 2026-08-20)** — taxation-side authority-chain gaps:
+    **D. 31-2019** (second 22-A reform — the 01_ ISR consolidation's footnote
+    lists it; what it changed vs D. 31-2018 is unverified), **Instructivo
+    Acuerdo 461-2020** (operative SEFIN procedure for 22-A exception
+    petitions), **D. 199-2006 Ley del Adulto Mayor** (L30k@60 deduction —
+    plantilla cites; pre-ENAG-window → catalog/mirrors), **D. 194-2002**
+    original (Ley Equilibrio Financiero — 79_ prints only its reformed
+    Art. 14), **DEI reglamento of the 8% card devolution** (05_ Art. 3;
+    status post-2013-suspension unknown — verify SAR devolution pages).
+    All low-priority SAR-catalog/Gaceta fetches.
 
 ## 6. Fetch recipes (verified this pass)
 

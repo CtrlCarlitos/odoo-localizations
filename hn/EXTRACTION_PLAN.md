@@ -1,7 +1,9 @@
 # Honduras — Requirements Extraction Plan
 
 Execution plan per [shared/docs/requirements-extraction-procedure.md](../shared/docs/requirements-extraction-procedure.md).
-Started 2026-08-19 (source-research pass complete). Status: active — **evidence wave W1 in progress**.
+Started 2026-08-19 (source-research pass complete). Status: active — **evidence
+wave W1 COMPLETE 2026-08-20 (W1a-W1f; taxation core EVID-001..071); next W2
+(fiscal reporting), preceded by lead-dig round 4**.
 
 ## Wave log
 
@@ -39,9 +41,25 @@ Started 2026-08-19 (source-research pass complete). Status: active — **evidenc
   ÷months prorate; 10×SMM excess-only caps (13th/14th); vacaciones 360-day
   divisor; DMR/código-111 export contract. New leads: Reglamento Ley ISR
   (Art. 51), STSS-308-2022, D.199-2006, D.194-2002.
-- **W1f (NEXT):** Ley Eficiencia `05_` (20pp, extracted) + remaining
-  taxation-core reads (`23_` sentencia detail, `79_/80_` reforms already
-  extracted). Then W2: fiscal-reporting procedures (14-20_ + Ayudas).
+- **W1f (2026-08-20, DONE):** taxation-core closers `05_` + `23_` + `79_` +
+  `80_` (EVID-057..071, 5 OQs). Key: **05_ registry gloss was WRONG** (content
+  ≠ impuesto mínimo/solidario — those = 22-A/51-2003 families; row + plan
+  inventory amended): 05_ = devolución 8% ISV tarjetas (status OQ), OTCD
+  complement origin (current text in 02_), **Arts. 5/10 VOID (RI-0763-2021)**,
+  ganancias de capital 10% mechanics (per-transaction 10 días hábiles, Apr-30
+  annual, non-resident real-estate 4% buyer retention, reorg exception),
+  exonerations personalísimas/in-kind-only + SEFIN single-document, **RIT
+  D.37-84 reformed text (suspension + guarantees + 5-year gate)**, no-simultaneidad,
+  sacrificio-fiscal declaration, **general retention entero 10 días calendario
+  anchor**; 23_ = Art. 206 CT void detail (5/10/20% litigation guarantee, void
+  since 22-feb-2022 rubrica, erga omnes); 79_ = 65+ L80k deduction + ≤L350k
+  exemption de pleno derecho (plantilla stack sources); 80_ = 22-A transition
+  instrument (L300M/L600M→L1B) + D.105/199-2011 permanent (financial-transactions
+  contribution = 05_ Art. 35 exception). **Taxation-core evidence COMPLETE**
+  (EVID-001..071); new acquisition leads: D. 31-2019, Instructivo 461-2020,
+  D. 199-2006/D. 194-2002 originals.
+- **W2 (NEXT):** fiscal-reporting procedures `13-20_` + 42 Ayudas batched by
+  family. Before that: lead-dig round 4 (RESEARCH §5).
 
 ## Context
 
@@ -58,7 +76,7 @@ Started 2026-08-19 (source-research pass complete). Status: active — **evidenc
 | 1 | `01_Ley_ISR` (D.L. 25 cons. SAR-07-2025, 50 pp) | ISR: rentas, deducciones, tasas 25/30%, retenciones (Arts. 20-23), 22-A asalariados, ganancias de capital (23-24), renta extranjera | Art. 1-9 concepts → taxation; Art. 10-18 deducciones → taxation; Art. 20-31 retenciones/pagos a cuenta → taxation + payroll; anexos → taxation | taxation, fiscal-reporting |
 | 2 | `07/08/09/10/12` (tabla series + plantilla 11) | Asalariados progressive scale vintages FY2022-2026 (IPC-indexed from 2023) | each as data; 11_ formulas = computation semantics | taxation, payroll |
 | 3 | `04/21/22/80` (D. 17-2010 + Reglamento + interp + 22-A reform) | Renta de capital 10%, retención 1% anticipo, impuesto neto base | whole each | taxation |
-| 4 | `05_Ley_Eficiencia` (D. 113-2011 cons.) | Impuesto mínimo (1.5% activo neto), 5% solidario, pagos a cuenta | whole | taxation |
+| 4 | `05_Ley_Eficiencia` (D. 113-2011 cons. Jan-2022) | Devolución 8% ISV tarjetas + OTCD complement origin; ganancias de capital 10% mechanics; exonerations discipline; RIT D. 37-84 reformed text; general retention entero anchor (gloss corrected W1f — NOT impuesto mínimo/solidario) | whole | taxation, special-regimes |
 | 5 | `02_Ley_ISV` (D.L. 24 cons. D.L. 59-2022) | ISV 15%, base, exenciones Art. 15, débito/crédito, retenciones Art. 8 | Art. 1-8 core → taxation; Art. 15 exemptions → taxation; regimen simplificado → taxation | taxation, fiscal-reporting |
 | 6 | `03_Codigo_Tributario` (D. 170-2016 act. 2020) + `23_sentencia` | RTN, obligaciones, declaraciones, prescripción, sanciones, deberes formales; Art. 206 VOID | libros/deberes → all; sanciones → taxation; RTN → all | all |
 | 7 | `24/25/26/76/77/78` facturación stack + `18_compras_eventuales` | Régimen de facturación: documentos fiscales, CAI/rangos/vigencia, imprentas, autoimpresores (máquinas registradoras + sistemas computarizados specs), **Sistema de Emisión Electrónica + CAEE (Arts. 50-58)**, authorization procedure (Art. 59-61), compras eventuales | `24_` whole: T. I-II defs + documentos → T. IV medios (imprenta/autoimpresor/SEE) → T. V autorización → T. VI imprentas registro | e-invoicing |
