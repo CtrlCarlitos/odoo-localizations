@@ -273,6 +273,41 @@ Period already filed → original slip immutable + **delta/refund slip in the
 correction period computed with the ORIGINAL-period parameters** (D9/§3.11
 mirror; SS declaration corrections follow the same split).
 
+||||||| parent of 8304e06 (shared D13: date-driven compliance mechanics (approved); gt spec D-GT10 instantiates it; handover cross-refs)
+### D13 — Date-driven compliance mechanics (cross-country; proposed GT 2026-08-19, approved by product owner same day)
+
+Taxes, e-invoicing, filings, and payroll all carry dated applicability
+(vigencia). Odoo mechanics — binding for every country's synthesis (GT
+D-GT10 instantiates this; SV/HN files reference it at their next touch):
+
+1. **Dated rule rows.** Every externally-sourced normative datum — tax
+   rates, retention tables/percentages, salario mínimo / wage tables, social
+   security cuotas, ISR brackets, FEL/DTE Reglas-XSD-catalog versions, form
+   validities — is stored with `valid_from` (required), `valid_to`
+   (nullable), and instrument provenance. Rate changes ADD rows; they never
+   mutate history. Extraction sidecars carry these columns from day one.
+2. **Rule selection key.** The document's fecha de emisión (payslip período;
+   declaration periodo) selects the in-force rule set ("rules at date D"
+   lookup), at posting AND at recomputation (corrections use the origin
+   period's rules where the law says so).
+3. **E-invoicing: emission = certification timestamp.** No past-dated
+   transmission (the DTE's legal timestamp is the certification moment).
+   Drafts dated ≠ today are BLOCKED from transmission with guidance to the
+   corrective path (current-dated NC/ND referencing the original, or
+   anulación within its window). History reconstruction (migration, paper
+   era) = accounting-only entries under a historical/non-transmittable
+   document class — never a DTE.
+4. **Payroll: fully retro-capable.** The payslip period selects wage floor,
+   cuotas, retention tables, statutory-benefit parameters. Retroactive runs
+   recompute with the ORIGINAL period's rates; corrections post in the
+   current period.
+5. **Filings: period rules + freeze-at-filing** (extends D9): a declaration
+   for period P uses P's forms and windows; rectificativas file from the
+   frozen snapshot plus adjustment moves.
+6. **Backdating UX.** Past date → period rules auto-selected;
+   transmission-required actions blocked with explanation; accounting-only
+   actions allowed with historical rates and an immutable audit note.
+
 ## Q → D mapping
 
 | Question | Decision |
@@ -285,3 +320,5 @@ mirror; SS declaration corrections follow the same split).
 | Q6 maintenance model | D11 |
 | Q7 this repo | D12 |
 | Applicability windows (session 2026-08-19) | D15 |
+||||||| parent of 8304e06 (shared D13: date-driven compliance mechanics (approved); gt spec D-GT10 instantiates it; handover cross-refs)
+| Date-driven compliance (dated rates/forms/regimes, retro payroll, no past-dated transmission) | D13 |

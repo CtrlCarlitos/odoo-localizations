@@ -91,9 +91,14 @@ vintage FEL docs). Reform chains are recorded in SOURCE_RESEARCH.md.
   derogated).
 - **D-GT8/D-GT9/D-GT10 bind synthesis**: `l10n_latam_invoice_document`
   (one journal, multi document types); sucursales/warehouses/cash-registers
-  → FEL establishment/dispositivo codes; **dated-instrument regime**
-  (valid_from/valid_to everywhere; fecha-emisión-driven rule selection;
-  inherits SV D7–D12 — read `shared/docs/regulatory-change-management.md`).
+  → FEL establishment/dispositivo codes; **dated-instrument regime** —
+  D-GT10 now instantiates **shared D13** (`shared/docs/regulatory-change-
+  management.md`, approved 2026-08-19): dated rule rows (valid_from/to +
+  provenance; changes add rows), fecha-emisión rule selection, no past-dated
+  transmission (certification timestamp; historical = non-transmittable
+  accounting class), retro payroll with original-period rates, freeze-at-
+  filing, backdating UX. SV/HN files reference D13 at their next touch —
+  if the SV session wrote a variant, converge on the D13 text.
 
 ## 6. Access realities & gotchas (verified)
 
