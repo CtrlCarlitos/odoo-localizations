@@ -367,3 +367,14 @@ convergence session; updated again at W-GT1 close)
   Reglas v2.0 naming ruling: cite as "Reglas v2.0 (19/12/2024, vigencia
   abril 2025)" — never "v1.7.10" (stale footer). D-GT9 dispositivo
   refinement recorded (§5a) — flag to product owner at S-GT1 synthesis.
+- **W-GT2/W-GT3 session addenda (same day, same session)**: the
+  subagent-per-reading-unit + controller spot-check pattern held for 3
+  waves (14 evidence files, EVID-001..370, no collisions; gaps 077-080,
+  326-330). Working conventions: agents get EVID ranges pre-assigned per
+  wave (W-GT2: 161-265; W-GT3: 266-370; next wave starts at EVID-371);
+  agents read a committed evidence file as the format template (context
+  saver); controller verifies 3-5 load-bearing quotes per wave by grep
+  before commit. Registry title corrections are batched into the wave
+  commit. **Next wave (W-GT4) note: 48_/49_/50_ are HTML snapshots +
+  64_/65_ are scans — Stage 1 needs the HTML text dump + OCR; calendario
+  JSF transcription still rides any wave (owner browser).**
