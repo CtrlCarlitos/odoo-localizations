@@ -20,7 +20,7 @@ watch item, not a current scope change.
 | Topic | Directory | Status |
 |-------|-----------|--------|
 | E-invoicing (paper-regime digital administration) | [requirements/e-invoicing/](requirements/e-invoicing/) | Not started |
-| Taxation | [requirements/taxation/](requirements/taxation/) | Not started |
+| Taxation | [requirements/taxation/](requirements/taxation/) | In progress (evidence W1a/W1b done; CT next) |
 | Chart of accounts | [requirements/chart-of-accounts/](requirements/chart-of-accounts/) | Not started |
 | Payroll | [requirements/payroll/](requirements/payroll/) | Not started |
 | Fiscal reporting | [requirements/fiscal-reporting/](requirements/fiscal-reporting/) | Not started |

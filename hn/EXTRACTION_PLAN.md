@@ -1,7 +1,26 @@
 # Honduras — Requirements Extraction Plan
 
 Execution plan per [shared/docs/requirements-extraction-procedure.md](../shared/docs/requirements-extraction-procedure.md).
-Started 2026-08-19 (source-research pass complete). Status: active.
+Started 2026-08-19 (source-research pass complete). Status: active — **evidence wave W1 in progress**.
+
+## Wave log
+
+- **W1a (2026-08-19, DONE):** Ley ISR `01_` evidence (EVID-001..015, 6 OQs).
+  Key: PJ 25% / PN IPC-indexed progressive (FY2026 table = `07_` +4.98%);
+  22-A gross-minimum regime; dividends 10% w/ 100-day deemed-anticipo;
+  12.5% services retention w/ composite L257,493.16 gate; NOL 3y/50%/sector;
+  **13th AND 14th month each exempt ≤10 SMM promedio (Art. 10.h)**.
+- **W1b (2026-08-19, DONE):** Ley ISV `02_` evidence (EVID-016..026, 4 OQs).
+  Key: 15%/18%/0 rate matrix; ISV-in-price for final consumers; OTCD card
+  10%-of-tax retention + 15% no-discrimination fallback; débito/crédito with
+  4-month credit window + pro-rata; L250k simplified regime; Anexo I
+  SAC-coded canasta; invoice-date-first taxable event.
+- **W1c (NEXT):** Código Tributario `03_` (242 pp — book-by-book units: RTN/
+  deberes/books/declarations/prescripción/sanciones; Art. 206 VOID per `23_`;
+  post-2020 delta = `89_` D.117-2021). Then D.17-2010 family (`04_/21_/22_`),
+  Eficiencia `05_`, tabla series (`07_-12_` + plantilla formulas).
+- Text extractions done for: 01/02/03/05/23/79/80/89. Pending: 04, 21 (OCR),
+  87 (OCR), tables 07-12 (text+image tables), rest at their wave.
 
 ## Context
 
