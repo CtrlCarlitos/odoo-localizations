@@ -1,4 +1,4 @@
-# SV — Payroll — ISR interfaces: retention-base input contract, F-14/F-910/F-11 value feeds, voluntary pension savings and the Quincena-25 pointer
+# SV — Payroll — ISR interfaces: retention-base input contract, F-14/F-910/F-11 value feeds, voluntary pension savings and the Quincena-25 income treatment
 
 | Field   | Value |
 |---------|-------|
@@ -39,10 +39,11 @@ Pensiones (D.L. 614) Art. 138 — the ≤10% IBC deductibility of employer
 and employee *ahorro previsional voluntario* (voluntary pension
 savings), tax-free transfers, the <5-year withdrawal *renta gravable*
 reversal flag and the non-affiliated variant; and the Quincena-25
-pointer — BLOCKED: the Ley Especial Quincena Veinticinco (D.L. 499,
-D.O. 14-ene-2026) is not in the corpus, so this file carries only the
-form-surface pointer to F-14 v17 casillas 417/418 (by FREP FR id) and
-NO payroll income-treatment FRs.
+income treatment (P10 — law acquired as 66_, D.L. 499, D.O. N° 8
+T.450 14-ene-2026): the renta-no-gravada/no-retention/no-cotización
+classification and the per-worker ledger + 417/418 aggregate feeds
+into the F-14 v17 January annex (SV-FREP-FR-209..211) and the F-910
+code-73 surface (SV-FREP-FR-212).
 
 It does **not** cover: the retention computation itself — base formula,
 tables, June/December *recálculo* (recalculation), aguinaldo split,
@@ -89,9 +90,12 @@ re-derivation). The SMM feed is `02_minimum-wage.md`'s sidecar
 | LB-006 | Formulario F-11 v18, p.2 pago-mínimo block: "DETERMINACIÓN DE LA BASE IMPONIBLE DEL ACTIVO NETO PARA CALCULAR EL IMPUESTO DEL PAGO MINIMO (Dec. Nº 762/2015)" casillas 630-646 and "Impuesto por Pago Mínimo (Casilla No 646 * 1%) 647" — PRINTED BUT DEAD (R21: sent. 18-2012/98-2014; D.L. 762-2014 void per sent. 96-2014); casilla 717's label cites "Ley SAP Art. 22 Inc. 2º" — a DEROGATED law (D.L. 927-1996 repealed by D.L. 614 per R24; live rule = D.L. 614 Art. 138) | F-11 print-vs-law defects: the pago-mínimo block 630-648 (and its liquidation consumers 314/647/648) is never fed; the 717 label's SAP citation is stale — never encode from the form label alone | `sv/sources/65_F11_v18_form_visual.pdf` | p.2 blocks (EVID-210; R21/R24) |
 | LB-007 | Manual F-14 v16 §2, Anexo (Retenciones) payroll columns: G MONTO DEVENGADO / H BONIFICACIONES Y GRATIFICACIONES / I IMPUESTO RETENIDO / J AGUINALDO EXENTO / K AGUINALDO GRAVADO / L AFP / M ISSS / N INPEP / O IPSFA / P CEFAFA / Q BIENESTAR MAGISTERIAL / R ISSS IVM / W PERÍODO MMYYYY, with the plantilla note "Para código de ingreso 01, 60 y 80: incluir AFP y Cotizaciones Sociales si aplican, No Incluir Aguinaldos, Bonificaciones y Gratificaciones" — the VALUE-FEED surface this file produces into; the column MODEL and validations are OWNED by `fiscal-reporting/06_f14-declaration.md` (SV-FREP-FR-143..150) | F-14 v16 annex payroll zone: the G devengado / H bonuses split, I retained tax, J-K aguinaldo pair, the seven SS columns L-R and period W — payroll produces the values; the collection-side column semantics, caps mirror and export validations are file 06's by FR id | `sv/sources/35_F14_v16_manual.pdf` | §2 annex column table + plantilla note (EVID-180; via fiscal-reporting/06 LB-001/LB-002) |
 | LB-008 | Formulario F-910 v9 §C, estructura de filas "CÓDIGO INGRESO / MONTO DEVENGADO / MONTO DEVENGADO ANUAL POR BONIFICACIONES Y GRATIFICACIONES / IMPUESTO RETENIDO / Aguinaldo (Aplica solo para código 01 y 60) Exento Gravado / ISSS ANUAL / AFP ANUAL / IPSFA ANUAL / CEFAFA ANUAL / INPEP ANUAL / BIENESTAR MAGISTERIAL ANUAL"; regla de nómina: "1. En el código 01, si se le retuvo en al menos un mes del ejercicio fiscal. 2. En el código 60, si no se le retuvo en todo el ejercicio fiscal" — the annual consolidation SURFACE; the inform mechanics are OWNED by `fiscal-reporting/07_codes-and-informs.md` (SV-FREP-FR-179..183) | F-910 v9 §C: per-contribuyente annual rows = income code + accrued + annual bonuses + retained tax + the aguinaldo pair (codes 01/60 only) + SIX annual SS columns (ISSS, AFP, IPSFA, CEFAFA, INPEP, BIENESTAR MAGISTERIAL — no ISSS-IVM annual column); payroll rule: code 01 if retained in at least one month, code 60 if never retained | `sv/sources/61_F910v9_informe_anual_retenciones.pdf` | §A-§C (EVID-187; via fiscal-reporting/07 LB-003) |
-| LB-009 | Formulario F-14 v17: section "INGRESOS NO GRAVADOS LEY ESPECIAL QUINCENA VEINTICINCO" inserted after row 58 — row 61 *Ingresos No Gravados Pagados por el Agente de Retención Quincena 25*, casilla 417 (número de sujetos) and casilla 418 (monto) — the ONLY known surface of the Ley Especial Quincena Veinticinco (D.L. 499, D.O. 14-ene-2026 vol. 31679 — NOT in corpus, P10 BLOCKED; acquisition queued as source 66) | F-14 v17 casillas 417/418: subject count and amount of Quincena-25 no-gravado payments — the form-level pointer this file cites by FREP FR id; no payroll income-treatment FR exists until the law is acquired | `sv/sources/59_F14_v17_form_visual.pdf` | v17 vs v16 diff, row 61 / casillas 417-418 (EVID-184) |
+| LB-009 | Formulario F-14 v17: section "INGRESOS NO GRAVADOS LEY ESPECIAL QUINCENA VEINTICINCO" inserted after row 58 — row 61 *Ingresos No Gravados Pagados por el Agente de Retención Quincena 25*, casilla 417 (número de sujetos) and casilla 418 (monto) — the declaration surface of the Ley Especial Quincena Veinticinco (D.L. 499, D.O. 14-ene-2026 vol. 31679 — **acquired 2026-08-18 as `66_`** (official DGII copy `700-DGII-LY-2025-008` via transparenciafiscal; D.O. `/seleccion` outage workaround); current authority for the Quincena-25) | F-14 v17 casillas 417/418: subject count and amount of Quincena-25 no-gravado payments — the form-level pointer this file cites by FREP FR id; the law is in corpus as `66_` and the payroll income treatment lands as FR-137/142/143 below | `sv/sources/59_F14_v17_form_visual.pdf` | v17 vs v16 diff, row 61 / casillas 417-418 (EVID-184) |
 | LB-010 | D.E. 10-2025, Art. 1 d) — interface anchor only: retention base considers only remuneraciones gravadas, determined by deducting from TOTAL period remunerations the remuneraciones no gravadas and the cotizaciones laborales a la Seguridad Social; cotizaciones previsionales to the AFPs and public pension institutes are comprised within the no-gravadas concept — the base FORMULA is OWNED by `taxation/04_isr-withholding.md` SV-TAX-FR-104 and consumed by reference; this file states only the payroll-side input contract | Retention-base interface: worker SS/pension cotizaciones excluded from the gravadas base — payroll supplies the stamped aggregates; the computation is taxation's by FR id, never restated | `sv/sources/53_Tablas_Retencion_ISR_DE10_2025.pdf` | Art. 1 d) p.3 (EVID-156; via taxation/04 LB-008 / SV-TAX-FR-104) |
 | LB-011 | Ley ISR, Art. 4 num. 16 + D.E. 10-2025, Arts. 1 f)/g) — interface anchors only: the aguinaldo exento/gravado split, retention vintages and recálculo aggregation are OWNED by `taxation/04_isr-withholding.md` (SV-TAX-FR-120 split; SV-TAX-FR-116 aggregation; SV-TAX-FR-110/111 recálculo) with the gross-prima supply OWNED by `04_statutory-benefits.md` (SV-PAY-FR-060/061/062) — consumed by reference into this file's F-14 J-K feed | Aguinaldo interface by reference: the split computation is taxation's and the gross prima file 04's; this file wires only the J-K declared values | `sv/sources/54_Ley_ISR_consolidada_DO79_T447_2025-04-30.pdf` + `sv/sources/53_Tablas_Retencion_ISR_DE10_2025.pdf` | Art. 4.16 p.7 (EVID-165); Arts. 1 f)/g) (EVID-158/159; via taxation/04 and payroll/04 by FR id) |
+| LB-012 | Ley Especial Quincena Veinticinco (D.L. 499), Art. 4: "se declara como rentas no gravables, y en consecuencia excluidos del cómputo de la renta obtenida, el monto que reciban los trabajadores en concepto de Quincena Veinticinco. Asimismo, estos ingresos... no estarán afectos a la Retención del Impuesto sobre la Renta, y gozarán del beneficio de la inembargablilidad [sic]. Para efectos tributarios, los montos pagados en concepto de Quincena Veinticinco constituliran [sic] gasto deducible para el patrono, siempre que hayan sido efectivamente pagados y debidamente documentados, conforme a lo dispuesto en la Ley de Impuesto sobre la Renta." | Quincena-25 fiscal treatment (worker side): amounts received as Quincena Veinticinco are declared rentas no gravables and excluded from the computation of renta obtenida; not subject to ISR Retention; unseizable (inembargabilidad); (employer side) amounts paid are a deductible employer expense provided they were effectively paid and duly documented per the Ley ISR | `sv/sources/66_Ley_Quincena25_DL499.pdf` | Art. 4 p.4 (EVID-237) |
+| LB-013 | Ley Especial Quincena Veinticinco (D.L. 499), Art. 1 (payment invariants): "debe ser pagado de forma integra [sic] y sin ningún descuento a los sujetos beneficiados, independiente del salario ordinario, aguinaldo, compensación adicional en efectivo y de otras prestaciones laborales... y no formará parte de la base de cálculo de otras prestaciones, por lo que no sera [sic] objeto de ninguna clase de retención. Consecuentemente, el ingreso complementario Quincena Veinticinco... en ningún caso deberá ser objeto de retención ni descuento alguno por concepto de aportes u otras obligaciones de Seguridad Social o del Régimen Previsional." | The benefit must be paid in full and without any deduction, independent of ordinary salary, aguinaldo, cash compensación adicional and other labor benefits; it does not form part of the calculation base of other benefits, hence is not subject to any kind of retention; in no case may it be subject to retention or deduction for contributions or other Social Security or Pension-Regime obligations | `sv/sources/66_Ley_Quincena25_DL499.pdf` | Art. 1 p.2 (EVID-236) |
+| LB-014 | Guía de Orientación Quincena Veinticinco (67_), §3.f: "En el Informe Anual de Retenciones (F-910), el monto pagado en concepto de Quincena Veinticinco, se verá reflejado en la columna de NO GRAVADOS, el cual se identificará de conformidad al Código 73 Ingresos No Gravados Pagados Quincena Veinticinco, generado de forma automática... de acuerdo a los datos cargados en anexo... (F-14)"; §3.g: renta-en-línea shows it as an ingreso no gravado (Anexo 6 rentas-no-gravadas row gains "Quincena Veinticinco" — *casilla 724 operative, 734 = guía typo [sic] (in-file resolution, evidence OQ-3)*); Anexo 3: "El anexo de planilla Quincena Veinticinco, solo podrá ser informado en el mes de enero de cada ejercicio fiscal" | Reporting chain: the F-910 NO GRAVADOS column auto-populates with Código 73 "Ingresos No Gravados Pagados Quincena Veinticinco" from the F-14 annex data; the employee's renta-en-línea shows it as an ingreso no gravado (casilla 724); the planilla annex is January-only per ejercicio fiscal | `sv/sources/67_Guia_Orientacion_Quincena25.pdf` | §§3.f/3.g + Anexos 3/6 (EVID-238) |
 
 Dead text and print-vs-law rulings (LB notes, tested where an FR says
 so): the F-11 pago-mínimo block casillas 630-648 and its liquidation
@@ -107,6 +111,16 @@ list (EVID-089) does NOT expressly name SS cotizaciones or pension-fund
 rendimientos — D.L. 614 Art. 26 is the operative declaration making
 them rentas no gravadas (LB-001), consistent with, not contrary to, the
 Ley ISR; both layers classify them no-gravadas and no conflict exists.
+F-11 version discovery (67_ Anexos 1/8, EVID-238): the 65_ F-11 v18
+print is SUPERSEDED AS CURRENT PRINT by v19 — a new casilla 319
+"Crédito Tributario Quincena Veinticinco" inside the IMPUESTO
+DETERMINADO subtraction (the casilla-330 formula includes 319) — and
+the v19 print STILL prints the dead pago-mínimo rows (R21 extends to
+v19: never feed, kin of LB-006); v20 ("Versión 20 — Declaración de
+Impuesto sobre la Renta para Sujetos con Régimen Especial", renamed,
+Certificado de Crédito Tributario anexo) covers special-regime
+subjects; both prints are acquisition candidates (numbering ≥71 —
+OQ-004 sharpened, stays open).
 
 Version regime (D12): no dated VALUES are owned by this file — the SS
 cap values re-date through `05_social-security-contributions.md`'s
@@ -114,9 +128,14 @@ cap values re-date through `05_social-security-contributions.md`'s
 acquisition per its SV-PAY-FR-084); the SMM feed belongs to
 `02_minimum-wage.md`; the form vintages consumed (F-11 v18 page date
 27-02-2025 — 65_ OQ-2 watch; F-910 v9; F-14 v16 annex + v17 form gate
-per SV-FREP-FR-165) are owned by the fiscal-reporting files. The
-Quincena-25 surface is version-gated from period 2026-06 by
-SV-FREP-FR-165 (cited, never restated).
+per SV-FREP-FR-165) are owned by the fiscal-reporting files. The 65_
+F-11 v18 print is superseded as current print by v19 (casilla 319
+Quincena credit; still prints the dead pago-mínimo rows — R21
+extends) and v20 (special-regime subjects) — acquisition candidates
+≥71 (OQ-004 sharpened, stays open). The Quincena-25 surface is
+version-gated from period 2026-06 by
+SV-FREP-FR-165 (cited, never restated); the January-annex reporting
+window is SV-FREP-FR-210's (cited, never restated).
 
 ## 3. Functional Requirements
 
@@ -332,23 +351,37 @@ SV-FREP-FR-165 (cited, never restated).
   annual declaration input — provenance recorded, no default invented
   (OQ-003). (LB-002; EVID-199)
 
-### 3.7 Quincena Veinticinco pointer (P10 — BLOCKED)
+### 3.7 Quincena Veinticinco income treatment and feeds (P10 — 66_ acquired)
 
-- **SV-PAY-FR-137:** The system shall implement NO payroll
-  income-treatment rules for the Ley Especial Quincena Veinticinco
-  (D.L. 499, D.O. 14-ene-2026, volume Id 31679 — NOT in the corpus;
-  acquisition queued as source 66, OQ-002): the ONLY known surface is
-  the F-14 v17 section "INGRESOS NO GRAVADOS LEY ESPECIAL QUINCENA
-  VEINTICINCO" casillas 417 (número de sujetos) / 418 (monto) —
-  consumed by reference from `fiscal-reporting/06_f14-declaration.md`
-  SV-FREP-FR-165 (layout gate from period 2026-06) and SV-FREP-FR-166
-  (the reporting-only projection with its FR-167 annex-format working
-  assumption) — and until the law is acquired NO quincena-25 earning
-  category, payslip line, F-14 value-record field or ledger
-  classification shall exist (absent law ⇒ absent rows everywhere; the
-  payment mechanics stay with that future acquisition, never invented
-  here). (LB-009; EVID-184; cross-ref SV-FREP-FR-165, SV-FREP-FR-166,
-  SV-FREP-FR-167)
+- **SV-PAY-FR-137:** The system shall classify every Quincena-25
+  payment as *renta no gravada* per D.L. 499 Art. 4 (the special-law
+  declaration prevailing per its Art. 8; `taxation/01` SV-TAX-FR-173
+  owns the ISR-side rule — cited by id): stamped no_gravada by the
+  matrix (FR-004 row), EXCLUDED from the retention base and from the
+  June/December recálculo aggregation (never in the SV-TAX-FR-104
+  inputs of FR-121), generating NO ISR retention line, NO worker
+  SS/pension cotización (out of IBC per `05` and FR-141) and NO entry
+  in any benefit base — replacing this file's former absence invariant
+  (the law was acquired as 66_ on 2026-08-18; the invariant is
+  withdrawn). (LB-012 Art. 4; LB-013 Art. 1; EVID-236/237; cross-ref
+  SV-TAX-FR-173, SV-PAY-FR-121, SV-PAY-FR-141)
+- **SV-PAY-FR-142:** The system shall maintain, per worker and
+  ejercicio, the Quincena-25 ledger record carrying EXACTLY the seven
+  annex fields of the F-14 v17 January annex (consumed by
+  SV-FREP-FR-209): A *apellidos y nombres* (≤100 chars, uppercase, no
+  commas/quotes) · B *NIT* (≤14 digits, no hyphens/plecas) XOR C *DUI*
+  (≤9 digits) · D *fecha de pago* dd/mm/aaaa · E *salario nominal*
+  (4 enteros + 2 decimales, no thousands separator) · F *quincena
+  veinticinco* amount (3+2) · G *período* mmaaaa — the payroll-owned
+  value source; amounts from FR-138; the XOR rule validated
+  payroll-side before export. (EVID-239; cross-ref SV-FREP-FR-209)
+- **SV-PAY-FR-143:** The system shall produce the declaration
+  aggregates consumed by SV-FREP-FR-166: casilla **417** = count of
+  workers paid and casilla **418** = total amount, per declaración
+  period — reporting-only, never in retention arithmetic
+  (SV-FREP-FR-166's isolation by id); reporting window January-only
+  per SV-FREP-FR-210. (EVID-238; cross-ref SV-FREP-FR-166,
+  SV-FREP-FR-210)
 
 ## 4. Data Model
 
@@ -378,6 +411,18 @@ property.
 | l10n_sv.pay.f11.deduction | casilla_721 | monetary(2dp) | patronal ISSS quota paid for a domestic worker (natural-person employer) | FR-130 |
 | l10n_sv.pay.f11.deduction | casilla_717 · casilla_734_components | monetary(2dp) | deductible voluntary quota (≤ FR-133 cap; live rule Art. 138, never the SAP label) + non-deductible excess into the 734 no-gravadas value | FR-131, FR-122 |
 | l10n_sv.pay.f11.deduction | casilla_722 | pointer (char) | fixed pointer `taxation/04 SV-TAX-FR-103` — no payroll value; dead cells 630-648 carry no field at all (R21 guard) | FR-132 |
+
+**Quincena-25 per-worker ledger (per worker-ejercicio)** — fields
+string-typed to mirror the export contract (SV-FREP-FR-209 truncation
+discipline):
+
+| Entity | Field | Type | Catalog / values | Reference |
+|--------|-------|------|------------------|-----------|
+| l10n_sv.pay.quincena.feed (new) | a_apellidos_nombres | char(100) | A *apellidos y nombres*: uppercase, no commas/quotes (≤100 chars) | FR-142 |
+| l10n_sv.pay.quincena.feed | b_nit XOR c_dui | char(14)/char(9) | B *NIT* ≤14 digits no hyphens/plecas XOR C *DUI* ≤9 digits — XOR validated payroll-side before export | FR-142 |
+| l10n_sv.pay.quincena.feed | d_fecha_pago | date-format char | D *fecha de pago* dd/mm/aaaa | FR-142 |
+| l10n_sv.pay.quincena.feed | e_salario_nominal · f_quincena_veinticinco | monetary-string | E *salario nominal* 4 enteros + 2 decimales, no thousands separator; F *quincena veinticinco* 3+2 — amounts from FR-138 | FR-142 |
+| l10n_sv.pay.quincena.feed | g_periodo · ejercicio | char(6)/char(4) | G *período* mmaaaa; ejercicio = the annual grouping key of FR-143's aggregates | FR-142, FR-143 |
 
 **Voluntary pension savings ledger:**
 
@@ -423,7 +468,9 @@ required beyond the dated-data regime noted in §2.
 | FR-134 | odoo | l10n_sv.pay.voluntary.savings | transfer_tax_free | Ledger stamp only |
 | FR-135 | odoo | l10n_sv.pay.voluntary.withdrawal | before_5y reversal flag | Withdrawal year renta gravable IF deducted; per-contribution clock |
 | FR-136 | odoo | config (worker-side) | non-affiliated cap | 10% × prior-year declared renta; adjacent config, input provenance (OQ-003) |
-| FR-137 | odoo | none (absence invariant) | no quincena-25 surface | D.L. 499 NOT in corpus (source 66 queued); only pointers SV-FREP-FR-165/166 by id; absent law ⇒ absent rows |
+| FR-137 | odoo | l10n_sv.pay.quincena feed stamps | renta no gravada; no retention/cotización/base entry | 66_ Art. 4 declaration + Art. 1 invariants (LB-012/013; EVID-236/237); ISR rule = SV-TAX-FR-173 by id; never in the SV-TAX-FR-104 inputs; former absence invariant withdrawn (law acquired as 66_) |
+| FR-142 | odoo | l10n_sv.pay.quincena.feed | seven annex fields A..G + ejercicio | string-typed export contract (SV-FREP-FR-209 truncation discipline); XOR NIT/DUI validated payroll-side; amounts from FR-138 |
+| FR-143 | odoo | l10n_sv.pay.quincena.feed aggregate | casillas 417/418 | count of workers paid + total amount per declaración period; consumed by SV-FREP-FR-166 (isolation by id); January-only window per SV-FREP-FR-210 |
 
 Version-regime notes (D12): no dated values live in this file. The SS
 cap values consumed re-seed through `ss_contributions.csv`
@@ -431,7 +478,9 @@ cap values consumed re-seed through `ss_contributions.csv`
 v16/v17 and F-11 v18/F-910 v9 vintages are owned by the
 fiscal-reporting files (65_ OQ-2 watch for an F-11 v19 — this file's
 OQ-003 kin); the Quincena-25 gate date (2026-06) is cited from
-SV-FREP-FR-165 and never restated as local configuration.
+SV-FREP-FR-165 and the January-annex engine, code-73 auto-population
+and renta-en-línea feed from SV-FREP-FR-209..212 (all cited by id,
+never restated as local configuration).
 
 ## 6. Acceptance Criteria
 
@@ -514,22 +563,28 @@ SV-FREP-FR-165 and never restated as local configuration.
   renta imponible in the prior ejercicio, then the adjacent cap input =
   US$3,000.00 (10%) with provenance recorded — no employer computation
   attaches (FR-136).
-- **AC-015:** Given ANY period (including ≥ 2026-06), then no
-  quincena-25 earning category, payslip line, f14.feed field or ledger
-  classification exists — the only quincena-25 surface is the by-id
-  pointer to SV-FREP-FR-165/166 (casillas 417/418), and absent law ⇒
-  absent rows (FR-137).
+- **AC-015:** Given a January-2027 payroll with Quincena payments to 10
+  workers totalling US$5,000.00 (all gates passed), then each payment
+  line stamps no_gravada with no retention line and no IBC/base
+  effect, and the ledger yields 10 feed records + aggregates 417=10 /
+  418=5,000.00 consumed by SV-FREP-FR-166/209 — the by-id pointers
+  replace the former absence invariant (FR-137, FR-142, FR-143).
 - **AC-016:** Given the F-11 value export, then casillas 630-648 carry
   NO value under any configuration (dead pago-mínimo block, R21) and
   casilla 722 resolves through the SV-TAX-FR-103 pointer with no
   payroll-side computation — a deliberately-fed 630-648 value raises a
   blocking validation (FR-132).
+- **AC-017:** Given a worker with NIT 22222222222222 and DUI both
+  present, the feed record fails payroll-side validation (XOR) and is
+  not exported; given name "Prueba Persona", the export field renders
+  `PRUEBA PERSONA` uppercase with the amount `250.00` and período
+  `012027` — mirroring the 70_ example-row contract (FR-142).
 
 ## 7. Open Questions
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
 | OQ-001 | F-14 quartet stamped values for SALARIED rows: the S/T/U/V code lists are printed for the F-07 purchases annex (LB-003 of `03_f07-annexes-purchases.md`) and mirrored onto the F-14 annex; which exact codes apply to payroll code-01/60 rows (Q=1 gravada for retained rows? T=7 mano de obra?) is label-inference only (kin of 02-file OQ-003). FR-127 ships the stamped values as configuration with the documented default set; MH guidance or a plantilla example pins it. | no | Takumi S4 (MH guidance watch) | open |
-| OQ-002 | Ley Especial Quincena Veinticinco (D.L. 499, D.O. 14-ene-2026 vol. 31679) NOT in corpus — D.O. /seleccion route down at acquisition time 2026-08-18; law-firm mirrors not registrable. BLOCKS all payroll income-treatment FRs (FR-137's absence invariant stands; kin of SOQ-09); acquisition queued as source 66. When acquired: earning category, retention/no-gravada classification and the 417/418 ledger feed land here + `fiscal-reporting/06` FR-167's annex-format assumption resolves. | yes (Quincena-25 features only) | Takumi S4 (sources watch — source 66) | open |
+| OQ-002 | Ley Especial Quincena Veinticinco (D.L. 499, D.O. 14-ene-2026 vol. 31679) NOT in corpus — D.O. /seleccion route down at acquisition time 2026-08-18; law-firm mirrors not registrable. BLOCKS all payroll income-treatment FRs (FR-137's absence invariant stands; kin of SOQ-09); acquisition queued as source 66. When acquired: earning category, retention/no-gravada classification and the 417/418 ledger feed land here + `fiscal-reporting/06` FR-167's annex-format assumption resolves. **RESOLVED 2026-08-18 (acquisition): the law was acquired as `66_` (official DGII copy `700-DGII-LY-2025-008` via transparenciafiscal — D.O. `/seleccion` outage workaround; EVID-236..239); FR-137 rewritten + FR-142/143 landed (this wave); the `fiscal-reporting/06` OQ kin resolves through SV-FREP-FR-209..211.** | no (was yes — Quincena-25 features only; resolved) | Takumi S6 (acquisition) | resolved (acquisition) |
 | OQ-003 | Non-affiliated voluntary-savings cap input: Art. 138's "renta imponible declarada en el ejercicio fiscal inmediato anterior" is the worker's OWN prior-year declared renta — employer/payroll has no source record; FR-136 ships it as a worker-supplied input with provenance; confirm acceptance of worker-declared provenance (and any DGII cross-check surface) at implementation. | no | Takumi S4 | open |
-| OQ-004 | F-11 v18 currency (65_ OQ-2 kin): page footer stamp 27-02-2025 with no later "Actualizado"; v18 assumed current (MH page checked 2026-08-18). A v19 would renumber/move casillas 711-725/734 — the FR-130..132 feed keys are casilla-numbered and re-verify on any F-11 revision (watch with the fiscal-reporting F-11-side acquisition). | no | Takumi S4 (sources watch) | open |
+| OQ-004 | F-11 v18 currency (65_ OQ-2 kin): page footer stamp 27-02-2025 with no later "Actualizado"; v18 assumed current (MH page checked 2026-08-18). **SHARPENED 2026-08-18 (67_ Anexos 1/8, EVID-238): v19 and v20 CONFIRMED to exist — v19 adds casilla 319 "Crédito Tributario Quincena Veinticinco" (IMPUESTO DETERMINADO subtraction; the casilla-330 formula includes 319) and STILL prints the dead pago-mínimo rows (R21 extends to v19 — never feed); v20 = special-regime subjects ("Versión 20 — Declaración de Impuesto sobre la Renta para Sujetos con Régimen Especial", renamed, Certificado de Crédito Tributario anexo); the 65_ v18 print is superseded as current print.** The FR-130..132 feed keys are casilla-numbered (713-725/734) and re-verify on acquisition of the v19/v20 prints (numbering ≥71; watch with the fiscal-reporting F-11-side acquisition). | no | Takumi S6 (sources watch — numbering ≥71) | open |
