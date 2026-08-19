@@ -51,8 +51,12 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
 - Commits through `53edd55` (2026-08-19 6th session, multi-part: D15 as-of
   doctrine `cc7a307` → W13 evidence pass `94b4142` → GT/HN merges + D16
   unification `5eb6d6b` → universalization + D17 + roadmap `b67dfa0` →
-  D18 `4cd719a` → D19 + go-live-readiness.md `53edd55`; all pushed; all
-  four refs — main, sv-research, gt-research, hn-research — aligned).
+  D18 `4cd719a` → D19 + go-live-readiness.md `53edd55`; all pushed). **HN
+  wave-2 merge 2026-08-20:** `hn-research` fast-forward-merged (`7fdacba` +
+  `92f35dd`, W1+W2 evidence EVID-001..185); main ahead of sv-research
+  (`01f04c9`) and gt-research (`2ad364e`) — those merge at their own
+  milestones. This HANDOVER update commits on main directly (integration
+  branch).
 
 ### El Salvador — sources & evidence state
 - **EVID corpus 001..274** (gaps 109-127, 240 reserved-unused). W13 files (2026-08-19):
@@ -565,15 +569,26 @@ D-GT10 / HN D-H2/D-H3 stay in their country docs.
   Bootstrap per the GT/HN pattern: country dir scaffold + research spec in
   `docs/superpowers/specs/` + own HANDOVER + worktree.
 
-**State at merge:** GT = source-research phase COMPLETE (66 files + 2
+**State at merge (2026-08-19):** GT = source-research phase COMPLETE (66 files + 2
 schema dirs; FEL stack, payroll, ZF/maquila, AML D-15-2026; decisions
 D-GT1..10; queue rev 5 open items in `gt/DOWNLOAD_QUEUE.md`; next = close
 queue → `gt/EXTRACTION_PLAN.md` → W1 evidence). HN = research + taxation
-core COMPLETE (100 registered files, EVID-001..071, 27 OQs open; decisions
-D-H1..D-H3; next per `hn/HANDOVER.md`). Shared docs adopted: D16 canon,
+core COMPLETE (decisions D-H1..D-H3). Shared docs adopted: D16 canon,
 `.gitattributes` byte-fidelity for gt/+hn/ sources (sv/ deliberately
 exempt — predates the rule), `.gitignore` evidence exceptions pattern for
 all countries.
+
+**HN wave-2 merge (2026-08-20, fast-forward):** HN evidence now = taxation
+core + **fiscal reporting COMPLETE** (EVID-001..185, ~160 open OQs; 103
+registered files 01-104 gap 103; decisions D-H1..D-H3 = D16/D18/D17
+instantiations). Round-5 acquisitions: STSS-308-2022 (SMM tables 2022/23),
+Acuerdo 02-95 (14th-month reglamento, D.135-94 Art. 34 origin), D. 103 Ley
+SMM. Key W2 encodings: Form 535 EEFF-prior gate (FY2024+); DJIMR 25-code
+catalog; DMC = form 527, deadline 10d→20d→5d chain; tarjetas 523/215 outside
+DJIMR; AS 5% RNG>L1M + ATN minimum tax (D.51-2003 = top acquisition lead);
+selectivo 203 = separate D.58-1982 tax; 8 title-vs-content incidents total
+(20_/52_ corrected this wave). Next per `hn/HANDOVER.md`: W3 facturación →
+W4 payroll → synthesis (master index + S-waves).
 
 ## 4. How work is done here (process that has proven itself)
 
