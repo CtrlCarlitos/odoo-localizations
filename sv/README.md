@@ -17,7 +17,7 @@ invoicing (facturación electrónica).
 | Payroll | [requirements/payroll/](requirements/payroll/) | In review (draft, S4) |
 | Fiscal reporting | [requirements/fiscal-reporting/](requirements/fiscal-reporting/) | In review (draft, S3) |
 | Commercial & legal | [requirements/commercial-legal/](requirements/commercial-legal/) | In review (draft, S5) |
-| Special regimes | [requirements/special-regimes/](requirements/special-regimes/) | Not started |
+| Special regimes | [requirements/special-regimes/](requirements/special-regimes/) | In review (draft, S7) |
 
 Status values: Not started, In progress, In review, Complete.
 
