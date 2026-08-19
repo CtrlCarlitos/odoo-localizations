@@ -381,7 +381,7 @@ Art. 6; FR-140); both are cited from 66_ (current, effective
   employers, public and private (66_ Art. 1 "a partir del año dos
   mil veintisiete"); the flag is configuration dated by ejercicio
   (l10n_sv.pay.quincena.regime, §4), never a global constant.
-  (LB-028; EVID-236/238)
+  (LB-025; LB-028; EVID-236/238)
 - **SV-PAY-FR-141:** The system shall enforce the Quincena payment
   invariants: the benefit is paid IN FULL — NO ISR retention, NO SS
   or pension cotización, NO deduction or discount of any kind

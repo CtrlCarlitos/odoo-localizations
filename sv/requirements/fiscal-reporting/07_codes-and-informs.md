@@ -174,9 +174,10 @@ Manual/form pages are printed pages.
   entering no retention total (the aguinaldo-exento aggregate shares
   those rows per `06_f14-declaration.md` SV-FREP-FR-156); the specific
   laws behind each "(según ley)" class are NOT in the corpus and stay
-  unpinned (OQ-005), as does the Quincena-25 no-gravado class's
-  future catalog entry (owned by 06 §3.8 — SOQ-09; no code exists for
-  it in the v16 apéndice). (LB-001; LB-002; EVID-182; EVID-183)
+  unpinned (OQ-005); the Quincena-25 no-gravado class = code 73, a
+  dated 2026-01 catalog row on MH-package authority (FR-212;
+  v17-apéndice inclusion unverified — OQ-008). (LB-001; LB-002;
+  EVID-182; EVID-183)
 
 ### 3.2 Cross-tax classification coupling (F-07 R/S pair + F-11 rentas matrix)
 
@@ -482,7 +483,7 @@ recorded per row where a legal vintage exists.
 | FR-174 | odoo | l10n_sv.f14.income.code (code 40) | haven row | CT 158-A rule = SV-TAX-FR-127; exactness = 06 FR-141; haven table = 06 FR-139; this file contributes membership + No-Domiciliados mapping only |
 | FR-175 | odoo | l10n_sv.f14.annex.row builder (code 47) | nit=00000000000000, name=VARIOS | CT Art. 123 Inciso Tercero verbatim; deposit-yield rule = SV-TAX-FR-128; AC-004 |
 | FR-176 | odoo | l10n_sv.f14.income.code (code 60) + l10n_sv.f910.row | payroll_class_01_60 | Monthly selection = SV-TAX-FR-106; annual rule FR-180; row 58 aggregate = 06 FR-156; AC-005 |
-| FR-177 | odoo | l10n_sv.f14.income.code (70-72) | no-gravado rows | "(según ley)" laws unpinned (OQ-005); reporting-only (06 FR-156 kin); Quincena-25 class stays in 06 §3.8 (SOQ-09) |
+| FR-177 | odoo | l10n_sv.f14.income.code (70-72) | no-gravado rows | "(según ley)" laws unpinned (OQ-005); reporting-only (06 FR-156 kin); Quincena-25 class = code 73 dated row (FR-212) |
 | FR-178 | odoo | l10n_sv.f07.renta.classification (02-file model) + F-910 read API | R=12 default | Coupling FR: canonical lists/gates = SV-FREP-FR-051/052 (by id); F-910 output backs the R=12 classification; F-11 feed = acquisition candidate (OQ-006); AC-006 |
 | FR-179 | odoo | l10n_sv.f910.report/row | GROUP BY contribuyente × code | Annual sums over 12 monthly F-14 rows (06 FR-170 feed); catalog scope + code 73 (Quincena-25, MH-package authority 2026-01; §C prints the v16 catalog as of the 61_ v9 print — 73 arrives with the v17-era F-14/F-910 revision; F-910 v10 watch kin); 6 annual SS columns as printed (no ISSS-IVM); AC-005 |
 | FR-180 | odoo | l10n_sv.f910.row | payroll_class_01_60 | Verbatim rule: retained ≥1 month → 01; never → 60; AC-005 |
@@ -505,11 +506,12 @@ recorded per row where a legal vintage exists.
 Version-regime notes (D12): the income-code catalog is a DATED table
 (v16 apéndice, Oct-2025 print — the operative authority for annex
 mechanics per the S3 version regime; re-check against the v17 row set
-and any annex-modification resolutions, OQ-001); the four inform
-layouts are vintage-gated prints (FR-194); the catalog's mapping column
-carries zone-granularity values pending a form-visual per-row pass
-(OQ-002). Filing due days stay unpinned (`08_filing-calendar.md`;
-SOQ-08).
+and any annex-modification resolutions, OQ-001); the code-73 row is a
+dated 2026-01 vintage on MH-package authority, NOT the v16 apéndice
+(FR-212); the four inform layouts are vintage-gated prints (FR-194);
+the catalog's mapping column carries zone-granularity values pending a
+form-visual per-row pass (OQ-002). Filing due days stay unpinned
+(`08_filing-calendar.md`; SOQ-08).
 
 ## 6. Acceptance Criteria
 

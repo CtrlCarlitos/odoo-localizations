@@ -476,8 +476,9 @@ Version-regime notes (D12): no dated values live in this file. The SS
 cap values consumed re-seed through `ss_contributions.csv`
 (`05_social-security-contributions.md` SV-PAY-FR-081/084); the F-14
 v16/v17 and F-11 v18/F-910 v9 vintages are owned by the
-fiscal-reporting files (65_ OQ-2 watch for an F-11 v19 — this file's
-OQ-003 kin); the Quincena-25 gate date (2026-06) is cited from
+fiscal-reporting files (F-11 v19/v20 confirmed to exist — feed keys
+re-verify on acquisition, this file's OQ-004); the Quincena-25 gate
+date (2026-06) is cited from
 SV-FREP-FR-165 and the January-annex engine, code-73 auto-population
 and renta-en-línea feed from SV-FREP-FR-209..212 (all cited by id,
 never restated as local configuration).
