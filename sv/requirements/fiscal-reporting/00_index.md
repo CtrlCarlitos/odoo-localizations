@@ -42,9 +42,9 @@ row 73) is a dated-data sidecar of
 ## Open-questions rollup (ids + titles)
 
 Status legend: `open` unless noted `resolved`. 50 OQs total —
-49 open / 1 resolved (`06` OQ-001 = SOQ-09, resolved W11 + folded S6
-as FR-209..211; `06` OQ-009 carries an in-file `;`-delimiter
-resolution; SOQ-10 is the only ruled S3 question and it is recorded as
+48 open / 2 resolved (`06` OQ-001 = SOQ-09, resolved W11 + folded S6
+as FR-209..211; `06` OQ-009 = `;`-delimiter resolution, resolved
+in-file + live-portal verification rider; SOQ-10 is the only ruled S3 question and it is recorded as
 an LB note — `04` LB-007 — not an OQ).
 
 Master-index SOQ mapping: SOQ-08 = `08` OQ-001 (which owns the `06`
@@ -112,7 +112,7 @@ frequency/applicability).
 - OQ-006 — F-14 export file mechanics untranscribed in 35_; F-07 §II conventions by parity. open
 - OQ-007 — MH country-code + tax-haven list refresh cadence (web-published, undated). open
 - OQ-008 — MH-side validation depth: whether the live portal rejects rows with F ≠ 0.5×E or E > US$1,500.00 — 69_ §H reads structure-and-montos-only, so FR-211 ships the payroll-side cross-check as WARNING-only. open
-- OQ-009 — Live-portal delimiter verification (69_ OQ-2 kin): the semicolon is operative (70_ header + 69_ §3 — LB-012); AC-015 assumes `;`. open (resolved in-file: `;`)
+- OQ-009 — Live-portal delimiter verification (69_ OQ-2 kin): the semicolon is operative (70_ header + 69_ §3 — LB-012); AC-015 assumes `;`. resolved (in-file: `;` — live-portal verification if ever possible)
 
 ### 07_codes-and-informs.md (8)
 
