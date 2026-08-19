@@ -147,10 +147,31 @@ calendario API = `oficinavirtualapipre.sar.gob.hn/api` responds **401**
 (auth-walled — manual SPA capture at evidence); rap.hn's Reglamento-F.pdf
 link is dead (redirects to internal-IP 404).
 
-**Retry round 3 (scheduled): 2026-08-20 — re-probe congresonacional.gob.hn,
-stss.gob.hn, upap.gob.hn, cpmcp.hn, enag.hn (all 000 in rounds 1-2).**
-Round-2.5 (2026-08-19 evening): CT post-2020 gap CLOSED (D. 117-2021
-acquired as `89_`); ISR-table image OCR proven feasible (PSM 4 @400dpi).
+**Retry round 3 (2026-08-20) — RESOLVED the "down sites" as wrong-domain
+artifacts + found the La Gaceta archive:**
+- `congresonacional.gob.hn` / `stss.gob.hn` / `upap.gob.hn` / `cpmcp.hn` /
+  `enag.hn` = **NXDOMAIN** (no DNS delegation; verified against 8.8.8.8 —
+  Honduras-side domain failures, not outages). The REAL live domains:
+  **`congresonacional.hn`** (200; modern site, NO law library),
+  **`www.trabajo.gob.hn`** (STSS — WordPress, posts + tables + reglamentos
+  app), **`enag.gob.hn`** (E.N.A.G. — **Gaceta Digital archive 2015-2026,
+  Joomla/EDocman, direct downloads**).
+- Acquired: `85_` (Gaceta 35,760 full issue via ENAG — D. 93-2021 CT
+  derogations; closes the twice-failed SAR fetch), `90_/91_/92_`
+  (SETRASS-233-2026 salario mínimo bienio **2026-2027** + sector tables +
+  bono educativo table via STSS — **SUPERSEDES the "2024-2025 still current"
+  finding**; the SAR May-2026 "promedio vigente" post was transitional).
+- Still genuinely unlocatable: UPAP (Ley RAP full text), CPMCP (NIF),
+  Código de Comercio (Congreso's modern site has no law library; Wayback
+  captures of congresonacional.hn 2011-2026 contain no Código de Comercio
+  PDFs), DEI-9382-J-2003 (pre-2015, outside the ENAG archive window).
+- ENAG archive route recipe: `/index.php/gaceta-digital/<year>/<mes>` lists
+  issues as `YYYYMMDD - NNNNN` with `/index.php/gaceta-digital/<id>/download`
+  direct PDFs. Covers 2015-2026 — the pin-source for any gazette original in
+  that window (e.g. future salario mínimo/IPC-table publications).
+- STSS reglamentos app: `http://aplicaciones.trabajo.gob.hn/reglamentos/`
+  (not yet crawled — candidate for the Reglamento CT / vales de alimentación
+  at payroll wave).
 
 1. **SEE technical documentation + calendarización** — still publicly absent
    (wp-search "comprobante electrónico"/"documento electrónico fiscal" also
