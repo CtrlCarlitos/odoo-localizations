@@ -533,6 +533,35 @@ v19/v20, no F14 v17 manual); **UIF marco-legal hosts 74_ + "36-Ley-de-
 Simplificacion-Aduanera" — its AML "Reglamento" PDF = D. 2-2000 verbatim
 (duplicate of 17_; new D.L.-426 reglamento still absent — watch continues)**.
 
+### GT / HN
+
+**GT source-research phase COMPLETE 2026-08-18** (branch `gt-research`,
+worktree `.worktrees/gt-research`, NOT yet merged — merge at milestone by
+owner decision; see `docs/superpowers/specs/2026-08-18-gt-source-research-design.md`
+for decisions D-GT1..9). Corpus: 66 files + 2 schema dirs (registry in
+`gt/sources/README.md`; research record `gt/SOURCE_RESEARCH.md` with OQ1-16;
+pending owner-browser items `gt/DOWNLOAD_QUEUE.md` rev 5 — DCA: AG 256-2025
+salario 2026, D-78-89 bono 14, AML D-67-2001?/AG 75-2006?, ZF-successor check,
+post-2018 Ley IVA 27-92 [OQ10], D-6-2021 verify [OQ4]; SAT portal: LET
+IVA-general manual, form instructivos, calendario windows). Key GT facts:
+FEL = SAT XML standard + **certificadores** (18; TotalDoc = GRUPO CDS S.A.
+NIT 107902281, auth expires 02/12/2026); no "Anexo técnico" — equivalents =
+Reglas y validaciones v1.7.10 (Feb-2025) + Doc. Técnico Servicios + 26 XSDs +
+3 JSON catalogs (GitHub channel RATIFIED official, OQ1; cat.desa drift =
+OQ3); ISR today = LAT D-10-2012 (26-92 codification superseded); IVA
+retenciones = Dto 20-2006 + AG 425-2006 (NOT "2-2010" — rejected); ISR anual
+= SAT-1371 (2236 legacy, rejected); IGSS rates live in Res. 08-SGF/2026
+(OQ11); INTECAP = D-17-72; IRTRA = D-15-1928; SAT portal = Cloudflare-blocked
+to bots (acquisition via owner browser + Wayback-with-provenance per OQ2
+rulings); SAT mislabel incidents recorded (639-2011 under 639-2020 id;
+1218-duplicate under 1240 id — real 1240 acquired via digest-verified 2022
+captures). Design notes D-GT8 (`l10n_latam_invoice_document` one journal /
+multi-doc-type) + D-GT9 (sucursales/warehouses/cash registers → FEL
+establishment codes) binding for GT synthesis. **NEXT**: close queue-rev-5
+items → draft `gt/EXTRACTION_PLAN.md` Stage 0 → W1 evidence pass (FEL stack).
+HN: scaffolded only (READMEs, sources/scripts/requirements dirs, no
+e-invoicing), separate session working in `.worktrees/` per main-repo
+convention.
 ### GT / HN — SEPARATE WORKTREES (do not work them here)
 
 **GT and HN run in dedicated git worktrees/branches, NOT in this main
@@ -555,6 +584,12 @@ workspace** (2026-08-18 note):
   their waves close (rebase-then-merge; never force-push).
 - Original scope note stands: GT gets FEL (SAT), HN fiscal reporting only
   (no e-invoicing).
+||||||| parent of cc9e268 (gt milestone bookkeeping: README sources section + HANDOVER GT state (W1-W5 complete))
+
+### GT / HN
+Scaffolded only (READMEs, sources/scripts/requirements dirs, topic sets; hn
+has no e-invoicing). No sources collected yet. GT gets FEL (SAT), HN fiscal
+reporting only. Extractions begin after sv S2 or in parallel by decision.
 
 ## 4. How work is done here (process that has proven itself)
 
