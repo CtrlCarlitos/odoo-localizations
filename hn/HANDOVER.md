@@ -12,7 +12,7 @@ context does not survive). Update it at every session boundary.
 ## 1. Where you are
 
 - **Worktree:** `.worktrees/hn-research`, branch `hn-research` (pushed,
-  through commit `c415630`). The SV session works on `main` concurrently —
+  through commit `f642e15`). The SV session works on `main` concurrently —
   NEVER touch `main`, root `HANDOVER.md`, or `sv/` from this branch; `hn/`
   + `docs/superpowers/specs/` are ours. Merge to `main` only at the
   milestone, coordinated with the user, after the SV session winds down.
