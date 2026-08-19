@@ -210,3 +210,48 @@ top, payroll parallel, facturación standalone):
   - Cross-country propagation (GT/SV): NOT decided here — this session owns
     HN only; raise at merge for the product owner to carry into the other
     countries' plans.
+
+- **D-H2 (2026-08-20, product owner; brainstormed in-session): temporal
+  validity — dated rows + hecho-generador resolution + hard emission gate.**
+  The mechanics Odoo adopts for start/end-dated tax, facturación, and payroll
+  regimes. Binding for ALL HN synthesis; inherits repo-wide D9/D11/D12
+  (freeze-at-filing, additive dated data, supersession-map discipline):
+  1. **Dated rows everywhere.** Every statutory value (ISR PN scale vintages,
+     22-A thresholds, deduction stack, selectivo IPC chain, SMM bienios,
+     SMM-promedio values, IHSS ceilings, RAP/fondo rates, mora/multa bases)
+     ships as data rows with `valid_from`[/`valid_to`], additive-only, never
+     replaced in place (SV CAT-013 lesson). **Resolution date = the hecho
+     generador / period date of the computation** (move date, payslip period,
+     declared period) — never "today". Payroll resolution key = (payslip
+     period, worker attributes): the D.59-2020 65+ carve-outs activate in the
+     worker's birthday year.
+  2. **Emission gate — HARD BLOCK (user decision 2026-08-20; supervisor
+     override explicitly rejected).** A fiscal document cannot be posted
+     unless its date resolves to a CAI range whose vigencia covers it for
+     that (establecimiento, punto de emisión, document type). Backdating
+     works only inside a historically-valid range — this is HN's "cannot
+     emit in the past" rule; there is no transmission regime to gate.
+  3. **Historical reconstruction = flagged read-only imports.** Legacy
+     documents never emit, never count against range consumption or filed
+     reports.
+  4. **Payroll period correctness.** Paid slips frozen; corrections =
+     refund-and-reissue computed with the ORIGINAL period's rows; monthly
+     withholding uses the current-FY table (plantilla contract:
+     annualize → table → ÷ months); the annual declaration uses the declared
+     FY's own table. Annual-table availability gap (SAR publishes the FY
+     table mid-January) = evidence OQ, never a guessed default.
+  5. **Filed-period freeze (D9 kin).** Periods covered by a filed declaration
+     are write-protected; corrections flow via rectificativa from the frozen
+     snapshot, never silent edits.
+  6. **Regime cutovers = dated config rows, not code** (SEE calendarización
+     mandate date per company, amnistía D.7-2026 window, transitory
+     authorizations e.g. Acuerdo 231-2020). `valid_from` = the instrument's
+     vigencia date, which may be retroactive to publication (D. 59-2020 and
+     the SETRASS-233-2026 bienio are the live examples — pin vigencia vs
+     publication dates at evidence); `valid_to` backfilled only when a
+     successor instrument arrives.
+  Cross-country note: the SV session is deciding the same question in
+  parallel (user relayed the identical prompt 2026-08-20). Mechanics are
+  expected identical where surfaces overlap (dated rows, freeze,
+  period-parameters); HN-specific = the CAI emission gate + SEE mandate
+  rows. Reconcile wording at merge.
