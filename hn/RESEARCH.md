@@ -218,6 +218,25 @@ lead list + dead ends:**
   D. 354-2013 Ley Empleo por Hora, D. 43-97 Bono Educativo + Acuerdo
   154-2000 reglamento, Acuerdo Tripartito 2014-2016, Ley MIPYME D. 135-2008.
 
+**W3 lead harvest (2026-08-20, from the facturación wave):**
+- **Acuerdo 462-2014** — Reglamento de la Ley de Ordenamiento de las Finanzas
+  Públicas, Control de las Exoneraciones y Medidas Antievasión (its Art. 20
+  repealed by 26_ Art. 2). Pairs with 05_ exonerations discipline; the
+  exonerations-side reglamento. SAR-catalog candidate.
+- **Acuerdo 424-2018** — ITA for ISV Art. 15.a (imports exonerations; its
+  Art. 2.3 repealed by 26_ Art. 2). SAR-catalog candidate.
+- **Acuerdo 058-2014** — 189-2014's own reforma (repealed together with it by
+  481-2017 Art. 78). Historical-completeness only, low priority.
+- **SAR-924 / SAR-926 / SAR-927 form prints** (print-authorization imprenta /
+  inscription DJ / print-authorization autoimpresor — surfaced by 78_/76_);
+  acquire only if synthesis needs field-level fidelity.
+- **Open questions that may need instruments:** post-2017 status of the
+  Comprobante de Compras Eventuales + its document code (OQ-2 in
+  `24-26+76-78_facturacion.evidence.md` — code-10 collision with Prevalorada;
+  a post-2017 SAR instrument would resolve); any SEFIN acuerdo modifying the
+  L10,000 consumer-final ID threshold (24_ Art. 11); SEE calendarización /
+  technical docs (lead 1, unchanged).
+
 **W2 lead harvest (2026-08-20, from the W2a/W2b evidence passes — instruments
 cited by corpus documents but absent; logged per evidence-file OQs):**
 - **Ley de Equidad Tributaria D. 51-2003** — the activo-neto (1%)/aportación

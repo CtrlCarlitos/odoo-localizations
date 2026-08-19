@@ -1,10 +1,11 @@
 # HANDOVER — Honduras Session State & Continuation Guide
 
 **For the next HN controller session.** Written 2026-08-20 after W1 ( taxation
-core), updated same day after round-4/D-H2/D-H3 + the merge, and again after
-the W2 fiscal-reporting wave (this refresh). Read this fully before acting; it
-is the authoritative HN cross-session memory (conversation context does not
-survive). Update it at every session boundary.
+core), updated same day after round-4/D-H2/D-H3 + the merge, the W2
+fiscal-reporting wave, and again after the W3 facturación wave (this refresh).
+Read this fully before acting; it is the authoritative HN cross-session
+memory (conversation context does not survive). Update it at every session
+boundary.
 
 **Bootstrap prompt for a fresh session:** `Read hn/HANDOVER.md and continue.`
 
@@ -29,11 +30,12 @@ survive). Update it at every session boundary.
 ## 2. Read order for a new session
 
 1. THIS file
-2. `hn/EXTRACTION_PLAN.md` — wave log (W1a-W1f taxation + **W2a/W2b fiscal
-   reporting DONE** — EVID-001..185), reading order, risks, **Decisions
-   (D-H1/D-H2/D-H3 binding; D-H2/D-H3 now also D16/D18 instantiations)**
+2. `hn/EXTRACTION_PLAN.md` — wave log (W1a-W1f taxation + W2a/W2b fiscal
+   reporting + **W3 facturación DONE** — EVID-001..214), reading order, risks,
+   **Decisions (D-H1/D-H2/D-H3 binding; D-H2/D-H3 now also D16/D18
+   instantiations)**
 3. `hn/RESEARCH.md` — research dossier: sites, fetch recipes (§6), hint
-   layer w/ corpus verification (§7), open leads (§5, incl. W2 lead harvest)
+   layer w/ corpus verification (§7), open leads (§5, incl. W2+W3 harvests)
 4. `hn/sources/README.md` — registry, 103 files (01-104, 103 reserved-unused),
    full provenance + mislabel-correction notes (8 incidents to date)
 5. Evidence files in `hn/.extractions/*.evidence.md` (committed): `01_`
@@ -46,9 +48,10 @@ survive). Update it at every session boundary.
    `43-45+69+70+72+73_ISV.evidence.md` (136..150),
    `50-55_selectivo.evidence.md` (151..158),
    `56-62_contribuciones.evidence.md` (163..173),
-   `63-67_informativas.evidence.md` (175..185). **EVID numbering is
-   corpus-global, next = 186. OQs are per-file/per-doc at evidence-file end
-   (~160 open).**
+   `63-67_informativas.evidence.md` (175..185),
+   `24-26+76-78_facturacion.evidence.md` (W3, 186..214). **EVID numbering is
+   corpus-global, next = 215. OQs are per-file/per-doc at evidence-file end
+   (~170 open).**
 
 ## 3. State: corpus (research phase COMPLETE)
 
@@ -157,6 +160,38 @@ survive). Update it at every session boundary.
   aggregates per contract (hire-date depth for fondo/cesantía/vacaciones,
   FY-start depth for ISR/13th/14th), no payslips; stock/banks = opening
   balances only.
+- **W3 facturación (do not re-derive):** the D-H1 FR cluster is
+  evidence-complete. 16-digit correlativo = establecimiento(3, matriz=000) +
+  punto de emisión(3) + tipo(2) + consecutivo(8, **wraps 99999999**); codes
+  01/03(Ticket; machine prefix 09)/04/05/06/07/08/10(Prevalorada)/11/12,
+  **02 unassigned**; **code-10 collision: DEI-279-2015 "10 = Compras
+  Eventuales" (that 2016 instrument INTRODUCED the 16-digit grammar) vs
+  481-2017 "10 = Prevalorada" — compras-eventuales post-repeal status =
+  OQ-2, never implement 10 as both**; 189-2014 = 14-digit grammar (codes
+  01-07, Boleta de Venta 02 + Recibo Alquiler 03 abolished 2017) → dual
+  historical parser; CAI ledger contract (Arts. 59-63): authorization per
+  punto × doc type, ONE active rango until exhaustion, renewal T-2mo,
+  vigencia ≤1y (2y pre-2017), comportamiento-tributario limit/cancel;
+  rango lifecycle = Pendiente de Aceptación→Solicitada→**Activada**
+  (consumption starts at activación; SAR-924/926/927); emission gate inputs
+  = momento-de-emisión earliest-of rules (Art. 14) + vigencia/fecha límite;
+  two-layer print contract (pre-printed CAI/fecha límite/rango/exonerado
+  block vs emission-time fields); L50 consumer-final end-of-day
+  consolidation (imprenta modality only); L10,000 ID threshold
+  (SEFIN-modifiable, dated row); boleta de compra 5%-of-opex +
+  per-provider ISR-exempt-base caps, no crédito fiscal; NC/ND origin triple
+  (CAI+número+fecha) mandatory; guía de remisión 12-motivo + SAR copy +
+  comprobante-substitution; retención comprobante at hecho generador (OTCD
+  monthly 10 días hábiles; patronos unless requested); no-utilizados 12
+  causes/10 días hábiles (auto-feeds expiry monitor); topologies
+  centralizado/regional/por-sucursal (centralizado = one correlativo over
+  many establecimientos — reconcile with D-H1 key); SEE/CAEE = a MEDIUM of
+  autoimpresor (def. 22), Art. 57 gradual mandate per calendarización,
+  technical docs still unpublished (lead 1 — SEE FRs blocked); contingencias
+  = imprenta preprinted stock; helps' Base-Legal sections carry copy-paste
+  defects — cite the reglamento, never the helps. New leads: 462-2014
+  (exonerations reglamento), 424-2018 (ITA ISV 15.a) — both via 26_ Arts.
+  2-3 (non-facturación content in that file).
 - **W1f (taxation closers):** `05_` = devolución 8% ISV tarjetas (status OQ),
   OTCD complement ORIGIN (current text = 02_ Art. 8), **E-Arts 5/10 VOID
   (sentencia RI-0763-2011, 25-mar-2021 — never feed)**, ganancias de capital
@@ -204,40 +239,36 @@ survive). Update it at every session boundary.
 
 ## 6. Next actions (ordered)
 
-1. **W3 facturación/e-invoicing (NEXT):** full `24_` (Acuerdo 481-2017
-   consolidado) read + `25_` (189-2014 hist) + `26_` (817-2018) + `76-78_`
-   workflow helps; fold in W2a hooks (type-10 compras eventuales + 189-2014
-   Arts. 10.f/21.7/69; D-H1 sequence key). D-H1 design inputs → FRs (CAI
-   ledger, expiry/overlap/exhaustion guards, sequence key, emission-point
-   model). OCR check first (04_/21_ were scanned; 24_ text layer believed OK
-   — verify at extraction).
-2. **W4 payroll:** `86_` CT (verify vintage vs `85_` derogations), bienio
-   tables, IHSS/RAP architecture, D. 47-2024 OCR rates page; **NEW W2-round
-   acquisitions ready: `101_` STSS-308-2022 (SMM 2022/2023 tables),
-   `102_` Acuerdo 02-95 (14th-month reglamento; D. 135-94 Art. 34 origin),
-   `104_` D. 103 Ley SMM.** D. 112 (aguinaldo law) still to acquire
-   (SAR-republish route).
-3. **Acquisition queue (W2 lead harvest, RESEARCH §5):** TOP = Ley Equidad
-   Tributaria D. 51-2003 (activo neto/aportación solidaria) + Acuerdo
-   SAR-236-2024 (535/OVI channels) + Reglamento Ley ISR ("Acuerdo N°799",
-   4th citation) + D. 58-1982 (selectivo 203) + D. 131-98 (tasa turística) +
-   TP family (D. 232-2011/027-2015/DEI-SG-004-2016) + contribuciones
-   statutes (D. 105-2011, Acuerdo 1775-2011, D. 53/92-2015, D. 131-2018,
-   D. 181-2006) + D. 112 + DEI-9382-J-2003 I-VIII + Código de Comercio +
-   Ley RAP 107-2013. Most are SAR-catalog fetchable (recipe §6).
-4. **Synthesis prep after W3/W4:** create `hn/.extractions/00_MASTER_INDEX.md`
+1. **W4 payroll (NEXT):** `86_` CT (verify vintage vs `85_` derogations),
+   bienio tables (`90/91/92_` CURRENT 2026-2027; OCR PSM 6 on `90_`), IHSS
+   (`81_` D.48-2024 OCR rates page + `87_` Ley IHSS scanned + `88_`
+   incapacidad), RAP architecture (`27/28_`), SMM machinery (`104_` D.103 +
+   `101_` STSS-308-2022 tables + `102_` Acuerdo 02-95 14th-month reglamento,
+   statutory origin D. 135-94 Art. 34); D. 112 (aguinaldo law) still to
+   acquire (SAR-republish route); payroll consumers of W1e (plantilla
+   contract) + W3 (retención comprobante patronos rule, EVID-200).
+2. **Acquisition queue (W2+W3 lead harvests, RESEARCH §5):** TOP = Ley
+   Equidad Tributaria D. 51-2003 (activo neto/aportación solidaria) +
+   Acuerdo SAR-236-2024 (535/OVI channels) + Reglamento Ley ISR ("Acuerdo
+   N°799", 4th citation) + D. 58-1982 (selectivo 203) + D. 131-98 (tasa
+   turística) + TP family (D. 232-2011/027-2015/DEI-SG-004-2016) +
+   contribuciones statutes (D. 105-2011, Acuerdo 1775-2011, D. 53/92-2015,
+   D. 131-2018, D. 181-2006) + D. 112 + DEI-9382-J-2003 I-VIII + Código de
+   Comercio + Ley RAP 107-2013 + **W3 additions: Acuerdo 462-2014
+   (exonerations reglamento) + Acuerdo 424-2018 (ITA ISV 15.a) + a
+   post-2017 compras-eventuales instrument if one exists (code-10 OQ)**.
+   Most are SAR-catalog fetchable (recipe §6).
+3. **Synthesis prep after W4:** create `hn/.extractions/00_MASTER_INDEX.md`
    (SV-style; gitignore exception already in place), roll OQ families into
    MOQ/SOQ-style registers, then plan S-waves per the SV subagent pattern.
-5. **Merge to main:** at session close per the standard session-close &
-   merge protocol (root HANDOVER §4.6) — owner's closing prompt ("So `Read
-   hn/HANDOVER.md and continue.`? Want to merge before we nuke this
-   session?") → close out (HANDOVER refresh, commit, push) → on nuke:
-   review branch tail (`git log main..hn-research`), rebase onto main tip
-   (picks up procedure changes), merge to main, never force-push.
+   e-invoicing synthesis can start NOW if desired — W3 inputs complete
+   (only the SEE/CAEE sub-cluster is blocked on lead 1).
+4. **Merge to main at milestone:** owner decision; rebase-then-merge; never
+   force-push (root HANDOVER country model).
 
-Session state at stop (2026-08-20, W2 close): evidence COMPLETE through
-EVID-185 (~160 open OQs); corpus 103 files; W2a+W2b committed; next wave
-W3 facturación.
+Session state at stop (2026-08-20, W3 close): evidence COMPLETE through
+EVID-214 (~170 open OQs); corpus 103 files; W1+W2+W3 committed; next wave
+W4 payroll.
 
 ## 7. Conventions (mirroring SV)
 

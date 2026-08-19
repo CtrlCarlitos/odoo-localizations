@@ -2,8 +2,8 @@
 
 Execution plan per [shared/docs/requirements-extraction-procedure.md](../shared/docs/requirements-extraction-procedure.md).
 Started 2026-08-19 (source-research pass complete). Status: active — **evidence
-waves W1 (taxation core) + W2 (fiscal reporting) COMPLETE 2026-08-20
-(EVID-001..185); next W3 (facturación/e-invoicing)**.
+waves W1 (taxation core) + W2 (fiscal reporting) + W3 (facturación/e-invoicing)
+COMPLETE 2026-08-20 (EVID-001..214); next W4 (payroll)**.
 
 ## Wave log
 
@@ -110,17 +110,50 @@ waves W1 (taxation core) + W2 (fiscal reporting) COMPLETE 2026-08-20
   ops (DEI-SG-004-2016), 56 op types → 10 annexes, TP adjustments auto-migrate
   into the ISR DJ base; **"Acuerdo N°799" = 4th independent citation of the
   ISR Reglamento (63_ p.6 — first-named)**.
-- **W3 (NEXT):** facturación: full `24_` read + `76-78_`; D-H1 design inputs
-  → FRs (CAI ledger, expiry/overlap/exhaustion guards, sequence key; type-10
-  compras eventuales + 189-2014 Arts. 10.f/21.7/69 hooks from W2a).
+- **W3 (2026-08-20, DONE):** facturación stack `24_` (full, 68 pp) + `25_` +
+  `26_` + `76-78_` (EVID-186..214, 12 OQs). Key: **16-digit correlativo =
+  3 establecimiento (matriz 000) + 3 punto de emisión + 2 tipo + 8 consecutive
+  (WRAPS at 99999999)**; type codes 01 Factura / 03 Ticket (machine prefix
+  09 — dual-code quirk, OQ) / 04 RHP / 05 Retención / 06 NC / 07 ND / 08 Guía
+  / 10 Prevalorada / 11 Boleta Compra / 12 Donación (**02 unassigned**);
+  two-layer print contract (format pre-printed: CAI + fecha límite + rango +
+  exonerado block vs emission-time); **Art. 59-62 authorization = per punto ×
+  per doc type, ONE active rango until exhaustion, renewal T-2mo, vigencia
+  ≤1 year (was 2y under 189-2014), comportamiento-tributario limits +
+  cancellation** — the D-H1 CAI-ledger contract statute-complete; momento de
+  emisión = earliest-of family (emission gate input, D-H2); L50 consumer-final
+  end-of-day consolidation (not for autoimpresores); L10,000 ID threshold
+  (SEFIN-modifiable); boleta-compra 5%-of-opex + per-provider ISR-exempt-base
+  caps, no crédito fiscal; NC/ND origin triple (CAI+número+fecha) mandatory;
+  guía 12-motivo catalog + SAR control copy + comprobante-substitution;
+  comprobante retención at hecho generador (OTCD monthly variant; patronos
+  exempt unless requested); no-utilizados = 12 causes / 10 días hábiles
+  (feeds ledger expiry monitor); topologies centralizado/regional/sucursal
+  (centralizado = one correlativo for many establecimientos — D-H1 sequence-key
+  reconciliation); SEE/CAEE = medium of autoimpresor modality, Art. 57
+  gradual mandate per calendarización (docs still unpublished — lead 1);
+  contingencias = imprenta preprinted stock; Art. 78 repeals 189-2014 (+ its
+  058-2014 reform); **code-10 collision: DEI-279-2015 10 = Compras Eventuales
+  (16-digit grammar INTRODUCED by that 2016 instrument) vs 481-2017 10 =
+  Prevalorada — compras-eventuales survival unexpressed (OQ-2, never implement
+  10 as both)**; 189-2014 regime = 14-digit (4+2+8, codes 01-07 incl. Boleta
+  de Venta 02 + Recibo Alquiler 03, both abolished) — dual-grammar historical
+  parser; 26_ Arts. 2-3 = non-facturación (derogations inside exonerations
+  reglamento 462-2014 + ITA 424-2018; customs rectification-before-sanction)
+  → 2 new acquisition leads; helps: inscription (puntos + acreditación de
+  imprentas + responsables) = SAR-926, print authorization state chain
+  (Pendiente de Aceptación→Solicitada→**Activada** — consumption starts at
+  activación) = SAR-924/SAR-927; helps' Base-Legal sections have copy-paste
+  defects (OQ) — cite the reglamento, never the helps. **D-H1 FR inputs now
+  evidence-complete (SEE sub-cluster blocked on lead 1).**
 
 ## Context
 
 - 103 source files registered (01-104, gap 103 reserved-unused) in
   [sources/README.md](sources/README.md); every file page-1 verified. Research
   dossier: [RESEARCH.md](RESEARCH.md).
-- Evidence numbering: corpus-global EVID (next = **186**); OQs per-file at
-  evidence-file end (~160 open after W2).
+- Evidence numbering: corpus-global EVID (next = **215**); OQs per-file at
+  evidence-file end (~170 open after W3).
 - No prior-project hint layer exists for HN (unlike SV's tuky-workspace import).
 - NotebookLM validator: none yet (corpus young; revisit at first synthesis).
 - Fiscal year = calendar year. Currency: lempira (HNL, L).
