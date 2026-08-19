@@ -70,10 +70,14 @@ legal parameter (rate, bracket, cap, SMM-derived threshold, regime schedule,
 authorization range) must resolve it as-of the domain's anchor date, store
 the resolved value on the record (snapshot-on-write), and carry
 `valid_from/valid_to` rows for the parameter — see D15 (anchor-date
-pattern + country instantiation register + history-import contract) and D16 (cross-country mechanics: dated rows,
+pattern + country instantiation register + history-import contract) and
+D16 (cross-country mechanics: dated rows,
 retro payroll with original-period rules, hard no-override emission block,
-filed-period protection, ingestion reconciliation).
-
+filed-period protection, ingestion reconciliation). Mid-year go-live FRs
+(historical import surfaces) must follow D18: `is_historical` records in
+historical journals (natural journal type), suppress/reallow semantics,
+tiered ingestion (straddle-FY detail / prior-FY declaration snapshots /
+balances / carryover rows), batch-reversal or config-gated deletion.
 ## 6. Acceptance Criteria
 
 Given/When/Then criteria. These are what Takumi must satisfy; each must be

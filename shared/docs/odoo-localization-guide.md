@@ -177,6 +177,13 @@ vigencia (D16 ¶3); history = read-only external records reconciled against
 previously-filed declarations (D16 ¶7; DTEs validated against regulator
 consulta endpoints, payroll monthly aggregates + tenure, opening balances for
 ledger/stock/banks); payroll corrections are hybrid by declaration window
-(D15(d)). Country instantiations: GT D-GT10, HN D-H2/D-H3. Requirements files
+(D15(d)). Country instantiations: GT D-GT10, HN D-H2/D-H3. **Mid-year
+go-lives (D18):** pre-go-live straddle-FY transactions import under an
+`is_historical` flag (historical journals with natural journal types as
+the recommended grouper; suppress sequences/transmission/recompute, allow
+validate+post with original-date resolution); prior-FY filings import as
+frozen declaration snapshots; carryovers as dated rows; corrections via
+import-batch reversal or a single config-gated delete with audit trail.
+Requirements files
 must record the version regime (version fields, effective dates, adaptation
-windows) wherever it affects an FR (template §5 notes, D12/D15/D16).
+windows) wherever it affects an FR (template §5 notes, D12/D15/D16/D18).

@@ -265,8 +265,9 @@ unidirectional. History enters as **read-only external records**:
   tenure records** (start/end dates) — sufficient for every tenure-based
   statutory benefit (severance, vacation, year-end bonuses) and the annual
   reporting surfaces; full historical payslips are NOT imported.
-- **Ledger / stock / banks**: opening balances only — no movement-level
-  history import.
+- **Ledger / stock / banks balances**: opening entries only. (AMENDED by
+  D18: the straddle fiscal year's TRANSACTIONAL detail is additionally
+  imported under `is_historical` — tiered contract in D18(b).)
 - **Reconciliation against FILED history**: see D16 ¶7.
 
 **(d) Payroll corrections — hybrid by window.** Declaration period still
@@ -344,6 +345,71 @@ D-H2/D-H3 (`hn/EXTRACTION_PLAN.md`, `hn/HANDOVER.md`):
    authority (SAR in HN; MH in SV; SAT in GT) — discrepancies surface as
    exceptions, never silently absorbed (extends D15(c)).
 
+### D18 — Mid-year go-live ingestion mechanics: `is_historical` flag + tiered import + correction paths (decided 2026-08-19)
+
+**Driver (named):** an Odoo go-live rarely lands on January 1 — mid-year
+go-lives mean the straddle fiscal year's filings (and filings that use
+prior-year data) must compute COMPLETE from partially-imported history,
+without Odoo re-processing what the predecessor system already handled.
+Universal for every country in scope; refines D15(c) for the ledger tier.
+
+**(b) Tiered ingestion contract (amends D15(c)):**
+
+- **T1 — Straddle-FY transactional detail**: imported into the proper
+  transactional models (account.move + e-document payload records, payroll
+  aggregates, retentions), `is_historical = True`, in historical journals
+  (see (d)). Covers emitted + received documents and tax-relevant
+  transactions of the pre-go-live part of the fiscal year.
+- **T2 — Prior-FY filings**: imported as FROZEN DECLARATION-SNAPSHOT
+  records (the D9 legal-artifact model), `is_historical` — comparatives
+  and carryover derivation without any prior-year account.moves.
+- **T3 — Balances**: opening entries for ledger/stock/banks (unchanged
+  from D15(c)).
+- **T4 — Carryover ledgers**: dated rows per D15 (IVA saldo arrastre,
+  capital-loss carryforwards, benefit-remanents, etc.).
+
+**(c) `is_historical` semantics.** Set only by import tooling; posted
+historical records are immutable (filed-period protection kin).
+**Suppresses:** legal sequence assignment (original external numbering
+preserved), e-document transmission (hard block — no retro-transmission,
+D16 ¶3), payment matching / dunning / workflow automations, and
+RECOMPUTATION (amounts fixed from the source payload / predecessor
+values). **Allows:** validation + confirmation (posting) so records are
+complete and report-visible — with the D15 subtlety that tax-grid
+resolution still happens ONCE at import, resolved as-of the ORIGINAL date
+(snapshot-on-write): the flag suppresses recompute, not resolution.
+Distinct number sequences make imported vs Odoo-processed data visually
+separable.
+
+**(d) Journal grouper + integrity invariant.** `is_historical` exists on
+records AND journals. Historical journals are the RECOMMENDED T1 pattern:
+they keep their natural journal TYPE (sale/purchase/bank) so type-keyed
+reports stay correct, while giving users a grouper that identifies what
+was imported vs what Odoo processed. Where a journal exists: a record in
+an `is_historical=True` journal MUST be `is_historical=True`, and
+historical records are rejected in non-historical journals
+(cross-check validation on save/post). **Flag-flip lock:** a journal
+cannot switch its flag while it contains transactions contradicting the
+target state (either direction). Journal-less models (e.g. some payroll or
+statement surfaces): the record flag alone is the control.
+
+**(e) Correction/deletion of mistaken imports.** Historical records never
+fired Odoo sequences or transmissions (no external footprint) and were
+already filed by the predecessor system — so deletion changes only LOCAL
+completeness, never regulator truth. Two paths:
+
+- **Primary: import-batch reversal.** Every import run registers a batch;
+  "reverse import" deletes that batch's records atomically — wholesale
+  mistakes (wrong file/period, duplicates) are batch mistakes, and the
+  batch is the safe unit.
+- **Surgical: config-gated delete.** A single global `res.config.settings`
+  gate ("allow historical record management"), NOT per-type flags (per-type
+  multiplies config surface without adding safety); explicit, off by
+  default; every deletion under it writes an immutable audit entry
+  (who/when/what).
+- **Guard:** deletion by either path is BLOCKED when a live (non-historical)
+  posted record or a filed declaration snapshot references the record.
+
 ## Q → D mapping
 
 | Question | Decision |
@@ -357,3 +423,4 @@ D-H2/D-H3 (`hn/EXTRACTION_PLAN.md`, `hn/HANDOVER.md`):
 | Q7 this repo | D12 |
 | Applicability windows (session 2026-08-19) | D15 |
 | Date-driven compliance (dated rates/forms/regimes, retro payroll, no past-dated transmission; GT-proposed, HN-amended) | D16 |
+| Mid-year go-live ingestion (is_historical, tiers, journal grouper, correction paths) | D18 |

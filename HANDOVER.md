@@ -891,6 +891,25 @@ all countries.
     Belize is English-speaking/common-law (GST world) — expect the Spanish-
     Latam extraction template to need adaptation there.
 
+### D18 mid-year go-live rulings (2026-08-19, owner session)
+47. **D18 ingestion mechanics (owner-approved with two amendments):**
+    driver = mid-year go-lives (straddle-FY + prior-FY filings must compute
+    complete without re-processing). Tiered contract T1-T4 (T1 straddle-FY
+    transactional detail as `is_historical` records in HISTORICAL journals
+    keeping their natural journal TYPE — owner's grouper pattern;
+    T2 prior-FY filings as frozen D9 declaration snapshots; T3 opening
+    balances; T4 carryover dated rows). Flag semantics: set only by import
+    tooling; posted ⇒ immutable; suppresses legal sequences/transmission/
+    matching/recompute, allows validation+posting with ORIGINAL-date
+    tax-grid resolution (snapshot-on-write; suppress recompute ≠ suppress
+    resolution). Journal-record bidirectional cross-check + flag-flip lock
+    while contradicting transactions exist; journal-less models = record
+    flag alone. Corrections: PRIMARY = import-batch atomic reversal;
+    surgical = ONE global res.config.settings gate (per-type flags
+    rejected) + immutable audit entries; deletion blocked when referenced
+    by live posted records or filed snapshots. D15(c) ledger line amended
+    accordingly; guide + template §5 cite D18.
+
 ### Standing policies
 
 - Evidence-based answers only; RAG (NotebookLM) is validator, never source
