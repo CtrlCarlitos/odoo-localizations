@@ -62,11 +62,16 @@ top, payroll parallel, facturación standalone):
 - **Scanned/no-text-layer sources (OCR needed)**: `04_` (D. 17-2010), `21_`
   (Reglamento 1121-2010), `87_` (Ley IHSS). Damaged text layers: `81_`
   (D. 48-2024 rates page), `26_` (partial mojibake). ISR tables in
-  `07_/08_/09_/10_/12_` print as images — OCR with PSM-4-at-400dpi table
-  discipline (SV lesson); `11_` plantilla formulas are the cross-check.
-- **CT consolidation currency**: `03_` stops at D. 180-2020; post-2020 CT
-  reforms unverified — per-article verification at evidence (SV SOQ-22 kin).
-  Art. 206 void (`23_`) must never be implemented.
+  `07_/08_/09_/10_/12_` print as images — **OCR feasibility CONFIRMED
+  2026-08-19**: gs 400dpi + tesseract PSM 4 recovered the full SAR-01-2026
+  FY2026 scale (exentos ≤ L228,324.32 / 15% ≤ L348,154.10 / 20% ≤
+  L809,660.75 / 25% beyond; minor spacing noise only). `11_` plantilla
+  formulas remain the cross-check.
+- **CT consolidation currency (UPDATED 2026-08-19)**: `03_` stops at D. 180-2020;
+  the SAR catalog's complete post-2020 CT instrument set = **D. 117-2021
+  (interpretación Art. 113.1 — acquired as `89_`)** + the Art. 206 sentencia
+  (`23_`, void). Known gap CLOSED at research level; still verify per-article
+  at evidence (SV SOQ-22 lesson — catalogs can under-report).
 - **Código del Trabajo vintage**: `86_` print's consolidation date unknown —
   pin key articles (aguinaldo 376-family, vacaciones 328-family, cesantía,
   preaviso, jornada) against reform chain; D. 93-2021 derogations are
