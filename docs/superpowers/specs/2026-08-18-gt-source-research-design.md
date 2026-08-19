@@ -28,6 +28,7 @@ decomposition, reading order, topic map, risks.
 | D-GT5 | FEL integration model | Provider-mediated | Unlike SV (direct SaaS↔MH), GT FEL operates through SAT-authorized **certificadores**; SAT owns the XML standard and validates. Product will support multiple providers; **TotalDoc = default provider** |
 | D-GT6 | Partner tier | Provider docs register under `partner-technical` provenance | Provider technical documentation (TotalDoc et al.) lives in `gt/sources/providers/<provider>/`, LB-citable only for provider-interface requirements, clearly marked non-government. Public docs only for now; partner-portal access is a later follow-up |
 | D-GT7 | Workspace | `.worktrees/gt-research` on branch `gt-research` | Isolates the live SV session on `main`. `main` receives exactly one infrastructural commit (`.gitignore` line for `.worktrees/`, commit f6f5415). Same convention as the HN session |
+| D-GT8 | Odoo journal/document-type model | Use `l10n_latam_invoice_document`: **one journal with multiple document types** (FEL FACE/FACC/FPEQ/NC/ND/RD… via `l10n_latam_document_type`), NOT one journal per document type | Product owner decision 2026-08-18. GT requirements Odoo Mapping sections must encode this; evaluation at synthesis whether to promote to a shared cross-country pattern (SV DTE model is a separate surface) |
 
 ## Research method
 
