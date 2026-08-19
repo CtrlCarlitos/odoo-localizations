@@ -173,6 +173,26 @@ artifacts + found the La Gaceta archive:**
   (not yet crawled — candidate for the Reglamento CT / vales de alimentación
   at payroll wave).
 
+**Round 4 (2026-08-20) — SAR-catalog acquisitions from the cached
+lead list + dead ends:**
+- Acquired `93_-100_` (8 files, all page-1 verified; see registry):
+  D. 31-2019 (22-A interp/reforma — closes the W1f "what changed" lead),
+  **Acuerdo 464-1990 (5th title-vs-content incident: NOT the modern
+  Reglamento Ley ISR — it is the 1990 reglamento to the D. 18-90-era ISR
+  reform: L10k asalariados gate, 5% services retention, 20-day entero;
+  HISTORICAL chain ancestor; the plantilla's "Art. 51 Reglamento Ley ISR"
+  instrument REMAINS an open lead)**, D. 199-2006 Adulto Mayor (L30k@60
+  source), **D. 45-2025 (NEW find: Jan-2026 reform of the Adulto Mayor law,
+  Art. 31 + new 31-A/31-B — read with 95_)**, D. 194-2002 original (Art. 14
+  = 65+ ≤L350k origin), selectivo IPC chain 172-2022/014-2023/218-2024.
+- Dead ends this round: SEFIN search has no Instructivo 461-2020 (open —
+  needs its La Gaceta date, then ENAG route); STSS wp-search returns nothing
+  for 308-2022 (the 14th-month SMM instrument stays open — likely needs the
+  Gaceta date too); the reglamentos app is an ASP.NET shell with no static
+  link inventory (needs interactive exploration or the Gaceta route).
+- Lead status deltas below: items 12's D. 31-2019/D. 199-2006/D. 194-2002
+  RESOLVED-acquired; 461-2020 + D. 31-2019-note: 93_ covers it.
+
 1. **SEE technical documentation + calendarización** — still publicly absent
    (wp-search "comprobante electrónico"/"documento electrónico fiscal" also
    empty). Routes: Oficina Virtual (login), SAR comunicados, or an
@@ -200,16 +220,20 @@ artifacts + found the La Gaceta archive:**
     includes public-sector/teachers (INPREMA downloads JS-driven).
 11. **Reglamento del Código de Trabajo / STSS resolutions** — STSS down
     (both dig rounds); Gaceta route at payroll wave.
-12. **(W1f additions, 2026-08-20)** — taxation-side authority-chain gaps:
-    **D. 31-2019** (second 22-A reform — the 01_ ISR consolidation's footnote
-    lists it; what it changed vs D. 31-2018 is unverified), **Instructivo
-    Acuerdo 461-2020** (operative SEFIN procedure for 22-A exception
-    petitions), **D. 199-2006 Ley del Adulto Mayor** (L30k@60 deduction —
-    plantilla cites; pre-ENAG-window → catalog/mirrors), **D. 194-2002**
-    original (Ley Equilibrio Financiero — 79_ prints only its reformed
-    Art. 14), **DEI reglamento of the 8% card devolution** (05_ Art. 3;
+12. **(W1f additions, 2026-08-20; round-4 deltas)** — taxation-side
+    authority-chain gaps: ~~**D. 31-2019**~~ **ACQUIRED as `93_`** (interp +
+    reforma of D. 31-2018 Art. 1 num. 1 — FY2017 tariff/cálculo per 22-A
+    family); **Instructivo Acuerdo 461-2020** (operative SEFIN procedure for
+    22-A exception petitions — NOT on SEFIN search; needs its La Gaceta date
+    → ENAG route); ~~**D. 199-2006**~~ **ACQUIRED as `95_`** (+ NEW: its
+    Jan-2026 reform D. 45-2025 acquired as `96_` — Arts. 31/31-A/31-B);
+    ~~**D. 194-2002**~~ **ACQUIRED as `97_`** (original; Art. 14 = 65+
+    ≤L350k origin); **DEI reglamento of the 8% card devolution** (05_ Art. 3;
     status post-2013-suspension unknown — verify SAR devolution pages).
-    All low-priority SAR-catalog/Gaceta fetches.
+    **NEW from 94_: the modern "Reglamento Ley ISR" (plantilla cites its
+    Art. 51) is STILL unlocated** — Acuerdo 464-1990 proved to be the 1990
+    ancestor, not it. **Acuerdo STSS-308-2022** (14th-month SMM basis) also
+    still open — needs Gaceta date → ENAG.
 
 ## 6. Fetch recipes (verified this pass)
 
