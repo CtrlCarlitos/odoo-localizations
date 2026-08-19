@@ -48,9 +48,11 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
 - Branch `main` only; remote `origin` = `git@github-CtrlCarlitos:CtrlCarlitos/odoo-localizations.git` (SSH alias `github-CtrlCarlitos` from `~/.ssh/config`); push after each wave; never force-push. `gh` CLI at `~/.local/bin/gh`, authenticated as CtrlCarlitos.
 - Commits are SSH-signed; local `%G?=N` is a verification-only artifact (`gpg.ssh.allowedSignersFile` unset) — signatures ARE present; don't chase it.
 - `.gitattributes`: `*.csv text eol=lf`.
-- Commits through `cc7a307` (2026-08-19 6th session: D15 as-of doctrine;
-  before that `3929470` GT/HN worktree note and the W12+S5 close `260d039`/
-  `9bb37e9` per §3).
+- Commits through `53edd55` (2026-08-19 6th session, multi-part: D15 as-of
+  doctrine `cc7a307` → W13 evidence pass `94b4142` → GT/HN merges + D16
+  unification `5eb6d6b` → universalization + D17 + roadmap `b67dfa0` →
+  D18 `4cd719a` → D19 + go-live-readiness.md `53edd55`; all pushed; all
+  four refs — main, sv-research, gt-research, hn-research — aligned).
 
 ### El Salvador — sources & evidence state
 - **EVID corpus 001..274** (gaps 109-127, 240 reserved-unused). W13 files (2026-08-19):
@@ -1064,7 +1066,13 @@ all countries.
       dated rows + 60/40 phase-down ladders, never global constants). **W13
       evidence pass + 74_ acquisition COMPLETE 2026-08-19 (see §3 W13 section)
       — S7 synthesis is the next concrete step (master-index clusters → plan →
-      subagent wave).**
+      subagent wave). RUN S7 IN `.worktrees/sv` (branch `sv-research`) —
+      D15/D16/D18/D19 + go-live-readiness.md are binding synthesis
+      constraints (ZF/LSI schedules = the canonical D15 consumers). FIRST
+      worktree session: bootstrap `sv/HANDOVER.md` per the gt/hn country
+      pattern and move per-wave SV state there — root HANDOVER becomes
+      integration-level memory only (this avoids repeating the root-HANDOVER
+      merge conflicts the GT/HN merge just had to resolve by hand).**
       Then NIIF/chart-of-accounts (32_/33_; consumes 06's
       register interface + C3 NIC anchor + T3's Consejo-criteria OQ); (c) IVA-core
      taxation files still owed (01_ cited in S1; 02_ Reglamento unread; the R/S
