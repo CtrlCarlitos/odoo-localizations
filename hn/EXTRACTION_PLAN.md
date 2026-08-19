@@ -255,3 +255,35 @@ top, payroll parallel, facturación standalone):
   expected identical where surfaces overlap (dated rows, freeze,
   period-parameters); HN-specific = the CAI emission gate + SEE mandate
   rows. Reconcile wording at merge.
+
+- **D-H3 (2026-08-20, product owner): go-live historical ingestion scope.**
+  What Odoo ingests as read-only records when a company adopts the
+  localization mid-year — no re-emission, no re-numbering, resolved with the
+  rules in force at their ORIGINAL dates (D-H2 resolution). Depth decision:
+  **current-FY document detail + prior-years aggregates** (prescription
+  window 4/5/7y re-exports from legacy on demand):
+  1. **Fiscal documents (facturas, CAI-numbered):** current FY imported
+     detail-level, read-only, flagged — original CAI numbers, original
+     dates, validated against the CAI ranges/dated rows in force at those
+     dates; no sequence consumption; excluded from filings Odoo didn't
+     make. Prior years: aggregates only.
+  2. **Reconciliation method:** imported-document totals reconcile against
+     the **monthly declarations the PREVIOUS system filed with SAR** (DMC
+     compras / DJIMR retenciones / DJI mensual) — those filings are the
+     authoritative aggregates; a go-live reconciliation report flags
+     deltas. (HN has no MH-transmission counterpart to validate against —
+     SAR's filed declarations ARE the external truth. Optional validator
+     hook: Oficina Virtual Verificador de Documentos.)
+  3. **Payroll exception (tenure-based prestaciones need history):**
+     monthly aggregates per employee-contract, NOT payslips, two depths:
+     (a) **from hire date** — contract start/end registry + monthly bases
+     feeding fondo de reserva/cesantía-preaviso (CT-Art.-95 pact
+     grandfathering)/vacaciones accrual; (b) **from FY start** — monthly
+     taxable bases for the ISR annualized true-up + 13th/14th-month
+     averages. Payslip-level import NOT required.
+  4. **Stock & banks:** opening balances only (ledgers), per product-owner
+     decision — no movement-level history.
+  HN-specific note: there is no "pre-e-invoicing" medium question — the
+  paper CAI regime is current; the depth question is how far back, answered
+  above. SV parallel decision recorded in the SV session same day;
+  reconcile wording at merge.

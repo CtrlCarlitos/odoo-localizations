@@ -114,6 +114,13 @@ context does not survive). Update it at every session boundary.
   write-protected (D9 kin); regime cutovers (SEE mandate, amnistía,
   transitorias) = dated config rows. Inherits repo D9/D11/D12; SV session
   deciding the same prompt in parallel — reconcile at merge.
+  **D-H3** (2026-08-20, binding, in EXTRACTION_PLAN): go-live ingestion =
+  current-FY fiscal-document detail (read-only, original CAI numbers/dates,
+  D-H2-resolved) + prior-years aggregates; reconciliation vs the PREVIOUS
+  system's SAR-filed declarations (DMC/DJIMR/DJI); payroll = monthly
+  aggregates per contract (hire-date depth for fondo/cesantía/vacaciones,
+  FY-start depth for ISR/13th/14th), no payslips; stock/banks = opening
+  balances only.
 - **W1f (taxation closers):** `05_` = devolución 8% ISV tarjetas (status OQ),
   OTCD complement ORIGIN (current text = 02_ Art. 8), **E-Arts 5/10 VOID
   (sentencia RI-0763-2011, 25-mar-2021 — never feed)**, ganancias de capital
