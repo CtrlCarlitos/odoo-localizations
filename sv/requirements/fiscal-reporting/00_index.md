@@ -27,25 +27,32 @@ coverage: [../COVERAGE.md](../COVERAGE.md).
 | [03_f07-annexes-purchases.md](03_f07-annexes-purchases.md) | Anexo 3 Compras (IVA base buckets × compras internas/internaciones/importaciones, crédito fiscal N, ND+/NC− totals, Tesorería pseudo-NIT, Febrero-2024 ISR quartet Q/R/S/T) + Anexo 5 sujetos excluidos (twin quartet I-L) + the post-entero casilla-128 credit re-entry | SV-FREP-FR-067..094 | 28 | 9 | 11 | 6 |
 | [04_f07-annexes-retentions-events.md](04_f07-annexes-retentions-events.md) | Anexo 4 ventas por cuenta de terceros (→ casilla 108), Anexos 6-8 retentions effected on the declarant (→ 161-163), Anexos 9-12 retentions by the declarant, §XIX anulados/emitidos annex (SOQ-10 defect ruling in LB-007; FR-118), F-930 v3 monthly retIVA informe | SV-FREP-FR-095..123 | 29 | 10 | 12 | 7 |
 | [05_f07-annexes-special.md](05_f07-annexes-special.md) | The five dated-regime annexes: 13 fuel tasas diferenciadas (Decreto 321, manual-entry only, → 586-589), 14 price-cap credit notes (→ 550-553), 15/16 Decreto 357 informativo pair (→ 92/65), 17 fuel-importers closed window; the regime-validity gate engine (closed windows never re-activate) | SV-FREP-FR-124..136 | 13 | 6 | 10 | 5 |
-| [06_f14-declaration.md](06_f14-declaration.md) | F-14 v16/v17 ISR retention declaration: A-W annex row model (identification, payroll devengado/bonificaciones/aguinaldo split, seven SS columns with SOQ-11 caps as dated data), export validation contract, declaration-as-pure-projection invariant, seven-tab form architecture (Pago a Cuenta with dead pago-mínimo row, Op. Financieras 501-529, No Domiciliados matrix, Agentes Extranjeros 701-780), modificatoria flow, v17 Quincena-25 casillas 417/418 (annex level blocked) | SV-FREP-FR-137..170 | 34 | 8 | 14 | 7 |
-| [07_codes-and-informs.md](07_codes-and-informs.md) | F-14 income-code catalog — all 48 codes × 4 classes as dated data with row/casilla mapping and CT anchors (distributions 43-46, haven 40, CT 123 aggregate 47; CSV sidecar `f14_income_codes.csv`), the F-07 R/S ↔ F-14 ↔ F-11 coupling, F-910 v9 annual consolidation (CT 123 surface), F-915 v4 distributions inform, F-935 v1 foreign-agents inform; F-930 referenced only (homed in 04) | SV-FREP-FR-171..194 | 24 | 9 | 9 | 7 |
+| [06_f14-declaration.md](06_f14-declaration.md) | F-14 v16/v17 ISR retention declaration: A-W annex row model (identification, payroll devengado/bonificaciones/aguinaldo split, seven SS columns with SOQ-11 caps as dated data), export validation contract, declaration-as-pure-projection invariant, seven-tab form architecture (Pago a Cuenta with dead pago-mínimo row, Op. Financieras 501-529, No Domiciliados matrix, Agentes Extranjeros 701-780), modificatoria flow, v17 Quincena-25 casillas 417/418 (FR-166 reporting-only isolation; FR-167 amended — retention annex exports without Quincena rows) + the January-only Quincena annex upload engine (FR-209..211: 7-column `;`-delimited CSV per 69_/70_, January-window gate, 417/418 + code-73 derivation at presentation) | SV-FREP-FR-137..170, 209..211 | 37 | 12 | 17 | 9 |
+| [07_codes-and-informs.md](07_codes-and-informs.md) | F-14 income-code catalog — 49 codes (48 + the 2026 Quincena-25 code 73 "Ingresos No Gravados Pagados Quincena Veinticinco", FR-212: F-910 NO GRAVADOS auto-population fed by the FR-211 upload; CSV row dated 2026-01 f17_kin) × 4 classes as dated data with row/casilla mapping and CT anchors (distributions 43-46, haven 40, CT 123 aggregate 47; CSV sidecar `f14_income_codes.csv`), the F-07 R/S ↔ F-14 ↔ F-11 coupling, F-910 v9 annual consolidation (CT 123 surface), F-915 v4 distributions inform, F-935 v1 foreign-agents inform; F-930 referenced only (homed in 04) | SV-FREP-FR-171..194, 212 | 25 | 10 | 10 | 8 |
 | [08_filing-calendar.md](08_filing-calendar.md) | Calendario Tributario 2026 obligation inventory as dated data (monthly/annual/registry rows, incl. F-950), due-day window mechanism as unpinned configuration (SOQ-08), asueto table 2026, the shared días hábiles engine (consumed by e-invoicing/taxation deadlines by FR id), per-company deadline/reminder model | SV-FREP-FR-195..208 | 14 | 5 | 6 | 4 |
-| **Total** | | SV-FREP-FR-001..208 | **208** | **66** | **94** | **47** |
+| **Total** | | SV-FREP-FR-001..212 | **212** | **71** | **98** | **50** |
 
 Numbering note: FR numbering is wave-sequential within the `SV-FREP`
-prefix (001-208, no gaps, no renumbering). The CSV
-`f14_income_codes.csv` (48 code rows + header) is a dated-data sidecar of
+prefix (001-212, no gaps, no renumbering; 209-212 appended by the S6
+Quincena-25 fold-in, 2026-08-18). The CSV
+`f14_income_codes.csv` (48 code rows + header + the 2026 Quincena-25
+row 73) is a dated-data sidecar of
 `07_codes-and-informs.md`; it carries no FRs of its own.
 
 ## Open-questions rollup (ids + titles)
 
-Status legend: `open` unless noted `resolved`. 47 open / 0 resolved
-(SOQ-10 is the only ruled S3 question and it is recorded as an LB note —
-`04` LB-007 — not an OQ).
+Status legend: `open` unless noted `resolved`. 50 OQs total —
+49 open / 1 resolved (`06` OQ-001 = SOQ-09, resolved W11 + folded S6
+as FR-209..211; `06` OQ-009 carries an in-file `;`-delimiter
+resolution; SOQ-10 is the only ruled S3 question and it is recorded as
+an LB note — `04` LB-007 — not an OQ).
 
 Master-index SOQ mapping: SOQ-08 = `08` OQ-001 (which owns the `06`
-OQ-005 pointer — due-day windows); SOQ-09 = `06` OQ-001 (F-14 v17
-Quincena-25 annex format); SOQ-10 = `04` LB-007 (ruling applied and
+OQ-005 pointer — due-day windows); SOQ-09 = `06` OQ-001 — **resolved
+in-corpus (W11 + S6 fold-in, 2026-08-18): FR-209..212 own the
+Quincena-25 reporting** (7-column `;` CSV per 69_/70_, January-only
+upload, code 73); the v17-manual absence remains as a
+doc-completeness residue (`07` OQ-008); SOQ-10 = `04` LB-007 (ruling applied and
 recorded, kin FR-118); SOQ-11 = `06` OQ-002 (SS caps as dated data);
 SOQ-12 = `01` OQ-001 (kin: `06` OQ-004 + `07` OQ-001); SOQ-13 = `07`
 OQ-003 (F-935 donantes-locales anchor); SOQ-14 = `08` OQ-002 (F-950
@@ -95,17 +102,19 @@ frequency/applicability).
 - OQ-004 — Annexes 13-17 modificatoria carryover unprinted. open
 - OQ-005 — "Fin de la obra" window-end semantics (per-project vs decree-level). open
 
-### 06_f14-declaration.md (7)
+### 06_f14-declaration.md (9)
 
-- OQ-001 — SOQ-09: F-14 v17 annex format — **RESOLVED 2026-08-18 (W11, sources 66_-70_)**: 7-column semicolon CSV (APELLIDOS 100 uppercase; NIT 14 XOR DUI 9; dd/mm/aaaa; SALARIO 4+2; QUINCENA 3+2; mmaaaa), January-only upload via F-14 v17, independent of retention annex, code 73 auto-assigned at presentation (EVID-238/239). Annex-level FR fold-in queued for the next edit wave. resolved (fold-in pending)
+- OQ-001 — SOQ-09: F-14 v17 annex format — **RESOLVED 2026-08-18 (W11, sources 66_-70_)**: 7-column semicolon CSV (APELLIDOS 100 uppercase; NIT 14 XOR DUI 9; dd/mm/aaaa; SALARIO 4+2; QUINCENA 3+2; mmaaaa), January-only upload via F-14 v17, independent of retention annex, code 73 auto-assigned at presentation (EVID-238/239). Folded S6 (2026-08-18) as FR-209..211 (this file) + FR-212 (`07`). resolved (folded S6)
 - OQ-002 — SOQ-11: SS caps as dated data; feed/cadence owned by the payroll wave. open (S4: the cap VALUES are owned by `../payroll/05_social-security-contributions.md` + its `ss_contributions.csv` sidecar)
 - OQ-003 — Op. Financieras tracks 501-529: CT 159/164-165 anchor + rates re-check. open
 - OQ-004 — Income-code catalog fidelity pointer (owned by 07's OQ-001). open
 - OQ-005 — SOQ-08 pointer: F-14 due-day scheduling owned by 08. open
 - OQ-006 — F-14 export file mechanics untranscribed in 35_; F-07 §II conventions by parity. open
 - OQ-007 — MH country-code + tax-haven list refresh cadence (web-published, undated). open
+- OQ-008 — MH-side validation depth: whether the live portal rejects rows with F ≠ 0.5×E or E > US$1,500.00 — 69_ §H reads structure-and-montos-only, so FR-211 ships the payroll-side cross-check as WARNING-only. open
+- OQ-009 — Live-portal delimiter verification (69_ OQ-2 kin): the semicolon is operative (70_ header + 69_ §3 — LB-012); AC-015 assumes `;`. open (resolved in-file: `;`)
 
-### 07_codes-and-informs.md (7)
+### 07_codes-and-informs.md (8)
 
 - OQ-001 — Income-code catalog fidelity (owns 06's OQ-004; SOQ-12 kin): v16 apéndice vs v17 rows + resolutions. open
 - OQ-002 — Per-code row/casilla assignment granularity: zone-level only in the corpus. open
@@ -114,6 +123,7 @@ frequency/applicability).
 - OQ-005 — "(Según ley)" anchors (codes 70-72) + unpinned matrix-zone codes. open
 - OQ-006 — F-11 rentas matrix acquisition (coupling counterpart). open
 - OQ-007 — Index-task wiring row: answers to taxation/04 OQ-007 (F-910), taxation/05 OQ-006 and the partial answer to taxation/05 OQ-002 (F-915) recorded in §3.3/§3.4. open
+- OQ-008 — Code 73 in the F-14 apéndice v17 unverified (no v17 manual exists — SOQ-09 doc-completeness residue): the catalog carries 73 as a dated 2026-01 f17_kin row on MH-package authority (67_ §3.f + 68_ p.16); re-check at the v17-manual / F-910-v10 acquisition (≥71 watch). open
 
 ### 08_filing-calendar.md (4)
 

@@ -23,7 +23,8 @@ Status values: Not started, In progress, In review, Complete.
 
 ## Sources
 
-63 registered source files (numbering 01-65; gaps 21/23/24/28 unused) — laws
+68 registered source files (numbering 01-70; gaps 21/23/24/28 unused; 66-70
+added by the W11 Quincena-25 package) — laws
 and regulations (tax, commercial, labor), MH electronic-invoicing manuals and
 catalogs, F-07/F-14 forms and templates, NIIF — plus the 15 current official
 MH JSON schemas inside `52_Json_Schemas_DTE_Eventos_2026-08-11.zip` and a

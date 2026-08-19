@@ -47,11 +47,11 @@ cited-as-LB.
 | 63_F930v3_informe_mensual_retIVA.pdf | cited-as-LB | `fiscal-reporting/04` LB rows (F-930 v3 monthly retIVA inform homed there); `fiscal-reporting/07` (referenced, re-check cadence OQ-004) |
 | 64_F935v1_informe_mensual_agentes_extranjeros.pdf | cited-as-LB | `fiscal-reporting/07` LB rows (F-935 v1 monthly foreign-agents inform; SOQ-13 anchor OQ) |
 | 65_F11_v18_form_visual.pdf | cited-as-LB | `payroll/08` LB-004..006 (F-11 v18 personal-deduction value feeds — SS rows 713/714/716/721/724, AFP voluntary quota 717, deducción fija 722, total 725; no-gravadas 734; dead pago-mínimo print); `fiscal-reporting/07` OQ-006 coupling counterpart. **Superseded as current print by v19/v20 (per 67_ Anexos 1/8) — not yet acquired (66-70_ OQ-5)** |
-| 66_Ley_Quincena25_DL499.pdf | pending-S2+ | W11 evidence `66-70_Quincena25.evidence.md` (EVID-236/237) — law LB ready; FR fold-in queued: payroll/08 income-treatment family, payroll/01 category, taxation renta-no-gravada, fiscal-reporting 06/07 |
-| 67_Guia_Orientacion_Quincena25.pdf | pending-S2+ | W11 evidence (EVID-237/238) — fiscal surfaces LB (F-14 v17 January annex; F-910 code 73; casilla 724 extension; F-11 v19 casilla 319; v20 + certificado; tercerización FCF exento); FR fold-in queued |
-| 68_Instrucciones_Carga_Quincena25.pdf | pending-S2+ | W11 evidence (EVID-239) — upload-flow LB (January-only window; replace-via-Limpiar; code-73 auto-assign); FR fold-in queued |
-| 69_Manual_Usuario_Carga_Quincena25.pdf | pending-S2+ | W11 evidence (EVID-239) — the annex-CSV format spec LB; FR fold-in queued |
-| 70_Plantilla_Quincena25.xls | pending-S2+ | W11 evidence (EVID-239) — semicolon-delimiter confirmation; FR fold-in queued |
+| 66_Ley_Quincena25_DL499.pdf | cited-as-LB | law LBs (folded S6 2026-08-18): `payroll/04` LB-025..028 (FR-138..141 benefit mechanics); `payroll/08` LB-012/013 (FR-137 income treatment + FR-142/143 feeds); `taxation/01` LB-032..034 (FR-173/174), `taxation/02` LB-019 (FR-175); also cited in `payroll/01`'s category matrix (FR-004 amendment, Arts. 1/4) |
+| 67_Guia_Orientacion_Quincena25.pdf | cited-as-LB | guía LBs (folded S6 2026-08-18): `fiscal-reporting/06` LB-009 (January-only window + 417/418), `fiscal-reporting/07` LB-010 (F-910 code 73), `taxation/01` LB-035 (FR-174 surfaces), `taxation/02` LB-020 (FR-175 documentation), `payroll/08` LB-014 (code 73 + casilla 724 ruling); F-11 v19 (casilla 319) + v20 (Sujetos con Régimen Especial) discovery carried — prints to acquire (≥71) |
+| 68_Instrucciones_Carga_Quincena25.pdf | cited-as-LB | upload-flow LBs (folded S6 2026-08-18): `fiscal-reporting/06` LB-010 (January-window gate, Limpiar-to-replace, code-73 auto-assignment — FR-210/211); `fiscal-reporting/07` LB-010 co-cite (68_ p.16, FR-212) |
+| 69_Manual_Usuario_Carga_Quincena25.pdf | cited-as-LB | annex-CSV format spec LB (folded S6 2026-08-18): `fiscal-reporting/06` LB-011 (7-column spec §1-3 — FR-209) |
+| 70_Plantilla_Quincena25.xls | cited-as-LB | delimiter LB (folded S6 2026-08-18): `fiscal-reporting/06` LB-012 (semicolon header line — the `;` operative-delimiter ruling, FR-209/OQ-009) |
 | 11_Codigo_Trabajo.pdf | cited-as-LB | `payroll/01` LB-001..007; `payroll/02` LB-001..004, LB-011; `payroll/03` LB-001..020; `payroll/04` LB-001..020, LB-022; `payroll/06` LB-013; `payroll/07` LB-001..010, LB-013..021 |
 | 12_Ley_Zonas_Francas.pdf | pending-S2+ | special-regimes wave |
 | 13_Ley_Organica_Aduanas.pdf | pending-S2+ | special-regimes / customs-export wave |
@@ -98,8 +98,8 @@ cited-as-LB.
 
 | Status | Rows |
 |--------|------|
-| cited-as-LB | 41 |
+| cited-as-LB | 46 |
 | superseded-not-cited | 1 (schemas/) |
 | not-applicable-this-wave | 9 |
-| pending-S2+ | 18 |
+| pending-S2+ | 13 |
 | **Total** | **69** |
