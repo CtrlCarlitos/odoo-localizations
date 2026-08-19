@@ -3,7 +3,8 @@
 **For the next controller session.** Written 2026-08-17, updated 2026-08-18 (S3 close),
 2026-08-18 twice more (W9/S4 closes), 2026-08-18 twice more again (W10+S5 prep, then W11 Quincena-25 package),
 2026-08-18 once more (S6 Quincena-25 fold-in close), and 2026-08-18 twice more
-(W12 AML-regime replacement + S5 commercial-legal synthesis close). Read this
+(W12 AML-regime replacement + S5 commercial-legal synthesis close), and
+2026-08-19 once more (§4.6 standard session-close & merge protocol). Read this
 document fully before acting; it is the authoritative cross-session memory
 (conversation context does not survive).
 **Update it at every session boundary** — replace stale sections, append new
@@ -563,7 +564,8 @@ D-GT10 / HN D-H2/D-H3 stay in their country docs.
   duplicated here.
 - Merge country branches to main at milestones by owner decision
   (rebase-then-merge; never force-push; remote refs updated via
-  delete + re-push when history was rebased).
+  delete + re-push when history was rebased). Milestones are normally
+  session closes — standard protocol in §4.6.
 - **Future countries: Colombia, Peru, Nicaragua, Costa Rica, Belize,
   Panama, Dominican Republic** (owner roadmap 2026-08-19; not started).
   Bootstrap per the GT/HN pattern: country dir scaffold + research spec in
@@ -609,6 +611,27 @@ W4 payroll → synthesis (master index + S-waves).
    delta/effective-date/adaptation-window BEFORE synthesis; mark superseded
    files in the registry; old EVIDs stay as history.
 5. **Commit style**: short imperative, no emojis. Push after waves.
+6. **Session close & merge protocol** (standard from 2026-08-19; applies to
+   every country branch — currently `hn-research`, later `sv-research` /
+   `gt-research`):
+   - At session end the owner asks: *"So `Read <cc>/HANDOVER.md and
+     continue.`? Want to merge before we nuke this session?"* — the country
+     named in the prompt is the branch being closed (e.g. hn →
+     `hn-research` in `.worktrees/hn-research`).
+   - Controller closes out: refresh the country HANDOVER (state-at-stop +
+     next actions), commit + push the branch.
+   - Owner forks: request changes (session continues) OR nuke (end
+     session).
+   - **Before nuking, merge the branch back to main:** (1) review what
+     happened last on the branch (`git log main..<branch>` — session
+     commits feed the merge record); (2) rebase the branch onto main's tip
+     — this also picks up any procedure/policy changes committed to main
+     since the last merge, so the close follows current procedures; (3)
+     merge into main (fast-forward after rebase), write the merge record
+     into THIS file §3, commit + push. Never force-push; rewritten remote
+     branch refs are updated via delete + re-push.
+   - A fresh session bootstraps with the prompt: `Read <cc>/HANDOVER.md and
+     continue.`
 
 ## 5. Decisions & rulings register
 
