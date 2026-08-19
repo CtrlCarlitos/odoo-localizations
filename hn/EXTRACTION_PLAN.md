@@ -15,12 +15,33 @@ Started 2026-08-19 (source-research pass complete). Status: active — **evidenc
   10%-of-tax retention + 15% no-discrimination fallback; débito/crédito with
   4-month credit window + pro-rata; L250k simplified regime; Anexo I
   SAC-coded canasta; invoice-date-first taxable event.
-- **W1c (NEXT):** Código Tributario `03_` (242 pp — book-by-book units: RTN/
-  deberes/books/declarations/prescripción/sanciones; Art. 206 VOID per `23_`;
-  post-2020 delta = `89_` D.117-2021). Then D.17-2010 family (`04_/21_/22_`),
-  Eficiencia `05_`, tabla series (`07_-12_` + plantilla formulas).
-- Text extractions done for: 01/02/03/05/23/79/80/89. Pending: 04, 21 (OCR),
-  87 (OCR), tables 07-12 (text+image tables), rest at their wave.
+- **W1c (2026-08-20, DONE):** Código Tributario `03_` (EVID-027..038, 4 OQs).
+  Key: renta TERRITORIAL declaration (Art. 1.2 — tension w/ ISR Art. 2 →
+  OQ); calendar-year + merger succession; earliest-of retention trigger;
+  NIIF books anchor + 30-day posting; 40d/60d start-cese DJs; buzón
+  electrónico; cuenta corriente + Feb depuración ≤1 SMM; prescription
+  4/5/7y; formal-falta multa table (income-range × SMM fractions) + ISR-late
+  5→25% escalator; **mora 3%/month cap 36% (Art. 163)**; RTN suspension;
+  Art. 206 VOID.
+- **W1d (2026-08-20, DONE):** D.17-2010 family `04_`+`21_` (OCR'd) + `22_`
+  (EVID-039..053, 4 OQs). Key: dividend retention mechanics (agreement-date
+  trigger, DAR); cédula alquiler 10% >L15k/property (m² proration);
+  educación 10%; revaluación 6% + Superávit account; **1% compras anticipo**
+  (L15M retainer gate, exemptions, waste-collector interp D.28-2019);
+  L-Art 19 minimum-tax vs 22-A supersession OQ; selectivo vehicles 10-60% +
+  Ecotasa outside ISV base; cigarettes L350/millar IPC+6%cap; beverages
+  2010 per-liter bases; **L-Art 57 = facturación regime statutory birth
+  (already contemplated "factura electrónica")**.
+- **W1e (2026-08-20, DONE):** tabla series `07_-12_` + plantilla `11_`
+  (EVID-054..056, 4 OQs). Key: five FY vintages OCR-recovered (2022-2026);
+  **plantilla = computation contract**: annualize → deduct (40k/80k+30k@60+
+  350k@65≤350k stack, pension contribs RAP/AFP/public) → annual table →
+  ÷months prorate; 10×SMM excess-only caps (13th/14th); vacaciones 360-day
+  divisor; DMR/código-111 export contract. New leads: Reglamento Ley ISR
+  (Art. 51), STSS-308-2022, D.199-2006, D.194-2002.
+- **W1f (NEXT):** Ley Eficiencia `05_` (20pp, extracted) + remaining
+  taxation-core reads (`23_` sentencia detail, `79_/80_` reforms already
+  extracted). Then W2: fiscal-reporting procedures (14-20_ + Ayudas).
 
 ## Context
 
