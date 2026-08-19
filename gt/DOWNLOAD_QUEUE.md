@@ -1,33 +1,36 @@
-# GT — Manual Download Queue (ruling OQ2) — rev 4
+# GT — Manual Download Queue (ruling OQ2) — rev 5
 
-`portal.sat.gob.gt` blocks all non-browser clients (Cloudflare). Per ruling
-OQ2 you download these in a normal browser; I verify (page-1 read), rename to
-`NN_...`, register, and commit. Drop files into
-`.worktrees/gt-research/gt/sources/inbox/`.
+Browser-only items remaining after W1–W5 automated acquisition. Drop files
+into `.worktrees/gt-research/gt/sources/inbox/` (any filename; I verify,
+rename, register).
 
-## Status 2026-08-18 (rev 4)
+## A. legal.dca.gob.gt interactive search (Edición Legal — works in a real
+browser; "Búsqueda avanzada" → filters by organismo/tipo/año + texto)
 
-**DONE & REGISTERED (25 files)**: 01–05, 06 (real copy via Wayback), 07–14
-(12 = real 1240 via Wayback), 15, 16, 17 (Wayback), 18, 19 (Wayback), 22, 23
-(Wayback), 24, 25, 28, 29, 30, 31. All verified; SAT mislabels and swap
-incidents recorded in `SOURCE_RESEARCH.md`.
+| # | Save as | Search |
+|---|---------|--------|
+| 37 | 37_Salario_Minimo_AG_256-2025.pdf | Acuerdos Gubernativos 2025 (dic-2025) — "256-2025" (salarios mínimos; amounts known: C1 3,791.20/4,002.28/3,409.73; C2 3,625.89/3,816.90/3,321.10 monthly, eff 2026-01-01) |
+| 41 | 41_Bono14_D78-89.pdf | Decretos 1989 — "78-89" (bonificación anual; Q250/mes rate already confirmed via DCA news) |
+| — | gt_sources_aml_ley.pdf (any name) | Decretos 2001 — "Lavado de Dinero" (expected Decreto 67-2001 — VERIFY identifier from the document itself) |
+| — | gt_sources_aml_reglamento.pdf | Acuerdos Gubernativos 2006 — "Lavado" (expected AG 75-2006 — verify) |
+| — | gt_sources_zf_successor.pdf | Decretos 2022 — "Zonas Francas" / "Exportación" (check whether Decreto 16-2022 exists; if only AG 65-2022 (reformas al reglamento) surfaces, grab that too) |
+| — | gt_sources_iva_27-92_post2018.pdf | Decretos 1992 → 27-92 — look for a consolidated edition listing reforms through ≥2018 (must include Art. 29-"A" FEL hook; closes OQ10) |
+| — | gt_sources_decreto_6-2021.pdf | Decretos 2021 — "6-2021" (verify existence + subject; OQ4) |
 
-## REMAINING — 2 items (live official URLs, re-found after re-id/re-category)
+## B. SAT portal (portal.sat.gob.gt — works in browser)
 
-| # | Save as | URL |
-|---|---------|-----|
-| 26 | 26_LAT_10-2012.pdf | https://portal.sat.gob.gt/portal/descarga/1899/legislacion-tributaria/78389/decreto-no-10-2012-ley-de-actualizacion-tributaria-2 (landing page: https://portal.sat.gob.gt/portal/wpfd_file/decreto-no-10-2012-ley-de-actualizacion-tributaria-2/ — use its download button if the direct link balks; note: no .pdf extension in slug is intentional) |
-| 20 | 20_FEL_anulacion_manual.pdf | https://portal.sat.gob.gt/portal/descarga/15747/manuales/72293/manual-de-usuario-factura-electronica-fel-anulacion-2.pdf |
+| # | Save as | Where |
+|---|---------|-------|
+| 58 | 58_SAT_LET_IVAGeneral_Manual.pdf | https://portal.sat.gob.gt/portal/descarga/16486/libros-tributarios-eletronicos/79306/manual-let-para-iva-general-2.pdf (never archived; if dead, from the LET hub page) |
+| — | (instructivos, any names) | Formularios listing → instructivos for **SAT-2237, SAT-1371, SAT-1361, SAT-2046, SAT-1321** (cat 15812; AJAX-gated listing — grab what the listing exposes) |
+| — | (calendario notes, any format) | Calendario Tributario page → the farm2 JSF app: transcribe/photograph the vencimiento windows per NIT last-digit (no static PDF exists) |
+| — | (normativa listing finds) | Biblioteca en línea → Normativa SAT listing (AJAX): look for the LET creating resolution + Dto 20-2006 / AG 425-2006 texts |
 
-## OPTIONAL — 1 item (firma electrónica manual; superseded-check on arrival)
+## C. Low priority / opportunistic
 
-| # | Save as | URL |
-|---|---------|-----|
-| 21 | 21_FEL_firma_electronica_manual.pdf | https://portal.sat.gob.gt/portal/descarga/15747/manuales/75322/1-manual-de-usuario-fel-habilitacion-acreditacion-descarga-de-firma-electronica.pdf |
-
-## DROPPED
-
-- ~~27 LAT 10-2012 consolidada 2017 (id 6432)~~ — never archived, unpublished
-  at SAT, superseded by the live re-id 78389 (= item 26 above).
-- If 20/21 above fail in-browser too, Wayback fallbacks exist
-  (2023-11-27 / 2024-04-13 snapshots) — tell me and I'll fetch them.
+- Registro Mercantil site (in maintenance 2026) — recheck later for restored
+  `regulaciones/` library + current aranceles (we hold the 2022 snapshot, 73_).
+- MINFIN legislación page → AG 65-2022 PDF (reformas Reglamento ZF 242-90) —
+  closes half of OQ15.
+- FEL "Reglas y validaciones" historical chain (1.5.1→1.7.9) — optional
+  historical LBs; only if trivially reachable.
