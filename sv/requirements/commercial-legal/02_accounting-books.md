@@ -19,7 +19,8 @@ with notice to the state watchdog office; the Art. 436 language/currency/
 in-country-keeping trinity; the Art. 437 keeper thresholds (US$12,000
 individuals / all *sociedades*, companies); the Art. 438 legalization
 regime (Contador Público / Auditor Externo authorization, folios, opening
-*razón*, formal statement); the NO-ALTERATION regime of Art. 439 and its
+*razón* — the first-leaf formal statement: merchant, object, sheet count,
+place and delivery date); the NO-ALTERATION regime of Art. 439 and its
 Art. 440 extension to every statutory register; the Art. 446
 first-*Diario*-partida opening balance and register-shape freedom; the
 Art. 447 labor-obligation provision; the Art. 452 simplified single bound
@@ -27,7 +28,7 @@ book for sub-US$12,000 individuals; and the retention family of
 Arts. 451/454/455 — 10 years plus 5 post-liquidation, *facturas anexas*
 (annexed invoices) and correspondence, and the 24-month media-migration
 rule — synthesized with the AML ≥15-year regime of D.L. 426 Art. 26 into
-the **SOQ-28 canonical retention matrix** (one FR, §3.8), the single
+the **SOQ-28 canonical retention matrix** (one FR, §3.7), the single
 objects-×-retention table the whole localization consumes.
 
 It does **not** cover: annual financial statements, their certification and
@@ -89,7 +90,7 @@ root here; DTE/RG conservation mechanics and archive tiers are e-invoicing
 `04_signing_delivery.md` §3.7 (SV-EINV-FR-152..158) under CT 147 as
 reformed by D.L. 487-2022, with SaaS custody tiers per
 `shared/docs/saas-thin-client-architecture.md` D3 — both consumed by id in
-the §3.8 matrix and never restated.
+the §3.7 matrix and never restated.
 
 | ID | Citation (Spanish) | English translation | Source file | Location |
 |----|--------------------|---------------------|-------------|----------|
@@ -105,7 +106,7 @@ the §3.8 matrix and never restated.
 | LB-010 | Código de Comercio, Art. 452: "Los comerciantes individuales cuyo activo en giro sea inferior a los doce mil dólares de los Estados Unidos de América, llevarán un libro encuadernado para asentar separadamente los gastos, compras y ventas, al contado y al crédito. En dicho libro harán, al final de cada año, un balance general de todas las operaciones de su giro, con especificación de los valores que forman el activo y el pasivo." | Individual merchants whose business assets are below twelve thousand US dollars keep ONE bound book entering separately expenses, purchases and sales, in cash and on credit; in that book they make, at the end of each year, a balance general of all the year's operations, specifying the values forming assets and liabilities | `sv/sources/07_Codigo_Comercio.pdf` | Art. 452 p.86 (EVID-216; txt PAGE 85-86) |
 | LB-011 | Código de Comercio, Art. 454: "Las cartas, telegramas y facturas que reciban y las copias de las que expidan los comerciantes, que sirvan de comprobantes para los aspectos contables, se considerarán anexas a la contabilidad y deberán conservarse durante el tiempo indicado en el Art. 451." | The letters, telegrams and invoices (facturas) merchants receive, and the copies of those they issue, that serve as supporting documents for accounting purposes, are considered ANNEXED to the accounting and must be conserved for the period indicated in Art. 451 | `sv/sources/07_Codigo_Comercio.pdf` | Art. 454 p.85 (EVID-215; txt PAGE 85) |
 | LB-012 | Código de Comercio, Art. 455: "Los comerciantes podrán hacer uso de microfilm, de discos ópticos o de cualquier otro medio que permita archivar documentos e información, con el objeto de guardar de una manera más eficiente los registros, documentos e informes que le correspondan, una vez transcurridos por lo menos veinticuatro meses desde la fecha de su emisión. Las copias o reproducciones que deriven de microfilm, disco óptico o de cualquier otro medio, tendrán el mismo valor probatorio que los originales siempre que tales copias o reproducciones sean certificadas por Notario, previa confrontación con los originales. En caso de falsedad, se estará a lo dispuesto en el Código Penal." | Merchants may use microfilm, optical discs or any other means permitting archival of documents and information, to store more efficiently the registers, documents and reports they owe, once AT LEAST TWENTY-FOUR MONTHS have elapsed from the date of emission. Copies or reproductions derived from microfilm, optical disc or any other means have the same probative value as the originals, provided they are certified by a Notary after confrontation with the originals. In case of falsity, the Penal Code applies | `sv/sources/07_Codigo_Comercio.pdf` | Art. 455 p.86 (EVID-215; txt PAGE 86) |
-| LB-013 | Ley Contra el Lavado de Dinero y de Activos (D.L. 426), Art. 26: "Los sujetos obligados deben mantener por un período no menor de quince años los registros necesarios sobre transacciones realizadas, tanto nacionales como internacionales, sean originadores o beneficiarios, que permitan responder de forma inmediata las solicitudes de información de los entes de supervisión correspondientes, de la Fiscalía General de la República y de los tribunales competentes, relacionados al lavado de activos, el financiamiento del terrorismo y financiamiento de la proliferación de armas de destrucción masiva, tales registros servirán para reconstruir cada transacción, a fin de proporcionar, de ser necesario, pruebas de conducta delictiva. Los sujetos obligados deben archivar y conservar la documentación de las operaciones de las que sean originadores o beneficiarios, por el plazo mencionado en el inciso anterior, el cual se empezará a contar a partir de la fecha de la finalización de cada transacción. Los datos de identificación del cliente y archivos de cuentas también deberán conservarse por el mismo plazo, contado a partir de la terminación de la relación comercial o cierre de cuentas." | Obligated subjects (sujetos obligados) must maintain for a period of NOT LESS THAN FIFTEEN YEARS the records necessary on transactions performed, national or international, as originators or beneficiaries, allowing immediate response to information requests from supervisors, the FGR and the competent courts (AML/CFT/CPF-related), records that serve to RECONSTRUCT each transaction. They must archive and conserve the documentation of operations of which they are originators or beneficiaries for the same period, counted from the date of FINALIZATION OF EACH TRANSACTION. Client identification data and account files must also be conserved for the same period, counted from TERMINATION OF THE COMMERCIAL RELATIONSHIP OR ACCOUNT CLOSURE | `sv/sources/71_Ley_LavadoActivos_DL426_2025.pdf` | Art. 26 pp.20-21 (EVID-244; txt PAGE 20-21) |
+| LB-013 | Ley Contra el Lavado de Dinero y de Activos (D.L. 426), Art. 26: "Los sujetos obligados deben mantener por un período no menor de quince años los registros necesarios sobre transacciones realizadas, tanto nacionales como internacionales, sean originadores o beneficiarios, que permitan responder de forma inmediata las solicitudes de información de los entes de supervisión correspondientes, de la Fiscalía General de la República y de los tribunales competentes, relacionados al lavado de activos, el financiamiento del terrorismo y financiamiento de la proliferación de armas de destrucción masiva, tales registros servirán para reconstruir cada transacción, a fin de proporcionar, de ser necesario, pruebas de conducta delictiva. Los sujetos obligados deben archivar y conservar la documentación de las operaciones de las que sean originadores o beneficiarios, por el plazo mencionado en el inciso anterior, el cual se empezará a contar a partir de la fecha de la finalización de cada transacción. Los datos de identificación del cliente y archivos de cuentas también deberán conservarse por el mismo plazo, contado a partir de la terminación de la relación comercial o cierre de cuentas. Los sujetos obligados podrán hacer uso de medios electrónicos u otros mecanismos, para el debido resguardo de todo tipo de información que sea objeto de la presente ley." | Obligated subjects (sujetos obligados) must maintain for a period of NOT LESS THAN FIFTEEN YEARS the records necessary on transactions performed, national or international, as originators or beneficiaries, allowing immediate response to information requests from supervisors, the FGR and the competent courts (AML/CFT/CPF-related), records that serve to RECONSTRUCT each transaction. They must archive and conserve the documentation of operations of which they are originators or beneficiaries for the same period, counted from the date of FINALIZATION OF EACH TRANSACTION. Client identification data and account files must also be conserved for the same period, counted from TERMINATION OF THE COMMERCIAL RELATIONSHIP OR ACCOUNT CLOSURE. Obligated subjects may use electronic means or other mechanisms for the due safekeeping of every type of information that is the object of this law | `sv/sources/71_Ley_LavadoActivos_DL426_2025.pdf` | Art. 26 pp.20-21 (EVID-244; txt PAGE 20-21) |
 
 ## 3. Functional Requirements
 
@@ -120,7 +121,7 @@ the §3.8 matrix and never restated.
   demanded by accounting exigency or by law (additions tracked as register
   records, §4); and correspondence plus probative documents kept in good
   order (document-order/completeness surfaced as a compliance attribute of
-  the archive, consumed by the §3.8 retention matrix).
+  the archive, consumed by the §3.7 retention matrix).
   (LB-001; EVID-213)
 - **SV-CML-FR-019:** The system shall treat electronic bookkeeping as
   EXPRESSLY LEGAL per Art. 435: accounting may be kept on *hojas separadas*
@@ -213,7 +214,7 @@ the §3.8 matrix and never restated.
   disciplines to EVERY statutory register merchants must keep by law, even
   non-accounting ones (Art. 440): castellano/USD/in-country keeping,
   legalization data and the no-alteration regime apply to society books
-  (*actas*, registro de socios/accionistas, capital-variable movements —
+  (*actas* — minutes —, registro de socios/accionistas, capital-variable movements —
   content owned by `04_society-types.md`), the agentes' *libro especial*
   (Art. 388, `06_commercial-agents.md`) and any other statutory register —
   each register record inheriting the §3.1/§3.3/§3.4 discipline flags.
@@ -244,7 +245,10 @@ the §3.8 matrix and never restated.
   Libro Segundo professional-obligation set while Art. 452 installs the
   simplified book for the same threshold population — both texts are
   current under SOQ-22; the simplified book is the survivor of the
-  obligation, not a contradiction. (LB-010; EVID-216)
+  obligation, not a contradiction (working reading — the Art. 15 Título I
+  exemption for the below-US$12,000 single-book population coexists with
+  Art. 452's simplified book; no corpus instrument arbitrates the pairing).
+  (LB-010; EVID-216)
 
 ### 3.7 Retention matrix (Arts. 451, 454, 455; D.L. 426 Art. 26; CT 147) — SOQ-28 deliverable
 
@@ -256,7 +260,7 @@ the §3.8 matrix and never restated.
   | Row | Object class | Regime | Retention floor | Clock anchor | Authority |
   |-----|--------------|--------|-----------------|--------------|-----------|
   | a | Statutory books and registers of the giro: Diario, Mayor, Estados Financieros registro, additional accounting registers (Art. 435), every Art. 440 statutory register (incl. society books and the Art. 452 simplified book) | CC | 10 years, extended up to 5 years after liquidation of ALL the merchant's mercantile businesses; binds merchants AND their heirs/successors | Art. 451 fixes no express start; system uses register close (last entry) as the conservative anchor — OQ-003 | LB-009 (+LB-006); EVID-215 |
-  | b | *Facturas anexas*: received letters, telegrams and facturas + copies of issued ones serving as accounting comprobantes (DTE-era: issued/received DTEs, their RG and declaration-annex files are this factura/comprobante class — row e owns the DTE-specific mechanics) | CC | same clock as row a — *anexas a la contabilidad* (incl. the post-liquidation extension) | via Art. 454 → Art. 451; per-document emission anchor for the copy/received date | LB-011; EVID-215 |
+  | b | *Facturas anexas*: received letters, telegrams and facturas + copies of issued ones serving as accounting *comprobantes* (supporting/voucher documents; DTE-era: issued/received DTEs, their RG and declaration-annex files are this factura/comprobante class — row e owns the DTE-specific mechanics) | CC | same clock as row a — *anexas a la contabilidad* (incl. the post-liquidation extension) | via Art. 454 → Art. 451; per-document emission anchor for the copy/received date | LB-011; EVID-215 |
   | c | Media migration of records (microfilm, optical disc, any archival medium) | CC | original-medium preservation required ≥24 months from emission before migrating; notarized copy (certified by *Notario* after confrontation with originals) carries the SAME probatory value as the original | emission date + 24 months | LB-012; EVID-215 |
   | d1 | AML transaction records (of *sujetos obligados*, obligated subjects) | AML | ≥15 years — the uniform W12 rule; the pre-2025-10-17 law's 5y-docs/15y-registers split is DEAD | finalization of EACH transaction (operation end) | LB-013; EVID-244 |
   | d2 | AML client-identification data and account files (of *sujetos obligados*) | AML | ≥15 years, same uniform rule | termination of the commercial relation or account closure (relation end) | LB-013; EVID-244 |
@@ -279,8 +283,8 @@ the §3.8 matrix and never restated.
   any row; the Tier A local mirror satisfies row e's conservation and
   rows a/b's in-country posture (FR-020). (v) Sanction: Art. 451
   inciso 2 — the Registrador refuses or cancels the matrícula of
-  violators (cross-ref SV-CML-FR-012).
-  (LB-009; LB-011; LB-013; EVID-215/244)
+  violators (cross-ref   SV-CML-FR-012).
+  (LB-009; LB-011; LB-012; LB-013; EVID-215/244)
 - **SV-CML-FR-029:** The system shall compute and enforce per-object
   retention from the FR-028 matrix: every retained object (journal entry,
   invoice/comprobante, statutory register, AML client file, archived DTE)
