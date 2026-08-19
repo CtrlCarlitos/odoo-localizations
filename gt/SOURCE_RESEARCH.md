@@ -227,3 +227,85 @@ confirmation.
   (anulación manual, live re-category 15747), 21 (firma electrónica manual,
   live re-category 15747). **Corpus: 30 registered entries (01–31 minus
   dropped 27; +29/30 dirs +31 html)**. W1 acquisition phase CLOSED.
+
+## Wave log (continued)
+
+### W3 — payroll sweep (COMPLETE 2026-08-18; acquisition DONE)
+
+3 parallel sweeps returned (W3 payroll / W4 fiscal-reporting+W2-residuals /
+W5 COA+commercial-legal+special-regimes). Domain findings: igssgt.org,
+irtra.org.gt, intecap.edu.gt, mineco.gob.gt fetch DIRECT (live); mintrabajo
+403 (Wayback); congreso + registromercantil unusable (empty / maintenance);
+legal.dca.gob.gt live but JS-only search (owner browser items queued).
+
+**W3 acquisitions (12)**: 32 Código de Trabajo D-1441 (ed. Digital, 188pp),
+33 IGSS Ley Orgánica D-295 + D-11-2004, 34 IGSS SSO AG 229-2014 (+33-2016,
+57-2022), 35 IGSS Res. 08-SGF/2026 recaudación (the cuota apparatus), 36 IGSS
+guía Recaudación, 38 AG 250-2020 salario, 39 Historia salarios, 40 Aguinaldo
+D-42-92, 42 IRTRA D-15-1928 (disproves "AG 795"), 43/44 IRTRA AG 5/6-2005,
+45 INTECAP Ley Orgánica **D-17-72** (disproves AG 445-86), 46 INTECAP
+Reglamento tasa patronal, 47 SAT patronos-retención-ISR 2025.
+**Pending**: 37 AG 256-2025 (salario 2026 — amounts verified via DCA news:
+C1 agrícola Q3,791.20/no-agrícola Q4,002.28/maquila Q3,409.73; C2
+Q3,625.89/Q3,816.90/Q3,321.10; eff 2026-01-01 + bonificación incentivo
+D-78-89 Q250/mes), 41 D-78-89 PDF — both DCA-browser items.
+
+### W4 — fiscal reporting sweep (COMPLETE 2026-08-18; acquisition DONE)
+
+**Form family verified** (master inventory snapshot 48_): IVA general =
+**SAT-2237**; ISR anual = **SAT-1371** (2236 = legacy pre-2013, REJECTED);
+asalariados = SAT-1411; ISR trimestral (anticipos) = SAT-1361; pequeño =
+2046/2241(FEL); retenciones ISR = 1321, IVA = 2340/2320; boleta 2000.
+**Retenciones basis = Decreto 20-2006 + Reglamento AG 425-2006** ("resolución
+2-2010" REJECTED — no official trace). IVA-retention 15 días hábiles; ISR
+10 días + constancias 5 días (49_/50_ page snapshots). Acquisitions (16):
+48-57, 59-65. **Pending**: 58 LET IVA-General manual (live URL, never
+archived); form instructivos cat 15812 (AJAX-gated); calendario tributario =
+JSF app only, no static PDF exists (FLAG: transcribe windows via browser);
+Dto 20-2006 + AG 425-2006 PDFs (not in CDX descarga tree — DCA browser);
+retention percentages + anticipo article live inside law texts we hold
+(26_/28_) → evidence pass.
+
+### W5 — COA/commercial-legal/special-regimes sweep (COMPLETE 2026-08-18; acquisition DONE)
+
+Acquisitions (8): 66 Código de Comercio D-2-70 (MINFIN copy, 301pp), 67-72
+MINECO zonas-francas/maquila set (D-65-89 + AG 242-90 [reformed by AG 65-2022
+per MINFIN — successor-regime question open], D-29-89 + AG 533-89 + AG
+253-2001[?] reforms + AG 296-94 fondo), 73 RM aranceles.
+**No statutory PCGA codification exists** — GAAP anchor = Código de Comercio
+libros/contabilidad provisions (professional-body standards non-registrable
+per policy). **AML = MAIN GAP**: Decreto 67-2001 + AG 75-2006 + Q2,000
+threshold all UNVERIFIED from instrument text — only route =
+legal.dca.gob.gt interactive (owner browser). "Decreto 16-2022" ZF-replacement
+law UNVERIFIED (AG 222-2022 = ZOLIC-specific, not the national regime; AG
+65-2022 reformed the 1990 reglamento → D-65-89 regime still alive as of
+2022). Reglamento del Código de Comercio: no numbered instrument found (OQ).
+RM site in maintenance.
+
+## Open questions (additions, W3-W5)
+
+11. **OQ11**: IGSS cuota split (patronal 12.67% / laboral 4.83% priors) +
+    INATEC share — verify inside 35_/36_ (rates not on any official HTML).
+12. **OQ12**: IRTRA cuota mensual brackets — extract from 42_/43_/44_.
+13. **OQ13**: IVA-retention percentage + ISR retention rates — inside Dto
+    20-2006 / AG 425-2006 (NOT yet in corpus) + LAT arts. (26_/28_ held).
+14. **OQ14**: AML identifiers (D-67-2001? AG 75-2006? Art. 51 Q2,000
+    efectivo-documentation rule?) — legal.dca.gob.gt browser hunt.
+15. **OQ15**: ZF successor law ("Decreto 16-2022"?) unverified; AG 65-2022
+    reformed AG 242-90 reglamento (our copy predates it) — acquire AG 65-2022
+    (MINFIN page → PDF) + verify successor-law status via DCA.
+16. **OQ16**: Reglamento del Código de Comercio — does a numbered instrument
+    exist? (No candidate found in any official sweep.)
+
+## Acquisition log (additions)
+
+- 2026-08-18 (W3/W4/W5 bulk acquisition) — **36 files registered** (32-36,
+  38-40, 42-57, 59-66, 67-73; gaps 37/41/58 reserved-pending). Live-direct:
+  igssgt/irtra/intecap/mineco. Wayback: SAT portal + mintrabajo + minfin + RM
+  (each with snapshot provenance + re-verify flags). Incidents: (a) web
+  .archive.org rate-limited mid-batch — sequential retry recovered all; (b)
+  large-file truncation at exact 1/5MiB boundaries on some id_ captures —
+  fixed via alternate captures (65 via 2022 capture; 66 via 2024-06-12; 32
+  via plain re-fetch); (c) 39's 2024 capture = HTML stub (mintrabajo site
+  rebuild) — 2022 PDF capture used; (d) IRTRA wp-content 403s plain curl —
+  browser-UA + referer worked. **Corpus now 66 files + 2 dirs.**
