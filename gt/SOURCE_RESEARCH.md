@@ -174,4 +174,20 @@ confirmation.
   (misses recorded); byte-diff measured → OQ3.
 - 2026-08-18 — Manual queue (28 items + optional) handed to owner
   (`gt/DOWNLOAD_QUEUE.md`); inbox/ staged + git-ignored.
+- 2026-08-18 (owner downloads batch 1 + 2) — **19 files registered**:
+  01/02/03 (FEL acuerdos), 15 (Reglas y validaciones **v1.7.10 Febrero 2025**
+  — newer than the agent's 1.7.9 chain; header also prints "VERSIÓN 2.0" →
+  reconcile in evidence pass), 16 (Doc. Técnico Servicios, 27pp = updated vs
+  20pp 2020 archive), 18, 22 (42pp = updated), 24, 25 (CT 95pp), 28,
+  31 (certificadores snapshot), 05/07/08/09/10/11/13/14 (FEL incorporation
+  resolutions; all DCA gazette prints, OCR-verified content). **Registry note:
+  AD 15-2020 cites Ley IVA Art. 29-"A" → the 23_ Ley IVA acquisition MUST be
+  a post-2018 reformed edition.**
+- 2026-08-18 (SAT portal defects recorded) — three incidents: (a) id 17662
+  labeled SAT-DSI-639-2020 serves **Resolución SAT-S-639-2011** (rejected);
+  (b) id 57855 labeled SAT-DSI-1240-2021 serves **1218-2021 content**
+  (duplicate of 11_; rejected — the real 1240 mass-mandate resolution still
+  needed); (c) ids 46321/18261/18270/6432/25545 → "unpublished file(s)".
+  Lesson recorded: **SAT portal label ≠ content — verify every download**
+  (kin to SV factura.gob.sv wpdmdl shuffle).
 
