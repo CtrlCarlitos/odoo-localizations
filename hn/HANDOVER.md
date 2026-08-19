@@ -184,10 +184,25 @@ context does not survive). Update it at every session boundary.
     key).
 4. **W4 payroll:** `86_` CT (verify vintage vs `85_` derogations),
     bienio tables, IHSS/RAP architecture, D. 47-2024 OCR rates page.
-5. **Merge coordination** (user call): review `hn-research` → merge to
-    `main`; AT MERGE update root `HANDOVER.md` §"GT / HN" (stale: says
-    "scaffolded only") and fold HN rulings into its register per repo
-    convention.
+5. **Merge coordination — USER OWNS THE MERGE (2026-08-20 session stop):**
+     the user will merge `hn-research` → `main` personally. AT MERGE:
+     (a) update root `HANDOVER.md` §"GT / HN" (stale: says "scaffolded
+     only") and fold HN rulings into its register per repo convention;
+     (b) **USER INTENT (recorded 2026-08-20, session-stop note): uniform
+     shared rules for the 3 countries** — the user wants the parallel-decided
+     families harmonized cross-country at merge. Known candidates:
+     D-H2 (temporal validity) ↔ SV's parallel decision on the same prompt;
+     D-H3 (go-live ingestion) ↔ SV's parallel decision; D-H1
+     (journal/sequence architecture) ↔ SV D13/D14; E-Arts-5/10-VOID-style
+     never-implement invariants; title-vs-content verification discipline;
+     prescription/retention regimes. Direction = one shared-doc rule set
+     where the problem is country-neutral, country sections only for
+     genuinely local surfaces (CAI gate vs MH transmission, etc.). HN
+     session has NOT done this harmonization — it is a merge-time task,
+     user-driven.
+     Session state at stop: commits through `46a5e24` (pushed); worktree
+     clean; taxation core evidence CLOSED (EVID-001..071, 27 open OQs);
+     corpus 100 files; W2 fiscal reporting = next evidence wave.
 
 ## 7. Conventions (mirroring SV)
 
