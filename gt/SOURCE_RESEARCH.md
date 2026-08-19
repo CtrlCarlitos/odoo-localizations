@@ -275,10 +275,14 @@ D-78-89 Q250/mes), 41 D-78-89 PDF — both DCA-browser items.
 
 ### W4 — fiscal reporting sweep (COMPLETE 2026-08-18; acquisition DONE)
 
-**Form family verified** (master inventory snapshot 48_): IVA general =
-**SAT-2237**; ISR anual = **SAT-1371** (2236 = legacy pre-2013, REJECTED);
-asalariados = SAT-1411; ISR trimestral (anticipos) = SAT-1361; pequeño =
-2046/2241(FEL); retenciones ISR = 1321, IVA = 2340/2320; boleta 2000.
+**Form family verified** (master inventory snapshot 48_; **row-level
+re-verification W-GT4 corrected the W4-era misread — authoritative mapping:
+IVA general = SAT-2237; ISR anual lucrativas = SAT-1411; asalariados anual =
+SAT-1431; ISR no-residentes pago directo mensual = SAT-1371 (the old "ISR
+anual = 1371" was wrong; 2236 = legacy pre-2013, REJECTED); ISR retenciones
+= SAT-1331 (1321 = ISR capital mensual); ISR trimestral (anticipos) =
+SAT-1361; pequeño = 2046/2241(FEL); retenciones IVA = 2340/2320; boleta
+2000**);
 **Retenciones basis = Decreto 20-2006 + Reglamento AG 425-2006** ("resolución
 2-2010" REJECTED — no official trace). IVA-retention 15 días hábiles; ISR
 10 días + constancias 5 días (49_/50_ page snapshots). Acquisitions (16):
@@ -415,3 +419,15 @@ LET-pequeño md5-identical).
   = new acquisition candidate** (it is also the Reglas-v2.0 DTE-type source:
   FEPE/FARP/FCRP/FPEC/FCPC). The consolidated-IVA hunt (OQ10) continues for
   Art. 29-"A" text + D-31-2024 layers.
+- **OQ18 (new, W-GT4)**: 5% IVA-retention rates printed by 49_/52_
+  (Pequeño Contribuyente suppliers, ops ≥ Q2,500.01; Régimen Especial
+  Agropecuario, on total factura) vs the W-GT2-resolved D-20-2006/AG
+  425-2006 matrix (65/15/25/15/1.5 + Q2,500 abstention, AG 5-2013 art. 49).
+  The 5% rows look like additional regimes, not contradictions — reconcile
+  against LIVA/Reglamento law text (23_/24_, both in corpus) before
+  synthesis merges them into the retention-rate catalog. Related: 52_ prints
+  the "art. 54 B" D-27-92 full-accounting agent path ("54 B" vs "54 BIS"
+  nomenclature needs the post-2018 consolidated IVA print, OQ10 kin).
+- **W-GT4 evidence-file OQs**: ~45 per-file OQ-1..OQ-n live across the 6
+  W-GT4 evidence files — MOQ-roll into a master index at synthesis prep
+  (SV pattern; same as W-GT1..3's ~95).

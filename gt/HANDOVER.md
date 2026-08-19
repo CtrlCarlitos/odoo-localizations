@@ -4,8 +4,10 @@
 source-research sessions (W1–W5 + owner DCA batches); updated 2026-08-19
 (convergence-audit session: shared-rules D16 reconciliation +
 EXTRACTION_PLAN draft); updated 2026-08-19 again (W-GT1 evidence-pass
-session: plan approved, FEL stack read, evidence committed). Read this
-fully before acting; it is the authoritative cross-session memory.
+session: plan approved, FEL stack read, evidence committed); updated
+2026-08-19 again (W-GT4 evidence-pass session: fiscal reporting read,
+form-identity corrections, evidence committed). Read this fully before
+acting; it is the authoritative cross-session memory.
 **Update it at every session boundary.**
 
 Session bootstrap command: `Read gt/HANDOVER.md and continue.`
@@ -16,8 +18,8 @@ GT requirements-extraction for the Odoo localization, per
 `shared/docs/requirements-extraction-procedure.md` (method spine) and the SV
 corpus as precedent. Currently in **Stage 1/2 (evidence waves)**:
 EXTRACTION_PLAN approved 2026-08-19; **W-GT1 (FEL stack) + W-GT2 (taxation
-core) + W-GT3 (payroll) COMPLETE** — 14 evidence files committed
-(EVID-001..370); W-GT4 (fiscal reporting) is next.
+core) + W-GT3 (payroll) + W-GT4 (fiscal reporting) COMPLETE** — 20 evidence
+files committed (EVID-001..500); W-GT5 (COA + commercial-legal) is next.
 Product architecture context: root `HANDOVER.md` §1 (SaaS thin-client + Odoo;
 Takumi consumes requirements).
 
@@ -76,7 +78,9 @@ Integral (17-jun-2026)**, RM edictos + aranceles).
 **Known-stale instruments retained deliberately** (supersession discipline):
 23_ (IVA pre-FEL), 68_ (ZF reglamento pre-check), 75_ (AML, likely
 superseded by 77_ D-15-2026 — derogation inventory pending), 17_/19_ (2018
-vintage FEL docs). Reform chains are recorded in SOURCE_RESEARCH.md.
+vintage FEL docs), **55_ (pequeño digest = undated ~2013 body still live at
+the 2024 capture — W-GT4)**. Reform chains are recorded in
+SOURCE_RESEARCH.md.
 
 ## 5c. W-GT3 facts a synthesis session MUST know (2026-08-19)
 
@@ -119,6 +123,84 @@ vintage FEL docs). Reform chains are recorded in SOURCE_RESEARCH.md.
   DUCA + SAT-2901 FYDUCA + SAT-2311/2799; window 01-Jan → 10th día hábil
   enero; Formulario SAT-1111 + Constancia; re-filing last-wins (priors =
   ANULADAS) + must report to patrono.
+
+## 5d. W-GT4 facts a synthesis session MUST know (2026-08-19)
+
+- **FORM-IDENTITY CORRECTIONS (material — bind S-GT2/S-GT4 synthesis)**:
+  ISR anual lucrativas = **SAT-1411**; asalariados anual = **SAT-1431**;
+  SAT-1371 = **ISR no-residentes pago directo mensual**; ISR retenciones =
+  **SAT-1331** (1321 = ISR capital mensual). The W4-era research note
+  ("ISR anual = 1371") was a table misread, corrected row-level against the
+  48_ snapshot (2025-10-06). Rejected-myths list + registry + plan updated.
+- **48_ channel model**: every tax declaration is Declaraguate-only;
+  AsisteLight carries ZERO vigente forms (legacy); 27 admin forms
+  paper-only; the 24 Anexo forms are generated inside SAT apps
+  (RETENCIONES WEB, RETENISR, EXENIVA, PLANILLA IVA-FEL, AGENCIA VIRTUAL) —
+  a fifth filing surface. SAT-1111 dual identity (current PLANILLA IVA-FEL
+  app + superseded paper ISR planilla). SAT-2390 ABSENT from 48_: devolución
+  CF family = 2124 (general, paper) + 2053/2062/2073 exportadores (ante B
+  de Guatemala); electronic dev.CF forms live outside the 4 tables.
+- **18 dated-validity strings** captured (e.g. 2237/2046 "Septiembre 2013
+  en adelante"; NoVigentes table = valid_to ledger; printed 1-month
+  overlap IVA cluster flagged).
+- **RetWeb**: SAT-2340 = 15 días hábiles (general+pequeño) but **SAT-2320
+  agro = 10 días hábiles**; 51_ p.9 = full ISR retention concept catalog
+  (~30 conceptos, rate/base formulas); 52_ = "art. 54 B" D-27-92
+  full-accounting agent path (retain only vs Agropecuario sin calificación;
+  card payments exit the base); **5% pequeño (ops ≥Q2,500.01)/agro rates =
+  OQ18** (additional regimes to reconcile vs W-GT2 matrix in 23_/24_);
+  53_ roster as-of 2025-10-01, ~8.4-8.5k agents, columns
+  NIT/name/fecha-inicio only; SAT-0261 = voluntary "Otros Agentes"
+  inscription (D-20-2006 art. 6).
+- **Pequeño/libro (55_/61_)**: 55_ = undated ~2013 body still live at the
+  2024-05-13 capture (2043/2047 era; AG 5-2013; pre-FEL) — every number
+  as-of; 61_ = ~2018+ LET/SAT-2046 era. Q150,000 threshold attributed by
+  55_ fn.1 to **D-4-2012 arts. 12-13 reforming LIVA arts. 45-46** (vigor
+  25-Feb-2012, de-oficio migration 1-Apr-2012) — tension vs W-GT2's LAT
+  attribution = per-file OQ-3, resolve at synthesis vs law text. Deadline
+  = "mes calendario siguiente" (LIVA art. 48; no fixed day/hábiles rule).
+  Exit rule LIVA art. 50 (prior-year >Q150k → general). Q2,500 op floor
+  and Q50 planilla NOT printed in either doc (live in law text, W-GT2
+  xref). FEL content: zero in 55_; auto-load into LET in 61_.
+- **LET (57_/58_/82_) + informe (59_)**: PC & especiales = ONE combined
+  compras-y-ventas book (in-system SAT-2046 generation); general = TWO
+  books per establecimiento generating NO form (resumen = "insumo" for the
+  external monthly IVA filing). Feeds: FEL ventas immutable; compras FEL
+  by selection; general adds FYDUCA + DUCA + paper path (vehicles ≤2 model
+  years); constancias auto-detected. **Only deadline printed anywhere:
+  electrónicos 4% if declared within first 10 días hábiles else 5% (82_
+  glossary, D27-92 caps.)** 59_ informe = art. 57 "D" D27-92 attestation
+  flow; carga masiva hard 100%-success gate. **Record-level field layouts
+  are ALL images — never guess fields; OCR/re-capture is an acquisition
+  task.** No LET-creating resolution printed anywhere (EVID-474 = hunting
+  map). 58_ verified identity (owner-browser download) + print defect:
+  glossary defines RTN as the **Honduras** registry [sic] — Guatemala
+  uses NIT.
+- **SAT-2390 (62_/63_)**: devolución CF régimen general (venders to
+  exentas); claim after IVA-declaration due date, **up to 4 years**,
+  strictly quarterly/semiannual; SAT cross-validates Libro CSV totals vs
+  declared crédito/débito (reject on mismatch — verbatim error captured).
+  CSV spec: compras 16 cols (payment block never blank; 17-value tipo-doc
+  catalog incl. FESC, FPC-for-no-credit), ventas 11 cols (col K closed
+  vocab), files `SAT_<MES><AÑO>_{COMPRAS,VENTAS}.csv` (printed
+  "SAT_MESAÑO_…"), rows 1-2 skipped, all cells TEXT except dd/MM/yyyy,
+  NC negative/ND positive, comma ban. **Dated row: ventas NIT+ID mandatory
+  for ops >Q2,500 a partir de enero 2023.** "FCE" [sic] printed for FACE;
+  neither doc prints date/version in text layer.
+- **Criterios (64_/65_)**: 2-2019 (applies 1-Jun-2019) dualidad =
+  dual-quality agents retain under EACH quality at per-activity statutory
+  rates; operational % determined by SAT's Sistema de Retenciones (AG
+  425-2006 art. 4); its rate table CONFIRMS the W-GT2 matrix. 6-2018
+  (23-Apr-2018): sueldos deductible only if workers in IGSS planilla when
+  registration obligatory (≥3 workers; transporte terrestre ≥1);
+  related-party sueldos capped at 10% renta bruta; **aguinaldo + bono 14
+  each capped at 100% one monthly salary** (excess via pacto colectivo
+  homologado only); dietas to pequeños need definitive ISR retention
+  (LAT art. 44). 64_ OCR gaps: pages 4/5/8 blank; "20-2008" [sic] for
+  20-2006; CT art. 91 (65_) vs 94 num. 7 (64_) numbering divergence.
+  Neither prints a third-party-weight formula.
+
+
 
 ## 5. GT facts a new session must know
 
@@ -302,9 +384,15 @@ vintage FEL docs). Reform chains are recorded in SOURCE_RESEARCH.md.
   threshold wording.
 - **OQ15** ZF reglamento (AG 242-90) current-reform status.
 - **OQ16** does a numbered Reglamento del Código de Comercio exist?
-- **Evidence-file OQs (W-GT1+W-GT2)**: ~95 per-file OQ-1.. live in the 10
+- **OQ18 (W-GT4)**: 5% IVA-retention rates (pequeño ≥Q2,500.01 / agro on
+  total factura, printed by 49_/52_) vs the W-GT2 D-20-2006 matrix —
+  reconcile against 23_/24_ law text before synthesis; "54 B"/"54 BIS"
+  nomenclature rides the OQ10 consolidated print.
+- **Evidence-file OQs (W-GT1..W-GT4)**: ~140 per-file OQ-1.. live in the 16+
   evidence files — MOQ-roll into a master index at synthesis prep (SV
-  pattern).
+  pattern). W-GT4 adds: LET layouts = image-only (re-capture candidate);
+  55_/57_/58_/62_/63_ print no dates (currency unverifiable); 64_ OCR
+  pages 4/5/8 blank.
 
 ## 8. Accountant track (asked 2026-08-19; assume yes, plan B ready)
 
@@ -324,22 +412,29 @@ synthesized with these as flagged open questions and back-filled later.
 
 ## 9. Next actions (ordered)
 
-1. ~~EXTRACTION_PLAN~~ approved + ~~W-GT1~~ + ~~W-GT2~~ + ~~W-GT3~~
-   **COMPLETE 2026-08-19** (see §5a/§5b/§5c + plan extraction log).
-   **Next: W-GT4 — fiscal-reporting evidence pass** (48_ form inventory,
-   49_/50_ RetWeb pages, 51_/52_ RetWeb manuals, 53_ agentes roster,
-   54_ SAT-0261, 55_ pequeño digest, 57_/58_/82_ LET manuals, 59_ informe
-   compras/ventas, 61_ libro pequeño, 62_/63_ SAT-2390, 64_/65_ criterios,
-   30_ calendario-kin absent — JSF transcription rides any wave).
+1. ~~EXTRACTION_PLAN~~ approved + ~~W-GT1~~ + ~~W-GT2~~ + ~~W-GT3~~ +
+   ~~W-GT4~~ **COMPLETE 2026-08-19** (see §5a-§5d + plan extraction log).
+   **Next: W-GT5 — COA + commercial-legal evidence pass** (66_ Código de
+   Comercio 301pp decomposed: libros/contabilidad → COA; sociedades/
+   registro + títulos valores/prescripción → commercial-legal; 60_
+   habilitación de libros; 73_ RM aranceles; 83_ RM edictos; 75_/76_/77_
+   AML chain — **77_ D-15-2026 first, then delta; OQ14 derogation
+   inventory BEFORE synthesis trusts either**; consolidation-tail checks:
+   25_/32_/66_ per plan risks).
 2. Opportunistic gap closure: queue rev-6 items (AG 75-2006 AML reglamento,
    consolidated IVA post-2018, D-19-2016); instructivos cat 15812;
    calendario transcription via SAT JSF app; accountant answers fold in
-   when they arrive.
-3. W-GT3 payroll → W-GT4 fiscal reporting → W-GT5 COA+commercial-legal →
-   W-GT6 special regimes, per the plan's reading order.
+   when they arrive. **W-GT4 additions: LET field-layout re-capture (image-
+   only manuals — refreshed PDFs or page images at synthesis need);
+   D-4-2012 full text (Q150k threshold attribution); aguinaldo D-76-78 +
+   incentivo D-37-2001 still missing (W-GT3).**
+3. ~~W-GT3 payroll~~ → ~~W-GT4 fiscal reporting~~ → **W-GT5 COA +
+   commercial-legal** → W-GT6 special regimes, per the plan's reading order.
 4. Synthesis prep after each topic's evidence base completes (master index
-   + MOQ roll; SV pattern) — S-GT1 (e-invoicing) is unblocked now if the
-   owner prefers synthesis-first.
+   + MOQ roll; SV pattern) — **S-GT1 (e-invoicing) and S-GT2 (taxation)
+   are unblocked now**; S-GT4 (fiscal-reporting) unblocked after MOQ roll.
+   Carry the W-GT4 form-identity corrections (1411/1431/1371/1331) into
+   every synthesis that names ISR forms.
 5. Milestone: owner decides `gt-research` → `main` merge (owner owns ALL
    merges; controller verifies branch state only). **OQ7 watch: TotalDoc
    authorization renewal 02/12/2026 — re-check the certificador roster
@@ -381,3 +476,15 @@ convergence session; updated again at W-GT1 close)
   commit. **Next wave (W-GT4) note: 48_/49_/50_ are HTML snapshots +
   64_/65_ are scans — Stage 1 needs the HTML text dump + OCR; calendario
   JSF transcription still rides any wave (owner browser).**
+- **W-GT4 session addenda (2026-08-19, same pattern, 4th wave)**: 6 reader
+  agents (EVID-371..500, gaps 418-430/476-480), controller spot-verified
+  20+ quotes — all passed. **48_ HTML quirk: the form tables live inside
+  an escaped JS payload in the snapshot (visible DOM = chrome only) —
+  recovered by unescaping + re-parsing; the dump in `.extractions/`
+  documents this.** Material outcome: the W4-research-era form-identity
+  note ("ISR anual = SAT-1371") was a **table misread**, corrected
+  row-level (1411 anual lucrativas / 1431 asalariados anual / 1371
+  no-residentes mensual / 1331 retenciones) — registry + plan myth-list +
+  SOURCE_RESEARCH W4 all amended in the wave commit. New cross-file OQ18
+  (5% pequeño/agro retention rates vs W-GT2 matrix). Next wave (W-GT5)
+  starts at EVID-501.

@@ -54,7 +54,7 @@ Grouped like the SV plan; registry rows are authoritative for filenames.
 | 16 | `40_` bono 14 D-42-92 (**corrected W-GT3; registry title said "aguinaldo"**) · `41_` incentivo D-78-89 (**corrected; old hourly-floor law — Q250/mes lives in D-37-2001, not in corpus**) | Annual statutory bonuses (**December aguinaldo law D-76-78 = acquisition candidate**) | whole each; tail check 40_ | payroll |
 | 17 | `42_` IRTRA D-15-1928 · `43_/44_` AG 5/6-2005 · `45_` INTECAP D-17-72 · `46_` INTECAP reglamento tasa patronal | Patronal institute cuotas (**OQ12: IRTRA brackets**) | whole each (all short) | payroll |
 | 18 | `56_` planilla IVA-FEL (art. 72 Dto. 10-2012) | Asalariado IVA-deduction planilla | whole; format = fiscal-reporting interface | payroll, fiscal-reporting |
-| 19 | `48_` form inventory snapshot 2025-10-06 | Master form registry (SAT-2237 IVA general, **1371 ISR anual**, 1411 asalariados, 1361 trimestral, 2046/2241 pequeño, 1321/2340/2320 retenciones, boleta 2000) | as data: form↔regime↔deadline map; per-form validities (e.g. "SAT-2237 válido Sep-2013 en adelante") = dated rows | fiscal-reporting |
+| 19 | `48_` form inventory snapshot 2025-10-06 | Master form registry (SAT-2237 IVA general, **1411 ISR anual lucrativas, 1431 asalariados anual, 1371 ISR no-residentes, 1331 ISR retenciones** — corrected W-GT4, 1361 trimestral, 2046/2241 pequeño, 2340/2320 retenciones IVA, boleta 2000) | as data: form↔regime↔deadline map; per-form validities (e.g. "SAT-2237 válido Sep-2013 en adelante") = dated rows | fiscal-reporting |
 | 20 | `49_/50_` RetWeb IVA/ISR pages · `51_/52_` RetWeb manuals · `53_` agentes roster 2025-10-01 · `54_` SAT-0261 | Retenciones Web regimes (IVA 15 días hábiles / ISR 10+5), agent roster data, inscripción | 49_/50_ = regime ground truth (D-20-2006/AG 425-2006 basis); 51_/52_ = data model; 53_ = dated roster; 54_ = form layout | fiscal-reporting, taxation |
 | 21 | `55_` pequeño contribuyente digest · `57_/58_/82_` LET manuals (pequeño/IVA-general/regímenes especiales) · `59_` informe compras/ventas · `61_` libro compras/ventas pequeño proc | LET electronic books + pequeño regime + informe de compras/ventas layouts | manual-by-manual; LET layout = books interface (anchors CT books unit) | fiscal-reporting |
 | 22 | `62_/63_` SAT-2390 guía + CSV instrucciones | Devolución crédito fiscal format | whole | fiscal-reporting |
@@ -142,11 +142,14 @@ subagent-driven wave → reviews → COVERAGE.
   2025" and "VERSIÓN 2.0" — resolve in evidence (content-version vs
   document-revision hypothesis to verify).
 - **Rejected myths (never implement)**: "resolución 2-2010" as
-  IVA-retenciones basis (real = D-20-2006 + AG 425-2006); SAT-2236 as ISR
-  anual form (real = SAT-1371); "Decreto 6-2021" as e-invoicing mandate
-  (real = ZF reform, 80_); INTECAP "AG 445-86" (real = D-17-72); IRTRA
-  "AG 795" (real = D-15-1928); "instaladores" terminology (real =
-  certificadores).
+  IVA-retenciones basis (real = D-20-2006 + AG 425-2006); ~~SAT-2236 as ISR
+  anual form (real = SAT-1371)~~ **CORRECTED W-GT4 (48_ row-level read):
+  ISR anual lucrativas = SAT-1411, asalariados anual = SAT-1431; SAT-1371 =
+  ISR no-residentes pago directo mensual; ISR retenciones = SAT-1331 (1321 =
+  ISR capital mensual) — the earlier "real = SAT-1371" lineage was itself a
+  table misread**; "Decreto 6-2021" as e-invoicing mandate (real = ZF
+  reform, 80_); INTECAP "AG 445-86" (real = D-17-72); IRTRA "AG 795" (real
+  = D-15-1928); "instaladores" terminology (real = certificadores).
 - **Dated-instrument discipline (D-GT10/D16 — binding every wave)**: every
   reading unit captures vigencia data (valid_from/valid_to + provenance)
   for: law reforms, salario AGs, FEL Reglas/catalog/XSD versions, form
@@ -267,3 +270,58 @@ commit. Never leave a session with evidence unmerged. Update
   (law 0.50-1.00 ladder; vigente 1%) first-20-días on IGSS planillas;
   planilla IVA-FEL = Jan 10-días-hábiles, SAT-1111, last-wins, FEL+DUCA
   feed.
+- 2026-08-19 — **W-GT4 COMPLETE** (fiscal reporting, units 19-22 +
+  64_/65_ criterios). Stage 1: 3 HTML snapshots dumped to text (48_ page
+  body + 4 form tables recovered from the snapshot's embedded JS payload —
+  FormulariosVigentes/VigentesAnexo/NoVigentes/NoVigentesAnexo), 12 digital
+  PDFs extracted, 2 criterios OCR'd (page-1 identities verified: 2-2019,
+  6-2018). Stage 2 executed subagent-driven (6 reader agents, controller
+  spot-verified 20+ load-bearing quotes by grep — all passed). 6 evidence
+  files COMMITTED (EVID-371..500, gaps 418-430/476-480):
+  `48_Formularios` (371-385), `49-54_RetWeb_agentes` (386-417),
+  `55_61_Pequeno_libro` (431-450), `57-59_82_LET_informe` (451-475),
+  `62-63_SAT-2390` (481-490), `64-65_Criterios` (491-500). Key outcomes:
+  **FORM-IDENTITY CORRECTIONS (material)** — ISR anual lucrativas =
+  **SAT-1411**, asalariados anual = **SAT-1431**, SAT-1371 = ISR
+  no-residentes pago directo mensual, ISR retenciones = **SAT-1331**
+  (1321 = ISR capital mensual); 18 dated-validity strings + NoVigentes
+  table = valid_from/to seed; channel model: all tax declarations
+  Declaraguate-only, Anexo forms generated in SAT apps (5th filing
+  surface); SAT-2390 ABSENT from 48_ (devolución CF family = 2124 +
+  2053/2062/2073; electronic dev.CF forms live outside the tables — OQ).
+  **RetWeb**: SAT-2320 agro = 10 días hábiles (vs 2340 15); 51_ p.9 full
+  ISR concept catalog (~30 conceptos with rate/base formulas); 52_
+  "art. 54 B" D-27-92 full-accounting agent path; **5% pequeño/agro
+  retention rates = OQ18** (reconcile vs W-GT2 matrix); 53_ roster as-of
+  2025-10-01 ≈ 8.4-8.5k agents (columns NIT/name/fecha inicio only — no
+  agent-type column); SAT-0261 = voluntary inscription, D-20-2006 art. 6.
+  **Pequeño/libro**: Q150,000 threshold attributed by 55_ to **D-4-2012
+  arts. 12-13 (reforming LIVA arts. 45-46, vigor 25-Feb-2012)** — tension
+  vs W-GT2's LAT attribution (OQ); 55_ is an undated ~2013 body still live
+  at the 2024 capture (2043/2047 forms era; 61_ = 2046/LET era); LIVA
+  art. 48 "mes calendario siguiente" deadline; exit rule LIVA art. 50;
+  Q2,500 op floor NOT printed in either (lives in law text W-GT2 — xref).
+  **LET/informe**: PC+especiales = ONE combined book, general = TWO
+  per-establecimiento books (no form generated — "insumo" only); FEL
+  ventas immutable feed; general adds FYDUCA/DUCA + vehicle-paper path;
+  **only deadline printed anywhere: electrónicos 4% if declared within
+  first 10 días hábiles else 5% (82_ glossary)**; 59_ informe = art. 57
+  "D" D27-92 attestation flow, carga masiva 100%-success gate;
+  **record-level layouts are ALL images (no text layer) — gap, not
+  guessed**; no LET-creating resolution printed anywhere (hunting map at
+  EVID-474). **SAT-2390**: 4-year claim window, strictly quarterly/
+  semiannual; SAT cross-validates Libro CSV totals vs declared crédito/
+  débito (rejection on mismatch); full CSV spec captured (compras 16 cols,
+  ventas 11 cols, `SAT_MESAÑO_{COMPRAS,VENTAS}.csv` naming, TEXT cells,
+  dd/MM/yyyy, NC negative/ND positive); >Q2,500 NIT+ID mandatory from
+  enero-2023 (dated row); "FCE" [sic] for FACE; 63_ prints no date in text
+  layer. **Criterios**: 2-2019 dualidad = retain under EACH quality at
+  statutory rates, % determined by SAT's Sistema de Retenciones (AG
+  425-2006 art. 4), rate table CONFIRMS W-GT2 matrix; 6-2018 = sueldos
+  deductible only if IGSS planilla when obligatory (≥3 workers; transporte
+  ≥1); aguinaldo+bono14 cap = 100% one monthly salary each, excess only
+  via pacto colectivo homologado; dietas to pequeños need definitive ISR
+  retention; 64_ OCR pages 4/5/8 blank + "20-2008" [sic] for 20-2006;
+  CT art. 91 vs 94 numbering divergence between criterios. Registry
+  amended (48_ form-identity correction). OQ18 added to SOURCE_RESEARCH;
+  ~45 per-file OQs live in the 6 evidence files.
