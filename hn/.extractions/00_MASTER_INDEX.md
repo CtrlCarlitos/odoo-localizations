@@ -1161,15 +1161,19 @@ files (EVxx:file OQ-n).
   D. 51-2003 (AS/ATN), SAR-236-2024, Reglamento Ley ISR "Acuerdo N°799", DGS SMM
   companion prints, D. 58-1982 + D. 131-98, TP family, SEE docs (lead 1).
 - **S-wave plan (synthesis; subagent-dispatched per SV pattern):**
-  1. **S-HN1 taxation** (T1-T12) → `hn/requirements/taxation/` — everything cites
-     it; consume F/P/E clusters by id, no re-derivation.
+  1. **S-HN1 taxation** (T1-T12) → `hn/requirements/taxation/` — DONE
+     2026-08-20 (248 FRs, controller-verified).
   2. **S-HN2 e-invoicing** (E1-E8; SEE blocked) → `hn/requirements/e-invoicing/`
-     — standalone, may run parallel with S-HN1.
-  3. **S-HN3 fiscal-reporting** (F1-F11) → `hn/requirements/fiscal-reporting/` —
-     needs S-HN1 rates.
+     — DONE 2026-08-20 (155 FRs, controller-verified; SEE config-gapped).
+  3. **S-HN3 fiscal-reporting** (F1-F11) → `hn/requirements/fiscal-reporting/`
+     — DONE 2026-08-20 (362 FRs / 154 LBs / 188 ACs / 169 OQs, 11 files +
+     `djimr_retention_codes.csv`, controller-verified 11/11; one sanctioned
+     direct-cite exception: F9 IPC chain 98_/99_/100_ — no evidence pass,
+     page-1-verified at synthesis, values re-verified vs raw txt; S-HN1
+     rates consumed by id throughout).
   4. **S-HN4 payroll** (P1-P12) → `hn/requirements/payroll/` — needs S-HN1
      (retention/plantilla interfaces); aguinaldo FRs stay config-gapped until
-     D. 135-94 lands.
+     D. 135-94 lands. NEXT.
   5. **S-HN5 thin closes** — chart-of-accounts/commercial-legal: decide whether a
      wave is warranted at milestone (Código de Comercio still unacquired).
 - **Acquisition waves interleave** (queue = HANDOVER §6.2); synthesis proceeds

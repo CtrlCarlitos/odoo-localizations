@@ -4,14 +4,44 @@ Execution plan per [shared/docs/requirements-extraction-procedure.md](../shared/
 Started 2026-08-19 (source-research pass complete). Status: active — **evidence
 waves W1 (taxation core) + W2 (fiscal reporting) + W3 (facturación/e-invoicing) +
 W4 (payroll) COMPLETE 2026-08-20 (EVID-001..333); synthesis prep DONE 2026-08-19
-(`hn/.extractions/00_MASTER_INDEX.md`); S-HN1 taxation + S-HN2 e-invoicing
-synthesis DRAFT-COMPLETE 2026-08-20 (`hn/requirements/taxation/` 7 files +
-`hn/requirements/e-invoicing/` 4 files + 2 CSV sidecars, subagent-dispatched
-with pre-allocated FR ranges, controller-verified); next = S-HN3
-fiscal-reporting (needs S-HN1 rates ✓) → S-HN4 payroll; S-HN5 thin closes
-decided at milestone**.
+(`hn/.extractions/00_MASTER_INDEX.md`); S-HN1 taxation + S-HN2 e-invoicing +
+S-HN3 fiscal-reporting synthesis DRAFT-COMPLETE 2026-08-20
+(`hn/requirements/taxation/` 7 files + `hn/requirements/e-invoicing/` 4 files +
+`hn/requirements/fiscal-reporting/` 11 files + 3 CSV sidecars,
+subagent-dispatched with pre-allocated FR ranges, controller-verified); next =
+S-HN4 payroll (needs S-HN1 retention interfaces ✓ + file 02's 111 columns ✓);
+S-HN5 thin closes decided at milestone**.
 
 ## Wave log
+
+- **S-HN3 (2026-08-20, DRAFT COMPLETE):** fiscal-reporting (F1-F11) synthesis,
+  11 subagent dispatches with pre-allocated FR ranges (4 retries — empty-return
+  failures verified by disk state, the documented anomaly). Deliverables:
+  `hn/requirements/fiscal-reporting/00_index.md` + `01_filing-chassis-due-days.md`
+  (F1, FR-001..032: OVI/SW chassis, lifecycle, dual-channel sticky modality,
+  D-H3.2 reconciliation, shared due-day engine) + `02_djimr-retention-declarations.md`
+  (F2, 041..075 + `djimr_retention_codes.csv` 25 codes per EVID-077) +
+  `03_dmc-527-purchases.md` (F3, 086..115) + `04_otcd-tarjetas-215-523.md`
+  (F4, 121..148) + `05_isv-201-202.md` (F5, 151..187) + `06_eeff-535-gate.md`
+  (F6, 191..218) + `07_isr-annual-102-103.md` (F7, 221..264) +
+  `08_gc-events-119-120-152-154.md` (F8, 266..295) +
+  `09_selectivo-declarations.md` (F9, 296..325) + `10_tp-545-informativas.md`
+  (F10, 326..360) + `11_contribuciones-sector.md` (F11, 361..393) = 362 FRs /
+  154 LBs / 188 ACs / 169 OQs. Controller verification: 11/11
+  template-conformant, FR ranges contiguous within allocations, zero
+  cross-file duplicate ids, every FR LB+EVID-cited (one sanctioned exception:
+  file 09 IPC-chain FRs 317-319 direct-cite 98_/99_/100_ — no evidence pass,
+  page-1-verified, values controller-re-verified vs raw extractions), zero
+  dangling EVID anchors, all source paths resolve, 5/5 verbatim spot-checks
+  (2 checker false-positives explained: ellipsis truncation + English
+  annotation). Rulings applied: R-H9/16/17/18/22/23/25/27/28/29/30/31/32/33/
+  36. Open conflicts carried: GC 2%-vs-4%, ZOLITUR Art.4-vs-25, 138 deadline
+  duality, 541/542 drifts, 535 balance-only-vs-+GyP, 509 Mar-30-vs-3-meses,
+  D.117-2021 identity, 116 budget-law target. Only yes-blocking wave OQ =
+  506-vs-509 boundary (`60_ OQ-1`, statutes unacquired). NEW top LEADs from
+  the wave: SAR-236-2024 DÉCIMO OCTAVO print, D. 58-1982 full text, LSP
+  statutes (105-2011/1775-2011/31-2018/53-92-2015/131-2018), TP family,
+  Acuerdo 034/99. Files carry Status draft → in-review at index level.
 
 - **S-HN1 + S-HN2 (2026-08-20, DRAFT COMPLETE):** taxation (T1-T12) and
   e-invoicing (E1-E8) synthesis, 11 subagent dispatches (7+4) with

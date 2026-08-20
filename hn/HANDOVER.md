@@ -3,10 +3,11 @@
 **For the next HN controller session.** Written 2026-08-20 after W1 (taxation
 core), updated through round-4/D-H2/D-H3 + the merge, W2 fiscal-reporting, W3
 facturación, W4 payroll, synthesis prep (master index + OQ registers), and
-**S-HN1 + S-HN2 synthesis waves (this refresh — taxation + e-invoicing
-requirements drafted, controller-verified)**. Read this fully before acting; it
-is the authoritative HN cross-session memory (conversation context does not
-survive). Update it at every session boundary.
+**S-HN1 + S-HN2 + S-HN3 synthesis waves (this refresh — taxation +
+e-invoicing + fiscal-reporting requirements drafted, controller-verified)**.
+Read this fully before acting; it is the authoritative HN cross-session
+memory (conversation context does not survive). Update it at every session
+boundary.
 
 **Bootstrap prompt for a fresh session:** `Read hn/HANDOVER.md and continue.`
 
@@ -49,9 +50,11 @@ survive). Update it at every session boundary.
    resolved-contradictions ledger, OQ registers C1-C4 (~227 open), S-wave
    plan. READ BEFORE ANY SYNTHESIS WORK.**
 4. **`hn/requirements/taxation/00_index.md` + `hn/requirements/e-invoicing/
-   00_index.md` — S-HN1/S-HN2 deliverable indexes (248 + 155 FRs, wave
-   rulings, proposed R-H66 awaiting owner). READ BEFORE S-HN3/S-HN4 (they
-   consume these files' FR ids).**
+    00_index.md` + `hn/requirements/fiscal-reporting/00_index.md` —
+    S-HN1/S-HN2/S-HN3 deliverable indexes (248 + 155 + 362 FRs, wave
+    rulings, proposed R-H66 awaiting owner). READ BEFORE S-HN4 (it consumes
+    these files' FR ids — esp. taxation/04 plantilla + fiscal-reporting/02
+    código-111 columns).**
 5. `hn/RESEARCH.md` — research dossier: sites, fetch recipes (§6), hint
    layer w/ corpus verification (§7), open leads (§5, incl. W2+W3+W4
    harvests)
@@ -200,20 +203,29 @@ RESEARCH §5). Structure:
   Salarios (Art. 380). **85_ = 9th mislabel: D.93-2021 derogates PENAL
   (D.130-2017, 31 arts) + CPP + Lavado — ZERO CT articles; penal numbers
   collide with LIVE CT payroll articles — guard table EVID-333.**
-- **S-HN1/S-HN2 synthesis (2026-08-20, do not re-derive):** taxation 7 files
-  (HN-TAX-FR-001..281, 248 FRs/54 OQs) + e-invoicing 4 files
-  (HN-EINV-FR-001..175, 155 FRs/26 OQs), controller-verified 11/11. Rulings
-  made at synthesis: 10-SMM caps = EXCESS-ONLY never cliff (plantilla IF
-  semantics, `01_ OQ-4` resolved); FY2026 promedio cap = L149,172.00
+- **S-HN1/S-HN2/S-HN3 synthesis (2026-08-20, do not re-derive):** taxation 7
+  files (HN-TAX-FR-001..281, 248 FRs/54 OQs) + e-invoicing 4 files
+  (HN-EINV-FR-001..175, 155 FRs/26 OQs) + fiscal-reporting 11 files
+  (HN-FREP-FR-001..393, 362 FRs/154 LBs/188 ACs/169 OQs +
+  `djimr_retention_codes.csv` 25 codes), controller-verified 11/11 + 11/11.
+  Rulings made at synthesis: 10-SMM caps = EXCESS-ONLY never cliff (plantilla
+  IF semantics, `01_ OQ-4` resolved); FY2026 promedio cap = L149,172.00
   (R-H47 applied); DAR superseded by DJIMR (R-H31 applied); bad-debt cap =
   10%-of-closing-AR (evidence over brief); L30k@60 senior tier attributed to
   D. 199-2006 per plantilla citation — row activation-blocked until acquired.
   **Proposed R-H66 (territoriality: worldwide pre-2017 / territorial 2017+,
   dated rows) encoded REVERSIBLY in taxation/01 FR-004 — OPEN for
-  product-owner confirmation at merge; never resolve silently.** New top
-  acquisition LEAD from synthesis: Reglamento Ley ISR ("Acuerdo N°799", 5×
-  cited corpus-wide). SEE sub-cluster = config-gapped placeholders
-  (e-invoicing/04 FR-166..169), rest of E-wave evidence-complete.
+  product-owner confirmation at merge; never resolve silently.** S-HN3
+  specifics: S-HN1/S-HN2 rates consumed by id throughout; F9 IPC chain
+  (98_/99_/100_) = the ONE direct-cite exception (no evidence pass,
+  page-1-verified at synthesis, values controller-re-verified vs raw txt —
+  cigarettes 539.00/571.34/600.99 chain + per-liter tablas as dated rows);
+  only yes-blocking wave OQ = 506-vs-509 boundary (`60_ OQ-1`); open
+  conflicts carried (GC 2%-vs-4%, ZOLITUR Art.4-vs-25, 138 duality, 541/542
+  drifts, 535 balance-only-vs-+GyP, 509 Mar-30-vs-3-meses, D.117-2021
+  identity). New top acquisition LEAD from synthesis: Reglamento Ley ISR
+  ("Acuerdo N°799", 5× cited corpus-wide). SEE sub-cluster = config-gapped
+  placeholders (e-invoicing/04 FR-166..169), rest of E-wave evidence-complete.
 
 - **Decisions:** **D-H1** (binding, EXTRACTION_PLAN): one journal per company
   via `l10n_latam_invoice_document`; sequence key = (establecimiento→
@@ -265,20 +277,18 @@ RESEARCH §5). Structure:
 
 ## 6. Next actions (ordered)
 
-1. **S-waves (NEXT: S-HN3 fiscal-reporting):** S-HN1 + S-HN2 DRAFT-COMPLETE
-   2026-08-20 (see §4). Next: **S-HN3 fiscal-reporting (F1-F11) →
-   `hn/requirements/fiscal-reporting/`** — S-HN1 rates now exist (consume
-   HN-TAX-FR ids, never re-derive; the plantilla↔código-111 casilla mapping
-   is taxation/04 OQ-006's DMR-validation surface). Then **S-HN4 payroll
-   (P1-P12)** — needs S-HN1 retention interfaces (✓ done); aguinaldo FRs
+1. **S-waves (NEXT: S-HN4 payroll):** S-HN1 + S-HN2 + S-HN3 DRAFT-COMPLETE
+   2026-08-20 (see §4). Next: **S-HN4 payroll (P1-P12) →
+   `hn/requirements/payroll/`** — needs S-HN1 retention interfaces (✓ done)
+   + fiscal-reporting/02 código-111 columns (✓ done); aguinaldo FRs
    config-gapped until D. 135-94 lands; SMM-promedio rows = P1's to own
-   (taxation/04 consumes them). S-HN5 thin closes
-   (chart-of-accounts/commercial-legal) decided at milestone. Synthesis
-   consumes the master index + the existing requirements indexes — never
-   re-derives evidence; cite `EVxx:EVID-nnn`. Requirements files follow
-   `shared/docs/requirements-template.md`; FR ids cite sibling files' ids.
-   Validation wave (COVERAGE.md + adversarial review) runs when S-HN3/S-HN4
-   land (per-template Stage 5).
+   (taxation/04 + fiscal-reporting consume them; R-H47 never recompute).
+   S-HN5 thin closes (chart-of-accounts/commercial-legal) decided at
+   milestone. Synthesis consumes the master index + the existing
+   requirements indexes — never re-derives evidence; cite `EVxx:EVID-nnn`.
+   Requirements files follow `shared/docs/requirements-template.md`; FR ids
+   cite sibling files' ids. Validation wave (COVERAGE.md + adversarial
+   review) runs when S-HN4 lands (per-template Stage 5).
 2. **Acquisition queue (W2+W3+W4+S-wave lead harvests, RESEARCH §5 + master-index
    C-registers + synthesis OQs):** TOP = **D. 135-94 + Acuerdo 201-96
    (aguinaldo/compensación social — the 13th-month statutory home; P2 + S-HN4
@@ -290,10 +300,14 @@ RESEARCH §5). Structure:
    D. 51-2003 (AS/ATN + tarjetas Art. 18) + Acuerdo SAR-236-2024 + DGS SMM
    companion prints (2022-2025 + 2027 when exists) + D. 58-1982 + D. 131-98
    + TP family (D. 232-2011 + 027-2015 + DEI-SG-004-2016) + contribuciones
-   statutes + D. 54-95 + Código de Comercio + DEI-9382-J-2003 I-VIII + W3
-   adds (462-2014, 424-2018, post-2017 compras-eventuales instrument if any)
-   + riesgos-profesionales reglamento. D. 112 = routes exhausted (mirror-only
-   at synthesis). Most SAR-catalog fetchable (recipe §6).
+    statutes + D. 54-95 + Código de Comercio + DEI-9382-J-2003 I-VIII + W3
+    adds (462-2014, 424-2018, post-2017 compras-eventuales instrument if any)
+    + riesgos-profesionales reglamento. S-HN3 sharpened the LSP statutes
+    queue: D. 105-2011 + Acuerdo 1775-2011 + D. 31-2018 (LSP portion) +
+    D. 53-2015/D. 92-2015 + D. 131-2018 (the 506-vs-509 boundary = the only
+    yes-blocking S-HN3 OQ); also Acuerdo 034/99 (542 threshold) and the
+    SAR-236-2024 DÉCIMO OCTAVO print. D. 112 = routes exhausted (mirror-only
+    at synthesis). Most SAR-catalog fetchable (recipe §6).
   3. **R-H66 territoriality ruling:** product-owner confirmation needed at
      merge or next session (proposal + reasoning in taxation/01 §7 OQ-001 +
      FR-004; reversible dated rows in the meantime).
@@ -301,11 +315,12 @@ RESEARCH §5). Structure:
      force-push (root HANDOVER country model). Branch head after S-HN1/S-HN2
      commit = the synthesis-wave base; future waves branch from here.
 
-Session state at stop (2026-08-20, S-HN1 + S-HN2 close): evidence COMPLETE
+Session state at stop (2026-08-20, S-HN3 close): evidence COMPLETE
 through EVID-333 (~227 open OQs); corpus 103 files; W1-W4 + synthesis prep
-committed/merged (e106b1f); **S-HN1 taxation (248 FRs) + S-HN2 e-invoicing
-(155 FRs) drafted + controller-verified, wave log + indexes + HANDOVER
-refreshed — next = S-HN3 fiscal-reporting synthesis (or acquisition wave /
+committed/merged (e106b1f → main at 6d1cfc3 incl. S-HN1/S-HN2); **S-HN1
+taxation (248 FRs) + S-HN2 e-invoicing (155 FRs) + S-HN3 fiscal-reporting
+(362 FRs, 11 files + CSV) drafted + controller-verified, wave log + indexes +
+HANDOVER refreshed — next = S-HN4 payroll synthesis (or acquisition wave /
 R-H66 owner ruling in parallel).**
 
 ## 7. Conventions (mirroring SV)
@@ -317,9 +332,14 @@ R-H66 owner ruling in parallel).**
   ranges + spot-checks verbatims afterward (done for W4: ranges + 8
   source-level spot-checks incl. all OCR-derived quotes; done for
   S-HN1/S-HN2: 11/11 structural verification + 5/5 verbatim spot-checks —
-  script pattern in session log, keep re-using). NOTE: subagent empty-return
-  with file-on-disk happened twice — ALWAYS verify disk state, never trust
-  the return alone.
+  script pattern in session log, keep re-using; done for S-HN3: 11/11
+  structural (adapted script `/tmp/opencode/verify_hn_s3.py` pattern) +
+  5/5 verbatim spot-checks + IPC-chain value re-verification + CSV 25-code
+  match vs EVID-077). NOTE: subagent empty-return anomalies now TWO shapes —
+  (a) empty-return with file-on-disk (W2b/W4, twice), (b) empty-return with
+  file ABSENT (S-HN3: 4 of 11 dispatches failed to deliver; simple re-
+  dispatch succeeded all 4). ALWAYS verify disk state, never trust the
+  return alone; re-dispatch is the fix for shape (b).
 - `.gitignore`: `hn/.extractions/*` ignored EXCEPT `*.evidence.md` +
   `00_MASTER_INDEX.md` (**created 2026-08-19 — committed; update it at every
   wave/milestone that adds EVIDs, rulings, or resolves OQs**).
