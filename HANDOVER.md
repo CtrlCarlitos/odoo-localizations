@@ -208,6 +208,29 @@ expected and absorbed by instantiating the canon, never by forking it.
       S-HN3 OQ = 506-vs-509 boundary (LSP statutes unacquired). Next per
       `hn/HANDOVER.md`: S-HN4 payroll → validation wave at S-HN4 close
       (COVERAGE + adversarial review).
+      **HN S-HN4 merge 2026-08-20 (§4.6 protocol, eleventh run):**
+      `hn-research` rebased onto `daa8a10` (2 commits rewritten: `087e94f`→
+      `3ee60c0` hn/HANDOVER tenth-run record, `9890bda`→`d05f2c1` S-HN4
+      payroll synthesis; zero conflicts) then fast-forward-merged; remote
+      branch ref updated via delete + re-push. **HN FOURTH AND FINAL
+      S-WAVE COMPLETE — ALL FOUR SYNTHESIS TOPICS DRAFTED**
+      (`hn/requirements/payroll/` 10 files + index,
+      HN-PAYR-FR-001..398 = 313 FRs/146 LBs/163 ACs/73 OQs +
+      `smm_tables.csv` 199 rows w/ print_status discipline — never a
+      derived amount in an amount cell; P1 owns the SMM/promedio rows
+      feeding taxation/04 FR-134 per R-H47; controller-verified 10/10
+      structural + STRICT FULL verbatim bank-check — every quote-bounded
+      Spanish span in every file vs the evidence bank, 372 PASS, 5 one-word
+      LB defects found+fixed; the strict bank-check supersedes 5-sample
+      spot-checks for future waves; 10/10 dispatches delivered, zero
+      empty-return anomalies). Only yes-blocking S-HN4 OQ = aguinaldo P2
+      sub-cluster (D. 135-94 + Acuerdo 201-96 unacquired — top of the
+      acquisition queue). Evidence-over-brief corrections kept: feriado
+      collision = two-holidays-one-day; Art. 349 ¶2 proportional leg
+      employer-imputable-only; cesantía fraction = Art. 120 lit. c; Art.
+      104 rule-4 no half-salary qualifier. Next per `hn/HANDOVER.md`:
+      validation wave (COVERAGE.md all four topics + adversarial review,
+      template Stage 5) + S-HN5 thin-close decision at milestone.
 
 ### El Salvador — sources & evidence state
 - **EVID corpus 001..303** (gaps 109-127, 240 reserved-unused; W14 NIIF files
