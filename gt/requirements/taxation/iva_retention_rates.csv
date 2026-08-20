@@ -1,0 +1,34 @@
+# GT IVA retention-rate catalog (D-GT10 seed) — machine-readable sidecar of
+#   gt/requirements/taxation/03_iva-retenciones.md (FR-070..082).
+# Authority order (master index, binding): statutory matrix = Decreto 20-2006
+#   (gt/sources/78_...) arts. 1-14 + Reglamento AG 425-2006 (gt/sources/79_...)
+#   Título II; "resolución 2-2010" regime-basis myth REJECTED (R23).
+#   All rates are % OF THE IVA ("de dicho impuesto... incluido en el monto
+#   total de cada factura/facturado/en el precio de venta") with ONE base
+#   exception: fuel paid by card = 1.5% SOBRE EL VALOR TOTAL de la
+#   transacción (art. 4 — includes the petroleum-distribution tax, GOQ-67).
+# R55/GOQ-06 caveat (mandatory): the 5% additions (Pequeño Contribuyente
+#   >= Q2,500.01; Agropecuario on total factura), the sector-público
+#   provider-regime split 25/5/5 and the dualidad rate combos are EV04b
+#   SECONDARY prints (49_ portal as-of >= 2025-06-01; 52_ manual 2024-11-29)
+#   — status = secondary-print-pending; statutory reconciliation vs LIVA
+#   art. 54-bis (GOQ-01 kin) pending; NEVER freeze as constants.
+# Form numbers are never cited to D-20-2006/AG 425-2006 (RetWeb owns them,
+#   R46). Hand-built from evidence; every row carries its source EVID id.
+agent_class,provider_context,rate_pct,base_qualifier,valid_from,valid_to,instrument,article,source_evid,status,note
+exportador_habitual,general_regime,65,pct_del_iva_agro_pecuarios,2006-08-01,,D-20-2006,art. 1 par.2,EVID-247,statutory,"agro list: cafe excepto tostado/soluble, azucar de cana sin refinar, banano, cardamomo, cana, algodon, leche + otros productos agropecuarios (open); pays seller 35%; de minimis Q2500 (art. 10); enterar 15 dh"
+exportador_habitual,general_regime,15,pct_del_iva_otros_bienes_servicios,2006-08-01,,D-20-2006,art. 1 par.3,EVID-247,statutory,"pays seller 85%; de minimis Q2500 (art. 10); enterar 15 dh siguientes al periodo impositivo (R26 same window)"
+exportador_D29-89,general_regime,65,pct_del_iva_todas_las_compras,2006-08-01,,D-20-2006,art. 1 par.4,EVID-247,statutory,"empresas D.29-89 exporting under ley especial; pays seller 35%; de minimis Q2500 (art. 10)"
+sector_publico,general_regime,25,pct_del_iva_total_facturado,2006-08-01,,D-20-2006,art. 2,EVID-249,statutory,"Organismos + descentralizadas/autonomas/semi-autonomas y sus empresas; municipalidades EXCEPTED; abstain < Q30000 (art. 2 par.4 = D-4-2012 wording 25-02-2012; pre-2012 unknown GOQ-65); pays 75%; CURE-timed constancia on credit; interplay with bancarizacion Q30000 flag-only (GOQ-66)"
+operadora_tarjeta,afiliado,15,pct_del_iva_precio_venta_por_voucher,2006-08-01,,D-20-2006,art. 3,EVID-250,statutory,"card-operator retains 15% per voucher amount; afiliado liable to fisco for the 85% not retained; monthly consolidated constancia (art. 20); card exclusivity (arts. 3/9/Reg.23)"
+operadora_tarjeta,afiliado_combustible,1.5,valor_total_transaccion,2006-08-01,,D-20-2006,art. 4,EVID-251,statutory,"SOLE base exception: 1.5% SOBRE EL VALOR TOTAL (includes Impuesto a la Distribucion del Petroleo when in sale price); withheld amount applied against the fuel-sale IVA; never compute as pct-of-IVA (GOQ-67)"
+contribuyente_especial,general_regime,15,pct_del_iva,2006-08-01,,D-20-2006,art. 5,EVID-252,statutory,"agent from SAT notification of activation (calificacion criteria = SAT normativa, external); pays seller 85%; de minimis Q2500 (art. 10); enterar primeros 15 dh mes siguiente"
+otros_agente,general_regime,15,pct_del_iva,2006-08-01,,D-20-2006,art. 6,EVID-252,statutory,"voluntary application (SAT resolves 30 dh; negative silence per Reg. art. 25) or SAT designation que estime pertinente; inscription = SAT-0261 (form identity RetWeb-owned R46); pays seller 85%; de minimis Q2500 (art. 10)"
+exportador_D29-89_con_dualidad,general_regime,65,pct_del_iva_calidad_exportador,2025-06-01,,49_ print (as-of >= 2025-06-01),portal rate list,EVID-390,secondary-print-pending,"print: Exportador (Decreto 29-89) con Dualidad: 15%, 65%; per-activity retention under EACH quality (AG 425-2006 art. 9 verified GOQ-118; AG 5-2013 art. 45; Criterio 2-2019); % per factura via Sistema de Retenciones (Reg. art. 4); never frozen (GOQ-119)"
+exportador_D29-89_con_dualidad,general_regime,15,pct_del_iva_calidad_especial_otros,2025-06-01,,49_ print (as-of >= 2025-06-01),portal rate list,EVID-390,secondary-print-pending,"second-quality rate (criterio 1: D.29-89 exporter that is also contribuyente especial retains 15%); regimes unnamed on the page; never frozen (GOQ-119)"
+exportador_habitual_con_dualidad,general_regime,65,pct_del_iva_agro_pecuarios,2025-06-01,,49_ print (as-of >= 2025-06-01),portal rate list,EVID-390,secondary-print-pending,"print shows three rates 15%, 15%, 65% (regimes unnamed on page); agro 65 under the exporter quality; never frozen (GOQ-119)"
+exportador_habitual_con_dualidad,general_regime,15,pct_del_iva_otros_bienes_servicios,2025-06-01,,49_ print (as-of >= 2025-06-01),portal rate list,EVID-390,secondary-print-pending,"covers both 15% entries of the 15/15/65 print (per-activity resolution via Sistema de Retenciones + prorrateo for mixed invoices); never frozen (GOQ-119)"
+agente_calificado,pequeno_contribuyente,5,monto_total_factura_mayor_o_igual_Q2500.01,2025-06-01,,49_ print (as-of >= 2025-06-01),portal rate list,EVID-391,secondary-print-pending,"R55/GOQ-06 addition: 5% on PC invoices when monto >= Q2,500.01 (exclusive boundary = LIVA art. 48/AG 5-2013 art. 49 mayor a Q2,500); statutory text pending LIVA art. 54-bis (GOQ-01 kin); cross-ref GT-TAX-FR-057 (Task 2); never frozen"
+agente_calificado,agropecuario,5,monto_total_factura,2025-06-01,,49_ print (as-of >= 2025-06-01),portal rate list,EVID-391,secondary-print-pending,"R55/GOQ-06 addition: 5% on Regimen Especial de Contribuyente Agropecuario invoices applied to the total factura (no separable IVA); processed in Retenciones Web; statutory basis pending (GOQ-06/GOQ-01); never frozen"
+sector_publico,pequeno_contribuyente,5,monto_total_factura,2024-11-29,,52_ print (portal 2024-11-29),manual rate table,EVID-407,secondary-print-pending,"R55/GOQ-06 addition: 52_ 25/5/5 by provider regimen de afiliacion del IVA; statutory basis pending (GOQ-06/GOQ-01); floor interplay with art. 2 Q30000 unstated — flag only (GOQ-66); never frozen"
+sector_publico,agropecuario,5,monto_total_factura,2024-11-29,,52_ print (portal 2024-11-29),manual rate table,EVID-407,secondary-print-pending,"R55/GOQ-06 addition: sector publico retains 5% of total factura from agropecuario-regime providers; statutory basis pending (GOQ-06/GOQ-01); never frozen"
