@@ -734,9 +734,10 @@ D-GT10 / HN D-H2/D-H3 stay in their country docs.
   (rebase-then-merge; never force-push; remote refs updated via
   delete + re-push when history was rebased). Milestones are normally
   session closes — standard protocol in §4.6.
-- **Future countries: Colombia, Peru, Nicaragua, Costa Rica, Belize,
-  Panama, Dominican Republic** (owner roadmap 2026-08-19; not started).
-  Bootstrap per the GT/HN pattern: country dir scaffold + research spec in
+- **Future countries: Chile, Colombia, Peru, Nicaragua, Costa Rica,
+   Belize, Panama, Dominican Republic** (owner roadmap 2026-08-19; Chile
+  added 2026-08-20; none started). Bootstrap per the GT/HN pattern:
+  country dir scaffold + research spec in
   `docs/superpowers/specs/` + own HANDOVER + worktree.
 
 **State at merge (updated 2026-08-19 W-GT3 close, branch-side):** GT =
@@ -1110,6 +1111,10 @@ W4 payroll → synthesis (master index + S-waves).
     pattern — scaffold + research spec + own HANDOVER + worktree). Note
     Belize is English-speaking/common-law (GST world) — expect the Spanish-
     Latam extraction template to need adaptation there.
+    **Chile added to the roadmap (owner 2026-08-20):** intent recorded,
+    not started — SII e-invoicing (folio/CEDN environment), IVA 19%,
+    Spanish civil-law; fits the existing extraction template; strong
+    upstream `l10n_cl` ecosystem to verify against at bootstrap.
 
 ### D18 mid-year go-live rulings (2026-08-19, owner session)
 47. **D18 ingestion mechanics (owner-approved with two amendments):**
