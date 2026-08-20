@@ -520,8 +520,8 @@ nothing outside this register may be treated as an open question.**
 
 ### Cross-cutting (headline register)
 
-| GOQ | Question | Origins | Blocking for |
-|---|---|---|---|
+| GOQ | Question | Synthesis annotation | Origins | Blocking for |
+|---|---|---|---|---|
 | GOQ-01 | (=OQ10) Post-2018 consolidated Ley IVA 27-92 text: Art. 29-"A" body, Ley 25 bis adder (electronic 100% refund), art. 54 B/BIS nomenclature, post-2012 exemption families (peaje/turismo/canasta), Q150,000 currency. Acquisition candidate (DCA Edición Legal / accountant). | **[S-GT2: cited in taxation/01+02+03+07 §7 — rides as currency caveat on every 23_-sourced dated row]** | EV01b OQ-6; EV02a OQ-2/3/9/10; EV04b OQ-8; EV04c OQ-3 (attribution leg resolved → R20) | TX1/TX2/TX3 freeze |
 | GOQ-02 | (=OQ3 umbrella) Which channel/version does production validation key on (GitHub 961133c vs cat.desa; per-file drift set)? Ask TotalDoc/SAT (W6 partner ask). Working rule: GitHub EXCEPT MediosdePago. | **[S-GT1: cited in catalogs/01_governance §7]** | EV01a OQ-1..; drift matrix | E2, E3 and all e-invoicing FRs |
 | GOQ-03 | (=OQ7) TotalDoc/GRUPO CDS authorization renewal 02/12/2026 (Aug-Dec 2026 renewal cluster: DIGIFACT 23/08, INFILE 31/10, FELCON 20/11, CARI 22/11, AINNOVA/INFORUM/MEGAPRINT 23/11, TEKRA 21/12) — re-check roster 31_ at milestone. | **[S-GT1: cited in 05_certificador-interface §7]** | EV01d OQ-11; EVID-106..108 | E5 provider continuity |
@@ -539,8 +539,8 @@ nothing outside this register may be treated as an open question.**
 
 ### C.1 e-invoicing (W-GT1)
 
-| GOQ | Question | Origins | Blocking for |
-|---|---|---|---|
+| GOQ | Question | Synthesis annotation | Origins | Blocking for |
+|---|---|---|---|---|
 | GOQ-15 | Which version string does production validation key on — filename 0.2.1 / NS 0.2.0 / schema@version 2.0 / GTDocumento@Version 0.1 (four coexist)? | **[S-GT1: cited in 02_dte-schema §7]** | EV01a OQ-1 | E2 |
 | GOQ-16 | XSD-active-set vs Reglas: are FACA/FCCA/FAPE/FCPE/FAAE/FCAE (active CD, commented GH) still emittable? BIDP (GH-only) vs Reglas silence; FACP expansion unstated (FCAP = "Factura Cambiaria Pequeño Contribuyente" per Endoso comments). | **[S-GT1: cited in 01_document-types §7]** | EV01a OQ-2; EV01e OQ-2 | E1, E2, E3 |
 | GOQ-17 | Does TotalDoc accept an emitter-side dispositivo/punto-de-emisión identifier (e.g. via adenda), or is CodigoEstablecimiento the only establishment granularity? | **[S-GT1: cited in 05_certificador-interface §7]** | EV01a OQ-3 | E7 |
@@ -582,8 +582,8 @@ nothing outside this register may be treated as an open question.**
 
 ### C.2 taxation (W-GT2)
 
-| GOQ | Question | Origins | Blocking for |
-|---|---|---|---|
+| GOQ | Question | Synthesis annotation | Origins | Blocking for |
+|---|---|---|---|---|
 | GOQ-53 | CT currency window: copy consolidated legislatively through D-37-2016 + CC through 03-12-2019; no 2017-2026 CT reform verifiable — verify against current consolidation before any CT citation as "vigente". | **[S-GT2: cited in taxation/06 §7 — currency qualifier on every CT row]** | EV02b OQ-1/8 | TX6, e-invoicing |
 | GOQ-54 | NIT structure/format/check-digit rules: CT never housed them — source from RTU/reglamento corpus. | **[S-GT2: cited in taxation/06 §7 — pointer FR]** | EV02b OQ-3 | TX6 (+ E3 GOQ-49) |
 | GOQ-55 | Resarcitorio numeric rates = Junta Monetaria semester publications, external — rate table must be sourced before interest CRs. | **[S-GT2: cited in taxation/06 §7 — shipped as ingestion requirement, never hard-coded]** | EV02b OQ-6 | TX6 |
@@ -604,8 +604,8 @@ nothing outside this register may be treated as an open question.**
 
 ### C.3 payroll (W-GT3)
 
-| GOQ | Question | Origins | Blocking for |
-|---|---|---|---|
+| GOQ | Question | Synthesis annotation | Origins | Blocking for |
+|---|---|---|---|---|
 | GOQ-70 | CT D-1441 instrument dating: year/publication printed nowhere in the edition; official instrument needed before dated citations; commemorative book is not a DCA/congressional print. | EV03a OQ-1/6 | P1 citations |
 | GOQ-71 | CT edition cutoff indeterminate (latest printed annotation D18-2001; later content unannotated) — per-article external verification required. | EV03a OQ-2 | P1 |
 | GOQ-72 | Art. 420 stacks Derogado+Reformado; art. 421 double derogations — unexplained; resolve only if cited. | EV03a OQ-4 | P1 (minor) |
@@ -631,8 +631,8 @@ nothing outside this register may be treated as an open question.**
 
 ### C.4 fiscal-reporting (W-GT4)
 
-| GOQ | Question | Origins | Blocking for |
-|---|---|---|---|
+| GOQ | Question | Synthesis annotation | Origins | Blocking for |
+|---|---|---|---|---|
 | GOQ-92 | Electronic devolución-CF forms itemization (nav chrome names the family; 48_ tables carry only paper 2124/2053/2062/2073) + DUCA/SAT-2901 customs forms + LAT dividendos successors of 7061/7101 — all live outside the 4-table catalog; enumerate from portal. | EV04a OQ-2 (residue) | F1, F5 |
 | GOQ-93 | Same-code/channel-split rows (1219 both tables; 2302 papel-vigente/web-no-vigente; 1111 app/paper; 511 main+anexo) — registry versioning semantics unexplained; model needs version-dimension. | EV04a OQ-3 | F1 |
 | GOQ-94 | As-of stamping: 48_ = Wayback 2025-10-06 (no dateModified; channel definitions BancaSAT-era); 49_/50_ © 2025 only (49_ anchored ≥ 01-jun-2025; 50_ no anchor) — treat channel model as SAT-published, not exhaustive. | EV04a OQ-5; EV04b OQ-1 | F1, F2 currency |
@@ -666,8 +666,8 @@ nothing outside this register may be treated as an open question.**
 
 ### C.5 chart-of-accounts + commercial-legal (W-GT5)
 
-| GOQ | Question | Origins | Blocking for |
-|---|---|---|---|
+| GOQ | Question | Synthesis annotation | Origins | Blocking for |
+|---|---|---|---|---|
 | GOQ-122 | D2-70 dated-row completion: what D-43-70 changed in transitoria XI; no DCA publication date printed (last printed date = promulgation 9-abr-1970). | EV05a OQ-2; EV05b OQ-2 | C1 D16 rows |
 | GOQ-123 | CCom post-May-2006 reform watch: consolidation horizon D-11-2006; later reforms absent (known: art. 343 = D-18-2017) — verification note rides every 66_ citation. | EV05a OQ-3; EV05b OQ-1 | C1-C5 trust |
 | GOQ-124 | Retention/destruction max-per-object matrix (synthesis deliverable): art. 383 keys destruction to "prescripción de las acciones" but CCom enacts no general period (art. 1 → Civil); practical floor = tax corpus (CT 112"A, 4y+); factura cambiaria art. 604 5y likely superseded — write the matrix in the S-GT5 file. | EV05a OQ-6; EV05b OQ-4 | C1, C5, archive |
@@ -684,8 +684,8 @@ nothing outside this register may be treated as an open question.**
 
 ### C.6 special-regimes (W-GT6)
 
-| GOQ | Question | Origins | Blocking for |
-|---|---|---|---|
+| GOQ | Question | Synthesis annotation | Origins | Blocking for |
+|---|---|---|---|---|
 | GOQ-135 | D-65-89 effective date: DCA date not printed (vigencia = DCA + 30 días); likewise the maquila chain (D-29-89 DCA+30; AG 533-89 DCA+1; AG 253-2001 immediate-but-undated, read 27-jun-2001 pending confirmation). | EV06a OQ-1; EV06b OQ-2/4 | SR2/SR4 dated rows |
 | GOQ-136 | D-6-2021 given-date month OCR-illegible ("EL DOCE …", read May-2021) + the page-mate trámites decree (arts. 40-43) unidentified. | EV06a OQ-3 (residue) | SR2 |
 | GOQ-137 | 81_ (AG 65-2022) OCR gaps: signature unreadable; art.-number garbles; 34-Quater boleta field lists drop importaciones/exportaciones rows vs 68_ (OCR loss vs consolidation defect unresolved) — quote 68_ where it prints the same article WITH a tag. | EV06a OQ-4 | SR2 quoting |

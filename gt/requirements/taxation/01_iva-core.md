@@ -133,7 +133,7 @@ decree-bound, never constants (GOQ-50 pattern).
   recorded exactly as printed — "Derogado", with its CC history (added by
   D-32-2003; declared unconstitutional, CC expedientes acumulados
   1060-2003 y 1064-2003) — and NO differentiated petroleum IVA rate shall
-  be   implemented from this layer (the IDP petroleum-distribution tax is a
+  be implemented from this layer (the IDP petroleum-distribution tax is a
   separate excise owned by the e-invoicing catalog files, S-GT1).
   (LB-006; EVID-166)
 - **GT-TAX-FR-009:** The rate-exception registry shall contain exactly the

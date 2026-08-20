@@ -1,3 +1,16 @@
+# GT ISR rate/bracket catalog (D-GT10 seed) — machine-readable sidecar of
+#   gt/requirements/taxation/05_isr-lucrativas-capital.md (§4 dated rows).
+# Authority order (master index, binding): 26_ LAT D-10-2012
+#   (gt/sources/26_LAT_10-2012.pdf, texto <= D-46-2022) > 28_ Reglamento
+#   AG 213-2013 (gt/sources/28_Reglamento_LAT_AG_213-2013.pdf) > 47_ SAT
+#   digest (gt/sources/47_SAT_Patronos_Retencion_ISR_2025.pdf) —
+#   self-disclaimed, NEVER cited as law (law wins every delta).
+# GOQ-58 caveat (mandatory): all rates are D-10-2012-era dated rows — the
+#   LAT post-46-2022 window (after 27-09-2022) is unverified; NEVER freeze
+#   as constants.
+# Transitional rows carry valid_to (Utilidades 31/28; Opcional 6% upper
+#   bracket; historical non-transmittable).
+# Hand-built from EV02c evidence; every row carries its source EVID id.
 category,scope,bracket_or_concept,from_amount,to_amount,rate_pct,fixed_quota,over_excess_of,valid_from,valid_to,provenance,evid,notes
 lucrativas,utilidades_annual,rate,0.01,,31,,,2013-01-01,2013-12-31,"26_ art. 172.1 (texto <= D-46-2022)",EVID-223,FY2013 transitional; historical non-transmittable
 lucrativas,utilidades_annual,rate,0.01,,28,,,2014-01-01,2014-12-31,"26_ art. 172.2 (texto <= D-46-2022)",EVID-223,FY2014 transitional; historical non-transmittable

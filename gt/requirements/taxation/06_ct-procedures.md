@@ -412,7 +412,7 @@ D-47-91).
   no-retention opt-out resolves in 15 days with POSITIVE silence (petition
   granted if SAT does not resolve). Sanction hooks: arts. 91/94.7 (FR-212/
   FR-213) and 94.18 constancia row (FR-214). (LB-014; EVID-215; xref Task 3
-  GT-TAX-FR-104/110)
+  GT-TAX-FR-104/105..107; FR-110 = fuel/import edge guard)
 - **GT-TAX-FR-231:** Books currency (art. 94.4): all operations must be
   recorded in duly authorized/habilitado books and registers within the 2
   calendar months immediately following their realization — the ledger-
@@ -537,7 +537,7 @@ sanction evaluation = `saas` with odoo surfaces; resarcitorio rate ingestion =
 | FR-227 | shared | — (config data §4) | recursos clock rows | Revocatoria 10 dh, ocurso 3 dh, silencio 30 d; restitución without procedure |
 | FR-228 | saas | payment application engine | 5-d claim, 18-m convenios, interests-first, compensación oldest-first | Odoo surfaces payment plans/compensation proposals |
 | FR-229 | shared | — (config data §4) | de-minimis/solvencia dated rows | Q1,000/Q5,000/4-year ban/8-dh SLA — faculty rows, not duties |
-| FR-230 | odoo | res.partner (retention-agent config) | agent capacity + sole-responsibility flags | Rates/deadlines owned by Task 3 (GT-TAX-FR-104/110); 15-day positive-silence opt-out recorded |
+| FR-230 | odoo | res.partner (retention-agent config) | agent capacity + sole-responsibility flags | Rates/deadlines owned by Task 3 (GT-TAX-FR-105..107; FR-110 = fuel/import edge guard); 15-day positive-silence opt-out recorded |
 | FR-231 | odoo | account books / compliance dashboard | 2-month ledger-currency metric | Q5,000 row + art. 85.4 cierre list ([sic] flag GOQ-56); LET rules cite LAT (R29) |
 | FR-232 | shared | — (config data §4) | retention policy anchor (prescription-anchored) | Archive matrix owned by C-wave (GOQ-124 cross-ref); 3-month rehacer; original-medium rule |
 | FR-233 | shared | — | pre-FEL guard rows | Authorization mechanics from FEL/facturación instruments only; impresores conditional (GOQ-57) |

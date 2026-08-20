@@ -312,8 +312,8 @@ verified against the committed evidence extracts and the source text layer
   synthesis requirement is written against it; register rows are appended
   (D16) — a newer consolidation adds a row and closes the old one's window,
   never replacing the earlier print's provenance in place. (LB-016; LB-001;
-  LB-004; LB-015; EVID-161, EVID-181, EVID-260; GOQ-01/13/68 →
-  OQ-003/OQ-005/OQ-006)
+  LB-004; LB-015; EVID-161, EVID-181, EVID-260; GOQ-68 → OQ-003,
+  GOQ-01 → OQ-005, GOQ-13 → OQ-006)
 
 ## 4. Data Model
 
