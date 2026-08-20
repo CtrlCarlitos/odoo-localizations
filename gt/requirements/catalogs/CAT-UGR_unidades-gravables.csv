@@ -1,0 +1,44 @@
+version,ultima_actualizacion,impuesto,codigo_unidad_gravable,nombre_unidad_gravable,nombre_corto,opera_sobre_casilla,factor,descuento
+0.1.4,23/08/2022 11:00:00,IVA,1,Tasa 12.00%,IVA 12%,MontoGravable,0.12,
+0.1.4,23/08/2022 11:00:00,IVA,2,Tasa 0,IVA 0,MontoGravable,0,
+0.1.4,23/08/2022 11:00:00,PETROLEO,1,Gasolina superior,Gasolina superior Q4.70,CantidadUnidadesGravables,4.7,0
+0.1.4,23/08/2022 11:00:00,PETROLEO,2,Gasolina regular,Gasolina regular Q4.60,CantidadUnidadesGravables,4.6,0
+0.1.4,23/08/2022 11:00:00,PETROLEO,3,Gasolina de aviación,Gasolina de aviación Q4.70,CantidadUnidadesGravables,4.7,0
+0.1.4,23/08/2022 11:00:00,PETROLEO,4,Diésel,Diésel Q1.30,CantidadUnidadesGravables,1.3,0
+0.1.4,23/08/2022 11:00:00,PETROLEO,5,Gas Oil,Gas Oil Q1.30,CantidadUnidadesGravables,1.3,0
+0.1.4,23/08/2022 11:00:00,PETROLEO,6,"Kerosina (DPK), (Avjet, turbo fuel)",Kerosina avjet turbo fuel Q0.50,CantidadUnidadesGravables,0.5,0
+0.1.4,23/08/2022 11:00:00,PETROLEO,7,Nafta,Nafta Q0.50,CantidadUnidadesGravables,0.5,0
+0.1.4,23/08/2022 11:00:00,PETROLEO,8,Fuel Oil (Bunker C),Fuel Oil (Bunker C) Q0.00,CantidadUnidadesGravables,0,0
+0.1.4,23/08/2022 11:00:00,PETROLEO,9,Gas licuado de petróleo a granel,Gas licuado granel Q0.50,CantidadUnidadesGravables,0.5,0
+0.1.4,23/08/2022 11:00:00,PETROLEO,10,Gas licuado petróleo carburación,Gas licuado carburación Q0.50,CantidadUnidadesGravables,0.5,0
+0.1.4,23/08/2022 11:00:00,PETROLEO,11,Petróleo crudo usado como combustible,Petróleo crudo combustible Q0.00,CantidadUnidadesGravables,0,0
+0.1.4,23/08/2022 11:00:00,PETROLEO,12,Otros combustibles derivados del petróleo,Otros combustibles Q0.00,CantidadUnidadesGravables,0,0
+0.1.4,23/08/2022 11:00:00,PETROLEO,13,Asfaltos,Asfaltos Q0.00,CantidadUnidadesGravables,0,0
+0.1.4,23/08/2022 11:00:00,PETROLEO,14,Exento de IDP,Exento de IDP Q0.00,CantidadUnidadesGravables,0,0
+0.1.4,23/08/2022 11:00:00,PETROLEO,15,Superior con etanol,Super con etanol,CantidadUnidadesGravables,4.7,0.1
+0.1.4,23/08/2022 11:00:00,PETROLEO,16,Regular con etanol,Regular con etanol,CantidadUnidadesGravables,4.6,0.1
+0.1.4,23/08/2022 11:00:00,TURISMO HOSPEDAJE,1,Tasa Hospedaje 10%,Hospedaje 10.00%,MontoGravable,0.1,
+0.1.4,23/08/2022 11:00:00,TURISMO HOSPEDAJE,2,Tasa Hospedaje Exento Tasa 0,Hospedaje Exento 0%,MontoGravable,0,
+0.1.4,23/08/2022 11:00:00,TURISMO PASAJES,1,Salida del país por vía aérea,Salida vía aérea USD30.00,CantidadUnidadesGravables,30,
+0.1.4,23/08/2022 11:00:00,TURISMO PASAJES,2,Salida del país por vía marítima,Salida vía marítima USD10.00,CantidadUnidadesGravables,10,
+0.1.4,23/08/2022 11:00:00,TURISMO PASAJES,3,Salida del país por vía aérea exento según Decreto 31-2022,Aérea exenta Dec. 31-2022,CantidadUnidadesGravables,0,
+0.1.4,23/08/2022 11:00:00,TIMBRE DE PRENSA,1,Timbre de prensa cinco (5) por millar,Timbre de prensa,MontoGravable,0.5,
+0.1.4,23/08/2022 11:00:00,BOMBEROS,1,Tasa por seguro contra incendio,Bomberos 2.00%,MontoGravable,0.02,
+0.1.4,23/08/2022 11:00:00,TASA MUNICIPAL,,"Texto variable (nombre del departamento, municipio y concepto)",Texto variable,,,
+0.1.4,23/08/2022 11:00:00,BEBIDAS ALCOHOLICAS,1,Cervezas y otras bebidas,Cervezas y otras bebidas 6.00%,CantidadUnidadesGravables,0.06,
+0.1.4,23/08/2022 11:00:00,BEBIDAS ALCOHOLICAS,2,Vinos,Vinos 7.50%,CantidadUnidadesGravables,0.075,
+0.1.4,23/08/2022 11:00:00,BEBIDAS ALCOHOLICAS,3,Vino espumoso,Vino espumoso 7.50%,CantidadUnidadesGravables,0.075,
+0.1.4,23/08/2022 11:00:00,BEBIDAS ALCOHOLICAS,4,Vino vermouth,Vino vermouth 7.50%,CantidadUnidadesGravables,0.075,
+0.1.4,23/08/2022 11:00:00,BEBIDAS ALCOHOLICAS,5,Sidras,Sidras 7.50%,CantidadUnidadesGravables,0.075,
+0.1.4,23/08/2022 11:00:00,BEBIDAS ALCOHOLICAS,6,Bebidas alcohólicas destiladas,Bebidas alcohólicas destiladas 8.50%,CantidadUnidadesGravables,0.085,
+0.1.4,23/08/2022 11:00:00,BEBIDAS ALCOHOLICAS,7,Bebidas alcohólicas mezcladas,Bebidas alcohólicas mezcladas 7.50%,CantidadUnidadesGravables,0.075,
+0.1.4,23/08/2022 11:00:00,BEBIDAS ALCOHOLICAS,8,Otras bebidas fermentadas,Otras bebidas fermentadas 7.50%,CantidadUnidadesGravables,0.075,
+0.1.4,23/08/2022 11:00:00,TABACO,1,Precio de fábrica,Precio de fábrica por 100%,CantidadUnidadesGravables,1,
+0.1.4,23/08/2022 11:00:00,TABACO,2,Precio sugerido al consumidor ,Precio sugerido al consumidor por 75%,CantidadUnidadesGravables,0.75,
+0.1.4,23/08/2022 11:00:00,CEMENTO,1,Bolsa de 42.5 kgs,Bolsa de 42.5 kgs Q1.50,CantidadUnidadesGravables,1.5,
+0.1.4,23/08/2022 11:00:00,BEBIDAS NO ALCOHOLICAS,1,Bebidas gaseosas y jarabes,Bebidas gaseosas y jarabes Q0.18,CantidadUnidadesGravables,0.18,
+0.1.4,23/08/2022 11:00:00,BEBIDAS NO ALCOHOLICAS,2,Bebidas isotónicas o deportivas,Bebidas isotónicas o deportivas Q0.12,CantidadUnidadesGravables,0.12,
+0.1.4,23/08/2022 11:00:00,BEBIDAS NO ALCOHOLICAS,3,Jugos y néctares,Jugos y néctares Q0.10,CantidadUnidadesGravables,0.1,
+0.1.4,23/08/2022 11:00:00,BEBIDAS NO ALCOHOLICAS,4,Bebidas de yogur,Bebidas de yogur Q0.10,CantidadUnidadesGravables,0.1,
+0.1.4,23/08/2022 11:00:00,BEBIDAS NO ALCOHOLICAS,5,Agua natural envasada,Agua natural envasada Q0.08,CantidadUnidadesGravables,0.08,
+0.1.4,23/08/2022 11:00:00,TARIFA PORTUARIA,1,Tarifa Portuaria,Tarifa Portuaria $0.05,CantidadUnidadesGravables,0.05,
