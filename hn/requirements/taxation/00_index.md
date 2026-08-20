@@ -1,0 +1,73 @@
+# HN — Taxation requirements index
+
+| Field   | Value |
+|---------|-------|
+| Country | hn |
+| Topic   | taxation |
+| Status  | draft (S-HN1 synthesis wave, in review) |
+| Authors | Takumi synthesis wave S-HN1 + controller |
+| Updated | 2026-08-20 |
+
+This directory holds the S-HN1 (synthesis wave HN-1) taxation
+requirements: the ISR framework + Código Tributario chassis, renta-neta
+deductions, 22-A minimum tax + ganancias de capital + non-resident
+withholding, the asalariados plantilla/retention engines with the
+FY2022-2026 bracket vintages as a dated CSV sidecar, the D. 17-2010
+cédula/selectivo family, the ISV core + liquidation regime, and special
+regimes/exonerations. Built from master-index clusters T1-T12 (W1
+evidence, EVID-001..071); F/P/E clusters are consumed by id, never
+re-derived. Source-to-requirements coverage: [../COVERAGE.md](../COVERAGE.md)
+(to be generated at S-wave validation).
+
+## Files & FR ranges
+
+| File | Scope (clusters) | FR range | FRs | LBs | ACs | OQs |
+|------|------------------|----------|-----|-----|-----|-----|
+| [01_isr-framework.md](01_isr-framework.md) | Subjects/scope/rates overview, fiscal periods, books, entero, refunds, prescription, sanctions (T1+T11); Art. 206 void dead-text note (R-H5) | HN-TAX-FR-001..045 | 45 | 24 | 23 | 6 |
+| [02_isr-deductions.md](02_isr-deductions.md) | Renta-neta chassis, bad-debt cap, non-deductibles, personal/senior stack, donations, NOL (T2) | HN-TAX-FR-046..078 | 33 | 14 | 16 | 8 |
+| [03_isr-rates-gains-minimum.md](03_isr-rates-gains-minimum.md) | 22-A gross-minimum (three dated regimes, R-H32), ganancias de capital 10%, non-resident 13-category table (T4+T5) | HN-TAX-FR-081..104 | 24 | 12 | 20 | 8 |
+| [04_isr-withholding.md](04_isr-withholding.md) | Plantilla computation contract, FY2022-2026 scale vintages (`isr_brackets.csv`), 12.5% services + 1% compras engines, entero anchor (T3+T6) | HN-TAX-FR-121..153 | 33 | 15 | 16 | 10 |
+| [05_d17-2010-family.md](05_d17-2010-family.md) | Dividends/deemed dividends, cédulas alquiler/enseñanza, revaluación, selectivo vehicles/cigarettes/beverages/slots (T7+T10) | HN-TAX-FR-166..207 | 42 | 16 | 20 | 8 |
+| [06_isv.md](06_isv.md) | ISV base/event/rates/exemptions, débito-crérdito liquidation, OTCD cards, simplificado, devolución 8% (T8+T9) | HN-TAX-FR-211..255 | 45 | 18 | 19 | 6 |
+| [07_special-regimes-exonerations.md](07_special-regimes-exonerations.md) | Exonerations registry lifecycle, RIT, no-simultaneidad, sacrificio fiscal, state-side gates, Eficiencia closers (T12) | HN-TAX-FR-256..281 | 26 | 10 | 21 | 8 |
+| **Total** | | HN-TAX-FR-001..281 | **248** | **109** | **135** | **54** |
+
+Numbering note: FR ranges pre-allocated per file (subagent dispatch
+pattern); unused tail numbers stay reserved (079-080, 105-120, 154-165,
+208-210, 282-285) for later additions — no renumbering. The
+`isr_brackets.csv` sidecar carries the PN annual progressive vintages
+(FY2022-2026, 5 × 4 bands, full-precision mechanism per R-H10 — print
+2dp is print-only); it carries no FRs of its own.
+
+## Wave rulings & carries (controller notes)
+
+- **Territoriality (origin `03_ OQ-1`) — PROPOSED R-H66, NOT yet
+  adopted:** file 01's FR-004 encodes dated regime rows (worldwide
+  pre-2017 / territorial 2017+) with the reasoning (lex posterior CT
+  chassis; no foreign-tax-credit mechanism making worldwide
+  incoherent); the OQ stays OPEN pending product-owner confirmation —
+  never resolve silently.
+- **Resolved at synthesis (verified by controller):** `01_ OQ-4`
+  (10-SMM caps = excess-only, never cliff — proven by the plantilla IF
+  semantics, EV07:EVID-055; file 02 OQ-002); `07_ OQ-2` FY2026 leg
+  (promedio L14,917.20 → cap L149,172.00 per R-H47/EVID-228; missing
+  promedio vintages stay DGS-print leads, P1 owns the rows); `04_ OQ-4`
+  (DAR superseded by DJIMR per R-H31 — file 05 OQ-002).
+- **Evidence-over-brief corrections (encoded per evidence, not brief):**
+  bad-debt cap = 10% of closing client AR (not "prior-year bad debts");
+  L30k@60 senior tier attributed to D. 199-2006 per plantilla citation
+  (unacquired — row ships activation-blocked, file 02 OQ-008).
+- **Cross-wave dependencies:** SMM-promedio rows consumed from
+  `../payroll/` (P1, future S-HN4 — R-H47: never recompute); IPC-chain
+  current values (98_/99_/100_) ride the selectivo/F9 side of S-HN3;
+  OVI/SW declaration chassis = F1 (S-HN3); fiscal-document retention
+  surfaces = `../e-invoicing/` (S-HN2, same session).
+
+## Open-questions summary
+
+54 open OQs (wave total), highest-leverage: Reglamento Ley ISR
+("Acuerdo N°799" — depreciation/personal-deduction mechanics, cited 5×
+across the corpus), D. 199-2006 original (senior-tier anchor), Instructivo
+461-2020 (22-A petitions), devolución-8% when-it-applies instruments,
+Anexo I canonical source decision. Full text per file §7; register
+mapping to master-index C1 recorded per file.

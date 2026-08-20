@@ -1,0 +1,21 @@
+code,name_es,name_en,category,grammar,status,valid_from,valid_to,notes
+01,Factura,Invoice,comprobante_fiscal,16-digit,active,2017-12-31,,Code R-Art. 10.7c (pattern statement Art. 10.7); consecutive starts 00000001 and WRAPS at 99999999
+02,,Unassigned (reserved),,16-digit,unassigned,2017-12-31,,24_ OQ-3: unassigned in 481-2017 text; assume reserved; was Boleta de Venta under 189-2014; watch SAR assignment via R-Arts. 6.7/7.5 open slots
+03,Ticket,POS receipt (consumer-final exclusive),comprobante_fiscal,machine-autogen,active,2017-12-31,,Catalog code 03 (R-Art. 17 last para); machine numbering >= 10 digits with prefix 09 (R-Art. 17.4); NO 16-digit enforcement (R-H41; 24_ OQ-1)
+04,Recibo por Honorarios Profesionales,Professional fees receipt,comprobante_fiscal,16-digit,active,2017-12-31,,Code R-Art. 18.7c; imprenta-exclusive modality (file 04)
+05,Comprobante de Retencion,Retention receipt,documento_complementario,16-digit,active,2017-12-31,,Code R-Art. 33.5c
+06,Nota de Credito,Credit note,documento_complementario,16-digit,active,2017-12-31,,Code R-Art. 25.5c; origin triple CAI+numero+fecha owned by file 03
+07,Nota de Debito,Debit note,documento_complementario,16-digit,active,2017-12-31,,Code R-Art. 27.5c; origin triple owned by file 03
+08,Guia de Remision,Remission guide,documento_complementario,16-digit,active,2017-12-31,,Code R-Art. 29.4c; 12-motivo catalog owned by file 03
+09,(machine prefix),(Machine prefix - NOT a document type),,machine-autogen,reserved-machine-prefix,,,Maquina registradora autogen correlativo prefix 09=Ticket (R-Art. 17.4a); never implement as a document-type code (R-H41)
+10,Factura Prevalorada,Pre-priced (pre-valued) invoice,comprobante_fiscal,16-digit,collision-guarded,2017-12-31,,Code R-Art. 15.6c; COLLISION with DEI-279-2015 code 10 (R-H38): single-assignment invariant; this row is the 481-2017 (current-authority) assignment
+10,Comprobante de Compras Eventuales,Occasional-purchases voucher,,16-digit,collision-open,2016-03-22,,DEI-279-2015 own text (18_; grammar entered corpus via this 2016 instrument); host articles 189-Arts. 10.f/21.7/69 repealed by R-Art. 78; survival unexpressed; NEVER implement code 10 as both (R-H38; 24_ OQ-2)
+11,Boleta de Compra,Buyer-issued purchase slip,comprobante_fiscal,16-digit,active,2017-12-31,,Code R-Art. 20.5c; buyer-issued (reversed original/copia); no credito fiscal; mechanics owned by file 03
+12,Constancia de Donacion,Donation receipt (donee-issued),comprobante_fiscal,16-digit,active,2017-12-31,,Code R-Art. 23.7c; donee-issued; imprenta-exclusive modality (file 04)
+01,Factura,Invoice,comprobante_fiscal,14-digit,historical,2014-05-01,2017-12-30,189-2014 Art. 41.5 (NNNN-NN-NNNNNNNN; 4+2+8; punto de emision 4 digits; NO establecimiento segment); primary regime window - transition stock continues post-crossover per R-Art. 76 (FR-022 tolerance)
+02,Boleta de Venta,Sales slip (simplified regime / non-ISV),comprobante_fiscal,14-digit,abolished-pre-2018,2014-05-01,2017-12-30,Abolished by 481-2017; legacy instrument references remap to Factura (R-Art. 76); costs/gastos support only; never credito fiscal
+03,Recibo de Alquiler,Rent receipt (natural-person landlords),comprobante_fiscal,14-digit,abolished-pre-2018,2014-05-01,2017-12-30,Abolished (R-H42); pre-2018 recibos = legitimate historical cost support; cedular alquiler retention unaffected (retention != document type)
+04,Recibo por Honorarios Profesionales,Professional fees receipt,comprobante_fiscal,14-digit,historical,2014-05-01,2017-12-30,189-2014 Art. 41.5 literal b
+05,Comprobante de Retencion,Retention receipt,documento_complementario,14-digit,historical,2014-05-01,2017-12-30,189-2014 Art. 41.5 literal b
+06,Nota de Credito,Credit note,documento_complementario,14-digit,historical,2014-05-01,2017-12-30,189-2014 Art. 41.5 literal b
+07,Nota de Debito,Debit note,documento_complementario,14-digit,historical,2014-05-01,2017-12-30,189-2014 Art. 41.5 literal b

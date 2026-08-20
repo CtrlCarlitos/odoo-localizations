@@ -4,12 +4,44 @@ Execution plan per [shared/docs/requirements-extraction-procedure.md](../shared/
 Started 2026-08-19 (source-research pass complete). Status: active — **evidence
 waves W1 (taxation core) + W2 (fiscal reporting) + W3 (facturación/e-invoicing) +
 W4 (payroll) COMPLETE 2026-08-20 (EVID-001..333); synthesis prep DONE 2026-08-19
-(`hn/.extractions/00_MASTER_INDEX.md` — 43 clusters T1-T12/F1-F11/E1-E8/P1-P12,
-R-H1..65 ledger, ~236 OQs rolled into registers C1-C4); next = S-waves (S-HN1
-taxation → S-HN2 e-invoicing ∥ → S-HN3 fiscal-reporting → S-HN4 payroll; S-HN5
-thin closes at milestone)**.
+(`hn/.extractions/00_MASTER_INDEX.md`); S-HN1 taxation + S-HN2 e-invoicing
+synthesis DRAFT-COMPLETE 2026-08-20 (`hn/requirements/taxation/` 7 files +
+`hn/requirements/e-invoicing/` 4 files + 2 CSV sidecars, subagent-dispatched
+with pre-allocated FR ranges, controller-verified); next = S-HN3
+fiscal-reporting (needs S-HN1 rates ✓) → S-HN4 payroll; S-HN5 thin closes
+decided at milestone**.
 
 ## Wave log
+
+- **S-HN1 + S-HN2 (2026-08-20, DRAFT COMPLETE):** taxation (T1-T12) and
+  e-invoicing (E1-E8) synthesis, 11 subagent dispatches (7+4) with
+  pre-allocated FR ranges per the W2b/W4 pattern. Deliverables:
+  `hn/requirements/taxation/00_index.md` + `01_isr-framework.md` (T1+T11,
+  FR-001..045) + `02_isr-deductions.md` (T2, 046..078) +
+  `03_isr-rates-gains-minimum.md` (T4+T5, 081..104) +
+  `04_isr-withholding.md` (T3+T6, 121..153 + `isr_brackets.csv` 20 rows
+  FY2022-2026) + `05_d17-2010-family.md` (T7+T10, 166..207) + `06_isv.md`
+  (T8+T9, 211..255) + `07_special-regimes-exonerations.md` (T12, 256..281)
+  = 248 FRs / 109 LBs / 135 ACs / 54 OQs; `hn/requirements/e-invoicing/`
+  `00_index.md` + `01_document-types-numbering.md` (E1+E2, FR-001..031 +
+  `document_types.csv`) + `02_cai-ledger-emission-gate.md` (E3+E7,
+  046..084 — D-H2.2 hard gate) + `03_document-mechanics.md` (E4-E6,
+  091..140) + `04_registration-topologies-medios-see.md` (E8, 141..175,
+  SEE/CAEE config-gapped on lead 1) = 155 FRs / 68 LBs / 67 ACs / 26 OQs.
+  Controller verification: 11/11 template-conformant, FR ranges contiguous
+  within allocations, every FR LB+EVID-cited, zero dangling EVID anchors,
+  all source paths resolve, 5/5 verbatim spot-checks vs evidence bank.
+  **Synthesis rulings:** `01_ OQ-4` RESOLVED (10-SMM caps = excess-only,
+  plantilla IF semantics EV07:EVID-055); `07_ OQ-2` FY2026 leg RESOLVED
+  (R-H47 promedio L14,917.20 → cap L149,172.00); `04_ OQ-4` RESOLVED
+  (DAR→DJIMR supersession, R-H31). **Proposed R-H66 territoriality ruling
+  (worldwide pre-2017 / territorial 2017+, dated rows) encoded REVERSIBLY
+  in 01 FR-004 — OPEN pending product-owner confirmation, never silent.**
+  Evidence-over-brief corrections: bad-debt cap = 10%-of-closing-AR;
+  L30k@60 tier → D. 199-2006 (unacquired, activation-blocked row).
+  New highest-leverage LEAD: Reglamento Ley ISR "Acuerdo N°799" (5× cited
+  corpus-wide: depreciation, personal deductions, vinculación, Art. 84).
+  Files carry Status draft → in-review at index level.
 
 - **Synthesis prep (2026-08-19, DONE):** built `hn/.extractions/00_MASTER_INDEX.md`
   (SV-style) via 4 parallel digests (one per evidence wave). Contents: authority
