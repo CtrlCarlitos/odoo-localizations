@@ -41,12 +41,10 @@ pattern); unused tail numbers stay reserved (079-080, 105-120, 154-165,
 
 ## Wave rulings & carries (controller notes)
 
-- **Territoriality (origin `03_ OQ-1`) — PROPOSED R-H66, NOT yet
-  adopted:** file 01's FR-004 encodes dated regime rows (worldwide
-  pre-2017 / territorial 2017+) with the reasoning (lex posterior CT
-  chassis; no foreign-tax-credit mechanism making worldwide
-  incoherent); the OQ stays OPEN pending product-owner confirmation —
-  never resolve silently.
+- **Territoriality (origin `03_ OQ-1`) — R-H66 ADOPTED 2026-08-20 by
+  product owner:** file 01's FR-004 encodes dated regime rows (worldwide
+  pre-2017 / territorial 2017+); OQ-001 resolved (rows remain reversible
+  if a contrary instrument lands — flip without code change).
 - **Resolved at synthesis (verified by controller):** `01_ OQ-4`
   (10-SMM caps = excess-only, never cliff — proven by the plantilla IF
   semantics, EV07:EVID-055; file 02 OQ-002); `07_ OQ-2` FY2026 leg

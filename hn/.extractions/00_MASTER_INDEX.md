@@ -755,6 +755,7 @@ SMM auto-elevation of inferior contracts; CT negatives (R-H60); vintage pins;
 | R-H63 | 90_ cons.(7) "IPC superior" claim | False for every band (4.98 < 5.5-7.0) — drafting defect, no operative effect | EV82:90_ OQ-2 |
 | R-H64 | 101_ p.4 caption "AÑO 2022" | Print error on the 2023 table; trust column headers + Art. 3 text | EV82:101_ OQ-3 |
 | R-H65 | 87_ title dates inconsistent | Edition defect; cite signature 1-jun-2001 + G 29,503 14-jun-2001 | EV81:87_ OQ-3 |
+| R-H66 | ISR scope: Ley ISR Art. 2 worldwide (1963) vs CT Art. 1.2 territorial (2016) | ADOPTED by product owner 2026-08-20: worldwide pre-2017 / territorial 2017-01-01+ (lex posterior CT chassis; no foreign-tax-credit mechanism in the Ley ISR; source-based modern architecture); encoded as REVERSIBLE dated rows in taxation/01 FR-004 (origin `03_ OQ-1` resolved) | EV01:EVID-001; EV03:EVID-027; taxation/01 OQ-001 |
 
 ---
 
@@ -784,8 +785,9 @@ files (EVxx:file OQ-n).
   instructivo.
 - `02_ OQ-4` [VERIFY] 18% stacking order (selectivo-in-ISV-base at
   distributor-stage price) — cross-check 98_/99_/100_.
-- `03_ OQ-1` [CONFLICT] CT Art. 1.2 renta territorial (2016) vs Ley ISR Art. 2
-  worldwide (1963) — master-index ruling at synthesis.
+- ~~`03_ OQ-1` [CONFLICT] CT Art. 1.2 renta territorial (2016) vs Ley ISR Art. 2
+  worldwide (1963)~~ → RESOLVED by R-H66 (adopted 2026-08-20): worldwide
+  pre-2017 / territorial 2017-01-01+, reversible dated rows.
 - `03_ OQ-2` [LEAD] Art. 26.5 special fiscal period instrument — low priority.
 - `03_ OQ-3` [VERIFY] Art. 160 multa table post-D.180-2020 reforms — catalog shows
   none; verify.
@@ -1152,7 +1154,8 @@ files (EVxx:file OQ-n).
 - **Clusters:** 43 — W1 taxation T1-T12 (EVID-001..071), W2 fiscal-reporting F1-F11
   (EVID-072..185), W3 facturación E1-E8 (EVID-186..214), W4 payroll P1-P12
   (EVID-215..333). SEE/CAEE sub-cluster (E8 part) BLOCKED on lead 1.
-- **Resolved contradictions:** 65 (R-H1..R-H65; incl. 9 registry-mislabel
+- **Resolved contradictions:** 66 (R-H1..R-H66, the last adopted by product
+  owner 2026-08-20; incl. 9 registry-mislabel
   incidents and 4 void/dead-text rulings R-H3/4/5 + R-H1 partial-history).
 - **OQ register:** ~236 origin lines rolled up (~227 open after in-wave
   resolutions): C1 taxation ~23 open, C2 fiscal-reporting ~110 open, C3

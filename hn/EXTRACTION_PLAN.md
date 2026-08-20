@@ -64,9 +64,10 @@ S-HN5 thin closes decided at milestone**.
   **Synthesis rulings:** `01_ OQ-4` RESOLVED (10-SMM caps = excess-only,
   plantilla IF semantics EV07:EVID-055); `07_ OQ-2` FY2026 leg RESOLVED
   (R-H47 promedio L14,917.20 → cap L149,172.00); `04_ OQ-4` RESOLVED
-  (DAR→DJIMR supersession, R-H31). **Proposed R-H66 territoriality ruling
-  (worldwide pre-2017 / territorial 2017+, dated rows) encoded REVERSIBLY
-  in 01 FR-004 — OPEN pending product-owner confirmation, never silent.**
+  (DAR→DJIMR supersession, R-H31).   (DAR→DJIMR supersession, R-H31). **R-H66 territoriality ruling
+  (worldwide pre-2017 / territorial 2017+, dated rows) ADOPTED by
+  product owner 2026-08-20 — encoded in taxation/01 FR-004, OQ-001
+  resolved, rows stay reversible.**
   Evidence-over-brief corrections: bad-debt cap = 10%-of-closing-AR;
   L30k@60 tier → D. 199-2006 (unacquired, activation-blocked row).
   New highest-leverage LEAD: Reglamento Ley ISR "Acuerdo N°799" (5× cited

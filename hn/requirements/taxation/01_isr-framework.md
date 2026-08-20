@@ -20,7 +20,7 @@ State concessionaires, *herencias indivisas* (undivided estates), goods held
 *en virtud de un cargo* (by virtue of an office)); the scope tension between
 Ley ISR Art. 2's worldwide text (1963) and CT Art. 1.2's *renta territorial*
 (territorial-income principle, 2016) — encoded as a dated regime flag under
-proposed ruling R-H66, never silently; Honduran-source classification and the
+ruling R-H66 (ADOPTED 2026-08-20), never silently; Honduran-source classification and the
 1963 *vinculación económica* (economic relatedness) valuation rules (statutory
 base of the modern TP regime — future TP work, cluster F10); subjective
 exemptions with the public-enterprise carve-out (D. 219-2003); *pagos a
@@ -125,13 +125,14 @@ Art. 222 (R-H13; EV01 reform-history anchor — EVID-014 Cuadros 1-2).
 - **HN-TAX-FR-004:** The system shall resolve the tax-scope regime for
   foreign-source income of domiciled persons from a dated configuration table
   (`worldwide` per Ley ISR Art. 2, the 1963 text, for periods before
-  2017-01-01; `territorial` per CT Art. 1.2 from 2017-01-01 — the proposed
-  master-index ruling R-H66, see OQ-001), resolved as-of each computation's
+  2017-01-01; `territorial` per CT Art. 1.2 from 2017-01-01 — master-index
+  ruling R-H66, ADOPTED by product owner 2026-08-20, see OQ-001), resolved
+  as-of each computation's
   period date per D-H2 (never "today"); under the territorial rows,
   foreign-source income of domiciled persons is excluded from the ISR base
-  absent a specific statutory inclusion. The regime selection shall remain a
-  reversible dated row pending controller confirmation of R-H66 — neither
-  text is encoded silently. (LB-002; LB-007; EV01:EVID-001; EV03:EVID-027; OQ-001)
+  absent a specific statutory inclusion. The regime selection remains a
+  reversible dated row (flip without code change if a contrary instrument
+  lands) — neither text is encoded silently. (LB-002; LB-007; EV01:EVID-001; EV03:EVID-027; OQ-001)
 - **HN-TAX-FR-005:** The system shall classify as wholly Honduran-source
   (*totalmente de fuente hondureña*) the export income of goods produced,
   manufactured, treated or bought in the country, valuing export gross income
@@ -411,7 +412,7 @@ and never recomputed.
 | res.company | hn_isr_exemption_category | select | state_entity · nonprofit_charity · church · diplomat_reciprocity · association_union · teacher | FR-007 |
 | res.company | hn_public_enterprise | boolean | true → taxable override of state_entity exemption (D. 219-2003) | FR-008 |
 | res.company | hn_isr_pagos_a_cuenta_eligible | boolean (computed) | false for labor-income-only retained subjects | FR-009 |
-| l10n_hn.isr.scope.regime (new) | regime · valid_from · valid_to | select + dates | worldwide (pre-2017) · territorial (2017-01-01+, proposed R-H66) | FR-004 |
+| l10n_hn.isr.scope.regime (new) | regime · valid_from · valid_to | select + dates | worldwide (pre-2017) · territorial (2017-01-01+, R-H66 ADOPTED 2026-08-20) | FR-004 |
 | res.company | hn_taxpayer_category | select + dates | AT Acuerdo Ejecutivo categories (refreshed ≥2y; dated config) | FR-027 |
 
 **Income classification and rate routing (on journal items):**
@@ -478,7 +479,7 @@ cluster F1 of the S-HN3 wave. Models cited are stable across Odoo 17/18/19/20.
 | FR-001 | odoo | account.move.line | hn_isr_income (computed) | Income-account mapping feeds the ISR base; recognition independent of form (cash/kind/credit) |
 | FR-002 | odoo | res.company / res.partner | hn_isr_subject_type | Partner/company fiscal category; ships/cargo-administered units modeled as company/partner flags |
 | FR-003 | odoo | res.company | hn_isr_domiciled | Residency test data entry (manual flag + crew rule default) |
-| FR-004 | odoo | l10n_hn.isr.scope.regime | regime, valid_from/valid_to | D-H2: resolved by period date; territorial default from 2017-01-01 pending OQ-001/R-H66 confirmation — reversible row, no code branch |
+| FR-004 | odoo | l10n_hn.isr.scope.regime | regime, valid_from/valid_to | D-H2: resolved by period date; territorial from 2017-01-01 per R-H66 (ADOPTED 2026-08-20, OQ-001 resolved) — reversible row, no code branch |
 | FR-005 | odoo | account.move.line | hn_isr_source_status/_rule | Export/import classification defaults by incoterm/partner country; solidarity flag on import mirrors |
 | FR-006 | odoo | account.move.line | hn_isr_related_party, hn_isr_valuation_basis | Related-party guard feeds TP worksheets (cluster F10 future); presumption auto-set on below-wholesale declarations |
 | FR-007 | odoo | res.company | hn_isr_exempt_art7 + category | Formal-duty grid stays active when exempt |
@@ -627,7 +628,7 @@ computation files of this directory when they pin their own anchors.
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
-| OQ-001 | Territoriality conflict (origin `03_ OQ-1`, register C1): CT Art. 1.2 "renta territorial" (2016) vs Ley ISR Art. 2 worldwide text (1963, unreformed) for foreign-source income of domiciled persons. Proposed master-index ruling R-H66 presented by this synthesis for controller confirmation — operative scope modeled as territorial from 2017-01-01 (lex posterior; CT as general chassis applicable to all tributes; no foreign-tax-credit mechanism anywhere in the Ley ISR, making an operative worldwide base incoherent; modern architecture (Art. 3 fuente rules, Art. 5 non-resident schedule, retention-based collection) wholly source-based; DTA-authorization clause read as treaty-level, not domestic scope). FR-004 encodes the dated regime row as reversible — neither text applied silently. Awaiting controller ruling. | no (flag default reversible) | controller (ruling R-H66) | open |
+| OQ-001 | Territoriality conflict (origin `03_ OQ-1`, register C1): CT Art. 1.2 "renta territorial" (2016) vs Ley ISR Art. 2 worldwide text (1963, unreformed) for foreign-source income of domiciled persons. Proposed master-index ruling R-H66 presented by this synthesis for controller confirmation — operative scope modeled as territorial from 2017-01-01 (lex posterior; CT as general chassis applicable to all tributes; no foreign-tax-credit mechanism anywhere in the Ley ISR, making an operative worldwide base incoherent; modern architecture (Art. 3 fuente rules, Art. 5 non-resident schedule, retention-based collection) wholly source-based; DTA-authorization clause read as treaty-level, not domestic scope). FR-004 encodes the dated regime row as reversible — neither text applied silently. **RESOLVED: R-H66 ADOPTED by product owner 2026-08-20 — worldwide pre-2017 / territorial 2017-01-01+, dated rows stand as encoded (still reversible if a contrary instrument lands).** | no (flag default reversible) | controller (ruling R-H66) | resolved (adopted 2026-08-20) |
 | OQ-002 | Special fiscal period instrument (origin `03_ OQ-2`): CT Art. 26.5 authorizes AT-approved special periods and ISR Art. 27 requires prior written notice, but the conditions/procedure instrument (acuerdo) is unacquired. FR-016 carries the regime row; low priority. | no | Takumi S-HN1 (acquisition queue) | open |
 | OQ-003 | Art. 160 multa-table vintage (origin `03_ OQ-3`): the 03_ consolidation stops at D. 180-2020 and the SAR catalog shows no later CT reform except the 89_ interpretation — verify no post-2020 instrument altered the income bands or SMM fractions before freezing the table data. | no | Takumi S-HN1 | open |
 | OQ-004 | ISR-late pro-diem denominator (origin `03_ OQ-4`): "5% del impuesto causado... proporcional a los días transcurridos" — the denominator (days of the elapsed month? 30?) is unstated; FR-042 encodes the bands with a configurable denominator and preserves the marker; check SAR Ayudas 102/103 practice at the S-HN3 wave. | no | Takumi S-HN3 (Ayudas 102/103) | open |

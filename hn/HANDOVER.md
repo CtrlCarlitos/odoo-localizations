@@ -52,7 +52,7 @@ boundary.
 4. **`hn/requirements/taxation/00_index.md` + `hn/requirements/e-invoicing/
     00_index.md` + `hn/requirements/fiscal-reporting/00_index.md` —
     S-HN1/S-HN2/S-HN3 deliverable indexes (248 + 155 + 362 FRs, wave
-    rulings, proposed R-H66 awaiting owner). READ BEFORE S-HN4 (it consumes
+    rulings; R-H66 adopted 2026-08-20). READ BEFORE S-HN4 (it consumes
     these files' FR ids — esp. taxation/04 plantilla + fiscal-reporting/02
     código-111 columns).**
 5. `hn/RESEARCH.md` — research dossier: sites, fetch recipes (§6), hint
@@ -213,9 +213,10 @@ RESEARCH §5). Structure:
   (R-H47 applied); DAR superseded by DJIMR (R-H31 applied); bad-debt cap =
   10%-of-closing-AR (evidence over brief); L30k@60 senior tier attributed to
   D. 199-2006 per plantilla citation — row activation-blocked until acquired.
-  **Proposed R-H66 (territoriality: worldwide pre-2017 / territorial 2017+,
-  dated rows) encoded REVERSIBLY in taxation/01 FR-004 — OPEN for
-  product-owner confirmation at merge; never resolve silently.** S-HN3
+  **R-H66 (territoriality: worldwide pre-2017 / territorial 2017+,
+  dated rows) ADOPTED by product owner 2026-08-20 — encoded in
+  taxation/01 FR-004, OQ-001 resolved; rows stay reversible if a contrary
+  instrument lands.** S-HN3
   specifics: S-HN1/S-HN2 rates consumed by id throughout; F9 IPC chain
   (98_/99_/100_) = the ONE direct-cite exception (no evidence pass,
   page-1-verified at synthesis, values controller-re-verified vs raw txt —
@@ -308,9 +309,9 @@ RESEARCH §5). Structure:
     yes-blocking S-HN3 OQ); also Acuerdo 034/99 (542 threshold) and the
     SAR-236-2024 DÉCIMO OCTAVO print. D. 112 = routes exhausted (mirror-only
     at synthesis). Most SAR-catalog fetchable (recipe §6).
-  3. **R-H66 territoriality ruling:** product-owner confirmation needed at
-     merge or next session (proposal + reasoning in taxation/01 §7 OQ-001 +
-     FR-004; reversible dated rows in the meantime).
+   3. **R-H66 territoriality ruling: RESOLVED — adopted by product owner
+      2026-08-20 (worldwide pre-2017 / territorial 2017+; taxation/01
+      FR-004 dated rows; master-index Section B row 66; rows reversible).
   4. **Merge to main at milestone:** owner decision; rebase-then-merge; never
      force-push (root HANDOVER country model). Branch head after S-HN1/S-HN2
      commit = the synthesis-wave base; future waves branch from here.
