@@ -103,8 +103,25 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
     files + index, 175 FRs / 130 LBs / 80 ACs / 42 OQs, SV-SPE-FR-
     001..175; final whole-wave review MERGE-READY; see §3 S7 section +
     `sv/HANDOVER.md`); `sv/HANDOVER.md` now the authoritative SV memory;
-    next NIIF/COA wave (32_/33_) then IVA-core taxation. This HANDOVER
-    update commits on main directly (integration branch).
+     next NIIF/COA wave (32_/33_) then IVA-core taxation. This HANDOVER
+     update commits on main directly (integration branch). **GT wave-4..6
+     merge 2026-08-20 (§4.6 protocol, sixth run):** `gt-research` rebased
+     onto `7dc31e1` (3 commits rewritten: `2a60011`→`cf83e67` W-GT4
+     fiscal reporting EVID-371..500 + `3e449ab`→`da5829c` W-GT5 COA/
+     commercial-legal EVID-501..645 + `356c21b`→`716c00b` W-GT6 special
+     regimes EVID-646..745; zero conflicts) then fast-forward-merged;
+     remote branch ref updated via delete + re-push. **GT = ALL SIX
+     evidence waves complete** (26 evidence files, EVID-001..745, ~195
+     per-file OQs; session resolved OQ14 (D-15-2026 derogates D-67-2001 +
+     D-58-2005, vigencia 17-sep-2026, reglamento ≈17-mar-2027, no Q
+     threshold in law) + OQ15 (AG 65-2022 = the AG 242-90 ZF-reglamento
+     reform — W5 ZOLIC-only verdict wrong, registry corrected) + added
+     OQ18 (5% pequeño/agro retention rates); two registry identity
+     corrections: 48_ form map (ISR anual = SAT-1411, asalariados =
+     SAT-1431, 1371 = no-residentes, retenciones = SAT-1331) + 81_; see
+     `gt/HANDOVER.md` §5a-5f); next master-index/MOQ prep
+     (00_MASTER_INDEX.md) then S-GT1 e-invoicing synthesis; D-19-2016 =
+     top-ranked acquisition (blocks special-regimes synthesis quality).
 
 ### El Salvador — sources & evidence state
 - **EVID corpus 001..274** (gaps 109-127, 240 reserved-unused). W13 files (2026-08-19):
