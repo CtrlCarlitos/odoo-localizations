@@ -4,17 +4,18 @@
 |---------|-------|
 | Country | sv |
 | Topic   | all (cross-topic) |
-| Status  | draft (S1 + S2 ISR + S3 fiscal-reporting + S4 payroll + S5 commercial-legal + S7 special-regimes + S8 chart-of-accounts waves) |
+| Status  | draft (S1 + S2 ISR + S3 fiscal-reporting + S4 payroll + S5 commercial-legal + S7 special-regimes + S8 chart-of-accounts + S9 IVA-core waves) |
 | Authors | Controller (hand-built; script to regenerate later) |
-| Updated | 2026-08-20 (S8) |
+| Updated | 2026-08-20 (S9) |
 
 Every file in [../sources/](../sources/) mapped against the S1, S2 (ISR),
 S3 (fiscal-reporting), S4 (payroll), S5 (commercial-legal), S7
-(special-regimes) and S8 (chart-of-accounts) requirements waves. Status values:
+(special-regimes), S8 (chart-of-accounts) and S9 (IVA-core taxation)
+requirements waves. Status values:
 
 - **cited-as-LB** — appears in a Legal Basis row (or as direct schema read) of a requirements file; the citing file(s) named.
 - **not-applicable-this-wave** — out of the current wave's scope or superseded-without-content-need; reason noted.
-- **pending-S2+** — earmarked for later waves: IVA-core taxation, NIIF.
+- **pending-S2+** — earmarked for later waves: IVA-core taxation, NIIF (none remain — both flipped, by S9 and S8 respectively).
 - **superseded-not-cited** — superseded extraction retained on disk for reference; not a legal-basis citation (the superseding source is the cited LB).
 
 No orphans: every row carries at least one of the four. Sources fully
@@ -25,11 +26,11 @@ cited-as-LB.
 
 | Source | Status | Cited in / note |
 |--------|--------|-----------------|
-| 01_Ley_IVA.pdf | cited-as-LB | `e-invoicing/01` LB-008/009/010; `e-invoicing/03` LB-012; `fiscal-reporting/02` LB-008 (Ley IVA Art. 57); `chart-of-accounts/06` LB-012 (Arts. 62-63 pointers) |
-| 02_Reglamento_IVA.pdf | pending-S2+ | IVA-core taxation wave (01_/02_ still owed to `taxation/`) |
+| 01_Ley_IVA.pdf | cited-as-LB | `e-invoicing/01` LB-008/009/010; `e-invoicing/03` LB-012; `fiscal-reporting/02` LB-008 (Ley IVA Art. 57); `chart-of-accounts/06` LB-012 (Arts. 62-63 pointers); S9 IVA-core — `taxation/07..15` LB rows (100: 07: 25 · 08: 14 · 09: 10 · 10: 15 · 11: 7 · 12: 11 · 13: 2 (LB-014/015) · 14: 8 · 15: 8 — D.L. 296-1992 Asamblea consolidation through reform (14) D.L. 71-2015, SOQ-54 vintage watch rides every LB) |
+| 02_Reglamento_IVA.pdf | cited-as-LB | S9 IVA-core — `taxation/07..14` LB rows (17: 07: LB-010/011/023/024/026; 08: LB-015; 09: LB-004/009; 10: LB-016/017; 11: LB-004/007; 12: LB-011; 13: LB-015; 14: LB-001/009/010) — D.E. 83-1992 consolidated, survivors only per R30(a) (mass repeal = D.E. 117-2001 stamp (3); R17-bis); `taxation/15` notes no Rgto. survivor governs the declaration interfaces (§2 preamble, no LB row). **FLIPPED from pending-S2+ by the S9 wave (2026-08-20)** |
 | 03_Ley_ISR.pdf | cited-as-LB | historical — authority-order preambles of `taxation/01..06`; superseded as current authority by 54_ (reform chain D.L. 762-2014/458-2019/969-2024/293-2025); supplies analysis via EVID ids |
 | 04_Reglamento_ISR.pdf | cited-as-LB | `taxation/01..06` LB rows (21 rows; D.E. 101-1992 consolidated, survivor articles only per R17) |
-| 05_Codigo_Tributario.pdf | cited-as-LB | `e-invoicing/01` LB-007/011/012; `fiscal-reporting/06` LB-008 (CT 154-160); `fiscal-reporting/07` LB-006 (CT 123/124) |
+| 05_Codigo_Tributario.pdf | cited-as-LB | `e-invoicing/01` LB-007/011/012; `fiscal-reporting/06` LB-008 (CT 154-160); `fiscal-reporting/07` LB-006 (CT 123/124); S9 IVA-core — `taxation/13` LB-001..013 (the CT 161/162/162-A/162-B IVA retention matrix, verbatim from the CT txt), `taxation/10` LB-018 (CT re-anchor of the stale Rgto. Art. 22/23 Ley anchors — CT 141/161) |
 | 06_Guia_Facturacion_Electronica.pdf | not-applicable-this-wave | non-normative guide; S1 rests on 44_/45_/46_/50_/51_/52_ |
 | 07_Codigo_Comercio.pdf | cited-as-LB | `commercial-legal/01..09` LB rows (211 — 07_-sourced rows excluding 02's 71_ LB-013 and 04's pointer LB-032; 213 = all 01-09 LB rows; Código de Comercio D.L. 671-1970 current; article text verified vs second official copy 73_ (SOQ-22 resolved-with-residual: both reform lists end at D.L. 641-2008; editorial-artifact residual rides every 07_ LB)) |
 | 08_Ley_ISSS.pdf | cited-as-LB | `payroll/01` LB-008; `payroll/05` LB-001..005; `payroll/06` LB-009..011 |
@@ -99,14 +100,14 @@ cited-as-LB.
 | 52_Json_Schemas_DTE_Eventos_2026-08-11.zip | cited-as-LB | `e-invoicing/01` LB-006; `03` LB-010; `06` LB-007 |
 | schemas/ (13 JSON schema files) | superseded-not-cited | superseded 2022-era extraction (fe-ccf-v3, contingencia-v3, anulacion-v2 era; no fe-eret/fe-eop) — NOT the current set; the current 15-schema set lives inside `52_Json_Schemas_DTE_Eventos_2026-08-11.zip`, which is the LB cited directly (`e-invoicing/01` LB-006; `03` LB-010) |
 
-## Rollup (final through S8; 02_ stays pending for the IVA-core wave)
+## Rollup (final through S9 — corpus fully cited, zero pending)
 
 | Status | Rows |
 |--------|------|
-| cited-as-LB | 62 |
+| cited-as-LB | 63 |
 | superseded-not-cited | 1 (schemas/) |
 | not-applicable-this-wave | 9 |
-| pending-S2+ | 1 (02_ IVA-core wave) |
+| pending-S2+ | 0 |
 | **Total** | **73** |
 
 S8 note: 32_/33_ flipped from the W14 interim (provisional-cited on the
@@ -114,3 +115,12 @@ strength of the master-index clusters) to per-file LB citations by the S8
 synthesis wave (2026-08-20) — 32_ as the framework LB of all eight
 `chart-of-accounts/` files, 33_ as five secondary-only rows in
 01/03/05/07/08.
+
+S9 note: 02_ flipped from pending-S2+ to per-file LB citations by the S9
+IVA-core synthesis wave (2026-08-20) — 17 LB rows across
+`taxation/07..14` (survivors only per R30(a); 15_ records that no Rgto.
+survivor governs its scope); 01_'s row extended with the 100 S9 LB
+citations across `taxation/07..15`; 05_'s row extended with the
+`taxation/13` CT 161-162-B matrix (13 LB rows) + `taxation/10` LB-018
+re-anchor. With 02_ flipped, every corpus source row is
+cited/N-A/superseded — zero pending.

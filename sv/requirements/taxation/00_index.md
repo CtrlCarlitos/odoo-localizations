@@ -1,20 +1,27 @@
-# SV — Taxation (ISR) requirements index
+# SV — Taxation (ISR + IVA) requirements index
 
 | Field   | Value |
 |---------|-------|
 | Country | sv |
 | Topic   | taxation |
-| Status  | draft (S2 ISR synthesis wave, in review) |
-| Authors | Takumi synthesis wave 2 + controller |
-| Updated | 2026-08-18 |
+| Status  | draft (S2 ISR + S9 IVA synthesis waves, in review) |
+| Authors | Takumi synthesis waves 2 + 9 + controller |
+| Updated | 2026-08-20 |
 
 This directory holds the S2 (synthesis wave 2) ISR (*Impuesto sobre la
 Renta*, income tax) requirements: the subject/period/territoriality/filing
 framework, renta neta deductions, rates & special computations, withholding
 (payroll tables + CT retention matrix), the 5% distributions regime, and
 fixed-asset depreciation/software amortization — with the retention/bracket
-tables as verbatim dated data in two CSV sidecars. Source-to-requirements
-coverage: [../COVERAGE.md](../COVERAGE.md).
+tables as verbatim dated data in two CSV sidecars. Since the S9 synthesis
+wave (2026-08-20) it also holds the IVA (*Impuesto a la Transferencia de
+Bienes Muebles y a la Prestación de Servicios*) core: the operation
+framework & excluidos regime, the Art. 45/46 exemption catalogs, base &
+13% rate (with the FOVIAL/COTRANS guard), crédito fiscal deductibility,
+the Art. 66 pro-rata & remanente engine, débito/crédito adjustments &
+the fixed-asset four-year rule, the CT 161-162-B IVA retention matrix,
+exports & reintegro refunds, and the declaration-interfaces file.
+Source-to-requirements coverage: [../COVERAGE.md](../COVERAGE.md).
 
 ## Files & FR ranges
 
@@ -26,11 +33,25 @@ coverage: [../COVERAGE.md](../COVERAGE.md).
 | [04_isr-withholding.md](04_isr-withholding.md) | Salaried retention regime (base, $1,600 fixed deduction, Art. 33 deductions), D.E. 10-2025 periodic + June/December recálculo tables, aguinaldo vintages, multi-employer split, CT 154-160 non-payroll matrix; CSVs `withholding_tables.csv` (20 rows) + `isr_brackets.csv` (23 rows) | SV-TAX-FR-102..131 | 30 | 21 | 18 | 8 |
 | [05_isr-distributions.md](05_isr-distributions.md) | Art. 72 5% definitive retention on utilidades, Arts. 73-74-C (permanent establishments, capital reductions, partner-loan deemed distributions, no-retention cases), Registro de Control de Utilidades | SV-TAX-FR-132..149 | 18 | 11 | 18 | 7 |
 | [06_isr-assets.md](06_isr-assets.md) | Art. 30 depreciation (rates, used-asset caps, mixed-use pro-rata, seasonal quota), Art. 30-A software 25%, Reglamento Art. 84 per-asset register, Art. 35 maquinaria | SV-TAX-FR-150..172 | 23 | 11 | 20 | 7 |
-| **Total** | | SV-TAX-FR-001..175 | **175** | **117** | **122** | **47** |
+| [07_iva-framework.md](07_iva-framework.md) | IVA operation model: transfer concept & goods tax point (Arts. 1-10), retiro self-supply (11-13; FACTURA-only root), importación/internación + D.L. 645-2005 exclusive-use services (14-15), prestaciones catalog, tax points & territoriality (16-19), sujetos pasivos (20-27), excluidos regime with the 1992-colones thresholds as [sic] dated rows (28-32; Rgto. 9-10; SOQ-55 = MOQ-03 closure) | SV-TAX-FR-176..205 | 30 | 28 | 21 | 5 |
+| [08_iva-exemptions.md](08_iva-exemptions.md) | Art. 45 import/internación + Art. 46 service exemption catalogs as dated rows (46-f BCR-qualification config gate, 46-k stale-SAP anchor, 45-h/167-A sectorial-politics kill-switch, 45-i transport 5-year restriction) + the Art. 174 generic-nullity gate | SV-TAX-FR-206..224 | 19 | 15 | 15 | 5 |
+| [09_iva-base-rate.md](09_iva-base-rate.md) | Art. 47 documented-amounts floor, the FULL Art. 48 a)-m) specific-base catalog (Rgto. 17), non-base additions/exclusions (49, 51-52), FX bases (53; Rgto. 18), 13% rate & débito fiscal (54-55, D.L. 370 cutover unpinned), FOVIAL/COTRANS never-in-base guard + the SOQ-40 B2B recovery design pass on DTE tributo lines | SV-TAX-FR-225..245 | 21 | 13 | 18 | 4 |
+| [10_iva-credit-deductibility.md](10_iva-credit-deductibility.md) | Art. 57 traslación + credit-document root, no-credit operations (58-61), Art. 65 deductibility gates (58-SMM cash/written-contract, 50% vehicles), retention credits (65 final incisos; Rgto. 23; CT 161-162 same-period gate), Art. 65-A non-deductible catalog (58-SMM via SV-PAY-FR-022 config, SOQ-18 kin) | SV-TAX-FR-246..268 | 23 | 18 | 14 | 3 |
+| [11_iva-pro-rata-remanente.md](11_iva-pro-rata-remanente.md) | Art. 66 proportionality engine (factor, accumulated base, January redistribution), denominator composition & no-sujetas exclusions, Quincena-25 tercerización closure (D.L. 499 Art. 6; guía 67_; R30(c) working reading — closes 02's OQ-009 by pointer), remanente indefinite carryforward + cessation lock (67-68; Rgto. 24), credit non-transferability (69), IVA never cost nor gasto (70) | SV-TAX-FR-269..283 | 15 | 8 | 12 | 3 |
+| [12_iva-adjustments-assets.md](12_iva-adjustments-assets.md) | Art. 62 débito adjustments (incl. the medicines lot regime), Arts. 63-64 crédito adjustments + determination (modificatoria flag, D9-kin), fixed-asset/capital four-year rule & fijo credits (71-72; Rgto. 26), reorganization transfer gates (Art. 7 f)-i)) | SV-TAX-FR-284..302 | 19 | 12 | 13 | 4 |
+| [13_iva-retentions.md](13_iva-retentions.md) | CT 161 non-domiciled transferors/prestadores (acquirer as obligado), CT 162 grandes/medianos 1%/2% matrix + $100 floor, CT 162-A card 2% anticipo, CT 162-B juicios ejecutivos, credit-release same-period tie-in, F-930 reporting surfaces, ISR-track separation vs `04` (closes frep/03 OQ-004) | SV-TAX-FR-303..319 | 17 | 15 | 14 | 4 |
+| [14_iva-exports-refunds.md](14_iva-exports-refunds.md) | Export definition & zero rate (74-75; Rgto. 2-10), ZF/recintos export-equivalence (Rgto. 29; 12_ Art. 25 co-cite), export credits & on-request offsets (76), reintegro workflow (77; Rgto. 30) with the 13%-of-export-value cap (mixed/pure), three-way purchase ledger (Rgto. 30) | SV-TAX-FR-320..337 | 18 | 10 | 15 | 4 |
+| [15_iva-declaration-interfaces.md](15_iva-declaration-interfaces.md) | Monthly declaration chassis (Arts. 93-94; Art. 81 pair), operation-classification interface (R/S fold-in + F-07 annex feed contract, días-hábiles via SV-FREP-FR-200/201), version-regime & historical notes (165, 167-172, 175) | SV-TAX-FR-338..353 | 16 | 8 | 12 | 3 |
+| **Total** | | SV-TAX-FR-001..353 | **353** | **244** | **256** | **82** |
 
 Numbering note: FR numbering is wave-sequential within the `SV-TAX` prefix
-(001-175, no gaps, no renumbering; 173-175 appended by the S6 Quincena-25
-fold-in, 2026-08-18) — unlike S1's per-cluster EINV ranges.
+(001-175 ISR, no gaps, no renumbering; 173-175 appended by the S6 Quincena-25
+fold-in, 2026-08-18) — unlike S1's per-cluster EINV ranges. **176-353 = the
+S9 IVA-core continuation (2026-08-20): per ruling R30(b) the topic dir keeps
+ONE prefix — the IVA files continue `SV-TAX` from 176 (files 07-15) instead
+of opening a `SV-IVA` prefix** (S6 append precedent; the corpus consistently
+books 01_/02_ as "owed to `taxation/`"; HANDOVER §4's new-topic-prefix rule
+applies only to genuinely new topics).
 The two CSVs are dated-data sidecars of `04_isr-withholding.md`
 (`isr_brackets.csv` additionally carries the historical D.E. 25-1992
 colones-era vintage rows); they carry no FRs of their own.
@@ -57,17 +78,60 @@ Special-regimes consumer note: the ZF/DPA/LSI Certificado de Crédito
 Tributario (FR-174 route `certificado_zf_dpa_lsi`) is the future
 special-regimes wave's consumption anchor, cited by id.
 
+## S9 cross-topic consumer map (files 07-15)
+
+- **e-invoicing:** the IVA operation taxonomy rides the DTE document-type
+  set (SV-EINV-FR-001 by id throughout — FE/CCF/FEX emission is the
+  operative document layer over Arts. 18-a/97-100's repealed anchors); the
+  12_ adjustment windows gate document admissibility against the §3.11
+  fiscal-immutability family (SV-EINV-FR-159..164 — invalidation reversal,
+  NCE/ND routing by id); FOVIAL/COTRANS lines surface as CAT-015
+  product-category tributo rows (09 §3.6/§3.7, 14, 15).
+- **fiscal-reporting:** the F-07 annex engine consumes these files'
+  classifications by id — sales value/débito buckets (SV-FREP-FR-048),
+  annex-5 excluido purchases (SV-FREP-FR-086 — applicability now defined
+  by FR-313), Decreto 321 *combustible diferenciado* rows
+  (SV-FREP-FR-124..126/133), the Art. 66 pro-rata inputs casillas
+  132-134 (FR-275), the upload-engine surfaces (SV-FREP-FR-004/012); the
+  Art. 94 declaration deadlines consume the días-hábiles engine
+  (SV-FREP-FR-200/201); F-930 = the retention reporting surface (10/13 —
+  SV-FREP-FR-104..111).
+- **special-regimes:** SR5 (`../special-regimes/05_tan-iva-interface.md`)
+  rides the export-equivalence machinery homed in 14_ (SV-SPE-FR-087:
+  0% + Arts. 76/77; Rgto. Art. 29 co-cited in LB-009); SR8
+  (`../special-regimes/08_fovial-cotrans.md`, SV-SPE-FR-166..175) and
+  09_'s SOQ-40 design pass (FR-244/245) are the two sides of the
+  FOVIAL/COTRANS recovery-chain handoff — one design, cited both ways by
+  id.
+- **payroll (SMM):** the Art. 65-A l) 58-SMM threshold reads the
+  payroll/02 SMM dated rows through the SV-PAY-FR-022 sector-mapping
+  configuration (10 OQ-002; SOQ-18 kin — a DIFFERENT threshold from the
+  ISR 25-SMM rule of 02 OQ-002; never conflated).
+- **ISR-side separation:** the CT 154-160 ISR retention matrix stays
+  owned by `04_isr-withholding.md` (ISR track); 13_ owns only the
+  IVA-side CT 161/162/162-A/162-B matrix — the two tracks are kept
+  formally distinct (13 §3.5).
+
 ## Open-questions rollup (ids + titles)
 
-Status legend: `open` unless noted `resolved`. 43 open / 4 resolved
-(SOQ-01 and SOQ-04 in `03_isr-rates-gains.md` §7; SOQ-03 in `04`
-OQ-002 + `01` OQ-005 — D.O. pin + digit-fidelity verification against
-the gazette print, source `60_`/EVID-171, 2026-08-18).
+Status legend: `open` unless noted `resolved`. ISR files (01-06): 42
+open / 5 resolved (SOQ-01 and SOQ-04 in `03_isr-rates-gains.md` §7;
+SOQ-03 in `04` OQ-002 + `01` OQ-005 — D.O. pin + digit-fidelity
+verification against the gazette print, source `60_`/EVID-171,
+2026-08-18; 02's OQ-009 resolved-by-pointer to S9 11, R30(c) working
+reading, 2026-08-20). S9 IVA files (07-15): 35 open — including the
+SOQ-54 vintage watch as every file's OQ-1. Wave total: **77 open /
+5 resolved (82 OQs)**.
 
 Master-index SOQ mapping: 04's OQ-001 = SOQ-02; 04's OQ-002 = SOQ-03;
 04's OQ-003 = SOQ-05; SOQ-06 lives in 01's OQ-004 + 06's OQ-001; SOQ-07
 in 03's OQ-007 (kin: 02's OQ-006). SOQ-01/SOQ-04 = 03's OQ-001/OQ-002,
-resolved.
+resolved. S9: SOQ-54 = OQ-1 of EVERY file 07-15 (01_/02_ consolidation
+vintage watch, rides every LB); SOQ-55 = 07's OQ-2 (MOQ-03 closure —
+colones thresholds as config); SOQ-56 = 08's OQ-2 (BCR-qualification
+instrument); SOQ-57 = 08's OQ-3 (stale SAP anchor); SOQ-58 = 08's OQ-4
+(167-A kill-switch). Kin: 09's OQ-2 = SOQ-40 design pass; 09's OQ-3 =
+SOQ-39/MOQ-04 kin; 10's OQ-2 = SOQ-18 kin; 13's OQ-2 = SOQ-21 kin.
 
 ### 01_isr-framework.md (7)
 
@@ -89,7 +153,7 @@ resolved.
 - OQ-006 — Reglamento Art. 29 deposit-interest exclusion stale vs Ley Art. 4.5 (SOQ-07 kin). open
 - OQ-007 — Art. 29.6 December window for deductible taxes vs CT deadline rules. open
 - OQ-008 — 2026 Quincena-25 double benefit (FR-175 deduction + FR-174 credit simultaneously; law cumulative; fiscalización criteria flag). open
-- OQ-009 — IVA tercerización (FCF exento; no Ley IVA Art. 66 pro-rata): pointer owed to the IVA-core wave. open (deferred-by-design)
+- OQ-009 — IVA tercerización (FCF exento; no Ley IVA Art. 66 pro-rata): pointer owed to the IVA-core wave. **resolved-by-pointer** (S9 `11_iva-pro-rata-remanente` OQ-2 — R30(c) working reading, 2026-08-20)
 
 ### 03_isr-rates-gains.md (9)
 
@@ -133,3 +197,65 @@ resolved.
 - OQ-005 — Depreciation-register format norms beyond Art. 84's minimum field list. open
 - OQ-006 — Mejoras/adiciones mechanics: own forward quota vs life extension vs restart. open
 - OQ-007 — Software schedule span: >25% authorizations and slower-schedule practice. open
+
+### 07_iva-framework.md (5)
+
+- OQ-1 — SOQ-54 (vintage): 01_ last reform stamp D.L. 71-2015 / 02_ D.E. 117-2001; re-verify Arts. 1-32 + Rgto. survivors. open
+- OQ-2 — SOQ-55 (MOQ-03 closure): Arts. 28-29 1992-colones exclusion thresholds as [sic] dated rows + configurable administered criteria, no invented USD conversion. open
+- OQ-3 — Art. 18-a stale anchor ("Arts. 97 y 100" derogated by D.L. 230/00): the live document events starting the service tax point (CT 110-115 zone + DTE stack). open
+- OQ-4 — Exclusive-use (D.L. 645 Art. 14-III) vs Art. 19 proportional in-country rendition boundary. open
+- OQ-5 — Exclusion measurement mechanics: 12-month transfers figure + activo-en-giro valuation conventions. open
+
+### 08_iva-exemptions.md (5)
+
+- OQ-1 — SOQ-54 (vintage): re-verify Arts. 44-46/66/71/167-A/174 + Rgto. Art. 16. open
+- OQ-2 — SOQ-56: Art. 46-f BCR-qualification instrument absent; institution flags ship as config. open
+- OQ-3 — SOQ-57: Art. 46-k stale SAP citation (D.L. 927-1996 vs current D.L. 614 SIP); substance carried under the current regime. open
+- OQ-4 — SOQ-58: Art. 167-A sectorial-politics kill-switch instrument absent; NULL-valid_to dated row + watch. open
+- OQ-5 — Art. 45-i Reglamento de Transporte Terrestre spec gate + the 5-year register's document feed. open
+
+### 09_iva-base-rate.md (4)
+
+- OQ-1 — SOQ-54 (vintage): load-bearing on the 13% rate row (FR-240); re-verify Arts. 47-55 + Rgto. 17-18. open
+- OQ-2 — SOQ-40 (design pass): the 2001 FOVIAL control-account chain mapped onto DTE-embedded D1 tributo lines = THIS file's design (FR-244/245); confirm at FOVIAL-law acquisition. open
+- OQ-3 — SOQ-39/MOQ-04 (guard note): FOVIAL law + COTRANS instrument absent; FR-242's guard is instrument-independent; re-date provenance at acquisition. open
+- OQ-4 — Rate-cutover precision: D.L. 370 (1995) exact vigencia day unpinned; pre-reform 10% rests on the EVID-317 gloss. open
+
+### 10_iva-credit-deductibility.md (3)
+
+- OQ-1 — SOQ-54 (vintage): re-verify Arts. 57-61, 65, 65-A, 70 + the Rgto. survivors. open
+- OQ-2 — 58-SMM sector selection (SOQ-18 kin): reads payroll/02 through SV-PAY-FR-022's sector-mapping config; distinct from the ISR 25-SMM rule (02's OQ-002). open
+- OQ-3 — CT re-anchors (Rgto. Art. 22 → CT 141; Art. 23 → CT 161; stale Ley anchors) + the printed "ROMANO i)" oddity + CT register surfaces. open
+
+### 11_iva-pro-rata-remanente.md (3)
+
+- OQ-1 — SOQ-54 (vintage): re-verify Arts. 66-70 + Rgto. Arts. 24-25. open
+- OQ-2 — R30(c) inciso mapping (tercerización): guía 67_'s pre-D.L.-224-2009 "inciso sexto" vs the current-print exclusion inciso (ordinal discrepancy recorded, substance identical); closes 02's OQ-009 by pointer. open
+- OQ-3 — No-sujeta denominator attribution test (config) + F-07 pro-rata casilla set re-verify (132-134 attested vs the 137-138 gloss). open
+
+### 12_iva-adjustments-assets.md (4)
+
+- OQ-1 — SOQ-54 (vintage): re-verify Arts. 62-64, 71-72, 7 g)-i) + Rgto. Art. 26 (medicines lot regime + 3-period windows). open
+- OQ-2 — Declaration-modification procedural config (Art. 63 overflow duty; D9-kin; FREP modificatoria surfaces). open
+- OQ-3 — Window-anchor divergence: Ley entrega/percepción clock vs the DTE related-document window — both must pass. open
+- OQ-4 — Alta-date sourcing for legacy assets (the four-year gate anchor; onboarding config). open
+
+### 13_iva-retentions.md (4)
+
+- OQ-1 — SOQ-54 (vintage, 01_/02_): Art. 94 plazo/venue + Art. 65/Rgto. 23 pointer rows. open
+- OQ-2 — CT vintage (SOQ-21 kin): the CT 161/162/162-A/162-B matrix values re-verify. open
+- OQ-3 — AT-designation list config-gap (administered data absent from corpus). open
+- OQ-4 — $100-floor family scope + the 13% ex-IVA parity reading + Anexo 5 H boundary (FR-313: no extension beyond the inciso-7° catalog). open
+
+### 14_iva-exports-refunds.md (4)
+
+- OQ-1 — SOQ-54 (vintage): re-verify Arts. 74-77 + Rgto. Arts. 2/29/30 (and the 13% cap constant). open
+- OQ-2 — Customs-document terminology drift: póliza → DUCA family (SR6 by id); the cap's document set. open
+- OQ-3 — DGII Instructivo refund-request formats (config-gap). open
+- OQ-4 — Art. 76-2 offset mechanics against other direct taxes (CT-practice confirmation). open
+
+### 15_iva-declaration-interfaces.md (3)
+
+- OQ-1 — SOQ-54 (vintage): Arts. 93-94 most exposed to post-2015 administrative overlay; re-verify + the Art. 81 pair. open
+- OQ-2 — Pre-DTE physical-invoice ingestion (D15/D18 history contract; identifier slots per SV-FREP-FR-042/043, no DTE seals). open
+- OQ-3 — Decreto 321 kin pointer: *combustible_diferenciado* config owned by fiscal-reporting/05 (rate values = that file's OQ-001). open
