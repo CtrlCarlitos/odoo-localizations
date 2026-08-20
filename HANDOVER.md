@@ -92,10 +92,19 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
    remote branch ref updated via delete + re-push. HN master index BUILT
    (`hn/.extractions/00_MASTER_INDEX.md`: 43 clusters T1-T12/F1-F11/E1-E8/
    P1-P12, R-H1..65 ledger, OQ registers C1-C4 ~227 open, authority orders,
-   S-wave plan); next S-HN1 taxation synthesis (S-HN2 e-invoicing
-   parallel-able; SEE/CAEE sub-cluster blocked on lead 1). Main ahead of
-   sv-research (`01f04c9`) — merges at its own milestone. This HANDOVER
-   update commits on main directly (integration branch).
+    S-wave plan); next S-HN1 taxation synthesis (S-HN2 e-invoicing
+    parallel-able; SEE/CAEE sub-cluster blocked on lead 1). **SV S7 merge
+    2026-08-19 (§4.6 protocol, fifth run):** `sv-research` rebased onto
+    `d1b59ed` (14 commits rewritten: `bf87179` sv/HANDOVER bootstrap →
+    `f4a1076` S7 prep → `fe819ac` S7 plan → `2f33019..10a7cc0` T1-T9
+    wave → `ebf76c6` session close; zero conflicts — all sv/-scoped or
+    new files) then fast-forward-merged; remote branch ref updated via
+    delete + re-push. SV = S7 special-regimes synthesis COMPLETE (8
+    files + index, 175 FRs / 130 LBs / 80 ACs / 42 OQs, SV-SPE-FR-
+    001..175; final whole-wave review MERGE-READY; see §3 S7 section +
+    `sv/HANDOVER.md`); `sv/HANDOVER.md` now the authoritative SV memory;
+    next NIIF/COA wave (32_/33_) then IVA-core taxation. This HANDOVER
+    update commits on main directly (integration branch).
 
 ### El Salvador — sources & evidence state
 - **EVID corpus 001..274** (gaps 109-127, 240 reserved-unused). W13 files (2026-08-19):
