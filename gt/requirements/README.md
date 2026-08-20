@@ -8,7 +8,7 @@ Language: English, Spanish legal terms inline with translations.
 |-------|--------|-------|
 | [e-invoicing](e-invoicing/) | In review | 00_index + 7 files (GT-EINV-FR-001..243) |
 | [catalogs](catalogs/) | In review | 01_governance + CSV sidecars (GT-CAT-FR-001..015) |
-| [taxation](taxation/) | Not started | — |
+| [taxation](taxation/) | In review | 00_index + 7 files + 2 CSVs (GT-TAX-FR-001..261) |
 | [chart-of-accounts](chart-of-accounts/) | Not started | — |
 | [payroll](payroll/) | Not started | — |
 | [fiscal-reporting](fiscal-reporting/) | Not started | — |
