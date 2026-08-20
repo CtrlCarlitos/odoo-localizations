@@ -49,7 +49,8 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
 - Branch `main` only; remote `origin` = `git@github-CtrlCarlitos:CtrlCarlitos/odoo-localizations.git` (SSH alias `github-CtrlCarlitos` from `~/.ssh/config`); push after each wave; never force-push. `gh` CLI at `~/.local/bin/gh`, authenticated as CtrlCarlitos.
 - Commits are SSH-signed; local `%G?=N` is a verification-only artifact (`gpg.ssh.allowedSignersFile` unset) — signatures ARE present; don't chase it.
 - `.gitattributes`: `*.csv text eol=lf`.
-- Commits through `53edd55` (2026-08-19 6th session, multi-part: D15 as-of
+- Commits through `ac7184b` (2026-08-20: GT S-GT1 merge — see §3 ninth
+  run; earlier: `53edd55` 2026-08-19 6th session, multi-part: D15 as-of
   doctrine `cc7a307` → W13 evidence pass `94b4142` → GT/HN merges + D16
   unification `5eb6d6b` → universalization + D17 + roadmap `b67dfa0` →
   D18 `4cd719a` → D19 + go-live-readiness.md `53edd55`; all pushed). **HN
@@ -134,9 +135,23 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
       LIVA arts. 45/46 ("LAT attribution" was research-era error); **R45**
       CCom vigencia = 1971-01-01 (01-07-1970 = D-43-70 tag date — corrected
       gt/HANDOVER §5e); **R81** maquila art. 12 bis ADDED by D-19-2016
-      art. 7 (corrects §5f "born D-38-04"). DOWNLOAD_QUEUE rev 7. **Next:
+      art. 7 (corrects §5f "born D-38-04").       DOWNLOAD_QUEUE rev 7. **Next:
       S-GT1 e-invoicing synthesis plan → subagent wave** (master index =
-      the gate, closed); see `gt/HANDOVER.md` §5g. **SV W14/S8-prep merge
+      the gate, closed); see `gt/HANDOVER.md` §5g. **GT S-GT1 merge
+      2026-08-20 (§4.6 protocol, ninth run):** `gt-research` rebased onto
+      `8282ae6` (14 commits rewritten `7bea5c4`→`ac7184b`: plan + 8 task
+      waves + T9 + fixes; zero conflicts) then fast-forward-merged; remote
+      ref updated via force-with-lease re-push. **GT = S-GT1 E-INVOICING
+      SYNTHESIS COMPLETE** — first requirements wave: 8 files + 00_index +
+      COVERAGE (GT-EINV-FR-001..243 + GT-CAT-FR-001..015; 139 LBs / 99 ACs
+      / 45 OQ rows consuming GOQ-15..52 + 02/03/07/13/14; catalog CSV
+      sidecars 88/43/211 GH-authority + _DRIFT; master-index write-back 43
+      rows; all task reviews Approved + final whole-wave MERGE-READY).
+      Evidence corrections vs briefs: 19-code legacy FACE list; 18+3
+      complements; Reglas 3.5.1.6. **OPEN architecture item: D1
+      no-local-fallback vs GT contingencia local-XML requirement (FR-220)
+      — needs product-owner ruling before implementation.** Next: S-GT2
+      taxation plan; see `gt/HANDOVER.md` §5h + §10. **SV W14/S8-prep merge
       2026-08-19 (§4.6 protocol, eighth run):** `sv-research` rebased onto
       `8282ae6` (3 commits rewritten: `290364c` W14 NIIF evidence +
       S8-prep, `673c981` S8 plan, `f3dae2f` session close; zero conflicts)
