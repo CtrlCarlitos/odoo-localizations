@@ -231,6 +231,36 @@ expected and absorbed by instantiating the canon, never by forking it.
       104 rule-4 no half-salary qualifier. Next per `hn/HANDOVER.md`:
       validation wave (COVERAGE.md all four topics + adversarial review,
       template Stage 5) + S-HN5 thin-close decision at milestone.
+      **GT S-GT2 merge 2026-08-20 (§4.6 protocol, twelfth run):**
+      `gt-research` rebased onto `7a40433` (12 commits rewritten
+      `8505725`→`4a17961`: S-GT2 plan + 7 taxation task files + T8
+      index/COVERAGE/write-back + final-review fixes + session close; zero
+      conflicts — all gt/-scoped or new files) then fast-forward-merged;
+      remote branch ref updated via delete + re-push. **GT = S-GT2
+      TAXATION SYNTHESIS COMPLETE** (`gt/requirements/taxation/` 7 files +
+      00_index, GT-TAX-FR-001..261 = 261 FRs/136 LBs/93 ACs/38 OQ rows +
+      `iva_retention_rates.csv` 16 rows [8 statutory + 8
+      secondary-print-pending, R55 never frozen] + `isr_rates.csv` 17 rows
+      [4 transitional valid_to]; TX1-TX7 all clusters; GOQ-53..69 +
+      GOQ-01/06 consumed with master-index write-back incl. 5-column GOQ
+      table headers register-wide; **two in-corpus GOQ resolutions:
+      GOQ-118 [AG 425-2006 art. 4 = Sistema procedure AND art. 9 =
+      dualidad — R52 dissolved, source-verified] + GOQ-68 resolved-negative
+      [24_ art. 29 ¶6 = electronic-invoice exception, NOT AG 125-2022 —
+      acquisition stands]**; GOQ-119 dualidad modeling call made
+      [config-driven + saas Sistema-% resolution]; R20 full footnote
+      mapping 45←12/46←13/50←18; GOQ-99 statutory half answered; COVERAGE
+      42 cited/40 N-A/0 pending — EV04b/c manuals + digest/criterios cited
+      ONLY as dated-as-of secondary/interpretive anchors; 7 task reviews
+      [6 first-pass Approved, 1 fix round] + final whole-branch review [1
+      Important: FESP IVA-side cross-lock mispointed at FR-080..085 →
+      repointed to FR-097/GT-EINV-FR-036/LB-021; fixed + re-review PASS];
+      ~30 verbatim quote checks, zero fabrications; rulings: evidence files
+      are frozen wave artifacts — LB backfill rejected; cross-file handoffs
+      must terminate at a resolving FR id, never a family-range guess).
+      Next per `gt/HANDOVER.md` §5i/§9: S-GT3 payroll plan (GOQ-70..91 +
+      GOQ-04/09/10/11; consumes taxation/04 art. 70/72 FRs; carry
+      R30/R36/R41 bonus-law corrections).
 
 ### El Salvador — sources & evidence state
 - **EVID corpus 001..303** (gaps 109-127, 240 reserved-unused; W14 NIIF files
