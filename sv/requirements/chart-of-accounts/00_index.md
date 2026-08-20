@@ -155,6 +155,11 @@ guide and Norma could diverge, the Norma governs without exception.
   (puttable-at-parent consolidation case), which consumes FR-167 by id
   with the consolidation perimeter from the control model (FR-224),
   never from registry inscription.
+- **T8 (`03`/`04`/`05`/`06` → `08` bridge pointers):** the by-filename
+  deferred-tax bridges in files 03/04/05/06 land on
+  **SV-COA-FR-253..269** (`08_deferred-tax-adoption.md`'s Sección 29
+  income-tax engine) — read every `08` (T8) by-filename pointer as that
+  id range.
 
 ## Wave-prep provenance
 

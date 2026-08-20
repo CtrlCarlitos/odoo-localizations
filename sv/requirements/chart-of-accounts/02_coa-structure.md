@@ -674,7 +674,7 @@ gaps carried as OQ-2/OQ-3.
 | FR-025 | odoo | account.account + res.company | sv_coa_current; sv_coa_operating_cycle_months | four current-asset tests; 12-month cycle presumption |
 | FR-026 | odoo | account.account | sv_coa_current (liabilities) | unconditional-deferral-right test governs |
 | FR-027 | odoo | chart template + report config | denominations/order; additional-item assessment record | uniformity via SV-COA-FR-009 by id |
-| FR-028 | odoo | account.account (PPE classes) | sv_coa_ppe_class rows | class model/measurement = 04 by id |
+| FR-028 | odoo | account.account (PPE classes) | sv_coa_esf_class=e_ppe per-class template rows + 04's account.asset class config (sv_coa_ppe_model) | per-class accounts decompose parent (e); class model/measurement = 04 by id |
 | FR-029 | odoo | account.account + account.move.line + res.partner | sv_coa_related_party; sv_coa_rp_party | feeds 4.11(b) split AND Sec 33 builder (07 consumes BY ID) |
 | FR-030 | odoo | account.account (inventory) + product.category | sv_coa_inventory_category | costing engines = 04 by id |
 | FR-031 | odoo | account.account (payables) | sv_coa_payable_category | four-way split; related-party leg same attribute as FR-029; supplier-finance rides proveedores |

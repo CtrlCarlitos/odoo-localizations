@@ -436,9 +436,11 @@ niif_plenas+NIIF19-2027) is informational config consumed from
   involving termination benefits (FR-140); knock-on reductions to other
   benefit obligations are accounted for together. **Two-track:** the CT
   *indemnización* (termination indemnity) statutory computation is S4's
-  (`payroll/07_contracts-termination.md` BY ID) — this file's recognition
+  (`payroll/07_contracts-termination.md` SV-PAY-FR-105..107 BY ID —
+  FR-105 indefinite quantum, FR-106 4×SMM cap, FR-107 plazo variant) —
+  this file's recognition
   TIMING is independent of the fiscal/labor payout calendar.
-  (LB-006; EVID-295; via payroll/07 by id)
+  (LB-006; EVID-295; via payroll/07 SV-PAY-FR-105..107 by id)
 - **SV-COA-FR-164:** The system shall discount termination benefits
   expected to be settled NO EARLIER than twelve months after the
   reporting date, presenting the liability at present value with
@@ -789,7 +791,7 @@ behavior is required by this file.
 | FR-160 | odoo | l10n_sv_chart.benefit_plan + account.move | db events/cost | intro/curtailment; surplus asset cap; net-change cost; reimbursement separate FV asset |
 | FR-161 | odoo | l10n_sv_chart.benefit_plan | actuarial_gains_policy | P&L or OCI uniform election; switch = policy change (01 by id); OCI in ERI |
 | FR-162 | odoo | l10n_sv_chart.benefit_plan + account.move | long-term rules | PV − plan assets; all-P&L; no OCI option |
-| FR-163 | odoo | l10n_sv_chart.termination_benefit | trigger | earlier-of offer/restriction/communicated-plan vs restructuring date; CT indemnización = payroll/07 by id |
+| FR-163 | odoo | l10n_sv_chart.termination_benefit | trigger | earlier-of offer/restriction/communicated-plan vs restructuring date; CT indemnización = payroll/07 SV-PAY-FR-105..107 by id |
 | FR-164 | odoo | l10n_sv_chart.termination_benefit | settlement_horizon | ≥12m → PV remeasured; ≤12m undiscounted |
 | FR-165 | odoo | l10n_sv_chart.equity_instrument | classification | substance test; measurement engines = 03 by id |
 | FR-166 | odoo | l10n_sv_chart.equity_instrument | puttable_checklist | five conditions ALL; 22.4(b) at-liquidation class |

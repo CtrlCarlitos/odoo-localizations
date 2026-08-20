@@ -25,7 +25,7 @@ cited-as-LB.
 
 | Source | Status | Cited in / note |
 |--------|--------|-----------------|
-| 01_Ley_IVA.pdf | cited-as-LB | `e-invoicing/01` LB-008/009/010; `e-invoicing/03` LB-012; `fiscal-reporting/02` LB-008 (Ley IVA Art. 57) |
+| 01_Ley_IVA.pdf | cited-as-LB | `e-invoicing/01` LB-008/009/010; `e-invoicing/03` LB-012; `fiscal-reporting/02` LB-008 (Ley IVA Art. 57); `chart-of-accounts/06` LB-012 (Arts. 62-63 pointers) |
 | 02_Reglamento_IVA.pdf | pending-S2+ | IVA-core taxation wave (01_/02_ still owed to `taxation/`) |
 | 03_Ley_ISR.pdf | cited-as-LB | historical — authority-order preambles of `taxation/01..06`; superseded as current authority by 54_ (reform chain D.L. 762-2014/458-2019/969-2024/293-2025); supplies analysis via EVID ids |
 | 04_Reglamento_ISR.pdf | cited-as-LB | `taxation/01..06` LB rows (21 rows; D.E. 101-1992 consolidated, survivor articles only per R17) |
@@ -36,7 +36,7 @@ cited-as-LB.
 | 09_Ley_Sistema_Pensiones.pdf | cited-as-LB | `payroll/01` LB-009/010; `payroll/04` LB-021; `payroll/05` LB-006..011; `payroll/06` LB-001..008; `payroll/07` LB-021; `payroll/08` LB-001/002 |
 | 10_Tablas_Retencion_ISR.pdf | cited-as-LB | historical — `taxation/04` LB-020 (1992 colones-era D.E. 75/25; superseded by the 53_ chain via D.E. 95-2015; dated-data rows in `isr_brackets.csv`) |
 | 53_Tablas_Retencion_ISR_DE10_2025.pdf | cited-as-LB | `taxation/04` LB rows (8 — current tables) + `taxation/01` LB-028 (filing/threshold bits) |
-| 54_Ley_ISR_consolidada_DO79_T447_2025-04-30.pdf | cited-as-LB | `taxation/01..06` LB rows (71 rows — current consolidated Ley ISR) |
+| 54_Ley_ISR_consolidada_DO79_T447_2025-04-30.pdf | cited-as-LB | `taxation/01..06` LB rows (71 rows — current consolidated Ley ISR); `chart-of-accounts/08` LB-005 (pointer row) |
 | 55_Reforma_Ley_ISR_DL293_DO_2025-04-30.pdf | cited-as-LB | `taxation/03` (Art. 37 table vintage, effective 2025-05-08) |
 | 56_Reforma_Ley_ISR_DL969_DO_2024-03-14.pdf | cited-as-LB | `taxation/01` (Art. 3.4 foreign-source exclusion + derogations) |
 | 57_InterpAut_Art30_DL192_DO_2018-12-12.pdf | cited-as-LB | `taxation/06` (Art. 30.1 seasonal depreciation) |
