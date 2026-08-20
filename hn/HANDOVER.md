@@ -21,9 +21,12 @@ boundary.
   synthesis prep at `e106b1f`; S-HN1+S-HN2 at `6d1cfc3` w/ root record
   `b98dae1` — ninth §4.6 run; S-HN3 + R-H66 adoption at `00caef9` w/ root
   record `503ab9c` — tenth §4.6 run, zero conflicts, remote ref delete +
-  re-push). Rebase-then-merge per root HANDOVER §4.6, owner-executed; main
-  carries HN evidence through EVID-333, the master index, and the
-  S-HN1/S-HN2/S-HN3 requirements incl. adopted R-H66.**
+  re-push; **S-HN4 at `d05f2c1` w/ root record `7a40433` — eleventh §4.6
+  run, 2 commits rewritten (`087e94f`→`3ee60c0`, `9890bda`→`d05f2c1`),
+  zero conflicts, remote ref delete + re-push**). Rebase-then-merge per
+  root HANDOVER §4.6, owner-executed; main carries HN evidence through
+  EVID-333, the master index, and the S-HN1/S-HN2/S-HN3/**S-HN4**
+  requirements incl. adopted R-H66.**
   The cross-country canon D15-D19 was adopted at the W1 merge — HN's
   D-H2/D-H3 are country instantiations of D16/D18 (see
   `shared/docs/regulatory-change-management.md`,
@@ -335,16 +338,16 @@ RESEARCH §5). Structure:
      force-push (root HANDOVER country model). Branch head after S-HN1/S-HN2
      commit = the synthesis-wave base; future waves branch from here.
 
-Session state at stop (2026-08-20, S-HN4 close): evidence COMPLETE
-through EVID-333 (~227 open OQs); corpus 103 files; W1-W4 + synthesis prep
-+ S-HN1/S-HN2/S-HN3 committed/merged to main (`00caef9`, tenth §4.6 run;
-R-H66 adopted); **S-HN4 payroll DRAFT-COMPLETE on the branch (10 files +
-`smm_tables.csv`, HN-PAYR-FR-001..398 = 313 FRs/146 LBs/163 ACs/73 OQs,
-controller-verified 10/10 structural + verbatim bank-check with 5 one-word
-LB fixes; wave log + indexes + master-index S-wave plan + this HANDOVER
-refreshed; NOT yet merged) — next = validation wave (COVERAGE.md +
-adversarial review) + owner merge decision + S-HN5 at milestone (or
-acquisition wave in parallel).**
+Session state at stop (2026-08-20, S-HN4 close + eleventh merge): evidence
+COMPLETE through EVID-333 (~227 open OQs); corpus 103 files; W1-W4 +
+synthesis prep + all four S-waves committed/merged to main (**S-HN4 at
+`d05f2c1`, eleventh §4.6 run, root record `7a40433`; R-H66 adopted**).
+S-HN4 payroll = 10 files + `smm_tables.csv`, HN-PAYR-FR-001..398 = 313
+FRs/146 LBs/163 ACs/73 OQs, controller-verified 10/10 structural + strict
+verbatim bank-check with 5 one-word LB fixes. **Next = validation wave
+(`hn/requirements/COVERAGE.md` all four topics + adversarial review,
+template Stage 5) + S-HN5 thin-close decision at milestone (or acquisition
+wave in parallel — top: D. 135-94 + Acuerdo 201-96).**
 
 ## 7. Conventions (mirroring SV)
 
