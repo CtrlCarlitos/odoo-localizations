@@ -119,9 +119,24 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
      OQ18 (5% pequeño/agro retention rates); two registry identity
      corrections: 48_ form map (ISR anual = SAT-1411, asalariados =
      SAT-1431, 1371 = no-residentes, retenciones = SAT-1331) + 81_; see
-     `gt/HANDOVER.md` §5a-5f); next master-index/MOQ prep
-     (00_MASTER_INDEX.md) then S-GT1 e-invoicing synthesis; D-19-2016 =
-     top-ranked acquisition (blocks special-regimes synthesis quality).
+      `gt/HANDOVER.md` §5a-5f); next master-index/MOQ prep
+      (00_MASTER_INDEX.md) then S-GT1 e-invoicing synthesis; D-19-2016 =
+      top-ranked acquisition (blocks special-regimes synthesis quality).
+      **GT synthesis-prep merge 2026-08-20 (§4.6 protocol, seventh run):**
+      `gt-research` rebased onto `5bdd97f` (1 commit rewritten:
+      `4227af8`→`d1ba16c` master-index build; zero conflicts) then
+      fast-forward-merged; remote branch ref updated via delete + re-push.
+      **GT master index BUILT** (`gt/.extractions/00_MASTER_INDEX.md`:
+      40 clusters E1-E8/TX1-TX7/P1-P7/F1-F6/C1-C6/SR1-SR6, 81-row R ledger,
+      140-GOQ register rolled from all 250 per-file OQs + struck audit,
+      authority orders, OQ1-OQ18 mapping; 8 controller-verified quotes).
+      Three index-level resolutions: **R20** Q150,000 = D-4-2012 reforming
+      LIVA arts. 45/46 ("LAT attribution" was research-era error); **R45**
+      CCom vigencia = 1971-01-01 (01-07-1970 = D-43-70 tag date — corrected
+      gt/HANDOVER §5e); **R81** maquila art. 12 bis ADDED by D-19-2016
+      art. 7 (corrects §5f "born D-38-04"). DOWNLOAD_QUEUE rev 7. **Next:
+      S-GT1 e-invoicing synthesis plan → subagent wave** (master index =
+      the gate, closed); see `gt/HANDOVER.md` §5g.
 
 ### El Salvador — sources & evidence state
 - **EVID corpus 001..274** (gaps 109-127, 240 reserved-unused). W13 files (2026-08-19):
