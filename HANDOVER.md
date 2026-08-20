@@ -683,12 +683,16 @@ W4 payroll → synthesis (master index + S-waves).
 6. **Session close & merge protocol** (standard from 2026-08-19; applies to
    every country branch — currently `hn-research`, later `sv-research` /
    `gt-research`):
+   - At session start (any country work): `git config core.editor nvim`
+     (repo-local agent override; see §6 — unset again at close).
    - At session end the owner asks: *"So `Read <cc>/HANDOVER.md and
      continue.`? Want to merge before we nuke this session?"* — the country
      named in the prompt is the branch being closed (e.g. hn →
      `hn-research` in `.worktrees/hn-research`).
    - Controller closes out: refresh the country HANDOVER (state-at-stop +
-     next actions), commit + push the branch.
+     next actions), commit + push the branch; then
+     `git config --unset core.editor` to restore the owner's VS Code git
+     editor (§6).
    - Owner forks: request changes (session continues) OR nuke (end
      session).
    - **Before nuking, merge the branch back to main:** (1) review what
@@ -1053,6 +1057,13 @@ W4 payroll → synthesis (master index + S-waves).
 
 ## 6. Environment & tooling (this machine)
 
+- **Git editor (repo-local override):** global `~/.gitconfig` sets
+  `core.editor = code --wait` (VS Code popup — owner wants it for manual
+  work). That popup blocks/aborts agent-driven commits, so agent sessions
+  run `git config core.editor nvim` (repo-local `.git/config`, shared by
+  all worktrees) **at session start**, and
+  `git config --unset core.editor` **at session close** (§4.6) to restore
+  the VS Code behavior. Owner never edits `~/.gitconfig` for this.
 - **Python**: 3.14, NO system pip. Venv `~/.venvs/localizations`
   (pypdf, openpyxl, ocrmypdf, xlrd, python-docx). Run scripts as
   `~/.venvs/localizations/bin/python shared/scripts/...`. Setup documented
