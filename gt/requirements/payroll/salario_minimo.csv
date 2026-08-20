@@ -1,0 +1,102 @@
+# gt/requirements/payroll/salario_minimo.csv — salario mínimo dated rows (sidecar of 03_minimum-wage.md)
+# Authority order (binding, master index P2): AG 256-2025 (2026, operative) > AG 250-2020 (2021) > 39_ official
+#   Departamento Nacional del Salario compilation 1995-2021 (SECONDARY source — every historical row cites its
+#   UNDERLYING AG, never the compilation); CT arts. 103-115 (32_, texto según edición conmemorativa 2024,
+#   MinTrabajo) = mechanism only, NO values.
+# Fidelity (R35): amounts transcribed digit-for-digit as printed, [sic] defects flagged in fidelity_note and
+#   NEVER corrected; PRINTED FIGURES GOVERN over the SD x 365/12 formula (GOQ-82; 39_ p.4 note = estimation
+#   only); where printed digits are garbled or contradict their own words, the WORDS govern (GOQ-78: AG 256-2025
+#   arts. 2/4/6 monthly); art. 7 CE2 maquila = 3,221.10 as printed, never 'corrected' to the prior 3,321.10
+#   (GOQ-77); 2026 monthlies diverge from daily x 365/12 by centavos — printed governs.
+# Gaps: 2022-2025 = ABSENT rows with GOQ-11 flags — NEVER interpolated (39_ ends 2021; 37_ = 2026); 2004
+#   CC-suspension window (Exp. 05-2004, Corte de Constitucionalidad) = explicit gap rows per actividad (GOQ-81).
+# Zones: nacional (1994-2025) / ce1 = departamento de Guatemala, ce2 = all other departments (from 2026-01-01,
+#   AG 285-2021 circumscripciones). Actividades: agricola / no_agricola / exportadora_maquila (2 sectors
+#   1995-2007, 3 sectors 2008-2021; todas = gap rows only).
+# Structure: one row per (year x zone x actividad), except 2004 (two vigencia segments + one suspension gap row
+#   per actividad). Amounts as plain decimals (printed '1,433.50Q' → 1433.50 — digits preserved, format
+#   normalized); rate_hourly only where the AG prints it (2020-2021); 1995-2007 hourly not printed; 2026 hourly
+#   = proportional to jornada, never an independent constant.
+year,zone,actividad,valid_from,valid_to,rate_daily,rate_monthly,rate_hourly,instrument,source_evid,fidelity_note
+1995,nacional,agricola,1994-10-20,1995-12-31,14.50,441.04,,39_ compilation -> AG 610-94,EVID-342,as printed (441.04Q); vigencia del 20-10-94 al 31-12-1995 (starts 20-Oct-1994)
+1995,nacional,no_agricola,1994-10-20,1995-12-31,16.00,486.67,,39_ compilation -> AG 610-94,EVID-342,as printed (486.67Q)
+1996,nacional,agricola,1996-01-01,1996-12-31,15.95,486.48,,39_ compilation -> AG 667-95,EVID-342,as printed
+1996,nacional,no_agricola,1996-01-01,1996-12-31,17.60,536.80,,39_ compilation -> AG 667-95,EVID-342,as printed
+1997,nacional,agricola,1997-01-01,1997-12-31,15.95,486.48,,prorroga per 39_ NOTA (underlying AG 667-95),EVID-342,1997 has no own AG — NOTA: SE PRORROGAN LOS SALARIOS MINIMOS DEL AÑO ANTERIOR (1996 rates continued)
+1997,nacional,no_agricola,1997-01-01,1997-12-31,17.60,536.80,,prorroga per 39_ NOTA (underlying AG 667-95),EVID-342,same prorroga — 1996 rates continued
+1998,nacional,agricola,1998-01-01,1999-01-29,17.86,543.24,,39_ compilation -> AG 841-97,EVID-342,late-January transition — vigencia 01-01-98 al 29-01-1999
+1998,nacional,no_agricola,1998-01-01,1999-01-29,19.71,599.51,,39_ compilation -> AG 841-97,EVID-342,late-January transition — vigencia 01-01-98 al 29-01-1999
+1999,nacional,agricola,1999-01-30,2000-01-25,19.65,597.69,,39_ compilation -> AG 23-99,EVID-342,late-January transition — vigencia 30-01-99 al 25-01-2000
+1999,nacional,no_agricola,1999-01-30,2000-01-25,21.68,659.43,,39_ compilation -> AG 23-99,EVID-342,late-January transition — vigencia 30-01-99 al 25-01-2000
+2000,nacional,agricola,2000-01-26,2000-12-14,21.62,659.41,,39_ compilation -> AG 20-2000,EVID-342,late-January transition — vigencia 26-01-00 al 14-12-2000
+2000,nacional,no_agricola,2000-01-26,2000-12-14,23.85,727.42,,39_ compilation -> AG 20-2000,EVID-342,late-January transition — vigencia 26-01-00 al 14-12-2000
+2001,nacional,agricola,2000-12-15,2001-12-31,25.08,762.85,,39_ compilation -> AG 838-2000,EVID-342,"no own 2001 AG — AG 838-2000 block (printed under AÑO 2,000 heading) carries 2001; vigencia 15-12-2000 al 31-12-2001"
+2001,nacional,no_agricola,2000-12-15,2001-12-31,27.67,841.63,,39_ compilation -> AG 838-2000,EVID-342,no own 2001 AG — AG 838-2000 block carries 2001; vigencia 15-12-2000 al 31-12-2001
+2002,nacional,agricola,2002-01-01,2002-12-31,27.50,836.46,,39_ compilation -> AG 494-2001,EVID-342,as printed
+2002,nacional,no_agricola,2002-01-01,2002-12-31,30.00,912.50,,39_ compilation -> AG 494-2001,EVID-342,as printed
+2003,nacional,agricola,2003-01-01,2003-12-31,31.90,970.29,,39_ compilation -> AG 459-2002,EVID-342,as printed
+2003,nacional,no_agricola,2003-01-01,2003-12-31,34.20,1040.25,,39_ compilation -> AG 459-2002,EVID-342,"as printed (1,040.25Q)"
+2004,nacional,agricola,2004-01-01,2004-01-22,38.60,1177.30,,39_ compilation -> AG 765-2003,EVID-342;EVID-343,segment 1 of 2 — vigente 01 al 22 de enero/2004 (CC suspension cuts the year)
+2004,nacional,agricola,2004-01-23,2004-07-29,,,,GAP — suspension provisional (Exp. 05-2004),EVID-343,"GAP (GOQ-81): Vigente del 01 al 22 de enero y del 30 de julio al 31 de diciembre/2004, a causa de suspensión provisional. Ref. Exp. # 05-2004 de la Corte de Constitucionalidad — values during suspension unresolved; NEVER interpolated"
+2004,nacional,agricola,2004-07-30,2004-12-31,38.60,1177.30,,39_ compilation -> AG 765-2003,EVID-342;EVID-343,segment 2 of 2 — vigente del 30 de julio al 31 de diciembre/2004
+2004,nacional,no_agricola,2004-01-01,2004-01-22,39.67,1209.94,,39_ compilation -> AG 765-2003,EVID-342;EVID-343,segment 1 of 2 — vigente 01 al 22 de enero/2004 (CC suspension cuts the year)
+2004,nacional,no_agricola,2004-01-23,2004-07-29,,,,GAP — suspension provisional (Exp. 05-2004),EVID-343,GAP (GOQ-81): CC provisional suspension 23-Jan to 29-Jul-2004 — values during suspension unresolved; NEVER interpolated
+2004,nacional,no_agricola,2004-07-30,2004-12-31,39.67,1209.94,,39_ compilation -> AG 765-2003,EVID-342;EVID-343,segment 2 of 2 — vigente del 30 de julio al 31 de diciembre/2004
+2005,nacional,agricola,2005-01-01,2005-12-31,38.60,1177.30,,39_ compilation -> AG 378-2004,EVID-342,re-fixes the 2004 values unchanged (post-suspension year)
+2005,nacional,no_agricola,2005-01-01,2005-12-31,39.67,1209.94,,39_ compilation -> AG 378-2004,EVID-342,re-fixes the 2004 values unchanged (post-suspension year)
+2006,nacional,agricola,2006-01-01,2006-12-31,42.46,1291.49,,39_ compilation -> AG 640-2005,EVID-342,as printed
+2006,nacional,no_agricola,2006-01-01,2006-12-31,43.64,1327.38,,39_ compilation -> AG 640-2005,EVID-342,as printed
+2007,nacional,agricola,2007-01-01,2007-12-31,44.58,1355.98,,39_ compilation -> AG 624-2006,EVID-342,as printed
+2007,nacional,no_agricola,2007-01-01,2007-12-31,45.82,1393.69,,39_ compilation -> AG 624-2006,EVID-342,as printed
+2008,nacional,agricola,2008-01-01,2008-12-31,47.00,1433.50,,39_ compilation -> AG 625-2007,EVID-341,2008 monthlies sit at daily x 30.5 not SD x 365/12 (47.00 x 365/12 = 1429.58) — printed governs [sic] (GOQ-82)
+2008,nacional,no_agricola,2008-01-01,2008-12-31,48.50,1479.25,,39_ compilation -> AG 625-2007,EVID-341,2008 monthlies sit at daily x 30.5 not SD x 365/12 (48.50 x 365/12 = 1475.21) — printed governs [sic] (GOQ-82)
+2008,nacional,exportadora_maquila,2008-01-01,2008-12-31,47.75,1456.38,,39_ compilation -> AG 625-2007,EVID-341,"maquila monthly 1,456.38Q [sic] vs SD x 365/12 = 1452.40 — printed governs (GOQ-82; OQ-8)"
+2009,nacional,agricola,2009-01-01,2009-12-31,52.00,1581.67,,39_ compilation -> AG 398-2008,EVID-341,as printed (AG printed No.398-2008)
+2009,nacional,no_agricola,2009-01-01,2009-12-31,52.00,1581.67,,39_ compilation -> AG 398-2008,EVID-341,as printed (AG printed No.398-2008)
+2009,nacional,exportadora_maquila,2009-01-01,2009-12-31,47.75,1452.39,,39_ compilation -> AG 398-2008,EVID-341,maquila rate unchanged from 2008
+2010,nacional,agricola,2010-01-01,2010-12-31,56.00,1703.33,,39_ compilation -> AG 347-2009,EVID-341,as printed
+2010,nacional,no_agricola,2010-01-01,2010-12-31,56.00,1703.33,,39_ compilation -> AG 347-2009,EVID-341,as printed
+2010,nacional,exportadora_maquila,2010-01-01,2010-12-31,51.75,1574.06,,39_ compilation -> AG 347-2009,EVID-341,as printed
+2011,nacional,agricola,2011-01-01,2011-12-31,63.70,1937.54,,39_ compilation -> AG 388-2010,EVID-341,as printed
+2011,nacional,no_agricola,2011-01-01,2011-12-31,63.70,1937.54,,39_ compilation -> AG 388-2010,EVID-341,as printed
+2011,nacional,exportadora_maquila,2011-01-01,2011-12-31,59.45,1808.27,,39_ compilation -> AG 388-2010,EVID-341,as printed
+2012,nacional,agricola,2012-01-01,2012-12-31,68.00,2074.00,,39_ compilation -> AG 520-2011,EVID-341,as printed
+2012,nacional,no_agricola,2012-01-01,2012-12-31,68.00,2074.00,,39_ compilation -> AG 520-2011,EVID-341,as printed
+2012,nacional,exportadora_maquila,2012-01-01,2012-12-31,62.50,1906.25,,39_ compilation -> AG 520-2011,EVID-341,as printed
+2013,nacional,agricola,2013-01-01,2013-12-31,71.40,2171.75,,39_ compilation -> AG 359-2012,EVID-341,as printed
+2013,nacional,no_agricola,2013-01-01,2013-12-31,71.40,2171.75,,39_ compilation -> AG 359-2012,EVID-341,as printed
+2013,nacional,exportadora_maquila,2013-01-01,2013-12-31,65.63,1996.25,,39_ compilation -> AG 359-2012,EVID-341,as printed
+2014,nacional,agricola,2014-01-01,2014-12-31,74.97,2280.34,,39_ compilation -> AG 537-2013,EVID-341,as printed
+2014,nacional,no_agricola,2014-01-01,2014-12-31,74.97,2280.34,,39_ compilation -> AG 537-2013,EVID-341,as printed
+2014,nacional,exportadora_maquila,2014-01-01,2014-12-31,68.91,2096.06,,39_ compilation -> AG 537-2013,EVID-341,as printed
+2015,nacional,agricola,2015-01-01,2015-12-31,78.72,2394.40,,39_ compilation -> AG 470-2014,EVID-341,as printed
+2015,nacional,no_agricola,2015-01-01,2015-12-31,78.72,2394.40,,39_ compilation -> AG 470-2014,EVID-341,as printed
+2015,nacional,exportadora_maquila,2015-01-01,2015-12-31,72.36,2200.95,,39_ compilation -> AG 470-2014,EVID-341,as printed
+2016,nacional,agricola,2016-01-01,2016-12-31,81.87,2497.04,,39_ compilation -> AG 303-2015,EVID-341,first activity row mislabeled 'Actividades No Agrícolas' [sic — read Agrícolas]; year-end vigencia '31-12-20016' [sic]
+2016,nacional,no_agricola,2016-01-01,2016-12-31,81.87,2497.04,,39_ compilation -> AG 303-2015,EVID-341,year-end vigencia '31-12-200116' [sic]
+2016,nacional,exportadora_maquila,2016-01-01,2016-12-31,74.89,2284.15,,39_ compilation -> AG 303-2015,EVID-341,first activity row mislabeled 'Actividades No Agrícolas' [sic — read Agrícolas]; year-end vigencia '31-12-20016' [sic]
+2017,nacional,agricola,2017-01-01,2017-12-31,86.90,2643.21,,39_ compilation -> AG 288-2016,EVID-341,year-end vigencia '31-12-20017' [sic — OCR extra zero]
+2017,nacional,no_agricola,2017-01-01,2017-12-31,86.90,2643.21,,39_ compilation -> AG 288-2016,EVID-341,year-end vigencia '31-12-200117' [sic]
+2017,nacional,exportadora_maquila,2017-01-01,2017-12-31,79.48,2417.52,,39_ compilation -> AG 288-2016,EVID-341,year-end vigencia '31-12-20017' [sic — OCR extra zero]
+2018,nacional,agricola,2018-01-01,2018-12-31,90.16,2742.37,,39_ compilation -> AG 297-2017,EVID-341,year-end vigencia '31-12-20018' [sic — OCR extra zero]
+2018,nacional,no_agricola,2018-01-01,2018-12-31,90.16,2742.37,,39_ compilation -> AG 297-2017,EVID-341,year-end vigencia '31-12-200118' [sic]
+2018,nacional,exportadora_maquila,2018-01-01,2018-12-31,82.46,2508.16,,39_ compilation -> AG 297-2017,EVID-341,year-end vigencia '31-12-20018' [sic — OCR extra zero]
+2019,nacional,agricola,2019-01-01,2019-12-31,90.16,2742.37,,39_ compilation -> AG 242-2018,EVID-341,freeze year — same values as 2018; year-end vigencia '31-12-20019' [sic]
+2019,nacional,no_agricola,2019-01-01,2019-12-31,90.16,2742.37,,39_ compilation -> AG 242-2018,EVID-341,year-end vigencia '31-12-200119' [sic]
+2019,nacional,exportadora_maquila,2019-01-01,2019-12-31,82.46,2508.16,,39_ compilation -> AG 242-2018,EVID-341,freeze year — same values as 2018; year-end vigencia '31-12-20019' [sic]
+2020,nacional,agricola,2020-01-01,2020-12-31,90.16,2742.37,,39_ compilation -> AG 320-2019,EVID-341,as printed
+2020,nacional,no_agricola,2020-01-01,2020-12-31,92.88,2825.10,,39_ compilation -> AG 320-2019,EVID-341,as printed
+2020,nacional,exportadora_maquila,2020-01-01,2020-12-31,84.88,2581.77,,39_ compilation -> AG 320-2019,EVID-341,as printed
+2021,nacional,agricola,2021-01-01,2021-12-31,90.16,2742.37,11.27,AG 250-2020 (hourly/daily verbatim) + 39_ (monthly),EVID-336;EVID-341,COVID freeze — identical to 2020; hourly+daily printed in the AG itself ('(01.11.27) [sic]' 'Q.90.16'); monthly from 39_; single national zone
+2021,nacional,no_agricola,2021-01-01,2021-12-31,92.88,2825.10,11.61,AG 250-2020 (hourly/daily verbatim) + 39_ (monthly),EVID-336;EVID-341,"COVID freeze — identical to 2020; '(Q,11.61] [sic]' '(0.92,88] [sic]' as printed; monthly from 39_"
+2021,nacional,exportadora_maquila,2021-01-01,2021-12-31,84.88,2581.77,10.61,AG 250-2020 (hourly/daily verbatim) + 39_ (monthly),EVID-336;EVID-341,COVID freeze — identical to 2020; 'DIEZ. [sic]' '(0.84.88) [sic]' as printed; monthly from 39_
+2022,nacional,todas,2022-01-01,2022-12-31,,,,AG absent from corpus (39_ ends 2021; 37_ = 2026),EVID-339,GAP — GOQ-11 flag: never interpolated; lookups block floor validation and every consumer interface
+2023,nacional,todas,2023-01-01,2023-12-31,,,,AG absent from corpus (39_ ends 2021; 37_ = 2026),EVID-339,GAP — GOQ-11 flag: never interpolated; lookups block floor validation and every consumer interface
+2024,nacional,todas,2024-01-01,2024-12-31,,,,AG absent from corpus (39_ ends 2021; 37_ = 2026),EVID-339,GAP — GOQ-11 flag: never interpolated; lookups block floor validation and every consumer interface
+2025,nacional,todas,2025-01-01,2025-12-31,,,,AG absent from corpus (39_ ends 2021; 37_ = 2026),EVID-339,GAP — GOQ-11 flag: never interpolated; lookups block floor validation and every consumer interface
+2026,ce1,agricola,2026-01-01,,124.64,3791.20,,AG 256-2025,EVID-333,"art. 2; daily '(OQ. 124,64)' [sic] as printed; monthly digits garbled '(a, 3, fte 20)' [sic] — words 'TRES MIL SETECIENTOS NOWENTA [sic] Y UN … VEINTE CENTAVOS' govern -> 3791.20 (GOQ-78); hourly proportional to jornada (not printed)"
+2026,ce1,no_agricola,2026-01-01,,131.58,4002.28,,AG 256-2025,EVID-333,art. 3; digits and words agree as printed
+2026,ce1,exportadora_maquila,2026-01-01,,112.10,3409.73,,AG 256-2025,EVID-333,"art. 4; daily '(Q. 112. 10)' [sic spacing] as printed; monthly digits garbled 'la 3, Q. 73)' [sic] — words 'TRES MIL CUATROCIENTOS NUEVE … SETENTA Y TRES CENTAVOS' govern -> 3409.73 (GOQ-78)"
+2026,ce2,agricola,2026-01-01,,119.21,3625.89,,AG 256-2025,EVID-333,art. 5; digits and words agree as printed
+2026,ce2,no_agricola,2026-01-01,,125.49,3816.90,,AG 256-2025,EVID-333,"art. 6; daily '(Q, 125,49)' [sic] as printed; monthly printed digits '(Q. 3,416.90]' [sic] contradict own words 'TRES MIL OCHOCIENTOS DIECISEIS' — WORDS GOVERN -> 3816.90 (R35/GOQ-78)"
+2026,ce2,exportadora_maquila,2026-01-01,,105.90,3221.10,,AG 256-2025,EVID-333,"art. 7; words 'TRES MIL DOSCIENTOS WEINTIUN [sic] … DIEZ CENTAVOS' + digits '(0. 3,221.10)' agree AS PRINTED; diverges from project prior 3321.10 — NEVER corrected (GOQ-77)"
