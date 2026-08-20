@@ -736,9 +736,14 @@ D-GT10 / HN D-H2/D-H3 stay in their country docs.
   session closes — standard protocol in §4.6.
 - **Future countries: Chile, Colombia, Peru, Nicaragua, Costa Rica,
    Belize, Panama, Dominican Republic** (owner roadmap 2026-08-19; Chile
-  added 2026-08-20; none started). Bootstrap per the GT/HN pattern:
-  country dir scaffold + research spec in
-  `docs/superpowers/specs/` + own HANDOVER + worktree.
+  added 2026-08-20; none started). All countries — sv/gt/hn and every
+  future one — share the same base: `shared/docs/` + cross-country
+  decisions D15–D19 (this file §5) are the binding canon; per-country
+  rules are instantiations on top (D-H2/D-H3 model). "Bootstrap per the
+  GT/HN pattern" refers ONLY to the mechanical scaffold for a new country
+  (dir + research spec in `docs/superpowers/specs/` + own HANDOVER +
+  worktree) — SV predates the recipe (pilot on main; `sv-research`
+  worktree since 2026-08-19), not an exclusion from the shared base.
 
 **State at merge (updated 2026-08-19 W-GT3 close, branch-side):** GT =
 source research COMPLETE (82 entries + 2 schema dirs; decisions D-GT1..10)
