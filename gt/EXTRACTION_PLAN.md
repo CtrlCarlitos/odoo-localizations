@@ -122,8 +122,11 @@ subagent-driven wave → reviews → COVERAGE.
     art. 126 derogates D-67-2001 + D-58-2005 wholesale, vigencia
     17-sep-2026; reglamento ≈17-mar-2027 defers all thresholds; no Q
     threshold in law text.**
-  - ZF: D-65-89 → D-19-2016 (**missing from corpus**) → D-6-2021 (80_);
-    68_ reglamento copy predates any reform (status = OQ15).
+  - ZF: D-65-89 → D-19-2016 (**missing from corpus — gap; W-GT6 sharpened:
+    the blocking acquisition for post-2016 ISR-window modeling**) →
+    D-6-2021 (80_); ~~68_ reglamento copy predates any reform (status =
+    OQ15)~~ **RESOLVED W-GT6: AG 65-2022 (81_) reformed AG 242-90 (arts.
+    1-24, e-provisions 14-sep-2022); 68_ = inconsistent consolidation**.
   - FEL vintage: 17_ casos (2018-05) + 19_ contingencia (2018-05) may lag
     Reglas v1.7.10 / current catalogs (OQ9); read as historical, verify
     each rule against 15_/29_.
@@ -182,6 +185,9 @@ subagent-driven wave → reviews → COVERAGE.
    (FEPE/FARP/FCRP/FPEC/FCPC per Reglas v2.0 changelog) — DCA hunt
    (W-GT2 addition).
 2. **D-19-2016 Ley Emergente** (ZF chain middle link) — DCA hunt.
+   **W-GT6: blocking for post-2016 ZF/maquila ISR-window modeling; also
+   tag-only leads AG 3-2017 (maquila reglamento) + D-38-04 (maquila art.
+   12 bis creator) + maquila pre-2016 art. 15 text.**
 3. Instructivos for SAT-2237/1371/1361/2046/1321 (cat 15812, AJAX-gated).
 4. Calendario tributario vencimiento windows (JSF transcription, owner).
 5. LET creating resolution (normativa listing, AJAX).
@@ -372,3 +378,44 @@ commit. Never leave a session with evidence unmerged. Update
   POs). Lineage: D-51-2001 (effective 15-nov-2001) → D-67-2001 art. 47
   derogation after ~32 days (arts. 1-31 survive verbatim). Registry
   amended (66_/75_/76_/77_ rows).
+- 2026-08-19 — **W-GT6 COMPLETE** (special regimes, unit 27 — THE LAST
+  EVIDENCE WAVE). Stage 1: 6 digital PDFs + 2 OCR (71_/81_). Stage 2: 2
+  reader agents (ZF chain / maquila chain), controller spot-verified 12+
+  quotes. 2 evidence files COMMITTED (EVID-646..745):
+  `67-68_72_80_81_ZF` (646-708), `69-71_Maquila` (711-745). Key
+  outcomes: **ZF exemption schedules (67_, as consolidated)** —
+  administradora ISR 100% **15 años** (from período after operation
+  auth.); usuario ISR 100% **10 años** (from calificación notificación);
+  inmuebles 5 años (central-government share only); IVA: intra/inter-ZF +
+  local inputs no afectas; fondo US$0.10/m²/month (first 5 days);
+  ISR declared under LAT Libro I then consigned exonerado (68_ art. 17).
+  **D-6-2021 delta = narrow** (law arts. 1, 5 Bis, 41 + adds 50 Bis
+  defraudación aduanera + grandfathering per pre-D-19-2016 resolutions;
+  does NOT touch the 21/22 schedules); its vigencia = publication day
+  1-jun-2021 (art. 6; the "art. 43 = 90 days" clause belongs to a
+  page-mate decree — metadata corrected). **OQ15 RESOLVED with registry
+  correction: AG 65-2022 (81_) IS the AG 242-90 ZF-reglamento reform**
+  (arts. 1-24: e-expediente, firma electrónica avanzada, tarifario;
+  e-provisions 14-sep-2022) — the W5 "ZOLIC-only" verdict was wrong (body
+  carries ZOLIC tarifario items = mislabel source). **68_ = inconsistent
+  consolidation** (untagged pre-65-2022 arts. 3/6/8/13; tarifario item 9
+  mislabeled; art. 18 cites derogated law art. 26). **Maquila
+  (69-71_)**: post-D-19-2016 shape — classic maquiladora/exportadora AT
+  get ONLY 1-year DAI+IVA suspensión on inputs (art. 12); **the 10-year
+  total ISR exoneration lives solely in art. 12 bis d)** (productora AT
+  vestuario/textiles SA ch. 50-63 + prestadora servicios TIC/BPO
+  non-residents) + machinery/fuel exonerations; old art. 15 (maquila ISR
+  holiday) printed only as "Derogado" — text unrecoverable in-corpus;
+  art. 12 bis born D-38-04 (2005), reformed D-19-2016. Intemporal: no
+  sunset; 10-year clock per-beneficiary from calificación notification.
+  **70_ consolidation defect: no AG 253-2001 tags (23 bis/ter born 2001
+  per 71_, not 2013 as printed)**; 71_ identity CONFIRMED (AG 253-2001,
+  D-114-97 basis, derogates AG 196-96). Compliance cadence: monthly
+  cuenta-corriente DJ day 20 electronic (+3-month trailing IGSS planilla
+  via SEADEX), coeficiente report 20th hábil, annual labor DJ 40 days +
+  nómina 2 months; 100% diversion multa; IGSS-driven suspension ladder
+  2/4/6 months + recidivism doubling. **D-19-2016 gap map sharpened —
+  THE blocking acquisition for post-2016 ISR-window modeling** (67_ tags:
+  9+ articles incl. derogating 23/24/26; maquila transitional arts.
+  absent); AG 3-2017 + D-38-04 = tag-only leads. Registry amended
+  (70_/71_/81_ rows).

@@ -416,9 +416,17 @@ LET-pequeño md5-identical).
   **Vigencia correction: 17-SEP-2026, not 17-jun** (art. 128: publication
   17-jun-2026 + 3 months) — D-67-2001 remains current until that date;
   transitory deadlines (arts. 116-124, 127) run from 17-sep-2026.
-- OQ15 (ZF successor): AMENDED — no "Decreto 16-2022" replacement; chain =
-  D-65-89 → D-19-2016 → D-6-2021 (80_); AG 242-90 reglamento reform status
-  still open (AG 65-2022 turned out ZOLIC-specific).
+- ~~OQ15 (ZF reglamento)~~ **RESOLVED 2026-08-19 (W-GT6, header
+  verbatim)**: **AG 65-2022 IS "REFORMAS AL REGLAMENTO DE LA LEY DE ZONAS
+  FRANCAS, AG 242-90"** (MinEconomía 11-mar-2022, DCA 14-mar-2022, arts.
+  1-24: e-expediente + firma electrónica avanzada + tarifario
+  restructure; e-provisions effective 14-sep-2022). **The W5 "ZOLIC-only"
+  verdict was wrong** (the body carries ZOLIC tarifario items — source of
+  the mislabel; registry corrected). Reglamento reform status therefore:
+  AG 242-90 → (AG 253-2001-kin checks pending) → **AG 65-2022 (current)**;
+  68_ copy = inconsistent consolidation (pre-65-2022 arts. 3/6/8/13
+  untagged; tarifario item 9 mislabeled; art. 18 cites derogated law art.
+  26).
 - ~~OQ17 (new): Ley IVA 27-92 Art. 3-"A" history~~ **RESOLVED-AS-MYTH
   2026-08-19 (W-GT2, verbatim in 74_ resolutivo)**: D-10-2025 derogates IVA
   **Art. 8-"A"** — "Se deroga el artículo 8 'A' de la Ley del Impuesto al
@@ -445,4 +453,9 @@ LET-pequeño md5-identical).
   notably: CCom consolidation horizon = 30-05-2006 (cite-vs-current risk);
   RM autorización (CCom art. 372) vs SAT habilitación = parallel tracks,
   never merged; 73_ arancel prints no date + variable inscripción scale
-  absent; 60_ undated (≥Oct-2019 bounded).
+  absent; 60_ undated (≥Oct-2019 bounded). **W-GT6 adds ~25 more (2
+  files)** — notably: D-19-2016 full text = the blocking acquisition for
+  post-2016 ZF/maquila ISR-window modeling (67_ tags show it touching 9+
+  articles incl. derogating 23/24/26; maquila old art. 15 text
+  unrecoverable in-corpus); AG 3-2017 (maquila reglamento reformer)
+  tag-only lead; D-38-04 (maquila art. 12 bis creator) also absent.

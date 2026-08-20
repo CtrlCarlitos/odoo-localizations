@@ -8,8 +8,10 @@ session: plan approved, FEL stack read, evidence committed); updated
 2026-08-19 again (W-GT4 evidence-pass session: fiscal reporting read,
 form-identity corrections, evidence committed); updated 2026-08-19 once
 more (W-GT5 evidence-pass session: COA + commercial-legal read, OQ14
-resolved, evidence committed). Read this fully before
-acting; it is the authoritative cross-session memory.
+resolved, evidence committed); updated 2026-08-19 finally (W-GT6
+evidence-pass session: special regimes read, OQ15 resolved + registry
+identity correction, ALL SIX EVIDENCE WAVES COMPLETE). Read this fully
+before acting; it is the authoritative cross-session memory.
 **Update it at every session boundary.**
 
 Session bootstrap command: `Read gt/HANDOVER.md and continue.`
@@ -19,10 +21,11 @@ Session bootstrap command: `Read gt/HANDOVER.md and continue.`
 GT requirements-extraction for the Odoo localization, per
 `shared/docs/requirements-extraction-procedure.md` (method spine) and the SV
 corpus as precedent. Currently in **Stage 1/2 (evidence waves)**:
-EXTRACTION_PLAN approved 2026-08-19; **W-GT1 (FEL stack) + W-GT2 (taxation
-core) + W-GT3 (payroll) + W-GT4 (fiscal reporting) + W-GT5 (COA +
-commercial-legal) COMPLETE** — 24 evidence files committed (EVID-001..645);
-W-GT6 (special regimes) is the last evidence wave.
+EXTRACTION_PLAN approved 2026-08-19; **ALL SIX EVIDENCE WAVES COMPLETE —
+W-GT1 (FEL stack) + W-GT2 (taxation core) + W-GT3 (payroll) + W-GT4
+(fiscal reporting) + W-GT5 (COA + commercial-legal) + W-GT6 (special
+regimes)** — 26 evidence files committed (EVID-001..745). **Next phase:
+synthesis (S-GT1…) after master-index/MOQ prep.**
 Product architecture context: root `HANDOVER.md` §1 (SaaS thin-client + Odoo;
 Takumi consumes requirements).
 
@@ -79,11 +82,13 @@ chain **D-65-89 → D-19-2016 → D-6-2021**, maquila D-29-89 set, ZOLIC AG
 Integral (17-jun-2026)**, RM edictos + aranceles).
 
 **Known-stale instruments retained deliberately** (supersession discipline):
-23_ (IVA pre-FEL), 68_ (ZF reglamento pre-check), 75_ (AML — **supersession
+23_ (IVA pre-FEL), 68_ (ZF reglamento **inconsistent consolidation — AG
+65-2022 reformed it; W-GT6**), 75_ (AML — **supersession
 CONFIRMED W-GT5: D-15-2026 art. 126 derogates it effective 17-sep-2026;
 current until then**), 17_/19_ (2018 vintage FEL docs), **55_ (pequeño
-digest = undated ~2013 body still live at the 2024 capture — W-GT4)**.
-Reform chains are recorded in SOURCE_RESEARCH.md.
+digest = undated ~2013 body still live at the 2024 capture — W-GT4)**,
+**70_ (maquila reglamento: no AG 253-2001 tags; pre-65-2022-era text in
+places — W-GT6)**. Reform chains are recorded in SOURCE_RESEARCH.md.
 
 ## 5c. W-GT3 facts a synthesis session MUST know (2026-08-19)
 
@@ -310,6 +315,63 @@ Reform chains are recorded in SOURCE_RESEARCH.md.
   noted, never conflated), prescripción specials (513, 626-629, 577, 799,
   916-918, 253).
 
+## 5f. W-GT6 facts a synthesis session MUST know (2026-08-19)
+
+- **ZF exemption schedules (67_ D-65-89, as consolidated)**:
+  administradora ISR 100% **15 años** (from the período de imposición
+  after operation authorization); usuario (bienes industriales /
+  servicios) ISR 100% **10 años** (from notificación of calificación);
+  inmuebles **5 años, central-government share only** (municipal share
+  untouched); IVA: intra/inter-ZF transfers + local inputs **no
+  afectas**; fondo = **US$0.10/m²/month**, due first 5 days of following
+  month (72_); ISR declared under LAT Libro I then consigned
+  **exonerado** (68_ art. 17). All = D15 dated rows.
+- **D-6-2021 delta = narrow** (law arts. 1, 5 Bis, 41 + adds 50 Bis
+  defraudación aduanera + grandfathering per pre-D-19-2016 resolutions);
+  does NOT touch the 21/22 schedules. **Its vigencia = publication day
+  1-jun-2021 (art. 6); the "art. 43 = 90 days" clause belongs to a
+  page-mate decree (metadata corrected in evidence).**
+- **OQ15 RESOLVED + registry identity correction**: **81_ AG 65-2022 IS
+  "REFORMAS AL REGLAMENTO DE LA LEY DE ZONAS FRANCAS, AG 242-90"**
+  (MinEconomía 11-mar-2022, DCA 14-mar-2022; arts. 1-24: e-expediente +
+  firma electrónica avanzada + tarifario restructure; **e-provisions
+  effective 14-sep-2022**). The W5 "ZOLIC-only" verdict was WRONG (the
+  body carries ZOLIC tarifario items — source of the mislabel). **68_ =
+  inconsistent consolidation**: arts. 3/6/8/13 print pre-65-2022 text
+  untagged; tarifario item 9 mislabeled (authentic "Cancelación de
+  resolución $500"); art. 18 cites derogated law art. 26.
+- **Maquila (69_ D-29-89) post-D-19-2016 shape — never assume "maquila =
+  ISR-exempt"**: classic maquiladora/exportadora AT get ONLY a 1-year
+  DAI+IVA **suspensión** on inputs (art. 12); the **10-year total ISR
+  exoneration lives solely in art. 12 bis d)** — productora AT
+  (vestuario/textiles, SA ch. 50-63) + prestadora de servicios
+  (TIC/BPO to non-residents) — plus machinery DAI+IVA exoneration, fuel
+  exoneration, local inputs/services outside IVA. **Old art. 15 (maquila
+  ISR holiday) printed only as "Derogado" — text unrecoverable
+  in-corpus** (pre-2016 beneficiaries unmodelable without it / D-19-2016).
+  art. 12 bis born **D-38-04 (2005)**, reformed D-19-2016. Intemporal:
+  no sunset; 10-year clock **per-beneficiary from calificación
+  notification**; conditions: cost accounting + perpetual inventories;
+  foreign-branch carve-out where home country credits GT ISR.
+- **70_ AG 533-89 consolidation defect**: carries NO AG 253-2001 tags —
+  23 bis/ter credited to AG 253-2013 though 71_ proves they were born in
+  2001 (23 ter then: 20-days-of-January → first-40-days-of-year + boleta).
+  **71_ = AG 253-2001 CONFIRMED** (OCR header garble + D-114-97 legal
+  basis + AG 196-96 derogation; likely read 27-jun-2001, flagged).
+- **Maquila compliance cadence**: monthly cuenta-corriente DJ **day 20,
+  electronic** (+ trailing 3-month IGSS planilla via SEADEX); coeficiente
+  report 20th día hábil; annual labor DJ 40 days + nómina 2 months; 100%
+  diversion multa; IGSS-driven suspension ladder 2/4/6 months (≥50-worker
+  tier), doubling on calendar-year recidivism.
+- **D-19-2016 = THE blocking acquisition for special-regimes synthesis**
+  (67_ tags: touching 9+ law articles incl. derogating 23/24/26; maquila
+  transitional articles absent; whether it changed ISR windows for
+  post-2016 ZF users is unresolvable in-corpus). Tag-only leads:
+  **AG 3-2017** (maquila reglamento reformer), **D-38-04** (art. 12 bis
+  creator), **DL 21-84** (predecessor). Cross-chain: D-65-89 refs at
+  maquila law arts. 4 bis/36 bis + reglamento arts. 9 j)/42 bis
+  (CAUCA-documented, IVA-exempt inter-regime flows).
+
 ## 5a. W-GT1 facts a synthesis session MUST know (2026-08-19)
 
 - **Reglas y validaciones = v2.0** (changelog row "2.0 19/12/2024", vigencia
@@ -455,19 +517,23 @@ Reform chains are recorded in SOURCE_RESEARCH.md.
   D-58-2005 wholesale; reglamento ≈17-mar-2027 defers all thresholds; **no
   Q threshold in law text (Q2,000 premise fails at law level)**; vigencia
   17-sep-2026.
-- **OQ15** ZF reglamento (AG 242-90) current-reform status.
+- ~~OQ15~~ **RESOLVED W-GT6** (see §5f): AG 65-2022 = the AG 242-90 ZF
+  reglamento reform (e-provisions 14-sep-2022); W5 "ZOLIC-only" verdict
+  was wrong; 68_ = inconsistent consolidation.
 - **OQ16** does a numbered Reglamento del Código de Comercio exist?
 - **OQ18 (W-GT4)**: 5% IVA-retention rates (pequeño ≥Q2,500.01 / agro on
   total factura, printed by 49_/52_) vs the W-GT2 D-20-2006 matrix —
   reconcile against 23_/24_ law text before synthesis; "54 B"/"54 BIS"
   nomenclature rides the OQ10 consolidated print.
-- **Evidence-file OQs (W-GT1..W-GT5)**: ~170 per-file OQ-1.. live in the
-  24 evidence files — MOQ-roll into a master index at synthesis prep (SV
+- **Evidence-file OQs (W-GT1..W-GT6)**: ~195 per-file OQ-1.. live in the
+  26 evidence files — MOQ-roll into a master index at synthesis prep (SV
   pattern). W-GT4 adds: LET layouts = image-only (re-capture candidate);
   55_/57_/58_/62_/63_ print no dates (currency unverifiable); 64_ OCR
   pages 4/5/8 blank. W-GT5 adds: CCom consolidation horizon 30-05-2006;
   RM autorización vs SAT habilitación = parallel tracks; 73_ arancel
-  undated + variable inscripción scale absent.
+  undated + variable inscripción scale absent. W-GT6 adds: D-19-2016 =
+  blocking acquisition (post-2016 ISR windows); AG 3-2017 + D-38-04
+  tag-only leads; maquila pre-2016 art. 15 unrecoverable.
 
 ## 8. Accountant track (asked 2026-08-19; assume yes, plan B ready)
 
@@ -487,33 +553,34 @@ synthesized with these as flagged open questions and back-filled later.
 
 ## 9. Next actions (ordered)
 
-1. ~~EXTRACTION_PLAN~~ approved + ~~W-GT1~~ + ~~W-GT2~~ + ~~W-GT3~~ +
-   ~~W-GT4~~ + ~~W-GT5~~ **COMPLETE 2026-08-19** (see §5a-§5e + plan
-   extraction log). **Next: W-GT6 — special regimes evidence pass (the
-   LAST evidence wave)**: `67_` ZF D-65-89 → `68_` AG 242-90 reglamento
-   (pre-check, OQ15 reform status) → `69_` maquila D-29-89 → `70_` AG
-   533-89 → `71_` AG 253-2001 → `72_` AG 296-94 → `80_` D-6-2021 → `81_`
-   ZOLIC AG 65-2022. Law-then-reglamento pairs; exemption schedules =
-   canonical D15 consumers (per-acuerdo dated rows, never global
-   constants); D-19-2016 chain gap still open; needs W-GT2 IVA/ISR
-   context (available).
-2. Opportunistic gap closure: queue rev-6 items (AG 75-2006 AML reglamento,
-   consolidated IVA post-2018, D-19-2016); instructivos cat 15812;
-   calendario transcription via SAT JSF app; accountant answers fold in
-   when they arrive. **W-GT4 additions: LET field-layout re-capture (image-
-   only manuals — refreshed PDFs or page images at synthesis need);
-   D-4-2012 full text (Q150k threshold attribution); aguinaldo D-76-78 +
-   incentivo D-37-2001 still missing (W-GT3). W-GT5 addition: D-15-2026
-   reglamento (≈17-mar-2027) — watch legal.dca.gob.gt.**
-3. ~~W-GT3 payroll~~ → ~~W-GT4 fiscal reporting~~ → ~~W-GT5 COA +
-   commercial-legal~~ → **W-GT6 special regimes**, per the plan's reading
-   order.
+1. ~~EXTRACTION_PLAN~~ approved + ~~W-GT1..W-GT6~~ **ALL COMPLETE
+   2026-08-19** (see §5a-§5f + plan extraction log; EVID-001..745, 26
+   evidence files). **NEXT PHASE = SYNTHESIS PREP then S-GT waves**:
+   (a) build `gt/.extractions/00_MASTER_INDEX.md` (topic clusters,
+   resolved contradictions, MOQ roll of the ~195 per-file OQs — SV
+   pattern, see `sv/.extractions/00_MASTER_INDEX.md`); (b) then S-GT1
+   (e-invoicing) first — its evidence base is the deepest and D-GT9's
+   dispositivo refinement + D17 journal model are already flagged for
+   it; S-GT2 (taxation) next; every topic is evidence-complete after
+   the master index.
+2. Opportunistic gap closure (folds into any synthesis): queue rev-6
+   items (AG 75-2006 AML reglamento, consolidated IVA post-2018,
+   **D-19-2016 — now the top-ranked acquisition, blocks special-regimes
+   synthesis quality**); instructivos cat 15812; calendario
+   transcription via SAT JSF app; accountant answers fold in when they
+   arrive. **W-GT4 additions: LET field-layout re-capture; D-4-2012 full
+   text (Q150k attribution); aguinaldo D-76-78 + incentivo D-37-2001
+   still missing (W-GT3). W-GT5 addition: D-15-2026 reglamento
+   (≈17-mar-2027) — watch legal.dca.gob.gt. W-GT6 additions: AG 3-2017,
+   D-38-04, maquila pre-2016 art. 15 text.**
+3. ~~All six evidence waves complete~~ — plan reading order fully
+   executed.
 4. Synthesis prep after each topic's evidence base completes (master index
-   + MOQ roll; SV pattern) — **S-GT1 (e-invoicing), S-GT2 (taxation) and
-   S-GT5 (COA + commercial-legal) are unblocked now**; S-GT4
-   (fiscal-reporting) unblocked after MOQ roll.
-   Carry the W-GT4 form-identity corrections (1411/1431/1371/1331) into
-   every synthesis that names ISR forms.
+   + MOQ roll; SV pattern) — **all topics evidence-complete; master index
+   is the gate**. Carry the W-GT4 form-identity corrections
+   (1411/1431/1371/1331) into every synthesis that names ISR forms; the
+   W-GT6 special-regimes corrections (81_ identity, maquila 12 bis d)
+   shape S-GT7.
 5. Milestone: owner decides `gt-research` → `main` merge (owner owns ALL
    merges; controller verifies branch state only). **OQ7 watch: TotalDoc
    authorization renewal 02/12/2026 — re-check the certificador roster
@@ -579,3 +646,15 @@ convergence session; updated again at W-GT1 close)
   reglamento deadline + no-Q-threshold + vigencia 17-sep-2026);
   66_/75_/76_/77_ registry rows amended; CCom consolidation tail verified.
   Next wave (W-GT6) starts at EVID-646.
+- **W-GT6 session addenda (2026-08-19, final evidence wave)**: 2 reader
+  agents (EVID-646..745), controller spot-verified 12+ quotes — all
+  passed. **Second registry identity correction of the day: 81_ =
+  ZF-reglamento reform AG 65-2022 (header verbatim), NOT ZOLIC-only** —
+  OQ15 resolved affirmatively; W5's "retired hypothesis" note was itself
+  wrong (recorded in SOURCE_RESEARCH). D-6-2021 vigencia metadata
+  corrected (art. 6 = publication day; art. 43 belongs to a page-mate
+  decree). Maquila: never assume ISR-exempt — 10-year exoneration only
+  via art. 12 bis d (post-D-19-2016). **Session total: 3 waves (W-GT4/5/6),
+  12 evidence files, EVID-371..745, 2 registry identity corrections, 2
+  OQs resolved (OQ14, OQ15), 1 new OQ (OQ18). Evidence phase COMPLETE —
+  master-index/MOQ prep is the next session's work.**
