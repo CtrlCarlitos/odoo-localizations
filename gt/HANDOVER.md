@@ -8,12 +8,13 @@ session: plan approved, FEL stack read, evidence committed); updated
 2026-08-19 again (W-GT4 evidence-pass session: fiscal reporting read,
 form-identity corrections, evidence committed); updated 2026-08-19 once
 more (W-GT5 evidence-pass session: COA + commercial-legal read, OQ14
-resolved, evidence committed); updated 2026-08-19 finally (W-GT6
-evidence-pass session: special regimes read, OQ15 resolved + registry
+resolved, evidence committed); updated 2026-08-19 once
+more (W-GT6 evidence-pass session: special regimes read, OQ15 resolved + registry
 identity correction, ALL SIX EVIDENCE WAVES COMPLETE); updated 2026-08-19
 once more (synthesis-prep session: **00_MASTER_INDEX.md built + committed**
 — 40 clusters / 81 R rows / 140 GOQs; 3 index-level corrections incl. 2 to
-THIS file §5e/§5f). Read this fully
+THIS file §5e/§5f); updated 2026-08-20 (**S-GT1 e-invoicing synthesis
+COMPLETE — see §5h + §10 S-GT1 addenda**). Read this fully
 before acting; it is the authoritative cross-session memory.
 **Update it at every session boundary.**
 
@@ -23,13 +24,18 @@ Session bootstrap command: `Read gt/HANDOVER.md and continue.`
 
 GT requirements-extraction for the Odoo localization, per
 `shared/docs/requirements-extraction-procedure.md` (method spine) and the SV
-corpus as precedent. Currently in **Stage 3/4 (synthesis)**: EXTRACTION_PLAN
-approved 2026-08-19; ALL SIX EVIDENCE WAVES COMPLETE (W-GT1 FEL stack +
-W-GT2 taxation + W-GT3 payroll + W-GT4 fiscal reporting + W-GT5 COA +
-commercial-legal + W-GT6 special regimes; 26 evidence files, EVID-001..745);
-**synthesis prep DONE — `gt/.extractions/00_MASTER_INDEX.md` is committed and
-is THE synthesis gate** (topic clusters, R-ledger, GOQ register, authority
-orders). **Next: S-GT1 (e-invoicing) plan doc → subagent synthesis wave.**
+corpus as precedent. Currently in **Stage 4 (synthesis): S-GT1 (e-invoicing) COMPLETE
+2026-08-20** — 8 requirements files + 00_index + COVERAGE committed
+(GT-EINV-FR-001..243 + GT-CAT-FR-001..015; 139 LBs / 99 ACs; GOQ-15..52 +
+GOQ-02/03/07/13/14 all consumed with master-index write-back). ALL SIX
+EVIDENCE WAVES COMPLETE (W-GT1 FEL stack + W-GT2 taxation + W-GT3 payroll
++ W-GT4 fiscal reporting + W-GT5 COA + commercial-legal + W-GT6 special
+regimes; 26 evidence files, EVID-001..745); **synthesis prep DONE —
+`gt/.extractions/00_MASTER_INDEX.md` is committed and is THE synthesis
+gate** (topic clusters, R-ledger, GOQ register, authority orders).
+**Next: S-GT2 (taxation) plan doc → synthesis wave** (must consume R20/R55
++ GOQ-01/GOQ-06 per master index; carry R46 form identities into every
+ISR-form-naming synthesis).
 Product architecture context: root `HANDOVER.md` §1 (SaaS thin-client + Odoo;
 Takumi consumes requirements).
 
@@ -213,6 +219,47 @@ places — W-GT6)**. Reform chains are recorded in SOURCE_RESEARCH.md.
   Neither prints a third-party-weight formula.
 
 
+
+## 5h. S-GT1 facts a synthesis/QA session MUST know (2026-08-20)
+
+- **Deliverables (all committed, branch gt-research)**:
+  `gt/requirements/e-invoicing/00_index.md` + 7 topic files
+  (01_document-types E1 FR-001..041 · 02_dte-schema E2 FR-042..070 ·
+  03_validation-rules E3 FR-071..139 · 04_mandate-onboarding E4
+  FR-140..170 · 05_certificador-interface E5+E7 FR-171..203 ·
+  06_anulacion-contingencia E6 FR-204..227 · 07_display-representation E8
+  FR-228..243) + `gt/requirements/catalogs/01_governance.md`
+  (GT-CAT-FR-001..015) with CSV sidecars
+  (CAT-FRS 88 / CAT-UGR 43 / CAT-MSG 211 rows, GH-authority) + `_DRIFT.md`
+  + `_INDEX.md` + generator `gt/scripts/build_gt_catalogs.py`
+  (idempotent). `gt/requirements/COVERAGE.md`: 82 registry rows = 26 cited
+  / 56 not-applicable (pending S-GT2..7) / 0 pending-unowned. **24_ is
+  cited beyond the expected set** (04 LB-018 = AG 222-2019 layer only) —
+  flagged per-row; remainder of 24_ → S-GT2.
+- **Wave totals: 243 GT-EINV FRs + 15 GT-CAT FRs; 139 LBs; 99 ACs; 45 OQ
+  rows consuming GOQ-15..52 + GOQ-02/03/07/13 (+GOQ-14 kin)**. Master-index
+  write-back done (43 rows carry "[S-GT1: cited in …]"; synthesis-order
+  line updated). Plan doc:
+  `docs/superpowers/plans/2026-08-19-s-gt1-synthesis.md`.
+- **Evidence corrections made DURING synthesis (trust-evidence rule held
+  twice against controller briefs)**: legacy FACE referencia-origen = **19
+  codes (incl. "9" per EVID-141)**, not the plan's 18; complement
+  inventory = **18+3** (11 shared + 7 GH-only + Endoso×3 per EVID-030),
+  not "~15"; NC/ND cross-certificador liberation = Reglas **3.5.1.6**
+  (evidence), not 3.7.1.6 (controller-prompt drift); GOQ-27/33 brief
+  descriptions were swapped — register followed.
+- **D1 architecture tension (OPEN — surface to product owner)**: GT
+  contingencia legally REQUIRES local offline XML generation (Reglas v2.0
+  §4.1; FR-220 flags it) vs S0.5 D1 "no local-fallback generation"
+  posture (SV-shaped). Needs an explicit architecture ruling before
+  implementation waves.
+- **Standing citations discipline shipped in-file**: Reglas = "v2.0
+  (19/12/2024, vigencia abril 2025)"; rates as dated rows valid_from
+  2024-12-19 (GOQ-50); establishment = CodigoEstablecimiento-only (D-GT9
+  instantiated in 05 §establishment — the section pre-flagged for product
+  owner); NIT check-digit NOT implementable in-corpus (GOQ-49 — no mod-11
+  guesses); contingencia footer URL = verificador-integrado (the 2018
+  efactura URL is banned-context only).
 
 ## 5. GT facts a new session must know
 
@@ -591,13 +638,12 @@ synthesized with these as flagged open questions and back-filled later.
 ## 9. Next actions (ordered)
 
 1. ~~EXTRACTION_PLAN~~ approved + ~~W-GT1..W-GT6~~ ALL COMPLETE 2026-08-19
-   + ~~SYNTHESIS PREP~~ **COMPLETE 2026-08-19** (master index committed —
-   §5g). **NEXT = S-GT1 (e-invoicing) synthesis wave**: write the S-GT1
-   plan doc (SV S1 pattern: tasks/global constraints from clusters E1-E8 +
-   GOQ-15..52), then subagent loop with the master index as the citation
-   spine; S-GT2 (taxation) next (must consume R20/R55 + GOQ-01/GOQ-06);
-   D-GT9's dispositivo refinement + D17 journal model are pre-flagged for
-   S-GT1.
+   + ~~SYNTHESIS PREP~~ COMPLETE 2026-08-19 (master index committed —
+   §5g). ~~S-GT1 (e-invoicing) synthesis~~ **COMPLETE 2026-08-20** (§5h).
+   **NEXT = S-GT2 (taxation) synthesis wave**: write the S-GT2 plan doc
+   (S-GT1 pattern: tasks/global constraints from clusters TX1-TX7 +
+   GOQ-53..69 + GOQ-01/06 cross-cutting; must consume R20/R55/R46), then
+   subagent loop; S-GT3 payroll next (GOQ-70..91 + GOQ-04/09/10/11).
 2. Opportunistic gap closure (folds into any synthesis): queue rev-7 items
    (see DOWNLOAD_QUEUE; **D-19-2016 = top-ranked acquisition — blocks
    special-regimes synthesis quality**, GOQ-08); instructivos cat 15812;
@@ -708,3 +754,20 @@ convergence session; updated again at W-GT1 close)
   verify against the evidence file and trust the evidence — session-summary
   notes are secondary.** Index-level resolution R20 closes the Q150,000
   attribution confusion (D-4-2012, never LAT). DOWNLOAD_QUEUE → rev 7.
+- **S-GT1 session addenda (2026-08-20, synthesis wave 1 — e-invoicing)**:
+  plan doc `docs/superpowers/plans/2026-08-19-s-gt1-synthesis.md` (9
+  tasks, SV S1 pattern, committed pre-wave); executed subagent-driven
+  (8 implementer dispatches + 8 task reviews + mechanical T9 body), ALL
+  reviews Approved first-pass (zero fix rounds). Controller spot-verified
+  3-5 quotes per file by grep — all passed. **Failure mode repeated:
+  empty final returns on 2 of 9 dispatches (T1 first try wrote NOTHING;
+  T2 died post-write pre-commit) — always `ls` + `git log` before
+  re-dispatching; the T2 finisher pattern (verify existing artifact →
+  commit → report) worked well.** Trust-evidence rule caught THREE
+  controller-brief errors (19-code legacy list; 18+3 complements; 3.5.1.6
+  vs 3.7.1.6; plus GOQ-27/33 swap) — briefs now cite the register
+  directly. Wave totals in §5h; master-index GOQ write-back committed
+  (43 annotations + synthesis-order status). Two path typos fixed in
+  06-file (19_/20_ .pdf.txt → .pdf). COVERAGE 26 cited / 56 N-A / 0
+  pending. **Open architecture item: D1-vs-contingencia tension (§5h) —
+  surface at next owner touchpoint.** Next session: S-GT2 plan doc.

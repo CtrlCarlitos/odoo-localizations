@@ -444,3 +444,13 @@ commit. Never leave a session with evidence unmerged. Update
   9+ articles incl. derogating 23/24/26; maquila transitional arts.
   absent); AG 3-2017 + D-38-04 = tag-only leads. Registry amended
   (70_/71_/81_ rows).
+- 2026-08-20 — **S-GT1 COMPLETE** (e-invoicing + catalogs synthesis).
+  Plan `docs/superpowers/plans/2026-08-19-s-gt1-synthesis.md`; 8 topic
+  files + index + COVERAGE committed (GT-EINV-FR-001..243,
+  GT-CAT-FR-001..015; 139 LBs / 99 ACs / 45 OQ rows consuming
+  GOQ-15..52 + 02/03/07/13/14). Catalog sidecars generated from 29_/30_
+  (GH authority; _DRIFT.md records channel diffs verbatim; generator
+  gt/scripts/build_gt_catalogs.py idempotent). Master-index GOQ write-back
+  done. Evidence corrections: 19-code legacy FACE list; 18+3 complements;
+  Reglas 3.5.1.6. D1-contingencia architecture tension flagged (FR-220).
+  Next: S-GT2 taxation plan.
