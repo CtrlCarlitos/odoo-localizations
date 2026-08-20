@@ -751,6 +751,12 @@ D-GT10 / HN D-H2/D-H3 stay in their country docs.
   (dir + research spec in `docs/superpowers/specs/` + own HANDOVER +
   worktree) — SV predates the recipe (pilot on main; `sv-research`
   worktree since 2026-08-19), not an exclusion from the shared base.
+  **New-country bootstrap prompt (owner magic words):**
+  `Bootstrap <Country> (<cc>): start the Odoo localization per the GT/HN
+  pattern.` → controller runs the brainstorming/design session for the
+  research spec, scaffolds the country dir, writes its HANDOVER, creates
+  branch `<cc>-research` + worktree `.worktrees/<cc>-research`; from then
+  on the standard loop applies (`Read <cc>/HANDOVER.md and continue.`).
 
 **State at merge (updated 2026-08-19 W-GT3 close, branch-side):** GT =
 source research COMPLETE (82 entries + 2 schema dirs; decisions D-GT1..10)
