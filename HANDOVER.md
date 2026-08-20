@@ -148,7 +148,26 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
       (`docs/superpowers/plans/2026-08-19-s8-chart-of-accounts-synthesis.md`,
       9 tasks, prefix SV-COA) — next SV session bootstraps
       `Read sv/HANDOVER.md and continue.` and runs the subagent wave in
-      `.worktrees/sv`; see `sv/HANDOVER.md` §1/§8.
+      `.worktrees/sv`; see `sv/HANDOVER.md` §1/§8. **HN S-HN1+S-HN2 merge
+      2026-08-20 (§4.6 protocol, ninth run):** `hn-research` rebased onto
+      `ca83157` (1 commit rewritten: `ea8bc40`→`6d1cfc3` S-HN1 taxation +
+      S-HN2 e-invoicing synthesis; one hn/HANDOVER conflict resolved vs
+      main's synthesis-prep merge record `07a4069`) then
+      fast-forward-merged; remote branch ref updated via delete + re-push.
+      **HN FIRST TWO SYNTHESIS WAVES COMPLETE** (`hn/requirements/taxation/`
+      7 files + index, HN-TAX-FR-001..281 = 248 FRs/109 LBs/135 ACs/54 OQs
+      + `isr_brackets.csv` FY2022-2026 vintages; `hn/requirements/
+      e-invoicing/` 4 files + index, HN-EINV-FR-001..175 = 155 FRs/68 LBs/
+      67 ACs/26 OQs + `document_types.csv`; D-H1/D-H2/D-H3 encoded — D-H2.2
+      hard CAI-vigencia emission gate; SEE/CAEE config-gapped on lead 1;
+      controller-verified 11/11 + 5/5 verbatim spot-checks). Synthesis
+      rulings: 10-SMM caps excess-only; FY2026 promedio cap L149,172
+      (R-H47); DAR→DJIMR (R-H31); bad-debt cap 10%-of-AR; L30k@60 tier →
+      D. 199-2006 (activation-blocked). **Proposed R-H66 territoriality
+      ruling (worldwide pre-2017 / territorial 2017+) encoded reversibly —
+      OPEN for owner confirmation.** New top LEAD: Reglamento Ley ISR
+      ("Acuerdo N°799"). Next per `hn/HANDOVER.md`: S-HN3 fiscal-reporting
+      → S-HN4 payroll → validation wave (COVERAGE + adversarial review).
 
 ### El Salvador — sources & evidence state
 - **EVID corpus 001..303** (gaps 109-127, 240 reserved-unused; W14 NIIF files
