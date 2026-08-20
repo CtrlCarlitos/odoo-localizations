@@ -136,10 +136,24 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
       gt/HANDOVER §5e); **R81** maquila art. 12 bis ADDED by D-19-2016
       art. 7 (corrects §5f "born D-38-04"). DOWNLOAD_QUEUE rev 7. **Next:
       S-GT1 e-invoicing synthesis plan → subagent wave** (master index =
-      the gate, closed); see `gt/HANDOVER.md` §5g.
+      the gate, closed); see `gt/HANDOVER.md` §5g. **SV W14/S8-prep merge
+      2026-08-19 (§4.6 protocol, eighth run):** `sv-research` rebased onto
+      `8282ae6` (3 commits rewritten: `290364c` W14 NIIF evidence +
+      S8-prep, `673c981` S8 plan, `f3dae2f` session close; zero conflicts)
+      then fast-forward-merged; remote branch ref updated via delete +
+      re-push. **SV W14 COMPLETE** (32_ NIIF-PYMES 3rd ed. + 33_ EY guide
+      read end-to-end, EVID-275..303; master-index clusters N1-N8 + R29
+      authority rulings + SOQ-46..53; the SV adopting-instrument gap =
+      SOQ-46 gates S8 eligibility config). **S8 synthesis plan READY**
+      (`docs/superpowers/plans/2026-08-19-s8-chart-of-accounts-synthesis.md`,
+      9 tasks, prefix SV-COA) — next SV session bootstraps
+      `Read sv/HANDOVER.md and continue.` and runs the subagent wave in
+      `.worktrees/sv`; see `sv/HANDOVER.md` §1/§8.
 
 ### El Salvador — sources & evidence state
-- **EVID corpus 001..274** (gaps 109-127, 240 reserved-unused). W13 files (2026-08-19):
+- **EVID corpus 001..303** (gaps 109-127, 240 reserved-unused; W14 NIIF files
+  EVID-275..303 appended 2026-08-19 — country detail now lives in
+  `sv/HANDOVER.md`). W13 files (2026-08-19):
   `12_Ley_Zonas_Francas` (EVID-251..258), `14_17b_Servicios_Internacionales`
   (EVID-259..267), `13_42_43_74_Aduanas` (EVID-268..273),
   `31_Guia_FOVIAL_COTRANS` (EVID-274). W12 file:
