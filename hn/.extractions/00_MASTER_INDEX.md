@@ -1174,10 +1174,17 @@ files (EVxx:file OQ-n).
      direct-cite exception: F9 IPC chain 98_/99_/100_ — no evidence pass,
      page-1-verified at synthesis, values re-verified vs raw txt; S-HN1
      rates consumed by id throughout).
-  4. **S-HN4 payroll** (P1-P12) → `hn/requirements/payroll/` — needs S-HN1
-     (retention/plantilla interfaces); aguinaldo FRs stay config-gapped until
-     D. 135-94 lands. NEXT.
-  5. **S-HN5 thin closes** — chart-of-accounts/commercial-legal: decide whether a
-     wave is warranted at milestone (Código de Comercio still unacquired).
+   4. **S-HN4 payroll** (P1-P12) → `hn/requirements/payroll/` — DONE
+      2026-08-20 (313 FRs / 146 LBs / 163 ACs / 73 OQs, 10 files +
+      `smm_tables.csv` sidecar with the print_status discipline,
+      controller-verified 10/10 + verbatim bank-check with 5 one-word LB
+      fixes; P1 owns the promedio rows consumed by taxation/04 FR-134;
+      aguinaldo P2 sub-cluster config-gapped — the wave's only yes-blocking
+      OQ, on D. 135-94 + Acuerdo 201-96).
+   5. **S-HN5 thin closes** — chart-of-accounts/commercial-legal: decide whether a
+      wave is warranted at milestone (Código de Comercio still unacquired).
+      NEXT: the validation wave (COVERAGE.md + adversarial review,
+      per-template Stage 5) is unblocked by S-HN4 and runs before/alongside
+      S-HN5.
 - **Acquisition waves interleave** (queue = HANDOVER §6.2); synthesis proceeds
   with config flags/OQs open — never blocked on LEADs except SEE sub-cluster.

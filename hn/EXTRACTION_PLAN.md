@@ -5,14 +5,55 @@ Started 2026-08-19 (source-research pass complete). Status: active — **evidenc
 waves W1 (taxation core) + W2 (fiscal reporting) + W3 (facturación/e-invoicing) +
 W4 (payroll) COMPLETE 2026-08-20 (EVID-001..333); synthesis prep DONE 2026-08-19
 (`hn/.extractions/00_MASTER_INDEX.md`); S-HN1 taxation + S-HN2 e-invoicing +
-S-HN3 fiscal-reporting synthesis DRAFT-COMPLETE 2026-08-20
+S-HN3 fiscal-reporting + **S-HN4 payroll** synthesis DRAFT-COMPLETE 2026-08-20
 (`hn/requirements/taxation/` 7 files + `hn/requirements/e-invoicing/` 4 files +
-`hn/requirements/fiscal-reporting/` 11 files + 3 CSV sidecars,
-subagent-dispatched with pre-allocated FR ranges, controller-verified); next =
-S-HN4 payroll (needs S-HN1 retention interfaces ✓ + file 02's 111 columns ✓);
-S-HN5 thin closes decided at milestone**.
+`hn/requirements/fiscal-reporting/` 11 files + 3 CSV sidecars +
+`hn/requirements/payroll/` 10 files + `smm_tables.csv`,
+subagent-dispatched with pre-allocated FR ranges, controller-verified);
+next = validation wave (COVERAGE.md + adversarial review, per-template
+Stage 5 — unblocked by S-HN4); S-HN5 thin closes decided at milestone**.
 
 ## Wave log
+
+- **S-HN4 (2026-08-20, DRAFT COMPLETE):** payroll (P1-P12) synthesis, 10
+  subagent dispatches with pre-allocated FR ranges (zero empty-return
+  failures this wave; all verified by disk state). Deliverables:
+  `hn/requirements/payroll/00_index.md` + `01_smm-chassis.md` (P1,
+  FR-001..040 + `smm_tables.csv` 199 rows: general/maquila/zonas-libres/
+  promedio tracks × bienio vintages, print_status discipline — never a
+  derived amount in an amount cell; P1 OWNS the promedio rows feeding
+  taxation/04 FR-134, R-H47) + `02_13th-14th-bono.md` (P2+P3+P4, 051..086:
+  aguinaldo config-gapped placeholders — the wave's ONLY yes-blocking OQ;
+  14th month 30-jun gate/averages/proration; bono educativo non-salary) +
+  `03_ihss-cotizaciones.md` (P5, 101..135: matrix R-H49, two ceilings
+  R-H50, min-base R-H51, base-composition config flag) +
+  `04_ihss-incapacidad.md` (P6, 141..170: no-cuarentena R-H52, episode key
+  R-H54, refrendo matrix) + `05_rap-fondo.md` (P7, 181..215: stacked loads
+  R-H56, offset matrix R-H55, D.40-2026 window) + `06_jornada-surcharges.md`
+  (P8, 221..247) + `07_vacaciones.md` (P9, 261..280) +
+  `08_cesantia-preaviso.md` (P10, 291..325) +
+  `09_suspension-maternity-special.md` (P11, 331..357) +
+  `10_salario-concepts-records.md` (P12, 371..398, 85_ guard EVID-333) =
+  313 FRs / 146 LBs / 163 ACs / 73 OQs. Controller verification: 10/10
+  template-conformant, FR ranges contiguous within allocations, zero
+  cross-file duplicate ids, every FR LB+EVID-cited, zero dangling EVID
+  anchors, all source paths resolve; verbatim spot-checks = strict
+  quote-pair bank comparison (372 Spanish spans PASS): 5 one-word LB
+  defects found + fixed post-dispatch (correspondientes / se refieren /
+  establecer / recibe / crédritos [sic]); residual checker flags
+  adjudicated as artifacts (English spans, OCR-bracket resolutions, «»
+  nesting, table reformat, mid-quote ellipses).   Rulings applied:
+  R-H43..R-H48, R-H49..R-H54, R-H55/R-H56/R-H58, R-H57/R-H59..R-H61,
+  R-H62..R-H65, R-H44. Evidence-over-brief corrections kept: feriado collision = two-holidays-
+  one-day (holidays paid on Sunday); Art. 349 ¶2 proportional leg =
+  employer-imputable-cause only; cesantía fraction rule = Art. 120 lit. c;
+  Art. 104 rule-4 no half-salary qualifier (verbatim + OQ); Art. 21-A
+  proportionality sentence ends mid-print. Config-gapped (never-guess):
+  aguinaldo mechanics (P2), IHSS base composition (LI Art. 100 →
+  Reglamento General), riesgos rate, fondo techo level-set, embargo
+  nominals, 2022/2024 SMM amounts, 2027 cells, promedio vintages ≠ 2026,
+  Jan-May 2023 maquila, final-pay deadline, pre-2024 IHSS interregnum.
+  Files carry Status draft → in-review at index level.
 
 - **S-HN3 (2026-08-20, DRAFT COMPLETE):** fiscal-reporting (F1-F11) synthesis,
   11 subagent dispatches with pre-allocated FR ranges (4 retries — empty-return

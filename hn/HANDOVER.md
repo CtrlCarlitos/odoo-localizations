@@ -3,8 +3,9 @@
 **For the next HN controller session.** Written 2026-08-20 after W1 (taxation
 core), updated through round-4/D-H2/D-H3 + the merge, W2 fiscal-reporting, W3
 facturación, W4 payroll, synthesis prep (master index + OQ registers), and
-**S-HN1 + S-HN2 + S-HN3 synthesis waves (this refresh — taxation +
-e-invoicing + fiscal-reporting requirements drafted, controller-verified)**.
+**S-HN1 + S-HN2 + S-HN3 + S-HN4 synthesis waves (this refresh — taxation +
+e-invoicing + fiscal-reporting + payroll requirements drafted,
+controller-verified; next = validation wave)**.
 Read this fully before acting; it is the authoritative HN cross-session
 memory (conversation context does not survive). Update it at every session
 boundary.
@@ -40,20 +41,23 @@ boundary.
 
 1. THIS file
 2. `hn/EXTRACTION_PLAN.md` — wave log (W1a-W1f taxation + W2a/W2b fiscal
-   reporting + W3 facturación + W4 payroll + synthesis prep + **S-HN1/S-HN2
-   synthesis DRAFT-COMPLETE**), reading order, risks, **Decisions (D-H1/
-   D-H2/D-H3 binding; D-H2/D-H3 = D16/D18 instantiations)**
+   reporting + W3 facturación + W4 payroll + synthesis prep + **S-HN1/S-HN2/
+   S-HN3/S-HN4 synthesis DRAFT-COMPLETE**), reading order, risks,
+   **Decisions (D-H1/D-H2/D-H3 binding; D-H2/D-H3 = D16/D18
+   instantiations)**
 3. **`hn/.extractions/00_MASTER_INDEX.md` — THE synthesis lookup (built
    2026-08-19): authority orders per topic, 18 EV file keys, 43 clusters
    (T1-T12/F1-F11/E1-E8/P1-P12) with Governing EVIDs/LB/crossrefs, R-H1..65
    resolved-contradictions ledger, OQ registers C1-C4 (~227 open), S-wave
    plan. READ BEFORE ANY SYNTHESIS WORK.**
 4. **`hn/requirements/taxation/00_index.md` + `hn/requirements/e-invoicing/
-    00_index.md` + `hn/requirements/fiscal-reporting/00_index.md` —
-    S-HN1/S-HN2/S-HN3 deliverable indexes (248 + 155 + 362 FRs, wave
-    rulings; R-H66 adopted 2026-08-20). READ BEFORE S-HN4 (it consumes
-    these files' FR ids — esp. taxation/04 plantilla + fiscal-reporting/02
-    código-111 columns).**
+    00_index.md` + `hn/requirements/fiscal-reporting/00_index.md` +
+    `hn/requirements/payroll/00_index.md` — S-HN1/S-HN2/S-HN3/S-HN4
+    deliverable indexes (248 + 155 + 362 + 313 FRs, wave rulings; R-H66
+    adopted 2026-08-20). READ BEFORE THE VALIDATION WAVE (COVERAGE.md
+    consumes all four; payroll cites taxation/04 plantilla +
+    fiscal-reporting/02 código-111 interfaces and owns the SMM-promedio
+    rows).**
 5. `hn/RESEARCH.md` — research dossier: sites, fetch recipes (§6), hint
    layer w/ corpus verification (§7), open leads (§5, incl. W2+W3+W4
    harvests)
@@ -226,6 +230,24 @@ RESEARCH §5). Structure:
   identity). New top acquisition LEAD from synthesis: Reglamento Ley ISR
   ("Acuerdo N°799", 5× cited corpus-wide). SEE sub-cluster = config-gapped
   placeholders (e-invoicing/04 FR-166..169), rest of E-wave evidence-complete.
+- **S-HN4 payroll synthesis (2026-08-20, do not re-derive):** 10 files +
+  `smm_tables.csv` (HN-PAYR-FR-001..398, 313 FRs/146 LBs/163 ACs/73 OQs),
+  subagent-dispatched with pre-allocated ranges, controller-verified 10/10
+  structural + strict verbatim bank-check (5 one-word LB defects found+fixed:
+  correspondientes/se refieren/establecer/recibe/crédritos). P1 OWNS the
+  SMM dated rows + DGS promedio rows (R-H47 — the sole feed of taxation/04
+  FR-134; print_status discipline: printed/derived_gap/reconstruction_
+  blocked, never a derived amount in an amount cell; 2026 promedio
+  L14,917.20 + maquila 12,930.07 verified in-CSV). P2 aguinaldo =
+  config-gapped placeholders (the wave's ONLY yes-blocking OQ — D. 135-94 +
+  Acuerdo 201-96 unacquired). IHSS matrix/ceilings/min-base per R-H49/50/51
+  encoded; base composition = config flag (LI Art. 100). RAP stack
+  R-H55/56/58 encoded with three-bases-never-share. CT family encoded with
+  the R-H57 mislabel guard (EVID-333) in file 10. Evidence-over-brief
+  corrections kept: feriado collision = two-holidays-one-day (paid even on
+  Sunday); Art. 349 ¶2 proportional leg = employer-imputable-cause only;
+  cesantía fraction = Art. 120 lit. c; Art. 104 rule-4 no half-salary
+  qualifier; Art. 21-A proportionality sentence ends mid-print.
 
 - **Decisions:** **D-H1** (binding, EXTRACTION_PLAN): one journal per company
   via `l10n_latam_invoice_document`; sequence key = (establecimiento→
@@ -277,18 +299,16 @@ RESEARCH §5). Structure:
 
 ## 6. Next actions (ordered)
 
-1. **S-waves (NEXT: S-HN4 payroll):** S-HN1 + S-HN2 + S-HN3 DRAFT-COMPLETE
-   2026-08-20 (see §4). Next: **S-HN4 payroll (P1-P12) →
-   `hn/requirements/payroll/`** — needs S-HN1 retention interfaces (✓ done)
-   + fiscal-reporting/02 código-111 columns (✓ done); aguinaldo FRs
-   config-gapped until D. 135-94 lands; SMM-promedio rows = P1's to own
-   (taxation/04 + fiscal-reporting consume them; R-H47 never recompute).
-   S-HN5 thin closes (chart-of-accounts/commercial-legal) decided at
-   milestone. Synthesis consumes the master index + the existing
-   requirements indexes — never re-derives evidence; cite `EVxx:EVID-nnn`.
-   Requirements files follow `shared/docs/requirements-template.md`; FR ids
-   cite sibling files' ids. Validation wave (COVERAGE.md + adversarial
-   review) runs when S-HN4 lands (per-template Stage 5).
+1. **Validation wave (NEXT) + S-HN5 decision:** all four synthesis waves
+   (S-HN1 taxation + S-HN2 e-invoicing + S-HN3 fiscal-reporting + **S-HN4
+   payroll — DRAFT-COMPLETE 2026-08-20, see §4**) are drafted and
+   controller-verified. Next: **validation wave = `hn/requirements/
+   COVERAGE.md` (source-to-requirements coverage, all four topics) +
+   adversarial review** per the template's Stage 5 — now unblocked by
+   S-HN4. S-HN5 thin closes (chart-of-accounts/commercial-legal) decided at
+   milestone (Código de Comercio still unacquired). Synthesis waves
+   consumed the master index + sibling indexes — never re-deriving
+   evidence; citations `EVxx:EVID-nnn`; FR ids cite sibling files' ids.
 2. **Acquisition queue (W2+W3+W4+S-wave lead harvests, RESEARCH §5 + master-index
    C-registers + synthesis OQs):** TOP = **D. 135-94 + Acuerdo 201-96
    (aguinaldo/compensación social — the 13th-month statutory home; P2 + S-HN4
@@ -315,13 +335,16 @@ RESEARCH §5). Structure:
      force-push (root HANDOVER country model). Branch head after S-HN1/S-HN2
      commit = the synthesis-wave base; future waves branch from here.
 
-Session state at stop (2026-08-20, S-HN3 close + tenth merge): evidence COMPLETE
+Session state at stop (2026-08-20, S-HN4 close): evidence COMPLETE
 through EVID-333 (~227 open OQs); corpus 103 files; W1-W4 + synthesis prep
-committed/merged; **S-HN1 taxation (248 FRs) + S-HN2 e-invoicing (155 FRs) +
-S-HN3 fiscal-reporting (362 FRs, 11 files + CSV) drafted, controller-verified,
-AND MERGED to main (`00caef9`, tenth §4.6 run; root record `503ab9c`);
-R-H66 territoriality ADOPTED by owner — next = S-HN4 payroll synthesis
-(or acquisition wave in parallel).**
++ S-HN1/S-HN2/S-HN3 committed/merged to main (`00caef9`, tenth §4.6 run;
+R-H66 adopted); **S-HN4 payroll DRAFT-COMPLETE on the branch (10 files +
+`smm_tables.csv`, HN-PAYR-FR-001..398 = 313 FRs/146 LBs/163 ACs/73 OQs,
+controller-verified 10/10 structural + verbatim bank-check with 5 one-word
+LB fixes; wave log + indexes + master-index S-wave plan + this HANDOVER
+refreshed; NOT yet merged) — next = validation wave (COVERAGE.md +
+adversarial review) + owner merge decision + S-HN5 at milestone (or
+acquisition wave in parallel).**
 
 ## 7. Conventions (mirroring SV)
 
@@ -332,14 +355,24 @@ R-H66 territoriality ADOPTED by owner — next = S-HN4 payroll synthesis
   ranges + spot-checks verbatims afterward (done for W4: ranges + 8
   source-level spot-checks incl. all OCR-derived quotes; done for
   S-HN1/S-HN2: 11/11 structural verification + 5/5 verbatim spot-checks —
-  script pattern in session log, keep re-using; done for S-HN3: 11/11
-  structural (adapted script `/tmp/opencode/verify_hn_s3.py` pattern) +
-  5/5 verbatim spot-checks + IPC-chain value re-verification + CSV 25-code
-  match vs EVID-077). NOTE: subagent empty-return anomalies now TWO shapes —
-  (a) empty-return with file-on-disk (W2b/W4, twice), (b) empty-return with
-  file ABSENT (S-HN3: 4 of 11 dispatches failed to deliver; simple re-
-  dispatch succeeded all 4). ALWAYS verify disk state, never trust the
-  return alone; re-dispatch is the fix for shape (b).
+   script pattern in session log, keep re-using; done for S-HN3: 11/11
+   structural (adapted script `/tmp/opencode/verify_hn_s3.py` pattern) +
+   5/5 verbatim spot-checks + IPC-chain value re-verification + CSV 25-code
+   match vs EVID-077; done for S-HN4: 10/10 structural
+   (`/tmp/opencode/hn/s4/verify_hn_s4.py`, same pattern) + STRICT FULL
+   verbatim bank-check — every quote-pair-bounded Spanish span ≥40 chars in
+   every file vs the evidence bank, split on ellipses, guillemet-edge
+   stripping: 372 spans PASS, 5 real one-word LB defects found+fixed, ~45
+   residual checker flags adjudicated as artifacts (English spans, OCR-
+   bracket resolutions, «» nesting, table reformat). The strict bank-check
+   (`/tmp/opencode/hn/s4/spotcheck5.py` pattern) SUPERSEDES 5-sample
+   spot-checks for future waves. NOTE: subagent empty-return anomalies now
+   TWO shapes —
+   (a) empty-return with file-on-disk (W2b/W4, twice), (b) empty-return with
+   file ABSENT (S-HN3: 4 of 11 dispatches failed to deliver; simple re-
+   dispatch succeeded all 4). S-HN4: 10/10 dispatches delivered (zero
+   anomalies). ALWAYS verify disk state, never trust the
+   return alone; re-dispatch is the fix for shape (b).
 - `.gitignore`: `hn/.extractions/*` ignored EXCEPT `*.evidence.md` +
   `00_MASTER_INDEX.md` (**created 2026-08-19 — committed; update it at every
   wave/milestone that adds EVIDs, rulings, or resolves OQs**).
