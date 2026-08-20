@@ -29,7 +29,7 @@ boundary.**
   (special-regimes, 2026-08-19) + **S8 (chart-of-accounts, 2026-08-20 —
   MERGED to main at aec9e5d via rebase-then-merge; 8 files + index,
   276 FRs; final whole-wave review clean after one fix wave; pre-rebase
-  SHAs d25ecd7..0eabbca are superseded by 8e9ba0f..0ca6d29+)**.
+  SHAs d25ecd7..0eabbca are superseded by eea1e5a..0ca6d29+)**.
   W14 (2026-08-19): NIIF evidence pass — EVID-275..303, clusters N1-N8 +
   R29 + SOQ-46..53 in the master index. **NEXT WAVE: IVA-core taxation
   (01_/02_ full synthesis — folds S3's R/S + IVA-retention cross-refs,
