@@ -378,6 +378,31 @@ commit. Never leave a session with evidence unmerged. Update
   POs). Lineage: D-51-2001 (effective 15-nov-2001) → D-67-2001 art. 47
   derogation after ~32 days (arts. 1-31 survive verbatim). Registry
   amended (66_/75_/76_/77_ rows).
+- 2026-08-19 — **SYNTHESIS PREP COMPLETE — MASTER INDEX BUILT**.
+  `gt/.extractions/00_MASTER_INDEX.md` COMMITTED (SV pattern; gitignore
+  exception pre-existed): 40 topic clusters (E1-E8 e-invoicing / TX1-TX7
+  taxation / P1-P7 payroll / F1-F6 fiscal-reporting / C1-C6 COA+commercial /
+  SR1-SR6 special-regimes), 81-row resolved-contradictions ledger, 140-GOQ
+  register rolled from ALL 250 per-file OQs (struck audit list carries the
+  resolved-in-file/cross-wave ~50), binding authority orders per topic +
+  26-file key table, coverage totals with the OQ1-OQ18 mapping. Built
+  subagent-driven: 6 rollup agents (one per wave, full evidence-file reads;
+  W-GT1 and W-GT5 returned EMPTY messages on first dispatch — files confirmed
+  absent before re-dispatch; both retries clean), controller verified 8
+  load-bearing quotes by grep — all passed verbatim (48_ form identities,
+  EVID-175 Q150k, 74_ "artículo 8 'A'", 77_ art. 128 → 17-sep-2026, 81_ ZF
+  header, EVID-143 anulación window, EVID-474 LET hunting map, 63_ NIT/ID
+  rule). **Three index-level resolutions/corrections:** **R20** Q150,000
+  attribution = D-4-2012 arts. 12/13/18 reforming LIVA arts. 45/46 (55_ fn.1
+  and W-GT2 EVID-175 agree; the "LAT attribution" was the research-era error —
+  closes EV04c OQ-3); **R45** CCom vigencia = **1971-01-01** as modified by
+  D-43-70 (the 01-07-1970 string is the reform tag date, NOT the vigencia —
+  corrects gt/HANDOVER §5e); **R81** maquila art. 12 bis was **ADDED by
+  D-19-2016 art. 7** (tag verbatim; D-38-04 touched arts. 1/3/3bis/12/13/14 —
+  corrects gt/HANDOVER §5f "born D-38-04"). DOWNLOAD_QUEUE bumped to rev 7
+  (acquisition priorities re-ranked from the GOQ register). **NEXT: S-GT1
+  (e-invoicing) plan doc → subagent synthesis wave** (evidence-complete; the
+  master index is the gate and it is closed).
 - 2026-08-19 — **W-GT6 COMPLETE** (special regimes, unit 27 — THE LAST
   EVIDENCE WAVE). Stage 1: 6 digital PDFs + 2 OCR (71_/81_). Stage 2: 2
   reader agents (ZF chain / maquila chain), controller spot-verified 12+

@@ -10,7 +10,10 @@ form-identity corrections, evidence committed); updated 2026-08-19 once
 more (W-GT5 evidence-pass session: COA + commercial-legal read, OQ14
 resolved, evidence committed); updated 2026-08-19 finally (W-GT6
 evidence-pass session: special regimes read, OQ15 resolved + registry
-identity correction, ALL SIX EVIDENCE WAVES COMPLETE). Read this fully
+identity correction, ALL SIX EVIDENCE WAVES COMPLETE); updated 2026-08-19
+once more (synthesis-prep session: **00_MASTER_INDEX.md built + committed**
+— 40 clusters / 81 R rows / 140 GOQs; 3 index-level corrections incl. 2 to
+THIS file §5e/§5f). Read this fully
 before acting; it is the authoritative cross-session memory.
 **Update it at every session boundary.**
 
@@ -20,12 +23,13 @@ Session bootstrap command: `Read gt/HANDOVER.md and continue.`
 
 GT requirements-extraction for the Odoo localization, per
 `shared/docs/requirements-extraction-procedure.md` (method spine) and the SV
-corpus as precedent. Currently in **Stage 1/2 (evidence waves)**:
-EXTRACTION_PLAN approved 2026-08-19; **ALL SIX EVIDENCE WAVES COMPLETE —
-W-GT1 (FEL stack) + W-GT2 (taxation core) + W-GT3 (payroll) + W-GT4
-(fiscal reporting) + W-GT5 (COA + commercial-legal) + W-GT6 (special
-regimes)** — 26 evidence files committed (EVID-001..745). **Next phase:
-synthesis (S-GT1…) after master-index/MOQ prep.**
+corpus as precedent. Currently in **Stage 3/4 (synthesis)**: EXTRACTION_PLAN
+approved 2026-08-19; ALL SIX EVIDENCE WAVES COMPLETE (W-GT1 FEL stack +
+W-GT2 taxation + W-GT3 payroll + W-GT4 fiscal reporting + W-GT5 COA +
+commercial-legal + W-GT6 special regimes; 26 evidence files, EVID-001..745);
+**synthesis prep DONE — `gt/.extractions/00_MASTER_INDEX.md` is committed and
+is THE synthesis gate** (topic clusters, R-ledger, GOQ register, authority
+orders). **Next: S-GT1 (e-invoicing) plan doc → subagent synthesis wave.**
 Product architecture context: root `HANDOVER.md` §1 (SaaS thin-client + Odoo;
 Takumi consumes requirements).
 
@@ -264,7 +268,9 @@ places — W-GT6)**. Reform chains are recorded in SOURCE_RESEARCH.md.
   SAT/CT vocabulary; CCom says RM "autorización" (art. 372) — parallel
   tracks, both needed per book, never merged.**
 - **66_ print facts**: given 28-ene-1970, promulgated 9-abr-1970, vigencia
-  1-jul-1970 (D-43-70 modification of the 1-ene-1971 clause); **last
+  **1-ene-1971** (art. XI as modified by D-43-70 — **corrected at
+  master-index merge, R45: the 01-07-1970 string is the reform TAG date, not
+  the vigencia**); **last
   inline reform = D-11-2006 (DCA 30-05-2006) — consolidation horizon**;
   pp.215-301 = old D-2946 maritime Libro III appendix, still vigente;
   INFILE/TESORERIA stamp, no print date.
@@ -349,7 +355,9 @@ places — W-GT6)**. Reform chains are recorded in SOURCE_RESEARCH.md.
   exoneration, local inputs/services outside IVA. **Old art. 15 (maquila
   ISR holiday) printed only as "Derogado" — text unrecoverable
   in-corpus** (pre-2016 beneficiaries unmodelable without it / D-19-2016).
-  art. 12 bis born **D-38-04 (2005)**, reformed D-19-2016. Intemporal:
+  art. 12 bis **ADDED by D-19-2016 art. 7 (corrected at master-index merge,
+  R81 — the earlier "born D-38-04" was wrong; D-38-04 touched arts.
+  1/3/3bis/12/13/14)**. Intemporal:
   no sunset; 10-year clock **per-beneficiary from calificación
   notification**; conditions: cost accounting + perpetual inventories;
   foreign-branch carve-out where home country credits GT ISR.
@@ -367,10 +375,35 @@ places — W-GT6)**. Reform chains are recorded in SOURCE_RESEARCH.md.
   (67_ tags: touching 9+ law articles incl. derogating 23/24/26; maquila
   transitional articles absent; whether it changed ISR windows for
   post-2016 ZF users is unresolvable in-corpus). Tag-only leads:
-  **AG 3-2017** (maquila reglamento reformer), **D-38-04** (art. 12 bis
-  creator), **DL 21-84** (predecessor). Cross-chain: D-65-89 refs at
-  maquila law arts. 4 bis/36 bis + reglamento arts. 9 j)/42 bis
-  (CAUCA-documented, IVA-exempt inter-regime flows).
+  **AG 3-2017** (maquila reglamento reformer), **D-38-04** (2005 maquila
+  reformer — NOT the 12 bis creator; see R81), **DL 21-84** (predecessor).
+  Cross-chain: D-65-89 refs at maquila law arts. 4 bis/36 bis + reglamento
+  arts. 9 j)/42 bis (CAUCA-documented, IVA-exempt inter-regime flows).
+
+## 5g. Master-index session facts (2026-08-19 — READ BEFORE ANY SYNTHESIS)
+
+- **`gt/.extractions/00_MASTER_INDEX.md` is committed and is THE synthesis
+  gate**: 40 topic clusters (E1-E8 / TX1-TX7 / P1-P7 / F1-F6 / C1-C6 /
+  SR1-SR6), 81-row R-ledger, **140-GOQ register** (the sole open-questions
+  authority — the ~195 per-file OQs live rolled there + struck audit list;
+  headline OQ1-OQ18 mapped in its coverage totals), binding authority orders
+  per topic, 26-file key table (EV01a..EV06b citation prefixes).
+- **Every S-GT wave consumes clusters/R/GOQ ids from the index** — nothing
+  outside its GOQ register may be treated as an open question; waves write
+  answers back against GOQ ids.
+- **Three index-level resolutions:** R20 (Q150,000 = D-4-2012 reforming LIVA
+  arts. 45/46 — closes the LAT-attribution confusion), R45 (CCom vigencia
+  1971-01-01 — corrected §5e above), R81 (maquila 12 bis added by D-19-2016
+  art. 7 — corrected §5f above).
+- **Working rulings embedded in the index preamble:** Reglas cited as "v2.0
+  (19/12/2024, vigencia abril 2025)" only; GitHub 961133c = working
+  authority EXCEPT MediosdePago (cat.desa); 16_ = provider-boundary doc
+  only; 23_ IVA never cited alone; retention form numbers cite RetWeb not
+  D-20-2006; CT currency qualifier mandatory; "autorización"=RM vs
+  "habilitación"=SAT never merged; exemption windows = per-beneficiary D15
+  rows keyed by qualification events.
+- Rollup scratch (per-wave inputs to the index) lives in
+  `gt/.extractions/masterindex_scratch/` (git-ignored).
 
 ## 5a. W-GT1 facts a synthesis session MUST know (2026-08-19)
 
@@ -501,6 +534,10 @@ places — W-GT6)**. Reform chains are recorded in SOURCE_RESEARCH.md.
 
 ## 7. Open questions register (live ones; full list in SOURCE_RESEARCH.md)
 
+**AUTHORITATIVE REGISTER = the 140-GOQ table in
+`gt/.extractions/00_MASTER_INDEX.md` §C (OQ1-OQ18 mapped in its coverage
+totals). The bullets below are the headline items only.**
+
 - **OQ3** schema drift cat.desa vs GitHub → ask TotalDoc/SAT (drift matrix
   complete; GitHub MediosdePago defect = use cat.desa there meanwhile).
 - **OQ10** post-2018 consolidated Ley IVA 27-92 — Art. 29-"A" provenance
@@ -553,22 +590,21 @@ synthesized with these as flagged open questions and back-filled later.
 
 ## 9. Next actions (ordered)
 
-1. ~~EXTRACTION_PLAN~~ approved + ~~W-GT1..W-GT6~~ **ALL COMPLETE
-   2026-08-19** (see §5a-§5f + plan extraction log; EVID-001..745, 26
-   evidence files). **NEXT PHASE = SYNTHESIS PREP then S-GT waves**:
-   (a) build `gt/.extractions/00_MASTER_INDEX.md` (topic clusters,
-   resolved contradictions, MOQ roll of the ~195 per-file OQs — SV
-   pattern, see `sv/.extractions/00_MASTER_INDEX.md`); (b) then S-GT1
-   (e-invoicing) first — its evidence base is the deepest and D-GT9's
-   dispositivo refinement + D17 journal model are already flagged for
-   it; S-GT2 (taxation) next; every topic is evidence-complete after
-   the master index.
-2. Opportunistic gap closure (folds into any synthesis): queue rev-6
-   items (AG 75-2006 AML reglamento, consolidated IVA post-2018,
-   **D-19-2016 — now the top-ranked acquisition, blocks special-regimes
-   synthesis quality**); instructivos cat 15812; calendario
-   transcription via SAT JSF app; accountant answers fold in when they
-   arrive. **W-GT4 additions: LET field-layout re-capture; D-4-2012 full
+1. ~~EXTRACTION_PLAN~~ approved + ~~W-GT1..W-GT6~~ ALL COMPLETE 2026-08-19
+   + ~~SYNTHESIS PREP~~ **COMPLETE 2026-08-19** (master index committed —
+   §5g). **NEXT = S-GT1 (e-invoicing) synthesis wave**: write the S-GT1
+   plan doc (SV S1 pattern: tasks/global constraints from clusters E1-E8 +
+   GOQ-15..52), then subagent loop with the master index as the citation
+   spine; S-GT2 (taxation) next (must consume R20/R55 + GOQ-01/GOQ-06);
+   D-GT9's dispositivo refinement + D17 journal model are pre-flagged for
+   S-GT1.
+2. Opportunistic gap closure (folds into any synthesis): queue rev-7 items
+   (see DOWNLOAD_QUEUE; **D-19-2016 = top-ranked acquisition — blocks
+   special-regimes synthesis quality**, GOQ-08); instructivos cat 15812;
+   calendario transcription via SAT JSF app; accountant answers fold in
+   when they arrive. **Master-index additions: LET field-layout re-capture
+   (GOQ-105); 2022-2025 salario AGs (GOQ-11); AG 125-2022 (GOQ-68);
+   D-4-2012 full
    text (Q150k attribution); aguinaldo D-76-78 + incentivo D-37-2001
    still missing (W-GT3). W-GT5 addition: D-15-2026 reglamento
    (≈17-mar-2027) — watch legal.dca.gob.gt. W-GT6 additions: AG 3-2017,
@@ -658,3 +694,17 @@ convergence session; updated again at W-GT1 close)
   12 evidence files, EVID-371..745, 2 registry identity corrections, 2
   OQs resolved (OQ14, OQ15), 1 new OQ (OQ18). Evidence phase COMPLETE —
   master-index/MOQ prep is the next session's work.**
+- **Master-index session addenda (2026-08-19, synthesis prep)**: 6 rollup
+  agents (one per wave; each read its evidence files end-to-end and wrote a
+  scratch rollup), controller assembled `00_MASTER_INDEX.md` (40 clusters /
+  81 R rows / 140 GOQs) and spot-verified 8 load-bearing quotes — all passed
+  verbatim. **Failure mode repeat: W-GT1 + W-GT5 agents returned EMPTY final
+  messages AND wrote no files — always `ls` the scratch dir before
+  re-dispatching (both retries clean).** Process lesson: 2 of 6 controller
+  briefs carried errors inherited from this HANDOVER (CCom vigencia 1-jul-1970;
+  12 bis "born D-38-04") — the agents' evidence-based readings were RIGHT and
+  the briefs (and §5e/§5f) were corrected (R45/R81). **Standing rule: where a
+  rollup/reader agent contradicts a controller brief on a verbatim matter,
+  verify against the evidence file and trust the evidence — session-summary
+  notes are secondary.** Index-level resolution R20 closes the Q150,000
+  attribution confusion (D-4-2012, never LAT). DOWNLOAD_QUEUE → rev 7.
