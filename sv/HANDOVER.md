@@ -26,15 +26,13 @@ boundary.**
 - **Corpus status:** evidence phase COMPLETE through W14; synthesis
   delivered S1 (e-invoicing) + S2 (ISR) + S3 (fiscal reporting) + S4
   (payroll) + S5 (commercial-legal) + S6 (Quincena-25 fold-in) + S7
-  (special-regimes, 2026-08-19). **W14 (2026-08-19, this session):
-  NIIF/chart-of-accounts evidence pass COMPLETE** — 32_ (NIIF PYMES 3rd
-  ed.) + 33_ (EY guide) read end-to-end, EVID-275..303, clusters N1-N8 +
-  R29 + SOQ-46..53 in the master index (commits 421103b + 9f4effe).
-  **NEXT WAVE: S8 chart-of-accounts synthesis — plan READY at
-  `docs/superpowers/plans/2026-08-19-s8-chart-of-accounts-synthesis.md`
-  (9 tasks, prefix SV-COA, tasks strictly sequential); execute the
-  subagent loop in this worktree from the plan.** Then IVA-core taxation
-  (01_/02_).
+  (special-regimes, 2026-08-19) + **S8 (chart-of-accounts, 2026-08-20,
+  this session — MERGE-READY: 8 files + index, 276 FRs, commits
+  d25ecd7..0eabbca; final whole-wave review clean after one fix wave)**.
+  W14 (2026-08-19): NIIF evidence pass — EVID-275..303, clusters N1-N8 +
+  R29 + SOQ-46..53 in the master index. **NEXT WAVE: IVA-core taxation
+  (01_/02_ full synthesis — folds S3's R/S + IVA-retention cross-refs,
+  SOQ-40 FOVIAL chain design pass, LSI-tercerización FCF pointer).**
 
 ## 2. Read order for a new session
 
@@ -43,9 +41,9 @@ boundary.**
 3. `sv/.extractions/00_MASTER_INDEX.md` — synthesis lookup: clusters
    (A1-A12, T1-T8, F1-F12, P1-P10, C1-C10, SR1-SR9), rulings R1–R28,
    MOQ/SOQ registers
-4. `sv/requirements/COVERAGE.md` + the five topic `00_index.md` files
-   (e-invoicing, taxation, fiscal-reporting, payroll, commercial-legal)
-   + `sv/requirements/special-regimes/00_index.md` (wave-prep stub)
+4. `sv/requirements/COVERAGE.md` + the topic `00_index.md` files
+   (e-invoicing, taxation, fiscal-reporting, payroll, commercial-legal,
+   special-regimes, chart-of-accounts)
 5. Root `HANDOVER.md` §5 (decisions D1–D19 + standing policies) +
    `shared/docs/` method docs (extraction procedure, requirements
    template, regulatory-change-management, odoo-localization-guide,
@@ -91,17 +89,19 @@ boundary.**
 | `payroll/` | 8 + index + 2 CSV | 143 | SV-PAY-FR-001..143 |
 | `commercial-legal/` | 10 + index | 224 | SV-CML-FR-001..224 |
 | `special-regimes/` | 8 + index | 175 | SV-SPE-FR-001..175 |
+| `chart-of-accounts/` | 8 + index | 276 | SV-COA-FR-001..276 |
 
-Totals: 1151 FRs (S7 = 175 FRs / 130 LBs / 80 ACs / 42 OQs). CSVs:
+Totals: 1427 FRs (S8 = 276 FRs / 57 LBs / 76 ACs / 30 OQs). CSVs:
 `withholding_tables.csv` + `isr_brackets.csv` (taxation),
 `f14_income_codes.csv` (fiscal-reporting), `smm_2025.csv` +
 `ss_contributions.csv` (payroll). FR numbering is wave-sequential within a
 prefix; new topics take new prefixes per the `<CC>-<TOPIC>-FR-nnn`
-contract (S8+ continues from a new topic prefix).
+contract (S9+ continues from a new topic prefix).
 
-COVERAGE rollup after S7: 60 cited / 3 pending / 9 N/A / 1 superseded
-(73 rows — 74_ was added as a row by S7; it had never been listed). The 3
-pending = 02_ (IVA-core wave) + 32_/33_ (NIIF wave).
+COVERAGE rollup after S8: 62 cited / 1 pending / 9 N/A / 1 superseded
+(73 rows). The 1 pending = 02_ (IVA-core wave). S8 lesson: registry
+flips must grep ALL LB source columns of the new files (01_/54_ rows
+gained chart-of-accounts citing entries only at final review).
 
 ## 5. SV facts a new session must know (condensed; details in wave sections below)
 
@@ -138,7 +138,34 @@ pending = 02_ (IVA-core wave) + 32_/33_ (NIIF wave).
 
 ### Wave log summary (full detail in `sv/EXTRACTION_PLAN.md` §Extraction log)
 
-- **W14 (2026-08-19, this session):** NIIF evidence pass — 32_ = Norma de
+- **S8 (2026-08-20, this session):** chart-of-accounts synthesis
+  COMPLETE per plan `docs/superpowers/plans/2026-08-19-s8-chart-of-accounts-synthesis.md`
+  — subagent-driven, 9 tasks strictly sequential (8 Approved clean + 2
+  fix rounds: T3 CT-Art-62 by-id, T8 R29 co-cite) + final whole-wave
+  review (MERGE-READY after one fix wave: COVERAGE 01_/54_ rows,
+  sv_coa_ppe_class re-point, FR-163 pinned SV-PAY-FR-105..107, index
+  bridge note). Commits d25ecd7..0eabbca; pushed sv-research. Files:
+  01 framework-policies (N1, 001..021) · 02 coa-structure (N2,
+  022..054) · 03 financial-instruments-fx (N3, 055..092) ·
+  04 nonfinancial-assets (N4, 093..134) · 05 liabilities-equity-benefits
+  (N5, 135..181) · 06 revenue (N6, 182..223) · 07 groups-related-parties
+  (N7, 224..252) · 08 deferred-tax-adoption (N8, 253..276 — closes the
+  wave; every 01-07 difference-route lands in FR-253..269). Key
+  encodings: R29 authority (33_ never sole LB — 5 secondary rows in
+  01/03/05/07/08, always co-cited); SOQ-46 note in every §2; two-clock
+  CT Art. 62 = SV-TAX-FR-020 by id; SOQ-50 no-NOL constraint (only the
+  capital-loss 5y ledger may ground loss-DTAs, 29.21-gated); Pillar Two
+  + hyperinflation config-off; dividend-WHT-to-equity 29.33 ↔
+  taxation/05; 32.11 dual encoding (05/FR-175 declaration half vs
+  07/FR-251 reporting-date half — deliberate, index-noted). Wave
+  findings: Sec 27 body actually at txt PAGE 239-248 (page-map hint was
+  stale); e-invoicing §3.11 FRs live in 02_transmission.md. RIDE
+  backlog from final review triage (glosses, locators, N1-N8 tags in
+  index) — see SDD ledger copy in EXTRACTION_PLAN if needed; primary
+  rides: T1 glosses ×2, T4 locator nits ×3, T6 AC-001 self-containment,
+  T8 A1 sentence-final period.
+
+- **W14 (2026-08-19):** NIIF evidence pass — 32_ = Norma de
   Contabilidad NIIF para las PYMES **3ra edición (feb-2025; effective
   2027-01-01, early adoption permitted; Apéndice A Tabla A1 = the D12
   vintage artifact)** read in full (EVID-275..298); 33_ = EY full-NIIF
@@ -224,6 +251,28 @@ pending = 02_ (IVA-core wave) + 32_/33_ (NIIF wave).
   Arts. 14+15 derogated as printed (54-C only; file 02 OQ-4); DUCA
   field-14 anchor (43_ print; master-index findings note).
 
+### S8-process rulings (2026-08-20, preserved from the SDD ledger before workspace deletion)
+
+- **(a)** Extraction txts exist WORKTREE-LOCAL since W14 (S7 ruling (b)
+  superseded for S8+): implementers/reviewers read
+  `sv/.extractions/*.pdf.txt` in the worktree; no cross-checkout reads.
+- **(b)** T2's implementer died silently leaving a COMPLETE file —
+  controller verified structure (33 FRs contiguous 022..054, 7 sections,
+  layer rows, OQ table) and committed UNMODIFIED per S7 ruling (a);
+  review gate preserved (S5 ruling-41 precedent).
+- **(c)** T3 died twice with ZERO state — cause was dispatch context
+  overload (2 exemplars ~140KB + full evidence). Fix: SCOPED dispatches
+  (evidence read as line-ranges for the task's EVIDs; ONE exemplar;
+  on-demand txt with grep+bounded-window). No further deaths in T3..T9.
+  **This is the dispatch template for S9+.**
+- **(d)** Thin-evidence citation form: where a 32_ evidence block lacks
+  a specific párrafo, FRs cite `32_ + section/párrafo + txt PAGE
+  anchor` + nearest governing EVID id (plan's evidence-inputs note, S3
+  ruling 25 kin). Applied to Sec 16/27 (T4), 14/15 (T7), etc.
+- **(e)** Final-review lesson recorded as §4 rollup note: registry
+  flips must grep ALL LB source columns of the new files (01_/54_
+  COVERAGE rows were stale until the final fix wave).
+
 ## 6. Gotchas & verified lessons (SV-specific)
 
 - Catalog versions NOT monotonic; CAT-013 re-assigned to 44-municipio
@@ -266,18 +315,12 @@ pending = 02_ (IVA-core wave) + 32_/33_ (NIIF wave).
 
 ## 8. Next actions (ordered)
 
-1. **NEXT WAVE: S8 chart-of-accounts synthesis** — plan READY
-   (`docs/superpowers/plans/2026-08-19-s8-chart-of-accounts-synthesis.md`;
-   9 tasks, prefix SV-COA, T1-T8 strictly sequential, T9 index/close).
-   Execute the subagent loop in this worktree per the plan's protocol.
-   LB = 32_ (cite section/párrafo); 33_ secondary-only (R29(a));
-   SOQ-46 instrument gap rides every §2 preamble; accounting-vs-fiscal
-   two-track invariant = the wave's spine (fiscal values consumed BY ID,
-   bridges via Sec 29 deferred tax).
-2. Then **IVA-core taxation wave** (01_/02_ full synthesis; folds the
-   R/S and IVA-retention cross-refs from S3's 01/04 files, SOQ-40 FOVIAL
-   chain design pass, LSI-tercerización FCF pointer from S6).
-3. **Acquisition follow-ups (SOQ rides):** S8 — **SV NIIF-adopting
+ 1. **NEXT WAVE: IVA-core taxation** (01_/02_ full synthesis; folds the
+    R/S and IVA-retention cross-refs from S3's 01/04 files, SOQ-40 FOVIAL
+    chain design pass, LSI-tercerización FCF pointer from S6). Prep per
+    the wave convention: master-index worklist check → plan doc →
+    subagent loop. Note: COVERAGE's last pending row (02_) flips here.
+2. **Acquisition follow-ups (SOQ rides):** S8 — **SV NIIF-adopting
    instrument (Consejo de Vigilancia criteria per CC Arts. 443-444 or
    successor; SOQ-46 — the gating gap) + optional 2nd-edition NIIF
    PYMES text (SOQ-48)**; S7 — Reglamento General ZF (SOQ-31), LESIA
@@ -285,15 +328,16 @@ pending = 02_ (IVA-core wave) + 32_/33_ (NIIF wave).
    COTRANS instrument (SOQ-39), D.L. 598-2020 + EVID-167 tail laws
    (SOQ-41), current consolidations for 12_/13_/14_/17b_/74_ (SOQ-30),
    $18-tasa adjusting acuerdos (SOQ-34).
-4. Registry note: numbering continues from **75** (32_/33_ were already
+3. Registry note: numbering continues from **75** (32_/33_ were already
    registered; the S8 acquisition candidates above are the NEW numbering).
-5. SOQ follow-ups per §7; periodic external checks (factura.gob.sv,
+4. SOQ follow-ups per §7; periodic external checks (factura.gob.sv,
    uif.gob.sv/marco-legal, MH formularios, D.O. recovery).
-6. Deferred cleanups (CAN-STAND): prior-wave deferred-minor lists (root
+5. Deferred cleanups (CAN-STAND): prior-wave deferred-minor lists (root
    HANDOVER §9 + per-task reviews; S7's triaged-ride list is in the
-   final review record — AC-007 $1,100 Given-gap is the first-pick),
+   final review record — AC-007 $1,100 Given-gap is the first-pick; S8's
+   RIDE list is in its wave-log entry),
    boilerplate sweep (~11 files), COVERAGE regeneration script.
-7. At wave closes: update THIS file + master index + COVERAGE + topic
+6. At wave closes: update THIS file + master index + COVERAGE + topic
    indexes; commit + push sv-research; record rulings here BEFORE
    deleting any SDD workspace. Owner decides sv-research → main merges
    at milestones (rebase-then-merge; never force-push).
