@@ -23,6 +23,13 @@ traceability). Takumi — the in-house AI agent platform for building Odoo
 modules — and an Elixir/Phoenix SaaS team consume the requirements. Product
 architecture (decided): **open-source LGPL-3 Odoo thin client + proprietary
 SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
+**Method (owner 2026-08-20):** SV was the deliberate pilot — learn by
+doing; it validated the approach and produced most of the shared canon.
+The goal is to keep the extraction of requirements as UNIFORM as possible
+across all localizations: `shared/docs/` + `shared/scripts/` are the
+common base, expected to keep evolving as each country teaches us
+something new; per-country drift (sources, formats, availability) is
+expected and absorbed by instantiating the canon, never by forking it.
 
 ## 2. Authoritative documents (read order for a new session)
 
@@ -1171,6 +1178,14 @@ W4 payroll → synthesis (master index + S-waves).
 - Hint layer = tuky-workspace repo (github.com:CtrlCarlitos/tuky-workspace,
   `projects/odoo-localization-el-salvador`) — pointers only, never LB.
 - Takumi builds thin clients only (D2); SaaS is Elixir, separate codebase.
+- **Canon evolution (owner 2026-08-20):** `shared/docs/` and
+  `shared/scripts/` evolve with every country — when a localization's
+  documentation drifts from what existing tools/procedures handle, first
+  modify or extend the SHARED asset (new script, amended procedure), not
+  the country tree alone; rulings worth generalizing get promoted from
+  country decisions to cross-country D-numbers (D16/D18 promotion
+  pattern). Uniform requirements extraction across countries is the
+  standing objective.
 
 ## 6. Environment & tooling (this machine)
 
