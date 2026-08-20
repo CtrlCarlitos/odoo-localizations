@@ -6,7 +6,8 @@ Language: English, Spanish legal terms inline with translations.
 
 | Topic | Status | Files |
 |-------|--------|-------|
-| [e-invoicing](e-invoicing/) | Not started | — |
+| [e-invoicing](e-invoicing/) | In review | 00_index + 7 files (GT-EINV-FR-001..243) |
+| [catalogs](catalogs/) | In review | 01_governance + CSV sidecars (GT-CAT-FR-001..015) |
 | [taxation](taxation/) | Not started | — |
 | [chart-of-accounts](chart-of-accounts/) | Not started | — |
 | [payroll](payroll/) | Not started | — |
