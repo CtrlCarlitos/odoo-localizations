@@ -401,10 +401,21 @@ LET-pequeño md5-identical).
 - ~~OQ4 (D-6-2021 e-invoicing mandate?)~~ **RESOLVED 2026-08-19**: D-6-2021
   = reformas a la Ley de Zonas Francas (80_). NOT an e-invoicing mandate;
   the FEL mandate chain remains AD 13-2018 + SAT-DSI resolutions 04_-14_.
-- OQ14 (AML): PARTIALLY RESOLVED — D-67-2001 (75_) + D-51-2001 (76_) +
-  D-15-2026 (77_) acquired; REMAINS: derogation inventory of D-15-2026, its
-  reglamento status, AG 75-2006 applicability, Q2,000-cash threshold wording
-  → evidence pass + possible accountant confirm.
+- ~~OQ14 (AML)~~ **RESOLVED 2026-08-19 (W-GT5, verbatim)**:
+  **D-15-2026 art. 126 derogates D-67-2001 AND D-58-2005 (Ley para Prevenir
+  y Reprimir el Financiamiento del Terrorismo — a decree not previously in
+  the corpus' chain map) wholesale** + generic opposing-dispositions clause;
+  art. 125 re-points all old-law references. **Reglamento mandated (art.
+  127): SB/IVE elaborates, ≤6 months from vigencia (≈17-mar-2027)** — all
+  operational thresholds (KYC umbrales, cash/transfer triggers, fine
+  gradation, RTS plazos) deferred to it. **No quetzal threshold anywhere in
+  the law text — the Q2,000 premise fails at law level** (it lived in
+  reglamento/circular tier under the old regime; accountant ask #3 answers
+  itself: watch the new reglamento). Only US$10,000 triggers (daily cash
+  registry art. 31, border declaration art. 81, trasiego art. 82).
+  **Vigencia correction: 17-SEP-2026, not 17-jun** (art. 128: publication
+  17-jun-2026 + 3 months) — D-67-2001 remains current until that date;
+  transitory deadlines (arts. 116-124, 127) run from 17-sep-2026.
 - OQ15 (ZF successor): AMENDED — no "Decreto 16-2022" replacement; chain =
   D-65-89 → D-19-2016 → D-6-2021 (80_); AG 242-90 reglamento reform status
   still open (AG 65-2022 turned out ZOLIC-specific).
@@ -430,4 +441,8 @@ LET-pequeño md5-identical).
   nomenclature needs the post-2018 consolidated IVA print, OQ10 kin).
 - **W-GT4 evidence-file OQs**: ~45 per-file OQ-1..OQ-n live across the 6
   W-GT4 evidence files — MOQ-roll into a master index at synthesis prep
-  (SV pattern; same as W-GT1..3's ~95).
+  (SV pattern; same as W-GT1..3's ~95). **W-GT5 adds ~30 more (4 files)** —
+  notably: CCom consolidation horizon = 30-05-2006 (cite-vs-current risk);
+  RM autorización (CCom art. 372) vs SAT habilitación = parallel tracks,
+  never merged; 73_ arancel prints no date + variable inscripción scale
+  absent; 60_ undated (≥Oct-2019 bounded).

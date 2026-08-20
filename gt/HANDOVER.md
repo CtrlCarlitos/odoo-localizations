@@ -6,7 +6,9 @@ source-research sessions (W1–W5 + owner DCA batches); updated 2026-08-19
 EXTRACTION_PLAN draft); updated 2026-08-19 again (W-GT1 evidence-pass
 session: plan approved, FEL stack read, evidence committed); updated
 2026-08-19 again (W-GT4 evidence-pass session: fiscal reporting read,
-form-identity corrections, evidence committed). Read this fully before
+form-identity corrections, evidence committed); updated 2026-08-19 once
+more (W-GT5 evidence-pass session: COA + commercial-legal read, OQ14
+resolved, evidence committed). Read this fully before
 acting; it is the authoritative cross-session memory.
 **Update it at every session boundary.**
 
@@ -18,8 +20,9 @@ GT requirements-extraction for the Odoo localization, per
 `shared/docs/requirements-extraction-procedure.md` (method spine) and the SV
 corpus as precedent. Currently in **Stage 1/2 (evidence waves)**:
 EXTRACTION_PLAN approved 2026-08-19; **W-GT1 (FEL stack) + W-GT2 (taxation
-core) + W-GT3 (payroll) + W-GT4 (fiscal reporting) COMPLETE** — 20 evidence
-files committed (EVID-001..500); W-GT5 (COA + commercial-legal) is next.
+core) + W-GT3 (payroll) + W-GT4 (fiscal reporting) + W-GT5 (COA +
+commercial-legal) COMPLETE** — 24 evidence files committed (EVID-001..645);
+W-GT6 (special regimes) is the last evidence wave.
 Product architecture context: root `HANDOVER.md` §1 (SaaS thin-client + Odoo;
 Takumi consumes requirements).
 
@@ -76,11 +79,11 @@ chain **D-65-89 → D-19-2016 → D-6-2021**, maquila D-29-89 set, ZOLIC AG
 Integral (17-jun-2026)**, RM edictos + aranceles).
 
 **Known-stale instruments retained deliberately** (supersession discipline):
-23_ (IVA pre-FEL), 68_ (ZF reglamento pre-check), 75_ (AML, likely
-superseded by 77_ D-15-2026 — derogation inventory pending), 17_/19_ (2018
-vintage FEL docs), **55_ (pequeño digest = undated ~2013 body still live at
-the 2024 capture — W-GT4)**. Reform chains are recorded in
-SOURCE_RESEARCH.md.
+23_ (IVA pre-FEL), 68_ (ZF reglamento pre-check), 75_ (AML — **supersession
+CONFIRMED W-GT5: D-15-2026 art. 126 derogates it effective 17-sep-2026;
+current until then**), 17_/19_ (2018 vintage FEL docs), **55_ (pequeño
+digest = undated ~2013 body still live at the 2024 capture — W-GT4)**.
+Reform chains are recorded in SOURCE_RESEARCH.md.
 
 ## 5c. W-GT3 facts a synthesis session MUST know (2026-08-19)
 
@@ -239,6 +242,74 @@ SOURCE_RESEARCH.md.
   together; D18/D19 + `shared/docs/go-live-readiness.md` also bind
   synthesis (GT register already seeded there).
 
+## 5e. W-GT5 facts a synthesis session MUST know (2026-08-19)
+
+- **CCom books anchor (the COA topic's legal base)**: art. 368 (texto
+  D-40-99) — partida doble + **PCGA** mandatory; FOUR RM-authorized books:
+  Inventarios; De primera entrada o diario; Mayor o centralizador; De
+  Estados Financieros — **no copiador de correspondencia** in the current
+  text (correspondence = 5-year documents duty, art. 382). Español +
+  moneda nacional (369); chronological, no blanks/raspaduras, immediate
+  error-salvation (373); balance + P&G signed comerciante+contador ≥1×/year
+  (374/377); every entry needs documento fehaciente (381); books kept
+  until full liquidation (376), documents ≥5 años (382). **No plan de
+  cuentas/catálogo anywhere in CCom — the chart itself is PCGA-governed**
+  (no statutory COA exists in GT). No electronic-books provisions (only
+  "mecanizados… cualquier otro sistema", art. 368 ¶3). **"Habilitación" is
+  SAT/CT vocabulary; CCom says RM "autorización" (art. 372) — parallel
+  tracks, both needed per book, never merged.**
+- **66_ print facts**: given 28-ene-1970, promulgated 9-abr-1970, vigencia
+  1-jul-1970 (D-43-70 modification of the 1-ene-1971 clause); **last
+  inline reform = D-11-2006 (DCA 30-05-2006) — consolidation horizon**;
+  pp.215-301 = old D-2946 maritime Libro III appendix, still vigente;
+  INFILE/TESORERIA stamp, no print date.
+- **60_ dual-track habilitación**: CC's 4 books need RM authorization AND
+  SAT habilitación (form **SAT-7121**, any tax office / Agencia Virtual);
+  tax-law books (IVA/PC) need SAT only. Missing either → cierre temporal
+  (CT art. 85); books not up to date / wrong form → Q5,000 per
+  fiscalización (CT art. 94.4). **IVA art. 29-"A" (added D-4-2019 art. 6,
+  vigencia 30-oct-2019 — third corpus confirmation): REF/FEL taxpayers run
+  an electronic system subsuming the 5 book categories**; SAT Agencia
+  Virtual "libros electrónicos" tool auto-loads DTEs for FEL emitters
+  (LET hook).
+- **RM surfaces**: arancel (73_, 1pp scan, **prints NO date** — 2022 label
+  is registry-derived, likely superseded, "Ajuste por vigencia de nuevo
+  Arancel" rows): books authorization **Q0.20/hoja** (variable); edicto
+  Q30 + publicaciones Q200 (sociedades nuevas, capital/fusión/disolución
+  mods) / Q100 (dirección-type, clausura/traspaso); disolución Q300;
+  escritura modificación Q300; **variable inscripción fee scale NOT
+  printed** (market pattern suggests a Q500,000 threshold in the unprinted
+  scale — inference only). **83_ edictos: D-18-2017 art. 12 reformed CC
+  art. 343 — all CC-mandated publications go via RM's electronic portal**
+  (edition 6022, Wed 19-ago-2026; LIBRO ELECTRONICO sociedades ~29 per
+  edition; convocatoria entries = text-layer stubs, content not
+  extractable).
+- **AML chain (OQ14 RESOLVED)**: **D-15-2026 art. 126 derogates D-67-2001
+  AND D-58-2005 wholesale** (+ generic clause); art. 125 auto re-points
+  old references. **Reglamento mandated (art. 127): SB/IVE elaborates,
+  ≤6 months from vigencia ≈ 17-mar-2027 — ALL operational thresholds
+  (KYC umbrales, cash/transfer triggers, fine gradation, RTS plazos)
+  deferred to it.** **NO quetzal threshold anywhere in the law text —
+  the Q2,000 premise fails at law level** (old-regime reglamento tier;
+  watch the new reglamento). Only US$10,000 triggers (daily-cash registry
+  art. 31, border declaration art. 81, trasiego art. 82); fines
+  US$500-300,000 tiers. **VIGENCIA = 17-SEP-2026** (art. 128: publication
+  17-jun-2026 + 3 months — **corrects the 17-jun cutover belief**; D-67
+  -2001 remains current until then; transitory arts. 116-124/127 run from
+  17-sep-2026). PO universe: + cooperatives, empeño, real estate,
+  vehicles, art/jewels cash commerce, corporate services, lotteries,
+  VASPs, professionals/notaries (light regime: per-client registry +
+  monthly aviso ≤15 días hábiles). ML offence narrowed to intentional-only
+  (was "obligado a saber"). Retention 5y + 10y digital (financial POs).
+  Lineage: D-51-2001 (urgencia, effective 15-nov-2001) → D-67-2001 art.
+  47 (after ~32 days; arts. 1-31 survive verbatim) → D-15-2026.
+- **Sociedades/comercial (66_, EVID-536..569)**: see evidence file for the
+  comerciante calificación (arts. 2/3/6/9), matrícula thresholds/patente
+  (334/344/356-358), sociedad types + constitution formalities, títulos
+  valores taxonomy (factura mercantil = paper ancestor of FEL — lineage
+  noted, never conflated), prescripción specials (513, 626-629, 577, 799,
+  916-918, 253).
+
 ## 5a. W-GT1 facts a synthesis session MUST know (2026-08-19)
 
 - **Reglas y validaciones = v2.0** (changelog row "2.0 19/12/2024", vigencia
@@ -380,19 +451,23 @@ SOURCE_RESEARCH.md.
 - ~~OQ12~~ **DISPROVEN + RESOLVED W-GT3**: IRTRA = flat 1% on planillas
   (D-1528 as reformed by D-43-92; no brackets; identity corrected to 1962).
 - ~~OQ13~~ **RESOLVED W-GT2** (see §5b).
-- **OQ14** D-15-2026 derogation inventory; AML reglamento status; Q2,000
-  threshold wording.
+- ~~OQ14~~ **RESOLVED W-GT5** (see §5e): art. 126 derogates D-67-2001 +
+  D-58-2005 wholesale; reglamento ≈17-mar-2027 defers all thresholds; **no
+  Q threshold in law text (Q2,000 premise fails at law level)**; vigencia
+  17-sep-2026.
 - **OQ15** ZF reglamento (AG 242-90) current-reform status.
 - **OQ16** does a numbered Reglamento del Código de Comercio exist?
 - **OQ18 (W-GT4)**: 5% IVA-retention rates (pequeño ≥Q2,500.01 / agro on
   total factura, printed by 49_/52_) vs the W-GT2 D-20-2006 matrix —
   reconcile against 23_/24_ law text before synthesis; "54 B"/"54 BIS"
   nomenclature rides the OQ10 consolidated print.
-- **Evidence-file OQs (W-GT1..W-GT4)**: ~140 per-file OQ-1.. live in the 16+
-  evidence files — MOQ-roll into a master index at synthesis prep (SV
+- **Evidence-file OQs (W-GT1..W-GT5)**: ~170 per-file OQ-1.. live in the
+  24 evidence files — MOQ-roll into a master index at synthesis prep (SV
   pattern). W-GT4 adds: LET layouts = image-only (re-capture candidate);
   55_/57_/58_/62_/63_ print no dates (currency unverifiable); 64_ OCR
-  pages 4/5/8 blank.
+  pages 4/5/8 blank. W-GT5 adds: CCom consolidation horizon 30-05-2006;
+  RM autorización vs SAT habilitación = parallel tracks; 73_ arancel
+  undated + variable inscripción scale absent.
 
 ## 8. Accountant track (asked 2026-08-19; assume yes, plan B ready)
 
@@ -413,26 +488,30 @@ synthesized with these as flagged open questions and back-filled later.
 ## 9. Next actions (ordered)
 
 1. ~~EXTRACTION_PLAN~~ approved + ~~W-GT1~~ + ~~W-GT2~~ + ~~W-GT3~~ +
-   ~~W-GT4~~ **COMPLETE 2026-08-19** (see §5a-§5d + plan extraction log).
-   **Next: W-GT5 — COA + commercial-legal evidence pass** (66_ Código de
-   Comercio 301pp decomposed: libros/contabilidad → COA; sociedades/
-   registro + títulos valores/prescripción → commercial-legal; 60_
-   habilitación de libros; 73_ RM aranceles; 83_ RM edictos; 75_/76_/77_
-   AML chain — **77_ D-15-2026 first, then delta; OQ14 derogation
-   inventory BEFORE synthesis trusts either**; consolidation-tail checks:
-   25_/32_/66_ per plan risks).
+   ~~W-GT4~~ + ~~W-GT5~~ **COMPLETE 2026-08-19** (see §5a-§5e + plan
+   extraction log). **Next: W-GT6 — special regimes evidence pass (the
+   LAST evidence wave)**: `67_` ZF D-65-89 → `68_` AG 242-90 reglamento
+   (pre-check, OQ15 reform status) → `69_` maquila D-29-89 → `70_` AG
+   533-89 → `71_` AG 253-2001 → `72_` AG 296-94 → `80_` D-6-2021 → `81_`
+   ZOLIC AG 65-2022. Law-then-reglamento pairs; exemption schedules =
+   canonical D15 consumers (per-acuerdo dated rows, never global
+   constants); D-19-2016 chain gap still open; needs W-GT2 IVA/ISR
+   context (available).
 2. Opportunistic gap closure: queue rev-6 items (AG 75-2006 AML reglamento,
    consolidated IVA post-2018, D-19-2016); instructivos cat 15812;
    calendario transcription via SAT JSF app; accountant answers fold in
    when they arrive. **W-GT4 additions: LET field-layout re-capture (image-
    only manuals — refreshed PDFs or page images at synthesis need);
    D-4-2012 full text (Q150k threshold attribution); aguinaldo D-76-78 +
-   incentivo D-37-2001 still missing (W-GT3).**
-3. ~~W-GT3 payroll~~ → ~~W-GT4 fiscal reporting~~ → **W-GT5 COA +
-   commercial-legal** → W-GT6 special regimes, per the plan's reading order.
+   incentivo D-37-2001 still missing (W-GT3). W-GT5 addition: D-15-2026
+   reglamento (≈17-mar-2027) — watch legal.dca.gob.gt.**
+3. ~~W-GT3 payroll~~ → ~~W-GT4 fiscal reporting~~ → ~~W-GT5 COA +
+   commercial-legal~~ → **W-GT6 special regimes**, per the plan's reading
+   order.
 4. Synthesis prep after each topic's evidence base completes (master index
-   + MOQ roll; SV pattern) — **S-GT1 (e-invoicing) and S-GT2 (taxation)
-   are unblocked now**; S-GT4 (fiscal-reporting) unblocked after MOQ roll.
+   + MOQ roll; SV pattern) — **S-GT1 (e-invoicing), S-GT2 (taxation) and
+   S-GT5 (COA + commercial-legal) are unblocked now**; S-GT4
+   (fiscal-reporting) unblocked after MOQ roll.
    Carry the W-GT4 form-identity corrections (1411/1431/1371/1331) into
    every synthesis that names ISR forms.
 5. Milestone: owner decides `gt-research` → `main` merge (owner owns ALL
@@ -488,3 +567,15 @@ convergence session; updated again at W-GT1 close)
   SOURCE_RESEARCH W4 all amended in the wave commit. New cross-file OQ18
   (5% pequeño/agro retention rates vs W-GT2 matrix). Next wave (W-GT5)
   starts at EVID-501.
+- **W-GT5 session addenda (2026-08-19, same pattern, 5th wave)**: 4 reader
+  agents (EVID-501..645, gaps 523-535/570-585/606-610), controller
+  spot-verified 15+ quotes — all passed. **Failure mode repeat+variant: the
+  66_-sociedades agent returned an EMPTY final message twice; the retry
+  agent DID write the 91KB evidence file — always check the file exists
+  before re-dispatching.** Stage-1 lesson: **76_/77_ carry footer-only
+  text layers that defeat the scan heuristic (~94/235 chars/page, above
+  the 80-char threshold) — force OCR when a political-law PDF extracts
+  thin; both recovered at ~9k chars/page.** OQ14 resolved (derogations +
+  reglamento deadline + no-Q-threshold + vigencia 17-sep-2026);
+  66_/75_/76_/77_ registry rows amended; CCom consolidation tail verified.
+  Next wave (W-GT6) starts at EVID-646.

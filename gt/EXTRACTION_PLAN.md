@@ -117,8 +117,11 @@ subagent-driven wave → reviews → COVERAGE.
     Art. 3-"A" (which decree added it = OQ17 — **RESOLVED-AS-MYTH W-GT2:
     the article was 8-"A", added by D-31-2024; see log**). Post-2018 consolidated
     edition missing (OQ10).
-  - AML: 75_ likely superseded by 77_ (D-15-2026) — derogation inventory
-    BEFORE synthesis trusts either; 76_ = penal layer.
+  - AML: ~~75_ likely superseded by 77_ (D-15-2026) — derogation inventory
+    BEFORE synthesis trusts either; 76_ = penal layer.~~ **RESOLVED W-GT5:
+    art. 126 derogates D-67-2001 + D-58-2005 wholesale, vigencia
+    17-sep-2026; reglamento ≈17-mar-2027 defers all thresholds; no Q
+    threshold in law text.**
   - ZF: D-65-89 → D-19-2016 (**missing from corpus**) → D-6-2021 (80_);
     68_ reglamento copy predates any reform (status = OQ15).
   - FEL vintage: 17_ casos (2018-05) + 19_ contingencia (2018-05) may lag
@@ -126,9 +129,11 @@ subagent-driven wave → reviews → COVERAGE.
     each rule against 15_/29_.
   - Salarios: 38_ superseded by 37_ (2026); 39_ = historical series (keep —
     it IS the dated-row source).
-- **Consolidation tails unverified (Stage 1 must check)**: 25_ CT, 26_ LAT
-  (cites only Dto. 14-2013), 32_ CT laboral, 66_ CCom. SV lesson: the
-  tail block is the authority list — transcribe it, then hunt gaps.
+- **Consolidation tails unverified (Stage 1 must check)**: ~~25_ CT, 26_ LAT
+  (cites only Dto. 14-2013), 32_ CT laboral, 66_ CCom~~ — **W-GT2/W-GT3
+  resolved 25_/26_/32_; W-GT5 resolved 66_ (last inline reform D-11-2006;
+  old D-2946 Libro III appended, still vigente)**. SV lesson: the tail
+  block is the authority list — transcribe it, then hunt gaps.
 - **Scans needing OCR (verify page-1 identity first — SAT labels lie)**:
   02/03, 33–35, 38, 64–65, 71, 73, 74, 76–77, 81, 83. DCA gazette prints:
   `--psm 6`; **table pages PSM 4 at 300–400dpi**. Several gazette PDFs
@@ -325,3 +330,45 @@ commit. Never leave a session with evidence unmerged. Update
   CT art. 91 vs 94 numbering divergence between criterios. Registry
   amended (48_ form-identity correction). OQ18 added to SOURCE_RESEARCH;
   ~45 per-file OQs live in the 6 evidence files.
+- 2026-08-19 — **W-GT5 COMPLETE** (COA + commercial-legal, units 23-26).
+  Stage 1: 2 digital PDFs + OCR batch (73_/75_ auto-detected; **76_/77_
+  needed forced OCR** — footer-text layers defeated the scan heuristic,
+  recovered at ~9k chars/page each). Stage 2 subagent-driven (4 reader
+  agents; **the 66_-sociedades agent returned empty twice — the file WAS
+  written on retry**; controller spot-verified 15+ quotes). 4 evidence
+  files COMMITTED (EVID-501..645, gaps 523-535/570-585/606-610):
+  `66_CCom_libros_contabilidad` (501-522),
+  `66_CCom_sociedades_comercial` (536-569), `60_73_83_RM` (586-605),
+  `75-77_AML` (611-645). Key outcomes: **CCom books anchor** — partida
+  doble + PCGA mandatory (art. 368, texto D-40-99); FOUR RM-authorized
+  books (Inventarios; De primera entrada o diario; Mayor o centralizador;
+  De Estados Financieros — **no copiador de correspondencia** in the
+  current text); español + moneda nacional; no blanks/raspaduras; balance
+  signed ≥1×/year; books kept until full liquidation, documents ≥5 años;
+  **no plan de cuentas/catálogo anywhere in CCom — the chart itself is
+  PCGA-governed**; no electronic-books provisions (only "mecanizados…
+  cualquier otro sistema"); "habilitación" is SAT/CT vocabulary — CCom
+  says RM "autorización" (art. 372). **Consolidation tail VERIFIED: last
+  inline reform = D-11-2006 (DCA 30-05-2006); pp.215-301 = old D-2946
+  maritime Libro III appendix, still vigente**. **60_ dual-track
+  habilitación**: CC books need RM authorization AND SAT habilitación
+  (SAT-7121, any office / Agencia Virtual); tax books SAT-only; IVA art.
+  29-"A" (D-4-2019 art. 6, 30-oct-2019 — **third corpus confirmation of
+  the provenance**) = REF/FEL electronic system subsuming the 5 book
+  categories. **RM surfaces**: arancel Q0.20/hoja books, edicto Q30 +
+  Q200/Q100 publicaciones, disolución Q300 — **variable inscripción
+  scale NOT printed**; 83_ = D-18-2017 art. 12 displaced print
+  publications to RM's electronic portal. **AML chain RESOLVED (OQ14)**:
+  D-15-2026 art. 126 derogates D-67-2001 + **D-58-2005 (FT-financing law,
+  previously unmapped in the chain)** wholesale; reglamento (art. 127) due
+  ≈17-mar-2027 — all operational thresholds deferred to it; **NO quetzal
+  threshold in law text (Q2,000 premise fails at law level)**; only
+  US$10,000 triggers (arts. 31/81/82); **vigencia = 17-SEP-2026** (art.
+  128, publication 17-jun + 3 months — corrects the 17-jun cutover
+  belief); PO universe expands (cooperatives, empeño, real estate,
+  vehicles, art/jewels, corporate services, lotteries, VASPs,
+  professionals/notaries with monthly aviso ≤15 días hábiles); ML offence
+  narrowed to intentional-only; retention 5y + 10y digital (financial
+  POs). Lineage: D-51-2001 (effective 15-nov-2001) → D-67-2001 art. 47
+  derogation after ~32 days (arts. 1-31 survive verbatim). Registry
+  amended (66_/75_/76_/77_ rows).
