@@ -192,8 +192,9 @@ decree-bound, never constants.
   **6%** in place of 7% for tax year 2013 only (Art. 173.1 as reformed by
   D-19-2013 + 28_ art. 87 transitorio, valid 2013-01-01..2013-12-31),
   7% from 2014-01-01 (Art. 173.2); the 5% lower bracket was never
-  transitional. Historical class rows (GOQ-59 caveat on the 28_ anchor).
-  (LB-008; LB-018; EVID-223, EVID-240)
+  transitional. Historical class rows (GOQ-58 caveat on the art. 44/173
+  values; GOQ-59 caveat on the 28_ anchor). (LB-008; LB-018; EVID-223,
+  EVID-240; GOQ-58, GOQ-59 → OQ-001, OQ-002)
 - **GT-TAX-FR-161:** Opcional Simplificado tax shall be collected
   **THROUGH retention by payers** (Art. 46): retention agents (FR-151)
   apply the FR-159 split to each payment/accreditation; direct payment by
@@ -329,13 +330,15 @@ decree-bound, never constants.
   **70% of the rent** (flat 30% presumed expenses, Art. 88 num. 2);
   greater actual expense only via January declaración jurada + refund
   request. The 30% presumption and the Art. 89 transaction-cost cap
-  (FR-178) are dated rows. (LB-011; EVID-230)
+  (FR-178) are dated rows (provenance "D-10-2012 arts. 88-89, texto ≤
+  D-46-2022", GOQ-58 caveat). (LB-011; EVID-230; GOQ-58 → OQ-001)
 - **GT-TAX-FR-178:** Ganancia de capital = enajenación price − cost;
   transaction costs (comisiones, notariales, registro) deductible up to
   **15% of the enajenación value**, the cap waived for taxpayers with
   contabilidad completa and documentation; shares/participaciones cost =
   documented acquisition value or book value certified by the issuer
-  (num. 3, reformed D-19-2013). (LB-011; EVID-230)
+  (num. 3, reformed D-19-2013) — the 15% cap is a dated row (GOQ-58
+  caveat). (LB-011; EVID-230; GOQ-58 → OQ-001)
 - **GT-TAX-FR-179:** Capital rentas (mobiliarias + inmobiliarias) and
   ganancias de capital shall bear a flat **10% definitive retention**
   applied from the moment of effective payment, crediting or bank credit
@@ -467,7 +470,8 @@ decree-bound, never constants.
 
 Dated rows follow D15/D16 (cite together): valid_from/valid_to + instrument
 provenance + as-of qualifier; snapshot-on-write; rate/bracket/cap rows are
-decree-bound, never constants (GOQ-50 pattern); historical rows are
+decree-bound, never constants (dated-instrument regime per D15/D16,
+cited above); historical rows are
 non-transmittable class. Machine-readable rate/bracket data lives in
 `isr_rates.csv` (one row per régime/category × bracket/rate, with
 valid_from/valid_to + provenance + EVID; transitional rows carry valid_to).
@@ -516,7 +520,7 @@ stable across Odoo 17/18/19/20; no version-specific behavior required.
 | FR-157 | odoo | stock.quant inventory reports | Jan + Jul inventory calendar | Values at 30-Jun/31-Dec |
 | FR-158 | shared | — | NOL guard row | NO multi-year NOL; 2-yr capital-only; contingent GOQ-58 |
 | FR-159 | shared | — (config data §4 / CSV) | opcional scale rows | Monthly gross base, IVA excl., minus exempt |
-| FR-160 | shared | — (config data §4 / CSV) | 6%/7% transitional rows | 28_ art. 87 anchor (GOQ-59) |
+| FR-160 | shared | — (config data §4 / CSV) | 6%/7% transitional rows | 28_ art. 87 anchor (GOQ-58/59 caveats) |
 | FR-161 | odoo | account.tax (retention) + res.partner authorization | payer-retention collection + direct-payment flag | saas validates retention application; SAT-1311 surface = F-wave |
 | FR-162 | shared | — (config data §4) | Q2,500 per-op floor row | Mirrors 28_ art. 35; deduction allowed |
 | FR-163 | odoo | account.move (constancia) + retention DJ data | 5-day constancia, 10-day enter | Annex fields nombre/NIT/valor/retención |
@@ -634,7 +638,7 @@ All rows Status open; GOQs are trace-pending, not blockers.
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
-| OQ-001 | GOQ-58 (owned): "LAT post-46-2022 window: any Libro I reform after 27-09-2022 absent (the 47_ 'propinas' hint re-checked here); NOL-absence finding contingent on this window." Affects every dated row (FR-152/154/159/167/171/179..184/188/190) and expressly the FR-158 negative-FR. | no | GT synthesis wave S-GT2 → acquisition queue (current consolidated LAT / DCA) | open |
+| OQ-001 | GOQ-58 (owned): "LAT post-46-2022 window: any Libro I reform after 27-09-2022 absent (the 47_ 'propinas' hint re-checked here); NOL-absence finding contingent on this window." Affects every dated row (FR-152/154/159/160/167/171/177/178/179..184/188/190) and expressly the FR-158 negative-FR. | no | GT synthesis wave S-GT2 → acquisition queue (current consolidated LAT / DCA) | open |
 | OQ-002 | GOQ-59 (owned): "28_ (Reglamento LAT) prints no DCA date; post-AG-167-2014 reforms unverifiable." Affects every 28_-anchored row: FR-151 (art. 7), FR-155/165 (arts. 27/34-35), FR-173..175 (arts. 19/24/25), FR-181/182 (arts. 80/81), FR-186/187 (arts. 84/85), FR-191 (art. 9), FR-192 (arts. 86/87/89). | no | GT synthesis wave S-GT2 → acquisition queue (DCA publication record) | open |
 | OQ-003 | GOQ-60 (owned): "Dieta retention 'con carácter definitivo' (28_ art. 9) — operative rate not spelled (5%/7% opcional vs other); determine + SAT practice." Affects FR-191 (rate left unconfigured; Criterio 6-2018's art. 44 application recorded as interpretation only). | no | GT synthesis wave S-GT2 → W6 partner ask (accountant/SAT practice) | open |
 | OQ-004 | GOQ-61 (kin, practice forms): 47_-sourced practice signals and 48_ catalog snapshot dating — the SAT-1311/1321/1352/1361/1371/1411 identities herein come from 48_ (R46) and carry the Wayback 2025-10-06 snapshot caveat; re-verify against live RetWeb before F-wave implementation. | no | GT synthesis wave S-GT2 → F-wave form confirmation | open |

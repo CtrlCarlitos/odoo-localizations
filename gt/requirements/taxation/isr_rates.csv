@@ -4,9 +4,9 @@ lucrativas,utilidades_annual,rate,0.01,,28,,,2014-01-01,2014-12-31,"26_ art. 172
 lucrativas,utilidades_annual,rate,0.01,,25,,,2015-01-01,,"26_ arts. 36 y 172.3 (texto <= D-46-2022)",EVID-222;EVID-223,permanent rate; GOQ-58 caveat
 lucrativas,utilidades_quarterly_presumptive_base,rate,,,8,,,2013-01-01,,"26_ art. 38 opcion 2 (texto <= D-46-2022)",EVID-222,quarterly advance base estimate on rentas brutas excl. rentas exentas; + 28_ art. 27.2 exclusions (EVID-241)
 lucrativas,utilidades_quarterly_presumptive_base_air,rate,,,15,,,2013-01-01,,"26_ art. 38 + art. 21 Bis (texto <= D-46-2022)",EVID-222,air-transport taxpayers variant
-lucrativas,opcional_simplificado_monthly,bracket_1,0.01,"30,000.00",5,0,,2013-01-01,,"26_ art. 44 (texto <= D-46-2022)",EVID-224,monthly renta imponible = gross excl. IVA minus exempt
-lucrativas,opcional_simplificado_monthly,bracket_2,"30,000.01",,6,"1,500.00","30,000.00",2013-01-01,2013-12-31,"26_ art. 173.1 (reformado Dto. 19-2013) + 28_ art. 87",EVID-223;EVID-240,transitional 6% upper bracket 2013 only; GOQ-59 caveat on 28_ anchor
-lucrativas,opcional_simplificado_monthly,bracket_2,"30,000.01",,7,"1,500.00","30,000.00",2014-01-01,,"26_ arts. 44 y 173.2 (texto <= D-46-2022)",EVID-224;EVID-223,upper bracket from 2014
+lucrativas,opcional_simplificado_monthly,bracket_1,0.01,30000.00,5,0,,2013-01-01,,"26_ art. 44 (texto <= D-46-2022)",EVID-224,monthly renta imponible = gross excl. IVA minus exempt
+lucrativas,opcional_simplificado_monthly,bracket_2,30000.01,,6,1500.00,30000.00,2013-01-01,2013-12-31,"26_ art. 173.1 (reformado Dto. 19-2013) + 28_ art. 87",EVID-223;EVID-240,transitional 6% upper bracket 2013 only; GOQ-59 caveat on 28_ anchor
+lucrativas,opcional_simplificado_monthly,bracket_2,30000.01,,7,1500.00,30000.00,2014-01-01,,"26_ arts. 44 y 173.2 (texto <= D-46-2022)",EVID-224;EVID-223,upper bracket from 2014
 capital,mobiliarias_inmobiliarias_ganancias,rate,0.01,,10,,,2013-01-01,,"26_ art. 92 (texto <= D-46-2022)",EVID-231,retencion definitiva at payment/credit/bank-credit; SIB-supervised carve-out (art. 90)
 capital,dividendos_utilidades,rate,0.01,,5,,,2013-01-01,,"26_ art. 93 (texto <= D-46-2022)",EVID-231,retencion definitiva on distribution
 no_residentes_sin_ep,transporte_seguros_telecom_dividendos_transferencias,rate,0.01,,5,,,2013-01-01,,"26_ art. 104 num. 1 (texto <= D-46-2022; literal d derogado Dto. 19-2013)",EVID-232,definitive; per-payment isolation (art. 103)
