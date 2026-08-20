@@ -16,14 +16,13 @@ boundary.
 ## 1. Where you are
 
 - **Worktree:** `.worktrees/hn-research`, branch `hn-research`. **Merges to
-- **Worktree:** `.worktrees/hn-research`, branch `hn-research`. **Merges to
-  date: 2026-08-19 (W1) and 2026-08-20 (W2, W3 at `c1f9fa8`, W4 at `d5a2f4b`,
-  and synthesis prep at `e106b1f` — rebase-then-merge per root HANDOVER §4.6,
-  owner-executed; main carries HN evidence through EVID-333 + the master
-  index). S-HN1 + S-HN2 synthesis waves merged to main 2026-08-20 at
-  `6d1cfc3` (ninth §4.6 run; `ea8bc40` rebased onto `ca83157`, one
-  hn/HANDOVER conflict resolved vs the prep merge record; root record at
-  main `b98dae1`).**
+  date: 2026-08-19 (W1) and 2026-08-20 (W2; W3 at `c1f9fa8`; W4 at `d5a2f4b`;
+  synthesis prep at `e106b1f`; S-HN1+S-HN2 at `6d1cfc3` w/ root record
+  `b98dae1` — ninth §4.6 run; S-HN3 + R-H66 adoption at `00caef9` w/ root
+  record `503ab9c` — tenth §4.6 run, zero conflicts, remote ref delete +
+  re-push). Rebase-then-merge per root HANDOVER §4.6, owner-executed; main
+  carries HN evidence through EVID-333, the master index, and the
+  S-HN1/S-HN2/S-HN3 requirements incl. adopted R-H66.**
   The cross-country canon D15-D19 was adopted at the W1 merge — HN's
   D-H2/D-H3 are country instantiations of D16/D18 (see
   `shared/docs/regulatory-change-management.md`,
@@ -316,13 +315,13 @@ RESEARCH §5). Structure:
      force-push (root HANDOVER country model). Branch head after S-HN1/S-HN2
      commit = the synthesis-wave base; future waves branch from here.
 
-Session state at stop (2026-08-20, S-HN3 close): evidence COMPLETE
+Session state at stop (2026-08-20, S-HN3 close + tenth merge): evidence COMPLETE
 through EVID-333 (~227 open OQs); corpus 103 files; W1-W4 + synthesis prep
-committed/merged (e106b1f → main at 6d1cfc3 incl. S-HN1/S-HN2); **S-HN1
-taxation (248 FRs) + S-HN2 e-invoicing (155 FRs) + S-HN3 fiscal-reporting
-(362 FRs, 11 files + CSV) drafted + controller-verified, wave log + indexes +
-HANDOVER refreshed — next = S-HN4 payroll synthesis (or acquisition wave /
-R-H66 owner ruling in parallel).**
+committed/merged; **S-HN1 taxation (248 FRs) + S-HN2 e-invoicing (155 FRs) +
+S-HN3 fiscal-reporting (362 FRs, 11 files + CSV) drafted, controller-verified,
+AND MERGED to main (`00caef9`, tenth §4.6 run; root record `503ab9c`);
+R-H66 territoriality ADOPTED by owner — next = S-HN4 payroll synthesis
+(or acquisition wave in parallel).**
 
 ## 7. Conventions (mirroring SV)
 
