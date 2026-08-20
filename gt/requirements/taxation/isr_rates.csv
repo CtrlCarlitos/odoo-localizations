@@ -1,0 +1,18 @@
+category,scope,bracket_or_concept,from_amount,to_amount,rate_pct,fixed_quota,over_excess_of,valid_from,valid_to,provenance,evid,notes
+lucrativas,utilidades_annual,rate,0.01,,31,,,2013-01-01,2013-12-31,"26_ art. 172.1 (texto <= D-46-2022)",EVID-223,FY2013 transitional; historical non-transmittable
+lucrativas,utilidades_annual,rate,0.01,,28,,,2014-01-01,2014-12-31,"26_ art. 172.2 (texto <= D-46-2022)",EVID-223,FY2014 transitional; historical non-transmittable
+lucrativas,utilidades_annual,rate,0.01,,25,,,2015-01-01,,"26_ arts. 36 y 172.3 (texto <= D-46-2022)",EVID-222;EVID-223,permanent rate; GOQ-58 caveat
+lucrativas,utilidades_quarterly_presumptive_base,rate,,,8,,,2013-01-01,,"26_ art. 38 opcion 2 (texto <= D-46-2022)",EVID-222,quarterly advance base estimate on rentas brutas excl. rentas exentas; + 28_ art. 27.2 exclusions (EVID-241)
+lucrativas,utilidades_quarterly_presumptive_base_air,rate,,,15,,,2013-01-01,,"26_ art. 38 + art. 21 Bis (texto <= D-46-2022)",EVID-222,air-transport taxpayers variant
+lucrativas,opcional_simplificado_monthly,bracket_1,0.01,"30,000.00",5,0,,2013-01-01,,"26_ art. 44 (texto <= D-46-2022)",EVID-224,monthly renta imponible = gross excl. IVA minus exempt
+lucrativas,opcional_simplificado_monthly,bracket_2,"30,000.01",,6,"1,500.00","30,000.00",2013-01-01,2013-12-31,"26_ art. 173.1 (reformado Dto. 19-2013) + 28_ art. 87",EVID-223;EVID-240,transitional 6% upper bracket 2013 only; GOQ-59 caveat on 28_ anchor
+lucrativas,opcional_simplificado_monthly,bracket_2,"30,000.01",,7,"1,500.00","30,000.00",2014-01-01,,"26_ arts. 44 y 173.2 (texto <= D-46-2022)",EVID-224;EVID-223,upper bracket from 2014
+capital,mobiliarias_inmobiliarias_ganancias,rate,0.01,,10,,,2013-01-01,,"26_ art. 92 (texto <= D-46-2022)",EVID-231,retencion definitiva at payment/credit/bank-credit; SIB-supervised carve-out (art. 90)
+capital,dividendos_utilidades,rate,0.01,,5,,,2013-01-01,,"26_ art. 93 (texto <= D-46-2022)",EVID-231,retencion definitiva on distribution
+no_residentes_sin_ep,transporte_seguros_telecom_dividendos_transferencias,rate,0.01,,5,,,2013-01-01,,"26_ art. 104 num. 1 (texto <= D-46-2022; literal d derogado Dto. 19-2013)",EVID-232,definitive; per-payment isolation (art. 103)
+no_residentes_sin_ep,noticias_internacionales_peliculas_grabaciones,rate,0.01,,3,,,2013-01-01,,"26_ art. 104 num. 1 excepcion (texto <= D-46-2022)",EVID-232,definitive
+no_residentes_sin_ep,intereses,rate,0.01,,10,,,2013-01-01,,"26_ art. 104 num. 2 (texto <= D-46-2022)",EVID-232,definitive; exemption for loans from regulated foreign banks/multilaterals
+no_residentes_sin_ep,sueldos_dietas_comisiones_artistas_regalias_honorarios_asesoria,rate,0.01,,15,,,2013-01-01,,"26_ art. 104 num. 3 (texto <= D-46-2022)",EVID-232,definitive
+no_residentes_sin_ep,residual_otras_rentas,rate,0.01,,25,,,2013-01-01,,"26_ art. 104 num. 4 (texto <= D-46-2022)",EVID-232,definitive
+facturas_especiales,isr_retention,rate,0.01,,5,,,2019-05-08,,"26_ art. 16 parrafo 1 (reformado por Art. 4 Dto. 4-2019 el 08-05-2019; texto <= D-46-2022)",EVID-234,definitive; on factura value excl. IVA; copy = constancia; 10-day enter
+facturas_especiales,isr_retention_pre2019,rate,0.01,,,,,2013-01-01,2019-05-07,"26_ art. 16 (texto original pre-Dto. 4-2019)",EVID-234,pre-reform retention tied to Opcional Simplificado art. 44 rates (EVID-234 gloss); rate not re-stated in corpus - historical row
