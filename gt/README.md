@@ -10,7 +10,8 @@ Odoo localization requirements for Guatemala, including electronic invoicing
 
 | Topic | Directory | Status |
 |-------|-----------|--------|
-| Electronic invoicing | [requirements/e-invoicing/](requirements/e-invoicing/) | Not started |
+| Electronic invoicing | [requirements/e-invoicing/](requirements/e-invoicing/) | In review (S-GT1) |
+| Catalogs | [requirements/catalogs/](requirements/catalogs/) | In review (S-GT1) |
 | Taxation | [requirements/taxation/](requirements/taxation/) | Not started |
 | Chart of accounts | [requirements/chart-of-accounts/](requirements/chart-of-accounts/) | Not started |
 | Payroll | [requirements/payroll/](requirements/payroll/) | Not started |
