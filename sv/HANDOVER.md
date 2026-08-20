@@ -23,11 +23,18 @@ boundary.**
   produce Takumi-contract requirements files in `sv/requirements/<topic>/`.
   Product architecture context: root `HANDOVER.md` §1 + `shared/docs/`
   (D1–D19 shared canon — binding on all waves).
-- **Corpus status:** evidence phase COMPLETE through W13; synthesis
+- **Corpus status:** evidence phase COMPLETE through W14; synthesis
   delivered S1 (e-invoicing) + S2 (ISR) + S3 (fiscal reporting) + S4
-  (payroll) + S5 (commercial-legal) + S6 (Quincena-25 fold-in) + **S7
-  (special-regimes, 2026-08-19 — this session, first worktree wave)**.
-  Next wave: NIIF/chart-of-accounts (32_/33_), then IVA-core taxation.
+  (payroll) + S5 (commercial-legal) + S6 (Quincena-25 fold-in) + S7
+  (special-regimes, 2026-08-19). **W14 (2026-08-19, this session):
+  NIIF/chart-of-accounts evidence pass COMPLETE** — 32_ (NIIF PYMES 3rd
+  ed.) + 33_ (EY guide) read end-to-end, EVID-275..303, clusters N1-N8 +
+  R29 + SOQ-46..53 in the master index (commits 421103b + 9f4effe).
+  **NEXT WAVE: S8 chart-of-accounts synthesis — plan READY at
+  `docs/superpowers/plans/2026-08-19-s8-chart-of-accounts-synthesis.md`
+  (9 tasks, prefix SV-COA, tasks strictly sequential); execute the
+  subagent loop in this worktree from the plan.** Then IVA-core taxation
+  (01_/02_).
 
 ## 2. Read order for a new session
 
@@ -130,6 +137,23 @@ pending = 02_ (IVA-core wave) + 32_/33_ (NIIF wave).
   consumer interface).
 
 ### Wave log summary (full detail in `sv/EXTRACTION_PLAN.md` §Extraction log)
+
+- **W14 (2026-08-19, this session):** NIIF evidence pass — 32_ = Norma de
+  Contabilidad NIIF para las PYMES **3ra edición (feb-2025; effective
+  2027-01-01, early adoption permitted; Apéndice A Tabla A1 = the D12
+  vintage artifact)** read in full (EVID-275..298); 33_ = EY full-NIIF
+  guide (EVID-299..303) ruled SECONDARY-ONLY (R29(a) — version/horizon
+  facts + contrast set, never sole LB). Master index: clusters N1-N8, R29
+  (b: 32_ Prólogo P12 delegates applicability to jurisdictions — the SV
+  adopting instrument is ABSENT = SOQ-46, the wave's gating acquisition;
+  c: CC 443-444 "NIC"-covers-PYMES working reading), SOQ-46..53. Hard
+  encodings for S8: ESF (a)-(r) + deferred tax ALWAYS non-current; LIFO
+  banned; PPE revaluation per class; ALL internally generated intangibles
+  incl. R&D expensed; leases dual financiero/operativo (NOT IFRS-16);
+  borrowing costs all expensed; revenue = IFRS-15 five-step; no-NOL
+  deferred-tax constraint (SOQ-50); dividend-WHT-to-equity (29.33);
+  Pillar Two config-off; FX prepaid-rate 30.8A; Sec 35 deemed-cost = D18/
+  D19 kin; NIIF 18/19 (2027) = full-NIIF-only watches; S1/S2 out of scope.
 
 - **W1-W5.5 (2026-08-16/17):** foundations + catalogs sidecars + Ley/Regl
   IVA + CT + DTE stack + 2026 regulatory re-read; schemas 52_; DTE
@@ -242,26 +266,34 @@ pending = 02_ (IVA-core wave) + 32_/33_ (NIIF wave).
 
 ## 8. Next actions (ordered)
 
-1. **NEXT WAVE: NIIF/chart-of-accounts** (32_/33_; consumes C3 NIC anchor
-   `commercial-legal/03` + taxation 06's register interface + T3's
-   Consejo-criteria OQ). Standard shape: evidence pass (W14) →
-   master-index clusters → plan → subagent wave in this worktree.
+1. **NEXT WAVE: S8 chart-of-accounts synthesis** — plan READY
+   (`docs/superpowers/plans/2026-08-19-s8-chart-of-accounts-synthesis.md`;
+   9 tasks, prefix SV-COA, T1-T8 strictly sequential, T9 index/close).
+   Execute the subagent loop in this worktree per the plan's protocol.
+   LB = 32_ (cite section/párrafo); 33_ secondary-only (R29(a));
+   SOQ-46 instrument gap rides every §2 preamble; accounting-vs-fiscal
+   two-track invariant = the wave's spine (fiscal values consumed BY ID,
+   bridges via Sec 29 deferred tax).
 2. Then **IVA-core taxation wave** (01_/02_ full synthesis; folds the
    R/S and IVA-retention cross-refs from S3's 01/04 files, SOQ-40 FOVIAL
    chain design pass, LSI-tercerización FCF pointer from S6).
-3. **S7 acquisition follow-ups (SOQ rides):** Reglamento General ZF
-   (SOQ-31), LESIA (SOQ-32), DUCA user manual (SOQ-36), FOVIAL law
-   D.L. 208-2000 + COTRANS instrument (SOQ-39), D.L. 598-2020 +
-   EVID-167 tail laws (SOQ-41), current consolidations for 12_/13_/14_/
-   17b_/74_ (SOQ-30), $18-tasa adjusting acuerdos (SOQ-34). Numbering
-   continues from 75.
-4. SOQ follow-ups per §7; periodic external checks (factura.gob.sv,
+3. **Acquisition follow-ups (SOQ rides):** S8 — **SV NIIF-adopting
+   instrument (Consejo de Vigilancia criteria per CC Arts. 443-444 or
+   successor; SOQ-46 — the gating gap) + optional 2nd-edition NIIF
+   PYMES text (SOQ-48)**; S7 — Reglamento General ZF (SOQ-31), LESIA
+   (SOQ-32), DUCA user manual (SOQ-36), FOVIAL law D.L. 208-2000 +
+   COTRANS instrument (SOQ-39), D.L. 598-2020 + EVID-167 tail laws
+   (SOQ-41), current consolidations for 12_/13_/14_/17b_/74_ (SOQ-30),
+   $18-tasa adjusting acuerdos (SOQ-34).
+4. Registry note: numbering continues from **75** (32_/33_ were already
+   registered; the S8 acquisition candidates above are the NEW numbering).
+5. SOQ follow-ups per §7; periodic external checks (factura.gob.sv,
    uif.gob.sv/marco-legal, MH formularios, D.O. recovery).
-5. Deferred cleanups (CAN-STAND): prior-wave deferred-minor lists (root
+6. Deferred cleanups (CAN-STAND): prior-wave deferred-minor lists (root
    HANDOVER §9 + per-task reviews; S7's triaged-ride list is in the
    final review record — AC-007 $1,100 Given-gap is the first-pick),
    boilerplate sweep (~11 files), COVERAGE regeneration script.
-6. At wave closes: update THIS file + master index + COVERAGE + topic
+7. At wave closes: update THIS file + master index + COVERAGE + topic
    indexes; commit + push sv-research; record rulings here BEFORE
    deleting any SDD workspace. Owner decides sv-research → main merges
    at milestones (rebase-then-merge; never force-push).
