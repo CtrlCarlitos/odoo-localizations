@@ -4,7 +4,7 @@
 |---------|-------|
 | Country | hn |
 | Topic   | payroll |
-| Status  | draft (S-HN4 synthesis wave, in review) |
+| Status  | approved (V-HN1 validation wave 2026-08-20; see EXTRACTION_PLAN wave log) |
 | Authors | Takumi synthesis wave S-HN4 + controller |
 | Updated | 2026-08-20 |
 
@@ -29,19 +29,19 @@ by id, never re-derived. Source-to-requirements coverage:
 | File | Scope (clusters) | FR range | FRs | LBs | ACs | OQs |
 |------|------------------|----------|-----|-----|-----|-----|
 | [01_smm-chassis.md](01_smm-chassis.md) | SMM machinery (D. 103), bienio chains 2022-2027 as dated rows, maquila/zonas-libres track, retro deadlines, salvaguarda chain, **DGS promedio rows (R-H47 — THE feed of taxation/04 FR-134)** (`smm_tables.csv` sidecar) (P1) | HN-PAYR-FR-001..040 | 40 | 21 | 16 | 14 |
-| [02_13th-14th-bono.md](02_13th-14th-bono.md) | 13th month (aguinaldo) = corpus GAP config-gapped placeholders; 14th month (Acuerdo 02-95: 30-jun gate, ordinary-salary average, SMM-average variant, 30-day normalization, exit proration); bono educativo (P2+P3+P4) | HN-PAYR-FR-051..086 | 36 | 11 | 17 | 6 |
+| [02_13th-14th-bono.md](02_13th-14th-bono.md) | 13th month (aguinaldo) = corpus GAP config-gapped placeholders; 14th month (Acuerdo 02-95: 30-jun gate, ordinary-salary average, SMM-average variant, 30-day normalization, exit proration); bono educativo (P2+P3+P4) | HN-PAYR-FR-051..087 | 37 | 12 | 17 | 7 |
 | [03_ihss-cotizaciones.md](03_ihss-cotizaciones.md) | IHSS cotización matrix (IVM 3.5/2.5/0.5 + EM 5/2.5/0.5 ⇒ worker 5.0%/employer 8.5%), TWO regime ceilings as dated rows, min(salario, techo) base, base-composition config flag (LI Art. 100 delegation), withholding mechanics, enforcement (P5) | HN-PAYR-FR-101..135 | 35 | 14 | 15 | 9 |
 | [04_ihss-incapacidad.md](04_ihss-incapacidad.md) | RIT incapacidad: NO cuarentena (days 1-3 employer salary, 4-365 IHSS 66% + complement), 35-day episode key, 182+183=365 structure, refrendo matrix, maternity 42+42 subsidy, entitlement/no-pay matrix (P6) | HN-PAYR-FR-141..170 | 30 | 15 | 18 | 5 |
 | [05_rap-fondo.md](05_rap-fondo.md) | RAP-side stack: fondo 4% (techo 3×SMM-nivel-más-alto) + RAP 1.5+1.5 on IVM-excess base, three-bases-never-share rule, termination offset matrix (R-H55), grandfathering (D. 150-2008), D. 40-2026 window + FOVIIF (P7) | HN-PAYR-FR-181..215 | 35 | 15 | 18 | 9 |
-| [06_jornada-surcharges.md](06_jornada-surcharges.md) | Jornada types (44 worked/48 paid), night +25%, OT ×1.25/×1.50/×1.75 + caps, séptimo día ÷6, 10 feriados (1960-vintage dated config) + collision rule, rest-day/holiday ×2 (P8) | HN-PAYR-FR-221..247 | 27 | 13 | 16 | 4 |
+| [06_jornada-surcharges.md](06_jornada-surcharges.md) | Jornada types (44 worked/48 paid), night +25%, OT ×1.25/×1.50/×1.75 + caps, séptimo día ÷6, 11 feriados (1960-vintage dated config, R-H70) + collision rule, rest-day/holiday ×2 (P8) | HN-PAYR-FR-221..247 | 27 | 13 | 16 | 5 |
 | [07_vacaciones.md](07_vacaciones.md) | Vacaciones: 10/12/15/20 días laborables scale, 200-day rule, pay-3-days-before, cash-ban + STSS exceptions, 6-month ordinary average ÷ days worked (NO 360 CT-side), ≤2-year accumulation (P9) | HN-PAYR-FR-261..280 | 20 | 12 | 12 | 2 |
-| [08_cesantia-preaviso.md](08_cesantia-preaviso.md) | Preaviso 24h-2m scale + in-lieu, cesantía 10d/20d/1mo-yr + fraction, 25/15-month caps, 35%/75% variants, last-6-month base ÷ days worked, salarios caídos, pregnancy penalties, constancia, NO final-pay deadline (negative) (P10) | HN-PAYR-FR-291..325 | 35 | 14 | 22 | 6 |
+| [08_cesantia-preaviso.md](08_cesantia-preaviso.md) | Preaviso 24h-2m scale + in-lieu, cesantía 10d/20d/1mo-yr + fraction, 25/15-month caps, 35%/75% variants, last-6-month base ÷ days worked, salarios caídos, pregnancy penalties, constancia, NO final-pay deadline (negative) (P10) | HN-PAYR-FR-291..325 | 35 | 14 | 22 | 7 |
 | [09_suspension-maternity-special.md](09_suspension-maternity-special.md) | 15 suspension causes, CT sickness half-pay layering vs RIT, CT maternity 4+6w + 180-day base + IHSS reconciliation, minors, domésticos (cash-only base), riesgo profesional residual (P11) | HN-PAYR-FR-331..357 | 27 | 11 | 13 | 5 |
 | [10_salario-concepts-records.md](10_salario-concepts-records.md) | Salario taxonomy (habitual+retributive; in-kind ≤30%), pay periods, salario completo indemnity base, mandatory deductions (union/non-union/coop), embargo caps (1959 nominals dated), Libro de Salarios/planillas, contract chassis + retroactive start, **85_ mislabel guard (EVID-333)** (P12) | HN-PAYR-FR-371..398 | 28 | 20 | 16 | 3 |
-| **Total** | | HN-PAYR-FR-001..398 | **313** | **146** | **163** | **73** |
+| **Total** | | HN-PAYR-FR-001..398 | **314** | **147** | **163** | **76** |
 
 Numbering note: FR ranges pre-allocated per file (subagent dispatch
-pattern); unused tails/reserved gaps (041-050, 087-100, 136-140, 171-180,
+pattern); unused tails/reserved gaps (041-050, 088-100 (087 consumed at V-HN1 — FR-087 D. 117-2021 interp rows), 136-140, 171-180,
 216-220, 248-260, 281-290, 326-330, 358-370, 399-405) stay reserved for
 later additions — no renumbering. File 03 consumed its full allocation
 (101..135, no tail). The `smm_tables.csv` sidecar carries the SMM value

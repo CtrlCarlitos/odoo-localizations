@@ -36,11 +36,11 @@ retention plantilla's and are consumed by id from
 HN-TAX-FR-121..153); the dismissal/termination-settlement composition
 (preaviso, cesantía, salarios caídos, fixed-term Art. 121 indemnity) — file
 08 `08_cesantia-preaviso.md` FR-291..325; jornada/working-time calendars and
-the weekly-rest law — file 06 `06_jornada.md` FR-221..250; suspension and
-maternity statuses — file 09 `09_suspension-maternity.md` FR-331..360; the
+the weekly-rest law — file 06 `06_jornada-surcharges.md` FR-221..250; suspension and
+maternity statuses — file 09 `09_suspension-maternity-special.md` FR-331..360; the
 salario/no-salario classification and in-kind valuation semantics and the
 Libro de Salarios/planillas record outputs — file 10
-`10_salario-records.md` FR-371..405; SMM/13th/14th-month machinery — files
+`10_salario-concepts-records.md` FR-371..405; SMM/13th/14th-month machinery — files
 01 (FR-001..040) and 02 (FR-051..090); IHSS — files 03/04; RAP/fondo —
 file 05 (FR-181..215).
 
@@ -91,7 +91,7 @@ all FRs.
 - **HN-PAYR-FR-262:** The system shall define the entitlement unit as the
   día laborable: consecutive WORKING days of the worker's own schedule,
   EXCLUDING the weekly rest day and other non-working days per the
-  working-time calendar owned by file 06 (`06_jornada.md`, FR-221..250 —
+  working-time calendar owned by file 06 (`06_jornada-surcharges.md`, FR-221..250 —
   consumed by id); calendar spans shall be derived per worker calendar,
   never by a fixed calendar-day equivalence or a 30-day month assumption.
   (LB-002; EV85:EVID-314)
@@ -101,7 +101,7 @@ all FRs.
   vacations themselves and the weekly rest), justified illnesses, contract
   prórroga or renewal, and any analogous cause that does not terminate the
   contract; suspension statuses map onto this rule by id from file 09
-  (`09_suspension-maternity.md`, FR-331..360 — no re-derivation).
+  (`09_suspension-maternity-special.md`, FR-331..360 — no re-derivation).
   (LB-002; EV85:EVID-314)
 - **HN-PAYR-FR-264:** The system shall apply the 200-day irregular-work
   substitute: where the work is not performed regularly all year, the
@@ -171,7 +171,7 @@ all FRs.
   valuation, if any] ÷ days ACTUALLY worked in that base period — the
   divisor is days actually worked and NEVER 360 (no 360-day divisor exists
   anywhere in the CT); in-kind valuation and salario classification
-  semantics are consumed by id from file 10 (`10_salario-records.md`,
+  semantics are consumed by id from file 10 (`10_salario-concepts-records.md`,
   FR-371..405); the resolved daily base is snapshotted onto the
   grant/payslip record (D15 snapshot-on-write).
   (LB-007; EV85:EVID-316)
@@ -222,7 +222,7 @@ all FRs.
   mechanics are restated in this file. (LB-001; EV85:EVID-314)
 - **HN-PAYR-FR-280:** The system shall emit the vacation record surfaces
   as data shapes consumed by the payroll-records layer of file 10
-  (`10_salario-records.md`, FR-371..405): grant/accumulation constancias
+  (`10_salario-concepts-records.md`, FR-371..405): grant/accumulation constancias
   (FR-272), per-worker vacation balances and accrual state, and the
   pay-3-days-before payslip rows (FR-269) feeding the Libro de
   Salarios/planilla outputs. (LB-009; LB-004; EV85:EVID-315)

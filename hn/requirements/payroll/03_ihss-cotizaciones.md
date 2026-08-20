@@ -43,7 +43,7 @@ HN-PAYR-FR-141..170); this file cites the LI Arts. 34.b/39.b/42.2/45/90-92
 frame that authorizes it, nothing more (CT Título V residual = file 09). It
 does not own the SMM rows feeding the multa unit (file 01,
 HN-PAYR-FR-001..040), 13th/14th-month mechanics (file 02,
-HN-PAYR-FR-051..090), RAP/fondo/FOVIIF cotizaciones that CONSUME the IVM
+HN-PAYR-FR-051..087), RAP/fondo/FOVIIF cotizaciones that CONSUME the IVM
 techo (file 05, HN-PAYR-FR-181..215), jornada (06), vacaciones (07),
 cesantía/preaviso (08), suspension/maternity CT residual (09), the salary
 concept/records (10, cross-referenced for the LI Art. 106 definitional
@@ -192,14 +192,21 @@ period (*hecho generador*), additive-only, never-guess.
   coincide in 2025). (LB-001; LB-002; LB-010; EV81:EVID-251/252/259)
 - **HN-PAYR-FR-115:** The system shall hold the contribution-base
   COMPOSITION — whether the cotizable remuneration includes the 13th/14th
-  month (*décimo tercer/cuarto mes*), overtime, or bonuses — as a
+  month (*décimo tercero/cuarto mes*), overtime, or bonuses — as a
   CONFIGURATION FLAG, because LI Art. 100 delegates the salary definition,
   salary categories and per-category base salaries wholesale to the
   unacquired Reglamento General (87_ OQ-1, TOP acquisition lead): the
   system shall NEVER hardcode an include/exclude decision, and a payslip
   carrying such components with an unconfigured composition shall surface
   an explicit pending-base-composition flag rather than silently computing
-  (never-guess rule). (LB-013; EV81:EVID-262)
+  (never-guess rule). V-HN1 statutory LEAN recorded (does NOT close the
+  flag): D. 117-2021 Art. 2 (`89_`, EVID-335, valid 14-feb-2022) — the
+  aguinaldo "está exento del pago de todo impuesto, descuentos,
+  cotizaciones y deducciones de cualquier naturaleza, salvo... alimentos"
+  — i.e. a 2022 authentic interpretation bars cotizaciones from the
+  13th-month leg; the flag still governs (Reglamento General unacquired;
+  14th month/OT/bono legs untouched by the interp — see payroll/02
+  OQ-007). (LB-013; EV81:EVID-262)
 - **HN-PAYR-FR-116:** The system shall provide an in-kind remuneration
   equivalence hook: salary in kind (*en especie* — e.g. alimentos,
   vivienda) counts as affiliation-triggering remuneration (LI Art. 3.a), and
@@ -209,7 +216,7 @@ period (*hecho generador*), additive-only, never-guess.
 - **HN-PAYR-FR-117:** The system shall record LI Art. 106's definitional
   recourse as INTERPRETIVE METADATA only: absent express reglamento
   definitions, labor-law definitions apply subsidiarily — a pointer to file
-  10's salary concept (`10_salario-records.md`,
+  10's salary concept (`10_salario-concepts-records.md`,
   HN-PAYR-FR-371..405) by cross-reference, explicitly NOT a derivation
   license for base composition (which remains governed by FR-115's config
   flag). (LB-013; EV81:EVID-262)
@@ -289,7 +296,7 @@ period (*hecho generador*), additive-only, never-guess.
   the rate arrives from the Reglamento de Riesgos Profesionales / JD cuadro
   de cuotas (87_ OQ-2 — config gap + acquisition lead, never a default
   rate); the CT Título V residual belongs to file 09
-  (`09_suspension-maternity.md`, HN-PAYR-FR-331..360).
+  (`09_suspension-maternity-special.md`, HN-PAYR-FR-331..357).
   (LB-014; EV81:EVID-263)
 
 ### 3.7 Enforcement metadata

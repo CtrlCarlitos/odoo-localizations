@@ -6,7 +6,7 @@
 | Topic   | taxation |
 | Status  | draft |
 | Authors | Takumi synthesis wave S-HN1 + controller |
-| Updated | 2026-08-19 |
+| Updated | 2026-08-20 (V-HN1 validation fixes) |
 
 ## 1. Purpose
 
@@ -33,7 +33,7 @@ and the general retention entero anchor of 10 días calendario with
 per-instrument hábil-vs-calendario semantics.
 
 It does **not** cover: annual deduction semantics and deductibility gates —
-the deductions file (file 02, HN-TAX-FR-046..080) owns
+the deductions file (file 02, HN-TAX-FR-046..078) owns
 them and this file only consumes the stack inside the plantilla; the
 non-resident 13-category gross-withholding table and the 4% real-estate buyer
 retention — the rates/non-resident file (file 03, T5 zone); the DJIMR/DMR
@@ -57,7 +57,7 @@ clusters (dated rows, hecho-generador/period resolution, never-guess rule).
 | ID | Citation (Spanish) | English translation | Source file | Location |
 |----|--------------------|---------------------|-------------|----------|
 | LB-001 | Ley ISR (D.L. 25-1963, texto consolidado SAR-07-2025), Art. 22.b y Art. 23 | PN progressive scale: exentos L0.01–L217,493.16; 15% to L331,638.50; 20% to L771,252.38; 25% above (FY2025 vintage as consolidated); "Esta escala de tasas progresivas será ajustada automáticamente de forma anual a partir del año 2017… aplicando la variación interanual del Índice de Precios al Consumidor (IPC)… Asimismo, estos valores se ajustarán en los artículos de la presente Ley que hagan referencia a los mismos"; Art. 23 exempts the first band amount (rides the auto-adjustment) | `hn/sources/01_Ley_ISR_DL25_consoliada_SAR07-2025.pdf` | Art. 22 pp.16-17; Art. 23 p.21 (EV01:EVID-010) |
-| LB-002 | Acuerdos SAR-020-2022 / SAR-014-2023 / SAR-07-2024 / SAR-07-2025 / SAR-01-2026 (tablas ISR) | Five FY vintages of the PN scale (Exentos ≤ / 15% ≤ / 20% ≤ / 25% >): FY2022 181,274.57 / 276,411.57 / 642,817.63 (+5.32%); FY2023 199,039.47 / 303,499.90 / 705,813.76 (+9.80%); FY2024 209,369.62 / 319,251.54 / 742,445.49 (+5.19%); FY2025 217,493.16 / 331,638.50 / 771,252.38 (+3.88%); FY2026 228,324.32 / 348,154.10 / 809,660.75 (+4.98%); every acuerdo: "Los Agentes de Retención deberán utilizar la tabla anterior para calcular el monto de la retención mensual" from Jan 1 of the FY; the plantilla's embedded table carries FULL-PRECISION values (e.g. 228,324.31904311673) proving values = prior-year × (1+IPC), rounded 2dp only at print (R-H10) | `hn/sources/12_Acuerdo_SAR-020-2022_tabla_ISR_2022.pdf`, `10_Acuerdo_SAR-014-2023_ajuste_IPC.pdf`, `09_Acuerdo_SAR-07-2024_G36458.pdf`, `08_Acuerdo_SAR-07-2025_G36735.pdf`, `07_Acuerdo_SAR-01-2026_G37051.pdf` | 12_ p.2; 10_ p.2; 09_ p.2; 08_ p.2; 07_ p.3 (EV07:EVID-054) |
+| LB-002 | Acuerdos SAR-020-2022 / SAR-014-2023 / SAR-07-2024 / SAR-07-2025 / SAR-01-2026 (tablas ISR) | Five FY vintages of the PN scale (Exentos ≤ / 15% ≤ / 20% ≤ / 25% >): FY2022 181,274.56 / 276,411.57 / 642,817.63 (+5.32%; V-HN1 cent-fix: exempt ceiling is 181,274.56 per EVID-054 + isr_brackets.csv — .57 is the 15%-band floor); FY2023 199,039.47 / 303,499.90 / 705,813.76 (+9.80%); FY2024 209,369.62 / 319,251.54 / 742,445.49 (+5.19%); FY2025 217,493.16 / 331,638.50 / 771,252.38 (+3.88%); FY2026 228,324.32 / 348,154.10 / 809,660.75 (+4.98%); every acuerdo: "Los Agentes de Retención deberán utilizar la tabla anterior para calcular el monto de la retención mensual" from Jan 1 of the FY; the plantilla's embedded table carries FULL-PRECISION values (e.g. 228,324.31904311673) proving values = prior-year × (1+IPC), rounded 2dp only at print (R-H10) | `hn/sources/12_Acuerdo_SAR-020-2022_tabla_ISR_2022.pdf`, `10_Acuerdo_SAR-014-2023_ajuste_IPC.pdf`, `09_Acuerdo_SAR-07-2024_G36458.pdf`, `08_Acuerdo_SAR-07-2025_G36735.pdf`, `07_Acuerdo_SAR-01-2026_G37051.pdf` | 12_ p.2; 10_ p.2; 09_ p.2; 08_ p.2; 07_ p.3 (EV07:EVID-054) |
 | LB-003 | Plantilla Retención Fuente 2026 (`11_`), hoja "Cálculos" + Instrucciones | THE withholding algorithm: annual gross = Σ monthly salaries + ajuste + 14th-month excess `=IF(S16>$Z$3,(S16-$Z$3),0)` + 13th-month excess (same rule, Dec) + vacation excess `=IF(W16<=30,0,(W16-30)*(R16/360))` + bonuses/overtime/commissions + other income (in-kind, dietas, fuel, school/performance bonuses, phone, housing, transport); deductions: medical L40,000 (≤64y) / L80,000 (65+) `IF(age<=64,40000,80000)`, +L30,000 age ≥60, 65+ renta bruta ≤L350,000 → L350,000 exempt, colegiación, pension/previsión contributions (public INJUPEMP/INPREUNAH/IPM and private RAP/AFP), other documented; base = gross − deductions; annual tax from the FY table; monthly retention = annual tax ÷ retention-months (10, 11 or 12); "el retenedor debe declarar los 12 meses para no generar omisos"; caps anchored to 10 × SMM promedio = Z3 = Y3×10 where Y3 = L13,985.16 with workbook note "CÁLCULO EN BASE AL SALARIO MÍNIMO 2025, SUJETO A CAMBIO CON NUEVO SALARIO MÍNIMO 2026"; DMR sheet exports per-employee RTN/ID, name, base ÷ months, tax ÷ months, concepto 111 "salarios" | `hn/sources/11_Plantilla_Retencion_Fuente_2026.xlsx` | sheet Cálculos rows 16+; Instrucciones rows 9-36 (EV07:EVID-055) |
 | LB-004 | Plantilla `11_`, Instrucciones cols C/D (cross-references) | The plantilla cites: Art. 10.h Ley ISR + "Acuerdo STSS-308-2022" (13th/14th-month SMM basis), SETRASS-109-2024 (SMM), D. 199-2006 (L30k senior medical), D. 194-2002 Art. 14 (65+ ≤L350k exempt), D. 59-2020 (L80k), "Art. 51 del Reglamento de la Ley de ISR" (pension deductions — an ISR reglamento exists and is cited but NOT in corpus; acquisition lead 07_ OQ-3) | `hn/sources/11_Plantilla_Retencion_Fuente_2026.xlsx` | Instrucciones col C/D (EV07:EVID-056) |
 | LB-005 | Ley ISR, Art. 10 (rentas no gravables) | Renta bruta = total yearly income; NOT in renta bruta: f) occupational-risk indemnities and IHSS benefits; g) pension-fund investment income; h) "El valor de las prestaciones laborales, bonificación por vacaciones ordinarias de conformidad con el Código del Trabajo hasta con un pago adicional de treinta (30) días, jubilaciones, pensiones y montepíos" + contributions thereto deductible; "El décimo tercer mes en concepto de aguinaldo, así como el décimo cuarto mes de salario, hasta por el monto de diez (10) salarios mínimos promedio, en cada caso, a partir de cuyo monto serán gravables" | `hn/sources/01_Ley_ISR_DL25_consoliada_SAR07-2025.pdf` | Art. 10 pp.9-10 (EV01:EVID-006) |
@@ -150,18 +150,25 @@ clusters (dated rows, hecho-generador/period resolution, never-guess rule).
   investment income (g), *jubilaciones, pensiones y montepíos* and the
   vacation bonus within the 30-day additional payment (h) — with the
   exclusion SEMANTICS owned by the deductions file (file 02,
-  HN-TAX-FR-046..080; no re-derivation here).
+  HN-TAX-FR-046..078; no re-derivation here).
   (LB-005; EV01:EVID-006)
 - **HN-TAX-FR-131:** The system shall apply the senior/personal deduction
   STACK inside the plantilla: (a) L40,000 (≤64 years) or L80,000 (65+) —
   age resolved by birthday-year rule, from the FY the worker turns the
   threshold age; (b) +L30,000 when age ≥ 60 (D. 199-2006, cited by the
-  plantilla — statute unacquired, LEAD, OQ-002); (c) 65+ with renta bruta
-  ≤ L350,000 → exempt up to L350,000 *de pleno derecho* (no voucher, no
-  administrative procedure; intereses and ganancias de capital excluded
-  from the L350,000 test base); (d) *colegiación profesional* (professional
+  plantilla — statute IN CORPUS as `95_`+`96_`, evidence pass pending,
+  OQ-002; kin of file 02 OQ-008/FR-067 — the plantilla-side row follows
+  the same activation-blocked status until the `95_`/`96_` evidence read);
+  (c) 65+ with renta bruta ≤ L350,000 (intereses and ganancias de capital
+  excluded from the test base) → the worker is exempt from ISR *de pleno
+  derecho* — a CLIFF, not a cap (V-HN1 evidence fix per EVID-069: "renta
+  bruta hasta de L350,000, quedan exentos del pago de este impuesto" — at
+  or below the threshold the tax is L0.00 with no voucher and no
+  administrative procedure; above it the normal regime applies in full, no
+  partial exemption; wrongly-withheld amounts are returned per the SEFIN
+  procedure); (d) *colegiación profesional* (professional
   association dues, if practicing);   (e) other documented deductions;
-  deductibility semantics and gates = file 02 (HN-TAX-FR-046..080).
+  deductibility semantics and gates = file 02 (HN-TAX-FR-046..078).
   (LB-003; LB-006; LB-010; EV07:EVID-055/056;
   EV01:EVID-008; EV05:EVID-069)
 - **HN-TAX-FR-132:** The system shall deduct pension/previsión
@@ -420,10 +427,12 @@ P1-owned). FR-135 records the composite-gate IPC ride (band leg only).
   excess = (45 − 30) × 1,000 = L15,000.00; the 360 divisor never appears in
   any CT-side (labor prestaciones) computation (FR-129).
 - **AC-006:** Given a worker aged 67 with renta bruta L300,000.00, then
-  the L350,000 exemption applies (base → L0, retention L0 — intereses/GC
-  excluded from the test); given age 67 and renta bruta L400,000.00, then
-  the deduction = L80,000 (no L350k exemption); given age 62, then L40,000
-  + L30,000 = L70,000 (FR-131).
+  the L350,000 exemption applies as a cliff (base → L0, retention L0 —
+  intereses/GC excluded from the test); given age 67 and renta bruta
+  L400,000.00, then the normal regime applies in full (deduction L80,000,
+  no partial L350k exemption); given age 62 (with the L30,000 senior row
+  ACTIVATED — file 02 OQ-008/FR-067; while activation-blocked the stack is
+  L40,000 only), then L40,000 + L30,000 = L70,000 (FR-131).
 - **AC-007:** Given a single-source salaried worker with FY2025 gross
   L250,000.00 fully retained, then the filing-exemption flag is set
   (250,000 ≤ composite 257,493.16); given L260,000.00, then the flag is not
@@ -464,13 +473,24 @@ P1-owned). FR-135 records the composite-gate IPC ride (band leg only).
   annual base, then December recomputes annual tax and the December row =
   annual tax − retentions Jan..Nov, with 12 monthly rows emitted for the
   DMR feed even when months retained zero (FR-133, FR-153).
+- **AC-017:** Given 12.5% retentions practiced in March 2026, then the
+  entero deadline = 2026-04-10 and the exposure record flags solidary
+  responsibility + CT interest/multa for failure to retain or enter
+  (FR-141).
+- **AC-018:** Given a 1%-retained supplier requesting a constancia for
+  January 2026, then the constancia issues with the retained amount
+  creditable in that supplier's annual ISR declaration (FR-147).
+- **AC-019:** Given a supplier in a verified loss-making FY with retained
+  1% balances, then the retained-balance ledger exposes the
+  devolución-or-credit request flag routed to the CT/T11 refunds surface
+  (no automatic refund) (FR-148).
 
 ## 7. Open Questions
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
 | OQ-001 | Annual-table availability gap (07_ OQ-4 residual): acuerdos take effect Jan-1 but publish mid-January (SAR-07-2025 = 22-ene-2025 for FY2025). FR-124 blocks with a config flag (never-guess). Confirm SAR practice for January runs made before the acuerdo publishes (prior-table provisionally? retro-recompute?) before enabling January payroll without manual config. | no | Takumi S-HN1 + controller | open |
-| OQ-002 | D. 199-2006 (+L30,000 @ age ≥60 senior medical tier) and Acuerdo STSS-308-2022 (13th/14th-month SMM instrument) are cited by the plantilla (`11_`, EVID-056) but unacquired — LEADs; the L30k tier and the SMM-basis citation stand on the plantilla contract until acquired. | no | acquisition queue | open |
+| OQ-002 | D. 199-2006 (+L30,000 @ age ≥60 senior medical tier) and Acuerdo STSS-308-2022 (13th/14th-month SMM instrument) are cited by the plantilla (`11_`, EVID-056) — V-HN1 status fix: BOTH now in corpus (D. 199-2006 = `95_` + reforma `96_`, evidence pass pending; Acuerdo STSS-308-2022 = `101_`, evidenced EVID-230..232 in the payroll wave); the L30k tier stays activation-blocked until the `95_`/`96_` read (kin file 02 OQ-008) and the SMM-basis citation is encoded in payroll/01. | no | acquisition queue | open |
 | OQ-003 | "Art. 51 del Reglamento de la Ley de ISR" (pension-contribution deduction; modern reglamento = "Acuerdo N°799" per 13_ OQ-2/67_ OQ-3) not in corpus — LEAD; FR-132 stands on Art. 10.h + plantilla. | no | acquisition queue | open |
 | OQ-004 | Retention-months divisor convention: plantilla prints "10, 11 or 12" with a declare-12-months note — elapsed-months recomputation (Oct/Nov/Dec runs) vs months-served for mid-year hires. FR-133 implements prorate with the divisor exposed; verify vs the live plantilla/DMR omisos behavior before freezing. (01_ OQ-1 residual after its EVID-055 resolution.) | no | Takumi S-HN1 + payroll wave | open |
 | OQ-005 | FY2026 composite sole-source gate (01_ OQ-6, R-H9): 40,000 + 228,324.32 = L268,324.32 computed, no SAR print yet — dated config, recompute-from-components enforced (FR-135); pin when SAR/Ayuda prints the value. | no | Takumi S-HN1 | open |

@@ -420,7 +420,12 @@ type addition (FR-011) extends the file additively.
 - **AC-014:** Given `document_types.csv` loaded, then 20 rows exist (13
   current-era incl. 02/09/10×2 special rows + 7 historical-era), each with
   a status from the §4 value set and era-consistent valid_from/valid_to
-  (FR-030).
+  (FR-030) — era-consistency is PER-ROW, with these sanctioned exceptions
+  (V-HN1): code 02 unassigned (empty name/category by design, valid_from
+  2017-12-31); code 09 machine-prefix row (no dates — not a document
+  type); the code-10 compras-eventuales row carries valid_from 2016-03-22
+  (DEI-279-2015's own instrument date — the grammar predates the 2017-12-31
+  regime, R-H38); current-era rows leave valid_to open.
 
 ## 7. Open Questions
 

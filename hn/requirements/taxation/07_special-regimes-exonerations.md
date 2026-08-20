@@ -6,7 +6,7 @@
 | Topic   | taxation |
 | Status  | draft |
 | Authors | Takumi synthesis wave S-HN1 + controller |
-| Updated | 2026-08-19 |
+| Updated | 2026-08-20 (V-HN1 validation fixes) |
 
 ## 1. Purpose
 
@@ -283,7 +283,9 @@ D. 314-98 tourism Art. 5.1); E-Arts 25/26 windows (2011 — historical); the
   vehicle-regularization L10,000/pre-2010 rows with valid_from 13-feb-2026 —
   crossref surface, window-scoped, never an engine of this file (expiry
   backfilled when the window instrument's successor lands).
-  (LB-010; D-H2.6 dated-row rule)
+  (LB-010; D-H2.6 dated-row rule; no EVID anchor — config-structure FR
+  whose LB-010 is itself the instrument crossref: controller waiver
+  granted at V-HN1, the only such row in this topic)
 
 ## 4. Data Model
 

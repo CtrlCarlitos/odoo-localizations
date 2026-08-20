@@ -167,7 +167,7 @@ general,comercio,1-10,2027-01-01,2027-12-31,"14,089.59","469.65","58.71",6,print
 general,comercio,11-50,2027-01-01,2027-12-31,"14,537.06","484.57","60.57",6,printed,EV82:EVID-224,233-2026 Art. 2 tabla 2027 (gazette OCR only)
 general,comercio,51-150,2027-01-01,2027-12-31,"17,625.99","587.53","73.44",7,printed,EV82:EVID-224,"hora carries the print-defect coma (printed 73,44 — EVID-224 [coma sic])"
 general,comercio,151+,2027-01-01,2027-12-31,"20,195.35","673.18",,7.5,reconstruction_blocked,EV82:EVID-224,hora unreadable (90_ OQ-3)
-general,restaurantes,1-10,2027-01-01,2027-12-31,"14,089.58","469.65","58.71",6,reconstruction_blocked,EV82:EVID-224,mensual final-digit OCR uncertainty (58 vs 59 in ramas 5/6 — EVID-224 [?]); verify before production use
+general,restaurantes,1-10,2027-01-01,2027-12-31,,"469.65","58.71",6,reconstruction_blocked,EV82:EVID-224,mensual final-digit OCR uncertainty (58 vs 59 across ramas — EVID-224 [?]); mensual cell BLANKED at V-HN1 per FR-016 never-a-guessed-value discipline; jornada/hora legible; verify before production use
 general,restaurantes,11-50,2027-01-01,2027-12-31,"14,537.06","484.57","60.57",6,printed,EV82:EVID-224,233-2026 Art. 2 tabla 2027 (gazette OCR only)
 general,restaurantes,51-150,2027-01-01,2027-12-31,"17,459.80","581.99","72.75",7,printed,EV82:EVID-224,233-2026 Art. 2 tabla 2027 (gazette OCR only)
 general,restaurantes,151+,2027-01-01,2027-12-31,"19,449.24","648.31",,7.5,reconstruction_blocked,EV82:EVID-224,hora unreadable (90_ OQ-3)

@@ -24,7 +24,7 @@ prolongation of a night shift on the night-salary base), the ≤12h/day and
 ≤4×/week caps, the error-recovery exclusion, and the Art. 335 statutory duty
 to book overtime SEPARATELY in planillas (payroll registers); (c) the
 **séptimo día** (7th-day weekly paid rest, 1 per 6 worked) with the ÷6 /
-÷-days-worked prior-week average routine; (d) the **10 paid feriados**
+÷-days-worked prior-week average routine; (d) the **11 paid feriados**
 (national holidays) as dated configuration (D. 275-1960 vintage text) with
 the pay-even-on-Sunday rule, the two-holiday collision collapse, the ÷6
 average holiday pay, the quincenal/monthly implicit-inclusion rule and the
@@ -38,17 +38,17 @@ concept families and the ISR plantilla strictly by id.
 
 It does **not** own: SMM values/promedio rows — `01_smm-chassis.md`
 (HN-PAYR-FR-001..040); 13th/14th month and bono — `02_13th-14th-bono.md`
-(HN-PAYR-FR-051..090); IHSS contributions and incapacidad —
+(HN-PAYR-FR-051..087); IHSS contributions and incapacidad —
 `03_ihss-cotizaciones.md` (HN-PAYR-FR-101..135) and
 `04_ihss-incapacidad.md` (HN-PAYR-FR-141..170); RAP/fondo —
 `05_rap-fondo.md` (HN-PAYR-FR-181..215); vacaciones computation (this file
 only ACCRUES the railway +1-vacation-day election and forwards it) —
 `07_vacaciones.md` (HN-PAYR-FR-261..280); cesantía/preaviso —
 `08_cesantia-preaviso.md` (HN-PAYR-FR-291..325); suspension and
-maternity/minor schedule shaping — `09_suspension-maternity.md`
-(HN-PAYR-FR-331..360); the salario definition, pay periods, salario-completo
+maternity/minor schedule shaping — `09_suspension-maternity-special.md`
+(HN-PAYR-FR-331..357); the salario definition, pay periods, salario-completo
 indemnity base and Libro de Salarios/planilla record formats —
-`10_salario-records.md` (HN-PAYR-FR-371..405); the ISR plantilla engines
+`10_salario-concepts-records.md` (HN-PAYR-FR-371..405); the ISR plantilla engines
 (this file only supplies OT/bonus amounts into annual gross, by id) —
 taxation/04 (HN-TAX-FR-121..153, esp. FR-126); deduction semantics /
 Art. 10 exclusions — taxation/02 (HN-TAX-FR-046..078); the DJIMR export
@@ -178,7 +178,7 @@ never-guess rule, aggregate ingestion depths).
   Salarios/planilla registers ("debidamente separados de lo que se refiere a
   trabajo ordinario", Art. 335) — as a statutory line-separation duty; the
   register/report formats themselves are owned by file 10
-  (`10_salario-records.md`, HN-PAYR-FR-371..405), consumed by range; shift
+  (`10_salario-concepts-records.md`, HN-PAYR-FR-371..405), consumed by range; shift
   changes shall additionally respect rest/meal-hour alignment (Art. 337,
   informational scheduling constraint). (LB-006; EV85:EVID-311)
 
@@ -202,7 +202,7 @@ never-guess rule, aggregate ingestion depths).
 
 ### 3.4 Feriados (paid national holidays)
 
-- **HN-PAYR-FR-236:** The system shall load the 10 paid holidays as DATED
+- **HN-PAYR-FR-236:** The system shall load the 11 paid holidays as DATED
   configuration rows (D-H2 additive-only, never replaced in place): eight
   fixed-date holidays — 1-jan, 14-apr, 1-may, 15-sep, 3-oct, 12-oct, 21-oct,
   25-dec — plus Holy Thursday, Good Friday and Holy Saturday (*jueves,
@@ -240,7 +240,7 @@ never-guess rule, aggregate ingestion depths).
   suspends work on account of a fiesta NOT determined in the holiday list
   ("cualquier fiesta no determinada en el párrafo anterior") — an
   employer-suspended unlisted-fiesta day is paid at the normal salary, as an
-  employer-decision event distinct from the 10 statutory holidays.
+  employer-decision event distinct from the 11 statutory holidays.
   (LB-008; EV85:EVID-312)
 
 ### 3.5 Work on rest days and holidays
@@ -277,7 +277,7 @@ never-guess rule, aggregate ingestion depths).
   o de las horas extras, valor del trabajo en días de descanso obligatorio"
   are salary), feeding the salary-concept families and the *salario
   completo* (ordinary + extraordinary) indemnity bases owned by file 10
-  (`10_salario-records.md`, HN-PAYR-FR-371..405) and the benefit averages
+  (`10_salario-concepts-records.md`, HN-PAYR-FR-371..405) and the benefit averages
   of files 07/08 by range — classification only, no re-derivation of those
   bases here. (LB-012; EV85:EVID-317)
 - **HN-PAYR-FR-246:** The system shall expose the OT and surcharge amounts
@@ -437,3 +437,5 @@ aggregates per contract from hire date).
 | OQ-002 | `EV85:86_ OQ-9` carried — feriado-list currency: Art. 339's 10-holiday list is 1960-vintage text (D. 275-1960 per fn.31); no post-2013 in-print amendment was found, but the spot-check for any post-2013 holiday change (additions/replacements) must complete before the seeded calendar rows are treated as exhaustive beyond their valid_from window (FR-236 carries the flag as row metadata). | no | Takumi S-HN4 + controller | open |
 | OQ-003 | fn.31 (D. 116-1960 interp. ¶3) partial-week divisor: the evidence verbatim truncates mid-sentence ("…entre el número de dí…"); the evidence gloss resolves the divisor as the number of days ACTUALLY worked (FR-239/AC-009 implement the gloss). Confirm the full fn.31 text against the print before freezing the routine. | no | Takumi S-HN4 + controller | open |
 | OQ-004 | fn.29 weekly-salary equality (48h diurna = 36h nocturna = 42h mixta) vs Art. 329's per-hour +25% night recargo: both rules are encoded as printed (FR-224 + FR-227) without reconciliation — how the quoted nocturna weekly salary relates to the per-hour recargo for full-time nocturna workers (rate-quoted-at-equality vs recargo-on-top) is a payroll-practice question; never derived by the engine (D-H2 never-guess). | no | Takumi S-HN4 + controller | open |
+
+| OQ-005 | NEW (V-HN1 adversarial review): weekly-data ingestion depth — the fn.31 prior-week ÷6/÷days-worked routine (FR-235/FR-239/FR-247) requires week-level day counts and earnings, which D-H3's monthly-aggregate ingestion cannot reconstruct; either an enhanced weekly-aggregate ingestion depth or a documented approximation rule must be ruled before go-live payroll history import. | no | controller ruling (D-H3 extension) | open |

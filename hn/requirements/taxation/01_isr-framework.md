@@ -6,7 +6,7 @@
 | Topic   | taxation |
 | Status  | draft |
 | Authors | Takumi synthesis wave S-HN1 + controller |
-| Updated | 2026-08-19 |
+| Updated | 2026-08-20 (V-HN1 validation fixes) |
 
 ## 1. Purpose
 
@@ -334,7 +334,8 @@ Art. 222 (R-H13; EV01 reform-history anchor — EVID-014 Cuadros 1-2).
   (*depuración anual*), resolving the threshold from the dated SMM-promedio
   rows (snapshot-on-write per D-H2; R-H12 — L13,985.16 promedio anchor per
   SAR-43-2026 for the 2026 execution; promedio values consumed from the
-  P1/R-H47 rows, never recomputed). (LB-014; EV03:EVID-034; R-H12)
+  P1/R-H47 rows, never recomputed; the vintage tension = OQ-007, V-HN1).
+  (LB-014; EV03:EVID-034; R-H12)
 
 ### 3.8 Payment, compensación, cesión and prescription (T11)
 
@@ -623,6 +624,11 @@ computation files of this directory when they pin their own anchors.
   then the resolution deadline = 20 business days later on the HN
   business-day calendar, and no guarantee deposit is requested or recorded
   anywhere in the recourse flow (CT Art. 206 void — LB-023/R-H5) (FR-045).
+- **AC-024:** Given a retention-credit document dated 2021-03-15 held by an
+  RTN-inscribed taxpayer, then the ledger resolves its prescription horizon
+  as 5 years (expiry 2026-03-15, CT Art. 144.2.b default); given the same
+  document under a customs special regime, then 4 years; given a
+  non-RTN-inscribed party, then 7 years (FR-040).
 
 ## 7. Open Questions
 
@@ -634,3 +640,4 @@ computation files of this directory when they pin their own anchors.
 | OQ-004 | ISR-late pro-diem denominator (origin `03_ OQ-4`): "5% del impuesto causado... proporcional a los días transcurridos" — the denominator (days of the elapsed month? 30?) is unstated; FR-042 encodes the bands with a configurable denominator and preserves the marker; check SAR Ayudas 102/103 practice at the S-HN3 wave. | no | Takumi S-HN3 (Ayudas 102/103) | open |
 | OQ-005 | NEW (synthesis finding): Ley ISR Arts. 36-37 (1963) set 90-day deadlines (cessation DJ + certified balance; departure; heirs on death; society dissolution) while CT Art. 68 (2017) sets 60 días calendario for the cessation DJ. FR-020 encodes the CT 60-day rule as operative for cessation (lex posterior + R-H13 procedural locus) with the ISR 90-day residues carried for the events CT does not cover — verify against practice/any consolidating reform whether the 90-day items were displaced too. | no | Takumi S-HN1 + controller | open |
 | OQ-006 | NEW (synthesis finding): mora month-fraction proration basis — CT Art. 163 charges "3% mensual o fracción de mes" (R-H6: fraction pro-rated) but the proration denominator (calendar days of the month vs 30-day commercial month) is unstated; FR-043 encodes a configurable basis; confirm vs SAR cuenta-corriente statements. | no | Takumi S-HN1 | open |
+| OQ-007 | NEW (V-HN1 adversarial review): Feb-2026 depuración promedio vintage — FR-037 pins the L13,985.16 anchor "per SAR-43-2026 for the 2026 execution", but that figure is the 2025 promedio (the evidence bank states it is printed nowhere in the corpus as a 2026 DGS value) while the 2026 DGS companion print (EVID-228, P1 rows) carries L14,917.20 — i.e. the executing acuerdo appears to lag the DGS bienio print by one vintage. Never resolve silently: the row per the EXECUTING instrument (SAR-43-2026) stands as encoded; flag for the ruling whether "vigente" at each February means the DGS current-year print or the executing acuerdo's cited figure (kin of the missing-vintage leads — 2025/2027 promedios still DGS-print leads). | no | controller ruling + DGS-print lead | open |

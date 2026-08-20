@@ -34,7 +34,7 @@ glossary guard, and the 506-vs-509 boundary gate (BLOCKED on statute texts).
 It does **not** cover: the generic OVI/SW **filing-lifecycle chassis**
 (login→alta→pendiente→borrador→juramento→acuse/QR, estado pills,
 rectificativa frame, D-H2.5 freeze machinery) — fiscal-reporting file 01 of
-this wave (cluster F1, not yet on disk; referenced here by path/cluster),
+this wave (cluster F1 — on disk since S-HN3; V-HN1 note-refresh; consumed by id),
 consumed by id; the **30-abril deadline surface and package membership
 roll-up** — file 07 (`07_isr-annual-102-103.md` LB-011, HN-FREP-FR-221
 window rows and FR-263 roll-up), consumed by id (506 + 107 are Apr-30
@@ -87,7 +87,7 @@ bind throughout.
   each tipo **Determinativa** with "Única modalidad para la presentación a
   través de la Oficina Virtual (OVI)" (SAR-236-2024), on the shared
   login→Declaraciones→Filtrar→"Realizar" pipeline whose chassis FRs are
-  owned by fiscal-reporting file 01 (cluster F1, not yet on disk) and
+  owned by fiscal-reporting file 01 (cluster F1; consumed by id) and
   consumed BY ID here — no chassis rule is restated or re-derived; the
   per-code form-layout deltas are data: 502/503/504/107 = two sections
   ("A- Determinación + B- Créditos"), 506 = two sections ("A- Determinación

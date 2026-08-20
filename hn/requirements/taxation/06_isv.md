@@ -6,7 +6,7 @@
 | Topic   | taxation |
 | Status  | draft |
 | Authors | Takumi synthesis wave S-HN1 + controller |
-| Updated | 2026-08-19 |
+| Updated | 2026-08-20 (V-HN1 validation fixes) |
 
 ## 1. Purpose
 
@@ -384,8 +384,8 @@ date (D-H2).
 
 | Rate | Scope | valid_from | valid_to | Notes |
 |------|-------|-----------|----------|-------|
-| 15% | General (all ventas not otherwise listed) | 1964-01-01 (as consolidated) | open | Current general rate (02_ Art. 6) |
-| 18% | Cerveza, aguardiente, licor compuesto, otras bebidas alcohólicas, cigarrillos — distributor-stage base incl. selectivo (beer/sodas); wholesale-stage (cigarettes) | 2010-era (as consolidated) | open | Stacking order OQ-004; collection at producer/import |
+| 15% | General (all ventas not otherwise listed) | UNPINNED — consolidation print only (V-HN1: the 1964-01-01 date was invented; rate-vintage chain predates corpus, R-H2 kin — load as current-at-consolidation, valid_from left unpinned, never a fabricated date) | open | Current general rate (02_ Art. 6) |
+| 18% | Cerveza, aguardiente, licor compuesto, otras bebidas alcohólicas, cigarrillos — distributor-stage base incl. selectivo (beer/sodas); wholesale-stage (cigarettes) | UNPINNED — consolidation print only (V-HN1: same never-guess rule; the 18% tier rides the D. 17-2010-era selectivo-family reforms but no corpus instrument prints its own effective date) | open | Stacking order OQ-004; collection at producer/import |
 | 18% | Air tickets business/first/beyond-economy (intl+national) | as consolidated | open | Airlines = withholding agents, 10 días |
 | 0% | Exports (producer-exporter condition; credit right FR-226) | as consolidated | open | Tasa cero ≠ exempt: credit survives |
 | 12% (history) | Telecom postpaid ≤US$40; prepaid; internet ≤1.024 Mbps; TV ≤L500; residential electricity >750 kWh | 2010 (D. 17-2010) | homogenization (R-H2; chain unpinned) | NEVER apply to current periods |
@@ -514,30 +514,34 @@ windows (D18 kin).
   L250,001 or a second establishment, then ordinary rules apply; given a
   1-jul start with first-2-month sales of L41,667, then annualized =
   41,667 ÷ 60 × 360 = L250,002 → simplified regime denied (FR-254).
-- **AC-013:** Given a commercial-local rent of L5,000/month, then exempt;
+- **AC-012:** Given a commercial-local rent of L5,000/month, then exempt;
   given L5,001, then taxable at 15%; given residential rent, then exempt;
   given hotel/motel lodging, then taxable (FR-234).
-- **AC-014:** Given a restaurant meal prepared on premises from exempt
+- **AC-013:** Given a restaurant meal prepared on premises from exempt
   canasta inputs, then the sale is TAXABLE (FR-233).
-- **AC-015:** Given L30 ISV credited on a taxable input purchase, then
+- **AC-014:** Given L30 ISV credited on a taxable input purchase, then
   the L30 is blocked as an ISR deduction; given L30 ISV on an
   exempt-linked purchase, then denied as credit but deductible as cost
   (FR-240).
-- **AC-016:** Given a used-vehicle import taxed at entry and its later
+- **AC-015:** Given a used-vehicle import taxed at entry and its later
   internal resale, then the import bears ISV (into cost) and the resale
   bears none (FR-216).
-- **AC-017:** Given a fusión where the surviving entity continues the
+- **AC-016:** Given a fusión where the surviving entity continues the
   same giro with a L50,000 credit balance, then the balance transfers;
   given outright cessation, then forfeited with no refund (FR-244/245).
-- **AC-018:** Given a natural person's card purchase bearing L30 of ISV,
+- **AC-017:** Given a natural person's card purchase bearing L30 of ISV,
   then the devolución right = 8% × L30 = L2.40, OTCD-processed and netted
   in the 215 base (status per R-H22; scope open OQ-005) (FR-255).
-- **AC-019:** Given a telecom service invoice in a current period, then
+- **AC-018:** Given a telecom service invoice in a current period, then
   it taxes at the general 15% (the 12% tiers are history rows never
   applied) (FR-223; R-H2).
-- **AC-020:** Given a temporary closure month with zero sales and a
+- **AC-019:** Given a temporary closure month with zero sales and a
   credit-favor balance, then the monthly DJ is still generated as due
   (FR-252).
+- **AC-020:** Given a taxable-person cessation notified on 2026-06-01 with
+  a final taxable period through that date, then the system generates the
+  final DJ obligation for the partial period per the cessation rule
+  (FR-253).
 
 ## 7. Open Questions
 

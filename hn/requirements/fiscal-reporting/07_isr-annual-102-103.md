@@ -57,7 +57,7 @@ and deduction semantic — owned by the taxation wave
 `../taxation/03_isr-rates-gains-minimum.md` HN-TAX-FR-081..104,
 `../taxation/04_isr-withholding.md` HN-TAX-FR-121..153 and the
 `../taxation/isr_brackets.csv` seed) and consumed BY ID, never restated;
-and payroll mechanics (S-HN4 `../payroll/` — future wave, consumer of the
+and payroll mechanics (S-HN4 `../payroll/` — delivered, consumer of the
 empleados block and the Art. 10 exclusions of EVID-093/096).
 
 ## 2. Legal Basis

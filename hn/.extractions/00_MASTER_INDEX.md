@@ -73,6 +73,7 @@ full text lives in the evidence files). EVID ranges 130-135, 159-162, 174,
 | EV81 | `81+87+88_IHSS.evidence.md` (250..274) |
 | EV27 | `27+28_RAP-fondo.evidence.md` (275..289) |
 | EV85 | `85+86_codigo-trabajo.evidence.md` (295..333) |
+| EV89 | `89_Decreto_117-2021_interp_Art113_CT.evidence.md` (334..336 — V-HN1 validation mini-pass) |
 
 Citations in requirements files use `EVxx:EVID-nnn` (and `EVxx:file OQ-n` for
 register origins). D-H1/D-H2/D-H3 (EXTRACTION_PLAN Decisions) bind all clusters.
@@ -756,6 +757,10 @@ SMM auto-elevation of inferior contracts; CT negatives (R-H60); vintage pins;
 | R-H64 | 101_ p.4 caption "AÑO 2022" | Print error on the 2023 table; trust column headers + Art. 3 text | EV82:101_ OQ-3 |
 | R-H65 | 87_ title dates inconsistent | Edition defect; cite signature 1-jun-2001 + G 29,503 14-jun-2001 | EV81:87_ OQ-3 |
 | R-H66 | ISR scope: Ley ISR Art. 2 worldwide (1963) vs CT Art. 1.2 territorial (2016) | ADOPTED by product owner 2026-08-20: worldwide pre-2017 / territorial 2017-01-01+ (lex posterior CT chassis; no foreign-tax-credit mechanism in the Ley ISR; source-based modern architecture); encoded as REVERSIBLE dated rows in taxation/01 FR-004 (origin `03_ OQ-1` resolved) | EV01:EVID-001; EV03:EVID-027; taxation/01 OQ-001 |
+| R-H67 | D. 117-2021 Art. 2 aguinaldo interp ("exento de todo impuesto...") vs Ley ISR Art. 10.h 10-SMM caps | V-HN1: CONFLICT CARRIED, never resolved silently — ISR-side cap rows STAND (plantilla implements them today); the interp's immunity ships as a conflict-flagged interpretive row (payroll/02 FR-087 + OQ-007); resolution requires D. 135-94/D. 112-82 acquisition + hierarchy ruling, then a dated-row flip | EV89:EVID-335; payroll/02 OQ-007 |
+| R-H68 | Selectivo vehicles: FR wording said "marginal-band" vs statute/AC whole-base | V-HN1 evidence fix: L-Art 20 prints NO "parte que exceda" language — WHOLE-BASE bracket semantics (bracket selected by base; rate applies to full base); never reuse the ISR PN marginal engine | EV04:EVID-048; raw-txt L-Art 20; taxation/05 FR-188/189 |
+| R-H69 | 65+ ≤L350,000 exemption: FR-131(c) "exempt up to" (cap reading) vs statute/02-FR-068 cliff | V-HN1 evidence fix per EV05:EVID-069: "renta bruta hasta de L350,000, quedan exentos" = CLIFF (tax L0.00 at/below; full normal regime above; no partial exemption) | EV05:EVID-069; taxation/04 FR-131(c)/AC-006 |
+| R-H70 | CT Art. 339 feriado count: W4d gloss said "10 paid feriados" | V-HN1 recount: ELEVEN = 8 fixed dates + 3 Semana Santa days (jueves/viernes/sábado) — payroll/06 FR-236 already enumerated correctly; the "10" glosses corrected | EV85:EVID-312; payroll/06 |
 
 ---
 
@@ -1154,7 +1159,7 @@ files (EVxx:file OQ-n).
 - **Clusters:** 43 — W1 taxation T1-T12 (EVID-001..071), W2 fiscal-reporting F1-F11
   (EVID-072..185), W3 facturación E1-E8 (EVID-186..214), W4 payroll P1-P12
   (EVID-215..333). SEE/CAEE sub-cluster (E8 part) BLOCKED on lead 1.
-- **Resolved contradictions:** 66 (R-H1..R-H66, the last adopted by product
+- **Resolved contradictions:** 70 (R-H1..R-H70; R-H66 adopted by product owner; R-H67..R-H70 added at V-HN1 validation)
   owner 2026-08-20; incl. 9 registry-mislabel
   incidents and 4 void/dead-text rulings R-H3/4/5 + R-H1 partial-history).
 - **OQ register:** ~236 origin lines rolled up (~227 open after in-wave
@@ -1181,6 +1186,19 @@ files (EVxx:file OQ-n).
       fixes; P1 owns the promedio rows consumed by taxation/04 FR-134;
       aguinaldo P2 sub-cluster config-gapped — the wave's only yes-blocking
       OQ, on D. 135-94 + Acuerdo 201-96).
+   4b. **V-HN1 validation wave** (Stage 5) — DONE 2026-08-20: gate 1 =
+       `hn/requirements/COVERAGE.md` via `hn/scripts/build_coverage.py`
+       (103 rows, 98 cited / 5 annotated-N/A; totals 1082 FRs / 480 LBs /
+       566 ACs / 317 OQ rows — includes V-HN1 additions: EINV FR-085/086
+       filed-period freeze + go-live reconciliation; FREP FR-076 111
+       12-months split; PAYR FR-087 D. 117-2021 interp rows). Gate 2 =
+       skipped (no notebook). Gate 3 = four adversarial reviewers (one per
+       topic); adjudication: R-H67..R-H70, `89_` evidence pass EVID-334..336
+       (10th gloss incident — Art. 2 aguinaldo interp; F10 OQ-004 resolved;
+       payroll OQ-007 conflict carried), 95_/96_ status fix
+       (in-corpus-unread), 49_ LB co-cite, LB-011(file-10) truncation
+       repair, feriados recount, whole-base/cliff evidence fixes, AC/OQ
+       gap closures. Topics → approved at index level.
    5. **S-HN5 thin closes** — chart-of-accounts/commercial-legal: decide whether a
       wave is warranted at milestone (Código de Comercio still unacquired).
       NEXT: the validation wave (COVERAGE.md + adversarial review,

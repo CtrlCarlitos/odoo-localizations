@@ -29,7 +29,7 @@ buyer/donee-issued documents — *boleta de compra* (purchase slip),
 (retention voucher).
 
 It does **not** cover: document taxonomy, type codes and correlativo grammar
-(`01_document-types-numbering.md`, HN-EINV-FR-001..045); the CAI/rango
+(`01_document-types-numbering.md`, HN-EINV-FR-001..031); the CAI/rango
 ledger, the authorization procedure and the emission gate including
 *momento de emisión* (`02_cai-ledger-emission-gate.md`, HN-EINV-FR-046..090);
 inscription, topologies, printing means, SFC specs, SEE/CAEE and the
@@ -74,7 +74,7 @@ DEFECTIVE — the reglamento articles are cited instead (R-H37 binding).
 ## 3. Functional Requirements
 
 Document types, type codes and correlativo grammar are owned by
-`01_document-types-numbering.md` (HN-EINV-FR-001..045) and referenced here by
+`01_document-types-numbering.md` (HN-EINV-FR-001..031) and referenced here by
 name. The CAI / *fecha límite* / *rango autorizado* values printed by FR-093
 are consumed from the ledger of `02_cai-ledger-emission-gate.md`
 (HN-EINV-FR-046..090); this file owns only their print placement. Which
@@ -181,7 +181,8 @@ exporter supplies BOTH materials and labor → one factura consolidating both va
 the factura consigns the labor value only. (LB-004; EV24:EVID-192)
 - **HN-EINV-FR-116:** Export facturas (Art. 12 context) carry only the reduced requirement set —
 Art. 11.1 literals a), b), c), d), j), k) — literal b) (RTN) required only for
-*nacionalizaciones*; literal map per OQ-003. (LB-004, LB-003; EV24:EVID-192)
+*nacionalizaciones*; literal map per OQ-003 (unverified compressed gloss —
+resolve OQ-003 before implementing the literal map). (LB-004, LB-003; EV24:EVID-192)
 - **HN-EINV-FR-117:** Zona-libre operations shall follow the statutory matrix: (1) transfers
 without tradición by free-of-charge service companies → *Declaración de Oficio* + guía de
 remisión; (2) transformation with cost → factura per FR-114/FR-115 + guía for the return of goods;
@@ -201,7 +202,11 @@ EVID-203)
 - **HN-EINV-FR-121:** Prevalorada authorization is event-driven: the taxpayer requests through the
 imprenta the SPECIFIC quantity per feria/evento/espectáculo público, the total requested quantity
 is printed, and SAR is notified ≥10 días hábiles before the event declaring the rango to be used;
-the system tracks the event record and warns/blocks emission outside a noticed event window.
+the system tracks the event record and FLAGS emission outside a noticed
+event window (non-blocking accounting alert — the statute conditions the
+PREVALORADA authorization on notice, not the validity of each emitted
+document; V-HN1 disambiguation: no emission block here, the block regime
+lives in the CAI gate of file 02 FR-066).
 (LB-005; EV24:EVID-193)
 - **HN-EINV-FR-122:** Prevalorada format carries pre-printed fixed values (mass-consumption goods
 at ferias/espectáculos) with no buyer identification, plus a *base desprendible* (detachable stub)
@@ -445,6 +450,18 @@ comprobante de retención is emitted Jan-31 with delivery due within the first 1
 February (FR-140).
 - **AC-018:** Given a payroll retention on a permanent worker, when the payroll posts, then no
 comprobante de retención is auto-issued; given a worker request, then it is issued (FR-140).
+- **AC-019:** Given a thermal-layout (ticket-máquina) emission attempt
+  with no resolución de la AT on record for the layout, then emission is
+  blocked (FR-105).
+- **AC-020:** Given a supplier document whose print does not satisfy the
+  Art. 11/12 requirement set, then the document is flagged
+  non-supporting (no crédito fiscal, no cost support) without blocking
+  its booking (FR-107).
+- **AC-021:** Given a sale to an exonerated buyer (Art. 29-listed) with a
+  valid SEFIN resolution, then the format's exonerado block prints the
+  resolution identity; given the same sale without a resolvable
+  resolution, then the block stays empty and the full ISV applies
+  (FR-095).
 
 ## 7. Open Questions
 

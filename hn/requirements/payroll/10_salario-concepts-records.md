@@ -48,15 +48,15 @@ engines and the código-111 record shape = taxation/04
 (`HN-TAX-FR-121..153`, esp. FR-153); deduction semantics / Art. 10
 exclusions = taxation/02 (`HN-TAX-FR-046..078`); SMM row values, bienio
 tables and promedio = payroll/01 (`HN-PAYR-FR-001..040`); 13th/14th-month
-special-law mechanics = payroll/02 (`HN-PAYR-FR-051..090`); IHSS
+special-law mechanics = payroll/02 (`HN-PAYR-FR-051..087`); IHSS
 cotizaciones = payroll/03 (`HN-PAYR-FR-101..135`); IHSS incapacidad =
 payroll/04 (`HN-PAYR-FR-141..170`); RAP/fondo accrual and the D.150-2008
 cesantía-pact mechanics = payroll/05 (`HN-PAYR-FR-181..215`);
 jornada/OT computation (44/48 equivalence, multipliers, Art. 335 valuation)
-= payroll/06 (`HN-PAYR-FR-221..250`); vacaciones entitlement/base mechanics
+= payroll/06 (`HN-PAYR-FR-221..247`); vacaciones entitlement/base mechanics
 = payroll/07 (`HN-PAYR-FR-261..280`); preaviso/cesantía/termination payouts
 = payroll/08 (`HN-PAYR-FR-291..325`); suspension/maternity = payroll/09
-(`HN-PAYR-FR-331..360`); DJIMR-111 export contract = fiscal-reporting/02
+(`HN-PAYR-FR-331..357`); DJIMR-111 export contract = fiscal-reporting/02
 (`HN-FREP-FR-054/055`); comprobante de retención issuance mechanics =
 e-invoicing/03 (`HN-EINV-FR-139/140`).
 
@@ -130,7 +130,7 @@ never-guess rule).
   valuation; plus the Art. 40 verbal-contract minimums (remuneration
   amount and form, pay periods, duration) for unwritten relations. Jornada
   computation semantics (incl. the 44-worked/48-paid equivalence, R-H61) =
-  file 06 (`HN-PAYR-FR-221..250`), consumed by id.
+  file 06 (`HN-PAYR-FR-221..247`), consumed by id.
   (LB-003; EV85:EVID-296; R-H61)
 - **HN-PAYR-FR-375:** The system shall record on the contract a service
   start date distinct from (and possibly earlier than) the written-contract
@@ -293,7 +293,7 @@ never-guess rule).
   ("debidamente separados de lo que se refiere a trabajo ordinario, lo que
   a cada uno de sus trabajadores paguen por concepto de trabajo
   extraordinario"); overtime computation and multipliers = file 06
-  (`HN-PAYR-FR-221..250`) — this file owns only the record-separation
+  (`HN-PAYR-FR-221..247`) — this file owns only the record-separation
   duty. (LB-015; EV85:EVID-320)
 
 ### 3.6 Minimum-wage auto-elevation (contract side)
@@ -331,7 +331,7 @@ never-guess rule).
   (R-H60): the CT contains NO *aguinaldo*/décimo tercer mes, NO décimo
   cuarto mes, NO INVI/labor-fund articles, NO *salario integral* concept
   and NO *acoso* (harassment) provisions — 13th/14th-month mechanics
-  belong to special law (file 02, `HN-PAYR-FR-051..090`) and the fondo to
+  belong to special law (file 02, `HN-PAYR-FR-051..087`) and the fondo to
   D.47-2024 (file 05, `HN-PAYR-FR-181..215`); Arts. 376-380 of the CT are
   salario rules (Art. 376 = salary payable even without service due to the
   employer's disposition or fault; Art. 380 = Libro de Salarios), NOT an
@@ -476,9 +476,11 @@ FR-375).
   L1,800, then the libro/planilla output books the overtime L1,800 on
   separate lines from the ordinary L12,000 (FR-393).
 - **AC-010:** Given a contract wage of L13,000/month and a new SMM row of
-  L14,917.20 with valid_from 1-jul, then payslips from July compute the
-  wage at L14,917.20 (auto-elevation from the file 01 rows); a June
-  correction recomputes with the June-period row (FR-394).
+  L14,000.00 with valid_from 1-jul (hypothetical floor value — V-HN1
+  anti-conflation fix: deliberately NOT the 2026 promedio L14,917.20,
+  which is a P1 dated datum, never an SMM floor), then payslips from July
+  compute the wage at L14,000.00 (auto-elevation from the file 01 rows); a
+  June correction recomputes with the June-period row (FR-394).
 - **AC-011:** Given a user importing `85_` and marking CT Art. 368 as
   derogated, then the guard blocks the operation: D.93-2021 derogated
   Código Penal D.130-2017 Art. 368 only, and CT Art. 368 (pay periods /
@@ -487,7 +489,7 @@ FR-375).
 - **AC-012:** Given a 13th-month concept configured with a CT article
   citation, then the negatives guard rejects it: no aguinaldo/décimo
   tercero article exists in the CT — the correct authority family is
-  special law consumed from file 02 (`HN-PAYR-FR-051..090`) (FR-396).
+  special law consumed from file 02 (`HN-PAYR-FR-051..087`) (FR-396).
 - **AC-013:** Given a cesantía-pact configuration citing "CT Art. 95",
   then the anchor-correction note rewrites it to D.150-2008 Art. 2 printed
   at CT Art. 120-A fn.19 (R-H58) with the payroll mechanics consumed from

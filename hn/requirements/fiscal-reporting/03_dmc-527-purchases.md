@@ -45,7 +45,7 @@ pro-rata trichotomy, ISR-cost bar) — owned by
 `../taxation/06_isv.md` (HN-TAX-FR-211..255) and consumed by id, never
 re-derived here; the correlativo/CAI grammar and the code-10 collision
 guard — owned by `../e-invoicing/01_document-types-numbering.md`
-(HN-EINV-FR-001..045) and consumed by id; the *compras eventuales*
+(HN-EINV-FR-001..031) and consumed by id; the *compras eventuales*
 document-emission mechanics (type-10 format, provider-ID flexibility,
 seller 10-SMM gate — EV13:EVID-085/086) — e-invoicing wave territory;
 and CT sanctions computation (multa/intereses engines = taxation/01).
@@ -142,8 +142,12 @@ CALENDARIO unless the instrument says hábiles.
   by editing SAR-237-2024's. (LB-005; LB-008; EV13:EVID-090;
   EV43:EVID-144; R-H17/R-H18)
 - **HN-FREP-FR-093:** The system shall enforce DMC-FIRST sequencing
-  (R-H36): the DMC (day-5) must be presented before the ISV determinativa
-  201 and the DJIMR/DMR family (day-10 anchors) of the same period, and
+  (R-H36; V-HN1 anchor trim: only the ISV-201 leg is evidenced — LB-010's
+  276 text places the DMC "antes de la Declaración Determinativa [del
+  ISV]"; the DJIMR/DMR-family ordering extension is an OQ, not law): the
+  DMC (day-5) must be presented before the ISV determinativa
+  201 of the same period (any ordering vs the day-10 DJIMR family =
+  workflow configuration, never enforced), and
   the 201's Sección B purchase figures for grandes/medianos are
   auto-populated from the filed DMC in categories 131 (compras mercado
   interno) / 132 (FYDUCA) / 133 (importaciones) — the 201-side

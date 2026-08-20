@@ -90,6 +90,7 @@ every row below.
 | LB-017 | Reglamento, Art. 67: "se extenderá un Certificado de Autorización de Impresión a la imprenta con una vigencia de dos (2) años"; renovación solicitada "con seis (6) meses de anticipación al vencimiento" | A Print Authorization CERTIFICATE is issued to the print shop with a TWO (2) YEAR validity; renewal requested SIX (6) MONTHS before expiry | `hn/sources/24_Reglamento_Facturacion_Ac481-2017_consolidado.pdf` | Art. 67 p.61 (EV24:EVID-206) |
 | LB-018 | Reglamento, Art. 69 (obligaciones imprentas): verificar y archivar la identificación del cliente; solicitar la autorización por cada solicitud del cliente; requerir firma y sello del cliente en la solicitud ANTES de imprimir; imprimir la TOTALIDAD autorizada con los datos autorizados; "Informar a la Administración Tributaria, a través de la solicitud de Activación o Cancelación ... al momento de la entrega de los trabajos"; ídem para trabajos no reclamados luego de 1 mes; permitir inspecciones; tener documentos propios; notificar robo/extravío dentro de 10 días hábiles con denuncia; conservar solicitudes y recibos por el plazo del Código Tributario | Print-shop obligations: verify/archive client identification; request authorization per client solicitud; client signature/seal on the solicitud BEFORE printing; print the TOTALITY authorized with the authorized data; inform SAR via the ACTIVATION or CANCELLATION solicitud AT DELIVERY; same for work unclaimed after 1 month; allow inspections; hold own fiscal documents; theft/loss notified within 10 días hábiles with police report; conserve solicitudes and receipts for the CT period | `hn/sources/24_Reglamento_Facturacion_Ac481-2017_consolidado.pdf` | Art. 69 pp.62-63 (EV24:EVID-206) |
 | LB-019 | Reglamento, Art. 70 (prohibiciones imprentas): imprimir no autorizado; "Repetir por cualquier motivo la impresión" de documentos ya entregados; imprimir documentos que la propia imprenta reportó como no realizados; reponer documentos no entregados perdidos/robados/deteriorados; imprimir trabajos autorizados a OTRA imprenta; "Subcontratar a otras imprentas ... parcialmente o en su totalidad" | Print-shop prohibitions: printing without authorization; REPRINTING delivered documents for any motive; printing documents the shop itself reported as not realized; replacing undelivered lost/stolen/damaged documents; printing jobs authorized to ANOTHER print shop; subcontracting — the no-reprint rule is the external guarantee of correlativo uniqueness | `hn/sources/24_Reglamento_Facturacion_Ac481-2017_consolidado.pdf` | Art. 70 pp.63-64 (EV24:EVID-206) |
+| LB-020 | Acuerdo SAR-238-2024 (DJIMR), Arts. 5-7 (rectificativa + coverage frame consumed from the W2 evidence): the DJIMR informativa covers each retention period's detail, and its rectificativa auto-rectifies the determinativa of office (accepted only when tax increases); CT Art. 117 as the general rectification frame (quoted in the manuals' filing chassis) | The filing-side contract behind FR-085/FR-086: periods covered by a filed declaration are frozen facts at SAR — corrections exist only as rectificativas from the filed snapshot; the previous system's filed DJIMR/DMC/DJI aggregates are the authoritative external truth for go-live reconciliation (D-H3.2) | `hn/sources/14_Acuerdo_SAR-238-2024_DJIMR.pdf` + `hn/sources/03_Codigo_Tributario_D170-2016_act_D180-2020.pdf` (Art. 117) | 14-Arts. 5-7 (EV13:EVID-078/079); CT-Art. 117 as quoted in the W2b manuals (EV31:EVID-113) |
 
 ## 3. Functional Requirements
 
@@ -381,6 +382,27 @@ owned by `04_registration-topologies-medios-see.md` (FR-150/151/154-157).
   and the accreditation surface of file 04 (FR-149).
   (LB-018; LB-019; EV24:EVID-206; crossref EV24:EVID-190)
 
+### 3.9 Filed-period freeze & go-live reconciliation (V-HN1 additions, reserved tail 085-090)
+
+- **HN-EINV-FR-085:** The system shall write-protect fiscal documents
+  (facturas/NC/ND/retention vouchers and their CAI ledger consumption
+  rows) belonging to periods covered by a FILED SAR declaration (DJIMR
+  retenciones / DMC compras / DJI mensual — the filing freeze of
+  D-H2.5): such records become read-only, and any correction flows as a
+  rectificativa computed from the frozen snapshot (CT Art. 117 frame),
+  never as a silent edit or re-emission; the freeze state is per
+  (declaration, period) and reversible only by the rectificativa
+  lifecycle owned by fiscal-reporting file 01 (consumed by id).
+  (LB-020; D-H2.5)
+- **HN-EINV-FR-086:** The system shall provide the go-live reconciliation
+  report of D-H3.2: current-FY imported fiscal documents (FR-027
+  read-only detail) reconciled against the monthly declarations the
+  PREVIOUS system filed with SAR (DMC compras / DJIMR retenciones / DJI
+  mensual aggregates = the authoritative external truth), flagging deltas
+  per period and document family; no re-emission, no re-numbering, no
+  sequence consumption (D-H3.1).
+  (LB-020; D-H3.2; fiscal-reporting/01 HN-FREP-FR-031 by id)
+
 ## 4. Data Model
 
 Entities owned by siblings (document-type catalog, emission-point entity,
@@ -546,6 +568,24 @@ pattern); the gate's behavior does not vary by Odoo version.
 - **AC-021:** Given a D-H3 historical import of a current-FY document,
   then no counter increments and the gate is not evaluated as an emission
   (flagged read-only) (FR-070).
+- **AC-022:** Given a factura whose period is covered by a filed DMC
+  (compras) declaration, then any attempted edit to the document or its
+  CAI consumption row is refused (write-protected), and the only mutation
+  path offered is the rectificativa flow from the frozen snapshot
+  (FR-085).
+- **AC-023:** Given a go-live import whose January current-FY document
+  totals differ from the January DJIMR/DMC aggregates filed by the
+  previous system, then the reconciliation report flags the delta per
+  document family with zero re-emission and zero sequence consumption
+  (FR-086).
+- **AC-024:** Given an emission attempt with NO authorization record for
+  the (establecimiento, punto de emisión, document type) key, then the
+  FR-066 hard block fires with the no-authorization-record reason
+  (FR-068).
+- **AC-025:** Given an emission attempt dated before the rango's
+  activation date (e.g. a backdated document preceding consumable-state
+  activation), then the FR-066 hard block fires with the
+  date-before-activation reason (FR-068).
 
 ## 7. Open Questions
 

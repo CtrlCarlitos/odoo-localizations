@@ -39,7 +39,7 @@ related-party-interest → dividend reclassification; and the *tradición*
 
 It does **not** cover: the PN progressive scale vintages, plantilla and the
 resident retention engines 12.5%/1% (`04_isr-withholding.md`,
-HN-TAX-FR-121..153); deductions and NOL (file 02, HN-TAX-FR-046..080 —
+HN-TAX-FR-121..153); deductions and NOL (file 02, HN-TAX-FR-046..078 —
 consumed by id); the dividend 10%, cédular alquiler, enseñanza and
 revaluation 6% engines (file 05, cluster T7 — parallel synthesis;
 the related-party-interest reclassification of this file hands off to it by

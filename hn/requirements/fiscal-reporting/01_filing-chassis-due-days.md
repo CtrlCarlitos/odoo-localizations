@@ -265,7 +265,10 @@ freeze D-H2.5; go-live ingestion D-H3).
   family) that every S-HN3 sibling file's deadline rows feed: each row =
   código/obligation + due rule + day kind + instrument + valid_from/to +
   owner reference; rows are seeded by their owning file (02: DJIMR; 03:
-  DMC; 04: 215/523; 05: 201/202; 06: 535; 07: annual package; 09:
+  DMC; 04: 215/523; 05: 201/202; 06: 535; 07: annual package; 08:
+  GC-events 119/120/152/154 — V-HN1 omission fix: per-transaction
+  10-días-hábiles BPL clock (FR-267), 152 tercer-día (FR-284), 120
+  cadence rows (FR-282), 154 config-gap row (FR-293); 09:
   selectivo; 10: 541/542/543/545; 11: contribuciones) and this file owns
   ONLY the engine and the model, never the siblings' instruments.
   (LB-009; LB-010; EV13:EVID-076/082/090)
@@ -497,6 +500,11 @@ DATA (Ayudas undated except 43_/45_/54_/65_ prints 2026).
   the structural uniqueness constraint with the branch-consolidation
   message (FR-023).
 
+- **AC-016:** Given a grande contribuyente whose vector-fiscal alta state
+  lacks the DJIMR alta while the obligation generator expects it for the
+  current period, then the alta-state reconciliation surface lists the
+  missing alta with its código and window before filing opens
+  (FR-017).
 ## 7. Open Questions
 
 | ID | Question | Blocking? | Owner | Status |

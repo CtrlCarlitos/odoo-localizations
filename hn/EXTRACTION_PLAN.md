@@ -2,18 +2,67 @@
 
 Execution plan per [shared/docs/requirements-extraction-procedure.md](../shared/docs/requirements-extraction-procedure.md).
 Started 2026-08-19 (source-research pass complete). Status: active — **evidence
-waves W1 (taxation core) + W2 (fiscal reporting) + W3 (facturación/e-invoicing) +
-W4 (payroll) COMPLETE 2026-08-20 (EVID-001..333); synthesis prep DONE 2026-08-19
-(`hn/.extractions/00_MASTER_INDEX.md`); S-HN1 taxation + S-HN2 e-invoicing +
-S-HN3 fiscal-reporting + **S-HN4 payroll** synthesis DRAFT-COMPLETE 2026-08-20
-(`hn/requirements/taxation/` 7 files + `hn/requirements/e-invoicing/` 4 files +
-`hn/requirements/fiscal-reporting/` 11 files + 3 CSV sidecars +
-`hn/requirements/payroll/` 10 files + `smm_tables.csv`,
-subagent-dispatched with pre-allocated FR ranges, controller-verified);
-next = validation wave (COVERAGE.md + adversarial review, per-template
-Stage 5 — unblocked by S-HN4); S-HN5 thin closes decided at milestone**.
+waves W1-W4 COMPLETE 2026-08-20 (EVID-001..333 + V-HN1 EVID-334..336);
+synthesis prep DONE 2026-08-19 (`hn/.extractions/00_MASTER_INDEX.md`);
+S-HN1 taxation + S-HN2 e-invoicing + S-HN3 fiscal-reporting + S-HN4 payroll
+synthesis COMPLETE 2026-08-20; **V-HN1 VALIDATION WAVE COMPLETE 2026-08-20**
+(Stage 5: gate 1 COVERAGE.md script-checked via `hn/scripts/build_coverage.py`;
+gate 2 skipped — no notebook; gate 3 four adversarial reviewers, adjudicated —
+wave log below; all four topic indexes → approved); next = owner merge decision +
+S-HN5 thin closes at milestone (or acquisition wave in parallel)**.
 
 ## Wave log
+
+- **V-HN1 validation wave (2026-08-20, DONE):** Stage-5 gates. **Gate 1:**
+  `hn/scripts/build_coverage.py` (committed, regenerable) →
+  `hn/requirements/COVERAGE.md`: 103 registry rows = 98 cited-as-LB + 5
+  annotated N/A (93_ FY2017-transition interp, 94_ 1990 reglamento
+  ancestor, 97_ superseded-as-cited original, 95_/96_ Adulto Mayor
+  in-corpus-unread); script gates = every FR cites an own-file LB (1082
+  FRs), every LB token resolves to registry+disk (480 LBs), per-topic FR
+  totals match indexes (248/157/363/314). **Gate 3:** four fresh
+  adversarial reviewers (taxation/e-invoicing/fiscal-reporting/payroll);
+  adjudication summary:
+  - **`89_` D. 117-2021 had NO evidence pass (10th gloss incident):**
+    full read = new EV file `89_...evidence.md` EVID-334..336. Art. 1 =
+    CT 113.1 TP-scope interp → F10 OQ-004 RESOLVED (LB-012; FR-326(c):
+    TP reaches only related parties, never regime entities). Art. 2 =
+    D. 112-82 Art. 3 aguinaldo interp (salary character
+    prestaciones-only; tax/cotización/deduction immunity except
+    alimony) → payroll/02 LB-012 + **FR-087** (reserved range) + OQ-007
+    CONFLICT vs ISR 10.h caps (ISR rows stand — R-H67); IHSS-base lean
+    payroll/03 (flag open); RAP-base lean payroll/05 OQ-001. Registry
+    gloss amended.
+  - **Evidence fixes (R-H68..R-H70):** selectivo vehicles = WHOLE-BASE
+    brackets, not marginal (taxation/05 FR-188/189 + AC/mapping); 65+
+    L350k exemption = CLIFF not cap (taxation/04 FR-131(c)/AC-006);
+    feriados = ELEVEN not ten (payroll/06 + index).
+  - **Corpus-status fixes:** 95_/96_ were on disk pre-S-HN1 while
+    taxation/02/04 claimed "unacquired" → IN-CORPUS-UNREAD, FR-067 row
+    stays activation-blocked pending their evidence read (OQ-008 reworded;
+    LB-010 reworded); 49_ LB co-cite added to F8 LB-007; F10 LB-011
+    truncated-row repaired (was missing Source/Location cells).
+  - **Gap closures:** EINV FR-085 (D-H2.5 filed-period freeze) + FR-086
+    (D-H3.2 go-live reconciliation) + LB-020 + ACs 022-025 (file 02);
+    FREP FR-076 (111 12-months compound-split from FR-041); ACs added
+    for FR-017/FR-105/107/095/FR-040/FR-141/147/148/FR-253; F1 FR-025
+    seed list + file-08 owners; FR-023 anchor fix (LB-004 not LB-016);
+    FR-093 DJIMR-leg trim to evidenced 201 leg; CSV vocabulary `unknown`
+    documented; payroll weekly-depth OQ (file 06) + one-year band-edge
+    OQ (file 08); smm_tables row-169 mensual cell blanked
+    (never-a-guessed-value); AC-010 anti-conflation value; sibling
+    basename + range-cite corrections payroll-wide; e-invoicing range
+    cites 001..045→001..031; EINV file-04 OQ-008 truncation queue.
+  - **Parked/rulings:** T1 07 FR-281 no-EVID waiver (config-structure
+    FR); payroll Given/then two-part AC form accepted (When clause
+    vacuous for static-config assertions — convention note); T5 65+
+    L30k@60 attribution unchanged; depuración promedio-vintage OQ-007
+    (taxation/01) opened; ISV 15%/18% valid_from → UNPINNED (never-guess);
+    F8 EV50-anchor-in-exception-zone accepted as corroborative.
+  - All four topic 00_index.md files → **approved** with V-HN1 notes and
+    corrected counts (taxation 248/109/140/55; e-invoicing
+    157/69/74/27; fiscal-reporting 363/155/189/169 rows; payroll
+    314/147/163/75 — OQ rows incl. resolved).
 
 - **S-HN4 (2026-08-20, DRAFT COMPLETE):** payroll (P1-P12) synthesis, 10
   subagent dispatches with pre-allocated FR ranges (zero empty-return

@@ -4,7 +4,7 @@
 |---------|-------|
 | Country | hn |
 | Topic   | taxation |
-| Status  | draft (S-HN1 synthesis wave, in review) |
+| Status  | approved (V-HN1 validation wave 2026-08-20; see EXTRACTION_PLAN wave log) |
 | Authors | Takumi synthesis wave S-HN1 + controller |
 | Updated | 2026-08-20 |
 
@@ -23,18 +23,20 @@ re-derived. Source-to-requirements coverage: [../COVERAGE.md](../COVERAGE.md)
 
 | File | Scope (clusters) | FR range | FRs | LBs | ACs | OQs |
 |------|------------------|----------|-----|-----|-----|-----|
-| [01_isr-framework.md](01_isr-framework.md) | Subjects/scope/rates overview, fiscal periods, books, entero, refunds, prescription, sanctions (T1+T11); Art. 206 void dead-text note (R-H5) | HN-TAX-FR-001..045 | 45 | 24 | 23 | 6 |
+| [01_isr-framework.md](01_isr-framework.md) | Subjects/scope/rates overview, fiscal periods, books, entero, refunds, prescription, sanctions (T1+T11); Art. 206 void dead-text note (R-H5) | HN-TAX-FR-001..045 | 45 | 24 | 24 | 7 |
 | [02_isr-deductions.md](02_isr-deductions.md) | Renta-neta chassis, bad-debt cap, non-deductibles, personal/senior stack, donations, NOL (T2) | HN-TAX-FR-046..078 | 33 | 14 | 16 | 8 |
 | [03_isr-rates-gains-minimum.md](03_isr-rates-gains-minimum.md) | 22-A gross-minimum (three dated regimes, R-H32), ganancias de capital 10%, non-resident 13-category table (T4+T5) | HN-TAX-FR-081..104 | 24 | 12 | 20 | 8 |
-| [04_isr-withholding.md](04_isr-withholding.md) | Plantilla computation contract, FY2022-2026 scale vintages (`isr_brackets.csv`), 12.5% services + 1% compras engines, entero anchor (T3+T6) | HN-TAX-FR-121..153 | 33 | 15 | 16 | 10 |
+| [04_isr-withholding.md](04_isr-withholding.md) | Plantilla computation contract, FY2022-2026 scale vintages (`isr_brackets.csv`), 12.5% services + 1% compras engines, entero anchor (T3+T6) | HN-TAX-FR-121..153 | 33 | 15 | 19 | 10 |
 | [05_d17-2010-family.md](05_d17-2010-family.md) | Dividends/deemed dividends, cédulas alquiler/enseñanza, revaluación, selectivo vehicles/cigarettes/beverages/slots (T7+T10) | HN-TAX-FR-166..207 | 42 | 16 | 20 | 8 |
-| [06_isv.md](06_isv.md) | ISV base/event/rates/exemptions, débito-crérdito liquidation, OTCD cards, simplificado, devolución 8% (T8+T9) | HN-TAX-FR-211..255 | 45 | 18 | 19 | 6 |
+| [06_isv.md](06_isv.md) | ISV base/event/rates/exemptions, débito-crérdito liquidation, OTCD cards, simplificado, devolución 8% (T8+T9) | HN-TAX-FR-211..255 | 45 | 18 | 20 | 6 |
 | [07_special-regimes-exonerations.md](07_special-regimes-exonerations.md) | Exonerations registry lifecycle, RIT, no-simultaneidad, sacrificio fiscal, state-side gates, Eficiencia closers (T12) | HN-TAX-FR-256..281 | 26 | 10 | 21 | 8 |
-| **Total** | | HN-TAX-FR-001..281 | **248** | **109** | **135** | **54** |
+| **Total** | | HN-TAX-FR-001..281 | **248** | **109** | **140** | **55** |
 
 Numbering note: FR ranges pre-allocated per file (subagent dispatch
 pattern); unused tail numbers stay reserved (079-080, 105-120, 154-165,
-208-210, 282-285) for later additions — no renumbering. The
+208-210, 282-285) for later additions — no renumbering. V-HN1 changed no
+FR ids in this topic (AC/OQ additions only; all adjudications recorded in
+the EXTRACTION_PLAN wave log). The
 `isr_brackets.csv` sidecar carries the PN annual progressive vintages
 (FY2022-2026, 5 × 4 bands, full-precision mechanism per R-H10 — print
 2dp is print-only); it carries no FRs of its own.

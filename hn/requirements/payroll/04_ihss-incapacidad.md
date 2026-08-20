@@ -36,7 +36,7 @@ It does **not** own: IHSS cotización rates, ceilings and base-composition
 mechanics — file 03 (`03_ihss-cotizaciones.md`, HN-PAYR-FR-101..135) owns the
 *techo* dated rows this file consumes by id; CT-side maternity rest,
 suspension of the labor contract and its 4+6-week frame — file 09
-(`09_*`, HN-PAYR-FR-331..360, P11); RAP/fondo tranche computations over leave
+(`09_*`, HN-PAYR-FR-331..357, P11); RAP/fondo tranche computations over leave
 periods — file 05 (`05_*`, HN-PAYR-FR-181..215); ISR exclusion semantics —
 taxation/02 (HN-TAX-FR-046..078) and the plantilla engine taxation/04
 (HN-TAX-FR-121..153), consumed by id; salary/attendance records — file 10
@@ -213,7 +213,7 @@ resolution by payslip period / hecho generador, never-guess rule).
   (contractual-maternity-excess cost line); and shall state the one
   reconciliation to the CT-side regime: the CT maternity rest mechanics
   (4+6-weeks frame, paid rest, employer top-up) are owned by file 09
-  (HN-PAYR-FR-331..360, P11) and the IHSS 42+42 subsidy + the Art. 73 ¶2
+  (HN-PAYR-FR-331..357, P11) and the IHSS 42+42 subsidy + the Art. 73 ¶2
   employer complement reconcile the two regimes — this file owns only the
   IHSS subsidy side and emits the reconciliation figures, never the CT-side
   computation. (LB-004; LB-008; EV81:EVID-267; EV81:EVID-263)

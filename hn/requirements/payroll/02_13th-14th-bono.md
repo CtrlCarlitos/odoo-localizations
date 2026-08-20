@@ -36,7 +36,7 @@ exemption, and its NON-salary character (excluded from prestaciones AND from
 13th/14th bases).
 
 It does **not** own: SMM values, promedio rows and the rama×band dated-row
-sidecar — file `01_salario-minimo.md` (HN-PAYR-FR-001..040), consumed by range
+sidecar — file `01_smm-chassis.md` (HN-PAYR-FR-001..040), consumed by range
 only; the ISR plantilla/asalariados withholding engines including the
 13th/14th-month 10×SMM-*promedio* EXCESS-ONLY caps and the December
 settlement — taxation/04 (HN-TAX-FR-121..153), consumed by id; deduction
@@ -44,13 +44,13 @@ semantics / Art. 10 exclusions — taxation/02 (HN-TAX-FR-046..078); the DJIMR
 export contract — fiscal-reporting/02 (HN-FREP-FR-054/055) on the
 fiscal-reporting/01 chassis (HN-FREP-FR-001..032); comprobante de retención /
 patronos-exempt-unless-requested — e-invoicing/03 (HN-EINV-FR-139/140);
-IHSS contributions/incapacidad — `03_ihss.md` (HN-PAYR-FR-101..135) and
+IHSS contributions/incapacidad — `03_ihss-cotizaciones.md` (HN-PAYR-FR-101..135) and
 `04_ihss-incapacidad.md` (HN-PAYR-FR-141..170); RAP/fondo — `05_rap-fondo.md`
-(HN-PAYR-FR-181..215); jornada — `06_jornada.md` (HN-PAYR-FR-221..250);
+(HN-PAYR-FR-181..215); jornada — `06_jornada-surcharges.md` (HN-PAYR-FR-221..247);
 vacaciones — `07_vacaciones.md` (HN-PAYR-FR-261..280); cesantía/preaviso —
 `08_cesantia-preaviso.md` (HN-PAYR-FR-291..325); suspension/maternity —
-`09_suspension-maternity.md` (HN-PAYR-FR-331..360); salario/records —
-`10_salario-records.md` (HN-PAYR-FR-371..405).
+`09_suspension-maternity-special.md` (HN-PAYR-FR-331..357); salario/records —
+`10_salario-concepts-records.md` (HN-PAYR-FR-371..405).
 
 ## 2. Legal Basis
 
@@ -76,6 +76,7 @@ ingestion depths).
 | LB-009 | Ley del Salario Mínimo, Art. 21-B: "Durante el año de 1997, el Bono Educativo podrá hacer efectivo hasta en tres (3) cuotas mensuales." | Minimum Wage Law Art. 21-B: during 1997 only, the Education Bonus could be made effective in up to three (3) monthly installments — a 1997-only transition rule. | `hn/sources/104_Decreto_103_Ley_Salario_Minimo.pdf` | 103-Art. 21-B (p.8) (EV82:EVID-218) |
 | LB-010 | DGS, "Tabla del Bono Educativo⅟ — Año 2026"; pie: "⅟En base a la Ley del Salario Mínimo y sus reformas, artículo 21-A del Decreto Número 43-97 de fecha 28 de abril de 1997, que establece el Bono Educativo." Bandas "De 16 a 20 / De 21 a 50 / De 51 a 150 / De 151 en adelante" × 11 ramas + "12 Empresas acogidas a la Ley de Zonas Libres — De 16 en adelante — 1,748.56" (matriz completa de 44 valores + fila ZL transcrita en §4; vigente Año 2026). | DGS (Dirección General de Salarios), "Education Bonus Table — Year 2026": amounts per rama × employer-size band (16-20 / 21-50 / 51-150 / 151 onward; the band floor 16 operationalizes the ≤15-workers exemption), plus a single zonas-libres row (L1,748.56); statutory basis footnote cites Art. 21-A of D. 43-97 dated 28-apr-1997 (the print supplying the correct year, R-H43). Full matrix transcribed in §4; amounts are present values of the L500-1997 × accumulated-SMM-increase formula — no per-cell derivation is published; values load as data. | `hn/sources/92_Tabla_Bono_Educativo_2026.pdf` | 92_ p.1 (EV82:EVID-229) |
 | LB-011 | Código del Trabajo (D. 189-1959, impresión CEDIJ) — NEGATIVO: greps sobre todo el corpus del CT con 0 resultados para "aguinald*", "décimo tercer", "décimo cuarto"; CT-Art. 376: "Durante la vigencia del contrato el trabajador tiene derecho a percibir el salario, aún cuando no haya prestación del servicio por disposición o culpa del patrono." (Arts. 376-380 = reglas de salario, NO de aguinaldo.) | Labor Code negative finding: the CT contains NO aguinaldo, NO 13th/14th month, NO INVI, NO "salario integral", NO acoso provisions (R-H60) — Arts. 376-380 are salary rules, not bonus rules. The 13th month exists only in special law (D. 135-94 + reglamento Acuerdo 201-96, UNACQUIRED — `86_ OQ-3`); the 14th month likewise (D. 135-94 Art. 34 / Acuerdo 02-95). Never invent CT articles for these benefits. | `hn/sources/86_Codigo_del_Trabajo_TSC.pdf` | greps corpus-wide; CT-Arts. 376-380 (p.109) (EV85:EVID-327) |
+| LB-012 | D. 117-2021 (interpretación auténtica del Art. 3 del D. 112-82, Ley del Séptimo Día y Décimo Tercer Mes en concepto de Aguinaldo), Art. 2: "cuando se hace referencia a que el pago del Séptimo Día y Décimo Tercer Mes en concepto de Aguinaldo, integran el concepto de salario para todos los efectos legales, es únicamente para efectos del cálculo y pago de prestaciones, derechos e indemnizaciones laborales, ésto quiero decir, que el Décimo Tercer Mes o Aguinaldo está exento del pago de todo impuesto, descuentos, cotizaciones y deducciones de cualquier naturaleza, salvo las relativas al cumplimiento de las obligaciones de prestar alimentos." ["ésto quiero decir" as printed] (vigencia = publication, 14-feb-2022) | Authentic interpretation (2022) of the 1982 aguinaldo law's salary clause: the séptimo día + 13th month integrate *salario* ONLY for computing labor benefits, rights and severances; the 13th month is exempt from EVERY tax, discount, social-security contribution and deduction of any nature EXCEPT alimony obligations. CONFLICT-flagged against Ley ISR Art. 10.h's 10-SMM-promedio cap (excess taxable — OQ-007, never resolved silently); partially fills the D. 112-82 gap of OQ-001 (interpretation-level only; D. 135-94 + Acuerdo 201-96 remain unacquired). | `hn/sources/89_Decreto_117-2021_interp_Art113_CT.pdf` | Art. 2 p.2 (EV89:EVID-335; vigencia EVID-336) |
 
 ## 3. Functional Requirements
 
@@ -84,8 +85,13 @@ ingestion depths).
 The P2 sub-cluster is BLOCKED on `EV85:86_ OQ-3` (TOP acquisition lead): the
 aguinaldo's own instruments — D. 135-94 (Ley del Aguinaldo) and its reglamento
 Acuerdo 201-96 — are unacquired (this lead subsumes D. 112, whose acquisition
-routes are exhausted). The FRs below implement ONLY what the corpus evidences;
-every entitlement, pro-rata, base, deadline and termination-payout parameter is
+routes are exhausted). **V-HN1 partial fill:** D. 117-2021 Art. 2 (`89_`,
+EVID-335) now supplies INTERPRETATION-level content of D. 112-82 Art. 3 —
+salary character (prestaciones-only) + the aguinaldo's tax/cotización
+immunity — encoded as FR-087 with the OQ-007 conflict flag; the entitlement/
+pro-rata/base/deadline parameters remain blocked. The FRs below implement
+ONLY what the corpus evidences; every entitlement, pro-rata, base, deadline
+and termination-payout parameter is
 unresolved blocked configuration (pattern per e-invoicing/04 §3.8 SEE FRs).
 
 - **HN-PAYR-FR-051:** The system shall enforce the CT content-negative guard
@@ -125,6 +131,22 @@ unresolved blocked configuration (pattern per e-invoicing/04 §3.8 SEE FRs).
   consumption — this file supplies the amount (once FR-052 unblocks), never
   the cap, the promedio, or any plantilla mechanics.
   (LB-001; EV82:EVID-238)
+- **HN-PAYR-FR-087:** (added V-HN1 validation wave from the reserved
+  087-100 range) The system shall encode the D. 117-2021 authentic
+  interpretation of D. 112-82 Art. 3 as TWO dated interpretive rows
+  (valid_from 2022-02-14, additive-only per D-H2): (a) *salary character* —
+  the séptimo día and the 13th month integrate the concept of *salario*
+  ONLY for the computation and payment of labor benefits, rights and
+  severances (*prestaciones, derechos e indemnizaciones laborales*), never
+  for other salary purposes; and (b) *aguinaldo immunity* — the 13th month
+  is exempt from every tax, discount, social-security contribution
+  (*cotización*) and deduction of any nature EXCEPT alimony
+  (*prestación de alimentos*), which shall be the ONLY deduction line the
+  aguinaldo payment surface accepts while the OQ-007 conflict is open; the
+  ISR-side treatment is NOT changed by this row (the 10.h cap rows of
+  taxation/02 + the plantilla caps of taxation/04 stand by id, conflict
+  flag OQ-007), and the IHSS/RAP base leans ride their own files' OQs
+  (payroll/03, payroll/05). (LB-012; EV89:EVID-335/336)
 
 ### 3.2 P3 — 14th month (*décimo cuarto mes*): full mechanics (Acuerdo 02-95)
 
@@ -161,7 +183,7 @@ unresolved blocked configuration (pattern per e-invoicing/04 §3.8 SEE FRs).
   workers of *pequeña y mediana industria, artesanías, agricultura y
   ganadería en pequeña escala*, the base is the average of the SALARIOS
   MÍNIMOS applicable during the time worked — sourced exclusively as the
-  imported dated SMM rows of file `01_salario-minimo.md`
+  imported dated SMM rows of file `01_smm-chassis.md`
   (HN-PAYR-FR-001..040) resolved month-by-month across the entitlement
   window (a jul→jun window straddles SMM vintages), never re-derived and
   never actual wages.
@@ -221,7 +243,7 @@ unresolved blocked configuration (pattern per e-invoicing/04 §3.8 SEE FRs).
   ISR annual gross only in the EXCESS above 10 × SMM *promedio*, per
   taxation/04 HN-TAX-FR-126 (annual gross) and HN-TAX-FR-128 (independent,
   excess-only cap, "en cada caso") — with the promedio feed owned by file
-  `01_salario-minimo.md` (HN-PAYR-FR-001..040) and this file NEVER restating
+  `01_smm-chassis.md` (HN-PAYR-FR-001..040) and this file NEVER restating
   the plantilla or implying a cliff (amounts at or below the cap contribute
   zero, not a forfeit).
   (LB-001; LB-005; EV82:EVID-238; EV82:EVID-239)
@@ -238,7 +260,7 @@ unresolved blocked configuration (pattern per e-invoicing/04 §3.8 SEE FRs).
 - **HN-PAYR-FR-073:** The system shall gate bono educativo eligibility on
   the worker perceiving up to the equivalent of two (2) applicable SMM —
   public and private sectors both — resolving the 2×SMM ceiling with the
-  dated SMM rows of file `01_salario-minimo.md` (HN-PAYR-FR-001..040) as of
+  dated SMM rows of file `01_smm-chassis.md` (HN-PAYR-FR-001..040) as of
   the bono computation period (D-H2: dated, never hardcoded; re-resolves
   when SMM vintages change). (LB-008; EV82:EVID-218)
 - **HN-PAYR-FR-074:** The system shall register the *educandos* (students)
@@ -318,7 +340,7 @@ unresolved blocked configuration (pattern per e-invoicing/04 §3.8 SEE FRs).
 No CSV sidecar is allocated for this file: the bono 2026 matrix is transcribed
 inline below (a future sidecar may be seeded from the DGS prints); all SMM /
 promedio values are IMPORTED read-only from file
-`01_salario-minimo.md` (HN-PAYR-FR-001..040).
+`01_smm-chassis.md` (HN-PAYR-FR-001..040).
 
 **Aguinaldo placeholder (blocked):**
 
@@ -479,3 +501,4 @@ through standard payroll journals.
 | OQ-004 | `EV82:92_ OQ-1` — suspected bono reglamento ("Acuerdo 154-2000" family) appears in NO corpus document — unverified lead; acquire before asserting any bono procedural rule beyond Art. 21-A's own text. Also: no 2027 bono table in corpus (expected with the 2027 SMM cycle) — FR-084 blocks. | no | acquisition queue | open |
 | OQ-005 | `EV82:92_ OQ-2` — eligibility parameters live in Art. 21-A, NOT in the DGS table (amounts only); the 16-20 band floor is the table-side echo of the ≤15 exemption (16 = first non-excluded count) — consistent but unstated; encoded as the FR-085 source guard. | no | Takumi S-HN4 | open (encoded) |
 | OQ-006 | `EV82:102_ OQ-1` → RESOLVED at synthesis via R-H44: the considerando's "12 de Octubre de 1991 [sic]" is a print error; D. 135-94 = 1994, vigencia 28-oct-1994 (per Art. 15; the 8-month first period is coherent only for 1994). Encoded in FR-070. No further action. | no | — | resolved |
+| OQ-007 | `EV89:89_ OQ-1` (V-HN1) — CONFLICT, never resolve silently: D. 117-2021 Art. 2 ("el Décimo Tercer Mes o Aguinaldo está exento del pago de todo impuesto...") vs Ley ISR Art. 10.h (13th month exempt only up to 10 SMM promedio, excess taxable — `01_` EVID-006; plantilla `11_` implements the caps). Later-in-time authentic interpretation of a DIFFERENT statute (D. 112-82, 1982) against the ISR's express cap regime. Current encoded rows STAND (FR-087(b) ships the immunity as a conflict-flagged interpretive row; the ISR-side caps of taxation/02/04 are untouched); resolution requires the D. 135-94/D. 112-82 acquisition + a hierarchy ruling, then a dated-row flip, never code. Related leans: IHSS base composition (payroll/03 OQ, statutory lean = 13th month OUT of cotización base), RAP/fondo "salario ordinario" base (payroll/05 OQ-1 lean), CT Art. 95.12-13/60-A mandatory union/coop deductions vs "deducciones de cualquier naturaleza, salvo... alimentos" (`EV89:89_ OQ-3`, payroll/10 flag). | no (ISR rows stand; immunity row conflict-flagged) | acquisition queue + controller ruling | open |

@@ -99,9 +99,13 @@ print. D-H2 dated rows and the D-H2.5 filed-period freeze bind throughout.
   DJIMR informativa **per retention código with movements** (never an
   empty-code filing), each aggregating that month's retention records of the
   código, and shall generate a DJIMR only for códigos present in the 25-code
-  catalog (FR-049); for código 111 the monthly row set shall cover all 12
-  months of the fiscal year including zero-retention months (plantilla
-  declare-12-months note, consumed from HN-TAX-FR-133).
+  catalog (FR-049).
+  (LB-001; LB-002; EV13:EVID-076/077)
+- **HN-FREP-FR-076:** (added V-HN1 from the reserved 076-085 range —
+  compound-split of the former FR-041 tail per template §3) For código
+  111 the monthly row set shall cover all 12 months of the fiscal year
+  including zero-retention months (plantilla declare-12-months note,
+  consumed from HN-TAX-FR-133 — the omisos-avoidance rule).
   (LB-001; LB-002; EV13:EVID-076/077)
 - **HN-FREP-FR-042:** The system shall anchor every DJIMR informativa and
   its SER determinativa to the deadline of the first 10 días CALENDARIO of
@@ -409,7 +413,7 @@ header row, LF endings; fields containing commas are double-quoted;
 vintage — pre-2024 DMR months resolve to the `dmr` regime row of FR-046,
 not to catalog rows); `rate_pct` EMPTY where no print pins a value (122-134
 family — resolve from taxation/03 by id at implementation; never guess);
-`informativa_channel` carries `ovi` / `ovi+sw` / `unresolved_37vs39` (135);
+`informativa_channel` carries `ovi` / `ovi+sw` / `unresolved_37vs39` / `unknown` (V-HN1: 13 rows where no print states the channel — an explicit gap value, not a resolution) (135);
 `filing_mode` = `periodic` except 138 = `eventual+periodic` (dual deadline
 per FR-063); `notes` carries the per-row OQ markers and R-rulings
 (R-H16/R-H21/R-H26/R-H33/R-H31). Layer semantics: Odoo-side
@@ -478,7 +482,7 @@ plantilla version cycle (no fixed dates — always-latest rule).
   112 and 135 only, then exactly three DJIMR informativas are generated
   (111/112/135), none for any other código, and the 111 set contains one
   row per employee per month for all 12 months of the FY including
-  zero-retention months (FR-041).
+  zero-retention months (FR-041, FR-076).
 - **AC-002:** Given retentions practiced in January 2026, then the
   informativa + determinativa deadline resolves to 2026-02-10 (first 10
   días calendario of the following month); given a 138 transaction on

@@ -46,7 +46,7 @@ calendar and its qualifiers — file 04 (`04_ihss-incapacidad.md`,
 HN-PAYR-FR-141..170, EV81), consumed by id; IHSS cotizaciones/techos —
 file 03 (HN-PAYR-FR-101..135); RAP/fondo — file 05 (HN-PAYR-FR-181..215);
 the jornada engine that enforces the minor caps — file 06
-(HN-PAYR-FR-221..250); vacaciones and continuity accruals through
+(HN-PAYR-FR-221..247); vacaciones and continuity accruals through
 suspension — file 07 (HN-PAYR-FR-261..280); the general preaviso/cesantía
 engines and ALL dismissal-penalty sides (including the pregnancy-window
 60-day + 10-week + double-rest penalties) — file 08 (HN-PAYR-FR-291..325);
@@ -244,7 +244,7 @@ monthly per-contract aggregates from hire date, never-guess rule).
   worker under 17 the constitutional schedule caps — maximum 6 hours daily
   and 30 weekly, DIURNAL work only, in any kind of work (C-1982 Art. 128.7
   as quoted in the CT footnotes) — as contract-level constraints emitted
-  to the jornada validation engine owned by file 06 (HN-PAYR-FR-221..250,
+  to the jornada validation engine owned by file 06 (HN-PAYR-FR-221..247,
   consumed by range); age is resolved as of each schedule/payslip date
   (D-H2 birthday discipline), never as of contract signature alone.
   (LB-007; EV85:EVID-323)

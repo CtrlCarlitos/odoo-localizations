@@ -37,13 +37,13 @@ It does **not** own: the RAP fondo offset/complement settlement engine, saldo
 tracking and the 28-may-2024 vigencia boundary — file 05
 (HN-PAYR-FR-181..215), which CONSUMES this file's exported amounts by id; SMM
 values (file 01, HN-PAYR-FR-001..040); 13th/14th-month/bono mechanics (file
-02, HN-PAYR-FR-051..090); IHSS cotizaciones/incapacidad (files 03/04,
+02, HN-PAYR-FR-051..087); IHSS cotizaciones/incapacidad (files 03/04,
 HN-PAYR-FR-101..135 / 141..170 — this file only consumes IHSS status flags
 for the lit. f) exclusions, never computes IHSS benefits); jornada/overtime
-(file 06, HN-PAYR-FR-221..250); the vacaciones scale and its termination
+(file 06, HN-PAYR-FR-221..247); the vacaciones scale and its termination
 cash-out (file 07, HN-PAYR-FR-261..280 — CT Arts. 345-356 per R-H59);
 suspension causes and the maternity rest regime incl. its 180-day base (file
-09, HN-PAYR-FR-331..360); the *salario completo* definition, general salary
+09, HN-PAYR-FR-331..357); the *salario completo* definition, general salary
 protections and records (file 10, HN-PAYR-FR-371..405); the ISR treatment of
 termination payouts through the plantilla engines (HN-TAX-FR-121..153,
 taxation/04) and deduction semantics (HN-TAX-FR-046..078, taxation/02).
@@ -246,7 +246,7 @@ hecho-generador/period resolution, never-guess rule).
   ordinary termination payouts: 60 days' wages + the value of the untaken
   10-week paid rest + double remuneration of nursing rests not conceded —
   with the maternity-rest regime and its 180-day average base owned by file
-  09 (HN-PAYR-FR-331..360), consumed by range.
+  09 (HN-PAYR-FR-331..357), consumed by range.
   (LB-010; EV85:EVID-308)
 - **HN-PAYR-FR-315:** The system shall implement the *período de prueba*
   (probation period) exemptions: probation capped at 60 days, paid,
@@ -366,7 +366,7 @@ recorded per row where a legal vintage exists.
 | FR-300..FR-308 | odoo | l10n_hn.ct.cesantia.rule + l10n_hn.ct.settlement | cesantía compute | D12: lit. g)/death-75% dated 2008-11-05 (D. 150-2008 fn. 19); caps 25/15 as dated rows; D15/D16: resolved values snapshot on the settlement; exclusion predicates as worker flags |
 | FR-309, FR-310 | odoo | l10n_hn.ct.settlement branches | art121 + worker liability | Art. 121 cap; 30-day damages ceiling; <3m cap edge = OQ-004 flag |
 | FR-311, FR-312 | odoo | l10n_hn.ct.settlement (salarios caídos reservation) | judgment-dated rows | End date = firm-sentence input (judgment-dated, D-H2 discipline); citation discipline: Art. 113.1 interp = 89_ (D. 117-2021) |
-| FR-313, FR-314 | odoo | hr.departure + l10n_hn.ct.settlement stacks | constructive parity; pregnancy stack | Maternity rest regime + 180-day base consumed from file 09 (HN-PAYR-FR-331..360) by range |
+| FR-313, FR-314 | odoo | hr.departure + l10n_hn.ct.settlement stacks | constructive parity; pregnancy stack | Maternity rest regime + 180-day base consumed from file 09 (HN-PAYR-FR-331..357) by range |
 | FR-316, FR-317 | odoo | l10n_hn.ct.settlement.export | reference amounts | Consumed by file 05 (HN-PAYR-FR-181..215) by id — R-H55; RAP vigencia boundary 28-may-2024 owned by file 05; preaviso never offset (OQ-003) |
 | FR-318..FR-320 | odoo | l10n_hn.ct.cesantia.pact.ledger + hr.contract/res.company flags | pact mode | R-H58 anchor (D. 150-2008 Art. 2 at CT-Art. 120-A fn. 19); base-exclusion hooks to files 02/07 averages; forfeit rule |
 | FR-321 | odoo | ir.actions.report (QWeb) on l10n_hn.ct.settlement | constancia | Mandatory fields a-c; optional d-e on worker request |
@@ -474,3 +474,5 @@ journal posting owned elsewhere).
 | OQ-004 | Art. 121 cap edge (synthesis, this file): the fixed-term indemnity is capped at "what Art. 120 would give if indefinido", but Art. 120 bands start at 3 months — a fixed-term worker dismissed with <3 months' service has an Art. 120 equivalent of L0.00. Never-guess: the cap is encoded as written with the edge flagged; confirm doctrinal/STSS reading before freezing. | no | Takumi S-HN4 | open |
 | OQ-005 | Microenterprise headcount measurement (synthesis): Art. 120-A defines "máximo de diez (10) empleados remunerados" but not the measurement date/convention (at termination? average period?). FR-303 leaves the measurement as dated config; pin before go-live. | no | Takumi S-HN4 | open |
 | OQ-006 | Month-unit for non-monthly pay bases (synthesis): "un (1) mes de salario" in Art. 120.c is the average monthly salario completo for monthly-paid workers; the day-equivalence (e.g. 30 days) for daily/obra-paid workers is not printed in the corpus — FR-301 carries it as a config gap, never derived (no 360-day divisor exists in the CT). | no | Takumi S-HN4 | open |
+
+| OQ-007 | NEW (V-HN1 adversarial review): exact-one-year band edges — preaviso's statutory "de seis meses a un año" band and cesantía's ">6 months and <1 year" / "more than 1 year" bands leave the exactly-one-year boundary formally unassigned (inclusive "de…a" reading vs strict inequalities); no AC tests the boundary. Ruling needed: which band owns tenure of exactly 1.0 year for preaviso AND for cesantía's first-year proration. | no | controller ruling | open |

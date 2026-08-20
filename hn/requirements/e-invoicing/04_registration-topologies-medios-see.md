@@ -40,7 +40,7 @@ Honduras currently has NO transmission regime: *facturación electrónica*
 in §3.8 is the hook through which any future mandate lands.
 
 It does **not** cover: the document taxonomy, type-code catalog and 16-digit
-correlativo grammar (`01_document-types-numbering.md`, HN-EINV-FR-001..045);
+correlativo grammar (`01_document-types-numbering.md`, HN-EINV-FR-001..031);
 the CAI/rango authorization ledger, its state chain (SAR-924/SAR-927),
 authorization granularity (Art. 61), vigencia and the hard emission gate
 (`02_cai-ledger-emission-gate.md`, HN-EINV-FR-046..090); print/per-document
@@ -98,7 +98,7 @@ directly. D-H1/D-H2 bind all rows; D-H2.6 lands in §3.8.
   de emisión, the SAR-assigned registration codes produced at inscription
   (casa matriz = 000) — the two 3-digit location segments of the document
   identifier whose grammar is owned by `01_document-types-numbering.md`
-  (HN-EINV-FR-001..045). (LB-001; LB-014 num. 35; EV24:EVID-203/186)
+  (HN-EINV-FR-001..031). (LB-001; LB-014 num. 35; EV24:EVID-203/186)
 - **HN-EINV-FR-144:** The system shall reproduce the Oficina Virtual
   inscription e-workflow surfaces so the declared matrix transcribes without
   restructuring: new emission point entry, *acreditación de imprentas*
@@ -448,3 +448,4 @@ stable across Odoo 17/18/19/20; nothing requires version-specific behavior.
 | OQ-005 | Region unit for SISTEMA REGIONAL: the statute does not define how regions are constituted or registered with SAR; model as configuration (FR-156) and confirm against SAR practice / a real regional taxpayer. | no | Takumi + product owner | open |
 | OQ-006 | Arts. 56-58 verbatim coverage: the evidence entry (EVID-204) lists Art. 56 in its locus but quotes no text, and Arts. 57-58 are gloss-level only; confirm at re-extraction that nothing inside E8 scope sits in the unquoted passages (esp. Art. 56). | no | Takumi (re-extraction) | open |
 | OQ-007 | Acreditación de responsables granularity: 76_ captures responsible persons at inscription, but whether SAR's practice binds them per emission point or per company is not shown; the matrix (FR-172) models per-punto binding — verify against the Oficina Virtual intake when field-level fidelity lands (kin OQ-002). | no | Takumi | open |
+| OQ-008 | Truncated-passage re-extraction queue (V-HN1, kin of OQ-004/OQ-006): (a) Art. 49 móvil text breaks mid-sentence in LB-005 (registration-under-establecimiento reading rides the EVID-203 gloss only); (b) Art. 4 num. 40 SFC definition breaks mid-sentence in LB-014; (c) file 02's LB-014 Art. 40 no-utilizados anchor carries the same truncation class. Re-extract `24_` pp.54/6-12 and the Art. 40 zone before implementing FR-153/FR-079 verbatim-critical paths. | no | extraction queue | open |
