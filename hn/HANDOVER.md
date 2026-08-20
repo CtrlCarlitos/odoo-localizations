@@ -14,9 +14,10 @@ session boundary.
 ## 1. Where you are
 
 - **Worktree:** `.worktrees/hn-research`, branch `hn-research`. **Merges to
-  date: 2026-08-19 (W1) and 2026-08-20 (W2, W3 at `c1f9fa8`, and W4 at
-  `d5a2f4b` — rebase-then-merge per root HANDOVER §4.6, owner-executed;
-  main carries HN evidence through EVID-333 = ALL FOUR evidence waves).**
+  date: 2026-08-19 (W1) and 2026-08-20 (W2, W3 at `c1f9fa8`, W4 at `d5a2f4b`,
+  and synthesis prep at `e106b1f` — rebase-then-merge per root HANDOVER §4.6,
+  owner-executed; main carries HN evidence through EVID-333 + the master
+  index = ALL FOUR evidence waves + synthesis prep).**
   The cross-country canon D15-D19 was adopted at the W1 merge — HN's
   D-H2/D-H3 are country instantiations of D16/D18 (see
   `shared/docs/regulatory-change-management.md`,
@@ -265,8 +266,9 @@ RESEARCH §5). Structure:
    reglamento. D. 112 = routes exhausted (mirror-only at synthesis).
    Most SAR-catalog fetchable (recipe §6).
  3. **Merge to main at milestone:** owner decision; rebase-then-merge; never
-    force-push (root HANDOVER country model). **W4 merged 2026-08-20 at
-    `d5a2f4b` — branch and main are level; future waves branch from here.**
+    force-push (root HANDOVER country model). **Synthesis prep merged
+    2026-08-19 at `e106b1f` — branch and main are level; future waves branch
+    from here.**
 
 Session state at stop (2026-08-19, synthesis prep close): evidence COMPLETE
 through EVID-333 (~227 open OQs); corpus 103 files; W1+W2+W3+W4 committed and

@@ -84,10 +84,18 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
   promedio printed ONLY in DGS companion tables (2026 L14,917.20 → 10×SMM
   cap L149,172; never recompute); aguinaldo NOT in the CT (D.135-94 +
   Acuerdo 201-96 = TOP acquisition leads; D.112 SAR routes exhausted);
-  85_ = 9th title-vs-content incident (D.93-2021 derogates Penal-only, ZERO
-  CT articles — guard table EVID-333). Main ahead of
-  sv-research (`01f04c9`) — merges at its own milestone. This HANDOVER
-  update commits on main directly (integration branch).
+   85_ = 9th title-vs-content incident (D.93-2021 derogates Penal-only, ZERO
+   CT articles — guard table EVID-333). **HN synthesis-prep merge 2026-08-19
+   (§4.6 protocol, fourth run):** `hn-research` rebased onto `7cc9dd3` (1
+   commit rewritten: `e4fa9e8`→`e106b1f` synthesis prep — one HANDOVER
+   conflict resolved vs main's W4 merge record) then fast-forward-merged;
+   remote branch ref updated via delete + re-push. HN master index BUILT
+   (`hn/.extractions/00_MASTER_INDEX.md`: 43 clusters T1-T12/F1-F11/E1-E8/
+   P1-P12, R-H1..65 ledger, OQ registers C1-C4 ~227 open, authority orders,
+   S-wave plan); next S-HN1 taxation synthesis (S-HN2 e-invoicing
+   parallel-able; SEE/CAEE sub-cluster blocked on lead 1). Main ahead of
+   sv-research (`01f04c9`) — merges at its own milestone. This HANDOVER
+   update commits on main directly (integration branch).
 
 ### El Salvador — sources & evidence state
 - **EVID corpus 001..274** (gaps 109-127, 240 reserved-unused). W13 files (2026-08-19):
