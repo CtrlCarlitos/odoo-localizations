@@ -578,6 +578,29 @@ v19/v20, no F14 v17 manual); **UIF marco-legal hosts 74_ + "36-Ley-de-
 Simplificacion-Aduanera" — its AML "Reglamento" PDF = D. 2-2000 verbatim
 (duplicate of 17_; new D.L.-426 reglamento still absent — watch continues)**.
 
+### El Salvador — S7 special-regimes synthesis (COMPLETE 2026-08-19, in `.worktrees/sv`, branch `sv-research`; commits 2f33019..10a7cc0 + session-close)
+**`sv/HANDOVER.md` was bootstrapped this session (bf87179) and is now the
+authoritative SV cross-session memory — per-wave SV state lives THERE;
+this root section stays integration-level.** S7 = first worktree wave:
+plan `docs/superpowers/plans/2026-08-19-s7-special-regimes-synthesis.md`,
+subagent-driven 9 tasks (8 Approved clean + T1 one fix round), final
+whole-wave review **MERGE-READY** (zero Critical/Important). Deliverables
+in `sv/requirements/special-regimes/`: 8 files + index — **175 FRs /
+130 LBs / 80 ACs / 42 OQs (SV-SPE-FR-001..175)**. Key encodings: D15
+per-beneficiary exemption ladders (usuario 15/20y→60→40; DPA 10/15y;
+desarrollista flat; administrador via 54-C ONLY — Arts. 14+15 derogated
+by D.L. 318-2013 as printed); LSI indefinite-until-cessation rows +
+17b_ Art. 22 caps 50/40/30; 12m-ZF vs 24m-LSI clock invariant; ZF
+0%+76/77 vs LSI 75-77 route split; DUCA 62-field model (field 14 =
+vencimiento per the 43_ print — master-index "33/56" was a prep error,
+flagged); $18 tasa + presumed flete/seguro dated rows;
+SMM-mayor-cuantía config default (SOQ-33); FOVIAL $0.20/gal per-unit
+tax + IVA-exclusion guard (31_ provenance chain, SOQ-39). COVERAGE now
+**60 cited / 3 pending / 9 N/A / 1 superseded (73 rows; 74_ row added)**
+— pending = 02_ (IVA-core) + 32_/33_ (NIIF). **SV next wave: NIIF/
+chart-of-accounts (32_/33_), then IVA-core taxation.** Owner decides the
+`sv-research` → `main` merge (rebase-then-merge).
+
 ### GT / HN — merged to main; branch-based country workflow (2026-08-19)
 
 **Both `gt-research` and `hn-research` were rebased onto main and
