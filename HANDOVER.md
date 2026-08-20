@@ -168,6 +168,24 @@ SaaS core** (see decisions D1–D6 below). Target Odoo versions: 17–20.
       OPEN for owner confirmation.** New top LEAD: Reglamento Ley ISR
       ("Acuerdo N°799"). Next per `hn/HANDOVER.md`: S-HN3 fiscal-reporting
       → S-HN4 payroll → validation wave (COVERAGE + adversarial review).
+      **HN S-HN3 + R-H66 merge 2026-08-20 (§4.6 protocol, tenth run):**
+      `hn-research` rebased onto `b98dae1` (3 commits rewritten:
+      `3c54832`→`e79afef` hn/HANDOVER ninth-run record, `e3f9eb2`→`4847630`
+      S-HN3 fiscal-reporting synthesis, `9af3972`→`00caef9` R-H66 adoption;
+      zero conflicts) then fast-forward-merged; remote branch ref updated
+      via delete + re-push. **HN THIRD SYNTHESIS WAVE COMPLETE**
+      (`hn/requirements/fiscal-reporting/` 11 files + index,
+      HN-FREP-FR-001..393 = 362 FRs/154 LBs/188 ACs/169 OQs +
+      `djimr_retention_codes.csv` 25 codes; F1-F11 all clusters; S-HN1/
+      S-HN2 ids consumed throughout; controller-verified 11/11 + 5/5
+      verbatim spot-checks; one sanctioned direct-cite exception = F9 IPC
+      chain 98_/99_/100_ page-1-verified, values re-verified vs raw txt).
+      **R-H66 territoriality ADOPTED by product owner 2026-08-20**
+      (worldwide pre-2017 / territorial 2017+; taxation/01 FR-004 reversible
+      dated rows; master-index R ledger now 66 rows). Only yes-blocking
+      S-HN3 OQ = 506-vs-509 boundary (LSP statutes unacquired). Next per
+      `hn/HANDOVER.md`: S-HN4 payroll → validation wave at S-HN4 close
+      (COVERAGE + adversarial review).
 
 ### El Salvador — sources & evidence state
 - **EVID corpus 001..303** (gaps 109-127, 240 reserved-unused; W14 NIIF files
