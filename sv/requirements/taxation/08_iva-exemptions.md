@@ -263,9 +263,10 @@ vintage watch (§2 preamble) applies to every row above.
   shall NOT exempt leases of immovables destined to commercial, industrial,
   services or any other activity — that surface stays TAXED under the
   Art. 17-d service catalog (`taxation/07_iva-framework.md` SV-TAX-FR-192
-  by id); a mixed-use immovable requires destination allocation, exemption
-  applying only to the residential-habitation part.
-  (LB-009; EVID-314)
+   by id); a mixed-use immovable requires destination allocation,
+   exemption applying only to the residential-habitation part **[DESIGN —
+   default allocation; statute silent]**.
+   (LB-009; EVID-314)
 - **SV-TAX-FR-217:** The system shall exempt services *prestados en
   relación de dependencia regidos por la legislación laboral* (rendered
   under an employment relationship governed by labor legislation) and
@@ -457,7 +458,7 @@ legalización date (a fact date, not a parameter date).
 | FR-213 | odoo | l10n_sv.iva.vehicle.restriction | legalizacion_date + restriction_until + transfer_events | 5-year window per vehicle (D15 dated row); early transfer ⇒ import IVA (transferor) + internal-transfer IVA (acquirer) per Art. 71 — general Art. 71 surface owned by 12_iva-adjustments-assets (SV-TAX-FR-nnn pending) |
 | FR-214 | odoo | l10n_sv.iva.exemption.reason | Art. 46 a)-l) seed | FULL catalog, all 12 letters, no drops; rides T1 SV-TAX-FR-191/192 service classification |
 | FR-215 | odoo | res.partner + calification record | dgii_calificada / espectaculo autorizado + informe ref | 46-a utilidad-pública calification; 46-d calificado AND autorizado; Rgto. Art. 16 informe mechanism in technical-doubt cases |
-| FR-216 | odoo | product.template (lease) + account.move.line | residential destination test | 46-b viviendas-para-la-habición only; commercial/industrial/services leases stay taxed per 17-d (T1 FR-192 by id); mixed-use allocation |
+| FR-216 | odoo | product.template (lease) + account.move.line | residential destination test | 46-b viviendas-para-la-habitación only; commercial/industrial/services leases stay taxed per 17-d (T1 FR-192 by id); mixed-use allocation [DESIGN — default allocation; statute silent] |
 | FR-217 | odoo | account.move.line | dependence/public-employee ground | 46-c labor-law relación de dependencia + public/municipal/autonomous employees |
 | FR-218 | odoo | res.partner (institution) | mined_authorized hard gate | 46-e stamp-11 inciso: ONLY values paid to MINED-authorized public/private institutions; non-authorized academies taxed |
 | FR-219 | odoo | res.partner + account.move.line | fin_family flags + interest_scope_only | 46-f: interest only (pago o devengo); SSF supervision · cooperativas · BCR-qualified foreign (config gap SOQ-56 — DGII+BCR joint instrument absent) · ISR-6-excluded financing corporations/foundations |
