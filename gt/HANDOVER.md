@@ -14,8 +14,9 @@ identity correction, ALL SIX EVIDENCE WAVES COMPLETE); updated 2026-08-19
 once more (synthesis-prep session: **00_MASTER_INDEX.md built + committed**
 — 40 clusters / 81 R rows / 140 GOQs; 3 index-level corrections incl. 2 to
 THIS file §5e/§5f); updated 2026-08-20 (**S-GT1 e-invoicing synthesis
-COMPLETE — see §5h + §10 S-GT1 addenda**). Read this fully
-before acting; it is the authoritative cross-session memory.
+COMPLETE — see §5h + §10 S-GT1 addenda**); updated 2026-08-20 again
+(**S-GT2 taxation synthesis COMPLETE — see §5i + §10 S-GT2 addenda**). Read
+this fully before acting; it is the authoritative cross-session memory.
 **Update it at every session boundary.**
 
 Session bootstrap command: `Read gt/HANDOVER.md and continue.`
@@ -24,18 +25,21 @@ Session bootstrap command: `Read gt/HANDOVER.md and continue.`
 
 GT requirements-extraction for the Odoo localization, per
 `shared/docs/requirements-extraction-procedure.md` (method spine) and the SV
-corpus as precedent. Currently in **Stage 4 (synthesis): S-GT1 (e-invoicing) COMPLETE
-2026-08-20** — 8 requirements files + 00_index + COVERAGE committed
-(GT-EINV-FR-001..243 + GT-CAT-FR-001..015; 139 LBs / 99 ACs; GOQ-15..52 +
-GOQ-02/03/07/13/14 all consumed with master-index write-back). ALL SIX
-EVIDENCE WAVES COMPLETE (W-GT1 FEL stack + W-GT2 taxation + W-GT3 payroll
-+ W-GT4 fiscal reporting + W-GT5 COA + commercial-legal + W-GT6 special
-regimes; 26 evidence files, EVID-001..745); **synthesis prep DONE —
-`gt/.extractions/00_MASTER_INDEX.md` is committed and is THE synthesis
-gate** (topic clusters, R-ledger, GOQ register, authority orders).
-**Next: S-GT2 (taxation) plan doc → synthesis wave** (must consume R20/R55
-+ GOQ-01/GOQ-06 per master index; carry R46 form identities into every
-ISR-form-naming synthesis).
+corpus as precedent. Currently in **Stage 4 (synthesis): S-GT1 (e-invoicing)
+COMPLETE 2026-08-20** (8 requirements files + 00_index + COVERAGE committed;
+GT-EINV-FR-001..243 + GT-CAT-FR-001..015; 139 LBs / 99 ACs) and **S-GT2
+(taxation) COMPLETE 2026-08-20** — 7 requirements files + 00_index + 2 CSV
+sidecars committed (GT-TAX-FR-001..261; 136 LBs / 93 ACs / 38 OQ rows;
+GOQ-53..69 + GOQ-01/06 all consumed; **GOQ-118 + GOQ-68 resolved in-corpus,
+R52 dissolved**). ALL SIX EVIDENCE WAVES COMPLETE (W-GT1 FEL stack + W-GT2
+taxation + W-GT3 payroll + W-GT4 fiscal reporting + W-GT5 COA +
+commercial-legal + W-GT6 special regimes; 26 evidence files, EVID-001..745);
+**synthesis prep DONE — `gt/.extractions/00_MASTER_INDEX.md` is committed
+and is THE synthesis gate** (topic clusters, R-ledger, GOQ register,
+authority orders). **Next: S-GT3 (payroll) plan doc → synthesis wave**
+(GOQ-70..91 + GOQ-04/09/10/11 per master index; consume taxation FR ids —
+art. 70/72 caps + projection hooks in `taxation/04` point at the P-wave;
+carry R46 for any form naming; carry R30/R36/R41 bonus-law corrections).
 Product architecture context: root `HANDOVER.md` §1 (SaaS thin-client + Odoo;
 Takumi consumes requirements).
 
@@ -260,6 +264,52 @@ places — W-GT6)**. Reform chains are recorded in SOURCE_RESEARCH.md.
   owner); NIT check-digit NOT implementable in-corpus (GOQ-49 — no mod-11
   guesses); contingencia footer URL = verificador-integrado (the 2018
   efactura URL is banned-context only).
+
+## 5i. S-GT2 facts a synthesis/QA session MUST know (2026-08-20)
+
+- **Deliverables (all committed, branch gt-research)**:
+  `gt/requirements/taxation/00_index.md` + 7 topic files
+  (01_iva-core TX1 FR-001..045 · 02_iva-pequeno TX2 FR-046..068 ·
+  03_iva-retenciones TX3 FR-069..110 · 04_isr-trabajo TX4 FR-111..146 ·
+  05_isr-lucrativas-capital TX5 FR-147..193 · 06_ct-procedures TX6
+  FR-194..235 · 07_reform-chain-provenance TX7 FR-236..261) + CSV sidecars
+  (`iva_retention_rates.csv` 16 rows = 8 statutory + 8
+  secondary-print-pending; `isr_rates.csv` 17 rows incl. 4 transitional
+  valid_to). **261 FRs / 136 LBs / 93 ACs / 38 OQ rows**; COVERAGE 42
+  cited / 40 N-A / 0 pending. Plan doc:
+  `docs/superpowers/plans/2026-08-20-s-gt2-synthesis.md`.
+- **Two GOQs RESOLVED in-corpus during synthesis (master index annotated)**:
+  **GOQ-118** — AG 425-2006 **art. 4 = Sistema-de-Retenciones procedure AND
+  art. 9 = dualidad rule; both citations were correct; R52 tension
+  dissolved** (source-verified in 79_ txt; EV02d has no dedicated art.-9
+  EVID). **GOQ-68** — RESOLVED-NEGATIVE: **24_ art. 29 ¶6 prints the
+  electronic-invoice exception, NOT AG 125-2022 text** (¶4 = 6-month rule
+  per AG 222-2019; zero "125-2022" hits in 24_) — AG 125-2022 acquisition
+  need stands. GOQ-119 modeling call made: config-driven dualidad (retain
+  under EACH quality) + saas Sistema-% resolution + prorrateo.
+- **R55 shipped unfrozen**: the EV04b 5% additions (pequeño ≥Q2,500.01, agro
+  5% total factura, sector-público 25/5/5) live ONLY as
+  secondary-print-pending dated rows (GOQ-06 open until the consolidated
+  IVA / art. 54-bis text arrives — rides GOQ-01).
+- **GOQ-99 statutory half answered**: LAT art. 72.a + 28_ art. 70 print
+  "días hábiles"; LAT arts. 78/80 print plain "días" — transcribed exactly
+  per instrument in taxation/04; the RetWeb constancia-delivery half stays
+  with F2. SAT-2320 agro 10-día deadline = RetWeb-layer print whose
+  instrument is NOT in corpus (GOQ-01-context note; statutory = 15 días
+  hábiles uniformly per R26).
+- **GOQ-120 recorded unresolved** (CT art. 91 vs 94 num. 7 — both texts
+  verbatim, no in-corpus resolution possible; needs a post-2016 CT
+  consolidation).
+- **Final-review lesson carried forward**: every cross-file "owned there"
+  handoff must terminate at a RESOLVING FR id, never a family-range guess
+  (the FESP IVA-side cross-lock initially pointed at FR-080..085 — fixed to
+  FR-097 + GT-EINV-FR-036 + 05's LB-021 owning the Art. 52/52"A" anchor).
+  S-GT3+ briefs should name exact FR ids when pointing at taxation.
+- **Consumption surface for later waves**: S-GT3 payroll consumes
+  taxation/04's art. 70/72 caps + projection FRs (IGSS shares external per
+  GOQ-04); S-GT4 fiscal-reporting consumes FR-105..107 (retention
+  deadlines), the two CSV rate catalogs, and the R46 identity rows; F-wave
+  mechanics are cross-ref'd but never re-derived.
 
 ## 5. GT facts a new session must know
 
@@ -640,10 +690,14 @@ synthesized with these as flagged open questions and back-filled later.
 1. ~~EXTRACTION_PLAN~~ approved + ~~W-GT1..W-GT6~~ ALL COMPLETE 2026-08-19
    + ~~SYNTHESIS PREP~~ COMPLETE 2026-08-19 (master index committed —
    §5g). ~~S-GT1 (e-invoicing) synthesis~~ **COMPLETE 2026-08-20** (§5h).
-   **NEXT = S-GT2 (taxation) synthesis wave**: write the S-GT2 plan doc
-   (S-GT1 pattern: tasks/global constraints from clusters TX1-TX7 +
-   GOQ-53..69 + GOQ-01/06 cross-cutting; must consume R20/R55/R46), then
-   subagent loop; S-GT3 payroll next (GOQ-70..91 + GOQ-04/09/10/11).
+   ~~S-GT2 (taxation) synthesis~~ **COMPLETE 2026-08-20** (§5i).
+   **NEXT = S-GT3 (payroll) synthesis wave**: write the S-GT3 plan doc
+   (S-GT1/S-GT2 pattern: tasks/global constraints from clusters P1-P7 +
+   GOQ-70..91 + GOQ-04/09/10/11 cross-cutting; consume taxation FR ids
+   from `taxation/04`; carry R30/R36/R41 bonus-law corrections + R44 CT
+   edition caveat), then subagent loop; S-GT4 fiscal-reporting next
+   (F1-F6 + GOQ-92..121; consumes the taxation rate catalogs + R46
+   identities).
 2. Opportunistic gap closure (folds into any synthesis): queue rev-7 items
    (see DOWNLOAD_QUEUE; **D-19-2016 = top-ranked acquisition — blocks
    special-regimes synthesis quality**, GOQ-08); instructivos cat 15812;
@@ -771,3 +825,26 @@ convergence session; updated again at W-GT1 close)
   06-file (19_/20_ .pdf.txt → .pdf). COVERAGE 26 cited / 56 N-A / 0
   pending. **Open architecture item: D1-vs-contingencia tension (§5h) —
   surface at next owner touchpoint.** Next session: S-GT2 plan doc.
+- **S-GT2 session addenda (2026-08-20, synthesis wave 2 — taxation)**:
+  plan doc `docs/superpowers/plans/2026-08-20-s-gt2-synthesis.md` (8 tasks,
+  S-GT1 pattern, committed pre-wave); executed subagent-driven (7 implementer
+  dispatches + 7 task reviews + controller T8 index/write-back + final
+  whole-branch review + one fix dispatch). **6 of 7 task reviews Approved
+  first-pass; T5 needed one fix round (GOQ-58 row-level caveats on
+  FR-160/177/178 + OQ enumeration)**. Controller grep-verified 2-3 quotes
+  per file in addition to reviewer spot-checks (all passed; ~30 verbatim
+  quote checks across the wave). No empty-return failures this wave.
+  **Two GOQs resolved in-corpus (GOQ-118 + R52 dissolved; GOQ-68
+  resolved-negative) — see §5i; master-index write-back committed
+  (23 annotations + R47/R52 + synthesis-order + 5-column GOQ table headers
+  register-wide).** Final whole-branch review caught one Important
+  cross-file defect (FESP IVA-side cross-lock pointed at FR-080..085
+  instead of FR-097/GT-EINV-FR-036/LB-021) + 4 minors — all fixed in one
+  commit, scoped re-review PASS. Two source-path typos fixed (26_LAT_ISR →
+  26_LAT; 48_FormulariosVigentes → 48_SAT_Lista_Formularios html).
+  COVERAGE 42 cited / 40 N-A / 0 pending (16 newly-cited rows; EV04b/c
+  manuals + digest/criterios cited ONLY as dated-as-of
+  secondary/interpretive anchors). **Evidence-file freeze ruling: W-wave
+  evidence files are frozen artifacts — LB backfill suggestions from
+  reviewers REJECTED (quotes source-txt-verified instead; owner decision if
+  ever wanted).** Next session: S-GT3 payroll plan doc.

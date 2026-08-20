@@ -445,12 +445,29 @@ commit. Never leave a session with evidence unmerged. Update
   absent); AG 3-2017 + D-38-04 = tag-only leads. Registry amended
   (70_/71_/81_ rows).
 - 2026-08-20 — **S-GT1 COMPLETE** (e-invoicing + catalogs synthesis).
-  Plan `docs/superpowers/plans/2026-08-19-s-gt1-synthesis.md`; 8 topic
-  files + index + COVERAGE committed (GT-EINV-FR-001..243,
-  GT-CAT-FR-001..015; 139 LBs / 99 ACs / 45 OQ rows consuming
-  GOQ-15..52 + 02/03/07/13/14). Catalog sidecars generated from 29_/30_
-  (GH authority; _DRIFT.md records channel diffs verbatim; generator
-  gt/scripts/build_gt_catalogs.py idempotent). Master-index GOQ write-back
-  done. Evidence corrections: 19-code legacy FACE list; 18+3 complements;
-  Reglas 3.5.1.6. D1-contingencia architecture tension flagged (FR-220).
-  Next: S-GT2 taxation plan.
+   Plan `docs/superpowers/plans/2026-08-19-s-gt1-synthesis.md`; 8 topic
+   files + index + COVERAGE committed (GT-EINV-FR-001..243,
+   GT-CAT-FR-001..015; 139 LBs / 99 ACs / 45 OQ rows consuming
+   GOQ-15..52 + 02/03/07/13/14). Catalog sidecars generated from 29_/30_
+   (GH authority; _DRIFT.md records channel diffs verbatim; generator
+   gt/scripts/build_gt_catalogs.py idempotent). Master-index GOQ write-back
+   done. Evidence corrections: 19-code legacy FACE list; 18+3 complements;
+   Reglas 3.5.1.6. D1-contingencia architecture tension flagged (FR-220).
+   Next: S-GT2 taxation plan.
+- 2026-08-20 — **S-GT2 COMPLETE** (taxation synthesis). Plan
+   `docs/superpowers/plans/2026-08-20-s-gt2-synthesis.md`; 7 topic files +
+   index + 2 CSV sidecars committed (GT-TAX-FR-001..261; 136 LBs / 93 ACs /
+   38 OQ rows consuming GOQ-53..69 + GOQ-01/06 owned + kin
+   04/13/14/49/50/99/102/103/118/119/120/124). R20/R55/R46 consumed as
+   mandated (R20 = full law-copy footnote mapping 45←12/46←13/50←18;
+   R55 rows shipped secondary-print-pending in iva_retention_rates.csv;
+   R46 identities throughout). **Two in-corpus GOQ resolutions:**
+   GOQ-118 RESOLVED (AG 425-2006 art. 4 = Sistema procedure AND art. 9 =
+   dualidad — both citations correct; R52 dissolved, source-verified) and
+   GOQ-68 RESOLVED-NEGATIVE (24_ art. 29 ¶6 = electronic-invoice exception,
+   NOT AG 125-2022 text; ¶4 = 6-month rule per AG 222-2019; acquisition
+   stands). GOQ-119 modeling call made (config-driven dualidad + saas
+   Sistema-% resolution). COVERAGE 42 cited / 40 N-A / 0 pending. Final
+   whole-branch review: 1 Important (FESP cross-lock mispointed at
+   FR-080..085 → repointed to FR-097/GT-EINV-FR-036/LB-021) + minors fixed
+   in one commit. Next: S-GT3 payroll plan (GOQ-70..91 + GOQ-04/09/10/11).
