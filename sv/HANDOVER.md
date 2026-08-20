@@ -26,9 +26,10 @@ boundary.**
 - **Corpus status:** evidence phase COMPLETE through W14; synthesis
   delivered S1 (e-invoicing) + S2 (ISR) + S3 (fiscal reporting) + S4
   (payroll) + S5 (commercial-legal) + S6 (Quincena-25 fold-in) + S7
-  (special-regimes, 2026-08-19) + **S8 (chart-of-accounts, 2026-08-20,
-  this session — MERGE-READY: 8 files + index, 276 FRs, commits
-  d25ecd7..0eabbca; final whole-wave review clean after one fix wave)**.
+  (special-regimes, 2026-08-19) + **S8 (chart-of-accounts, 2026-08-20 —
+  MERGED to main at aec9e5d via rebase-then-merge; 8 files + index,
+  276 FRs; final whole-wave review clean after one fix wave; pre-rebase
+  SHAs d25ecd7..0eabbca are superseded by 8e9ba0f..0ca6d29+)**.
   W14 (2026-08-19): NIIF evidence pass — EVID-275..303, clusters N1-N8 +
   R29 + SOQ-46..53 in the master index. **NEXT WAVE: IVA-core taxation
   (01_/02_ full synthesis — folds S3's R/S + IVA-retention cross-refs,
