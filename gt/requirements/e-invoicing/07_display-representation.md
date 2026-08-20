@@ -1,0 +1,379 @@
+# GT — E-Invoicing — Graphic representation & test-design vectors (cluster E8)
+
+| Field   | Value |
+|---------|-------|
+| Country | gt |
+| Topic   | e-invoicing |
+| Status  | draft |
+| Authors | GT synthesis wave S-GT1 |
+| Updated | 2026-08-19 |
+
+## 1. Purpose
+
+This file defines the functional requirements for the *representación gráfica*
+(graphic representation — the printed/PDF rendering of a DTE) of the Guatemala
+FEL regime as specified by SAT's undated display guide 18_: the nine display
+areas including the QR code, the authorization and certificador blocks, the
+IVA-inclusive unit-price display convention with its pequeño/exentas
+exceptions, the tax-code display set, and the adenda channel rule. It also
+carries the contingencia PRINT aspects (2018 19_ input, supersession-checked —
+every current value lives in `06_anulacion-contingencia.md`), the 17_
+*casos de prueba* (test cases) battery of May 2018 as test-design vectors
+(usable only where Reglas y Validaciones v2.0 confirms the expectation), and
+the E8 supersession watchlist binding the whole 17_–22_ manual family to the
+current rulebook.
+
+It does **not** cover: the DTE taxonomy — the display type label reads the
+registry owned by `01_document-types.md` (GT-EINV-FR-001/FR-006, R18), the
+XML schema structure (`02_dte-schema.md`, E2), any validation value, rate,
+window or matrix — all owned by `03_validation-rules.md` (E3), the legal
+chain, mandate chronology and habilitación flow (`04_mandate-onboarding.md`,
+E4), the certificador provider contract and adenda transport semantics
+(`05_certificador-interface.md`, E5), the current contingencia/anulación
+mechanics and print legends (`06_anulacion-contingencia.md`, E6), or
+retention/archive duties (05-file OQ-005 → taxation wave). Those files are
+referenced, never duplicated.
+
+## 2. Legal Basis
+
+Authority guards (binding, from the master index): ALL of 17_/18_/19_/20_/
+21_/22_ are 2018-vintage or undated — **Reglas y Validaciones v2.0
+(19/12/2024, vigencia abril 2025) governs every substantive value (R7)**.
+This file cites the manuals for DISPLAY/REPRESENTATION and TEST-DESIGN only;
+every superseded value cross-references the file that owns the current one
+(§3.4 watchlist). **18_ is the graphic-representation guide ONLY — it is NOT
+a software-certification requirements document** (those live in
+`05_certificador-interface.md` via 22_; R18 identity separation, open
+identity question GOQ-36 owned here). Rulings applied: R7 (manuals vs Reglas
+v2.0), R14 (22_ versioning — cross-ref to 05 only), R15 (Reglas editorial
+drift — guard owned by 03), R17 (fuel product codes — cross-ref to 03),
+R18 (18_ 20-type list superseded — taxonomy owned by 01).
+
+| ID | Citation (Spanish) | English translation | Source file | Location |
+|----|--------------------|---------------------|-------------|----------|
+| LB-001 | 18_ (guía, sin fecha), pp. 1–2: "Guía de requisitos (representación gráfica) / Documentos Tributarios Electrónicos (DTE) / Régimen de Factura Electrónica en Línea (FEL)" … "Requisitos que deben mostrarse en la representación gráfica de los Documentos Tributarios Electrónicos (DTE) 1. Tipo de documento 2. Datos del emisor 3. Datos del receptor 4. Datos de la autorización 5. Descripción de los bienes y servicios 6. Frases 7. Complementos 8. Datos del Certificador 9. Código QR" | 18_ identity and the nine display areas: the file is SAT's guide to what must be SHOWN in the printed/graphic representation of a DTE (not a software-certification requirements doc — that is 22_); the nine numbered requirement areas bind emitters' printed/PDF output | `gt/sources/18_FEL_guia_requisitos_minimos.pdf` | pp. 1–2, title + section head (EVID-081) |
+| LB-002 | 18_, p. 4: "a) Número de autorización b) Serie del documento c) Número del documento d) Número de acceso (aplica solo para documentos emitidos en contingencia por casos fortuitos) e) Fecha y hora de emisión (la hora es -Opcional-) f) Fecha y hora de certificación (autorizacióndel documento) -Opcional- g) Tipo de moneda aplicada al documento" … "Nombre y NIT de la entidad que certificóel documento (SAT o un certificador autorizado)" [sic spacing] | Authorization block: authorization number, serie, document number, currency; emission date/time (the hour optional) and certification date/time (optional); the Número de Acceso is displayed ONLY for contingency documents ("por casos fortuitos" — fortuitous events); certificador block = name + NIT of the certifying entity (SAT or an authorized certificador) | `gt/sources/18_FEL_guia_requisitos_minimos.pdf` | p. 4 "Datos de la autorización", "Datos del Certificador" (EVID-083) |
+| LB-003 | 18_, p. 6: "Direcciona al sitio web de la SAT,a efecto de comprobar que el documento es válido. -Opcional- para documentos generados con otros certificadores." [sic spacing] | QR area: the code directs to the SAT web site so the receiver can verify the document is valid; it is OPTIONAL for documents generated by other (non-SAT) certificadores | `gt/sources/18_FEL_guia_requisitos_minimos.pdf` | p. 6 "Código QR" (EVID-083) |
+| LB-004 | 18_, p. 5: "e) Precio unitario incluyendo el IVA (conlas excepciones correspondientes: pequeñocontribuyente, ventas exentas o no afectas). [sic spacing] f) Descuentos (si corresponde) g) Totalde ítem (cantidad de bienes o servicios multiplicado por el precio unitario) h) Impuestos cargados al documento: i. IVA … ii. IDP Impuesto a la Distribución de Petróleo … iii. ITH Impuesto al Turismo Hospedaje … iv. ITP Impuesto al Turismo Pasaje … v. TDP Impuesto alTimbre dePrensa … vi. IFB Impuesto a Favordel Cuerpo Voluntariode Bomberos … vii. MUN TasaMunicipal … viii.TAP Tarifa Portuaria." | Line-item display: the unit price INCLUDES IVA (exceptions: pequeño contribuyente documents, exempt or non-affected sales); discounts where applicable; item total = quantity × unit price; the taxes charged to the document are displayed with their codes — the eight-code display set IVA, IDP, ITH, ITP, TDP, IFB, MUN, TAP | `gt/sources/18_FEL_guia_requisitos_minimos.pdf` | p. 5 "Descripción de los bienes y servicios" (EVID-084) |
+| LB-005 | 18_, pp. 6–7: "existen los siguientes complementos: a) Abonos de factura cambiaria y factura cambiara de pequeño contribuyente b) Retenciones de factura especial c) Exportaciones d) Referencia de notas de débito o crédito" … "Es importante aclarar que en los servicios de emisión gratuita FEL de la Agencia Virtual y App FEL, actualmente no es posible agregar “adendas” a los documentos, únicamente en el servicio que prestan los terceros autorizados (Certificadores)." | Complement families as of the guide's date (four listed) and the adenda channel rule: adendas cannot be attached in the free SAT emission services (Agencia Virtual / App FEL), only in the service provided by authorized third-party certificadores | `gt/sources/18_FEL_guia_requisitos_minimos.pdf` | pp. 6–7 "Complementos", "“Adendas“" (EVID-085) |
+| LB-006 | 18_, p. 3: "El tipo de documento que corresponda según el régimen del contribuyente, actualmente existenveinte [sic] tipos: 1. Factura 2. Factura especial 3. Factura cambiaria … 8. Factura Pequeño Contribuyente Régimen Electrónico … 20. Nota de Envío" | The guide's twenty display types as of its unspecified date, including the régimen electrónico types 8–11 (which post-date 2018 — the guide is later than 2018 despite carrying no date); SUPERSEDED for taxonomy by Reglas v2.0 §1.2 (26 types) — R18, owned by `01_document-types.md` FR-006 | `gt/sources/18_FEL_guia_requisitos_minimos.pdf` | p. 3 "Tipo de documento" (EVID-082; R18) |
+| LB-007 | 19_ (Mayo 2018, HISTORICAL — supersesión R7), §1.4–1.5: "El Emisor deberá emitir y entregar sus Documentos con el texto “Documento en Contingencia”" … "La representación gráfica de los documentos emitidos en contingencia no contendrá el número de autorización del Certificador, en su lugar deberá contener el “Número de Acceso” para que el receptor pueda obtener el DTE Certificado en el portal de la SAT, por lo que también deberá incluir el texto “Emisión en contingencia, obtenga el DTE Certificado en el sitio www.sat.gob.gt/efactura”." … "Debe incluirse la firma electrónica del Emisor en la representación gráfica." | The 2018 contingency PRINT rules: the "Documento en Contingencia" title; the Número de Acceso printed IN PLACE OF the certificador authorization number so the receiver can retrieve the certified DTE on SAT's portal; the retrieval legend (URL now STALE — the current footer value is Reglas v2.0 §4.1.e via `06` FR-222); and the emisor e-signature displayed on the contingency print (not restated by v2.0 → GOQ-38 kin) | `gt/sources/19_FEL_contingencia.pdf` | §1.4–1.5 pp. 4–5 (EVID-088, EVID-090) |
+| LB-008 | 17_ casos de prueba (Mayo 2018), every file p. 1 header + §4 Anexos: "RE-GIN/DPI-TI-003 001 01/03/2014 1 de 6 … Caso de Uso … Factura Electrónica en Línea Versión <1.0> Elaborado por Délmar Leonel Martínez Oliveros <Fecha Elaboración 28/05/2018>"; annexes cite the 2018 Reglas sections "2.14 Validaciones generales (Parte 3)" (Generales); "… 2.2. Validaciones Generales – 2.2.1 Validaciones Fecha de Emisión." (Fecha); "… 2.2.2 Validación: NIT del Emisor (XSD:NITEmisor)." (Establecimiento); "… 3.5 Complemento 4: REFERENCIAS NOTA DE CRÉDITO Y DÉBITO (XSD:ReferenciasNota)" (NCRE/NDEB) | Test-battery characterization: uniform RE-GIN/DPI-TI-003 Rev. 001 v1.0 use-case template (actors Emisor/Certificador/SAT[+Sistema RTU]; preconditions; numbered Flujo Normal Básico with per-step Resultado OK/Error; Anexos pointing at the Reglas section each case tests); header date 01/03/2014 is the template code date, NOT the content date; elaboration dates 09/12/28-May-2018; 25 txt files = 24 unique documents + one IDP near-duplicate (one objective line mis-prints "IVA" [sic] under an IDP title) | `gt/sources/17_FEL_casos_de_prueba.zip` | every file p. 1 + §4 Anexos (EVID-109) |
+| LB-009 | 17_ deep reads (five representative cases): (a) "Emitir una factura en la cual el contenido de la casilla total sea calculado erroneamente. Resultado: Error. Total calculado incorrectamente." (× FACT/FCAM/FESP/FPEQ/FCAP/REC/RDON/NCRE/NDEB/NABO, for Total and Gran Total); (b) "Resultado: Error. El establecimiento no está activo en la SAT (para la fecha de emision [sic]). Rechaza."; (c) "Emitir un DTE en el cual la Fecha de Emisión tiene una antigüedad mayor a cinco días con respecto a la casilla “Fecha y hora de certificación”. Resultado: Error. La diferencia entre la fecha de emisión y de certificación excede los cinco días. SAT Informa." + "igual a 5 dias [sic] hacia atrás … Resultado: OK." + month-end future-date rejection; (d) frases: "Error. El tipo de frase: 1 y/o 2 debe estar presente para el tipo de DTE FACT." / "El tipo de frase: 3 debe estar presente para el tipo de DTE FPEQ." / "El tipo de frase: 3 no debe estar presente para el tipo de DTE FACT." / frase 4 escenarios 1–12 (errors mention 13–15 as nonexistent); (e) NCRE/NDEB: "Error. El número de Autorización del Documento Origen no coincide con ningún DTE registrado en la SAT." / origen must be FACT/FCAM — FEL, or FACE with tipo FACT/FCAM (codes 1,2,7,8,30,32,37,38,53,57,60,62,63,66,67,68,69,72 → Error) / "Error. El monto del impuesto XXX no puede ser mayor al del documento origen registrado en SAT." | The five deep-read extracts = concrete per-rule acceptance/rejection vectors (totals arithmetic; establecimiento RTU-active gate; fecha-emisión 5-day/month-end window; frase type×scenario matrix at its 2018 bounds; NCRE/NDEB referencia-origen consistency) — every 2018 value supersession-checked against Reglas v2.0 (R7) before use | `gt/sources/17_FEL_casos_de_prueba.zip` | deep-read files pp. 2–13 (EVID-110(a)–(e)) |
+| LB-010 | 17_ remaining-case roster (one-liner inventory of the 19 cases beyond the deep reads): Validacion IDP (+ near-duplicate pair); Validacion de la Afiliación segun el NIT; Validaciones Complemento Factura Especial; Validaciones Complementos; Validaciones Generales parte 4 (partes 1–3 absent); Validaciones Transacción de Anulación; Validaciones de Descuento; Validaciones de Esquema (XSD); Validaciones de ID Exportación; Validaciones de ID Receptor; Validaciones de NIT del Emisor; Validaciones de Precio; Validaciones especificas de los impuestos incluidos por tipo de DTE; Validación IFB; Validación ITH; Validación ITP; Validación IVA; Validación MUN; Validación TDP | The rest of the battery, one line each: per-tax families (IDP/IVA/ITH/ITP/TDP/IFB/MUN), affiliation admissibility, factura-especial complement, complement presence, general validations parte 4, anulación transaction, discounts, XSD schema, export mark, receptor ID, emitter NIT, prices, tax-per-DTE-type — titles captured; expectations NOT deep-read | `gt/sources/17_FEL_casos_de_prueba.zip` | casos-de-prueba set characterization roster, following EVID-109/110 (EVID-109/110 roster section) |
+
+## 3. Functional Requirements
+
+### 3.1 Graphic representation — the nine display areas (18_)
+
+- **GT-EINV-FR-228:** The rendered *representación gráfica* (PDF/print
+  surface) of every DTE shall contain the nine display areas exactly as
+  enumerated by the guide: (1) Tipo de documento; (2) Datos del emisor;
+  (3) Datos del receptor; (4) Datos de la autorización; (5) Descripción de
+  los bienes y servicios; (6) Frases; (7) Complementos; (8) Datos del
+  Certificador; (9) Código QR. 18_ binds emitters' printed/PDF output only —
+  it shall never be read as a software-certification requirements source
+  (that is 22_ via the 05 file; R18 identity separation, open identity
+  question → OQ-001/GOQ-36). (LB-001; EVID-081)
+- **GT-EINV-FR-229:** The *Tipo de documento* (document type) area shall
+  print the DTE type label resolved from the CURRENT 26-code registry
+  (Reglas v2.0 §1.2 via `01_document-types.md` GT-EINV-FR-001); the guide's
+  "actualmente existen [veinte] tipos" 20-type list shall never be a
+  taxonomy or labeling source (R18; guard back-ref
+  `01_document-types.md` GT-EINV-FR-006). (LB-006; R18; EVID-082)
+- **GT-EINV-FR-230:** The *Datos de la autorización* (authorization data)
+  area shall print: (a) número de autorización; (b) serie del documento;
+  (c) número del documento; (e) fecha y hora de emisión — the hour being
+  optional; (f) fecha y hora de certificación — optional; (g) tipo de
+  moneda aplicada al documento. (Slot (d) Número de Acceso is contingencia-
+  only and is owned by FR-231.) (LB-002; EVID-083)
+- **GT-EINV-FR-231:** The *Número de Acceso* (access number) shall be
+  displayed ONLY on contingencia documents, in the authorization-block slot
+  (d), never on normally certified DTEs. The 18_ wording ties the display to
+  "contingencia por casos fortuitos" while the operative contingencia regime
+  keys on certification-unobtainable generally (class doctrine unresolved →
+  GOQ-38 kin, owned by `06_anulacion-contingencia.md` OQ-001/FR-219); the
+  print mechanics (in place of the auth number) follow FR-238 here and
+  GT-EINV-FR-221/FR-222 in the 06 file. (LB-002; LB-007; EVID-083, EVID-088)
+- **GT-EINV-FR-232:** The *Datos del Certificador* (certifier data) area
+  shall print the name and NIT of the entity that certified the document —
+  "SAT o un certificador autorizado" (SAT or an authorized certificador).
+  (LB-002; EVID-083)
+- **GT-EINV-FR-233:** The *Código QR* (QR code) area shall direct to the
+  SAT verification site so the receiver can check document validity, and
+  shall be OPTIONAL ("-Opcional-") for documents generated by non-SAT
+  certificadores; since the product always emits through a third-party
+  certificador (05-file provider model), the QR is a configurable surface
+  that defaults to rendered. (LB-003; EVID-083)
+- **GT-EINV-FR-234:** Line-item display (*Descripción de los bienes y
+  servicios*): the unit price shall be displayed IVA-INCLUSIVE
+  ("Precio unitario incluyendo el IVA") with exactly the guide's exception
+  set — *pequeño contribuyente* (small taxpayer) documents and exempt or
+  non-affected sales; per item the representation shall also show
+  discounts (where applicable) and the item total as quantity × unit price.
+  The display convention mirrors the price-inclusive computation owned by
+  `03_validation-rules.md` (base = (Precio − Desc − OtrosDesc)/1.12) — this
+  FR owns only the rendered convention, never the arithmetic. (LB-004;
+  EVID-084)
+- **GT-EINV-FR-235:** The *Impuestos cargados al documento* (taxes charged)
+  display shall show every tax carried by the document with its code, the
+  18_ eight-code set (IVA, IDP, ITH, ITP, TDP, IFB, MUN, TAP) serving as
+  the historical display seed; taxes NOT in the 18_ list but present in the
+  current universe (IDB, TAB, CEM, IBN — Reglas v2.0 rate rows owned by
+  `03_validation-rules.md`) shall display equally, and per-DTE-type tax
+  presence shall follow the current Reglas matrices (03 file), never the
+  2018 vectors. (LB-004; EVID-084; watchlist row 2)
+- **GT-EINV-FR-236:** The *Frases* and *Complementos* areas shall render
+  the frases/legends and complement data present in the certified document;
+  the guide's four-family complement enumeration (abonos de factura
+  cambiaria; retenciones de factura especial; exportaciones; referencia de
+  notas de débito o crédito) is a mid-vintage list superseded by the live
+  complement-schema registry (`02_dte-schema.md` GT-EINV-FR-057) — display
+  renders whatever the document carries, and complement presence rules are
+  owned by 03. (LB-005; EVID-085)
+- **GT-EINV-FR-237:** *Adenda* (addendum — emitter↔receiver private,
+  non-fiscal data) display: adendas can be attached only when certifying
+  through third-party certificadores — "no es posible agregar “adendas” …
+  únicamente en el servicio que prestan los terceros autorizados
+  (Certificadores)" — which the product's provider model always satisfies;
+  adenda content MAY render on the graphic representation but shall NEVER
+  enter the SAT-bound document (transport exclusion back-ref
+  `05_certificador-interface.md` GT-EINV-FR-186). (LB-005; EVID-085)
+
+### 3.2 Contingencia print aspects (19_ historical; current values in 06)
+
+- **GT-EINV-FR-238:** The contingencia print set shall be: title "Documento
+  en contingencia"; the Número de Acceso printed IN PLACE OF the
+  certificador's authorization number (so the receiver can retrieve the
+  certified DTE on SAT's portal); and the footer legend with the CURRENT
+  verifier URL "https://portal.sat.gob.gt/portal/verificador-integrado/"
+  (value owned by `06_anulacion-contingencia.md` GT-EINV-FR-222). The 19_
+  retrieval-legend URL www.sat.gob.gt/efactura is STALE (R7) and shall
+  appear in NO layout. This FR is the layout anchor the 06 file's FR-222
+  and FR-227 point at (current mechanics, re-send and aviso live there).
+  (LB-007; R7; EVID-088)
+- **GT-EINV-FR-239:** The contingencia layout shall provide a config-gated
+  slot for the emisor electronic-signature display ("Debe incluirse la
+  firma electrónica del Emisor en la representación gráfica" — 19_ §1.5).
+  Reglas v2.0 §4.1 does not restate this print duty; whether it survives
+  and in what form is open → GOQ-38 (owned by the 06 file, ledger row 6);
+  until resolved the slot ships DISABLED by default and the current-
+  authority print list (FR-238) is exhaustive. (LB-007; EVID-090; GOQ-38
+  kin)
+
+### 3.3 Test-design vectors (17_ casos de prueba)
+
+- **GT-EINV-FR-240:** The 17_ battery shall be ingested as test-vector
+  metadata recording, per case: file name, use case, actors, the 2018
+  Reglas section it is annexed to (2.14 parte 3 — totals; 2.2.1 — fecha de
+  emisión; 2.2.2 — NIT del emisor/establecimiento; 3.5 — complemento
+  referencias NCRE/NDEB; per-tax cases by family), the template identity
+  (RE-GIN/DPI-TI-003, Revisión 001, Versión 1.0; header date 01/03/2014 =
+  template code date, never content date) and the May-2018 elaboration
+  dates (09/12/28-May-2018). The set is 25 files = 24 unique documents +
+  one IDP near-duplicate pair (differing only in an objective line that
+  mis-prints "IVA" [sic] under an IDP title) — the inventory shall
+  deduplicate to 24 vector records and record the [sic] defect on the IDP
+  row. (LB-008; EVID-109)
+- **GT-EINV-FR-241:** Vector execution shall be gated on
+  Reglas-v2.0-confirmed expectations: NO test may assert a 2018-printed
+  expectation; each vector's expected result shall be re-derived from the
+  current rule (03/06 files) before the vector runs. The 2018→current
+  Reglas numbering map is OPEN (annex sections 2.2.1/2.2.2/2.14/3.5 are
+  2018 numbering; Reglas editorial drift makes section numbers unstable —
+  R15/GOQ-45 guard owned by 03) → OQ-003/GOQ-43; so is set completeness
+  ("Validaciones Generales" partes 1–3 absent from the published set).
+  (LB-008; LB-009; R7, R15; EVID-109, EVID-110)
+- **GT-EINV-FR-242:** Vectors whose 2018 expectation is contradicted by
+  Reglas v2.0 shall carry status `superseded` in the inventory with a
+  pointer to the owning current FR — known classes: frase tipo 4 scenario
+  bounds (2018: escenarios 1–12, 13–15 error; current: 1–35 with 34 absent
+  plus escenario 36 cited — `03_validation-rules.md` GT-EINV-FR-105);
+  fecha-emisión 5-day phrasing refinements (day-after counting, CIVA/CAIS
+  exemption — 03 FR-077..079); NCRE/NDEB origen sets and the FACE-origin
+  code list (currency → GOQ-48, 03). Superseded vectors remain in the
+  inventory as regression-history, flagged to never execute on the 2018
+  expectation. (LB-009; R7; EVID-110)
+- **GT-EINV-FR-243:** The battery refresh shall be tracked: the 2018 ZIP
+  may be retired and whether SAT publishes a current casos-de-prueba
+  battery is open → OQ-004/GOQ-07; on refresh the vector inventory shall
+  be regenerated from the current battery and the 2018 set archived as
+  historical input. (LB-008; EVID-109)
+
+### 3.4 Supersession watchlist (E8): where 17_–22_ yield to Reglas v2.0
+
+Reglas y Validaciones v2.0 (19/12/2024, vigencia abril 2025) governs EVERY
+row (R7 unless noted); current-value ownership stays single-homed in the
+file named per row — this table cross-references, it never re-derives.
+
+| # | Manual item (source; EVID) | Current authority | Resolution / owner |
+|---|----------------------------|-------------------|--------------------|
+| 1 | 18_ "actualmente existen [veinte] tipos" 20-type display list (EVID-082) | Reglas v2.0 §1.2: 26 types | R18; owned by `01_document-types.md` FR-006; display reads the registry (FR-229) |
+| 2 | 18_ 8-tax display set IVA/IDP/ITH/ITP/TDP/IFB/MUN/TAP (EVID-084) | Reglas v2.0 rate rows add IDB/TAB/CEM/IBN (03 file) | Display renders any carried tax (FR-235); rate values owned by 03 |
+| 3 | 18_ four-family complement enumeration (EVID-085) | Live complement-schema registry (02 file FR-057; 18+3 inventory) | Display renders what the document carries (FR-236) |
+| 4 | 18_ QR "-Opcional- para documentos generados con otros certificadores" (EVID-083) | No Reglas restatement found; guide undated | Carried as-is (FR-233) under the 18_ currency watch (GOQ-36/OQ-001) |
+| 5 | 19_ contingencia retrieval legend URL www.sat.gob.gt/efactura (EVID-088) | §4.1.e: https://portal.sat.gob.gt/portal/verificador-integrado/ | R7; owned by 06 FR-222; stale URL appears nowhere (FR-238) |
+| 6 | 19_ re-send wording "fuera del plazo establecido" — no number (EVID-089) | §4.1 "de forma inmediata" — immediate, no numeric deadline | R7; owned by 06 FR-224 (06 ledger row 3) |
+| 7 | 19_ contingencia = connectivity-only vs 18_ "casos fortuitos" class mention (EVID-086, EVID-083) | §4.1 states one mechanics set, no class taxonomy | Doctrine gap → GOQ-38 (06 owns; ledger row 4); display keys on contingencia mode (FR-231) |
+| 8 | 19_ emisor e-signature on the contingency print (EVID-090) | §4.1 does not restate the print duty | Open → GOQ-38 (06 ledger row 6); config-gated slot here (FR-239) |
+| 9 | 20_ anulación window portal phrasing "durante el mes en que fue emitido y como máximo hasta la fecha de vencimiento de la declaración del IVA" (EVID-092) | §3.16.7.1 period rule | R7; owned by 06 FR-204 (06 ledger row 1); manual currency → GOQ-37 (OQ-002 here) |
+| 10 | 17_ frase tipo 4 scenario bounds 1–12; 13–15 error (EVID-110(d)) | §2.6.8 escenarios 1–35 (34 absent) + 36 cited | R7; owned by 03 FR-105; vector status `superseded` (FR-242) |
+| 11 | 17_ fecha-emisión 5-day wording + month-end rule (EVID-110(c)) | §2.2.1 day-after counting; CIVA/CAIS exemption; same-month future | R7; owned by 03 FR-077..079; vectors re-derived (FR-241) |
+| 12 | 17_ NCRE/NDEB FACE-origin code list 1,2,7,8,30,32,37,38,53,57,60,62,63,66,67,68,69,72 (EVID-110(e)) | FACE legacy registry interpretation | GOQ-48 (owned by 03); vectors pending (FR-241/242) |
+| 13 | 17_ per-tax IDP-family vectors assume the GAL* product-code universe (roster; EVID-109/110) | XSD GH enum GAL*-only vs Reglas 2.3.2 GAL+CGP*LBS | R17/GOQ-02 (owned by 03); vectors re-derived (FR-241) |
+| 14 | 17_ annex section numbers 2.2.1/2.2.2/2.14/3.5 (EVID-109) | Reglas ch.2/3 numbering unstable across versions | R15/GOQ-45 guard (03) + numbering map → GOQ-43 (OQ-003 here) |
+| 15 | 21_ habilitación flow + password policy; 20_ portal anulación flow (EVID-091, EVID-093..095) | Undated manuals; mirrored by 04 FR-164..167 / 06 ledger row 8 | Currency watch → GOQ-37 (OQ-002 here; kin refs from 04 OQ-010 and 06) |
+| 16 | 22_ v2.1 authorization procedure (mixed footers 10-07-2024 / 03-09-2018) | Not superseded by Reglas; versioning caveat R14 | R14/GOQ-40 — owned by `05_certificador-interface.md` OQ-004; cross-referenced here, NOT duplicated |
+
+## 4. Data Model
+
+No machine-readable sidecar is committed for this file (display conformance
+data and the vector inventory are seed/test assets generated at
+implementation time from the tables below).
+
+**Display-area inventory** (18_, the nine areas; current-authority notes
+keep every value single-homed):
+
+| # | 18_ area (Spanish) | English | Rendered content | Reference |
+|---|--------------------|---------|------------------|-----------|
+| 1 | Tipo de documento | Document type | type label from the current registry | FR-229; 01-file registry |
+| 2 | Datos del emisor | Emitter data | NIT/name/establishment per the Emisor schema block | FR-228; 02 file |
+| 3 | Datos del receptor | Receiver data | ID/name per the Receptor schema block | FR-228; 02 file |
+| 4 | Datos de la autorización | Authorization data | auth number, serie, número, emission dt (hour opt.), certification dt (opt.), currency; Número de Acceso slot contingencia-only | FR-230, FR-231, FR-238 |
+| 5 | Descripción de los bienes y servicios | Goods/services description | per item: description, quantity, IVA-inclusive unit price (exceptions), discounts, item total, taxes charged | FR-234, FR-235 |
+| 6 | Frases | Legend phrases | frases/escenarios present in the document | FR-236; 03 matrix |
+| 7 | Complementos | Complements | complement data present in the document | FR-236; 02-file registry |
+| 8 | Datos del Certificador | Certifier data | certifying entity name + NIT (SAT or authorized certificador) | FR-232 |
+| 9 | Código QR | QR code | SAT verification target; optional for non-SAT certificadores | FR-233 |
+
+**Tax-code display table** (18_ p. 5 seed; rate values owned by
+`03_validation-rules.md`, never restated here):
+
+| Code | Spanish name (18_) | English | Display note |
+|------|--------------------|---------|--------------|
+| IVA | Impuesto al Valor Agregado | value-added tax | default display on affected items |
+| IDP | Impuesto a la Distribución de Petróleo | petroleum distribution tax | per-unit Q-rates (03) |
+| ITH | Impuesto al Turismo Hospedaje | tourism lodging tax | — |
+| ITP | Impuesto al Turismo Pasaje | tourism departure ticket tax | — |
+| TDP | Impuesto al Timbre de Prensa | press stamp tax | — |
+| IFB | Impuesto a Favor del Cuerpo Voluntario de Bomberos | firefighters volunteer corps fund tax | — |
+| MUN | Tasa Municipal | municipal rate | — |
+| TAP | Tarifa Portuaria | port tariff | — |
+| (beyond 18_) | IDB / TAB / CEM / IBN | current-universe taxes absent from the 18_ list | render per document (FR-235; watchlist row 2) |
+
+**Casos-vector inventory** (24 unique records; status legend —
+`confirmed-current`: behavior restated by a committed current FR (vector
+still executes against the current rule); `superseded`: 2018 printed bound
+contradicted by Reglas v2.0; `pending`: awaiting the GOQ-43 numbering/expectation
+map; NO vector executes on a 2018 expectation — FR-241):
+
+| # | Case (17_ file) | Use case / focus | 2018 Reglas annex | Types exercised | Status |
+|---|-----------------|------------------|-------------------|-----------------|--------|
+| 1 | Validaciones Generales | totals arithmetic (Total, Gran Total) | 2.14 parte 3 | FACT/FCAM/FESP/FPEQ/FCAP/REC/RDON/NCRE/NDEB/NABO | confirmed-current (03 FR-132/133) |
+| 2 | Validaciones de Fecha de Emisión | emission-date window | 2.2.1 | all DTE types | pending (03 FR-077..079 re-derivation) |
+| 3 | Validaciones de Código de establecimiento | establishment RTU-active gate | 2.2.2 | all DTE types | pending (03 §2.2.3 gates re-derivation) |
+| 4 | Validación de Frases | frase type×scenario matrix | "Documento Reglas y Validaciones" (no section) | FACT/FCAM/FPEQ/FCAP/RDON | **superseded** (frase 4 bounds; 03 FR-105) |
+| 5 | Validaciones Nota de Crédito y Nota de Débito | referencia-origen consistency | 3.5 (Complemento 4, XSD:ReferenciasNota) | NCRE/NDEB | pending (03 FR-137/138; FACE codes GOQ-48) |
+| 6 | Validacion IDP (+ "Validación IDP" near-duplicate) | IDP computation per type (dedup: 1 record; [sic] IVA objective noted) | roster (not captured) | per-type | pending (IDP rates 03; product codes R17 watch) |
+| 7 | Validación IVA | IVA per DTE type | roster | per-type | pending |
+| 8 | Validación ITH | tourism lodging tax | roster | per-type | pending |
+| 9 | Validación ITP | tourism ticket tax | roster | per-type | pending |
+| 10 | Validación TDP | press stamp tax | roster | per-type | pending |
+| 11 | Validación IFB | firefighters fund tax | roster | per-type | pending |
+| 12 | Validación MUN | municipal rate | roster | per-type | pending |
+| 13 | Validacion de la Afiliación segun el NIT | emission admissibility per emitter affiliation | roster | per-affiliation | pending (03 afiliación matrix) |
+| 14 | Validaciones Complemento Factura Especial | FESP retenciones complement | roster | FESP | pending |
+| 15 | Validaciones Complementos | complement presence/content | roster | per-type | pending |
+| 16 | Validaciones Generales parte 4 | general battery parte 4 (partes 1–3 ABSENT) | 2.14 family | multi | pending (GOQ-43 completeness) |
+| 17 | Validaciones Transacción de Anulación | anulación transaction | roster | anulación | pending (06 file owns current window) |
+| 18 | Validaciones de Descuento | discount consistency | roster | multi | pending (03 totals) |
+| 19 | Validaciones de Esquema | XSD conformance | roster | all | confirmed-current (XSD-first rule, 03) |
+| 20 | Validaciones de ID Exportación | export mark | roster | export types | pending (03 §2.2.5) |
+| 21 | Validaciones de ID Receptor | receptor NIT/CUI/CF | roster | multi | pending (03 §2.2.4) |
+| 22 | Validaciones de NIT del Emisor | emitter NIT RTU status | roster | all | pending |
+| 23 | Validaciones de Precio | price amounts | roster | multi | pending |
+| 24 | Validaciones especificas de los impuestos incluidos por tipo de DTE | tax-per-DTE-type matrix | roster | per-type | pending (03 tax×type matrix) |
+
+## 5. Odoo Mapping
+
+Layer split for this file: **report rendering = odoo** (QWEB/PDF surfaces);
+**display-standards conformance data = shared** (contract items both the
+client render and the SaaS document compilation must honor). Model names
+are stable across Odoo 17/18/19/20; no version-specific behavior is
+required by this file.
+
+| FR | Layer | Odoo model | Field(s) | Notes / version differences |
+|----|-------|------------|----------|------------------------------|
+| FR-228 | odoo | account.move + QWEB report layout | l10n_gt dte report | 9-area render gate; conformance checklist data shared (see FR-229..237 rows) |
+| FR-229 | shared | l10n_latam.document.type | code, name | Label resolved from the 01-file registry seed; 20-type list never seeded (R18); D12: registry row carries Reglas v2.0 version anchor |
+| FR-230 | odoo | account.move + QWEB | auth block fields | Auth number/serie/número post-certification (05 FR-180/181 kin); optional fields config-driven |
+| FR-231 | odoo | account.move + QWEB | NumeroAcceso slot | Contingencia-only; accessor generation owned by 06 FR-221; class doctrine GOQ-38 kin |
+| FR-232 | odoo | QWEB + provider profile | certificador name/NIT | From the provider configuration (05 file); never free text |
+| FR-233 | odoo | QWEB + res.company | QR render toggle | Default ON (product always third-party certificador); optional per 18_ |
+| FR-234 | shared | account.move.line + QWEB | price_unit display | IVA-inclusive convention = contract item: odoo render must match the saas-side price-inclusive computation (03); exceptions keyed on document type/regime |
+| FR-235 | shared | account.tax + QWEB | tax display codes | Tax-code display table (§4) seeded shared; per-type presence from 03 matrices; current-universe taxes beyond the 18_ 8 render equally |
+| FR-236 | odoo | QWEB | frases/complemento sections | Renders what the certified document carries; registry = 02 FR-057 |
+| FR-237 | shared | account.move + QWEB | adenda render section | Adenda channel feasible via third-party certificador; NEVER in SAT-bound document (05 FR-186); render is emitter/receiver private surface |
+| FR-238 | odoo | QWEB contingencia layout | title/NdA slot/footer | Footer URL hard-coded to the 06 FR-222 current value; stale 19_ URL rejected by layout test |
+| FR-239 | odoo | QWEB contingencia layout | emisor-signature slot | Config-gated, default OFF; doctrine GOQ-38 (06 owns) |
+| FR-240 | shared | l10n_gt.test_vector (seed data) | inventory fields | 24 records; IDP dedup + [sic] note; May-2018 provenance stamped |
+| FR-241 | shared | l10n_gt.test_vector | expectation_source | Expectation re-derived from current FR (03/06) at run time; 2018 expectation never asserted; map open GOQ-43 |
+| FR-242 | shared | l10n_gt.test_vector | status | `superseded` class pointers to owning FRs (03 FR-105 etc.); D12: supersession class re-checked on every Reglas version bump |
+| FR-243 | shared | l10n_gt.test_vector registry | battery version | Refresh watch GOQ-07; regeneration replaces inventory, archives 2018 set |
+
+## 6. Acceptance Criteria
+
+- **AC-001:** Given a certified FACT rendered to PDF, when the layout is
+  inspected, then all nine areas are present and non-empty: type label,
+  emitter data, receiver data, authorization block (número de autorización,
+  serie, número, moneda), goods/services items, frases, complementos (when
+  the document carries any), certificador name + NIT, and the QR area
+  (FR-228..FR-233).
+- **AC-002:** Given a contingencia document rendered to PDF, then the title
+  reads "Documento en contingencia", the Número de Acceso appears in place
+  of the authorization number, and the footer carries the current verifier
+  URL https://portal.sat.gob.gt/portal/verificador-integrado/ (06 FR-222);
+  and a full-text search of every committed layout for
+  "www.sat.gob.gt/efactura" returns zero hits (FR-238).
+- **AC-003:** Given a normally certified (non-contingencia) DTE, when
+  rendered, then no Número de Acceso appears anywhere on the
+  representation (FR-231).
+- **AC-004:** Given a general-regime FACT line of quantity 2 at unit price
+  Q112.00 (IVA-inclusive), then the display shows the IVA-inclusive unit
+  price and item total Q224.00; given an FPEQ line, then the display
+  applies the pequeño-exception convention instead of the IVA-inclusive
+  default (FR-234).
+- **AC-005:** Given a document certified by a third-party certificador with
+  the QR toggle off, then the QR area is omitted while the certificador
+  block still prints name + NIT (FR-232, FR-233).
+- **AC-006:** Given the vector runner executing the 17_ frase case at
+  escenario 13 (2018 printed expectation: Error "does not exist"), then the
+  runner asserts the CURRENT-matrix expectation (valid escenario per 03
+  FR-105), proving no vector executes a 2018-printed expectation
+  (FR-241, FR-242).
+- **AC-007:** Given the ingested vector inventory, then it contains exactly
+  24 unique records, the IDP near-duplicate is collapsed into one record
+  carrying the [sic] objective-line note, and every record carries its 2018
+  annex, template identity and status (FR-240).
+- **AC-008:** Given an emission with adenda content through the
+  third-party certificador profile, then the adenda renders on the graphic
+  representation while the SAT-bound document contains no adenda element
+  (FR-237; 05 FR-186).
+
+## 7. Open Questions
+
+Master-index GOQ ids (register `gt/.extractions/00_MASTER_INDEX.md` §C
+cross-cutting headline + §C.1); question text verbatim from the register.
+This file OWNS GOQ-36, GOQ-37, GOQ-43 and the cross-cutting register row
+GOQ-07. Kin ids referenced inline only: GOQ-38 (contingencia doctrine —
+owned by `06_anulacion-contingencia.md`), GOQ-40 (22_ versioning — owned by
+`05_certificador-interface.md`), GOQ-45 (Reglas editorial-drift guard) and
+GOQ-48 (régimen antiguo codes) — owned by `03_validation-rules.md`, GOQ-02
+(channel umbrella — catalogs-owned).
+
+| ID | Question | Blocking? | Owner | Status |
+|----|----------|-----------|-------|--------|
+| OQ-001 | GOQ-36 (owned): "18_ identity: is there a separate SAT "requisitos mínimos" doc for certificador software, or is 18_ (graphic representation) the only guía? Undated guide of uncertain vintage." Guards FR-228..FR-237 — the display FRs rest on an undated guide (currency unknown; it post-dates 2018 given the régimen electrónico types yet lists only 20 types); software-certification requirements are sourced from 22_ via the 05 file, never from 18_ (R18). | no | GT synthesis wave S-GT1 → W6 partner ask (SAT portal) | open |
+| OQ-002 | GOQ-37 (owned): "20_/21_ undated Agencia Virtual manuals — confirm current portal flows unchanged." Guards watchlist rows 9/15 (20_ anulación portal phrasing; 21_ habilitación flow mirrored by 04 FR-164..167, kin ref 04 OQ-010) and the currency of every undated-manual citation in the E8 family. | no | GT synthesis wave S-GT1 → W6 partner ask (SAT portal) | open |
+| OQ-003 | GOQ-43 (owned): "17_ casos set completeness (Validaciones Generales partes 1-3 absent) + 2018→current Reglas numbering map; does SAT publish a current battery (GOQ-07)?" Guards FR-240..FR-242 — vector execution is shipped gated (FR-241) so nothing blocks, but per-vector `pending` statuses stay until the map lands. | no | GT synthesis wave S-GT1 → W6 partner ask (SAT) | open |
+| OQ-004 | GOQ-07 (owned; cross-cutting register row): "(=OQ9 residue) Does SAT publish a current casos-de-prueba battery (2018 ZIP may be retired)? Refresh candidate." Guards FR-243 — on refresh the vector inventory regenerates from the current battery. | no | GT synthesis wave S-GT1 → W6 partner ask (SAT portal re-fetch) | open |
