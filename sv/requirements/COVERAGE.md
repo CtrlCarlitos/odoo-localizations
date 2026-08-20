@@ -4,13 +4,13 @@
 |---------|-------|
 | Country | sv |
 | Topic   | all (cross-topic) |
-| Status  | draft (S1 + S2 ISR + S3 fiscal-reporting + S4 payroll + S5 commercial-legal + S7 special-regimes waves; S8 evidence read W14) |
+| Status  | draft (S1 + S2 ISR + S3 fiscal-reporting + S4 payroll + S5 commercial-legal + S7 special-regimes + S8 chart-of-accounts waves) |
 | Authors | Controller (hand-built; script to regenerate later) |
-| Updated | 2026-08-19 (W14) |
+| Updated | 2026-08-20 (S8) |
 
 Every file in [../sources/](../sources/) mapped against the S1, S2 (ISR),
-S3 (fiscal-reporting), S4 (payroll), S5 (commercial-legal) and S7
-(special-regimes) requirements waves. Status values:
+S3 (fiscal-reporting), S4 (payroll), S5 (commercial-legal), S7
+(special-regimes) and S8 (chart-of-accounts) requirements waves. Status values:
 
 - **cited-as-LB** — appears in a Legal Basis row (or as direct schema read) of a requirements file; the citing file(s) named.
 - **not-applicable-this-wave** — out of the current wave's scope or superseded-without-content-need; reason noted.
@@ -76,8 +76,8 @@ cited-as-LB.
 | 29_Modificacion_Anexos_F07_F14.pdf | not-applicable-this-wave | mislabeled source: the PDF's actual content is the CNR *Registro de Comercio* F-985 regime (extraction `29_F985_CNR_RegComercio`), NOT the F-07/F-14 annex-modification resolutions — the intended resolutions behind v14/v16/v17 remain absent from the corpus (SOQ-12; referenced only as "29_-file OQ-1 kin" in `fiscal-reporting/06` OQ-004 / `07` OQ-001); registry-side F-985 content is out of this wave's scope |
 | 30_Calendario_Tributario_2026.pdf | cited-as-LB | `fiscal-reporting/08` LB rows (2026 tax calendar — obligation inventory, due-day visual layer, asueto legend) |
 | 31_Guia_FOVIAL_COTRANS.pdf | cited-as-LB | `special-regimes/08` LB rows (6: whole guide, S7 2026-08-19) — provenance chain: guide = secondary authority citing D.L. 208-2000 Art. 26 as reformed D.L. 597-2001; law text absent (SOQ-39; COTRANS instrument absent, MOQ-04 half-open) |
-| 32_NIIF_PYMES_2025.pdf | cited-as-LB | **S8 W14 evidence read 2026-08-19 (EVID-275..298) — synthesis pending (S8 wave)**; will be THE framework LB of `chart-of-accounts/` (SOQ-46 instrument gap gates eligibility config) |
-| 33_Guia_NIIF_Sostenibilidad_2024-2025.pdf | cited-as-LB | **S8 W14 evidence read 2026-08-19 (EVID-299..303) — synthesis pending (S8 wave)**; SECONDARY-ONLY role per R29(a): version/horizon facts (NIIF 18/19 2027-01-01; S1/S2 2024; amendments) + full-NIIF-vs-PYMES contrast set; never sole LB |
+| 32_NIIF_PYMES_2025.pdf | cited-as-LB | `chart-of-accounts/01..08` LB rows (50 — THE operative framework LB of the S8 wave per R29: Secciones 1-35 + Apéndices A/B cited by section/párrafo as printed) + §2 authority-order preambles (all eight files, S8 2026-08-20; EVID-275..298; SOQ-46 instrument gap gates eligibility config) |
+| 33_Guia_NIIF_Sostenibilidad_2024-2025.pdf | cited-as-LB | SECONDARY-ONLY LB rows per R29(a) — `chart-of-accounts/01` LB-007 (NIIF 19 framework-flag third value); `03` LB-008; `05` LB-007; `07` LB-007; `08` LB-004 (5 rows total: version/horizon facts — NIIF 18/19 2027-01-01, S1/S2 2024 — + the full-NIIF-vs-PYMES contrast set; never sole LB; EVID-299..303) |
 | 34_F07_v14_manual.pdf | cited-as-LB | `fiscal-reporting/01` LB rows (upload-engine §II/§XVI/§XVII); `02` LB rows (§III-§IV sales annexes); `03` (§V/§VII purchase annexes); `04` (§XIX anulados + SOQ-10 defect ruling LB-007); `05` (§XX-§XXIV special annexes); `07` (EVID-182 income-code apéndice transcription) |
 | 35_F14_v16_manual.pdf | cited-as-LB | `fiscal-reporting/06` LB rows (F-14 v16 annex row model + export contract); `07` (income-code catalog vintage, Oct-2025) |
 | 36_F07_v14_plantilla.xls | cited-as-LB | plantilla anchors: `fiscal-reporting/02` (Anexo 1/2 sheet columns); `03` (Anexo 3/5 sheets); `04` (annexes 4/6-12 sheets; anulados absent from sheets 1-12 — OQ-003) |
@@ -99,7 +99,7 @@ cited-as-LB.
 | 52_Json_Schemas_DTE_Eventos_2026-08-11.zip | cited-as-LB | `e-invoicing/01` LB-006; `03` LB-010; `06` LB-007 |
 | schemas/ (13 JSON schema files) | superseded-not-cited | superseded 2022-era extraction (fe-ccf-v3, contingencia-v3, anulacion-v2 era; no fe-eret/fe-eop) — NOT the current set; the current 15-schema set lives inside `52_Json_Schemas_DTE_Eventos_2026-08-11.zip`, which is the LB cited directly (`e-invoicing/01` LB-006; `03` LB-010) |
 
-## Rollup (W14 interim: 32_/33_ read for S8; LB citations land with the S8 synthesis wave)
+## Rollup (final through S8; 02_ stays pending for the IVA-core wave)
 
 | Status | Rows |
 |--------|------|
@@ -109,7 +109,8 @@ cited-as-LB.
 | pending-S2+ | 1 (02_ IVA-core wave) |
 | **Total** | **73** |
 
-W14 note: 32_/33_ are counted cited-as-LB on the strength of the committed
-master-index S8 clusters (EV32/EV33 govern N1-N8); the citing requirement
-files are written by the S8 synthesis wave, which will regenerate this
-matrix with per-file LB rows.
+S8 note: 32_/33_ flipped from the W14 interim (provisional-cited on the
+strength of the master-index clusters) to per-file LB citations by the S8
+synthesis wave (2026-08-20) — 32_ as the framework LB of all eight
+`chart-of-accounts/` files, 33_ as five secondary-only rows in
+01/03/05/07/08.
