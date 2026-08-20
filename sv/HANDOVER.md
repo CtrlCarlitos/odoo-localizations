@@ -25,8 +25,9 @@ boundary.**
   (D1–D19 shared canon — binding on all waves).
 - **Corpus status:** evidence phase COMPLETE through W13; synthesis
   delivered S1 (e-invoicing) + S2 (ISR) + S3 (fiscal reporting) + S4
-  (payroll) + S5 (commercial-legal) + S6 (Quincena-25 fold-in). **S7
-  (special-regimes) = current wave.**
+  (payroll) + S5 (commercial-legal) + S6 (Quincena-25 fold-in) + **S7
+  (special-regimes, 2026-08-19 — this session, first worktree wave)**.
+  Next wave: NIIF/chart-of-accounts (32_/33_), then IVA-core taxation.
 
 ## 2. Read order for a new session
 
@@ -82,16 +83,18 @@ boundary.**
 | `fiscal-reporting/` | 8 + index + CSV | 212 | SV-FREP-FR-001..212 |
 | `payroll/` | 8 + index + 2 CSV | 143 | SV-PAY-FR-001..143 |
 | `commercial-legal/` | 10 + index | 224 | SV-CML-FR-001..224 |
+| `special-regimes/` | 8 + index | 175 | SV-SPE-FR-001..175 |
 
-Totals: 976 FRs. CSVs: `withholding_tables.csv` + `isr_brackets.csv`
-(taxation), `f14_income_codes.csv` (fiscal-reporting), `smm_2025.csv` +
+Totals: 1151 FRs (S7 = 175 FRs / 130 LBs / 80 ACs / 42 OQs). CSVs:
+`withholding_tables.csv` + `isr_brackets.csv` (taxation),
+`f14_income_codes.csv` (fiscal-reporting), `smm_2025.csv` +
 `ss_contributions.csv` (payroll). FR numbering is wave-sequential within a
 prefix; new topics take new prefixes per the `<CC>-<TOPIC>-FR-nnn`
-contract (S7 = SV-SPE-FR).
+contract (S8+ continues from a new topic prefix).
 
-COVERAGE rollup after S6: 52 cited / 10 pending / 9 N/A / 1 superseded
-(72 rows). The 10 pending = S7 inputs (12_/13_/14_/17b_/42_/43_/31_ +
-02_/32_/33_) + 74_ (acquired W13, read, pending citation).
+COVERAGE rollup after S7: 60 cited / 3 pending / 9 N/A / 1 superseded
+(73 rows — 74_ was added as a row by S7; it had never been listed). The 3
+pending = 02_ (IVA-core wave) + 32_/33_ (NIIF wave).
 
 ## 5. SV facts a new session must know (condensed; details in wave sections below)
 
@@ -157,6 +160,45 @@ COVERAGE rollup after S6: 52 cited / 10 pending / 9 N/A / 1 superseded
   (SOQ-28); CC↔CAT-031 auto-translation BANNED; SAS statute-pending.
 - **W13 (2026-08-19):** special-regimes evidence EVID-251..274 + 74_
   acquisition; D15 decided; S7 unblocked.
+- **S7 (2026-08-19, first worktree wave):** special-regimes synthesis
+  COMPLETE per plan `docs/superpowers/plans/2026-08-19-s7-special-regimes-synthesis.md`
+  — subagent-driven, 9 tasks (8 Approved clean + T1 one fix round + T9
+  reviewer re-dispatch after a silent death; commits 2f33019..10a7cc0;
+  final whole-wave review MERGE-READY, zero Critical/Important, all
+  deferred minors triaged ride). Files: 01 regime-framework (SR1,
+  FR-001..022) · 02 zf-exemption-schedules (SR2, 023..041) · 03
+  lsi-regime (SR3, 042..063) · 04 customs-clocks (SR4, 064..081) · 05
+  tan-iva-interface (SR5, 082..102) · 06 customs-declarations (SR6,
+  103..129) · 07 obligations-reporting-sanctions (SR7, 130..165) · 08
+  fovial-cotrans (SR8, 166..175). Key encodings: D15 per-beneficiary
+  ladders (usuario 15/20y→60→40; DPA 10/15y; desarrollista flat;
+  **administrador via 54-C ONLY — Arts. 14+15 derogated by D.L. 318-2013
+  as printed, wave finding**); LSI indefinite-until-cessation rows +
+  17b_ Art. 22 caps 50/40/30 (VENTAS basis, dictamen 58.e.9.iii); 12m-ZF
+  vs 24m-LSI clock invariant (regime_family exclusivity); ZF 0%+76/77 vs
+  LSI 75-77 route split; DUCA 62-field model (**field 14 = vencimiento
+  per the 43_ print — master-index "33/56" was a prep error, fixed by
+  wave-findings note**); $18 tasa + presumed flete/seguro 1.25/1.50/10%
+  dated rows; SMM-mayor-cuantía = highest 16_ sector config default
+  (SOQ-33; industria/comercio-y-servicios tie noted); FOVIAL $0.20/gal
+  per-unit tax + IVA-exclusion guard (provenance chain via 31_ guide,
+  law absent SOQ-39). SOQ-30..45 all carried as in-file OQs (42 open).
+
+### S7-process rulings (2026-08-19, preserved from the SDD ledger before workspace deletion)
+
+- **(a)** T1's implementer died pre-report — controller verified
+  structure (contiguity, sections, mapping counts) and committed its
+  file UNMODIFIED, review gate preserved (S5 ruling-41 precedent).
+- **(b)** Extraction txts are git-ignored in this worktree —
+  implementers/reviewers read them from the main checkout read-only
+  (controller exception; §2 citations stay repo-relative).
+- **(c)** One T9 reviewer dispatch died silently with no output —
+  re-dispatched clean (read-only role, no state impact).
+- **(d)** Harness exposes no per-subagent model parameter — dispatches
+  inherit the session model (same as S1-S6).
+- **(e)** Wave findings recorded upstream AND in-file: administrador
+  Arts. 14+15 derogated as printed (54-C only; file 02 OQ-4); DUCA
+  field-14 anchor (43_ print; master-index findings note).
 
 ## 6. Gotchas & verified lessons (SV-specific)
 
@@ -200,24 +242,29 @@ COVERAGE rollup after S6: 52 cited / 10 pending / 9 N/A / 1 superseded
 
 ## 8. Next actions (ordered)
 
-1. **S7 special-regimes synthesis (CURRENT):** master-index SR clusters +
-   SOQ-30.. register (done this session) → plan doc → subagent wave into
-   `sv/requirements/special-regimes/` (prefix SV-SPE-FR). Binding: D15
-   (per-acuerdo dated rows), D16/D18/D19, by-id consumption of
-   SV-TAX-FR-174 (certificado) + payroll/02 SMM + FREP días-hábiles
-   engine; 24m-LSI vs 12m-ZF clocks NEVER unified; F-11 v20 surfaces
-   pointer-only (print not acquired).
-2. After S7: NIIF/chart-of-accounts wave (32_/33_; consumes C3 NIC
-   anchor + 06 register interface); then IVA-core taxation wave (01_/02_;
-   folds R/S cross-refs + SOQ-40 FOVIAL chain + tercerización pointer).
-3. SOQ follow-ups per §7; periodic external checks (factura.gob.sv,
+1. **NEXT WAVE: NIIF/chart-of-accounts** (32_/33_; consumes C3 NIC anchor
+   `commercial-legal/03` + taxation 06's register interface + T3's
+   Consejo-criteria OQ). Standard shape: evidence pass (W14) →
+   master-index clusters → plan → subagent wave in this worktree.
+2. Then **IVA-core taxation wave** (01_/02_ full synthesis; folds the
+   R/S and IVA-retention cross-refs from S3's 01/04 files, SOQ-40 FOVIAL
+   chain design pass, LSI-tercerización FCF pointer from S6).
+3. **S7 acquisition follow-ups (SOQ rides):** Reglamento General ZF
+   (SOQ-31), LESIA (SOQ-32), DUCA user manual (SOQ-36), FOVIAL law
+   D.L. 208-2000 + COTRANS instrument (SOQ-39), D.L. 598-2020 +
+   EVID-167 tail laws (SOQ-41), current consolidations for 12_/13_/14_/
+   17b_/74_ (SOQ-30), $18-tasa adjusting acuerdos (SOQ-34). Numbering
+   continues from 75.
+4. SOQ follow-ups per §7; periodic external checks (factura.gob.sv,
    uif.gob.sv/marco-legal, MH formularios, D.O. recovery).
-4. Deferred cleanups (CAN-STAND): the S3/S4/S5 deferred-minor lists
-   (root HANDOVER §9, to be folded here at next touch), boilerplate sweep
-   (~11 files), COVERAGE regeneration script.
-5. At wave closes: update THIS file + master index + COVERAGE + topic
+5. Deferred cleanups (CAN-STAND): prior-wave deferred-minor lists (root
+   HANDOVER §9 + per-task reviews; S7's triaged-ride list is in the
+   final review record — AC-007 $1,100 Given-gap is the first-pick),
+   boilerplate sweep (~11 files), COVERAGE regeneration script.
+6. At wave closes: update THIS file + master index + COVERAGE + topic
    indexes; commit + push sv-research; record rulings here BEFORE
-   deleting any SDD workspace.
+   deleting any SDD workspace. Owner decides sv-research → main merges
+   at milestones (rebase-then-merge; never force-push).
 
 ## 9. Conventions
 
