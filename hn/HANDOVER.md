@@ -19,9 +19,10 @@ survive). Update it at every session boundary.
   date: 2026-08-19 (W1) and 2026-08-20 (W2, W3 at `c1f9fa8`, W4 at `d5a2f4b`,
   and synthesis prep at `e106b1f` — rebase-then-merge per root HANDOVER §4.6,
   owner-executed; main carries HN evidence through EVID-333 + the master
-  index). S-HN1 + S-HN2 synthesis waves committed on the branch 2026-08-20
-  (taxation + e-invoicing requirements); owner-directed merge to main at
-  session close 2026-08-20 (ninth §4.6 run) — merge record follows.**
+  index). S-HN1 + S-HN2 synthesis waves merged to main 2026-08-20 at
+  `6d1cfc3` (ninth §4.6 run; `ea8bc40` rebased onto `ca83157`, one
+  hn/HANDOVER conflict resolved vs the prep merge record; root record at
+  main `b98dae1`).**
   The cross-country canon D15-D19 was adopted at the W1 merge — HN's
   D-H2/D-H3 are country instantiations of D16/D18 (see
   `shared/docs/regulatory-change-management.md`,
