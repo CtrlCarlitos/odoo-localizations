@@ -543,8 +543,8 @@ semantics: this file introduces Odoo-side computation/bookkeeping data only
 
 Layer semantics for this wave: `odoo` = computation/bookkeeping logic living
 in the LGPL client. No SaaS rows are introduced in this file: none of these
-FRs touch DTE generation/transformation (the only architecture-split surface
-per `shared/docs/saas-thin-client-architecture.md` D2). Received-document
+FRs touch DTE generation/transformation (an architecture-split surface
+per `shared/docs/saas-thin-client-architecture.md`). Received-document
 validations (FR-055) operate on bookkeeping data, not on DTE generation.
 Model names are stable across Odoo 17/18/19/20; version-specific behavior is
 recorded per row where a legal vintage exists.

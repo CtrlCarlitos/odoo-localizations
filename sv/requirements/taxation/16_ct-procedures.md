@@ -391,7 +391,8 @@ vintage-note rule (§2 preamble) rides every 75_ row above.
   by an EXTERNAL instrument ("el Decreto Legislativo correspondiente",
   CT 75-b) — config-gap: the interest rate/curve is NEVER hardcoded;
   it resolves from the external instrument's config rows.
-  (LB-016; LB-018; EVID-344; TAX 13/15-files by id)
+  (LB-016; LB-018; EVID-344; SV-TAX-FR-303 by id;
+  15_iva-declaration-interfaces.md by pointer)
 
 ### 3.6 Compensación, prescription & imprescriptibilidad (Arts. 19-23)
 

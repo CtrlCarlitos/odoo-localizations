@@ -189,7 +189,7 @@ SOQ-39/MOQ-04 kin; 10's OQ-2 = SOQ-18 kin; 13's OQ-2 = SOQ-21 kin.
 ### 05_isr-distributions.md (7)
 
 - OQ-001 — CT Art. 158-A carve-out scope beyond the 25% tax-haven rate. open
-- OQ-002 — Art. 74-C Registro de Control de Utilidades: DGII administrative norms. open (partially answered by S3: F-910/F-915 — see `../fiscal-reporting/07_codes-and-informs.md` §3.3/§3.4)
+- OQ-002 — Art. 74-C Registro de Control de Utilidades: DGII administrative norms. open (partially answered by S3: F-915 — see `../fiscal-reporting/07_codes-and-informs.md` §3.4)
 - OQ-003 — Art. 74-A override mechanics (total-consideration reading, mora/quota measurement). open
 - OQ-004 — Pool-consumption ordering for ordinary distributions (untaxed-pool default). open
 - OQ-005 — Art. 25 inciso 1 vs inciso 2 deemed-loan overlap (exception sets). open

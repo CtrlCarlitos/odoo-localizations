@@ -647,9 +647,9 @@ fields below.
 
 Layer semantics for this wave: `odoo` = classification/timing/subject
 computation logic living in the LGPL client. No SaaS rows are introduced
-in this file: nothing here touches DTE generation/transformation (the only
+in this file: nothing here touches DTE generation/transformation (an
 architecture-split surface per
-`shared/docs/saas-thin-client-architecture.md` D2) — the FSEE emission
+`shared/docs/saas-thin-client-architecture.md`) — the FSEE emission
 itself is the e-invoicing file's row (SV-EINV-FR-048, cited by id); this
 file supplies the excluido status and the no-IVA-line rule the client and
 the DTE layer both consume. Model names are stable across Odoo

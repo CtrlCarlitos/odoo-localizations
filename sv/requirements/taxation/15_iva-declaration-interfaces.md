@@ -382,9 +382,9 @@ model is created here).
 
 Layer semantics for this wave: `odoo` = classification/filing-interface
 computation logic living in the LGPL client; `shared` = logic whose data
-lives on Odoo models but whose enforcement spans the SaaS DTE layer (the one
+lives on Odoo models but whose enforcement spans the SaaS DTE layer (an
 architecture-split surface per
-`shared/docs/saas-thin-client-architecture.md` D2). Model names are stable
+`shared/docs/saas-thin-client-architecture.md`). Model names are stable
 across Odoo 17/18/19/20 (`account.move`, `account.move.line`; the new
 `l10n_sv.iva.declaration.filing` is localization-side). D15 doctrine
 (binding): every parameter resolves as-of the tax-point/acceptance snapshot;
