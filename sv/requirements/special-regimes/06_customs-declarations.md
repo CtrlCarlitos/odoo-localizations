@@ -678,7 +678,7 @@ are never bypassed by configuration).
   (resolución definitiva), when the payment deadline computes, then it
   falls 8 días hábiles after notification via the días-hábiles engine
   consumed by id (FR-122).
-- **AC-007:** Given courier shipments of FOB $150, $2,500, $1,800 and
+- **AC-007:** Given courier shipments of FOB $150, $2,500, $1,800, $1,100 and
   $1,500, when routed, then the $150 shipment withdraws on guía aérea +
   factura, the $2,500 on its DM, the pair $1,800+$1,100 ($2,900)
   consolidates under the US$3,000 per-operator cap — and a $1,800+
