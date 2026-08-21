@@ -246,19 +246,32 @@ lead list + dead ends:**
 
 **W4 lead harvest (2026-08-20, from the payroll wave — instruments cited by
 corpus documents but absent; logged per evidence-file OQs):**
-- **[W5 AMENDED — R-H74/R-H75] The aguinaldo question is CLOSED at the law level:**
-  D. 112-1982 = the 13th-month statutory home, IN CORPUS as `105_` (acquired
-  2026-08-20 via Wayback-of-STSS; evidence pass EVID-362..372; P2 unblocked).
-  The W4d claim "13th month = D. 135-94/201-96 authority" was a CONFLATION —
-  D. 135-94 = Ley de Compensación Social (Cap. IX Art. 34 = the 14TH-month
-  origin per 102_); "Acuerdo 201-96" was an unsourced attribution (no corpus
-  instrument cites it — VOIDED, R-H75). NEW top leads from the 105_ footnotes:
-  **D. 179-97** (Art. 1 reform, 16-oct-1997, G 28,441 17-dic-1997), **D. 178-86**
-  (interp, 31-oct-1986, G 25,077 17-nov-1986), **D. 2-87** (re-interp, G 25,155
-  18-feb-1987), **D. 36-90** (interp, 2-may-1990, G 26,131 11-may-1990) —
-  1980s/90s = outside ENAG window, STSS republish routes first; D. 54-95 (14th
-  interp, conflicting gazette cites) and D. 247-89 (prior CT-120 reform) join
-  the queue.
+- **[W6 AMENDED — R-H75 chain ACQUIRED] The aguinaldo interp/reform chain is now IN CORPUS (W6, 2026-08-20):**
+  **D. 179-97** (`110_` — reforms D. 112 Arts. 1 AND 9: adds jubilados/pensionados
+  to the 13th-month class, vigencia 17-dic-1997, + non-regression Art. 2; resolves
+  `105_` OQ-1), **D. 178-86** (`111_`, G 25,077 17-nov-1986, interp Arts. 9/10/12),
+  **D. 2-87** (`112_`, G 25,155 18-feb-1987, adición+re-interp — dado **3-feb-1987**,
+  resolving `105_` OQ-3's "30-feb-1987" print error), **D. 112-1982 ORIGINAL gazette
+  print** (`113_`, G 23,848 01-nov-1982 — pre-reform Art. 1 = permanentes-ONLY,
+  "recibirán además"; pins exactly what D. 179-97 changed; Constitución Art. 128.10
+  considerando; Art. 18 transitorio séptimo día "1°-ene-1983" vs `105_` book-print
+  10-ene-1983 = print variance to adjudicate), **D. 135-94** (`114_`, gazetted
+  7-ene-1995 — the 14th-month origin law, Cap. IX Art. 34 + major tax measures).
+  STILL UNACQUIRED from the chain: **D. 36-90 (G 26,131 11-may-1990) / D. 54-95 /
+  D. 247-89** — verified absent from the congreso.gob.hn library. The W5 "STSS
+  republish routes first" guess was wrong for this family — the old Congreso
+  library (below) was the yield.
+- **[W6 ROUTE — OLD CONGRESO LAW LIBRARY (the pre-2015 decree source):]**
+  `www.congreso.gob.hn/leyesdehonduras/<N>-<YY>.pdf` — 512 PDFs, official
+  congressional scans (mostly gazette prints), domain dead; recoverable via
+  Wayback CDX (`web.archive.org/cdx/search/cdx?url=congreso.gob.hn/leyesdehonduras/*&collapse=urlkey`)
+  + `id_` fetch of the 2011-06-12 captures. W6 harvest besides the chain:
+  `115_` D. 58-1982 (Ley Impuestos Selectivos al Consumo — the código-203 origin,
+  queue), `116_` D. 131-98 (tasas, queue), `117_` D. 110-93 (Ley Simplificación,
+  cited-absent incl. Art. 9 intereses), `118_` D. 54-96 (**Ley de Equidad
+  Tributaria e Incentivos al Empleo** — the FIRST Equidad Tributaria, ancestor of
+  the queued D. 51-2003). The library's other ~500 decrees are browsable the same
+  way if any lead points at a pre-2001 decreto number.
 - **Reglamento General del IHSS / Régimen Obligatorio** — the contribution
   BASE definition (13th/14th/OT inclusion) is delegated wholesale by Ley
   Art. 100; also inscription deadlines, salario categories. TOP lead (W4b).
@@ -304,13 +317,15 @@ corpus documents but absent; logged per evidence-file OQs):**
   intermediate reform of D. 199-2006 Adulto Mayor, scope unknown, may touch
   the Art. 30.14 L30k credit (taxation/02 OQ-009). ENAG Gaceta Digital covers
   Feb-2024 (recipe §5/§6).
-- **Still unacquired (top, W5-amended):** D. 59-2023 (Adulto Mayor reform, G
-  14-feb-2024 — ENAG-covered); the aguinaldo interp/reform chain D. 179-97 /
-  D. 178-86 / D. 2-87 / D. 36-90 + D. 54-95 + D. 247-89 (R-H75; STSS/SAR
-  republish routes); Acuerdo N°799 Reglamento Ley ISR; Reglamento
-  General IHSS; Ley RAP D.L. 107-2013; SAR wp-json search returns empty for
-  all four terms (endpoint indexes posts only — catalog crawl remains the
-  real check).
+- **Still unacquired (top, W6-amended):** the residual aguinaldo/14th chain
+  **D. 36-90 / D. 54-95 / D. 247-89** (absent from congreso.gob.hn library;
+  routes: SAR republish, TSC/CEDIJ, other official Wayback mirrors);
+  **Reglamento Ley ISR "Acuerdo N°799"** (not a congressional decreto — likely
+  absent from the leyesdehonduras library by class; SAR/gazette routes);
+  **Reglamento General IHSS**; **Ley RAP D.L. 107-2013**; SAR wp-json search
+  returns empty for all four terms (endpoint indexes posts only — catalog crawl
+  remains the real check). NATLEX + Mojeek/DDG = BLOCKED from this network
+  (Cloudflare/403 — do not re-try without a different fetcher).
 
 **W2 lead harvest (2026-08-20, from the W2a/W2b evidence passes — instruments
 cited by corpus documents but absent; logged per evidence-file OQs):**
@@ -400,7 +415,11 @@ cited by corpus documents but absent; logged per evidence-file OQs):**
   `?start=N` pagination; PDFs live under `/web/leyes/`.
 - **La Gaceta:** no free official archive located; SAR's gazette-extract PDFs
   (most corpus files) are official republished copies and carry gazette
-  numbers/dates — cite those.
+  numbers/dates — cite those. **W6 addition — pre-2015 decrees:** the old
+  official `congreso.gob.hn/leyesdehonduras/` library (512 PDFs) is recoverable
+  via Wayback CDX + `id_` fetch (recipe in §5, W6 ROUTE block); OCR route for
+  these scans = `gs -r300 pnggray` + `tesseract --psm 6` (proven on all nine
+  W6 files).
 
 ## 7. Hint layer — practitioner recollections (pointers only, never LB)
 

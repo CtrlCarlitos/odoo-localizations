@@ -3,20 +3,59 @@
 Execution plan per [shared/docs/requirements-extraction-procedure.md](../shared/docs/requirements-extraction-procedure.md).
 Started 2026-08-19 (source-research pass complete). Status: active — evidence
 waves W1-W4 + V-HN1/V-HN1b COMPLETE (synthesis S-HN1..S-HN4 + validation all
-approved; see wave log); **W5+W5b COMPLETE and merged to main 2026-08-20**
-(nineteenth §4.6 run at `cd01045`; 105_-108_ evidence passes EVID-362..384:
-P2 aguinaldo UNBLOCKED per R-H74/R-H75, bono reglamento encoded, séptimo día
-statutory layer, D. 150-2008 + Acuerdo 345 anchored; payroll 314→326 FRs);
-**W5c 109_ evidence pass COMPLETE 2026-08-20 (this session, on-branch)** —
-EVID-385..391: **the L30,000 credit SURVIVES D. 59-2023 unchanged** (R-H78,
-OQ-009(a) resolved, FR-067 whole-life row), **cuarta edad = 80+ defined**
-(R-H79, resolves 96_ OQ-2), new cuarta-edad discount catalogue banked for
-S-HN5, edition's other decrees identified (D. 63-2023 promotions / D. 5-2024
-municipal amnistía / D. 6-2024 migration); COVERAGE regen 108 rows = 106
-cited + 2 N/A, gates PASS; next = the R-H75 interp/reform chain
-(D. 179-97 top) + owner merge decision for W5c.
+approved; see wave log); W5+W5b merged to main 2026-08-20 (nineteenth §4.6 run
+at `cd01045`); **W5c COMPLETE and merged to main 2026-08-20 (twentieth §4.6
+run at `9d1aac4`, root record `36df87c`; EVID-385..391: the L30,000 credit
+SURVIVES D. 59-2023 unchanged (R-H78), cuarta edad = 80+ (R-H79); corpus
+FULLY EVIDENCED 108/108)**; **W6 acquisition COMPLETE 2026-08-20 (this
+session, on-branch): NINE files `110_`..`118_` from the Wayback of the old
+official congreso.gob.hn/leyesdehonduras/ library — the R-H75 chain (D. 179-97
+reforms D. 112 Arts. 1+9 = the jubilados/pensionados extension; D. 178-86; D. 2-87
+dado 3-feb-1987) + the D. 112-1982 ORIGINAL gazette print (pre-reform Art. 1) +
+D. 135-94 (14th origin) + D. 58-1982 selectivo + D. 131-98 + D. 110-93 + D. 54-96
+(first Equidad Tributaria). Next = the W6 evidence pass (EVID-392+), then
+residual chain (D. 36-90 / D. 54-95 / D. 247-89 — absent from the library).**
 
 ## Wave log
+
+- **W6 acquisition wave (2026-08-20, DONE — evidence pass follows):** route
+  discovery + 9-file harvest. The STSS 921-2 page, TSC biblioteca, and SAR
+  catalogs (all previously crawled) do NOT carry the R-H75 chain; NATLEX and
+  the search engines are hard-blocked from this network (Cloudflare/403 —
+  recorded in RESEARCH §5). NEW ROUTE: the old official congressional law
+  library `www.congreso.gob.hn/leyesdehonduras/` (512 PDFs, gazette prints,
+  domain dead) recovered via Wayback CDX + `id_` fetch of the 2011-06-12
+  captures; all 9 files page-1 verified (masthead + decree number + weekday
+  arithmetic), OCR sidecars `gs -r300 pnggray` + `tesseract --psm 6` (disk,
+  authoritative). Registered `110`..`118`: **`110_` D. 179-97** (G 28,441
+  17-dic-1997; reforms D. 112 **Arts. 1 AND 9** — adds "jubilados y
+  pensionados" to the 13th-month class; considerandos cite Constitución +
+  D. 135-94 Art. 34 + D. 54-95 "amplió la cobertura"; Art. 2 non-regression;
+  vigencia 17-dic-1997 → **`105_` OQ-1 resolvable: the reform =
+  the jubilado extension, nothing else**); **`111_` D. 178-86** (G 25,077
+  17-nov-1986 masthead; Arts. 9/10/12 authentic interp ≡ `105_` fn.3 content);
+  **`112_` D. 2-87** (G 25,155 18-feb-1987 masthead; adición to D. 178-86
+  Art. 2 lit. b) = the convention/custom-permanent exception + Art. 12
+  re-interp; dado **3-feb-1987** → **`105_` OQ-3 "30-feb-1987" print error
+  resolved**; Ejecútese 6-feb-1987); **`113_` D. 112-1982 ORIGINAL print**
+  (G 23,848 01-nov-1982 masthead — 89_'s cite primary-pinned; **pre-reform
+  Art. 1 = "Los trabajadores permanentes recibirán además…" NO jubilados**;
+  compound Art. 1 under Chapter I = 1982 original drafting, not a reform
+  artifact; Constitución Art. 128.10 considerando; Art. 18 transitorio reads
+  séptimo día from **"1° de enero de 1983"** vs `105_` book-print's
+  10-ene-1983 — print variance to adjudicate at the evidence pass, gazette =
+  record per convention); **`114_` D. 135-94** (gazetted 7-ene-1995, 14 pp —
+  the 14th-month origin law, Cap. IX Art. 34 + a large tax-measure vehicle);
+  **`115_` D. 58-1982** (Ley de Impuestos Selectivos al Consumo — the
+  código-203 origin, canasta by fracción arancelaria + ad-valorem tarifa);
+  **`116_` D. 131-98** (tasas reform; masthead year OCR-damaged "1993" [sic →
+  1998 by Wednesday-check + decree year]); **`117_` D. 110-93** (Ley de
+  Simplificación de la Administración Tributaria incl. Art. 9 intereses);
+  **`118_` D. 54-96** (**Ley de Equidad Tributaria e Incentivos al Empleo** —
+  the FIRST Equidad Tributaria, ancestor of the queued D. 51-2003). Residual
+  chain ABSENT from the library (verified vs the full 512-file CDX
+  catalogue): D. 36-90 / D. 54-95 / D. 247-89. Registry numbering next =
+  119.
 
 - **W5c 109_ evidence pass (2026-08-20, DONE):** the D. 59-2023 fetch's full
   read (`109_` = G 36,460 14-feb-2024; OCR sidecar PSM 6 + an independent
