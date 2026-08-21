@@ -558,6 +558,76 @@ expected and absorbed by instantiating the canon, never by forking it.
       clean-consolidation lead, D. 247-89 text watch); S-HN5 DEFERRED —
       bootstrap `Read hn/HANDOVER.md and continue.`
 
+      **HN W8 merge 2026-08-21 (§4.6 protocol, twenty-fifth run):**
+      `hn-research` rebased onto `380f044` (2 commits rewritten
+      `7a47fe8..221ce4a`→`2012b6a..2006f04`: W7-merge branch record +
+      W8 acquisition wave; zero conflicts — hn/-scoped only) then
+      fast-forward-merged; remote branch ref updated via delete +
+      re-push. **HN = W8 POST-W6 ACQUISITION WAVE COMPLETE (corpus 128
+      files, evidence through EVID-481):** TEN files `120_`..`129_`
+      registered + evidenced (48 EVIDs across 6 dispatched/controller
+      files + a 119_ addendum): `120_` **Ley RAP D.L. 107-2013 ORIGINAL**
+      (G 33,222 6-sep-2013, recovered via the Wayback of rap.hn's own
+      dead pdf/leyrap1.pdf — the doubly-load-bearing lead CLOSED;
+      R-H85: original Art. 42 = 10-empleado/FOSOVI-unregistered gate,
+      Art. 43 = "El Patrono aportante" 1.5+1.5=3% on FULL salario
+      mensual ordinario ≤15 días — the IVM-excess base + ceiling = 2024
+      inserts, pre-reform percentages identical, D. 167-91 exception
+      deleted by the reform, and 47_'s transcription ellipsis = the
+      original's exact end → COMPLETE → payroll/05 OQ-003/OQ-006
+      RESOLVED, FR-216/LB-016/AC-019 dated rows across the 2013→2024
+      boundary); `121_` **D. 51-2003 LET** (G 30,059 10-abr-2003;
+      R-H84: ATN = Cap. II Arts. 5-16 — 1% Art. 7, PJ-comerciantes
+      Art. 5, L3M EXCESS-ONLY Art. 14.1, ATN-as-ISR-credit Art. 15 →
+      FREP/07 OQ-010 RESOLVED, FR-257 statute-anchored; **AS Art. 22 =
+      "temporal"… "hasta el año 2005"** → the CURRENT FY2014+ AS needs
+      its re-establisher — refined lead D. 278-2013, shared with the
+      devolución-8% Arts. 20-21 residual; Art. 18 = ISV-tarjetas
+      retention-agent origin; Art. 28 = Registro Fiscal de Imprentas;
+      Art. 44 = cooperative-mercantile origin (506/509-boundary
+      bookend); D. 54-96 NOT among the Art. 56 derogations — negative
+      finding) + `122_` Acuerdo 0948-2003 (the LET reglamento = the
+      67_-cited "reglamento del ATN", gazette 28-jun-2003) + `123_`
+      D. 52-2004 (Art.-49 interp); `124_/125_/126_` **turismo family**
+      (314-98 G 28,847; 135-2006 cruise class; **68-2017 G 34,419
+      17-ago-2017 = CURRENT statute, DEROGATES 314-98**; Art. 21 = the
+      tasa-turística cobrar-retener-enterar ≤10-primeros-días
+      procedure — creation/rate stay D. 131-98 Art. 43 untouched,
+      grep-verified negative; taxation/07 FR-282/LB-011);
+      `127_` **Acuerdo 005-2017** (selectivo/production-consumption
+      reglamento, G 34,282 6-mar-2017, TEXT-NATIVE; import formula
+      ISV=(CIF+DAI+ISC+IPC)t; image-only rates cuadro + an Arts.
+      18/20-vs-19 ISC contradiction = OQs; FREP/09 LB-013/014, OQ-001
+      procedure leg closed); `128_` D. 99-93 (FX-repatriation, gazette
+      9-jul-1993 = the código-115 exclusion mechanism; FREP/02 FR-073/
+      LB-019, OQ-009 mechanism pinned); `129_` **D. 74-95 TEXT** (G
+      27,655 May-1995 — found in the W6 leyesdir.cdx the W7 hunt never
+      re-grepped: standing lesson = re-check EVERY saved CDX
+      enumeration before declaring exhaustion; the Art.-34 interp
+      verbatim = exactly the R-H81 decode; payroll/02 FR-057/LB-026
+      statute-anchored). **R-H83** — the five-times-cited "Acuerdo
+      N°799" identity-DECODED via 119_ entry 324 (EVID-479): = the ISR
+      reglamento of **1970**, G 19,972 13-ene-1970 (+6-B Art. 33 patch
+      G 21,505 4-feb-1975; 31_'s "799-1963" = manual slip; text stays
+      unacquired — 1970 gazette, pre-ENAG; five consumer OQs
+      annotated); NEW lead Acuerdo 1515-2003 (second LET reglamento,
+      119_ entry 1035); the 119_ IHSS block carries NO Reglamento
+      General (one more route exhausted for that TOP lead).
+      Verification: EVID structural 48/48 contiguous + accent-
+      insensitive 3-gram bank-check (LOWs adjudicated: English-gloss
+      artifacts, interleave boundaries, one correctly-attracted delta
+      quote) + requirements bank-check vs the evidence corpus.
+      Totals: payroll 328/165/172/83, taxation 249/114/140/56, FREP
+      363/160/189/170; rulings R-H1..R-H85; COVERAGE 128 rows = 126
+      cited + 2 N/A, gates PASS (1097/511/574/326). Next per
+      `hn/HANDOVER.md`: residual queue (TOP: Reglamento General IHSS,
+      "Acuerdo 799" TEXT (1970), D. 278-2013 [AS re-establisher +
+      devolución-8% suspension — one instrument, three questions];
+      then D. 247-89 text watch, D. 54-95/36-90 completeness,
+      D. 96-2012, LSP/contribuciones statutes, Código de Comercio, SEE
+      docs); S-HN5 DEFERRED — bootstrap `Read hn/HANDOVER.md and
+      continue.`
+
       **SV S9 merge 2026-08-20 (§4.6 protocol, fourteenth run):**
       `sv-research` rebased onto `f2eccbc` (19 commits rewritten:
       `6d01c1e`→`8fe51cc` S8 merge-record fix + `558ed94`→`f67658f`
