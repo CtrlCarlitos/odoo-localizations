@@ -313,11 +313,11 @@ verified against the scan text layer `gt/.extractions/66_Codigo_Comercio_D2-70.p
   rules: a signed *extracto* delivered to each contracting party within 24
   hours of concluding the business PROVES the contract; the corredores' own
   registers do NOT prove the contract's truth (only its character and
-  conditions once existence is agreed); and courts (de oficio or at party
-  request) may order judicial exhibition of corredores' books — the print's
-  only general judicial-exhibición clause, naming corredores' books, not
-  merchant books. Surfaces: extracto record (parties, timestamp, signature
-  slots) + exhibition log. (LB-016; EVID-518)
+  conditions once existence is agreed, art. 298); and per art. 299, courts
+  (de oficio or at party request) may order the exhibition in judgment of
+  the corredores' books and require their reports. Surfaces: extracto
+  record (parties, timestamp, signature slots) + exhibition log.
+  (LB-016; EVID-518)
 - **GT-COA-FR-024:** The system shall enforce the corredor
   incompatibility guard: a corredor cannot simultaneously hold the office
   of cajero, tenedor de libros, contador or dependiente of a merchant
@@ -579,11 +579,13 @@ are recorded exposure (FR-020), never computed fines.
 
 Master-index GOQ ids (register `gt/.extractions/00_MASTER_INDEX.md` §C);
 this file owns GOQ-122 and GOQ-123 for the C1 rows (with GOQ-05 as headline
-kin). GOQ-124 (retention/destruction matrix) is the Task 7 deliverable that
-consumes FR-026/027/028 by id — not an open question of this file.
+kin and GOQ-126 as threshold kin). GOQ-124 (retention/destruction matrix) is
+the Task 7 deliverable that consumes FR-026/027/028 by id — not an open
+question of this file.
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
 | OQ-001 | GOQ-05 (=OQ16, kin): "Does a numbered Reglamento del Código de Comercio exist? (No candidate found in any sweep.)" No candidate instrument found in any corpus sweep — the books rules live in the Code itself plus the RM arancel (73_, C3 file); if a numbered reglamento surfaces, FR-004/FR-007 registry mechanics re-verify against it. Affects the C1/C2 registry surfaces (minor). | no | GT synthesis wave S-GT5 → W6 partner ask | open |
 | OQ-002 | GOQ-122 (owned): "D2-70 dated-row completion: what D-43-70 changed in transitoria XI; no DCA publication date printed (last printed date = promulgation 9-abr-1970)." The vigencia row (FR-030) stores 1971-01-01 "as modified by D-43-70" (R45); the content of the D-43-70 modification is not derivable from the corpus and stays open. | no | GT synthesis wave S-GT5 (acquisition queue) | open |
 | OQ-003 | GOQ-123 (owned): "CCom post-May-2006 reform watch: consolidation horizon D-11-2006; later reforms absent (known: art. 343 = D-18-2017) — verification note rides every 66_ citation." FR-031 carries the flag on every 66_-derived row; any post-2006 reform that touches arts. 368-384 (e.g. an electronic-books reform of the books title) re-opens the affected FRs. | no | GT synthesis wave S-GT5 → W6 partner ask | open |
+| OQ-004 | GOQ-126 (kin): "Matrícula Q2,000 / S.A. Q5,000 1970-nominal thresholds: whether later instruments or RTU practice supersede — verify before config." The register's C4 values (matrícula Q2,000 / S.A. Q5,000) belong to the C4 file; its rule binds THIS file's C1 1970-nominal rows the same way: the Q25,000 omission floor (FR-003), Q20,000 contador floor (FR-014) and Q100–Q1,000 multa band (FR-020) are stored as dated rows with the goq126 flag and are verified against modern instruments/RTU before configuration. | no | GT synthesis wave S-GT5 (verify-before-config gate) | open |
