@@ -520,13 +520,16 @@ chain open); FREP/02 FR-073 **L50,000 savings monto ACTIVATED**
 (excess-only); FREP/07 OQ-014 narrowed (D. 54-96 + D. 110-93 acquired;
 also caught its stale 95_/97_ legs); (4) totals — payroll 326/163/170/83,
 FREP 363/157/189/169, rulings R-H1..R-H80, next EVID = 429; COVERAGE
-regenerated **117 rows = 115 cited + 2 N/A, gates PASS**. **Next = owner
-merge decision for W6 + residual chain (D. 36-90 / D. 54-95 / D. 247-89 —
-verified absent from the congreso library; routes: SAR republish, TSC/
-CEDIJ, other official Wayback mirrors) + post-W6 queue (Acuerdo 799,
-Reglamento General IHSS, Ley RAP, D. 314-98 turística watch, post-1995
-selectivo reform chain, D. 99-93) + the 95_ clean-consolidation lead
-(109_ OQ-2); S-HN5 stays DEFERRED.**
+regenerated **117 rows = 115 cited + 2 N/A, gates PASS**. **Next = residual
+chain (D. 36-90 / D. 54-95 / D. 247-89 — verified absent from the congreso
+library; routes: SAR republish, TSC/CEDIJ, other official Wayback mirrors)
++ post-W6 queue (Acuerdo 799, Reglamento General IHSS, Ley RAP, D. 314-98
+turística watch, post-1995 selectivo reform chain, D. 99-93) + the 95_
+clean-consolidation lead (109_ OQ-2); S-HN5 stays DEFERRED. [W6 MERGED to
+main 2026-08-20 — twenty-first §4.6 run: 3 commits rewritten
+(`804a98c..7b1e597`→`1124e23..24391b6`), zero conflicts, remote ref
+delete + re-push, root record `8513e49`; main carries HN through EVID-428,
+corpus 117 files.]**
 
 ## 7. Conventions (mirroring SV)
 
