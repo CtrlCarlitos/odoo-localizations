@@ -320,6 +320,17 @@ expected and absorbed by instantiating the canon, never by forking it.
       Next per `gt/HANDOVER.md` §5i/§9: S-GT3 payroll plan (GOQ-70..91 +
       GOQ-04/09/10/11; consumes taxation/04 art. 70/72 FRs; carry
       R30/R36/R41 bonus-law corrections).
+      **SV branch reconcile 2026-08-20 (§4.6 protocol, sixteenth run):**
+      one-commit close-out — `8e3ee84` (the `sv/HANDOVER.md` S9 merge
+      record) had landed only on `sv-research` while the fourteenth
+      run's record went only to main, leaving main's `sv/HANDOVER.md`
+      stale ("MERGE-READY", §8.1(a) merge listed as pending). Rebased
+      twice (`8e3ee84`→`ace2838` onto `074c6eb`, then →`a340d54` onto
+      `22c4607` after the concurrent HN fifteenth-run close advanced
+      main mid-run; zero conflicts both times — disjoint files) then
+      fast-forward-merged; remote ref updated via delete + re-push.
+      No requirements changes; SV state unchanged per
+      `sv/HANDOVER.md` §8 (no queued wave — owner picks).
       **SV S9 merge 2026-08-20 (§4.6 protocol, fourteenth run):**
       `sv-research` rebased onto `f2eccbc` (19 commits rewritten:
       `6d01c1e`→`8fe51cc` S8 merge-record fix + `558ed94`→`f67658f`
