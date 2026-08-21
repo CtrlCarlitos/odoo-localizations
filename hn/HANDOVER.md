@@ -6,16 +6,16 @@ facturación, W4 payroll, synthesis prep (master index + OQ registers),
 S-HN1..S-HN4 synthesis waves + their merges, the V-HN1 VALIDATION WAVE
 (merged to main 2026-08-20, thirteenth §4.6 run at `960df34`, root record
 `f2eccbc`), V-HN1b (in-corpus reads 95_/96_/93_/94_/97_ + acquisition wave),
-the W5 acquisition-reads wave + W5b D. 59-2023 fetch (**merged to main
-2026-08-20 — nineteenth §4.6 run at `cd01045`, root record `5c7185b`**), and
-**the W5c 109_ evidence pass (this session, ON-BRANCH not yet merged:
+the W5 acquisition-reads wave + W5b D. 59-2023 fetch (nineteenth §4.6 run at
+`cd01045`, root record `5c7185b`), and **the W5c 109_ evidence pass (MERGED
+to main 2026-08-20 — twentieth §4.6 run at `9d1aac4`, root record `36df87c`;
 EVID-385..391 — the L30,000 credit SURVIVES D. 59-2023 unchanged (R-H78,
 OQ-009(a) resolved, FR-067 whole-life row); cuarta edad = 80+ DEFINED
 (R-H79, resolves 96_ OQ-2); new cuarta-edad discount catalogue banked for
 S-HN5; edition's other decrees identified incl. the D. 5-2024 municipal
-amnistía; COVERAGE regen 108 rows = 106 cited + 2 N/A, gates PASS). Next =
-owner merge decision for W5c + the R-H75 interp/reform chain (D. 179-97
-top).**
+amnistía; COVERAGE regen 108 rows = 106 cited + 2 N/A, gates PASS — **the
+corpus is now FULLY EVIDENCED 108/108**). Next = the R-H75 interp/reform
+chain (D. 179-97 top) + the 95_ clean-consolidation lead (109_ OQ-2).**
 Read this fully before acting; it is the authoritative HN cross-session
 memory (conversation context does not survive). Update it at every session
 boundary.
@@ -32,7 +32,8 @@ boundary.
    3 commits rewritten (`51be444..6f37179`→`d9d8317..cd01045`), zero
    conflicts — merged 2026-08-20; main carries HN through EVID-384, the W5
    requirements, and 109_ (D. 59-2023 — evidence pass DONE on-branch as
-   W5c, EVID-385..391, pending its own merge)**;
+   W5c, EVID-385..391 — merged same day, twentieth §4.6 run at `9d1aac4`,
+   root record `36df87c`)**;
   synthesis prep at `e106b1f`; S-HN1+S-HN2 at `6d1cfc3` w/ root record
   `b98dae1` — ninth §4.6 run; S-HN3 + R-H66 adoption at `00caef9` w/ root
   record `503ab9c` — tenth §4.6 run, zero conflicts, remote ref delete +
@@ -484,7 +485,10 @@ municipal amnistía, expired — kin of 06_); COVERAGE regen 108 rows = 106
 cited + 2 N/A, gates PASS; rulings R-H1..R-H79. **Next = owner merge
 decision for W5c + the R-H75 interp/reform chain acquisition (D. 179-97
 top) + the 95_ clean-consolidation lead (109_ OQ-2); S-HN5 stays
-DEFERRED.**
+DEFERRED. [W5c MERGED to main 2026-08-20 — twentieth §4.6 run: 2 commits
+rewritten (`014b758..cbad485`→`47d56f8..9d1aac4`), zero conflicts, remote
+ref delete + re-push, root record `36df87c`; **corpus now FULLY EVIDENCED
+108/108 on main** (EVID-001..391).]**
 
 ## 7. Conventions (mirroring SV)
 
