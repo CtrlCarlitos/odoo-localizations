@@ -630,8 +630,11 @@ taxation/07 LB-011 + FR-282 (OQ-004 narrowed); five 799-consumer OQs
 annotated (R-H83); master index +EV120..129 +R-H83..85 + Section-C delta;
 (4) verification — EVID structural 48/48 + accent-insensitive 3-gram
 bank-check with LOWs adjudicated + COVERAGE regen 128 rows = 126 cited +
-2 N/A, gates PASS (1097/511/574/326). **Next = owner merge decision for
-W8 + the residual queue (TOP: Reglamento General IHSS [119_ IHSS-block
+2 N/A, gates PASS (1097/511/574/326). [W8 MERGED to main 2026-08-21 —
+twenty-fifth §4.6 run: 2 commits rewritten (`7a47fe8..221ce4a`→
+`2012b6a..2006f04`), zero conflicts, remote ref delete + re-push, root
+record `1308644`; main carries HN through EVID-481, corpus 128 files.]
+**Next = the residual queue (TOP: Reglamento General IHSS [119_ IHSS-block
 negative = one more route exhausted], "Acuerdo 799" TEXT (1970 gazette),
 D. 278-2013 [AS re-establisher + devolución-8% Arts. 20-21 — one
 instrument three questions]; then D. 247-89 text watch, D. 54-95/36-90
