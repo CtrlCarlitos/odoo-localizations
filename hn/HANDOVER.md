@@ -26,6 +26,10 @@ boundary.
 
 - **Worktree:** `.worktrees/hn-research`, branch `hn-research`. **Merges to
   date: 2026-08-19 (W1) and 2026-08-20 (W2; W3 at `c1f9fa8`; W4 at `d5a2f4b`;
+   **W5+W5b at `cd01045` w/ root record `5c7185b` — nineteenth §4.6 run,
+   3 commits rewritten (`51be444..6f37179`→`d9d8317..cd01045`), zero
+   conflicts — merged 2026-08-20; main carries HN through EVID-384, the W5
+   requirements, and 109_ (D. 59-2023, evidence pass pending)**;
   synthesis prep at `e106b1f`; S-HN1+S-HN2 at `6d1cfc3` w/ root record
   `b98dae1` — ninth §4.6 run; S-HN3 + R-H66 adoption at `00caef9` w/ root
   record `503ab9c` — tenth §4.6 run, zero conflicts, remote ref delete +
@@ -438,7 +442,8 @@ resolved), séptimo día statutory layer (payroll/06 FR-248/249), D. 150-2008
 COVERAGE gates PASS (108 rows = 105 cited + 3 N/A); rulings R-H1..R-H77.
 **Next = the 109_ evidence pass (D. 59-2023 fetched this session; Art. 30
 two-class + numeral 14 survives per preliminary scan) + R-H75 chain
-acquisition + owner merge decision; S-HN5 stays DEFERRED.**
+acquisition; S-HN5 stays DEFERRED. [MERGED to main 2026-08-20 — nineteenth
+§4.6 run at `cd01045`, root record `5c7185b`; branch re-pushed post-delete.]**
 
 ## 7. Conventions (mirroring SV)
 
