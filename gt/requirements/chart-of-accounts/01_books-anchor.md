@@ -295,7 +295,8 @@ verified against the scan text layer `gt/.extractions/66_Codigo_Comercio_D2-70.p
   D-18-2017 art. 12 (all CCom-mandated publications via the RM electronic
   portal) — publication-channel execution, fee classes and edicto payload
   are owned by `commercial-legal/01_rm-surfaces.md` (C3), which consumes
-  this duty; this FR owns only the per-ejercicio publication obligation
+  this duty via GT-CML-FR-001; this FR owns only the per-ejercicio
+  publication obligation
   flag on the sociedad's FS cycle records (individual merchants: no
   publication duty). (LB-012; EVID-514/522; R64; GOQ-123)
 
