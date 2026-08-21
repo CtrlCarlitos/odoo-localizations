@@ -293,10 +293,28 @@ expected and absorbed by instantiating the canon, never by forking it.
       Next per `gt/HANDOVER.md` §5i/§9: S-GT3 payroll plan (GOQ-70..91 +
       GOQ-04/09/10/11; consumes taxation/04 art. 70/72 FRs; carry
       R30/R36/R41 bonus-law corrections).
+      **SV S9 merge 2026-08-20 (§4.6 protocol, fourteenth run):**
+      `sv-research` rebased onto `f2eccbc` (19 commits rewritten:
+      `6d01c1e`→`8fe51cc` S8 merge-record fix + `558ed94`→`f67658f`
+      range fix + `a021fc8`→`b6fe41a` W15 IVA deep pass +
+      `96e136a`→`0098dff` S9 plan + `0e20a28..7147c5b`→`0e7141e..09847d0`
+      S9 wave; zero conflicts — all sv/-scoped or new files) then
+      fast-forward-merged; remote branch ref updated via delete +
+      re-push. **SV = S9 IVA-CORE SYNTHESIS COMPLETE — THE 8-TOPIC
+      SYNTHESIS PROGRAM IS DONE** (1,605 FRs total; see the refreshed SV
+      section below + `sv/HANDOVER.md`): `sv/requirements/taxation/`
+      files 07-15 (SV-TAX-FR-176..353 = 178 FRs / 127 LBs / 134 ACs /
+      35 OQs; R30(b) one-prefix continuation; CT retention matrix
+      verbatim; FOVIAL SOQ-40 design pass; MOQ-03/04 closed; tercerización
+      + frep OQ-002/004 fold-ins wired). **COVERAGE final 63 cited / 0
+      pending / 9 N/A / 1 superseded — corpus FULLY cited.** Next per
+      `sv/HANDOVER.md` §8: no queued wave — owner picks merge cleanups
+      (CAN-STAND + RIDE lists), SOQ-46 acquisition, or go-live work.
 
 ### El Salvador — sources & evidence state
-- **EVID corpus 001..303** (gaps 109-127, 240 reserved-unused; W14 NIIF files
-  EVID-275..303 appended 2026-08-19 — country detail now lives in
+- **EVID corpus 001..338** (gaps 109-127, 240 reserved-unused; W15 IVA deep
+  pass EVID-304..338 appended 2026-08-20; W14 NIIF files EVID-275..303
+  appended 2026-08-19 — country detail now lives in
   `sv/HANDOVER.md`). W13 files (2026-08-19):
   `12_Ley_Zonas_Francas` (EVID-251..258), `14_17b_Servicios_Internacionales`
   (EVID-259..267), `13_42_43_74_Aduanas` (EVID-268..273),
@@ -777,10 +795,17 @@ v19/v20, no F14 v17 manual); **UIF marco-legal hosts 74_ + "36-Ley-de-
 Simplificacion-Aduanera" — its AML "Reglamento" PDF = D. 2-2000 verbatim
 (duplicate of 17_; new D.L.-426 reglamento still absent — watch continues)**.
 
-### El Salvador — S7 special-regimes synthesis (COMPLETE 2026-08-19, in `.worktrees/sv`, branch `sv-research`; commits 2f33019..10a7cc0 + session-close)
+### El Salvador — SYNTHESIS PROGRAM COMPLETE (S1-S9 all merged; in `.worktrees/sv`, branch `sv-research`; S8 merged at aec9e5d 2026-08-20, S9 merged at 09847d0 2026-08-20)
 **`sv/HANDOVER.md` was bootstrapped this session (bf87179) and is now the
 authoritative SV cross-session memory — per-wave SV state lives THERE;
-this root section stays integration-level.** S7 = first worktree wave:
+this root section stays integration-level.** **S8 (chart-of-accounts,
+276 FRs SV-COA-FR-001..276) and S9 (IVA-core, taxation files 07-15,
+178 FRs SV-TAX-FR-176..353) both landed 2026-08-20 — the 8-topic
+program is COMPLETE: 1,605 FRs; COVERAGE 63 cited / 0 pending / 9 N/A /
+1 superseded (73 rows, corpus FULLY cited).** Remaining SV program =
+acquisition follow-ups (SOQ-46 NIIF-adopting instrument is the gating
+gap), SOQ/external watches, deferred cleanups — owner's call per
+`sv/HANDOVER.md` §8. Historical S7 detail follows. S7 = first worktree wave:
 plan `docs/superpowers/plans/2026-08-19-s7-special-regimes-synthesis.md`,
 subagent-driven 9 tasks (8 Approved clean + T1 one fix round), final
 whole-wave review **MERGE-READY** (zero Critical/Important). Deliverables
@@ -793,12 +818,10 @@ by D.L. 318-2013 as printed); LSI indefinite-until-cessation rows +
 0%+76/77 vs LSI 75-77 route split; DUCA 62-field model (field 14 =
 vencimiento per the 43_ print — master-index "33/56" was a prep error,
 flagged); $18 tasa + presumed flete/seguro dated rows;
-SMM-mayor-cuantía config default (SOQ-33); FOVIAL $0.20/gal per-unit
-tax + IVA-exclusion guard (31_ provenance chain, SOQ-39). COVERAGE now
+SMM-mayor-cuantía config default (SOQ-33); FOVIAL $0.20/gal per-unit tax
++ IVA-exclusion guard (31_ provenance chain, SOQ-39). S7 COVERAGE was
 **60 cited / 3 pending / 9 N/A / 1 superseded (73 rows; 74_ row added)**
-— pending = 02_ (IVA-core) + 32_/33_ (NIIF). **SV next wave: NIIF/
-chart-of-accounts (32_/33_), then IVA-core taxation.** Owner decides the
-`sv-research` → `main` merge (rebase-then-merge).
+— the pending trio (02_/32_/33_) all closed by S8/S9.
 
 ### GT / HN — merged to main; branch-based country workflow (2026-08-19)
 
