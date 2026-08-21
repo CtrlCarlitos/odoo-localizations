@@ -78,7 +78,7 @@ def build_matrix(sources, hits, overrides, fragments, req_dir: Path):
         per_file = hits.get(src, {})
         cited = [f"`{k}` ({v} LB rows)" if v else f"`{k}`"
                  for k, v in sorted(per_file.items())]
-        status = overrides.get(src, "cited-as-LB" if per_file else "pending")
+        status = overrides.get(src, "cited-as-LB" if per_file else "pending-S2+")
         note = fragments.get(src, "")
         cell = "; ".join(cited)
         if note:

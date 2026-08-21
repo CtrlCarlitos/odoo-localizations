@@ -193,7 +193,7 @@ must grep ALL LB source columns of the new files.
   workspace deleted; recorded verdict was "cosmetics; nothing
   load-bearing") — no action possible. Deferred minors from C1 reviews are
   in the C1 SDD ledger copy below. Commits 70f86f9 (plan) +
-  3f6f5ed..C1-END (see EXTRACTION_PLAN).
+  3f6f5ed..3c925ac (see EXTRACTION_PLAN).
 - **W17 (2026-08-20):** 75_ reglamento-CT fold-in COMPLETE per plan
   `docs/superpowers/plans/2026-08-20-w17-75-reglamento-foldin.md` —
   subagent-driven, 5 tasks strictly sequential (per-task reviews all
