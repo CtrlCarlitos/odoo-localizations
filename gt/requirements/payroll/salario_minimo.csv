@@ -73,16 +73,16 @@ year,zone,actividad,valid_from,valid_to,rate_daily,rate_monthly,rate_hourly,inst
 2015,nacional,no_agricola,2015-01-01,2015-12-31,78.72,2394.40,,39_ compilation -> AG 470-2014,EVID-341,as printed
 2015,nacional,exportadora_maquila,2015-01-01,2015-12-31,72.36,2200.95,,39_ compilation -> AG 470-2014,EVID-341,as printed
 2016,nacional,agricola,2016-01-01,2016-12-31,81.87,2497.04,,39_ compilation -> AG 303-2015,EVID-341,first activity row mislabeled 'Actividades No Agrícolas' [sic — read Agrícolas]; year-end vigencia '31-12-20016' [sic]
-2016,nacional,no_agricola,2016-01-01,2016-12-31,81.87,2497.04,,39_ compilation -> AG 303-2015,EVID-341,year-end vigencia '31-12-200116' [sic]
+2016,nacional,no_agricola,2016-01-01,2016-12-31,81.87,2497.04,,39_ compilation -> AG 303-2015,EVID-341,year-end vigencia '31-12-20016' [sic]
 2016,nacional,exportadora_maquila,2016-01-01,2016-12-31,74.89,2284.15,,39_ compilation -> AG 303-2015,EVID-341,first activity row mislabeled 'Actividades No Agrícolas' [sic — read Agrícolas]; year-end vigencia '31-12-20016' [sic]
 2017,nacional,agricola,2017-01-01,2017-12-31,86.90,2643.21,,39_ compilation -> AG 288-2016,EVID-341,year-end vigencia '31-12-20017' [sic — OCR extra zero]
-2017,nacional,no_agricola,2017-01-01,2017-12-31,86.90,2643.21,,39_ compilation -> AG 288-2016,EVID-341,year-end vigencia '31-12-200117' [sic]
+2017,nacional,no_agricola,2017-01-01,2017-12-31,86.90,2643.21,,39_ compilation -> AG 288-2016,EVID-341,year-end vigencia '31-12-20017' [sic]
 2017,nacional,exportadora_maquila,2017-01-01,2017-12-31,79.48,2417.52,,39_ compilation -> AG 288-2016,EVID-341,year-end vigencia '31-12-20017' [sic — OCR extra zero]
 2018,nacional,agricola,2018-01-01,2018-12-31,90.16,2742.37,,39_ compilation -> AG 297-2017,EVID-341,year-end vigencia '31-12-20018' [sic — OCR extra zero]
-2018,nacional,no_agricola,2018-01-01,2018-12-31,90.16,2742.37,,39_ compilation -> AG 297-2017,EVID-341,year-end vigencia '31-12-200118' [sic]
+2018,nacional,no_agricola,2018-01-01,2018-12-31,90.16,2742.37,,39_ compilation -> AG 297-2017,EVID-341,year-end vigencia '31-12-20018' [sic]
 2018,nacional,exportadora_maquila,2018-01-01,2018-12-31,82.46,2508.16,,39_ compilation -> AG 297-2017,EVID-341,year-end vigencia '31-12-20018' [sic — OCR extra zero]
 2019,nacional,agricola,2019-01-01,2019-12-31,90.16,2742.37,,39_ compilation -> AG 242-2018,EVID-341,freeze year — same values as 2018; year-end vigencia '31-12-20019' [sic]
-2019,nacional,no_agricola,2019-01-01,2019-12-31,90.16,2742.37,,39_ compilation -> AG 242-2018,EVID-341,year-end vigencia '31-12-200119' [sic]
+2019,nacional,no_agricola,2019-01-01,2019-12-31,90.16,2742.37,,39_ compilation -> AG 242-2018,EVID-341,year-end vigencia '31-12-20019' [sic]
 2019,nacional,exportadora_maquila,2019-01-01,2019-12-31,82.46,2508.16,,39_ compilation -> AG 242-2018,EVID-341,freeze year — same values as 2018; year-end vigencia '31-12-20019' [sic]
 2020,nacional,agricola,2020-01-01,2020-12-31,90.16,2742.37,,39_ compilation -> AG 320-2019,EVID-341,as printed
 2020,nacional,no_agricola,2020-01-01,2020-12-31,92.88,2825.10,,39_ compilation -> AG 320-2019,EVID-341,as printed

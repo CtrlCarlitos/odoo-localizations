@@ -214,12 +214,13 @@ the 08-SGF/2026 switchover row stays undated pending GOQ-75.
 - **GT-PAY-FR-161:** IGSS benefit payments to affiliates shall carry
   protection metadata (no payslip computation): money benefits (*prestaciones
   en dinero*) cannot be assigned, compensated, encumbered or attached EXCEPT
-  up to one half for *alimentos* (alimony — feeding the file-01 FR-011
-  garnishment ladder on the benefit side), and the CLAIM-side prescription
-  clocks are one year to claim a pension grant and six months to collect
-  granted pensions/indemnizations — these are benefit-claim clocks ONLY; no
-  employer-contribution-side prescription is asserted anywhere (that regime
-  lives in Acuerdo 1421 art. 40, outside the corpus). (LB-007; EVID-307)
+  up to one half for *alimentos* (alimony — feeding the file-01
+  GT-PAY-FR-011 garnishment ladder on the benefit side), and the CLAIM-side
+  prescription clocks are one year to claim a pension grant and six months
+  to collect granted pensions/indemnizations — these are benefit-claim
+  clocks ONLY; no employer-contribution-side prescription is asserted
+  anywhere (that regime lives in Acuerdo 1421 art. 40, outside the corpus).
+  (LB-007; EVID-307)
 - **GT-PAY-FR-162:** NEGATIVE FR (R39): D-11-2004 is a GOVERNANCE-ONLY
   reform — it touches solely D-295 arts. 16 a)/d) and 18 (Junta Directiva
   appoints and may freely remove the Gerencia; vigencia 8-May-2004 computed)

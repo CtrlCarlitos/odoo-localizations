@@ -324,7 +324,7 @@ strings the 39_ compilation prints for the historical years.
   interface — no value is ever interpolated, extrapolated or carried over
   from 2021/2020 into the gap years; the rows enter only when the AGs are
   externally sourced (acquisition watch, DOWNLOAD_QUEUE rev 7).
-  (LB-012; EVID-339; GOQ-11 → OQ-001)
+  (LB-012; EVID-339; GOQ-11 → §7 row)
 
 ### 3.8 Consumer interfaces and citation guards
 
