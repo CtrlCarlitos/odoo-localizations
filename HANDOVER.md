@@ -512,6 +512,52 @@ expected and absorbed by instantiating the canon, never by forking it.
       consolidation/cleanup wave (CAN-STAND + S7/S8/S9 RIDE lists),
       acquisition follow-ups (SOQ-46 NIIF instrument = gating), or
       go-live prep.
+
+      **HN W7 merge 2026-08-21 (§4.6 protocol, twenty-fourth run):**
+      `hn-research` rebased onto `b881f87` (2 commits rewritten
+      `18aea5c..f0b0e92`→`c0d4049..d4b2a49`: W6-merge branch record +
+      W7 residual-chain decode; zero conflicts — hn/-scoped only)
+      then fast-forward-merged; remote branch ref updated via delete +
+      re-push. **HN = W7 RESIDUAL-CHAIN DECODE COMPLETE (corpus 118
+      files, evidence through EVID-433):** the four 1990-1995 TEXTS
+      (D. 36-90 / D. 54-95 / D. 74-95 / D. 247-89) remain unacquired
+      (routes A-D exhausted: congreso CDX full-domain incl. a SECOND
+      library `leyes nacionales/` + GLIN date-coded archive + `Codigos/`;
+      TSC live 2026-redesign + CDX 12k PDFs; STSS/trabajo CDX 2,411
+      PDFs — two fetches md5-identical to 102_/105_, discarded; SAR
+      wp-search posts-only) — but the chain DECODED via **`119_` = the
+      official congreso "Inventarios de Leyes"** (text-native 559-pp
+      thematic inventory, Wayback of congreso.gob.hn/decretos/;
+      EVID-429..433): **R-H81** — the W4 102_/payroll OQ-002 "conflicting
+      D. 54-95 citations" = TWO decrees: the Art.-34 interp = **D. 74-95**
+      (G 27,655 18-may-1995; the W4 footnote read "54-95" was an OCR
+      misread — EVID-238/LB-002 fixed with dual-dpi 300/600 proof) and
+      the jubilados/pensionados extension = **D. 54-95** (G 27,639
+      28-abr-1995; the book's "28,639" = digit-swap; monotonicity
+      27,587 (Acuerdo 02-95's own NEW pin) < 27,639 < 27,655 arbitrates)
+      → payroll/02 FR-057 re-attributed + FR-097 dated beneficiary row
+      (gap range 097-100) + LB-025 + AC-022 + 14m.config dated rows,
+      OQ-002 RESOLVED (OQ-012 unchanged — D. 54-95 content is
+      extension-only, does not arbitrate the D. 135-94 vigencia
+      conflict); **R-H82** — D. 36-90 = G 26,131 11-MAY-1990 (the
+      inventory's "11-abril" = its own slip; payroll/06 LB-014 +
+      FR-248/249 pinned) and D. 247-89 = G 26,028 6-ene-1990 (CT-120
+      cesantía amplification — the ONE text still quote-nowhere = live
+      residual, genealogical since 86_ integrates its effect;
+      payroll/08 LB-007). Bonus: RIT ancestor identified (Acuerdo
+      166-JD-76 + reform 003-82JD, both G 25,013 30-ago-1986); D.
+      215-92/D. 40-89 genealogy banked; standing caution = inventory
+      gazette digits slip (discovery source only). Verification:
+      bank-check 23/23 Spanish legs vs the text layer + 5/5 glyph
+      probes vs 600dpi; structural payroll/02 47/25/22/13 = index.
+      Payroll 327/164/171/83; rulings R-H1..R-H82; COVERAGE 118 rows =
+      116 cited + 2 N/A, gates PASS (1095/503/574/325). Next per
+      `hn/HANDOVER.md`: post-W6 queue (TOP: Acuerdo 799 Reglamento Ley
+      ISR, Reglamento General IHSS, Ley RAP D.L. 107-2013, D. 51-2003;
+      then D. 314-98 watch, post-1995 selectivo chain, D. 99-93, 95_
+      clean-consolidation lead, D. 247-89 text watch); S-HN5 DEFERRED —
+      bootstrap `Read hn/HANDOVER.md and continue.`
+
       **SV S9 merge 2026-08-20 (§4.6 protocol, fourteenth run):**
       `sv-research` rebased onto `f2eccbc` (19 commits rewritten:
       `6d01c1e`→`8fe51cc` S8 merge-record fix + `558ed94`→`f67658f`
