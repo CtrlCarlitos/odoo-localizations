@@ -29,9 +29,11 @@ boundary.**
   (special-regimes, 2026-08-19) + S8 (chart-of-accounts, 2026-08-20 —
   MERGED to main at aec9e5d via rebase-then-merge; pre-rebase SHAs
   d25ecd7..0eabbca superseded by eea1e5a..0ca6d29+) + **S9 (IVA-core,
-  2026-08-20, this session — taxation files 07-15 + index/flips, 178
-  FRs SV-TAX-FR-176..353, commits 0e20a28..04e6bfa; final whole-wave
-  review USABLE-WITH-FIXES → one fix wave PASS = MERGE-READY)**.
+  2026-08-20 — MERGED to main at 09847d0 via rebase-then-merge
+  (fourteenth §4.6 run, zero conflicts; pre-rebase SHAs
+  a021fc8..7147c5b superseded by b6fe41a..09847d0): taxation files 07-15
+  + index/flips, 178 FRs SV-TAX-FR-176..353; final whole-wave review
+  USABLE-WITH-FIXES → one fix wave PASS)**.
   W15 (2026-08-20): IVA deep pass EVID-304..338, clusters V1-V10 + R30
   + SOQ-54..58 in the master index. **COVERAGE final: 63 cited / 0
   pending / 9 N/A / 1 superseded (73 rows) — the corpus is FULLY cited.
@@ -388,11 +390,11 @@ must grep ALL LB source columns of the new files.
 ## 8. Next actions (ordered)
 
  1. **No next synthesis wave is queued — the 8-topic program is
-    COMPLETE (1,605 FRs; COVERAGE zero-pending).** Candidate follow-on
-    work, owner's call: (a) S9 merge sv-research → main (rebase-then-
-    merge; never force-push; remote refs fixed via delete + re-push);
-    (b) consolidation/cleanup wave (CAN-STAND + S7/S8/S9 RIDE lists);
-    (c) acquisitions below unlock small fold-in waves.
+    COMPLETE and MERGED (S9 → main at 09847d0; root HANDOVER carries
+    the fourteenth §4.6 run record).** Candidate follow-on work, owner's
+    call: (a) consolidation/cleanup wave (CAN-STAND + S7/S8/S9 RIDE
+    lists); (b) acquisitions below unlock small fold-in waves; (c)
+    go-live/implementation prep per `shared/docs/go-live-readiness.md`.
  2. **Acquisition follow-ups (SOQ rides):** S8 — **SV NIIF-adopting
     instrument (Consejo de Vigilancia criteria per CC Arts. 443-444 or
     successor; SOQ-46 — the gating gap) + optional 2nd-edition NIIF
