@@ -42,8 +42,8 @@ full text lives in the evidence files). EVID ranges 130-135, 159-162, 174,
   `91_` (DGS promedio table — the ONLY promedio source) + `104_` (D. 103 machinery)
   + `82_/83_/84_/101_` historical bienios; promedio = DGS-print-only, never
   recompute (R-H47). CT = `86_` (vintage through D. 278-2013; D. 117-2021 interp =
-  `89_`) — **NO aguinaldo in the CT** (R-H60; D. 135-94 + Acuerdo 201-96 = TOP
-  unacquired lead). `85_` = mislabel guard ONLY (D. 93-2021 is Penal-side; zero CT
+  `89_`); the aguinaldo = **D. 112-1982, IN CORPUS as `105_`** (W5, R-H74) —
+  **NO aguinaldo in the CT** (R-H60). `85_` = mislabel guard ONLY (D. 93-2021 is Penal-side; zero CT
   articles; R-H57).
 - **OCR sidecars authoritative** for damaged passages: `81_`, `87_`, `90_`, `91_`,
   `92_` (see HANDOVER §7).
@@ -76,6 +76,8 @@ full text lives in the evidence files). EVID ranges 130-135, 159-162, 174,
 | EV89 | `89_Decreto_117-2021_interp_Art113_CT.evidence.md` (334..336 — V-HN1 validation mini-pass) |
 | EV95 | `95+96_Adulto-Mayor.evidence.md` (337..348 — V-HN1b read) |
 | EV93 | `93+94+97_chain.evidence.md` (350..361 — V-HN1b read) |
+| EV105 | `105_Decreto_112_aguinaldo.evidence.md` (362..372 — W5 acquisition-reads wave) |
+| EV106 | `106+107+108_bono-reglamento-pacto-comisiones.evidence.md` (373..384 — W5 acquisition-reads wave) |
 
 Citations in requirements files use `EVxx:EVID-nnn` (and `EVxx:file OQ-n` for
 register origins). D-H1/D-H2/D-H3 (EXTRACTION_PLAN Decisions) bind all clusters.
@@ -532,15 +534,21 @@ corpus = DGS-print leads)**.
   SOLE feed; EVID-228); D-H2 dated rows (maquila Jan-May/Jun-Dic 2023 split);
   multa unit = highest-category SMM (EVID-261).
 
-### P2 — 13th month (aguinaldo): corpus GAP
-**Covers:** NEGATIVE FINDING — no aguinaldo in the CT (R-H60); exists only in
-special law; referenced only via "aguinaldo modality" in 14th-month and bono
-statutes.
-- **Governing EVIDs:** 327 (negative grep), 238, 218.
-- **LB:** NONE in corpus — **D. 135-94 + Acuerdo 201-96 unacquired (86_ OQ-3 =
-  TOP lead; subsumes D. 112 whose routes are exhausted)**.
-- **Crossref:** W1 T3 (December annualization + 10.h cap needs aguinaldo amounts);
-  D-H3 FY-start depth.
+### P2 — 13th month (aguinaldo): STATUTORY ENGINE (W5 unblock, R-H74)
+**Covers:** D. 112-1982 (105_): entitlement permanents + jubilados/pensionados;
+31-dic 12-month same-employer gate (proportional otherwise; CT-Art.-347 class
+always proportional); December default + pacto; ordinary-salary-average base
+with SMM-average variant; D. 178-86 interpretations (100%-or-proportion, CBII
+floor, 30-day base, obra ÷-days formula, convention/custom permanents); exit
+proration every class + anticipo netting; instrument chain as dated rows
+(D. 178-86/D. 2-87/D. 36-90/D. 179-97). CT negative finding stands (R-H60).
+- **Governing EVIDs:** 362..372 (105_ W5), 335/336 (89_ interp), 327 (negative grep).
+- **LB:** payroll/02 LB-013..LB-017 (D. 112-1982 + interp chain). Residual gaps:
+  D. 179-97 reform content (OQ-008), gazette pin secondary (OQ-009),
+  jubilados/pensionados payer mechanism parked (OQ-010).
+- **Crossref:** W1 T3 (December annualization + 10.h cap consumes aguinaldo
+  amounts — now computable); P8 séptimo día layer (same law → payroll/06
+  FR-248/249); D-H3 FY-start depth.
 
 ### P3 — 14th month mechanics (Acuerdo 02-95)
 **Covers:** entitlement year 1-jul→30-jun, 100%-vs-proportional gate at 30-jun;
@@ -561,10 +569,15 @@ salario for all legal effects; L100-L5,000 fines; first period 28-oct-1994→30-
 rama×band table; once a year after first trimestral exam; proportional <1 year;
 ≤15-permanent-workers employer exemption; EXCLUDED from salario for prestaciones
 AND 13th/14th; non-salary.
-- **Governing EVIDs:** 218, 229.
-- **LB:** 104_ Arts. 21-A/21-B (D. 43-97 reform — R-H43); 92_ DGS bono print.
+- **Governing EVIDs:** 218, 229 + W5: 373..379 (106_ = D. 43-97 gazette
+  original + Reglamento STSS-154-2000, R-H76).
+- **LB:** 104_ + 106_ Arts. 21-A/21-B (gazette original, R-H43 double-pinned);
+  92_ DGS bono print; reglamento LB-018/LB-019 (calendar-year gate, exit claim,
+  mid-year forward proration, gate exclusions, family allocation — FR-094..096).
 - **Crossref:** W1 T3 (non-taxable-salary flag keeps bono out of ISR bases); P1
-  SMM rows feed the ≤2×SMM gate (D-H2 dated).
+  SMM rows feed the ≤2×SMM gate (D-H2 dated; gate measure EXCLUDES OT/primas/
+  bonificaciones/gratificaciones per reglamento Art. 12); P2 modality loan
+  scoped to proportionality.
 
 ### P5 — IHSS cotizaciones: rates, ceilings, base, withholding
 **Covers:** **matrix RESOLVED (R-H49): IVM 3.5% employer / 2.5% worker / 0.5%
@@ -759,13 +772,17 @@ SMM auto-elevation of inferior contracts; CT negatives (R-H60); vintage pins;
 | R-H64 | 101_ p.4 caption "AÑO 2022" | Print error on the 2023 table; trust column headers + Art. 3 text | EV82:101_ OQ-3 |
 | R-H65 | 87_ title dates inconsistent | Edition defect; cite signature 1-jun-2001 + G 29,503 14-jun-2001 | EV81:87_ OQ-3 |
 | R-H66 | ISR scope: Ley ISR Art. 2 worldwide (1963) vs CT Art. 1.2 territorial (2016) | ADOPTED by product owner 2026-08-20: worldwide pre-2017 / territorial 2017-01-01+ (lex posterior CT chassis; no foreign-tax-credit mechanism in the Ley ISR; source-based modern architecture); encoded as REVERSIBLE dated rows in taxation/01 FR-004 (origin `03_ OQ-1` resolved) | EV01:EVID-001; EV03:EVID-027; taxation/01 OQ-001 |
-| R-H67 | D. 117-2021 Art. 2 aguinaldo interp ("exento de todo impuesto...") vs Ley ISR Art. 10.h 10-SMM caps | V-HN1: CONFLICT CARRIED, never resolved silently — ISR-side cap rows STAND (plantilla implements them today); the interp's immunity ships as a conflict-flagged interpretive row (payroll/02 FR-087 + OQ-007); resolution requires D. 135-94/D. 112-82 acquisition + hierarchy ruling, then a dated-row flip | EV89:EVID-335; payroll/02 OQ-007 |
+| R-H67 | D. 117-2021 Art. 2 aguinaldo interp ("exento de todo impuesto...") vs Ley ISR Art. 10.h 10-SMM caps | V-HN1: CONFLICT CARRIED, never resolved silently — ISR-side cap rows STAND (plantilla implements them today); the interp's immunity ships as a conflict-flagged interpretive row (payroll/02 FR-087 + OQ-007); D. 112-82 now in corpus (105_, W5) — resolution requires only the hierarchy ruling, then a dated-row flip | EV89:EVID-335; payroll/02 OQ-007 |
 | R-H68 | Selectivo vehicles: FR wording said "marginal-band" vs statute/AC whole-base | V-HN1 evidence fix: L-Art 20 prints NO "parte que exceda" language — WHOLE-BASE bracket semantics (bracket selected by base; rate applies to full base); never reuse the ISR PN marginal engine | EV04:EVID-048; raw-txt L-Art 20; taxation/05 FR-188/189 |
 | R-H69 | 65+ ≤L350,000 exemption: FR-131(c) "exempt up to" (cap reading) vs statute/02-FR-068 cliff | V-HN1 evidence fix per EV05:EVID-069: "renta bruta hasta de L350,000, quedan exentos" = CLIFF (tax L0.00 at/below; full normal regime above; no partial exemption) | EV05:EVID-069; taxation/04 FR-131(c)/AC-006 |
 | R-H70 | CT Art. 339 feriado count: W4d gloss said "10 paid feriados" | V-HN1 recount: ELEVEN = 8 fixed dates + 3 Semana Santa days (jueves/viernes/sábado) — payroll/06 FR-236 already enumerated correctly; the "10" glosses corrected | EV85:EVID-312; payroll/06 |
 | R-H71 | Senior L30,000@60 tier: "unacquired/unread" vs corpus reality; basis + vigencia unpinned | V-HN1b read of `95_`+`96_` (EVID-337..348): basis = D. 199-2006 Art. 30 num. 14 (own-law crédito adicional, NOT an ISR amendment), valid_from **10-ago-2007**; FR-067 row PINNED + ACTIVE on the plantilla contract; `96_` verified not to touch deductions; carries = OQ-009 (D. 59-2023 unacquired reform lead; beneficiarios-class mismatch; stacking conflict; créditos-vs-deducción mechanics) | EV95:EVID-337/338/347; taxation/02 OQ-008 resolved / OQ-009 open |
 | R-H72 | 22-A FY2017 leg: encoded "no regime row exists" vs D. 31-2019 authentic interpretation | V-HN1b read of `93_` (EVID-350/351): FY2017 IS computed under the ORIGINAL D. 278-2013 Art. 9 rules (L10M gross trigger; 1.5%/0.75% floors vs Art. 22 tariffs) — FR-082 gains regime 0 (FY2017); FR-092/AC-005 updated; pre-2017 keeps the L-Art 19 open conflict; gazette pin = G 34,932 (catalog "34,934" in error) | EV93:EVID-350/351; taxation/03 FR-082 |
 | R-H73 | 65+ L350k exemption regime history: original 2002 text unknown | V-HN1b read of `97_` (EVID-355/356): ORIGINAL Art. 14 conditioned the exemption on 5 consecutive prior periods of Art. 22-b payment; D. 59-2020 deleted the condition + made it de pleno derecho — FR-068 carries the 2002-2020 historical regime rows (pre-2020 computations resolve against the original) | EV97:EVID-355/356; taxation/02 FR-068/LB-016 |
+| R-H74 | 13th-month statutory home: W4d claimed "D. 135-94 (Ley del Aguinaldo) + Acuerdo 201-96 unacquired" (payroll/02 OQ-001 yes-blocker) | W5 read of `105_` (EVID-362..372): the aguinaldo law = **D. 112-1982** (Ley del Séptimo Día y Décimo Tercer Mes en Concepto de Aguinaldo), full text in corpus — P2 UNBLOCKED (payroll/02 FR-052..054 rewritten, FR-088..093 added; OQ-001 resolved); the "D. 135-94 = Ley del Aguinaldo" gloss was a CONFLATION (D. 135-94 = the 14th-month origin law, Cap. IX Art. 34 per 102_); instrument chain = D. 178-86/D. 2-87/D. 36-90 + reform D. 179-97 (content unknown — 105_ OQ-1) | EV105:EVID-362..372; payroll/02 OQ-001 resolved / OQ-008 open |
+| R-H75 | "Acuerdo 201-96" (the claimed aguinaldo reglamento, former TOP co-lead) | W5: attribution VOIDED — no corpus instrument cites any Acuerdo 201-96; the claim originated as an unsourced W4d inference. The REAL aguinaldo interpretation chain is D. 178-86 (G 25,077) / D. 2-87 (G 25,155) / D. 36-90 (G 26,131) + D. 179-97 (G 28,441), all recovered from 105_'s footnotes with full gazette pins — THESE (not 201-96) head the acquisition queue; D. 135-94 remains a 14th-month-provenance lead only | EV105:EVID-363/365/370; RESEARCH §5 amended |
+| R-H76 | Bono educativo reglamento: "Acuerdo 154-2000" was an unverified lead (payroll/02 OQ-004) | W5 read of `106_` (EVID-373..379): Reglamento **STSS-154-2000** (5-oct-2000, gazette 6-nov-2000, vigencia = publication day) IN CORPUS — OQ-004 RESOLVED; adds calendar-year 100% gate + post-exit claim + mid-year forward proration + 2×SMM-gate exclusions (OT/primas/bonificaciones/gratificaciones) + family-allocation matrix (payroll/02 FR-094..096); D. 43-97 gazette original (G 28,271) ≡ 104_ print (R-H43 double-pinned; modality loan scoped to proportionality) | EV106:EVID-373..379; payroll/02 OQ-004 resolved |
+| R-H77 | 106_ registry title "Gaceta 29320" vs the file's actual contents | W5 (11th title-class incident): 106_ = TWO gazette extracts — D. 43-97 from **G 28,271 (29-may-1997, masthead-confirmed)** + the reglamento from the gazette of **6-nov-2000** (masthead date confirmed; the NUMBER is stamp-damaged ≈29,32x by interpolation — consistent with the STSS slug "29320" but NOT print-pinned, 106_ OQ-1); registry row amended (title names only the second gazette) — content as claimed, no mislabel of substance | EV106:EVID-373; registry README amended |
 
 ---
 
@@ -1144,8 +1161,10 @@ files (EVxx:file OQ-n).
   silently missing; cite 89_ for Art. 113.1.
 - `86_ OQ-2` [VERIFY] **NO general CT final-pay deadline (negative)** — deadline
   LB must come from CT Reglamento/STSS practice.
-- `86_ OQ-3` [LEAD] **Aguinaldo = D. 135-94 + Acuerdo 201-96 unacquired —
-  eligibility/pro-rata/base/December-deadline CRs cannot be LB'd (P2 blocker).**
+- ~~86_ OQ-3~~ → RESOLVED at W5 via R-H74/R-H75: aguinaldo = D. 112-1982
+  (`105_`, IN CORPUS — P2 unblocked, payroll/02 OQ-001 resolved); the "D. 135-94
+  + Acuerdo 201-96" framing was a conflation/unsourced attribution; residual
+  leads = D. 179-97 + the interp chain (payroll/02 OQ-008/OQ-009).
 - `86_ OQ-4` [CONFIG→ruled] Article-map drift fixed (R-H59).
 - ~~86_ OQ-5~~ → R-H58 (D. 150-2008 anchor).
 - `86_ OQ-6` [VERIFY] Vacaciones base width "ordinarias" vs OT-including readings
@@ -1164,13 +1183,15 @@ files (EVxx:file OQ-n).
 - **Clusters:** 43 — W1 taxation T1-T12 (EVID-001..071), W2 fiscal-reporting F1-F11
   (EVID-072..185), W3 facturación E1-E8 (EVID-186..214), W4 payroll P1-P12
   (EVID-215..333). SEE/CAEE sub-cluster (E8 part) BLOCKED on lead 1.
-- **Resolved contradictions:** 73 (R-H1..R-H73; R-H66 adopted by product owner; R-H67..R-H70 V-HN1 validation; R-H71..R-H73 V-HN1b reads)
+- **Resolved contradictions:** 77 (R-H1..R-H77; R-H66 adopted by product owner; R-H67..R-H70 V-HN1 validation; R-H71..R-H73 V-HN1b reads; R-H74..R-H77 W5 acquisition-reads wave — P2 unblock + 201-96 void + bono reglamento + 106_ title)
   owner 2026-08-20; incl. 9 registry-mislabel
   incidents and 4 void/dead-text rulings R-H3/4/5 + R-H1 partial-history).
 - **OQ register:** ~236 origin lines rolled up (~227 open after in-wave
   resolutions): C1 taxation ~23 open, C2 fiscal-reporting ~110 open, C3
-  e-invoicing 10 open, C4 payroll ~50 open. Highest-leverage LEADs: D. 135-94 +
-  Acuerdo 201-96 (aguinaldo), Reglamento General IHSS, Ley RAP D.L. 107-2013,
+  e-invoicing 10 open, C4 payroll ~50 open. Highest-leverage LEADs: D. 59-2023 (Adulto
+  Mayor intermediate reform — taxation/02 OQ-009), the aguinaldo interp chain
+  D. 179-97/D. 178-86/D. 2-87/D. 36-90 (R-H75 — replaces the voided "201-96"),
+  Reglamento General IHSS, Ley RAP D.L. 107-2013,
   D. 51-2003 (AS/ATN), SAR-236-2024, Reglamento Ley ISR "Acuerdo N°799", DGS SMM
   companion prints, D. 58-1982 + D. 131-98, TP family, SEE docs (lead 1).
 - **S-wave plan (synthesis; subagent-dispatched per SV pattern):**

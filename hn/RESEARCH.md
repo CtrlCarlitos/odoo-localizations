@@ -246,13 +246,19 @@ lead list + dead ends:**
 
 **W4 lead harvest (2026-08-20, from the payroll wave — instruments cited by
 corpus documents but absent; logged per evidence-file OQs):**
-- **D. 135-94 + Acuerdo 201-96** — Ley de Compensación Social (Cap. IX Art. 34 = 14th-month
-  statutory origin per 102_) + the aguinaldo reglamento: the operative AGUINALDO-family
-  instruments — W4d found NO aguinaldo in the CT, so D. 135-94/201-96 are the
-  13th-month authority (86_ OQ-3: eligibility/pro-rata/base/December-deadline/
-  termination-payout CRs cannot be LB'd without them).
-  TOP acquisition lead (SAR/STSS/ENAG routes; 1990s = outside ENAG window,
-  STSS page/republish routes first). Subsumes much of the D. 112 question.
+- **[W5 AMENDED — R-H74/R-H75] The aguinaldo question is CLOSED at the law level:**
+  D. 112-1982 = the 13th-month statutory home, IN CORPUS as `105_` (acquired
+  2026-08-20 via Wayback-of-STSS; evidence pass EVID-362..372; P2 unblocked).
+  The W4d claim "13th month = D. 135-94/201-96 authority" was a CONFLATION —
+  D. 135-94 = Ley de Compensación Social (Cap. IX Art. 34 = the 14TH-month
+  origin per 102_); "Acuerdo 201-96" was an unsourced attribution (no corpus
+  instrument cites it — VOIDED, R-H75). NEW top leads from the 105_ footnotes:
+  **D. 179-97** (Art. 1 reform, 16-oct-1997, G 28,441 17-dic-1997), **D. 178-86**
+  (interp, 31-oct-1986, G 25,077 17-nov-1986), **D. 2-87** (re-interp, G 25,155
+  18-feb-1987), **D. 36-90** (interp, 2-may-1990, G 26,131 11-may-1990) —
+  1980s/90s = outside ENAG window, STSS republish routes first; D. 54-95 (14th
+  interp, conflicting gazette cites) and D. 247-89 (prior CT-120 reform) join
+  the queue.
 - **Reglamento General del IHSS / Régimen Obligatorio** — the contribution
   BASE definition (13th/14th/OT inclusion) is delegated wholesale by Ley
   Art. 100; also inscription deadlines, salario categories. TOP lead (W4b).
@@ -298,8 +304,10 @@ corpus documents but absent; logged per evidence-file OQs):**
   intermediate reform of D. 199-2006 Adulto Mayor, scope unknown, may touch
   the Art. 30.14 L30k credit (taxation/02 OQ-009). ENAG Gaceta Digital covers
   Feb-2024 (recipe §5/§6).
-- **Still unacquired (top):** D. 135-94 + Acuerdo 201-96 (not on STSS leyes
-  page; SAR republish routes); Acuerdo N°799 Reglamento Ley ISR; Reglamento
+- **Still unacquired (top, W5-amended):** D. 59-2023 (Adulto Mayor reform, G
+  14-feb-2024 — ENAG-covered); the aguinaldo interp/reform chain D. 179-97 /
+  D. 178-86 / D. 2-87 / D. 36-90 + D. 54-95 + D. 247-89 (R-H75; STSS/SAR
+  republish routes); Acuerdo N°799 Reglamento Ley ISR; Reglamento
   General IHSS; Ley RAP D.L. 107-2013; SAR wp-json search returns empty for
   all four terms (endpoint indexes posts only — catalog crawl remains the
   real check).

@@ -1,18 +1,66 @@
 # Honduras — Requirements Extraction Plan
 
 Execution plan per [shared/docs/requirements-extraction-procedure.md](../shared/docs/requirements-extraction-procedure.md).
-Started 2026-08-19 (source-research pass complete). Status: active — **evidence
-waves W1-W4 COMPLETE 2026-08-20 (EVID-001..333 + V-HN1 EVID-334..336);
-synthesis prep DONE 2026-08-19 (`hn/.extractions/00_MASTER_INDEX.md`);
-S-HN1 taxation + S-HN2 e-invoicing + S-HN3 fiscal-reporting + S-HN4 payroll
-synthesis COMPLETE 2026-08-20; **V-HN1 VALIDATION WAVE COMPLETE 2026-08-20**
-(Stage 5: gate 1 COVERAGE.md script-checked via `hn/scripts/build_coverage.py`;
-gate 2 skipped — no notebook; gate 3 four adversarial reviewers, adjudicated —
-wave log below; all four topic indexes → approved); next = owner merge decision +
-S-HN5 thin closes at milestone (or acquisition wave in parallel)**.
+Started 2026-08-19 (source-research pass complete). Status: active — evidence
+waves W1-W4 + V-HN1/V-HN1b COMPLETE (synthesis S-HN1..S-HN4 + validation all
+approved; see wave log); **W5 acquisition-reads wave COMPLETE 2026-08-20**
+(105_-108_ evidence passes EVID-362..384: P2 aguinaldo UNBLOCKED per
+R-H74/R-H75, bono reglamento encoded, séptimo día statutory layer,
+D. 150-2008 + Acuerdo 345 anchored; payroll 314→326 FRs, gates re-run PASS);
+next = D. 59-2023 fetch (ENAG Feb-2024) + the R-H75 interp/reform chain
+(D. 179-97/D. 178-86/D. 2-87/D. 36-90) + owner merge decision.
 
 ## Wave log
 
+- **W5 acquisition-reads wave (2026-08-20, DONE):** full evidence passes for
+  the four V-HN1b acquisitions, two EV files (EV105 `105_…evidence.md`
+  EVID-362..372; EV106 `106+107+108_…evidence.md` EVID-373..384; OCR sidecars
+  created for 106_/107_, authoritative per convention). Adjudications:
+  **R-H74** — `105_` D. 112-1982 = the 13th-month statutory home; the W4d
+  "D. 135-94 (Ley del Aguinaldo)" gloss was a CONFLATION (D. 135-94 = the
+  14th-month origin law, Cap. IX Art. 34) → payroll/02 P2 UNBLOCKED (FR-052..
+  054 rewritten from config-gap to statutory engine; FR-088..093 added;
+  OQ-001 resolved; residual OQ-008/009/010: D. 179-97 reform content unknown,
+  gazette pin secondary via 89_, jubilados/pensionados payer mechanism
+  parked). The compilation footnotes recovered the instrument chain:
+  interp D. 178-86 (G 25,077 17-nov-1986: 100%-or-proportion + CBII floor +
+  30-day base + obra ÷-days + convention/custom permanents), re-interp
+  D. 2-87 (G 25,155 18-feb-1987; printed date "30-feb-1987" impossible),
+  interp D. 36-90 (G 26,131 11-may-1990: caña/destajo + incapacidad
+  temporal), reform D. 179-97 (G 28,441 17-dic-1997, content unknown).
+  **R-H75** — the "Acuerdo 201-96" aguinaldo-reglamento attribution VOIDED
+  (unsourced W4d inference); the real chain heads the acquisition queue.
+  Séptimo día chapter (Arts. 2-8) → payroll/06 (LB-014..016 + FR-248/249:
+  ordinary-jornada valuation with OT excluded, fixed-part rule, destajo
+  zona-SMM floor, four deemed-inclusion classes, no-full-week-no-right
+  forfeiture, rest-day CT-340 stacking). **R-H76** — `106_` = TWO gazette
+  extracts (D. 43-97 from G 28,271 29-may-1997 masthead-confirmed — R-H43
+  double-pinned; 21-A's modality loan scoped to PROPORTIONALITY; SMM
+  Arts. 20/35 gazette originals co-cited in payroll/01) + Reglamento
+  STSS-154-2000 (gazette 6-nov-2000, number illegible ≈29,32x — the title's
+  "29320", **11th title-class incident**, R-H77) → payroll/02 OQ-004
+  RESOLVED + FR-094..096 (calendar-year 100% gate, post-exit claim,
+  mid-year forward proration, 2×SMM-gate exclusions OT/primas/
+  bonificaciones/gratificaciones, family-allocation matrix incl.
+  mother-priority/new-family/orphan-guardian + per-worker singularity).
+  `107_` D. 150-2008 original ≡ 86_ fn.19 zero drift (EVID-380..382): R-H58
+  anchors upgraded in payroll/08 LB-007/008 + FR-305 (the three carve-out
+  predicates incl. "otro sistema donde el patrono sea aportante" = the
+  RAP/fondo bridge) and payroll/05; NEW lineage lead D. 247-89 (prior CT-120
+  reform, 15-dic-1989). `108_` Acuerdo 345 (6-oct-1988, G 25,680; own
+  vigencia unpinned — day-after-publication, date not printed) → payroll/01
+  LB-022 + FR-041 (fijación-process metadata + the +15-day effectivity
+  DEFAULT displaced by the fijaciones' own vigencia clauses, R-H62 kin).
+  Coverage regenerated: 107 rows = 105 cited + 2 N/A; 1094 FRs / 494 LBs /
+  573 ACs / 323 OQ rows; payroll index totals 326/158/170/81. Resolved
+  contradictions now R-H1..R-H77. Controller verification: both evidence
+  files read-back vs the raw layers; 10-span squashed-text bank check on the
+  new LB/EVID quotes = 4 direct PASS + 6 flags adjudicated as OCR artifacts
+  (two-column interleaving on 106_/107_; single-glyph el/cl variances;
+  run-on spacing) with 3 genuine reconstructions bracketed [?] in the
+  evidence (105_ fn.4 "devengados"; reglamento Art. 12 "horas extras
+  [trabajadas]"; Acuerdo 345 Art. 30 "quince días"); COVERAGE gates PASS
+  (every new FR own-file-LB-cited, every LB token resolves, totals match).
 - **V-HN1b in-corpus evidence reads (2026-08-20, DONE):** two subagent
   reads, controller-verified on disk. `95_`+`96_` (EVID-337..348,
   `95+96_Adulto-Mayor.evidence.md`): **FR-067 PINNED + ACTIVATED** —

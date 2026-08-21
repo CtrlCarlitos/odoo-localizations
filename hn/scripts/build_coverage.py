@@ -20,7 +20,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 REG = os.path.join(ROOT, "hn/sources/README.md")
 REQ = os.path.join(ROOT, "hn/requirements")
 TOPICS = ["taxation", "e-invoicing", "fiscal-reporting", "payroll"]
-EXPECTED = {"taxation": 248, "e-invoicing": 157, "fiscal-reporting": 363, "payroll": 314}
+EXPECTED = {"taxation": 248, "e-invoicing": 157, "fiscal-reporting": 363, "payroll": 326}
 
 # Explicit per-source status/notes. Sources absent here must be LB-cited (G1).
 # Vocabulary mirrors SV's COVERAGE.md:
@@ -46,20 +46,6 @@ SOURCES = {
         "V-HN1b: evidenced EVID-342..344 (services-discount side: Art. 31 utilities tiers 25/30%/35/40%, Arts. 31-A/31-B Fiscalía/"
         "visible-info) — verified NOT to touch the Art. 30.14 deduction (OQ-008 resolution leg). Out of the four approved topics' scope "
         "(special-regimes/commercial-legal territory); cite there when those waves open."),
-    "105_Decreto_112_Ley_Septimo_Dia_13er_Mes_Aguinaldo.pdf": (
-        "not-applicable-this-wave",
-        "Acquired 2026-08-20 (Wayback of the official STSS upload), page-1 verified. THE 13th-month statutory home — evidence pass = NEXT session; "
-        "unblocks the payroll/02 P2 aguinaldo sub-cluster (OQ-001). No LB citations yet by design."),
-    "106_Gaceta_29320_D43-97_bono_educativo_Ac154-2000_reglamento_bono.pdf": (
-        "not-applicable-this-wave",
-        "Acquired 2026-08-20 (STSS), OCR'd. D. 43-97 + Acuerdo STSS-154-2000 bono reglamento (the payroll/02 OQ-004 lead, now in corpus). "
-        "Evidence pass = next session."),
-    "107_Gaceta_31753_Decreto_150-2008.pdf": (
-        "not-applicable-this-wave",
-        "Acquired 2026-08-20 (STSS). D. 150-2008 annual-cesantía-pact instrument (W4c kin). Evidence pass = next session."),
-    "108_Acuerdo_345_Regl_Comisiones_Salario_Minimo.pdf": (
-        "not-applicable-this-wave",
-        "Acquired 2026-08-20 (STSS). Reglamento de las Comisiones de Salario Mínimo (SMM-chain completeness). Evidence pass = next session."),
     "97_Decreto_194-2002_Ley_Equilibrio_Financiero.pdf": (
         "not-applicable-this-wave",
         "Original of the law whose reformed Art. 14 (65+ ≤L350k exemption) is encoded from `79_` (D. 59-2020 prints the current "
@@ -71,6 +57,15 @@ SPECIAL = {
     "49_Ayuda_revaluacion_154.pdf": "V-HN1: LB co-cite added to fiscal-reporting/08 LB-007 (was evidence-anchor-only EV29:EVID-108).",
     "89_Decreto_117-2021_interp_Art113_CT.pdf": "V-HN1: evidence pass EVID-334..336 (10th gloss incident — Art. 2 aguinaldo interp); "
         "LB rows added to payroll/02 (LB-012 + FR-087, OQ-007 conflict vs ISR 10.h) and fiscal-reporting/10 (LB-013, OQ-004 resolved).",
+    "105_Decreto_112_Ley_Septimo_Dia_13er_Mes_Aguinaldo.pdf": "W5: evidence pass EVID-362..372 (R-H74 — the 13th-month statutory home); "
+        "payroll/02 P2 UNBLOCKED (OQ-001 resolved; FR-052..054 rewritten + FR-088..093); séptimo día layer → payroll/06 (LB-014..016, FR-248/249).",
+    "106_Gaceta_29320_D43-97_bono_educativo_Ac154-2000_reglamento_bono.pdf": "W5: evidence pass EVID-373..379 — TWO extracts: D. 43-97 from "
+        "G 28,271 (29-may-1997, masthead-confirmed — the '29320' title = the reglamento's 6-nov-2000 gazette, number illegible ≈29,32x); "
+        "bono reglamento OQ-004 RESOLVED (payroll/02 FR-094..096); SMM Arts. 20/35 gazette originals co-cited in payroll/01 LB-007.",
+    "107_Gaceta_31753_Decreto_150-2008.pdf": "W5: evidence pass EVID-380..382 — CT Art. 120/120-A + the annual-pact Art. 2 as instrument "
+        "original (≡ 86_ fn.19, no drift); R-H58 anchors upgraded in payroll/08 LB-007/008 + FR-305; new lineage lead D. 247-89.",
+    "108_Acuerdo_345_Regl_Comisiones_Salario_Minimo.pdf": "W5: evidence pass EVID-383..384 — commissions procedure + the fijación "
+        "+15-day vigencia default (payroll/01 LB-022 + FR-041); Acuerdo 345's own vigencia unpinned (G 25,680 date not printed).",
 }
 
 reg_re = re.compile(r"^\|\s*`([^`]+)`\s*\|")
@@ -164,12 +159,12 @@ def main():
     out.append("|---------|-------|")
     out.append("| Country | hn |")
     out.append("| Topic   | all (cross-topic) |")
-    out.append("| Status  | validated (V-HN1 gate 1 — S-HN1/S-HN2/S-HN3/S-HN4 waves) |")
+    out.append("| Status  | validated (V-HN1 gate 1 — S-HN1/S-HN2/S-HN3/S-HN4 waves; W5 acquisition-reads refresh) |")
     out.append("| Authors | script `hn/scripts/build_coverage.py` (regenerate after every wave) |")
     out.append("| Updated | 2026-08-20 |")
     out.append("")
-    out.append(f"Every row of [../sources/README.md](../sources/README.md) (103 registered files, gap 103 reserved-unused)"
-               f" mapped against the four synthesis waves (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 /"
+    out.append(f"Every row of [../sources/README.md](../sources/README.md) ({len(registry)} registered files, gap 103 reserved-unused)"
+               f" mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 /"
                f" payroll 10 = 32 requirement files; {fr_count} FRs, {lb_count} LB rows, {ac_count} ACs, {oq_count} OQ rows)."
                " Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file;"
                " every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or"
@@ -230,7 +225,22 @@ def main():
 
 Gate 2 (NotebookLM): no notebook exists for HN — optional gate skipped per
 procedure ("where a notebook exists"). Gate 3 (adversarial review): dispatched
-per topic at this wave; findings adjudicated in EXTRACTION_PLAN wave log.""")
+per topic at this wave; findings adjudicated in EXTRACTION_PLAN wave log.
+
+## W5 refresh (2026-08-20, acquisition-reads wave)
+
+The four V-HN1b acquisitions (105_-108_) given full evidence passes
+(EVID-362..384) and flipped from not-applicable to cited-as-LB: **105_ D.
+112-1982 = the 13th-month statutory home (R-H74) — payroll/02 P2 UNBLOCKED**
+(OQ-001 resolved; the "D. 135-94 Ley del Aguinaldo + Acuerdo 201-96" framing
+was a conflation, R-H75); the D. 112 séptimo-día chapter → payroll/06
+(FR-248/249 statutory valuation/deemed-inclusion/forfeiture); **106_ = TWO
+gazette extracts** (D. 43-97 G 28,271 29-may-1997 + Reglamento STSS-154-2000,
+gazette 6-nov-2000) — bono reglamento OQ-004 RESOLVED (FR-094..096); 107_
+D. 150-2008 original ≡ 86_ fn.19 (R-H58 anchors upgraded; D. 247-89 lineage
+lead); 108_ Acuerdo 345 commissions procedure + fijación +15-day default
+(payroll/01 FR-041). Payroll FR total 314 → 326 (+9 payroll/02, +2 payroll/06,
++1 payroll/01).""")
     with open(os.path.join(REQ, "COVERAGE.md"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(out) + "\n")
     print(f"OK: COVERAGE.md written — {len(registry)} rows ({n_cited} cited-as-LB, {n_na} N/A); "

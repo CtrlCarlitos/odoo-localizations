@@ -5,11 +5,14 @@ core), updated through round-4/D-H2/D-H3 + the merge, W2 fiscal-reporting, W3
 facturación, W4 payroll, synthesis prep (master index + OQ registers),
 S-HN1..S-HN4 synthesis waves + their merges, the V-HN1 VALIDATION WAVE
 (merged to main 2026-08-20, thirteenth §4.6 run at `960df34`, root record
-`f2eccbc`), and **V-HN1b (this refresh — in-corpus evidence reads
-95_/96_/93_/94_/97_ with FR-067 PINNED + 22-A regime-0 + 97_ history rows;
-S-HN5 scoping recorded as DEFERRED; acquisition wave: D. 112 FOUND via
-Wayback-of-STSS + 154-2000 bono reglamento + D. 150-2008 + Acuerdo 345
-acquired; next = evidence passes for 105_-108_ — the P2 aguinaldo unblock)**.
+`f2eccbc`), V-HN1b (in-corpus reads 95_/96_/93_/94_/97_ + acquisition wave),
+and **the W5 acquisition-reads wave (this refresh — full evidence passes
+105_-108_ EVID-362..384: **P2 aguinaldo UNBLOCKED** — D. 112-1982 IS the
+13th-month law (R-H74), the "D. 135-94/201-96" framing voided (R-H75); bono
+reglamento STSS-154-2000 encoded (R-H76, OQ-004 resolved); séptimo día
+statutory layer; D. 150-2008 + Acuerdo 345 anchored; payroll 314→326 FRs,
+COVERAGE gates re-run PASS). Next = D. 59-2023 fetch (ENAG Feb-2024) + the
+R-H75 interp/reform chain + owner merge decision**.
 Read this fully before acting; it is the authoritative HN cross-session
 memory (conversation context does not survive). Update it at every session
 boundary.
@@ -69,7 +72,7 @@ boundary.
    layer w/ corpus verification (§7), open leads (§5, incl. W2+W3+W4
    harvests)
 6. `hn/sources/README.md` — registry, 103 files (01-104, 103 reserved-unused),
-   full provenance + mislabel-correction notes (**10 incidents to date**)
+   full provenance + mislabel-correction notes (**11 incidents to date**)
 7. Evidence files in `hn/.extractions/*.evidence.md` (committed): `01_`
    (ISR, EVID-001..015), `02_` (ISV, 016..026), `03_` (CT, 027..038),
    `04-21-22_` (D.17-2010 family, 039..053), `07-12+11_` (tables+plantilla,
@@ -260,6 +263,45 @@ Comisiones SMM; a duplicate D. 103 upload was discarded md5-identical to
   cesantía fraction = Art. 120 lit. c; Art. 104 rule-4 no half-salary
   qualifier; Art. 21-A proportionality sentence ends mid-print.
 
+- **W5 acquisition-reads wave (2026-08-20, do not re-derive):** **R-H74 —
+  D. 112-1982 (105_, EVID-362..372) IS the 13th-month statutory home**:
+  entitlement = permanents + jubilados/pensionados; gate = 31-dic
+  12-continuous-months same-employer else proportional (CT-347 class always
+  proportional); December default + pacto (Art. 11); base = ordinary-salary
+  average with the SMM-average variant (Art. 12); exit proration ALL classes
+  + anticipo netting (Art. 13); vigencia 01-nov-1982 (secondary pin via 89_);
+  séptimo día transitory from 10-ene-1983. The W4d "D. 135-94 (Ley del
+  Aguinaldo) + Acuerdo 201-96" framing was a CONFLATION/unsourced
+  attribution (**R-H75 — voided;** the real chain from 105_'s footnotes:
+  D. 178-86 G 25,077 17-nov-1986 [100%-or-proportion + CBII floor + 30-day
+  base + obra ÷-days + convention/custom permanents] / D. 2-87 G 25,155
+  18-feb-1987 [printed date "30-feb-1987" impossible] / D. 36-90 G 26,131
+  11-may-1990 [caña/destajo + incapacidad temporal] / **D. 179-97 G 28,441
+  17-dic-1997 — reform content UNKNOWN = new top lead**, rows reversible).
+  payroll/02 P2 rewritten (FR-052..054 + FR-088..093; OQ-001 resolved).
+  Séptimo día chapter → payroll/06 FR-248/249 (ordinary-jornada valuation,
+  OT excluded; fixed-part rule for mixed; destajo zona-SMM floor; four
+  deemed-inclusion classes Art. 6; no-full-week-no-right Art. 7; rest-day =
+  CT-340 + séptimo additive Art. 8). **R-H76** — 106_ = D. 43-97 (G 28,271,
+  29-may-1997, masthead-confirmed; 21-A ≡ 104_ print, R-H43 double-pinned;
+  modality loan scoped to PROPORTIONALITY only; SMM Arts. 20/35 gazette
+  originals) + Reglamento STSS-154-2000 (5-oct-2000 → gazette 6-nov-2000,
+  number illegible ≈29,32x = the title's "29320", **11th title-class
+  incident R-H77**): payroll/02 OQ-004 RESOLVED + FR-094..096 (calendar-year
+  100% gate 01-01→31-12 same employer; post-exit claim; mid-year-entry
+  FORWARD proration; 2×SMM gate EXCLUDES OT/primas/bonificaciones/
+  gratificaciones; family allocation — cohabiting→mother, separated→
+  custodian, new-family right, orphan guardian, ONE bono per worker).
+  107_ D. 150-2008 (EVID-380..382): original ≡ 86_ fn.19 zero drift; R-H58
+  anchors upgraded (payroll/08 LB-007/008 + FR-305's three carve-out
+  predicates incl. "otro sistema donde el patrono sea aportante" = the
+  RAP/fondo bridge; payroll/05); lineage lead D. 247-89 (15-dic-1989).
+  108_ Acuerdo 345 (EVID-383/384; 6-oct-1988, G 25,680, own vigencia
+  unpinned): payroll/01 LB-022 + FR-041 (commissions TEMPORARY tripartita,
+  Director General de Salarios presides; fijación published ONCE + 20-day
+  fatal window; **fijación vigencia = +15 days after publication — DEFAULT
+  displaced by the fijaciones' own clauses, R-H62 kin**). Payroll totals
+  326 FRs/158 LBs/170 ACs/81 OQ rows; COVERAGE 107 rows = 105 cited + 2 N/A.
 - **V-HN1b in-corpus reads (2026-08-20, do not re-derive):** `95_`+`96_`
   (EVID-337..348): **FR-067 PINNED + ACTIVATED** — L30k@60 = D. 199-2006
   **Art. 30 num. 14** (own-law "crédito adicional", NOT an ISR amendment),
@@ -311,7 +353,9 @@ Comisiones SMM; a duplicate D. 103 upload was discarded md5-identical to
 - `11_` plantilla formulas read fine via openpyxl (not protected).
 - IHSS site needs full browser UA. Bing/DDG useless for .hn; navigate
   catalogs directly.
-- **Registry glosses and catalog TITLES can mislead — 10 incidents to date**
+- **Registry glosses and catalog TITLES can mislead — 11 incidents to date**
+  (the 11th, W5: 106_'s title "Gaceta 29320" names only the SECOND of its
+  two gazette extracts — D. 43-97 is from G 28,271; content as claimed)
   (29_/09_/15_ SV; 05_, 94_, 101_-server-filename, 20_, 52_, **85_** HN —
   85_ was believed "CT derogations" for two sessions before W4d read it:
   Penal-only. Title ≠ content; the end-to-end read is the authority. Numeric
@@ -359,8 +403,8 @@ Comisiones SMM; a duplicate D. 103 upload was discarded md5-identical to
     queue: D. 105-2011 + Acuerdo 1775-2011 + D. 31-2018 (LSP portion) +
     D. 53-2015/D. 92-2015 + D. 131-2018 (the 506-vs-509 boundary = the only
     yes-blocking S-HN3 OQ); also Acuerdo 034/99 (542 threshold) and the
-    SAR-236-2024 DÉCIMO OCTAVO print. D. 112 = routes exhausted (mirror-only
-    at synthesis). Most SAR-catalog fetchable (recipe §6).
+    SAR-236-2024 DÉCIMO OCTAVO print. [W5: D. 112 ACQUIRED as 105_ + evidenced;
+    "D. 135-94/201-96" voided per R-H74/R-H75 — queue rewritten above.] Most SAR-catalog fetchable (recipe §6).
    3. **R-H66 territoriality ruling: RESOLVED — adopted by product owner
       2026-08-20 (worldwide pre-2017 / territorial 2017+; taxation/01
       FR-004 dated rows; master-index Section B row 66; rows reversible).
@@ -368,21 +412,22 @@ Comisiones SMM; a duplicate D. 103 upload was discarded md5-identical to
      force-push (root HANDOVER country model). Branch head after S-HN1/S-HN2
      commit = the synthesis-wave base; future waves branch from here.
 
-Session state at stop (2026-08-20, S-HN4 close + eleventh merge): evidence
-COMPLETE through EVID-333 (~227 open OQs); corpus 103 files; W1-W4 +
-synthesis prep + all four S-waves committed/merged to main (**S-HN4 at
-`d05f2c1`, eleventh §4.6 run, root record `7a40433`; R-H66 adopted**).
-S-HN4 payroll = 10 files + `smm_tables.csv`, HN-PAYR-FR-001..398 = 313
-FRs/146 LBs/163 ACs/73 OQs, controller-verified 10/10 structural + strict
-verbatim bank-check with 5 one-word LB fixes. **Next = validation wave
-(`hn/requirements/COVERAGE.md` all four topics + adversarial review,
-template Stage 5) + S-HN5 thin-close decision at milestone (or acquisition
-wave in parallel — top: D. 135-94 + Acuerdo 201-96).**
+Session state at stop (2026-08-20, W5 acquisition-reads wave): evidence
+COMPLETE through EVID-384; corpus 107 files (105-108 evidenced); V-HN1 +
+V-HN1b merged to main (thirteenth §4.6 run at `960df34`); **W5 committed on
+`hn-research` (this session, not yet merged — owner decision pending)**:
+P2 aguinaldo UNBLOCKED (R-H74: D. 112-1982 = the 13th-month law; R-H75:
+"D. 135-94/201-96" voided), bono reglamento encoded (R-H76, OQ-004
+resolved), séptimo día statutory layer (payroll/06 FR-248/249), D. 150-2008
++ Acuerdo 345 anchored; payroll = 326 FRs/158 LBs/170 ACs/81 OQ rows;
+COVERAGE gates PASS (107 rows = 105 cited + 2 N/A); rulings R-H1..R-H77.
+**Next = D. 59-2023 fetch (ENAG) + R-H75 chain acquisition + owner merge
+decision; S-HN5 stays DEFERRED.**
 
 ## 7. Conventions (mirroring SV)
 
 - Evidence: verbatim Spanish + gloss; candidate CRs + topic tags; doubts →
-  OQs, never guesses. Per-file OQ numbering; corpus-global EVID (next=334).
+  OQs, never guesses. Per-file OQ numbering; corpus-global EVID (next=385).
   W2b + W4 + S-HN1/S-HN2 ran subagent-dispatched with pre-allocated EVID/FR
   ranges per family — proven pattern for large batches; controller verifies
   ranges + spot-checks verbatims afterward (done for W4: ranges + 8
@@ -410,10 +455,11 @@ wave in parallel — top: D. 135-94 + Acuerdo 201-96).**
   `00_MASTER_INDEX.md` (**created 2026-08-19 — committed; update it at every
   wave/milestone that adds EVIDs, rulings, or resolves OQs**).
 - Commits: short imperative, no emojis; push after each wave.
-- Registry additions continue numbering from `105` (103 reserved-unused);
-  page-1 verify everything. **10 mislabel incidents to date** — title-vs-
-  content discipline on EVERY acquisition AND every evidence read.
+- Registry additions continue numbering from `109` (103 reserved-unused);
+  page-1 verify everything. **11 title/gloss incidents to date** (the 11th =
+  106_: title "Gaceta 29320" names only the second of its two extracts) —
+  title-vs-content discipline on EVERY acquisition AND every evidence read.
 - **Manuals can be stale vs gazettes (W2b):** gazette text is the record.
 - **OCR sidecars:** for any file with an `.OCR.txt` in `.extractions/`, the
   OCR sidecar (not the native-layer txt) is authoritative for the damaged
-  passages (81_, 87_, 90_, 91_, 92_ as of W4).
+  passages (81_, 87_, 90_, 91_, 92_ as of W4; 106_, 107_ as of W5).

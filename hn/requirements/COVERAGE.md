@@ -4,11 +4,11 @@
 |---------|-------|
 | Country | hn |
 | Topic   | all (cross-topic) |
-| Status  | validated (V-HN1 gate 1 — S-HN1/S-HN2/S-HN3/S-HN4 waves) |
+| Status  | validated (V-HN1 gate 1 — S-HN1/S-HN2/S-HN3/S-HN4 waves; W5 acquisition-reads refresh) |
 | Authors | script `hn/scripts/build_coverage.py` (regenerate after every wave) |
 | Updated | 2026-08-20 |
 
-Every row of [../sources/README.md](../sources/README.md) (103 registered files, gap 103 reserved-unused) mapped against the four synthesis waves (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1082 FRs, 483 LB rows, 566 ACs, 318 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 248, e-invoicing 157, fiscal-reporting 363, payroll 314).
+Every row of [../sources/README.md](../sources/README.md) (107 registered files, gap 103 reserved-unused) mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1094 FRs, 494 LB rows, 573 ACs, 323 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 248, e-invoicing 157, fiscal-reporting 363, payroll 326).
 
 Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row of a requirements file (citing file(s) + LB ids listed); **not-applicable-this-wave** — explicit annotation with reason (superseded/historical, in-corpus-unread pending evidence pass, or out of scope for the four topics).
 
@@ -119,17 +119,17 @@ Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row
 | 101_Acuerdo_STSS-308-2022_G35892.pdf | cited-as-LB | `payroll/01_smm-chassis.md` (LB-015+LB-016+LB-017) |
 | 102_Acuerdo_02-95_Regl_14to_mes.pdf | cited-as-LB | `payroll/02_13th-14th-bono.md` (LB-001+LB-002+LB-003+LB-004+LB-005+LB-006+LB-007) |
 | 104_Decreto_103_Ley_Salario_Minimo.pdf | cited-as-LB | `payroll/01_smm-chassis.md` (LB-001+LB-002+LB-003+LB-004+LB-005+LB-006+LB-007); `payroll/02_13th-14th-bono.md` (LB-008+LB-009) |
-| 105_Decreto_112_Ley_Septimo_Dia_13er_Mes_Aguinaldo.pdf | not-applicable-this-wave | Acquired 2026-08-20 (Wayback of the official STSS upload), page-1 verified. THE 13th-month statutory home — evidence pass = NEXT session; unblocks the payroll/02 P2 aguinaldo sub-cluster (OQ-001). No LB citations yet by design. |
-| 106_Gaceta_29320_D43-97_bono_educativo_Ac154-2000_reglamento_bono.pdf | not-applicable-this-wave | Acquired 2026-08-20 (STSS), OCR'd. D. 43-97 + Acuerdo STSS-154-2000 bono reglamento (the payroll/02 OQ-004 lead, now in corpus). Evidence pass = next session. |
-| 107_Gaceta_31753_Decreto_150-2008.pdf | not-applicable-this-wave | Acquired 2026-08-20 (STSS). D. 150-2008 annual-cesantía-pact instrument (W4c kin). Evidence pass = next session. |
-| 108_Acuerdo_345_Regl_Comisiones_Salario_Minimo.pdf | not-applicable-this-wave | Acquired 2026-08-20 (STSS). Reglamento de las Comisiones de Salario Mínimo (SMM-chain completeness). Evidence pass = next session. |
+| 105_Decreto_112_Ley_Septimo_Dia_13er_Mes_Aguinaldo.pdf | cited-as-LB | `payroll/02_13th-14th-bono.md` (LB-013+LB-014+LB-015+LB-016+LB-017); `payroll/06_jornada-surcharges.md` (LB-014+LB-015+LB-016) — W5: evidence pass EVID-362..372 (R-H74 — the 13th-month statutory home); payroll/02 P2 UNBLOCKED (OQ-001 resolved; FR-052..054 rewritten + FR-088..093); séptimo día layer → payroll/06 (LB-014..016, FR-248/249). |
+| 106_Gaceta_29320_D43-97_bono_educativo_Ac154-2000_reglamento_bono.pdf | cited-as-LB | `payroll/01_smm-chassis.md` (LB-007); `payroll/02_13th-14th-bono.md` (LB-008+LB-018+LB-019) — W5: evidence pass EVID-373..379 — TWO extracts: D. 43-97 from G 28,271 (29-may-1997, masthead-confirmed — the '29320' title = the reglamento's 6-nov-2000 gazette, number illegible ≈29,32x); bono reglamento OQ-004 RESOLVED (payroll/02 FR-094..096); SMM Arts. 20/35 gazette originals co-cited in payroll/01 LB-007. |
+| 107_Gaceta_31753_Decreto_150-2008.pdf | cited-as-LB | `payroll/08_cesantia-preaviso.md` (LB-007+LB-008) — W5: evidence pass EVID-380..382 — CT Art. 120/120-A + the annual-pact Art. 2 as instrument original (≡ 86_ fn.19, no drift); R-H58 anchors upgraded in payroll/08 LB-007/008 + FR-305; new lineage lead D. 247-89. |
+| 108_Acuerdo_345_Regl_Comisiones_Salario_Minimo.pdf | cited-as-LB | `payroll/01_smm-chassis.md` (LB-022) — W5: evidence pass EVID-383..384 — commissions procedure + the fijación +15-day vigencia default (payroll/01 LB-022 + FR-041); Acuerdo 345's own vigencia unpinned (G 25,680 date not printed). |
 
 ## Rollup
 
 | Status | Rows |
 |--------|------|
-| cited-as-LB | 101 |
-| not-applicable-this-wave | 6 |
+| cited-as-LB | 105 |
+| not-applicable-this-wave | 2 |
 | **Total** | **107** |
 
 ## V-HN1 gate-1 findings (2026-08-20, fixed in this wave)
@@ -161,3 +161,18 @@ Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row
 Gate 2 (NotebookLM): no notebook exists for HN — optional gate skipped per
 procedure ("where a notebook exists"). Gate 3 (adversarial review): dispatched
 per topic at this wave; findings adjudicated in EXTRACTION_PLAN wave log.
+
+## W5 refresh (2026-08-20, acquisition-reads wave)
+
+The four V-HN1b acquisitions (105_-108_) given full evidence passes
+(EVID-362..384) and flipped from not-applicable to cited-as-LB: **105_ D.
+112-1982 = the 13th-month statutory home (R-H74) — payroll/02 P2 UNBLOCKED**
+(OQ-001 resolved; the "D. 135-94 Ley del Aguinaldo + Acuerdo 201-96" framing
+was a conflation, R-H75); the D. 112 séptimo-día chapter → payroll/06
+(FR-248/249 statutory valuation/deemed-inclusion/forfeiture); **106_ = TWO
+gazette extracts** (D. 43-97 G 28,271 29-may-1997 + Reglamento STSS-154-2000,
+gazette 6-nov-2000) — bono reglamento OQ-004 RESOLVED (FR-094..096); 107_
+D. 150-2008 original ≡ 86_ fn.19 (R-H58 anchors upgraded; D. 247-89 lineage
+lead); 108_ Acuerdo 345 commissions procedure + fijación +15-day default
+(payroll/01 FR-041). Payroll FR total 314 → 326 (+9 payroll/02, +2 payroll/06,
++1 payroll/01).

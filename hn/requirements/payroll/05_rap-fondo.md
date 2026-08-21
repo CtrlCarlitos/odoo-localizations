@@ -234,7 +234,7 @@ payslip period / hecho generador, never "today".
 - **HN-PAYR-FR-200:** On death or total non-occupational invalidity of a
   worker with ≥ 6 months of service, the system shall apply the 75%
   complement floor (the law's own cross-reference: CT Art. 120 literal f;
-  grandfathering anchor D. 150-2008 Art. 2 at CT-Art. 120-A fn.19, R-H58):
+  grandfathering anchor D. 150-2008 Art. 2 at CT-Art. 120-A fn.19, R-H58; W5: instrument original `107_` now in corpus — Art. 2 is a NON-CT decreto provision, the "leyes especiales" of D. 47-2024 Art. 5, EV106:EVID-382):
   100% of the saldo to the legal beneficiaries or the worker, employer
   complementing up to 75% of the cesantía importe when the saldo is lower;
   death-case delivery to RAP-designated beneficiaries, or absent designation
@@ -422,7 +422,7 @@ legal vintage exists.
 | FR-191, FR-192 | odoo | l10n_hn.rap.rate metadata + exposure flags | watch flags | RAP Consejo Directivo rate changes = new dated rows (additive-only); sancionatorio placeholder + título ejecutivo = informational flags, never amounts |
 | FR-193..FR-195 | odoo | l10n_hn.rap.base.flag | config-gap flags | Never-guess rule (D-H2): hypotheses flagged (salario ordinario; techo level-set; Art. 43 universality/base/pre-reform) — no flag injects a value into computation |
 | FR-196..FR-202 | odoo | hr.payslip final-settlement rules + l10n_hn.rap.cuenta | matrix engine | Consumes ct_cesantia_amount from `08_cesantia-preaviso.md` (HN-PAYR-FR-291..325) by range — never restated; external saldo certification input; R-H55 matrix; RAP ≤1-month SLA event |
-| FR-203, FR-204 | odoo | res.company rap_regime selector + cuenta-attribute guard | regime selector | Grandfathering effective 2024-05-28 (R-H58 anchor D. 150-2008 Art. 2 at CT-Art. 120-A fn.19); pacto-prohibition validation block on cuenta overrides |
+| FR-203, FR-204 | odoo | res.company rap_regime selector + cuenta-attribute guard | regime selector | Grandfathering effective 2024-05-28 (R-H58 anchor D. 150-2008 Art. 2 at CT-Art. 120-A fn.19; instrument original 107_ W5 — EV106:EVID-382); pacto-prohibition validation block on cuenta overrides |
 | FR-205 | odoo | garnishment engine exemption flags | inembargable | Alimony-only exception, 50% cap; applies to aportes, cotizaciones and prestaciones |
 | FR-206 | odoo | ISR interface flags | exclusion outputs | Consumed BY ID by taxation/04 (FR-130/FR-132 legs within HN-TAX-FR-121..153): contribution-side + payout-side exclusions and the pension-deduction feed; no plantilla logic here |
 | FR-207..FR-209 | odoo | l10n_hn.rap.window dated rows | window regime | D12: window regime 2026-03-28 → 2026-09-28 (convention flag, prorogation watch); D19 go-live note: window affiliations post NO retro accrual — GL-neutral, no historical import required |

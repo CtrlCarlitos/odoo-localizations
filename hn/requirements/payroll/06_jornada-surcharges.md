@@ -64,7 +64,10 @@ Authority order (binding, per master evidence index): jornada family = `86_`
 per R-H59 — jornada = Arts. 318-341, never the drifted numbers (`86_ OQ-4`);
 consolidation vintage pinned to D. 278-2013 (`86_ OQ-1` — file-level OQ-001).
 D. 117-2021 (`89_`) interprets Art. 113.1 only — never cited for jornada
-articles. **R-H57 guard (cited once, this table's LB-013)**: `85_` (D. 93-2021)
+articles. **Séptimo día statutory layer (W5): `105_` (D. 112-1982) Arts. 2-8
++ D. 36-90 interp** — the valuation/deemed-inclusion/forfeiture rules the CT
+lacks (R-H74; LB-014..LB-016). **R-H57 guard (cited once, this table's
+LB-013)**: `85_` (D. 93-2021)
 derogates ZERO Código del Trabajo articles — its derogated PENAL article
 numbers collide numerically with live CT articles 337/346/368 etc.; no
 D. 93-2021 never-implement flag applies to any article of this file.
@@ -86,6 +89,9 @@ never-guess rule, aggregate ingestion depths).
 | LB-011 | CT Art. 867 (final ¶): "El término de prescripción para el cobro de jornadas extraordinarias de trabajo empezará a contarse el día en que fue pagado o debió pagarse el salario ordinario correspondiente al período en que hubiere sido laborado del trabajo extraordinario." | CT Art. 867 (final paragraph): the prescription period for claiming overtime payment begins on the day the ordinary salary corresponding to the period in which the overtime was worked was paid — or fell due (per-period payment-date anchor). | `hn/sources/86_Codigo_del_Trabajo_TSC.pdf` | CT-Art. 867 (p.268, final ¶) (EV85:EVID-326) |
 | LB-012 | CT Art. 361: "Constituye salario no sólo la remuneración fija u ordinaria, sino todo lo que recibe el trabajador en dinero o en especie y que implique retribución de servicios, sea cualquiera la forma o denominación que se adopte, como las primas, sobresueldos, bonificaciones habituales, valor del trabajo suplementario o de las horas extras, valor del trabajo en días de descanso obligatorio, porcentaje sobre ventas, comisiones o participación de utilidades." | CT Art. 361: salary comprises not only the fixed or ordinary remuneration but everything the worker receives in money or in kind implying retribution of services — including premiums, habitual bonuses, the value of supplementary work or overtime, the value of work on mandatory rest days, sales percentages, commissions or profit participation (OT and rest-day pay ARE salario). | `hn/sources/86_Codigo_del_Trabajo_TSC.pdf` | CT-Art. 361 (pp.104-105) (EV85:EVID-317) |
 | LB-013 | D. 93-2021 (85_), Art. 1 (guard, R-H57): "Derogar los artículos 102, 103, 104, 105, 106, 176, 182, 225, 263, 275, 309, 317, 337, 346, 368, 397, 403, 411, 417, 430, 434, 437, 444, 469, 511, 569 y 596; todos del Decreto No.130-2017…que contiene el CÓDIGO PENAL…" — cross-check table verdict: "0 CT articles derogated by D.93-2021. No target family (jornada 318-337, vacaciones 345-356, salario 360-390, preaviso/cesantía 116-123, terminación 111-126, maternidad 135-146) is affected." | D. 93-2021 (G 35,760) derogates 31 articles of the PENAL Code D. 130-2017 (plus CPP and Lavado reforms) — ZERO Código del Trabajo articles. The derogated penal numbers collide numerically with live CT articles of this file (CT-337 turnos, CT-346 vacaciones, CT-368 pay periods): they are NOT those articles. No D. 93-2021-derived never-implement flag applies to Arts. 318-341/283/339/867 (R-H57 guard, cited once). | `hn/sources/85_Gaceta_35760_DO_93-2021_derogaciones_CT.pdf` | 93-Art. 1 (p.A.2) + cross-check table (EV85:EVID-329/333) |
+| LB-014 | D. 112-1982 (Ley del Séptimo Día y Décimo Tercer Mes, `105_`, W5), Arts. 2/4/5: Art. 2: "El trabajador gozará de un día de descanso, preferentemente el domingo, por cada 6 días de trabajo. El día de descanso o séptimo día será remunerado." Art. 4: "El pago del Séptimo Día será equivalente a una jornada ordinaria de trabajo, ya sea ésta diurna, nocturna o mixta y en su cálculo no se tomarán en cuenta las horas extraordinarias." Art. 5: "a) Para los que tengan contrato por unidad de tiempo, semana, día u hora, el salario de un día por cada seis (6) días de trabajo, o la proporción cuando se trabaje menos por causa justificada. b) Para los trabajadores que tengan un salario mixto…con una parte fija y otra variable, el pago del séptimo día se calculará con base en la parte fija. c) Para los trabajadores contratados por unidad de obra, pieza, tarea, precio alzado o destajo, el monto del salario será equivalente por lo menos al de una semana del salario mínimo de la zona, más la suma correspondiente al séptimo día." + fn.2 (D. 36-90, G 26,131 11-may-1990): "…los trabajadores que laboren en actividades temporales remuneradas por tarea, precio alzado o destajo, como cortadores y acarreadores de caña de azúcar… al laborar durante seis (6) días de la semana, e igualmente cuando gocen de incapacidad temporal, adquieren el derecho de pago del séptimo día. El pago…se hará en base al Salario Mínimo de la Zona" | Séptimo día statutory valuation (the rules the CT lacks — D. 112-1982, valid_from 1982-11-01; R-H74): value = ONE ordinary jornada of the worker's own type (diurna/nocturna/mixta), OT hours EXCLUDED; time workers = 1 day per 6 with PROPORTIONAL payment when less is worked for justified cause; mixed fixed+variable salaries = fixed part only; obra/destajo = at least 1 week of the zona's SMM plus the séptimo día; D. 36-90 (from 1990-05-11): temporary/destajo workers (caña cutters/carriers) earn the séptimo día on 6-day weeks AND during incapacidad temporal, paid on zona-SMM base. | `hn/sources/105_Decreto_112_Ley_Septimo_Dia_13er_Mes_Aguinaldo.pdf` | 112-Arts. 2/4/5 (pp.1-2) + fn.2 (p.2) (EV105:EVID-365) |
+| LB-015 | D. 112-1982, Art. 6: "El pago del día de descanso se considerará incluido en el total del salario devengado en la semana, en los siguientes casos: a) Para aquellos trabajadores cuyos salarios estén tasados por mes o por quincena; b) Para aquellos trabajadores cuyo contrato no los sujete a horarios de trabajo diario; c) Para los que sean remunerados a base de comisiones por ventas o cobros; y, d) Para los que desempeñan cargos de dirección, confianza o manejo." Art. 7: "El trabajador que no labore la semana completa sin causa justificada no tiene derecho al pago del séptimo día." | Séptimo día DEEMED INCLUDED in the total weekly salary for four classes: monthly/quincena-rated; no-daily-schedule contracts; commission-based remuneration; dirección/confianza/manejo roles (no separate earning line). Forfeiture gate: an incomplete week WITHOUT justified cause = no séptimo día at all (the negative mirror of LB-014's proportional-when-justified). | `hn/sources/105_Decreto_112_Ley_Septimo_Dia_13er_Mes_Aguinaldo.pdf` | 112-Arts. 6-7 (p.2) (EV105:EVID-366) |
+| LB-016 | D. 112-1982, Art. 8: "Los trabajadores que en virtud de convenio presten sus servicios durante el día de descanso, percibirán la remuneración a que se refiere el Artículo 340 del Código del Trabajo, y además como el pago del séptimo día el de una jornada ordinaria de trabajo, conforme lo establece el Artículo 3 de esta Ley." | Convenio-based work on the rest day: CT Art. 340 remuneration (double pay per the CT, LB-009) PLUS the séptimo día itself as an ordinary jornada carrying Art. 3 salary character — the séptimo día leg is ALWAYS additionally due ("además"). | `hn/sources/105_Decreto_112_Ley_Septimo_Dia_13er_Mes_Aguinaldo.pdf` | 112-Art. 8 (p.2) (EV105:EVID-367) |
 
 ## 3. Functional Requirements
 
@@ -191,14 +197,43 @@ never-guess rule, aggregate ingestion depths).
   available for workers under 16 years of age. (LB-007; EV85:EVID-312)
 - **HN-PAYR-FR-235:** The system shall value the séptimo día as follows:
   for a full-week diurna worker it is embedded in the 44-worked/48-paid
-  equivalence (no separate earning line — FR-223); accrual counts only days
-  actually worked (1 per 6); and for day-rated workers and partial weeks the
-  valuation uses the fn.31 prior-week average routine of FR-239 (total
-  ordinary + extraordinary earnings of the immediately prior week ÷ 6 when
-  fully worked, ÷ days actually worked when partial — the routine the
-  evidence gloss applies to the weekly-rest valuation; no separate statutory
-  sentence exists, wording anchored to fn.31). (LB-002; LB-008;
-  EV85:EVID-310/312)
+  equivalence (no separate earning line — FR-223; now STATUTORILY the
+  Art. 6.a deemed-inclusion class per D. 112, LB-015); accrual counts only
+  days actually worked (1 per 6); and for day-rated workers and partial
+  weeks the valuation uses the fn.31 prior-week average routine of FR-239
+  (total ordinary + extraordinary earnings of the immediately prior week ÷ 6
+  when fully worked, ÷ days actually worked when partial) SUBJECT TO the
+  D. 112 statutory parameters of FR-248/249 (ordinary-jornada value, OT
+  exclusion, fixed-part rule, destajo floor) — the CT-side fn.31 routine
+  remains the fallback where D. 112's own rules do not displace it.
+  (LB-002; LB-008; LB-014; LB-015; EV85:EVID-310/312; EV105:EVID-365/366;
+  W5 amendment)
+- **HN-PAYR-FR-248:** (W5, reserved range — D. 112-1982 Arts. 4-5 + D. 36-90)
+  The system shall apply the STATUTORY séptimo-día valuation (valid_from
+  1982-11-01, R-H74): the séptimo día equals ONE ordinary jornada of the
+  worker's own jornada type (diurna/nocturna/mixta) with horas
+  extraordinarias EXCLUDED from the calculation; time-contract workers
+  (semana/día/hora) take one day's salary per six worked, PROPORTIONAL when
+  less is worked for justified cause; mixed-salary workers (fixed +
+  variable) are valued on the FIXED part only; obra/destajo workers
+  (pieza, tarea, precio alzado, destajo) take at least one week of the
+  ZONA's SMM plus the séptimo día — and, from 1990-05-11 (D. 36-90),
+  temporary/destajo workers (incl. caña cutters/carriers) earn the séptimo
+  día both on 6-day weeks and during incapacidad temporal, valued on the
+  zona SMM.
+  (LB-014; EV105:EVID-365)
+- **HN-PAYR-FR-249:** (W5 — D. 112-1982 Arts. 6-8) The system shall (a)
+  flag the four DEEMED-INCLUSION classes (monthly/quincena-tased; contracts
+  without daily work schedules; commission-based remuneration;
+  dirección/confianza/manejo roles) where the séptimo día is considered
+  included in the total weekly salary with no separate earning line; (b)
+  enforce the forfeiture gate — an incomplete week WITHOUT justified cause
+  earns NO séptimo día (with a per-week justified-cause flag; the
+  proportional-when-justified leg lives in FR-248); and (c) on convenio-based
+  work during the rest day, stack CT-Art.-340 remuneration PLUS the séptimo
+  día as an ordinary jornada carrying Art. 3 salary character (additive,
+  never netted).
+  (LB-015; LB-016; EV105:EVID-366; EV105:EVID-367)
 
 ### 3.4 Feriados (paid national holidays)
 
@@ -342,7 +377,8 @@ legal parameter exists.
 | FR-230, FR-231 | odoo | hr.attendance + l10n_hn.payroll.guard | 12h/day, 4×/week guards | Exceptions only siniestro/riesgo inminente, explicit flagged rows; guard visible in payroll run review |
 | FR-232 | odoo | hr.work.entry (error-recovery flag) | unpaid-OT marker | Recorded not paid; audit trail only |
 | FR-233 | odoo | hr.payslip.line category + hr.salary.rule categories | OT line separation | Art. 335 statutory separation; register formats owned by file 10 (by range); Art. 337 informational note on shift-change validation |
-| FR-234, FR-235 | odoo | hr.work.entry (rest entries) + hr.salary.rule SEPTIMO_DIA | 1-per-6 accrual | Embedded valuation for full-week diurna (FR-223); fn.31 routine for day-rated/partial — consumes FR-247 aggregates |
+| FR-234, FR-235 | odoo | hr.work.entry (rest entries) + hr.salary.rule SEPTIMO_DIA | 1-per-6 accrual | Embedded valuation for full-week diurna (FR-223); fn.31 routine for day-rated/partial — consumes FR-247 aggregates; W5: FR-235 now subject to the D. 112 statutory parameters (FR-248/249) |
+| FR-248, FR-249 | odoo | hr.salary.rule SEPTIMO_DIA variants + hr.contract séptimo-día class flags | statutory valuation + deemed-inclusion/forfeiture/stacking | W5 (D. 112-1982, valid_from 1982-11-01; D. 36-90 row from 1990-05-11); additive dated rows; OQ-006 carries the Art.-1 reform reversibility caveat from file 02 |
 | FR-236..FR-238 | odoo | l10n_hn.payroll.feriado (new) + resource.calendar.leaves | dated holiday rows | D12 version regime: rows valid from D. 275-1960 reform (fn.31), open-ended; additive-only (D-H2); Easter-relative computed rows (offsets −3/−2/−1); OQ-002 spot-check flag as row metadata; D16: retro payroll resolves the ORIGINAL-period calendar |
 | FR-239 | odoo | hr.salary.rule FERIADO_AVG + l10n_hn.payroll.workweek | ÷6 / ÷-worked-days average | Fallback = one normal jornada salary; divisor variant per fn.31 gloss (OQ-003) |
 | FR-240 | odoo | hr.contract wage period flag | implicit inclusion | No extra line for monthly/quincenal workers; prevents duplicate accrual |
@@ -428,6 +464,21 @@ aggregates per contract from hire date).
   year, then they are tagged salario (Art. 361) and flow into the ISR
   plantilla annual gross at HN-TAX-FR-126 by id, with no cap, promedio or
   prorate logic restated in this file (FR-245, FR-246).
+- **AC-017:** Given a nocturna worker earning L600.00 per ordinary 6-hour
+  jornada with 4 OT hours that week, then the séptimo día values at
+  L600.00 (one ordinary jornada of its own type; the OT hours never enter
+  the calculation) (FR-248).
+- **AC-018:** Given a mixed-salary worker (L400.00/day fixed + variable
+  commissions), then the séptimo día values on the fixed part only
+  (L400.00); given a destajo caña cutter working 6-day weeks at zona SMM,
+  then the weekly floor = 1 week zona SMM + the séptimo día — and the
+  accrual holds during an incapacidad-temporal week from 11-may-1990
+  (FR-248).
+- **AC-019:** Given a commission-only worker and a dirección-role manager,
+  then neither produces a separate séptimo día line (deemed-included
+  classes a.c/d); given a worker who misses 2 days of a week WITHOUT
+  justified cause, then that week earns no séptimo día at all — with
+  justified cause, the proportional leg of FR-248 applies (FR-249).
 
 ## 7. Open Questions
 
@@ -439,3 +490,4 @@ aggregates per contract from hire date).
 | OQ-004 | fn.29 weekly-salary equality (48h diurna = 36h nocturna = 42h mixta) vs Art. 329's per-hour +25% night recargo: both rules are encoded as printed (FR-224 + FR-227) without reconciliation — how the quoted nocturna weekly salary relates to the per-hour recargo for full-time nocturna workers (rate-quoted-at-equality vs recargo-on-top) is a payroll-practice question; never derived by the engine (D-H2 never-guess). | no | Takumi S-HN4 + controller | open |
 
 | OQ-005 | NEW (V-HN1 adversarial review): weekly-data ingestion depth — the fn.31 prior-week ÷6/÷days-worked routine (FR-235/FR-239/FR-247) requires week-level day counts and earnings, which D-H3's monthly-aggregate ingestion cannot reconstruct; either an enhanced weekly-aggregate ingestion depth or a documented approximation rule must be ruled before go-live payroll history import. | no | controller ruling (D-H3 extension) | open |
+| OQ-006 | NEW (W5): D. 112-1982 Art. 1 sits under the Chapter-I séptimo-día heading yet grants the 13th month, and fn.1 records an unshown D. 179-97 reform — whether the printed Arts. 1-8 text is original or reform-product is unverifiable until D. 179-97 is acquired (`105_ OQ-1`, carried from file 02 OQ-008); séptimo-día rows stay reversible. | no | acquisition queue | open |

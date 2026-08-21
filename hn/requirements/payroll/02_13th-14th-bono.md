@@ -1,24 +1,28 @@
-# HN — Payroll — 13th month (aguinaldo, config-gapped), 14th month (décimo cuarto mes) & bono educativo
+# HN — Payroll — 13th month (aguinaldo, D. 112-1982), 14th month (décimo cuarto mes) & bono educativo
 
 | Field   | Value |
 |---------|-------|
 | Country | hn |
 | Topic   | payroll |
 | Status  | draft |
-| Authors | Takumi synthesis wave S-HN4 + controller |
+| Authors | Takumi synthesis wave S-HN4 + controller; W5 wave (D. 112 unblock + bono reglamento) |
 | Updated | 2026-08-20 |
 
 ## 1. Purpose
 
 This file defines the functional requirements for Honduras' annual bonus layer of
-clusters P2/P3/P4: (a) the **13th month** — *décimo tercer mes en concepto de
-aguinaldo* (13th-month statutory year-end bonus) — as a CONFIG-GAPPED surface:
-the aguinaldo's own instruments (D. 135-94 + reglamento Acuerdo 201-96) are
-NOT in the corpus (negative CT finding R-H60; `86_ OQ-3` = TOP acquisition
-lead), so this file encodes only what IS evidenced — the modality linkage that
-the 14th-month and bono statutes print verbatim, and the ISR-side December
-settlement interface — with every entitlement/pro-rata/base/deadline parameter
-held as visibly blocked configuration (pattern per e-invoicing/04 SEE FRs); (b)
+clusters P2/P3/P4: (a) the **13th month** — *décimo tercero mes en concepto de
+aguinaldo* (13th-month statutory year-end bonus) — per its statutory home
+**Decreto 112 of 1982 (Ley del Séptimo Día y Décimo Tercer Mes en Concepto de
+Aguinaldo), acquired as `105_` at the W5 wave (R-H74)**: entitlement
+(permanents + jubilados/pensionados), 31-dic 12-month same-employer gate,
+December default + pacto, ordinary-salary-average base with the SMM-average
+variant, the D. 178-86/D. 2-87 interpretation rules (100%-or-proportion, CBII
+floor, 30-day base, obra ÷-days formula, convention/custom permanents), exit
+proration + anticipo netting, and the instrument-chain dated rows (residual
+caveats: D. 179-97 reform content unknown — OQ-008; the "Acuerdo 201-96"
+attribution voided — R-H75); the séptimo día chapter of the same law lives in
+file `06_jornada-surcharges.md` (FR-234/235 + FR-248/249); (b)
 the full mechanics of the **14th month** — *décimo cuarto mes de salario en
 concepto de compensación social* (14th-month salary as social compensation,
 Acuerdo 02-95 reglamento of D. 135-94 Cap. IX Art. 34 as interpreted by
@@ -29,11 +33,15 @@ industry/artesanías/small-scale agro, 30-day normalization for time and piece
 workers, proportional payout on ANY exit, anticipo netting, better-terms
 prevalence, integration into salario for all legal effects, and enforcement
 metadata; and (c) the **bono educativo** (education bonus, Ley del Salario
-Mínimo Art. 21-A as reformed by D. 43-97): ≤2×SMM eligibility gate, dated
-rama×band amounts from the DGS annual tables, once-a-year timing after the
-first trimestral exam, <1-year pro-rata, ≤15-permanent-workers employer
-exemption, and its NON-salary character (excluded from prestaciones AND from
-13th/14th bases).
+Mínimo Art. 21-A as reformed by D. 43-97 — gazette original `106_`, R-H43
+double-pinned): ≤2×SMM eligibility gate, dated rama×band amounts from the DGS
+annual tables, once-a-year timing after the first trimestral exam, <1-year
+pro-rata, ≤15-permanent-workers employer exemption, and its NON-salary
+character (excluded from prestaciones AND from 13th/14th bases), now completed
+by the **Reglamento STSS-154-2000** (also `106_`, OQ-004 resolved): calendar-
+year 100% gate, post-exit claim, mid-year-entry forward proration, the 2×SMM
+gate's exclusion list (OT/primas/bonificaciones/gratificaciones out), and the
+family-allocation matrix.
 
 It does **not** own: SMM values, promedio rows and the rama×band dated-row
 sidecar — file `01_smm-chassis.md` (HN-PAYR-FR-001..040), consumed by range
@@ -54,13 +62,16 @@ vacaciones — `07_vacaciones.md` (HN-PAYR-FR-261..280); cesantía/preaviso —
 
 ## 2. Legal Basis
 
-Authority order (binding, per master evidence index): 14th month = `102_`
-(Acuerdo 02-95 reglamento, 6-feb-1995) with the embedded D. 135-94 Cap. IX
-Art. 34 quote and the D. 54-95 interpretation footnote; bono educativo =
-`104_` (Ley del Salario Mínimo, D. 103) Arts. 21-A/21-B as reformed by
-D. 43-97 (R-H43) + the `92_` DGS annual bono table (amounts); CT negative =
-`86_` (D. 189-1959 CEDIJ consolidation). D-H1/D-H2/D-H3 bind everything
-(dated rows, payslip-period resolution, never-guess rule, aggregate
+Authority order (binding, per master evidence index): **13th month = `105_`
+(D. 112-1982 + its in-print interpretation chain D. 178-86/D. 2-87/D. 36-90 +
+reform D. 179-97; authentically interpreted 2021 by `89_`)** — R-H74; 14th
+month = `102_` (Acuerdo 02-95 reglamento, 6-feb-1995) with the embedded
+D. 135-94 Cap. IX Art. 34 quote and the D. 54-95 interpretation footnote;
+bono educativo = `106_` (D. 43-97 Art. 21-A/21-B gazette original, G 28,271
+29-may-1997 — R-H43 double-pinned) + the Reglamento STSS-154-2000 in the same
+file (OQ-004 resolved) + the `92_` DGS annual bono table (amounts); CT
+negative = `86_` (D. 189-1959 CEDIJ consolidation, R-H60). D-H1/D-H2/D-H3 bind
+everything (dated rows, payslip-period resolution, never-guess rule, aggregate
 ingestion depths).
 
 | ID | Citation (Spanish) | English translation | Source file | Location |
@@ -72,65 +83,66 @@ ingestion depths).
 | LB-005 | Acuerdo 02-95, Arts. 6-8: Art. 6: "Cuando el salario se tase en forma mensual, el Décimo Cuarto Mes de Salario en concepto de compensación social … en base al promedio de los salarios ordinarios percibidos durante el tiempo trabajado en el año de que se trate. En la pequeña y mediana industria, artesanías, agricultura y ganadería en pequeña escala, el pago del Décimo Cuarto Mes de Salario se efectuará en base al promedio de los salarios mínimos percibidos durante el tiempo trabajado." Art. 7: "Para los trabajadores contratados por unidad de tiempo, cuyo salario sea diario, semanal, quincenal o mensual, el pago del Décimo Cuarto Mes de Salario, se hará en base a treinta (30) días, calculándose para ellos el promedio de los salarios ordinarios devengados durante el tiempo trabajado." Art. 8: "Para los trabajadores que laboran por unidad de obra (pieza, tarea, precio alzado o destajo), el pago del Décimo Cuarto Mes de Salario en base a treinta (30) días, calculado sobre el promedio de los salarios percibidos durante el período de que se trata." (Art. 6 dañado por run-on de impresión — reconstrucción entre paréntesis en la evidencia; cita recortada con …) | Acuerdo 02-95 Arts. 6-8: monthly-rated — computed on the average of the ORDINARY salaries received during the time worked in the year in question; for small and medium industry, artisanries, and small-scale agriculture and livestock, payment is made on the average of the MINIMUM salaries (SMM) received during the time worked; time-unit workers (daily/weekly/biweekly/monthly pay) — 30-day base computing the average of ordinary salaries earned; piece workers (pieza, tarea, precio alzado o destajo) — 30 days computed on the average of salaries received over the period. | `hn/sources/102_Acuerdo_02-95_Regl_14to_mes.pdf` | 02/95-Arts. 6-8 (p.2) (EV82:EVID-239) |
 | LB-006 | Acuerdo 02-95, Arts. 9-10: Art. 9: "Si antes de cumplir el año, el trabajador renuncia o es despedido justificada o injustificadamente, el Décimo Cuarto Mes en concepto de compensación social, le será pagado proporcionalmente al tiempo trabajado." Art. 10: "Los anticipos que se hubieren dado al empleado o trabajador a cuenta del Décimo Cuarto Mes de Salario, serán deducibles al momento de hacer efectivo su pago." | Acuerdo 02-95 Arts. 9-10: if before completing the year the worker resigns or is dismissed with or without cause, the 14th Month is paid proportionally to time worked (no forfeiture); advances given on account of the 14th Month are deductible at the moment of payment. | `hn/sources/102_Acuerdo_02-95_Regl_14to_mes.pdf` | 02/95-Arts. 9 (p.2) y 10 (p.2) (EV82:EVID-239) |
 | LB-007 | Acuerdo 02-95, Arts. 11-15: Art. 11: "Las personas naturales o jurídicas que al momento de entrar en vigencia el Decreto Legislativo Número 135-94 ya estuvieren pagando el Décimo Cuarto Mes, bajo ésta o cualquier otra denominación, no están obligadas más que a ajustarlo a las presentes disposiciones…"; Art. 13: "Los patronos que infrinjan, tergiversen o disminuyan lo prescrito en este Reglamento, serán sancionados con una multa que oscilará entre Cien a Cinco Mil Lempiras (L.100.00 a L.5,000.00)… La certificación que emita la indicada Secretaría de Estado tendrá carácter de título ejecutivo."; Art. 14: "Son nulos ipso-jure los actos o estipulaciones que impliquen renuncia, infracción, tergiversación o disminución de los derechos y obligaciones emanados del presente Reglamento."; Art. 15: "El primer pago del Décimo Cuarto Mes de Salario en concepto de compensación social se hará en forma proporcional, del veintiocho de octubre de mil novecientos noventa y cuatro, fecha en que entró en vigencia el Decreto Legislativo Número 135-94, al treinta de junio de mil novecientos noventa y cinco, sin perjuicio de lo establecido en el Artículo 5." | Acuerdo 02-95 Arts. 11-15: persons already paying a 14th month under this or any other name at vigencia need only align it to the regulation (subject to Art. 3 better terms); infringing/tergiversating/diminishing employers are fined L100.00-L5,000.00 and the STSS certification is an executive title; acts implying waiver or diminution are null ipso jure; the FIRST payment was proportional, from 28-oct-1994 (D. 135-94 vigencia) to 30-jun-1995. | `hn/sources/102_Acuerdo_02-95_Regl_14to_mes.pdf` | 02/95-Arts. 11-15 (pp.2-3) (EV82:EVID-240) |
-| LB-008 | Ley del Salario Mínimo (D. 103), Art. 21-A (reformado por D. 43-97): "Se establece como un derecho a todos los empleados y trabajadores del sector público y privado que perciban hasta el equivalente de dos (2) salarios mínimos, el pago del BONO EDUCATIVO POR FAMILIA, el que hará efectivo una vez por año, después de la primera prueba trimestral de los educandos, como una compensación a los padres de los hijos en edad escolar, matriculados en los niveles de kínder, primaria y secundaria del país, consistirá en la cantidad de Quinientos Lempiras (L.500.00), incrementada en la misma proporción en que lo sea el salario mínimo y se pagará en la misma modalidad y condiciones en que se hace efectivo el Décimo Tercer Mes en concepto de Aguinaldo. En cuanto a la proporcionalidad para quienes no hubieren cumplido un (1) año de trabajar con el mismo patrono." + "El pago del bono no se computará como salario para el cálculo del pago de las prestaciones laborales ni para el pago del Décimo Tercer y Décimo Cuarto mes de salario." + "No se hará efectivo el pago del Bono, a los empleados y trabajadores que laboren en la pequeña y micro empresa, incluyendo las dedicadas a las actividades agropecuarias entendiéndose como tales aquellas en las que el número de trabajadores permanentes no exceda de quince (15)." | Minimum Wage Law (D. 103) Art. 21-A (reformed by D. 43-97, 28-abr-1997 per R-H43 — the print's "1977 [sic]" is a defect): all public- and private-sector employees earning up to the equivalent of 2 minimum wages have the right to the EDUCATION BONUS PER FAMILY, made effective once a year after the students' first trimestral exam, as compensation to parents of school-age children enrolled in kínder, primaria and secundaria; it consists of L500.00 (1997) increased in the same proportion as the minimum wage, and is paid in the same modality and conditions as the 13th Month (aguinaldo); proportionality applies to those with under 1 year with the same employer. The bonus is NOT computed as salary for severance (prestaciones) nor for the 13th/14th month; no bonus is payable to workers of small and micro enterprises, including agropecuary activities, i.e. those with no more than fifteen (15) permanent workers. | `hn/sources/104_Decreto_103_Ley_Salario_Minimo.pdf` | 103-Art. 21-A (pp.7-8); reforma D. 43-97 (R-H43) (EV82:EVID-218) |
+| LB-008 | Ley del Salario Mínimo (D. 103), Art. 21-A (reformado por D. 43-97): "Se establece como un derecho a todos los empleados y trabajadores del sector público y privado que perciban hasta el equivalente de dos (2) salarios mínimos, el pago del BONO EDUCATIVO POR FAMILIA, el que hará efectivo una vez por año, después de la primera prueba trimestral de los educandos, como una compensación a los padres de los hijos en edad escolar, matriculados en los niveles de kínder, primaria y secundaria del país, consistirá en la cantidad de Quinientos Lempiras (L.500.00), incrementada en la misma proporción en que lo sea el salario mínimo y se pagará en la misma modalidad y condiciones en que se hace efectivo el Décimo Tercer Mes en concepto de Aguinaldo. En cuanto a la proporcionalidad para quienes no hubieren cumplido un (1) año de trabajar con el mismo patrono." + "El pago del bono no se computará como salario para el cálculo del pago de las prestaciones laborales ni para el pago del Décimo Tercer y Décimo Cuarto mes de salario." + "No se hará efectivo el pago del Bono, a los empleados y trabajadores que laboren en la pequeña y micro empresa, incluyendo las dedicadas a las actividades agropecuarias entendiéndose como tales aquellas en las que el número de trabajadores permanentes no exceda de quince (15)." | Minimum Wage Law (D. 103) Art. 21-A (reformed by D. 43-97, 28-abr-1997 per R-H43 — the print's "1977 [sic]" is a defect): all public- and private-sector employees earning up to the equivalent of 2 minimum wages have the right to the EDUCATION BONUS PER FAMILY, made effective once a year after the students' first trimestral exam, as compensation to parents of school-age children enrolled in kínder, primaria and secundaria; it consists of L500.00 (1997) increased in the same proportion as the minimum wage, and is paid in the same modality and conditions as the 13th Month (aguinaldo); proportionality applies to those with under 1 year with the same employer. The bonus is NOT computed as salary for severance (prestaciones) nor for the 13th/14th month; no bonus is payable to workers of small and micro enterprises, including agropecuary activities, i.e. those with no more than fifteen (15) permanent workers. | `hn/sources/104_Decreto_103_Ley_Salario_Minimo.pdf` + `hn/sources/106_Gaceta_29320_D43-97_bono_educativo_Ac154-2000_reglamento_bono.pdf` | 103-Art. 21-A (pp.7-8); reforma D. 43-97 (R-H43); gazette original G 28,271 (EV82:EVID-218; EV106:EVID-375) |
 | LB-009 | Ley del Salario Mínimo, Art. 21-B: "Durante el año de 1997, el Bono Educativo podrá hacer efectivo hasta en tres (3) cuotas mensuales." | Minimum Wage Law Art. 21-B: during 1997 only, the Education Bonus could be made effective in up to three (3) monthly installments — a 1997-only transition rule. | `hn/sources/104_Decreto_103_Ley_Salario_Minimo.pdf` | 103-Art. 21-B (p.8) (EV82:EVID-218) |
 | LB-010 | DGS, "Tabla del Bono Educativo⅟ — Año 2026"; pie: "⅟En base a la Ley del Salario Mínimo y sus reformas, artículo 21-A del Decreto Número 43-97 de fecha 28 de abril de 1997, que establece el Bono Educativo." Bandas "De 16 a 20 / De 21 a 50 / De 51 a 150 / De 151 en adelante" × 11 ramas + "12 Empresas acogidas a la Ley de Zonas Libres — De 16 en adelante — 1,748.56" (matriz completa de 44 valores + fila ZL transcrita en §4; vigente Año 2026). | DGS (Dirección General de Salarios), "Education Bonus Table — Year 2026": amounts per rama × employer-size band (16-20 / 21-50 / 51-150 / 151 onward; the band floor 16 operationalizes the ≤15-workers exemption), plus a single zonas-libres row (L1,748.56); statutory basis footnote cites Art. 21-A of D. 43-97 dated 28-apr-1997 (the print supplying the correct year, R-H43). Full matrix transcribed in §4; amounts are present values of the L500-1997 × accumulated-SMM-increase formula — no per-cell derivation is published; values load as data. | `hn/sources/92_Tabla_Bono_Educativo_2026.pdf` | 92_ p.1 (EV82:EVID-229) |
-| LB-011 | Código del Trabajo (D. 189-1959, impresión CEDIJ) — NEGATIVO: greps sobre todo el corpus del CT con 0 resultados para "aguinald*", "décimo tercer", "décimo cuarto"; CT-Art. 376: "Durante la vigencia del contrato el trabajador tiene derecho a percibir el salario, aún cuando no haya prestación del servicio por disposición o culpa del patrono." (Arts. 376-380 = reglas de salario, NO de aguinaldo.) | Labor Code negative finding: the CT contains NO aguinaldo, NO 13th/14th month, NO INVI, NO "salario integral", NO acoso provisions (R-H60) — Arts. 376-380 are salary rules, not bonus rules. The 13th month exists only in special law (D. 135-94 + reglamento Acuerdo 201-96, UNACQUIRED — `86_ OQ-3`); the 14th month likewise (D. 135-94 Art. 34 / Acuerdo 02-95). Never invent CT articles for these benefits. | `hn/sources/86_Codigo_del_Trabajo_TSC.pdf` | greps corpus-wide; CT-Arts. 376-380 (p.109) (EV85:EVID-327) |
-| LB-012 | D. 117-2021 (interpretación auténtica del Art. 3 del D. 112-82, Ley del Séptimo Día y Décimo Tercer Mes en concepto de Aguinaldo), Art. 2: "cuando se hace referencia a que el pago del Séptimo Día y Décimo Tercer Mes en concepto de Aguinaldo, integran el concepto de salario para todos los efectos legales, es únicamente para efectos del cálculo y pago de prestaciones, derechos e indemnizaciones laborales, ésto quiero decir, que el Décimo Tercer Mes o Aguinaldo está exento del pago de todo impuesto, descuentos, cotizaciones y deducciones de cualquier naturaleza, salvo las relativas al cumplimiento de las obligaciones de prestar alimentos." ["ésto quiero decir" as printed] (vigencia = publication, 14-feb-2022) | Authentic interpretation (2022) of the 1982 aguinaldo law's salary clause: the séptimo día + 13th month integrate *salario* ONLY for computing labor benefits, rights and severances; the 13th month is exempt from EVERY tax, discount, social-security contribution and deduction of any nature EXCEPT alimony obligations. CONFLICT-flagged against Ley ISR Art. 10.h's 10-SMM-promedio cap (excess taxable — OQ-007, never resolved silently); partially fills the D. 112-82 gap of OQ-001 (interpretation-level only; D. 135-94 + Acuerdo 201-96 remain unacquired). | `hn/sources/89_Decreto_117-2021_interp_Art113_CT.pdf` | Art. 2 p.2 (EV89:EVID-335; vigencia EVID-336) |
+| LB-011 | Código del Trabajo (D. 189-1959, impresión CEDIJ) — NEGATIVO: greps sobre todo el corpus del CT con 0 resultados para "aguinald*", "décimo tercer", "décimo cuarto"; CT-Art. 376: "Durante la vigencia del contrato el trabajador tiene derecho a percibir el salario, aún cuando no haya prestación del servicio por disposición o culpa del patrono." (Arts. 376-380 = reglas de salario, NO de aguinaldo.) | Labor Code negative finding: the CT contains NO aguinaldo, NO 13th/14th month, NO INVI, NO "salario integral", NO acoso provisions (R-H60) — Arts. 376-380 are salary rules, not bonus rules. The 13th month lives in special law only — **D. 112-1982 (105_, W5 — R-H74)**; the 14th month likewise (D. 135-94 Art. 34 / Acuerdo 02-95). [W4d's gloss "D. 135-94 (Ley del Aguinaldo)" was a CONFLATION — D. 135-94 = the 14th-month origin law; corrected R-H74/R-H75.] Never invent CT articles for these benefits. | `hn/sources/86_Codigo_del_Trabajo_TSC.pdf` | greps corpus-wide; CT-Arts. 376-380 (p.109) (EV85:EVID-327) |
+| LB-012 | D. 117-2021 (interpretación auténtica del Art. 3 del D. 112-82, Ley del Séptimo Día y Décimo Tercer Mes en concepto de Aguinaldo), Art. 2: "cuando se hace referencia a que el pago del Séptimo Día y Décimo Tercer Mes en concepto de Aguinaldo, integran el concepto de salario para todos los efectos legales, es únicamente para efectos del cálculo y pago de prestaciones, derechos e indemnizaciones laborales, ésto quiero decir, que el Décimo Tercer Mes o Aguinaldo está exento del pago de todo impuesto, descuentos, cotizaciones y deducciones de cualquier naturaleza, salvo las relativas al cumplimiento de las obligaciones de prestar alimentos." ["ésto quiero decir" as printed] (vigencia = publication, 14-feb-2022) | Authentic interpretation (2022) of the 1982 aguinaldo law's salary clause: the séptimo día + 13th month integrate *salario* ONLY for computing labor benefits, rights and severances; the 13th month is exempt from EVERY tax, discount, social-security contribution and deduction of any nature EXCEPT alimony obligations. CONFLICT-flagged against Ley ISR Art. 10.h's 10-SMM-promedio cap (excess taxable — OQ-007, never resolved silently). [At V-HN1 this partially filled the D. 112-82 gap; the full text arrived as 105_ at W5 — the interp's dated rows now sit additively ON TOP of the 105_ originals (EVID-364).] | `hn/sources/89_Decreto_117-2021_interp_Art113_CT.pdf` | Art. 2 p.2 (EV89:EVID-335; vigencia EVID-336) |
+| LB-013 | D. 112-1982 (Ley del Séptimo Día y Décimo Tercer Mes en Concepto de Aguinaldo), Arts. 1/3/9 + Art. 19 + cadena de fechas: Art. 3: "El pago del Séptimo Día y Décimo Tercer Mes integra el concepto de salario para todos los efectos legales." Art. 9: "Los trabajadores permanentes y jubilados y pensionados tendrán derecho al pago del décimo tercer mes, en concepto de aguinaldo." Art. 19: "La presente Ley entrará en vigencia a partir de la fecha de su publicación en el Diario Oficial 'La Gaceta'." (Dado 28-oct-1982; G 23,848 01-nov-1982 per 89_ cite — pin secundario; fn.1: Art. 1 reformado por D. 179-97, G 28,441 17-dic-1997 — contenido de la reforma NO en corpus.) | D. 112-1982 identity + 13th-month entitlement: permanent workers AND jubilados/pensionados are entitled (Art. 9 = Art. 1 as reformed; the D. 179-97 reform's content is unknown — rows reversible, OQ-008); valid_from 1982-11-01 (secondary gazette pin); Art. 3 = the salary-character clause D. 117-2021 authentically interpreted (pre-2022 wording = unlimited "para todos los efectos legales" — see LB-012/Fr-087 for the 2022 restriction rows). | `hn/sources/105_Decreto_112_Ley_Septimo_Dia_13er_Mes_Aguinaldo.pdf` | 112-Arts. 1/3/9 (pp.1-2), Art. 19 + signatures (p.4), fn.1 (p.1) (EV105:EVID-362; EV105:EVID-363; EV105:EVID-364) |
+| LB-014 | D. 112-1982, Arts. 10-11: Art. 10: "Los trabajadores permanentes que al 31 de diciembre de cada año no hayan cumplido 12 meses de servicios continuos con un mismo patrono, tendrán derecho al pago proporcional del décimo tercer mes en concepto de aguinaldo, de conformidad al tiempo trabajado. Para los efectos de esta Ley también se consideran trabajadores permanentes aquéllos a que se refiere el Artículo 347 del Código del Trabajo, quienes también recibirán el pago proporcional." Art. 11: "El décimo tercer mes en concepto de aguinaldo se pagará en el mes de diciembre de cada año; sin embargo, las partes podrán pactar dicha entrega en diferente fecha." ["proporcionar [sic]" corrected to "proporcional" in evidence] | 13th-month gate + timing: at each 31-december, workers with under 12 continuous months with the SAME employer take the proportional payment per time worked; CT-Art.-347-class permanents (irregular-work continuity) always get the proportional payment; default payment month = DECEMBER, displaced per-contract by pacto — the exact mirror of the 14th month's June gate (FR-056/057/059). | `hn/sources/105_Decreto_112_Ley_Septimo_Dia_13er_Mes_Aguinaldo.pdf` | 112-Arts. 10-11 (pp.2-3) (EV105:EVID-368) |
+| LB-015 | D. 112-1982, Art. 12 + fn.4 (interp D. 178-86 + re-interp D. 2-87; footnotes printed in near-spaceless run-on type — quotes normalize spacing, glyph-damaged words bracketed [?] in the evidence): Art. 12: "El décimo tercer mes en concepto de aguinaldo, se pagará calculando con base en el promedio de los salarios ordinarios percibidos durante el tiempo trabajado en el año de que se trate. En la pequeña y mediana industria, artesanía, agricultura y ganadería en pequeña y mediana escala, se pagará con base en el promedio de los salarios mínimos percibidos durante el tiempo trabajado." fn.4: "…Para los trabajadores que laboran por unidad de obra (pieza, tarea, precio alzado o destajo) el promedio del salario se obtendrá: a) Dividiendo la suma de los salarios devengados en el año de que se trate entre el total de días efectivamente trabajados… b) En el caso de que no hubiere trabajado todo el año, se aplicarán los Artículos 10 y 13… se exceptuarán a aquellos trabajadores a quienes convencionalmente o por costumbre se les haya reconocido la calidad de permanentes… Reinterpretado el inciso b) por Decreto 2-87… Gaceta No. 25,155 del 18 de febrero de 1987…" | 13th-month BASE: average of ORDINARY salaries over the time worked in the year; SMM-average variant for pequeña y mediana industria/artesanía/agricultura/ganadería (identical shape to the 14th-month FR-060/061; SMM rows imported from file 01 month-by-month across the calendar window); obra/piece workers = sum of salaries earned in the year ÷ days effectively worked; partial-year obra workers take Arts. 10/13 EXCEPT convention/custom permanents (full literal-a average). D. 178-86 interp of Art. 12 = G 25,077 17-nov-1986; its inciso b) re-interpreted by D. 2-87 (G 25,155 18-feb-1987; the print's given-date "30 de febrero de 1987" is impossible — OQ-009). | `hn/sources/105_Decreto_112_Ley_Septimo_Dia_13er_Mes_Aguinaldo.pdf` | 112-Art. 12 + fn.4 (p.3) (EV105:EVID-369; EV105:EVID-370) |
+| LB-016 | D. 112-1982, fn.3 (interp D. 178-86, G 25,077 17-nov-1986, sobre Arts. 9-10): "a) Todo Trabajador permanente tendrá derecho al 100 por ciento (100%) de pago de su aguinaldo si cumple el año de trabajo continuo o la proporción del mismo, si al 31 de diciembre no cumple 12 meses de servicios continuos con el mismo patrono. Es entendido que si mediante contratación colectiva los trabajadores hubieren logrado un porcentaje mayor del que establece la Ley, las empresas deberán cumplir lo pactado, pagando conforme lo negociado en el Contrato Colectivo; b) Para los trabajadores que laboran por unidad de tiempo, (semana, día u hora), cuyo salario sea semanal, quincenal o mensual, el décimo tercer mes en concepto de aguinaldo se hará en base a treinta (30) días. Tomándose como base el salario ordinario, entendiéndose como tal, el que se devenga en una jornada normal de trabajo…" | 100%-or-proportion rule (statutory interpretation with the same 31-dic same-employer gate); CBII better-percentage FLOOR (pay as negotiated where the collective contract achieved more); 30-day normalization for time-unit workers on ORDINARY salary = "el que se devenga en una jornada normal de trabajo" — identical to the 14th-month FR-062. | `hn/sources/105_Decreto_112_Ley_Septimo_Dia_13er_Mes_Aguinaldo.pdf` | 112-fn.3 (p.2) (EV105:EVID-370) |
+| LB-017 | D. 112-1982, Arts. 13-17: Art. 13: "El décimo tercer mes en concepto de aguinaldo, en casos de renuncia despido injustificado o justificado, será pagado proporcionalmente al tiempo que el trabajador haya laborado. Si se le hubiera dado un porcentaje anticipado se tomará en cuenta al momento del pago proporcional." Art. 16: "Los patronos que infrinjan, tergiversen o disminuyan el contenido de la presente Ley, serán sancionados con una multa que oscilará entre Cien Lempiras (L 100.00) a Cinco Mil Lempiras (L 5,000.00), tomando en consideración la capacidad económica de la empresa y la gravedad de la infracción…" | Exit proration for EVERY exit class (resignation, justified AND unjustified dismissal — no forfeiture); advances netted at the proportional settlement; closure metadata (STSS vigilance Art. 14; nullity of diminishing acts Art. 15; multa L100–L5,000 in 1982 nominals with no in-corpus adjustment — dated rows + never-guess; Art. 17 vivienda destination option). | `hn/sources/105_Decreto_112_Ley_Septimo_Dia_13er_Mes_Aguinaldo.pdf` | 112-Arts. 13-17 (pp.3-4) (EV105:EVID-371; EV105:EVID-372) |
+| LB-018 | Reglamento STSS-154-2000 (Reglamento para el Pago del Bono Educativo; 5-oct-2000, gazette 6-nov-2000, vigencia = publicación): Art. 8: "Los empleados o trabajadores que laboren todo el año, comprendido del 01 de enero al 31 de diciembre con un mismo empleador, percibirán el CIEN POR CIENTO (100%) del Bono Educativo, y aquéllos que no laboren el año completo percibirán esta prestación en forma proporcional al tiempo trabajado." Art. 9: "Cuando un empleado o trabajador deje de laborar por cualquier causa con un empleador, sin haber percibido el pago del Bono Educativo por motivo de no haberse practicado la primera prueba bimestral o trimestral a los educandos, éste tendrá derecho a reclamarle con posterioridad su pago proporcional…" Art. 11 (ingreso posterior a la primera prueba): "…tendrá derecho a que se le pague el Bono Educativo en forma proporcional al tiempo que falte para concluir el año…" Art. 12: "Para computar el monto de los Salarios Mínimos… no se tomarán en cuenta las remuneraciones en concepto de horas extras trabajadas, primas, bonificaciones o gratificaciones." Art. 14 (ambos padres en el mismo centro de trabajo): "…se cumplirá la obligación otorgándole el pago de dicho bono [a] la madre si estuviere conviviendo, caso contrario… se le otorgará el Bono a quien tuviere los hijos…" Art. 15: "…más de una familia a su cargo, sólo tendrá derecho al [pago de un] Bono Educativo." Art. 16 (padres fallecidos → familiar/otra persona que labora, probando orfandad y manutención). [Restauraciones entre corchetes desde OCR;] | Bono reglamento mechanics (OQ-004 resolved): calendar-year 100% gate (01-01→31-12 same employer) with time-proportional fallback; post-exit claim right when the worker leaves before the first prueba; mid-year entrants AFTER the first prueba prorate FORWARD to year-end; the 2×SMM eligibility gate EXCLUDES OT, primas, bonificaciones and gratificaciones from the measured salary; family allocation (cohabiting → the mother; separated → whoever has the children; new-family right for the non-receiving parent; ONE bono per worker with multiple families; orphan-guardian right). | `hn/sources/106_Gaceta_29320_D43-97_bono_educativo_Ac154-2000_reglamento_bono.pdf` | 154/00-Arts. 8-12, 14-16 (pp.3-4); Arts. 3/5-7 (p.3); Arts. 17-21 (p.4) (EV106:EVID-376; EV106:EVID-377; EV106:EVID-378; EV106:EVID-379) |
+| LB-019 | D. 43-97 (G 28,271, 29-may-1997; dado 28-abr-1997, vigencia = publicación), Art. 2 ( Arts. 21-A/21-B, original de gaceta): "…el pago del Bono Educativo por familia, el que se hará efectivo una vez por año, después de la primera prueba trimestral de los educandos… consistirá en la cantidad de QUINIENTOS LEMPIRAS (LPS. 500.00), incrementada en la misma proporción en que lo sea el salario mínimo y se pagará en la misma modalidad y condiciones en que se hace efectivo el Décimo Tercer Mes en concepto de Aguinaldo, en cuanto a la proporcionalidad para quienes no hubieren cumplido un año de trabajo con el mismo patrono…" + Reglamento Art. 3: "…sin considerar el número de hijos que se tengan estudiando."; Art. 5: "La cantidad de Quinientos Lempiras (Lps. 500.00)… se incrementa desde esa fecha [28-abr-1997], automáticamente, en la misma proporción en que se incrementa el salario mínimo de la respectiva actividad económica."; Art. 10 (pago en la fecha del sueldo o inmediato posterior a la primera prueba bimestral o trimestral, acreditado con documento del centro educativo). | Bono statutory ORIGINAL (gazette): the 21-A text as printed in G 28,271 ≡ the 104_ compilation print (R-H43 double-pinned; LB-008's source upgraded 104_ → 106_ with 104_ co-cite); the modality loan from the aguinaldo is scoped to PROPORTIONALITY ("en cuanto a la proporcionalidad…") — not the December timing; reglamento: one payment per family regardless of the number of children; L500-1997 auto-index from 28-abr-1997 (mechanism metadata only — amounts still load exclusively from the DGS tables per FR-076); payment timing = the payroll on/immediately after the first bimestral-or-trimestral prueba, school-documented. | `hn/sources/106_Gaceta_29320_D43-97_bono_educativo_Ac154-2000_reglamento_bono.pdf` | 43-97-Art. 2 (pp.1-2); 154/00-Arts. 3/5/10 (pp.3-4); fechas EVID-373 (EV106:EVID-375; EV106:EVID-376; EV106:EVID-377) |
 
 ## 3. Functional Requirements
 
-### 3.1 P2 — 13th month (*aguinaldo*): statutory placeholder contract — CONFIG-GAPPED, BLOCKED
+### 3.1 P2 — 13th month (*aguinaldo*): statutory engine (D. 112-1982, `105_`)
 
-The P2 sub-cluster is BLOCKED on `EV85:86_ OQ-3` (TOP acquisition lead): the
-aguinaldo's own instruments — D. 135-94 (Ley del Aguinaldo) and its reglamento
-Acuerdo 201-96 — are unacquired (this lead subsumes D. 112, whose acquisition
-routes are exhausted). **V-HN1 partial fill:** D. 117-2021 Art. 2 (`89_`,
-EVID-335) now supplies INTERPRETATION-level content of D. 112-82 Art. 3 —
-salary character (prestaciones-only) + the aguinaldo's tax/cotización
-immunity — encoded as FR-087 with the OQ-007 conflict flag; the entitlement/
-pro-rata/base/deadline parameters remain blocked. The FRs below implement
-ONLY what the corpus evidences; every entitlement, pro-rata, base, deadline
-and termination-payout parameter is
-unresolved blocked configuration (pattern per e-invoicing/04 §3.8 SEE FRs).
+**W5 UNBLOCK (R-H74):** the aguinaldo's statutory home was acquired as `105_`
+(D. 112-1982 + its in-print interpretation chain D. 178-86 / D. 2-87 /
+D. 36-90 + reform note D. 179-97). The former OQ-001 blocker is RESOLVED; the
+W4d "D. 135-94 (Ley del Aguinaldo) + Acuerdo 201-96" framing was a CONFLATION
+(D. 135-94 = the 14th-month origin law; the "Acuerdo 201-96" attribution was
+unsourced — R-H75). Residual caveats carried as OQ-008/OQ-009: the D. 179-97
+reform's content is unknown (Art. 1 rows reversible) and the gazette pin is
+secondary (via 89_'s citation). FR-051/087 stand; FR-052..054 are REWRITTEN
+from their config-gap form to the evidenced rules; FR-088..093 added from the
+reserved range.
 
 - **HN-PAYR-FR-051:** The system shall enforce the CT content-negative guard
   (R-H60): no aguinaldo/13th-month rule may be sourced from, or cited to, any
   Código del Trabajo article — the CT contains none, and CT Arts. 376-380 are
   salario rules — so the aguinaldo configuration surface shall expose NO
   CT-article source field for these benefits. (LB-011; EV85:EVID-327; R-H60)
-- **HN-PAYR-FR-052:** The system shall implement the aguinaldo entitlement
-  surface as a CONFIG-GAPPED placeholder with five visibly blocked parameter
-  slots — entitlement basis, pro-rata rule, computation base, payment
-  deadline (December or otherwise) and termination payout — gated on
-  acquiring D. 135-94 + Acuerdo 201-96; while blocked, no aguinaldo amount is
-  computed, defaulted or guessed on any payslip (D-H2 never-guess rule), and
-  the blocked state cites the missing instruments.
-  (LB-011; EV85:EVID-327; EV85:86_ OQ-3)
-- **HN-PAYR-FR-053:** The system shall model the *modalidad del aguinaldo*
-  (aguinaldo modality) as ONE shared, config-gapped linkage parameter
-  evidenced by the statutes that reference it: the 14th month is payable "en
-  la misma modalidad y condiciones con que se hace efectivo el Décimo Tercer
-  Mes en Concepto de Aguinaldo" (embedded D. 135-94 Art. 34 quote) and the
-  bono educativo "se pagará en la misma modalidad y condiciones en que se
-  hace efectivo el Décimo Tercer Mes en concepto de Aguinaldo" (Art. 21-A) —
-  the aguinaldo is presumed to mirror the 14th-month modality, but that
-  presumption shall NEVER be hardcoded: the parameter stays blocked until the
-  aguinaldo instruments are acquired (OQ-001).
-  (LB-001; LB-008; EV82:EVID-238; EV82:EVID-218)
-- **HN-PAYR-FR-054:** The system shall hold the aguinaldo payment timing as
-  a blocked parameter recording that ONLY the ISR side is evidenced in this
-  corpus — the plantilla settles the 13th-month excess in December
-  (taxation/04 HN-TAX-FR-127 + the December settlement of HN-TAX-FR-133,
-  consumed by id) — while the labor-law payment month/deadline is NOT in the
-  corpus and shall never be assumed to be "December" as law.
-  (LB-001; EV82:EVID-238)
+- **HN-PAYR-FR-052:** The system shall model the aguinaldo entitlement per
+  D. 112-1982 (valid_from 1982-11-01, secondary-pinned — R-H74): permanent
+  workers (including the CT-Art.-347 irregular-work continuity class, who
+  always receive the proportional payment) AND — as a flagged pension-side
+  edge class, no employer-contract context (OQ-010) — jubilados y pensionados;
+  the D. 179-97 reform of Art. 1 is recorded as an open reversibility caveat
+  on the beneficiary-class rows (OQ-008).
+  (LB-013; LB-014; EV105:EVID-362; EV105:EVID-363; EV105:EVID-368)
+- **HN-PAYR-FR-053:** The system shall implement the shared *modalidad del
+  aguinaldo* parameter as ACTIVE with its borrowed-scope pinned from the
+  gazette originals: the 14th month borrows the WHOLE modality ("en la misma
+  modalidad y condiciones…"), while the bono educativo borrows it ONLY "en
+  cuanto a la proporcionalidad para quienes no hubieren cumplido un año de
+  trabajo" — the linkage surface is ONE parameter consumed by files 02 (P3/P4)
+  with scope flags, never re-hardcoded per consumer.
+  (LB-001; LB-008; LB-019; EV82:EVID-238; EV82:EVID-218; EV106:EVID-375)
+- **HN-PAYR-FR-054:** The system shall default aguinaldo payment to the month
+  of DECEMBER of each year (Art. 11), with an optional per-contract agreed
+  payment date (*pacto en diferente fecha*) recorded as dated configuration
+  displacing the December default for that contract only — mirroring FR-059;
+  the ISR-side December settlement (taxation/04) is the tax feed, never the
+  labor-law source. (LB-014; EV105:EVID-368)
 - **HN-PAYR-FR-055:** The system shall expose the aguinaldo payment amount
   as a feed to the ISR plantilla engines of taxation/04 (annual gross
   HN-TAX-FR-126; 13th-month excess-only cap HN-TAX-FR-127) strictly by id
-  consumption — this file supplies the amount (once FR-052 unblocks), never
-  the cap, the promedio, or any plantilla mechanics.
-  (LB-001; EV82:EVID-238)
+  consumption — this file supplies the amount, never the cap, the promedio,
+  or any plantilla mechanics. (LB-013; EV105:EVID-364; EV82:EVID-238)
 - **HN-PAYR-FR-087:** (added V-HN1 validation wave from the reserved
   087-100 range) The system shall encode the D. 117-2021 authentic
   interpretation of D. 112-82 Art. 3 as TWO dated interpretive rows
@@ -147,6 +159,56 @@ unresolved blocked configuration (pattern per e-invoicing/04 §3.8 SEE FRs).
   taxation/02 + the plantilla caps of taxation/04 stand by id, conflict
   flag OQ-007), and the IHSS/RAP base leans ride their own files' OQs
   (payroll/03, payroll/05). (LB-012; EV89:EVID-335/336)
+- **HN-PAYR-FR-088:** The system shall compute the aguinaldo base per
+  Art. 12: the average of ORDINARY salaries (*salarios ordinarios*) received
+  during the time worked in the calendar year of payment (ordinary-salary
+  filter over the D-H3(b) monthly aggregates; non-ordinary items never enter
+  the average), with the SMM-AVERAGE variant for *pequeña y mediana
+  industria, artesanía, agricultura y ganadería en pequeña y mediana escala*
+  — sourced exclusively as the imported dated SMM rows of file
+  `01_smm-chassis.md` resolved month-by-month across the calendar window,
+  never re-derived, never actual wages (shape-identical to FR-060/061).
+  (LB-015; EV105:EVID-369)
+- **HN-PAYR-FR-089:** The system shall normalize worker classes per the
+  D. 178-86 interpretation block: time-unit workers (paid weekly, daily or
+  hourly; weekly/quincenal/mensual salary) on a thirty (30)-day base over
+  the ordinary-salary average ("el que se devenga en una jornada normal de
+  trabajo"); obra/piece workers (*unidad de obra — pieza, tarea, precio
+  alzado o destajo*) on the ÷-days formula (sum of salaries earned in the
+  year ÷ days effectively worked), where partial-year obra workers take the
+  Art. 10/13 proration EXCEPT convention/custom-recognized permanents, who
+  receive the full literal-a average (their inciso-b) treatment itself
+  re-interpreted by D. 2-87 — carried as an instrument-lineage row, content
+  not in corpus, OQ-009). (LB-015; LB-016; EV105:EVID-369; EV105:EVID-370)
+- **HN-PAYR-FR-090:** The system shall evaluate the 100%-vs-proportional
+  gate at each 31-december: 100% when the worker has completed the
+  continuous year of work with the same employer by that date, otherwise the
+  proportion per time worked (Art. 10 + D. 178-86 a); and shall apply the
+  CBII better-percentage floor — where collective contracting achieved a
+  greater percentage, the negotiated percentage is paid (statutory
+  computation = floor, never ceiling; same shape as FR-066).
+  (LB-014; LB-016; EV105:EVID-368; EV105:EVID-370)
+- **HN-PAYR-FR-091:** The system shall pay the aguinaldo PROPORTIONALLY to
+  time worked on EVERY exit class — renuncia, despido justificado, despido
+  injustificado (no exit class forfeits the accrued proportion) — and net
+  any advances (*porcentaje anticipado*) against the exit settlement,
+  recording gross, anticipos and net (shared ledger shape with FR-064/065).
+  (LB-017; EV105:EVID-371)
+- **HN-PAYR-FR-092:** The system shall record as informational legal-notes
+  metadata (no sanction engine): STSS vigilance (Art. 14); ipso-nullity of
+  diminishing acts/stipulations (Art. 15); the multa L100.00–L5,000.00 in
+  1982-dated nominals with the adjustment-gap flag (never recomputed,
+  never silently revalued — `105_ OQ-4`); and the Art. 17 fondo-social-de-
+  la-vivienda destination option. (LB-017; EV105:EVID-372)
+- **HN-PAYR-FR-093:** The system shall carry the aguinaldo instrument chain
+  as dated provenance rows (additive-only, reversible): D. 112-1982
+  (valid_from 1982-11-01, secondary gazette pin via 89_; séptimo-día
+  transitory no-liability window 1982-11-01→1983-01-09 per Art. 18);
+  D. 178-86 (G 25,077, 17-nov-1986); D. 2-87 (G 25,155, 18-feb-1987 —
+  impossible printed given-date, OQ-009); D. 36-90 (G 26,131, 11-may-1990 —
+  séptimo-día side, consumed by file 06); D. 179-97 (G 28,441, 17-dic-1997 —
+  content unknown, OQ-008); D. 117-2021 (14-feb-2022, FR-087).
+  (LB-013; EV105:EVID-362; EV105:EVID-365; EV105:EVID-370)
 
 ### 3.2 P3 — 14th month (*décimo cuarto mes*): full mechanics (Acuerdo 02-95)
 
@@ -334,6 +396,44 @@ unresolved blocked configuration (pattern per e-invoicing/04 §3.8 SEE FRs).
   Libres — De 16 en adelante"; 2026: L1,748.56) mirroring the row-12 family
   of the SMM tables (file 01), inside the same bono row model.
   (LB-010; EV82:EVID-229)
+- **HN-PAYR-FR-094:** (W5, from the reserved range — Reglamento
+  STSS-154-2000) The system shall evaluate the bono 100%-vs-proportional
+  gate per the reglamento's CALENDAR-YEAR rule (its own instrument governs
+  its gate — never the aguinaldo's 12-continuous-months formulation
+  silently harmonized, OQ-011): 100% when the worker labors the whole year
+  01-january→31-december with the same employer, else proportional to time
+  worked; a worker who exits BEFORE the first prueba without receiving the
+  bono retains a POST-EXIT CLAIM for the proportional amount against that
+  employer; a worker entering AFTER the first prueba takes the proportional
+  amount over the REMAINING year (forward proration), payable in the first
+  payroll after that period on presentation of the school constancia.
+  (LB-018; EV106:EVID-377)
+- **HN-PAYR-FR-095:** (W5) The system shall compute the ≤2×SMM eligibility
+  gate over a salary measure that EXCLUDES horas extras, primas,
+  bonificaciones and gratificaciones (reglamento Art. 12 — a narrowing of
+  FR-073's gate base, resolved with the same dated SMM rows), and shall
+  implement the family-allocation matrix: both parents at the same
+  obligated employer and cohabiting → the MOTHER is paid; separated →
+  whoever has the children; a separated non-receiving parent forming a new
+  family with studying children earns a bono at their own employer; ONE
+  bono per worker even with multiple families at charge (per-worker
+  singularity); deceased parents → the maintaining relative/person employed
+  by an obligated employer, proving orphanhood and maintenance.
+  (LB-018; EV106:EVID-378)
+- **HN-PAYR-FR-096:** (W5) The system shall time bono payment to the
+  payroll paid on or immediately after the first bimestral-or-trimestral
+  prueba (the reglamento's widened trigger vs 21-A's "trimestral" — the
+  procedural instrument governs), gated on the education-center document;
+  and shall record as legal-notes metadata: the L500.00 base's
+  auto-indexation from 28-abr-1997 per the respective activity's SMM
+  increases (mechanism metadata only — amounts ALWAYS from the DGS rows,
+  FR-076); the pre-existing-plan alignment duty with the CBII
+  higher-amounts floor (reglamento Art. 13); Inspección General de Trabajo
+  vigilance with the CT-625 multa reference (literal print-conflicted +
+  prescription span damaged — informational only, never encoded,
+  `106_ OQ-2`); nullity of waivers; and the reglamento provenance rows
+  (valid_from 2000-11-06).
+  (LB-018; LB-019; EV106:EVID-376; EV106:EVID-377; EV106:EVID-379)
 
 ## 4. Data Model
 
@@ -342,12 +442,15 @@ inline below (a future sidecar may be seeded from the DGS prints); all SMM /
 promedio values are IMPORTED read-only from file
 `01_smm-chassis.md` (HN-PAYR-FR-001..040).
 
-**Aguinaldo placeholder (blocked):**
+**Aguinaldo engine (W5 unblock — D. 112-1982):**
 
 | Entity | Field | Type | Catalog / values | Reference |
 |--------|-------|------|------------------|-----------|
-| l10n_hn.payroll.aguinaldo.config (new, BLOCKED) | state, entitlement_basis, prorata_rule, base_formula, payment_deadline, termination_payout, modality_parameter | char (empty-blocked) | state: blocked · active; all parameter slots empty while D. 135-94 + Acuerdo 201-96 unacquired (OQ-001); modality_parameter SHARED with the 14th month and bono (FR-053/077) | FR-051..FR-055 |
-| hr.salary.rule (aguinaldo lines) | l10n_hn_config_gap_flag | boolean | renders visibly blocked; never a computed/guessed amount | FR-052 |
+| l10n_hn.payroll.aguinaldo.config (new, ACTIVE since 1982-11-01) | state, beneficiary_class, gate (31-dic 12m same-employer), payment_month (default december), pacto_date, base_variant (ordinary_average · smm_average), cbii_floor_flag, instrument_chain | char/select/date/boolean | beneficiary_class: permanent (+CT-347 class always proportional) · jubilado_pensionado (pension-side flag, OQ-010); base_variant class = pequeña y mediana industria · artesanía · agricultura y ganadería; chain rows: D.112-82 → D.178-86 → D.2-87 → D.36-90 → D.179-97(content OQ-008) → D.117-2021 | FR-052..FR-054, FR-088..FR-090, FR-093 |
+| l10n_hn.payroll.aguinaldo.settlement (new) | employee, contract, year, gate_outcome (full · proportional), time_worked_factor, base (ordinary avg / 30-day / ÷-days obra), gross_amount, anticipos, net_amount, snapshot | m2o/int/select/monetary | December (or pacto) settlement trace; snapshot resolved SMM vintages/rows on write (D15) | FR-088..FR-091 |
+| hr.payslip (termination run) | aguinaldo_exit_proportional line | monetary | proportional payout on any exit class + anticipo netting | FR-091 |
+| hr.salary.rule (aguinaldo lines) | integrates_salario (prestaciones-only per FR-087), allowed_deductions = alimony-only (while OQ-007 open) | boolean | FR-087 consumption tags | FR-087 |
+| l10n_hn.legal.note (metadata) | multa L100.00-L5,000 (1982 nominals, adjustment-gap) · STSS vigilance · nullity · vivienda option | char | informational only | FR-092 |
 
 **14th-month engine:**
 
@@ -370,7 +473,9 @@ promedio values are IMPORTED read-only from file
 | res.company | permanent_workers_count, bono_exempt (≤15) | integer/boolean | resolved as of the bono period (dated) | FR-079 |
 | hr.salary.rule (bono line) | is_salary = false; isr_non_taxable_flag = true | boolean | excluded from prestaciones + 13th/14th bases; ISR exclusion via taxation/04 FR-130 consumption | FR-080, FR-081 |
 | l10n_hn.payroll.window (dated config) | Art. 21-B row valid 1997-01-01→1997-12-31 (≤3 cuotas) | date rows | historical transition, never selectable post-1997 | FR-082 |
-| l10n_hn.legal.note (metadata) | D. 43-97 28-abr-1997, G 28,271 29-may-1997 (R-H43) | char | provenance on bono config | FR-083 |
+| l10n_hn.payroll.bono.gate (new, W5) | calendar_year_gate (01-01→31-12 same employer), exit_claim_pending, midyear_entry_mode (forward proration), gate_salary_exclusions (OT · primas · bonificaciones · gratificaciones), family_allocation (cohabiting_mother · separated_custody · new_family · orphan_guardian), per_worker_cap | boolean/char/select | reglamento STSS-154-2000 mechanics; gate measure excludes the Art.-12 list | FR-094, FR-095 |
+| l10n_hn.payroll.bono.claim (new, W5) | employee, employer, exit_date, proportional_amount, status (pending · paid) | m2o/date/monetary/select | post-exit claim ledger (exit before the first prueba) | FR-094 |
+| l10n_hn.legal.note (metadata) | D. 43-97 28-abr-1997, G 28,271 29-may-1997 (R-H43) + Reglamento STSS-154-2000, gazette 6-nov-2000 (valid_from 2000-11-06) | char | provenance on bono config | FR-083, FR-096 |
 
 **Bono educativo 2026 matrix (DGS print, EVID-229; valid 2026-01-01→2026-12-31):**
 
@@ -399,7 +504,8 @@ version-specific behavior arises beyond the dated-legal-parameter notes below.
 
 | FR | Layer | Odoo model | Field(s) | Notes / version differences |
 |----|-------|------------|----------|------------------------------|
-| FR-051..FR-055 | odoo | l10n_hn.payroll.aguinaldo.config (new) + hr.salary.rule block | blocked slots + shared modality param | Config-gap pattern per e-invoicing/04 FR-166..169; D15/D16: regime arrives as dated config rows on acquisition (never in-place edits); D12: re-check acquisition lead quarterly (OQ-001); CT-source field absent by design (R-H60) |
+| FR-051..FR-055 | odoo | l10n_hn.payroll.aguinaldo.config (new, ACTIVE W5) + hr.salary.rule | entitlement/gate/December+pacto + ISR feed | W5 unblock (R-H74): D. 112-1982 dated rows from 1982-11-01; D15/D16: chain instruments arrive as additive dated rows; CT-source field absent by design (R-H60); residual caveats OQ-008/OQ-009 |
+| FR-088..FR-093 | odoo | l10n_hn.payroll.aguinaldo.settlement + hr.salary.rule + SMM import (file 01) + l10n_hn.legal.note | averages/30-day/÷-days bases, gate+CBII floor, exit+anticipo, chain provenance | D15: gate resolved at the December payslip period, snapshot on write; SMM vintages resolve month-by-month across the calendar window (FR-088 variant); corrections recompute with original-period rows; D12: D. 179-97 + D. 2-87 content leads (OQ-008/OQ-009) |
 | FR-056..FR-059 | odoo | hr.contract + hr.payslip (June run) | entitlement-year, payment-month/pacto | D15: gate resolved at the June payslip period, snapshot on write; D18: mid-year go-live ingests straddle-window monthly aggregates for the open entitlement year (jul→jun straddles calendar FYs), no payslip-level import (D-H3) |
 | FR-060..FR-063, FR-072 | odoo | l10n_hn.payroll.14m.settlement + hr.salary.rule + SMM import (file 01) | averages, 30-day base, snapshots | D15/D16: SMM vintages resolve month-by-month across the window (jul→jun straddle); corrections recompute with original-period rows; filed periods write-protected; paid slips frozen |
 | FR-064, FR-065 | odoo | hr.payslip termination run + l10n_hn.payroll.14m.anticipo | exit pro-rata, advance netting | Termination-date anchor (not "today") for the proration factor |
@@ -410,7 +516,8 @@ version-specific behavior arises beyond the dated-legal-parameter notes below.
 | FR-071 | odoo | hr.payslip | isr_14m_feed | amount only; caps/plantilla = taxation/04 HN-TAX-FR-126/128 by id; excess-only, no cliff |
 | FR-073, FR-074, FR-078 | odoo | hr.employee + educando registry + hr.salary.rule (bono) | ≤2×SMM gate (SMM import), per-family timing | D15: gate value dated (rides SMM vintages of file 01); re-resolves on new bienio rows |
 | FR-075, FR-076, FR-084, FR-086 | odoo | l10n_hn.bono.educativo.amount | dated rama×band rows, ZL row | D12: annual DGS-print cycle (2026 seeded inline §4); missing year = blocked flag (OQ-004); never L500×index derivation |
-| FR-077 | odoo | shared modality parameter (FR-053 surface) | blocked linkage | bono's own mechanics unblocked; only modality-derived conditions blocked |
+| FR-077 | odoo | shared modality parameter (FR-053 surface) | scope-pinned linkage (W5) | bono borrows the aguinaldo modality ONLY for proportionality (LB-019 scope note); aguinaldo side now ACTIVE per D. 112 |
+| FR-094..FR-096 | odoo | l10n_hn.payroll.bono.gate + l10n_hn.payroll.bono.claim + l10n_hn.legal.note | calendar-year gate, exit claims, family allocation, timing | W5 (Reglamento STSS-154-2000): gate measure excludes OT/primas/bonificaciones/gratificaciones; CT-625 literal + prescription span left unencoded (106_ OQ-2) |
 | FR-079 | odoo | res.company | permanent headcount + exemption flag | dated resolution as of the bono period; 16-20 band floor echo |
 | FR-080, FR-081 | odoo | hr.salary.rule tagging | is_salary = false; isr_non_taxable_flag | sibling-base exclusion + taxation/04 FR-130 consumption by id |
 | FR-082, FR-083 | odoo | l10n_hn.payroll.window + l10n_hn.legal.note | 1997-only row; R-H43 provenance | historical row never selectable post-1997 |
@@ -427,15 +534,14 @@ through standard payroll journals.
 
 ## 6. Acceptance Criteria
 
-- **AC-001:** Given a December 2026 payroll run with the aguinaldo config
-  surface empty (D. 135-94 + Acuerdo 201-96 unacquired), then aguinaldo lines
-  are visibly blocked citing the missing instruments — no amount computed,
-  defaulted or guessed — and the aguinaldo rule's source dropdown offers no
-  CT article (FR-051, FR-052).
-- **AC-002:** Given the shared modality parameter in blocked state, then the
-  June 14th-month settlement computes normally on its own statutory base
-  while the aguinaldo/bono modality-linkage fields render blocked (FR-053,
-  FR-077).
+- **AC-001:** Given a December 2026 payroll run with the aguinaldo engine
+  active (D. 112-1982 rows since 1982-11-01), then aguinaldo lines compute on
+  the evidenced rules — and the aguinaldo rule's source dropdown offers no
+  CT article (FR-051, FR-052; W5 rewrite of the former blocked-state AC).
+- **AC-002:** Given the shared modality parameter ACTIVE with scope flags,
+  then the June 14th-month settlement borrows the FULL aguinaldo modality
+  while the bono borrows proportionality only — never the December timing
+  (FR-053, FR-077; W5 rewrite of the former blocked-state AC).
 - **AC-003:** Given a worker hired 01-jul-2024, then at the 30-jun-2025 gate
   the continuous year is complete and the 2024-2025 settlement pays 100%;
   given a worker hired 01-oct-2024, then at 30-jun-2025 the factor is 9/12 =
@@ -490,15 +596,39 @@ through standard payroll journals.
   then the correction recomputes with the original 2024-2025 entitlement-year
   rows and original SMM vintages, and the filed June period stays
   write-protected (adjustment lines only) (FR-072).
+- **AC-018:** Given an aguinaldo settlement for a worker hired 01-mar-2026
+  (10 months at 31-dic-2026) with 30-day-base ordinary average L600.00/day,
+  then the December 2026 payment = 10/12 × 30 × 600.00 = L15,000.00; given a
+  worker with the full continuous year, then 100% = 30 × 600.00 = L18,000.00,
+  raised to the CBII percentage where the collective pact grants more
+  (FR-089, FR-090).
+- **AC-019:** Given an obra worker who earned L72,000.00 over 240 days
+  effectively worked in 2026, then the aguinaldo base = 72,000.00 ÷ 240 =
+  L300.00/day → 30-day settlement L9,000.00 (FR-089).
+- **AC-020:** Given a worker who exits 15-sep-2026 before the first prueba
+  with 8.5 months worked, then a pending post-exit bono claim for the
+  proportional amount (8.5/12 × the DGS row) registers against the employer;
+  given a worker hired 01-aug-2026 (after the first prueba), then the bono
+  prorates FORWARD over Sep-Dec (4/12), never over the elapsed year
+  (FR-094).
+- **AC-021:** Given a worker earning L13,500.00 monthly ordinary salary plus
+  L2,000.00 OT and a L1,000.00 bonificación, then the bono ≤2×SMM gate
+  measures L13,500.00 ONLY (exclusions applied); given both parents working
+  at the same obligated employer and cohabiting, then the MOTHER's payroll
+  carries the bono line (FR-095).
 
 ## 7. Open Questions
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
-| OQ-001 | `EV85:86_ OQ-3` — aguinaldo instruments UNACQUIRED: D. 135-94 (Ley del Aguinaldo) + reglamento Acuerdo 201-96 (TOP acquisition lead; subsumes D. 112, routes exhausted). Entitlement/pro-rata/base/December-deadline/termination-payout cannot be LB'd; FR-051..055 are config-gapped placeholders on the corpus's modality-linkage + ISR-interface evidence only. | yes (P2 sub-cluster only) | acquisition queue / controller | open |
+| OQ-001 | `EV85:86_ OQ-3` → **RESOLVED at W5 via R-H74/R-H75**: the aguinaldo's statutory home = **D. 112-1982, acquired as `105_`** (entitlement/gate/base/December/exit all LB'd — FR-052/054/088..091). The former framing ("D. 135-94 (Ley del Aguinaldo) + reglamento Acuerdo 201-96") was a CONFLATION: D. 135-94 = the 14th-month origin law (Cap. IX Art. 34); "Acuerdo 201-96" was an unsourced attribution — the REAL interpretation chain is D. 178-86/D. 2-87/D. 36-90 + reform D. 179-97 (105_ footnotes). Residuals carried as OQ-008/OQ-009. | was yes (P2) — RESOLVED | controller (W5) | resolved |
 | OQ-002 | `EV82:102_ OQ-2` — two conflicting D. 54-95 citations inside 102_'s footnotes (Art. 34 footnote: 25-abr-1995, G 27,655 18-may-1995; Art. 1 footnote: 28-mar-1995, G 28,639 28-abr-1995 — gazette numbering must increase with date, so at least one is corrupt). The 30-jun rule is double-pinned (footnote + Art. 2 body) so the FRs stand; acquire D. 54-95 to pin the interpretation instrument. | no | acquisition queue | open |
 | OQ-003 | `EV82:102_ OQ-3` — 102_ is a scanned compilation extract (pp. 247-249) with word run-ons; reconstructions bracketed/[?] in the evidence. Re-OCR at 400dpi/PSM 6 if verbatim-critical quoting is needed before freezing LB-005 text. | no | extraction queue | open |
-| OQ-004 | `EV82:92_ OQ-1` — suspected bono reglamento ("Acuerdo 154-2000" family) appears in NO corpus document — unverified lead; acquire before asserting any bono procedural rule beyond Art. 21-A's own text. Also: no 2027 bono table in corpus (expected with the 2027 SMM cycle) — FR-084 blocks. | no | acquisition queue | open |
+| OQ-004 | `EV82:92_ OQ-1` → **RESOLVED at W5**: the bono reglamento = **Acuerdo STSS-154-2000, IN CORPUS as the second extract of `106_`** (gazette 6-nov-2000) — read end-to-end, mechanics encoded FR-094..096. Residual (kept open, non-blocking): no 2027 bono table in corpus (expected with the 2027 SMM cycle) — FR-084 still blocks that year's runs. | no | controller (W5) | resolved (2027-table residual open) |
 | OQ-005 | `EV82:92_ OQ-2` — eligibility parameters live in Art. 21-A, NOT in the DGS table (amounts only); the 16-20 band floor is the table-side echo of the ≤15 exemption (16 = first non-excluded count) — consistent but unstated; encoded as the FR-085 source guard. | no | Takumi S-HN4 | open (encoded) |
 | OQ-006 | `EV82:102_ OQ-1` → RESOLVED at synthesis via R-H44: the considerando's "12 de Octubre de 1991 [sic]" is a print error; D. 135-94 = 1994, vigencia 28-oct-1994 (per Art. 15; the 8-month first period is coherent only for 1994). Encoded in FR-070. No further action. | no | — | resolved |
-| OQ-007 | `EV89:89_ OQ-1` (V-HN1) — CONFLICT, never resolve silently: D. 117-2021 Art. 2 ("el Décimo Tercer Mes o Aguinaldo está exento del pago de todo impuesto...") vs Ley ISR Art. 10.h (13th month exempt only up to 10 SMM promedio, excess taxable — `01_` EVID-006; plantilla `11_` implements the caps). Later-in-time authentic interpretation of a DIFFERENT statute (D. 112-82, 1982) against the ISR's express cap regime. Current encoded rows STAND (FR-087(b) ships the immunity as a conflict-flagged interpretive row; the ISR-side caps of taxation/02/04 are untouched); resolution requires the D. 135-94/D. 112-82 acquisition + a hierarchy ruling, then a dated-row flip, never code. Related leans: IHSS base composition (payroll/03 OQ, statutory lean = 13th month OUT of cotización base), RAP/fondo "salario ordinario" base (payroll/05 OQ-1 lean), CT Art. 95.12-13/60-A mandatory union/coop deductions vs "deducciones de cualquier naturaleza, salvo... alimentos" (`EV89:89_ OQ-3`, payroll/10 flag). | no (ISR rows stand; immunity row conflict-flagged) | acquisition queue + controller ruling | open |
+| OQ-007 | `EV89:89_ OQ-1` (V-HN1) — CONFLICT, never resolve silently: D. 117-2021 Art. 2 ("el Décimo Tercer Mes o Aguinaldo está exento del pago de todo impuesto...") vs Ley ISR Art. 10.h (13th month exempt only up to 10 SMM promedio, excess taxable — `01_` EVID-006; plantilla `11_` implements the caps). Later-in-time authentic interpretation of a DIFFERENT statute (D. 112-82, 1982 — NOW IN CORPUS as 105_, W5) against the ISR's express cap regime. Current encoded rows STAND (FR-087(b) ships the immunity as a conflict-flagged interpretive row; the ISR-side caps of taxation/02/04 are untouched); resolution requires a hierarchy ruling, then a dated-row flip, never code. Related leans: IHSS base composition (payroll/03 OQ, statutory lean = 13th month OUT of cotización base), RAP/fondo "salario ordinario" base (payroll/05 OQ-1 lean), CT Art. 95.12-13/60-A mandatory union/coop deductions vs "deducciones de cualquier naturaleza, salvo... alimentos" (`EV89:89_ OQ-3`, payroll/10 flag). | no (ISR rows stand; immunity row conflict-flagged) | controller ruling | open |
+| OQ-008 | `EV105:105_ OQ-1` (W5) — D. 179-97 reform content unknown: fn.1 records Art. 1 "Reformado por Decreto 179-97" (16-oct-1997, G 28,441 17-dic-1997) with no reform text; whether the printed Art. 1 is the reformed text and what changed (candidates: the jubilados/pensionados extension; the chapter-placement swap) is unverifiable. Beneficiary-class rows stay reversible; ACQUISITION LEAD (full gazette pin known). | no (rows reversible) | acquisition queue | open |
+| OQ-009 | `EV105:105_ OQ-2/OQ-3` (W5) — (a) the G 23,848/01-nov-1982 gazette pin is SECONDARY (89_'s citation; 105_ is a compilation extract with no gazette print); (b) D. 2-87's printed given-date "30 de febrero de 1987" is impossible (gazette G 25,155 = 18-feb-1987 constrains it) and the re-interpretation's CONTENT is not in corpus. Both harden on acquiring the originals; neither blocks computation. | no | acquisition queue | open |
+| OQ-010 | `EV105:105_ OQ-5` (W5) — jubilados/pensionados 13th-month entitlement (Arts. 1/9): no payer-side mechanism in the print (pension system vs prior patrono); kept as a flagged pension-side edge class, no employer-side FR. | no | controller (parked) | open (parked) |
+| OQ-011 | `EV106:106_ OQ-3` (W5) — bono gate formulation divergence: reglamento Art. 8 = CALENDAR year (01-01→31-12 same employer) vs the aguinaldo's 12-continuous-months-at-31-dic gate (D. 112 Art. 10) that Art. 21-A's modality loan references — coincident for full-year workers, different proration anchors for partial years. Encoded as the bono's own calendar-year rule (FR-094); flag stands so nobody "harmonizes" them silently. Also carried: reglamento Art. 18's CT-625 literal print conflict + Art. 19's damaged prescription span (`106_ OQ-2` — never encoded). | no | controller (encoded) | open (encoded) |
