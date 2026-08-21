@@ -331,6 +331,27 @@ expected and absorbed by instantiating the canon, never by forking it.
       fast-forward-merged; remote ref updated via delete + re-push.
       No requirements changes; SV state unchanged per
       `sv/HANDOVER.md` §8 (no queued wave — owner picks).
+      **GT S-GT3 merge 2026-08-20 (§4.6 protocol, seventeenth run):**
+      `gt-research` rebased onto `7bf2e86` (14 commits rewritten
+      `da0f374..57c6be0`: plan + T1..T11 + close + final-review fixes;
+      zero conflicts) then fast-forward-merged; remote branch ref updated
+      via force-with-lease re-push. **GT = S-GT3 PAYROLL SYNTHESIS
+      COMPLETE** — third requirements wave: 10 files + 00_index +
+      salario_minimo.csv 82 rows (GT-PAY-FR-001..236; 159 LBs / 151 ACs /
+      29 OQ rows consuming GOQ-70..91 + GOQ-04/09/10/11 + kin
+      58/61/99/121; master-index write-back 26 GOQ annotations; all 10
+      task reviews Approved first-pass + final whole-wave MERGE-READY +
+      fix-wave re-review PASS). Discipline shipped: IGSS rates ALL
+      external (GOQ-04 — 12.67/4.83 rejected priors only); 2026
+      salario-mínimo six cells [sic]-faithful words-govern (GOQ-77/78) +
+      2022-2025 ABSENT rows never interpolated (GOQ-11); December
+      aguinaldo = ABSENCE-FR (GOQ-09); no cesantía/doubling/employer
+      -preaviso/holiday-2×/IRTRA-brackets (R33/R37/R38/R32); ISR consumed
+      by exact FR id via payroll/09 (31 external ids verified).
+      Trust-evidence rule caught FOUR controller-brief errors (art. 103
+      ¶2; precio-de-costo; 50%-of-indemnización; INTECAP ladder dates).
+      Next per `gt/HANDOVER.md` §5j/§9: S-GT4 fiscal-reporting plan
+      (F1-F6 + GOQ-92..121; consumes taxation + payroll FR ids).
       **SV S9 merge 2026-08-20 (§4.6 protocol, fourteenth run):**
       `sv-research` rebased onto `f2eccbc` (19 commits rewritten:
       `6d01c1e`→`8fe51cc` S8 merge-record fix + `558ed94`→`f67658f`
