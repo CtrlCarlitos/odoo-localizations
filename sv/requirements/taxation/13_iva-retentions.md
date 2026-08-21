@@ -113,8 +113,13 @@ print with stamps (1)/(3)/(5)/(9) as reproduced below — re-verify at
 implementation. **SOQ-54 vintage note (rides every 01_/02_ LB in this
 file):** the Ley/Reglamento consolidations end at D.L. 71-2015 and
 D.E. 117-2001 — post-2015/post-2001 reforms unverified; corpus-internal
-signals negative; re-verify at implementation. **V1 citation rule:**
-every LB row below cites 05_ (or 01_/02_) with the EVID id and the txt
+signals negative; re-verify at implementation. **75_ vintage watch (rides
+every 75_ LB row below):** the D.E. 117-2001 print carries NO REFORMAS block
+and post-2001 repeal by CT Art. 344 ff is print-unresolvable (EV75 OQ-1/OQ-8,
+SOQ-06-kin) — cited as printed; authority order per the wave constraint: CT
+(05_) governs substance, 75_ Arts. 104-106 develop procedure (LB-016..019
+cite 75_ primary for procedure with CT 161/162 co-cites). **V1 citation rule:**
+every LB row below cites 05_ (or 01_/02_/75_) with the EVID id and the txt
 line/PAGE anchor of `05_Codigo_Tributario.pdf.txt` /
 `01_Ley_IVA.pdf.txt` (verified this task); both vintage watches ride all
 of them. D15 (binding): retention values and floors snapshot at the
@@ -139,6 +144,10 @@ original-period parameters; CT article text is implemented AS PRINTED
 | LB-013 | Código Tributario, Art. 162-B incisos 3° y 4° | Inciso 3°: "EN EL CASO QUE EL PAGO SEA MEDIANTE LA ADJUDICACIÓN O REMATE DE ALGÚN BIEN MUEBLE, INMUEBLE O DERECHO, LA TRANSFERENCIA O CESIÓN NO SE FORMALIZARÁ MIENTRAS EL BENEFICIARIO NO PAGUE A LA ADMINISTRACIÓN TRIBUTARIA LO QUE CORRESPONDE EN CONCEPTO DE IMPUESTO A LA TRANSFERENCIA DE BIENES MUEBLES Y A LA PRESTACIÓN DE SERVICIOS, EN LOS PORCENTAJES SEÑALADOS EN LOS INCISOS ANTERIORES EN ATENCIÓN A SU CALIDAD." Inciso 4°: "SÓLO EN AQUELLOS CASOS EN QUE EL ACREEDOR Y EL DEUDOR LLEGAREN A UN ACUERDO EXTRAJUDICIAL, EL JUEZ CUMPLIRÁ CON SU OBLIGACIÓN INFORMANDO A LA ADMINISTRACIÓN TRIBUTARIA SOBRE LAS GENERALES DE AMBOS, EL MONTO OBJETO DEL LITIGIO, Y EN SU CASO LOS EXTREMOS DE DICHO ACUERDO; LO ANTERIOR DEBERÁ SER INFORMADO DENTRO DE LOS QUINCE DÍAS POSTERIORES DEL ACUERDO REFERIDO. EL INFORME SE PRESENTARÁ MEDIANTE FORMULARIOS, CON LOS REQUISITOS Y ESPECIFICACIONES QUE DISPONGA LA ADMINISTRACIÓN TRIBUTARIA. (9)" | `sv/sources/05_Codigo_Tributario.pdf` | Art. 162-B 3°-4° pp.93-94 (EVID-062; verified 05_ txt lines 4002-4019) |
 | LB-014 | Ley IVA (D.L. 296-1992, texto consolidado), Art. 94 | "LA DECLARACIÓN JURADA INCLUIRÁ EL PAGO Y DEBERÁ SER PRESENTADA EN LA DIRECCIÓN GENERAL DE IMPUESTOS INTERNOS, EN LA DIRECCIÓN GENERAL DE TESORERÍA, EN LOS BANCOS Y OTRAS INSTITUCIONES FINANCIERAS AUTORIZADAS POR EL MINISTERIO DE HACIENDA, EN CUALQUIERA DE LAS OFICINAS QUE ESTAS INSTITUCIONES TENGAN EN EL PAÍS, DENTRO DE LOS DIEZ PRIMEROS DÍAS HÁBILES DEL MES SIGUIENTE AL PERIODO TRIBUTARIO CORRESPONDIENTE. EN ESTE MISMO LAPSO DEBEN INGRESARSE LOS IMPUESTOS RETENIDOS O PERCIBIDOS POR LOS AGENTES DE RETENCIÓN O DE PERCEPCIÓN." … "EL IMPUESTO SOBRE IMPORTACIONES E INTERNACIONES DE SERVICIOS SE LIQUIDARÁ ANTE LA DIRECCIÓN GENERAL DE IMPUESTOS INTERNOS Y SE PAGARÁ ANTE LA DIRECCIÓN GENERAL DE TESORERÍA. LA COMPETENCIA PARA LIQUIDAR DE OFICIO EL IMPUESTO SOBRE LA IMPORTACIÓN E INTERNACIÓN DE SERVICIOS NO LIQUIDADO CORRESPONDERÁ A LA DIRECCIÓN GENERAL DE IMPUESTOS INTERNOS. (8)" | `sv/sources/01_Ley_IVA.pdf` | Art. 94 p.43 (EVID-056; verified 01_ txt lines 1583-1602, PAGE 43) |
 | LB-015 | Ley IVA, Art. 65 incisos finales + Reglamento IVA (D.E. 83-1992 consolidado), Art. 23 — **POINTER** | Art. 65: CT-162-retained IVA is crédito for the AGENT "EN EL MISMO PERÍODO QUE CORRESPONDA A LA FECHA DE EMISIÓN DEL COMPROBANTE DE RETENCIÓN (CT 112)" and CT-161 anticipo retentions are crédito "AMPARADOS POR EL MANDAMIENTO DE INGRESO" — both "SIEMPRE Y CUANDO SE DECLARE Y ENTERE ÍNTEGRAMENTE EN EL MISMO PERÍODO" (the post-entero credit route's Ley root). Rgto. Art. 23: agent-retained amounts are crédito "EN EL MISMO PERÍODO TRIBUTARIO, SIEMPRE QUE SE HAYAN INGRESADO ÍNTEGRAMENTE AL FISCO" (CT-162 side); CT-161-kin amounts via "MANDAMIENTO DE INGRESO Y EL RECIBO" (stale Ley-34 anchor re-anchored to CT 161) — credit-release machinery owned by `10_iva-credit-deductibility.md` (SV-TAX-FR-256/257); consumed here by pointer, never restated | `sv/sources/01_Ley_IVA.pdf` + `sv/sources/02_Reglamento_IVA.pdf` | Ley Art. 65 pp.30-32 (EVID-322; 01_ txt PAGE 30-32); Rgto. Art. 23 (EVID-336; Rgto. PAGE 6-7) |
+| LB-016 | Reglamento de Aplicación del Código Tributario (D.E. N° 117-2001), Art. 104 (CT 161 co-cite) | Non-domiciled reverse charge: when the transferor/provider "no tiene domicilio ni residencia en el país", the liability "recae exclusivamente, en el adquirente de los bienes o en el beneficiario de los servicios, quien está obligado a retener el impuesto. El retenedor tiene el carácter de tal, por ministerio de ley y la retención debe efectuarla cualquiera que sea el monto de los servicios prestados o precio pagado por los bienes adquiridos, aun cuando no sea contribuyente del mismo"; entero "dentro del plazo señalado en el artículo 94 de la Ley de Impuesto a la Transferencia de Bienes Muebles y a la Prestación de Servicios, para lo cual deberá solicitar previamente a la Administración Tributaria el mandamiento de ingreso correspondiente, adjuntando una nómina de las personas a quienes hubiere efectuado retenciones, el monto de cada una y el monto total retenido en el período tributario. La Administración Tributaria emitirá de inmediato el mandamiento de ingreso respectivo" | `sv/sources/75_Reglamento_Codigo_Tributario_DE117.pdf` | Art. 104 p.63 (EVID-352; verified 75_ txt lines 3268-3287) |
+| LB-017 | Reglamento CT, Art. 105 (CT 161 co-cite) | "El arrendamiento de bienes muebles corporales, ingresados al país bajo el régimen de importación temporal con reexportación en el mismo estado hecho generador del IVA, por lo que sobre los cánones pagados en concepto de servicio de alquiler se deberá calcular el IVA el cual será retenido y enterado por el sujeto pasivo que recio [sic] el servicio, todo en virtud de lo que establece el artículo 161 del Código Tributario" — the [sic] print artifact "recio" preserved (quote-fidelity rule) | `sv/sources/75_Reglamento_Codigo_Tributario_DE117.pdf` | Art. 105 p.64 (EVID-352; verified 75_ txt lines 3297-3304) |
+| LB-018 | Reglamento CT, Art. 106 (CT 162 co-cite) | Domestic agent designation: the AT "podrá designar como responsables, en carácter de agentes de retención, a quienes sean adquirentes habituales de bienes muebles corporales o sean prestatarios o beneficiarios de servicios, en operaciones que realicen con proveedores contribuyentes del impuesto", taking into account any of: "a) Facilitar el control y garantizar el entero o pago del impuesto; b) El giro o actividad; y, c) En general, cualquiera otra circunstancia que, a juicio de la Administración, deba considerarse necesaria para garantizar el interés fiscal" | `sv/sources/75_Reglamento_Codigo_Tributario_DE117.pdf` | Art. 106 p.64 (EVID-352; verified 75_ txt lines 3307-3326) |
+| LB-019 | Reglamento CT, Art. 107 | Percepción-agent price reporting: "Los productores, fabricantes, importadores, industriales o comerciantes que sean designados como agentes de percepción, deberán informar a la Administración Tributaria, el precio de venta al público de sus productos y cada vez que ocurran variaciones a los mismos, con ocho días hábiles de anticipación a la entrada en vigencia de los correspondientes precios", minimum fields a)-f) (name/denominación; NIT; NRC; product description incl. "precio de venta por unidad sugerida al público"; vigencia start date; name, signature and seal of the contributor/representative/apoderado), presented per CT Art. 34 | `sv/sources/75_Reglamento_Codigo_Tributario_DE117.pdf` | Art. 107 pp.64-65 (EVID-352; verified 75_ txt lines 3328-3360) |
 
 Dead text and separation notes — never implementable as merged rows
 (per wave constraints): the ISR retention matrix (CT Arts. 154-160 —
@@ -155,7 +164,7 @@ perception-side sibling OUTSIDE this file's scoped range (161/162/162-A/
 not implemented by this file's FRs. The reform stamps printed on the CT
 rows — (1)/(3)/(5)/(9) — are consolidation provenance, not behavior.
 Both vintage watches (CT Índice Legislativo edition; SOQ-54) ride every
-row above.
+CT/Ley row above; the 75_ vintage watch rides LB-016..019 (§2 preamble).
 
 ## 3. Functional Requirements
 
@@ -182,8 +191,45 @@ row above.
   enter same period, mandamiento-referenced). The operation's
   import/tax-point classification consumes the framework file's surfaces
   (SV-TAX-FR-187/188/189, by id).
-  (LB-001; LB-014; LB-015 pointer; EVID-062/056/322; TAX 07-file
+  The regime is DEVELOPED by 75_ Reglamento CT Art. 104 (LB-016): the
+  acquirer's retainer character arises POR MINISTERIO DE LEY and "la
+  retención debe efectuarla cualquiera que sea el monto de los servicios
+  prestados o precio pagado por los bienes adquiridos, aun cuando no sea
+  contribuyente del mismo" — ANY amount, ANY acquirer (even
+  non-contribuyentes retain) — corroborating and strengthening this FR's
+  CT-161 anchor; the entero mechanics (prior mandamiento request + nómina
+  annex) are SV-TAX-FR-401 below.
+  (LB-001; LB-014; LB-015 pointer; LB-016; EVID-062/056/322/352; TAX 07-file
   SV-TAX-FR-187/188/189; TAX 10-file SV-TAX-FR-257)
+- **SV-TAX-FR-401:** The system shall implement the non-domiciled
+  reverse-charge ENTERO mechanics (75_ Reglamento CT Art. 104 developing
+  CT 161): the retained IVA enters "dentro del plazo señalado en el
+  artículo 94 de la Ley" (LB-014's ten first días hábiles of the
+  following month), for which the agent shall PREVIOUSLY request the
+  *mandamiento de ingreso* from the Administración Tributaria, annexing
+  a NÓMINA of the persons upon whom retentions were effected, the
+  amount of each and the total retained in the período tributario
+  ("adjuntando una nómina de las personas a quienes hubiere efectuado
+  retenciones, el monto de cada una y el monto total retenido en el
+  período tributario"); the AT "emitirá de inmediato el mandamiento de
+  ingreso respectivo" — the system models the request state
+  (pending_request → issued, with the mandamiento reference on the
+  FR-303 record) and generates the nómina annex (retained person,
+  per-person retention, period total) as the deliverable attached to
+  the request; the any-amount and non-contribuyente-acquirer scope is
+  FR-303's (LB-016). (LB-016; LB-014; EVID-352/056)
+- **SV-TAX-FR-402:** The system shall implement the import-temporal-lease
+  retention: the *arrendamiento de bienes muebles corporales* entered
+  under the *importación temporal con reexportación en el mismo estado*
+  regime is a hecho generador of IVA — on the cánones paid as lease
+  service considerations, the IVA "será retenido y enterado por el
+  sujeto pasivo que recio [sic] el servicio" (the SERVICE RECEIVER
+  self-withholds and enters; 75_ Reglamento CT Art. 105 developing CT
+  161, the [sic] print artifact preserved) — modeled as a
+  partner/lease flag routing the cánones lines through the CT-161
+  self-liquidation track of SV-TAX-FR-303 (mandamiento entero per
+  FR-401; credit release via SV-TAX-FR-257, by id).
+  (LB-017; EVID-352; TAX 10-file SV-TAX-FR-257 by id)
 
 ### 3.2 CT Art. 162 — the grandes/medianos retention matrix
 
@@ -231,6 +277,34 @@ row above.
   designation LIST itself is administered practice absent from the
   corpus — a configuration surface with NO invented entries (OQ-3).
   (LB-004; EVID-062)
+- **SV-TAX-FR-403:** The system shall record the AT's DESIGNATION
+  CRITERIA for domestic retention agents (75_ Reglamento CT Art. 106
+  developing CT 162): the AT may designate "a quienes sean adquirentes
+  habituales de bienes muebles corporales o sean prestatarios o
+  beneficiarios de servicios", in operations with contributing
+  suppliers, taking into account any of the circumstances: a)
+  "Facilitar el control y garantizar el entero o pago del impuesto";
+  b) "El giro o actividad"; c) any other circumstance that in the AT's
+  judgment must be considered necessary "para garantizar el interés
+  fiscal" — carried as DATED config rows on the designation record of
+  SV-TAX-FR-306 (which pairs the AT agent registry of
+  `16_ct-procedures.md` SV-TAX-FR-364, by id); no designation list is
+  invented (OQ-3 stands). (LB-018; EVID-352; TAX 16-file SV-TAX-FR-364
+  by id)
+- **SV-TAX-FR-404:** The system shall record (awareness-level; layer:
+  shared — a documentation/deliverable spec, the 2001 print-era duty
+  whose modern surface differs) the percepción-agent price-reporting
+  duty: productores, fabricantes, importadores, industriales o
+  comerciantes designated as agents of perception must inform the AT of
+  the "precio de venta al público" of their products and every
+  variation, "con ocho días hábiles de anticipación a la entrada en
+  vigencia de los correspondientes precios", with the minimum fields
+  a)-f) (name/denominación; NIT; NRC; product description incl.
+  "precio de venta por unidad sugerida al público"; vigencia start
+  date; name, signature and seal — presented per CT Art. 34) —
+  surfaced as a price-list variation report concept attached to
+  designation onboarding, never as an operative emission gate.
+  (LB-019; EVID-352)
 - **SV-TAX-FR-307:** The system shall implement the uniones rule: every
   persona natural o jurídica, sucesión or fideicomiso ostenting the
   quality of GRAN CONTRIBUYENTE that acquires goods or receives
@@ -467,6 +541,15 @@ matrix + the retention/perception event ledger below.
 | account.move (judgment/prize, SV extension) | l10n_sv_judgment_interest_retention, l10n_sv_formality_block | monetary / boolean | 162-B: 13% over liquidated interests (exempt-interest gate); adjudicación/remate blocked until AT payment; extrajudicial-inform event ref | FR-316 |
 | account.move.line (purchase, SV extension) | l10n_sv_excluido_purchase_13pct_applies | boolean | FR-313 applicability flag consumed by Anexo 5 H (FREP 03-file by id) | FR-313 |
 
+**75_ fold-in (Arts. 104-107 — LB-016..019):**
+
+| Entity | Field | Type | Catalog / values | Reference |
+|--------|-------|------|------------------|-----------|
+| l10n_sv.iva.retention.nomina (new) | period, partner_id, retained_amount, period_total | date / m2o / monetary / monetary (computed) | non-domiciled entero nómina annex: per-person retention rows + period total attached to the mandamiento request (75_ Art. 104) | FR-401 |
+| account.move (SV extension) | l10n_sv_mandamiento_request_state | select | pending_request · issued — the AT issues the mandamiento de inmediato; the PRIOR request precedes the Art. 94 entero lap | FR-401 |
+| res.partner / contract (SV extension) | l10n_sv_import_temporal_lease | boolean | importación temporal con reexportación en el mismo estado lease: IVA on cánones self-withheld by the service receiver (75_ Art. 105; [sic] "recio") | FR-402 |
+| res.partner (SV extension) | l10n_sv_designation_criterion, l10n_sv_designation_basis | select / char | criteria a)-c) as DATED config rows on the FR-306 designation record: facilitate_control · giro_activity · interest_fiscal_other (+ free-text basis) | FR-403 |
+
 ## 5. Odoo Mapping
 
 Layer semantics for this wave: `odoo` = classification/timing/subject
@@ -502,6 +585,10 @@ implemented AS PRINTED (post-2017 watch, §2).
 | FR-317 | odoo | account.move | entero_state → credit gate | Declare+entero-same-period release gates consumed by id (TAX 10-file SV-TAX-FR-256/257; LB-015 pointer) — this file supplies the ledger facts, never restates the gate |
 | FR-318 | odoo | reporting views | annex/F-930 feeds | F-07 Anexos 9-12 (SV-FREP-FR-104..108) + F-930 (SV-FREP-FR-111..114) + credit-side annexes (FR-086/089/091, FR-100/101/102/110) — all by id, no re-derivation |
 | FR-319 | odoo | tax-line separation guard | IVA ≠ ISR lines | CT 154-160 matrix stays taxation/04 (SV-TAX-FR-121..131, by id); simultaneous retentions book as separate lines; LSI pair stays special-regimes (SV-SPE-FR-097/098) |
+| FR-401 | odoo | l10n_sv.iva.retention.nomina + account.move | mandamiento request state + nómina annex | 75_ Art. 104: entero within Art. 94's first-10-hábiles lap; PRIOR mandamiento request with per-person nómina (person, amount, period total); AT issues de inmediato; any-amount/non-contribuyente scope per FR-303 |
+| FR-402 | odoo | res.partner + l10n_sv.iva.retention.rule | import-temporal lease flag | 75_ Art. 105 developing CT 161: IVA on cánones self-withheld by the service receiver; routes FR-303's self-liquidation track; [sic] "recio" preserved as printed |
+| FR-403 | odoo | res.partner | designation criteria rows | 75_ Art. 106 criteria a)-c) as dated config on the FR-306 designation record; pairs 16-file SV-TAX-FR-364 (by id); no invented list (OQ-3 stands) |
+| FR-404 | shared | — (awareness) | price-list variation report concept | 75_ Art. 107: 8 días hábiles advance inform of precio-de-venta variations with fields a)-f); 2001 print-era duty, modern surface differs — documentation/deliverable spec, no operative emission gate |
 
 Version-regime notes (D12/D15): FR-304/308/314 carry the D15 snapshot
 doctrine — retention values and floors resolve as-of the payment/
@@ -586,6 +673,25 @@ rows (LB-014/015).
   its limits and skips operations outside them; given no designation
   loaded, then only the statutory grandes/medianos/CT-161 agents fire
   (FR-306).
+- **AC-015:** Given March retentions on a non-domiciled provider,
+  then the entero models as pending-request until the mandamiento
+  issues, with the nómina annex listing each retained person, the
+  per-person amount and the period total, due within the ten first
+  días hábiles of April (FR-401).
+- **AC-016:** Given $1,000.00 monthly cánones under an importación
+  temporal con reexportación en el mismo estado equipment lease, when
+  the lease payment posts, then the SERVICE RECEIVER computes and
+  self-withholds the IVA on the cánón, routing through the CT-161
+  self-liquidation track (mandamiento entero) (FR-402).
+- **AC-017:** Given an AT designation act designating a habitual
+  acquirer of goods as retention agent invoking criterion (a)
+  facilitate control, when the designation loads, then the dated
+  criterion row records on the agent's designation record (FR-403).
+- **AC-018:** Given a designated percepción agent varying a product's
+  public sale price effective 1-August, then the awareness surface
+  flags the inform due eight días hábiles before 1-August with the
+  a)-f) fields — and no operative emission gate blocks any document
+  (FR-404).
 
 ## 7. Open Questions
 

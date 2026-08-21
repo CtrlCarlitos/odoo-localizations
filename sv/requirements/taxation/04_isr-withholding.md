@@ -6,7 +6,7 @@
 | Topic   | taxation |
 | Status  | draft |
 | Authors | Takumi synthesis wave 2 (S2 ISR) |
-| Updated | 2026-08-18 |
+| Updated | 2026-08-20 |
 
 ## 1. Purpose
 
@@ -69,7 +69,12 @@ all [sic] digits verified against the gazette original**) > 10_ (D.E.
 75/25-1992, historical dated data only — R19).
 Reglamento: 04_ = D.E. 101-1992 as consolidated with reforms D.E. 8-1993 /
 39-1993 / **117-2001** (self-documented repeal map — R17); only survivor
-articles are cited. CT matrix: 05_ (EVID-062/063). Every Ley article below
+articles are cited. CT matrix: 05_ (EVID-062/063). **75_ Reglamento del
+Código Tributario (D.E. 117-2001) rows (LB-022..026) develop the retention
+mechanics** (Arts. 94-97, 99, 103; EVID-351; CT 154-158 co-cites per row).
+**75_ vintage watch (rides every 75_ LB row):** the print carries NO REFORMAS
+block and post-2001 repeal by CT Art. 344 ff is print-unresolvable (EV75
+OQ-1/OQ-8, SOQ-06-kin) — cited as printed. Every Ley article below
 was re-verified in the 54_ consolidation text during this task (54_-verify
 rule; page anchors are 54_ pagination from the extraction txt `=== PAGE n
 ===` markers).
@@ -97,6 +102,11 @@ rule; page anchors are 54_ pagination from the extraction txt `=== PAGE n
 | LB-019 | Código Tributario, Arts. 159, 160, 145 | Financial institutions: retentions on deposit rents (interest, prizes, utilities) = DEFINITIVE payment (Art. 159 — mechanic cross-referenced by `03_isr-rates-gains.md` FR-091, which owns the small-depositor carve-out); raffles and prizes organized by natural or juridical persons → retention per the article (Art. 160); retention constancia (Art. 145): the prior employer issues the certificate within 15 días hábiles of the worker's retirement, as cross-cited by 53_ Art. 1 f)/h) for employer changes and recálculo intake | `sv/sources/05_Codigo_Tributario.pdf` | Arts. 159-160, 145 pp.83-90 zone (EVID-063; EVID-158/160) |
 | LB-020 | Tablas de Retención ISR, D.E. 75-1991 + D.E. 25-1992 — **HISTORICAL** | 1992 colones-era retention tables (literals a)-c) substituted by D.E. 25-1992, D.O. 34 T.314 20-II-1992, effective 1-III-1992; dual ¢/$ print at fixed 8.75 parity; monthly/quincenal/semanal, FIVE rows each with two 10% rows and anomalous row-3 offsets); base gross-vs-net unstated; subjects = domiciled natural persons with permanent-service remunerations; ≤ ¢50,000/yr salaried: tax = sum of retentions; repealed D.E. 36-1989; later repealed by the D.E. 95-2015 chain (derogation date unpinned — OQ-005). HISTORICAL LB per R19: dated data only, never applied to current periods; USD rows transcribed in `isr_brackets.csv` as vintage de_25_1992 | `sv/sources/10_Tablas_Retencion_ISR.pdf` | tables a)-c) pp.1-2; Arts. 1-4 + REFORMAS pp.1-3 (EVID-148..152) |
 | LB-021 | Ley ISR (consolidada), tail "DISPOSICIONES RELACIONADAS" | Aguinaldo transitories overriding the standing 2-SMM rule by year: D.L. 877-2014, 177-2015, 540-2016, 831-2017, 160-2018 (2014-2018: aguinaldo retention fully exempted for the year); D.L. 229-2021 (D.O. 233 T.433 7-XII-2021) "hasta un límite de $1,100"; D.L. 596-2022 (D.O. 231 T.437) "$1,500"; D.L. 900-2023 (D.O. 225 T.441) "$1,500.00"; D.L. 159-2024 (D.O. 227 T.445 27-XI-2024) "$1,500.00"; no transitory listed after 159-2024 → 2025+ standing 2-SMM rule assumed (SOQ-05/OQ-003) | `sv/sources/54_Ley_ISR_consolidada_DO79_T447_2025-04-30.pdf` | DISPOSICIONES RELACIONADAS pp.61-63 (EVID-167) |
+| LB-022 | Reglamento de Aplicación del Código Tributario (D.E. N° 117-2001), Art. 95 (CT 155 co-cite) | Permanent services: "se consideran servicios de carácter permanente, aquellos cuya prestación es regulada por la Ley Laboral y su remuneración es el devengo de salarios, sueldos, sobresueldos, horas extras, primas, comisiones, gratificaciones, bonificaciones, aguinaldos y cualquier otra compensación por servicios personales, ya sean que estos se paguen en efectivo o en especie", where "la prestación de servicios es por tiempo indefinido o bien cuando dichos servicios se contraten por un plazo determinado sea a tiempo completo, medio tiempo o tiempo parcial con carácter de subordinación o dependencia, considerándose como parcial los medios tiempos, horas clase, horas médicos, y similares"; aguinaldos remain permanent remunerations "no serán sujetos a retención toda vez que mediante Decreto Legislativo gocen de tal prerrogativa" (R22 governs current periods) | `sv/sources/75_Reglamento_Codigo_Tributario_DE117.pdf` | Art. 95 p.60 (EVID-351; verified 75_ txt lines 3110-3126) |
+| LB-023 | Reglamento CT, Art. 96 | Remunerations sujetas: "Están sujetas a retención toda clase de remuneraciones, incluyendo por tanto salarios, sueldos de tiempo completo o de tiempo parcial, compensaciones adicionales como sobresueldos, horas extras, dietas, gratificaciones, primas, comisiones, aguinaldos, bonificaciones, gastos de representación y cualquier otra compensación por servicios personales sea que se paguen en efectivo, en especie o mediante operaciones contables"; no labor dependency → "sujetas a los porcentajes de retención establecidos en el artículo 156 del Código Tributario"; sickness-license remunerations "sujetas a retención de acuerdo a las tablas respectivas"; in-specie payments "se computarán al precio de mercado a la fecha en que se entregue como valor de la remuneración"; fully-in-specie: the agent "deberá retener el impuesto que corresponda y enterarlo dentro del plazo establecido" | `sv/sources/75_Reglamento_Codigo_Tributario_DE117.pdf` | Art. 96 pp.60-61 (EVID-351; verified 75_ txt lines 3131-3154) |
+| LB-024 | Reglamento CT, Art. 97 | Retention exclusions: "No están sujetos a retención los productos o utilidades excluidos del concepto de renta y las rentas no gravables, a que se refieren los artículos 3 y 4 de la Ley de Impuesto sobre la Renta respectivamente, así como las remuneraciones de carácter temporal que obtengan las personas naturales por la recolección de productos agrícolas de temporada" | `sv/sources/75_Reglamento_Codigo_Tributario_DE117.pdf` | Art. 97 p.61 (EVID-351; verified 75_ txt lines 3164-3169) |
+| LB-025 | Reglamento CT, Arts. 94 y 99 (CT 154 co-cite) | Retention moment and period: Art. 94: "La retención se efectuará en todo caso en el momento de hacerse el pago en cualquiera de sus formas o de acreditarse la renta o en el momento de entregarse el premio. Cuando el pago se haga por operaciones contables se tendrá como fecha de pago la de la contabilización respectiva"; Art. 99: "Por período de pago para efectos de retenciones del Impuesto sobre la Renta, se entiende el mes calendario en el que el agente de retención paga ordinariamente la remuneración sea ésta total o parcial" | `sv/sources/75_Reglamento_Codigo_Tributario_DE117.pdf` | Arts. 94, 99 pp.60, 62 (EVID-351; verified 75_ txt lines 3100-3106, 3193-3197) |
+| LB-026 | Reglamento CT, Art. 103 (CT 158 co-cite) — awareness | Non-domiciled 20%-retained subjects: "los sujetos no domiciliados a los que se les hubiere efectuado retención del 20% sobre las sumas provenientes de cualquier clase de renta obtenida en el país… al elaborar su liquidación anual definitiva, incluirán el total de sus rentas obtenidas, costos y gastos deducibles si los hubiere y acreditarán al final del ejercicio al determinarse el impuesto la retención total efectuada" — corroborates the CT 158 matrix rate as corpus-printed (EVID-063); Ley-side non-resident exercise rate 30% (R20) stays the declaración layer | `sv/sources/75_Reglamento_Codigo_Tributario_DE117.pdf` | Art. 103 p.63 (EVID-351; verified 75_ txt lines 3251-3262) |
 
 Dead text — never implementable as current law (recorded here as LB notes,
 not FRs, per wave constraints): CT Art. 155 inciso 2's blanket "aguinaldo
@@ -119,8 +129,14 @@ fixed-cap aguinaldo vintages — dated data for their years only (LB-021).
   effected (per CT Art. 155 in relation to the tables), with the
   retention/remittance data satisfying the "effected and entered"
   (*realizado y enterado*) condition of the payroll-deductibility gate
-  `02_isr-deductions.md` SV-TAX-FR-040. (LB-003; LB-005; LB-016;
-  EVID-096/104/063)
+  `02_isr-deductions.md` SV-TAX-FR-040. The salaried-regime base is
+  corroborated by 75_ Reglamento CT Art. 95 (LB-022): services of permanent
+  character — regulated by labor law and remunerated as the enumerated
+  salary compensations, paid in cash or in kind — cover BOTH indefinite
+  arrangements AND fixed-term contracts, full-time, half-time or part-time,
+  with subordination or dependency (medios tiempos, horas clase, horas
+  médicos and similar = partial). (LB-003; LB-005; LB-016; LB-022;
+  EVID-096/104/063/351)
 - **SV-TAX-FR-103:** The system shall grant the US$1,600.00 fixed
   deduction of Ley Art. 29.7 to salaried natural persons whose annual
   renta is ≤ US$9,100.00 — NOT subject to *comprobación*
@@ -144,7 +160,35 @@ fixed-cap aguinaldo vintages — dated data for their years only (LB-021).
   contributions shall never be netted; the base shall be computed BEFORE
   the table lookup (Tramo II fixed-deduction ordering per OQ-001), and
   only *remuneraciones gravadas* (taxable remunerations) of the
-  respective period may enter any table application. (LB-008; EVID-156)
+  respective period may enter any table application. The total-period
+  input is corroborated by 75_ Reglamento CT Art. 96's all-remunerations
+  sweep (LB-023): every class of remuneration is retention-subject —
+  including gastos de representación — whether paid "en efectivo, en
+  especie o mediante operaciones contables", always operating WITHIN the
+  Ley's renta concept (public officials' representación allowances stay
+  excluded per D.L. 629 — `01_isr-framework.md` SV-TAX-FR-003, by id).
+  (LB-008; LB-023; EVID-156/351)
+- **SV-TAX-FR-398:** The system shall implement the retention
+  EXCLUSIONS gate (75_ Reglamento CT Art. 97): NO retention shall ever be
+  effected on (a) the *productos o utilidades excluidos del concepto de
+  renta* and the *rentas no gravadas* of Ley ISR Arts. 3 and 4 — the
+  no-renta/no-gravada classification registers (fed by
+  `01_isr-framework.md` SV-TAX-FR-004/005/173 classifications) supply the
+  remuneraciones-no-gravadas subtraction of SV-TAX-FR-104 — and (b) the
+  *remuneraciones de carácter temporal* obtained by natural persons for
+  seasonal agricultural harvesting (*recolección de productos agrícolas
+  de temporada*), aligning the payroll track with SV-TAX-FR-121's
+  CT-side harvest exclusion; the Quincena-25 no-retention remains its own
+  lex specialis (`01_isr-framework.md` SV-TAX-FR-173, by id — never
+  folded into this gate). (LB-024; EVID-351)
+- **SV-TAX-FR-399:** The system shall retain on sickness-license
+  remunerations per the respective tables: remunerations continuing
+  during *licencias o ausencias por enfermedad*, and any prestación paid
+  to domiciled natural persons, are retention-subject "de acuerdo a las
+  tablas respectivas" (75_ Reglamento CT Art. 96 as printed) — routed
+  through the SV-TAX-FR-109 bracket engine on the SV-TAX-FR-104 base,
+  never the CT Art. 156 honorarios percentages (which apply only where no
+  labor dependency exists). (LB-023; EVID-351)
 - **SV-TAX-FR-105:** The system shall support the Art. 33 personal
   deductions — a maximum of US$800.00 per ejercicio PER CONCEPT (two
   concepts, medical + education): (a) medical: hospital services,
@@ -321,7 +365,24 @@ fixed-cap aguinaldo vintages — dated data for their years only (LB-021).
   the 10% retention to fees for services rendered by independent
   natural persons (*honorarios*) REGARDLESS of amount, including
   ADVANCES, EXCLUDING seasonal agricultural harvest labor (*labores
-  agrícolas de cosecha estacional*). (LB-016; LB-017; EVID-063)
+  agrícolas de cosecha estacional* — corroborated by 75_ Reglamento CT
+  Art. 97's temporal-agro exclusion, SV-TAX-FR-398); the 20%
+  non-domiciled track below is corroborated by 75_ Art. 103 (LB-026 —
+  20%-retained non-domiciliados include their total rents and credit the
+  total retention in the annual liquidation, awareness). (LB-016; LB-017;
+  LB-024; LB-026; EVID-063/351)
+- **SV-TAX-FR-400:** The system shall deem the retention's payment date
+  equal to the *contabilización* (booking) date when the payment is
+  effected through *operaciones contables* (accounting operations — 75_
+  Reglamento CT Art. 94: "Cuando el pago se haga por operaciones
+  contables se tendrá como fecha de pago la de la contabilización
+  respectiva"), extending SV-TAX-FR-121's payment-or-acreditamiento
+  moment (Art. 94 restates it: payment "en cualquiera de sus formas",
+  crediting of the renta, or delivery of the premio): non-cash book
+  settlements trigger the retention at the booking date, and the
+  retention month resolves from that deemed date (feeding
+  `01_isr-framework.md` SV-TAX-FR-032's remittance scheduling).
+  (LB-025; EVID-351)
 - **SV-TAX-FR-122:** The system shall apply the 10% retention to lease
   rents (*arrendamientos*) paid or credited to natural persons.
   (LB-017; EVID-063)
@@ -375,12 +436,32 @@ fixed-cap aguinaldo vintages — dated data for their years only (LB-021).
   SV-TAX-FR-121; the Ley Art. 64 definition (indefinite or fixed term,
   full/half/part-time, WITH subordination or dependency) governs, and
   the boundary question for arrangements lacking subordination is
-  recorded as OQ-004. (LB-005; LB-014; EVID-104/144)
+  recorded as OQ-004. The enumeration is corroborated by 75_ Reglamento
+  CT Art. 95 (LB-022): permanent services include fixed-term part-time
+  arrangements — "considerándose como parcial los medios tiempos, horas
+  clase, horas médicos, y similares" — with subordination or dependency,
+  reinforcing the Reglamento ISR Art. 59 extension this FR rests on.
+  (LB-005; LB-014; LB-022; EVID-104/144/351)
 - **SV-TAX-FR-131:** The system shall compute retentions on in-kind
   remunerations at the market value of the goods or services at the
   moment of payment (cash-equivalent base per Ley Art. 60), feeding
   that value through the SV-TAX-FR-104 base and the applicable table or
   matrix rule. (LB-005; EVID-104)
+- **SV-TAX-FR-397:** The system shall value in-specie remunerations —
+  "productos, frutos, alojamiento, alimentación o cualquier otra
+  compensación en especie" — at the market price of the DELIVERY DATE
+  (75_ Reglamento CT Art. 96: "se computarán al precio de mercado a la
+  fecha en que se entregue como valor de la remuneración"), feeding that
+  value through the SV-TAX-FR-104 base and the applicable table/matrix
+  rule (refining SV-TAX-FR-131's Ley-Art.-60 payment-moment valuation
+  with the delivery-date anchor for in-kind deliveries; the
+  market-price-factors root is `16_ct-procedures.md` SV-TAX-FR-357, by
+  id); and when the payment is TOTALLY in species the retention agent
+  shall STILL retain the corresponding tax and enter it within the
+  established deadline (75_ Art. 96: the agent "deberá retener el
+  impuesto que corresponda y enterarlo dentro del plazo establecido") —
+  no cash-payment escape from the retention duty. (LB-023; EVID-351;
+  TAX 16-file SV-TAX-FR-357 by id)
 
 ## 4. Data Model
 
@@ -452,6 +533,15 @@ data only (wave default `odoo`; see §5).
 | account.move.line / account.payment | isr_retention_definitive | boolean | true → excluded from every ISR computation base (`03_isr-rates-gains.md` SV-TAX-FR-076) and from recálculo accumulations | FR-112, FR-126, FR-128 |
 | res.partner | isr_retention_profile | select (computed) | drives rule defaulting: independent_natural · lessor_natural · lessor_entity · nonresident · tax_haven · financial_institution | FR-121..FR-128 |
 
+**75_ retention-mechanics fold-in (LB-022..026):**
+
+| Entity | Field | Type | Catalog / values | Reference |
+|--------|-------|------|------------------|-----------|
+| hr.payslip | isr_in_specie_delivery_date, isr_in_specie_market_value | date / monetary | delivery-date market-price snapshot for in-kind components (75_ Art. 96); fully-in-specie payslips still carry retention + entero | FR-397 |
+| l10n_sv.isr.retention.exclusion (new) | kind, legal_anchor, active | select / char / boolean | no_renta_art3 · no_gravada_art4 · seasonal_agro_temporal — config rows consumed by the FR-104 no-gravadas subtraction (fed from 01-file FR-004/005/173 classifications; Quincena-25 stays 01-file FR-173 by id) | FR-398 |
+| hr.payslip line | isr_sickness_license | boolean | remunerations during licencias/ausencias por enfermedad → tables routing (never CT 156 percentages) | FR-399 |
+| account.move.line / account.payment | isr_retention_deemed_payment_date | date (computed) | = contabilización date for operaciones-contables payments (75_ Art. 94); drives the retention month | FR-400 |
+
 ## 5. Odoo Mapping
 
 Layer semantics for this wave: `odoo` = computation/bookkeeping logic living in
@@ -493,6 +583,10 @@ a legal vintage exists.
 | FR-129 | odoo | account.payment | prizes_160 | Raffle/prize payments tagged at disbursement |
 | FR-130 | odoo | hr.contract | classification rule | Part-time/horas clase/horas médicos → tables (Reglamento Art. 59); subordination boundary = OQ-004 (Ley Art. 64) |
 | FR-131 | odoo | hr.payslip / account.move | in-kind valuation | Market value at payment moment (Ley Art. 60) as cash-equivalent base |
+| FR-397 | odoo | hr.payslip | isr_in_specie_market_value + delivery date | 75_ Art. 96 delivery-date market price feeds FR-104 base; fully-in-specie retention duty stands (no cash escape); market-price factors root = 16-file SV-TAX-FR-357 (by id) |
+| FR-398 | odoo | l10n_sv.isr.retention.exclusion + hr.salary.rule | exclusion gate | Ley Art. 3/4 registers + seasonal-agro rows never withheld (gate blocks before table lookup); Quincena-25 = 01-file SV-TAX-FR-173 (by id); feeds FR-104's no-gravadas |
+| FR-399 | odoo | hr.payslip line | isr_sickness_license | Sickness-license remunerations route to the tablas respectivas (75_ Art. 96 as printed) via FR-109 |
+| FR-400 | odoo | account.move.line / account.payment | isr_retention_deemed_payment_date | Operaciones-contables payments deemed paid at the contabilización date (75_ Art. 94); extends FR-121's moment; feeds 01-file FR-032 scheduling |
 
 Version-regime notes (D12): FR-108 records the retention-decree chain with
 the D.E. 10-2025 vintage dated 2025-05-08 (published D.O. N° 79 T.447
@@ -591,6 +685,24 @@ unindexed amounts in the current text (same class as 03-file OQ-003).
 - **AC-018:** Given a $1,000.00 in-kind salary component (goods) at a
   payment-date market value of $950.00, then the retention computes on
   the $950.00 cash-equivalent base through FR-104 (FR-131).
+- **AC-019:** Given an August remuneration paid FULLY in species
+  (lodging + products) with delivery on 15-August and a combined
+  delivery-date market value of $800.00, then the retention computes on
+  the $800.00 market-price base through FR-104 and the entero schedules
+  despite zero cash paid (FR-397).
+- **AC-020:** Given a payslip carrying a Ley Art. 4 renta-no-gravada
+  item and a seasonal-agricultural-harvest remuneration, then neither
+  item carries any retention line (the exclusion gate blocks before
+  table lookup; Quincena-25 amounts likewise never retain, via
+  SV-TAX-FR-173 by id) (FR-398).
+- **AC-021:** Given remunerations continuing during a sickness license
+  (licencia por enfermedad), then they route to the respective
+  progressive table via FR-109, never the 10% CT 156 honorarios track
+  (FR-399).
+- **AC-022:** Given a retention-base settlement effected through
+  operaciones contables (no cash movement) booked 28-February, then the
+  retention triggers with deemed payment date 28-February and the
+  retention month resolves to February (FR-400).
 
 ## 7. Open Questions
 
