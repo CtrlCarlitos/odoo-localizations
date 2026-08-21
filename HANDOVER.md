@@ -560,7 +560,10 @@ expected and absorbed by instantiating the canon, never by forking it.
       clean-consolidation lead, D. 247-89 text watch); S-HN5 DEFERRED —
       bootstrap `Read hn/HANDOVER.md and continue.`
 
-      **HN W8 merge 2026-08-21 (§4.6 protocol, twenty-fifth run):**
+      **HN W8 merge 2026-08-21 (§4.6 protocol, twenty-fifth run; branch
+      record completed 2026-08-21 same-day sweep at `261b27b` — the
+      branch-side hn/HANDOVER record commit `98cb5b1` was rebased onto
+      `c1aefe1` post-GT-S-GT5-merge and fast-forward-merged in):**
       `hn-research` rebased onto `380f044` (2 commits rewritten
       `7a47fe8..221ce4a`→`2012b6a..2006f04`: W7-merge branch record +
       W8 acquisition wave; zero conflicts — hn/-scoped only) then
