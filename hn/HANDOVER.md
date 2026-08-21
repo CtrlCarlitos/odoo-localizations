@@ -577,11 +577,14 @@ bank-check 23/23 Spanish legs vs the text layer + 5/5 glyph probes vs
 600dpi; structural payroll/02 47/25/22/13 = index; (5) totals — payroll
 **327/164/171/83**, FREP 363/157/189/169, rulings R-H1..R-H82, next EVID =
 434; COVERAGE regenerated **118 rows = 116 cited + 2 N/A, gates PASS
-(1095/503/574/325)**. **Next = owner merge decision for W7 + the post-W6
+(1095/503/574/325)**. **Next = the post-W6
 queue (TOP: Acuerdo 799 Reglamento Ley ISR, Reglamento General IHSS,
 Ley RAP D.L. 107-2013, D. 51-2003; then D. 314-98 watch, post-1995 selectivo
 chain, D. 99-93, 95_ clean-consolidation lead (109_ OQ-2), D. 247-89 text
-watch); S-HN5 stays DEFERRED.**
+watch); S-HN5 stays DEFERRED. [W7 MERGED to main 2026-08-21 — twenty-fourth
+§4.6 run: 2 commits rewritten (`18aea5c..f0b0e92`→`c0d4049..d4b2a49`),
+zero conflicts, remote ref delete + re-push, root record `380f044`; main
+carries HN through EVID-433, corpus 118 files.]**
 
 ## 7. Conventions (mirroring SV)
 
