@@ -97,7 +97,12 @@ none remain unassigned; none listed not-applicable (grep-verified 2026-08-21).
 
 Kin ids referenced beyond the owned set (all pre-existing register rows,
 owned by other waves): GOQ-01 + GOQ-56 (GT-TAX-FR-231 exposure — 02),
-GOQ-41 (03). No other GOQ ids are named by this wave's files.
+GOQ-41 (03), GOQ-53 (03 FR-074 — CT-consolidation-currency kin, owned by
+taxation/06), GOQ-104 (03 FR-068 + §5 — LET undated-print caveat kin,
+owned by fiscal-reporting/04), GOQ-11 + GOQ-77/78 (payroll SMM vintage
+caveats kin, owned by payroll/03 — referenced in
+../commercial-legal/02 FR-077/§7 + ../commercial-legal/04 §7). No other
+GOQ ids are named by this wave's files.
 
 ## Consumed cross-topic FR ids (read-only)
 

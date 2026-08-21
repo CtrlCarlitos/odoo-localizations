@@ -861,12 +861,3 @@ new gaps would be flagged to the controller (non-OQ gap discipline).
 | OQ-002 | GOQ-132 (owned): "D-62-2001: sanction block printed above D-67-2001; body absent; relationship to D-67-2001 unverifiable from the print." FR-129 leaves the relationship OPEN per R70 (the R-ledger's printed "GOQ-133" cite is an off-by-one — the register governs); no identity or derivation is asserted. | no | GT synthesis wave S-GT5 → W6 partner ask (acquisition candidate: D-62-2001 body) | open |
 | OQ-003 | GOQ-133 (owned): "D-15-2026 art. 3.c.3 notaries: triggering-numerals list truncated in print ('i,' only) — verify vs clean copy." FR-130 carries the caution on the notaries classification; the art. 42 light-regime duties are unaffected (they key on the c.3 class itself); a clean copy may extend the triggering escritura/act list. | no | GT synthesis wave S-GT5 → W6 partner ask (clean DCA copy) | open |
 | OQ-004 | GOQ-134 (owned): "FT-lineage completeness: 76_'s edition carries D-48-2001/D-52-2001; 75_'s carries D-69-2001/D-70-2001 (UN counter-terrorism convention — may matter to D-58-2005); D-58-2005 itself absent." FR-129/FR-160 record D-58-2005 as derogated-and-absent; the FT offence rows cite 77_ arts. 77-82 only; the 2005-2026 FT regime is un-reconstructable from this corpus. | no | GT synthesis wave S-GT5 → W6 partner ask (acquisition candidate: D-58-2005) | open |
-
-
-
-
-
-
-
-
-
