@@ -3,15 +3,58 @@
 Execution plan per [shared/docs/requirements-extraction-procedure.md](../shared/docs/requirements-extraction-procedure.md).
 Started 2026-08-19 (source-research pass complete). Status: active — evidence
 waves W1-W4 + V-HN1/V-HN1b COMPLETE (synthesis S-HN1..S-HN4 + validation all
-approved; see wave log); **W5 acquisition-reads wave COMPLETE 2026-08-20**
-(105_-108_ evidence passes EVID-362..384: P2 aguinaldo UNBLOCKED per
-R-H74/R-H75, bono reglamento encoded, séptimo día statutory layer,
-D. 150-2008 + Acuerdo 345 anchored; payroll 314→326 FRs, gates re-run PASS);
-next = D. 59-2023 fetch (ENAG Feb-2024) + the R-H75 interp/reform chain
-(D. 179-97/D. 178-86/D. 2-87/D. 36-90) + owner merge decision.
+approved; see wave log); **W5+W5b COMPLETE and merged to main 2026-08-20**
+(nineteenth §4.6 run at `cd01045`; 105_-108_ evidence passes EVID-362..384:
+P2 aguinaldo UNBLOCKED per R-H74/R-H75, bono reglamento encoded, séptimo día
+statutory layer, D. 150-2008 + Acuerdo 345 anchored; payroll 314→326 FRs);
+**W5c 109_ evidence pass COMPLETE 2026-08-20 (this session, on-branch)** —
+EVID-385..391: **the L30,000 credit SURVIVES D. 59-2023 unchanged** (R-H78,
+OQ-009(a) resolved, FR-067 whole-life row), **cuarta edad = 80+ defined**
+(R-H79, resolves 96_ OQ-2), new cuarta-edad discount catalogue banked for
+S-HN5, edition's other decrees identified (D. 63-2023 promotions / D. 5-2024
+municipal amnistía / D. 6-2024 migration); COVERAGE regen 108 rows = 106
+cited + 2 N/A, gates PASS; next = the R-H75 interp/reform chain
+(D. 179-97 top) + owner merge decision for W5c.
 
 ## Wave log
 
+- **W5c 109_ evidence pass (2026-08-20, DONE):** the D. 59-2023 fetch's full
+  read (`109_` = G 36,460 14-feb-2024; OCR sidecar PSM 6 + an independent
+  PSM 4 column-aware re-verification at 400dpi — both passes agree on every
+  load-bearing token; `109_Decreto_59-2023_Adulto_Mayor.evidence.md`,
+  EVID-385..391). Adjudications: **R-H78** — "Reformar por adición los
+  artículos 3 y 30": the 2007 fourteen-numeral catalogue is reprinted
+  SUMMARIZED with gazette ellipses (the ellipses are print, not OCR loss —
+  dual-pass-confirmed), so **numeral 14 (the L30,000 crédito adicional)
+  SURVIVES unchanged**; FR-067's row = 10-ago-2007 whole-life, NO mid-life
+  cutover; taxation/02 OQ-009(a) RESOLVED (LB-017 added; FR-067 caveats
+  rewritten; three stale table cells fixed — the parameter row, the
+  config-gap row, the version-regime note; index 248/113/140/56). Side
+  results: reformed BENEFICIARIOS age-bounds the jubilado leg ("que cumplan
+  con la edad" vs 2007 "sin importar su edad" — two readings open, `109_`
+  OQ-1 → OQ-009(b) updated with a 14-feb-2024 cutover; affects only the
+  <60-jubilado edge, flag-only under the encoded plantilla gate either way);
+  **R-H79** — cuarta edad = "ochenta (80) años o más" DEFINED (reformed
+  Art. 3 glossary, valid_from 14-feb-2024 = publication day per D59-Art. 4)
+  → resolves 96_ OQ-2 (the D.45-2025 utility tiers' predicate = 80+; cuarta
+  ⊂ tercera 60+); NEW cuarta-edad discount catalogue 1)-13) full text
+  (medicamentos 40%, recreación 60%, salud 30%, pasaje/restaurantes/
+  funerarias 35%, consultas 30/35%, lodging 35% Mon-Fri/25% Sat-Sun —
+  EVID-389) + DNI-alone accreditation (D59-Art. 2.2) = S-HN5 commercial-
+  legal bank (parked per the deferral); edition's other decrees identified
+  (EVID-391): D. 63-2023 military promotions (A.5-13), **D. 5-2024 MUNICIPAL
+  tax amnistía** (A.14-16 — window 14-feb-2024→"31-jun-2024" [sic →
+  30-jun-2024, `109_` OQ-3, kin of the D. 2-87 "30-feb" print error]; mora
+  ≤1-dic-2023; plans ≤1y; optional ≤20% principal discount; EXPIRED history,
+  amnistía-family kin of 06_), D. 6-2024 migration-amnesty extension
+  (A.17-19, to 31-dic-2024); Sección B = avisos only; title-completeness
+  note recorded, NOT a 12th mislabel incident. COVERAGE regenerated:
+  108 rows = 106 cited + 2 N/A (109_ now cited via taxation/02 LB-017);
+  1094 FRs / 495 LBs / 573 ACs / 323 OQ rows; all gates PASS. Resolved
+  contradictions now R-H1..R-H79. Residual carries: OQ-009(b) beneficiary
+  class (two readings), OQ-009(c)/(d) unchanged, 109_ OQ-2 (the gazette
+  ellipses point at the STILL-DAMAGED 2007 print — clean-consolidation lead
+  stands), 109_ OQ-4 (edition-completeness note, discharged).
 - **W5 acquisition-reads wave (2026-08-20, DONE):** full evidence passes for
   the four V-HN1b acquisitions, two EV files (EV105 `105_…evidence.md`
   EVID-362..372; EV106 `106+107+108_…evidence.md` EVID-373..384; OCR sidecars

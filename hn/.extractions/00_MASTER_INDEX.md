@@ -1,7 +1,8 @@
 # MASTER EVIDENCE INDEX — Honduras localization (W1 taxation + W2 fiscal-reporting + W3 facturación + W4 payroll — synthesis prep)
 
-Built: 2026-08-19 (synthesis prep, post-W4). Inputs: the 18 evidence files below
-(EVID-001..333, corpus-global; next EVID = 334), built by the four evidence waves
+Built: 2026-08-19 (synthesis prep, post-W4); updated through W5c (2026-08-20:
++EV109, EVID-385..391 — next EVID = 392). Inputs: the 24 evidence files below
+(EVID-001..333, corpus-global), built by the four evidence waves
 W1 (2026-08-19/20, taxation core), W2a/W2b (fiscal reporting), W3 (facturación),
 W4a-d (payroll). This index is the synthesis lookup: topic clusters per wave
 (Section A), resolved-contradictions ledger (Section B), and the rolled-up OQ
@@ -78,6 +79,7 @@ full text lives in the evidence files). EVID ranges 130-135, 159-162, 174,
 | EV93 | `93+94+97_chain.evidence.md` (350..361 — V-HN1b read) |
 | EV105 | `105_Decreto_112_aguinaldo.evidence.md` (362..372 — W5 acquisition-reads wave) |
 | EV106 | `106+107+108_bono-reglamento-pacto-comisiones.evidence.md` (373..384 — W5 acquisition-reads wave) |
+| EV109 | `109_Decreto_59-2023_Adulto_Mayor.evidence.md` (385..391 — W5c evidence pass) |
 
 Citations in requirements files use `EVxx:EVID-nnn` (and `EVxx:file OQ-n` for
 register origins). D-H1/D-H2/D-H3 (EXTRACTION_PLAN Decisions) bind all clusters.
@@ -783,6 +785,8 @@ SMM auto-elevation of inferior contracts; CT negatives (R-H60); vintage pins;
 | R-H75 | "Acuerdo 201-96" (the claimed aguinaldo reglamento, former TOP co-lead) | W5: attribution VOIDED — no corpus instrument cites any Acuerdo 201-96; the claim originated as an unsourced W4d inference. The REAL aguinaldo interpretation chain is D. 178-86 (G 25,077) / D. 2-87 (G 25,155) / D. 36-90 (G 26,131) + D. 179-97 (G 28,441), all recovered from 105_'s footnotes with full gazette pins — THESE (not 201-96) head the acquisition queue; D. 135-94 remains a 14th-month-provenance lead only | EV105:EVID-363/365/370; RESEARCH §5 amended |
 | R-H76 | Bono educativo reglamento: "Acuerdo 154-2000" was an unverified lead (payroll/02 OQ-004) | W5 read of `106_` (EVID-373..379): Reglamento **STSS-154-2000** (5-oct-2000, gazette 6-nov-2000, vigencia = publication day) IN CORPUS — OQ-004 RESOLVED; adds calendar-year 100% gate + post-exit claim + mid-year forward proration + 2×SMM-gate exclusions (OT/primas/bonificaciones/gratificaciones) + family-allocation matrix (payroll/02 FR-094..096); D. 43-97 gazette original (G 28,271) ≡ 104_ print (R-H43 double-pinned; modality loan scoped to proportionality) | EV106:EVID-373..379; payroll/02 OQ-004 resolved |
 | R-H77 | 106_ registry title "Gaceta 29320" vs the file's actual contents | W5 (11th title-class incident): 106_ = TWO gazette extracts — D. 43-97 from **G 28,271 (29-may-1997, masthead-confirmed)** + the reglamento from the gazette of **6-nov-2000** (masthead date confirmed; the NUMBER is stamp-damaged ≈29,32x by interpolation — consistent with the STSS slug "29320" but NOT print-pinned, 106_ OQ-1); registry row amended (title names only the second gazette) — content as claimed, no mislabel of substance | EV106:EVID-373; registry README amended |
+| R-H78 | D. 59-2023 intermediate-reform scope (taxation/02 OQ-009(a) — "may touch Art. 30.14, unacquired") | W5c read of `109_` (G 36,460, EVID-385..388): **"Reformar por adición los artículos 3 y 30" — the L30,000 credit SURVIVES unchanged** (the 2007 fourteen-numeral catalogue reprinted summarized with gazette ellipses; numeral 14 carried forward; the reprint also corpus-confirms the 2007 numbering 1-14 with the credit at 14). vigencia = publication day **14-feb-2024**; FR-067's row = 10-ago-2007 whole-life, NO mid-life cutover; OQ-009(a) RESOLVED. Side results: reformed BENEFICIARIOS now age-bounds the jubilado leg ("que cumplan con la edad" vs 2007 "sin importar su edad" — two readings open, `109_` OQ-1 → OQ-009(b) updated); edition's other decrees identified (D. 63-2023 promotions; **D. 5-2024 MUNICIPAL tax amnistía** 14-feb-2024→30-jun-2024 ["31-jun" print error, `109_` OQ-3] — expired history, amnistía-family kin of 06_; D. 6-2024 migration) | EV109:EVID-385..391; taxation/02 OQ-009(a) resolved / LB-017; FR-067 |
+| R-H79 | "Cuarta edad" undefined (96_ OQ-2 — the D.45-2025 utility-discount tiers' 35/40% predicate UNPINNED, "never guess 75+/80+") | W5c read of `109_` (EVID-386): the class is defined in the D. 59-2023 reformed Art. 3 glossary = **"la persona que haya cumplido ochenta (80) años o más, nacional o extranjero con la debida acreditación de residencia"** — cuarta edad = 80+, valid_from 14-feb-2024; cuarta ⊂ tercera (60+) by the glossary's own words; DNI-alone accreditation (D59-Art. 2.2, EVID-390). The 19-ene-2026 utility tiers' predicate PINNED = 80+; the NEW cuarta discount catalogue 1)-13) (elevated rates: medicamentos 40%, recreación 60%, salud 30%, pasaje/restaurantes/funerarias 35%, lodging 35% Mon-Fri / 25% Sat-Sun — EVID-389) = S-HN5 commercial-legal bank | EV109:EVID-386/389/390; 96_ OQ-2 resolved |
 
 ---
 
@@ -1183,14 +1187,14 @@ files (EVxx:file OQ-n).
 - **Clusters:** 43 — W1 taxation T1-T12 (EVID-001..071), W2 fiscal-reporting F1-F11
   (EVID-072..185), W3 facturación E1-E8 (EVID-186..214), W4 payroll P1-P12
   (EVID-215..333). SEE/CAEE sub-cluster (E8 part) BLOCKED on lead 1.
-- **Resolved contradictions:** 77 (R-H1..R-H77; R-H66 adopted by product owner; R-H67..R-H70 V-HN1 validation; R-H71..R-H73 V-HN1b reads; R-H74..R-H77 W5 acquisition-reads wave — P2 unblock + 201-96 void + bono reglamento + 106_ title)
+- **Resolved contradictions:** 79 (R-H1..R-H79; R-H66 adopted by product owner; R-H67..R-H70 V-HN1 validation; R-H71..R-H73 V-HN1b reads; R-H74..R-H77 W5 acquisition-reads wave — P2 unblock + 201-96 void + bono reglamento + 106_ title; R-H78/R-H79 W5c 109_ pass — L30k credit survives D. 59-2023 + cuarta edad = 80+)
   owner 2026-08-20; incl. 9 registry-mislabel
   incidents and 4 void/dead-text rulings R-H3/4/5 + R-H1 partial-history).
 - **OQ register:** ~236 origin lines rolled up (~227 open after in-wave
   resolutions): C1 taxation ~23 open, C2 fiscal-reporting ~110 open, C3
-  e-invoicing 10 open, C4 payroll ~50 open. Highest-leverage LEADs: D. 59-2023 (Adulto
-  Mayor intermediate reform — taxation/02 OQ-009), the aguinaldo interp chain
+  e-invoicing 10 open, C4 payroll ~50 open. Highest-leverage LEADs: the aguinaldo interp chain
   D. 179-97/D. 178-86/D. 2-87/D. 36-90 (R-H75 — replaces the voided "201-96"),
+  clean/consolidated D. 199-2006 text (109_ OQ-2 — repairs the 2007 print's damaged tails),
   Reglamento General IHSS, Ley RAP D.L. 107-2013,
   D. 51-2003 (AS/ATN), SAR-236-2024, Reglamento Ley ISR "Acuerdo N°799", DGS SMM
   companion prints, D. 58-1982 + D. 131-98, TP family, SEE docs (lead 1).

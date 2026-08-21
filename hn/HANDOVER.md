@@ -6,14 +6,16 @@ facturación, W4 payroll, synthesis prep (master index + OQ registers),
 S-HN1..S-HN4 synthesis waves + their merges, the V-HN1 VALIDATION WAVE
 (merged to main 2026-08-20, thirteenth §4.6 run at `960df34`, root record
 `f2eccbc`), V-HN1b (in-corpus reads 95_/96_/93_/94_/97_ + acquisition wave),
-and **the W5 acquisition-reads wave (this refresh — full evidence passes
-105_-108_ EVID-362..384: **P2 aguinaldo UNBLOCKED** — D. 112-1982 IS the
-13th-month law (R-H74), the "D. 135-94/201-96" framing voided (R-H75); bono
-reglamento STSS-154-2000 encoded (R-H76, OQ-004 resolved); séptimo día
-statutory layer; D. 150-2008 + Acuerdo 345 anchored; payroll 314→326 FRs,
-COVERAGE gates re-run PASS; plus the D. 59-2023 FETCH — G 36,460 via ENAG,
-registered `109_`, evidence pass pending). Next = the 109_ evidence pass +
-the R-H75 interp/reform chain + owner merge decision**.
+the W5 acquisition-reads wave + W5b D. 59-2023 fetch (**merged to main
+2026-08-20 — nineteenth §4.6 run at `cd01045`, root record `5c7185b`**), and
+**the W5c 109_ evidence pass (this session, ON-BRANCH not yet merged:
+EVID-385..391 — the L30,000 credit SURVIVES D. 59-2023 unchanged (R-H78,
+OQ-009(a) resolved, FR-067 whole-life row); cuarta edad = 80+ DEFINED
+(R-H79, resolves 96_ OQ-2); new cuarta-edad discount catalogue banked for
+S-HN5; edition's other decrees identified incl. the D. 5-2024 municipal
+amnistía; COVERAGE regen 108 rows = 106 cited + 2 N/A, gates PASS). Next =
+owner merge decision for W5c + the R-H75 interp/reform chain (D. 179-97
+top).**
 Read this fully before acting; it is the authoritative HN cross-session
 memory (conversation context does not survive). Update it at every session
 boundary.
@@ -29,16 +31,15 @@ boundary.
    **W5+W5b at `cd01045` w/ root record `5c7185b` — nineteenth §4.6 run,
    3 commits rewritten (`51be444..6f37179`→`d9d8317..cd01045`), zero
    conflicts — merged 2026-08-20; main carries HN through EVID-384, the W5
-   requirements, and 109_ (D. 59-2023, evidence pass pending)**;
+   requirements, and 109_ (D. 59-2023 — evidence pass DONE on-branch as
+   W5c, EVID-385..391, pending its own merge)**;
   synthesis prep at `e106b1f`; S-HN1+S-HN2 at `6d1cfc3` w/ root record
   `b98dae1` — ninth §4.6 run; S-HN3 + R-H66 adoption at `00caef9` w/ root
   record `503ab9c` — tenth §4.6 run, zero conflicts, remote ref delete +
   re-push; **S-HN4 at `d05f2c1` w/ root record `7a40433` — eleventh §4.6
   run, 2 commits rewritten (`087e94f`→`3ee60c0`, `9890bda`→`d05f2c1`),
   zero conflicts, remote ref delete + re-push**). Rebase-then-merge per
-  root HANDOVER §4.6, owner-executed; main carries HN evidence through
-  EVID-333, the master index, and the S-HN1/S-HN2/S-HN3/**S-HN4**
-  requirements incl. adopted R-H66.**
+  root HANDOVER §4.6, owner-executed.
   The cross-country canon D15-D19 was adopted at the W1 merge — HN's
   D-H2/D-H3 are country instantiations of D16/D18 (see
   `shared/docs/regulatory-change-management.md`,
@@ -93,9 +94,11 @@ boundary.
    `82-84+90-92+101+102+104_salario-minimo-13-14.evidence.md` (W4a, 215..240),
    `81+87+88_IHSS.evidence.md` (W4b, 250..274),
    `27+28_RAP-fondo.evidence.md` (W4c, 275..289),
-   `85+86_codigo-trabajo.evidence.md` (W4d, 295..333). **EVID numbering is
-   corpus-global, next = 362. OQs are per-file/per-doc at evidence-file end
-   (~227 open).**
+    `85+86_codigo-trabajo.evidence.md` (W4d, 295..333),
+    `109_Decreto_59-2023_Adulto_Mayor.evidence.md` (W5c, **385..391**).
+    **EVID numbering is
+    corpus-global, next = 392. OQs are per-file/per-doc at evidence-file end
+    (~227 open).**
 
 ## 3. State: corpus (research phase COMPLETE)
 
@@ -106,9 +109,14 @@ Wayback of the official STSS upload, correcting the round-5 "routes
 exhausted" claim); 106_ = TWO extracts — D. 43-97 (G 28,271 29-may-1997) +
 Reglamento STSS-154-2000 bono (gazette 6-nov-2000; 11th title incident,
 R-H77); 107_ = D. 150-2008 CT-120 reform + annual pact; 108_ = Acuerdo 345
-Comisiones SMM (G 25,680)**; 109_ = D. 59-2023 Adulto Mayor intermediate
-reform (G 36,460 14-feb-2024, via ENAG) acquired 2026-08-20, evidence pass
-PENDING — taxation/02 OQ-009's instrument; a duplicate D. 103 upload was
+Comisiones SMM (G 25,680)**; **109_ = D. 59-2023 Adulto Mayor intermediate
+reform (G 36,460 14-feb-2024, via ENAG) — EVIDENCED W5c (EVID-385..391,
+R-H78/R-H79): "reformar por adición Arts. 3 y 30" — the L30,000 credit
+SURVIVES unchanged (tercera list reprinted summarized 1)-14) with gazette
+ellipses); cuarta edad = 80+ DEFINED; new cuarta catalogue 1)-13) banked for
+S-HN5; edition's other decrees = D. 63-2023 military promotions / D. 5-2024
+MUNICIPAL amnistía (expired window, "31-jun" [sic]) / D. 6-2024 migration;
+title-completeness noted, NOT a 12th mislabel; a duplicate D. 103 upload was
 discarded md5-identical to 104_). Structure:
 - **Laws/consolidations:** ISR D.L. 25 (`01_`, hasta SAR-07-2025), ISV
   D.L. 24 (`02_`, hasta D.L. 59-2022), CT D. 170-2016 (`03_`, hasta
@@ -311,6 +319,36 @@ discarded md5-identical to 104_). Structure:
   fatal window; **fijación vigencia = +15 days after publication — DEFAULT
   displaced by the fijaciones' own clauses, R-H62 kin**). Payroll totals
   326 FRs/158 LBs/170 ACs/81 OQ rows; COVERAGE 107 rows = 105 cited + 2 N/A.
+- **W5c 109_ evidence pass (2026-08-20, do not re-derive):** **R-H78 —
+  D. 59-2023 = "Reformar por adición los artículos 3 y 30" of D. 199-2006;
+  the L30,000 credit (Art. 30.14) SURVIVES unchanged**: the tercera-edad
+  list is reprinted SUMMARIZED 1)-14) with GAZETTE-print ellipses
+  (dual-OCR-pass-confirmed — PSM 6 sidecar + independent PSM 4 column pass
+  agree on every load-bearing token), numeral 14 carried forward; the
+  reprint corpus-confirms the 2007 numbering (credit = 14). FR-067 =
+  10-ago-2007 WHOLE-LIFE row, no mid-life cutover; taxation/02 OQ-009(a)
+  RESOLVED (LB-017; FR-067 caveats rewritten; 3 stale cells fixed; index
+  248/**113**/140/56). Vigencia = publication day → **14-feb-2024**.
+  **R-H79 — cuarta edad = "ochenta (80) años o más" DEFINED** (reformed
+  Art. 3 glossary) → resolves 96_ OQ-2: the D.45-2025 utility tiers'
+  (19-ene-2026) cuarta predicate = 80+; cuarta ⊂ tercera (60+); DNI-alone
+  accreditation (D59-Art. 2.2). NEW cuarta-edad discount catalogue 1)-13)
+  full text (medicamentos 40%, recreación 60%, salud 30%,
+  pasaje/restaurantes/funerarias 35%, consultas 30/35%, lodging 35%
+  Mon-Fri/25% Sat-Sun) = S-HN5 commercial-legal bank (parked per deferral).
+  Reformed BENEFICIARIOS age-bounds the jubilado leg ("que cumplan con la
+  edad" vs 2007 "sin importar su edad" — narrowing-vs-slip readings BOTH
+  open, `109_` OQ-1 → OQ-009(b) with a 14-feb-2024 cutover; only the
+  <60-jubilado edge is affected — flag-only under the plantilla gate either
+  way). Edition's other decrees (EVID-391): D. 63-2023 military promotions;
+  **D. 5-2024 MUNICIPAL tax amnistía** (window 14-feb-2024→"31-jun-2024"
+  [sic → 30-jun, `109_` OQ-3, kin of D. 2-87's "30-feb"]; mora ≤1-dic-2023;
+  plans ≤1y; optional ≤20% principal discount per Corporación; EXPIRED —
+  amnistía-family kin of 06_); D. 6-2024 migration-amnesty extension to
+  31-dic-2024. Residual: the gazette ellipses point at the STILL-DAMAGED
+  2007 print → clean/consolidation D. 199-2006 lead STANDS (109_ OQ-2).
+  COVERAGE regen: 108 rows = 106 cited + 2 N/A; 1094/495/573/323; gates
+  PASS. Rulings R-H1..R-H79.
 - **V-HN1b in-corpus reads (2026-08-20, do not re-derive):** `95_`+`96_`
   (EVID-337..348): **FR-067 PINNED + ACTIVATED** — L30k@60 = D. 199-2006
   **Art. 30 num. 14** (own-law "crédito adicional", NOT an ISR amendment),
@@ -391,14 +429,14 @@ discarded md5-identical to 104_). Structure:
    (R-H74/R-H75), bono reglamento encoded (R-H76, payroll/02 OQ-004
    resolved), séptimo día statutory layer, D. 150-2008 + Acuerdo 345
    anchored; COVERAGE regenerated (108 rows = 105 cited + 3 N/A) — plus the
-   **D. 59-2023 FETCH (G 36,460 14-feb-2024 via ENAG, registered `109_`,
-   page-1 verified, OCR sidecar; preliminary scan: Art. 30 reformed with the
-   tercera/cuarta-edad two-class structure, numeral 14 [the L30,000 credit]
-   RESTATED). NEXT: the 109_ evidence pass (taxation/02 OQ-009's
-   instrument — wording comparison vs 95_, vigencia pin, beneficiary-class
-   check, identify the edition's other decrees 63-2023/5-2024), then the
-   R-H75 chain (D. 179-97 top) + Acuerdo 799 + Reglamento General IHSS +
-   Ley RAP (§6.2 queue).**
+   **D. 59-2023 FETCH (G 36,460 14-feb-2024 via ENAG, registered `109_`) —
+   evidence pass DONE as the W5c wave (this session, on-branch): EVID-385..391,
+   R-H78 (L30,000 credit SURVIVES — OQ-009(a) resolved, FR-067 whole-life) +
+   R-H79 (cuarta edad = 80+, 96_ OQ-2 resolved) + edition decrees identified
+   (D. 5-2024 municipal amnistía = expired kin of 06_); COVERAGE regen
+   (108 rows = 106 cited + 2 N/A, gates PASS). NEXT: owner merge decision for
+   W5c, then the R-H75 chain (D. 179-97 top) + Acuerdo 799 +
+   Reglamento General IHSS + Ley RAP (§6.2 queue).**
 2. **Acquisition queue (W5-amended; RESEARCH §5 + master-index
     C-registers + synthesis OQs):** TOP = ~~D. 135-94 + Acuerdo 201-96~~
     (VOIDED R-H74/R-H75 — the 13th month = D. 112-1982 `105_ evidenced;
@@ -429,26 +467,29 @@ discarded md5-identical to 104_). Structure:
      force-push (root HANDOVER country model). Branch head after S-HN1/S-HN2
      commit = the synthesis-wave base; future waves branch from here.
 
-Session state at stop (2026-08-20, W5 acquisition-reads wave + D. 59-2023
-fetch): evidence COMPLETE through EVID-384; corpus 108 files (105-108
-evidenced; 109_ = G 36,460 D. 59-2023 Adulto Mayor acquired-in-corpus-unread,
-evidence pass = next session's first action); V-HN1 +
-V-HN1b merged to main (thirteenth §4.6 run at `960df34`); **W5 committed on
-`hn-research` (this session, not yet merged — owner decision pending)**:
-P2 aguinaldo UNBLOCKED (R-H74: D. 112-1982 = the 13th-month law; R-H75:
-"D. 135-94/201-96" voided), bono reglamento encoded (R-H76, OQ-004
-resolved), séptimo día statutory layer (payroll/06 FR-248/249), D. 150-2008
-+ Acuerdo 345 anchored; payroll = 326 FRs/158 LBs/170 ACs/81 OQ rows;
-COVERAGE gates PASS (108 rows = 105 cited + 3 N/A); rulings R-H1..R-H77.
-**Next = the 109_ evidence pass (D. 59-2023 fetched this session; Art. 30
-two-class + numeral 14 survives per preliminary scan) + R-H75 chain
-acquisition; S-HN5 stays DEFERRED. [MERGED to main 2026-08-20 — nineteenth
-§4.6 run at `cd01045`, root record `5c7185b`; branch re-pushed post-delete.]**
+Session state at stop (2026-08-20, W5c 109_ evidence pass): evidence
+COMPLETE through **EVID-391**; corpus 108 files, **ALL evidenced** (109_ =
+G 36,460 D. 59-2023 Adulto Mayor read this session); W5+W5b merged to main
+(nineteenth §4.6 run at `cd01045`, root record `5c7185b`). **W5c committed
+on `hn-research` (this session, not yet merged — owner decision pending)**:
+R-H78 (D. 59-2023 = adición-only reform of Arts. 3/30 — **the L30,000
+credit SURVIVES unchanged**, tercera list reprinted summarized 1)-14) with
+gazette ellipses; FR-067 = 10-ago-2007 whole-life; taxation/02 OQ-009(a)
+RESOLVED, LB-017, index 248/113/140/56) + R-H79 (**cuarta edad = 80+
+DEFINED** — resolves 96_ OQ-2; D.45-2025 utility-tier predicate pinned;
+cuarta catalogue banked for S-HN5) + reformed-BENEFICIARIOS flag
+("que cumplan con la edad" vs 2007 "sin importar su edad" — two readings,
+OQ-009(b) with 14-feb-2024 cutover) + edition decrees identified (D. 5-2024
+municipal amnistía, expired — kin of 06_); COVERAGE regen 108 rows = 106
+cited + 2 N/A, gates PASS; rulings R-H1..R-H79. **Next = owner merge
+decision for W5c + the R-H75 interp/reform chain acquisition (D. 179-97
+top) + the 95_ clean-consolidation lead (109_ OQ-2); S-HN5 stays
+DEFERRED.**
 
 ## 7. Conventions (mirroring SV)
 
 - Evidence: verbatim Spanish + gloss; candidate CRs + topic tags; doubts →
-  OQs, never guesses. Per-file OQ numbering; corpus-global EVID (next=385).
+  OQs, never guesses. Per-file OQ numbering; corpus-global EVID (next=392).
   W2b + W4 + S-HN1/S-HN2 ran subagent-dispatched with pre-allocated EVID/FR
   ranges per family — proven pattern for large batches; controller verifies
   ranges + spot-checks verbatims afterward (done for W4: ranges + 8
@@ -483,4 +524,8 @@ acquisition; S-HN5 stays DEFERRED. [MERGED to main 2026-08-20 — nineteenth
 - **Manuals can be stale vs gazettes (W2b):** gazette text is the record.
 - **OCR sidecars:** for any file with an `.OCR.txt` in `.extractions/`, the
   OCR sidecar (not the native-layer txt) is authoritative for the damaged
-  passages (81_, 87_, 90_, 91_, 92_ as of W4; 106_, 107_ as of W5).
+  passages (81_, 87_, 90_, 91_, 92_ as of W4; 106_, 107_ as of W5; 109_ as
+  of W5c — its critical passages additionally re-verified with an
+  independent PSM 4 column-aware pass; the dual-pass agreement is what
+  proved the Art. 30 ellipses are gazette print, not OCR loss — reuse this
+  dual-pass pattern whenever "ellipsis vs OCR-truncation" is load-bearing).
