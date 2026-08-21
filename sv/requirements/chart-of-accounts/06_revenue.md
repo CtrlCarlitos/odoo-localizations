@@ -668,9 +668,10 @@ recognition).
 ## 6. Acceptance Criteria
 
 - **AC-001:** Given a customer loyalty scheme over a 10-pan (bread) purchase
-  cycle whose reward credits grant a material right, with the allocation
-  leaving 1.80 per pan as recognized revenue and the residual per-pan
-  allocation on the option commitment (guide-verified pattern, 32_
+  cycle priced at 2.00 per pan (cycle consideration 20.00) whose reward
+  credits grant a material right, with the Step-4 allocation assigning
+  2.00 (0.20 per pan) to the option commitment and leaving 1.80 per pan
+  (18.00) as recognized revenue (guide-verified pattern, 32_
   23A.9-23A.13), when each of the ten pans transfers to the customer, then
   revenue recognizes at 1.80 per transferred pan, the option allocation sits
   in the contract liability, and the deferred amount recognizes as revenue
