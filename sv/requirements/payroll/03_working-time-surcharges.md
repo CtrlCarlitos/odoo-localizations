@@ -146,12 +146,14 @@ consumed here by FR id).
   base of SV-PAY-FR-005 — applying the SAME hourly base to hours
   worked in excess of the *semana laboral* (weekly-excess hours) per
   the Art. 142 final-*inciso* rule OWNED by `01_salary-model.md`
-  SV-PAY-FR-007 (consumed by id); the recargo applies "hasta el límite
-  legal", which resolves to the jornada/semana caps of FR-024/FR-025
-  (the pre-reform cap reference lands on the weekly-excess rule —
-  EVID-202 gloss); overtime lines classify as *trabajo
-  extraordinario* per SV-PAY-FR-004 (overtime_pay class). (LB-006;
-  LB-001; EVID-202)
+  SV-PAY-FR-007 (consumed by id). The Art. 169 recargo applies
+  "hasta el límite legal" under TWO distinct resolutions: (a) the
+  CAP resolution — the excess-hour recargo resolves to the
+  jornada/semana caps of FR-024/FR-025; and (b) the PROVENANCE
+  resolution — the pre-reform cap reference itself (Art. 168 of the
+  pre-reform numbering) lands on the weekly-excess rule (EVID-202
+  gloss). Overtime lines classify as *trabajo extraordinario* per
+  SV-PAY-FR-004 (overtime_pay class). (LB-006; LB-001; EVID-202)
 - **SV-PAY-FR-030:** The system shall remunerate excess-day/
   excess-week hours worked under *fuerza mayor* (force majeure) at
   PLAIN *salario básico* — no Art. 169 recargo — gated on a recorded

@@ -146,9 +146,10 @@ consolidation — re-verify if a later CT reform lands (OQ-001).
   (piecework) — total ÷ days used; SB-R6 *a domicilio* (home work) — per
   the Art. 142-B variants, hourly básico = daily ÷ 8; SB-R7 commission or
   other forms — sum of the ordinary salaries received in the last six
-  months ÷ *días laborables* (working days) of that window (SB-R7 is the
-  variable-pay rule that CT Arts. 183/199 invoke for benefit bases —
-  consumed by `04_statutory-benefits.md`). (LB-006; EVID-201)
+  months ÷ *días laborables* (working days) of that window (SB-R7
+  is the variable-pay rule that CT Arts. 183/199, anchored at
+  `04_statutory-benefits.md` LB-007/LB-016, invoke for benefit
+  bases — consumed by `04_statutory-benefits.md`). (LB-006; EVID-201)
 - **SV-PAY-FR-007:** The system shall apply the hourly *salario básico*
   that remunerates the hours of a day worked in excess of the ordinary
   *jornada* ALSO as the base hourly rate for overtime hours worked in
@@ -210,8 +211,8 @@ wave-wide authority; consumers reference the FR id, never restate):**
 | Occasional bonuses and gratuities (bonificaciones y gratificaciones ocasionales) | non_salario | no | no (14.a) | gravada — no corpus exclusion (OQ-002) | H |
 | Representation allowances, transport means, work tools, viáticos-type reimbursements | non_salario | no | no (14.c) | no_gravada when reasonable and documented (SV-TAX-FR-004) | none (not remuneration) |
 | Vacation pay (prestación with express IBC inclusion "incluido el período de vacaciones") | prestacion_social | no | yes (express inclusion) | gravada (EVID-204 mapping note) | G |
-| Aguinaldo | prestacion_social | no | no (14.b) | split_exento_gravado — floor 2×SMM comercio y servicios, taxation-owned (SV-TAX-FR-120) | J / K pair |
-| Other CT statutory benefits (indemnización, illness/maternity subsidies, sepelio; séptimo día decomposes into ordinary pay per Art. 174) | prestacion_social | no | no (14.c prestaciones sociales) | crosscheck_oq (Ley ISR Art. 4 cross-check — OQ-003) | value feed via `08_isr-interfaces.md` |
+| Aguinaldo | prestacion_social | no | no (14.b) | split_exento_gravado — floor and vintages taxation-owned (SV-TAX-FR-120) | J / K pair |
+| Other CT statutory benefits (indemnización, illness/maternity subsidies, sepelio; séptimo día decomposes into ordinary pay per Art. 174 — `03_working-time-surcharges.md` LB-011) | prestacion_social | no | no (14.c prestaciones sociales) | crosscheck_oq (Ley ISR Art. 4 cross-check — OQ-003) | value feed via `08_isr-interfaces.md` |
 | Quincena Veinticinco annual complement (D.L. 499; paid 15–25 Jan; 50% of monthly salario básico o nominal, gate ≤ US$1,500.00) | none — special-law benefit outside the CT categories (66_ Art. 1 independence declaration; EVID-236) | no — ingreso complementario independiente del salario ordinario, aguinaldo y otras prestaciones (66_ Art. 1) | no — never in any benefit-calculation base nor SS/pension cotización (66_ Art. 1) | no_gravada (66_ Art. 4) | none — surfaces ONLY in the separate January-only Quincena annex (SV-FREP-FR-209), never in the G/H/J-K retention-annex families |
 
 Matrix resolution note: the crosscheck_oq cells above are resolved by

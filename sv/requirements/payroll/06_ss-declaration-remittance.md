@@ -80,7 +80,7 @@ catalog with article refs (no dated sidecar owned by this file).
 | LB-001 | Ley Integral del Sistema de Pensiones (D.L. 614), Art. 21: "Las cotizaciones ... deberán ser declaradas y pagadas por el empleador ... en la Administradora en que se encuentre afiliado cada trabajador. ... el empleador descontará del ingreso base de cotización de cada afiliado, al momento de su pago, el monto de las cotizaciones, y trasladará dichos importes, junto con la correspondiente a su aporte, a las Administradoras respectivas. La declaración y pago deberán efectuarse dentro de los diez primeros días hábiles del mes siguiente a aquél en que se devengaron los ingresos afectos, o a aquél en que se autorizó la licencia médica...". "Todos los empleadores deberán elaborar y remitir la planilla de declaración de cotizaciones previsionales y la planilla de cotización obrero-patronales del Régimen de Enfermedad, Maternidad y Riesgos Profesionales del ISSS por medios electrónicos..." | Cotizaciones are declared AND paid by the employer at the Administradora where each worker is affiliated; the employer withholds each affiliate's cotizaciones at payment of the IBC and transfers them, together with its own share, to the respective Administradoras; declaration and payment fall within the FIRST TEN días hábiles of the month following the month the affected income was accrued, OR the month the medical license was authorized; ALL employers must elaborate and remit electronically BOTH the pension (previsional) declaration planilla and the ISSS obrero-patronal planilla of the Enfermedad/Maternidad/Riesgos Profesionales regime | `sv/sources/09_Ley_Sistema_Pensiones.pdf` | Art. 21 pp.10-11 (EVID-198) |
 | LB-002 | Ley Integral del Sistema de Pensiones, Art. 27 (gloss-level; verbatim truncated in the evidence extract — "deberá crearse un..."): the law orders the creation of a unified planilla mechanism (planilla única) for the declaration/payment of cotizaciones; its layout, format and channels are NOT in the corpus (Reglamento del D.L. 614 + BCR Normas Técnicas unacquired — 09_ OQ-2 kin) | A unified declaration mechanism (planilla única) shall be created — carried as a POINTER only: no layout, file format or submission channel is invented (OQ-001) | `sv/sources/09_Ley_Sistema_Pensiones.pdf` | Art. 27 p.14 (EVID-198) |
 | LB-003 | Ley Integral del Sistema de Pensiones, Art. 22 (gloss-level per evidence; windows as extracted): omission/inconsistency procedure — the Administradora notices the employer within TWENTY días hábiles after acréditación; the employer cures within TEN días hábiles; uncured cases go to MTP (Ministerio de Trabajo y Previsión Social) inspection and certification; debt determination within the twenty-plus-ten días hábiles window; payment of the determined debt within TEN días hábiles | The omission/inconsistency cure chain: Administradora notice ≤ 20 días hábiles post-acréditación → employer cure ≤ 10 días hábiles → MTP inspection → certification → determination (20+10 días hábiles) → payment (10 días hábiles) — the discrepancy-response workflow's stage windows (anchor composition as-extract, OQ-003) | `sv/sources/09_Ley_Sistema_Pensiones.pdf` | Art. 22 pp.11-12 (EVID-198) |
-| LB-004 | Ley Integral del Sistema de Pensiones, Arts. 23-25 (gloss/verbatim mix): Art. 23 — cobro administrativo starts ≤ 30 days, exhausted at 90 days without payment or a broken two-month commitment, then cobro judicial; Art. 24 — the deuda (debt) is supported by título ejecutivo (executory instrument) and is "irrenunciable e imprescriptible"; Art. 25 (verbatim): "Las cotizaciones constituyen créditos privilegiados de conformidad con el artículo 121 del Código de Trabajo." | The collection chain (administrative → judicial, ejecutive instrument); the cotización debt may NOT be waived and NEVER prescribes; cotizaciones are privileged credits per CT Art. 121 — carried as payable classifications/notes, the collection actions belonging to the Administradora | `sv/sources/09_Ley_Sistema_Pensiones.pdf` | Arts. 23-25 pp.12-14 (EVID-198) |
+| LB-004 | Ley Integral del Sistema de Pensiones, Arts. 23-25 (gloss/verbatim mix): Art. 23 — cobro administrativo starts ≤ 30 days, exhausted at 90 days without payment or a broken two-month commitment, then cobro judicial; Art. 24 — the deuda (debt) is supported by título ejecutivo (executory instrument) and is "irrenunciable e imprescriptible"; Art. 25 (verbatim): "Las cotizaciones constituyen créditos privilegiados de conformidad con el artículo 121 del Código de Trabajo." | The collection chain (administrative → judicial, ejecutive instrument); the cotización debt may NOT be waived and NEVER prescribes; cotizaciones are privileged credits per CT Art. 121 — carried as payable classifications/notes, the collection actions belonging to the Administradora | `sv/sources/09_Ley_Sistema_Pensiones.pdf` | Art. 23 p.12 · Art. 25 p.14; Art. 24 within the span, not separately pinned (EVID-198) |
 | LB-005 | Ley Integral del Sistema de Pensiones, Art. 143 (late declaration; per evidence extract): declaration of cotizaciones after the deadline — multa 5% de las cotizaciones dejadas de percibir when made up to twenty days late; 10% beyond twenty days; non-inscription of workers (Art. 8 inc. 3º registration duty) — multa 15% | SIP late-DECLARATION fines: 5% of the cotizaciones the Administradora failed to receive (dejadas de percibir) if declared ≤ 20 days late, 10% if > 20 days; 15% for workers never enrolled — a DECLARATION-ladder regime kept distinct from payment sanctions and from the ISSS recargo (day-type as-extract: plain días, OQ-003) | `sv/sources/09_Ley_Sistema_Pensiones.pdf` | Art. 143 p.58 (EVID-198) |
 | LB-006 | Ley Integral del Sistema de Pensiones, Art. 144 (per evidence extract): incomplete or erroneous declaration gravely prejudicing an affiliate's account — multa US$600; escalating if not cured within fifteen days (extract "+$1,200"; wave binding reading: the fine becomes US$1,200 — OQ-003 re-verification) | Incomplete/erroneous declaration fine: US$600, escalating to US$1,200 when the defect is not cured within 15 days | `sv/sources/09_Ley_Sistema_Pensiones.pdf` | Art. 144 p.58 (EVID-198) |
 | LB-007 | Ley Integral del Sistema de Pensiones, Art. 145 (non-payment; per evidence extract): absolute omission of payment — multa 20% + recargo moratorio 2% per month-or-fraction, plus lost rentabilidad (foregone yield) and the employer-side Art. 16-inc. 2º cotización; underpayment (pago parcial/inferior) — multa 10% + recargo 5% per month-or-fraction | SIP payment sanctions: non-payment = 20% fine + 2%/month-or-fraction surcharge (+ flagged non-computed legs: lost yield, the Art. 16 inc. 2º employer leg); underpayment = 10% fine + 5%/month-or-fraction surcharge — two distinct tracks never blended | `sv/sources/09_Ley_Sistema_Pensiones.pdf` | Art. 145 p.59 (EVID-198) |
@@ -150,11 +150,12 @@ they seed the sanction-type catalog with article refs (FR-094).
   window UNIFORMLY to every period — December cotizaciones are due
   within the first ten días hábiles of January — and shall implement
   NO December-specific deferral or special rule for social security
-  (none exists in the corpus); the December-rule kin of the same
-  ten-hábiles window family (ISR retention remittance, Ley ISR
-  Art. 62) is OWNED by `taxation/01_isr-framework.md` SV-TAX-FR-032
-  and is cited by id here, never restated or imported.
-  (LB-001; EVID-198; cross-ref SV-TAX-FR-032, SV-FREP-FR-203)
+  (none exists in the corpus); the ISR retention-remittance deadline
+  of the same ten-hábiles window family and its December rule (Ley
+  ISR Art. 62) are OWNED by `taxation/01_isr-framework.md`
+  SV-TAX-FR-032 and are cited by id here, never restated or
+  imported. (LB-001; EVID-198; cross-ref SV-TAX-FR-032,
+  SV-FREP-FR-203)
 
 ### 3.2 Sanctions and mora (distinct regimes)
 
@@ -360,13 +361,13 @@ instrument acquisition via the catalog's source_article re-seed.
 
 - **AC-001:** Given a declaration month whose following month M+1
   opens with four non-business days among its first thirteen
-  calendar days (a weekend pair plus two asuetos — placeholder
-  dates) so that only nine días hábiles elapse by calendar day 13
-  (13 − 4 = 9), then due_date = the 10th día hábil = the 14th
-  calendar day of M+1 — the deadline lands beyond calendar day 13,
-  pushed past the 10th calendar day by the non-business days,
-  computed exclusively by SV-FREP-FR-203's first_n_habiles(M+1, 10),
-  and the payroll module ships no business-day table of its own
+  calendar days (two weekend pairs — placeholder dates) so that
+  only nine días hábiles elapse by calendar day 13 (13 − 4 = 9),
+  then due_date = the 10th día hábil = the 14th calendar day of
+  M+1 — the deadline lands beyond calendar day 13, pushed past
+  the 10th calendar day by the non-business days, computed
+  exclusively by SV-FREP-FR-203's first_n_habiles(M+1, 10), and
+  the payroll module ships no business-day table of its own
   (FR-086; cross-ref SV-FREP-FR-203).
 - **AC-002:** Given a March declaration with five workers — three
   affiliated to AFP-1, one to AFP-2 (routing per SV-PAY-FR-064) and
