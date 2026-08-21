@@ -453,6 +453,37 @@ expected and absorbed by instantiating the canon, never by forking it.
       ¶2; precio-de-costo; 50%-of-indemnización; INTECAP ladder dates).
       Next per `gt/HANDOVER.md` §5j/§9: S-GT4 fiscal-reporting plan
       (F1-F6 + GOQ-92..121; consumes taxation + payroll FR ids).
+      **GT S-GT4 merge 2026-08-20 (§4.6 protocol, twenty-second run):**
+      `gt-research` rebased onto `8513e49` (13 commits rewritten
+      `fa2152d..88cb6e8`→`68cd873..4be704d`: S-GT4 plan + T1..T6 topic
+      files + T7 index/COVERAGE/write-back + session close +
+      final-review fixes; zero conflicts — gt/-scoped or new files only)
+      then fast-forward-merged; remote branch ref updated via
+      force-with-lease re-push. **GT = S-GT4 FISCAL-REPORTING SYNTHESIS
+      COMPLETE** — fourth requirements wave: 6 files + 00_index
+      (GT-FIN-FR-001..185; 111 LBs / 79 ACs / 40 OQ rows consuming
+      GOQ-92..121 + GOQ-14 owned + kin 01/06/09/66/67/94/101/105 and
+      resolved kin 118/119/120 never re-opened; master-index write-back
+      31 annotations + synthesis-order line). Discipline shipped: R46 ISR
+      identities on every form-naming row (1411/1431/1371/1331/1321);
+      R47 SAT-2320 10-dh = RetWeb print never frozen; statutory
+      non-re-derivation held wave-wide (GT-TAX-FR-105..110 + 025/031..037
+      + both rate CSVs consumed by exact id; payroll via
+      GT-PAY-FR-213..222; GT-EINV-FR-210 outcome-only); GOQ-105
+      LET-layouts-images negative-FR = export-layout hard blocker; the
+      63_ CSV spec column-letter-faithful (16/11-col; >Q2,500 NIT+ID from
+      2023-01 dated row); criterios confirm-only (GOQ-116 clause-citation
+      ban; GOQ-121 negative-FR — no GOQ-09 backfill). All 6 task reviews
+      Approved first-pass + final whole-wave review (2 minors, one fix
+      wave, re-review PASS). COVERAGE 67 cited / 15 N-A / 0 pending (9
+      rows flipped; 49_/50_ cited as `gt/sources/…html (read via txt
+      layer)` — extraction-dump paths alone don't count for the grep).
+      New gap reports for register triage: ISR-constancia form code
+      (rides GOQ-98), D27-92 Cap. VIII/IX primary texts, informe
+      periodicity, 63_ rule-6c col-D omission, 51_ slash normalization.
+      Next per `gt/HANDOVER.md` §5k/§9: S-GT5 COA/commercial plan
+      (C1-C6 + GOQ-122..134; GOQ-124 retention/destruction matrix = an
+      S-GT5 deliverable; D-19-2016 still blocks S-GT6/S-GT7).
       **SV S9 merge 2026-08-20 (§4.6 protocol, fourteenth run):**
       `sv-research` rebased onto `f2eccbc` (19 commits rewritten:
       `6d01c1e`→`8fe51cc` S8 merge-record fix + `558ed94`→`f67658f`
