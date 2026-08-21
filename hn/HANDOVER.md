@@ -11,8 +11,9 @@ and **the W5 acquisition-reads wave (this refresh — full evidence passes
 13th-month law (R-H74), the "D. 135-94/201-96" framing voided (R-H75); bono
 reglamento STSS-154-2000 encoded (R-H76, OQ-004 resolved); séptimo día
 statutory layer; D. 150-2008 + Acuerdo 345 anchored; payroll 314→326 FRs,
-COVERAGE gates re-run PASS). Next = D. 59-2023 fetch (ENAG Feb-2024) + the
-R-H75 interp/reform chain + owner merge decision**.
+COVERAGE gates re-run PASS; plus the D. 59-2023 FETCH — G 36,460 via ENAG,
+registered `109_`, evidence pass pending). Next = the 109_ evidence pass +
+the R-H75 interp/reform chain + owner merge decision**.
 Read this fully before acting; it is the authoritative HN cross-session
 memory (conversation context does not survive). Update it at every session
 boundary.
@@ -94,13 +95,17 @@ boundary.
 
 ## 3. State: corpus (research phase COMPLETE)
 
-107 registered files, every one page-1 verified (01-108; gap 103
-reserved-unused; 105-108 acquired 2026-08-20 post-V-HN1 — **105_ = D. 112
-THE aguinaldo law**, recovered via Wayback of the official STSS upload,
-correcting the round-5 "routes exhausted" claim; 106_ = D. 43-97 + Acuerdo
-STSS-154-2000 bono reglamento; 107_ = D. 150-2008 pact; 108_ = Acuerdo 345
-Comisiones SMM; a duplicate D. 103 upload was discarded md5-identical to
-104_). Structure:
+108 registered files, every one page-1 verified (01-109; gap 103
+reserved-unused; 105-108 acquired 2026-08-20 and W5-evidenced (EVID-362..384)
+— **105_ = D. 112-1982 THE aguinaldo law (R-H74, P2 unblocked; recovered via
+Wayback of the official STSS upload, correcting the round-5 "routes
+exhausted" claim); 106_ = TWO extracts — D. 43-97 (G 28,271 29-may-1997) +
+Reglamento STSS-154-2000 bono (gazette 6-nov-2000; 11th title incident,
+R-H77); 107_ = D. 150-2008 CT-120 reform + annual pact; 108_ = Acuerdo 345
+Comisiones SMM (G 25,680)**; 109_ = D. 59-2023 Adulto Mayor intermediate
+reform (G 36,460 14-feb-2024, via ENAG) acquired 2026-08-20, evidence pass
+PENDING — taxation/02 OQ-009's instrument; a duplicate D. 103 upload was
+discarded md5-identical to 104_). Structure:
 - **Laws/consolidations:** ISR D.L. 25 (`01_`, hasta SAR-07-2025), ISV
   D.L. 24 (`02_`, hasta D.L. 59-2022), CT D. 170-2016 (`03_`, hasta
   D. 180-2020), D. 17-2010 + Reglamento 1121-2010 + D.28-2019 interp
@@ -377,22 +382,30 @@ Comisiones SMM; a duplicate D. 103 upload was discarded md5-identical to
    aguinaldo interp, payroll/02 FR-087 + OQ-007 conflict vs ISR 10.h
    carried; 95_/96_ in-corpus-unread status fix; whole-base/cliff/feriados
    evidence fixes; EINV FR-085/086 + FREP FR-076 + PAYR FR-087 additions).
-   All four topic indexes → approved. **NEXT = owner merge decision; then
-   S-HN5 thin closes at milestone (Código de Comercio still unacquired)
-   and/or the acquisition wave. DONE same session: V-HN1b reads + S-HN5
-   scoping (DEFERRED pending Código de Comercio + Ley RAP — see
-   EXTRACTION_PLAN) + acquisition wave round 6 (105_-108_ acquired).
-   NEXT: evidence passes for 105_-108_ (105_ unblocks the P2 aguinaldo
-   sub-cluster — payroll/02 OQ-001), D. 59-2023 fetch (ENAG Feb-2024),
-   then D. 135-94/201-96 + Acuerdo 799 + Reglamento General IHSS + Ley RAP
-   (§6.2 queue).**
-2. **Acquisition queue (W2+W3+W4+S-wave lead harvests, RESEARCH §5 + master-index
-   C-registers + synthesis OQs):** TOP = **D. 135-94 + Acuerdo 201-96
-   (aguinaldo/compensación social — the 13th-month statutory home; P2 + S-HN4
-   blocker)** + **Reglamento Ley ISR "Acuerdo N°799" (NEW top from S-HN1 —
-   depreciation/personal-deduction/vinculación mechanics, 5× cited)** +
-   **D. 199-2006 original (L30k@60 senior-tier anchor, activation-blocked
-   row)** + **Reglamento General IHSS (contribution-base definition)** +
+   All four topic indexes → approved. DONE same session (W5 wave): the
+   105_-108_ evidence passes EVID-362..384 — **P2 aguinaldo UNBLOCKED**
+   (R-H74/R-H75), bono reglamento encoded (R-H76, payroll/02 OQ-004
+   resolved), séptimo día statutory layer, D. 150-2008 + Acuerdo 345
+   anchored; COVERAGE regenerated (108 rows = 105 cited + 3 N/A) — plus the
+   **D. 59-2023 FETCH (G 36,460 14-feb-2024 via ENAG, registered `109_`,
+   page-1 verified, OCR sidecar; preliminary scan: Art. 30 reformed with the
+   tercera/cuarta-edad two-class structure, numeral 14 [the L30,000 credit]
+   RESTATED). NEXT: the 109_ evidence pass (taxation/02 OQ-009's
+   instrument — wording comparison vs 95_, vigencia pin, beneficiary-class
+   check, identify the edition's other decrees 63-2023/5-2024), then the
+   R-H75 chain (D. 179-97 top) + Acuerdo 799 + Reglamento General IHSS +
+   Ley RAP (§6.2 queue).**
+2. **Acquisition queue (W5-amended; RESEARCH §5 + master-index
+    C-registers + synthesis OQs):** TOP = ~~D. 135-94 + Acuerdo 201-96~~
+    (VOIDED R-H74/R-H75 — the 13th month = D. 112-1982 `105_ evidenced;
+    residual = interp/reform chain below) → **D. 179-97 (G 28,441
+    17-dic-1997 — Art. 1 reform content unknown, rows reversible) /
+    D. 178-86 (G 25,077) / D. 2-87 (G 25,155) / D. 36-90 (G 26,131)** +
+    D. 54-95 + D. 247-89 (prior CT-120 reform) + **Reglamento Ley ISR
+    "Acuerdo N°799" (from S-HN1 —
+   ~~**D. 199-2006 original**~~ (ACQUIRED as `95_` + evidenced V-HN1b —
+   FR-067 pinned 10-ago-2007; residual = the 109_ wording check) +
+   **Reglamento General IHSS (contribution-base definition)** +
    **Ley RAP D.L. 107-2013 (doubly load-bearing)** + Ley Equidad Tributaria
    D. 51-2003 (AS/ATN + tarjetas Art. 18) + Acuerdo SAR-236-2024 + DGS SMM
    companion prints (2022-2025 + 2027 when exists) + D. 58-1982 + D. 131-98
@@ -422,9 +435,10 @@ P2 aguinaldo UNBLOCKED (R-H74: D. 112-1982 = the 13th-month law; R-H75:
 "D. 135-94/201-96" voided), bono reglamento encoded (R-H76, OQ-004
 resolved), séptimo día statutory layer (payroll/06 FR-248/249), D. 150-2008
 + Acuerdo 345 anchored; payroll = 326 FRs/158 LBs/170 ACs/81 OQ rows;
-COVERAGE gates PASS (107 rows = 105 cited + 2 N/A); rulings R-H1..R-H77.
-**Next = D. 59-2023 fetch (ENAG) + R-H75 chain acquisition + owner merge
-decision; S-HN5 stays DEFERRED.**
+COVERAGE gates PASS (108 rows = 105 cited + 3 N/A); rulings R-H1..R-H77.
+**Next = the 109_ evidence pass (D. 59-2023 fetched this session; Art. 30
+two-class + numeral 14 survives per preliminary scan) + R-H75 chain
+acquisition + owner merge decision; S-HN5 stays DEFERRED.**
 
 ## 7. Conventions (mirroring SV)
 
