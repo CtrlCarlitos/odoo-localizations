@@ -40,6 +40,9 @@ boundary.**
   authority) acquired/evidenced EVID-339..358; R30(a) survivor-set
   addendum; SOQ-54 Ley side RESOLVED; D.O. RECOVERED — see §5 wave log.**
   **W17 (2026-08-20): 75_ fold-in COMPLETE — taxation/16 new
+  (MERGED to main at c42a600 via rebase-then-merge, twenty-third §4.6
+  run in root HANDOVER, zero conflicts; pre-rebase SHAs
+  562a3e3..f528181 superseded by 37778b3..c42a600)
   (SV-TAX-FR-354..396) + 01/04/13 edits (397..404; OQ-001 resolved),
   fiscal-reporting 213..214 + 06/07/08 notes, payroll 144..147 + 04 note
   — see §5 wave log.** COVERAGE after W17: 64 cited / 0 pending / 9 N/A /

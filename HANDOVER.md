@@ -484,6 +484,34 @@ expected and absorbed by instantiating the canon, never by forking it.
       Next per `gt/HANDOVER.md` §5k/§9: S-GT5 COA/commercial plan
       (C1-C6 + GOQ-122..134; GOQ-124 retention/destruction matrix = an
       S-GT5 deliverable; D-19-2016 still blocks S-GT6/S-GT7).
+
+      **SV W17 merge 2026-08-20 (§4.6 protocol, twenty-third run):**
+      `sv-research` rebased onto `c297853` (7 commits rewritten
+      `562a3e3..f528181`→`37778b3..c42a600`: W17 plan + T1..T5 + fix
+      wave + HANDOVER verdict; zero conflicts — sv/-scoped or new files
+      only) then fast-forward-merged; remote branch ref fixed via delete
+      + re-push. **SV = W17 75_ (D.E. 117-2001 CT application reglamento)
+      FOLD-IN COMPLETE** — the queued W16 follow-up: NEW
+      `taxation/16_ct-procedures.md` (SV-TAX-FR-354..396; 43 FRs/41 LBs:
+      clocks vocabulary, representation/domicilio, registration, the
+      Art. 31-35 declaration-state model + CT 103 amendment gate,
+      payments/extinction, compensación, **the Art. 23/133 retention
+      imprescriptibilidad/caducidad pair**, refunds, sanctions, books,
+      fiscalización, print-era historical blocks per EV75 OQ-3/OQ-4
+      bars) + taxation/04 397..400 + 13 401..404 + 01 OQ-001 RESOLVED
+      (75_ Arts. 99-100 corroborate Ley Art. 62) + fiscal-reporting/01
+      213..214 + 06/07/08 notes (SOQ-08 Art. 100 anchor CONSUMED;
+      dictamen historical) + payroll/08 144..147 + 04 note. Registry
+      corrective fold: 02_ survivors = 1-10, 16-26, 29-30, 50-51 (+52
+      spent) — EVID-358 audit supersedes the "36/45 survive" gloss.
+      Corpus 1,662 FRs (TAX 404 / FREP 214 / PAY 147); COVERAGE 64
+      cited / 0 pending / 9 N/A / 1 superseded — **all 74 rows
+      terminal-state, zero pending**. All 5 task reviews Approved
+      first-pass + final whole-wave USABLE-WITH-FIXES + one fix wave
+      (re-review PASS). Next per `sv/HANDOVER.md` §8: owner's call —
+      consolidation/cleanup wave (CAN-STAND + S7/S8/S9 RIDE lists),
+      acquisition follow-ups (SOQ-46 NIIF instrument = gating), or
+      go-live prep.
       **SV S9 merge 2026-08-20 (§4.6 protocol, fourteenth run):**
       `sv-research` rebased onto `f2eccbc` (19 commits rewritten:
       `6d01c1e`→`8fe51cc` S8 merge-record fix + `558ed94`→`f67658f`
