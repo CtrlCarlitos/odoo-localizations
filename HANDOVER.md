@@ -392,6 +392,46 @@ expected and absorbed by instantiating the canon, never by forking it.
        Next per `hn/HANDOVER.md`: R-H75 interp/reform chain (D. 179-97
        top) + 95_ clean-consolidation lead — bootstrap
        `Read hn/HANDOVER.md and continue.`
+       **HN W6 merge 2026-08-20 (§4.6 protocol, twenty-first run):**
+       `hn-research` rebased onto `36df87c` (3 commits rewritten
+       `804a98c..7b1e597`→`1124e23..24391b6`: twentieth-merge branch
+       record + W6 acquisition + W6 evidence pass; zero conflicts —
+       hn/-scoped only) then fast-forward-merged; remote branch ref
+       updated via delete + re-push. **HN = W6 R-H75-CHAIN WAVE
+       COMPLETE (acquisition + evidence pass same session; corpus
+       117 files, evidence through EVID-428):** route = Wayback of the
+       old official `congreso.gob.hn/leyesdehonduras/` library (512
+       PDFs, CDX-catalogued, `id_` fetch — the pre-2015 decree source;
+       NATLEX/Mojeek/DDG hard-blocked from this network, recorded).
+       Nine files `110_`..`118_`: **D. 179-97** (reforms D. 112 Arts.
+       1+9 = the jubilados/pensionados 13th-month extension — payroll/02
+       OQ-008 RESOLVED, dated beneficiary rows permanents-only
+       1982-11-01→1997-12-16 / +jubilados from 1997-12-17, FR-052),
+       **D. 178-86** (interp original), **D. 2-87** (dado 3-feb-1987 —
+       the "30-feb" print error resolved; convention/custom-permanent
+       adición; OQ-009 RESOLVED), **D. 112-1982 ORIGINAL gazette print**
+       (G 23,848 — gazette pin now PRIMARY; original Art. 1 =
+       permanentes-only "recibirán además"), **D. 135-94** (14th-month
+       origin Cap. IX Art. 34; NEW vigencia conflict OQ-012 carried),
+       **D. 58-1982** (selectivo código-203 origin — 1982 cc-tier
+       canasta + 1995 20% states; FREP/09 OQ-001 narrowed),
+       **D. 131-98** (Art. 43 = the 4% turística/código-259 origin;
+       FREP/09 OQ-010 RESOLVED; operadora anti-cascading exclusion
+       encoded FR-321), **D. 110-93** (Art. 9 intereses = código-115
+       core; FREP/02 Art. 12 L50,000 savings monto ACTIVATED, excess-
+       only), **D. 54-96** (FIRST Ley Equidad Tributaria; FREP/07
+       job-credit statute + OQ-014 narrowed). **R-H80**: Art. 18
+       transitory = "1° de enero de 1983" per the gazette (triple-OCR
+       300/400/600dpi convergence; no in-session image input) vs the
+       105_ book's "10 de enero" — gazette = record, no-liability
+       window ends 1982-12-31. Rulings R-H1..R-H80; payroll index
+       326/163/170/83, FREP 363/157/189/169; COVERAGE 117 rows = 115
+       cited + 2 N/A, gates PASS (1094/502/573/325). Residual chain
+       (D. 36-90 / D. 54-95 / D. 247-89 — verified ABSENT from the
+       congreso library) + post-W6 queue (Acuerdo 799, Reglamento
+       General IHSS, Ley RAP, D. 314-98 watch, post-1995 selectivo
+       chain, D. 99-93) + 95_ clean-consolidation lead — bootstrap
+       `Read hn/HANDOVER.md and continue.`
        **GT S-GT3 merge 2026-08-20 (§4.6 protocol, seventeenth run):**
       `gt-research` rebased onto `7bf2e86` (14 commits rewritten
       `da0f374..57c6be0`: plan + T1..T11 + close + final-review fixes;
