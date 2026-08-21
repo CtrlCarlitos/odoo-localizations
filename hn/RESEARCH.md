@@ -250,17 +250,16 @@ corpus documents but absent; logged per evidence-file OQs):**
   **D. 179-97** (`110_` — reforms D. 112 Arts. 1 AND 9: adds jubilados/pensionados
   to the 13th-month class, vigencia 17-dic-1997, + non-regression Art. 2; resolves
   `105_` OQ-1), **D. 178-86** (`111_`, G 25,077 17-nov-1986, interp Arts. 9/10/12),
-  **D. 2-87** (`112_`, G 25,155 18-feb-1987, adición+re-interp — dado **3-feb-1987**,
+  **D. 2-87** (  `112_`, G 25,155 18-feb-1987, adición+re-interp — dado **3-feb-1987**,
   resolving `105_` OQ-3's "30-feb-1987" print error), **D. 112-1982 ORIGINAL gazette
   print** (`113_`, G 23,848 01-nov-1982 — pre-reform Art. 1 = permanentes-ONLY,
   "recibirán además"; pins exactly what D. 179-97 changed; Constitución Art. 128.10
   considerando; Art. 18 transitorio séptimo día "1°-ene-1983" vs `105_` book-print
   10-ene-1983 = print variance to adjudicate), **D. 135-94** (`114_`, gazetted
   7-ene-1995 — the 14th-month origin law, Cap. IX Art. 34 + major tax measures).
-  STILL UNACQUIRED from the chain: **D. 36-90 (G 26,131 11-may-1990) / D. 54-95 /
-  D. 247-89** — verified absent from the congreso.gob.hn library. The W5 "STSS
-  republish routes first" guess was wrong for this family — the old Congreso
-  library (below) was the yield.
+  **W7 DECODE (2026-08-21, `119_`): the residual chain is now DECODED + gazette-
+  pinned even though the 1990-1995 gazette texts remain unacquired — see the
+  W7 block below.**
 - **[W6 ROUTE — OLD CONGRESO LAW LIBRARY (the pre-2015 decree source):]**
   `www.congreso.gob.hn/leyesdehonduras/<N>-<YY>.pdf` — 512 PDFs, official
   congressional scans (mostly gazette prints), domain dead; recoverable via
@@ -272,6 +271,37 @@ corpus documents but absent; logged per evidence-file OQs):**
   Tributaria e Incentivos al Empleo** — the FIRST Equidad Tributaria, ancestor of
   the queued D. 51-2003). The library's other ~500 decrees are browsable the same
   way if any lead points at a pre-2001 decreto number.
+- **[W7 ROUTE — CONGRESO "INVENTARIOS DE LEYES" (the metadata decoder, `119_`):]**
+  `congreso.gob.hn/decretos/Inventarios de Leyes.pdf` (Wayback 2009 capture,
+  text-native, 559 pp.) = the official thematic law inventory ("Mapeo de la
+  Legislación Nacional"; labor section Sub Sección 6.1 pp.274-283, "vigencia
+  desde 1877"). It DECODED the residual chain (R-H81/R-H82, EVID-429..433):
+  **the 102_ OQ-2 "conflict" = TWO 1995 decrees** — interp = **D. 74-95**
+  (G 27,655 18-may-1995; the W4 read "54-95" on that footnote was an OCR misread,
+  dual-dpi 300/600 re-verified) and extension-to-jubilados = **D. 54-95**
+  (G 27,639 28-abr-1995; the book's "28,639" = digit-swap; monotonicity
+  27,587@23-feb < 27,639@28-abr < 27,655@18-may arbitrates); Acuerdo 02-95
+  itself = G 27,587 23-feb-1995; **D. 36-90 = G 26,131 11-MAY-1990** (the
+  inventory's "11-abril" = its own slip — publication cannot precede the
+  2-may-1990 Dado); **D. 247-89 = G 26,028 6-ene-1990** (CT-120 cesantía
+  amplification — the ONE chain member whose text is quote-nowhere = the live
+  residual, genealogical since 86_ integrates its effect). Also: RIT ancestor =
+  Acuerdo 166-JD-76 + Art.-8 reform 003-82JD (both G 25,013 30-ago-1986);
+  D. 215-92 = Judicial-branch 13th-month authorization. **Caution class: its
+  gazette digits slip** ("25,655", "Decreto No. 12" for 112, garbled Acuerdo-345
+  pin) — discovery source only, never the gazette record.
+- **[W7 TEXT-HUNT LOG (all routes exhausted this session for the four texts:]**
+  D. 36-90 / D. 54-95 / D. 74-95 / D. 247-89): (A) STSS/trabajo.gob.hn CDX —
+  2,411 PDFs enumerated; the biblioteca "ley de decimo tercer mes.pdf" and
+  "reglamento del decimo cuarto.pdf" fetched = md5-IDENTICAL to `105_`/`102_`
+  (duplicates discarded); (B) TSC biblioteca — live catalog re-checked (2026
+  redesign, Joomla→Gantry) + Wayback CDX 12,148 PDFs — negative; (C) congreso
+  CDX full-domain (not just leyesdehonduras): second library `leyes nacionales/`
+  (~35 era files, no matches), `Codigos/` (12), GLIN archive `glinhn`+`PDF/DECRELEY`
+  (date-coded HN<DDMMYYYY><NN> names, 1978-2003 — no matching dates) — negative,
+  but YIELDED the Inventarios + LISTADO_LEYES catalogues; (D) SAR wp-json —
+  posts-only, empty (known). Remaining: pre-2015 gazette archive (none located),
+  NATLEX (network-blocked), labeled non-official mirror at synthesis time.
 - **Reglamento General del IHSS / Régimen Obligatorio** — the contribution
   BASE definition (13th/14th/OT inclusion) is delegated wholesale by Ley
   Art. 100; also inscription deadlines, salario categories. TOP lead (W4b).
@@ -281,8 +311,12 @@ corpus documents but absent; logged per evidence-file OQs):**
 - **DGS SMM companion table prints** — the promedio source family: need the
   2025 print (SAR-43-2026's L13,985.16 printed nowhere in corpus) and the
   2027 print when it exists (STSS Dirección General de Salarios page 921 kin).
-- **D. 54-95** — reform of the 14th-month reglamento (102_ cites conflicting
-  gazette numbers — OQ-2; resolves the 100%-vs-proportional gate's authority).
+- **D. 54-95** — ~~reform of the 14th-month reglamento (102_ cites conflicting
+  gazette numbers — OQ-2)~~ **DECODED W7 (R-H81)** = the 14th-month extension to
+  ALL jubilados y pensionados en general (tacit reform of Acuerdo 02-95 Art. 1;
+  G 27,639 28-abr-1995; the June/30-jun interp = the SEPARATE D. 74-95,
+  G 27,655 18-may-1995). Text still unacquired; content triple-pinned
+  (102_ footnotes + 119_ inventory + 110_ considerandos).
 - **STSS-006-2019** (G 34,840 — maquila SMM base, Cláusula Novena kin) and
   the commission instruments (STSS-563-2021, -647-2023, -013-2023, -196-2023,
   -101-2026, Acuerdos Ejecutivos 25-2022/029-2026, Actas 002-2024/004-2026)
@@ -317,9 +351,12 @@ corpus documents but absent; logged per evidence-file OQs):**
   intermediate reform of D. 199-2006 Adulto Mayor, scope unknown, may touch
   the Art. 30.14 L30k credit (taxation/02 OQ-009). ENAG Gaceta Digital covers
   Feb-2024 (recipe §5/§6).
-- **Still unacquired (top, W6-amended):** the residual aguinaldo/14th chain
-  **D. 36-90 / D. 54-95 / D. 247-89** (absent from congreso.gob.hn library;
-  routes: SAR republish, TSC/CEDIJ, other official Wayback mirrors);
+- **Still unacquired (top, W7-amended):** ~~the residual aguinaldo/14th chain
+  D. 36-90 / D. 54-95 / D. 247-89~~ (**DECODED W7 via `119_`** — R-H81/R-H82:
+  gazettes + operative content pinned; the four TEXTS remain unacquired with all
+  routes this session exhausted, and only **D. 247-89's text is load-bearing
+  anymore** (content quote-nowhere, genealogical); the D. 54-95/D. 74-95/D. 36-90
+  content is triple/double-pinned via concordant official quotes);
   **Reglamento Ley ISR "Acuerdo N°799"** (not a congressional decreto — likely
   absent from the leyesdehonduras library by class; SAR/gazette routes);
   **Reglamento General IHSS**; **Ley RAP D.L. 107-2013**; SAR wp-json search
@@ -419,7 +456,15 @@ cited by corpus documents but absent; logged per evidence-file OQs):**
   official `congreso.gob.hn/leyesdehonduras/` library (512 PDFs) is recoverable
   via Wayback CDX + `id_` fetch (recipe in §5, W6 ROUTE block); OCR route for
   these scans = `gs -r300 pnggray` + `tesseract --psm 6` (proven on all nine
-  W6 files).
+  W6 files). **W7 additions:** (a) the congreso domain has a SECOND library
+  (`leyes nacionales/`), a `Codigos/` folder and a GLIN archive
+  (`HN<DDMMYYYY><NN>.PDF` date-coded names) — enumerate with a full-domain CDX,
+  not just leyesdehonduras; (b) `congreso.gob.hn/decretos/Inventarios de Leyes.pdf`
+  (`119_`, text-native — `gs -sDEVICE=txtwrite` extracts it; per-page with
+  `-dFirstPage/-dLastPage`) = the official metadata decoder for pre-2001
+  gazette pins; (c) when a single printed glyph is load-bearing (the W7
+  "74-95 vs 54-95" case), re-OCR the SAME file at 300 AND 600dpi and require
+  agreement — this is what flips a W4-grade transcription defect into a ruling.
 
 ## 7. Hint layer — practitioner recollections (pointers only, never LB)
 

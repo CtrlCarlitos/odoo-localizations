@@ -15,13 +15,62 @@ dado 3-feb-1987) + the D. 112-1982 ORIGINAL gazette print (pre-reform Art. 1) +
 D. 135-94 (14th origin) + D. 58-1982 selectivo + D. 131-98 + D. 110-93 + D. 54-96
 (first Equidad Tributaria). **The W6 evidence pass is ALSO COMPLETE (same
 session): EVID-392..428, R-H80, payroll/02 + FREP 02/07/09 updated, OQs
-resolved/narrowed, COVERAGE 117 rows = 115 cited + 2 N/A, gates PASS.**
-Next = residual chain (D. 36-90 / D. 54-95 / D. 247-89 — absent from the
-library) + the post-W6 queue (Acuerdo 799, Reglamento General IHSS, Ley RAP,
-D. 314-98, post-1995 selectivo chain, D. 99-93, 95_ clean consolidation).**
+resolved/narrowed, COVERAGE 117 rows = 115 cited + 2 N/A, gates PASS; W6
+MERGED to main 2026-08-20 (twenty-first §4.6 run at `24391b6`, root record
+`8513e49`).** **W7 residual-chain decode COMPLETE 2026-08-21 (on-branch):
+the text hunt closed with routes A-D exhausted (congreso full-domain CDX
+incl. `leyes nacionales/`/GLIN/Codigos; TSC live+CDX; STSS CDX 2,411 PDFs —
+two fetches md5-duplicates of 102_/105_, discarded) but the chain DECODED
+via `119_` = the official congreso "Inventarios de Leyes" (EVID-429..433):
+R-H81 — the 102_ OQ-2 "conflict" = TWO 1995 decrees (interp = D. 74-95
+G 27,655 18-may-1995 — the W4 footnote read "54-95" was an OCR misread,
+dual-dpi 300/600-fixed in EVID-238/LB-002; extension-to-jubilados =
+D. 54-95 G 27,639 28-abr-1995 — the book's "28,639" = digit-swap,
+monotonicity-arbitrated; Acuerdo 02-95 itself = G 27,587 23-feb-1995) →
+payroll/02 FR-057 re-attributed + NEW FR-097 (dated beneficiary row, gap
+range 097-100) + LB-025 + AC-022, OQ-002 RESOLVED; R-H82 — D. 36-90 =
+G 26,131 11-MAY-1990 (the inventory's "11-abril" = its own slip; payroll/06
+LB-014/FR-248-249 rows) and D. 247-89 = G 26,028 6-ene-1990 (text remains
+quote-nowhere = the live residual; payroll/08 LB-007 lineage). Also: RIT
+ancestor identified (Acuerdo 166-JD-76 + reform 003-82JD, both G 25,013
+30-ago-1986). Verification: bank-check 23/23 Spanish legs PASS vs the text
+layer + 5/5 glyph probes vs 600dpi; structural payroll/02 47 FRs/25 LBs/22
+ACs/13 OQ rows = index; COVERAGE regen 118 rows = 116 cited + 2 N/A, gates
+PASS (1095/503/574/325). Payroll totals 326→327 FRs, 164 LBs, 171 ACs;
+rulings R-H1..R-H82; next EVID = 434.**
+Next = post-W6 queue (Acuerdo 799, Reglamento General IHSS, Ley RAP,
+D. 314-98, post-1995 selectivo chain, D. 99-93, 95_ clean consolidation,
+D. 247-89 text).**
 
 ## Wave log
 
+- **W7 residual-chain decode (2026-08-21, DONE — acquisition + evidence pass +
+  synthesis updates, controller-executed):** one file acquired
+  (`119_Congreso_Inventarios_de_Leyes.pdf` — official congreso thematic law
+  inventory, text-native, 559 pp., Sub Sección 6.1 Derecho Laboral pp.274-283;
+  Wayback `id_` fetch of `congreso.gob.hn/decretos/Inventarios de Leyes.pdf`).
+  Evidence pass `119_Congreso_Inventarios_de_Leyes.evidence.md`
+  (EVID-429..433) — controller-executed (small batch, no dispatch needed):
+  EVID-429 the 1995 14th-month trio (Acuerdo 02-95 G 27,587 23-feb-1995 /
+  D. 54-95 extension G 27,639 28-abr-1995 / D. 74-95 interp G 27,655
+  18-may-1995 — the OQ-2 decoder); EVID-430 D. 247-89 (G 26,028 6-ene-1990,
+  CT-120 cesantía amplification); EVID-431 D. 178-86/D. 2-87 corroborations +
+  D. 36-90 pin (G 26,131; the inventory's "11-abril" slip); EVID-432
+  D. 215-92 + D. 40-89 genealogy; EVID-433 RIT ancestor (Acuerdo 166-JD-76 +
+  003-82JD, G 25,013 30-ago-1986). Adjudications: **R-H81** (the 74-95/54-95
+  decode; W4 transcription defect fixed in EVID-238 — dual-dpi 300/600 proof)
+  + **R-H82** (36-90/247-89 gazette pins; 11-abril = inventory slip).
+  Synthesis updates: payroll/02 (LB-002 verbatim fix, LB-025, FR-057
+  re-attribution, FR-097 + 14m.config dated rows, AC-022, OQ-002 resolved,
+  OQ-012 annotated — D. 54-95 content pinned does NOT arbitrate the vigencia
+  conflict); payroll/06 (LB-014 + FR-248/249 chain rows gazette-pinned);
+  payroll/08 (LB-007 D. 247-89 lineage pin); index payroll 327/164/171/83;
+  master index +EV119 + R-H81/R-H82 + register updates; COVERAGE 118 rows =
+  116 cited + 2 N/A, gates PASS. Duplicate discards: two STSS-biblioteca
+  Wayback fetches md5-identical to `105_`/`102_` (recorded in RESEARCH W7
+  log). Residual: the four TEXTS (D. 36-90/54-95/74-95/247-89) unacquired —
+  only D. 247-89 remains content-load-bearing (genealogical); routes
+  exhausted this session.
 - **W6 evidence pass + synthesis updates (2026-08-20, DONE — same session as
   the acquisition):** three evidence files, subagent-dispatched with
   pre-allocated ranges (one empty-return shape-(b) anomaly on the chain

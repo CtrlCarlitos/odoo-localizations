@@ -1,8 +1,9 @@
 # MASTER EVIDENCE INDEX — Honduras localization (W1 taxation + W2 fiscal-reporting + W3 facturación + W4 payroll — synthesis prep)
 
 Built: 2026-08-19 (synthesis prep, post-W4); updated through W5c (2026-08-20:
-+EV109, EVID-385..391) and W6 (2026-08-20: +EV110/EV114/EV115, EVID-392..428 —
-next EVID = 429). Inputs: the 24 evidence files below
++EV109, EVID-385..391), W6 (2026-08-20: +EV110/EV114/EV115, EVID-392..428)
+and W7 (2026-08-21: +EV119, EVID-429..433 — the residual-chain decode
+R-H81/R-H82; next EVID = 434). Inputs: the 28 evidence files below
 (EVID-001..333, corpus-global), built by the four evidence waves
 W1 (2026-08-19/20, taxation core), W2a/W2b (fiscal reporting), W3 (facturación),
 W4a-d (payroll). This index is the synthesis lookup: topic clusters per wave
@@ -84,6 +85,7 @@ full text lives in the evidence files). EVID ranges 130-135, 159-162, 174,
 | EV110 | `110-113_aguinaldo-chain.evidence.md` (392..404 — W6: D. 179-97 reform + D. 178-86 + D. 2-87 interps + the D. 112-1982 ORIGINAL gazette print) |
 | EV114 | `114_Decreto_135-94_Compensacion_Social.evidence.md` (405..414 — W6: the 14th-month origin law original) |
 | EV115 | `115-118_taxation-ancestors.evidence.md` (415..428 — W6: D. 58-1982 selectivo + D. 131-98 tasas/turística + D. 110-93 simplificación/intereses + D. 54-96 first Equidad) |
+| EV119 | `119_Congreso_Inventarios_de_Leyes.evidence.md` (429..433 — W7: the official congreso thematic law inventory; the 102_ OQ-2 decoder R-H81 — D. 74-95 interp / D. 54-95 extension / Acuerdo 02-95 G 27,587; D. 247-89 G 26,028; D. 36-90 G 26,131 with its "11-abril" slip ruled; RIT ancestor 166-JD-76) |
 
 Citations in requirements files use `EVxx:EVID-nnn` (and `EVxx:file OQ-n` for
 register origins). D-H1/D-H2/D-H3 (EXTRACTION_PLAN Decisions) bind all clusters.
@@ -567,8 +569,9 @@ June payment default; base = average ordinary salaries over time worked
 salario for all legal effects; L100-L5,000 fines; first period 28-oct-1994→30-jun-
 1995 (R-H44 "1991 [sic]" resolved).
 - **Governing EVIDs:** 238, 239, 240.
-- **LB:** 102_ Acuerdo 02-95 Arts. 1-15 + quoted D. 135-94 Cap. IX Art. 34 + D. 54-95
-  (conflicting cites — 102_ OQ-2 lead).
+- **LB:** 102_ Acuerdo 02-95 Arts. 1-15 + quoted D. 135-94 Cap. IX Art. 34 +
+  D. 74-95 (interp footnote; re-attributed W7, R-H81) + D. 54-95 (jubilados
+  extension footnote) — both gazette-pinned via `119_` EVID-429.
 - **Crossref:** W1 T3 (10.h cap L149,172 for 2026; annualization includes 14th
   subject to cap); D-H3 FY-start depth (30-jun gate); P1 SMM rows for the
   small-employer variant.
@@ -795,6 +798,8 @@ SMM auto-elevation of inferior contracts; CT negatives (R-H60); vintage pins;
 | R-H78 | D. 59-2023 intermediate-reform scope (taxation/02 OQ-009(a) — "may touch Art. 30.14, unacquired") | W5c read of `109_` (G 36,460, EVID-385..388): **"Reformar por adición los artículos 3 y 30" — the L30,000 credit SURVIVES unchanged** (the 2007 fourteen-numeral catalogue reprinted summarized with gazette ellipses; numeral 14 carried forward; the reprint also corpus-confirms the 2007 numbering 1-14 with the credit at 14). vigencia = publication day **14-feb-2024**; FR-067's row = 10-ago-2007 whole-life, NO mid-life cutover; OQ-009(a) RESOLVED. Side results: reformed BENEFICIARIOS now age-bounds the jubilado leg ("que cumplan con la edad" vs 2007 "sin importar su edad" — two readings open, `109_` OQ-1 → OQ-009(b) updated); edition's other decrees identified (D. 63-2023 promotions; **D. 5-2024 MUNICIPAL tax amnistía** 14-feb-2024→30-jun-2024 ["31-jun" print error, `109_` OQ-3] — expired history, amnistía-family kin of 06_; D. 6-2024 migration) | EV109:EVID-385..391; taxation/02 OQ-009(a) resolved / LB-017; FR-067 |
 | R-H79 | "Cuarta edad" undefined (96_ OQ-2 — the D.45-2025 utility-discount tiers' 35/40% predicate UNPINNED, "never guess 75+/80+") | W5c read of `109_` (EVID-386): the class is defined in the D. 59-2023 reformed Art. 3 glossary = **"la persona que haya cumplido ochenta (80) años o más, nacional o extranjero con la debida acreditación de residencia"** — cuarta edad = 80+, valid_from 14-feb-2024; cuarta ⊂ tercera (60+) by the glossary's own words; DNI-alone accreditation (D59-Art. 2.2, EVID-390). The 19-ene-2026 utility tiers' predicate PINNED = 80+; the NEW cuarta discount catalogue 1)-13) (elevated rates: medicamentos 40%, recreación 60%, salud 30%, pasaje/restaurantes/funerarias 35%, lodging 35% Mon-Fri / 25% Sat-Sun — EVID-389) = S-HN5 commercial-legal bank | EV109:EVID-386/389/390; 96_ OQ-2 resolved |
 | R-H80 | Art. 18 (D. 112-1982) transitory séptimo-día start: the 105_ book extract prints "10 de enero de 1983" vs the W6 gazette original | W6 read of `113_` (G 23,848 original print, EVID-400): the gazette reads **"1° de enero de 1983"** (ordinal primero — OCR "1+"/"1°" consistent across three independent passes at 300/400/600dpi); gazette = record per house convention → the no-liability window = 1982-11-01→**1982-12-31** (was →1983-01-09); the book's "10" = typesetting slip of the ordinal "1°" (degree → 0). Encoded payroll/02 FR-093/LB-023; OQ-013 resolved. Kin: 101_ "AÑO 2022" caption, 102_ "1991" (R-H44), 109_ "31-jun" — gazette-vs-derivative print-error family | EV110:EVID-400; payroll/02 FR-093, OQ-013 resolved |
+| R-H81 | 102_/payroll/02 OQ-002 "two conflicting D. 54-95 citations" (W4) — assumed ONE decree with two date/gazette sets | W7 (`119_` congreso inventory entries 76-78, EVID-429 + dual-dpi 300/600 re-read of 102_): there are **TWO distinct 1995 decrees** — the Art.-34 interp footnote prints **D. 74-95** (dado 25-abr-1995, **G 27,655 18-may-1995**; the W4 extraction's "54-95" on this footnote = OCR misread, fixed in EVID-238/LB-002) and the Art.-1 tacit-reform footnote's **D. 54-95** = the jubilados/pensionados EXTENSION (dado 28-mar-1995, gazette **G 27,639 del 28-abr-1995**; the book's "28,639" = digit-swap — monotonicity 27,587@23-feb (Acuerdo 02-95 itself, NEW pin) < 27,639@28-abr < 27,655@18-may arbitrates; 28,6xx = 1997-class). Also pins Acuerdo 02-95 = G 27,587 23-feb-1995. Encoded: payroll/02 FR-057 re-attributed, FR-097 (dated beneficiary row, +jubilados from 28-abr-1995), LB-025; OQ-002 RESOLVED. Decree texts remain unacquired (pre-ENAG gazettes); operative content triple-pinned via concordant official quotes | EV119:EVID-429; EV82:EVID-238 (fixed); payroll/02 OQ-002 resolved, FR-097/LB-025 |
+| R-H82 | Residual-chain gazette pins (D. 36-90 date variance; D. 247-89 unpinned) | W7 (`119_` EVID-430/431): **D. 36-90 = G 26,131 del 11-MAY-1990** — the inventory's "11de Abril de 1990" is its own slip (publication cannot precede the 2-may-1990 Dado quoted in 105_ fn.2; 11-may stands); entry 97's title corroborates the interp scope = Art. 5 literal c (the incapacidad-temporal leg is footnote-quoted, not title-summarized — catalogue titles are summaries, never content limits). **D. 247-89 = G 26,028 del 6-ene-1990** (CT-120 "ampliación de auxilio de cesantía"; content quote-nowhere = the LIVE residual — its effect is already integrated in the 86_ pre-2008 Art. 120, so genealogical). Standing caution encoded as 119_ OQ-2: inventory gazette digits slip; monotonicity + instrument prints are the records | EV119:EVID-430/431; payroll/06 LB-014 + FR-248/249 rows; payroll/08 LB-007 lineage |
 
 ---
 
@@ -1118,8 +1123,10 @@ files (EVxx:file OQ-n).
 - `83_ OQ-2` [VERIFY] Art. 3 (agroindustrial) numbering skip — gazette original.
 - `83_ OQ-3` [LEAD] No promedio row (DGS 2023).
 - `84_ OQ-1` [LEAD] Jan-May 2023 maquila ≈9,506.63 derived — STSS-006-2019.
-- `102_ OQ-2` [CONFLICT] Two D. 54-95 citations conflict (impossible gazette
-  order) — acquire D. 54-95.
+- ~~`102_ OQ-2`~~ → RESOLVED at W7 via R-H81 (`119_` EVID-429): the "conflict"
+  = TWO decrees — interp = D. 74-95 (G 27,655 18-may-1995; W4 footnote misread
+  74→54, dual-dpi-fixed), extension = D. 54-95 (G 27,639 28-abr-1995; book's
+  "28,639" = digit-swap).
 - `102_ OQ-3` [VERIFY] Compilation print OCR run-ons — re-OCR if
   verbatim-critical.
 
@@ -1176,7 +1183,7 @@ files (EVxx:file OQ-n).
 - ~~86_ OQ-3~~ → RESOLVED at W5 via R-H74/R-H75: aguinaldo = D. 112-1982
   (`105_`, IN CORPUS — P2 unblocked, payroll/02 OQ-001 resolved); the "D. 135-94
   + Acuerdo 201-96" framing was a conflation/unsourced attribution; residual
-  leads = ~~D. 179-97 + the interp chain~~ (ACQUIRED W6: 110_/111_/112_/113_; OQ-008/OQ-009 resolved) → now D. 54-95 + D. 36-90 + D. 247-89 + the D. 135-94-vigencia conflict (payroll/02 OQ-012).
+  leads = ~~D. 179-97 + the interp chain~~ (ACQUIRED W6: 110_/111_/112_/113_; OQ-008/OQ-009 resolved) → ~~D. 54-95 + D. 36-90~~ (DECODED W7 via `119_`: content triple-pinned, gazettes pinned, R-H81/R-H82 — texts still unacquired, pre-ENAG) → residual = **D. 247-89 TEXT** (G 26,028 6-ene-1990, content quote-nowhere) + the D. 135-94-vigencia conflict (payroll/02 OQ-012).
 - `86_ OQ-4` [CONFIG→ruled] Article-map drift fixed (R-H59).
 - ~~86_ OQ-5~~ → R-H58 (D. 150-2008 anchor).
 - `86_ OQ-6` [VERIFY] Vacaciones base width "ordinarias" vs OT-including readings
@@ -1195,7 +1202,7 @@ files (EVxx:file OQ-n).
 - **Clusters:** 43 — W1 taxation T1-T12 (EVID-001..071), W2 fiscal-reporting F1-F11
   (EVID-072..185), W3 facturación E1-E8 (EVID-186..214), W4 payroll P1-P12
   (EVID-215..333). SEE/CAEE sub-cluster (E8 part) BLOCKED on lead 1.
-- **Resolved contradictions:** 80 (R-H1..R-H80; R-H66 adopted by product owner; R-H67..R-H70 V-HN1 validation; R-H71..R-H73 V-HN1b reads; R-H74..R-H77 W5 acquisition-reads wave — P2 unblock + 201-96 void + bono reglamento + 106_ title; R-H78/R-H79 W5c 109_ pass — L30k credit survives D. 59-2023 + cuarta edad = 80+; R-H80 W6 — Art. 18 "1°-ene-1983" gazette-original rules over the book extract's "10-ene")
+- **Resolved contradictions:** 82 (R-H1..R-H82; R-H66 adopted by product owner; R-H67..R-H70 V-HN1 validation; R-H71..R-H73 V-HN1b reads; R-H74..R-H77 W5 acquisition-reads wave — P2 unblock + 201-96 void + bono reglamento + 106_ title; R-H78/R-H79 W5c 109_ pass — L30k credit survives D. 59-2023 + cuarta edad = 80+; R-H80 W6 — Art. 18 "1°-ene-1983" gazette-original rules over the book extract's "10-ene"; R-H81/R-H82 W7 `119_` inventory — the 1995 14th-month pair decodes as D. 74-95 (interp, G 27,655) + D. 54-95 (jubilados extension, G 27,639; book's 28,639 = digit-swap) and the residual chain gazette-pins D. 36-90 G 26,131 11-may / D. 247-89 G 26,028)
   owner 2026-08-20; incl. 9 registry-mislabel
   incidents and 4 void/dead-text rulings R-H3/4/5 + R-H1 partial-history).
 - **OQ register:** ~236 origin lines rolled up (~227 open after in-wave

@@ -20,7 +20,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 REG = os.path.join(ROOT, "hn/sources/README.md")
 REQ = os.path.join(ROOT, "hn/requirements")
 TOPICS = ["taxation", "e-invoicing", "fiscal-reporting", "payroll"]
-EXPECTED = {"taxation": 248, "e-invoicing": 157, "fiscal-reporting": 363, "payroll": 326}
+EXPECTED = {"taxation": 248, "e-invoicing": 157, "fiscal-reporting": 363, "payroll": 327}
 
 # Explicit per-source status/notes. Sources absent here must be LB-cited (G1).
 # Vocabulary mirrors SV's COVERAGE.md:
@@ -246,7 +246,21 @@ gazette 6-nov-2000) — bono reglamento OQ-004 RESOLVED (FR-094..096); 107_
 D. 150-2008 original ≡ 86_ fn.19 (R-H58 anchors upgraded; D. 247-89 lineage
 lead); 108_ Acuerdo 345 commissions procedure + fijación +15-day default
 (payroll/01 FR-041). Payroll FR total 314 → 326 (+9 payroll/02, +2 payroll/06,
-+1 payroll/01).""")
++1 payroll/01).
+
+## W7 refresh (2026-08-21, residual-chain decode wave)
+
+119_ (congreso "Inventarios de Leyes" — official thematic law inventory,
+text-native) registered + cited as LB (payroll/02 LB-025). R-H81: the 102_
+OQ-2 "conflict" decodes as TWO 1995 decrees — D. 74-95 = the Art.-34 interp
+(G 27,655 18-may-1995; the W4 footnote read "54-95" was an OCR misread,
+dual-dpi-fixed in EVID-238/LB-002) and D. 54-95 = the jubilados/pensionados
+extension (G 27,639 28-abr-1995; the book's "28,639" = digit-swap,
+monotonicity-arbitrated) → payroll/02 FR-057 re-attributed + FR-097 dated
+beneficiary row + OQ-002 RESOLVED. R-H82: D. 36-90 = G 26,131 11-MAY-1990
+(the inventory's "11-abril" = its own slip — payroll/06 LB-014/FR-248 rows)
+and D. 247-89 = G 26,028 6-ene-1990 (payroll/08 LB-007 lineage; text remains
+the live residual). Payroll FR total 326 → 327 (+FR-097); LBs +1; ACs +1.""")
     with open(os.path.join(REQ, "COVERAGE.md"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(out) + "\n")
     print(f"OK: COVERAGE.md written — {len(registry)} rows ({n_cited} cited-as-LB, {n_na} N/A); "

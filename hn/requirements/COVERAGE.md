@@ -8,11 +8,11 @@
 | Authors | script `hn/scripts/build_coverage.py` (regenerate after every wave) |
 | Updated | 2026-08-20 |
 
-Every row of [../sources/README.md](../sources/README.md) (117 registered files, gap 103 reserved-unused) mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1094 FRs, 502 LB rows, 573 ACs, 325 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 248, e-invoicing 157, fiscal-reporting 363, payroll 326).
+Every row of [../sources/README.md](../sources/README.md) (118 registered files, gap 103 reserved-unused) mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1095 FRs, 503 LB rows, 574 ACs, 325 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 248, e-invoicing 157, fiscal-reporting 363, payroll 327).
 
 Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row of a requirements file (citing file(s) + LB ids listed); **not-applicable-this-wave** — explicit annotation with reason (superseded/historical, in-corpus-unread pending evidence pass, or out of scope for the four topics).
 
-## Matrix (117 source files)
+## Matrix (118 source files)
 
 | Source | Status | Cited in / note |
 |--------|--------|-----------------|
@@ -133,14 +133,15 @@ Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row
 | 116_Gaceta_1998-05-20_Decreto_131-98_tasas.pdf | cited-as-LB | `fiscal-reporting/09_selectivo-declarations.md` (LB-012) |
 | 117_Gaceta_1993-08-14_Decreto_110-93_Ley_Simplificacion_Tributaria.pdf | cited-as-LB | `fiscal-reporting/02_djimr-retention-declarations.md` (LB-022) |
 | 118_Gaceta_27941_Decreto_54-96_reformas_tributarias.pdf | cited-as-LB | `fiscal-reporting/07_isr-annual-102-103.md` (LB-015) |
+| 119_Congreso_Inventarios_de_Leyes.pdf | cited-as-LB | `payroll/02_13th-14th-bono.md` (LB-025) |
 
 ## Rollup
 
 | Status | Rows |
 |--------|------|
-| cited-as-LB | 115 |
+| cited-as-LB | 116 |
 | not-applicable-this-wave | 2 |
-| **Total** | **117** |
+| **Total** | **118** |
 
 ## V-HN1 gate-1 findings (2026-08-20, fixed in this wave)
 
@@ -186,3 +187,17 @@ D. 150-2008 original ≡ 86_ fn.19 (R-H58 anchors upgraded; D. 247-89 lineage
 lead); 108_ Acuerdo 345 commissions procedure + fijación +15-day default
 (payroll/01 FR-041). Payroll FR total 314 → 326 (+9 payroll/02, +2 payroll/06,
 +1 payroll/01).
+
+## W7 refresh (2026-08-21, residual-chain decode wave)
+
+119_ (congreso "Inventarios de Leyes" — official thematic law inventory,
+text-native) registered + cited as LB (payroll/02 LB-025). R-H81: the 102_
+OQ-2 "conflict" decodes as TWO 1995 decrees — D. 74-95 = the Art.-34 interp
+(G 27,655 18-may-1995; the W4 footnote read "54-95" was an OCR misread,
+dual-dpi-fixed in EVID-238/LB-002) and D. 54-95 = the jubilados/pensionados
+extension (G 27,639 28-abr-1995; the book's "28,639" = digit-swap,
+monotonicity-arbitrated) → payroll/02 FR-057 re-attributed + FR-097 dated
+beneficiary row + OQ-002 RESOLVED. R-H82: D. 36-90 = G 26,131 11-MAY-1990
+(the inventory's "11-abril" = its own slip — payroll/06 LB-014/FR-248 rows)
+and D. 247-89 = G 26,028 6-ene-1990 (payroll/08 LB-007 lineage; text remains
+the live residual). Payroll FR total 326 → 327 (+FR-097); LBs +1; ACs +1.
