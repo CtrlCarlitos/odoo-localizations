@@ -351,11 +351,27 @@ expected and absorbed by instantiating the canon, never by forking it.
       RESOLVED** (TF DC9226 second official print ≡ 01_ through (14)
       D.L. 71-2015). Leads banked: 75_ Art. 100 = SOQ-08 anchor
       (EVID-351); imprescriptible retentions (Art. 23) vs 2-y agent
-      caducidad (Art. 133); 75_ FR fold-ins queued at the next
-      edit wave. Next per `sv/HANDOVER.md` §8: fold-ins, SOQ-46/
-      SOQ-54-Rgto acquisitions, CAN-STAND/RIDE cleanups, or go-live
-      prep — owner's call.
-      **GT S-GT3 merge 2026-08-20 (§4.6 protocol, seventeenth run):**
+       caducidad (Art. 133); 75_ FR fold-ins queued at the next
+       edit wave. Next per `sv/HANDOVER.md` §8: fold-ins, SOQ-46/
+       SOQ-54-Rgto acquisitions, CAN-STAND/RIDE cleanups, or go-live
+       prep — owner's call.
+       **HN W5+W5b merge 2026-08-20 (§4.6 protocol, nineteenth run):**
+       `hn-research` rebased onto `20c517d` (3 commits rewritten
+       `51be444..6f37179`→`9a8dc2f..cd01045`: W5 acquisition-reads +
+       W5b 109_ fetch + HANDOVER consistency pass; zero conflicts —
+       hn/-scoped only) then fast-forward-merged; remote branch ref
+       updated via force-with-lease re-push. **HN = W5 ACQUISITION
+       -READS WAVE COMPLETE** (105_-108_ evidence passes EVID-362..384:
+       **P2 aguinaldo UNBLOCKED** — D. 112-1982 = the 13th-month law
+       (R-H74), "D. 135-94/201-96" framing voided (R-H75); bono
+       reglamento STSS-154-2000 encoded (R-H76, OQ-004 resolved);
+       séptimo día statutory layer (payroll/06 FR-248/249); payroll
+       314→326 FRs, COVERAGE 108 rows = 105 cited + 3 N/A; plus 109_ =
+       D. 59-2023 Adulto Mayor intermediate reform acquired via ENAG G
+       36,460 14-feb-2024, evidence pass PENDING). Next per
+       `hn/HANDOVER.md`: 109_ evidence pass + the R-H75 interp/reform
+       chain — bootstrap `Read hn/HANDOVER.md and continue.`
+       **GT S-GT3 merge 2026-08-20 (§4.6 protocol, seventeenth run):**
       `gt-research` rebased onto `7bf2e86` (14 commits rewritten
       `da0f374..57c6be0`: plan + T1..T11 + close + final-review fixes;
       zero conflicts) then fast-forward-merged; remote branch ref updated
