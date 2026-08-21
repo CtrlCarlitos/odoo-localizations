@@ -894,9 +894,9 @@ synthesized with these as flagged open questions and back-filled later.
    ~~S-GT3 (payroll) synthesis~~ **COMPLETE 2026-08-20** (§5j).
    ~~S-GT4 (fiscal-reporting) synthesis~~ **COMPLETE 2026-08-20** (§5k).
    ~~S-GT5 (COA/commercial-legal) synthesis~~ **COMPLETE 2026-08-21**
-   (§5l). **NEXT = S-GT5 final whole-branch review** (controller: review
-   package over 89375f2..HEAD incl. deferred-minors triage; ONE fix wave
-   if findings), then **S-GT6/S-GT7 (special-regimes) plan doc →
+   (§5l). ~~S-GT5 final whole-branch review~~ **DONE 2026-08-21**
+   (APPROVED; 1 Important index fix + 2 ride-alongs in one commit,
+   re-review PASS). **NEXT = S-GT6/S-GT7 (special-regimes) plan doc →
    synthesis waves** (SR1-SR6 per master index; ZF/maquila clusters;
    D-19-2016 still blocks post-2016 claims — GOQ-08; W-GT6 corrections
    R72/R75/R81 shape S-GT7; GOQ-08 tag-only leads: AG 3-2017, D-38-04).
