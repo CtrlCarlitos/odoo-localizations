@@ -493,3 +493,32 @@ commit. Never leave a session with evidence unmerged. Update
    art. 152 a)/d)/e) + art. 154 re-extraction, día-hábil calendar
    provenance. Next: S-GT4 fiscal-reporting plan (F1-F6 + GOQ-92..121;
    consumes taxation + payroll FR ids).
+- 2026-08-20 — **S-GT4 COMPLETE** (fiscal-reporting synthesis). Plan
+   `docs/superpowers/plans/2026-08-20-s-gt4-synthesis.md`; 6 topic files +
+   index committed (GT-FIN-FR-001..185; 111 LBs / 79 ACs / 40 OQ rows
+   consuming GOQ-92..121 + GOQ-14 owned + kin 01/06/09/66/67/94/101/105 and
+   resolved kin 118/119/120). F1-F6 map one-to-one: 01 form inventory +
+   channel model (R46-corrected ISR identities on every naming row; R53
+   both-windows validity ledger; R58 SAT-2390-outside-catalog negative);
+   02 RetWeb (operational surface OF GT-TAX-FR-105/106/107 — 2340 15 dh vs
+   2320 10 dh never frozen per R47; R54 constancia-date asymmetry; rate
+   rendering of both taxation CSVs, secondary-pending rows unfrozen);
+   03 pequeño two-document chain (55_ = as-of-~2013 banner GOQ-100; R20
+   attribution; R56/R57 guards; LIVA art. 48 whole-month deadline, no day
+   invented GOQ-103); 04 LET books (PC+3 especiales one combined book vs
+   General two books/resumen-insumo; GOQ-105 layouts-images negative-FR;
+   4%/5%-10-dh = tariff rule never a deadline GOQ-107); 05 SAT-2390 (the
+   cross-validation gate; CSV spec authoritative from 63_ — 16/11-col
+   layouts column-letter-faithful; >Q2,500 NIT+ID from 2023-01 dated row
+   GOQ-113); 06 criterios confirm-only layer (GOQ-116 clause-citation ban;
+   GOQ-121 negative-FR; dualidad consumes taxation/03's one model).
+   Taxation consumed by exact id (GT-TAX-FR-105..110, 025/031..037 + both
+   CSVs); payroll via GT-PAY-FR-213..222; GT-EINV-FR-210 outcome-only.
+   COVERAGE 67 cited / 15 N-A / 0 pending (9 rows flipped; 49_/50_ source
+   paths normalized into fin02 LB cells). Two wave-close fixes: T1 stale
+   forward-ref filename; GOQ-99 annotation prefix. New gap reports flagged
+   for register triage: ISR-constancia form code (rides GOQ-98), D27-92
+   Cap. VIII/IX primary texts (electrónico-tariff anchors), informe
+   periodicity tension, 63_ rule-6c ventas col-D omission. Next: S-GT5
+   COA/commercial plan (C1-C6 + GOQ-122..134; D-19-2016 still blocks
+   S-GT6/S-GT7).
