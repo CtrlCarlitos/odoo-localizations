@@ -8,11 +8,11 @@
 | Authors | script `hn/scripts/build_coverage.py` (regenerate after every wave) |
 | Updated | 2026-08-20 |
 
-Every row of [../sources/README.md](../sources/README.md) (107 registered files, gap 103 reserved-unused) mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1094 FRs, 494 LB rows, 573 ACs, 323 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 248, e-invoicing 157, fiscal-reporting 363, payroll 326).
+Every row of [../sources/README.md](../sources/README.md) (108 registered files, gap 103 reserved-unused) mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1094 FRs, 494 LB rows, 573 ACs, 323 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 248, e-invoicing 157, fiscal-reporting 363, payroll 326).
 
 Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row of a requirements file (citing file(s) + LB ids listed); **not-applicable-this-wave** — explicit annotation with reason (superseded/historical, in-corpus-unread pending evidence pass, or out of scope for the four topics).
 
-## Matrix (107 source files)
+## Matrix (108 source files)
 
 | Source | Status | Cited in / note |
 |--------|--------|-----------------|
@@ -123,14 +123,15 @@ Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row
 | 106_Gaceta_29320_D43-97_bono_educativo_Ac154-2000_reglamento_bono.pdf | cited-as-LB | `payroll/01_smm-chassis.md` (LB-007); `payroll/02_13th-14th-bono.md` (LB-008+LB-018+LB-019) — W5: evidence pass EVID-373..379 — TWO extracts: D. 43-97 from G 28,271 (29-may-1997, masthead-confirmed — the '29320' title = the reglamento's 6-nov-2000 gazette, number illegible ≈29,32x); bono reglamento OQ-004 RESOLVED (payroll/02 FR-094..096); SMM Arts. 20/35 gazette originals co-cited in payroll/01 LB-007. |
 | 107_Gaceta_31753_Decreto_150-2008.pdf | cited-as-LB | `payroll/08_cesantia-preaviso.md` (LB-007+LB-008) — W5: evidence pass EVID-380..382 — CT Art. 120/120-A + the annual-pact Art. 2 as instrument original (≡ 86_ fn.19, no drift); R-H58 anchors upgraded in payroll/08 LB-007/008 + FR-305; new lineage lead D. 247-89. |
 | 108_Acuerdo_345_Regl_Comisiones_Salario_Minimo.pdf | cited-as-LB | `payroll/01_smm-chassis.md` (LB-022) — W5: evidence pass EVID-383..384 — commissions procedure + the fijación +15-day vigencia default (payroll/01 LB-022 + FR-041); Acuerdo 345's own vigencia unpinned (G 25,680 date not printed). |
+| 109_Gaceta_36460_Decreto_59-2023_Adulto_Mayor.pdf | not-applicable-this-wave | IN CORPUS UNREAD (acquired 2026-08-20 via ENAG Gaceta Digital): G 36,460 (14-feb-2024) publishing D. 59-2023 — the Adulto Mayor intermediate reform (taxation/02 OQ-009's instrument). Page-1 verified; preliminary pp.3-4 scan: reformed Art. 30 prints the tercera/cuarta-edad two-class structure and RESTATES numeral 14 (the L30,000 credit survives). Evidence pass = next session (wording comparison vs 95_, vigencia pin, beneficiary-class check, the edition's other decrees). |
 
 ## Rollup
 
 | Status | Rows |
 |--------|------|
 | cited-as-LB | 105 |
-| not-applicable-this-wave | 2 |
-| **Total** | **107** |
+| not-applicable-this-wave | 3 |
+| **Total** | **108** |
 
 ## V-HN1 gate-1 findings (2026-08-20, fixed in this wave)
 

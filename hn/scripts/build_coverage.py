@@ -46,6 +46,12 @@ SOURCES = {
         "V-HN1b: evidenced EVID-342..344 (services-discount side: Art. 31 utilities tiers 25/30%/35/40%, Arts. 31-A/31-B Fiscalía/"
         "visible-info) — verified NOT to touch the Art. 30.14 deduction (OQ-008 resolution leg). Out of the four approved topics' scope "
         "(special-regimes/commercial-legal territory); cite there when those waves open."),
+    "109_Gaceta_36460_Decreto_59-2023_Adulto_Mayor.pdf": (
+        "not-applicable-this-wave",
+        "IN CORPUS UNREAD (acquired 2026-08-20 via ENAG Gaceta Digital): G 36,460 (14-feb-2024) publishing D. 59-2023 — the Adulto Mayor "
+        "intermediate reform (taxation/02 OQ-009's instrument). Page-1 verified; preliminary pp.3-4 scan: reformed Art. 30 prints the "
+        "tercera/cuarta-edad two-class structure and RESTATES numeral 14 (the L30,000 credit survives). Evidence pass = next session "
+        "(wording comparison vs 95_, vigencia pin, beneficiary-class check, the edition's other decrees)."),
     "97_Decreto_194-2002_Ley_Equilibrio_Financiero.pdf": (
         "not-applicable-this-wave",
         "Original of the law whose reformed Art. 14 (65+ ≤L350k exemption) is encoded from `79_` (D. 59-2020 prints the current "

@@ -412,8 +412,10 @@ Comisiones SMM; a duplicate D. 103 upload was discarded md5-identical to
      force-push (root HANDOVER country model). Branch head after S-HN1/S-HN2
      commit = the synthesis-wave base; future waves branch from here.
 
-Session state at stop (2026-08-20, W5 acquisition-reads wave): evidence
-COMPLETE through EVID-384; corpus 107 files (105-108 evidenced); V-HN1 +
+Session state at stop (2026-08-20, W5 acquisition-reads wave + D. 59-2023
+fetch): evidence COMPLETE through EVID-384; corpus 108 files (105-108
+evidenced; 109_ = G 36,460 D. 59-2023 Adulto Mayor acquired-in-corpus-unread,
+evidence pass = next session's first action); V-HN1 +
 V-HN1b merged to main (thirteenth §4.6 run at `960df34`); **W5 committed on
 `hn-research` (this session, not yet merged — owner decision pending)**:
 P2 aguinaldo UNBLOCKED (R-H74: D. 112-1982 = the 13th-month law; R-H75:
