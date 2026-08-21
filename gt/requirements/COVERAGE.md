@@ -4,12 +4,13 @@
 |---------|-------|
 | Country | gt |
 | Topic   | all (cross-topic) |
-| Status  | draft (S-GT1 e-invoicing + catalogs, S-GT2 taxation and S-GT3 payroll waves complete; S-GT4..S-GT7 pending) |
-| Authors | GT synthesis waves S-GT1 + S-GT2 + S-GT3 |
+| Status  | draft (S-GT1 e-invoicing + catalogs, S-GT2 taxation, S-GT3 payroll and S-GT4 fiscal-reporting waves complete; S-GT5..S-GT7 pending) |
+| Authors | GT synthesis waves S-GT1 + S-GT2 + S-GT3 + S-GT4 |
 | Updated | 2026-08-20 |
 
 As-of date 2026-08-20. Scope of this revision: the S-GT1 e-invoicing +
-catalogs wave, the S-GT2 taxation wave and the S-GT3 payroll wave. Every file in
+catalogs wave, the S-GT2 taxation wave, the S-GT3 payroll wave and the S-GT4
+fiscal-reporting wave. Every file in
 [../sources/](../sources/) (registry:
 [../sources/README.md](../sources/README.md) — 82 entries, numbering
 01–83 with gap 27; verification-rejected duplicates are not registry rows)
@@ -25,9 +26,11 @@ mapped against the requirements waves. Status values:
 
 Citation check = grep for `gt/sources/<nn>_` across
 `gt/requirements/e-invoicing/` + `gt/requirements/catalogs/` +
-`gt/requirements/taxation/` + `gt/requirements/payroll/`. File-number shorthand (e.g. `04` =
+`gt/requirements/taxation/` + `gt/requirements/payroll/` +
+`gt/requirements/fiscal-reporting/`. File-number shorthand (e.g. `04` =
 `e-invoicing/04_mandate-onboarding.md`, `tax04` =
-`taxation/04_isr-trabajo.md`, `cat01` = `catalogs/01_governance.md`).
+`taxation/04_isr-trabajo.md`, `cat01` = `catalogs/01_governance.md`,
+`fin01` = `fiscal-reporting/01_form-inventory-channels.md`).
 
 ## Matrix (82 registry rows)
 
@@ -79,24 +82,24 @@ Citation check = grep for `gt/sources/<nn>_` across
 | 45_INTECAP_Ley_Organica.pdf | cited | `payroll/08` (D-17-72 art. 28 ladder → 1% ceiling, exceptions, rebate, deductibility; GOQ-88) |
 | 46_INTECAP_Reglamento_Tasa_Patronal.pdf | cited | `payroll/08` (Reglamento-1980: art. 9º in-force 1%, 20-day deadline, IGSS-planilla base, enforcement ladder; GOQ-89) |
 | 47_SAT_Patronos_Retencion_ISR_2025.pdf | cited | `taxation/07` (digest provenance register row) — self-disclaimed digest, never cited as law (26_ > 28_ > 47_); its numeric cross-check (all-match, EVID-243) recorded via EV02c; practice-layer use = GOQ-61 in `taxation/04` (via EV02c, no direct LB) |
-| 48_SAT_Lista_Formularios_2025-10-06.html | cited | `taxation/04` (form identities LB-012: 1331/1431/1901/1481/1921/1111 — R46), `05` (1411/1321/1371 — R46) + pending S-GT4 fiscal-reporting (row-data mechanics) |
-| 49_SAT_RetWebIVA_page.html | cited | `taxation/03` (secondary-print anchor for the deadline variants, GOQ-01 note) + pending S-GT4 fiscal-reporting (+ indirect anulación-blocker name in `e-invoicing/06`) |
-| 50_SAT_RetWebISR_page.html | not-applicable | pending S-GT4 fiscal-reporting (+ S-GT2 kin consumed via EV04b evidence file, no direct path citation) |
-| 51_SAT_RetWebISR_Manual_v3.pdf | not-applicable | pending S-GT4 fiscal-reporting |
-| 52_SAT_RetWebIVA_Manual_2024.pdf | cited | `taxation/03` (secondary prints: "art. 54 B" statutory-agent path, card Pago Total/Parcial — GOQ-06/R55/R59) + pending S-GT4 fiscal-reporting |
-| 53_SAT_Agentes_RetIVA_2025-10-01.pdf | cited | `taxation/03` (roster context row — no agent-type column) + pending S-GT4 fiscal-reporting |
-| 54_SAT-0261_form.pdf | cited | `taxation/03` (voluntary-inscription anchor, D-20-2006 art. 6) + pending S-GT4 fiscal-reporting |
-| 55_SAT_PequenoContribuyente_guia.pdf | cited | `taxation/02` (secondary prints: fn.1 D-4-2012 attribution [R20 confirmation], art. 48 window, 5% doctrine, Reg. art. 30 legend) + pending S-GT4 fiscal-reporting kin |
-| 56_SAT_Planilla_IVA_FEL_2024.pdf | cited | `payroll/09` (Planilla IVA-FEL mechanics: eligibility, January window, four-source feed, last-wins/ANULADAS — procedural manual, never law; GOQ-90/61; statutory values = LAT art. 72 via taxation/04) + pending S-GT4 kin |
-| 57_SAT_LET_Pequeno_Manual.pdf | not-applicable | pending S-GT4 fiscal-reporting — LET blocker named via Reglas §3.17.2 in `e-invoicing/06`; no path citation this wave |
-| 58_SAT_LET_IVAGeneral_Manual.pdf | not-applicable | pending S-GT4 fiscal-reporting (same indirect LET-blocker note as 57_) |
-| 59_SAT_InformeComprasVentas_Manual.pdf | not-applicable | pending S-GT4 fiscal-reporting |
-| 60_SAT_Habilitacion_Libros.pdf | not-applicable | pending S-GT5 chart-of-accounts (+ S-GT4 kin) |
-| 61_SAT_LibroComprasVentas_Pequeno_Proc.pdf | not-applicable | pending S-GT4 fiscal-reporting |
-| 62_SAT-2390_guia.pdf | not-applicable | pending S-GT4 fiscal-reporting |
-| 63_SAT-2390_instrucciones_csv.pdf | not-applicable | pending S-GT4 fiscal-reporting |
-| 64_SAT_Criterio_2-2019.pdf | cited | `taxation/03` (dualidad interpretive layer: EVID-496 + rate-table confirmation) — interpretive only, never the rate source |
-| 65_SAT_Criterio_6-2018.pdf | cited | `taxation/05` (deduction-gating interpretive layer via EV02c/EV04f) + `payroll/04` bono-cap kin consumed indirectly via GT-TAX-FR-169 (no direct path citation) |
+| 48_SAT_Lista_Formularios_2025-10-06.html | cited | `taxation/04` (form identities LB-012: 1331/1431/1901/1481/1921/1111 — R46), `05` (1411/1321/1371 — R46) + `fin01` (whole registry: channel model, R46 spine, dated-validity ledger, R53/R58 negatives, GOQ-92..95 — read via the `.extractions` payload dump) |
+| 49_SAT_RetWebIVA_page.html | cited | `taxation/03` (secondary-print anchor for the deadline variants, GOQ-01 note) + `fin02` (RetWeb IVA portal: 2340/2320 deadlines, rate-matrix secondary prints, constancia machinery; indirect anulación-blocker name in `e-invoicing/06`) |
+| 50_SAT_RetWebISR_page.html | cited | `fin02` (RetWeb ISR portal: 10-dh declare+pay, constancia = factura date, 5-day delivery w/o "hábiles" — R54/GOQ-99; FEL-fed onboarding; SAT-1331 DJ) |
+| 51_SAT_RetWebISR_Manual_v3.pdf | cited | `fin02` (ISR manual "noviembre 2024" — GOQ-96: ~30-concepto retention catalog, carga masiva 7/8-col CSV + CTI 03-2023, LAT art. 48/15 anexo fields, state machine) |
+| 52_SAT_RetWebIVA_Manual_2024.pdf | cited | `taxation/03` (secondary prints: "art. 54 B" statutory-agent path, card Pago Total/Parcial — GOQ-06/R55/R59) + `fin02` (IVA manual: constancia "Emisión al" dating + consolidation, carga masiva 7-col, line model + Banguat FX, Sector Público 25/5/5) |
+| 53_SAT_Agentes_RetIVA_2025-10-01.pdf | cited | `taxation/03` (roster context row — no agent-type column) + `fin02` (roster 8,447 operational surface OF GT-TAX-FR-108: seed-only, OCR-concat verification — GOQ-97) |
+| 54_SAT-0261_form.pdf | cited | `taxation/03` (voluntary-inscription anchor, D-20-2006 art. 6) + `fin02` (SAT-0261 field inventory; tri-partite agent provenance) |
+| 55_SAT_PequenoContribuyente_guia.pdf | cited | `taxation/02` (secondary prints: fn.1 D-4-2012 attribution [R20 confirmation], art. 48 window, 5% doctrine, Reg. art. 30 legend) + `fin03` (as-of-~2013 dated layer — GOQ-100 banner: obligations, libro spec, 2043/2047/2049 rails, Q.179.00 defect R56) |
+| 56_SAT_Planilla_IVA_FEL_2024.pdf | cited | `payroll/09` (Planilla IVA-FEL mechanics: eligibility, January window, four-source feed, last-wins/ANULADAS — procedural manual, never law; GOQ-90/61; statutory values = LAT art. 72 via taxation/04) + `fin01` kin (SAT-1111 app-surface identity R46 — no mechanics re-derivation) |
+| 57_SAT_LET_Pequeno_Manual.pdf | cited | `fin04` (LET-PC: combined book, SAT-2046 generation, immutable ventas feed, cierre order, 20-line folios; GOQ-104 provenance) |
+| 58_SAT_LET_IVAGeneral_Manual.pdf | cited | `fin04` (LET-General: two books/establecimiento, no form generated, resumen = insumo, FYDUCA/DUCA feeds, vehicle paper rule; R48 RTN-Honduras guard) |
+| 59_SAT_InformeComprasVentas_Manual.pdf | cited | `fin04` (informe: art. 57 "D" attestation flow, two FEL-coverage questions, carga masiva 100% gate, PDF constancia, rectificación — GOQ-108) |
+| 60_SAT_Habilitacion_Libros.pdf | not-applicable | pending S-GT5 chart-of-accounts (+ S-GT4 kin via `fin04`'s habilitación-precondition bridge, printed from the LET glosarios) |
+| 61_SAT_LibroComprasVentas_Pequeno_Proc.pdf | cited | `fin03` (61_ LET-era layer: both régimens incl. Electrónico, SAT-7121 habilitación → resolución, LET FEL auto-load, SAT-2046 one-click — GOQ-101) |
+| 62_SAT-2390_guia.pdf | cited | `fin05` (SAT-2390 flow: CARTERA states, Congelar/RTU gates, claim window, cross-validation gate — GOQ-110/111/112) |
+| 63_SAT-2390_instrucciones_csv.pdf | cited | `fin05` (CSV annex spec AUTHORITY: naming, rows 1-2 skipped, compras 16 cols A-P / ventas 11 cols A-K, TEXT cells, NC−/ND+, >Q2,500 NIT+ID from 2023-01 — GOQ-113/114/115; R49 defects verbatim) |
+| 64_SAT_Criterio_2-2019.pdf | cited | `taxation/03` (dualidad interpretive layer: EVID-496 + rate-table confirmation) + `fin06` (interpretive confirm-only layer: dualidad holdings, retained-IVA bookkeeping notes, GOQ-116/117 — never the rate source) |
+| 65_SAT_Criterio_6-2018.pdf | cited | `taxation/05` (deduction-gating interpretive layer via EV02c/EV04f) + `payroll/04` bono-cap kin consumed indirectly via GT-TAX-FR-169 (no direct path citation) + `fin06` (deducibilidad gates: IGSS-planilla ≥3/≥1, related-party 10%, aguinaldo/bono 100% caps, dietas LAT art. 44; GOQ-121 negative-FR) |
 | 66_Codigo_Comercio_D2-70.pdf | not-applicable | pending S-GT5 chart-of-accounts (+ S-GT6 commercial-legal kin) |
 | 67_ZF_Ley_D65-89.pdf | not-applicable | pending S-GT7 special-regimes |
 | 68_ZF_Reglamento_AG_242-90.pdf | not-applicable | pending S-GT7 special-regimes |
@@ -109,11 +112,11 @@ Citation check = grep for `gt/sources/<nn>_` across
 | 75_AML_D67-2001.pdf | not-applicable | pending S-GT6 commercial-legal |
 | 76_AML_D51-2001.pdf | not-applicable | pending S-GT6 commercial-legal |
 | 77_AML_LeyIntegral_D15-2026.pdf | not-applicable | pending S-GT6 commercial-legal |
-| 78_Fortalecimiento_D20-2006.pdf | cited | `taxation/01` (Chapter V reforms — EVID-257), `03` (whole retention matrix, arts. 1-14), `07` (split-vigencia register) + pending S-GT4 fiscal-reporting kin |
-| 79_Fortalecimiento_Reglamento_AG_425-2006.pdf | cited | `taxation/03` (Título II: carné, Sistema art. 4, dualidad art. 9 [GOQ-118 resolved], constancia, lifecycle), `07` (AG 125-2022 stamp register) + pending S-GT4 fiscal-reporting kin |
+| 78_Fortalecimiento_D20-2006.pdf | cited | `taxation/01` (Chapter V reforms — EVID-257), `03` (whole retention matrix, arts. 1-14), `07` (split-vigencia register) + `fin02` kin (RegWeb regime LB via 49_'s own citations — no statutory re-derivation) |
+| 79_Fortalecimiento_Reglamento_AG_425-2006.pdf | cited | `taxation/03` (Título II: carné, Sistema art. 4, dualidad art. 9 [GOQ-118 resolved], constancia, lifecycle), `07` (AG 125-2022 stamp register) + `fin02`/`fin06` kin (Sistema-% mechanic + dualidad interpretive layer — consumed via taxation/03 FR ids) |
 | 80_ZF_Reformas_D6-2021.pdf | not-applicable | pending S-GT7 special-regimes (not an e-invoicing mandate — OQ4 resolved) |
 | 81_ZOLIC_Reformas_AG65-2022.pdf | not-applicable | pending S-GT7 special-regimes |
-| 82_SAT_LET_RegEspeciales_Manual.pdf | not-applicable | pending S-GT4 fiscal-reporting |
+| 82_SAT_LET_RegEspeciales_Manual.pdf | cited | `fin04` (LET especiales: three regimes' combined book, masked form numbers — GOQ-109, Q3,000,000 agro glossary, THE 4%/5%-within-10-dh tariff rule — GOQ-107) |
 | 83_RM_edictos_2026-08-19.pdf | not-applicable | pending S-GT6 commercial-legal |
 
 Numbering note: registry numbers 01–83 with gap 27 (27 never allocated);
@@ -123,15 +126,19 @@ Numbering note: registry numbers 01–83 with gap 27 (27 never allocated);
 
 | Status | Rows |
 |--------|------|
-| cited | 58 (01–26, 28, 29, 30, 31, 32–46, 47, 48, 49, 52, 53, 54, 55, 56, 64, 65, 74, 78, 79) |
-| not-applicable | 24 |
+| cited | 67 (01–26, 28, 29, 30, 31, 32–46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 61, 62, 63, 64, 65, 74, 78, 79, 82) |
+| not-applicable | 15 |
 | pending | 0 |
 | **Total** | **82** |
 
 Expected cited sets verified by grep. S-GT1: 01–22, 29, 30, 31 (+24_
 FEL-layer LB only). S-GT2: 23, 24, 25, 26, 28, 47, 48, 49, 52, 53, 54,
-55, 64, 65, 74, 78, 79 (17 rows). S-GT3: 32–46, 56 (16 rows). **Secondary-print discipline:** 49_/52_/
+55, 64, 65, 74, 78, 79 (17 rows). S-GT3: 32–46, 56 (16 rows). S-GT4: 48,
+49, 50, 51, 52, 53, 54, 55, 57, 58, 59, 61, 62, 63, 64, 65, 82 (17 rows;
++ 78/79 kin via taxation FR ids, no direct new LB). **Secondary-print
+discipline:** 49_/52_/
 53_/54_/55_ (EV04b/EV04c manuals) and 47_/64_/65_ (digest/criterios) are
 cited ONLY as dated-as-of secondary or interpretive anchors — statutory
 authority always rests on 23_/24_/25_/26_/28_/78_/79_ (per-file notes
-record this; R55 rows stay GOQ-06-open, never frozen).
+record this; R55 rows stay GOQ-06-open, never frozen). 57_/58_/82_ (LET
+manuals) carry GOQ-104 provenance caveats; 62_/63_ carry GOQ-110.

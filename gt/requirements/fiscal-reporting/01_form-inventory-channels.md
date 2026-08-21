@@ -39,7 +39,7 @@ without re-deriving their mechanics.
 It does **not** cover: the operational declaration surfaces themselves — the
 RetWeb agent population and 2340/2320 operational mechanics (Task 2 file,
 `02_retenciones-web.md`), the pequeño-contribuyente forms 2046/2241 in
-operation (Task 3, `03_declaraciones-mensuales.md`; statutory regime owned by
+operation (Task 3, `03_pequeno-libro-regime.md`; statutory regime owned by
 `gt/requirements/taxation/02_iva-pequeno.md` GT-TAX-FR-046..068), SAT-2390 and
 the electronic dev.CF spec (Task 5, `05_devolucion-credito-fiscal.md`); the
 SAT-1111 *mechanics* (payroll-owned: `gt/requirements/payroll/09_isr-iva-interfaces.md`
