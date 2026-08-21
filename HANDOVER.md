@@ -331,6 +331,30 @@ expected and absorbed by instantiating the canon, never by forking it.
       fast-forward-merged; remote ref updated via delete + re-push.
       No requirements changes; SV state unchanged per
       `sv/HANDOVER.md` §8 (no queued wave — owner picks).
+      **SV W16 merge 2026-08-20 (§4.6 protocol, eighteenth run):**
+      `sv-research` rebased onto `e8e558b` (1 commit rewritten:
+      `b3e63b6`→`1c40560` W16; zero conflicts — sv/-scoped only)
+      then fast-forward-merged; remote ref updated via delete +
+      re-push. **SV = W16 EXTERNAL-CHECK + ACQUISITION WAVE:**
+      **D.O. `/seleccion` RECOVERED** (serves PDFs again after the
+      08-18 outage; API param shape unpinned — pin before the
+      SOQ-41/34 hunts); asamblea still 000; MH formularios unchanged
+      (no F-11 v19/v20, no F14 v17 manual); factura.gob.sv no LB
+      drift; no new AML reglamento (watch to 2026-10-17). **75_ =
+      Reglamento de Aplicación del CT, D.E. 117-2001** (TF DC5854) —
+      the R17/R30(a) mass-repeal authority instrument finally owned;
+      EVID-339..358 (EV75, 8 OQs). **R30(a) corrected by instrument
+      audit: 02_ live survivors = Arts. 1-10, 16-26, 29-30, 50-51**
+      (old "16-30" over-included 27-28; 36/45 died via D.E. 60-1993,
+      not 147(b); all V1-V10 cites verified in-set; taxation
+      07/08/09/10/14 preambles fixed in-wave). **SOQ-54 Ley side
+      RESOLVED** (TF DC9226 second official print ≡ 01_ through (14)
+      D.L. 71-2015). Leads banked: 75_ Art. 100 = SOQ-08 anchor
+      (EVID-351); imprescriptible retentions (Art. 23) vs 2-y agent
+      caducidad (Art. 133); 75_ FR fold-ins queued at the next
+      edit wave. Next per `sv/HANDOVER.md` §8: fold-ins, SOQ-46/
+      SOQ-54-Rgto acquisitions, CAN-STAND/RIDE cleanups, or go-live
+      prep — owner's call.
       **GT S-GT3 merge 2026-08-20 (§4.6 protocol, seventeenth run):**
       `gt-research` rebased onto `7bf2e86` (14 commits rewritten
       `da0f374..57c6be0`: plan + T1..T11 + close + final-review fixes;
