@@ -34,7 +34,8 @@ SOURCES = {
     "94_Acuerdo_464-1990_Regl_Art50_LeyISR.pdf": (
         "not-applicable-this-wave",
         "HISTORICAL reglamento-chain ancestor (1990 retention values: L10k gate, 5% honorarios, 20-day entero — all superseded). "
-        "Explicitly NOT the modern Reglamento Ley ISR ('Acuerdo N°799', still unacquired — top lead). Retained for chain provenance only."),
+        "V-HN1b: evidenced EVID-351..352-class chain rows in `93+94+97_chain.evidence.md` (values confirmed; no printed derogation clause; "
+        "every CR tagged HISTORICAL-NEVER-CURRENT). Explicitly NOT the modern Reglamento Ley ISR ('Acuerdo N°799', still unacquired — top lead)."),
     "95_Decreto_199-2006_Ley_Adulto_Mayor.pdf": (
         "not-applicable-this-wave",
         "IN CORPUS UNREAD (V-HN1 status fix): acquired 2026-08-19 but never given an evidence pass; the S-HN1 'D. 199-2006 "
@@ -42,8 +43,23 @@ SOURCES = {
         "valid_from unpinned until read). Next: mini evidence pass + verify article text vs D. 59-2020 (`79_`) / D. 45-2025 (`96_`)."),
     "96_Decreto_45-2025_reforma_Adulto_Mayor.pdf": (
         "not-applicable-this-wave",
-        "IN CORPUS UNREAD — Jan-2026 reforma of D. 199-2006 (Arts. 31/31-A/31-B, services-discount side; may touch deduction "
-        "articles). Read together with `95_` at the same mini evidence pass (taxation/02 OQ-008 kin)."),
+        "V-HN1b: evidenced EVID-342..344 (services-discount side: Art. 31 utilities tiers 25/30%/35/40%, Arts. 31-A/31-B Fiscalía/"
+        "visible-info) — verified NOT to touch the Art. 30.14 deduction (OQ-008 resolution leg). Out of the four approved topics' scope "
+        "(special-regimes/commercial-legal territory); cite there when those waves open."),
+    "105_Decreto_112_Ley_Septimo_Dia_13er_Mes_Aguinaldo.pdf": (
+        "not-applicable-this-wave",
+        "Acquired 2026-08-20 (Wayback of the official STSS upload), page-1 verified. THE 13th-month statutory home — evidence pass = NEXT session; "
+        "unblocks the payroll/02 P2 aguinaldo sub-cluster (OQ-001). No LB citations yet by design."),
+    "106_Gaceta_29320_D43-97_bono_educativo_Ac154-2000_reglamento_bono.pdf": (
+        "not-applicable-this-wave",
+        "Acquired 2026-08-20 (STSS), OCR'd. D. 43-97 + Acuerdo STSS-154-2000 bono reglamento (the payroll/02 OQ-004 lead, now in corpus). "
+        "Evidence pass = next session."),
+    "107_Gaceta_31753_Decreto_150-2008.pdf": (
+        "not-applicable-this-wave",
+        "Acquired 2026-08-20 (STSS). D. 150-2008 annual-cesantía-pact instrument (W4c kin). Evidence pass = next session."),
+    "108_Acuerdo_345_Regl_Comisiones_Salario_Minimo.pdf": (
+        "not-applicable-this-wave",
+        "Acquired 2026-08-20 (STSS). Reglamento de las Comisiones de Salario Mínimo (SMM-chain completeness). Evidence pass = next session."),
     "97_Decreto_194-2002_Ley_Equilibrio_Financiero.pdf": (
         "not-applicable-this-wave",
         "Original of the law whose reformed Art. 14 (65+ ≤L350k exemption) is encoded from `79_` (D. 59-2020 prints the current "

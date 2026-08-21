@@ -74,6 +74,8 @@ full text lives in the evidence files). EVID ranges 130-135, 159-162, 174,
 | EV27 | `27+28_RAP-fondo.evidence.md` (275..289) |
 | EV85 | `85+86_codigo-trabajo.evidence.md` (295..333) |
 | EV89 | `89_Decreto_117-2021_interp_Art113_CT.evidence.md` (334..336 — V-HN1 validation mini-pass) |
+| EV95 | `95+96_Adulto-Mayor.evidence.md` (337..348 — V-HN1b read) |
+| EV93 | `93+94+97_chain.evidence.md` (350..361 — V-HN1b read) |
 
 Citations in requirements files use `EVxx:EVID-nnn` (and `EVxx:file OQ-n` for
 register origins). D-H1/D-H2/D-H3 (EXTRACTION_PLAN Decisions) bind all clusters.
@@ -761,6 +763,9 @@ SMM auto-elevation of inferior contracts; CT negatives (R-H60); vintage pins;
 | R-H68 | Selectivo vehicles: FR wording said "marginal-band" vs statute/AC whole-base | V-HN1 evidence fix: L-Art 20 prints NO "parte que exceda" language — WHOLE-BASE bracket semantics (bracket selected by base; rate applies to full base); never reuse the ISR PN marginal engine | EV04:EVID-048; raw-txt L-Art 20; taxation/05 FR-188/189 |
 | R-H69 | 65+ ≤L350,000 exemption: FR-131(c) "exempt up to" (cap reading) vs statute/02-FR-068 cliff | V-HN1 evidence fix per EV05:EVID-069: "renta bruta hasta de L350,000, quedan exentos" = CLIFF (tax L0.00 at/below; full normal regime above; no partial exemption) | EV05:EVID-069; taxation/04 FR-131(c)/AC-006 |
 | R-H70 | CT Art. 339 feriado count: W4d gloss said "10 paid feriados" | V-HN1 recount: ELEVEN = 8 fixed dates + 3 Semana Santa days (jueves/viernes/sábado) — payroll/06 FR-236 already enumerated correctly; the "10" glosses corrected | EV85:EVID-312; payroll/06 |
+| R-H71 | Senior L30,000@60 tier: "unacquired/unread" vs corpus reality; basis + vigencia unpinned | V-HN1b read of `95_`+`96_` (EVID-337..348): basis = D. 199-2006 Art. 30 num. 14 (own-law crédito adicional, NOT an ISR amendment), valid_from **10-ago-2007**; FR-067 row PINNED + ACTIVE on the plantilla contract; `96_` verified not to touch deductions; carries = OQ-009 (D. 59-2023 unacquired reform lead; beneficiarios-class mismatch; stacking conflict; créditos-vs-deducción mechanics) | EV95:EVID-337/338/347; taxation/02 OQ-008 resolved / OQ-009 open |
+| R-H72 | 22-A FY2017 leg: encoded "no regime row exists" vs D. 31-2019 authentic interpretation | V-HN1b read of `93_` (EVID-350/351): FY2017 IS computed under the ORIGINAL D. 278-2013 Art. 9 rules (L10M gross trigger; 1.5%/0.75% floors vs Art. 22 tariffs) — FR-082 gains regime 0 (FY2017); FR-092/AC-005 updated; pre-2017 keeps the L-Art 19 open conflict; gazette pin = G 34,932 (catalog "34,934" in error) | EV93:EVID-350/351; taxation/03 FR-082 |
+| R-H73 | 65+ L350k exemption regime history: original 2002 text unknown | V-HN1b read of `97_` (EVID-355/356): ORIGINAL Art. 14 conditioned the exemption on 5 consecutive prior periods of Art. 22-b payment; D. 59-2020 deleted the condition + made it de pleno derecho — FR-068 carries the 2002-2020 historical regime rows (pre-2020 computations resolve against the original) | EV97:EVID-355/356; taxation/02 FR-068/LB-016 |
 
 ---
 
@@ -1159,7 +1164,7 @@ files (EVxx:file OQ-n).
 - **Clusters:** 43 — W1 taxation T1-T12 (EVID-001..071), W2 fiscal-reporting F1-F11
   (EVID-072..185), W3 facturación E1-E8 (EVID-186..214), W4 payroll P1-P12
   (EVID-215..333). SEE/CAEE sub-cluster (E8 part) BLOCKED on lead 1.
-- **Resolved contradictions:** 70 (R-H1..R-H70; R-H66 adopted by product owner; R-H67..R-H70 added at V-HN1 validation)
+- **Resolved contradictions:** 73 (R-H1..R-H73; R-H66 adopted by product owner; R-H67..R-H70 V-HN1 validation; R-H71..R-H73 V-HN1b reads)
   owner 2026-08-20; incl. 9 registry-mislabel
   incidents and 4 void/dead-text rulings R-H3/4/5 + R-H1 partial-history).
 - **OQ register:** ~236 origin lines rolled up (~227 open after in-wave

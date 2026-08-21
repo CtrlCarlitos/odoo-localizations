@@ -86,6 +86,7 @@ resolution).
 | LB-010 | D. 17-2010, L-Art 4 + Reglamento Acuerdo 1121-2010, R-Arts 7-8 — **HISTÓRICO**: la tabla reglamentaria imprime 10% para TODAS las 13 categorías de no residentes; retención por PJ, comerciantes individuales y profesionales independientes per Arts. 50-51 ISR | D. 17-2010, L-Art 4 + Reglamento R-Arts 7-8 — **HISTORICAL**: the regulatory table prints 10% for ALL 13 non-resident categories (superseded window 2010-2012: D. 17-2010 in vigencia 21-may-2010; displaced by D. 182-2012, Gaceta 04-dic-2012, which restored the 25% categories — R-H1; relevant only for back-dated periods); retention by juridical persons, individual merchants and independent professionals per ISR Arts. 50-51 | `hn/sources/04_Decreto_17-2010_Ley_Fortalecimiento.pdf` + `hn/sources/21_Acuerdo_1121-2010_Regl_D17-2010.pdf` | L-Art 4 p.3; R-Arts 7-8 pp.2-3 (EV04:EVID-041; R-H1) |
 | LB-011 | D. 17-2010, L-Art 46 (reforma al D. 76-1957, tradición de inmuebles): impuesto sobre el valor de mercado o catastral (el que sea mayor); "el contribuyente tendrá derecho a que se le reembolse el impuesto pagado, si la tradición quedare rescindida dentro de los seis (6) meses siguientes a la fecha en que se realizó" | D. 17-2010, L-Art 46 (amending D. 76-1957, real-property tradición): tax on the market or cadastral value, whichever is higher; the taxpayer has the right to a refund of the tax paid if the tradición is rescinded within the six (6) months following its date (rate and the 152 declaration surface owned by cluster F8, S-HN3) | `hn/sources/04_Decreto_17-2010_Ley_Fortalecimiento.pdf` | L-Art 46 p.12 (EV04:EVID-053) |
 | LB-012 | Ley de Eficiencia, E-Art 52: los intereses/dividendos por préstamos o aportes de capital para programas de inversión social entre bancos/instituciones financieras reguladas u organismos internacionales de desarrollo "no estarán sujetos a las retenciones establecidas en los numerales 5) y 7) del Artículo 5 de la Ley del Impuesto Sobre la Renta" | Efficiency Law, E-Art 52: interest/dividends on loans or capital contributions for social-investment programs between banks/regulated financial institutions or international development organisms are NOT subject to the Art. 5 numerals 5) and 7) retentions (vintage caveat — Enero-2022 print) | `hn/sources/05_Ley_Eficiencia_D113-2011_actualizada.pdf` | E-Art 52 p.19 (EV05:EVID-066) |
+| LB-013 | D. 31-2019 (93_), Arts. 1-2 (G 34,932, 30-abr-2019; catalog's "34,934" is an error — pinned EVID-350): Art. 1: "Interpretar el numeral 1) del Artículo 1 del Decreto Legislativo No. 31-2018 [...] en el sentido siguiente: El cálculo del Impuesto Sobre la Renta para el Período Fiscal 2017 se realizará conforme a las reglas del Artículo 9 del Decreto No. 278-2013, el cual adicionó el Artículo 22-A de la Ley del Impuesto sobre la Renta."; considerando 2 recites the original 22-A design: floors "cuando los obligados tributarios obtuvieran ingresos brutos iguales o mayores a DIEZ MILLONES DE LEMPIRAS (L.10,000,000.00)" and the Art. 22 a)/b) tariff "resultaren inferiores al uno punto cinco por ciento (1.5%) o cero punto setenta y cinco por ciento (0.75%) de los ingresos brutos, según corresponde" | FY2017 = the ORIGINAL 22-A regime (D. 278-2013 Art. 9): L10M gross trigger, 1.5%/0.75% floors vs Art. 22 tariffs; D. 31-2018's bands govern FY2018+ only (regime 0 of FR-082, added V-HN1b) | `hn/sources/93_Decreto_31-2019_interp_reforma_D31-2018_22A.pdf` | Arts. 1-2 p.2; considerandos pp.1-2 (EV93:EVID-350/351) |
 
 Dead or superseded text — never implementable as current law (recorded as
 LB notes, not FRs, per wave constraint): the D. 17-2010 L-Art 4 / R-Arts 7-8
@@ -117,9 +118,15 @@ carried as OQ-001 — never applied, never deleted silently.
   (FY2020+): ≤ L1,000,000,000 not subject, above → 1.0%, sectors 0.5%.
   The FY2019 "(1.05%)" print is a defect — 1% text-primary (R-H32); the
   FY2018 general 1.5% is pinned by the 68_ print (LB-005; the 80_
-  statutory capture prints only that year's 0.75% reduced rate). Fiscal
-  years before 2018 have no 22-A regime row (see FR-092 for the L-Art 19
-  flag). (LB-002; LB-005; EV05:EVID-070; EV29:68_ EVID-109; R-H32)
+  statutory capture prints only that year's 0.75% reduced rate). **Regime
+  0 (FY2017), added V-HN1b from the `93_` evidence read:** FY2017 is
+  computed under the ORIGINAL D. 278-2013 Art. 9 rules (authentic
+  interpretation D. 31-2019 Art. 1 — EVID-351): antievasión floor when
+  ingresos brutos ≥ L10,000,000, at max(Art. 22 a)/b) tariff result,
+  1.5%/0.75%-of-gross floors; the D. 31-2018 bands start at FY2018 only.
+  Fiscal years before 2017 have no 22-A regime row (see FR-092 for the
+  L-Art 19 flag). (LB-002; LB-005; LB-013; EV05:EVID-070;
+  EV29:68_ EVID-109; EV93:EVID-350/351; R-H32)
 - **HN-TAX-FR-083:** The system shall apply the reduced sector rate only
   to taxpayers flagged with one of the six statutory sectors — cement;
   state public services; human pharma products (producer/importer/
@@ -188,7 +195,9 @@ carried as OQ-001 — never applied, never deleted silently.
   pending-acquisition and never guessed (D-H3 never-guess).
   (LB-002; EV05:EVID-070; OQ-005)
 - **HN-TAX-FR-092:** The system shall apply Art. 22-A as the sole
-  operative gross-receipts minimum for periods from FY2018 (current
+  operative gross-receipts minimum for periods from FY2017 (regime 0
+  onward — the D. 31-2019 authentic interpretation confirms 22-A governed
+  FY2017 too, V-HN1b; current
   consolidation text; R-H15 authority map) and shall NOT apply the
   D. 17-2010 L-Art 19 1%-of-net-sales minimum to any period by default;
   the L-Art 19 survival question for sub-threshold taxpayers stays an
@@ -438,10 +447,13 @@ computations re-resolve original-period rows.
   L450M, then regime B selects the 0.75% band (not 1%, and never a
   "1.05%" rate); given 2018 gross L700M, then 1% applies with sectors at
   0.5% (FR-082, R-H32).
-- **AC-005:** Given a FY2017 computation, then no 22-A regime row exists
-  and no minimum computes; the D. 17-2010 L-Art 19 minimum is NOT applied
-  in its place and the open-conflict marker (OQ-001) is recorded on the
-  run (FR-082, FR-092).
+- **AC-005:** Given a FY2017 computation with ingresos brutos L12,000,000
+  whose Art. 22 tariff result is below 1.5% of gross, then regime 0 applies
+  and the 22-A floor computes at 1.5% of gross (D. 278-2013 Art. 9 rules
+  per D. 31-2019 Art. 1); given gross L8,000,000, then no floor (below the
+  L10M trigger); given a FY2016 computation, then no 22-A regime row exists
+  and the L-Art 19 open-conflict marker (OQ-001) is recorded on the run
+  (FR-082, FR-092).
 - **AC-006:** Given a pre-operational company two years from constitution
   with no sales, then 22-A does not apply; given its first sale occurs in
   the third year with prior-FY gross below threshold, then it remains not

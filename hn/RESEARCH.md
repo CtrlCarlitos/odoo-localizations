@@ -271,18 +271,38 @@ corpus documents but absent; logged per evidence-file OQs):**
 - **Reglamento de la Ley del Salario Mínimo + Reglamento de las Comisiones
   de Salario Mínimo** — 104_/90_ cite both; bono educativo reglamento
   ("154-2000" lead unverified — cited nowhere in corpus).
-- **D. 112 Ley del Séptimo Día y Décimo Tercer Mes — W4 ROUTES EXHAUSTED
-  (2026-08-20):** SAR REST search endpoint validated working (control term
-  "salario" → 5 hits) yet returns 0 for aguinaldo/séptimo día/décimo tercero;
-  cached 420-entry catalog crawl greps empty; STSS href dead-404 + no
-  Wayback (round 5). Only remaining routes: a SAR/STSS future republish or a
-  labeled non-official mirror at synthesis time. NOTE: W4d showed the CT has
+- **D. 112 Ley del Séptimo Día y Décimo Tercer Mes — ~~W4 ROUTES EXHAUSTED~~
+  FOUND 2026-08-20 (acquisition wave, CORRECTION of the round-5 "exhausted"
+  claim):** the STSS *Leyes y Acuerdos* page (the 921-2 page, 37 PDFs) carries
+  the official upload — its live href is stale-404 (what round 5 hit) but a
+  Wayback snapshot of the double-encoded URL (20241121194050) serves the file;
+  acquired as `105_`, page-1 verified. D. 135-94 + Acuerdo 201-96 are NOT on
+  that page — remain the top unacquired pair. NOTE: W4d showed the CT has
   no aguinaldo at all — D. 112/D. 135-94 are the only statutory homes.
 - **85_ CORRECTION (9th mislabel, 2026-08-20):** D. 93-2021 (G 35,760)
   derogates Código PENAL D. 130-2017 (31 arts) + CPP D. 9-99-E + Ley Lavado
   D. 144-2014 — **ZERO CT articles** (penal numbers collide numerically with
   live CT payroll articles; guard table EVID-333). The round-3 acquisition
   premise ("CT derogations") was wrong; no CT-side gap ever existed.
+
+**Acquisition-wave deltas (2026-08-20, post-V-HN1 session):**
+- **ACQUIRED (STSS leyes page 921-2 + Wayback):** `105_` **D. 112 — THE
+  aguinaldo law** (P2 yes-blocker's core; live link stale-404, recovered
+  via Wayback); `106_` D. 43-97 + **Acuerdo STSS-154-2000 bono reglamento**
+  (payroll/02 OQ-004's unverified lead — now in corpus); `107_` D. 150-2008
+  (annual-cesantía-pact instrument, W4c kin); `108_` Acuerdo 345
+  (Reglamento Comisiones SMM). Duplicate D. 103 upload discarded (md5-identical
+  to 104_). Evidence passes = NEXT session (105_ unblocks the P2 aguinaldo
+  sub-cluster).
+- **NEW LEAD (from the 95_ read, TOP):** **D. 59-2023 (G 14-feb-2024)** —
+  intermediate reform of D. 199-2006 Adulto Mayor, scope unknown, may touch
+  the Art. 30.14 L30k credit (taxation/02 OQ-009). ENAG Gaceta Digital covers
+  Feb-2024 (recipe §5/§6).
+- **Still unacquired (top):** D. 135-94 + Acuerdo 201-96 (not on STSS leyes
+  page; SAR republish routes); Acuerdo N°799 Reglamento Ley ISR; Reglamento
+  General IHSS; Ley RAP D.L. 107-2013; SAR wp-json search returns empty for
+  all four terms (endpoint indexes posts only — catalog crawl remains the
+  real check).
 
 **W2 lead harvest (2026-08-20, from the W2a/W2b evidence passes — instruments
 cited by corpus documents but absent; logged per evidence-file OQs):**

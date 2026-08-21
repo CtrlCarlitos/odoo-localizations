@@ -3,10 +3,13 @@
 **For the next HN controller session.** Written 2026-08-20 after W1 (taxation
 core), updated through round-4/D-H2/D-H3 + the merge, W2 fiscal-reporting, W3
 facturación, W4 payroll, synthesis prep (master index + OQ registers),
-S-HN1..S-HN4 synthesis waves + their merges, and **the V-HN1 VALIDATION WAVE
-(this refresh — Stage-5 gates run: COVERAGE.md script-checked, four-topic
-adversarial review adjudicated, all topic indexes approved; next = owner merge
-decision, then S-HN5-at-milestone or acquisition wave)**.
+S-HN1..S-HN4 synthesis waves + their merges, the V-HN1 VALIDATION WAVE
+(merged to main 2026-08-20, thirteenth §4.6 run at `960df34`, root record
+`f2eccbc`), and **V-HN1b (this refresh — in-corpus evidence reads
+95_/96_/93_/94_/97_ with FR-067 PINNED + 22-A regime-0 + 97_ history rows;
+S-HN5 scoping recorded as DEFERRED; acquisition wave: D. 112 FOUND via
+Wayback-of-STSS + 154-2000 bono reglamento + D. 150-2008 + Acuerdo 345
+acquired; next = evidence passes for 105_-108_ — the P2 aguinaldo unblock)**.
 Read this fully before acting; it is the authoritative HN cross-session
 memory (conversation context does not survive). Update it at every session
 boundary.
@@ -83,14 +86,18 @@ boundary.
    `81+87+88_IHSS.evidence.md` (W4b, 250..274),
    `27+28_RAP-fondo.evidence.md` (W4c, 275..289),
    `85+86_codigo-trabajo.evidence.md` (W4d, 295..333). **EVID numbering is
-   corpus-global, next = 337. OQs are per-file/per-doc at evidence-file end
+   corpus-global, next = 362. OQs are per-file/per-doc at evidence-file end
    (~227 open).**
 
 ## 3. State: corpus (research phase COMPLETE)
 
-100 registered files, every one page-1 verified; 103 on disk (01-104, gap
-103 reserved-unused for D. 112 — SAR routes exhausted 2026-08-20, see
-RESEARCH §5). Structure:
+107 registered files, every one page-1 verified (01-108; gap 103
+reserved-unused; 105-108 acquired 2026-08-20 post-V-HN1 — **105_ = D. 112
+THE aguinaldo law**, recovered via Wayback of the official STSS upload,
+correcting the round-5 "routes exhausted" claim; 106_ = D. 43-97 + Acuerdo
+STSS-154-2000 bono reglamento; 107_ = D. 150-2008 pact; 108_ = Acuerdo 345
+Comisiones SMM; a duplicate D. 103 upload was discarded md5-identical to
+104_). Structure:
 - **Laws/consolidations:** ISR D.L. 25 (`01_`, hasta SAR-07-2025), ISV
   D.L. 24 (`02_`, hasta D.L. 59-2022), CT D. 170-2016 (`03_`, hasta
   D. 180-2020), D. 17-2010 + Reglamento 1121-2010 + D.28-2019 interp
@@ -253,6 +260,20 @@ RESEARCH §5). Structure:
   cesantía fraction = Art. 120 lit. c; Art. 104 rule-4 no half-salary
   qualifier; Art. 21-A proportionality sentence ends mid-print.
 
+- **V-HN1b in-corpus reads (2026-08-20, do not re-derive):** `95_`+`96_`
+  (EVID-337..348): **FR-067 PINNED + ACTIVATED** — L30k@60 = D. 199-2006
+  **Art. 30 num. 14** (own-law "crédito adicional", NOT an ISR amendment),
+  valid_from **10-ago-2007**; 96_ (D. 45-2025) does NOT touch deductions;
+  carries = taxation/02 OQ-009 (**D. 59-2023 G 14-feb-2024 intermediate
+  reform UNACQUIRED = new top lead**; beneficiarios = 60+ OR any-age
+  jubilado vs plantilla 60-turn gate; stacking = plantilla-only practice,
+  no statutory bridge; créditos-vs-deducción mechanics). `93_` (EVID-350/351):
+  **R-H72** — 22-A FR-082 regime 0 (FY2017 = original D. 278-2013 Art. 9
+  rules per D. 31-2019 authentic interp: L10M trigger, 1.5%/0.75% floors;
+  gazette = G 34,932, catalog "34,934" in error). `97_` (EVID-355/356):
+  **R-H73** — original Art. 14 conditioned the 65+/L350k exemption on 5
+  consecutive Art. 22-b periods; D. 59-2020 deleted it (FR-068 history
+  rows). Coverage after V-HN1b: 107 rows = 101 cited + 6 N/A; LBs 483.
 - **Decisions:** **D-H1** (binding, EXTRACTION_PLAN): one journal per company
   via `l10n_latam_invoice_document`; sequence key = (establecimiento→
   `stock.warehouse`, punto de emisión→child emission point, doc type→
@@ -314,7 +335,13 @@ RESEARCH §5). Structure:
    evidence fixes; EINV FR-085/086 + FREP FR-076 + PAYR FR-087 additions).
    All four topic indexes → approved. **NEXT = owner merge decision; then
    S-HN5 thin closes at milestone (Código de Comercio still unacquired)
-   and/or the acquisition wave (§6.2 queue — D. 135-94/201-96 still TOP).**
+   and/or the acquisition wave. DONE same session: V-HN1b reads + S-HN5
+   scoping (DEFERRED pending Código de Comercio + Ley RAP — see
+   EXTRACTION_PLAN) + acquisition wave round 6 (105_-108_ acquired).
+   NEXT: evidence passes for 105_-108_ (105_ unblocks the P2 aguinaldo
+   sub-cluster — payroll/02 OQ-001), D. 59-2023 fetch (ENAG Feb-2024),
+   then D. 135-94/201-96 + Acuerdo 799 + Reglamento General IHSS + Ley RAP
+   (§6.2 queue).**
 2. **Acquisition queue (W2+W3+W4+S-wave lead harvests, RESEARCH §5 + master-index
    C-registers + synthesis OQs):** TOP = **D. 135-94 + Acuerdo 201-96
    (aguinaldo/compensación social — the 13th-month statutory home; P2 + S-HN4

@@ -8,11 +8,11 @@
 | Authors | script `hn/scripts/build_coverage.py` (regenerate after every wave) |
 | Updated | 2026-08-20 |
 
-Every row of [../sources/README.md](../sources/README.md) (103 registered files, gap 103 reserved-unused) mapped against the four synthesis waves (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1082 FRs, 480 LB rows, 566 ACs, 317 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 248, e-invoicing 157, fiscal-reporting 363, payroll 314).
+Every row of [../sources/README.md](../sources/README.md) (103 registered files, gap 103 reserved-unused) mapped against the four synthesis waves (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1082 FRs, 483 LB rows, 566 ACs, 318 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 248, e-invoicing 157, fiscal-reporting 363, payroll 314).
 
 Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row of a requirements file (citing file(s) + LB ids listed); **not-applicable-this-wave** — explicit annotation with reason (superseded/historical, in-corpus-unread pending evidence pass, or out of scope for the four topics).
 
-## Matrix (103 source files)
+## Matrix (107 source files)
 
 | Source | Status | Cited in / note |
 |--------|--------|-----------------|
@@ -108,25 +108,29 @@ Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row
 | 92_Tabla_Bono_Educativo_2026.pdf | cited-as-LB | `payroll/02_13th-14th-bono.md` (LB-010) |
 | 87_Ley_IHSS_TSC.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-005+LB-006+LB-007+LB-008+LB-009+LB-010+LB-011+LB-012+LB-013+LB-014); `payroll/04_ihss-incapacidad.md` (LB-012+LB-013+LB-014); `taxation/02_isr-deductions.md` (LB-012) |
 | 88_Reglamento_Incapacidad_Temporal_IHSS.pdf | cited-as-LB | `payroll/04_ihss-incapacidad.md` (LB-001+LB-002+LB-003+LB-004+LB-005+LB-006+LB-007+LB-008+LB-009+LB-010+LB-011) |
-| 93_Decreto_31-2019_interp_reforma_D31-2018_22A.pdf | not-applicable-this-wave | Interpretive instrument on the D. 31-2018 22-A transition (FY2017 tariff/cálculo per D. 278-2013). No evidence pass yet; the three dated 22-A regimes are LB'd via `80_`/`04_` (taxation/03, R-H32). Read only if FY2017 historical reconstruction is ever required; gazette-number print oddity (34,932 vs catalog 34,934) pinned in registry. |
-| 94_Acuerdo_464-1990_Regl_Art50_LeyISR.pdf | not-applicable-this-wave | HISTORICAL reglamento-chain ancestor (1990 retention values: L10k gate, 5% honorarios, 20-day entero — all superseded). Explicitly NOT the modern Reglamento Ley ISR ('Acuerdo N°799', still unacquired — top lead). Retained for chain provenance only. |
-| 95_Decreto_199-2006_Ley_Adulto_Mayor.pdf | not-applicable-this-wave | IN CORPUS UNREAD (V-HN1 status fix): acquired 2026-08-19 but never given an evidence pass; the S-HN1 'D. 199-2006 unacquired' premise was stale. THE activation key for the taxation/02 senior-tier L30,000@60 row (FR-067, OQ-008 — valid_from unpinned until read). Next: mini evidence pass + verify article text vs D. 59-2020 (`79_`) / D. 45-2025 (`96_`). |
-| 96_Decreto_45-2025_reforma_Adulto_Mayor.pdf | not-applicable-this-wave | IN CORPUS UNREAD — Jan-2026 reforma of D. 199-2006 (Arts. 31/31-A/31-B, services-discount side; may touch deduction articles). Read together with `95_` at the same mini evidence pass (taxation/02 OQ-008 kin). |
-| 97_Decreto_194-2002_Ley_Equilibrio_Financiero.pdf | not-applicable-this-wave | Original of the law whose reformed Art. 14 (65+ ≤L350k exemption) is encoded from `79_` (D. 59-2020 prints the current text); 2002 ISV-side reforms superseded by the `02_` consolidation. Retained for chain verification; no current-law LB role. |
+| 93_Decreto_31-2019_interp_reforma_D31-2018_22A.pdf | cited-as-LB | `taxation/03_isr-rates-gains-minimum.md` (LB-013) |
+| 94_Acuerdo_464-1990_Regl_Art50_LeyISR.pdf | not-applicable-this-wave | HISTORICAL reglamento-chain ancestor (1990 retention values: L10k gate, 5% honorarios, 20-day entero — all superseded). V-HN1b: evidenced EVID-351..352-class chain rows in `93+94+97_chain.evidence.md` (values confirmed; no printed derogation clause; every CR tagged HISTORICAL-NEVER-CURRENT). Explicitly NOT the modern Reglamento Ley ISR ('Acuerdo N°799', still unacquired — top lead). |
+| 95_Decreto_199-2006_Ley_Adulto_Mayor.pdf | cited-as-LB | `taxation/02_isr-deductions.md` (LB-015) |
+| 96_Decreto_45-2025_reforma_Adulto_Mayor.pdf | not-applicable-this-wave | V-HN1b: evidenced EVID-342..344 (services-discount side: Art. 31 utilities tiers 25/30%/35/40%, Arts. 31-A/31-B Fiscalía/visible-info) — verified NOT to touch the Art. 30.14 deduction (OQ-008 resolution leg). Out of the four approved topics' scope (special-regimes/commercial-legal territory); cite there when those waves open. |
+| 97_Decreto_194-2002_Ley_Equilibrio_Financiero.pdf | cited-as-LB | `taxation/02_isr-deductions.md` (LB-016) |
 | 98_Acuerdo_172-2022_selectivo_IPC.pdf | cited-as-LB | `fiscal-reporting/09_selectivo-declarations.md` (LB-008) |
 | 99_Acuerdo_014-2023_selectivo.pdf | cited-as-LB | `fiscal-reporting/09_selectivo-declarations.md` (LB-009) |
 | 100_Acuerdo_218-2024_selectivo_IPC.pdf | cited-as-LB | `fiscal-reporting/09_selectivo-declarations.md` (LB-010) |
 | 101_Acuerdo_STSS-308-2022_G35892.pdf | cited-as-LB | `payroll/01_smm-chassis.md` (LB-015+LB-016+LB-017) |
 | 102_Acuerdo_02-95_Regl_14to_mes.pdf | cited-as-LB | `payroll/02_13th-14th-bono.md` (LB-001+LB-002+LB-003+LB-004+LB-005+LB-006+LB-007) |
 | 104_Decreto_103_Ley_Salario_Minimo.pdf | cited-as-LB | `payroll/01_smm-chassis.md` (LB-001+LB-002+LB-003+LB-004+LB-005+LB-006+LB-007); `payroll/02_13th-14th-bono.md` (LB-008+LB-009) |
+| 105_Decreto_112_Ley_Septimo_Dia_13er_Mes_Aguinaldo.pdf | not-applicable-this-wave | Acquired 2026-08-20 (Wayback of the official STSS upload), page-1 verified. THE 13th-month statutory home — evidence pass = NEXT session; unblocks the payroll/02 P2 aguinaldo sub-cluster (OQ-001). No LB citations yet by design. |
+| 106_Gaceta_29320_D43-97_bono_educativo_Ac154-2000_reglamento_bono.pdf | not-applicable-this-wave | Acquired 2026-08-20 (STSS), OCR'd. D. 43-97 + Acuerdo STSS-154-2000 bono reglamento (the payroll/02 OQ-004 lead, now in corpus). Evidence pass = next session. |
+| 107_Gaceta_31753_Decreto_150-2008.pdf | not-applicable-this-wave | Acquired 2026-08-20 (STSS). D. 150-2008 annual-cesantía-pact instrument (W4c kin). Evidence pass = next session. |
+| 108_Acuerdo_345_Regl_Comisiones_Salario_Minimo.pdf | not-applicable-this-wave | Acquired 2026-08-20 (STSS). Reglamento de las Comisiones de Salario Mínimo (SMM-chain completeness). Evidence pass = next session. |
 
 ## Rollup
 
 | Status | Rows |
 |--------|------|
-| cited-as-LB | 98 |
-| not-applicable-this-wave | 5 |
-| **Total** | **103** |
+| cited-as-LB | 101 |
+| not-applicable-this-wave | 6 |
+| **Total** | **107** |
 
 ## V-HN1 gate-1 findings (2026-08-20, fixed in this wave)
 

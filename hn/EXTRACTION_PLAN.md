@@ -13,6 +13,40 @@ S-HN5 thin closes at milestone (or acquisition wave in parallel)**.
 
 ## Wave log
 
+- **V-HN1b in-corpus evidence reads (2026-08-20, DONE):** two subagent
+  reads, controller-verified on disk. `95_`+`96_` (EVID-337..348,
+  `95+96_Adulto-Mayor.evidence.md`): **FR-067 PINNED + ACTIVATED** —
+  basis = D. 199-2006 Art. 30.14 (own-law "crédito adicional" L30,000,
+  NOT an ISR amendment), valid_from **10-ago-2007** (Art. 50 +20d after G
+  31,361); `96_` (D. 45-2025) verified NOT to touch deductions
+  (services-discount side only); OQ-008 resolved; NEW carries = OQ-009
+  (**D. 59-2023 G 14-feb-2024 intermediate reform — UNACQUIRED, new top
+  lead**; beneficiarios-class mismatch 60+/any-age-jubilado vs plantilla
+  60-turn gate; stacking conflict — no statutory bridge anywhere;
+  créditos-vs-deducción mechanics). `93_`+`94_`+`97_` (EVID-350..361,
+  `93+94+97_chain.evidence.md`): **R-H72** — 22-A FR-082 gains regime 0
+  (FY2017 = original D. 278-2013 Art. 9 rules per the D. 31-2019 authentic
+  interpretation: L10M trigger, 1.5%/0.75% floors; gazette pin G 34,932,
+  catalog "34,934" in error); **R-H73** — 97_ Art. 14 ORIGINAL carried the
+  5-consecutive-periods condition deleted by D. 59-2020 (FR-068 historical
+  regime rows); 94_ = chain provenance only (HISTORICAL-NEVER-CURRENT).
+  Coverage: 103 rows = 101 cited + 2 N/A (94_ evidence-complete-historical,
+  96_ out-of-topic); LBs 483. Taxation index 248/112/140/56.
+
+- **S-HN5 scoping decision (2026-08-20, controller recommendation —
+  owner to ratify):** thin closes are **DEFERRED, not waived**:
+  (a) *chart-of-accounts* — the only corpus anchor is the EEFF inform
+  (535/SAR-619, fiscal-reporting/06) + CT Art. 64's NIIF-books duty; a
+  chart wave needs the Código de Comercio (UNACQUIRED — D.L. 671-? not
+  even numbered yet in our registry) + the SAR plan-de-cuentas practice
+  instruments; nothing further is extractable from the current corpus;
+  (b) *commercial-legal* — same blocker (Código de Comercio) + 96_'s
+  services-discount family + the amnistía D. 7-2026 municipal legs would
+  be entry material once the code lands; (c) recommendation: open S-HN5
+  only when Código de Comercio + Ley RAP full text are acquired (both
+  already in the queue) — until then the corpus is exhaustively
+  synthesized into the four approved topics.
+
 - **V-HN1 validation wave (2026-08-20, DONE):** Stage-5 gates. **Gate 1:**
   `hn/scripts/build_coverage.py` (committed, regenerable) →
   `hn/requirements/COVERAGE.md`: 103 registry rows = 98 cited-as-LB + 5
