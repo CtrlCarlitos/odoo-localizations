@@ -151,6 +151,12 @@ Official MH JSON schemas for DTE transmission, one per document/event type.
 | `schemas/contingencia-schema-v3.json` | Evento de Contingencia | — | 3 |
 | `schemas/anulacion-schema-v2.json` | Evento de Anulación | — | 2 |
 
+## Registry — CT application reglamento + SOQ-54 verification (retrieved 2026-08-20; D.O. /seleccion RECOVERED this date after the 08-18 outage — serves PDFs again; asamblea.gob.sv still 000; MH formularios unchanged (F-11 v19/v20 + F14 v17 manual still absent); uif.gob.sv Marco Legal: no new AML reglamento yet)
+
+| `75_Reglamento_Codigo_Tributario_DE117.pdf` | taxation, fiscal-reporting, payroll | **Reglamento de Aplicación del Código Tributario — D.E. N° 117** (11-dic-2001, D.O. N° 234 T.353 11-dic-2001; effective 19-dic-2001 per Art. 148 8-days-after-publication rule). **The mass-repeal authority instrument R17/R30(a) cite without having owned its text.** Art. 147(a) repeals 04_/Rgto-ISR procedure arts (3, 4, 5, 8, 21, 36, 40–140, 142, 143 — 59 + 141 NOT in the list); Art. 147(b) repeals 02_/Rgto-IVA arts 11-15, 27-28, 31-35, 37-44, 46-49 → **02_ survivors = 1-10, 16-26, 29-30, 36, 45, 50-52 (instrument-corrected R30(a), which had "1-10, 16-30, 50-52" — Arts. 36/45 survive)**. 148 arts / 85 pp of CT application mechanics: representation/mandates, domicilio fiscal, declaration place/form/deadlines, payments, compensación, prescription/sanction procedures, reconsideración, consultas, transitory papelería/normas-en-el-tiempo rules (Arts. 144-146). NO REFORMAS block printed — current-print watch (no post-2001 reglamento reform evidenced; CT DTE reform D.L. 487-2022 amended the CODE only). Text layer ok (no OCR needed) | 2001-12-11 | 2026-08-20 | [transparenciafiscal.gob.sv DC5854](https://www.transparenciafiscal.gob.sv/downloads/pdf/DC5854_Reglamento%20aplicacion%20Codigo%20Tributario.pdf) (linked from [factura.gob.sv/normativa](https://factura.gob.sv/normativa/)) |
+
+- **SOQ-54 Ley-side verification (2026-08-20):** the transparenciafiscal [Ley IVA copy (DC9226, 58 pp)](https://www.transparenciafiscal.gob.sv/downloads/pdf/DC9226_Ley_del_Impuesto_a_la_Transferencia_de_Bienes_Muebles_y_a_la_Prestacion_de_Servicios.pdf) is a second official print whose REFORMAS list is IDENTICAL to `01_` — both end at (14) D.L. 71-2015 → **01_ confirmed as the current Ley IVA consolidation** (two-official-copy pattern, SOQ-22/73_ kin). NOT registered as a file (content-identical vintage; HN md5-identical-discard precedent). The Rgto-side watch (post-D.E. 117-2001 consolidation, if any exists) continues with unchanged negative signals.
+
 ## Notes
 
 - File `14_Ley_Servicios_Internacionales.pdf`: an earlier version of this
@@ -158,7 +164,7 @@ Official MH JSON schemas for DTE transmission, one per document/event type.
   with Decreto 431 (2007); its Reglamento (Decreto 131) is file `17b_`.
 - Numbering gaps (21, 23, 24, 28) are intentional — those documents were not
   carried over from the prior project. New acquisitions continue the sequence
-  after the highest existing number (currently 74).
+  after the highest existing number (currently 75).
 - **2026-08-16 update (files 44-52):** the current MH official set postdates
   most tuky-era documents. Superseded files are RETAINED (they are cited Legal
   Basis for evidence already collected); requirement synthesis must prefer the

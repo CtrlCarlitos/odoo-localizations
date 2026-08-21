@@ -35,10 +35,15 @@ boundary.**
   + index/flips, 178 FRs SV-TAX-FR-176..353; final whole-wave review
   USABLE-WITH-FIXES → one fix wave PASS)**.
   W15 (2026-08-20): IVA deep pass EVID-304..338, clusters V1-V10 + R30
-  + SOQ-54..58 in the master index. **COVERAGE final: 63 cited / 0
-  pending / 9 N/A / 1 superseded (73 rows) — the corpus is FULLY cited.
+  + SOQ-54..58 in the master index. **W16 (2026-08-20): external-check
+  sweep + 75_ (D.E. 117-2001 CT reglamento — the R17/R30(a) repeal
+  authority) acquired/evidenced EVID-339..358; R30(a) survivor-set
+  addendum; SOQ-54 Ley side RESOLVED; D.O. RECOVERED — see §5 wave log.**
+  COVERAGE after W16: 63 cited / 1 pending (75_ fold-in queued) / 9 N/A /
+  1 superseded (74 rows).
   The 8-topic synthesis program is COMPLETE (1,605 FRs total). Remaining
-  program: acquisition follow-ups (§8.2), SOQ/external watches, deferred
+  program: 75_ FR fold-ins (next edit wave), acquisition follow-ups
+  (§8.2), SOQ/external watches, deferred
   cleanups (§8.5), owner merge decisions.**
 
 ## 2. Read order for a new session
@@ -56,11 +61,13 @@ boundary.**
    template, regulatory-change-management, odoo-localization-guide,
    go-live-readiness)
 6. `sv/sources/README.md` — the registry (72 files, numbering 01–74,
-   gaps 21/23/24/28; next numbering = 75)
+   gaps 21/23/24/28; next numbering = 76)
 
 ## 3. Corpus & evidence state
 
-- **EVID corpus 001..274** (gaps 109-127, 240 reserved-unused). W13 files
+- **EVID corpus 001..358** (gaps 109-127, 240 reserved-unused; W15 IVA deep
+  pass EVID-304..338 in EV01's W15 section; W16 CT-reglamento EVID-339..358
+  in EV75). W13 files
   (2026-08-19): `12_Ley_Zonas_Francas` (EVID-251..258),
   `14_17b_Servicios_Internacionales` (EVID-259..267),
   `13_42_43_74_Aduanas` (EVID-268..273), `31_Guia_FOVIAL_COTRANS`
@@ -70,7 +77,9 @@ boundary.**
   `17_Reglamento_Lavado_Activos` (EVID-232..235, kept-mechanics citable).
   W9 payroll: EVID-191..210. W8 fiscal reporting: EVID-171..190. W7/W6.5/
   W6 ISR: EVID-088..108, 128..170. S1 foundations: EVID-001..087.
-- **72 registered source files** (numbering 01–74, gaps 21/23/24/28).
+- **73 registered source files** (numbering 01–75, gaps 21/23/24/28; W16
+  added 75_ = Reglamento de Aplicación del CT, D.E. 117-2001 — the R17/
+  R30(a) mass-repeal authority instrument, EVID-339..358).
   Registry carries title-vs-content amendments (29_ = F985 CNR mislabel;
   09_ = D.L. 614 misnomer; 15_ = D. 498 mislabel; 12_ = "Industriales y de
   Comercialización" content title fixed W13), supersession notes
@@ -107,8 +116,8 @@ prefix; **R30(b): one prefix per topic dir — the IVA-core files continued
 `SV-TAX` at 176 rather than taking a new prefix**; genuinely new topics
 take new prefixes per the `<CC>-<TOPIC>-FR-nnn` contract.
 
-COVERAGE rollup after S9: 63 cited / 0 pending / 9 N/A / 1 superseded
-(73 rows) — corpus FULLY cited. S8 lesson (standing): registry flips
+COVERAGE rollup after W16: 63 cited / 1 pending (75_ — FR fold-in queued)
+/ 9 N/A / 1 superseded (74 rows). S8 lesson (standing): registry flips
 must grep ALL LB source columns of the new files.
 
 ## 5. SV facts a new session must know (condensed; details in wave sections below)
@@ -146,7 +155,26 @@ must grep ALL LB source columns of the new files.
 
 ### Wave log summary (full detail in `sv/EXTRACTION_PLAN.md` §Extraction log)
 
-- **S9 (2026-08-20, this session):** IVA-core synthesis COMPLETE per plan
+- **W16 (2026-08-20):** external-check sweep + 75_ acquisition + SOQ-54
+  Ley-side verification — **D.O. RECOVERED** (serves PDFs; API param shape
+  unpinned — pin before the SOQ-41/34 hunts); asamblea still 000; MH
+  formularios unchanged; factura.gob.sv no LB drift; no new AML reglamento.
+  **75_ = Reglamento de Aplicación del CT (D.E. 117-2001**, D.O. 234 T.353
+  11-dic-2001, effective 19-dic-2001; TF DC5854) — the R17/R30(a) repeal
+  authority instrument finally owned; EVID-339..358 (EV75, 8 OQs). **R30(a)
+  corrected by instrument audit: 02_ live survivors = 1-10, 16-26, 29-30,
+  50-51** (old "16-30" over-included 27-28; 36/45 died via D.E. 60-1993,
+  NOT 147(b)); all V1-V10 cites verified in-set; taxation 07/08/09/10/14
+  preambles fixed. 147(a)→04_ survivors corroborate EV04 (04_ header
+  "6-20" loose — Art. 8 repealed). Leads: 75_ Art. 100 = SOQ-08 anchor
+  (EVID-351 payroll retention engine + F-14 annex root); imprescriptible
+  retentions Art. 23 vs 2-y agent caducidad Art. 133; dictamen block
+  historical (OQ-3). SOQ-54 Ley side RESOLVED (TF DC9226 ≡ 01_ through
+  (14) D.L. 71-2015); Rgto side rides. **Pending: 75_ FR fold-ins at the
+  next taxation/fiscal-reporting/payroll edit wave** (COVERAGE 74 rows,
+  1 pending).
+
+- **S9 (2026-08-20):** IVA-core synthesis COMPLETE per plan
   `docs/superpowers/plans/2026-08-20-s9-iva-core-synthesis.md` — W15 deep
   pass (EVID-304..338) first, then subagent-driven 10 tasks strictly
   sequential (per-task reviews: 8 Approved clean; T1 two fix rounds —
@@ -353,8 +381,10 @@ must grep ALL LB source columns of the new files.
   (Retorno 18, OpEsp 17); FVS alive as physical regime via EOP.
 - D.O. scans: PSM 6; D.O. TABLE pages PSM 4 at 400dpi. OCR quirk critical.
 - factura.gob.sv wpdmdl IDs shuffled — verify page 1 with pypdf.
-- D.O. `/seleccion/{Id}` route: **500 server-wide since 2026-08-18
-  ~13:55** (API listing works). asamblea.gob.sv unreachable (000).
+- D.O. `/seleccion/{Id}` route: **RECOVERED 2026-08-20** (serves PDFs
+  again after the 500 outage since 08-18; API `/api/v1/diarios-disponibles`
+  answers but the param shape 400'd on standard guesses — pin on next D.O.
+  hunt from the W6.5 recipe). asamblea.gob.sv unreachable (000).
   Live official mirror: **uif.gob.sv Marco Legal** (plain GET + browser
   UA; Incapsula blocks HEAD). MH formularios page: direct wp-content
   URLs (verified 2026-08-18: no F-11 v19/v20, no F14 v17 manual).
@@ -374,18 +404,22 @@ must grep ALL LB source columns of the new files.
   double-benefit 2026 (tercerización pointer RESOLVED S9 → 11 §3.3);
   IVA-side: SOQ-54 (01_/02_ consolidation vintage watch), SOQ-55/56/57/
   58 carried in 07/08.
-- Fiscal-reporting: SOQ-08 (due-day windows), SOQ-13/14; 07 OQ-008 (v17
+- Fiscal-reporting: SOQ-08 (due-day windows; **75_ Art. 100 anchor lead
+  W16** — 10-hábiles entero + monthly consolidation, EVID-351), SOQ-13/14;
+  07 OQ-008 (v17
   apéndice code 73), 06 OQ-008 (MH validation depth); 02 OQ-002 rate
   anchor ANSWERED S9 (SV-TAX-FR-240/241), 03 OQ-004 ANSWERED S9
   (SV-TAX-FR-313 zone).
 - Commercial-legal: SOQ-23 SAS law, SOQ-24 quiebra vintage, SOQ-25 Ley
   Registro de Comercio, SOQ-26 Economía rate; AML new-reglamento watch
   (uif.gob.sv).
-- F-11 v19/v20 + F14 v17 manual acquisitions (≥75 numbering; MH page
+- F-11 v19/v20 + F14 v17 manual acquisitions (≥76 numbering; MH page
   watch). D.L. 598-2020 + EVID-167 tail laws (S7 SOQ-41).
-- Current Ley IVA/Reglamento consolidations (post-D.L. 71-2015 /
-  post-D.E. 117-2001 verification — SOQ-54; asamblea/D.O. recovery
-  watch).
+- Ley IVA consolidation: **RESOLVED W16** (TF DC9226 second official
+  print, reform list identical through (14) D.L. 71-2015 → 01_ current;
+  registry §75-section note). Reglamento IVA: repeal instrument owned
+  (75_); post-117-2001 consolidation watch continues, negative signals
+  (SOQ-54 Rgto side).
 
 ## 8. Next actions (ordered)
 
@@ -406,8 +440,8 @@ must grep ALL LB source columns of the new files.
     adjusting acuerdos (SOQ-34); S9 — current Ley IVA + Reglamento IVA
     consolidations (SOQ-54), Art. 46-f BCR instrument (SOQ-56), 167-A
     sectorial-politics instrument (SOQ-58).
- 3. Registry note: numbering continues from **75** (32_/33_ were already
-    registered; the S8/S9 acquisition candidates above are the NEW numbering).
+  3. Registry note: numbering continues from **76** (32_/33_/75_ were already
+     registered; the W16+ acquisition candidates above are the NEW numbering).
  4. SOQ follow-ups per §7; periodic external checks (factura.gob.sv,
     uif.gob.sv/marco-legal, MH formularios, D.O. recovery).
  5. Deferred cleanups (CAN-STAND): prior-wave deferred-minor lists (root

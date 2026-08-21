@@ -114,8 +114,9 @@ Quincena-25 package 66_/67_, F-07 v14 manual silent); re-verify at
 implementation — load-bearing for the 13% rate row (FR-240) above all.
 **Reglamento = 02_ survivors only** (D.E. 83-1992 consolidated through
 D.E. 60-1993/10-1996/**117-2001**; the mass repeal = D.E. 117-2001 stamp
-(3) — ruling R30(a), R17-bis kin); survivor articles = 1-10, 16-30, 50-51
-(+ 52 vigencia); this file cites Rgto. Arts. 17-18 — both survivors. The
+(3) — ruling R30(a), R17-bis kin); survivor articles = 1-10, 16-26, 29-30,
+50-51 (+ 52 vigencia; corrected set per R30(a) addendum, 75_ Art. 147(b)
+audit 2026-08-20); this file cites Rgto. Arts. 17-18 — both survivors. The
 Art. 48 preamble cross-references **CT Art. 199-A** (administrative base
 estimation) as printed — a CT-side authority outside this corpus pass,
 recorded as provenance, no FR asserted on it. **31_ = the FOVIAL guide**
@@ -154,7 +155,8 @@ outside this pass); Art. 56 (CALCULO EN EXCESO) is DEROGADO by D.L. 230/00 —
 T4's boundary row, noted here only because it prints inside the Arts. 54-55
 run; Arts. 113/123/124/161 (void) and the D.L. 230/00-repealed procedural
 belt sit outside this file's range. The vetoed D.L. 24-2003 never entered
-into force. Reglamento non-survivors (everything outside 1-10, 16-30, 50-51)
+into force. Reglamento non-survivors (everything outside 1-10, 16-26, 29-30,
+50-51 — corrected set, R30(a) addendum)
 are per R30(a) derogated and never cited. The FOVIAL/COTRANS instruments
 (D.L. 208-2000 text; COTRANS law) are NOT in the corpus — SOQ-39/MOQ-04:
 the guard rows below defend the base regardless, but no statutory chain

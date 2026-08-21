@@ -6,7 +6,7 @@
 | Topic   | all (cross-topic) |
 | Status  | draft (S1 + S2 ISR + S3 fiscal-reporting + S4 payroll + S5 commercial-legal + S7 special-regimes + S8 chart-of-accounts + S9 IVA-core waves) |
 | Authors | Controller (hand-built; script to regenerate later) |
-| Updated | 2026-08-20 (S9) |
+| Updated | 2026-08-20 (S9 + W16 acquisition) |
 
 Every file in [../sources/](../sources/) mapped against the S1, S2 (ISR),
 S3 (fiscal-reporting), S4 (payroll), S5 (commercial-legal), S7
@@ -15,14 +15,14 @@ requirements waves. Status values:
 
 - **cited-as-LB** — appears in a Legal Basis row (or as direct schema read) of a requirements file; the citing file(s) named.
 - **not-applicable-this-wave** — out of the current wave's scope or superseded-without-content-need; reason noted.
-- **pending-S2+** — earmarked for later waves: IVA-core taxation, NIIF (none remain — both flipped, by S9 and S8 respectively).
+- **pending-S2+** — earmarked for later waves: IVA-core taxation, NIIF (both flipped, by S9 and S8 respectively; W16's 75_ re-introduces one pending row until its FR fold-in).
 - **superseded-not-cited** — superseded extraction retained on disk for reference; not a legal-basis citation (the superseding source is the cited LB).
 
 No orphans: every row carries at least one of the four. Sources fully
 superseded but cited as historical LB (25_\*, 40_, 41_) still count as
 cited-as-LB.
 
-## Matrix (72 source files + schemas/ dir = 73 rows)
+## Matrix (73 source files + schemas/ dir = 74 rows)
 
 | Source | Status | Cited in / note |
 |--------|--------|-----------------|
@@ -58,6 +58,7 @@ cited-as-LB.
 | 72_Instructivo_UIF_Acuerdo380_reform2023.pdf | cited-as-LB | `commercial-legal/10` LB rows (kept UIF instructivo per 71_ Art. 61 — operative threshold values Art. 51 ($10k cash/$25k other media) + Art. 52 institutional aggregates, DD/ROS mechanics; EVID-247..249; R28 authority chain) |
 | 73_Codigo_Comercio_UIF_indicelegislativo.pdf | cited-as-LB | verification co-cites in `commercial-legal/01..09` §2 preambles (all nine files; + `04` LB-032 pointer row via the 71-73_ evidence gloss) — verification-grade second CC copy (SOQ-22 resolved-with-residual, EVID-250); no independent LB article-text role |
 | 74_Ley_Simplificacion_Aduanera_D529.pdf | cited-as-LB | `special-regimes/01` LB-024/025 (declarante roles, consultas); `05` LB-008 (Art. 11-A h) SS-solvencia kin of FR-102); `06` LB rows (9: teledespacho, $18 tasa, presumed valuation, anulación clocks, 5-y caducidad); `07` LB-022 (Art. 13 5-y retention kin) — D. 529-1999 consolidated through D.L. 23-2012, acquired W13 from uif.gob.sv, as printed (SOQ-30) |
+| 75_Reglamento_Codigo_Tributario_DE117.pdf | pending-S2+ | **Acquired + evidenced W16 (2026-08-20):** D.E. 117-2001, EVID-339..358 in `sv/.extractions/75_Reglamento_Codigo_Tributario.evidence.md` (CT procedural mechanics; Art. 147 derogation audit = R30(a) addendum authority; SOQ-08 Art. 100 anchor lead; Arts. 23/133 retention imprescriptibilidad/caducidad pair). LB citations land at the next taxation/fiscal-reporting/payroll edit wave (lead candidates: EVID-351 payroll retention engine + F-14 annex root; EVID-345/355 prescription pair; EVID-341 domicilio/notification mechanics) |
 | 11_Codigo_Trabajo.pdf | cited-as-LB | `payroll/01` LB-001..007; `payroll/02` LB-001..004, LB-011; `payroll/03` LB-001..020; `payroll/04` LB-001..020, LB-022; `payroll/06` LB-013; `payroll/07` LB-001..010, LB-013..021 |
 | 12_Ley_Zonas_Francas.pdf | cited-as-LB | `special-regimes/01` LB rows (11); `02` (14); `04` (6); `05` (4); `07` (12) — D.L. 405-1998 consolidated through D.L. 318-2013, cited as printed (SOQ-30) |
 | 13_Ley_Organica_Aduanas.pdf | cited-as-LB | `special-regimes/01` LB rows (2: DGA institutional frame); `06` §2 authority-order preamble; `07` LB row (Art. 19) — D. 903 through D.L. 121-2012, as printed |

@@ -118,8 +118,10 @@ Quincena-25 package 66_/67_, F-07 v14 manual silent); re-verify at
 implementation. **Reglamento = 02_ survivors only** (D.E. 83-1992
 consolidated through D.E. 60-1993/10-1996/**117-2001**; the mass repeal =
 D.E. 117-2001 stamp (3) — ruling R30(a), R17-bis kin: repeal authority is
-the D.E., not the Código Tributario); survivor articles = 1-10, 16-30,
-50-51 (+ 52 vigencia); this file cites Rgto. Arts. 2, 4, 5, 8, 9, 10, 20 —
+the D.E., not the Código Tributario); survivor articles = 1-10, 16-26, 29-30,
+50-51 (+ 52 vigencia; set corrected 2026-08-20 from 75_ Art. 147(b) audit —
+R30(a) addendum: the original "16-30" over-included Arts. 27-28, and 36/45
+died earlier via D.E. 60-1993); this file cites Rgto. Arts. 2, 4, 5, 8, 9, 10, 20 —
 all survivors. **CT re-anchors for procedure:** ~60 Ley articles were
 derogated by D.L. 230/00 (registration, documents, sanctions,
 administration — now Código Tributario); where a survivor carries a stale
@@ -169,7 +171,8 @@ live in the Código Tributario (CT re-anchor); void-on-constitutionality
 Arts. 113/123/124/161 (sentencia 17-dic-1992) sit outside this file's
 range and are noted only as consolidation provenance; vetoed D.L. 24-2003
 (five-year agro-input IVA exemption) never entered into force. Reglamento
-non-survivors (everything outside 1-10, 16-30, 50-51) are per R30(a)
+non-survivors (everything outside 1-10, 16-26, 29-30, 50-51 — corrected
+set, R30(a) addendum) are per R30(a)
 derogated and never cited. Rgto. Art. 2 numerals 11-12 and 15
 (importación/internación definitiva, regímenes aduaneros especiales) are
 vocabulary consumed by the special-regimes wave (SR4/SR6 by id), restated

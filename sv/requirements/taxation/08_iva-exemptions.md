@@ -90,7 +90,8 @@ Quincena-25 package 66_/67_, F-07 v14 manual silent); re-verify at
 implementation. **Reglamento = 02_ survivors only** (D.E. 83-1992
 consolidated through D.E. 60-1993/10-1996/**117-2001**; the mass repeal =
 D.E. 117-2001 stamp (3) — ruling R30(a), R17-bis kin); survivor articles =
-1-10, 16-30, 50-51 (+ 52 vigencia); this file cites Rgto. Art. 16 — a
+1-10, 16-26, 29-30, 50-51 (+ 52 vigencia; corrected set per R30(a) addendum,
+75_ Art. 147(b) audit 2026-08-20); this file cites Rgto. Art. 16 — a
 survivor. **Version regimes recorded as rows, never silent drops:** the
 transfer-side exemption chapter (Art. 44) and the Art. 45 letter a) are
 DEROGADO by D.L. 877/00 (dead rows, omission markers — LB-001); the 45-h row

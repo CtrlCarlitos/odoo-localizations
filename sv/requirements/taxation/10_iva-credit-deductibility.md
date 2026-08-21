@@ -96,8 +96,9 @@ post-2015 reforms unverified; corpus-internal signals negative (DTE
 stack 44_/45_, Quincena-25 package 66_/67_, F-07 v14 manual silent);
 re-verify at implementation. **Reglamento = 02_ survivors only** (D.E.
 83-1992 consolidated through D.E. 60-1993/10-1996/**117-2001**; the mass
-repeal = D.E. 117-2001 stamp (3)); survivor articles = 1-10, 16-30,
-50-51 (+ 52 vigencia); this file cites Rgto. Arts. 19, 20, 21, 22, 23 —
+repeal = D.E. 117-2001 stamp (3)); survivor articles = 1-10, 16-26, 29-30,
+50-51 (+ 52 vigencia; corrected set per R30(a) addendum, 75_ Art. 147(b)
+audit 2026-08-20); this file cites Rgto. Arts. 19, 20, 21, 22, 23 —
 all survivors. **CT re-anchors (binding on several rows):** ~60 Ley
 articles were derogated by D.L. 230/00 (registration, documents,
 sanctions, administration — now Código Tributario); Art. 65 as printed

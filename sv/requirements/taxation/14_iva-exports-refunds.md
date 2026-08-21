@@ -75,8 +75,9 @@ Quincena-25 package 66_/67_, F-07 v14 manual silent); re-verify at
 implementation. **Reglamento = 02_ survivors only** (D.E. 83-1992
 consolidated through D.E. 60-1993/10-1996/**117-2001**; the mass repeal =
 D.E. 117-2001 stamp (3) — ruling R30(a): repeal authority is the D.E., not
-the Código Tributario); survivor articles = 1-10, 16-30, 50-51 (+ 52
-vigencia); this file cites Rgto. Arts. 2, 29, 30 — all survivors. **Stale
+the Código Tributario); survivor articles = 1-10, 16-26, 29-30, 50-51 (+ 52
+vigencia; corrected set per R30(a) addendum, 75_ Art. 147(b) audit
+2026-08-20); this file cites Rgto. Arts. 2, 29, 30 — all survivors. **Stale
 anchor (R30(a) kin):** Rgto. Art. 29 prints its ZF/recintos
 export-equivalence "de conformidad con el Art. 26 del Decreto Legislativo
 No. 461" of 1990 — superseded as law by D.L. 405-1998 (12_); the anchor is
@@ -111,7 +112,8 @@ Ley IVA Arts. 76/77 (SR5 by id; R30(a) note). The Art. 77-A/B/C zone and
 everything Arts. 78-141 sit outside this file; the ~60 Ley articles
 derogated by D.L. 230/00 are the CT re-anchor belt (only the LIVE CT-215
 cross-reference of Art. 77-3º is used here). Rgto. non-survivors
-(everything outside 1-10, 16-30, 50-51) are per R30(a) derogated and never
+(everything outside 1-10, 16-26, 29-30, 50-51 — corrected set, R30(a)
+addendum) are per R30(a) derogated and never
 cited. The 01_ txt prints a duplicated "e)e)" literal marker at Art. 77-e)
 — a typographical defect carried as note, not law. The SOQ-54 vintage
 watch (§2 preamble) applies to every row above.
