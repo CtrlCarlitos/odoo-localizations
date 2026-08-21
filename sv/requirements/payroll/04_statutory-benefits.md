@@ -6,7 +6,7 @@
 | Topic   | payroll |
 | Status  | draft |
 | Authors | Takumi synthesis wave 4 (S4 payroll) |
-| Updated | 2026-08-18 |
+| Updated | 2026-08-20 |
 
 ## 1. Purpose
 
@@ -86,6 +86,15 @@ Veinticinco, D.L. 499, D.O. N° 8 T.450 14-ene-2026 — the law,
 current, effective on publication 14-ene-2026; official DGII OCR'd
 copy — LB quotes reproduce its print).
 
+W17 75_ fold-in: one historical-corroboration row (LB-029) cites the
+Reglamento de Aplicación del Código Tributario (D.E. N° 117-2001,
+D.O. N° 234 T.353 11-dic-2001; source `75_`) as printed — vintage-note
+rule: the 75_ print carries NO REFORMAS block (EV75 OQ-1) and
+post-2001 repeal by CT Art. 344 ff is print-unresolvable (OQ-8,
+SOQ-06-kin), so the row is cited as printed with the watch note;
+procedure-layer corroboration only, no FR attaches (R22 and the S2
+files govern current substance).
+
 | ID | Citation (Spanish) | English translation | Source file | Location |
 |----|--------------------|---------------------|-------------|----------|
 | LB-001 | Código de Trabajo, Art. 177: "Después de un año de trabajo continuo ... derecho a un período de vacaciones cuya duración será de quince días, los cuales serán remunerados con una prestación equivalente al salario ordinario correspondiente a dicho lapso más un 30% del mismo." | After one year of continuous work the worker is entitled to a vacation period of fifteen days, remunerated with a prestación equal to the ordinary salary corresponding to that period PLUS 30% of it | `sv/sources/11_Codigo_Trabajo.pdf` | Art. 177, Arts. 177-189 pp.41-42 (EVID-204) |
@@ -116,6 +125,7 @@ copy — LB quotes reproduce its print).
 | LB-026 | Ley Especial Quincena Veinticinco, Art. 2: "La cantidad gue deberá pagarse en concepto de Quincena Veinticinco, será del cincuenta por ciento (50%) sobre el salario básico o nominal mensual que cada uno de los sujetos beneficiados esté percibiendo al momento en que la prestación se materialice... y solo será aplicable para aquellos trabajadores cuyo salario básico o nominal mensual sea igual o Inferior a mil quinientos dólares de los Estados Unidos de América." (elegibilidad = mismos requisitos que aguinaldo/compensación adicional en efectivo per sector regime, "sin que ello implique equiparar"; public sector + municipalities must be "laborando para la entidad pública correspondiente al momento de materializarse el pago"; special-regime institutions: Ley Compensación Adicional supletoria) | Quincena amount = 50% of the monthly *salario básico o nominal* each beneficiary is perceiving at the moment the prestación materializes, applicable ONLY to workers whose monthly salario básico o nominal is ≤ US$1,500.00 (the law's printed constant — its OWN base, not the CT 119 salario integrante); eligibility requirements = the SAME as the aguinaldo/CAE of the worker's sector regime ("without this implying an equation" — requirements mirrored, the benefit never equated); public-sector/municipal workers must be laborando for the corresponding entity at the moment of payment; special-regime institutions follow the Ley Compensación Adicional supletoria | `sv/sources/66_Ley_Quincena25_DL499.pdf` | Art. 2, Arts. 1-3, 5-6 pp.2-6 (EVID-236) |
 | LB-027 | Ley Especial Quincena Veinticinco, Art. 3 [printed "Art. 5" — sic; positional attribution per the evidence OQ-1, carried as this file's OQ-006] (gloss-level per EVID-236): Condición especial — a worker terminated with employer responsibility or *despido de hecho* before or on 25-January retains the right to the benefit, proportional per the aguinaldo/CAE proportional rules | Termination before or on 25-January with employer responsibility or de-facto dismissal preserves a PROPORTIONAL right to the Quincena, computed per the aguinaldo / compensación-adicional-en-efectivo proportional rules (the §3.2 kin, consumed by reference) | `sv/sources/66_Ley_Quincena25_DL499.pdf` | Art. 3 [printed Art. 5], Arts. 1-3, 5-6 pp.2-6 (EVID-236) |
 | LB-028 | Ley Especial Quincena Veinticinco, Art. 6 (transitory): public sector 2026 = mandatory (budget modifications); "En el caso del sector privado, para el año dos mil veintiséis, el pago de la Quincena Veinticinco... tendrá carácter voluntario para los patronos, debiendo realizarse en su caso, a mas tardar el veinticinco de enero de dos mil veintiséis. Los patronos que realicen voluntariamente el pago referido... tendrán derecho a un crédito tributario acreditable contra el pago del Impuesto sobre la Renta del ejercicio fiscal dos mil veintiséis, por el monto total pagado" | 2026 transitory split: public sector MANDATORY (budget modifications); private sector VOLUNTARY, any voluntary payment falling due at the latest 25-January-2026, voluntary payers earning a tax credit for the FULL amount paid against FY-2026 ISR (credit mechanics = taxation-owned, SV-TAX-FR-174 cited by id); from 2027 the payment is mandatory for ALL employers public and private (Art. 1) | `sv/sources/66_Ley_Quincena25_DL499.pdf` | Art. 6, Arts. 1-3, 5-6 pp.2-6 (EVID-236/237) |
+| LB-029 | Reglamento de Aplicación del Código Tributario (D.E. N° 117-2001), Art. 95 final inciso (restates CT 155-II as of the 2001 print): "No obstante que los aguinaldos constituyen remuneraciones de carácter permanente gravados con el Impuesto sobre la Renta, no serán sujetos a retención toda vez que mediante Decreto Legislativo gocen de tal prerrogativa." — HISTORICAL CORROBORATION ONLY: the 2001-print restatement of CT 155 inc. 2's blanket no-retention; R22 GOVERNS current periods (Ley ISR Art. 4.16 standing 2-SMM exemption split + D.L. 458-2019 floor-deducted excess — vintages OWNED by `taxation/04_isr-withholding.md` SV-TAX-FR-120, consumed by reference); no FR attaches to this row (the ISR interface stays §3.3's, by id) | Historical layer: as of 2001 the aguinaldo was a gravada remuneración whose retention exemption depended on a Decreto Legislativo prerogative — corroborating the starting point of the vintage chain (2014-2018 full exemption); the blanket no-retention print never applies to current periods | `sv/sources/75_Reglamento_Codigo_Tributario_DE117.pdf` | Art. 95 p.60 (EVID-351; verified 75_ txt lines 3121-3123) |
 
 Version regime (D12): NO dated data is owned by this file — the SMM
 feed lives in `02_minimum-wage.md`'s `smm_2025.csv` (SV-PAY-FR-011,
@@ -336,6 +346,14 @@ Art. 6; FR-140); both are cited from 66_ (current, effective
   files (`05_social-security-contributions.md`,
   `08_isr-interfaces.md`, fiscal-reporting/06-07) read the matrix
   flags stamped on these lines. (LB-021; LB-022; EVID-197/201/204)
+
+Note (75_ LB-029, historical layer — aguinaldo exemption vintages):
+the 2001 Reglamento CT Art. 95 final inciso restates CT 155-II's
+blanket no-retention as of that print, corroborating the vintage
+chain's starting point; R22 (Ley ISR Art. 4.16 + D.L. 458-2019 2-SMM
+floor) GOVERNS current periods — the vintages remain SV-TAX-FR-120's
+by id, never restated here (see also `08_isr-interfaces.md` §3.8
+FR-147).
 
 ### 3.4 Quincena Veinticinco (D.L. 499)
 

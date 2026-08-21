@@ -6,7 +6,7 @@
 | Topic   | payroll |
 | Status  | draft |
 | Authors | Takumi synthesis wave 4 (S4 payroll) |
-| Updated | 2026-08-18 |
+| Updated | 2026-08-20 |
 
 ## 1. Purpose
 
@@ -43,7 +43,19 @@ income treatment (P10 — law acquired as 66_, D.L. 499, D.O. N° 8
 T.450 14-ene-2026): the renta-no-gravada/no-retention/no-cotización
 classification and the per-worker ledger + 417/418 aggregate feeds
 into the F-14 v17 January annex (SV-FREP-FR-209..211) and the F-910
-code-73 surface (SV-FREP-FR-212).
+code-73 surface (SV-FREP-FR-212); and the ISR retention-cycle layer
+of the Reglamento de Aplicación del Código Tributario (D.E. N°
+117-2001, source `75_`, Arts. 95-101 — EVID-351): the retention
+period as the ORDINARY PAYMENT MONTH (*mes calendario*) into which
+daily/special-period/weekly/quincenal pay cycles consolidate with the
+10-*días-hábiles* entero and its per-subject detail annex (Arts. 99-100),
+the *constancia de retención* (retention certificate) issuance
+surface per retained subject (Art. 101 + CT 145 anchor), the in-specie
+remuneration market-valuation RUN-SURFACE inside payroll runs (Art. 96
+— the valuation rule itself is taxation-owned by FR id), and the
+aguinaldo no-retention print of Art. 95's final inciso carried as
+HISTORICAL CORROBORATION ONLY (R22 governs current periods — co-cite
+by id, never restated).
 
 It does **not** cover: the retention computation itself — base formula,
 tables, June/December *recálculo* (recalculation), aguinaldo split,
@@ -60,8 +72,9 @@ sidecar is the single dated SS parameter feed); the aguinaldo gross
 prima and payment-window mechanics (`04_statutory-benefits.md`
 SV-PAY-FR-053..062); the severance quantum, subsidy schedules and
 sepelio computation (`07_contracts-termination.md` SV-PAY-FR-105..120);
-the ISR retention constancia of CT Art. 145 (taxation-owned,
-SV-TAX-FR-113); and the F-07 R/S rentas-matrix S-wiring (65_ OQ-1,
+the ISR retention constancia's CT 145 intake semantics (taxation-owned,
+SV-TAX-FR-113 — this file owns only the payroll-side issuance surface
+of the document type, FR-145); and the F-07 R/S rentas-matrix S-wiring (65_ OQ-1,
 taxation/fiscal-reporting side — SV-FREP-FR-051/052/178 own it). Those
 files consume this one for the interface stamps and value records
 defined here.
@@ -80,6 +93,20 @@ computation semantics consumed from the S2/S3 files by FR id (no
 re-derivation). The SMM feed is `02_minimum-wage.md`'s sidecar
 (consumed by id through file 04's aguinaldo interface).
 
+W17 75_ fold-in (Arts. 95-101, EVID-351): the LB-015..019 rows below
+cite the Reglamento de Aplicación del Código Tributario (D.E. N°
+117-2001, D.O. N° 234 T.353 11-dic-2001, effective 19-dic-2001;
+source `75_`) — the CT (05_) governs substance and 75_ develops
+procedure: each row cites 75_ primary for procedure with a co-cite
+note to its CT/Ley anchor, and substantive rules already encoded in
+sibling files are cited BY FR ID, never restated (S9 rides).
+**Vintage-note rule (rides every 75_ LB row in this file, not
+repeated per row):** the 75_ print carries NO REFORMAS block (EV75
+OQ-1) and post-2001 repeal by CT Art. 344 ff is print-unresolvable
+(OQ-8, SOQ-06-kin) — cite as printed with the watch note; the
+current-law layer is always consumed by FR id from the S2/S3 files,
+never re-derived from the 2001 print.
+
 | ID | Citation (Spanish) | English translation | Source file | Location |
 |----|--------------------|---------------------|-------------|----------|
 | LB-001 | Ley Integral del Sistema de Pensiones (D.L. 614), Art. 26: "Los rendimientos por inversiones de los Fondos de Pensiones, las cotizaciones obligatorias de los afiliados al Sistema, el excedente de libre disponibilidad ... así como los ingresos provenientes de los incentivos por permanencia serán considerados rentas no gravables para efectos de Impuesto sobre la Renta." | Pension-fund investment yields, the affiliates' mandatory cotizaciones, the free-availability surplus and permanence-incentive income are rentas no gravadas (non-taxable income) for ISR purposes | `sv/sources/09_Ley_Sistema_Pensiones.pdf` | Art. 26 p.14 (EVID-199) |
@@ -96,6 +123,11 @@ re-derivation). The SMM feed is `02_minimum-wage.md`'s sidecar
 | LB-012 | Ley Especial Quincena Veinticinco (D.L. 499), Art. 4: "se declara como rentas no gravables, y en consecuencia excluidos del cómputo de la renta obtenida, el monto que reciban los trabajadores en concepto de Quincena Veinticinco. Asimismo, estos ingresos... no estarán afectos a la Retención del Impuesto sobre la Renta, y gozarán del beneficio de la inembargablilidad [sic]. Para efectos tributarios, los montos pagados en concepto de Quincena Veinticinco constituliran [sic] gasto deducible para el patrono, siempre que hayan sido efectivamente pagados y debidamente documentados, conforme a lo dispuesto en la Ley de Impuesto sobre la Renta." | Quincena-25 fiscal treatment (worker side): amounts received as Quincena Veinticinco are declared rentas no gravables and excluded from the computation of renta obtenida; not subject to ISR Retention; unseizable (inembargabilidad); (employer side) amounts paid are a deductible employer expense provided they were effectively paid and duly documented per the Ley ISR | `sv/sources/66_Ley_Quincena25_DL499.pdf` | Art. 4 p.4 (EVID-237) |
 | LB-013 | Ley Especial Quincena Veinticinco (D.L. 499), Art. 1 (payment invariants): "debe ser pagado de forma integra [sic] y sin ningún descuento a los sujetos beneficiados, independiente del salario ordinario, aguinaldo, compensación adicional en efectivo y de otras prestaciones laborales... y no formará parte de la base de cálculo de otras prestaciones, por lo que no sera [sic] objeto de ninguna clase de retención. Consecuentemente, el ingreso complementario Quincena Veinticinco... en ningún caso deberá ser objeto de retención ni descuento alguno por concepto de aportes u otras obligaciones de Seguridad Social o del Régimen Previsional." | The benefit must be paid in full and without any deduction, independent of ordinary salary, aguinaldo, cash compensación adicional and other labor benefits; it does not form part of the calculation base of other benefits, hence is not subject to any kind of retention; in no case may it be subject to retention or deduction for contributions or other Social Security or Pension-Regime obligations | `sv/sources/66_Ley_Quincena25_DL499.pdf` | Art. 1 p.2 (EVID-236) |
 | LB-014 | Guía de Orientación Quincena Veinticinco (67_), §3.f: "En el Informe Anual de Retenciones (F-910), el monto pagado en concepto de Quincena Veinticinco, se verá reflejado en la columna de NO GRAVADOS, el cual se identificará de conformidad al Código 73 Ingresos No Gravados Pagados Quincena Veinticinco, generado de forma automática... de acuerdo a los datos cargados en anexo... (F-14)"; §3.g: renta-en-línea shows it as an ingreso no gravado (Anexo 6 rentas-no-gravadas row gains "Quincena Veinticinco" — *casilla 724 operative, 734 = guía typo [sic] (in-file resolution, evidence OQ-3)*); Anexo 3: "El anexo de planilla Quincena Veinticinco, solo podrá ser informado en el mes de enero de cada ejercicio fiscal" | Reporting chain: the F-910 NO GRAVADOS column auto-populates with Código 73 "Ingresos No Gravados Pagados Quincena Veinticinco" from the F-14 annex data; the employee's renta-en-línea shows it as an ingreso no gravado (casilla 724); the planilla annex is January-only per ejercicio fiscal | `sv/sources/67_Guia_Orientacion_Quincena25.pdf` | §§3.f/3.g + Anexos 3/6 (EVID-238) |
+| LB-015 | Reglamento de Aplicación del Código Tributario (D.E. N° 117-2001), Art. 95 (develops CT 155): permanent services = "aquellos cuya prestación es regulada por la Ley Laboral y su remuneración es el devengo de salarios, sueldos, sobresueldos, horas extras, primas, comisiones, gratificaciones, bonificaciones, aguinaldos y cualquier otra compensación por servicios personales, ya sean que estos se paguen en efectivo o en especie… la prestación de servicios es por tiempo indefinido o bien cuando dichos servicios se contraten por un plazo determinado sea a tiempo completo, medio tiempo o tiempo parcial con carácter de subordinación o dependencia, considerándose como parcial los medios tiempos, horas clase, horas médicos, y similares"; final inciso: "No obstante que los aguinaldos constituyen remuneraciones de carácter permanente gravados con el Impuesto sobre la Renta, no serán sujetos a retención toda vez que mediante Decreto Legislativo gocen de tal prerrogativa." — the final inciso restates CT 155-II's blanket no-retention AS OF THE 2001 PRINT; R22 GOVERNS current periods (Ley ISR Art. 4.16 standing 2-SMM split, D.L. 458-2019 floor-deducted excess — SV-TAX-FR-120 by id) | Permanent (dependent) services sweep: salaries, sueldos, sobresueldos, horas extras, primas, comisiones, gratificaciones, bonificaciones, aguinaldos and any other personal-services compensation, cash or in-specie, indefinite or fixed term, full/half/part-time (medios tiempos, horas clase, horas médicos included) — the payroll population this file's feeds cover; the final inciso = historical corroboration only (FR-147), never a current no-retention rule | `sv/sources/75_Reglamento_Codigo_Tributario_DE117.pdf` | Art. 95 p.60 (EVID-351; verified 75_ txt lines 3110-3123) |
+| LB-016 | Reglamento de Aplicación del CT, Art. 96: "Están sujetas a retención toda clase de remuneraciones, incluyendo por tanto salarios, sueldos de tiempo completo o de tiempo parcial, compensaciones adicionales como sobresueldos, horas extras, dietas, gratificaciones, primas, comisiones, aguinaldos, bonificaciones, gastos de representación y cualquier otra compensación por servicios personales sea que se paguen en efectivo, en especie o mediante operaciones contables"; no labor dependency → "sujetas a los porcentajes de retención establecidos en el artículo 156 del Código Tributario"; sickness-license remunerations "sujetas a retención de acuerdo a las tablas respectivas"; in-specie: "se computarán al precio de mercado a la fecha en que se entregue como valor de la remuneración"; fully-in-specie: the agent "deberá retener el impuesto que corresponda y enterarlo dentro del plazo establecido" — the valuation RULE and CT 156 matrix are OWNED by `taxation/04_isr-withholding.md` (SV-TAX-FR-397; SV-TAX-FR-128 zone) and consumed by reference | All-remunerations retention sweep (cash, in-specie, operaciones contables); independents take the CT 156 percentages (taxation-owned); in-specie remuneration values at DELIVERY-DATE market price; a fully-in-specie payment still withholds and enters — no cash-payment escape | `sv/sources/75_Reglamento_Codigo_Tributario_DE117.pdf` | Art. 96 pp.60-61 (EVID-351; verified 75_ txt lines 3131-3157) |
+| LB-017 | Reglamento de Aplicación del CT, Arts. 97-98: Art. 97 — no retention on "los productos o utilidades excluidos del concepto de renta y las rentas no gravables, a que se refieren los artículos 3 y 4 de la Ley de Impuesto sobre la Renta respectivamente, así como las remuneraciones de carácter temporal que obtengan las personas naturales por la recolección de productos agrícolas de temporada"; Art. 98 (CT 154 inc. 2º) — AT written designation of retention agents against morosos, in which "se expresará el nombre completo, número de Identificación Tributaria, monto del adeudo principal y multas por infracciones cometidas y la cantidad que deberá retener y desde cuando" — awareness/corroboration row: the exclusion gates ride the matrix and the Ley ISR Art. 3-4 anchors already encoded (`taxation/04_isr-withholding.md` SV-TAX-FR-121/398, cited by id; the temporal-agro exclusion is SV-TAX-FR-398's); Art. 98 is AT-side only — no payroll FR attaches | Exclusions from retention (Ley ISR Arts. 3-4 no-renta/no-gravada items + temporal-agricultural harvest labor) and the AT's moroso-collection agent designation — both consumed by id elsewhere; recorded here for article-range completeness of the 75_ retention block | `sv/sources/75_Reglamento_Codigo_Tributario_DE117.pdf` | Arts. 97-98 p.61 (EVID-351; verified 75_ txt lines 3164-3186) |
+| LB-018 | Reglamento de Aplicación del CT, Arts. 99-100: Art. 99 — "Por período de pago para efectos de retenciones del Impuesto sobre la Renta, se entiende el mes calendario en el que el agente de retención paga ordinariamente la remuneración sea ésta total o parcial". Art. 100 — "Las cantidades retenidas deberán ser enteradas al colector respectivo, dentro de los diez días hábiles que inmediatamente sigan al vencimiento del mes calendario en que se efectúa la retención"; "Cuando se trate de remuneraciones pagadas por día, por período especial, semana o quincena, el agente de retención deberá consolidar en períodos mensuales, las respectivas retenciones, debiendo proceder a su entero obligatoriamente dentro del término general establecido en el inciso precedente"; entero with declaración jurada; annex to the agent's copy: "un detalle de las personas naturales o jurídicas que hayan sido objeto de retención, especificando el nombre, denominación o razón social y número de identificación tributaria del sujeto de retención, así como el monto devengado e impuesto retenido" — the 10-hábiles window corroborates the current-law deadline owner `taxation/01_isr-framework.md` SV-TAX-FR-032 (Ley ISR Art. 62, by id) | Retention period = the ORDINARY PAYMENT MONTH (mes calendario); sub-monthly cycles (day/special/week/quincena) consolidate monthly; entero within the ten días hábiles after month-end with declaración jurada + per-subject detail annex (name · NIT · devengado · retenido — the paper ancestor of the F-14 annex) | `sv/sources/75_Reglamento_Codigo_Tributario_DE117.pdf` | Arts. 99-100 p.62 (EVID-351; verified 75_ txt lines 3193-3221) |
+| LB-019 | Reglamento de Aplicación del CT, Art. 101 (+ CT 145 anchor): "Todo agente de retención está obligado a extender constancia al contribuyente, por las cantidades retenidas… en el que se exprese lo establecido en el artículo 145 del Código"; for Órganos del Estado, government dependencies, Municipalidades and official autonomous institutions, the constancia "deberá ser firmada por la persona responsable del pago de las remuneraciones" — the certificate's CT 145 CONTENT and intake semantics (prior-employer constancia within 15 días hábiles of retirement) are OWNED by `taxation/04_isr-withholding.md` SV-TAX-FR-113 (by id); this file owns only the payroll-side issuance surface (FR-145) | Constancia de retención duty: every retention agent must issue the certificate for retained amounts, signed by agent retenedor / representante legal / apoderado (State: the payment responsible), expressing the CT 145 content | `sv/sources/75_Reglamento_Codigo_Tributario_DE117.pdf` | Art. 101 p.62 (EVID-351; verified 75_ txt lines 3222-3228) |
 
 Dead text and print-vs-law rulings (LB notes, tested where an FR says
 so): the F-11 pago-mínimo block casillas 630-648 and its liquidation
@@ -383,6 +415,78 @@ window is SV-FREP-FR-210's (cited, never restated).
   per SV-FREP-FR-210. (EVID-238; cross-ref SV-FREP-FR-166,
   SV-FREP-FR-210)
 
+### 3.8 ISR retention cycle — 75_ layer (retention-month consolidation, entero annex, constancia, in-specie surface)
+
+- **SV-PAY-FR-144:** The system shall consolidate ISR retentions on
+  the ORDINARY PAYMENT MONTH (*mes calendario*): the retention period
+  is the calendar month in which the retention agent ordinarily pays
+  the remuneration, in whole or in part (Art. 99), and payslips of
+  sub-monthly cycles — paid *por día, por período especial, semana o
+  quincena* — consolidate their retentions into ONE retention-month
+  record per employee and month (Art. 100: the agent "deberá
+  consolidar en períodos mensuales, las respectivas retenciones");
+  the entero of the consolidated sums falls within the TEN *días
+  hábiles* immediately following month-end — the deadline SCHEDULING
+  is owned by `taxation/01_isr-framework.md` SV-TAX-FR-032 (by id;
+  75_ Arts. 99-100 as the corroborated anchor) and the business-day
+  arithmetic is the días-hábiles engine
+  `fiscal-reporting/08_filing-calendar.md` SV-FREP-FR-202..204
+  (first_n_habiles(month, 10), by id — never re-implemented here);
+  each retention-month record carries the per-subject entero annex
+  detail of Art. 100 (name, *denominación o razón social* and NIT of
+  the retained subject, plus *monto devengado* and *impuesto
+  retenido* — the paper ancestor of the F-14 annex, whose electronic
+  value source is the FR-126 f14.feed record, consumed by id).
+  (LB-018; EVID-351; cross-ref SV-TAX-FR-032, SV-FREP-FR-202,
+  SV-FREP-FR-203, SV-FREP-FR-204, SV-PAY-FR-126)
+- **SV-PAY-FR-145:** The system shall maintain a *constancia de
+  retención* (retention certificate) document type per retained
+  subject, issued on request or per period (Art. 101 + the CT 145
+  anchor): the certificate states the retained amounts and is signed
+  by the agent retenedor, *representante legal* or *apoderado* — for
+  State organs, government dependencies, Municipalidades and official
+  autonomous institutions, by "la persona responsable del pago de las
+  remuneraciones"; its VALUES are sourced exclusively from this
+  file's feed records — the FR-126 f14.feed (monthly detail), the
+  FR-129 f910.feed (annual consolidation) and the FR-130/131
+  f11.deduction rows — never recomputed (the F-14/F-910/F-11 surfaces
+  own their layouts, cited by id through those FRs); the CT 145
+  content and intake semantics (the prior employer's constancia
+  within 15 días hábiles of retirement, consumed by the June/December
+  recap) are OWNED by `taxation/04_isr-withholding.md` SV-TAX-FR-113
+  — cited by id, never restated here. (LB-019; EVID-351; cross-ref
+  SV-TAX-FR-113, SV-PAY-FR-126, SV-PAY-FR-129, SV-PAY-FR-130,
+  SV-PAY-FR-131)
+- **SV-PAY-FR-146:** The system shall encode the in-specie
+  remuneration RUN-SURFACE only: payslip lines paid in species
+  (*productos, frutos, alojamiento, alimentación o cualquier otra
+  compensación en especie*) enter the FR-144 retention-month ledger
+  at their market value on the DELIVERY date, with the valuation rule
+  OWNED by `taxation/04_isr-withholding.md` SV-TAX-FR-397 (by id —
+  "se computarán al precio de mercado a la fecha en que se entregue
+  como valor de la remuneración"; the market-price-factors root is
+  `16_ct-procedures.md` SV-TAX-FR-357, by id) and NEVER recomputed
+  payroll-side; a payment made TOTALLY in species still withholds
+  (Art. 96: the agent "deberá retener el impuesto que corresponda y
+  enterarlo dentro del plazo establecido" — the no-cash-escape rule
+  rides SV-TAX-FR-397 by id), the retention entering the FR-144
+  consolidation like any cash retention. (LB-016; EVID-351;
+  cross-ref SV-TAX-FR-397, SV-TAX-FR-357, SV-PAY-FR-144)
+- **SV-PAY-FR-147:** The system shall treat the 75_ Art. 95
+  final-inciso print (2001) as HISTORICAL CORROBORATION ONLY of the
+  aguinaldo no-retention prerogative ("No obstante que los aguinaldos
+  constituyen remuneraciones de carácter permanente gravados con el
+  Impuesto sobre la Renta, no serán sujetos a retención…"): R22
+  GOVERNS current periods — the live rule is the Ley ISR Art. 4.16
+  standing 2-SMM exemption split with the D.L. 458-2019
+  floor-deducted excess, OWNED by `taxation/04_isr-withholding.md`
+  §3.6 (SV-TAX-FR-120 vintage rows) and consumed BY ID into the
+  FR-126 J/K feed — no blanket no-retention invariant, no vintage row
+  and no exemption value is restated or encoded here; payroll/04's
+  own 75_ row (its LB-029) carries the same historical layer for the
+  aguinaldo engine (co-cite only). (LB-015; EVID-351; R22; cross-ref
+  SV-TAX-FR-120, SV-PAY-FR-126)
+
 ## 4. Data Model
 
 Layer semantics: payroll is Odoo-native — all entities below live in
@@ -440,6 +544,18 @@ discipline):
 |--------|-------|------|------------------|-----------|
 | hr.payslip.line | sv_pay_isr_gravada_input (resolved) | select | the 01 FR-004 cell values now DEFINITIVE: indemnización = split_exento_gravado (FR-123 Art. 4.3 split) · sepelio = no_gravada (FR-124) · illness/maternity subsidies = gravada (FR-125) — crosscheck_oq eliminated | FR-123, FR-124, FR-125 |
 
+**ISR retention-month ledger and constancia (75_ layer):**
+
+| Entity | Field | Type | Catalog / values | Reference |
+|--------|-------|------|------------------|-----------|
+| l10n_sv.pay.retention.month (new) | employee_id · period · cycle_sources | m2o/char(6)/m2m | ONE record per employee × retention month (mes calendario, Art. 99); sub-monthly cycles (día / período especial / semana / quincena) consolidate here (Art. 100) | FR-144 |
+| l10n_sv.pay.retention.month | consolidated_retention · annex_detail | monetary(2dp)/related | consolidated monthly retentions; annex fields per Art. 100: nombre / denominación o razón social · NIT · monto devengado · impuesto retenido (value provenance = the FR-126 f14.feed records, by id) | FR-144 |
+| l10n_sv.pay.retention.month | entero_deadline | date (computed) | the 10 días hábiles after month-end — scheduled per SV-TAX-FR-032 (by id) over the SV-FREP-FR-202..204 engine (by id); never computed locally | FR-144 |
+| l10n_sv.pay.retention.month | in_specie_value_source | pointer (char) | fixed pointer `taxation/04 SV-TAX-FR-397` — in-specie lines enter at delivery-date market value; the valuation is never computed payroll-side | FR-146 |
+| l10n_sv.pay.retention.constancia (new) | subject_id · period_from · period_to · issued_on_request · signatory_role | m2o/date/date/boolean/select | per-subject constancia document type (Art. 101 + CT 145 anchor); signatory_role: agent_retenedor · representante_legal · apoderado · state_payment_responsible; values sourced exclusively from the FR-126/129/130 records | FR-145 |
+| l10n_sv.pay.retention.month | unentered_exposure_flag | boolean (surfaced) | perpetual-exposure surfacing of `taxation/16_ct-procedures.md` SV-TAX-FR-375 (by id — taxation/16 owns the Art. 23 invariant): activates when the entero deadline lapses unmet and NEVER time-expires; payroll owns the payroll-ledger surfacing only — NO payroll FR attaches | AC-022; SV-TAX-FR-375 by id |
+| l10n_sv.pay.retention.month | erroneous_refund_window_end | date (surfaced) | 2-year refund-claim window of `taxation/16` SV-TAX-FR-378 (by id — taxation/16 owns the Art. 133 caducidad): ends two years from the pago indebido date of an erroneous retention; surfaced for exposure tracking only — NO payroll FR attaches | AC-022; SV-TAX-FR-378 by id |
+
 ## 5. Odoo Mapping
 
 Layer semantics for this wave: payroll is Odoo-native (hr / hr_payroll
@@ -471,6 +587,10 @@ required beyond the dated-data regime noted in §2.
 | FR-137 | odoo | l10n_sv.pay.quincena feed stamps | renta no gravada; no retention/cotización/base entry | 66_ Art. 4 declaration + Art. 1 invariants (LB-012/013; EVID-236/237); ISR rule = SV-TAX-FR-173 by id; never in the SV-TAX-FR-104 inputs; former absence invariant withdrawn (law acquired as 66_) |
 | FR-142 | odoo | l10n_sv.pay.quincena.feed | seven annex fields A..G + ejercicio | string-typed export contract (SV-FREP-FR-209 truncation discipline); XOR NIT/DUI validated payroll-side; amounts from FR-138 |
 | FR-143 | odoo | l10n_sv.pay.quincena.feed aggregate | casillas 417/418 | count of workers paid + total amount per declaración period; consumed by SV-FREP-FR-166 (isolation by id); January-only window per SV-FREP-FR-210 |
+| FR-144 | odoo | l10n_sv.pay.retention.month | consolidation + annex + deadline | Retention period = mes calendario (Art. 99); día/período especial/semana/quincena cycles consolidate monthly (Art. 100); entero deadline = SV-TAX-FR-032 by id over the SV-FREP-FR-202..204 engine; annex detail values from the FR-126 records; exposure-pair fields (§4) surface on this ledger by id to SV-TAX-FR-375/378 — no payroll FR for the pair |
+| FR-145 | odoo | l10n_sv.pay.retention.constancia | constancia issuance surface | Art. 101 + CT 145 anchor; values exclusively from FR-126/129/130 records (by id); CT 145 intake semantics = SV-TAX-FR-113 (by id, never restated) |
+| FR-146 | odoo | l10n_sv.pay.retention.month + hr.payslip.line (in-specie) | in-specie run-surface | Delivery-date market value per SV-TAX-FR-397 (by id; factors root SV-TAX-FR-357); fully-in-specie still retains and enters the FR-144 consolidation |
+| FR-147 | odoo | (pointer only) | historical corroboration | 75_ Art. 95 final inciso = 2001-print layer (LB-015); R22 current rule = taxation/04 §3.6 SV-TAX-FR-120 by id; nothing encoded — no invariant, no vintage, no value |
 
 Version-regime notes (D12): no dated values live in this file. The SS
 cap values consumed re-seed through `ss_contributions.csv`
@@ -580,6 +700,45 @@ never restated as local configuration).
   not exported; given name "Prueba Persona", the export field renders
   `PRUEBA PERSONA` uppercase with the amount `250.00` and período
   `012027` — mirroring the 70_ example-row contract (FR-142).
+- **AC-018:** Given a quincenal employee with March-2027 retentions
+  US$25.00 and US$30.00 on the two quincena payslips plus a
+  daily-cycle settlement retention of US$5.00 in the same month, then
+  ONE retention.month record consolidates US$60.00 listing the three
+  cycle sources, its annex detail (name + NIT + devengado + retenido)
+  is drawn from the FR-126 f14.feed records, and entero_deadline
+  resolves to the 10th día hábil of April 2027 scheduled per
+  SV-TAX-FR-032 over the SV-FREP-FR-202..204 engine — never by local
+  business-day arithmetic (FR-144).
+- **AC-019:** Given a worker requesting a constancia for ejercicio
+  2026, then the document issues from the f910.feed/f14.feed values
+  (per-month and annual retained sums, never recomputed) with
+  signatory role agent/representante-legal/apoderado — and given a
+  State-organ employer, signatory_role = state_payment_responsible;
+  the CT 145 15-días-hábiles intake flow of the June/December recap
+  never triggers payroll-side (SV-TAX-FR-113 by id) (FR-145).
+- **AC-020:** Given a December payslip whose lodging benefit is valued
+  at its delivery-date market price US$300.00 (in-specie), then the
+  line enters the retention.month at US$300.00 with the
+  in_specie_value_source pointer to SV-TAX-FR-397 (no payroll-side
+  price computation exists), and a FULLY in-specie payment still
+  produces its retention line inside the month's consolidation
+  (FR-146).
+- **AC-021:** Given any aguinaldo line of a current period, then NO
+  blanket no-retention applies from the 75_ Art. 95 print — the
+  exento/gravado split resolves solely through SV-TAX-FR-120's
+  vintages (2025+: standing 2-SMM exemption, floor-deducted excess)
+  into the FR-126 J/K feed; the 75_ LB-015 row surfaces only as the
+  historical corroborating layer (FR-147; R22).
+- **AC-022:** Given a retention.month whose entero deadline lapses
+  unmet, then unentered_exposure_flag activates and NEVER
+  time-expires — the perpetual-exposure invariant is SV-TAX-FR-375's
+  (by id; payroll surfaces it on the ledger, no payroll FR owns it);
+  and given an erroneous retention with pago indebido date
+  1-March-2025, then erroneous_refund_window_end surfaces
+  1-March-2027 (the Art. 133 2-year caducidad of SV-TAX-FR-378, by
+  id) after which the agent's refund claim is time-barred — surfacing
+  only, never an enforced cutoff. (§4 exposure-pair fields;
+  SV-TAX-FR-375/378 by id — no payroll FR)
 
 ## 7. Open Questions
 
