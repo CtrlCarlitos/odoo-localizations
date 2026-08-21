@@ -6,7 +6,7 @@
 | Topic   | fiscal-reporting |
 | Status  | draft |
 | Authors | Takumi synthesis wave 3 (S3) |
-| Updated | 2026-08-18 |
+| Updated | 2026-08-20 |
 
 ## 1. Purpose
 
@@ -67,6 +67,15 @@ mapping column. Legal anchors behind the printed codes are cited per
 the S2 order through the taxation files (rates NEVER restated here).
 Manual/form pages are printed pages.
 
+**75_ fold-in vintage watch (rides the 75_ row below):** the D.E.
+117-2001 print (Reglamento de Aplicación del Código Tributario) carries NO
+REFORMAS block and post-2001 repeal by CT Art. 344 ff is print-unresolvable
+(EV75 OQ-1/OQ-8, SOQ-06-kin) — cited as printed. **OQ-3 bar:** the
+dictamen block (Arts. 58-72) is HISTORICAL/awareness only — the
+mandatory-dictamen regime was restructured post-2001 and corpus 05_
+carries no dictamen entry (CT 130-137 zone unextracted; EV75 OQ-3) —
+never operative FRs (§3.7, OQ-009).
+
 | ID | Citation (Spanish) | English translation | Source file | Location |
 |----|--------------------|---------------------|-------------|----------|
 | LB-001 | Manual F-14 v16, APÉNDICE, catálogo de códigos de ingreso (verbat, completo): "RETENCIONES ACREDITABLES EN LIQUIDACIÓN ANUAL DEL IMPUESTO: 01- Servicios de carácter permanente · 05- Rentas de personas jurídicas domiciliadas provenientes de depósitos de dinero · 06- ... títulos valores · 07- Retenciones por actividades agropecuarias · 08- Retenciones por juicios ejecutivos · 09- Otras retenciones · 11- Servicios sin dependencia laboral · 19- Costos y gastos incurridos sujetos a retención y entero · 20- Valores garantizados por seguro dotal u otros tipos de seguros · 21- Otros servicios sin dependencia laboral · 22- Transferencia de bienes intangibles por personas naturales domiciliadas · 23- ... jurídicas domiciliadas · 24- Por uso o concesión de uso, de derechos de bienes tangibles e intangibles a personas naturales domiciliadas · 25- ... a personas jurídicas domiciliadas · 26- Operaciones de renta y asimiladas a rentas a personas domiciliadas · 27- Retenciones por servicios de arrendamiento a personas naturales · 48- Indemnizaciones por daños · 80- Servicios de Carácter Permanente con Subordinación o Dependencia Laboral Sin Contribuciones Sociales (Eje.: jubilados y pensionados) · 81- Servicios de Carácter Permanente sin retención prestado por Jubilados y Pensionados · 82- Pago de sueldos caídos con retención · 83- Pago de sueldos caídos sin retención · 84- Pago de dietas · 85- Indemnizaciones laborales. RETENCIONES NO ACREDITABLES (ENTERO DEFINITIVO): 28- Rentas de Personas Naturales Domiciliadas provenientes de títulos valores · 29- Premios o ganancia de domiciliadas ... juegos de azar o de habilidad · 30- Rentas obtenidas en el país de no domiciliadas por rendimiento de capital invertido, títulos valores, otros · 31- Por uso o concesión de uso ... a no domiciliados · 32- Transferencia de bienes intangibles por no domiciliadas · 33- Rentas obtenidas en el país por personas no domiciliadas · 34- Servicios utilizados en el país por actividades originadas en el exterior · 35- Pagos efectuados a casa matriz (no domiciliadas) por filiales y/o sucursales domiciliadas · 36- Servicio de transporte internacional a personas no domiciliadas · 37- Servicios por aseguradoras, reaseguradoras, afianzadoras, reafianzadoras y corredores de reaseguros no domiciliados · 38- Servicios de financiamiento por instituciones financieras no domiciliadas · 39- Operaciones con intangibles o uso concesión de uso ... a no domiciliados · 40- Rentas de personas constituidas, domiciliadas o residentes en países con regimenes fiscales preferentes o paraísos fiscales · 41- Premios o ganancias de no domiciliadas ... · 42- Otras retenciones · 43- Pago o Acreditación de utilidades a socios, accionistas, asociados, fideicomisarios, participes, inversionistas o beneficiarios · 44- Pago o Acreditación de utilidades a sujetos no domiciliados en El Salvador · 45- Pago o acreditación en disminución de capital o patrimonio (parte correspondiente a capitalizaciones o reinversión de utilidades) · 46- Prestamos, mutuos, anticipos o financiamientos (en dinero o bienes en especie) · 47- Rentas a Personas Naturales domiciliadas en concepto de intereses, premios y otras utilidades provenientes de Depósitos en Dinero · 49- Sobre Ingresos por remuneraciones con o sin dependencia laboral prestados a Inversionistas. 'Para la retención con el código 47, en atención al artículo 123 del Código Tributario, Inciso Tercero, la columna del NIT podrá completarla con 14 ceros ... y el campo del nombre podrá completarlo con la palabra VARIOS.' INGRESOS GRAVADOS SIN RETENCIÓN: 60- Servicios de carácter permanente con subordinación o dependencia laboral (Tramo I de las Tablas de Retención). INGRESOS NO GRAVADOS: 70- Indemnizaciones por despido, retiro voluntario, muerte, incapacidad, accidente o enfermedad (según ley) · 71- Valores garantizados por seguro dotal u otros tipos de seguros (según ley) · 72- Remuneraciones, compensaciones y gastos de representación por servicios en el exterior de funcionarios o empleados de gob. (según ley)" | F-14 v16 manual appendix, income-code catalog complete: 23 creditable codes (01, 05-09, 11, 19-27, 48, 80-85), 21 definitive codes (28-46, 49) including the distributions codes 43/44/45, the loans code 46, the tax-haven code 40 and the deposit-yield aggregate code 47 — whose printed note allows the NIT column to be filled with 14 zeros and the name field with the word VARIOS per CT Art. 123 third inciso — one sin-retención code (60, Tramo I of the retention tables) and three no-gravado codes (70-72, "según ley" (per law) as printed) | `sv/sources/35_F14_v16_manual.pdf` | APÉNDICE pp.17-18 (EVID-182) |
@@ -79,6 +88,7 @@ Manual/form pages are printed pages.
 | LB-008 | Manual F-07 v14 §III, par R/S del Anexo 1 (verbat, vía `02_f07-annexes-sales.md` LB-003): códigos R TIPO DE OPERACIÓN "1 Gravada / 2 No Gravada o Exento / 3 Excluido o no Constituye Renta / 4 Mixta / 12 Ingresos que ya fueron sujetos de retención informados en el F14 y consolidados en F910 / 13 Sujetos pasivos excluidos (art. 6 LISR)"; códigos S TIPO DE INGRESO 1-10 (12/13 como R) — el ancla del acoplamiento cross-tax | F-07 v14 manual §III Renta pair (via the 02 file's LB): R operation-type codes with code 12 = income already subject to retention, reported in the F-14 and consolidated in the F-910; S income-type codes — the cross-tax coupling anchor | `sv/sources/34_F07_v14_manual.pdf` | §III pp.1-6 (EVID-174; via 02-file LB-003) |
 | LB-009 | Formulario F-930 v3 (63_) — SOLO REFERENCIA: el informe mensual de retención/percepción/anticipo IVA ya está alojado en `04_f07-annexes-retentions-events.md` (vista sobre el mismo ledger de retención IVA); se cita aquí únicamente para el inventario de informes y las notas de vintage | F-930 v3 form — reference only: the monthly IVA retentions inform already homed in the 04 file (a view over the same IVA-retention ledger); cited here only for the inform inventory and vintage notes | `sv/sources/63_F930v3_informe_mensual_retIVA.pdf` | §A-§C (EVID-189) |
 | LB-010 | Código 73 F-910, Quincena-25 (verbat): 67_ §3.f: "En el Informe Anual de Retenciones (F-910), el monto pagado en concepto de Quincena Veinticinco, se verá reflejado en la columna de NO GRAVADOS, el cual se identificará de conformidad al Código 73 Ingresos No Gravados Pagados Quincena Veinticinco, generado de forma automática… de acuerdo a los datos cargados en anexo… (F-14)"; 68_ p.16: "el código de ingreso 73 se asignará de manera automática al momento de presentar la declaración" | F-910 code 73 (Quincena-25): per 67_ §3.f — in the Annual Retentions Inform (F-910) the amount paid in concept of Quincena Veinticinco is reflected in the NO GRAVADOS column, identified per code 73 "Ingresos No Gravados Pagados Quincena Veinticinco", generated automatically… from the data loaded in the annex… (F-14); per 68_ p.16 — income code 73 is assigned automatically at the moment of presenting the declaration | `sv/sources/67_Guia_Orientacion_Quincena25.pdf` + `sv/sources/68_Instrucciones_Carga_Quincena25.pdf` | §3.f p.4 / p.16 (EVID-238/239) |
+| LB-011 | Reglamento de Aplicación del Código Tributario (D.E. N° 117-2001), Arts. 58-72 (dictamen e informe fiscal — HISTORICAL per EV75 OQ-3) | Art. 58: la auditoría "será realizada por Licenciados en Contaduría Pública o Contadores Públicos Certificados"; Art. 61: nombramiento "a más tardar dentro de los primeros cinco meses del período anual a dictaminar", con aviso a la Administración Tributaria "dentro del plazo de treinta días calendario siguientes de efectuado el nombramiento"; Art. 70 (CT 134): el auditor "deberá presentar a la Administración Tributaria el dictamen conjuntamente con el informe fiscal, a más tardar el treinta y uno de mayo del año siguiente al período que se dictamina"; sociedades en liquidación o fusión: "dentro de los seis meses siguientes, contados a partir de la fecha de la inscripción del acuerdo o sentencia"; Art. 65: el dictamen separa "los incumplimientos formales de los sustantivos, subsanados y no subsanados, debiendo cuantificarse monetariamente el impacto impositivo de los incumplimientos sustantivos"; Art. 66: "Los estados financieros a presentar serán los que establecen las Normas Internacionales de Contabilidad"; Art. 67: anexos a)-n) incl. la cadena de determinación del IVA (b.3 — prorrata) y las cadenas de reintegro del exportador (l) | 75_ Reglamento CT Arts. 58-72 — the 2001 mandatory fiscal-audit (dictamen e informe fiscal) blueprint: CPC auditor appointment clocks (5-month nombramiento + 30-day aviso), the 31-may dictamen+informe filing deadline (CT 134 anchor), the 6-month liquidación/fusión clock, the formal-vs-substantive incumplimiento separation with monetary quantification, NIC financial statements, and the a)-n) anexo set restating the IVA prorrata (b.3) and exporter-reintegro (l) chains — HISTORICAL blueprint only (regime status doubtful post-2001; never operative FRs — §3.7, OQ-009) | `sv/sources/75_Reglamento_Codigo_Tributario_DE117.pdf` | Arts. 58-72 pp.34-47 (EVID-349; verified 75_ txt lines 1744-1746, 1830-1848, 1963-1985, 2008-2040, 2372-2385) |
 
 ## 3. Functional Requirements
 
@@ -414,6 +424,31 @@ vintage note of FR-194.
   pending-check included — OQ-004). (LB-003; LB-004; LB-009; LB-005;
   EVID-187; EVID-188; EVID-189; EVID-190)
 
+### 3.7 Dictamen e informe fiscal (75_ Arts. 58-72) — historical awareness (no FRs)
+
+The 75_ *dictamen e informe fiscal* block (Arts. 58-72, LB-011) is the
+2001 blueprint of a mandatory fiscal-audit inform family this corpus
+records as HISTORICAL awareness only (EV75 OQ-3: the regime was
+restructured at the CT level post-2001 and 05_ carries no dictamen
+entry — CT 130-137 zone unextracted; OQ-009): the appointment clocks
+(auditor named "a más tardar dentro de los primeros cinco meses del
+período anual a dictaminar", notice to the AT within 30 días
+calendario), the 31-may dictamen+informe filing deadline with the
+6-month liquidación/fusión clock, the formal-vs-substantive
+incumplimiento separation "debiendo cuantificarse monetariamente el
+impacto impositivo", EEFF per "las Normas Internacionales de
+Contabilidad" (SOQ-46 kin — Consejo-de-Vigilancia criteria first), and
+the a)-n) anexo set whose IVA determination chain (b.3) and
+exporter-reintegro chains (l) restate ledger-by-ledger the computations
+already encoded from live instruments (SV-TAX-FR-269..283,
+`11_iva-pro-rata-remanente.md` + `14_iva-exports-refunds.md`, by id —
+never restated here). The blueprint's validation shape (per-ledger
+determination annexes reconciled against declared values) descends to
+the modern inform family of this file, and the calendar's surviving
+dictamen surfaces (F-455 fusión dictámenes and CT-131 auditor
+appointments) live in `08_filing-calendar.md` FR-195 — nothing in this
+section is ever an operative FR.
+
 ## 4. Data Model
 
 Machine-readable catalog: **`f14_income_codes.csv`** lives next to
@@ -606,3 +641,4 @@ form-visual per-row pass (OQ-002). Filing due days stay unpinned
 | OQ-006 | F-11 rentas matrix acquisition (coupling counterpart): FR-178 states the F-14/F-910 → F-11 feed at coupling level per the R/S code lists, but NO F-11 form or manual is in the corpus (the F12 calendar lists F-11 among the April annuals) — acquisition candidate; the coupling FR stays at the classification-source level until the F-11 layout lands. | no | Takumi S3 (sources registry) | open |
 | OQ-007 | Index-task wiring (tracking row, not a doubt): the in-file notes of §3.3/§3.4 record (a) the ANSWER to taxation/04 §7 OQ-007 / MOQ-10 (ISR electronic-reporting surface = F-910) and the kin answer for taxation/05 OQ-006, and (b) the PARTIAL answer to taxation/05 §7 OQ-002 (F-915 = published format; norms resolution absent) — the index task (taxation/00_index.md + fiscal-reporting/00_index.md) must wire these cross-references. | no | Takumi S3 (index task) | open |
 | OQ-008 | Code 73 in the F-14 apéndice v17 unverified — no v17 manual exists (SOQ-09 doc-completeness residue): the W11 package pins code 73's F-910 side (67_ §3.f + 68_ p.16, EVID-238) but no v17 apéndice print is in the corpus, so the catalog carries 73 as a dated 2026-01 f17_kin row on MH-package authority; re-check at the v17 manual / F-910 v10 acquisition (≥71 watch; OQ-004 kin). | no | Takumi S6 (sources registry) | open |
+| OQ-009 | Dictamen regime vintage watch (EV75 OQ-3; W17 fold-in LB-011/§3.7): the 75_ Arts. 58-72 mandatory fiscal-audit regime (appointment clocks, 31-may dictamen+informe deadline, a)-n) anexo set incl. the IVA prorrata b.3 / reintegro l chains, NIC EEFF) was restructured at the CT level post-2001 — corpus 05_ carries NO dictamen entry (CT 130-137 zone unextracted). Carried as HISTORICAL blueprint only (never operative FRs); pin the current CT text before any operative encoding of dictamen surfaces. | no | Takumi W17 (CT re-anchor pass) | open |

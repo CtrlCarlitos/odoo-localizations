@@ -6,7 +6,7 @@
 | Topic   | fiscal-reporting |
 | Status  | draft |
 | Authors | Takumi synthesis wave 3 (S3) |
-| Updated | 2026-08-18 |
+| Updated | 2026-08-20 |
 
 ## 1. Purpose
 
@@ -59,6 +59,15 @@ Art. 10.7) are cited as printed; no article text is invented beyond what
 the form/evidence quotes. Manual pages are printed pages (printed page N =
 PDF page N+2).
 
+**75_ fold-in vintage watch (rides the 75_ LB rows below):** the D.E.
+117-2001 print (Reglamento de Aplicación del Código Tributario) carries NO
+REFORMAS block and post-2001 repeal by CT Art. 344 ff is print-unresolvable
+(EV75 OQ-1/OQ-8, SOQ-06-kin) — cited as printed. Authority order: CT (05_)
+governs substance; 75_ Arts. 31-35 develop declaration-reception procedure —
+the declaration-state classification and reception rules are OWNED by
+`taxation/16_ct-procedures.md` (SV-TAX-FR-365..368) and consumed BY ID in
+§3.2 (FR-213/FR-214), never restated here.
+
 | ID | Citation (Spanish) | English translation | Source file | Location |
 |----|--------------------|---------------------|-------------|----------|
 | LB-001 | Formulario F-07 v14, encabezado + A. Identificación del Contribuyente: "PERÍODO TRIBUTARIO MES AÑO"; "Marque con una X si está Disminuyendo Saldo por Aplicación de Art. 74-A del C.T." (casilla 495); "Número de declaración que Modifica" (casilla 55; a printed "0" sits adjacent — form-sample digit); fields "1 NIT" (14), "3 NRC", "2 Apellido(s), Nombre(s) / Razón Social o Denominación" (22), "3 Actividad Económica Principal" (14), "4 Nombre Comercial" (9), "7 Teléfono" (16) | F-07 v14 form header and taxpayer identification block: tax period month/year; Art. 74-A CT balance-reduction checkbox (casilla 495); amended-declaration number (casilla 55); NIT, NRC, name/trade name, main economic activity, telephone with printed field lengths | `sv/sources/39_F07_v14_form_visual.pdf` | p.1 (EVID-179) |
@@ -72,6 +81,8 @@ PDF page N+2).
 | LB-009 | Manual F-07 v14 §XVI "Inconsistencias en el Archivo Cargado": "Si el archivo cargado tiene inconsistencias, el sistema le enviará mensaje y le detallará las mismas, indicándole las líneas en que se encuentra cada inconsistencia"; mensajes: "Debe cerciorarse que el archivo que está cargando es de la extensión .CSV"; "Debe cerciorarse que no haya dejado en blanco ninguna de las columnas relacionadas a los montos de las operaciones"; "Debe cerciorarse que, en la última columna, todas las líneas tengan el número del anexo que corresponde"; "Debe cerciorarse que está cargando el archivo que corresponde al detalle correspondiente, ya que cada anexo posee una estructura diferente" | F-07 v14 upload manual §XVI: on inconsistencies the system sends a message detailing each one with its line number; validation catalog = .CSV extension, no blank amount columns, annex number on the last column of every line, per-annex structure | `sv/sources/34_F07_v14_manual.pdf` | §XVI pp.51-53 (EVID-178) |
 | LB-010 | Manual F-07 v14 §XVII "Procedimiento para Declaraciones Modificatorias": "Cuando se trate de declaraciones modificatorias, el sistema le mostrará la información de los anexos 3 al 12 de la declaración inmediata anterior del mismo periodo tributario. En el caso de los anexos: 1 'Ventas a Contribuyentes' y 2 'Ventas a Consumidor Final' para la presentación de declaraciones modificatorias será necesario realizar la carga de estos" | F-07 v14 upload manual §XVII amended-return procedure: annexes 3-12 are shown from the immediately preceding declaration for the same tax period; annexes 1-2 must be re-uploaded | `sv/sources/34_F07_v14_manual.pdf` | §XVII p.54 (EVID-178) |
 | LB-011 | Manual F-07 v14 §III y notas de totalización por anexo: al cargar "se mostrará mensaje en el cual se dice 'Archivo subido correctamente'"; "se mostrará un resumen de la información cargada"; "el sistema complementará automáticamente, las casillas de ventas con los valores cargados en el archivo"; "La casilla 108 será totalizada automáticamente según los registros previamente cargados"; "la casilla 161 [162, 163, 169, 170, 171, 172] será totalizada automáticamente según los registros previamente cargados"; "el sistema complementará automáticamente, las casillas de las compras y/o ventas" | F-07 v14 upload manual: success response ("file uploaded correctly") plus a summary of the loaded information, and automatic complementation/totalization of the declaration casillas from the uploaded annex records — no manual casilla fill | `sv/sources/34_F07_v14_manual.pdf` | §III pp.5-6; §V p.17; §VI p.19; §VIII-§XIV (EVID-173; EVID-174; EVID-177) |
+| LB-012 | Reglamento de Aplicación del Código Tributario (D.E. N° 117-2001), Arts. 31, 33-34 (CT 103 co-anchor) | Art. 31: "Los contribuyentes deben liquidar el impuesto en los formularios que proporcionará la Administración Tributaria. La falta de tales formularios no libera de la obligación de declarar y pagar el impuesto dentro del plazo legal". Art. 33: la modificación "podrá referirse a los datos, informaciones, cálculo del impuesto, u otros elementos constitutivos de la naturaleza propia de cada impuesto". Art. 34: las declaraciones originales modificadas "por la omisión de requisitos formales o errores de la misma naturaleza, no se consideraran como presentadas incorrecta; aquellas declaraciones en las que como producto de la modificación de lugar al pago original o complementario del impuesto si se consideraran como presentadas incorrectas, de conformidad a lo establecido en el artículo 103 del Código Tributario" | 75_ Reglamento CT Arts. 31/33-34: official forms never excuse the declare-and-pay obligation; the modification taxonomy (data, information, tax computation, other constitutive elements); and the CT 103 classification gate — formal-defect-only amendments do NOT mark the original as incorrectly presented, while amendments producing an original or complementary tax payment DO | `sv/sources/75_Reglamento_Codigo_Tributario_DE117.pdf` | Arts. 31, 33-34 pp.17-18 (EVID-343; verified 75_ txt lines 880-884, 918-943) |
+| LB-013 | Reglamento de Aplicación del Código Tributario (D.E. N° 117-2001), Arts. 32 y 35 | Art. 32: el receptor delegado "revisará… para cerciorarse de que todos los requisitos han sido llenados… pero en ningún caso podrá modificarlas, debiendo ser los sujetos pasivos quienes hagan las correcciones"; "El delegado deberá recibir la declaración aún cuando los sujetos pasivos se negaren a corregir los errores… salvo en los casos que dichos errores conlleven la disminución del valor a pagar o aumente el saldo a favor". Art. 35: declaraciones electrónicas — "encriptado de los procesos, firma digital o electrónica, facilidades para cambios de clave por el sujeto pasivo autorizado y recibo de verificación electrónico proporcionado por la Administración como constancia de recibido" | 75_ Reglamento CT Arts. 32/35: the declaration reception contract (the delegated receiver reviews and flags but NEVER modifies; MUST receive the declaration even uncorrected, EXCEPT errors that reduce the payable or increase the saldo a favor) and the 2001 e-filing invariant set (encryption, digital signature, key management, electronic receipt) | `sv/sources/75_Reglamento_Codigo_Tributario_DE117.pdf` | Arts. 32, 35 pp.18-19 (EVID-343; verified 75_ txt lines 899-918, 944-960) |
 
 ## 3. Functional Requirements
 
@@ -363,6 +374,43 @@ PDF page N+2).
   same annex; the modificatoria carryover of FR-040 is likewise
   superseded per annex by that annex's re-upload. (LB-010; LB-011;
   EVID-178)
+- **SV-FREP-FR-213:** The system shall classify every F-07
+  *declaración modificatoria* by the CT 103 amendment gate OWNED by
+  `taxation/16_ct-procedures.md` and consumed BY ID (SV-TAX-FR-367): an
+  amendment whose only object is the correction of "la omisión de
+  requisitos formales o errores de la misma naturaleza" (omission of
+  formal requisites or errors of the same nature) does NOT mark the
+  original declaration as incorrectly presented — no
+  incorrect-declaration state, no sanction-risk surface — while an
+  amendment that as its product gives "lugar al pago original o
+  complementario del impuesto" (original or complementary payment of
+  the tax) DOES mark it incorrect per CT 103. The classification flag
+  (formal_defect_only · payment_affecting) rides the amendment record
+  created by the modificatoria engine of SV-FREP-FR-040 (the *Número de
+  declaración que Modifica* flow, casilla 55) and this file never
+  re-derives the classification rule — taxation/16 owns it (the
+  reception-side sibling is FR-214; taxonomy of modifiable matter per
+  Art. 33, LB-012).
+  (LB-012; EVID-343; cross-ref SV-TAX-FR-367, SV-FREP-FR-040;
+  layer: odoo)
+- **SV-FREP-FR-214:** The system shall honor the reception contract of
+  75_ Arts. 31-32 on the F-07 computation/filing surface, consumed BY
+  ID from taxation/16's declaration state model (SV-TAX-FR-365/366):
+  the absence of the official form NEVER gates computation or filing
+  ("La falta de tales formularios no libera de la obligación de declarar
+  y pagar el impuesto dentro del plazo legal" — FR-001's declaration
+  object and FR-028's export are never blocked on form availability),
+  and a receiving surface that rejects a return solely for curable
+  formal defects violates the reception rule: errors are FLAGGED, never
+  modified by the receiver, and the declaration must be received "aún
+  cuando los sujetos pasivos se negaren a corregir los errores" —
+  EXCEPT the reduce-payable exception, where errors that "conlleven la
+  disminución del valor a pagar o aumente el saldo a favor" (reduce the
+  payable or increase the saldo a favor) block acceptance until
+  corrected (reception state: received · received_with_flagged_errors ·
+  blocked_payable_reducing_error, per SV-TAX-FR-366).
+  (LB-012; LB-013; EVID-343; cross-ref SV-TAX-FR-365/366;
+  layer: odoo)
 
 ## 4. Data Model
 
@@ -417,6 +465,7 @@ row/casilla map with sign, role and source):**
 | l10n_sv.f07.annex.upload (new) | declaration_id, annex_no, filename, file, status, uploaded_at, response_summary | int/char(≤25)/binary/select | annex_no 1-14; status: draft · validated · rejected · accepted; response_summary = resumen per FR-037 | FR-028, FR-037, FR-041 |
 | l10n_sv.f07.annex.upload.error (new) | upload_id, line_no, validation_code, message | int/select/text | validation_code: extension_csv · blank_amount · annex_number · structure · date_period · window_3periods · negative_gate | FR-039 |
 | l10n_sv.f07.upload.format.spec (new) | annex_no, delimiter, cell_type, amount_rule, date_rule, negative_policy, period_window | char/select | seeded from the in-file format table below | FR-028..FR-036 |
+| l10n_sv.f07.declaration (state extension) | amendment_class, reception_state | select/select | amendment_class: formal_defect_only · payment_affecting (CT 103 gate — taxation/16 SV-TAX-FR-367); reception_state: received · received_with_flagged_errors · blocked_payable_reducing_error (taxation/16 SV-TAX-FR-366) | FR-213, FR-214 |
 
 **Upload-format spec — l10n_sv.f07.upload.format.spec (seed data; common
 profile + per-annex windows):**
@@ -485,6 +534,8 @@ row where a legal vintage exists.
 | FR-039 | odoo | l10n_sv.f07.annex.upload.error | line_no + catalog | Line-numbered inconsistencies |
 | FR-040 | odoo | l10n_sv.f07.declaration (amendment wizard) | carryover + forced re-upload | Annexes 3-12 carryover; 1-2 mandatory upload; AC-014 |
 | FR-041 | odoo | l10n_sv.f07.annex.upload (replace semantics) | full replace per annex | limpiar-replace; no merge across uploads |
+| FR-213 | odoo | l10n_sv.f07.declaration | amendment_class | CT 103 gate consumed BY ID from taxation/16 (SV-TAX-FR-367 — formal-defect-only ≠ incorrect, payment-affecting = incorrect); rides the FR-040 modificatoria flow; AC-019 |
+| FR-214 | odoo | l10n_sv.f07.declaration + l10n_sv.f07.annex.upload | reception_state | Reception contract consumed BY ID (SV-TAX-FR-365/366 — forms never excuse; flag-never-modify; must-receive except reduce-payable/saldo-a-favor-increasing errors); AC-020 |
 
 Version-regime notes (D12): FR-001 records the F-07 v14 vintage (form
 "Actualizado al 15/08/2025", manual ENERO 2025 — current); the casilla
@@ -591,6 +642,21 @@ SOQ-08) — no deadline behavior is encoded here.
   when period N+1 opens, then casilla 110 of N+1 = **669.52** and 164 of
   N+1 = 0.00; given N amended so that 155 = 700.00, then N+1 re-feeds
   110 = 700.00 from the amended declaration (FR-026).
+- **AC-019:** Given a *declaración modificatoria* of period 04/2026
+  whose only modification corrects an omitted formal requisite
+  (formal-defect-only per the CT 103 gate), then the original
+  declaration is NOT flagged incorrectly presented and no
+  sanction-risk surface opens; given a modificatoria of the same period
+  producing a complementary tax payment, then the declaration IS
+  flagged incorrect (payment_affecting) and the classification flag
+  rides the FR-040 amendment record referencing casilla 55 (FR-213).
+- **AC-020:** Given a filed F-07 carrying an uncorrected formal defect
+  that does NOT change the payable, then the declaration is received
+  with the error flagged (received_with_flagged_errors) — rejection
+  solely for the curable formal defect is refused; given an uncorrected
+  error that reduces the payable or increases the saldo a favor, then
+  reception is blocked until corrected
+  (blocked_payable_reducing_error) (FR-214).
 
 ## 7. Open Questions
 
