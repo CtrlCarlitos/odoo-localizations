@@ -290,6 +290,33 @@ expected and absorbed by instantiating the canon, never by forking it.
       repairs payroll-wide. Next per `hn/HANDOVER.md`: acquisition wave
       (D. 135-94 + Acuerdo 201-96 TOP) + 93_-97_ in-corpus reads + S-HN5
       thin-close scoping at milestone.
+      **HN V-HN1b merge 2026-08-20 (§4.6 protocol, fifteenth run):**
+      `hn-research` rebased onto `074c6eb` (1 commit rewritten
+      `436dc90`→`cf7dfe9` V-HN1b; zero conflicts — SV's fourteenth-run
+      record touched only the root HANDOVER) then fast-forward-merged;
+      remote branch ref updated via delete + re-push. **HN = VALIDATION
+      FOLLOW-UPS + ACQUISITION ROUND 6**: in-corpus evidence reads of
+      95_/96_ (EVID-337..348) and 93_/94_/97_ (EVID-350..361) — **FR-067
+      senior L30k tier PINNED + ACTIVATED** (D. 199-2006 Art. 30 num. 14
+      own-law "crédito adicional", NOT an ISR amendment; valid_from
+      10-ago-2007; R-H71; OQ-008 resolved, OQ-009 carries: D. 59-2023
+      intermediate reform UNACQUIRED = new top lead, beneficiarios-class
+      mismatch, stacking = plantilla-only practice); 22-A FR-082 gains
+      regime 0 FY2017 (original D. 278-2013 Art. 9 rules per D. 31-2019
+      authentic interpretation, R-H72; gazette pin G 34,932 — catalog
+      34,934 in error); 97_ Art. 14 original 5-consecutive-periods
+      condition recorded as FR-068 history rows (R-H73). **Acquisition
+      wave: D. 112 — the aguinaldo law — FOUND** via Wayback snapshot of
+      the official STSS upload (live link stale-404; corrects round-5's
+      "routes exhausted"), + Acuerdo STSS-154-2000 bono reglamento (the
+      payroll/02 OQ-004 lead) + D. 150-2008 + Acuerdo 345 = corpus 107
+      files (105-108; duplicate D. 103 upload discarded md5-identical).
+      S-HN5 scoping: DEFERRED pending Código de Comercio + Ley RAP.
+      Coverage 107 rows = 101 cited + 6 N/A (evidence passes pending for
+      105-108). Next per `hn/HANDOVER.md`: evidence passes 105-108 (105_
+      unblocks the P2 aguinaldo sub-cluster), D. 59-2023 fetch via ENAG
+      Feb-2024, then D. 135-94/201-96 + Acuerdo 799 + Reglamento General
+      IHSS + Ley RAP.
       Next per `gt/HANDOVER.md` §5i/§9: S-GT3 payroll plan (GOQ-70..91 +
       GOQ-04/09/10/11; consumes taxation/04 art. 70/72 FRs; carry
       R30/R36/R41 bonus-law corrections).
