@@ -182,7 +182,14 @@ must grep ALL LB source columns of the new files.
   147); COVERAGE 64/0/9/1. Process rulings: (a) T2's two beyond-brief
   edits upheld (FR-121 LB-anchor + 01 §5 stale-note refresh); (b) plan
   §3.6-pointer defect — payroll/04 note placed §3.3, reviewer-verified;
-  (c) push deferred to post-final-review (S9 protocol).
+  (c) push deferred to post-final-review (S9 protocol). **Final whole-wave
+  review: USABLE-WITH-FIXES → one fix wave PASS (c06ee79: LB-028 "de que
+  se trata" restore, §2 R30(a) staleness reword, FR-372 by-pointer) =
+  MERGE-READY**; deferred-minor triage: 3 RIDE (frep/01 enum style, FR-213
+  dual-branch quote, FR-145 wording, LB-017 no-consumer row, HANDOVER
+  rewrap) + parked residual (FR-372 trailing anchor map still reads "TAX
+  13/15-files by id" — 13-file ids exist, 15 is pointer-only; fold at
+  next 16 edit). Commits 562a3e3..c06ee79; pushed sv-research.**
 
 - **W16 (2026-08-20):** external-check sweep + 75_ acquisition + SOQ-54
   Ley-side verification — **D.O. RECOVERED** (serves PDFs; API param shape
