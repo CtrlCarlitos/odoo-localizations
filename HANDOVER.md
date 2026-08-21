@@ -368,9 +368,30 @@ expected and absorbed by instantiating the canon, never by forking it.
        séptimo día statutory layer (payroll/06 FR-248/249); payroll
        314→326 FRs, COVERAGE 108 rows = 105 cited + 3 N/A; plus 109_ =
        D. 59-2023 Adulto Mayor intermediate reform acquired via ENAG G
-       36,460 14-feb-2024, evidence pass PENDING). Next per
-       `hn/HANDOVER.md`: 109_ evidence pass + the R-H75 interp/reform
-       chain — bootstrap `Read hn/HANDOVER.md and continue.`
+        36,460 14-feb-2024, evidence pass PENDING). Next per
+        `hn/HANDOVER.md`: 109_ evidence pass + the R-H75 interp/reform
+        chain — bootstrap `Read hn/HANDOVER.md and continue.`
+       **HN W5c merge 2026-08-20 (§4.6 protocol, twentieth run):**
+       `hn-research` rebased onto `5c7185b` (2 commits rewritten
+       `014b758..cbad485`→`47d56f8..9d1aac4`: nineteenth-merge branch
+       record + W5c 109_ evidence pass; zero conflicts — hn/-scoped only)
+       then fast-forward-merged; remote branch ref updated via delete +
+       re-push. **HN = 109_ EVIDENCE PASS COMPLETE — CORPUS FULLY
+       EVIDENCED (108/108 files, EVID-001..391)**: R-H78 — D. 59-2023 =
+       adición-only reform of D. 199-2006 Arts. 3/30, the L30,000 senior
+       credit (Art. 30.14) SURVIVES unchanged (tercera list reprinted
+       summarized 1)-14) with GAZETTE-print ellipses, dual-OCR-pass
+       confirmed; taxation/02 OQ-009(a) resolved, FR-067 =
+       10-ago-2007 whole-life row, vigencia 14-feb-2024; R-H79 — cuarta
+       edad = 80+ DEFINED (resolves 96_ OQ-2; D.45-2025 utility-tier
+       predicate pinned; cuarta catalogue banked for S-HN5); reformed
+       BENEFICIARIOS jubilado-leg flag (OQ-009(b)); edition decrees
+       identified (D. 63-2023 promotions / D. 5-2024 municipal amnistía,
+       expired / D. 6-2024 migration); taxation index 248/113/140/56;
+       COVERAGE 108 rows = 106 cited + 2 N/A, gates PASS; R-H1..R-H79.
+       Next per `hn/HANDOVER.md`: R-H75 interp/reform chain (D. 179-97
+       top) + 95_ clean-consolidation lead — bootstrap
+       `Read hn/HANDOVER.md and continue.`
        **GT S-GT3 merge 2026-08-20 (§4.6 protocol, seventeenth run):**
       `gt-research` rebased onto `7bf2e86` (14 commits rewritten
       `da0f374..57c6be0`: plan + T1..T11 + close + final-review fixes;
