@@ -4,12 +4,12 @@
 |---------|-------|
 | Country | gt |
 | Topic   | all (cross-topic) |
-| Status  | draft (S-GT1 e-invoicing + catalogs and S-GT2 taxation waves complete; S-GT3..S-GT7 pending) |
-| Authors | GT synthesis waves S-GT1 + S-GT2 |
+| Status  | draft (S-GT1 e-invoicing + catalogs, S-GT2 taxation and S-GT3 payroll waves complete; S-GT4..S-GT7 pending) |
+| Authors | GT synthesis waves S-GT1 + S-GT2 + S-GT3 |
 | Updated | 2026-08-20 |
 
 As-of date 2026-08-20. Scope of this revision: the S-GT1 e-invoicing +
-catalogs wave and the S-GT2 taxation wave. Every file in
+catalogs wave, the S-GT2 taxation wave and the S-GT3 payroll wave. Every file in
 [../sources/](../sources/) (registry:
 [../sources/README.md](../sources/README.md) — 82 entries, numbering
 01–83 with gap 27; verification-rejected duplicates are not registry rows)
@@ -25,7 +25,7 @@ mapped against the requirements waves. Status values:
 
 Citation check = grep for `gt/sources/<nn>_` across
 `gt/requirements/e-invoicing/` + `gt/requirements/catalogs/` +
-`gt/requirements/taxation/`. File-number shorthand (e.g. `04` =
+`gt/requirements/taxation/` + `gt/requirements/payroll/`. File-number shorthand (e.g. `04` =
 `e-invoicing/04_mandate-onboarding.md`, `tax04` =
 `taxation/04_isr-trabajo.md`, `cat01` = `catalogs/01_governance.md`).
 
@@ -63,21 +63,21 @@ Citation check = grep for `gt/sources/<nn>_` across
 | 29_FEL_XSD_cat_github_961133c/ | cited | `e-invoicing/01`, `02`, `05`, `06` + `cat01` (+ sidecars `_INDEX.md`/`_DRIFT.md`) — working XSD/JSON authority (OQ1 ruling), except MediosdePago (R2) |
 | 30_FEL_XSD_cat_catdesa/ | cited | `e-invoicing/01`, `02` + `cat01` (+ `_DRIFT.md`) — MediosdePago authority (R2) + drift counterpart |
 | 31_certificadores_dte_snapshot_2026-08-18.html | cited | `e-invoicing/05` (roster: 18 authorized; GRUPO CDS/TotalDoc; renewal cluster = GOQ-03 watch) |
-| 32_Codigo_Trabajo_D1441.pdf | not-applicable | pending S-GT3 payroll |
-| 33_IGSS_Ley_Organica_D295_D11-2004.pdf | not-applicable | pending S-GT3 payroll |
-| 34_IGSS_Reglamento_SSO_AG_229-2014.pdf | not-applicable | pending S-GT3 payroll |
-| 35_IGSS_Resolucion_08-SGF-2026_recaudacion.pdf | not-applicable | pending S-GT3 payroll |
-| 36_IGSS_Guia_Direccion_Recaudacion.pdf | not-applicable | pending S-GT3 payroll |
-| 37_Salario_Minimo_AG_256-2025.pdf | not-applicable | pending S-GT3 payroll |
-| 38_Salario_Minimo_AG_250-2020.pdf | not-applicable | pending S-GT3 payroll |
-| 39_Salario_Minimo_Historia.pdf | not-applicable | pending S-GT3 payroll |
-| 40_Aguinaldo_D42-92.pdf | not-applicable | pending S-GT3 payroll |
-| 41_Bono14_D78-89.pdf | not-applicable | pending S-GT3 payroll |
-| 42_IRTRA_Ley_D15-1928.pdf | not-applicable | pending S-GT3 payroll |
-| 43_IRTRA_AG_5-2005.pdf | not-applicable | pending S-GT3 payroll |
-| 44_IRTRA_AG_6-2005.pdf | not-applicable | pending S-GT3 payroll |
-| 45_INTECAP_Ley_Organica.pdf | not-applicable | pending S-GT3 payroll |
-| 46_INTECAP_Reglamento_Tasa_Patronal.pdf | not-applicable | pending S-GT3 payroll |
+| 32_Codigo_Trabajo_D1441.pdf | cited | `payroll/01` (salary core, arts. 88-102 kin), `02` (jornada/OT arts. 116-129), `05` (vacaciones/maternidad/menores arts. 130-137, 148-155), `06` (contracts/termination arts. 18-31, 77-87, 259-266), `03` (mechanism arts. 103-115), `10` (edition provenance EVID-266/267/300) — every citation carries the 2024-edition qualifier (R44) |
+| 33_IGSS_Ley_Organica_D295_D11-2004.pdf | cited | `payroll/07` (law layer: 25/50/25 structure-only, null-ipso-jure invariant, privileges, inspection; D-11-2004 governance-only R39; GOQ-74) |
+| 34_IGSS_Reglamento_SSO_AG_229-2014.pdf | cited | `payroll/10` (SSO duties money-free R40: comité ≥10, plan 3y, exams, suspension; GOQ-76 shuffle flag) |
+| 35_IGSS_Resolucion_08-SGF-2026_recaudacion.pdf | cited | `payroll/07` (recaudación core: two-share delivery, base floor + NO tope, planilla electrónica lifecycle, single receipt, mora/RD/nota-de-cargo, waivers, ±1% — never a rate, GOQ-04/75) |
+| 36_IGSS_Guia_Direccion_Recaudacion.pdf | cited | `payroll/07` (corroboration-only guard row) |
+| 37_Salario_Minimo_AG_256-2025.pdf | cited | `payroll/03` (2026 CE1/CE2 × 3 actividades [sic]-faithful six-cell table + CSV rows — GOQ-77/78; incentivo art. 8 e) indivisibility kin in `04`) |
+| 38_Salario_Minimo_AG_250-2020.pdf | cited | `payroll/03` (2021 COVID freeze rows + monthly incentivo payment hook; p.3 = AG 243-2020 misattribution R43 in `04`) |
+| 39_Salario_Minimo_Historia.pdf | cited | `payroll/03` (1995-2021 series + SD × 365/12 formula, printed figures govern R35/GOQ-82), `04` (p.4 NOTA = the D-37-2001 Q250 quoted-only source — GOQ-09) |
+| 40_Aguinaldo_D42-92.pdf | cited | `payroll/04` (BONO 14 engine — filename says Aguinaldo, content = D-42-92: R30 identity correction) |
+| 41_Bono14_D78-89.pdf | cited | `payroll/04` (INCENTIVO D-78-89 original law — filename says Bono14, content = incentivo: R30 identity correction; GOQ-83) |
+| 42_IRTRA_Ley_D15-1928.pdf | cited | `payroll/08` (D-1528 1962 identity R31 — glyph-decoded layer; art. 12 flat 1% as reformed by D-43-92; GOQ-84/87) |
+| 43_IRTRA_AG_5-2005.pdf | cited | `payroll/08` (governance only — Estatutos art. 7 scope; no cuotas; GOQ-86) |
+| 44_IRTRA_AG_6-2005.pdf | cited | `payroll/08` (governance only — Junta Reglamento; no cuotas; GOQ-86) |
+| 45_INTECAP_Ley_Organica.pdf | cited | `payroll/08` (D-17-72 art. 28 ladder → 1% ceiling, exceptions, rebate, deductibility; GOQ-88) |
+| 46_INTECAP_Reglamento_Tasa_Patronal.pdf | cited | `payroll/08` (Reglamento-1980: art. 9º in-force 1%, 20-day deadline, IGSS-planilla base, enforcement ladder; GOQ-89) |
 | 47_SAT_Patronos_Retencion_ISR_2025.pdf | cited | `taxation/07` (digest provenance register row) — self-disclaimed digest, never cited as law (26_ > 28_ > 47_); its numeric cross-check (all-match, EVID-243) recorded via EV02c; practice-layer use = GOQ-61 in `taxation/04` (via EV02c, no direct LB) |
 | 48_SAT_Lista_Formularios_2025-10-06.html | cited | `taxation/04` (form identities LB-012: 1331/1431/1901/1481/1921/1111 — R46), `05` (1411/1321/1371 — R46) + pending S-GT4 fiscal-reporting (row-data mechanics) |
 | 49_SAT_RetWebIVA_page.html | cited | `taxation/03` (secondary-print anchor for the deadline variants, GOQ-01 note) + pending S-GT4 fiscal-reporting (+ indirect anulación-blocker name in `e-invoicing/06`) |
@@ -87,7 +87,7 @@ Citation check = grep for `gt/sources/<nn>_` across
 | 53_SAT_Agentes_RetIVA_2025-10-01.pdf | cited | `taxation/03` (roster context row — no agent-type column) + pending S-GT4 fiscal-reporting |
 | 54_SAT-0261_form.pdf | cited | `taxation/03` (voluntary-inscription anchor, D-20-2006 art. 6) + pending S-GT4 fiscal-reporting |
 | 55_SAT_PequenoContribuyente_guia.pdf | cited | `taxation/02` (secondary prints: fn.1 D-4-2012 attribution [R20 confirmation], art. 48 window, 5% doctrine, Reg. art. 30 legend) + pending S-GT4 fiscal-reporting kin |
-| 56_SAT_Planilla_IVA_FEL_2024.pdf | not-applicable | pending S-GT3 payroll (+ S-GT4 kin) |
+| 56_SAT_Planilla_IVA_FEL_2024.pdf | cited | `payroll/09` (Planilla IVA-FEL mechanics: eligibility, January window, four-source feed, last-wins/ANULADAS — procedural manual, never law; GOQ-90/61; statutory values = LAT art. 72 via taxation/04) + pending S-GT4 kin |
 | 57_SAT_LET_Pequeno_Manual.pdf | not-applicable | pending S-GT4 fiscal-reporting — LET blocker named via Reglas §3.17.2 in `e-invoicing/06`; no path citation this wave |
 | 58_SAT_LET_IVAGeneral_Manual.pdf | not-applicable | pending S-GT4 fiscal-reporting (same indirect LET-blocker note as 57_) |
 | 59_SAT_InformeComprasVentas_Manual.pdf | not-applicable | pending S-GT4 fiscal-reporting |
@@ -96,7 +96,7 @@ Citation check = grep for `gt/sources/<nn>_` across
 | 62_SAT-2390_guia.pdf | not-applicable | pending S-GT4 fiscal-reporting |
 | 63_SAT-2390_instrucciones_csv.pdf | not-applicable | pending S-GT4 fiscal-reporting |
 | 64_SAT_Criterio_2-2019.pdf | cited | `taxation/03` (dualidad interpretive layer: EVID-496 + rate-table confirmation) — interpretive only, never the rate source |
-| 65_SAT_Criterio_6-2018.pdf | cited | `taxation/05` (deduction-gating interpretive layer via EV02c/EV04f) + pending S-GT3 payroll (bono-cap kin) |
+| 65_SAT_Criterio_6-2018.pdf | cited | `taxation/05` (deduction-gating interpretive layer via EV02c/EV04f) + `payroll/04` bono-cap kin consumed indirectly via GT-TAX-FR-169 (no direct path citation) |
 | 66_Codigo_Comercio_D2-70.pdf | not-applicable | pending S-GT5 chart-of-accounts (+ S-GT6 commercial-legal kin) |
 | 67_ZF_Ley_D65-89.pdf | not-applicable | pending S-GT7 special-regimes |
 | 68_ZF_Reglamento_AG_242-90.pdf | not-applicable | pending S-GT7 special-regimes |
@@ -123,14 +123,14 @@ Numbering note: registry numbers 01–83 with gap 27 (27 never allocated);
 
 | Status | Rows |
 |--------|------|
-| cited | 42 (01–26, 28, 29, 30, 31, 47, 48, 49, 52, 53, 54, 55, 64, 65, 74, 78, 79) |
-| not-applicable | 40 |
+| cited | 58 (01–26, 28, 29, 30, 31, 32–46, 47, 48, 49, 52, 53, 54, 55, 56, 64, 65, 74, 78, 79) |
+| not-applicable | 24 |
 | pending | 0 |
 | **Total** | **82** |
 
 Expected cited sets verified by grep. S-GT1: 01–22, 29, 30, 31 (+24_
 FEL-layer LB only). S-GT2: 23, 24, 25, 26, 28, 47, 48, 49, 52, 53, 54,
-55, 64, 65, 74, 78, 79 (17 rows). **Secondary-print discipline:** 49_/52_/
+55, 64, 65, 74, 78, 79 (17 rows). S-GT3: 32–46, 56 (16 rows). **Secondary-print discipline:** 49_/52_/
 53_/54_/55_ (EV04b/EV04c manuals) and 47_/64_/65_ (digest/criterios) are
 cited ONLY as dated-as-of secondary or interpretive anchors — statutory
 authority always rests on 23_/24_/25_/26_/28_/78_/79_ (per-file notes

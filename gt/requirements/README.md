@@ -10,7 +10,7 @@ Language: English, Spanish legal terms inline with translations.
 | [catalogs](catalogs/) | In review | 01_governance + CSV sidecars (GT-CAT-FR-001..015) |
 | [taxation](taxation/) | In review | 00_index + 7 files + 2 CSVs (GT-TAX-FR-001..261) |
 | [chart-of-accounts](chart-of-accounts/) | Not started | — |
-| [payroll](payroll/) | Not started | — |
+| [payroll](payroll/) | In review | 00_index + 10 files + 1 CSV (GT-PAY-FR-001..236) |
 | [fiscal-reporting](fiscal-reporting/) | Not started | — |
 
 Status values: Not started, In progress, In review, Complete.
