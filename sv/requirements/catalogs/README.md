@@ -3,8 +3,11 @@
 Machine-readable sidecars of the official MH catalogs used across DTE
 structures and events. Generated from
 [sources/51_Catalogos_Facturacion_Electronica_v1.1_2026-07.xlsx](../../sources/)
-(**Catálogos v1.1, 2026 re-versioning**, PDF overlay where the workbook is
-incomplete) by [shared/scripts/build_catalogs.py](../../../shared/scripts/).
+(**Catálogos v1.1, 2026 re-versioning**) by
+[shared/scripts/build_catalogs.py](../../../shared/scripts/). Per
+SV-CAT-FR-002, the workbook is the SOLE parse source; the official PDF
+(`50_`, image-based) is a human-reference fallback only — never a parse
+source.
 See `_INDEX.md` for the file/row map and applied corrections.
 
 **Supersession:** v1.1 (2026) REPLACES the 2022 "Catálogo Sistema de
