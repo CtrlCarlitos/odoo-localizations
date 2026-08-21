@@ -168,7 +168,7 @@ SaaS team must agree on. Machine-readable catalog sidecars live in
 
 | Entity | Field | Type | Catalog / values | Reference |
 |--------|-------|------|------------------|-----------|
-| account.move (DTE) | codigoGeneracion | char(36) | UUID v4 uppercase | FR-003 |
+| account.move (DTE) | codigoGeneracion | char(36) | UUID v4 — 36 chars, uppercase hexadecimal digits [0-9A-F], 8-4-4-4-12 hyphen groups (52_ schema) | FR-003 |
 | account.move (DTE) | numeroControl | char(31) | DTE-TT-EEEEEEEE-CCCCCCCCCCCCCCC | FR-004 |
 | account.move (DTE) | fecEmi / horEmi | date / time | windows per FR-008 | FR-008 |
 | account.move (DTE) | fusiones (NEW) | char(14) null | NIT 9/14 digits, AT merged list | FR-009 |

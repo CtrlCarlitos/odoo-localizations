@@ -170,7 +170,7 @@ Catalog sidecars live in [../catalogs/](../catalogs/) (CAT-001, CAT-004).
 | account.move (DTE/event) | l10n_sv_edi_sello | char(40) | selloRecibido: 40 alphanumerics, uppercase, no hyphens | FR-058; DG45 §4 |
 | account.move (DTE/event) | l10n_sv_edi_codigo_msg / clasifica_msg | char | e.g. 002 received-with-observations | FR-077/086 |
 | account.move (DTE/event) | l10n_sv_edi_observaciones | text list | observaciones[] verbatim | FR-077/086 |
-| account.move (DTE/event) | l10n_sv_edi_id_envio / codigo_lote | char(36) | UUID v4 uppercase / codigoLote | FR-058/059 |
+| account.move (DTE/event) | l10n_sv_edi_id_envio / codigo_lote | char(36) | UUID v4 — 36 chars, uppercase hexadecimal digits [0-9A-F], 8-4-4-4-12 hyphen groups (52_ schema) / codigoLote | FR-058/059 |
 | saas.transmission_queue | depends_on | many2one queue item | dependency edge; item held until dependency sealed | FR-074/075 |
 | saas.transmission_queue | retry_count / next_attempt_at | integer / datetime | ≤2 resends after 8s timeout | FR-064 |
 
@@ -248,7 +248,7 @@ in this file requires version-specific behavior.
 - **AC-008:** Given a DTE transmitted 27-June with fecEmi 30-June, then it passes the window check; given the same transmission with fecEmi 01-July, then it is rejected as crossing the tax period (FR-071).
 - **AC-009:** Given an emission on the last day of a month whose emitter clock reads horEmi 25 minutes past the transitory deadline, then horEmi is accepted — the referent is the emitter's recorded `horEmi` vs the MH system clock, which is the skew FR-072's 30-minute holgura bridges; at 35 minutes past on the emitter's clock, then rejected (FR-072).
 - **AC-010:** Given a cached token nearing expiry before a submission wave, then the connector refreshes it; given an auth error in the 100–111 range, then it is surfaced as an authentication failure, not a document rejection (FR-056).
-- **AC-011:** Given the Odoo client codebase, when statically scanned, then no reference to `*.dtes.mh.gob.sv` endpoints exists outside SaaS configuration test fixtures (FR-053).
+- **AC-011:** Given the Odoo client codebase, when statically scanned, then no reference to `*.dtes.mh.gob.sv` API endpoints exists in client code paths outside SaaS configuration test fixtures — MH portal URLs (human documentation/validation pages, not API surfaces) are out of scope (FR-053).
 - **AC-012:** Given a company configured with environment 00, when a user attempts to set the production base URL (or vice versa), then the configuration is rejected (FR-054).
 - **AC-013:** Given a consultadtelote response with mixed per-DTE results (2 PROCESADO, 1 RECHAZADO), then each document's state, seal (40-char) and observaciones are applied individually (FR-060, FR-076).
 - **AC-014:** Given a transitory document whose modality deadline passes without transmission, then its state becomes not_emitted, the CT 199 presumed-income warning is displayed, and an overdue alarm fires (FR-070, FR-081).
