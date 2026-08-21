@@ -565,8 +565,8 @@ never duplicates, hr/payroll records.
 Layer semantics for this wave: the auxiliares regime is Odoo-native
 (res.partner authority profiles, agency contracts, commission/indemnity
 records, statutory books) — every FR maps `odoo`; none touch DTE
-generation/transformation (the only architecture-split surface per
-`shared/docs/saas-thin-client-architecture.md` D2), so no `saas` rows are
+generation/transformation (an architecture-split surface per
+`shared/docs/saas-thin-client-architecture.md`), so no `saas` rows are
 introduced. Model names are stable across Odoo 17/18/19/20; no
 version-specific behavior is required by this file. Commission settlement
 postings reuse the payroll interface pointer (SV-PAY-FR-002 by id) for

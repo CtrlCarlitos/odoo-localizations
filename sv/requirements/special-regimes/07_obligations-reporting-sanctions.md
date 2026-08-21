@@ -673,8 +673,8 @@ DGA/MINEC-facing outputs (descargo register, MINEC informe, LSI register
 reports, annual ops report) are Odoo-produced EXPORTS whose consuming
 authority systems are external interfaces (assumption notes in the rows
 below; no SaaS rows — none of these FRs touch DTE generation/transmission,
-the only architecture-split surface per
-`shared/docs/saas-thin-client-architecture.md` D2). Model names are
+an architecture-split surface per
+`shared/docs/saas-thin-client-architecture.md`). Model names are
 stable across Odoo 17/18/19/20; no version-specific behavior is required
 by this file.
 

@@ -576,7 +576,7 @@ Task 1):**
 
 Layer semantics for this wave: `odoo` = computation/bookkeeping logic
 living in the LGPL client. No SaaS rows are introduced: none of these
-FRs touch DTE generation/transformation (the only architecture-split
+FRs touch DTE generation/transformation (an architecture-split
 surface per `shared/docs/saas-thin-client-architecture.md`); FR-121
 READS the sealed-event client mirror (l10n_sv_edi.event) that the
 e-invoicing module owns. Model names are stable across Odoo

@@ -306,8 +306,8 @@ external authority (CNR): the model tracks registry-issued facts
 Layer semantics for this wave: merchant registration is Odoo-native
 (res.company/res.partner families) — every FR maps `odoo`; no SaaS rows
 are introduced because none of these FRs touch DTE
-generation/transformation (the only architecture-split surface per
-`shared/docs/saas-thin-client-architecture.md` D2). Model names are stable
+generation/transformation (an architecture-split surface per
+`shared/docs/saas-thin-client-architecture.md`). Model names are stable
 across Odoo 17/18/19/20; no version-specific behavior is required by this
 file.
 

@@ -360,9 +360,9 @@ system does not emulate the vigilance office, the Notary or the registry.
 ## 5. Odoo Mapping
 
 Layer semantics for this wave: bookkeeping is Odoo-native — every FR maps
-`odoo`; none of them touch DTE generation/transformation (the only
+`odoo`; none of them touch DTE generation/transformation (an
 architecture-split surface per
-`shared/docs/saas-thin-client-architecture.md` D2), so no `saas` rows are
+`shared/docs/saas-thin-client-architecture.md`), so no `saas` rows are
 introduced. The SaaS side is constrained, not implemented, by FR-028's D3
 authority note. Model names are stable across Odoo 17/18/19/20; no
 version-specific behavior is required by this file.

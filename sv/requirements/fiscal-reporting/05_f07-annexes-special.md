@@ -436,7 +436,7 @@ FR-124).
 
 Layer semantics for this wave: `odoo` = computation/bookkeeping logic
 living in the LGPL client. No SaaS rows are introduced: none of these
-FRs touch DTE generation/transformation (the only architecture-split
+FRs touch DTE generation/transformation (an architecture-split
 surface per `shared/docs/saas-thin-client-architecture.md`). Model
 names are stable across Odoo 17/18/19/20; version-specific behavior is
 recorded per row where a legal vintage exists.

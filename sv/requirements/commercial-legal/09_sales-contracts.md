@@ -667,8 +667,8 @@ Layer semantics for this wave: sales, subscriptions, stock and
 intermediary registers are Odoo-native surfaces (sale.order,
 sale.subscription, stock.lot, stock.location/quant, account.move
 settlements, l10n_sv_commerce registers) — every FR maps `odoo`; none
-touch DTE generation/transformation (the only architecture-split
-surface per `shared/docs/saas-thin-client-architecture.md` D2), so no
+touch DTE generation/transformation (an architecture-split
+surface per `shared/docs/saas-thin-client-architecture.md`), so no
 `saas` rows are introduced. E-invoicing kin (pointer only): export
 INCOTERM capture is SV-EINV-FR-045 (CAT-031), cited by id — the CC
 clause catalog here never writes the DTE fields. Day/prescription

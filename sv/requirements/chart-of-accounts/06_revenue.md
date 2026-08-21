@@ -596,9 +596,9 @@ printed data table warrants a CSV sidecar (default none per plan).
 Layer semantics for this wave: the revenue engine is Odoo-native
 (account.move posting, deferred-revenue/contract surfaces, analytic-based
 progress, account.account template) — every FR maps `odoo`; no SaaS rows are
-introduced because none of these FRs touch DTE generation/transmission (the
-only architecture-split surface per
-`shared/docs/saas-thin-client-architecture.md` D2). Model names stable
+introduced because none of these FRs touch DTE generation/transmission (an
+architecture-split surface per
+`shared/docs/saas-thin-client-architecture.md`). Model names stable
 across Odoo 17/18/19/20 unless noted.
 
 | FR | Layer | Odoo model | Field(s) | Notes / version differences |

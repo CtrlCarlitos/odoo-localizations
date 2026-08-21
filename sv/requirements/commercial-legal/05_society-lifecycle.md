@@ -681,8 +681,8 @@ referenced facts and emits lifecycle events for downstream consumers
 
 Layer semantics for this wave: the lifecycle model is Odoo-native
 (res.company + l10n_sv_commerce records) — every FR maps `odoo`; none
-touch DTE generation/transformation (the only architecture-split surface
-per `shared/docs/saas-thin-client-architecture.md` D2), so no `saas`
+touch DTE generation/transformation (an architecture-split surface
+per `shared/docs/saas-thin-client-architecture.md`), so no `saas`
 rows are introduced. E-invoicing kin (pointer only): the composed
 company name (type suffix + "de C.V." + "en liquidación") maintained
 here flows into DTE emitter-name data owned by the e-invoicing

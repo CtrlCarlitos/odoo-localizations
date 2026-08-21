@@ -622,8 +622,8 @@ Layer semantics for this wave: payment instruments, aging and proof
 metadata are Odoo-native surfaces (account.payment +
 account.payment.register, account.move/line, l10n_sv_commerce
 registers) — every FR maps `odoo`; none touch DTE
-generation/transformation (the only architecture-split surface per
-`shared/docs/saas-thin-client-architecture.md` D2), so no `saas` rows
+generation/transformation (an architecture-split surface per
+`shared/docs/saas-thin-client-architecture.md`), so no `saas` rows
 are introduced. E-invoicing kin (pointer only): the factura proof
 class rides the invoice/DTE documents owned by the e-invoicing wave;
 the DTE archive mechanics are SV-EINV-FR-154/155, cited by id. Day

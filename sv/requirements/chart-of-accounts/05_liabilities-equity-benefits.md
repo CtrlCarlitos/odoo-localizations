@@ -752,8 +752,8 @@ Layer semantics for this wave: the chart-of-accounts engines are
 Odoo-native (account.account templates, account.move posting and
 scheduling engines, hr accrual surfaces, res.company config) — every FR
 maps `odoo`; no SaaS rows are introduced because none of these FRs touch
-DTE generation/transmission (the only architecture-split surface per
-`shared/docs/saas-thin-client-architecture.md` D2). Odoo 17+ native
+DTE generation/transmission (an architecture-split surface per
+`shared/docs/saas-thin-client-architecture.md`). Odoo 17+ native
 leases (account.move long-term contract entries + automatic deferred
 entries) fit the finance-lease side of the DUAL model; operating leases
 run on scheduled expense entries; benefit accruals build on

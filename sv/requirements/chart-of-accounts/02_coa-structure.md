@@ -659,8 +659,8 @@ Layer semantics for this wave: the chart-of-accounts structure is
 Odoo-native — account.account/account.account.type template,
 account.move.line posting, res.company config and the report layouts —
 every FR maps `odoo`; no SaaS rows are introduced because none of these
-FRs touch DTE generation/transmission (the only architecture-split
-surface per `shared/docs/saas-thin-client-architecture.md` D2). Model
+FRs touch DTE generation/transmission (an architecture-split
+surface per `shared/docs/saas-thin-client-architecture.md`). Model
 names are stable across Odoo 17/18/19/20; report-line binding builds on
 Odoo's financial report layouts (balance sheet / P&L / cash-flow
 templates) with the SV template supplying the (a)-(r) line set — layout

@@ -674,9 +674,9 @@ EIRL-specific records.
 
 Layer semantics for this wave: the empresa/EIRL model is Odoo-native
 (res.company/res.partner + l10n_sv_commerce records) — every FR maps
-`odoo`; none touch DTE generation/transformation (the only
+`odoo`; none touch DTE generation/transformation (an
 architecture-split surface per
-`shared/docs/saas-thin-client-architecture.md` D2), so no `saas` rows
+`shared/docs/saas-thin-client-architecture.md`), so no `saas` rows
 are introduced. E-invoicing kin (pointer only): the EIRL name with its
 "E. de R. L." suffix and the "en liquidación" phrase flow into DTE
 emitter-name data owned by the e-invoicing onboarding/authorization

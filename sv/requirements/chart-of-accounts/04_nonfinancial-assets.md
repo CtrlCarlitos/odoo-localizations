@@ -771,9 +771,9 @@ plan).
 Layer semantics for this wave: the chart-of-accounts engine is
 Odoo-native (account.account/account.asset/account.move, stock costing,
 res.company config) — every FR maps `odoo`; no SaaS rows are introduced
-because none of these FRs touch DTE generation/transmission (the only
+because none of these FRs touch DTE generation/transmission (an
 architecture-split surface per
-`shared/docs/saas-thin-client-architecture.md` D2). Model names are
+`shared/docs/saas-thin-client-architecture.md`). Model names are
 stable across Odoo 17/18/19/20; the revaluation/impairment/NRV engines
 are `l10n_sv_chart` extensions over account.asset and account.move, and
 the disclosure builders use Odoo's report layouts.

@@ -288,7 +288,7 @@ table; single implementation):**
 
 Layer semantics for this wave: `odoo` = computation/bookkeeping logic
 living in the LGPL client. No SaaS rows are introduced here: none of
-these FRs touch DTE generation/transmission (the only
+these FRs touch DTE generation/transmission (an
 architecture-split surface per
 `shared/docs/saas-thin-client-architecture.md`). Note: the CONSUMER
 SV-EINV-FR-103 is itself saas-layered in its own file — this file's

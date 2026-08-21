@@ -669,8 +669,8 @@ today) attach as data rows, never schema changes.
 
 Layer semantics for this wave: the society-type model is Odoo-native
 (res.company/res.partner families) — every FR maps `odoo`; none of them
-touch DTE generation/transformation (the only architecture-split surface
-per `shared/docs/saas-thin-client-architecture.md` D2), so no `saas`
+touch DTE generation/transformation (an architecture-split surface
+per `shared/docs/saas-thin-client-architecture.md`), so no `saas`
 rows are introduced. E-invoicing kin (pointer only): company-type
 suffixes and the razón social/denominación maintained here flow into DTE
 emitter-name data owned by the e-invoicing wave's onboarding/

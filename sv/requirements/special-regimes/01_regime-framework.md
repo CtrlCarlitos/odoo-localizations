@@ -434,8 +434,8 @@ default none per plan).
 Layer semantics for this wave: the regime framework is Odoo-native
 (res.company profile + dated config rows) — every FR maps `odoo`; no SaaS
 rows are introduced because none of these FRs touch DTE
-generation/transmission (the only architecture-split surface per
-`shared/docs/saas-thin-client-architecture.md` D2); the teledespacho
+generation/transmission (an architecture-split surface per
+`shared/docs/saas-thin-client-architecture.md`); the teledespacho
 transmission surface is `06_customs-declarations.md`'s. Model names are
 stable across Odoo 17/18/19/20; no version-specific behavior is required by
 this file.

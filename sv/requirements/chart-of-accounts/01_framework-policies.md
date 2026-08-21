@@ -486,9 +486,9 @@ sets; default none per plan).
 Layer semantics for this wave: the chart-of-accounts framework is
 Odoo-native (res.company config, account.account/account.move engines,
 dated config rows) — every FR maps `odoo`; no SaaS rows are introduced
-because none of these FRs touch DTE generation/transmission (the only
+because none of these FRs touch DTE generation/transmission (an
 architecture-split surface per
-`shared/docs/saas-thin-client-architecture.md` D2). Model names are
+`shared/docs/saas-thin-client-architecture.md`). Model names are
 stable across Odoo 17/18/19/20; the notes/FS-set generator builds on
 Odoo's report layouts, no version-specific behavior required by this
 file.

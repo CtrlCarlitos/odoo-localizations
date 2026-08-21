@@ -349,9 +349,9 @@ generates a dictamen or emulates the Registro de Comercio.
 ## 5. Odoo Mapping
 
 Layer semantics for this wave: the statement cycle is Odoo-native — every
-FR maps `odoo`; none of them touch DTE generation/transformation (the
-only architecture-split surface per
-`shared/docs/saas-thin-client-architecture.md` D2), so no `saas` rows are
+FR maps `odoo`; none of them touch DTE generation/transformation (an
+architecture-split surface per
+`shared/docs/saas-thin-client-architecture.md`), so no `saas` rows are
 introduced. The deposited package is a CNR registry filing, not a DTE
 object — the e-invoicing/D3 consumers (retention of the statements
 register = matrix row a in `02_accounting-books.md` FR-028, consumed

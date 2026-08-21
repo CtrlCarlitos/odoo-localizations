@@ -464,7 +464,7 @@ FR-066; 88/89 routed by document family):**
 
 Layer semantics for this wave: `odoo` = computation/bookkeeping logic
 living in the LGPL client. No SaaS rows are introduced: none of these FRs
-touch DTE generation/transformation (the only architecture-split surface
+touch DTE generation/transformation (an architecture-split surface
 per `shared/docs/saas-thin-client-architecture.md`); FR-044 READS the
 sealed-DTE archive that the e-invoicing wave owns. Model names are stable
 across Odoo 17/18/19/20; version-specific behavior is recorded per row

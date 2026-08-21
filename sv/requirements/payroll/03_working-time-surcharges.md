@@ -352,9 +352,9 @@ rows) and the SMM prestación values owned by `02_minimum-wage.md`'s
 
 Layer semantics for this wave: payroll is Odoo-native (hr / hr_payroll
 module family) — every FR maps `odoo`; no SaaS rows are introduced
-because none of these FRs touch DTE generation/transformation (the only
-architecture-split surface per `shared/docs/saas-thin-client-architecture.md`
-D2). Model names are stable across Odoo 17/18/19/20; no version-specific
+because none of these FRs touch DTE generation/transformation (an
+architecture-split surface per `shared/docs/saas-thin-client-architecture.md`).
+Model names are stable across Odoo 17/18/19/20; no version-specific
 behavior is required beyond the dated-data regime below.
 
 | FR | Layer | Odoo model | Field(s) | Notes / version differences |

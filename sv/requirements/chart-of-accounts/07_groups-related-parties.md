@@ -666,8 +666,8 @@ Odoo-native — group structure rides res.company's multi-company hierarchy,
 investments ride the account.account/account.move engines, related-party
 tags ride res.partner, and the consolidation/combination/FS-disclosure
 builders are client report logic. No FR here touches DTE generation or
-transmission (the only architecture-split surface per
-`shared/docs/saas-thin-client-architecture.md` D2); although consolidation
+transmission (an architecture-split surface per
+`shared/docs/saas-thin-client-architecture.md`); although consolidation
 spans companies, it spans them through Odoo's OWN multi-company engine,
 not through a SaaS-side service — every row is therefore `odoo` (default
 per plan; no `saas`/`shared` rows introduced).

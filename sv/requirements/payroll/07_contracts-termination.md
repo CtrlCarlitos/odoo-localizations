@@ -397,8 +397,8 @@ selected per its FR-022 mapping) — consumed by FR id.
 Layer semantics for this wave: payroll is Odoo-native (hr / hr_payroll /
 hr_holidays / hr_contract module family) — every FR maps `odoo`; no SaaS
 rows are introduced because none of these FRs touch DTE
-generation/transformation (the only architecture-split surface per
-`shared/docs/saas-thin-client-architecture.md` D2). Model names are
+generation/transformation (an architecture-split surface per
+`shared/docs/saas-thin-client-architecture.md`). Model names are
 stable across Odoo 17/18/19/20; no version-specific behavior is required
 beyond the dated-data regime below.
 

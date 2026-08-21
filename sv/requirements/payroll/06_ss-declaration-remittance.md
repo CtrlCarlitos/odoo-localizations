@@ -326,8 +326,8 @@ sanction-type catalog with article refs; every consumed value
 
 Layer semantics for this wave: payroll is Odoo-native — every FR maps
 `odoo`; no SaaS rows are introduced because none of these FRs touch
-DTE generation/transformation (the only architecture-split surface
-per `shared/docs/saas-thin-client-architecture.md` D2). Model names
+DTE generation/transformation (an architecture-split surface
+per `shared/docs/saas-thin-client-architecture.md`). Model names
 are stable across Odoo 17/18/19/20; the only external service
 consumed is the shared business-day engine, read by id.
 

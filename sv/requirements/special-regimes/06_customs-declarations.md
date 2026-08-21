@@ -589,8 +589,8 @@ Layer semantics for this wave: the customs-declaration surfaces are
 Odoo-native (DUCA records mirroring declarations, dated config rows for
 the tasa/presumed values, trackers on the acceptance anchors) — every FR
 maps `odoo`; no SaaS rows are introduced because none of these FRs touch
-DTE generation/transmission (the only architecture-split surface per
-`shared/docs/saas-thin-client-architecture.md` D2 — the FEXE pairing of
+DTE generation/transmission (an architecture-split surface per
+`shared/docs/saas-thin-client-architecture.md` — the FEXE pairing of
 FR-129 READS the e-invoicing document by id). The SIECA portal and the
 DGA systems are EXTERNAL interfaces: the system records their
 authority-issued outputs (registration numbers, acceptance, inspection

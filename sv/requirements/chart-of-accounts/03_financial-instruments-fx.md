@@ -754,8 +754,8 @@ Layer semantics: financial instruments, FV and FX are Odoo-native GL
 surfaces (account.account/account.move.line multi-currency engine,
 res.currency/res.currency.rate, dedicated l10n_sv_chart registers) — every
 FR maps `odoo`; no SaaS rows (nothing here touches DTE
-generation/transmission, the only architecture-split surface per
-`shared/docs/saas-thin-client-architecture.md` D2). Odoo's native
+generation/transmission, an architecture-split surface per
+`shared/docs/saas-thin-client-architecture.md`). Odoo's native
 multi-currency (amount_currency/currency_id, daily res.currency.rate)
 covers spot mechanics; prepayment-date rate anchoring, net-investment
 OCI routing, FV registers and the EIR engine are l10n_sv_chart

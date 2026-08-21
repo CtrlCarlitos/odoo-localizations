@@ -472,8 +472,8 @@ workspace and edition rows are Odoo-native (account.move posting
 surfaces, per-asset difference records over account.asset/account.move
 line models, dated config rows, report disclosures) — every FR maps
 `odoo`; no SaaS rows are introduced because none of these FRs touch DTE
-generation/transmission (the only architecture-split surface per
-`shared/docs/saas-thin-client-architecture.md` D2). Model names are
+generation/transmission (an architecture-split surface per
+`shared/docs/saas-thin-client-architecture.md`). Model names are
 stable across Odoo 17/18/19/20; the fiscal feeds are consumed by
 reference to the taxation wave's models/CSVs, never duplicated.
 
