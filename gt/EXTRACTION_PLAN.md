@@ -522,3 +522,22 @@ commit. Never leave a session with evidence unmerged. Update
    periodicity tension, 63_ rule-6c ventas col-D omission. Next: S-GT5
    COA/commercial plan (C1-C6 + GOQ-122..134; D-19-2016 still blocks
    S-GT6/S-GT7).
+- 2026-08-21 — **S-GT5 COMPLETE** (COA + commercial-legal, clusters C1-C6;
+  plan `docs/superpowers/plans/2026-08-21-s-gt5-synthesis.md`). 7 files +
+  2 indexes: chart-of-accounts 01_books-anchor (GT-COA-FR-001..033) ·
+  02_dual-track-habilitacion (034..060) · 03_retention-destruction-matrix
+  (061..074 = **GOQ-124 RESOLVED-DELIVERED**; closes GT-EINV OQ-005/GOQ-41
+  kin); commercial-legal 01_rm-surfaces (GT-CML-FR-001..025) ·
+  02_sociedades-lifecycle (026..085) · 03_titulos-valores-prescripcion
+  (086..125) · 04_aml-compliance (126..163; 17-sep-2026 cutover spine).
+  237 FRs / 118 LBs / 78 ACs / 27 OQ rows; GOQ-122..134 + GOQ-05/12 all
+  consumed; R45/R60..R71 instantiated; R70 GOQ-133→132 off-by-one fixed.
+  Consumption by exact id (GT-TAX-FR-066/214/216/217/230..232/234;
+  GT-FIN-FR-020/086..089/104/118; GT-PAY-FR-058/063; GT-EINV-FR-203);
+  coa01 FR-021 backfill names GT-CML-FR-001. COVERAGE 74 cited / 8 N-A /
+  0 pending (60/66/73/75/76/77/83 flipped; stale S-GT6 labels fixed).
+  New gap reports flagged for register triage: art.-604 clock anchor,
+  art.-577 debenture anchor, acciones-amortizadas gloss row, impedimento
+  owning FR, Código Civil corpus, R71 pre-cutover PO-list risk. Final
+  whole-branch review pending (first action of next session). Next: S-GT6/
+  S-GT7 special-regimes plan (D-19-2016 still blocking, GOQ-08).
