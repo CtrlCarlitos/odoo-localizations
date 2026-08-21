@@ -493,9 +493,12 @@ must grep ALL LB source columns of the new files.
 - D.O. scans: PSM 6; D.O. TABLE pages PSM 4 at 400dpi. OCR quirk critical.
 - factura.gob.sv wpdmdl IDs shuffled — verify page 1 with pypdf.
 - D.O. `/seleccion/{Id}` route: **RECOVERED 2026-08-20** (serves PDFs
-  again after the 500 outage since 08-18; API `/api/v1/diarios-disponibles`
-  answers but the param shape 400'd on standard guesses — pin on next D.O.
-  hunt from the W6.5 recipe). asamblea.gob.sv unreachable (000).
+  again after the 500 outage since 08-18). API recipe **PINNED 2026-08-21**:
+  POST `/api/v1/diarios-disponibles` form-encoded `year=YYYY&month=MM`
+  (English keys only — JSON body 400s incl. `anio`/`mes`; query-string
+  404s) → `[{Id, FechaInicio, FechaInexacta, NombreArchivo}]`; PDF at
+  `/seleccion/{Id}` (serves `application/pdf`). asamblea.gob.sv
+  unreachable (000).
   Live official mirror: **uif.gob.sv Marco Legal** (plain GET + browser
   UA; Incapsula blocks HEAD). MH formularios page: direct wp-content
   URLs (verified 2026-08-18: no F-11 v19/v20, no F14 v17 manual).
