@@ -39,17 +39,20 @@ boundary.**
   sweep + 75_ (D.E. 117-2001 CT reglamento — the R17/R30(a) repeal
   authority) acquired/evidenced EVID-339..358; R30(a) survivor-set
   addendum; SOQ-54 Ley side RESOLVED; D.O. RECOVERED — see §5 wave log.**
-  COVERAGE after W16: 63 cited / 1 pending (75_ fold-in queued) / 9 N/A /
-  1 superseded (74 rows).
-  The 8-topic synthesis program is COMPLETE (1,605 FRs total). Remaining
-  program: 75_ FR fold-ins (next edit wave), acquisition follow-ups
-  (§8.2), SOQ/external watches, deferred
+  **W17 (2026-08-20): 75_ fold-in COMPLETE — taxation/16 new
+  (SV-TAX-FR-354..396) + 01/04/13 edits (397..404; OQ-001 resolved),
+  fiscal-reporting 213..214 + 06/07/08 notes, payroll 144..147 + 04 note
+  — see §5 wave log.** COVERAGE after W17: 64 cited / 0 pending / 9 N/A /
+  1 superseded (74 rows — zero pending again).
+  The 8-topic synthesis program + W17 fold-in are COMPLETE (1,662 FRs
+  total). Remaining
+  program: acquisition follow-ups (§8.2), SOQ/external watches, deferred
   cleanups (§8.5), owner merge decisions.**
 
 ## 2. Read order for a new session
 
 1. THIS file
-2. `sv/EXTRACTION_PLAN.md` — wave log (W1–W13), reading order, risks
+2. `sv/EXTRACTION_PLAN.md` — wave log (W1–W17), reading order, risks
 3. `sv/.extractions/00_MASTER_INDEX.md` — synthesis lookup: clusters
    (A1-A12, T1-T8, F1-F12, P1-P10, C1-C10, SR1-SR8, N1-N8, V1-V10),
    rulings R1–R30, MOQ/SOQ registers
@@ -60,8 +63,8 @@ boundary.**
    `shared/docs/` method docs (extraction procedure, requirements
    template, regulatory-change-management, odoo-localization-guide,
    go-live-readiness)
-6. `sv/sources/README.md` — the registry (72 files, numbering 01–74,
-   gaps 21/23/24/28; next numbering = 76)
+6. `sv/sources/README.md` — the registry (73 files, numbering 01–75,
+    gaps 21/23/24/28; next numbering = 76)
 
 ## 3. Corpus & evidence state
 
@@ -100,15 +103,16 @@ boundary.**
 | Topic dir | Files | FRs | Prefix |
 |---|---|---|---|
 | `e-invoicing/` | 6 + index | 222 (incl. §3.11 FR-159..164) | SV-EINV-FR-001..164, SV-PROT-FR-001..040, SV-CAT-FR-001..018 |
-| `taxation/` | 15 + index + 2 CSV | 353 (S2: 001..175 ISR; S9: 176..353 IVA) | SV-TAX-FR-001..353 |
-| `fiscal-reporting/` | 8 + index + CSV | 212 | SV-FREP-FR-001..212 |
-| `payroll/` | 8 + index + 2 CSV | 143 | SV-PAY-FR-001..143 |
+| `taxation/` | 16 + index + 2 CSV | 404 (S2: 001..175 ISR; S9: 176..353 IVA; W17: 354..404 CT procedures) | SV-TAX-FR-001..404 |
+| `fiscal-reporting/` | 8 + index + CSV | 214 | SV-FREP-FR-001..214 |
+| `payroll/` | 8 + index + 2 CSV | 147 | SV-PAY-FR-001..147 |
 | `commercial-legal/` | 10 + index | 224 | SV-CML-FR-001..224 |
 | `special-regimes/` | 8 + index | 175 | SV-SPE-FR-001..175 |
 | `chart-of-accounts/` | 8 + index | 276 | SV-COA-FR-001..276 |
 
-Totals: 1605 FRs (S9 = 178 FRs / 127 LBs / 134 ACs / 35 OQs; taxation
-dir now 353 FRs / 244 LBs / 256 ACs / 82 OQs). CSVs:
+Totals: 1662 FRs (W17 fold-in = 57 new: taxation 354..404, fiscal-
+reporting 213..214, payroll 144..147; taxation dir now 404 FRs / 295 LBs /
+274 ACs / 87 OQs). CSVs:
 `withholding_tables.csv` + `isr_brackets.csv` (taxation),
 `f14_income_codes.csv` (fiscal-reporting), `smm_2025.csv` +
 `ss_contributions.csv` (payroll). FR numbering is wave-sequential within a
@@ -116,8 +120,8 @@ prefix; **R30(b): one prefix per topic dir — the IVA-core files continued
 `SV-TAX` at 176 rather than taking a new prefix**; genuinely new topics
 take new prefixes per the `<CC>-<TOPIC>-FR-nnn` contract.
 
-COVERAGE rollup after W16: 63 cited / 1 pending (75_ — FR fold-in queued)
-/ 9 N/A / 1 superseded (74 rows). S8 lesson (standing): registry flips
+COVERAGE rollup after W17: 64 cited / 0 pending / 9 N/A / 1 superseded
+(74 rows). S8 lesson (standing): registry flips
 must grep ALL LB source columns of the new files.
 
 ## 5. SV facts a new session must know (condensed; details in wave sections below)
@@ -154,6 +158,31 @@ must grep ALL LB source columns of the new files.
   consumer interface).
 
 ### Wave log summary (full detail in `sv/EXTRACTION_PLAN.md` §Extraction log)
+
+- **W17 (2026-08-20):** 75_ reglamento-CT fold-in COMPLETE per plan
+  `docs/superpowers/plans/2026-08-20-w17-75-reglamento-foldin.md` —
+  subagent-driven, 5 tasks strictly sequential (per-task reviews all
+  Approved clean, 0 Critical/Important; commits 562a3e3..03b05b9 + T5
+  flips). Files: **taxation/16 ct-procedures NEW** (SV-TAX-FR-354..396:
+  clocks vocabulary, representation/domicilio, registration, the
+  Art. 31-35 declaration-state model + CT 103 amendment gate,
+  payments/extinction, compensación, **the Art. 23/133 retention
+  imprescriptibilidad/caducidad pair**, refunds, sanctions, books,
+  fiscalización, print-era historical blocks per EV75 OQ-3/OQ-4 bars);
+  04 **FR-397..400** + 13 **FR-401..404** (retention-agent layers,
+  ISR/IVA tracks separate); 01 LB-027/036 — **OQ-001 RESOLVED**
+  (75_ Arts. 99-100 corroborate Ley Art. 62 + monthly consolidation of
+  sub-monthly cycles); frep 01 **FR-213/214** (declaration-state gate +
+  delegated-reception contract) + 06/07/08 notes — **SOQ-08 anchor
+  CONSUMED (Art. 100)**, by-NIT-digit windows still open; payroll 08
+  **FR-144..147** + 04 LB-029 note. Registry corrective fold: 02_
+  survivors = 1-10, 16-26, 29-30, 50-51 (+52 vigencia spent); 27-28 →
+  147(b); 36/45 died via D.E. 60-1993 (1) — EVID-358/OQ-6, supersedes
+  the "36/45 survive" gloss. Corpus 1,662 FRs (TAX 404 / FREP 214 / PAY
+  147); COVERAGE 64/0/9/1. Process rulings: (a) T2's two beyond-brief
+  edits upheld (FR-121 LB-anchor + 01 §5 stale-note refresh); (b) plan
+  §3.6-pointer defect — payroll/04 note placed §3.3, reviewer-verified;
+  (c) push deferred to post-final-review (S9 protocol).
 
 - **W16 (2026-08-20):** external-check sweep + 75_ acquisition + SOQ-54
   Ley-side verification — **D.O. RECOVERED** (serves PDFs; API param shape
@@ -404,8 +433,10 @@ must grep ALL LB source columns of the new files.
   double-benefit 2026 (tercerización pointer RESOLVED S9 → 11 §3.3);
   IVA-side: SOQ-54 (01_/02_ consolidation vintage watch), SOQ-55/56/57/
   58 carried in 07/08.
-- Fiscal-reporting: SOQ-08 (due-day windows; **75_ Art. 100 anchor lead
-  W16** — 10-hábiles entero + monthly consolidation, EVID-351), SOQ-13/14;
+- Fiscal-reporting: SOQ-08 (due-day windows — **anchor consumed W17**:
+  the statutory 10-hábiles layer is anchored by 75_ Art. 100 (frep/08
+  LB-006, EVID-351); the by-NIT-digit window assignment remains dated
+  config, still open), SOQ-13/14;
   07 OQ-008 (v17
   apéndice code 73), 06 OQ-008 (MH validation depth); 02 OQ-002 rate
   anchor ANSWERED S9 (SV-TAX-FR-240/241), 03 OQ-004 ANSWERED S9
@@ -423,12 +454,13 @@ must grep ALL LB source columns of the new files.
 
 ## 8. Next actions (ordered)
 
- 1. **No next synthesis wave is queued — the 8-topic program is
-    COMPLETE and MERGED (S9 → main at 09847d0; root HANDOVER carries
-    the fourteenth §4.6 run record).** Candidate follow-on work, owner's
-    call: (a) consolidation/cleanup wave (CAN-STAND + S7/S8/S9 RIDE
-    lists); (b) acquisitions below unlock small fold-in waves; (c)
-    go-live/implementation prep per `shared/docs/go-live-readiness.md`.
+ 1. **No next synthesis wave is queued — the 8-topic program + the W17
+     75_ fold-in are COMPLETE and the program MERGED (S9 → main at
+     09847d0; root HANDOVER carries
+     the fourteenth §4.6 run record).** Candidate follow-on work, owner's
+     call: (a) consolidation/cleanup wave (CAN-STAND + S7/S8/S9 RIDE
+     lists); (b) acquisitions below unlock small fold-in waves; (c)
+     go-live/implementation prep per `shared/docs/go-live-readiness.md`.
  2. **Acquisition follow-ups (SOQ rides):** S8 — **SV NIIF-adopting
     instrument (Consejo de Vigilancia criteria per CC Arts. 443-444 or
     successor; SOQ-46 — the gating gap) + optional 2nd-edition NIIF

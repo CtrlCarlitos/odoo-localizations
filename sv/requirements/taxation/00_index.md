@@ -4,9 +4,9 @@
 |---------|-------|
 | Country | sv |
 | Topic   | taxation |
-| Status  | draft (S2 ISR + S9 IVA synthesis waves, in review) |
+| Status  | draft (S2 ISR + S9 IVA synthesis waves + W17 CT-reglamento fold-in, in review) |
 | Authors | Takumi synthesis waves 2 + 9 + controller |
-| Updated | 2026-08-20 |
+| Updated | 2026-08-20 (W17) |
 
 This directory holds the S2 (synthesis wave 2) ISR (*Impuesto sobre la
 Renta*, income tax) requirements: the subject/period/territoriality/filing
@@ -20,17 +20,20 @@ framework & excluidos regime, the Art. 45/46 exemption catalogs, base &
 13% rate (with the FOVIAL/COTRANS guard), crédito fiscal deductibility,
 the Art. 66 pro-rata & remanente engine, débito/crédito adjustments &
 the fixed-asset four-year rule, the CT 161-162-B IVA retention matrix,
-exports & reintegro refunds, and the declaration-interfaces file.
+exports & reintegro refunds, and the declaration-interfaces file. The
+W17 fold-in (2026-08-20) added file 16, the CT application-reglamento
+procedural layer (75_ D.E. 117-2001), with 75_ retention/declaration
+anchors folded into 01/04/13.
 Source-to-requirements coverage: [../COVERAGE.md](../COVERAGE.md).
 
 ## Files & FR ranges
 
 | File | Scope | FR range | FRs | LBs | ACs | OQs |
 |------|-------|----------|-----|-----|-----|-----|
-| [01_isr-framework.md](01_isr-framework.md) | Subjects, renta obtenida categories, Art. 6 exclusions, periods & cash/accrual methods, territoriality (D.L. 969-2024 exclusion, Art. 127 apportionment), FX, Art. 92 filing duties; Quincena-25 renta no gravada (FR-173) + FY-2026 employer credit/certificado (FR-174) | SV-TAX-FR-001..033, 173..174 | 35 | 35 | 20 | 7 |
+| [01_isr-framework.md](01_isr-framework.md) | Subjects, renta obtenida categories, Art. 6 exclusions, periods & cash/accrual methods, territoriality (D.L. 969-2024 exclusion, Art. 127 apportionment), FX, Art. 92 filing duties; Quincena-25 renta no gravada (FR-173) + FY-2026 employer credit/certificado (FR-174); Ley Art. 62 retention-remittance corroborated by 75_ Arts. 99-100 (LB-027/036, OQ-001 resolved W17) | SV-TAX-FR-001..033, 173..174 | 35 | 36 | 20 | 7 |
 | [02_isr-deductions.md](02_isr-deductions.md) | Renta neta: Art. 28 pro-rata (+969 carve-out), Art. 29 deductions, Art. 29-A non-deductibles (thin-cap, 25-SMM cash ban), Arts. 31-32 (reserva legal, bad debts, donations), mermas (D.L. 345-2019), Reglamento segregation; Quincena-25 employer gasto deducible (FR-175) | SV-TAX-FR-034..073, 175 | 41 | 20 | 23 | 9 |
 | [03_isr-rates-gains.md](03_isr-rates-gains.md) | Art. 37 brackets (both dated vintages), Art. 41 entity rates, capital gains (10% separate, 12-month rule, no general NOL), securities/deposits 10%, special computations (instalments, repossession, annuities, export valuation); SOQ-01/04 verdicts in §7 | SV-TAX-FR-074..101 | 28 | 19 | 23 | 9 |
-| [04_isr-withholding.md](04_isr-withholding.md) | Salaried retention regime (base, $1,600 fixed deduction, Art. 33 deductions), D.E. 10-2025 periodic + June/December recálculo tables, aguinaldo vintages, multi-employer split, CT 154-160 non-payroll matrix; CSVs `withholding_tables.csv` (20 rows) + `isr_brackets.csv` (23 rows) | SV-TAX-FR-102..131 | 30 | 21 | 18 | 8 |
+| [04_isr-withholding.md](04_isr-withholding.md) | Salaried retention regime (base, $1,600 fixed deduction, Art. 33 deductions), D.E. 10-2025 periodic + June/December recálculo tables, aguinaldo vintages, multi-employer split, CT 154-160 non-payroll matrix; 75_ retention-agent layer (Arts. 94-97/99/103: permanent-service sweep, in-specie market valuation at delivery, retention moment & mes-calendario period, non-domiciled 20% credit awareness — FR-397..400, LB-022..026); CSVs `withholding_tables.csv` (20 rows) + `isr_brackets.csv` (23 rows) | SV-TAX-FR-102..131, 397..400 | 34 | 26 | 22 | 8 |
 | [05_isr-distributions.md](05_isr-distributions.md) | Art. 72 5% definitive retention on utilidades, Arts. 73-74-C (permanent establishments, capital reductions, partner-loan deemed distributions, no-retention cases), Registro de Control de Utilidades | SV-TAX-FR-132..149 | 18 | 11 | 18 | 7 |
 | [06_isr-assets.md](06_isr-assets.md) | Art. 30 depreciation (rates, used-asset caps, mixed-use pro-rata, seasonal quota), Art. 30-A software 25%, Reglamento Art. 84 per-asset register, Art. 35 maquinaria | SV-TAX-FR-150..172 | 23 | 11 | 20 | 7 |
 | [07_iva-framework.md](07_iva-framework.md) | IVA operation model: transfer concept & goods tax point (Arts. 1-10), retiro self-supply (11-13; FACTURA-only root), importación/internación + D.L. 645-2005 exclusive-use services (14-15), prestaciones catalog, tax points & territoriality (16-19), sujetos pasivos (20-27), excluidos regime with the 1992-colones thresholds as [sic] dated rows (28-32; Rgto. 9-10; SOQ-55 = MOQ-03 closure) | SV-TAX-FR-176..205 | 30 | 28 | 21 | 5 |
@@ -39,10 +42,11 @@ Source-to-requirements coverage: [../COVERAGE.md](../COVERAGE.md).
 | [10_iva-credit-deductibility.md](10_iva-credit-deductibility.md) | Art. 57 traslación + credit-document root, no-credit operations (58-61), Art. 65 deductibility gates (58-SMM cash/written-contract, 50% vehicles), retention credits (65 final incisos; Rgto. 23; CT 161-162 same-period gate), Art. 65-A non-deductible catalog (58-SMM via SV-PAY-FR-022 config, SOQ-18 kin) | SV-TAX-FR-246..268 | 23 | 18 | 14 | 3 |
 | [11_iva-pro-rata-remanente.md](11_iva-pro-rata-remanente.md) | Art. 66 proportionality engine (factor, accumulated base, January redistribution), denominator composition & no-sujetas exclusions, Quincena-25 tercerización closure (D.L. 499 Art. 6; guía 67_; R30(c) working reading — closes 02's OQ-009 by pointer), remanente indefinite carryforward + cessation lock (67-68; Rgto. 24), credit non-transferability (69), IVA never cost nor gasto (70) | SV-TAX-FR-269..283 | 15 | 8 | 12 | 3 |
 | [12_iva-adjustments-assets.md](12_iva-adjustments-assets.md) | Art. 62 débito adjustments (incl. the medicines lot regime), Arts. 63-64 crédito adjustments + determination (modificatoria flag, D9-kin), fixed-asset/capital four-year rule & fijo credits (71-72; Rgto. 26), reorganization transfer gates (Art. 7 f)-i)) | SV-TAX-FR-284..302 | 19 | 12 | 13 | 4 |
-| [13_iva-retentions.md](13_iva-retentions.md) | CT 161 non-domiciled transferors/prestadores (acquirer as obligado), CT 162 grandes/medianos 1%/2% matrix + $100 floor, CT 162-A card 2% anticipo, CT 162-B juicios ejecutivos, credit-release same-period tie-in, F-930 reporting surfaces, ISR-track separation vs `04` (closes frep/03 OQ-004) | SV-TAX-FR-303..319 | 17 | 15 | 14 | 4 |
+| [13_iva-retentions.md](13_iva-retentions.md) | CT 161 non-domiciled transferors/prestadores (acquirer as obligado), CT 162 grandes/medianos 1%/2% matrix + $100 floor, CT 162-A card 2% anticipo, CT 162-B juicios ejecutivos, credit-release same-period tie-in, F-930 reporting surfaces, ISR-track separation vs `04` (closes frep/03 OQ-004); 75_ procedural development of the matrix (Arts. 104-107: non-domiciled reverse-charge entero + mandamiento/nómina, import-temporal lease "recio" [sic], AT designation of domestic agents, percepción-agent price reporting — FR-401..404, LB-016..019) | SV-TAX-FR-303..319, 401..404 | 21 | 19 | 18 | 4 |
 | [14_iva-exports-refunds.md](14_iva-exports-refunds.md) | Export definition & zero rate (74-75; Rgto. 2-10), ZF/recintos export-equivalence (Rgto. 29; 12_ Art. 25 co-cite), export credits & on-request offsets (76), reintegro workflow (77; Rgto. 30) with the 13%-of-export-value cap (mixed/pure), three-way purchase ledger (Rgto. 30) | SV-TAX-FR-320..337 | 18 | 10 | 15 | 4 |
 | [15_iva-declaration-interfaces.md](15_iva-declaration-interfaces.md) | Monthly declaration chassis (Arts. 93-94; Art. 81 pair), operation-classification interface (R/S fold-in + F-07 annex feed contract, días-hábiles via SV-FREP-FR-200/201), version-regime & historical notes (165, 167-172, 175) | SV-TAX-FR-338..353 | 16 | 8 | 12 | 3 |
-| **Total** | | SV-TAX-FR-001..353 | **353** | **244** | **256** | **82** |
+| [16_ct-procedures.md](16_ct-procedures.md) | CT application-reglamento procedural layer (75_ D.E. 117-2001, W17): definitions & the caducidad/prescripción clock vocabulary (Arts. 1-2), representation & domicilio fiscal (5-8, 28-30), registration & agent designation (24-27), the declaration-state model with the amendment classification gate (31-35; CT 103 co-anchor), payments & extinction modes (13-18), compensación + the Art. 23/133 retention imprescriptibilidad/caducidad pair (19-23, 133), refunds (129-135), sanctions & deuda tributaria (136-143), books & records (73-90), notifications/fiscalización awareness (3-4, 9, 108-128), print-era historical blocks — dictamen/máquinas — norm hierarchy (36-72, 144-146, historical only per EV75 OQ-3/OQ-4) | SV-TAX-FR-354..396 | 43 | 41 | 10 | 5 |
+| **Total** | | SV-TAX-FR-001..404 | **404** | **295** | **274** | **87** |
 
 Numbering note: FR numbering is wave-sequential within the `SV-TAX` prefix
 (001-175 ISR, no gaps, no renumbering; 173-175 appended by the S6 Quincena-25
@@ -51,7 +55,9 @@ S9 IVA-core continuation (2026-08-20): per ruling R30(b) the topic dir keeps
 ONE prefix — the IVA files continue `SV-TAX` from 176 (files 07-15) instead
 of opening a `SV-IVA` prefix** (S6 append precedent; the corpus consistently
 books 01_/02_ as "owed to `taxation/`"; HANDOVER §4's new-topic-prefix rule
-applies only to genuinely new topics).
+applies only to genuinely new topics). **354-404 = the W17 CT-reglamento
+fold-in continuation (2026-08-20): file 16 (354-396) + the 04/13 retention
+FR zones (397-404), one prefix per R30(b).**
 The two CSVs are dated-data sidecars of `04_isr-withholding.md`
 (`isr_brackets.csv` additionally carries the historical D.E. 25-1992
 colones-era vintage rows); they carry no FRs of their own.
@@ -114,14 +120,16 @@ special-regimes wave's consumption anchor, cited by id.
 
 ## Open-questions rollup (ids + titles)
 
-Status legend: `open` unless noted `resolved`. ISR files (01-06): 42
-open / 5 resolved (SOQ-01 and SOQ-04 in `03_isr-rates-gains.md` §7;
+Status legend: `open` unless noted `resolved`. ISR files (01-06): 41
+open / 6 resolved (SOQ-01 and SOQ-04 in `03_isr-rates-gains.md` §7;
 SOQ-03 in `04` OQ-002 + `01` OQ-005 — D.O. pin + digit-fidelity
 verification against the gazette print, source `60_`/EVID-171,
 2026-08-18; 02's OQ-009 resolved-by-pointer to S9 11, R30(c) working
-reading, 2026-08-20). S9 IVA files (07-15): 35 open — including the
-SOQ-54 vintage watch as every file's OQ-1. Wave total: **77 open /
-5 resolved (82 OQs)**.
+reading, 2026-08-20; 01's OQ-001 resolved W17 2026-08-20 — 75_ Arts.
+99-100 corroborate Ley Art. 62, LB-027/036, EVID-351). S9 IVA files
+(07-15): 35 open — including the SOQ-54 vintage watch as every file's
+OQ-1. W17 file 16: 5 open. Wave total: **81 open / 6 resolved
+(87 OQs)**.
 
 Master-index SOQ mapping: 04's OQ-001 = SOQ-02; 04's OQ-002 = SOQ-03;
 04's OQ-003 = SOQ-05; SOQ-06 lives in 01's OQ-004 + 06's OQ-001; SOQ-07
@@ -135,7 +143,7 @@ SOQ-39/MOQ-04 kin; 10's OQ-2 = SOQ-18 kin; 13's OQ-2 = SOQ-21 kin.
 
 ### 01_isr-framework.md (7)
 
-- OQ-001 — Ley Art. 62 retention-remittance deadline vs CT retention-agent regime (CT re-anchor check). open
+- OQ-001 — Ley Art. 62 retention-remittance deadline vs CT retention-agent regime (CT re-anchor check). **resolved** (W17 2026-08-20: 75_ Arts. 99-100 corroborate — 10 días hábiles after the mes-calendario + monthly consolidation of sub-monthly cycles; LB-027/036, EVID-351; by-NIT-digit windows remain SOQ-08)
 - OQ-002 — Art. 92 num. 9 obsolete stamp-tax duty; CT-era restatement of the filing-duty list. open
 - OQ-003 — Art. 105-A stale sanction (repealed anchor, colon minimum) disposition. open
 - OQ-004 — SOQ-06 carried: D.E. 117-2001 survivors vs later CT Art. 344 ff. repeals. open
@@ -259,3 +267,11 @@ SOQ-39/MOQ-04 kin; 10's OQ-2 = SOQ-18 kin; 13's OQ-2 = SOQ-21 kin.
 - OQ-1 — SOQ-54 (vintage): Arts. 93-94 most exposed to post-2015 administrative overlay; re-verify + the Art. 81 pair. open
 - OQ-2 — Pre-DTE physical-invoice ingestion (D15/D18 history contract; identifier slots per SV-FREP-FR-042/043, no DTE seals). open
 - OQ-3 — Decreto 321 kin pointer: *combustible_diferenciado* config owned by fiscal-reporting/05 (rate values = that file's OQ-001). open
+
+### 16_ct-procedures.md (5)
+
+- OQ-1 — EV75 OQ-1: no REFORMAS block in the 75_ print — whether any post-2001 reform of D.E. 117-2001 exists is print-unresolvable; verification note rides every 75_-citing LB. open
+- OQ-2 — EV75 OQ-2: Art. 21 10-year prescription + Art. 137 3y/5y reincidencia windows are 2001-print values — inert dated config rows (FR-374/381) until the current CT text is pinned. open
+- OQ-3 — EV75 OQ-3: dictamen block (Arts. 58-72) restructured at the CT level post-2001 — FR-395 stays historical/awareness. open
+- OQ-4 — EV75 OQ-7: Art. 42 export-factura cross-ref "arts. 81 y 82" looks mis-pointed (consumer-sales book = Art. 83) — print anomaly [sic], no behavior keyed. open
+- OQ-5 — EV75 OQ-8, SOQ-06 kin: post-2001 repeal watch (CT Art. 344 ff) — extends to every 75_-cited LB. open

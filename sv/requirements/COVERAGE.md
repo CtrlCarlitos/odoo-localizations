@@ -4,18 +4,18 @@
 |---------|-------|
 | Country | sv |
 | Topic   | all (cross-topic) |
-| Status  | draft (S1 + S2 ISR + S3 fiscal-reporting + S4 payroll + S5 commercial-legal + S7 special-regimes + S8 chart-of-accounts + S9 IVA-core waves) |
+| Status  | draft (S1 + S2 ISR + S3 fiscal-reporting + S4 payroll + S5 commercial-legal + S7 special-regimes + S8 chart-of-accounts + S9 IVA-core waves + W17 CT-reglamento fold-in) |
 | Authors | Controller (hand-built; script to regenerate later) |
-| Updated | 2026-08-20 (S9 + W16 acquisition) |
+| Updated | 2026-08-20 (W17 fold-in) |
 
 Every file in [../sources/](../sources/) mapped against the S1, S2 (ISR),
 S3 (fiscal-reporting), S4 (payroll), S5 (commercial-legal), S7
 (special-regimes), S8 (chart-of-accounts) and S9 (IVA-core taxation)
-requirements waves. Status values:
+requirements waves (plus the W17 CT-reglamento fold-in). Status values:
 
 - **cited-as-LB** — appears in a Legal Basis row (or as direct schema read) of a requirements file; the citing file(s) named.
 - **not-applicable-this-wave** — out of the current wave's scope or superseded-without-content-need; reason noted.
-- **pending-S2+** — earmarked for later waves: IVA-core taxation, NIIF (both flipped, by S9 and S8 respectively; W16's 75_ re-introduces one pending row until its FR fold-in).
+- **pending-S2+** — earmarked for later waves: IVA-core taxation, NIIF (both flipped, by S9 and S8 respectively; W16's 75_ pending row was consumed by the W17 fold-in — zero pending again).
 - **superseded-not-cited** — superseded extraction retained on disk for reference; not a legal-basis citation (the superseding source is the cited LB).
 
 No orphans: every row carries at least one of the four. Sources fully
@@ -58,7 +58,7 @@ cited-as-LB.
 | 72_Instructivo_UIF_Acuerdo380_reform2023.pdf | cited-as-LB | `commercial-legal/10` LB rows (kept UIF instructivo per 71_ Art. 61 — operative threshold values Art. 51 ($10k cash/$25k other media) + Art. 52 institutional aggregates, DD/ROS mechanics; EVID-247..249; R28 authority chain) |
 | 73_Codigo_Comercio_UIF_indicelegislativo.pdf | cited-as-LB | verification co-cites in `commercial-legal/01..09` §2 preambles (all nine files; + `04` LB-032 pointer row via the 71-73_ evidence gloss) — verification-grade second CC copy (SOQ-22 resolved-with-residual, EVID-250); no independent LB article-text role |
 | 74_Ley_Simplificacion_Aduanera_D529.pdf | cited-as-LB | `special-regimes/01` LB-024/025 (declarante roles, consultas); `05` LB-008 (Art. 11-A h) SS-solvencia kin of FR-102); `06` LB rows (9: teledespacho, $18 tasa, presumed valuation, anulación clocks, 5-y caducidad); `07` LB-022 (Art. 13 5-y retention kin) — D. 529-1999 consolidated through D.L. 23-2012, acquired W13 from uif.gob.sv, as printed (SOQ-30) |
-| 75_Reglamento_Codigo_Tributario_DE117.pdf | pending-S2+ | **Acquired + evidenced W16 (2026-08-20):** D.E. 117-2001, EVID-339..358 in `sv/.extractions/75_Reglamento_Codigo_Tributario.evidence.md` (CT procedural mechanics; Art. 147 derogation audit = R30(a) addendum authority; SOQ-08 Art. 100 anchor lead; Arts. 23/133 retention imprescriptibilidad/caducidad pair). LB citations land at the next taxation/fiscal-reporting/payroll edit wave (lead candidates: EVID-351 payroll retention engine + F-14 annex root; EVID-345/355 prescription pair; EVID-341 domicilio/notification mechanics) |
+| 75_Reglamento_Codigo_Tributario_DE117.pdf | cited-as-LB | **Folded W17 (2026-08-20):** D.E. 117-2001, EVID-339..358 in `sv/.extractions/75_Reglamento_Codigo_Tributario.evidence.md` — `taxation/16` CT-procedures (SV-TAX-FR-354..396, 43 FRs; LB-001..041 = the whole §2); `taxation/01` LB-027/LB-036 (Arts. 99-100 — OQ-001 resolved; SOQ-08 anchor corroborated), `taxation/04` LB-022..026 (FR-397..400), `taxation/13` LB-016..019 (FR-401..404); `fiscal-reporting/01` LB-012/013 (FR-213..214 declaration-state gate + reception contract), `06` LB-013 (Art. 100 detalle-anexo note), `07` LB-011 + OQ-009 (Arts. 58-72 dictamen block — EV75 OQ-3 historical watch), `08` LB-006 (SOQ-08 anchor consumed: Art. 100 statutory 10-hábiles layer; by-NIT-digit windows remain dated config); `payroll/08` LB-015..019 (FR-144..147), `04` LB-029 (Art. 95 final-inciso historical note). **FLIPPED from pending-S2+ by the W17 fold-in (2026-08-20)** |
 | 11_Codigo_Trabajo.pdf | cited-as-LB | `payroll/01` LB-001..007; `payroll/02` LB-001..004, LB-011; `payroll/03` LB-001..020; `payroll/04` LB-001..020, LB-022; `payroll/06` LB-013; `payroll/07` LB-001..010, LB-013..021 |
 | 12_Ley_Zonas_Francas.pdf | cited-as-LB | `special-regimes/01` LB rows (11); `02` (14); `04` (6); `05` (4); `07` (12) — D.L. 405-1998 consolidated through D.L. 318-2013, cited as printed (SOQ-30) |
 | 13_Ley_Organica_Aduanas.pdf | cited-as-LB | `special-regimes/01` LB rows (2: DGA institutional frame); `06` §2 authority-order preamble; `07` LB row (Art. 19) — D. 903 through D.L. 121-2012, as printed |
@@ -101,15 +101,15 @@ cited-as-LB.
 | 52_Json_Schemas_DTE_Eventos_2026-08-11.zip | cited-as-LB | `e-invoicing/01` LB-006; `03` LB-010; `06` LB-007 |
 | schemas/ (13 JSON schema files) | superseded-not-cited | superseded 2022-era extraction (fe-ccf-v3, contingencia-v3, anulacion-v2 era; no fe-eret/fe-eop) — NOT the current set; the current 15-schema set lives inside `52_Json_Schemas_DTE_Eventos_2026-08-11.zip`, which is the LB cited directly (`e-invoicing/01` LB-006; `03` LB-010) |
 
-## Rollup (final through S9 — corpus fully cited, zero pending)
+## Rollup (final through W17 — corpus fully cited, zero pending)
 
 | Status | Rows |
 |--------|------|
-| cited-as-LB | 63 |
+| cited-as-LB | 64 |
 | superseded-not-cited | 1 (schemas/) |
 | not-applicable-this-wave | 9 |
 | pending-S2+ | 0 |
-| **Total** | **73** |
+| **Total** | **74** |
 
 S8 note: 32_/33_ flipped from the W14 interim (provisional-cited on the
 strength of the master-index clusters) to per-file LB citations by the S8
@@ -123,5 +123,12 @@ IVA-core synthesis wave (2026-08-20) — 17 LB rows across
 survivor governs its scope); 01_'s row extended with the 100 S9 LB
 citations across `taxation/07..15`; 05_'s row extended with the
 `taxation/13` CT 161-162-B matrix (13 LB rows) + `taxation/10` LB-018
-re-anchor. With 02_ flipped, every corpus source row is
+re-anchor. With 02_ flipped, every corpus source row was
 cited/N-A/superseded — zero pending.
+
+W17 note: 75_ (acquired W16 as pending) flipped to cited-as-LB by the W17
+CT-reglamento fold-in (2026-08-20) — 63 LB citations across `taxation/`
+(file 16 new: 41 LB rows / SV-TAX-FR-354..396; 01/04/13 co-cites + FR
+fold-ins 397..404), `fiscal-reporting/` (01/06/07/08 — SV-FREP-FR-213..214
++ notes; SOQ-08 anchor consumed) and `payroll/` (04/08 — SV-PAY-FR-144..147
++ note). Rollup: 64 cited / 0 pending / 9 N/A / 1 superseded (74 rows).
