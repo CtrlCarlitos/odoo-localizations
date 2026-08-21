@@ -437,8 +437,9 @@ places — W-GT6)**. Reform chains are recorded in SOURCE_RESEARCH.md.
   texts absent (04's electrónico-tariff rows anchor-pending); informe
   periodicity tension (monthly print vs semestral glossary hint — recorded
   under GOQ-108); 63_ rule-6c ventas col-D omission (flagged-not-corrected,
-  kept verbatim). Candidates for register addition at the next
-  master-index maintenance pass.
+  kept verbatim); 51_ state-list slash normalization (fin02 report).
+  Candidates for register addition at the next master-index maintenance
+  pass.
 - **Session mechanics**: 6 implementer dispatches + 6 task reviews, ALL
   Approved first-pass (zero fix rounds; one cosmetic minor deferred per
   file at most). Controller grep-verified 2-3 quotes per file (~15
