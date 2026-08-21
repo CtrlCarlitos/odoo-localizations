@@ -75,7 +75,7 @@ and EIRL (`07_empresa-mercantil-eirl.md`); sales contracts, warranties
 and INCOTERM-analog clauses (`09_sales-contracts.md`, future — its
 defect/warranty clocks cite this file's matrix by id, never the
 reverse); AML compliance (`10_aml-compliance.md`); and the
-letra-de-cambio chapter mechanics (Arts. 626-787 detail — skimmed in
+letra-de-cambio chapter mechanics (Arts. 702-787 detail — skimmed in
 the evidence; only the general chapter and the Art. 995-II regreso
 prescription row are used here, §3.9/OQ-002). The días-hábiles
 arithmetic is OWNED by the fiscal-reporting wave
@@ -541,7 +541,7 @@ clock here is a day/month count, under the SOQ-22 residual watch.
 ### 3.9 Scope notes: letra de cambio detail and the arbitraje derogation — no FRs
 
 Two boundaries of this file's article set are recorded as scope, not
-requirements: (i) the LETRA DE CAMBIO chapter mechanics (Arts. 626-787
+requirements: (i) the LETRA DE CAMBIO chapter mechanics (Arts. 702-787
 zone) were skimmed in the evidence (EVID-225 doubts) — this file uses
 only the general chapter (Arts. 623-653), the pagaré's Art. 792
 incorporation references and the Art. 995-II regreso-prescription row;
@@ -764,7 +764,7 @@ corpus (OQ-004); the CC clocks remain the evidenced defaults.
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
 | OQ-001 | SOQ-26 (carrying 07_ OQ-6): the mercantile LEGAL INTEREST RATE is fixed periodically by the Economía office (Art. 960 final inciso, print "Secretaría de Economía") but the current rate instrument — publication vehicle, current values, effective dating — is outside the corpus. FR-158 ships the dated config slot with NO shipped default and blocks legal-rate computations while unconfigured; when the instrument is pinned (sources-registry acquisition), load the dated table and keep it SOQ-26-governed — never hardcode. | no | Takumi S5 (sources watch) | open |
-| OQ-002 | The letra de cambio chapter (Arts. 626-787 zone) was skimmed in the 07_ evidence (EVID-225 doubts): only the general chapter, the pagaré's Art. 792 incorporation list and the Art. 995-II regreso row are used here. If a sales-flow or letra register surface is ever required, acquire/extract the letra detail before writing FRs; the Art. 792 inciso-1 incorporation list is recorded but not mechanized. | no | Takumi S5 (sources watch) | open |
+| OQ-002 | The letra de cambio chapter (Arts. 702-787 zone) was skimmed in the 07_ evidence (EVID-225 doubts): only the general chapter, the pagaré's Art. 792 incorporation list and the Art. 995-II regreso row are used here. If a sales-flow or letra register surface is ever required, acquire/extract the letra detail before writing FRs; the Art. 792 inciso-1 incorporation list is recorded but not mechanized. | no | Takumi S5 (sources watch) | open |
 | OQ-003 | Art. 995-IV anchors the 5y credit-contract term on the "último reconocimiento de la obligación por parte del deudor" without defining recognition events, and Art. 996 excludes the Código Civil's interruption/suspension norms from caducidad (implying they govern prescription) — the Civil Code's interruption catalog is not in the corpus. FR-161 stamps the canonical events (payment, partial-payment acknowledgment, explicit acknowledgment); the classification of further candidate events (interest capitalization, dunning) and any interruption semantics beyond the recognition anchor stay open until the CC corpus lands. | no | Takumi S5 + legal review | open |
 | OQ-004 | Modern payment-system evolution — electronic clearing regimes, cheque truncation, current interbank rules implementing Arts. 810/805 — is not evidenced in the corpus (SOQ-22 residual rides the whole 2008-consolidated text). The CC clocks and the clearing-equals-presentation rule are the evidenced defaults; if a clearing-house rule set must be mechanized, acquire it first and wire it as a dated override, never as an edit of the CC defaults. | no | Takumi S5 (sources watch) | open |
 

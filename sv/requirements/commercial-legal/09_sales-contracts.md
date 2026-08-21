@@ -72,10 +72,10 @@ name-and-account layers the agentes chapter does NOT own); the
 empresa mercantil and EIRL (`07_empresa-mercantil-eirl.md`); payment
 instruments, mora interest and the prescription matrix
 (`08_payment-instruments.md` — SV-CML-FR-145 day-count conventions,
-SV-CML-FR-158 legal-rate config, SV-CML-FR-160 matrix and SV-CML-FR-
-162 caducidad regime consumed by id: this file's clocks register
-anchors and code-internal override rows there, never restate the
-Art. 995 terms); the export-invoice INCOTERM capture, owned by the
+SV-CML-FR-158 legal-rate config, SV-CML-FR-160 matrix and
+SV-CML-FR-162 caducidad regime consumed by id: this file's clocks
+register anchors and code-internal override rows there, never restate
+the Art. 995 terms); the export-invoice INCOTERM capture, owned by the
 e-invoicing wave (SV-EINV-FR-045, cited by id); and AML compliance
 (`10_aml-compliance.md`). The Art. 712 documents-against mechanics,
 the Art. 1036 installment sale of títulos valores and the Art. 1037

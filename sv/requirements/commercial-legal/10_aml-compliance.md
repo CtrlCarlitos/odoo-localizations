@@ -386,7 +386,7 @@ sector as "Comercio y servicios" (monthly SMM US$408.80 from 2025-06-01)
   UIF and the routed supervisors (both the 15-day notice and the
   5-day acceleration below are law level, 71_ Art. 9.8; 72_ Art. 7 m)
   adds the documentation set: acta certification, resignation or
-  dismissal copy; 17_ Art. 4 g) kin for the liaison roles); a dismissal,
+  dismissal copy; 17_ Art. 4 g) kin for the liaison roles; a dismissal,
   transfer, resignation or function-related sanction of the officer
   ACCELERATES the notice to 5 días hábiles from the effective date
   (engine-computed, SV-FREP-FR-203 by id), with the dismissal-resolution
@@ -686,7 +686,7 @@ is required by this file.
 | FR-206 | odoo | res.partner + l10n_sv_commerce.aml.threshold | low_value_account row + termination window | $1,000 dated config; UIF 10-días-hábiles no-termination window (engine by id); early termination = muy-grave exposure |
 | FR-207 | odoo | l10n_sv_commerce.aml.officer | role/architecture | Oficialía-mandatory vs designable vs self-responsible populations; officer presents ROS |
 | FR-208 | odoo | l10n_sv_commerce.aml.comite | composition invariant | ≥3 members incl. one top-governance + the officer; group single-Comité/single-acta |
-| FR-209 | odoo | l10n_sv_commerce.aml.officer | notice clocks | 15 días hábiles designation/change; 5 días hábiles despido/traslado/renuncia/sanción; documentation set (72_ Art. 7 m)); 17_ Art. 4 g) kin |
+| FR-209 | odoo | l10n_sv_commerce.aml.officer | notice clocks | 15 días hábiles designation/change; 5 días hábiles despido/traslado/renuncia/sanción; documentation set (72_ Art. 7 m); 17_ Art. 4 g) kin |
 | FR-210 | odoo | l10n_sv_commerce.aml.officer | Encargado regime | Resident + UIF-registered + requirement tiers + anti-retaliation invariant + annual report rows |
 | FR-211 | odoo | l10n_sv_commerce.aml.case (rule engine) | configurable red-flag rules | Seeded from 17_ Arts. 12-18; parameters resolve from dated thresholds; output = case creation, NEVER auto-report |
 | FR-212 | odoo | l10n_sv_commerce.aml.case | state machine | detected → analysis → suspicious/dismissed(rationale); tentativa incl. KYC refusal; press-mention no trigger |

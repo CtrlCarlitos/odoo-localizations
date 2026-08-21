@@ -339,10 +339,10 @@ sanctions are deliberately absent (OQ-001 config-gaps). Consumer pointer
 (29_, EVID-172): the CNR F985/F-975 semi-annual third-party report to
 DGII (CT 121 a)2) is registry-side; no surface is built for it here.
 E-invoicing kin (pointer only, no re-derivation): DTE emitter-identity
-data (nombre/NIT/NRC/actividad) flows from these res.company records; the
-DTE-side contract is owned by the e-invoicing wave's onboarding/
-authorization cluster (A11) — no norm in this corpus ties DTE emission to
-matrícula vigencia.
+data (nombre/NIT/NRC/actividad) flows from these res.company records;
+the DTE-side contract is owned by the e-invoicing wave's
+onboarding/authorization cluster (A11) — no norm in this corpus ties
+DTE emission to matrícula vigencia.
 
 ## 6. Acceptance Criteria
 
