@@ -487,6 +487,35 @@ expected and absorbed by instantiating the canon, never by forking it.
       (C1-C6 + GOQ-122..134; GOQ-124 retention/destruction matrix = an
       S-GT5 deliverable; D-19-2016 still blocks S-GT6/S-GT7).
 
+      **SV C1 merge 2026-08-21 (§4.6 protocol, twenty-seventh run):**
+      `sv-research` rebased onto `d29c226` (15 commits rewritten
+      `70f86f9..71d2f6d`→`89879bd..289017e`: C1 plan + T1..T11 + fix
+      wave + HANDOVER verdict; zero conflicts) then fast-forward-merged;
+      remote branch ref fixed via delete + re-push. **SV = C1
+      consolidation/cleanup wave COMPLETE** — the CAN-STAND/rides
+      burn-down with ZERO substance changes: per-wave deferred minors
+      (S3 13/15 fixed, S4 9/11, S5 9/9, S7 AC-007 Given-gap, S8 rides
+      w/ one fix round — PAGE 162 anchor; W17 rides incl. FR-213 by-id
+      to taxation/16 **LB-013** (brief's LB-012 = plan defect) + FR-372
+      anchor-map fold + LB-017 "awareness only"), **43-instance
+      "only architecture-split surface" boilerplate sweep** (taxation 8
+      + non-taxation 35; spe/08:295 file-scoped variant correctly left),
+      **T9 catalogs workbook-sole-source alignment** (SV-CAT-FR-002;
+      overlay path removed; 33 CSVs byte-identical), **T10
+      `shared/scripts/build_coverage.py`** + COVERAGE_NOTES sidecar
+      (`--check` gate; 13 under-listed citing sources corrected;
+      statuses 64/9/1/0 exact), e-invoicing UUID/AC-011/OQ-005 rides,
+      root §9 per-item RESOLVED-C1 annotations (stays: D4 ToS backlog,
+      04 OQ-006 legitimately open). Corpus delta verified mechanically
+      by final review: **+OQ-007 (frep/03) only; 1,662 FRs unchanged**.
+      10 content-task reviews Approved (T6 after one fix round) + final
+      whole-wave USABLE-WITH-FIXES + one fix wave PASS (re-review
+      APPROVED). S9 RIDE ledger unrecoverable (workspace deleted;
+      recorded verdict "nothing load-bearing"). Next per
+      `sv/HANDOVER.md` §8: owner's call — acquisition follow-ups
+      (SOQ-46 NIIF instrument = gating), external watches, or go-live
+      prep.
+
       **SV W17 merge 2026-08-20 (§4.6 protocol, twenty-third run):**
       `sv-research` rebased onto `c297853` (7 commits rewritten
       `562a3e3..f528181`→`37778b3..c42a600`: W17 plan + T1..T5 + fix

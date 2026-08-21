@@ -50,7 +50,10 @@ boundary.**
   The 8-topic synthesis program + W17 fold-in are COMPLETE (1,662 FRs
   total). **C1 consolidation/cleanup wave (2026-08-21): CAN-STAND
   burn-down + S3-S8/W17 rides + 43-instance boilerplate sweep + catalogs
-  authority alignment + COVERAGE regen script — see §5 wave log.**
+  authority alignment + COVERAGE regen script — see §5 wave log.
+  (MERGED to main at 289017e via rebase-then-merge, twenty-seventh §4.6
+  run in root HANDOVER, zero conflicts; pre-rebase SHAs
+  70f86f9..71d2f6d superseded by 89879bd..289017e.)**
   Remaining program: acquisition follow-ups (§8.2), SOQ/external watches,
   owner merge decisions.**
 
