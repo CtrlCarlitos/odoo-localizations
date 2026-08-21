@@ -229,18 +229,20 @@ verified surface).
   solidariamente* (subsidiarily, unlimitedly, solidarily); comandita
   simple — comanditados unlimited/solidary + comanditarios limited to
   their aportación, contributions NOT representable by títulos or
-  acciones, capital fully contributed at constitution (art. 71),
-  comanditarios barred from administration (art. 73); R.L. — socios
+  acciones, capital fully contributed at constitution (art. 71, per the
+  evidence gloss), comanditarios barred from administration (art. 73,
+  per the evidence gloss); R.L. — socios
   obliged only to pay their aportaciones, only the society's patrimony
   answers (plus any pacted extra), capital divided into aportaciones
   that may NOT be incorporated into titles of any nature nor called
-  acciones, capital 100% paid before the escritura (art. 81), no socio
-  industrial (art. 82); S.A. — capital divided and represented by
+  acciones, capital 100% paid before the escritura (art. 81, per the
+  evidence gloss), no socio industrial (art. 82, per the evidence
+  gloss); S.A. — capital divided and represented by
   acciones, each accionista limited to the shares subscribed; comandita
   por acciones — mixed with comanditarios liable like S.A.
   shareholders, aportaciones represented by acciones, S.A. rules apply
-  (art. 196) and a fiscalization organ named by the comanditarios is
-  mandatory (art. 199). The R.L. profile must FORBID share-certificate
+  (art. 196, per the evidence gloss) and a fiscalization organ named by
+  the comanditarios is mandatory (art. 199, per the evidence gloss). The R.L. profile must FORBID share-certificate
   issuance (art. 78). (LB-006; EVID-542)
 - **GT-CML-FR-037:** The system shall carry the mandatory name-suffix
   catalog as shared dated config: colectiva — razón social formed from
@@ -766,7 +768,8 @@ verified surface).
   the transitorias/derogatorias: pre-1971 societies continued under
   their prior laws (transitoria I); the original adaptation window
   (enrollment of all arts. 334-338 subjects by 30-Jun-1974 with four
-  prorrogas, and the court/office bar on non-razonado documents from
+  prorrogas — count per the evidence gloss, and the court/office bar on
+  non-razonado documents from
   1-Mar-1971 — transitoria VII) as historical context only; and the
   RM→tax-registry linkage of derogatoria II (society enrollment at the
   revenue directorate required RM-inscription certifications + the
