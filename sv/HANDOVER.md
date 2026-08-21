@@ -193,7 +193,15 @@ must grep ALL LB source columns of the new files.
   workspace deleted; recorded verdict was "cosmetics; nothing
   load-bearing") — no action possible. Deferred minors from C1 reviews are
   in the C1 SDD ledger copy below. Commits 70f86f9 (plan) +
-  3f6f5ed..3c925ac (see EXTRACTION_PLAN).
+  3f6f5ed..3c925ac. **Final whole-wave review: USABLE-WITH-FIXES → one
+  fix wave PASS (c696025: coverage default status token `pending-S2+`
+  aligned to legend; HANDOVER C1-END placeholder resolved; EXTRACTION_
+  PLAN commit record) = MERGE-READY.** Deferred-minor triage: ALL RIDE
+  (T1-T4/T6/T9/T10 sub-items; first-picks already in §8.5 — frep/04
+  truncated source path, _INDEX corrections-log wipe-on-regen, EV-bank
+  hygiene nits, payroll trailing-newline sweep). Corpus delta verified
+  mechanically by the final review: +OQ-007 (frep/03) only; 1,662 FRs;
+  CSVs byte-identical; coverage gate green.
 - **W17 (2026-08-20):** 75_ reglamento-CT fold-in COMPLETE per plan
   `docs/superpowers/plans/2026-08-20-w17-75-reglamento-foldin.md` —
   subagent-driven, 5 tasks strictly sequential (per-task reviews all
@@ -441,6 +449,34 @@ must grep ALL LB source columns of the new files.
   2 fix rounds + final review + fix wave: ZERO context-overload deaths
   (one implementer death (c) above was pre-report, not
   context-overload — its file was complete).
+
+### C1-process rulings (2026-08-21, preserved from the SDD ledger before workspace deletion)
+
+- **(a)** T2's LB-013 substitution upheld: the plan brief said FR-213's
+  verbatim-matrix pointer → taxation/16 "LB-012", but LB-012 is the
+  Art. 32 reception row; LB-013 (FR-367-anchored) is the Arts. 33-34
+  CT 103 matrix. Evidence-based implementer override of a plan pointer
+  defect — reviewer line-verified.
+- **(b)** T4's in-quote `[sic]` insertions (cml/03 LB-010, cml/06
+  LB-017) ruled corpus-sanctioned editorial markers (precedents 06:362,
+  09:640/700): bracketed annotation replacing out-of-band parentheticals
+  of the same fact; quoted characters unchanged.
+- **(c)** T9's beyond-brief edit (shared/scripts/README usage row)
+  upheld: stale `--pdf` docs post-removal would be actively wrong.
+- **(d)** T8's boundary case: spe/08:295 "the only split surface this
+  file touches" = file-scoped verifiable claim, NOT the corpus-wide
+  exclusivity boilerplate — correctly left unswept.
+- **(e)** T7's 13:559 `D2` = substantive decision-id citation, not an
+  only-claim — out of sweep scope. OQ-002 pointer target adapted
+  05 → taxation/00_index:192 (no F-910/F-915 text exists in 05).
+- **(f)** T5 count convention: 175 = defined FRs (SV-SPE-FR-001..175);
+  183 = grep bullet-rows incl. index/cross-refs. Final review verified
+  contiguity.
+- **(g)** Verify-or-document protocol worked as designed on lost-ledger
+  rides (S8 T1/T4/T6/T8, W17 wording rides): fixes landed only where
+  the defect was verifiable; A1 period correctly ZERO-diff (inside the
+  EV-governed verbatim quote); Art. 66 attribution + frep enum style
+  verified already-conformant.
 
 ## 6. Gotchas & verified lessons (SV-specific)
 
