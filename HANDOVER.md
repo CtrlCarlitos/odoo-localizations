@@ -56,7 +56,9 @@ expected and absorbed by instantiating the canon, never by forking it.
 - Branch `main` only; remote `origin` = `git@github-CtrlCarlitos:CtrlCarlitos/odoo-localizations.git` (SSH alias `github-CtrlCarlitos` from `~/.ssh/config`); push after each wave; never force-push. `gh` CLI at `~/.local/bin/gh`, authenticated as CtrlCarlitos.
 - Commits are SSH-signed; local `%G?=N` is a verification-only artifact (`gpg.ssh.allowedSignersFile` unset) — signatures ARE present; don't chase it.
 - `.gitattributes`: `*.csv text eol=lf`.
-- Commits through `ac7184b` (2026-08-20: GT S-GT1 merge — see §3 ninth
+- Commits through `23ad21e` (2026-08-21: GT S-GT5 merge — see §3
+  twenty-sixth run; earlier: `b881f87` 2026-08-20 SV W17, `ac7184b`
+  2026-08-20: GT S-GT1 merge — see §3 ninth
   run; earlier: `53edd55` 2026-08-19 6th session, multi-part: D15 as-of
   doctrine `cc7a307` → W13 evidence pass `94b4142` → GT/HN merges + D16
   unification `5eb6d6b` → universalization + D17 + roadmap `b67dfa0` →
@@ -627,6 +629,31 @@ expected and absorbed by instantiating the canon, never by forking it.
       D. 96-2012, LSP/contribuciones statutes, Código de Comercio, SEE
       docs); S-HN5 DEFERRED — bootstrap `Read hn/HANDOVER.md and
       continue.`
+
+      **GT S-GT5 merge 2026-08-21 (§4.6 protocol, twenty-sixth run):**
+      `gt-research` rebased onto `1308644` (16 commits rewritten
+      `89375f2..c8645a7`→`c739e09..23ad21e`: S-GT5 plan + 7 task waves +
+      T1/T4 fix rounds + T8 close + final-review fix + record; zero
+      conflicts — gt/-scoped + one new plan file) then
+      fast-forward-merged; remote ref updated via delete + re-push.
+      **GT = S-GT5 COA/COMMERCIAL-LEGAL SYNTHESIS COMPLETE — FIVE OF SIX
+      TOPIC WAVES DONE** (see `gt/HANDOVER.md` §5l): 7 files + 2 indexes
+      (`gt/requirements/chart-of-accounts/` GT-COA-FR-001..074 ·
+      `gt/requirements/commercial-legal/` GT-CML-FR-001..163 = 237
+      FRs / 118 LBs / 78 ACs / 27 OQ rows). **GOQ-124
+      RESOLVED-DELIVERED** (retention/destruction max-per-object matrix =
+      coa03; closes GT-EINV OQ-005 + GOQ-41 kin — emitter XML retention =
+      CT prescription, certificador 14-month = provider-side excluded);
+      GOQ-122..134 + GOQ-05/12 all consumed (16 register annotations);
+      R70 GOQ-133→132 off-by-one fixed. Negative anchors: NO statutory
+      plan de cuentas (PCGA-governed), no copiador, RM-autorización vs
+      SAT-habilitación never merged (no SAT fee), AML cutover
+      17-sep-2026 (never 17-jun), no Q-threshold AML trigger. COVERAGE
+      74 cited / 8 N-A (special-regimes only) / 0 pending — stale
+      S-GT6 labels fixed. Final whole-branch review APPROVED (all
+      cross-file invariants PASS; one kin-inventory index fix). Next:
+      S-GT6/S-GT7 special-regimes plan (D-19-2016 still blocking,
+      GOQ-08); bootstrap `Read gt/HANDOVER.md and continue.`
 
       **SV S9 merge 2026-08-20 (§4.6 protocol, fourteenth run):**
       `sv-research` rebased onto `f2eccbc` (19 commits rewritten:
