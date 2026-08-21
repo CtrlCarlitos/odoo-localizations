@@ -18,7 +18,9 @@ COMPLETE — see §5h + §10 S-GT1 addenda**); updated 2026-08-20 again
 (**S-GT2 taxation synthesis COMPLETE — see §5i + §10 S-GT2 addenda**);
 updated 2026-08-20 once more (**S-GT3 payroll synthesis COMPLETE — see §5j
 + §10 S-GT3 addenda**); updated 2026-08-20 once more (**S-GT4
-fiscal-reporting synthesis COMPLETE — see §5k + §10 S-GT4 addenda**). Read
+fiscal-reporting synthesis COMPLETE — see §5k + §10 S-GT4 addenda**);
+updated 2026-08-21 (**S-GT5 COA/commercial-legal synthesis COMPLETE —
+see §5l + §10 S-GT5 addenda**). Read
 this fully before acting; it is the authoritative cross-session memory.
 **Update it at every session boundary.**
 
@@ -43,15 +45,20 @@ by exact FR id via payroll/09) and **S-GT4 (fiscal-reporting) COMPLETE
 (GT-FIN-FR-001..185; 111 LBs / 79 ACs / 40 OQ rows; GOQ-92..121 + GOQ-14
 all consumed; R46-R59 guards instantiated; taxation consumed by exact FR
 id — GT-TAX-FR-105..110 + 025/031..037 + both CSVs; payroll via
-GT-PAY-FR-213..222). ALL SIX EVIDENCE WAVES COMPLETE (W-GT1 FEL
+GT-PAY-FR-213..222) and **S-GT5 (COA/commercial-legal) COMPLETE
+2026-08-21** — 7 requirements files + 2 indexes committed
+(GT-COA-FR-001..074 + GT-CML-FR-001..163 = 237 FRs / 118 LBs / 78 ACs /
+27 OQ rows; GOQ-122..134 + GOQ-05/12 all consumed; **GOQ-124
+RESOLVED-DELIVERED** — retention/destruction matrix = chart-of-accounts/03;
+GOQ-41 resolved-kin; R70 GOQ-133→132 off-by-one fixed). ALL SIX EVIDENCE
+WAVES COMPLETE (W-GT1 FEL
 stack + W-GT2 taxation + W-GT3 payroll + W-GT4 fiscal reporting + W-GT5 COA
 + commercial-legal + W-GT6 special regimes; 26 evidence files, EVID-001..745);
 **synthesis prep DONE — `gt/.extractions/00_MASTER_INDEX.md` is committed
 and is THE synthesis gate** (topic clusters, R-ledger, GOQ register,
-authority orders). **Next: S-GT5 (COA/commercial-legal) plan doc → synthesis
-wave** (C1-C6 + GOQ-122..134 per master index; consumes COA/commercial
-clusters; GOQ-124 retention/destruction matrix is an S-GT5 deliverable;
-D-19-2016 still blocks S-GT6/S-GT7 special-regimes).
+authority orders). **Next: S-GT6/S-GT7 (special-regimes) plan doc →
+synthesis waves** (SR1-SR6 per master index; D-19-2016 still blocks
+post-2016 claims — GOQ-08; final whole-branch review of S-GT5 pending).
 Product architecture context: root `HANDOVER.md` §1 (SaaS thin-client + Odoo;
 Takumi consumes requirements).
 
@@ -447,6 +454,63 @@ places — W-GT6)**. Reform chains are recorded in SOURCE_RESEARCH.md.
   wave-close fixes by controller: T1 stale forward-ref filename; GOQ-99
   register-annotation doubled prefix (script artifact).
 
+## 5l. S-GT5 facts a synthesis/QA session MUST know (2026-08-21)
+
+- **Deliverables (all committed, branch gt-research)**:
+  `gt/requirements/chart-of-accounts/00_index.md` + 3 topic files
+  (01_books-anchor C1 GT-COA-FR-001..033 · 02_dual-track-habilitacion C2
+  FR-034..060 · 03_retention-destruction-matrix GOQ-124 FR-061..074) +
+  `gt/requirements/commercial-legal/00_index.md` + 4 topic files
+  (01_rm-surfaces C3 GT-CML-FR-001..025 · 02_sociedades-lifecycle C4
+  FR-026..085 · 03_titulos-valores-prescripcion C5 FR-086..125 ·
+  04_aml-compliance C6 FR-126..163). **237 FRs / 118 LBs / 78 ACs / 27 OQ
+  rows**; COVERAGE 74 cited / 8 N-A (67-72, 80, 81 = special-regimes
+  only) / 0 pending. Plan doc:
+  `docs/superpowers/plans/2026-08-21-s-gt5-synthesis.md`.
+- **GOQ-124 RESOLVED-DELIVERED**: chart-of-accounts/03 = the retention/
+  destruction max-per-object matrix (8 rows: CCom books / giro docs /
+  factura cambiaria art.-604-5y-likely-superseded / CT prescription-
+  anchored / DTE-FEL emitter XML (closes GT-EINV OQ-005 + GOQ-41 by
+  naming the rule: CT prescription via GT-EINV-FR-203 → GT-TAX-FR-232;
+  certificador 14-month = provider-side, excluded) / LET / AML 5y+10y
+  digital / IGSS absence). Effective rule = MAX per object; destruction
+  gate = art. 383 predicate (GT-COA-FR-028) + no-pending-matter + civil
+  prescription external (never guessed). Rulings: FR-072 layer split
+  (predicate shared / execution odoo) ratified; art.-604 drawing-date
+  convention ratified as flagged non-statutory.
+- **Negative anchors shipped**: NO statutory plan de cuentas (chart =
+  PCGA-governed, art. 368 texto D-40-99); no copiador (R63);
+  autorización=RM vs habilitación=SAT never merged, NO SAT habilitation
+  fee modeled (coa02 §4 "NO ROW BY DESIGN"); no general commercial
+  prescription period (cml03 FR-110 negative-FR + Civil fallback OQ);
+  AML NO quetzal threshold (R61), cutover 17-sep-2026 everywhere (R60 —
+  17-jun = publication only), post-cutover "única o estructurada"
+  without the 2001 one-day rule (R68).
+- **Cross-wave consumption held by exact id**: GT-TAX-FR-066/214/216/
+  217/230/231/232/234; GT-FIN-FR-020/086/087/088/089/104/118 (fin03's
+  "S-GT5 owns the dual-track model" debt discharged); GT-PAY-FR-058/063
+  (SMM values via salario_minimo.csv — never hardcoded);
+  GT-EINV-FR-203. Backfill executed: coa01 FR-021 now names GT-CML-FR-001
+  (publication-channel execution).
+- **R70 off-by-one FIXED at write-back**: the printed "GOQ-133" cite in
+  R70 = register GOQ-132 (D-62-2001); register governs. Master-index
+  write-back: 16 annotations (GOQ-122..134 + 05/12/41) + synthesis-order
+  line (S-GT5 COMPLETE).
+- **New gap reports (NOT register GOQs — triage pending)**: art. 604
+  prints no clock anchor (drawing-date = system convention); art. 577
+  debenture clocks unanchored; acciones-amortizadas 10y gloss-only
+  (pointer row); cml06 impedimento_pct 5% config value lacks owning FR;
+  cml03 Código Civil corpus absent (fallback clocks open); R71
+  pre-cutover PO-list under-statement risk. Candidates for register
+  addition at the next master-index maintenance pass.
+- **Session mechanics**: 7 implementer dispatches (T3 died post-write
+  pre-commit — finisher pattern used) + 1 T8-bodies dispatch + 7 task
+  reviews (5 Approved first-pass; T1 + T4 one fix round each — GOQ-126
+  OQ row + FR-023 scoping; gloss markers FR-036/084) + controller
+  14-quote verification pass (all passed) + controller T8 write-backs.
+  Two empty-reviewer returns (T2 first dispatch; known §10 failure mode
+  — re-dispatch clean).
+
 ## 5. GT facts a new session must know
 
 - **FEL model**: SAT owns XML standard + validates; taxpayers integrate via
@@ -829,16 +893,13 @@ synthesized with these as flagged open questions and back-filled later.
    ~~S-GT2 (taxation) synthesis~~ **COMPLETE 2026-08-20** (§5i).
    ~~S-GT3 (payroll) synthesis~~ **COMPLETE 2026-08-20** (§5j).
    ~~S-GT4 (fiscal-reporting) synthesis~~ **COMPLETE 2026-08-20** (§5k).
-   **NEXT = S-GT5 (COA/commercial-legal) synthesis wave**: write the S-GT5
-   plan doc (S-GT1..S-GT4 pattern: tasks/global constraints from clusters
-   C1-C6 + GOQ-122..134; CCom books anchor + dual-track habilitación +
-   RM surfaces + sociedades lifecycle + títulos valores/prescripción + AML
-   chain; **GOQ-124 retention/destruction matrix is an S-GT5 deliverable**
-   (write it in the S-GT5 file); consume fiscal-reporting kin (fin04's
-   habilitación bridge; R46 form identities where ISR forms are named);
-   AML dated cutover 17-sep-2026 = D15 regime-cutover rows), then subagent
-   loop; S-GT6/S-GT7 special-regimes last (D-19-2016 still blocking,
-   GOQ-08).
+   ~~S-GT5 (COA/commercial-legal) synthesis~~ **COMPLETE 2026-08-21**
+   (§5l). **NEXT = S-GT5 final whole-branch review** (controller: review
+   package over 89375f2..HEAD incl. deferred-minors triage; ONE fix wave
+   if findings), then **S-GT6/S-GT7 (special-regimes) plan doc →
+   synthesis waves** (SR1-SR6 per master index; ZF/maquila clusters;
+   D-19-2016 still blocks post-2016 claims — GOQ-08; W-GT6 corrections
+   R72/R75/R81 shape S-GT7; GOQ-08 tag-only leads: AG 3-2017, D-38-04).
 2. Opportunistic gap closure (folds into any synthesis): queue rev-7 items
    (see DOWNLOAD_QUEUE; **D-19-2016 = top-ranked acquisition — blocks
    special-regimes synthesis quality**, GOQ-08); instructivos cat 15812;
@@ -1031,3 +1092,24 @@ convergence session; updated again at W-GT1 close)
   annotation doubled prefix (write-back script artifact). Final
   whole-branch review + fix wave: see §5k/EXTRACTION_PLAN. Next session:
   S-GT5 COA/commercial plan doc.
+- **S-GT5 session addenda (2026-08-21, synthesis wave 5 — COA/commercial-legal)**:
+  plan doc `docs/superpowers/plans/2026-08-21-s-gt5-synthesis.md` (8 tasks,
+  S-GT1..S-GT4 pattern, committed pre-wave); executed subagent-driven (7
+  implementer dispatches + 7 task reviews + controller T8 index/COVERAGE/
+  README delegation + controller master-index write-back). **5 of 7 task
+  reviews Approved first-pass; T1 + T4 one fix round each (GOQ-126 §7 OQ
+  row + FR-023 art.-299 scoping; gloss markers FR-036/084) — both
+  re-reviews PASS.** Controller grep-verified 14 load-bearing quotes
+  across the wave (all passed) + reviewer spot-checks per file. **Failure
+  modes hit: T3 implementer died post-write pre-commit (finisher pattern
+  used — verify artifact → commit → report); T2 reviewer returned EMPTY
+  twice-removed (re-dispatch clean, §10 protocol held).** Wave totals in
+  §5l; master-index write-back committed (16 GOQ annotations incl.
+  GOQ-124 RESOLVED-DELIVERED + GOQ-41 resolved-kin; R70 GOQ-133→132
+  off-by-one fixed; synthesis-order line). COVERAGE 74 cited / 8 N-A / 0
+  pending (7 rows flipped; stale "S-GT6 commercial-legal" labels fixed —
+  COVERAGE now matches the master-index C/SR split). Deferred minors
+  ledgered in `.superpowers/sdd/2026-08-21-s-gt5-synthesis/progress.md`
+  (deleted post-wave; load-bearing ones folded into §5l). **Final
+  whole-branch review PENDING (next session's first action, §9.1).**
+  Next: S-GT6/S-GT7 special-regimes plan doc.
