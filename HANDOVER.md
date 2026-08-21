@@ -1851,23 +1851,35 @@ W4 payroll → synthesis (master index + S-waves).
 - `catalogs/README.md` + `_INDEX.md` still say "PDF overlay"; and
   `build_catalogs.py` keeps a `--pdf` overlay path — contradicts SV-CAT
   FR-002 (workbook = sole parse source). Align at next sidecar regeneration.
+  — RESOLVED C1 2026-08-21 (T9: overlay path removed, docs aligned, 33 CSVs
+  byte-identical after workbook-only regen).
 - T3 wording: 03_events FR-094 5-day anchor — RESOLVED 2026-08-17 (raw 45_
   p.123 quote folded into FR-094 with the anchor-noun ambiguity note);
   UUID "uppercase hexadecimal digits" tightening (M-1) still open.
+  — M-1 RESOLVED C1 2026-08-21 (T1: schemas pin `^[A-F0-9]{8}-…-{12}$`;
+  §4 rows tightened).
 - 06_api-protocol OQ-005 is resolved-but-noisy (used as work-log) — fold
-  into next 06 edit.
+  into next 06 edit. — RESOLVED C1 2026-08-21 (T1: folded to a one-row
+  summary).
 - 02_transmission AC-011 over-broad ("no *.dtes.mh.gob.sv reference" vs
-  legitimate portal URLs) — scope to API code paths.
+  legitimate portal URLs) — scope to API code paths. — RESOLVED C1
+  2026-08-21 (T1: scoped to API endpoints, portal URLs excluded).
 - FR-136 renewal-staging wording fixed (final review), but 04 OQ-006
-  (renewal procedure) remains open legitimately.
+  (renewal procedure) remains open legitimately. — OQ-006 STAYS OPEN
+  (deliberate; verified C1 2026-08-21).
 - sv/README count phrasing nit (50 = 48 used numbers + 17/17b pair + 25_
-  pdf/xlsx pair).
+  pdf/xlsx pair). — RESOLVED C1 2026-08-21 (T11: 73 files / 01-75 / next
+  76, registry-verified).
 - D4 email-escalation channel ownership → ToS/onboarding backlog (not a
-  requirements file yet).
-- COVERAGE regeneration script (currently hand-built matrix).
+  requirements file yet). — STAYS (ToS backlog, out of requirements scope).
+- COVERAGE regeneration script (currently hand-built matrix). — RESOLVED
+  C1 2026-08-21 (T10: `shared/scripts/build_coverage.py` + COVERAGE_NOTES
+  sidecar; `--check` gate green; 13 under-listed citing sources corrected).
 - **"Only architecture-split surface" boilerplate** exists in ~11 requirements files
   across waves (S3 final-fix found 01's instance; 02:467 + taxation files untouched) —
-  one sweep to soften all instances.
+  one sweep to soften all instances. — RESOLVED C1 2026-08-21 (T7+T8: 43
+  instances softened corpus-wide — taxation 8 + non-taxation 35; canonical
+  form = frep/01; corpus grep now empty).
 - S3 deferred minors (final review, deferrable): 01 FR-005 missing EVID-178 cite; 01
   FR-023 else-branch phrasing; 01 §4 sign-header wording; 01 Art. 66 attribution
   looseness; 02 FR-064 compressed inventory; 02 §5 FR-048 row missing P-formula pointer;
@@ -1875,6 +1887,9 @@ W4 payroll → synthesis (master index + S-waves).
   upload rules; 04/06 Given/then style; 06 FR-162 antecedent + FR-168 FR-106 gloss; 08
   LB-005 gloss restates consumer values (verified correct);   index §7 pointer wording;
     taxation 05-OQ-002 pointer's "F-910/F-915" phrasing (F-910 marginally irrelevant there).
+  — RESOLVED C1 2026-08-21 (T2: 13/15 fixed incl. W17 rides FR-213 by-id +
+  enum style; Art. 66 attribution + enum style verified already-conformant;
+  frep/03 OQ-007 added as the sanctioned code-8-parity OQ).
 - S4 deferred minors (final review, deferrable): 06 AC-001 placeholder
   composition "weekend pair + two asuetos" → "two weekend pairs" at next
   touch; T1 ISR-cell 2×SMM restatement + unanchored Art. 174/183/199
@@ -1887,6 +1902,10 @@ W4 payroll → synthesis (master index + S-waves).
   AC-002 boundary convention; T8 FR-123 min() arithmetic bend (in-mandate per
   P9) + casillas 718-720/738 silence (evidence-faithful); T9 taxation-pointer
   placement.
+  — RESOLVED C1 2026-08-21 (T3: 9/11 fixed incl. W17 rides FR-145 wording +
+  LB-017 awareness marker; voluntary-ISSS regime-dependence verified
+  already-covered; `(navigational)` marker documented nonexistent — anchor
+  branch taken).
 - S5 deferred minors (final review "can-ride", deferrable): 09:75 id
   SV-CML-FR-162 line-wrapped mid-id (grep-artifact source); 03 page-pointer
   over-broads + §2 abbreviation overlap; 04 Art. 121 final-sentence marker +
@@ -1894,6 +1913,9 @@ W4 payroll → synthesis (master index + S-waves).
   ×5 + "626-787" over-bread; 10 FR-209 paren scar; index 07-scope labels;
   marker-vocabulary variance across files; T1-M3 A11 cluster-pointer
   normalization when A11 lands.
+  — RESOLVED C1 2026-08-21 (T4: all 9 steps addressed — 6 fully fixed,
+  3 partial with documented not-reproducible sub-items; A11 normalized;
+  626-787→702-787 source-verified).
 
 ## 10. Session-protocol checklist for the next controller
 

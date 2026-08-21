@@ -48,9 +48,11 @@ boundary.**
   — see §5 wave log.** COVERAGE after W17: 64 cited / 0 pending / 9 N/A /
   1 superseded (74 rows — zero pending again).
   The 8-topic synthesis program + W17 fold-in are COMPLETE (1,662 FRs
-  total). Remaining
-  program: acquisition follow-ups (§8.2), SOQ/external watches, deferred
-  cleanups (§8.5), owner merge decisions.**
+  total). **C1 consolidation/cleanup wave (2026-08-21): CAN-STAND
+  burn-down + S3-S8/W17 rides + 43-instance boilerplate sweep + catalogs
+  authority alignment + COVERAGE regen script — see §5 wave log.**
+  Remaining program: acquisition follow-ups (§8.2), SOQ/external watches,
+  owner merge decisions.**
 
 ## 2. Read order for a new session
 
@@ -162,6 +164,36 @@ must grep ALL LB source columns of the new files.
 
 ### Wave log summary (full detail in `sv/EXTRACTION_PLAN.md` §Extraction log)
 
+- **C1 (2026-08-21):** consolidation/cleanup wave COMPLETE per plan
+  `docs/superpowers/plans/2026-08-21-c1-sv-cleanup-wave.md` — subagent-driven,
+  10 content tasks + controller bookkeeping (T3 dispatch died silently once,
+  re-dispatched clean per S7 ruling (c); T6 one fix round — PAGE 162 anchor
+  block-boundary misread; all other reviews Approved clean 0 C/I). Scope:
+  CAN-STAND burn-down + S3/S4/S5 wave minors + S7 AC-007 Given-gap ($1,100
+  added) + S8 rides (LB-001 gloss, LB-004 PAGE 162, AC-001 arithmetic
+  inlined; A1 period correctly ZERO-diff — inside the EV-governed verbatim
+  quote) + W17 rides (FR-213 by-id + verbatim-matrix pointer to
+  taxation/16 **LB-013** (brief's LB-012 was a plan defect — LB-012 = Art.
+  32 reception, LB-013 = CT 103 matrix), FR-145 wording, LB-017 "awareness
+  only" marker, FR-372 trailing anchor map folded to
+  `SV-TAX-FR-303 by id; 15_iva-declaration-interfaces.md by pointer`,
+  OQ-002 pointer narrowed F-915-only at taxation/00_index:192, enum style
+  verified consistent, HANDOVER rewrap) + **boilerplate sweep: 43 instances
+  softened corpus-wide** (taxation 8 + non-taxation 35; spe/08:295
+  file-scoped variant correctly left) + **T9 catalogs workbook-sole-source
+  alignment** (overlay path removed; 33 CSVs byte-identical; shared/scripts
+  README usage row updated — beyond-brief edit upheld) + **T10
+  `shared/scripts/build_coverage.py`** (COVERAGE_NOTES sidecar; `--check`
+  gate; 13 under-listed citing sources corrected; 3 scanner
+  generalizations; catalogs/ scan included) + frep/03 OQ-007 added (the
+  wave's only sanctioned row addition). In-wave finds: 01 §4 sign-header
+  defect was casilla-vs-formula ambiguity (sello/firma not found);
+  626-787→702-787 (CC letra-de-cambio chapter source-verified); sv/README
+  count fixed 73/01-75/next-76. **S9 RIDE ledger unrecoverable** (SDD
+  workspace deleted; recorded verdict was "cosmetics; nothing
+  load-bearing") — no action possible. Deferred minors from C1 reviews are
+  in the C1 SDD ledger copy below. Commits 70f86f9 (plan) +
+  3f6f5ed..C1-END (see EXTRACTION_PLAN).
 - **W17 (2026-08-20):** 75_ reglamento-CT fold-in COMPLETE per plan
   `docs/superpowers/plans/2026-08-20-w17-75-reglamento-foldin.md` —
   subagent-driven, 5 tasks strictly sequential (per-task reviews all
@@ -241,8 +273,8 @@ must grep ALL LB source columns of the new files.
   frep/02 OQ-002 rate-anchor note (FR-240/241). RIDE list in the S9 SDD
   ledger copy (cosmetics; nothing load-bearing).
 
-- **S8 (2026-08-20):** chart-of-accounts synthesis
-  COMPLETE per plan `docs/superpowers/plans/2026-08-19-s8-chart-of-accounts-synthesis.md`
+- **S8 (2026-08-20):** chart-of-accounts synthesis COMPLETE per plan
+  `docs/superpowers/plans/2026-08-19-s8-chart-of-accounts-synthesis.md`
   — subagent-driven, 9 tasks strictly sequential (8 Approved clean + 2
   fix rounds: T3 CT-Art-62 by-id, T8 R29 co-cite) + final whole-wave
   review (MERGE-READY after one fix wave: COVERAGE 01_/54_ rows,
@@ -315,7 +347,8 @@ must grep ALL LB source columns of the new files.
 - **W13 (2026-08-19):** special-regimes evidence EVID-251..274 + 74_
   acquisition; D15 decided; S7 unblocked.
 - **S7 (2026-08-19, first worktree wave):** special-regimes synthesis
-  COMPLETE per plan `docs/superpowers/plans/2026-08-19-s7-special-regimes-synthesis.md`
+  COMPLETE per plan
+  `docs/superpowers/plans/2026-08-19-s7-special-regimes-synthesis.md`
   — subagent-driven, 9 tasks (8 Approved clean + T1 one fix round + T9
   reviewer re-dispatch after a silent death; commits 2f33019..10a7cc0;
   final whole-wave review MERGE-READY, zero Critical/Important, all
@@ -486,12 +519,17 @@ must grep ALL LB source columns of the new files.
      registered; the W16+ acquisition candidates above are the NEW numbering).
  4. SOQ follow-ups per §7; periodic external checks (factura.gob.sv,
     uif.gob.sv/marco-legal, MH formularios, D.O. recovery).
- 5. Deferred cleanups (CAN-STAND): prior-wave deferred-minor lists (root
-    HANDOVER §9 + per-task reviews; S7's triaged-ride list is in the
-    final review record — AC-007 $1,100 Given-gap is the first-pick; S8
-    and S9 RIDE lists are in their wave-log entries / SDD ledger
-    copies), boilerplate sweep (~11 files + taxation 07-15 candidates),
-    COVERAGE regeneration script.
+  5. Deferred cleanups (CAN-STAND): **RESOLVED by C1 (2026-08-21)** — root
+     HANDOVER §9 items annotated per-item; S7 AC-007 fixed, S8 rides fixed
+     (T6), S9 RIDE ledger unrecoverable (workspace deleted; recorded
+     verdict "cosmetics; nothing load-bearing"); boilerplate swept (43
+     instances); COVERAGE regen script shipped. Residual deferred minors
+     from C1 per-task reviews (all Minor, non-blocking) live in the C1
+     wave-log entry / EXTRACTION_PLAN record; first-picks: frep/04
+     truncated source path `63_F930v3.pdf` latent fix, catalogs _INDEX
+     corrections-log wipe-on-regen, EV-bank hygiene nits (A1 estas/esas,
+     01 LB-004 PAGE 46-53 vs 48-53), payroll 05/08 trailing-newline
+     inconsistency sweep.
  6. At wave closes: update THIS file + master index + COVERAGE + topic
     indexes; commit + push sv-research; record rulings here BEFORE
     deleting any SDD workspace. Owner decides sv-research → main merges

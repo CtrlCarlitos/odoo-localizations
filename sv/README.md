@@ -23,10 +23,11 @@ Status values: Not started, In progress, In review, Complete.
 
 ## Sources
 
-72 registered source files (numbering 01-74; gaps 21/23/24/28 unused; 66-70
+73 registered source files (numbering 01-75; gaps 21/23/24/28 unused; 66-70
 added by the W11 Quincena-25 package; 71-73 added by W12 — AML regime
 replacement D.L. 426 + kept UIF instructivo + CC verification copy; 74 added
-by W13 — Ley de Simplificación Aduanera D. 529) — laws
+by W13 — Ley de Simplificación Aduanera D. 529; 75 added by W16 —
+Reglamento de Aplicación del CT, D.E. 117-2001; next numbering = 76) — laws
 and regulations (tax, commercial, labor), MH electronic-invoicing manuals and
 catalogs, F-07/F-14 forms and templates, NIIF — plus the 15 current official
 MH JSON schemas inside `52_Json_Schemas_DTE_Eventos_2026-08-11.zip` and a
