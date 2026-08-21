@@ -471,3 +471,25 @@ commit. Never leave a session with evidence unmerged. Update
    whole-branch review: 1 Important (FESP cross-lock mispointed at
    FR-080..085 → repointed to FR-097/GT-EINV-FR-036/LB-021) + minors fixed
    in one commit. Next: S-GT3 payroll plan (GOQ-70..91 + GOQ-04/09/10/11).
+- 2026-08-20 — **S-GT3 COMPLETE** (payroll synthesis). Plan
+   `docs/superpowers/plans/2026-08-20-s-gt3-synthesis.md`; 10 topic files +
+   index + 1 CSV sidecar committed (GT-PAY-FR-001..236; 159 LBs / 151 ACs /
+   29 OQ rows consuming GOQ-70..91 + GOQ-04/09/10/11 owned + kin
+   58/61/99/121). P1 four-way split (01 salary / 02 jornada / 05 benefits /
+   06 termination); salario_minimo.csv 82 rows [sic]-faithful (2026 six
+   cells words-govern per GOQ-77/78; 2022-2025 ABSENT rows per GOQ-11,
+   never interpolated). R30-R44 corrections instantiated (bonus identities;
+   preaviso worker-side; NO cesantía/doubling; no holiday 2×; IRTRA flat 1%
+   no brackets; IGSS rates external; CT edition qualifier). ISR side
+   consumed by exact FR id via 09_isr-iva-interfaces.md (S-GT2 lesson
+   applied; GT-TAX-FR-169 location corrected to taxation/05).
+   **Trust-evidence rule caught THREE controller-brief errors** (art. 96
+   less-favorable rule → art. 103 ¶2; in-kind "customary prices" →
+   "precio de costo o menos"; INTECAP ladder dates — industrial 1.00%
+   ceiling 1-Jan-1974 / agro 1-Jan-1975, not the brief's reading) +
+   50%-of-indemnización (art. 82 e) over brief's "50%-of-offset").
+   COVERAGE 58 cited / 24 N-A / 0 pending. New gap reports flagged for
+   register triage: OT hourly-base divisor, per-locality festividad config,
+   art. 152 a)/d)/e) + art. 154 re-extraction, día-hábil calendar
+   provenance. Next: S-GT4 fiscal-reporting plan (F1-F6 + GOQ-92..121;
+   consumes taxation + payroll FR ids).
