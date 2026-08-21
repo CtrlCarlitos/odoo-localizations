@@ -13,11 +13,56 @@ official congreso.gob.hn/leyesdehonduras/ library — the R-H75 chain (D. 179-97
 reforms D. 112 Arts. 1+9 = the jubilados/pensionados extension; D. 178-86; D. 2-87
 dado 3-feb-1987) + the D. 112-1982 ORIGINAL gazette print (pre-reform Art. 1) +
 D. 135-94 (14th origin) + D. 58-1982 selectivo + D. 131-98 + D. 110-93 + D. 54-96
-(first Equidad Tributaria). Next = the W6 evidence pass (EVID-392+), then
-residual chain (D. 36-90 / D. 54-95 / D. 247-89 — absent from the library).**
+(first Equidad Tributaria). **The W6 evidence pass is ALSO COMPLETE (same
+session): EVID-392..428, R-H80, payroll/02 + FREP 02/07/09 updated, OQs
+resolved/narrowed, COVERAGE 117 rows = 115 cited + 2 N/A, gates PASS.**
+Next = residual chain (D. 36-90 / D. 54-95 / D. 247-89 — absent from the
+library) + the post-W6 queue (Acuerdo 799, Reglamento General IHSS, Ley RAP,
+D. 314-98, post-1995 selectivo chain, D. 99-93, 95_ clean consolidation).**
 
 ## Wave log
 
+- **W6 evidence pass + synthesis updates (2026-08-20, DONE — same session as
+  the acquisition):** three evidence files, subagent-dispatched with
+  pre-allocated ranges (one empty-return shape-(b) anomaly on the chain
+  dispatch — re-dispatch delivered; the S-HN3/S-HN4 lesson holds):
+  `110-113_aguinaldo-chain.evidence.md` (EVID-392..404),
+  `114_Decreto_135-94_Compensacion_Social.evidence.md` (EVID-405..414),
+  `115-118_taxation-ancestors.evidence.md` (EVID-415..428). Controller
+  verification: structural 3/3 (ranges sequential, no collisions, keys
+  clean); STRICT bank-check on the evidence files = 246/246 spans PASS;
+  requirements-side check on the four touched files — every W6 LB/FR
+  verbatim verified against the bank (5 one-word drifts in my own LB rows
+  found+fixed: "por el arrendamiento", "hospodajes" OCR-faithful,
+  "Re[f]ormar", "contínuo" accents, "[o]torgando", the EVID-406 bracket
+  tail); residual fails = the pre-existing W5-era adjudicated artifact
+  classes. Adjudications: **R-H80** — Art. 18 print variance ruled:
+  the `113_` gazette original reads **"1° de enero de 1983"** (ordinal
+  primero; OCR "1+"/"1°" consistent at 300/400/600dpi — three independent
+  passes; no image-input available this session so the ruling rests on the
+  OCR convergence) vs `105_` book extract's "10 de enero de 1983"; gazette
+  = record → no-liability window 1982-11-01→**1982-12-31**; the book's
+  "10" = typesetting slip of the ordinal "1°". payroll/02: OQ-008
+  RESOLVED (D. 179-97 = the jubilados/pensionados extension to Arts. 1+9,
+  nothing else — chapter quirk = 1982 drafting), OQ-009 RESOLVED (gazette
+  pin primary; D. 2-87 Dado 3-feb-1987 + content in corpus), OQ-013
+  RESOLVED (R-H80), NEW OQ-012 (D. 135-94 Art. 42 vigencia 07-ene-1995 vs
+  Acuerdo 02-95 Art. 15's 28-oct-1994 — CONFLICT carried, FR-070 keeps
+  as-encoded anchor); FR-052 rewritten to dated beneficiary rows
+  (permanents-only → +jubilados from 17-dic-1997); FR-093 chain
+  original-pinned; LB-020..024 added (5). fiscal-reporting: FREP/09 LB-002
+  (D. 58-1982 acquired — 1982 cc-tier canasta + 1995 20% states; OQ-001
+  narrowed to the current-state chain) + LB-012 (D. 131-98 acquired —
+  Art. 43 original; **the OPERADORA ANTI-CASCADING EXCLUSION encoded
+  FR-321** — the manuals omit it; manual drift "calendario" noted, gazette
+  = record; OQ-010 RESOLVED; D. 314-98 watch added); FREP/02 LB-022 +
+  FR-073 (**the Art. 12 L50,000 savings monto ACTIVATED** — excess-only at
+  Art. 22; OQ-009 narrowed to D. 99-93); FREP/07 LB-015 + FR-235/FR-244
+  upgraded to statute (D. 110-93/D. 54-96; OQ-014 narrowed — also caught
+  its stale 95_/97_ legs). Indexes: payroll 326/163/170/83; FREP
+  363/157/189/169; master index +EV110/EV114/EV115, +R-H80, P2/C-register
+  refreshed, next EVID = 429. COVERAGE regenerated: **117 rows = 115
+  cited + 2 N/A; 1094 FRs / 502 LBs / 573 ACs / 325 OQs; gates PASS.**
 - **W6 acquisition wave (2026-08-20, DONE — evidence pass follows):** route
   discovery + 9-file harvest. The STSS 921-2 page, TSC biblioteca, and SAR
   catalogs (all previously crawled) do NOT carry the R-H75 chain; NATLEX and

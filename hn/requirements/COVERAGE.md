@@ -8,11 +8,11 @@
 | Authors | script `hn/scripts/build_coverage.py` (regenerate after every wave) |
 | Updated | 2026-08-20 |
 
-Every row of [../sources/README.md](../sources/README.md) (108 registered files, gap 103 reserved-unused) mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1094 FRs, 495 LB rows, 573 ACs, 323 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 248, e-invoicing 157, fiscal-reporting 363, payroll 326).
+Every row of [../sources/README.md](../sources/README.md) (117 registered files, gap 103 reserved-unused) mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1094 FRs, 502 LB rows, 573 ACs, 325 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 248, e-invoicing 157, fiscal-reporting 363, payroll 326).
 
 Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row of a requirements file (citing file(s) + LB ids listed); **not-applicable-this-wave** — explicit annotation with reason (superseded/historical, in-corpus-unread pending evidence pass, or out of scope for the four topics).
 
-## Matrix (108 source files)
+## Matrix (117 source files)
 
 | Source | Status | Cited in / note |
 |--------|--------|-----------------|
@@ -63,12 +63,12 @@ Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row
 | 47_Ayuda_GC_ZOLITUR_120.pdf | cited-as-LB | `fiscal-reporting/08_gc-events-119-120-152-154.md` (LB-004) |
 | 48_Ayuda_tradicion_inmuebles_152.pdf | cited-as-LB | `fiscal-reporting/08_gc-events-119-120-152-154.md` (LB-006) |
 | 49_Ayuda_revaluacion_154.pdf | cited-as-LB | `fiscal-reporting/08_gc-events-119-120-152-154.md` (LB-007) — V-HN1: LB co-cite added to fiscal-reporting/08 LB-007 (was evidence-anchor-only EV29:EVID-108). |
-| 50_Ayuda_selectivo_203.pdf | cited-as-LB | `fiscal-reporting/01_filing-chassis-due-days.md` (LB-011+LB-018); `fiscal-reporting/09_selectivo-declarations.md` (LB-001+LB-002) |
+| 50_Ayuda_selectivo_203.pdf | cited-as-LB | `fiscal-reporting/01_filing-chassis-due-days.md` (LB-011+LB-018); `fiscal-reporting/09_selectivo-declarations.md` (LB-001) |
 | 51_Ayuda_cigarrillos_211.pdf | cited-as-LB | `fiscal-reporting/09_selectivo-declarations.md` (LB-003) |
 | 52_Ayuda_gaseosas.pdf | cited-as-LB | `fiscal-reporting/09_selectivo-declarations.md` (LB-004) |
 | 53_Ayuda_alcoholes_205.pdf | cited-as-LB | `fiscal-reporting/09_selectivo-declarations.md` (LB-005) |
 | 54_Ayuda_cerveza_204.pdf | cited-as-LB | `fiscal-reporting/09_selectivo-declarations.md` (LB-006) |
-| 55_Ayuda_turistico_259.pdf | cited-as-LB | `fiscal-reporting/01_filing-chassis-due-days.md` (LB-011); `fiscal-reporting/09_selectivo-declarations.md` (LB-007+LB-012) |
+| 55_Ayuda_turistico_259.pdf | cited-as-LB | `fiscal-reporting/01_filing-chassis-due-days.md` (LB-011); `fiscal-reporting/09_selectivo-declarations.md` (LB-007) |
 | 56_Ayuda_casinos_504.pdf | cited-as-LB | `fiscal-reporting/01_filing-chassis-due-days.md` (LB-005+LB-007+LB-018+LB-021); `fiscal-reporting/11_contribuciones-sector.md` (LB-001+LB-008+LB-009+LB-011) |
 | 57_Ayuda_telefonia_502.pdf | cited-as-LB | `fiscal-reporting/01_filing-chassis-due-days.md` (LB-015); `fiscal-reporting/11_contribuciones-sector.md` (LB-002) |
 | 58_Ayuda_comidas_503.pdf | cited-as-LB | `fiscal-reporting/11_contribuciones-sector.md` (LB-003) |
@@ -124,14 +124,23 @@ Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row
 | 107_Gaceta_31753_Decreto_150-2008.pdf | cited-as-LB | `payroll/08_cesantia-preaviso.md` (LB-007+LB-008) — W5: evidence pass EVID-380..382 — CT Art. 120/120-A + the annual-pact Art. 2 as instrument original (≡ 86_ fn.19, no drift); R-H58 anchors upgraded in payroll/08 LB-007/008 + FR-305; new lineage lead D. 247-89. |
 | 108_Acuerdo_345_Regl_Comisiones_Salario_Minimo.pdf | cited-as-LB | `payroll/01_smm-chassis.md` (LB-022) — W5: evidence pass EVID-383..384 — commissions procedure + the fijación +15-day vigencia default (payroll/01 LB-022 + FR-041); Acuerdo 345's own vigencia unpinned (G 25,680 date not printed). |
 | 109_Gaceta_36460_Decreto_59-2023_Adulto_Mayor.pdf | cited-as-LB | `taxation/02_isr-deductions.md` (LB-017) |
+| 110_Gaceta_28441_Decreto_179-97_reforma_Art1_aguinaldo.pdf | cited-as-LB | `payroll/02_13th-14th-bono.md` (LB-020) |
+| 111_Gaceta_25077_Decreto_178-86_interp_aguinaldo.pdf | cited-as-LB | `payroll/02_13th-14th-bono.md` (LB-021) |
+| 112_Gaceta_25155_Decreto_2-87_interp_aguinaldo.pdf | cited-as-LB | `payroll/02_13th-14th-bono.md` (LB-022) |
+| 113_Gaceta_23848_Decreto_112-1982_aguinaldo_original.pdf | cited-as-LB | `payroll/02_13th-14th-bono.md` (LB-023) |
+| 114_Gaceta_1995-01-07_Decreto_135-94_Compensacion_Social.pdf | cited-as-LB | `payroll/02_13th-14th-bono.md` (LB-024) |
+| 115_Gaceta_1982-08-02_Decreto_58_Selectivos_Consumo.pdf | cited-as-LB | `fiscal-reporting/09_selectivo-declarations.md` (LB-002) |
+| 116_Gaceta_1998-05-20_Decreto_131-98_tasas.pdf | cited-as-LB | `fiscal-reporting/09_selectivo-declarations.md` (LB-012) |
+| 117_Gaceta_1993-08-14_Decreto_110-93_Ley_Simplificacion_Tributaria.pdf | cited-as-LB | `fiscal-reporting/02_djimr-retention-declarations.md` (LB-022) |
+| 118_Gaceta_27941_Decreto_54-96_reformas_tributarias.pdf | cited-as-LB | `fiscal-reporting/07_isr-annual-102-103.md` (LB-015) |
 
 ## Rollup
 
 | Status | Rows |
 |--------|------|
-| cited-as-LB | 106 |
+| cited-as-LB | 115 |
 | not-applicable-this-wave | 2 |
-| **Total** | **108** |
+| **Total** | **117** |
 
 ## V-HN1 gate-1 findings (2026-08-20, fixed in this wave)
 

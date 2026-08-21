@@ -13,9 +13,17 @@ EVID-385..391 — the L30,000 credit SURVIVES D. 59-2023 unchanged (R-H78,
 OQ-009(a) resolved, FR-067 whole-life row); cuarta edad = 80+ DEFINED
 (R-H79, resolves 96_ OQ-2); new cuarta-edad discount catalogue banked for
 S-HN5; edition's other decrees identified incl. the D. 5-2024 municipal
-amnistía; COVERAGE regen 108 rows = 106 cited + 2 N/A, gates PASS — **the
-corpus is now FULLY EVIDENCED 108/108**). Next = the R-H75 interp/reform
-chain (D. 179-97 top) + the 95_ clean-consolidation lead (109_ OQ-2).**
+amnistía; COVERAGE regen 108 rows = 106 cited + 2 N/A, gates PASS — the
+corpus is then FULLY EVIDENCED 108/108), and **the W6 R-H75-chain wave (this
+session, on-branch: NINE files `110_`..`118_` recovered from the Wayback of
+the old official congreso.gob.hn/leyesdehonduras library — D. 179-97/D. 178-86/
+D. 2-87 + the D. 112-1982 ORIGINAL gazette print + D. 135-94 + D. 58-1982 +
+D. 131-98 + D. 110-93 + D. 54-96; evidence pass DONE (EVID-392..428); R-H80
+ruled; payroll/02 + FREP 02/07/09 updated; COVERAGE 117 rows = 115 cited +
+2 N/A, gates PASS). Next = residual chain D. 36-90/D. 54-95/D. 247-89 (absent
+from the library) + the post-W6 queue (Acuerdo 799, Reglamento General IHSS,
+Ley RAP, D. 314-98, post-1995 selectivo chain, D. 99-93) + the 95_
+clean-consolidation lead (109_ OQ-2).**
 Read this fully before acting; it is the authoritative HN cross-session
 memory (conversation context does not survive). Update it at every session
 boundary.
@@ -96,15 +104,25 @@ boundary.
    `81+87+88_IHSS.evidence.md` (W4b, 250..274),
    `27+28_RAP-fondo.evidence.md` (W4c, 275..289),
     `85+86_codigo-trabajo.evidence.md` (W4d, 295..333),
-    `109_Decreto_59-2023_Adulto_Mayor.evidence.md` (W5c, **385..391**).
-    **EVID numbering is
-    corpus-global, next = 392. OQs are per-file/per-doc at evidence-file end
-    (~227 open).**
+   `109_Decreto_59-2023_Adulto_Mayor.evidence.md` (W5c, **385..391**);
+   `110-113_aguinaldo-chain.evidence.md` (W6, **392..404**);
+   `114_Decreto_135-94_Compensacion_Social.evidence.md` (W6, **405..414**);
+   `115-118_taxation-ancestors.evidence.md` (W6, **415..428**).
+   **EVID numbering is
+   corpus-global, next = 429. OQs are per-file/per-doc at evidence-file end
+   (~227 open).**
 
 ## 3. State: corpus (research phase COMPLETE)
 
-108 registered files, every one page-1 verified (01-109; gap 103
-reserved-unused; 105-108 acquired 2026-08-20 and W5-evidenced (EVID-362..384)
+117 registered files, every one page-1 verified (01-118; gap 103
+reserved-unused; **110-118 acquired 2026-08-20 W6 via the Wayback of the old
+official congreso.gob.hn/leyesdehonduras/ library and evidenced EVID-392..428
+— the R-H75 chain `110_` D. 179-97 / `111_` D. 178-86 / `112_` D. 2-87 /
+`113_` the D. 112-1982 ORIGINAL gazette print G 23,848 / `114_` D. 135-94
+(14th origin) / `115_` D. 58-1982 selectivo 203 origin / `116_` D. 131-98
+(Art. 43 = the 4% turística/código-259 origin) / `117_` D. 110-93 (Art. 9
+intereses = código-115 core) / `118_` D. 54-96 (FIRST Ley Equidad
+Tributaria)**); 105-108 acquired 2026-08-20 and W5-evidenced (EVID-362..384)
 — **105_ = D. 112-1982 THE aguinaldo law (R-H74, P2 unblocked; recovered via
 Wayback of the official STSS upload, correcting the round-5 "routes
 exhausted" claim); 106_ = TWO extracts — D. 43-97 (G 28,271 29-may-1997) +
@@ -435,24 +453,32 @@ discarded md5-identical to 104_). Structure:
    R-H78 (L30,000 credit SURVIVES — OQ-009(a) resolved, FR-067 whole-life) +
    R-H79 (cuarta edad = 80+, 96_ OQ-2 resolved) + edition decrees identified
    (D. 5-2024 municipal amnistía = expired kin of 06_); COVERAGE regen
-   (108 rows = 106 cited + 2 N/A, gates PASS). NEXT: owner merge decision for
-   W5c, then the R-H75 chain (D. 179-97 top) + Acuerdo 799 +
-   Reglamento General IHSS + Ley RAP (§6.2 queue).**
+   (108 rows = 106 cited + 2 N/A, gates PASS). W6 (same day, this session):
+   acquisition + evidence pass DONE on-branch (see the wave log) — NEXT =
+   owner merge decision for W6, then the residual chain (D. 54-95/D. 36-90/
+   D. 247-89) + Acuerdo 799 + Reglamento General IHSS + Ley RAP (§6.2 queue).**
 2. **Acquisition queue (W5-amended; RESEARCH §5 + master-index
     C-registers + synthesis OQs):** TOP = ~~D. 135-94 + Acuerdo 201-96~~
     (VOIDED R-H74/R-H75 — the 13th month = D. 112-1982 `105_ evidenced;
-    residual = interp/reform chain below) → **D. 179-97 (G 28,441
-    17-dic-1997 — Art. 1 reform content unknown, rows reversible) /
-    D. 178-86 (G 25,077) / D. 2-87 (G 25,155) / D. 36-90 (G 26,131)** +
-    D. 54-95 + D. 247-89 (prior CT-120 reform) + **Reglamento Ley ISR
-    "Acuerdo N°799" (from S-HN1 —
+    residual = interp/reform chain below) → ~~**D. 179-97 (G 28,441
+    17-dic-1997) / D. 178-86 (G 25,077) / D. 2-87 (G 25,155)**~~ (ALL THREE
+    ACQUIRED + evidenced W6 as `110_`/`111_`/`112_` — payroll/02
+    OQ-008/OQ-009 resolved; D. 112's gazette pin primary via `113_`) →
+    **D. 36-90 (G 26,131 — still unacquired; verified ABSENT from the
+    congreso library) + D. 54-95 (14th-month interp — top residual; 114_
+    checked NEGATIVE; cited by 110_'s considerandos) + D. 247-89 (prior
+    CT-120 reform) + D. 314-98 (Ley de Turismo — may restate the tasa
+    turística; W6 watch) + the post-1995 selectivo reform chain (FREP/09
+    OQ-001 current-state gap) + D. 99-93 (FREP/02 monto leg residual)** +
+    **Reglamento Ley ISR "Acuerdo N°799" (from S-HN1 —
    ~~**D. 199-2006 original**~~ (ACQUIRED as `95_` + evidenced V-HN1b —
    FR-067 pinned 10-ago-2007; residual = the 109_ wording check) +
    **Reglamento General IHSS (contribution-base definition)** +
    **Ley RAP D.L. 107-2013 (doubly load-bearing)** + Ley Equidad Tributaria
    D. 51-2003 (AS/ATN + tarjetas Art. 18) + Acuerdo SAR-236-2024 + DGS SMM
-   companion prints (2022-2025 + 2027 when exists) + D. 58-1982 + D. 131-98
-   + TP family (D. 232-2011 + 027-2015 + DEI-SG-004-2016) + contribuciones
+   companion prints (2022-2025 + 2027 when exists) + ~~D. 58-1982 + D. 131-98~~
+   (BOTH ACQUIRED W6 as `115_`/`116_` — evidenced EVID-415..424) +
+   TP family (D. 232-2011 + 027-2015 + DEI-SG-004-2016) + contribuciones
     statutes + D. 54-95 + Código de Comercio + DEI-9382-J-2003 I-VIII + W3
     adds (462-2014, 424-2018, post-2017 compras-eventuales instrument if any)
     + riesgos-profesionales reglamento. S-HN3 sharpened the LSP statutes
@@ -468,32 +494,44 @@ discarded md5-identical to 104_). Structure:
      force-push (root HANDOVER country model). Branch head after S-HN1/S-HN2
      commit = the synthesis-wave base; future waves branch from here.
 
-Session state at stop (2026-08-20, W5c 109_ evidence pass): evidence
-COMPLETE through **EVID-391**; corpus 108 files, **ALL evidenced** (109_ =
-G 36,460 D. 59-2023 Adulto Mayor read this session); W5+W5b merged to main
-(nineteenth §4.6 run at `cd01045`, root record `5c7185b`). **W5c committed
-on `hn-research` (this session, not yet merged — owner decision pending)**:
-R-H78 (D. 59-2023 = adición-only reform of Arts. 3/30 — **the L30,000
-credit SURVIVES unchanged**, tercera list reprinted summarized 1)-14) with
-gazette ellipses; FR-067 = 10-ago-2007 whole-life; taxation/02 OQ-009(a)
-RESOLVED, LB-017, index 248/113/140/56) + R-H79 (**cuarta edad = 80+
-DEFINED** — resolves 96_ OQ-2; D.45-2025 utility-tier predicate pinned;
-cuarta catalogue banked for S-HN5) + reformed-BENEFICIARIOS flag
-("que cumplan con la edad" vs 2007 "sin importar su edad" — two readings,
-OQ-009(b) with 14-feb-2024 cutover) + edition decrees identified (D. 5-2024
-municipal amnistía, expired — kin of 06_); COVERAGE regen 108 rows = 106
-cited + 2 N/A, gates PASS; rulings R-H1..R-H79. **Next = owner merge
-decision for W5c + the R-H75 interp/reform chain acquisition (D. 179-97
-top) + the 95_ clean-consolidation lead (109_ OQ-2); S-HN5 stays
-DEFERRED. [W5c MERGED to main 2026-08-20 — twentieth §4.6 run: 2 commits
-rewritten (`014b758..cbad485`→`47d56f8..9d1aac4`), zero conflicts, remote
-ref delete + re-push, root record `36df87c`; **corpus now FULLY EVIDENCED
-108/108 on main** (EVID-001..391).]**
+Session state at stop (2026-08-20, W6 R-H75-chain wave): evidence COMPLETE
+through **EVID-428**; corpus 117 files (108 evidenced through W5c + 9
+W6-evidenced this session); W5c merged to main (twentieth §4.6 run at
+`9d1aac4`, root record `36df87c`). **W6 committed on `hn-research` (this
+session, not yet merged — owner decision pending)**: (1) ACQUISITION — the
+old official `congreso.gob.hn/leyesdehonduras/` library recovered via
+Wayback CDX + `id_` fetch (512 PDFs catalogued; NATLEX + Mojeek/DDG
+hard-blocked from this network — recorded); 9 files registered 110-118,
+all page-1 verified, OCR sidecars authoritative; (2) EVIDENCE PASS —
+EVID-392..428 in three files; structural 3/3 + strict bank-check 246/246;
+(3) ADJUDICATIONS — **R-H80** (Art. 18 variance: gazette `113_` reads
+"1° de enero de 1983" — ordinal primero, triple-OCR-confirmed — vs 105_
+book's "10 de enero"; gazette = record → no-liability window ends
+1982-12-31; book's "10" = slip of "1°"); payroll/02 OQ-008 RESOLVED
+(D. 179-97 = jubilados/pensionados extension to Arts. 1+9 ONLY; dated
+beneficiary rows 1982-11-01→1997-12-16 permanents / +jubilados from
+1997-12-17) + OQ-009 RESOLVED (gazette pin PRIMARY via 113_; D. 2-87 Dado
+**3-feb-1987**) + NEW OQ-012 (D. 135-94 Art. 42 vigencia 07-ene-1995 vs
+Acuerdo 02-95 Art. 15's 28-oct-1994 — CONFLICT carried, FR-070 as-encoded);
+FREP/09 OQ-010 RESOLVED (D. 131-98 Art. 43 original; **operadora
+anti-cascading exclusion encoded FR-321**; manual "calendario" drift noted)
++ OQ-001 narrowed (1982+1995 selectivo states in corpus; current-state
+chain open); FREP/02 FR-073 **L50,000 savings monto ACTIVATED**
+(excess-only); FREP/07 OQ-014 narrowed (D. 54-96 + D. 110-93 acquired;
+also caught its stale 95_/97_ legs); (4) totals — payroll 326/163/170/83,
+FREP 363/157/189/169, rulings R-H1..R-H80, next EVID = 429; COVERAGE
+regenerated **117 rows = 115 cited + 2 N/A, gates PASS**. **Next = owner
+merge decision for W6 + residual chain (D. 36-90 / D. 54-95 / D. 247-89 —
+verified absent from the congreso library; routes: SAR republish, TSC/
+CEDIJ, other official Wayback mirrors) + post-W6 queue (Acuerdo 799,
+Reglamento General IHSS, Ley RAP, D. 314-98 turística watch, post-1995
+selectivo reform chain, D. 99-93) + the 95_ clean-consolidation lead
+(109_ OQ-2); S-HN5 stays DEFERRED.**
 
 ## 7. Conventions (mirroring SV)
 
 - Evidence: verbatim Spanish + gloss; candidate CRs + topic tags; doubts →
-  OQs, never guesses. Per-file OQ numbering; corpus-global EVID (next=392).
+  OQs, never guesses. Per-file OQ numbering; corpus-global EVID (next=429).
   W2b + W4 + S-HN1/S-HN2 ran subagent-dispatched with pre-allocated EVID/FR
   ranges per family — proven pattern for large batches; controller verifies
   ranges + spot-checks verbatims afterward (done for W4: ranges + 8
@@ -521,7 +559,7 @@ ref delete + re-push, root record `36df87c`; **corpus now FULLY EVIDENCED
   `00_MASTER_INDEX.md` (**created 2026-08-19 — committed; update it at every
   wave/milestone that adds EVIDs, rulings, or resolves OQs**).
 - Commits: short imperative, no emojis; push after each wave.
-- Registry additions continue numbering from `109` (103 reserved-unused);
+- Registry additions continue numbering from `119` (103 reserved-unused);
   page-1 verify everything. **11 title/gloss incidents to date** (the 11th =
   106_: title "Gaceta 29320" names only the second of its two extracts) —
   title-vs-content discipline on EVERY acquisition AND every evidence read.
@@ -532,4 +570,8 @@ ref delete + re-push, root record `36df87c`; **corpus now FULLY EVIDENCED
   of W5c — its critical passages additionally re-verified with an
   independent PSM 4 column-aware pass; the dual-pass agreement is what
   proved the Art. 30 ellipses are gazette print, not OCR loss — reuse this
-  dual-pass pattern whenever "ellipsis vs OCR-truncation" is load-bearing).
+  dual-pass pattern whenever "ellipsis vs OCR-truncation" is load-bearing;
+  110..118 as of W6 — `gs -r300 pnggray` + `tesseract --psm 6`, and the
+  W6 triple-pass (300/400/600dpi) on 113_'s Art. 18 is the R-H80 basis —
+  reuse multi-dpi convergence when a single glyph is load-bearing and no
+  image-input is available in-session).
