@@ -385,8 +385,9 @@ REFORMAS block and post-2001 repeal by CT Art. 344 ff is print-unresolvable
   substance cross-file), 48 *Acreditación de Reintegro de IVA
   Exportador Autorizado* (authorized IVA-exporter refund credit), and
   the 50-56 total-a-pagar / excedente-próximo-período casillas —
-  these being the declaration's ONLY non-annex input casillas (per
-  FR-152), each stored with its printed source reference.
+  casillas 42/46/48 being the declaration's ONLY non-annex input
+  casillas (per FR-152; the 50-56 totals are derived), each stored
+  with its printed source reference.
   (LB-005; EVID-183)
 - **SV-FREP-FR-163:** The system shall carry the pago-mínimo remnant
   row of the Pago a Cuenta tab — "Acreditamiento del Excedente del
@@ -499,12 +500,11 @@ REFORMAS block and post-2001 repeal by CT Art. 344 ff is print-unresolvable
   `taxation/04_isr-withholding.md` SV-TAX-FR-102 (payroll retention
   posts) and SV-TAX-FR-121..131 (matrix retentions); the payroll
   bases from SV-TAX-FR-104 (retention base) and the mode/threshold
-  selection behind codes 01/60 from SV-TAX-FR-106 ($9,100/$60,000
-  thresholds); the aguinaldo split from SV-TAX-FR-120 — the F-14
-  annex is the REPORTING projection of those computations (their
-  interface contract), and any base mismatch is flagged to the
-  source layer, not adjusted here. (LB-003; LB-008; EVID-180;
-  cross-ref SV-TAX-FR-102/104/106/120/121..131)
+  selection behind codes 01/60 from SV-TAX-FR-106; the aguinaldo split
+  from SV-TAX-FR-120 — the F-14 annex is the REPORTING projection of
+  those computations (their interface contract), and any base mismatch
+  is flagged to the source layer, not adjusted here. (LB-003; LB-008;
+  EVID-180; cross-ref SV-TAX-FR-102/104/106/120/121..131)
 - **SV-FREP-FR-169:** The system shall export the annex from the
   plantilla "Detalle" structure (the v16 column template of FR-137)
   under the printed numeric discipline (FR-151) and the validation
@@ -728,14 +728,17 @@ unpinned (`08_filing-calendar.md`; SOQ-08 — OQ-005 pointer).
   declaration excedente, computation or user action can change it —
   any nonzero value in that casilla is a defect (FR-163).
 - **AC-012:** Given a financial-operations retention over a CHECK
-  instrument, then it projects into the 505-507 definitive track; over
-  a liquidity-control operation, then into the 501-504 creditable
-  track; over an electronic transfer, then into 525-529; over a
-  securities-market operation, then into 519-521 (FR-159).
+  instrument, then it projects into the 505-507 definitive track; given
+  a retention over a liquidity-control operation, then it projects
+  into the 501-504 creditable track; given one over an electronic
+  transfer, then it projects into 525-529; given one over a
+  securities-market operation, then it projects into 519-521
+  (FR-159).
 - **AC-013:** Given a non-domiciled row retained at 20%, then it
   projects into the 250-314 zone's 20% track casilla of its income
-  code; given a reduced-rate transport row at 5%, then into its 5%
-  track (rates keyed to SV-TAX-FR-126 by reference) (FR-158).
+  code; given a reduced-rate transport row at 5%, then it projects
+  into its 5% track (rates keyed to SV-TAX-FR-126 by reference)
+  (FR-158).
 - **AC-014:** Given an annex row dated Enero-2024, then S/T/U/V
   export as "0"; given the same classification dated Mar-2024, then
   the canonical quartet codes from `l10n_sv.isr.costgasto.classification`

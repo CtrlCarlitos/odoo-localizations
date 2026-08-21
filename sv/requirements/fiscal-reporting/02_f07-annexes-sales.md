@@ -318,13 +318,13 @@ N+2).
 
 - **SV-FREP-FR-064:** The system shall export and validate the Anexo 1
   and Anexo 2 files under the generic upload-format engine of
-  `01_f07-declaration.md` §3.2 — SV-FREP-FR-028..041 (semicolon CSV, Text
-  cells, ≤25-char filename, two-decimal truncation, 0.00 nils,
-  DD/MM/AAAA period consistency with the CURRENT-period-only window for
-  sales annexes, last-column annex number = 1 / 2, clean-replace
-  semantics, modificatoria forced re-upload of annexes 1-2) — restated
-  here only as the interface: no format rule is duplicated in this file.
-  (LB-001; LB-005; EVID-173; EVID-174; EVID-175; cross-ref
+  `01_f07-declaration.md` §3.2 — SV-FREP-FR-028..041 (semicolon CSV ·
+  Text cells · ≤25-char filename · two-decimal truncation · 0.00 nils ·
+  DD/MM/AAAA period consistency with the CURRENT-period-only window
+  for sales annexes · last-column annex number = 1 / 2 · clean-replace
+  semantics · modificatoria forced re-upload of annexes 1-2) —
+  restated here only as the interface: no format rule is duplicated in
+  this file. (LB-001; LB-005; EVID-173; EVID-174; EVID-175; cross-ref
   SV-FREP-FR-028..041)
 - **SV-FREP-FR-065:** The system shall build both annexes' rows from
   POSTED sale-side documents (customer invoices, credit notes, debit
@@ -478,7 +478,7 @@ where a legal vintage exists.
 | FR-045 | odoo | l10n_sv.f07.annex1.row | granularity + exclusion | Voided/lost docs route to the anulados annex (04 file §3); the emitidos annex auto-derivation consumes Anexo 1/2 (EVID-178 §XVIII — 04 file's FR) |
 | FR-046 | odoo | l10n_sv.f07.annex1.row | column order A-T | Plantilla sheet "1" conformance; T = 1 on every row |
 | FR-047 | odoo | l10n_sv.f07.annex1.row + res.partner | client identification | NIT/NRC 14 max; name unlimited; DUI per XOR |
-| FR-048 | odoo | l10n_sv.f07.annex1.row | J..P buckets | L NET convention (R1/SV-EINV-FR-024 — OQ-002); M/O débito companions computed by the IVA engine (rate anchor = future IVA taxation file, cf. 01 OQ-004); P = J+K+L+N |
+| FR-048 | odoo | l10n_sv.f07.annex1.row | J..P buckets | L NET convention (R1/SV-EINV-FR-024 — OQ-002); M/O débito companions computed by the IVA engine (rate anchor = future IVA taxation file, cf. 01 OQ-004); P = J+K+L+N (addition label-inferred — OQ-002) |
 | FR-049 | odoo | l10n_sv.f07.annex1.row (move type routing) | NC/ND positive rows | Netting to 97/143 consumed by 01 FR-004/FR-006 |
 | FR-050 | odoo | l10n_sv.f07.annex1.row | XOR validation | D12: Enero-2022 gate; pre-2022 NIT/NRC mandatory; juridical → NIT always |
 | FR-051 | odoo | l10n_sv.f07.annex1.row | renta_op/renta_ingreso | D12: Enero-2025 gate else "0"; 2-char codes (printed "10" = manual typo, OQ-003) |

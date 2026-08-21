@@ -131,7 +131,7 @@ the declaration-state classification and reception rules are OWNED by
   negative) and 553 (its debit), wired from annexes 13/14 whose row models
   and D12 validity windows (Decreto 321 from Mar-2022; Ley Especial
   Transitoria de precios máximos from Abr-2022) are owned by
-  `05_f07-annexes-special.md` §3. (LB-002; EVID-179)
+  `05_f07-annexes-special.md` §3. (LB-002; EVID-179; EVID-178)
 - **SV-FREP-FR-006:** The system shall compute the Section B debit
   companions: 141/142 (debits on non-domiciled third-party CL sales with
   CCF/factura), 135 (debit on CCF sales), 140 (debit on factura sales),
@@ -259,11 +259,13 @@ the declaration-state classification and reception rules are OWNED by
   the verbatim arithmetic: **187 = 169 + 170 + 171 + 172**; **188 =
   401 + 403 + 404 + 405** (retentions/perceptions of the period per the
   amended declaration, deducted); **190 = 187 − 188 if positive**
-  (TOTAL DE IMPUESTO POR RETENCIONES Y PERCEPCIONES DEL PERÍODO), else
-  0.00; and casilla 189, *EXCEDENTE POR PAGO INDEBIDO O EN EXCESO
-  (SOLICITAR POR ESCRITO)* (excess/undue payment surplus — request in
-  writing), surfaced as the informational mirror row for the 187 < 188
-  case with the written-request flag set. (LB-005; EVID-179)
+  (TOTAL DE IMPUESTO POR RETENCIONES Y PERCEPCIONES DEL PERÍODO) — the
+  two states map 1:1: when 187 ≥ 188, 190 holds the difference and
+  casilla 189, *EXCEDENTE POR PAGO INDEBIDO O EN EXCESO (SOLICITAR POR
+  ESCRITO)* (excess/undue payment surplus — request in writing), is NOT
+  surfaced (0.00); when 187 < 188, 190 = 0.00 and casilla 189 is
+  surfaced as the informational mirror row with the written-request
+  flag set. (LB-005; EVID-179)
 - **SV-FREP-FR-024:** The system shall record casilla 523, *Acreditación
   de Reintegro de IVA Exportador Autorizado* (authorized exporter IVA
   refund credit) as a POSITIVE magnitude — the same sign convention as
@@ -392,7 +394,7 @@ the declaration-state classification and reception rules are OWNED by
   reception-side sibling is FR-214; taxonomy of modifiable matter per
   Art. 33, LB-012).
   (LB-012; EVID-343; cross-ref SV-TAX-FR-367, SV-FREP-FR-040;
-  layer: odoo)
+  verbatim matrix: taxation/16 LB-013; layer: odoo)
 - **SV-FREP-FR-214:** The system shall honor the reception contract of
   75_ Arts. 31-32 on the F-07 computation/filing surface, consumed BY
   ID from taxation/16's declaration state model (SV-TAX-FR-365/366):
@@ -422,7 +424,7 @@ default `odoo`; see §5).
 **Casilla graph — l10n_sv.f07.casilla.spec (seed data, v14; complete
 row/casilla map with sign, role and source):**
 
-| Form section / rows | Casilla (sign in formula) | Label (Spanish, abbreviated) | Role | Source | FR |
+| Form section / rows | Casilla (sign as a term of the §3.1 formulas; 146−/151− are the form's printed row marks, not formula terms — OQ-005) | Label (Spanish, abbreviated) | Role | Source | FR |
 |---------------------|---------------------------|------------------------------|------|--------|----|
 | Header | 495 · 55 | Art. 74-A flag X · nº declaración que modifica | input_flag · input_ref | res.partner/res.company + prior declaration | FR-003 |
 | A. Identificación | NIT 14 · NRC · razón 22 · actividad 14 · n. comercial 9 · teléfono 16 | identification fields | input_master | taxpayer master data | FR-002 |

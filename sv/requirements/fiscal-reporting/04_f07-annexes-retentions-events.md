@@ -682,8 +682,9 @@ own the event lifecycle this file consumes.
 - **AC-009:** Given an anulados row carrying −100.00, then it is
   accepted (CT 111 exception — the only annex admitting negatives);
   given an Anexo 10 row carrying −100.00, then it is rejected; given an
-  anulado document dated N−3, then its §XIX row is accepted, and dated
-  N−4 or a future month, rejected (FR-109, FR-119).
+  anulado document dated N−3, then its §XIX row is accepted; and given
+  an anulado dated N−4 or a future month, then its §XIX row is
+  rejected (FR-109, FR-119).
 - **AC-010:** Given a *declaración modificatoria* (amended return) of
   period 04/2026 whose prior same-period declaration carried annexes
   4/6-12, then those annexes are prefilled from the prior declaration

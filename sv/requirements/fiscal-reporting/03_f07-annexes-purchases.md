@@ -155,7 +155,8 @@ printed pages (printed page N = PDF page N+2).
   (E filled, P empty) — a row carrying both, or neither, is rejected;
   before Enero-2022 the NIT/NRC (E) is mandatory and P stays empty;
   juridical persons always carry the NIT/NRC and never a DUI.
-  (LB-001; LB-008; EVID-176; EVID-177; cross-ref SV-FREP-FR-050)
+  (LB-001; LB-008; EVID-176; EVID-177; EVID-174; cross-ref
+  SV-FREP-FR-050)
 - **SV-FREP-FR-072:** The system shall substitute the supplier NIT on
   foreign-supplier customs rows: when the supplier of a tipo 12 or
   tipo 13 row is a foreign supplier (*proveedor del exterior*), the
@@ -300,7 +301,8 @@ printed pages (printed page N = PDF page N+2).
   diferentes anexos"), every row of that operation is classified
   with code **8 "Operaciones informadas en más de 1 anexo"**
   (operations reported in more than 1 annex) in the quartet columns —
-  by parity with code 9's explicit all-four-columns rule (FR-085) —
+  by parity with code 9's explicit all-four-columns rule (FR-085; the
+  parity inference — OQ-007) —
   so that the values reported with that code are identified and NOT
   considered in the ISR declaration's cost-and-expense sums ("a
   efecto de identificar y no considerar en la suma de costos y gastos
@@ -392,17 +394,15 @@ printed pages (printed page N = PDF page N+2).
 
 - **SV-FREP-FR-092:** The system shall export and validate the Anexo
   3 and Anexo 5 files under the generic upload-format engine of
-  `01_f07-declaration.md` §3.2 — SV-FREP-FR-028..041 (semicolon CSV,
-  Text cells, ≤25-char filename, two-decimal truncation, 0.00 nils,
-  DD/MM/AAAA period consistency with the THREE-prior-period window
-  for purchase annexes per Ley IVA Art. 63, last-column annex number
-  = 3 / 5, clean-replace semantics) and the *declaración
-  modificatoria* carryover of SV-FREP-FR-040 (annexes 3-12 carried
-  over from the prior same-period declaration; a re-upload fully
-  replaces the carried rows per SV-FREP-FR-041) — restated here only
-  as the interface: no format rule is duplicated in this file.
-  (LB-008; EVID-176; EVID-177; EVID-173; cross-ref
-  SV-FREP-FR-028..041)
+  `01_f07-declaration.md` §3.2 — every format and validation rule is
+  owned by SV-FREP-FR-028..041 and consumed BY ID here (the
+  purchase-side specializations: the THREE-prior-period window per
+  Ley IVA Art. 63 — SV-FREP-FR-033 — and the last-column annex number
+  = 3 / 5 — SV-FREP-FR-034), with the *declaración modificatoria*
+  carryover of SV-FREP-FR-040 and the re-upload replace semantics of
+  SV-FREP-FR-041 likewise consumed by id — no format rule is
+  duplicated in this file. (LB-008; EVID-176; EVID-177; EVID-173;
+  cross-ref SV-FREP-FR-028..041)
 - **SV-FREP-FR-093:** The system shall feed the declaration casillas
   from the annex totals per the §4 wiring table (label-matched
   columns → casillas of `01_f07-declaration.md` FR-010/FR-011):
@@ -611,7 +611,7 @@ encoded here.
   Anexo 5 of the same declaration, then BOTH rows carry `8` in all
   four quartet columns and the ISR-side cost/gasto sums exclude their
   values; given a purchase from a municipality, then its quartet
-  reads `9`/`9`/`9`/`9` (FR-084, FR-085).
+  reads `9`/`9`/`9`/`9` (FR-084, FR-085; OQ-007).
 - **AC-006:** Given an Anexo 5 row for a 1,000.00 excluido purchase
   with the 13% retention applicable, then G=1,000.00 and H=**130.00**;
   given a DUI-carrying natural-person excluido supplier in period
@@ -659,3 +659,4 @@ encoded here.
 | OQ-004 | Anexo 5 H retention applicability ("Corresponde al 13% del monto de la operación cuando aplique"): WHEN the 13% IVA retention applies on an excluded-subject purchase (and the sujeto-excluido definition itself, CT 119 zone) is not printed in §VII — IVA-side retention-regime matter for the future IVA taxation file (01 §7 OQ-004 kin). FR-089 consumes the applicability determination; it does not define it. When the IVA file lands, the index task wires the cross-references. | no | Takumi S3 (index task) + future IVA taxation wave | open — ANSWERED by S9 13_iva-retentions (excluido 13% regime defined; SV-TAX-FR-313 zone) |
 | OQ-005 | Post-entero re-entry period attribution: "posterior al entero ... se incorporará en la casilla 128" does not print whether the credit enters the declaration of the entero's OWN period or the FOLLOWING one. FR-091 encodes the entero's own period. Confirm against MH system behavior (or the annex-modification resolutions — 01 §7 OQ-001 kin). | no | Takumi S3 | open |
 | OQ-006 | Wiring label-inferences: (a) H (internaciones exentas) and I (importaciones exentas) merge into the single casilla 70; (b) the N crédito splits into casillas 125/126/127/130 by gravadas bucket (K→126, L→125, M→127, J→130) — the manual prints one N column, the form four credit casillas; (c) the tipo-12→L/I and tipo-13→M channel associations (services have no merchandise declaration); (d) O is not wired to any casilla (casilla 100 sums casillas per 01 FR-013). All label-matched from LB-009's form labels; confirm against MH auto-totalization behavior. | no | Takumi S3 | open |
+| OQ-007 | Code-8 all-four-columns fill: §V's code-8 note ("Cuando una misma operación es informada en diferentes anexos, ésta debe ser clasificada con el código 8 ...") prints no per-column fill rule — the explicit all-four-columns wording ("las 4 columnas anteriores (Q, R, S, T) deberán ser completadas con el código '9'") is printed for code 9 only (LB-004). FR-084 encodes code 8's fill in all four quartet columns by parity with code 9 (FR-085); AC-005 asserts it. Confirm against a live MH upload or the annex-modification resolutions (01 §7 OQ-001 kin). | no | Takumi S3 | open |
