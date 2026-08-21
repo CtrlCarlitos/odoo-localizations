@@ -39,7 +39,7 @@ by id, never re-derived. Source-to-requirements coverage:
 | [08_cesantia-preaviso.md](08_cesantia-preaviso.md) | Preaviso 24h-2m scale + in-lieu, cesantía 10d/20d/1mo-yr + fraction, 25/15-month caps, 35%/75% variants, last-6-month base ÷ days worked, salarios caídos, pregnancy penalties, constancia, NO final-pay deadline (negative) (P10) | HN-PAYR-FR-291..325 | 35 | 14 | 22 | 7 |
 | [09_suspension-maternity-special.md](09_suspension-maternity-special.md) | 15 suspension causes, CT sickness half-pay layering vs RIT, CT maternity 4+6w + 180-day base + IHSS reconciliation, minors, domésticos (cash-only base), riesgo profesional residual (P11) | HN-PAYR-FR-331..357 | 27 | 11 | 13 | 5 |
 | [10_salario-concepts-records.md](10_salario-concepts-records.md) | Salario taxonomy (habitual+retributive; in-kind ≤30%), pay periods, salario completo indemnity base, mandatory deductions (union/non-union/coop), embargo caps (1959 nominals dated), Libro de Salarios/planillas, contract chassis + retroactive start, **85_ mislabel guard (EVID-333)** (P12) | HN-PAYR-FR-371..398 | 28 | 20 | 16 | 3 |
-| **Total** | | HN-PAYR-FR-001..398 | **327** | **164** | **171** | **83** |
+| **Total** | | HN-PAYR-FR-001..398 | **328** | **165** | **172** | **83** |
 
 Numbering note: FR ranges pre-allocated per file (subagent dispatch
 pattern); unused tails/reserved gaps (042-050, 097-100 (087 + 088-096 consumed at V-HN1/W5), 136-140, 171-180,

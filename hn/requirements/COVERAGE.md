@@ -8,11 +8,11 @@
 | Authors | script `hn/scripts/build_coverage.py` (regenerate after every wave) |
 | Updated | 2026-08-20 |
 
-Every row of [../sources/README.md](../sources/README.md) (118 registered files, gap 103 reserved-unused) mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1095 FRs, 503 LB rows, 574 ACs, 325 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 248, e-invoicing 157, fiscal-reporting 363, payroll 327).
+Every row of [../sources/README.md](../sources/README.md) (128 registered files, gap 103 reserved-unused) mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1097 FRs, 511 LB rows, 574 ACs, 326 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 249, e-invoicing 157, fiscal-reporting 363, payroll 328).
 
 Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row of a requirements file (citing file(s) + LB ids listed); **not-applicable-this-wave** — explicit annotation with reason (superseded/historical, in-corpus-unread pending evidence pass, or out of scope for the four topics).
 
-## Matrix (118 source files)
+## Matrix (128 source files)
 
 | Source | Status | Cited in / note |
 |--------|--------|-----------------|
@@ -109,7 +109,7 @@ Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row
 | 87_Ley_IHSS_TSC.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-005+LB-006+LB-007+LB-008+LB-009+LB-010+LB-011+LB-012+LB-013+LB-014); `payroll/04_ihss-incapacidad.md` (LB-012+LB-013+LB-014); `taxation/02_isr-deductions.md` (LB-012) |
 | 88_Reglamento_Incapacidad_Temporal_IHSS.pdf | cited-as-LB | `payroll/04_ihss-incapacidad.md` (LB-001+LB-002+LB-003+LB-004+LB-005+LB-006+LB-007+LB-008+LB-009+LB-010+LB-011) |
 | 93_Decreto_31-2019_interp_reforma_D31-2018_22A.pdf | cited-as-LB | `taxation/03_isr-rates-gains-minimum.md` (LB-013) |
-| 94_Acuerdo_464-1990_Regl_Art50_LeyISR.pdf | not-applicable-this-wave | HISTORICAL reglamento-chain ancestor (1990 retention values: L10k gate, 5% honorarios, 20-day entero — all superseded). V-HN1b: evidenced EVID-351..352-class chain rows in `93+94+97_chain.evidence.md` (values confirmed; no printed derogation clause; every CR tagged HISTORICAL-NEVER-CURRENT). Explicitly NOT the modern Reglamento Ley ISR ('Acuerdo N°799', still unacquired — top lead). |
+| 94_Acuerdo_464-1990_Regl_Art50_LeyISR.pdf | not-applicable-this-wave | HISTORICAL reglamento-chain ancestor (1990 retention values: L10k gate, 5% honorarios, 20-day entero — all superseded). V-HN1b: evidenced EVID-351..352-class chain rows in `93+94+97_chain.evidence.md` (values confirmed; no printed derogation clause; every CR tagged HISTORICAL-NEVER-CURRENT). Explicitly NOT the modern Reglamento Ley ISR ('Acuerdo N°799' — W8/R-H83: identity pinned = G 19,972 13-ene-1970; TEXT still unacquired). |
 | 95_Decreto_199-2006_Ley_Adulto_Mayor.pdf | cited-as-LB | `taxation/02_isr-deductions.md` (LB-015) |
 | 96_Decreto_45-2025_reforma_Adulto_Mayor.pdf | not-applicable-this-wave | V-HN1b: evidenced EVID-342..344 (services-discount side: Art. 31 utilities tiers 25/30%/35/40%, Arts. 31-A/31-B Fiscalía/visible-info) — verified NOT to touch the Art. 30.14 deduction (OQ-008 resolution leg). Out of the four approved topics' scope (special-regimes/commercial-legal territory); cite there when those waves open. |
 | 97_Decreto_194-2002_Ley_Equilibrio_Financiero.pdf | cited-as-LB | `taxation/02_isr-deductions.md` (LB-016) |
@@ -134,14 +134,24 @@ Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row
 | 117_Gaceta_1993-08-14_Decreto_110-93_Ley_Simplificacion_Tributaria.pdf | cited-as-LB | `fiscal-reporting/02_djimr-retention-declarations.md` (LB-022) |
 | 118_Gaceta_27941_Decreto_54-96_reformas_tributarias.pdf | cited-as-LB | `fiscal-reporting/07_isr-annual-102-103.md` (LB-015) |
 | 119_Congreso_Inventarios_de_Leyes.pdf | cited-as-LB | `payroll/02_13th-14th-bono.md` (LB-025) |
+| 120_Gaceta_33222_DL107-2013_Ley_RAP.pdf | cited-as-LB | `payroll/05_rap-fondo.md` (LB-016) |
+| 121_Gaceta_30059_Decreto_51-2003_Ley_Equidad_Tributaria.pdf | cited-as-LB | `fiscal-reporting/07_isr-annual-102-103.md` (LB-016) |
+| 122_Gaceta_28jun2003_Acuerdo_0948-2003_Regl_Ley_Equidad_Tributaria.pdf | cited-as-LB | `fiscal-reporting/07_isr-annual-102-103.md` (LB-017) |
+| 123_Gaceta_30437_Decreto_52-2004_interp_Art49_51-2003.pdf | cited-as-LB | `fiscal-reporting/07_isr-annual-102-103.md` (LB-017) |
+| 124_Gaceta_28847_Decreto_314-98_Ley_Incentivos_Turismo.pdf | cited-as-LB | `taxation/07_special-regimes-exonerations.md` (LB-011) |
+| 125_Gaceta_31168_Decreto_135-2006_Adicion_Art5_314-98.pdf | cited-as-LB | `taxation/07_special-regimes-exonerations.md` (LB-011) |
+| 126_Gaceta_34419_Decreto_68-2017_Ley_Fomento_Turismo.pdf | cited-as-LB | `fiscal-reporting/09_selectivo-declarations.md` (LB-013); `taxation/07_special-regimes-exonerations.md` (LB-011) |
+| 127_Acuerdo_005-2017_G34282_Regl_produccion_consumo.pdf | cited-as-LB | `fiscal-reporting/09_selectivo-declarations.md` (LB-014) |
+| 128_Gaceta_9jul1993_Decreto_99-93.pdf | cited-as-LB | `fiscal-reporting/02_djimr-retention-declarations.md` (LB-019) |
+| 129_Gaceta_27655_May1995_Decreto_74-95_interp_Art34_135-94.pdf | cited-as-LB | `payroll/02_13th-14th-bono.md` (LB-026) |
 
 ## Rollup
 
 | Status | Rows |
 |--------|------|
-| cited-as-LB | 116 |
+| cited-as-LB | 126 |
 | not-applicable-this-wave | 2 |
-| **Total** | **118** |
+| **Total** | **128** |
 
 ## V-HN1 gate-1 findings (2026-08-20, fixed in this wave)
 

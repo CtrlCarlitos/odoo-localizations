@@ -302,6 +302,39 @@ corpus documents but absent; logged per evidence-file OQs):**
   but YIELDED the Inventarios + LISTADO_LEYES catalogues; (D) SAR wp-json —
   posts-only, empty (known). Remaining: pre-2015 gazette archive (none located),
   NATLEX (network-blocked), labeled non-official mirror at synthesis time.
+
+**W8 ACQUISITION WAVE (2026-08-21 — the post-W6 queue executed; 10 files
+registered `120_`..`129_`):**
+- **ACQUIRED:** `120_` **Ley RAP D.L. 107-2013 ORIGINAL** (G 33,222
+  6-sep-2013) — via the **Wayback of rap.hn's own dead PDF link**
+  (`web.archive.org/web/20170124041149id_/http://www.rap.hn/pdf/leyrap1.pdf`
+  — the recipe for any rap.hn doc: CDX `url=rap.hn*&filter=mimetype:application/pdf`
+  + `id_` fetch; NOTE the site's "Reglamento-F.pdf"/"reglamento-1.pdf" are
+  PROMOTIONAL contest rules — caught at page-1 read and discarded, NOT
+  registered; the incident ledger stays at 11);
+  `121_` **D. 51-2003 LET** (G 30,059) + `122_` **Acuerdo 0948-2003** (its
+  reglamento, gazette 28-jun-2003) + `123_` **D. 52-2004** (Art.-49 interp,
+  G 30,437) — all three SAR-catalog fetches (slugs in registry); `124_`
+  **D. 314-98** + `125_` **D. 135-2006** + `126_` **D. 68-2017** (the turismo
+  family; 68-2017 DEROGATES 314-98 and adds the tasa-turística Art.-21
+  procedure — the tasa itself stays D. 131-98 Art. 43, untouched, negative
+  finding) + `127_` **Acuerdo 005-2017** (selectivo/production-consumption
+  reglamento, G 34,282, TEXT-NATIVE) — SAR fetches; `128_` **D. 99-93**
+  (FX-repatriation, leyesdehonduras Wayback) and `129_` **D. 74-95 TEXT**
+  (the Art.-34 interp — **found in the W6 `leyesdir.cdx` the W7 hunt never
+  re-grepped: 'routes exhausted' claims must always be re-checked against
+  EVERY prior enumeration, not just the routes tried last**).
+- **DECODED (119_ re-read, EVID-479..481):** "Acuerdo N°799" = the ISR
+  reglamento of **1970** (G 19,972 13-ene-1970; +6-B Art. 33 patch 1975;
+  31_'s "799-1963" = manual slip) — R-H83; text stays unacquired. The
+  inventory's IHSS block carries NO Reglamento General (one more route
+  exhausted for that TOP lead). NEW lead: **Acuerdo 1515-2003** (G 30,270
+  20-dic-2003, second LET reglamento — Arts. 50/51; not in SAR catalog).
+- **NEW refined lead: D. 278-2013** — one instrument, three open questions:
+  the AS FY2014+ re-establishment (121_ Art. 22 was TEMPORAL 2003-2005), the
+  devolución-8% suspension Arts. 20-21 (41_ OQ-3 residual), and the
+  Ordenamiento frame. Plus: Acuerdo 618-A-2017 (turismo reglamento);
+  127_'s image-only rates cuadro.
 - **Reglamento General del IHSS / Régimen Obligatorio** — the contribution
   BASE definition (13th/14th/OT inclusion) is delegated wholesale by Ley
   Art. 100; also inscription deadlines, salario categories. TOP lead (W4b).
@@ -465,6 +498,18 @@ cited by corpus documents but absent; logged per evidence-file OQs):**
   gazette pins; (c) when a single printed glyph is load-bearing (the W7
   "74-95 vs 54-95" case), re-OCR the SAME file at 300 AND 600dpi and require
   agreement — this is what flips a W4-grade transcription defect into a ruling.
+- **W8 additions:** (a) **rap.hn via Wayback CDX** — the institution's own
+  law PDFs are dead on the live site but archived
+  (`cdx?url=rap.hn*&filter=mimetype:application/pdf` then `id_` fetch);
+  promo-titled PDFs on that site are contest rules, always read page 1
+  before registering; (b) **SAR catalog slugs TRUNCATE** — the download-page
+  hrefs genuinely end mid-word (e.g. `...equidad-tributar`); fetch_sar.py
+  works with the truncated slug as-is; (c) **two-column gazette OCR at
+  scale**: run per-page `gs -r300 pnggray` + `tesseract --psm 6`, then
+  de-interleave at evidence time (never quote raw interleaved spans);
+  text-native layers (127_) skip all this (`gs txtwrite`); (d) when a
+  hunt fails, re-grep EVERY saved CDX enumeration for the target name
+  before declaring exhaustion (the 129_ lesson).
 
 ## 7. Hint layer — practitioner recollections (pointers only, never LB)
 

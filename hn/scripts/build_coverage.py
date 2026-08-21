@@ -20,7 +20,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 REG = os.path.join(ROOT, "hn/sources/README.md")
 REQ = os.path.join(ROOT, "hn/requirements")
 TOPICS = ["taxation", "e-invoicing", "fiscal-reporting", "payroll"]
-EXPECTED = {"taxation": 248, "e-invoicing": 157, "fiscal-reporting": 363, "payroll": 327}
+EXPECTED = {"taxation": 249, "e-invoicing": 157, "fiscal-reporting": 363, "payroll": 328}
 
 # Explicit per-source status/notes. Sources absent here must be LB-cited (G1).
 # Vocabulary mirrors SV's COVERAGE.md:
@@ -35,7 +35,7 @@ SOURCES = {
         "not-applicable-this-wave",
         "HISTORICAL reglamento-chain ancestor (1990 retention values: L10k gate, 5% honorarios, 20-day entero — all superseded). "
         "V-HN1b: evidenced EVID-351..352-class chain rows in `93+94+97_chain.evidence.md` (values confirmed; no printed derogation clause; "
-        "every CR tagged HISTORICAL-NEVER-CURRENT). Explicitly NOT the modern Reglamento Ley ISR ('Acuerdo N°799', still unacquired — top lead)."),
+        "every CR tagged HISTORICAL-NEVER-CURRENT). Explicitly NOT the modern Reglamento Ley ISR ('Acuerdo N°799' — W8/R-H83: identity pinned = G 19,972 13-ene-1970; TEXT still unacquired)."),
     "95_Decreto_199-2006_Ley_Adulto_Mayor.pdf": (
         "not-applicable-this-wave",
         "IN CORPUS UNREAD (V-HN1 status fix): acquired 2026-08-19 but never given an evidence pass; the S-HN1 'D. 199-2006 "

@@ -38,11 +38,60 @@ layer + 5/5 glyph probes vs 600dpi; structural payroll/02 47 FRs/25 LBs/22
 ACs/13 OQ rows = index; COVERAGE regen 118 rows = 116 cited + 2 N/A, gates
 PASS (1095/503/574/325). Payroll totals 326→327 FRs, 164 LBs, 171 ACs;
 rulings R-H1..R-H82; next EVID = 434.**
-Next = post-W6 queue (Acuerdo 799, Reglamento General IHSS, Ley RAP,
-D. 314-98, post-1995 selectivo chain, D. 99-93, 95_ clean consolidation,
-D. 247-89 text).**
+**W8 acquisition wave COMPLETE 2026-08-21 (this session,
+on-branch): TEN files `120_`..`129_` registered + evidenced EVID-434..481
+(48 EVIDs) — Ley RAP ORIGINAL (R-H85: pre-2024 = 10-empleado gate +
+"Patrono aportante" + full-base 1.5/1.5; IVM-excess = 2024 insert; 47_'s
+transcription COMPLETE — payroll/05 OQ-003/OQ-006 RESOLVED, FR-216/AC-019);
+D. 51-2003 LET (R-H84: ATN = Cap. II Arts. 5-16, 1% Art. 7, L3M
+excess-only, ISR-credit — FREP/07 OQ-010 RESOLVED; AS Art. 22 TEMPORAL
+2003-2005 → NEW lead D. 278-2013) + 0948-2003 reglamento + 52-2004 interp;
+turismo family 314-98/135-2006/68-2017 (314-98 DEROGATED 17-ago-2017;
+tasa-259 procedure = D. 68-2017 Art. 21, creation stays D. 131-98
+Art. 43 — taxation/07 FR-282, FREP/09 LB-013); Acuerdo 005-2017 selectivo
+reglamento (FREP/09 LB-014, OQ-001 procedure leg closed); D. 99-93
+(FREP/02 OQ-009 mechanism leg) + D. 74-95 TEXT (payroll/02 FR-057
+statute-anchored; W7 routes-exhausted claim corrected); "Acuerdo 799"
+identity DECODED = G 19,972 13-ene-1970 (R-H83 — five consumer OQs
+annotated); verification = structural 48/48 EVIDs contiguous + 3-gram
+bank-check with LOWs adjudicated; COVERAGE 128 rows = 126 cited + 2 N/A,
+gates PASS (1097/511/574/326). Totals: payroll 328/165/172/83, taxation
+249/114/140/56, rulings R-H1..R-H85, next EVID = 482.**
+Next = the residual queue (Reglamento General IHSS TOP; "Acuerdo 799" TEXT
+(1970); D. 278-2013 (AS re-establisher + devolución-8% suspension);
+D. 247-89 text watch; D. 54-95/36-90 completeness; D. 96-2012; LSP/
+contribuciones statutes; Código de Comercio; SEE docs; S-HN5 DEFERRED).**
 
 ## Wave log
+
+- **W8 acquisition wave (2026-08-21, DONE — acquisition + evidence + fold-ins,
+  controller-executed with 6 evidence dispatches [3 shape-(b) failures
+  re-dispatched; B/D controller-executed after triple failure]):**
+  10 files registered (`120_`..`129_`, registry rows with full provenance;
+  11-incident ledger unchanged — two rap.hn promo PDFs caught+discarded at
+  page-1). Evidence: 7 files (6 dispatched + 119_ addendum), EVID-434..481,
+  pre-allocated per family (120_=434..441, 121_=442..452, 122/123=453..459,
+  124-126=460..467, 127_=468..473, 128/129=474..478, 119_ addendum=479..481).
+  OCR sidecars at 300dpi/psm6 for all scans; 127_ text-native (txtwrite).
+  Rulings: **R-H83** (Acuerdo 799 = the 1970 ISR reglamento, G 19,972
+  13-ene-1970 + 6-B Art. 33 patch; "799-1963" = slip; text unacquired),
+  **R-H84** (ATN = LET Cap. II Arts. 5-16 — no instrument conflict; AS
+  Art. 22 temporal 2003-2005 → D. 278-2013 re-establisher lead),
+  **R-H85** (Ley RAP original-vs-reformed delta: 10-empleado/"Patrono
+  aportante"/full-base pre-2024; IVM-excess = 2024 insert; transcription
+  complete). Fold-ins: payroll/05 (LB-016, FR-216, AC-019, OQ-003/OQ-006
+  RESOLVED), payroll/02 (FR-057 + LB-026 statute anchor, OQ-002 residual
+  note), FREP/07 (FR-257 rewrite, LB-016/017, OQ-010 RESOLVED, OQ-014
+  narrowed), FREP/04 (OQ-003 narrowed), FREP/02 (FR-073 + LB-019, OQ-009
+  mechanism pinned), FREP/09 (LB-013/014/015-row OQ-015, OQ-001 narrowed,
+  LB-012 watch closed), taxation/07 (LB-011, FR-282, OQ-004 narrowed),
+  taxation/02/03/04 + FREP/06/08 (R-H83 annotations; FREP/06 OQ-003
+  narrowed). Master index: +EV120..129, +R-H83..85, Section-C W8 delta.
+  Verification: EVID structural 48/48 contiguous zero-collision; 3-gram
+  coverage bank-check (accent-insensitive) with all LOWs adjudicated
+  (English-gloss artifacts; interleave boundaries; one correctly-attracted
+  27_-delta quote); COVERAGE regen 128 rows = 126 cited + 2 N/A, gates PASS
+  (1097/511/574/326).
 
 - **W7 residual-chain decode (2026-08-21, DONE — acquisition + evidence pass +
   synthesis updates, controller-executed):** one file acquired

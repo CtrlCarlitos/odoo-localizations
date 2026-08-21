@@ -37,7 +37,7 @@ consumed by id, never re-derived. Source-to-requirements coverage:
 | [09_selectivo-declarations.md](09_selectivo-declarations.md) | Selectivo declarations 203 (**W6: D. 58-1982 acquired `115_` — 1982 cc-tier canasta + 1995 flat-20% states in corpus, live-period gap narrowed OQ-001**) / 211 cigarettes per-millar / 210 gaseosas / 205 alcoholes / 204 cerveza / 259 turística 4% (**W6: D. 131-98 acquired `116_` — Art. 43 original, anti-cascading exclusion encoded, OQ-010 resolved**) + the IPC value chain 172-2022→014-2023→218-2024 as DIRECT-cited dated rows (F9) | HN-FREP-FR-296..325 | 30 | 12 | 20 | 14 |
 | [10_tp-545-informativas.md](10_tp-545-informativas.md) | TP 545 DJIAPT (USD 1M pequeño gate, 56 op types → 10 annexes, interquartile range, Ajuste-PT write-back) + informativas 541 socios / 542 alquiler / 543 municipalidades (F10) | HN-FREP-FR-326..360 | 35 | 12 | 16 | 24 |
 | [11_contribuciones-sector.md](11_contribuciones-sector.md) | LSP/sector family: monthly trio 502 telefonía 1% / 503 franquicias 0.5% / 504 casinos 1% + annual quartet 506 coops 3.6% / 509 CONSUCOOP 15%+0.5% floor / 511 sector social 15% / 107 educativas 10%; 506-vs-509 boundary BLOCKED on statutes (F11) | HN-FREP-FR-361..393 | 33 | 11 | 18 | 21 |
-| **Total** | | HN-FREP-FR-001..393 | **363** | **157** | **189** | **169** |
+| **Total** | | HN-FREP-FR-001..393 | **363** | **160** | **189** | **170** |
 
 Numbering note: FR ranges pre-allocated per file (subagent dispatch
 pattern); unused tails (033-040, 077-085, 116-120, 149-150, 188-190,
