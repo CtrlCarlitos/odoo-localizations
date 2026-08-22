@@ -6,7 +6,7 @@
 | Topic   | fiscal-reporting |
 | Status  | draft |
 | Authors | Takumi synthesis wave S-HN3 + controller |
-| Updated | 2026-08-20 |
+| Updated | 2026-08-22 (R-H91 owner ruling folded in: OQ-009 resolved, FR-382 selector guidance encoded) |
 
 ## 1. Purpose
 
@@ -29,7 +29,8 @@ contribución por excedente de operaciones de instituciones educativas 10%
 first-10-days trio per ruling R-H28; the 506/509 Mar-30 and 511 close+3m
 annual rows), the 509 loss-floor and *fuerza mayor* waiver mechanics
 (May-31 auditor-firm report for savings-and-credit coops), the R-H34
-glossary guard, and the 506-vs-509 boundary gate (BLOCKED on statute texts).
+glossary guard, and the 506-vs-509 boundary gate (R-H91 owner ruling
+2026-08-22: CONSUCOOP-gated — Reading B).
 
 It does **not** cover: the generic OVI/SW **filing-lifecycle chassis**
 (login→alta→pendiente→borrador→juramento→acuse/QR, estado pills,
@@ -268,18 +269,25 @@ bind throughout.
   instruction), with the 1-day gap carried as a conflict flag pending
   the D. 53-2015 text. (LB-004; EV56:EVID-167)
 - **HN-FREP-FR-382:** The system shall implement the cooperative-sector
-  regime boundary as an EXPLICIT, BLOCKED selector: the 509-vs-511 line
-  is drawn by the manuals themselves (D. 53-2015/92-2015 in/out =
-  CONSUCOOP-recognized vs the rest — FR-377/FR-383), but the 506-vs-509
-  boundary is drawn NOWHERE — both manuals say "Cooperativas" as
-  subjects, both are live OVI forms (≥2024), the instruments differ by
-  four years and the designs differ (3.6% net vs 15% + floor +
-  exemptions), and neither states a derogation, transition or population
-  split — so assigning any cooperative to 506 or 509 requires an explicit
-  administrative regime selection; the system shall never auto-assign,
-  never file both silently for one taxpayer-period, and shall surface the
-  open question until the statute texts land (OQ-009, BLOCKED).
-  (LB-004; LB-005; EV56:EVID-168/172)
+  regime boundary as an EXPLICIT selector under ruling **R-H91 (product
+  owner, 2026-08-22 — Reading B: CONSUCOOP-gated)**: the 506-vs-509 line
+  is drawn by CONSUCOOP recognition — cooperativas reconocidas y
+  reguladas por CONSUCOOP fall under D. 53-2015/92-2015 (ISR/ATN/AS
+  exonerated from FY2014 → **código 509**, 15% + 0.5% floor +
+  exemptions) while NON-recognized cooperativas stay on the LSP Art. 44-A
+  lane (**código 506**, 3.6% on excedentes netos). Basis: the reformed
+  D53-Art. 3 sentence is unqualified but so was the original, and every
+  OTHER operative article of both decrees (reformed Art. 7 sanctions,
+  Art. 3-92 liberation window, D. 46-2016/D. 131-2018 siblings) is
+  CONSUCOOP-gated — Reading B carries the witnesses (LB-004; LB-005;
+  LB-013; EV56:EVID-168/172; EV149:EVID-567). The selector keeps its
+  safeguards: the system shall never auto-assign a lane silently, never
+  file both for one taxpayer-period, and shall record an explicit
+  administrative regime selection per cooperative partner with the
+  CONSUCOOP-recognition status as the guided default; the ruled rows stay
+  REVERSIBLE if a contrary instrument or administrative practice lands
+  (owner ruling, not statute text). (LB-004; LB-005; LB-013;
+  EV56:EVID-168/172; EV149:EVID-567)
 
 ### 3.4 Código 511 — sector social de la economía
 
@@ -403,7 +411,7 @@ derived-values rule for anything the prints do not state.
 | l10n_hn.contribucion.parameter (new) | código, parameter, value, valid_from, valid_to, source, statute_status | select/monetary/date/char | rate: 502=1% · 503=0.5% (post-D.31-2018 row; pre-2018 = gap) · 504=1% · 506=3.6% (Acuerdo 1775-2011 Art. 40) · 509=15% + floor_rate=0.5% · 511=15% · 107=10%; base_kind: gross_monthly (trio) · net_excess_prior_fy (506/509/511) · operating_surplus (107); statute_status: manual_vintage · lead_pending | FR-368, FR-371, FR-373, FR-375, FR-378, FR-379, FR-384, FR-387, FR-393 |
 | l10n_hn.frep.obligation (family instance) | código, cadence, due_rule, due_day_semantics, boletin_caducidad | select | cadence: monthly (502/503/504) · annual (506/509/511/107); due_rule: first_10_days_next_month (trio, semantics=calendario flagged-assumption) · mar_30_manual (506; 509 operative under conflict flag) · mar_31_derived (511) · none_consumed_by_id (107 → file 07 FR-221) | FR-363, FR-374, FR-376, FR-381, FR-385, FR-389 |
 | l10n_hn.contribucion.declaration (new) | código, period (month/year), state, base, tarifa, impuesto, floor_applied, b_pagos, b_excedente, b_compensar, b_cesiones, acuse_code, acuse_qr, boletin_no | select/date/monetary/char | código: 502 · 503 · 504 · 506 · 509 · 511 · 107; state: borrador → presentada → rectificativa/rechazada (chassis file 01); sections per FR-361 layout; D-H2.5 freeze on presented records | FR-361, FR-362, FR-366 |
-| l10n_hn.contribucion.regime.selector (new) | partner, family_lane, selection_basis, selected_by, selected_on | select/m2o/date | family_lane: coop_506 · coop_509 · sector_social_511 (506/509 mutually-exclusive manual choice; 509/511 boundary = CONSUCOOP/D.53-92-2015 exclusion); selection blocked-flag while OQ-009 open | FR-382, FR-383 |
+| l10n_hn.contribucion.regime.selector (new) | partner, family_lane, selection_basis, selected_by, selected_on | select/m2o/date | family_lane: coop_506 · coop_509 · sector_social_511 (506/509 mutually-exclusive manual choice guided by R-H91 CONSUCOOP-recognition boundary — recognized→509, non-recognized→506, rows reversible; 509/511 boundary = CONSUCOOP/D.53-92-2015 exclusion) | FR-382, FR-383 |
 | res.partner | casino_license_holder, telco_mobile_operator_pj, franchise_food_beverage, under_special_regime, coop_consuccoop_recognized, sector_social_entity, education_private_not_isr22 | boolean | subject gates per código; dual-condition gate 503 = franchise_food_beverage AND under_special_regime; education gate consumed from taxation/05 FR-183 | FR-367, FR-370, FR-372, FR-377, FR-383, FR-386 |
 | l10n_hn.contribucion.waiver (new, 509) | declaration, case_kind, accredited_on, cyc, auditor_firm, report_due (May-31), scope_flag | select/date/boolean | case_kind: caso_fortuito · fuerza_mayor; scope_flag carries OQ-007 (floor removal vs accreditation-only) | FR-380 |
 | l10n_hn.contribucion.education.reconcile (new, 107) | declaration, dj_isr_ref, excedente_declared, excedente_djisr, match | m2o/monetary/boolean | Rec.4 integrity cross-check; warning-only | FR-388 |
@@ -425,7 +433,7 @@ Model names stable across Odoo 17/18/19/20.
 | FR-374 | odoo | l10n_hn.frep.obligation due rows | trio deadlines | Días calendario default flagged-assumption (master-index W2 rule; `04_ OQ-3` discipline; OQ-020); D15 snapshot-on-write |
 | FR-375..FR-376 | odoo | declaration compute (506) + due rows | 3.6% net excess | §1 controls over the form's doubles-subtract print (OQ-011); Mar-30 row; SAR fiscalización/CT sanctions = hooks only |
 | FR-377..FR-381 | odoo | regime selector + partner gates + declaration compute (509) + waiver model | 15%/floor engine | Prior-FY base; floor on legal ingresos-brutos definition (casilla mismatch OQ-006); waiver May-31 CyC gate (scope OQ-007); deadline conflict row Mar-30-operative (OQ-005) |
-| FR-382 | odoo | l10n_hn.contribucion.regime.selector | 506/509 boundary | BLOCKED selector (OQ-009): explicit admin choice required; no auto-assignment, no silent dual-filing |
+| FR-382 | odoo | l10n_hn.contribucion.regime.selector | 506/509 boundary | R-H91 CONSUCOOP-gated boundary (owner ruling 2026-08-22): explicit admin choice with recognition-guided default; no auto-assignment, no silent dual-filing; rows reversible |
 | FR-383..FR-385 | odoo | partner gate + declaration compute (511) | 15% + fondos catalog | Fondos resolved as deductions per form (OQ-013 flag); Mar-31 derived-flagged row (OQ-014); no loss floor (encoded absence) |
 | FR-386..FR-389 | odoo | partner gate (by id from taxation/05 FR-183) + declaration compute (107) + reconcile model | 10% operating surplus | Base semantics consumed by id (taxation/05 FR-182, LB-004 = EV04:EVID-043); no independent deadline row (OQ-015; window = file 07 by id) |
 | FR-390 | odoo | state feed to file 07 FR-263 | by-id interface | 506 + 107 = Apr-30 package members (EV29:EVID-110 via file 07 LB-011); this file binds declaration states only, owns no Apr-30 row |
@@ -484,8 +492,9 @@ effect per the statute's own vigencia, with filed-period protection
   2027-03-31 (FR-381).
 - **AC-011:** Given a cooperative partner with no explicit 506/509 regime
   selection, then neither obligation auto-generates and the selector
-  surfaces the blocked boundary question; a manual selection of 506 does
-  not silently open 509 (FR-382).
+  surfaces the R-H91 guidance (CONSUCOOP-recognized → 509 lane;
+  non-recognized → 506 lane) requiring administrative confirmation; a
+  manual selection of 506 does not silently open 509 (FR-382).
 - **AC-012:** Given a social-economy PJ excluded from D. 53-2015/92-2015
   with ingresos L10M, gastos L5M, fondos (catalogued) L2M, then the 511
   Utilidad = L3M and the determination = 15% = L450,000.00; due row =
@@ -524,7 +533,7 @@ effect per the statute's own vigencia, with filed-period protection
 | OQ-006 | `59_ OQ-2` (carried, C2 — CONFIG): "ingresos brutos" casilla semantics — generalidades = ingresos totales − descuentos/rebajas/devoluciones, but form §B labels the excedente-bruto stage "Ingresos Brutos"; FR-379 computes the floor on the legal definition; pin actual casilla semantics from the live 509 form. | no | Takumi S-HN3 | open |
 | OQ-007 | `59_ OQ-3` (carried, C2 — CONFIG): loss-floor fuerza-mayor waiver scope — does the exception remove the 0.5% floor entirely or only the acreditar-on-time duty? Statutory text needed; FR-380 ships the scope flag. | no | acquisition queue | open |
 | OQ-008 | `59_ OQ-4` (carried, C2 — VERIFY): §9 lists D. 170-2016 (the Código Tributario) as a REFORM of D. 53-2015 — conflation with the CT citation, or did a D. 170-2016 provision touch D. 53-2015? Verify on acquisition. → **NARROWED W10 (grep-negative, EV149:EVID-577):** D. 92-2015's own body names NO Código Tributario instrument (its reform mandate = D53 Arts. 3/4/7 only); the 59_ §9 listing remains manual-side only — the "D. 170-2016 reform" claim stays unverified (likely manual conflation), now with one instrument-side negative witness. | no | manual-vintage flag | open (narrowed W10) |
-| OQ-009 | `60_ OQ-1` (C2 — LEAD): **THE 506-vs-509 boundary — NARROWED W9 + W10**: D. 53-2015 acquired W9 (`138_`; exonerations = ISR/ATN/AS only; 506 untouched); **D. 92-2015 ACQUIRED W10 as `149_` (G 33,883; Dado 8-sep-2015, Ejecútese 22-sep-2015, published+vigencia 14-nov-2015; LB-013): it reforms D53 Arts. 3/4/7 ONLY — grep-negative on "Seguridad Poblacional"/"44-A"/"transacciones financieras" → the LSP Art. 44-A 3.6% (código 506) remains UNTOUCHED and live; no derogation/transition/population split exists anywhere in corpus.** The reformed D53-Art. 3 sentence itself carries NO CONSUCOOP qualifier ("Las Cooperativas están exentas... a partir del Ejercicio Fiscal 2014") while the ORIGINAL Art. 3 was equally unqualified and every OTHER operative article of both decrees (incl. the reformed Art. 7 sanctions, Art. 3-92 liberation window, and D. 46-2016/D. 131-2018 siblings) IS CONSUCOOP-gated — population reading A (all cooperativas) vs B (CONSUCOOP only) both textually open, Reading B with more witnesses (EV149:EVID-567; never resolved silently). **FR-382's explicit-selector gate STAYS BLOCKED** — the boundary is now a pure legal-reading question, no missing instrument. | yes (506/509 assignment only) | controller ruling (owner) | open (narrowed W10 — instruments complete) |
+| OQ-009 | `60_ OQ-1` (C2 — LEAD): **THE 506-vs-509 boundary — NARROWED W9 + W10, RESOLVED W12-ruling**: D. 53-2015 acquired W9 (`138_`; exonerations = ISR/ATN/AS only; 506 untouched); **D. 92-2015 ACQUIRED W10 as `149_` (G 33,883; Dado 8-sep-2015, Ejecútese 22-sep-2015, published+vigencia 14-nov-2015; LB-013): it reforms D53 Arts. 3/4/7 ONLY — grep-negative on "Seguridad Poblacional"/"44-A"/"transacciones financieras" → the LSP Art. 44-A 3.6% (código 506) remains UNTOUCHED and live; no derogation/transition/population split exists anywhere in corpus.** The reformed D53-Art. 3 sentence itself carries NO CONSUCOOP qualifier ("Las Cooperativas están exentas... a partir del Ejercicio Fiscal 2014") while the ORIGINAL Art. 3 was equally unqualified and every OTHER operative article of both decrees (incl. the reformed Art. 7 sanctions, Art. 3-92 liberation window, and D. 46-2016/D. 131-2018 siblings) IS CONSUCOOP-gated — population reading A (all cooperativas) vs B (CONSUCOOP only) both textually open, Reading B with more witnesses (EV149:EVID-567). → **RESOLVED 2026-08-22 by OWNER RULING R-H91: Reading B adopted — CONSUCOOP-recognized cooperativas → 509; non-recognized → 506 (FR-382 rewritten; selector safeguards kept; rows REVERSIBLE if a contrary instrument or administrative practice lands — the ruling is a legal reading, not new statute text).** | yes (506/509 assignment only) | resolved (R-H91 owner ruling) | resolved (R-H91, 2026-08-22) |
 | OQ-010 | `60_ OQ-2` (carried, C2 — LEAD): garbled creation citation — "El acuerdo No 1775-2011…, Decreto No 105-2011 y Decreto No. 166-2011 de fecha 01 de octubre 2011 y publicado… el 25 de enero del 2012" (1775-2011 is the one published 25-ene-2012 per 56_ p.4); D. 166-2011's title/date role must be verified from the instrument. | no | acquisition queue | open |
 | OQ-011 | `60_ OQ-3` (carried, C2 — CONFIG): 506 form §A base wording doubles-subtracts ("excedentes netos anuales menos gastos") against §1's "(ingresos menos gastos)" — FR-375 implements §1; casilla layout unverifiable from OCR'd screenshots; confirm vs live form. | no | Takumi S-HN3 | open |
 | OQ-012 | `61_ OQ-1` (carried, C2 — LEAD): 511 subject definition — which entity types qualify under the "Ley del Sector Social de la Economía" (un-numbered in the manual, un-acquired); the manual's summary (non-CONSUCOOP cooperativas/entities) is the only delimitation; FR-383 gates on the exclusion only. | no | acquisition queue | open |

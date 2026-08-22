@@ -35,6 +35,16 @@ sanction measure) + OQ-009 instruments-complete (the 506-vs-509 boundary now
 a pure legal-reading question — FR-382 still blocked, owner ruling) +
 OQ-022 staging flag.
 
+**R-H91 ruling fold-in (2026-08-22, ruling session — no new evidence):**
+file 11 **OQ-009 RESOLVED by OWNER RULING R-H91** (product owner
+2026-08-22): the 506-vs-509 boundary = **Reading B, CONSUCOOP-gated** —
+CONSUCOOP-recognized cooperativas → código 509 (D. 53-2015/92-2015
+world); non-recognized cooperativas → código 506 (LSP Art. 44-A, 3.6%).
+**FR-382 rewritten** (explicit selector keeps its safeguards: no
+auto-assignment, no silent dual-filing, recognition-guided default);
+AC-011 + the config/mapping rows updated; rows REVERSIBLE (legal
+reading, not statute text). OQ-row totals unchanged (status flip only).
+
 ## Files & FR ranges
 
 | File | Scope (clusters) | FR range | FRs | LBs | ACs | OQs |
@@ -49,7 +59,7 @@ OQ-022 staging flag.
 | [08_gc-events-119-120-152-154.md](08_gc-events-119-120-152-154.md) | GC event declarations: 119 (10% único, base max(agreed,market)−mejoras−legalización), ZOLITUR 120 4%, Tradición 152 1.5%, Revaluación 154 6% elective (F8) | HN-FREP-FR-266..295 | 30 | 10 | 17 | 13 |
 | [09_selectivo-declarations.md](09_selectivo-declarations.md) | Selectivo declarations 203 (**W6: D. 58-1982 acquired `115_` — 1982 cc-tier canasta + 1995 flat-20% states in corpus, live-period gap narrowed OQ-001**) / 211 cigarettes per-millar / 210 gaseosas / 205 alcoholes / 204 cerveza / 259 turística 4% (**W6: D. 131-98 acquired `116_` — Art. 43 original, anti-cascading exclusion encoded, OQ-010 resolved**) + the IPC value chain 172-2022→014-2023→218-2024 as DIRECT-cited dated rows (F9) | HN-FREP-FR-296..325 | 30 | 12 | 20 | 14 |
 | [10_tp-545-informativas.md](10_tp-545-informativas.md) | TP 545 DJIAPT (USD 1M pequeño gate, 56 op types → 10 annexes, interquartile range, Ajuste-PT write-back) + informativas 541 socios / 542 alquiler / 543 municipalidades (F10) | HN-FREP-FR-326..360 | 35 | 15 | 16 | 26 |
-| [11_contribuciones-sector.md](11_contribuciones-sector.md) | LSP/sector family: monthly trio 502 telefonía 1% / 503 franquicias 0.5% / 504 casinos 1% + annual quartet 506 coops 3.6% / 509 CONSUCOOP 15%+0.5% floor / 511 sector social 15% / 107 educativas 10%; 506-vs-509 boundary BLOCKED on statutes (F11) | HN-FREP-FR-361..393 | 33 | 13 | 18 | 22 |
+| [11_contribuciones-sector.md](11_contribuciones-sector.md) | LSP/sector family: monthly trio 502 telefonía 1% / 503 franquicias 0.5% / 504 casinos 1% + annual quartet 506 coops 3.6% / 509 CONSUCOOP 15%+0.5% floor / 511 sector social 15% / 107 educativas 10%; 506-vs-509 boundary R-H91-ruled CONSUCOOP-gated (owner 2026-08-22) (F11) | HN-FREP-FR-361..393 | 33 | 13 | 18 | 22 |
 | **Total** | | HN-FREP-FR-001..393 | **363** | **169** | **189** | **174** |
 
 Numbering note: FR ranges pre-allocated per file (subagent dispatch
@@ -93,10 +103,12 @@ channels/deadlines/regime-validity columns; it carries no FRs of its own.
   related parties, never the regime entities themselves.
 - **Blocking OQs (V-HN1 wording fix — three, not one, all scope-qualified):**
   file 11's 506-vs-509 boundary (`60_ OQ-1`, statute texts unacquired — the
-  only UNQUALIFIED yes); file 03's OQ-003 (yes, retention-engine scope —
-  compras-eventuales rate) and file 09's OQ-001 (yes, 203-computation
-  scope — D. 58-1982 canasta) are qualified yes-blockers inside their
-  engines; SEE remains the cross-wave blocker (S-HN2, lead 1).
+  only UNQUALIFIED yes — **→ RESOLVED 2026-08-22, OWNER RULING R-H91**:
+  Reading B CONSUCOOP-gated, FR-382 unblocked, OQ-009 resolved); file 03's
+  OQ-003 (yes, retention-engine scope — compras-eventuales rate) and file
+  09's OQ-001 (yes, 203-computation scope — D. 58-1982 canasta) are
+  qualified yes-blockers inside their engines; SEE remains the cross-wave
+  blocker (S-HN2, lead 1).
 - **Cross-wave dependencies:** S-HN4 payroll (delivered) consumes file
   02's 111 columns + file 01's chassis; the V-HN1 validation wave
   (COVERAGE.md + adversarial review) ran 2026-08-20 — findings adjudicated

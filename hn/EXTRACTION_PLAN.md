@@ -123,8 +123,19 @@ SETRASS-DGS-014-2025 + the DGS 2025 print, RP class cuadros + JD ceiling
 resoluciones 2003-2024 [the ihss.hn AJ filename = juramentación memo,
 caught at page-1], REAP JD-rates family, "Acuerdo 799" TEXT (1970) +
 D. 247-89 watch; Código de Comercio; SEE docs; DGS SMM 2027 promedio
-print expected early 2027; S-HN5 DEFERRED; the 506-vs-509 legal reading =
-owner decision).**
+print expected early 2027; S-HN5 DEFERRED; ~~the 506-vs-509 legal reading =
+owner decision~~ **RESOLVED 2026-08-22 — R-H91 OWNER RULING: Reading B
+CONSUCOOP-gated — recognized coops → 509, non-recognized → 506; FREP/11
+OQ-009 resolved, FR-382 unblocked, rows reversible**).**
+**R-H91 RULING FOLD-IN COMPLETE 2026-08-22 (same session, on-branch, no
+acquisition/no new EVID):** the product owner ruled the 506-vs-509
+cooperative boundary (Reading B — CONSUCOOP-gated). Fold-ins: FREP/11
+FR-382 rewritten (explicit selector, recognition-guided default,
+safeguards intact) + AC-011 + config/mapping rows + OQ-009 RESOLVED;
+FREP index wave-noted; master index R-H91 + C2 `60_ OQ-1` resolved +
+Section-C delta; COVERAGE regen 164 rows = 162 cited + 2 N/A, gates PASS
+(1099/535/574/332 — counts unchanged, status flip only). Rulings
+R-H1..R-H91.
 **W11 acquisition wave COMPLETE 2026-08-22 (this session, on-branch):
 FIVE files `161_`..`165_` registered + evidenced EVID-644..664 (21; 7 for
 the amnistía family + 14 for the 2025-2026 chain) — **THE IHSS AMNISTÍA
@@ -178,8 +189,30 @@ watch via the Sección-A certificaciones route; CbCR restatement
 comunicado watch; RP class cuadros + JD ceiling resoluciones + REAP
 JD-rates = routes exhausted, watch class; "Acuerdo 799" TEXT + D. 247-89
 watch; Código de Comercio; SEE docs; DGS SMM 2027 promedio print early
-2027; the 506-vs-509 legal reading = owner decision; S-HN5 DEFERRED).
+2027; ~~the 506-vs-509 legal reading = owner decision~~ RESOLVED same-day
+R-H91 (Reading B, CONSUCOOP-gated); S-HN5 DEFERRED).
 ## Wave log
+
+- **R-H91 ruling session (2026-08-22, post-W11 fold-in — no acquisition, no
+  new EVID, no corpus change):** the product owner ruled THE 506-vs-509
+  cooperative boundary = **Reading B, CONSUCOOP-gated** — CONSUCOOP-
+  recognized cooperativas → código 509 (D. 53-2015/92-2015 world, 15% +
+  0.5% floor + exemptions); non-recognized → código 506 (LSP Art. 44-A
+  3.6%). Basis: every other operative article of both decrees is
+  CONSUCOOP-gated (reformed Art. 7 sanctions, Art. 3-92 liberation
+  window, D. 46-2016/D. 131-2018 siblings) + the manuals' own 511 test.
+  Fold-ins: FREP/11 FR-382 rewritten (explicit selector keeps no-auto-
+  assign/no-silent-dual-filing, recognition-guided default, rows
+  REVERSIBLE — legal reading, not statute) + AC-011 + config/mapping rows
+  + **OQ-009 RESOLVED** (the last unqualified yes-blocking OQ); FREP
+  00_index wave-noted + V-HN1 blocking-OQ note annotated; master index
+  +R-H91 ledger row + C2 `60_ OQ-1` resolved + Section-C ruling-session
+  delta + watch-queue strike. Verification: COVERAGE regen 164 rows =
+  162 cited + 2 N/A, gates PASS (1099/535/574/332 — counts unchanged,
+  status flip only). Rulings R-H1..R-H91; next EVID = 665 (unchanged).
+  Next = the residual watch queue unchanged (TOP: the 2026 JD ceiling act
+  watch via the Sección-A certificaciones route; D. 96-2012; CbCR
+  restatement comunicado; S-HN5 DEFERRED).
 
 - **W11 acquisition wave (2026-08-22, DONE — acquisition + evidence + fold-ins
   + the W5 lost-file recovery, controller-executed):** FIVE files registered

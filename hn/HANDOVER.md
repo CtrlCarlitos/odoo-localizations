@@ -41,12 +41,19 @@ RP cuadros/JD ceilings/REAP rates + D. 96-2012 all negative; PLUS the W5
 lost-file recovery — the committed 106+107+108 evidence file had been an
 md5-duplicate of the 105_ pass, EVID-373..384 reconstructed controller-side
 [OCR sidecars survived; 600dpi corrections]; COVERAGE 164 rows = 162 cited
-+ 2 N/A, gates PASS [1099/535/574/332]). Next = the residual watch queue
++ 2 N/A, gates PASS [1099/535/574/332]). **R-H91 RULING SESSION (2026-08-22,
+post-W11, same-day): the product owner ruled THE 506-vs-509 cooperative
+boundary = Reading B, CONSUCOOP-gated** — CONSUCOOP-recognized cooperativas
+→ código 509 (D. 53-2015/92-2015 world); non-recognized → código 506 (LSP
+Art. 44-A 3.6%). FREP/11 OQ-009 RESOLVED + FR-382 rewritten (selector
+safeguards intact, recognition-guided default, rows REVERSIBLE — legal
+reading, not statute); COVERAGE regen gates PASS [counts unchanged]; rulings
+R-H1..R-H91. Next = the residual watch queue
 (TOP: the 2026 JD ceiling act watch via the Sección-A certificaciones
 route; D. 96-2012 watch [gazetted 20-jul-2012 pinned]; CbCR restatement
 comunicado watch; then "Acuerdo 799" TEXT + D. 247-89 watch; Código de
-Comercio; SEE docs; DGS SMM 2027 promedio print early-2027; **the 506-vs-509
-legal reading = OWNER DECISION**; S-HN5 DEFERRED). [W11 MERGED to main
+Comercio; SEE docs; DGS SMM 2027 promedio print early-2027; ~~the
+506-vs-509 legal reading~~ RESOLVED R-H91 2026-08-22; S-HN5 DEFERRED). [W11 MERGED to main
 2026-08-22 — thirty-first §4.6 run at `20d10fd`, root record `4b51c74`:
 1 commit rewritten (`0143500`→`20d10fd`), zero conflicts, remote ref delete +
 re-push; main carries HN through EVID-664, corpus 164 files.]
@@ -883,6 +890,28 @@ discarded md5-identical to 104_). Structure:
   4. **Merge to main at milestone:** owner decision; rebase-then-merge; never
      force-push (root HANDOVER country model). Branch head after S-HN1/S-HN2
      commit = the synthesis-wave base; future waves branch from here.
+
+Session state at stop (2026-08-22, R-H91 ruling session — committed on
+`hn-research`, NOT yet merged; owner decision pending): **NO corpus change**
+(164 files, EVID-664, next EVID 665 — unchanged from the W11 merge). The
+session's only work = the 506-vs-509 OWNER RULING folded in: **R-H91
+(2026-08-22) — Reading B, CONSUCOOP-gated**: CONSUCOOP-recognized
+cooperativas → 509; non-recognized → 506. Fold-ins: FREP/11 FR-382
+rewritten + AC-011 + config/mapping rows + **OQ-009 RESOLVED** (the last
+unqualified yes-blocking OQ; rows REVERSIBLE — legal reading, not statute;
+watch class: SAR resoluciones/DJT opinions assigning non-CONSUCOOP coops);
+FREP 00_index wave-noted + blocking-OQ note annotated; master index +R-H91
+ledger row + C2 `60_ OQ-1` resolved + Section-C ruling-session delta +
+queue strike; EXTRACTION_PLAN wave-log entry; this HANDOVER. Verification:
+COVERAGE regen 164 rows = 162 cited + 2 N/A, gates PASS
+(1099/535/574/332 — counts unchanged, status flip only). Rulings
+R-H1..R-H91; totals unchanged (payroll 330/174/172/86, taxation
+249/121/140/56, FREP 363/169/189/174). **Next = the residual watch queue
+unchanged (TOP: the 2026 JD ceiling act watch via the Sección-A
+certificaciones route [2026 payroll = blocking config gap AC-006 until it
+lands]; D. 96-2012 watch; CbCR restatement comunicado watch; "Acuerdo 799"
+TEXT + D. 247-89 watch; Código de Comercio; SEE docs; DGS SMM 2027
+promedio print early-2027; S-HN5 DEFERRED).**
 
 Session state at stop (2026-08-22, W11 amnistía + negatives wave — committed
 on `hn-research`, NOT yet merged; owner decision pending): evidence COMPLETE

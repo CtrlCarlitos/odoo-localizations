@@ -880,6 +880,7 @@ SMM auto-elevation of inferior contracts; CT negatives (R-H60); vintage pins;
 | R-H88 | The TP pequeños ≤USD-1M gate's own instrument (Reglamento-Art.-30.4 delegation) + the safe-harbour scope (`63_ OQ-5`) were unacquired | W10 (`150_` acquired, EV150:EVID-578..586): **Acuerdo DEI-SG-004-2016 (G 34,018 27-abr-2016, vigencia publication-day) = the threshold instrument**: pequeños with related-party ops > USD 1,000,000 acumulado (or Lempiras "de acuerdo a la paridad cambiaria" — NO rate/date printed; the 31-dic/BCH specificity is the 63_ manual's elaboration, OQ-009 feed decision unchanged) file the DJIAPT; TERCERO = filing notifies the Art.-8 method; CUARTO = the Ayuda Manual is an integral part (the 63_ manual's authority). **NEGATIVE RULING (safe harbour): the acuerdo contains NO safe-harbour/operational-simplification content (grep-verified) — with 027-2015-Art.-38 = OECD incorporation and OECD §4.93-4.95 external, NO safe-harbour regime exists in HN TP law — flag-only** | EV150:EVID-580..585; FREP/10 LB-014, OQ-005/OQ-006 resolved, FR-327 statute-anchored |
 | R-H89 | The OTCD retention chain middle instrument (50% at 2013 per D. 278-2013 Art. 21 → SAR-240-2024's 10%/15% current procedure) — the 2017 reform unacquired (FREP/04 OQ-003 residual) | W10 (`152_` acquired, EV152:EVID-597..601): **D. 7-2017 (G 34,284 8-mar-2017) Art. 1 reformed ISV Art. 8 ¶6: OTCD retention 50% → 10% automatic; the ¶6-num.-4 FALLBACK = 15% automatic "sobre el monto total cuando no exista discriminación del Impuesto causado"** — trigger = NO-DISCRIMINATION (not afiliado status/morosity), base = the transaction TOTAL (not the tax — at 15% ISV the fallback exceeds the embedded tax, not tax-capped on its face, flagged); num. 3 = affiliate zero/final-consumer registration duty with OTCD auto-cure; Art. 2 interp; **Art. 3 DEROGATED D. 278-2013 Art. 21**. Chain complete: 278-2013-Art.-21 (50%) → 7-2017 (10%/15%) → SAR-240-2024 (IX-XIII); zero drift vs `05_`'s consolidation | EV152:EVID-598..601; FREP/04 LB-014, OQ-003 resolved, FR-147; taxation/06 LB-020, FR-249 |
 | R-H90 | The SMM promedio family (R-H47's print-only discipline): 2022-2025 values printed nowhere; the FY2022-FY2025 10×SMM caps blocked; the CT-131 descargo umbral semantics unpinned | W10 (`156_`/`157_`/`158_`/`159_`/`160_` acquired, EV156:EVID-622..633 + EV159:EVID-634..643): **the family now 5-of-6 years printed/anchored** — 2022 L11,278.75 (DGS print; fixer unfootnoted = lead) / 2023 L12,377.73 (DGS print + TWO-PRINT validation: SAR-125-2024 recites "SETRASS-411-2023 … fijó el salario mínimo promedio … a partir del 01 de enero del 2023 … (L12,377.73)" — the fixer power attaches to SETRASS/DGS oficios as a family) / 2024 L13,156.53 (DGS print) / 2025 L13,985.16 (SAR-43-2026 official anchor, `printed_anchor` — DGS 2025 print = watch); FY caps unblocked (112,787.50 / 123,777.30 / 131,565.30 / 139,851.60). **THREE resolution semantics separated, never conflated: (i) FY-cap (taxation/04 FR-134); (ii) CT-131 descargo umbral = promedio "vigente a la fecha de emisión" (SAR-125-2024 used 2023's in Feb-2024, SAR-43-2026 used 2025's in Feb-2026 — bienio March publications demonstrated twice, D-H2); (iii) hecho-generador-time sanctions (R-H87)**. 2027 = the only gap (DGS print expected early 2027) | EV156:EVID-623/626/630; EV159:EVID-634..638; EV160:EVID-639..643; payroll/01 LB-023, FR-024/025, smm_tables.csv; taxation/01 LB-025, FR-037 |
+| R-H91 | THE 506-vs-509 cooperative boundary (FREP/11 OQ-009, origin `60_ OQ-1` — the last yes-blocking S-HN3 OQ): instruments COMPLETE since W10 (R-H87) but the population question a pure legal reading — Art. 3 unqualified (both printings) vs every other operative article CONSUCOOP-gated | **OWNER RULING (product owner, 2026-08-22): Reading B adopted — CONSUCOOP-gated.** CONSUCOOP-recognized cooperativas → the D. 53-2015/92-2015 world (ISR/ATN/AS exonerated FY2014+ → código 509, 15% + 0.5% floor + exemptions); NON-recognized cooperativas → código 506 (LSP Art. 44-A 3.6% on excedentes netos — untouched by D. 92-2015, grep-verified). Witness set: reformed-Art.-7 sanctions + Art.-3-92 liberation window + D. 46-2016/D. 131-2018 siblings all CONSUCOOP-gated; the manuals' own 511 test keys on CONSUCOOP recognition. **FR-382's selector UNBLOCKED with safeguards intact** (explicit admin choice, recognition-guided default, no auto-assignment, no silent dual-filing); **rows REVERSIBLE** — the ruling is a legal reading, not statute text; revisit if a contrary instrument or administrative practice lands (e.g., a SAR resolución/DJT opinion assigning a non-CONSUCOOP coop to 509) | FREP/11 FR-382 (rewritten), AC-011, config/mapping rows, OQ-009 RESOLVED; EV56:EVID-168/172; EV138:EVID-521; EV149:EVID-567/568/577 |
 
 ---
 
@@ -978,8 +979,19 @@ governance resolutions; an actuarial techo act may land any month)** · RP
 class cuadros + JD ceiling resoluciones 2003-2024 + REAP JD-rates (routes
 exhausted — watch class) · "Acuerdo 799" TEXT (1970) · D. 247-89 text ·
 Código de Comercio · SEE docs (lead 1) · Oficio SETRASS-DGS-014-2025 + DGS
-2027 promedio print (early 2027) · the 506-vs-509 legal reading = OWNER
-DECISION · S-HN5 DEFERRED.
+2027 promedio print (early 2027) · ~~the 506-vs-509 legal reading = OWNER
+DECISION~~ **RESOLVED 2026-08-22 — OWNER RULING R-H91 (Reading B,
+CONSUCOOP-gated; FREP/11 OQ-009 resolved, FR-382 unblocked, rows
+reversible)** · S-HN5 DEFERRED.
+
+**R-H91 RULING SESSION (2026-08-22, ruling fold-in — no acquisition, no new
+EVID):** the product owner ruled the 506-vs-509 cooperative boundary =
+**Reading B, CONSUCOOP-gated** (recognized → 509; non-recognized → 506).
+Fold-ins: FREP/11 FR-382 rewritten + AC-011 + config/mapping rows + OQ-009
+RESOLVED; index wave-noted; this ledger +EV register updated. The ruling is
+a legal reading, NOT new statute text — rows stay reversible if a contrary
+instrument or administrative practice lands (watch class: SAR resoluciones/
+DJT opinions assigning non-CONSUCOOP coops).
 
 **W10 ACQUISITION-QUEUE DELTAS (2026-08-21, applies register-wide):**
 ACQUIRED this wave (TWELVE files, EV149..EV160) — D. 92-2015 (`149_`:
@@ -1226,8 +1238,10 @@ files (EVxx:file OQ-n).
 - `59_ OQ-2` [CONFIG] "Ingresos brutos" casilla semantics — live 509 form.
 - `59_ OQ-3` [CONFIG] Loss-floor fuerza-mayor waiver scope.
 - `59_ OQ-4` [VERIFY] D. 170-2016 listed as a REFORM of D. 53-2015 — conflation?
-- `60_ OQ-1` [LEAD] **THE 506-vs-509 boundary question** — BLOCKED on statute
-  texts.
+- `60_ OQ-1` [LEAD] **THE 506-vs-509 boundary question** — RESOLVED
+  2026-08-22 by OWNER RULING **R-H91** (Reading B: CONSUCOOP-gated —
+  recognized coops → 509, non-recognized → 506; FREP/11 OQ-009 resolved,
+  FR-382 unblocked, rows reversible).
 - `60_ OQ-2` [LEAD] Garbled creation citation (1775-2011/105-2011/166-2011) —
   needs instruments.
 - `60_ OQ-3` [CONFIG] 506 form base doubles-subtracts — §1 controls; layout
