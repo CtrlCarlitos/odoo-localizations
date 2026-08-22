@@ -1,11 +1,14 @@
-# GT — Manual Download Queue (ruling OQ2) — rev 7
+# GT — Manual Download Queue (ruling OQ2) — rev 8
 
 Browser-only items remaining after W1–W5 automated acquisition. Drop files
 into `.worktrees/gt-research/gt/sources/inbox/` (any filename; I verify,
-rename, register). Rev 7 (2026-08-19): re-ranked from the master-index GOQ
-register (00_MASTER_INDEX.md §C); adds LET layouts re-capture (GOQ-105),
-2022-2025 salario AGs (GOQ-11), AG 125-2022 (GOQ-68), AG 3-2017/D-38-04
-(GOQ-08 leads). Rev 6 items below still stand unless struck.
+rename, register). Rev 8 (2026-08-22): post-S-GT7 register-triage additions
+(GOQ-141..149 rolled — master index §C.7): adds AG 52-2017 (GOQ-149),
+D-27-92 Cap. VIII/IX texts (GOQ-146), Código Civil (GOQ-147). **Automated
+routes for D-19-2016 exhausted 2026-08-22 (Wayback CDX probes:
+legal.dca.gob.gt = SPA shells only; dca.gob.gt 2016 = login-gated PHP
+archivo, zero gazette PDFs archived) — owner-browser is the ONLY route.**
+Rev 7 items below still stand unless struck.
 
 ## 0. Top-ranked (master-index blocking GOQs)
 
@@ -30,6 +33,9 @@ browser; "Búsqueda avanzada" → filters by organismo/tipo/año + texto)
 | — | gt_sources_ag_125-2022.pdf | Acuerdos Gubernativos 2022 — "125-2022" (FEL-transition texts cited by 79_ art. 32; GOQ-68) |
 | — | gt_sources_ag_3-2017.pdf | Acuerdos Gubernativos 2017 — "3-2017" (maquila reglamento current-state reformer; GOQ-08 lead) |
 | — | gt_sources_decreto_38-04.pdf | Decretos 2004 — "38-2004"/"38-04" (maquila 2005 reformer — NOT the 12 bis creator per R81; GOQ-08 lead) |
+| — | gt_sources_ag_52-2017.pdf | Acuerdos Gubernativos 2017 — "52-2017" (ZF reglamento AG 242-90 reformer: added art. 35 bis + reformed arts. 3/6/8/13 pre-65-2022 — tags dated 05-04-2017 in 68_; GOQ-149) |
+| — | gt_sources_iva_27-92_cap8-9.pdf | Decretos 1992 → D-27-92 — the Capítulo VIII/IX tariff chapters (4%/5% electrónicos within 10 días hábiles — currently anchored to the 82_ glossary print only; GOQ-146) |
+| — | gt_sources_codigo_civil.pdf | Decretos 1963 → "Ley del Código Civil" (prescription fallback clocks — CCom defers to it via art. 1 and commercial-legal/03 FR-110 needs it; GOQ-147) |
 
 Struck (delivered/resolved 2026-08-19): ~~37_ AG 256-2025~~, ~~41_ bono 14
 D-78-89~~ (delivered — W-GT3 corrected: actually the incentivo D-78-89;

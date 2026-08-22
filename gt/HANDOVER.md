@@ -935,9 +935,11 @@ places — W-GT6)**. Reform chains are recorded in SOURCE_RESEARCH.md.
 
 ## 7. Open questions register (live ones; full list in SOURCE_RESEARCH.md)
 
-**AUTHORITATIVE REGISTER = the 140-GOQ table in
+**AUTHORITATIVE REGISTER = the 149-GOQ table in
 `gt/.extractions/00_MASTER_INDEX.md` §C (OQ1-OQ18 mapped in its coverage
-totals). The bullets below are the headline items only.**
+totals; §C.7 = the 2026-08-22 register-triage additions GOQ-141..149 rolled
+from the S-GT3..S-GT6/7 gap reports). The bullets below are the headline
+items only.**
 
 - **OQ3** schema drift cat.desa vs GitHub → ask TotalDoc/SAT (drift matrix
   complete; GitHub MediosdePago defect = use cat.desa there meanwhile).
@@ -1008,17 +1010,17 @@ synthesized with these as flagged open questions and back-filled later.
     §3 merge record at milestone; owner owns the merge decision).**
     D-19-2016 remains the top-ranked acquisition (GOQ-08 — blocks
     post-2016 claims; tag-only leads AG 3-2017, D-38-04).
-2. Opportunistic gap closure (folds into any synthesis): queue rev-7 items
-   (see DOWNLOAD_QUEUE; **D-19-2016 = top-ranked acquisition — blocks
-   special-regimes synthesis quality**, GOQ-08); instructivos cat 15812;
-   calendario transcription via SAT JSF app; accountant answers fold in
-   when they arrive. **Master-index additions: LET field-layout re-capture
-   (GOQ-105); 2022-2025 salario AGs (GOQ-11); AG 125-2022 (GOQ-68);
-   D-4-2012 full
-   text (Q150k attribution); aguinaldo D-76-78 + incentivo D-37-2001
-   still missing (W-GT3). W-GT5 addition: D-15-2026 reglamento
-   (≈17-mar-2027) — watch legal.dca.gob.gt. W-GT6 additions: AG 3-2017,
-   D-38-04, maquila pre-2016 art. 15 text.**
+2. ~~Opportunistic gap closure~~ **Register-triage maintenance pass DONE
+   2026-08-22 (post-S-GT7, same session): GOQ-141..149 added to the master
+   index §C.7** (OT divisor 141 · festividad 142 · CT 152/154 re-extraction
+   143 · never-law defaults ratification 144 · día-hábil provenance 145 ·
+   D27-92 Cap. VIII/IX texts 146 · CCom/Civil prescription clocks 147 ·
+   impedimento_pct owner 148 · AG 52-2017 text 149); register = 149 rows;
+   GOQ-08 annotation carries the 12 bis ¶/8 bis asymmetry + the failed
+   automated-hunt note; DOWNLOAD_QUEUE → rev 8 (adds AG 52-2017,
+   D27-92 Cap. VIII/IX, Código Civil; D-19-2016 = owner-browser ONLY).
+   Remaining queue items unchanged — fold into owner-browser sessions
+   (D-19-2016 top); accountant answers fold in when they arrive.
 3. ~~All six evidence waves complete~~ — plan reading order fully
    executed.
 4. Synthesis prep after each topic's evidence base completes (master index
@@ -1239,7 +1241,21 @@ convergence session; updated again at W-GT1 close)
   freeze held (txt-layer methodology disclosed in LB rows where the
   frozen files truncate). New-gap discipline: 2 candidates flagged
   (AG 52-2017 text; 12 bis ¶ vs 8 bis universe asymmetry) — register
-  triage pending. **Final whole-branch review DONE 2026-08-21 (same
+  triage pending. **Final whole-branch   review DONE 2026-08-21 (same
   session): APPROVED — 6 review sections PASS; one fix wave b6a4210
   (3 editorial minors) + scoped re-review PASS; wave CLOSED.** Next:
   §4.6 milestone merge (owner decision).
+- **Post-wave maintenance addenda (2026-08-22, same session, post-final-review)**:
+  (1) **Register-triage pass EXECUTED** — the "next master-index maintenance
+  pass" the S-GT3..S-GT6/7 waves deferred to: GOQ-141..149 added (§C.7),
+  register = 149 rows; items NOT rowed (already carried): ISR-constancia
+  form code (GOQ-98 kin), informe periodicity (GOQ-108), R71 risk (R-ledger),
+  63_ col-D + 51_ slash (kept-verbatim defects), 12 bis ¶/8 bis asymmetry
+  (GOQ-08 annotation). (2) **D-19-2016 automated hunt FAILED and recorded**:
+  Wayback CDX probes (https + sleeps — the CDX rate-limits; filter= regex
+  lowercase) show legal.dca.gob.gt captures = SPA shells (JS app, no
+  document URLs) and dca.gob.gt 2016-era = login-gated PHP archivo with
+  zero gazette PDFs archived — owner-browser remains the ONLY route.
+  (3) DOWNLOAD_QUEUE → rev 8 (3 new rows; hunt-failure banner). TotalDoc
+  roster re-check (OQ7; renewal 02/12/2026) + AML reglamento watch
+  (≈17-mar-2027) = NOT actionable this session — next owner touchpoint.
