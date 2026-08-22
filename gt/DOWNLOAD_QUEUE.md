@@ -14,28 +14,27 @@ Rev 7 items below still stand unless struck.
 
 | # | Save as | Search | Why |
 |---|---------|--------|-----|
-| — | gt_sources_decreto_19-2016.pdf | Decretos 2016 — "19-2016" | **GOQ-08, THE blocking acquisition** (special-regimes synthesis) |
-| — | gt_sources_iva_27-92_post2018.pdf | (see §A row 2 below) | GOQ-01 |
-| — | gt_sources_decreto_31-2024.pdf | (§A row 4) | GOQ-13 |
+| — | gt_sources_iva_27-92_post2018.pdf | (see §A row below) | GOQ-01 (also covers GOQ-146 Cap. VIII/IX) |
+
+**DELIVERED 2026-08-22 (owner batch 2 → registry 84-95): D-19-2016 (84_,
+GOQ-08 THE blocker), D-31-2024 (85_, GOQ-13), AG 125-2022 (86_, GOQ-68),
+IGSS Acuerdo 1421-2018 (87_, GOQ-10 mora half), D-62-2001 (88_, GOQ-132
+instrument), D-58-2005 (89_) + AG 86-2006 FT reglamento (90_) (GOQ-134),
+AG 4-2005 (91_), Código Civil Dto-Ley 106 (92_, GOQ-147), D-76-78
+aguinaldo (93_, GOQ-09 December half), D-38-2004 (94_), AG 3-2017 (95_).
+Duplicates rejected: LET manual = 58_, certificador procedure = 22_ (v2.1
+confirmed current — GOQ-40 v2.2+ watch stays).**
 
 ## A. legal.dca.gob.gt interactive search (Edición Legal — works in a real
 browser; "Búsqueda avanzada" → filters by organismo/tipo/año + texto)
 
 | # | Save as | Search |
 |---|---------|--------|
-| — | gt_sources_aml_reglamento.pdf | Acuerdos Gubernativos 2006 — "Lavado" (expected AG 75-2006 — verify; OQ14 also asks its post-D-15-2026 status) |
-| — | gt_sources_iva_27-92_post2018.pdf | Decretos 1992 → 27-92 — look for a consolidated edition listing reforms through ≥2018 (must include Art. 29-"A" FEL hook; closes OQ10/GOQ-01; ideally through D-10-2025) |
-| — | gt_sources_decreto_19-2016.pdf | Decretos 2016 — "19-2016" (Ley Emergente de Modernización de la Zona Franca — the missing D-65-89 → D-6-2021 chain link) |
-| — | gt_sources_decreto_31-2024.pdf | Decretos 2024 — "31-2024" (Ley para la Integración del Sector Productivo Primario y Agropecuario — added IVA Art. 8-"A" (derogated D-10-2025) + LAE changes + the 5 new DTE types FEPE/FARP/FCRP/FPEC/FCPC + ICT definition; W-GT2 addition) |
-| — | gt_sources_aguinaldo_D76-78.pdf | Decretos 1978 — "76-78" (**THE December aguinaldo law — MISSING from corpus**; W-GT3 found 40_ = bono 14 D-42-92, not aguinaldo; December-bonus mechanics must not be invented) |
-| — | gt_sources_incentivo_D37-2001.pdf | Decretos 2001 — "37-2001" (bonificación incentivo Q250/mes current law; 41_ = D-78-89 is the old hourly-floor version) |
-| — | gt_sources_igss_reglamento_recaudacion.pdf | igssgt.org legislación section — Junta Directiva Reglamento de Recaudación (Acuerdo 1118-kin + reformas; + Acuerdo 1421 mora rate/planilla deadline if reachable) — **the IGSS cuota rates live here (OQ11/GOQ-04)** |
-| — | gt_sources_ag_125-2022.pdf | Acuerdos Gubernativos 2022 — "125-2022" (FEL-transition texts cited by 79_ art. 32; GOQ-68) |
-| — | gt_sources_ag_3-2017.pdf | Acuerdos Gubernativos 2017 — "3-2017" (maquila reglamento current-state reformer; GOQ-08 lead) |
-| — | gt_sources_decreto_38-04.pdf | Decretos 2004 — "38-2004"/"38-04" (maquila 2005 reformer — NOT the 12 bis creator per R81; GOQ-08 lead) |
 | — | gt_sources_ag_52-2017.pdf | Acuerdos Gubernativos 2017 — "52-2017" (ZF reglamento AG 242-90 reformer: added art. 35 bis + reformed arts. 3/6/8/13 pre-65-2022 — tags dated 05-04-2017 in 68_; GOQ-149) |
-| — | gt_sources_iva_27-92_cap8-9.pdf | Decretos 1992 → D-27-92 — the Capítulo VIII/IX tariff chapters (4%/5% electrónicos within 10 días hábiles — currently anchored to the 82_ glossary print only; GOQ-146) |
-| — | gt_sources_codigo_civil.pdf | Decretos 1963 → "Ley del Código Civil" (prescription fallback clocks — CCom defers to it via art. 1 and commercial-legal/03 FR-110 needs it; GOQ-147) |
+| — | gt_sources_iva_27-92_post2018.pdf | Decretos 1992 → 27-92 — look for a consolidated edition listing reforms through ≥2018 (must include Art. 29-"A" FEL hook; closes OQ10/GOQ-01; ideally through D-10-2025) — one consolidated print also covers the Cap. VIII/IX tariff chapters (GOQ-146) |
+| — | gt_sources_aml_reglamento.pdf | Acuerdos Gubernativos 2006 — "Lavado" (expected AG 75-2006 — verify; OQ14 also asks its post-D-15-2026 status) |
+| — | gt_sources_incentivo_D37-2001.pdf | Decretos 2001 — "37-2001" (bonificación incentivo Q250/mes current law; 41_ = D-78-89 is the old hourly-floor version) |
+| — | gt_sources_igss_reglamento_recaudacion.pdf | igssgt.org legislación section — Junta Directiva Reglamento de Recaudación (Acuerdo 1118-kin + reformas) — **the IGSS cuota rates live here (OQ11/GOQ-04; the Acuerdo 1421 mora half arrived as 87_, the cuota-rate half did NOT)** |
 
 Struck (delivered/resolved 2026-08-19): ~~37_ AG 256-2025~~, ~~41_ bono 14
 D-78-89~~ (delivered — W-GT3 corrected: actually the incentivo D-78-89;
@@ -44,6 +43,13 @@ bono 14 = D-42-92 = 40_; aguinaldo = D-76-78 still wanted above),
 (hypothesis retired — no such replacement; AG 65-2022 = ZOLIC reglamento
 reformas, registered as 81_), ~~D-6-2021~~ (= 80_, verified ZF reform, not
 an e-invoicing mandate — OQ4 resolved).
+
+Struck (delivered 2026-08-22, owner batch 2 → registry 84-95):
+~~decreto_19-2016~~ (84_), ~~decreto_31-2024~~ (85_), ~~ag_125-2022~~
+(86_), ~~aguinaldo_D76-78~~ (93_), ~~codigo_civil~~ (92_), ~~ag_3-2017~~
+(95_), ~~decreto_38-04~~ (94_); bonus unqueued arrivals: AG 4-2005 (91_),
+Acuerdo 1421-2018 (87_), D-62-2001 (88_), D-58-2005 (89_) + AG 86-2006
+(90_).
 
 ## B. SAT portal (portal.sat.gob.gt — works in browser)
 
