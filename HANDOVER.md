@@ -56,7 +56,8 @@ expected and absorbed by instantiating the canon, never by forking it.
 - Branch `main` only; remote `origin` = `git@github-CtrlCarlitos:CtrlCarlitos/odoo-localizations.git` (SSH alias `github-CtrlCarlitos` from `~/.ssh/config`); push after each wave; never force-push. `gh` CLI at `~/.local/bin/gh`, authenticated as CtrlCarlitos.
 - Commits are SSH-signed; local `%G?=N` is a verification-only artifact (`gpg.ssh.allowedSignersFile` unset) — signatures ARE present; don't chase it.
 - `.gitattributes`: `*.csv text eol=lf`.
-- Commits through `3250ffa` (2026-08-22: GT S-GT6/S-GT7 merge — see §3
+- Commits through `ba98ac7` (2026-08-22: HN R-H91 merge — see §3
+  thirty-third run; `3250ffa` 2026-08-22: GT S-GT6/S-GT7 merge — see §3
   thirty-second run; earlier `d37f89f` 2026-08-22: HN W11 merge —
   thirty-first run, `56ee669` 2026-08-22: SV W18 merge — thirtieth run,
   `23ad21e` 2026-08-21: GT S-GT5 merge — see §3
@@ -547,6 +548,37 @@ expected and absorbed by instantiating the canon, never by forking it.
       D. 247-89, Código de Comercio, SEE docs, DGS 2027 promedio
       print; the 506-vs-509 legal reading = OWNER DECISION; S-HN5
       DEFERRED).
+
+      **HN R-H91 merge 2026-08-22 (§4.6 protocol, thirty-third
+      run):** `hn-research` rebased onto `0c45282` (1 commit
+      rewritten `052329c`→`ba98ac7`: the R-H91 ruling fold-in;
+      zero conflicts — hn/-scoped only) then fast-forward-merged;
+      remote branch ref updated via delete + re-push. **HN =
+      R-H91 RULING SESSION (no acquisition, no corpus change —
+      164 files / EVID-664 / next EVID 665 all unchanged): the
+      product owner ruled THE 506-vs-509 cooperative boundary =
+      Reading B, CONSUCOOP-gated** — CONSUCOOP-recognized
+      cooperativas → código 509 (D. 53-2015/92-2015 world, 15% +
+      0.5% floor + exemptions); non-recognized → código 506 (LSP
+      Art. 44-A 3.6%). Basis: every other operative article of
+      both decrees is CONSUCOOP-gated (reformed Art. 7 sanctions,
+      Art. 3-92 liberation window, D. 46-2016/D. 131-2018
+      siblings) + the manuals' own 511 test keys on CONSUCOOP
+      recognition. Fold-ins: FREP/11 **FR-382 rewritten** (explicit
+      selector keeps no-auto-assign/no-silent-dual-filing,
+      recognition-guided default, rows REVERSIBLE — legal reading,
+      not statute) + AC-011 + config/mapping rows + **OQ-009
+      RESOLVED** (the last unqualified yes-blocking OQ); FREP
+      00_index wave-noted; master index +R-H91 ledger row + C2
+      `60_ OQ-1` resolved + Section-C delta; EXTRACTION_PLAN
+      wave-log entry. COVERAGE regen: counts UNCHANGED
+      (1099/535/574/332, 164 rows = 162 cited + 2 N/A — status
+      flip only); rulings R-H1..R-H91. Next per `hn/HANDOVER.md`
+      §6: the residual watch queue unchanged (TOP: 2026 JD
+      ceiling act via the Sección-A certificaciones route;
+      D. 96-2012; CbCR restatement comunicado; "Acuerdo 799"
+      TEXT; D. 247-89; Código de Comercio; SEE docs; DGS SMM 2027
+      promedio print early-2027; S-HN5 DEFERRED).
 
       **SV W18 merge 2026-08-22 (§4.6 protocol, thirtieth run):**
       `sv-research` rebased onto `adcd528` (13 commits rewritten
