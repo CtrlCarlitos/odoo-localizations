@@ -81,15 +81,80 @@ contribution-BASE resolver — payroll/03 OQ-005 RESOLVED, FR-115 rewritten
 84/84 contiguous + 3-gram bank-check (LOWs adjudicated: interleave
 boundaries, catalog-paraphrase headers, OCR-title fragments); COVERAGE
 regen **147 rows = 145 cited + 2 N/A, gates PASS (1099/523/574/327)**.
-Totals: payroll 330/170/172/84, taxation 249/118/140/56, FREP 363/164/189/
+Totals: payroll 330/170/172/84, taxation
+249/118/140/56, FREP 363/164/189/
 170; rulings R-H1..R-H86; next EVID = 566.**
-Next = the sharpened residual queue (TOP: D. 92-2015 the 506-vs-509 closer,
-DEI-SG-004-2016 TP gate, SAR-653-2023 CbCR, D. 7-2017 OTCD drift, D.
-96-2012 loss regimes; then "Acuerdo 799" TEXT (1970) + D. 247-89 watch;
-Código de Comercio; SEE docs; RP class cuadros; JD ceiling resoluciones;
-DGS SMM 2025/2027 promedio prints; S-HN5 DEFERRED).**
-
+**W10 acquisition wave COMPLETE 2026-08-21 (this session, on-branch):
+TWELVE files `149_`..`160_` registered + evidenced EVID-566..643 (78
+EVIDs; 7 dispatched [3 shape-(b) empty-returns re-dispatched successfully
+— the proven pattern]) — D. 92-2015 (R-H87: the 506-vs-509 instruments
+COMPLETE — the boundary now a pure legal-reading question, FR-382 stays
+BLOCKED pending owner ruling; the reservas/fondos tail = reform text —
+FREP/11 FR-378 statute-anchored; the 509 sanction chassis + a THIRD
+promedio resolution semantics [hecho-generador time]) + DEI-SG-004-2016
+(R-H88: the USD-1M TP pequeño gate instrument — FREP/10 OQ-005/OQ-006
+RESOLVED, safe harbour NEGATIVE ruling; located via the ENAG 49-issue
+SUMARIO batch-scan) + SAR-653-2023 (the CbCR regime — EUR-750M-o-L19,000M
+threshold, TRANSITORIO-suspended local filing, 31-dic notification; new
+OQ-024/025) + D. 7-2017 (R-H89: the OTCD 50%→10%/15% middle instrument —
+FREP/04 OQ-003 RESOLVED, the 15% no-discrimination fallback trigger pinned)
++ SAR-239-2024 (the QUINCENCAL CETF retenciones/percepciones informativa)
++ SAR-283-2024 (June-2024 prorroga, HISTORICAL) + Acuerdo 006-JD-2008 REAP
+(the domésticos health-only lane — payroll/03 FR-126 segment gate + OQ-011)
++ **THE DGS PROMEDIO FAMILY + SAR ANCHORS (R-H90: 156_/157_/158_ the
+2022/2023/2024 prints + 159_/160_ the SAR-43-2026/SAR-125-2024 descargo
+anchors — the promedio family 5-of-6 years printed/anchored [2022
+L11,278.75 / 2023 L12,377.73 / 2024 L13,156.53 / 2025 L13,985.16 / 2026
+L14,917.20]; smm_tables.csv rows flipped; the FY2022-FY2025 10×SMM caps
+unblocked for taxation/04 FR-134; THREE promedio resolution semantics
+separated — FY-cap / emission-time umbral / hecho-generador sanctions)**.
+D. 96-2012 UNACQUIRED (routes exhausted: SAR live re-crawl, saved CDXs,
+DEI sitioleyes 2007-era, engines; refined pin = gazetted 20-jul-2012).
+Verification: EVID structural 78/78 contiguous + 3-gram bank-check (LOWs
+adjudicated: cross-file gloss quotes, 153_ layer spacing damage, table-OCR
+header garble, interleave artifacts; the 157_ jornada cell triple-pass
+412.59 closed controller-side at 600dpi); COVERAGE regen **159 rows = 157
+cited + 2 N/A, gates PASS (1099/532/574/331)**. Totals: payroll 330/172/
+172/85, taxation 249/120/140/56, FREP 363/169/189/174; rulings
+R-H1..R-H90; next EVID = 644.**
+Next = the residual queue (TOP: D. 96-2012 watch [20-jul-2012 gazette
+pin], the CbCR TRANSITORIO restatement comunicado, Oficio
+SETRASS-DGS-014-2025 + the DGS 2025 print, RP class cuadros + JD ceiling
+resoluciones 2003-2024 [the ihss.hn AJ filename = juramentación memo,
+caught at page-1], REAP JD-rates family, "Acuerdo 799" TEXT (1970) +
+D. 247-89 watch; Código de Comercio; SEE docs; DGS SMM 2027 promedio
+print expected early 2027; S-HN5 DEFERRED; the 506-vs-509 legal reading =
+owner decision).**
 ## Wave log
+
+- **W10 acquisition wave (2026-08-21, DONE — acquisition + evidence + fold-ins,
+  7 dispatches [3 shape-(b) empty-returns re-dispatched; all delivered on
+  re-dispatch]):** 12 files registered (`149_`..`160_`; the ihss.hn
+  AJ-RIESGOS-PROFESIONALES filename caught at page-1 as a juramentación
+  memo — discarded unregistered, ledger unchanged at 11; no md5 duplicates).
+  Evidence: 7 files, EVID-566..643, pre-allocated per brief (149_=566..577,
+  150_=578..586, 151_=587..596, 152-154_=597..611, 155_=612..621,
+  156-158_=622..633, 159-160_=634..643). OCR sidecars: 155_ at 300dpi/psm6
+  (gazette scan); 156-158_ at 400dpi/psm4 (table prints; 157_ additionally
+  PSM6 check pass + controller 600dpi triple-pass close on the jornada
+  cell); text layers for the rest. Rulings: **R-H87** (D. 92-2015 read:
+  tail = reform text; boundary instruments COMPLETE, reading A-vs-B open —
+  owner ruling), **R-H88** (DEI-SG-004-2016 = the TP gate; safe harbour
+  NEGATIVE), **R-H89** (D. 7-2017 = the OTCD middle instrument, chain
+  complete), **R-H90** (the promedio family 5-of-6 + three resolution
+  semantics). Fold-ins: FREP/10 (LB-014/015 + OQ-005/006 RESOLVED +
+  FR-326/327 re-anchored + OQ-024/025), FREP/11 (LB-013 + OQ-008 narrowed +
+  OQ-009 instruments-complete + FR-378 statute-anchored + OQ-022),
+  FREP/04 (LB-014 + OQ-003 RESOLVED + FR-147 re-anchored), FREP/01 (LB-022
+  — the quincenal CETF cadence + prorroga HISTORICAL rows), taxation/06
+  (LB-020 + FR-249 primary-text), taxation/01 (LB-025 + FR-037 both-anchors),
+  payroll/01 (LB-023 + FR-024/025 rewritten + smm_tables.csv promedio rows
+  flipped printed/printed_anchor), payroll/03 (LB-020 + FR-126 REAP segment
+  gate + OQ-011); three topic indexes wave-noted + counts. Master index:
+  +EV149..160 + R-H87..R-H90 + Section-C W10 delta. Verification: EVID
+  structural 78/78 contiguous zero-collision; 3-gram bank-check per file
+  with all LOWs adjudicated; COVERAGE 159 rows = 157 cited + 2 N/A, gates
+  PASS (1099/532/574/331).
 
 - **W9 acquisition wave (2026-08-21, DONE — acquisition + evidence + fold-ins,
   8 dispatches [4 re-dispatched after shape-(b) fails; brief A

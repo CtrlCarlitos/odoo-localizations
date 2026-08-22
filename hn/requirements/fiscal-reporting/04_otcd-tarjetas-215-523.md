@@ -73,6 +73,7 @@ D-H3 bind (dated rows, filed-period freeze, ingestion depths).
 | LB-011 | Código Tributario (D. 170-2016), Art. 211 — **LEAD as to content** | Cited in the 71_ tarjetas row base legal ("Artículo 211, Decreto 170-2016"); article content not extracted in this wave's evidence — agents/responsables frame owned by taxation/01 (T11) by id; cited here only as evidenced | `hn/sources/71_Generalidades_DMR.pdf` | 71-§3 p.3 (EV31:EVID-125) |
 | LB-012 | Acuerdo SAR-238-2024, CUARTO (10-may-2024, La Gaceta 36,538, 20-may-2024) — the DJIMR catalog boundary | "Las retenciones que se informen en cada una de las DJIMR, serán conforme a los siguientes Códigos de Impuestos: 1) DJIMR-111 … 25) DJIMR-254" — the exhaustive 25-code catalog contains NO 215 and NO 523: both tarjetas declarations file OUTSIDE the DJIMR system (R-H16), under the DEI-9382-J-2003/SAR-240-2024 procedure | `hn/sources/14_Acuerdo_SAR-238-2024_DJIMR.pdf` | 238-CUARTO pp.3-4 (EV13:EVID-077) |
 | LB-013 | Acuerdo SAR-236-2024, DÉCIMO SÉPTIMO — **LEAD (unacquired; quoted fragment)** | As quoted in 42_ p.5: Servicio Web modality via "la plantilla proporcionada por el Servicio de Administración de Rentas (SAR)" — the SW plantilla channel basis for 523; full ordinal scope (channel list) un-acquired (`32_ OQ-2` kin) | `hn/sources/42_Ayuda_ATC_523.pdf` | 42-§I.4 p.5 (EV31:EVID-124) |
+| LB-014 | **D. 7-2017 ACQUIRED W10** (`152_`, G 34,284 Miércoles 8-mar-2017; the OTCD chain middle instrument): Art. 1 reforms ISV Art. 8 ¶6 — **OTCD retention 50% → 10% "de manera automática"** (displacing also the CT-211-2 12%-autónoma interim); **the ¶6 num. 4 15% FALLBACK: "deben aplicar un quince por ciento (15%) de manera automática sobre el monto total cuando no exista discriminación del Impuesto causado en las transacciones" — trigger = NO-DISCRIMINATION of the ISV in the affiliate's records, base = the TRANSACTION TOTAL (monto total), not the tax** (origin of the 10%/15% contract SAR-240-2024 restates); num. 3 = the affiliate duty to register ISV caused even at zero/final-consumer sales, on pain of OTCD automatic registration; Art. 2 interp (10% "cuando exista" the discrimination); **Art. 3 DEROGATES D. 278-2013 Art. 21 (the 50% rule)**. Drift-check vs `05_` consolidation = NONE material (comma + Tarjeta(s) only; the consolidation fills the elided numerales 1/2/5/6/7 — those CRs stand on 05_/EVID-058) | FR-147's regime-state rows statute-dated (50% → 10%/15% at 8-mar-2017); the 15%-fallback trigger/base now primary-text (was manual-inferred); OQ-003 RESOLVED | `hn/sources/152_Gaceta_34284_Decreto_7-2017_reforma_Art8_LISV.pdf` | EV152:EVID-597..601 |
 
 ## 3. Functional Requirements
 
@@ -299,8 +300,20 @@ D-H3 bind (dated rows, filed-period freeze, ingestion depths).
   never silently dropping the leg and never hardcoding it on — because WHEN
   the 8% applies is unpinned (D. 113-2011 Art. 3 / LET Art. 18 / D.
   278-2013 Arts. 20-21 all cited, none acquired — LEAD, OQ-003).
-  (LB-001; LB-003; LB-007; LB-008; LB-009; EV13:EVID-088; EV31:EVID-123;
-  R-H22)
+  **W10: OQ-003 RESOLVED — the three-instrument chain is now complete:
+  D. 113-2011 Art. 3 (`05_`, corpus) + LET Art. 18 (`121_`, W8 — the
+  retention-agent origin) + D. 278-2013 Arts. 20-21 (`130_`, W9 — Art. 20
+  = the six-month self-expiring suspension 01-ene-2014→30-jun-2014 outer
+  bound, R-H86; Art. 21 = the 50% retention)** + **D. 7-2017 (`152_`, W10
+  — LB-014: Art. 1 reforms ISV Art. 8 ¶6 → 10% automatic; Art. 2 interp;
+  Art. 3 DEROGATES D. 278-2013 Art. 21) + SAR-240-2024 (`19_`, IX-XIII
+  restatement)**. The toggle semantics stand; the regime-state rows are
+  now statute-dated: 50% (30-dic-2013→7-mar-2017, 278-2013-Art.-21) →
+  10%-automatic + 15%-no-discrimination-fallback (8-mar-2017, D. 7-2017
+  → SAR-240-2024 current procedure).**
+  (LB-001; LB-003; LB-007; LB-008; LB-009; LB-014; EV13:EVID-088;
+  EV31:EVID-123; EV121:EVID-447; EV130:EVID-490; EV152:EVID-597..601;
+  R-H22/R-H86)
 - **HN-FREP-FR-148:** The system shall hook non-presentation and
   non-entero of 215/523 to the CT sanction engine as a flag + Boletín de
   Pago attachment (SAR-240-2024 XIII), with the sanction computation and
@@ -431,7 +444,7 @@ devolución-8% status/suspension history rows (taxation/06-owned vintage).
 |----|----------|-----------|-------|--------|
 | OQ-001 | `41_ OQ-1` (carried, C2) [VERIFY]: 215/523 form-table description cross-wiring — the 215 row prints the ATC (523) description; code+tipo authoritative (FR-124). Confirm against a live OVI form table. | no | Takumi S-HN3 | open |
 | OQ-002 | `41_ OQ-2` (carried, C2) [CONFIG]: 215 BCH-only payment — "realizar el pago en el Banco Central de Honduras" is unique among the manuals and is DATED operational data (FR-136 dated row); verify the current payment channel before encoding beyond the row. | no | Takumi S-HN3 | open |
-| OQ-003 | `41_ OQ-3` (carried, C2) [LEAD — NARROWED W8]: devolución 8% WHEN it applies — **TWO of THREE instruments now acquired**: D. 113-2011 Art. 3 (`05_`, long in corpus) + **LET Art. 18 (`121_` acquired W8 — = the ISV-Art.-8 card-issuer retention-AGENT origin, EV121:EVID-447; not itself the devolución mechanic)**; remaining: D. 278-2013 Arts. 20-21 (unacquired; shared lead with the AS re-establisher, 121_ OQ-4). FR-147's dated-toggle reading unchanged. | no | acquisition queue | open (narrowed) |
+| OQ-003 | `41_ OQ-3` (carried, C2) [LEAD] → **RESOLVED W10: the devolución-8% instrument chain is now COMPLETE** — D. 113-2011 Art. 3 (`05_`, corpus) + LET Art. 18 (`121_`, W8 = the card-issuer retention-AGENT origin) + **D. 278-2013 Arts. 20-21 (`130_`, W9: Art. 20 = six-month self-expiring suspension, outer bound 30-jun-2014 — temporal, NOT a repeal)** + **D. 7-2017 (`152_`, W10 = LB-014: 50%→10% reform + 15% no-discrimination fallback + Art. 3 derogation of 278-2013-Art.-21)**. FR-147's dated-toggle reading CONFIRMED and statute-dated; the 8%-leg alive/suspended windows now resolvable from the instrument chain. | no | — | resolved (W10) |
 | OQ-004 | `42_ OQ-1` (carried, C2) [VERIFY]: the 523 casillas (2/461/4611/462/466) lack the 240-IX "Importe de la Devolución 8%" column — either 462/466 encode it implicitly or the live plantilla (not the Ayuda) carries the column; verify vs live plantilla (FR-131 keeps the amount in the payload regardless). | no | Takumi S-HN3 | open |
 | OQ-005 | `42_ OQ-2` (carried, C2) [CONFIG]: 523-before-215 ordering enforcement unpinned — the 42_ recommendation says 523 first but 41_ is standalone; whether OVI blocks 215 when 523 is unfiled is unknown (FR-145 default = warn). | no | Takumi S-HN3 | open |
 | OQ-006 | `02_ OQ-1` (carried, C1) [VERIFY]: OTCD 10%-of-tax retention vs the affiliate's own débito — credit line, separate casilla, or débito reduction on the affiliate's 201? Shared with file 05 (now existing: pinned at HN-FREP-FR-175 feed c, whose OQ-012 carries the same origin) and taxation/06 OQ-001; this file supplies the aggregate feed (FR-140) and never resolves the question. | no | Takumi S-HN3 (files 04+05) | open |

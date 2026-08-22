@@ -303,6 +303,50 @@ corpus documents but absent; logged per evidence-file OQs):**
   posts-only, empty (known). Remaining: pre-2015 gazette archive (none located),
   NATLEX (network-blocked), labeled non-official mirror at synthesis time.
 
+**W10 ACQUISITION WAVE (2026-08-21 — the sharpened residual queue executed;
+TWELVE files `149_`..`160_`, EVID-566..643):**
+- **ACQUIRED (SAR catalog, fresh-wpdmdl):** `151_` **SAR-653-2023** (the
+  CbCR/Informe País por País — G 36,489 Sección-A extract 19-mar-2024; the
+  EUR-750M-o-L19,000M threshold; the TRANSITORIO-suspended local filing;
+  31-dic notification; FREP/10 LB-015/OQ-024) + `152_` **D. 7-2017** (G
+  34,284 — the OTCD 50%→10%/15% middle instrument, FREP/04 OQ-003
+  RESOLVED) + `153_` **SAR-239-2024** (the QUINCENCAL CETF
+  retenciones/percepciones informativa, replaces DEI-SG-110-2012) + `154_`
+  **SAR-283-2024** (the June-2024 prorroga, HISTORICAL).
+- **ACQUIRED (ENAG gazette route):** `149_` **D. 92-2015** (G 33,883
+  14-nov-2015 — **R-H87: the 506-vs-509 instruments COMPLETE**; the
+  reservas-tail = reform text; sanction chassis + third promedio semantics)
+  + `150_` **DEI-SG-004-2016** (G 34,018 27-abr-2016 — **R-H88: the USD-1M
+  TP pequeño gate**; safe harbour NEGATIVE; located by scanning 49
+  April/May-2016 issue SUMARIOs for DEI content — the batch-scan recipe) +
+  `159_` **G 37,077 SAR-43-2026** + `160_` **G 36,499 SAR-125-2024** (the
+  CT-131 descargo pair — the 2025/2023-vigente promedio anchors; NOTE the
+  SAR catalog's SAR-43-2026 slug now LOGIN-WALLS (wpdm redirect) — ENAG is
+  the working route for 2024+ gazette instruments).
+- **ACQUIRED (STSS/trabajo.gob.hn uploads via Wayback):** `156_`/`157_`/
+  `158_` **the DGS promedio prints 2022/2023/2024** (L11,278.75 /
+  L12,377.73 / L13,156.53 — R-H90: the promedio family 5-of-6 years; the
+  2023 value two-print-validated against SAR-125-2024's SETRASS-411-2023
+  recital; Wayback CDX of `trabajo.gob.hn/wp-content/uploads/<year>*` +
+  mimetype filter = the recipe; NO 2025 print exists — uploads/2025 has no
+  tabla; SAR-43-2026 = the 2025 anchor, Oficio SETRASS-DGS-014-2025 the
+  fixer lead).
+- **ACQUIRED (ihss.hn Wayback):** `155_` **Acuerdo 006-JD-2008 REAP** (G
+  31,681 — the domésticos health-only reglamento; annual prepaid
+  cotización; JD-delegated rates; optional IVM bridge). Caught at page-1
+  and DISCARDED: `AJ-RIESGOS-PROFESIONALES.compressed.pdf` = a 2024
+  Acta-de-Juramentación memo, NOT the RP instrument (ledger unchanged at
+  11 — the RP class cuadros stay open).
+- **D. 96-2012 (loss regimes) UNACQUIRED — routes exhausted this session:**
+  SAR catalog live re-crawl (11 section pages, 506 slugs), TSC/congreso/
+  STSS saved CDX enumerations, the DEI sitioleyes Wayback library (67 PDFs,
+  2007-era snapshots — pre-2012), search engines (Bing returns generic
+  results for .hn queries). Refined pin: gazetted **20-jul-2012** per
+  `80_`'s recital ("publicado en el Diario Oficial 'La Gaceta' el 20 de
+  julio de 2012"); content partially pinned via the 01_/29_/30_ Ayudas
+  (1% anticipo on 2-loss-years + L100M gross; 3%-CIF import advance).
+  Watch: any pre-2015 gazette archive, labeled mirrors.
+
 **W9 ACQUISITION WAVE (2026-08-21 — the residual queue executed; NINETEEN
 files `130_`..`148_`):**
 - **ACQUIRED (SAR catalog, fresh-wpdmdl recipe):** `130_` **D. 278-2013**
@@ -547,6 +591,22 @@ cited by corpus documents but absent; logged per evidence-file OQs):**
   text-native layers (127_) skip all this (`gs txtwrite`); (d) when a
   hunt fails, re-grep EVERY saved CDX enumeration for the target name
   before declaring exhaustion (the 129_ lesson).
+- **W10 additions:** (a) **ENAG batch-scan recipe for instrument placement**
+  — when an instrument's gazette NUMBER is unknown but its month-window is
+  (e.g. "Acuerdo DEI-SG-004-2016, Abril 2016" per an Ayuda marco row):
+  fetch the ENAG month listings (`/index.php/gaceta-digital/<year>/<mes>`
+  + `?start=12/24/…` pagination), download each issue, grep page-1 SUMARIO
+  for the issuing unit — 49 issues scanned in one pass found G 34,018;
+  (b) **the SAR catalog now LOGIN-WALLS some download pages** (wpdm
+  redirect to wp-login; hit after a heavy crawl session — rate-limit
+  class): retry once after a pause, else switch to the ENAG gazette route
+  for 2024+ instruments (worked for SAR-43-2026's G 37,077); (c) the STSS
+  DGS tabla prints live under `wp-content/uploads/<year>/<mm>/Tabla…pdf`
+  — enumerate via Wayback CDX per year with the mimetype filter (the
+  promedio family); the REST API is iThemes-blocked (`itsec_rest_api_
+  access_restricted`) — do not retry; (d) `enag.hn` no longer resolves —
+  use `enag.gob.hn` (the RESEARCH §1 record was right; the bare domain
+  lost DNS delegation between sessions).
 
 ## 7. Hint layer — practitioner recollections (pointers only, never LB)
 

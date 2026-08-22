@@ -81,6 +81,7 @@ Código Tributario (R-H13) — procedure/sanction interfaces cite T11 by id.
 | LB-017 | Ley de Eficiencia, E-Art 4 (origin instrument of the OTCD complement) | Reformed by D. 278-2013 Art. 21, D. 170-2016 Art. 195, D. 7-2017 Art. 1: OTCD solidarity "únicamente por la retención... cuando haya sido reportado por los negocios afiliados"; per-transaction ISV discrimination forced "incluso cuando el mismo sea igual a cero (0)"; affiliate zero-registration duty "bajo advertencia de que... el OTCD lo haga de manera automática"; no discrimination → OTCD applies 15% on the total amount; fully-exempt affiliates need an AT exclusion resolution communicated to the OTCDs; monthly banking entero within the first 10 días calendario; administrative/civil/penal liability | `hn/sources/05_Ley_Eficiencia_D113-2011_actualizada.pdf` | E-Art 4 pp.2-4 (EVID-058) |
 | LB-018 | Ley de Eficiencia, E-Art 5 — **VOID (dead text)** | "El crédito fiscal generado en las compras gravadas... no será sujeto a devolución ni compensación... debiendo consumirse hasta su total agotamiento; si el contribuyente al cerrar actividades no hubiera agotado su crédito fiscal acumulado por el ISV, éste se consolidará a favor del fisco. (DECLARADO INCONSTITUCIONAL)" — struck by sentencia RI-0763-2011 (Sala de lo Constitucional CSJ, 25-mar-2021); current credit rules = Ley ISV Art. 12 (LB-012) | `hn/sources/05_Ley_Eficiencia_D113-2011_actualizada.pdf` | E-Art 5 p.3 (EVID-059; R-H3) |
 | LB-019 | D. 278-2013 (`130_`), Arts. 16-19 + Anexo I — the CURRENT 15/18 statutory home (W9; G 33,316 30-dic-2013; vigencia 01-ene-2014) | Art. 16 reformed ISV Art. 6: "modificar su tasa general a Quince por Ciento (15%), y a Diez y Ocho por Ciento (18%) la tasa aplicada a las bebidas alcohólicas, cerveza y cigarrillos al igual que los boletos aéreos de clase ejecutiva" (the 12%→15/18 reset the LET-era 12% gave way to); Art. 17 re-cast the canasta-básica exención as **Anexo I** with the load-bearing NOTA: "Para efectos de la exoneración del pago de Impuesto Sobre Ventas en el listado anterior, prevalece únicamente la descripción del producto, siendo el Código SAC únicamente de referencia" (description-driven exemption matching — taxonomy rule); Art. 18 rewrote servicios-exentos literal d) (estética/spa/liposucción carved OUT; prepared foods IN); Art. 19 fixed the Simplificado **Declaración Anual de Ventas due 31-ene** (from PF2014) | The 15%/18% rows of FR-rate config gain their origin instrument; the Anexo-I NOTA = a matching-engine rule (product description prevails over SAC code — encode exemption catalogs description-first); Simplificado 31-ene = FREP/05 kin dated row | `hn/sources/130_Gaceta_33316_Decreto_278-2013_Ley_Ordenamiento_Finanzas_Publicas.pdf` | D278-Arts. 16-19 + Anexo I (pp.7-9, 15-16; EV130:EVID-487) |
+| LB-020 | **D. 7-2017 ORIGINAL ACQUIRED W10** (`152_`, G 34,284 8-mar-2017): the OTCD chain middle instrument — Art. 1 reformed ISV Art. 8 ¶6 (**10% automatic** on the discriminated ISV, displacing D. 278-2013 Art. 21's 50% and the CT-211-2 12%-autónoma interim; **num. 4 = the 15% no-discrimination fallback on the monto total**; num. 3 = affiliate zero/final-consumer registration duty with OTCD auto-cure); Art. 2 interp; **Art. 3 DEROGATED D. 278-2013 Art. 21**. Zero material drift vs `05_`'s consolidation (comma + "Tarjeta(s)" only — the consolidation fills the elided numerales 1/2/5/6/7, which stand on 05_/EVID-058) | FR-248/249/250's retention/fallback mechanics gain the statute-original print + regime-dated rows (50% → 10%/15% at 8-mar-2017); FREP/04 OQ-003's chain instrument | `hn/sources/152_Gaceta_34284_Decreto_7-2017_reforma_Art8_LISV.pdf` | D7-Art. 1-3 (pp.A.1-A.4; EV152:EVID-597..601) |
 
 Dead text — never implementable as current law (recorded as LB notes, not
 FRs): Eficiencia E-Art 5 credit-closure rule (VOID, R-H3 — LB-018);
@@ -332,7 +333,18 @@ carried as dated rows (§4).
   must register the ISV caused even at zero or on final-consumer sales
   (else the OTCD does it automatically); fully-exempt affiliates are
   excluded only via an AT exclusion resolution communicated to the OTCDs.
-  (LB-009; LB-017; EV02:EVID-020; EV05:EVID-058)
+  **W10 statute anchor (LB-020): the 15%-fallback's trigger and base now
+  primary-text — D. 7-2017 Art. 1 (reformed ISV Art. 8 ¶6 num. 4):
+  "deben aplicar un quince por ciento (15%) de manera automática sobre el
+  monto total cuando no exista discriminación del Impuesto causado en las
+  transacciones de bienes y servicios gravados" — trigger =
+  no-discrimination, base = the transaction monto total (NOT the tax; at
+  15% ISV a 15%-of-total retention exceeds the embedded ≈13.04% tax —
+  not tax-capped on its face, flagged); regime-dated rows: 50%
+  (278-2013-Art.-21, 30-dic-2013→7-mar-2017) → 10%-automatic + 15%
+  fallback (D. 7-2017, 8-mar-2017, which also DEROGATED 278-2013-Art.-21)
+  → SAR-240-2024 IX-XIII procedure (current).**
+  (LB-009; LB-017; LB-020; EV02:EVID-020; EV05:EVID-058; EV152:EVID-598)
 - **HN-TAX-FR-250:** The system shall compute the OTCD monthly entero of
   all retained amounts within the first 10 días calendario of the
   following month through the banking system, OTCD solidarity limited to

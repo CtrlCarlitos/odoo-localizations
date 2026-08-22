@@ -25,13 +25,23 @@ columns (fiscal-reporting/02) and S-HN2 comprobante mechanics are consumed
 by id, never re-derived. Source-to-requirements coverage:
 [../COVERAGE.md](../COVERAGE.md) (validation wave — runs next).
 
+**W10 wave (2026-08-21) fold-ins:** file 01 +LB-023 + FR-024/025 rewritten
+(THE PROMEDIO FAMILY RESOLVED 5-of-6 years: 2022 L11,278.75 / 2023
+L12,377.73 / 2024 L13,156.53 DGS prints + 2025 L13,985.16 SAR-43-2026
+anchor — `smm_tables.csv` rows flipped printed/printed_anchor; the FY2022-
+FY2025 10×SMM caps unblocked for taxation/04 FR-134; three promedio
+resolution semantics separated: FY-cap / emission-time umbral /
+hecho-generador-time sanctions); file 03 +LB-020 + FR-126 extended + OQ-011
+new (Acuerdo 006-JD-2008 REAP domésticos — health-only separate lane,
+JD-delegated rates, optional IVM bridge; segment config gate).
+
 ## Files & FR ranges
 
 | File | Scope (clusters) | FR range | FRs | LBs | ACs | OQs |
 |------|------------------|----------|-----|-----|-----|-----|
-| [01_smm-chassis.md](01_smm-chassis.md) | SMM machinery (D. 103), bienio chains 2022-2027 as dated rows, maquila/zonas-libres track, retro deadlines, salvaguarda chain, **DGS promedio rows (R-H47 — THE feed of taxation/04 FR-134)** (`smm_tables.csv` sidecar); W5: Acuerdo 345 fijación-process metadata + the +15-day effectivity default (FR-041) (P1) | HN-PAYR-FR-001..041 | 41 | 22 | 16 | 14 |
+| [01_smm-chassis.md](01_smm-chassis.md) | SMM machinery (D. 103), bienio chains 2022-2027 as dated rows, maquila/zonas-libres track, retro deadlines, salvaguarda chain, **DGS promedio rows (R-H47 — THE feed of taxation/04 FR-134)** (`smm_tables.csv` sidecar); W5: Acuerdo 345 fijación-process metadata + the +15-day effectivity default (FR-041) (P1) | HN-PAYR-FR-001..041 | 41 | 23 | 16 | 14 |
 | [02_13th-14th-bono.md](02_13th-14th-bono.md) | **13th month (aguinaldo) STATUTORY ENGINE per D. 112-1982 (W5 UNBLOCK, R-H74; **W6: chain ORIGINAL-pinned `110_`..`113_` — dated beneficiary rows permanents-only→+jubilados from 17-dic-1997, gazette pin PRIMARY, Art. 18 variance ruled R-H80**)**; 14th month (Acuerdo 02-95: 30-jun gate, ordinary-salary average, SMM-average variant, 30-day normalization, exit proration; **W6: D. 135-94 original `114_` — vigencia conflict OQ-012 carried**; **W7 R-H81: interp = D. 74-95 (G 27,655) re-attributed, extension = D. 54-95 (G 27,639) → FR-097 dated row, OQ-002 resolved via `119_`**); bono educativo incl. the STSS-154-2000 reglamento mechanics (W5: FR-094..096) (P2+P3+P4) | HN-PAYR-FR-051..097 | 47 | 25 | 22 | 13 |
-| [03_ihss-cotizaciones.md](03_ihss-cotizaciones.md) | IHSS cotización matrix (IVM 3.5/2.5/0.5 + EM 5/2.5/0.5 ⇒ worker 5.0%/employer 8.5%), TWO regime ceilings as dated rows, min(salario, techo) base, base composition RESOLVED to text (Reglamento General 003-JD-2005 Art. 135 — OT/rest-day IN, habitual bonuses IN, occasional OUT, aguinaldo OUT per D.117-2021, 14th = flag; W9), withholding mechanics, enforcement (P5) | HN-PAYR-FR-101..137 | 37 | 19 | 15 | 10 |
+| [03_ihss-cotizaciones.md](03_ihss-cotizaciones.md) | IHSS cotización matrix (IVM 3.5/2.5/0.5 + EM 5/2.5/0.5 ⇒ worker 5.0%/employer 8.5%), TWO regime ceilings as dated rows, min(salario, techo) base, base composition RESOLVED to text (Reglamento General 003-JD-2005 Art. 135 — OT/rest-day IN, habitual bonuses IN, occasional OUT, aguinaldo OUT per D.117-2021, 14th = flag; W9), withholding mechanics, enforcement (P5) | HN-PAYR-FR-101..137 | 37 | 20 | 15 | 11 |
 | [04_ihss-incapacidad.md](04_ihss-incapacidad.md) | RIT incapacidad: NO cuarentena (days 1-3 employer salary, 4-365 IHSS 66% + complement), 35-day episode key, 182+183=365 structure, refrendo matrix, maternity 42+42 subsidy, entitlement/no-pay matrix (P6) | HN-PAYR-FR-141..170 | 30 | 15 | 18 | 5 |
 | [05_rap-fondo.md](05_rap-fondo.md) | RAP-side stack: fondo 4% (techo 3×SMM-nivel-más-alto) + RAP 1.5+1.5 on IVM-excess base, three-bases-never-share rule, termination offset matrix (R-H55), grandfathering (D. 150-2008), D. 40-2026 window + FOVIIF (P7) | HN-PAYR-FR-181..215 | 35 | 15 | 18 | 9 |
 | [06_jornada-surcharges.md](06_jornada-surcharges.md) | Jornada types (44 worked/48 paid), night +25%, OT ×1.25/×1.50/×1.75 + caps, séptimo día ÷6 **+ the D. 112 statutory layer (W5: FR-248 ordinary-jornada/OT-excluded/fixed-part/destajo-floor valuation + FR-249 deemed-inclusion classes/forfeiture gate/rest-day stacking)**, 11 feriados (1960-vintage dated config, R-H70) + collision rule, rest-day/holiday ×2 (P8) | HN-PAYR-FR-221..249 | 29 | 16 | 19 | 6 |
@@ -39,7 +49,7 @@ by id, never re-derived. Source-to-requirements coverage:
 | [08_cesantia-preaviso.md](08_cesantia-preaviso.md) | Preaviso 24h-2m scale + in-lieu, cesantía 10d/20d/1mo-yr + fraction, 25/15-month caps, 35%/75% variants, last-6-month base ÷ days worked, salarios caídos, pregnancy penalties, constancia, NO final-pay deadline (negative) (P10) | HN-PAYR-FR-291..325 | 35 | 14 | 22 | 7 |
 | [09_suspension-maternity-special.md](09_suspension-maternity-special.md) | 15 suspension causes, CT sickness half-pay layering vs RIT, CT maternity 4+6w + 180-day base + IHSS reconciliation, minors, domésticos (cash-only base), riesgo profesional residual (P11) | HN-PAYR-FR-331..357 | 27 | 11 | 13 | 5 |
 | [10_salario-concepts-records.md](10_salario-concepts-records.md) | Salario taxonomy (habitual+retributive; in-kind ≤30%), pay periods, salario completo indemnity base, mandatory deductions (union/non-union/coop), embargo caps (1959 nominals dated), Libro de Salarios/planillas, contract chassis + retroactive start, **85_ mislabel guard (EVID-333)** (P12) | HN-PAYR-FR-371..398 | 28 | 20 | 16 | 3 |
-| **Total** | | HN-PAYR-FR-001..405 | **330** | **170** | **172** | **84** |
+| **Total** | | HN-PAYR-FR-001..405 | **330** | **172** | **172** | **85** |
 
 Numbering note: FR ranges pre-allocated per file (subagent dispatch
 pattern); unused tails/reserved gaps (042-050, 097-100 (087 + 088-096 consumed at V-HN1/W5), 136-140, 171-180,

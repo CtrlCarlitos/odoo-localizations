@@ -8,11 +8,11 @@
 | Authors | script `hn/scripts/build_coverage.py` (regenerate after every wave) |
 | Updated | 2026-08-20 |
 
-Every row of [../sources/README.md](../sources/README.md) (147 registered files, gap 103 reserved-unused) mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1099 FRs, 523 LB rows, 574 ACs, 327 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 249, e-invoicing 157, fiscal-reporting 363, payroll 330).
+Every row of [../sources/README.md](../sources/README.md) (159 registered files, gap 103 reserved-unused) mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1099 FRs, 532 LB rows, 574 ACs, 331 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 249, e-invoicing 157, fiscal-reporting 363, payroll 330).
 
 Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row of a requirements file (citing file(s) + LB ids listed); **not-applicable-this-wave** — explicit annotation with reason (superseded/historical, in-corpus-unread pending evidence pass, or out of scope for the four topics).
 
-## Matrix (147 source files)
+## Matrix (159 source files)
 
 | Source | Status | Cited in / note |
 |--------|--------|-----------------|
@@ -163,14 +163,26 @@ Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row
 | 146_Regl_Aplicacion_Ley_Seguro_Social_Decreto_193-1971.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-019) |
 | 147_Regl_Gral_Ley_IHSS_transparencia_scan.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-019) |
 | 148_Gaceta_33879_10nov2015_IHSS_RAP.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-019) |
+| 149_Gaceta_33883_Decreto_92-2015_Contribucion_Social_Cooperativas.pdf | cited-as-LB | `fiscal-reporting/11_contribuciones-sector.md` (LB-013) |
+| 150_Gaceta_34018_Acuerdo_DEI-SG-004-2016_PT_umbral.pdf | cited-as-LB | `fiscal-reporting/10_tp-545-informativas.md` (LB-014) |
+| 151_Gaceta_36489_Acuerdo_SAR-653-2023_CbCR.pdf | cited-as-LB | `fiscal-reporting/10_tp-545-informativas.md` (LB-015) |
+| 152_Gaceta_34284_Decreto_7-2017_reforma_Art8_LISV.pdf | cited-as-LB | `fiscal-reporting/04_otcd-tarjetas-215-523.md` (LB-014); `taxation/06_isv.md` (LB-020) |
+| 153_Acuerdo_SAR-239-2024_CETF_retenciones_informativa.pdf | cited-as-LB | `fiscal-reporting/01_filing-chassis-due-days.md` (LB-022) |
+| 154_Acuerdo_SAR-283-2024_prorroga_pagos_cuenta.pdf | cited-as-LB | `fiscal-reporting/01_filing-chassis-due-days.md` (LB-022) |
+| 155_Acuerdo_006-JD-2008_Regl_trabajadores_domesticos_REAP.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-020) |
+| 156_Tabla_Salario_Minimo_2022_DGS.pdf | cited-as-LB | `payroll/01_smm-chassis.md` (LB-023) |
+| 157_Tabla_Salario_Minimo_2023_DGS_SMP.pdf | cited-as-LB | `payroll/01_smm-chassis.md` (LB-023) |
+| 158_Tabla_Salario_Minimo_2024_DGS.pdf | cited-as-LB | `payroll/01_smm-chassis.md` (LB-023) |
+| 159_Gaceta_37077_Acuerdo_SAR-43-2026_descargo_cta_cte.pdf | cited-as-LB | `payroll/01_smm-chassis.md` (LB-023); `taxation/01_isr-framework.md` (LB-025) |
+| 160_Gaceta_36499_Acuerdo_SAR-125-2024_descargo_cta_cte.pdf | cited-as-LB | `payroll/01_smm-chassis.md` (LB-023); `taxation/01_isr-framework.md` (LB-025) |
 
 ## Rollup
 
 | Status | Rows |
 |--------|------|
-| cited-as-LB | 145 |
+| cited-as-LB | 157 |
 | not-applicable-this-wave | 2 |
-| **Total** | **147** |
+| **Total** | **159** |
 
 ## V-HN1 gate-1 findings (2026-08-20, fixed in this wave)
 

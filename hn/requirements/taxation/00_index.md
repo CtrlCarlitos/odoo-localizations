@@ -19,18 +19,24 @@ evidence, EVID-001..071); F/P/E clusters are consumed by id, never
 re-derived. Source-to-requirements coverage: [../COVERAGE.md](../COVERAGE.md)
 (to be generated at S-wave validation).
 
+**W10 wave (2026-08-21) fold-ins:** file 01 +LB-025 (the CT-131 descargo
+executing pair SAR-125-2024/SAR-43-2026 — FR-037's discharge engine statute-
+anchored, emission-time umbral semantics demonstrated twice); file 06 +LB-020
+(D. 7-2017 original = the OTCD 50%→10%/15% middle instrument — FR-249's
+fallback trigger/base now primary-text, regime rows dated 8-mar-2017).
+
 ## Files & FR ranges
 
 | File | Scope (clusters) | FR range | FRs | LBs | ACs | OQs |
 |------|------------------|----------|-----|-----|-----|-----|
-| [01_isr-framework.md](01_isr-framework.md) | Subjects/scope/rates overview, fiscal periods, books, entero, refunds, prescription, sanctions (T1+T11); Art. 206 void dead-text note (R-H5) | HN-TAX-FR-001..045 | 45 | 24 | 24 | 7 |
+| [01_isr-framework.md](01_isr-framework.md) | Subjects/scope/rates overview, fiscal periods, books, entero, refunds, prescription, sanctions (T1+T11); Art. 206 void dead-text note (R-H5) | HN-TAX-FR-001..045 | 45 | 25 | 24 | 7 |
 | [02_isr-deductions.md](02_isr-deductions.md) | Renta-neta chassis, bad-debt cap, non-deductibles, personal/senior stack (65+ chain continuity W9), donations, NOL (T2) | HN-TAX-FR-046..078 | 33 | 18 | 16 | 9 |
 | [03_isr-rates-gains-minimum.md](03_isr-rates-gains-minimum.md) | 22-A gross-minimum (regime 0 FY2014-FY2017 extended W9 from the acquired `130_` original text + three dated regimes, R-H32), ganancias de capital 10%, non-resident 13-category table (T4+T5) | HN-TAX-FR-081..104 | 24 | 14 | 20 | 8 |
 | [04_isr-withholding.md](04_isr-withholding.md) | Plantilla computation contract, FY2022-2026 scale vintages (`isr_brackets.csv`), 12.5% services + 1% compras engines, entero anchor (T3+T6) | HN-TAX-FR-121..153 | 33 | 15 | 19 | 10 |
 | [05_d17-2010-family.md](05_d17-2010-family.md) | Dividends/deemed dividends, cédulas alquiler/enseñanza, revaluación, selectivo vehicles/cigarettes/beverages/slots (T7+T10) | HN-TAX-FR-166..207 | 42 | 16 | 20 | 8 |
-| [06_isv.md](06_isv.md) | ISV base/event/rates/exemptions, débito-crérdito liquidation, OTCD cards, simplificado, devolución 8% (T8+T9) | HN-TAX-FR-211..255 | 45 | 19 | 20 | 6 |
+| [06_isv.md](06_isv.md) | ISV base/event/rates/exemptions, débito-crérdito liquidation, OTCD cards, simplificado, devolución 8% (T8+T9) | HN-TAX-FR-211..255 | 45 | 20 | 20 | 6 |
 | [07_special-regimes-exonerations.md](07_special-regimes-exonerations.md) | Exonerations registry lifecycle, RIT, no-simultaneidad, sacrificio fiscal, state-side gates, Eficiencia closers, turismo family incl. D. 68-2017 current stack (T12; W8) | HN-TAX-FR-256..282 | 27 | 12 | 21 | 8 |
-| **Total** | | HN-TAX-FR-001..282 | **249** | **118** | **140** | **56** |
+| **Total** | | HN-TAX-FR-001..282 | **249** | **120** | **140** | **56** |
 
 Numbering note: FR ranges pre-allocated per file (subagent dispatch
 pattern); unused tail numbers stay reserved (079-080, 105-120, 154-165,

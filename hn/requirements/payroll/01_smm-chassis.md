@@ -89,6 +89,7 @@ everything (dated rows, hecho-generador/period resolution, never-guess rule).
 | LB-020 | Acuerdo SETRASS-014-2023, CONSIDERANDO + Arts. 1-2, 4 y 6 | CONSIDERANDO: "…la inflación oficial interanual registrada por el Banco Central de Honduras (BCH) al mes de diciembre del año dos mil veintidós (2022), alcanzó el porcentaje de 9.80%, siendo superior a los porcentajes de ajuste acordados para el año dos mil veintitrés (2023), de 5.32%… 5.50%… 6.50%… y de 8.00%… plasmados en el Acuerdo Ejecutivo No. STSS 308-2022…" Art. 1 cuadro: 9.80% for every category. Art. 2: new table "…entrará en vigencia a partir del (01) de enero del año dos mil veintitrés (2023)…" [table OCR-damaged — 83_ OQ-1]. Art. 4: "…correspondiente al mes de enero de 2023, podrá ser pagado de forma total o de manera diferida a más tardar el 31 de marzo de 2023." Art. 6: maquila/zonas libres excluded | The salvaguarda EXECUTED: 2023 re-fixed at a UNIFORM national 9.80% over the 2022 values, replacing the 5.32/5.50/6.50/8.00 column; January 2023 differential payable total-or-deferred by 31-mar-2023; maquila excluded | `hn/sources/83_SETRASS-014-2023_salario_min_2023.pdf` | 014-CONSIDERANDO (p.1); Arts. 1-2 (p.2); Arts. 4, 6-7 (p.3) (EV82:EVID-236) |
 | LB-021 | Acuerdo SETRASS-411-2023, Arts. 1-3 + Acta Especial | Art. 1 cuadro: "[AÑO] 2023 — [ajuste] 10.00% — [período] Junio-diciembre" + "2023 Junio-Diciembre — Salario mínimo mensual L 10,457.29 — Salario Mínimo Jornada ordinaria de 8 Horas laborales L 348.58 — Salario mínimo por hora L 43.57". Art. 3: "…correspondiente al mes de junio de 2023, deberá ser pagado de forma retroactiva y total a más tardar el 31 de agosto de 2023." Acta: "MODIFICAR la Cláusula Novena del Acuerdo Ejecutivo No. STSS-006-2019… en lo que respecta al porcentaje de ajuste al salario mínimo del sector textil maquilador y demás empresas que operan en zonas libres, aplicable para el año 2023, el cual deberá leerse de la siguiente manera: 2023 — 10.00% — Junio-diciembre." | The maquila mid-year 2023 event: 10% for Jun-Dic 2023, new floor L10,457.29 (single national value, no size bands); June differential retroactive and total by 31-ago-2023; modifies STSS-006-2019 Cláusula Novena (whose original 8% governed Jan-May 2023 — value unprinted, ≈9,506.63 derived only, 84_ OQ-1) | `hn/sources/84_SETRASS-411-2023_textil_2023.pdf` | 411-Arts. 1-3 (pp.2-3); Acta pp.3-7 (EV82:EVID-237) |
 | LB-022 | Acuerdo 345 (Reglamento de las Comisiones de Salario Mínimo, `108_`, W5; 6-oct-1988, G 25,680 — publication date not printed, vigencia = day after publication, unpinned) Arts. 2/3/6/15/28/29/30: Art. 2: "Las Comisiones… son los organismos tripartitos creados temporalmente para coadyuvar a la fijación y revisión periódica de las tasas salariales mínimas…" Art. 3: "…integradas en forma tripartita, así: Tres miembros propietarios representantes del interés patronal, tres… del interés obrero y tres… del interés público… Finalizada la Fijación o Revisión para las cuales han sido integradas… se considerarán disueltas." Art. 6: "El Director General de Salarios es por ministerio de la ley el tercer miembro por el sector público, y actuará como Presidente." Art. 15: "La audiencia durará en su conjunto (15) quince días hábiles…" Art. 28: "…la publicación del proyecto por una sola vez en el periódico Oficial 'La Gaceta', juntamente con un aviso en que les concederá a Partes Interesadas un término fatal de (20) veinte días…" Art. 30: "El Secretario de Trabajo y Previsión Social, tendrá un término de (20) veinte días hábiles para pronunciarse… El Acuerdo del Poder Ejecutivo será publicado en el periódico Oficial 'La Gaceta' por una sola vez, y entrará en vigencia (15) quince días después de tal publicación." | The commissions PROCEDURE reglamento (1988): commissions are TEMPORARY — constituted per fijación/revisión and dissolved on completion (each bienio/annual acuerdo rides its own commission; ties the SETRASS-101-2026 naming evidence); Director General de Salarios chairs ex-ley; audiencia 15 días hábiles, quorum 5 incl. the President; project published ONCE in La Gaceta with a 20-day FATAL comment window; informe ≥5 votes; Secretario 20 días hábiles (silence = approval); the fijación's effectivity = 15 days after its gazette publication — REGLAMENTO-level restatement of the Ley Art. 30 default already in LB-002, displaced by the fijación instruments' own vigencia clauses (R-H62). | `hn/sources/108_Acuerdo_345_Regl_Comisiones_Salario_Minimo.pdf` | 345-Arts. 2-3/6 (pp.1-2), 14-15 (pp.4-5), 28-30 (pp.6-7), 34 (p.8) (EV106:EVID-383; EV106:EVID-384) |
+| LB-023 | **THE DGS PROMEDIO-PRINT FAMILY + SAR ANCHORS ACQUIRED W10** (`156_` Tabla SMM 2022 + `157_` Tablas 2023 SMP y BE + `158_` Tabla SMM 2024 + `159_` G 37,077 SAR-43-2026 + `160_` G 36,499 SAR-125-2024): the promedio rows now printed/anchored for 2022-2025 — **2022 L11,278.75/375.96/46.99** (156_ line "Salario Minimo Promedio 11,278.75 375.96 46.99", fixer unfootnoted = lead); **2023 L12,377.73/412.59/51.57** (157_; jornada triple-pass 412.59 — sidecar "4127.59" noise adjudicated 600dpi; TWO-PRINT validation: SAR-125-2024 recites SETRASS-411-2023 "fijó el salario mínimo promedio … a partir del 01 de enero del 2023 … (L12,377.73)"; governance datum: the promedio-fixing power attaches to SETRASS/DGS oficios-acuerdos as a family, not the general re-fix acuerdos); **2024 L13,156.53/438.55/54.82** (158_, native-layer corroborated); **2025 L13,985.16** (SAR-43-2026, G 37,077 23-feb-2026 — CT-131 descargo umbral "vigente y aprobado a la fecha de emisión"; fixer = SETRASS-109-2024 + Oficio SETRASS-DGS-014-2025 [lead]; NO DGS 2025 print — the DGS-print watch carries). The descargo anchors' emission-coherence: Feb-2024 SAR-125 used the 2023 promedio (the 2024-2025 bienio published only 21-mar-2024) and Feb-2026 SAR-43 used the 2025 promedio (the 2026-2027 bienio published only 29-abr-2026) — the vigente-at-emission semantics demonstrated twice (D-H2) | FR-024/FR-025's promedio supply now 5-of-6 years printed/anchored (only 2027 pending); the ×10 cap derivations FY2022-FY2025 unblocked for taxation/04 FR-134; three promedio resolution semantics separated (FY-cap / emission-time umbral / hecho-generador-time sanctions) | `hn/sources/156_Tabla_Salario_Minimo_2022_DGS.pdf` + `hn/sources/157_Tabla_Salario_Minimo_2023_DGS_SMP.pdf` + `hn/sources/158_Tabla_Salario_Minimo_2024_DGS.pdf` + `hn/sources/159_Gaceta_37077_Acuerdo_SAR-43-2026_descargo_cta_cte.pdf` + `hn/sources/160_Gaceta_36499_Acuerdo_SAR-125-2024_descargo_cta_cte.pdf` | EV156:EVID-622..625; EV157:EVID-626..629; EV158:EVID-630..633; EV159:EVID-634..638; EV160:EVID-639..643 |
 
 ## 3. Functional Requirements
 
@@ -292,22 +293,41 @@ everything (dated rows, hecho-generador/period resolution, never-guess rule).
 
 - **HN-PAYR-FR-024:** The system shall supply the *salario mínimo promedio*
   as first-class dated rows (track=promedio, single national value, band=na)
-  printed ONLY in the DGS companion tables (R-H47): 2026 = L14,917.20
-  mensual / L497.24 jornada / L62.16 hora, valid 2026-01-01→2026-12-31
-  (EVID-228); this supply is THE feed consumed by the ISR plantilla
-  13th/14th-month 10×SMM-promedio caps — HN-TAX-FR-134 (taxation/04) — and
-  the 10× derivation (2026 cap L149,172.00) belongs to that consumer, NOT to
-  this file. (LB-014; EV82:EVID-228; R-H47)
+  printed ONLY in the DGS companion tables (R-H47) **or official-instrument
+  anchors (W10 addition, LB-023): 2022 = L11,278.75 / L375.96 / L46.99
+  (156_, DGS print; EVID-623); 2023 = L12,377.73 / L412.59 / L51.57 (157_,
+  DGS print, jornada cell triple-pass-pinned, EVID-626 — TWO-PRINT
+  validation with SAR-125-2024's recital: "SETRASS-411-2023 … fijó el
+  salario mínimo promedio … a partir del 01 de enero del 2023 …
+  (L12,377.73)", EVID-640); 2024 = L13,156.53 / L438.55 / L54.82 (158_,
+  DGS print, EVID-630); 2025 = L13,985.16 (SAR-43-2026 official-instrument
+  anchor — `printed_anchor` status, NOT a DGS print; fixer = SETRASS-109-2024
+  + Oficio SETRASS-DGS-014-2025, lead; EVID-634/635); 2026 = L14,917.20 /
+  L497.24 / L62.16 (91_, EVID-228)** — this supply is THE feed consumed by
+  the ISR plantilla 13th/14th-month 10×SMM-promedio caps — HN-TAX-FR-134
+  (taxation/04) — and the 10× derivations (FY2022 L112,787.50 / FY2023
+  L123,777.30 / FY2024 L131,565.30 / FY2025 L139,851.60 / FY2026
+  L149,172.00) belong to that consumer, NOT to this file.
+  (LB-014; LB-023; EV82:EVID-228; EV156:EVID-623; EV157:EVID-626;
+  EV158:EVID-630; EV159:EVID-634; R-H47)
 - **HN-PAYR-FR-025:** The system shall enforce never-recompute on the
-  promedio (R-H47): the value is a DGS print figure with unpublished
-  methodology, NOT the table mean — disproven means on record: 2026 44-value
-  mean L15,097.85, 45-value mean incl. zonas libres L15,049.68, 2025
-  44-value mean L14,177.03 vs the SAR-cited L13,985.16 — so any
-  recomputation or averaging logic is rejected; missing vintages (2022-2025,
-  2027) are machine-visible config-gap rows plus DGS-print acquisition leads
-  (91_ OQ-1; 90_ OQ-4: the FY2027 cap input stays blocked until the DGS 2027
-  table issues, expected early 2027). (LB-014; EV82:EVID-228;
-  EV82:EVID-234)
+  promedio (R-H47): the value is a DGS print figure (or SAR-oficio anchor,
+  2025) with unpublished methodology, NOT the table mean — disproven means
+  on record: 2026 44-value mean L15,097.85, 45-value mean incl. zonas
+  libres L15,049.68, 2025 44-value mean L14,177.03 vs the anchored
+  L13,985.16 — so any recomputation or averaging logic is rejected; the
+  only remaining missing vintage is 2027 (machine-visible config-gap row +
+  DGS-print acquisition watch, 90_ OQ-4: the FY2027 cap input stays blocked
+  until the DGS 2027 table issues, expected early 2027). NOTE the three
+  promedio RESOLUTION semantics that exist in corpus (encode as three
+  distinct consumers, never conflated): (i) FY-cap family (taxation/04
+  FR-134 — the FY's own promedio); (ii) CT-131 descargo umbral
+  (SAR-125-2024/SAR-43-2026 — the promedio "vigente a la fecha de
+  emisión", i.e., the PREVIOUS year's during Jan-Apr bienio gaps);
+  (iii) the D. 92-2015 reformed-Art.-7 sanctions measure ("vigente en la
+  fecha en que se origina el incumplimiento" — hecho-generador time;
+  FREP/11 LB-013). (LB-014; LB-023; EV82:EVID-228; EV82:EVID-234;
+  EV159:EVID-638; EV160:EVID-640; EV149:EVID-570)
 - **HN-PAYR-FR-026:** The system shall flag the 2025 promedio row as
   cited-not-printed: SAR-43-2026 cites L13,985.16 (carried as a provenance
   note on the row) but the value is printed nowhere in the corpus — the row
