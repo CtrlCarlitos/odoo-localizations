@@ -18,8 +18,8 @@ re-push, root record `1308644`; main carries HN through EVID-481, corpus
 128 files), the W9 residual-queue acquisition wave (MERGED 2026-08-21 —
 twenty-eighth §4.6 run at `64183e4`, root record `e777566`; main carries HN
 through EVID-565, corpus 147 files), and **the W10 sharpened-residual-queue
-closers (2026-08-21, on-branch, NOT yet merged — see §6 session state:
-TWELVE files `149_`..`160_` + EVID-566..643 + rulings R-H87..R-H90 — the
+closers (MERGED to main 2026-08-21 — twenty-ninth §4.6 run at `9e600db`,
+root record `67ba60d`; TWELVE files `149_`..`160_` + EVID-566..643 + rulings R-H87..R-H90 — the
 506-vs-509 instruments COMPLETE [FR-382 still blocked on the legal reading =
 owner decision], the TP gate + safe-harbour-NEGATIVE, the CbCR regime, the
 OTCD chain complete, the QUINCENCAL CETF informativa, the REAP domésticos
@@ -800,7 +800,7 @@ discarded md5-identical to 104_). Structure:
      commit = the synthesis-wave base; future waves branch from here.
 
 Session state at stop (2026-08-21, W10 sharpened-residual-queue closers —
-NOT yet merged, owner decision pending): evidence COMPLETE through
+MERGED to main same day, twenty-ninth §4.6 run): evidence COMPLETE through
 **EVID-643**; corpus **159 files** (01-160, gap 103); W9 merged to main
 (twenty-eighth §4.6 run at `64183e4`, root record `e777566`; main carries
 HN through EVID-565, 147 files). **W10 on-branch on `hn-research` (this
@@ -834,7 +834,10 @@ fixer] + the DGS 2025 print watch; RP class cuadros + JD ceiling
 resoluciones 2003-2024; the REAP JD-rates family; then "Acuerdo 799" TEXT
 (1970) + D. 247-89 text watch; Código de Comercio; SEE docs; DGS SMM 2027
 promedio print expected early-2027; **the 506-vs-509 legal reading =
-OWNER DECISION**; S-HN5 stays DEFERRED).
+OWNER DECISION**; S-HN5 stays DEFERRED). [W10 MERGED to main 2026-08-21 —
+twenty-ninth §4.6 run: 1 commit rewritten (`bef10b2`→`9e600db`), zero
+conflicts, remote ref delete + re-push, root record `67ba60d`; main carries
+HN through EVID-643, corpus 159 files.]
 
 Historical stop state (W9, superseded above): evidence COMPLETE through
 **EVID-565**; corpus **147 files** (01-148, gap 103); W8 merged to main
