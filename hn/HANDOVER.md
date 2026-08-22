@@ -8,27 +8,24 @@ S-HN1..S-HN4 synthesis waves + their merges, the V-HN1 VALIDATION WAVE
 `f2eccbc`), V-HN1b (in-corpus reads 95_/96_/93_/94_/97_ + acquisition wave),
 the W5 acquisition-reads wave + W5b D. 59-2023 fetch (nineteenth §4.6 run at
 `cd01045`, root record `5c7185b`), the W5c 109_ evidence pass (MERGED
-to main 2026-08-20 — twentieth §4.6 run at `9d1aac4`, root record `36df87c`;
-EVID-385..391 — the L30,000 credit SURVIVES D. 59-2023 unchanged (R-H78,
-OQ-009(a) resolved, FR-067 whole-life row); cuarta edad = 80+ DEFINED
-(R-H79, resolves 96_ OQ-2); new cuarta-edad discount catalogue banked for
-S-HN5; edition's other decrees identified incl. the D. 5-2024 municipal
-amnistía; COVERAGE regen 108 rows = 106 cited + 2 N/A, gates PASS — the
-corpus is then FULLY EVIDENCED 108/108), the W6 R-H75-chain wave (MERGED to
-main 2026-08-20 — twenty-first §4.6 run at `24391b6`, root record `8513e49`;
-EVID-392..428 — NINE files `110_`..`118_` from the Wayback of the old
-official congreso.gob.hn/leyesdehonduras library; R-H80; payroll/02 +
-FREP 02/07/09 updated; COVERAGE 117 rows = 115 cited + 2 N/A, gates PASS),
-the W7 residual-chain decode (EVID-429..433; R-H81/R-H82; merged to main
-2026-08-21 — twenty-fourth §4.6 run at `d4b2a49`, root record `380f044`),
-and **the W8 acquisition wave (2026-08-21, on-branch — the post-W6 queue
-EXECUTED: TEN files `120_`..`129_` + EVID-434..481 + rulings R-H83/R-H84/
-R-H85 + fold-ins + COVERAGE 128 rows = 126 cited + 2 N/A, gates PASS —
-see §4 W8 block). Next = the residual queue (Reglamento General IHSS TOP,
-"Acuerdo 799" TEXT (1970), D. 278-2013 (AS re-establisher + devolución-8%
-suspension — one instrument, three questions), D. 247-89 text watch,
-D. 54-95/36-90 completeness, D. 96-2012, LSP/contribuciones statutes,
-Código de Comercio, SEE docs; S-HN5 DEFERRED).**
+to main 2026-08-20 — twentieth §4.6 run at `9d1aac4`, root record `36df87c`),
+the W6 R-H75-chain wave (MERGED — twenty-first §4.6 run at `24391b6`, root
+record `8513e49`), the W7 residual-chain decode (MERGED 2026-08-21 —
+twenty-fourth §4.6 run at `d4b2a49`, root record `380f044`), the W8
+acquisition wave (MERGED 2026-08-21 — twenty-fifth §4.6 run: 2 commits
+rewritten (`2012b6a..2006f04`), zero conflicts, remote ref delete +
+re-push, root record `1308644`; main carries HN through EVID-481, corpus
+128 files), and **the W9 residual-queue acquisition wave (2026-08-21,
+on-branch at `71223da` — NINETEEN files `130_`..`148_` + EVID-482..565 +
+ruling R-H86 + fold-ins + COVERAGE 147 rows = 145 cited + 2 N/A, gates
+PASS (1099/523/574/327) — see §4 W9 block: the Reglamento General IHSS
+RESOLVED (payroll/03 OQ-005), the AS re-establisher = D. 278-2013 Art. 15
+(R-H86), the DMC 8-day re-seed (R-H18 superseded), the LSP/TP/turismo
+statutes in). Next = the sharpened residual queue (TOP: D. 92-2015 the
+506-vs-509 closer, DEI-SG-004-2016 TP gate, SAR-653-2023 CbCR, D. 7-2017
+OTCD drift, D. 96-2012 loss regimes; then "Acuerdo 799" TEXT + D. 247-89
+watch; Código de Comercio; SEE docs; RP class cuadros; JD ceilings; DGS
+SMM promedio prints; S-HN5 DEFERRED).**
 Read this fully before acting; it is the authoritative HN cross-session
 memory (conversation context does not survive). Update it at every session
 boundary.
@@ -91,11 +88,20 @@ boundary.
 5. `hn/RESEARCH.md` — research dossier: sites, fetch recipes (§6), hint
    layer w/ corpus verification (§7), open leads (§5, incl. W2+W3+W4
    harvests)
-6. `hn/sources/README.md` — registry, **128 files (01-129, 103
+6. `hn/sources/README.md` — registry, **147 files (01-148, 103
    reserved-unused)**, full provenance + mislabel-correction notes (**11
-   incidents to date** — the two rap.hn promo-contest PDFs caught at page-1
-   in W8 were discarded unregistered, ledger unchanged)
-7. Evidence files in `hn/.extractions/*.evidence.md` (committed): `01_`
+   incidents to date** — the W9 SAR-240-2024 fetch was md5-identical to
+   corpus `19_`, discarded unregistered, ledger unchanged)
+7. Evidence files in `hn/.extractions/*.evidence.md` (committed), W9 newest
+   first: `130_Decreto_278-2013_Ordenamiento.evidence.md` (482..491 — R-H86);
+   `131-132_Ordenamiento_reglamento_interp.evidence.md` (492..499);
+   `133-134_SAR-236-256-2024.evidence.md` (500..506 — the DMC re-seed);
+   `135-139_LSP_contribuciones.evidence.md` (507..523);
+   `140-142_TP_precios_transferencia.evidence.md` (524..535);
+   `143-144_turismo_SAR-383.evidence.md` (536..543);
+   `145_Reglamento_Gral_IHSS_003-JD-2005.evidence.md` (544..553 — the
+   base-composition resolver);
+   `146-148_IHSS_ancestors_G33879.evidence.md` (554..565); older: `01_`
    (ISR, EVID-001..015), `02_` (ISV, 016..026), `03_` (CT, 027..038),
    `04-21-22_` (D.17-2010 family, 039..053), `07-12+11_` (tables+plantilla,
    054..056), `05+23+79+80_` (taxation closers, 057..071),
@@ -118,13 +124,21 @@ boundary.
    `119_Congreso_Inventarios_de_Leyes.evidence.md` (W7, **429..433** — the
    official congreso law inventory: the 102_ OQ-2 decoder).
    **EVID numbering is
-   corpus-global, next = 434. OQs are per-file/per-doc at evidence-file end
-   (~227 open).**
+   corpus-global, next = 566. OQs are per-file/per-doc at evidence-file end.**
 
 ## 3. State: corpus (research phase COMPLETE)
 
-**128 registered files, every one page-1 verified (01-129; gap 103
-reserved-unused; 120-129 acquired 2026-08-21 W8 = the post-W6 queue:**
+**147 registered files, every one page-1 verified (01-148; gap 103
+reserved-unused; 130-148 acquired 2026-08-21 W9 = the residual-queue wave:
+130_ D. 278-2013 G 33,316; 131_ Acuerdo 462-2014 G 33,484; 132_ D. 74-2014
+G 33,617; 133_ SAR-236-2024 G 36,538; 134_ SAR-256-2024 G 36,580; 135_
+D. 105-2011 LSP texto actualizado; 136_ Acuerdo 1775-2011; 137_ D.
+131-2018; 138_ D. 53-2015; 139_ D. 128-2020; 140_ D. 232-2011 TP; 141_
+Acuerdo 027-2015; 142_ D. 62-2019 (G 35,077 — pin corrected); 143_
+Acuerdo 618-A-2017; 144_ SAR-383-2024; 145_ Acuerdo 003-JD-2005 Reglamento
+General IHSS "última versión"; 146_ the 1971 Reglamento de Aplicación;
+147_ the G 30,735 gazette original of 003-JD-2005; 148_ G 33,879 IHSS/RAP
+extract; 120-129 acquired 2026-08-21 W8 = the post-W6 queue:**
 120_ Ley RAP ORIGINAL G 33,222 [rap.hn Wayback]; 121_ D. 51-2003 LET G 30,059;
 122_ Acuerdo 0948-2003 LET-reglamento [gazette 28-jun-2003, No. unpinned];
 123_ D. 52-2004 G 30,437; 124_ D. 314-98 G 28,847; 125_ D. 135-2006 G 31,168;
@@ -491,6 +505,71 @@ discarded md5-identical to 104_). Structure:
   328/165/172/83, taxation 249/114/140/56, FREP 363/160/189/170; rulings
   R-H1..R-H85; next EVID = 482; COVERAGE 128 rows = 126 cited + 2 N/A,
   gates PASS (1097/511/574/326).
+- **W9 residual-queue acquisition wave (2026-08-21, do not re-derive):**
+  NINETEEN files `130_`..`148_`, EVID-482..565 (84; 8 dispatched with 4
+  shape-(b) re-dispatches; brief A controller-executed after triple
+  failure). **R-H86 — D. 278-2013 CAPÍTULO V Art. 15 "Restablecimiento de
+  la Aportación Solidaria" = the AS FY2014+ RE-ESTABLISHER** (re-reads LET
+  Art. 22 wholesale: 5% on the EXCESS of RNG > L1M, PJ except
+  export/tourism, sobretasa del ISR, non-deductible, ISR calendar; FREP/07
+  FR-255/256 + LB-018). **130_'s other legs:** Art. 9 = the 22-A ORIGINAL
+  (regime 0 extended to FY2014-17 — taxation/03 FR-082/LB-019; five 0.75%
+  sectors = the ORIGINAL list; exclusion b) keeps <L10M inside the ATN;
+  losses → D. 96-2012 dado 20-jun-2012 NEW pin); Art. 20 = the
+  devolución-8% SIX-MONTH SELF-EXPIRING suspension (01-ene-2014→30-jun-2014
+  outer bound; `41_ OQ-3` resolved as temporal — NOT a repeal; Art. 21's
+  OTCD retention was 50% at 2013 → D. 7-2017 → SAR-240 chain); Arts.
+  1-2/5/22-27/49 = the exonerations RESET (24+17-numeral survival
+  catalogues; 12-year default cap; DGCFIA registration; Adulto Mayor #13/#11
+  alive; derogations incl. D. 194-2002 Art. 48 + CT Art. 464 — a
+  payroll-staleness check on 86_); Arts. 16-19+Anexo I = the CURRENT
+  15/18 ISV statutory home + the canasta DESCRIPTION-PREVAILS NOTA +
+  Simplificado 31-ene; vigencia EXPLICIT 01-ene-2014 (Art. 51 — not
+  publication-day). **SAR-256-2024 = the DMC due-day bomb** (SEGUNDO/TERCERO:
+  may/jun/jul-2024 at 20 días transitional, from aug-2024 **8 días
+  calendario CURRENT** — FREP/03 FR-091/092/OQ-004 re-seeded, R-H18's
+  manuals-stale reading SUPERSEDED (they cited the plazo as rewritten);
+  OVI monopoly operative 28-jun-2024; SAR-236 owns the 535 approval +
+  deroga the whole e-filing ancestry incl. SAR-007-2017 — FREP/01
+  OQ-008/009 resolved). **LSP statutes:** the CETF (códigos 501/524) =
+  LSP's own contribución, tarifa L2.00/millar (a/b/d/e/f) / L1.50 (c) /
+  tramos (g); reglamento exemptions L120k/L20k + enteros 20th/5th;
+  telefonía Art. 13 1% transitorio; comidas Art. 23 permanente per
+  31-2018 (now in corpus via the texto actualizado); the 506-vs-509
+  boundary NARROWED (53-2015 relieves ISR/ATN/AS only; no derogation
+  anywhere) — **D. 92-2015 (G 33,883 14-nov-2015) = the closer lead**.
+  **TP triple:** law+reglamento+interp text-in (vinculación criteria Arts.
+  11-13; the 545 ancestor Arts. 29-32 with the threshold DELEGATION — the
+  ≤USD-1M pequeño gate's true instrument = **DEI-SG-004-2016, still
+  unacquired**; 62-2019's gazette = G 35,077 19-oct-2019 — the catalog's
+  "34,224" was the CT's own edition, registry corrected). **THE Reglamento
+  General IHSS triple (the W4b TOP lead RESOLVED):** `145_` Acuerdo
+  003-JD-2005 "última versión" (institutional retypeset, duplicate-Art.-193
+  defect) + `147_` the GAZETTE ORIGINAL (G 30,735 29-jun-2005; full Art.
+  1-194; the "188-vs-143" count premise was a regex artifact) + `146_` the
+  1971 Reglamento de Aplicación ancestor (≡ Acuerdo 101-JD-71 inference)
+  + `148_` G 33,879 interventora extract (RAP-patrimony initiative).
+  **Art. 135 = the contribution-BASE resolver — payroll/03 OQ-005
+  RESOLVED, FR-115 rewritten:** cotizable salary = fixed/ordinary + primas
+  + sobresueldos + BONIFICACIONES HABITUALES + OT/horas extras + trabajo
+  suplementario + REST-DAY value + %ventas + commissions + profit
+  participation; OUT = ocasional-y-por-mera-liberalidad primas/bonos/
+  gratificaciones; in-kind ≤30%; the AGUINALDO stays OUT per D. 117-2021
+  (89_); the 14th = config flag (new OQ-010). Art. 134 = minimum base =
+  category SMM (FR-137); Art. 136 + 151 = the ceiling/review powers; Arts.
+  43/67 = subsidio 66% + patrono complement (RIT kin); **Arts. 88-97 = the
+  RP chapter (0.2% new-entrant entry on nominal-at-techo, five classes,
+  January siniestralidad filing, ≥1-year stability — OQ-006 narrowed,
+  class cuadros still absent)**; Art. 144 = EMPLOYER 10-day payment (new
+  FR-136; vs the State's 15-day rhythm); Art. 161 = 10%-monthly multa
+  class. Recipe added: ihss.hn Wayback CDX (`url=ihss.hn*&filter=mimetype:
+  application/pdf`) — 246 PDFs incl. the whole reglamento family.
+  Verification: EVID structural 84/84 contiguous + 3-gram bank-check with
+  LOWs adjudicated; COVERAGE 147 rows = 145 cited + 2 N/A, gates PASS
+  (1099/523/574/327). Totals: payroll 330/170/172/84, taxation
+  249/118/140/56, FREP 363/164/189/170; rulings R-H1..R-H86; next EVID =
+  566.
+
 - **Decisions:** **D-H1** (binding, EXTRACTION_PLAN): one journal per company
   via `l10n_latam_invoice_document`; sequence key = (establecimiento→
   `stock.warehouse`, punto de emisión→child emission point, doc type→
@@ -608,38 +687,34 @@ discarded md5-identical to 104_). Structure:
      force-push (root HANDOVER country model). Branch head after S-HN1/S-HN2
      commit = the synthesis-wave base; future waves branch from here.
 
-Session state at stop (2026-08-21, W8 acquisition wave — NOT yet merged,
-owner decision pending): evidence COMPLETE through **EVID-481**; corpus
-**128 files**; W7 merged to main (twenty-fourth §4.6 run at `d4b2a49`,
-root record `380f044`; main carries HN through EVID-433). **W8 committed
-on `hn-research`**: (1) ACQUISITION — 10 files `120_`..`129_` (Ley RAP
-120_ via rap.hn Wayback; LET family 121_/122_/123_ via SAR; turismo
-124_/125_/126_ + selectivo-reglamento 127_ via SAR; 128_/129_ via
-leyesdehonduras Wayback — 129_ corrects W7's "routes exhausted");
-(2) EVIDENCE — EVID-434..481 (7 files: 6 dispatched [3 shape-(b) fails
-re-dispatched; B/D controller-executed after triple failure] + 119_
-addendum EVID-479..481); rulings R-H83 (Acuerdo 799 = G 19,972
-13-ene-1970), R-H84 (ATN = LET Cap. II; AS temporal 2003-2005 →
-D. 278-2013 lead), R-H85 (Ley RAP original-vs-reformed delta);
-(3) FOLD-INS — payroll/05 OQ-003/OQ-006 RESOLVED + FR-216/AC-019/LB-016;
-payroll/02 FR-057 + LB-026 statute-anchored; FREP/07 OQ-010 RESOLVED
-(FR-257 rewritten + LB-016/017); FREP/02 OQ-009 mechanism pinned
-(FR-073/LB-019); FREP/04 OQ-003 + FREP/06 OQ-003 narrowed; FREP/09
-LB-013/014 + OQ-015 (OQ-001 procedure leg closed; LB-012 watch closed);
-taxation/07 LB-011 + FR-282 (OQ-004 narrowed); five 799-consumer OQs
-annotated (R-H83); master index +EV120..129 +R-H83..85 + Section-C delta;
-(4) verification — EVID structural 48/48 + accent-insensitive 3-gram
-bank-check with LOWs adjudicated + COVERAGE regen 128 rows = 126 cited +
-2 N/A, gates PASS (1097/511/574/326). [W8 MERGED to main 2026-08-21 —
-twenty-fifth §4.6 run: 2 commits rewritten (`7a47fe8..221ce4a`→
-`2012b6a..2006f04`), zero conflicts, remote ref delete + re-push, root
-record `1308644`; main carries HN through EVID-481, corpus 128 files.]
-**Next = the residual queue (TOP: Reglamento General IHSS [119_ IHSS-block
-negative = one more route exhausted], "Acuerdo 799" TEXT (1970 gazette),
-D. 278-2013 [AS re-establisher + devolución-8% Arts. 20-21 — one
-instrument three questions]; then D. 247-89 text watch, D. 54-95/36-90
-completeness, D. 96-2012, LSP/contribuciones statutes, Código de
-Comercio, SEE docs; S-HN5 stays DEFERRED).**
+Session state at stop (2026-08-21, W9 residual-queue acquisition wave — NOT
+yet merged, owner decision pending): evidence COMPLETE through **EVID-565**;
+corpus **147 files** (01-148, gap 103); W8 merged to main (twenty-fifth §4.6
+run, root record `1308644`; main carries HN through EVID-481, 128 files).
+**W9 committed on `hn-research` at `71223da` + pushed**: (1) ACQUISITION —
+19 files `130_`..`148_` (the SAR-catalog family 130-144 via fresh-wpdmdl
+fetches — SAR-240-2024 duplicate discarded md5-identical to `19_`; the IHSS
+reglamento triple 145-148 via the ihss.hn Wayback CDX recipe); (2) EVIDENCE —
+EVID-482..565 in 9 files (8 dispatched; 4 shape-(b) re-dispatches; brief A
+controller-executed after triple failure); ruling **R-H86** (AS
+re-establisher = D. 278-2013 Art. 15); (3) FOLD-INS — payroll/03 OQ-005
+RESOLVED (FR-115 rewrite + LB-015..019 + FR-136/137 + OQ-006 narrowed +
+OQ-010 new), taxation/03 regime-0 FY2014-17 + 273→278 correction,
+taxation/02 65+ continuity, taxation/06 the 15/18+canasta home, taxation/07
+exonerations frame, FREP/07 AS anchored, FREP/03 the DMC 8-day re-seed
+(R-H18 superseded), FREP/01 OVI chassis + OQ-006/008/009, FREP/10 TP triple,
+FREP/11 LSP/CETF statutes; master index +EV130..148 + R-H86 + Section-C W9
+delta; RESEARCH/EXTRACTION_PLAN updated; (4) verification — structural
+84/84 + bank-check adjudicated + COVERAGE regen 147 rows = 145 cited + 2
+N/A, gates PASS (1099/523/574/327). **Next = the sharpened residual queue
+(TOP: D. 92-2015 the 506-vs-509 closer [G 33,883 14-nov-2015 pinned],
+DEI-SG-004-2016 TP pequeño gate + safe harbour, SAR-653-2023 CbCR,
+D. 7-2017 OTCD 50%→10% middle instrument, D. 96-2012 loss regimes [dado
+20-jun-2012 pinned]; then "Acuerdo 799" TEXT (1970) + D. 247-89 text watch;
+Código de Comercio; SEE docs; RP class cuadros + JD ceiling resoluciones
+2003-2024; DGS SMM 2025/2027 promedio prints; ihss.hn domésticos/REAP
+reglamentos visible in the W9 CDX; SAR-239-2024 + SAR-283-2024; S-HN5
+stays DEFERRED).**
 
 Historical stop state (W7, superseded above): evidence COMPLETE through
 **EVID-433**; corpus 118 files; W6 merged to main
