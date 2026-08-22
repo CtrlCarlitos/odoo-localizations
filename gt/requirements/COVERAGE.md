@@ -4,14 +4,15 @@
 |---------|-------|
 | Country | gt |
 | Topic   | all (cross-topic) |
-| Status  | draft (S-GT1 e-invoicing + catalogs, S-GT2 taxation, S-GT3 payroll, S-GT4 fiscal-reporting and S-GT5 chart-of-accounts/commercial-legal waves complete; S-GT6..S-GT7 pending) |
-| Authors | GT synthesis waves S-GT1 + S-GT2 + S-GT3 + S-GT4 + S-GT5 + controller |
+| Status  | draft (S-GT1 e-invoicing + catalogs, S-GT2 taxation, S-GT3 payroll, S-GT4 fiscal-reporting, S-GT5 chart-of-accounts/commercial-legal and S-GT6/S-GT7 special-regimes waves complete — corpus closed: 82 cited / 0 not-applicable / 0 pending, the first wave series to close the corpus) |
+| Authors | GT synthesis waves S-GT1 + S-GT2 + S-GT3 + S-GT4 + S-GT5 + S-GT6/S-GT7 + controller |
 | Updated | 2026-08-21 |
 
 As-of date 2026-08-21. Scope of this revision: the S-GT1 e-invoicing +
 catalogs wave, the S-GT2 taxation wave, the S-GT3 payroll wave, the S-GT4
-fiscal-reporting wave and the S-GT5 chart-of-accounts/commercial-legal wave.
-Every file in
+fiscal-reporting wave, the S-GT5 chart-of-accounts/commercial-legal wave and
+the S-GT6/S-GT7 special-regimes wave (complete — with it every registry row
+is cited; no topic remains pending). Every file in
 [../sources/](../sources/) (registry:
 [../sources/README.md](../sources/README.md) — 82 entries, numbering
 01–83 with gap 27; verification-rejected duplicates are not registry rows)
@@ -29,12 +30,14 @@ Citation check = grep for `gt/sources/<nn>_` across
 `gt/requirements/e-invoicing/` + `gt/requirements/catalogs/` +
 `gt/requirements/taxation/` + `gt/requirements/payroll/` +
 `gt/requirements/fiscal-reporting/` + `gt/requirements/chart-of-accounts/` +
-`gt/requirements/commercial-legal/`. File-number shorthand (e.g. `04` =
+`gt/requirements/commercial-legal/` + `gt/requirements/special-regimes/`.
+File-number shorthand (e.g. `04` =
 `e-invoicing/04_mandate-onboarding.md`, `tax04` =
 `taxation/04_isr-trabajo.md`, `cat01` = `catalogs/01_governance.md`,
 `fin01` = `fiscal-reporting/01_form-inventory-channels.md`, `coa01` =
 `chart-of-accounts/01_books-anchor.md` (coa01..coa03), `cml01` =
-`commercial-legal/01_rm-surfaces.md` (cml01..cml04)).
+`commercial-legal/01_rm-surfaces.md` (cml01..cml04), `spr01` =
+`special-regimes/01_zf-exemption-schedules.md` (spr01..spr06)).
 
 ## Matrix (82 registry rows)
 
@@ -105,12 +108,12 @@ Citation check = grep for `gt/sources/<nn>_` across
 | 64_SAT_Criterio_2-2019.pdf | cited | `taxation/03` (dualidad interpretive layer: EVID-496 + rate-table confirmation) + `fin06` (interpretive confirm-only layer: dualidad holdings, retained-IVA bookkeeping notes, GOQ-116/117 — never the rate source) |
 | 65_SAT_Criterio_6-2018.pdf | cited | `taxation/05` (deduction-gating interpretive layer via EV02c/EV04f) + `payroll/04` bono-cap kin consumed indirectly via GT-TAX-FR-169 (no direct path citation) + `fin06` (deducibilidad gates: IGSS-planilla ≥3/≥1, related-party 10%, aguinaldo/bono 100% caps, dietas LAT art. 44; GOQ-121 negative-FR) |
 | 66_Codigo_Comercio_D2-70.pdf | cited | `coa01` (arts. 368-384 books/PCGA anchor + dated identity R45), `coa02` (art. 372 autorización; R62 vocabulary), `coa03` (retention LB anchors arts. 376/382-384 + prescription texts), `cml01` (arts. 333-345 RM data model pre-D18-2017 R64), `cml02` (Libros I-II sociedades/lifecycle), `cml03` (Libro III títulos valores + prescription) — consolidated through D-11-2006, GOQ-123 verification banner |
-| 67_ZF_Ley_D65-89.pdf | not-applicable | pending S-GT7 special-regimes |
-| 68_ZF_Reglamento_AG_242-90.pdf | not-applicable | pending S-GT7 special-regimes |
-| 69_Maquila_Ley_D29-89.pdf | not-applicable | pending S-GT7 special-regimes |
-| 70_Maquila_Reglamento_AG_533-89.pdf | not-applicable | pending S-GT7 special-regimes |
-| 71_Maquila_ReformasReglamento_AG_253-2001.pdf | not-applicable | pending S-GT7 special-regimes |
-| 72_ZF_Fondo_AG_296-94.pdf | not-applicable | pending S-GT7 special-regimes |
+| 67_ZF_Ley_D65-89.pdf | cited | `spr01` (arts. 21/22 exemption schedules, art. 4 taxonomy, art. 5 Bis exclusion, fondo art. 36 e), `spr02` (chain identity), `spr05` (ZF arts. 43-51 cadence/sanctions), `spr06` (art. 5 Bis bridge) — consolidated through D-6-2021; D-19-2016 footprint tags only (GOQ-08) |
+| 68_ZF_Reglamento_AG_242-90.pdf | cited | `spr01` (ISR-determination valve art. 17, inmuebles-by-quarter arts. 20-21, IVA art. 17 bis, art. 18 prorrata — dead art.-26 cite R78), `spr02` (consolidation state + 81_ split), `spr05`, `spr06` — arts. 3/6/8/13 + tarifario current text = 81_ (R72/R77) |
+| 69_Maquila_Ley_D29-89.pdf | cited | `spr03` (benefit shape: art. 12 DAI+IVA suspensión + art. 12 bis d) 10-year ISR exoneration — R75/R81), `spr05` (arts. 33-43 bis), `spr06` (art. 4 bis exclusion bridge) — consolidated through D-19-2016 (GOQ-08 blocker) |
+| 70_Maquila_Reglamento_AG_533-89.pdf | cited | `spr03`, `spr04` (AG 533-89 spine + supersession ledger), `spr05` (arts. 23-23 quater), `spr06` — read through 71_ corrections (R74/R80) |
+| 71_Maquila_ReformasReglamento_AG_253-2001.pdf | cited | `spr04` (AG 253-2001 correction layer: arts. 9/15 reforms, 23 bis/23 ter births R74, supersession ledger) — OCR scan; quotes verified against `gt/.extractions/69-71_Maquila.evidence.md` (quote-evidence-file discipline) |
+| 72_ZF_Fondo_AG_296-94.pdf | cited | `spr01` (fondo US$0.10/m²/month computation, FX anchor GOQ-139), `spr02`, `spr05` (fondo resarcitorios) |
 | 73_RegistroMercantil_Aranceles_2022.pdf | cited | `cml01` (fee catalog dated-2022-label R66) + `coa02` kin (Q0.20/hoja books row) |
 | 74_Ley_IVA_EScolar_Reformas_D10-2025.pdf | cited | `taxation/01` (delta register row), `07` (D-10-2025 delta register: deroga 8-"A", LAE ¶, OCR-noise ledger — GOQ-62) |
 | 75_AML_D67-2001.pdf | cited | `cml04` (pre-cutover regime rows, operative until 16-sep-2026 — R60) + `coa03` kin (art. 23 5-year retention row in the matrix) |
@@ -118,8 +121,8 @@ Citation check = grep for `gt/sources/<nn>_` across
 | 77_AML_LeyIntegral_D15-2026.pdf | cited | `cml04` (post-cutover law from 17-sep-2026; cutover spine + thresholds deferred to reglamento GOQ-12) + `cml02` kin (CC-reform art. 113 SMM-fine cutover row) + `coa03` kin (art. 34 ≥5y+10y archive rows) |
 | 78_Fortalecimiento_D20-2006.pdf | cited | `taxation/01` (Chapter V reforms — EVID-257), `03` (whole retention matrix, arts. 1-14), `07` (split-vigencia register) + `fin02` kin (RegWeb regime LB via 49_'s own citations — no statutory re-derivation) |
 | 79_Fortalecimiento_Reglamento_AG_425-2006.pdf | cited | `taxation/03` (Título II: carné, Sistema art. 4, dualidad art. 9 [GOQ-118 resolved], constancia, lifecycle), `07` (AG 125-2022 stamp register) + `fin02`/`fin06` kin (Sistema-% mechanic + dualidad interpretive layer — consumed via taxation/03 FR ids) |
-| 80_ZF_Reformas_D6-2021.pdf | not-applicable | pending S-GT7 special-regimes (not an e-invoicing mandate — OQ4 resolved) |
-| 81_ZOLIC_Reformas_AG65-2022.pdf | not-applicable | pending S-GT7 special-regimes |
+| 80_ZF_Reformas_D6-2021.pdf | cited | `spr01`, `spr02` (delta inventory arts. 1/5 Bis/41/50 Bis only; publication-day vigencia 1-jun-2021 R73; page-mate "90 días" GOQ-136) — not an e-invoicing mandate (OQ4 resolved) |
+| 81_ZOLIC_Reformas_AG65-2022.pdf | cited | `spr01` (tarifario art. 22 item 9 — R77), `spr02` (AG 65-2022 identity + split vigencia 15-mar/14-sep-2022 — R72; zero ZOLIC content, filename mislabel) — OCR scan; quotes verified against `gt/.extractions/67-68_72_80_81_ZF.evidence.md` |
 | 82_SAT_LET_RegEspeciales_Manual.pdf | cited | `fin04` (LET especiales: three regimes' combined book, masked form numbers — GOQ-109, Q3,000,000 agro glossary, THE 4%/5%-within-10-dh tariff rule — GOQ-107) |
 | 83_RM_edictos_2026-08-19.pdf | cited | `cml01` (edición 6022 channel anatomy + edicto templates; single-snapshot GOQ-131) |
 
@@ -130,17 +133,26 @@ Numbering note: registry numbers 01–83 with gap 27 (27 never allocated);
 
 | Status | Rows |
 |--------|------|
-| cited | 74 (01–26, 28, 29, 30, 31, 32–46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 73, 74, 75, 76, 77, 78, 79, 82, 83) |
-| not-applicable | 8 (67, 68, 69, 70, 71, 72, 80, 81 = special-regimes only, pending S-GT7) |
+| cited | 82 (01–83 with gap 27 — every registry row; with S-GT6/S-GT7 the corpus is FULLY COVERED) |
+| not-applicable | 0 |
 | pending | 0 |
 | **Total** | **82** |
+
+With the S-GT6/S-GT7 special-regimes wave the corpus closes: 82 cited /
+0 not-applicable / 0 pending — the first wave series to close the corpus
+(no topic remains pending).
 
 Expected cited sets verified by grep. S-GT1: 01–22, 29, 30, 31 (+24_
 FEL-layer LB only). S-GT2: 23, 24, 25, 26, 28, 47, 48, 49, 52, 53, 54,
 55, 64, 65, 74, 78, 79 (17 rows). S-GT3: 32–46, 56 (16 rows). S-GT4: 48,
 49, 50, 51, 52, 53, 54, 55, 57, 58, 59, 61, 62, 63, 64, 65, 82 (17 rows;
 + 78/79 kin via taxation FR ids, no direct new LB). S-GT5: 60, 66, 73, 75,
-76, 77, 83 (7 rows). **Secondary-print
+76, 77, 83 (7 rows). S-GT6/S-GT7: 67, 68, 69, 70, 71, 72, 80, 81 (8 rows;
+special-regimes only — grep `gt/sources/67_ZF`, `68_ZF`, `69_Maquila`,
+`70_Maquila`, `71_Maquila`, `72_ZF`, `80_ZF`, `81_ZOLIC` in
+`gt/requirements/special-regimes/`). 71_/81_ are OCR scans: every quote is
+verified against the committed evidence files (quote-evidence-file
+discipline, GOQ-136/137 residues recorded [sic]). **Secondary-print
 discipline:** 49_/52_/
 53_/54_/55_ (EV04b/EV04c manuals) and 47_/64_/65_ (digest/criterios) are
 cited ONLY as dated-as-of secondary or interpretive anchors — statutory
