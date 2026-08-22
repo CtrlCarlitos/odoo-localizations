@@ -303,6 +303,53 @@ corpus documents but absent; logged per evidence-file OQs):**
   posts-only, empty (known). Remaining: pre-2015 gazette archive (none located),
   NATLEX (network-blocked), labeled non-official mirror at synthesis time.
 
+**W11 ACQUISITION WAVE (2026-08-22 — the residual watch queue executed; FIVE
+files `161_`..`165_`, EVID-644..664 + the W5 lost-file recovery):**
+- **ACQUIRED (ihss.hn Wayback + ENAG):** `161_` the **Reglamento Especial
+  Amnistía/Depuración** (CI-IHSS print 11-nov-2016, the D.L. 112-2016
+  implementer — window 26-oct-2016→25-oct-2017, HISTORICAL) + `162_` **D.L.
+  112-2016** statute-original (G 34,170 26-oct-2016, ENAG route) + the LIVE
+  successor chain located by the ENAG full-text scan: `163_` **D.L. 44-2025**
+  (G 36,861 11-jun-2025, the seven-amnistía package) + `164_` **D.L. 78-2026**
+  (G 37,166 12-jun-2026, the AMPLIACIÓN — Art. 1 = the current SAR amnistía
+  12-jun→12-oct-2026; D. 7-2026-Art.-7 DEROGATED; Art. 2 = the IHSS re-grant)
+  + `165_` **Res. SOJD-IHSS-016-2026-XIII** (certified G 37,189 9-jul-2026 =
+  the REFORMED amnistía reglamento, the operative 2026 procedure — terminal
+  12-oct-2026 + 6-month processing tail).
+- **THE ENAG FULL-TEXT SCAN (the W11 method):** enumerated every issue
+  dic-2025→ago-2026 (218 issues via the month-listing pagination), downloaded
+  all, grepped EVERY page's text for IHSS/SEGURIDAD SOCIAL + techo — triaged
+  ~112 raw hits down to the real instruments (the techo tokens = trademark
+  Nice-class lists, judicial property descriptions, "urTECHO" surnames, bonos
+  ceilings — ALL noise). **Negatives pinned: NO 2026 JD ceiling act through
+  ago-2026** (payroll/03's blocking config gap = the live state; 2026 payroll
+  periods run on it) and the CbCR restatement comunicado absent from posts +
+  the Avisos page + the catalog.
+- **PUBLICATION-ROUTE DATUM (the watch lesson):** IHSS JD acts publish as
+  **CERTIFICACIÓN blocks in Sección A** (G 37,130 = Reglamento Interno
+  SOJD-IHSS-008-2026-VII; G 37,188 fondos rotatorios; G 37,206 flota
+  vehicular — all governance-only, observed-not-acquired; the amnistía
+  reglamento rode the same route) — the future techo/rate acts will ride it;
+  watch = Sección-A certificaciones, any month.
+- **NEGATIVES (dated 2026-08-22):** ihss.hn full-domain CDX (8,000 URLs incl.
+  246 PDFs) has NO RP class cuadros / JD ceiling resoluciones / REAP JD-rates
+  (routes exhausted — watch class) · Oficio SETRASS-DGS-014-2025 + the DGS
+  2025 tabla not published (uploads/2025 re-swept: 8 files) · D. 96-2012
+  re-grep of every saved CDX/catalog enumeration negative · the
+  "Reglamento-Incapacidad-para-reformas" ihss.hn upload = content-identical
+  re-render of 88_ (discarded unregistered; md5 differs but 40/40 pages same
+  text — a re-render, the dedup lesson extended to TEXT-identity).
+- **THE W5 LOST-FILE RECOVERY (process lesson):** the committed
+  `106+107+108_*.evidence.md` was an md5-IDENTICAL duplicate of the 105_ pass
+  — the real EVID-373..384 bank never landed in git (a shape-(b) subagent
+  anomaly UNDETECTED at W5 verification, which checked wave files but never
+  re-swept OLD ranges). Fixed by a controller-executed reconstruction (the OCR
+  sidecars had survived; 600dpi multi-pass on the damaged spans; one
+  own-reconstruction error caught at 600dpi). **LESSON (now convention): run
+  the corpus-global EVID structural sweep (duplicates + contiguity) at EVERY
+  wave's verification, not just the wave's own range.**
+
+
 **W10 ACQUISITION WAVE (2026-08-21 — the sharpened residual queue executed;
 TWELVE files `149_`..`160_`, EVID-566..643):**
 - **ACQUIRED (SAR catalog, fresh-wpdmdl):** `151_` **SAR-653-2023** (the
@@ -564,6 +611,22 @@ cited by corpus documents but absent; logged per evidence-file OQs):**
   and ihss.hn — faster than HTML grep for page discovery.
 - **TSC biblioteca:** Joomla; finder search inert — use category listings +
   `?start=N` pagination; PDFs live under `/web/leyes/`.
+- **W11 additions:** (a) **ENAG FULL-TEXT SCAN recipe** (when an instrument's
+  gazette NUMBER/date is unknown but the issuing UNIT and a month window are):
+  enumerate `/index.php/gaceta-digital/<year>/<mes>/?start=0/12/24/…` → collect
+  the `YYYYMMDD-NNNNN` slugs → download each via `/index.php/gaceta-digital/
+  <slug>/download` → grep EVERY page (not just the SUMARIO — Sección-A
+  certificaciones and Sección-B avisos sit deep) for the unit/instrument
+  tokens; 218 issues in one pass (~45 min at 4 workers); triage matters: raw
+  token hits are ~90% noise (trademark classes, judicial property
+  descriptions, surnames); (b) **IHSS JD-act publication route** = Sección-A
+  CERTIFICACIÓN blocks (the future techo/rate watch route); (c) **text-
+  identity dedup**: file-level md5 is insufficient — a re-rendered scan (new
+  md5) can be 40/40-pages text-identical; on suspicion, diff the extracted
+  page texts before registering; (d) **corpus-global EVID structural sweep at
+  every wave** (duplicates + range contiguity across ALL evidence files) — it
+  is what caught the W5 lost file two waves later.
+
 - **La Gaceta:** no free official archive located; SAR's gazette-extract PDFs
   (most corpus files) are official republished copies and carry gazette
   numbers/dates — cite those. **W6 addition — pre-2015 decrees:** the old
