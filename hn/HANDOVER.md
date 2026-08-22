@@ -25,8 +25,9 @@ the legal reading = owner decision], the TP gate + safe-harbour-NEGATIVE,
 the CbCR regime, the OTCD chain complete, the QUINCENCAL CETF informativa,
 the REAP domésticos lane, and THE PROMEDIO FAMILY 5-of-6 years [2022-2025
 printed/anchored, FY caps unblocked]; COVERAGE 159 rows = 157 cited + 2 N/A,
-gates PASS [1099/532/574/331]), and **the W11 amnistía + negatives wave
-(2026-08-22, on-branch, NOT yet merged — FIVE files `161_`..`165_` + EVID-
+gates PASS [1099/532/574/331]), and **the W11 amnistía + negatives wave (MERGED to main 2026-08-22 —
+thirty-first §4.6 run at `20d10fd`, root record `4b51c74`; FIVE files
+`161_`..`165_` + EVID-
 644..664 + NO new ruling: THE IHSS AMNISTÍA FAMILY BOTH GENERATIONS — the
 2016 HISTORICAL pair + the LIVE chain D.L. 44-2025 → D.L. 78-2026 [Art. 1 =
 the CURRENT SAR amnistía 12-jun→12-oct-2026, D. 7-2026-Art.-7 DEROGATED;
@@ -45,7 +46,10 @@ md5-duplicate of the 105_ pass, EVID-373..384 reconstructed controller-side
 route; D. 96-2012 watch [gazetted 20-jul-2012 pinned]; CbCR restatement
 comunicado watch; then "Acuerdo 799" TEXT + D. 247-89 watch; Código de
 Comercio; SEE docs; DGS SMM 2027 promedio print early-2027; **the 506-vs-509
-legal reading = OWNER DECISION**; S-HN5 DEFERRED).**
+legal reading = OWNER DECISION**; S-HN5 DEFERRED). [W11 MERGED to main
+2026-08-22 — thirty-first §4.6 run at `20d10fd`, root record `4b51c74`:
+1 commit rewritten (`0143500`→`20d10fd`), zero conflicts, remote ref delete +
+re-push; main carries HN through EVID-664, corpus 164 files.]
 Read this fully before acting; it is the authoritative HN cross-session
 memory (conversation context does not survive). Update it at every session
 boundary.
