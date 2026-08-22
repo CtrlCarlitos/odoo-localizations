@@ -585,12 +585,15 @@ places — W-GT6)**. Reform chains are recorded in SOURCE_RESEARCH.md.
   mid-word break from the 68_ txt layer (disclosed). Evidence files
   stay frozen.
 - **Consumption inventory (grep-verified)**: GT-TAX-FR-071..073/147/152/
-  153/159..165/214/216/217/232 · GT-PAY-FR-018/170/176 · GT-FIN-FR-052/
+  153/159..165/214/216/217/232 · GT-PAY-FR-018 + GT-PAY-FR-170..177
+  (range-cited 18×, chiefly file 05) · GT-FIN-FR-052/
   054/055/065/066/068/069 · GT-EINV-FR-178 · GT-COA-FR-047..049.
   Plan-candidate ids NOT cited (controller ruling, exact-id discipline):
   GT-TAX-FR-149/154/155 (quarterly-advances surface = taxation/05
-  ownership), GT-EINV-FR-034 (implementers used FR-178), PAY-171..175/
-  177 (only 018/170/176 needed). If Takumi wants explicit
+  ownership), GT-EINV-FR-034 (implementers used FR-178). PAY-171..175/
+  177 — corrected at final review: the files range-cite GT-PAY-FR-170..177
+  (18×, chiefly 05) plus GT-PAY-FR-018, so those ids ARE cited. If
+  Takumi wants explicit
   quarterly-advance pointers for exonerated beneficiaries, add at
   implementation-wave time.
 - **New gap reports (NOT register GOQs — triage pending)**: AG 52-2017

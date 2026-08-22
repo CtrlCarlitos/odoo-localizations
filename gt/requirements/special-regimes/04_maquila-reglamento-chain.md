@@ -61,10 +61,10 @@ filing), the guarantee menu + descargo 45-day window + US$100 multa, the
 100%-multa sanction, the art. 43 bis IGSS-driven suspension ladder, the
 enforcement ladder proper (art. 23 quater + SAT registry disable/enable) and
 the art. 39/40 prohibitions incl. the 5-year machinery transfer lock —
-`05_compliance-cadence-sanctions.md` (SR5 — unwritten, path-only); the
+`05_compliance-cadence-sanctions.md` (SR5 — path-only); the
 ZF↔maquila cross-regime bridges (law art. 4 bis exclusions, art. 36 bis/36
 ter inter-regime flows, art. 39 bis textiles→ZF valve) —
-`06_cross-regime-bridges.md` (SR6 — unwritten, path-only); the ZF sibling
+`06_cross-regime-bridges.md` (SR6 — path-only); the ZF sibling
 files `01_zf-exemption-schedules.md` (GT-SPR-FR-001..033) and
 `02_zf-chain-regime.md` (GT-SPR-FR-034..060), consumed by exact id; and
 surfaces owned by other waves, consumed here by exact id or pointer only:
@@ -469,7 +469,7 @@ dates and article numbers exactly as printed; OCR damage in `71_` kept with
   electronic platform → SAT Intendencia de Aduanas — art. 42 bis, added
   AG 3-2017); textiles productoras' sales to a zona franca usuario are
   likewise CAUCA-documented (art. 42 ter) — both consumed from
-  `06_cross-regime-bridges.md` (unwritten, path-only; no local
+  `06_cross-regime-bridges.md` (path-only; no local
   re-derivation). (LB-010; EVID-740)
 - **GT-SPR-FR-131:** The system shall implement the guarantee-release
   lifecycle: guarantees must remain VIGENTES until SAT extends the
