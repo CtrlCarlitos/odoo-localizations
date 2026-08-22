@@ -19,8 +19,10 @@ COMPLETE — see §5h + §10 S-GT1 addenda**); updated 2026-08-20 again
 updated 2026-08-20 once more (**S-GT3 payroll synthesis COMPLETE — see §5j
 + §10 S-GT3 addenda**); updated 2026-08-20 once more (**S-GT4
 fiscal-reporting synthesis COMPLETE — see §5k + §10 S-GT4 addenda**);
-updated 2026-08-21 (**S-GT5 COA/commercial-legal synthesis COMPLETE —
-see §5l + §10 S-GT5 addenda**). Read
+updated 2026-08-21 (**S-GT5 COA/commercial-legal synthesis
+COMPLETE — see §5l + §10 S-GT5 addenda**); updated 2026-08-21 again
+(**S-GT6/S-GT7 special-regimes synthesis COMPLETE — see §5m + §10
+S-GT6/S-GT7 addenda; ALL SEVEN WAVES DONE, corpus 82/0/0**). Read
 this fully before acting; it is the authoritative cross-session memory.
 **Update it at every session boundary.**
 
@@ -56,9 +58,23 @@ stack + W-GT2 taxation + W-GT3 payroll + W-GT4 fiscal reporting + W-GT5 COA
 + commercial-legal + W-GT6 special regimes; 26 evidence files, EVID-001..745);
 **synthesis prep DONE — `gt/.extractions/00_MASTER_INDEX.md` is committed
 and is THE synthesis gate** (topic clusters, R-ledger, GOQ register,
-authority orders). **Next: S-GT6/S-GT7 (special-regimes) plan doc →
-synthesis waves** (SR1-SR6 per master index; D-19-2016 still blocks
-post-2016 claims — GOQ-08; final whole-branch review of S-GT5 pending).
+authority orders). **Next: ~~S-GT6/S-GT7 (special-regimes) plan doc →
+synthesis waves~~ SEE CURRENT STATE BELOW — WAVE COMPLETE.**
+Current Stage: **synthesis COMPLETE — ALL SEVEN WAVES (S-GT1..S-GT7)
+delivered 2026-08-19..21**. **S-GT6/S-GT7 (special-regimes) COMPLETE
+2026-08-21** — 7 files committed (`gt/requirements/special-regimes/00_index.md`
++ 6 topic files: 01_zf-exemption-schedules SR1 GT-SPR-FR-001..033 ·
+02_zf-chain-regime SR2 FR-034..060 · 03_maquila-benefit-shape SR3
+FR-061..094 · 04_maquila-reglamento-chain SR4 FR-095..133 ·
+05_compliance-cadence-sanctions SR5 FR-134..171 · 06_cross-regime-bridges SR6
+FR-172..193); 193 FRs / 102 LBs / 79 ACs / 20 OQ rows; GOQ-08 + GOQ-135..140
+all consumed + kin 01/04/10/99; R72..R81 guards instantiated; GOQ-08
+acquisition ledger delivered in 06; **COVERAGE = 82 cited / 0 N-A / 0 pending
+— corpus CLOSED**; 4 stale master-index preamble R-cites fixed at write-back
+(R49→R72, R50→R73, R52→R75, R55→R81). **Next: S-GT6/S-GT7 final
+whole-branch review (first action of next session, S-GT5 precedent) →
+milestone: owner decides `gt-research` → `main` merge (§4.6 protocol).**
+D-19-2016 still blocks post-2016 claims (GOQ-08 — top-ranked acquisition).
 Product architecture context: root `HANDOVER.md` §1 (SaaS thin-client + Odoo;
 Takumi consumes requirements).
 
@@ -511,6 +527,87 @@ places — W-GT6)**. Reform chains are recorded in SOURCE_RESEARCH.md.
   Two empty-reviewer returns (T2 first dispatch; known §10 failure mode
   — re-dispatch clean).
 
+## 5m. S-GT6/S-GT7 facts a synthesis/QA session MUST know (2026-08-21)
+
+- **Deliverables (all committed, branch gt-research)**:
+  `gt/requirements/special-regimes/00_index.md` + 6 topic files
+  (01_zf-exemption-schedules SR1 GT-SPR-FR-001..033 · 02_zf-chain-regime
+  SR2 FR-034..060 · 03_maquila-benefit-shape SR3 FR-061..094 ·
+  04_maquila-reglamento-chain SR4 FR-095..133 ·
+  05_compliance-cadence-sanctions SR5 FR-134..171 ·
+  06_cross-regime-bridges SR6 FR-172..193). **193 FRs / 102 LBs / 79 ACs /
+  20 OQ rows**; COVERAGE 82 cited / 0 N-A / 0 pending (**corpus closed —
+  first topic series at full coverage**). Plan doc:
+  `docs/superpowers/plans/2026-08-21-s-gt6-s-gt7-synthesis.md` (one plan,
+  one session, both wave ids: S-GT6 = ZF side, S-GT7 = maquila + shared).
+- **GOQ discipline shipped**: owned set GOQ-08 + GOQ-135..140 all consumed
+  (08 in ALL six files §7; acquisition ledger DELIVERED in 06 as
+  FR-190..192 watcher rows — D-19-2016 top-ranked + 10 tag-only leads,
+  never cited as law); kin 01/04/10/99 cited where touched. Master-index
+  write-back committed (7 annotations + synthesis-order line).
+- **4 STALE PREAMBLE R-CITES FIXED at write-back** (the R70-off-by-one
+  pattern, 4× this time): the special-regimes authority order in the
+  master index preamble carried W-GT6-rollup-local numbering — R49→**R72**
+  (AG 65-2022 identity), R50→**R73** (D-6-2021 publication-day), R52→**R75**
+  (never maquila-ISR-exempt), R55→**R81** (12 bis added by D-19-2016 art. 7).
+  Curated ledger governs; mapping verified before editing.
+- **R75 anchor is 03's FIRST FR** (classic maquila AT = ordinary ISR/IVA
+  taxpayer + art. 12 1-year DAI+IVA suspensión ONLY, consumed with
+  GT-TAX-FR-071..073); 10-year "Exoneración total" lives solely in
+  art. 12 bis d) (productora AT SA ch. 50-63 + prestadora TIC/BPO;
+  per-beneficiary notificación clock; conditions consumed from
+  GT-COA-FR-047..049). "intemporal" banned as a term (R76); art. 15
+  derogated = negative-FR + GOQ-08 (never invent holiday mechanics).
+- **ZF windows = per-beneficiary D15 rows keyed by qualification events**
+  (admin 15y período-de-imposición-anchored; usuario 10y notificación;
+  inmuebles 5y central-share trimestre-anchored); fondo US$0.10/m²/month
+  first-5-días + 5+3+5 chain; **two FX anchors NEVER unified (GOQ-139)**:
+  fondo = prior-day USD rate (source unspecified) vs tarifario = Banguat
+  daily; tarifario item 9 cites 81_ (R77); art. 18's art.-26 cite DEAD
+  (R78 — operative basis arts. 22 b) final ¶ + 25).
+- **GOQ-99 verbatim-deadline discipline instantiated in 05**: cuenta
+  corriente first 20 días PLAIN vs coeficiente first 20 días HÁBILES —
+  transcribed exactly per instrument, never normalized; annual labor DJ
+  = first 40 días + Boleta (R80; 2001 "20 días del mes de enero" =
+  history only); art. 43 bis suspension ladder (2/4/6 + doubling +
+  definitive) = state machine consuming GT-PAY-FR-170/176 + 018 by exact
+  id; platform names (el Sistema/SEADEX/Ventanilla Única) cited
+  as-printed only (GOQ-140).
+- **Cross-regime (06)**: exclusion matrix (4 bis ↔ 5 Bis ↔ 9 j);
+  inter-regime flows IVA-exempt + ZF-side guarantee (36 bis/42 bis
+  CAUCA + prior notification); textiles valve 39 bis consuming
+  GT-TAX-FR-159..165; anti-stacking art. 53/44 consuming window rows by
+  id; D-19-2016 shared-blocker negative-FR with dependencies into
+  files 01/02/03/05 by exact id.
+- **Methodology rulings this wave**: art. 23 quater full text quoted
+  from the 70_ txt layer (EVID-736 prints fragments only) — disclosed
+  in LB-004, reviewer-accepted; LB-007 (file 06) renders heading +
+  mid-word break from the 68_ txt layer (disclosed). Evidence files
+  stay frozen.
+- **Consumption inventory (grep-verified)**: GT-TAX-FR-071..073/147/152/
+  153/159..165/214/216/217/232 · GT-PAY-FR-018/170/176 · GT-FIN-FR-052/
+  054/055/065/066/068/069 · GT-EINV-FR-178 · GT-COA-FR-047..049.
+  Plan-candidate ids NOT cited (controller ruling, exact-id discipline):
+  GT-TAX-FR-149/154/155 (quarterly-advances surface = taxation/05
+  ownership), GT-EINV-FR-034 (implementers used FR-178), PAY-171..175/
+  177 (only 018/170/176 needed). If Takumi wants explicit
+  quarterly-advance pointers for exonerated beneficiaries, add at
+  implementation-wave time.
+- **New gap reports (NOT register GOQs — triage pending)**: AG 52-2017
+  full text absent (art. 35 bis adder — 68_ tag verified verbatim);
+  maquila art. 12 bis closing ¶ (call/contact centers only) vs art. 8 bis
+  (adds software/digital content) service-universe asymmetry — folds into
+  GOQ-08 on acquisition. Candidates for register addition at the next
+  master-index maintenance pass.
+- **Session mechanics**: 7 implementer dispatches + 7 task reviews, ALL
+  Approved first-pass (zero fix rounds; one DONE_WITH_CONCERNS closed by
+  controller pre-verification + reviewer adjudication). Controller
+  grep-verified 2-3 quotes per file (~15 verbatim checks, all passed) +
+  reviewer spot-checks per file. No empty-return failures this wave
+  (the `ls` + `git log` pre-dispatch check held). **Final whole-branch
+  review PENDING (next session's first action — S-GT5 precedent).**
+
+
 ## 5. GT facts a new session must know
 
 - **FEL model**: SAT owns XML standard + validates; taxpayers integrate via
@@ -894,12 +991,15 @@ synthesized with these as flagged open questions and back-filled later.
    ~~S-GT3 (payroll) synthesis~~ **COMPLETE 2026-08-20** (§5j).
    ~~S-GT4 (fiscal-reporting) synthesis~~ **COMPLETE 2026-08-20** (§5k).
    ~~S-GT5 (COA/commercial-legal) synthesis~~ **COMPLETE 2026-08-21**
-   (§5l). ~~S-GT5 final whole-branch review~~ **DONE 2026-08-21**
-   (APPROVED; 1 Important index fix + 2 ride-alongs in one commit,
-   re-review PASS). **NEXT = S-GT6/S-GT7 (special-regimes) plan doc →
-   synthesis waves** (SR1-SR6 per master index; ZF/maquila clusters;
-   D-19-2016 still blocks post-2016 claims — GOQ-08; W-GT6 corrections
-   R72/R75/R81 shape S-GT7; GOQ-08 tag-only leads: AG 3-2017, D-38-04).
+    (§5l). ~~S-GT5 final whole-branch review~~ **DONE 2026-08-21**
+    (APPROVED; 1 Important index fix + 2 ride-alongs in one commit,
+    re-review PASS). ~~S-GT6/S-GT7 (special-regimes) plan doc →
+    synthesis waves~~ **COMPLETE 2026-08-21** (§5m). **NEXT = S-GT6/S-GT7
+    final whole-branch review (first action; S-GT5 precedent) → §4.6
+    session-close merge protocol (controller drives rebase-then-merge +
+    §3 merge record at milestone; owner owns the merge decision).**
+    D-19-2016 remains the top-ranked acquisition (GOQ-08 — blocks
+    post-2016 claims; tag-only leads AG 3-2017, D-38-04).
 2. Opportunistic gap closure (folds into any synthesis): queue rev-7 items
    (see DOWNLOAD_QUEUE; **D-19-2016 = top-ranked acquisition — blocks
    special-regimes synthesis quality**, GOQ-08); instructivos cat 15812;
@@ -1113,3 +1213,23 @@ convergence session; updated again at W-GT1 close)
   (deleted post-wave; load-bearing ones folded into §5l). **Final
   whole-branch review PENDING (next session's first action, §9.1).**
   Next: S-GT6/S-GT7 special-regimes plan doc.
+- **S-GT6/S-GT7 session addenda (2026-08-21, synthesis waves 6+7 —
+  special-regimes; final synthesis session)**: plan doc
+  `docs/superpowers/plans/2026-08-21-s-gt6-s-gt7-synthesis.md` (8 tasks,
+  S-GT1..S-GT5 pattern, committed pre-wave; ONE session executed BOTH
+  wave ids — S-GT6 = ZF side, S-GT7 = maquila + shared; prefix GT-SPR
+  per EXTRACTION_PLAN deliverables list). Executed subagent-driven (7
+  implementer dispatches + 7 task reviews, ALL Approved first-pass —
+  zero fix rounds; one DONE_WITH_CONCERNS (T5) closed by controller
+  pre-verification + reviewer adjudication). Controller grep-verified
+  2-3 quotes per file (~15 verbatim checks — all passed) + resolved 2
+  ⚠️ reviewer items (68_ txt-layer tag verifications). No empty-return
+  failures. Wave totals in §5m; master-index write-back committed
+  (GOQ-08 + 135..140 annotations + synthesis-order line + **4 stale
+  preamble R-cites fixed: R49→R72, R50→R73, R52→R75, R55→R81 — curated
+  ledger governs**). COVERAGE 82/0/0 — **corpus closed**. Evidence-file
+  freeze held (txt-layer methodology disclosed in LB rows where the
+  frozen files truncate). New-gap discipline: 2 candidates flagged
+  (AG 52-2017 text; 12 bis ¶ vs 8 bis universe asymmetry) — register
+  triage pending. **Final whole-branch review PENDING = next session's
+  first action. Next after that: §4.6 milestone merge.**

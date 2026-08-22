@@ -541,3 +541,27 @@ commit. Never leave a session with evidence unmerged. Update
   owning FR, Código Civil corpus, R71 pre-cutover PO-list risk. Final
   whole-branch review pending (first action of next session). Next: S-GT6/
   S-GT7 special-regimes plan (D-19-2016 still blocking, GOQ-08).
+- 2026-08-21 — **S-GT6/S-GT7 COMPLETE (special-regimes; SYNTHESIS PHASE
+  ENDS — ALL SEVEN WAVES DELIVERED)**; plan
+  `docs/superpowers/plans/2026-08-21-s-gt6-s-gt7-synthesis.md` (one plan,
+  one session, both wave ids; prefix GT-SPR). 7 files: special-regimes
+  01_zf-exemption-schedules (GT-SPR-FR-001..033) · 02_zf-chain-regime
+  (034..060) · 03_maquila-benefit-shape (061..094; R75 negative anchor
+  first) · 04_maquila-reglamento-chain (095..133) ·
+  05_compliance-cadence-sanctions (134..171; GOQ-99 verbatim-deadline
+  discipline) · 06_cross-regime-bridges (172..193; GOQ-08 acquisition
+  ledger delivered) + 00_index. 193 FRs / 102 LBs / 79 ACs / 20 OQ rows;
+  GOQ-08 + GOQ-135..140 all consumed + kin 01/04/10/99; R72..R81
+  instantiated; **4 stale master-index preamble R-cites fixed at
+  write-back (R49→R72, R50→R73, R52→R75, R55→R81 — curated ledger
+  governs)**. Consumption by exact id (GT-TAX-FR-071..073/147/152/153/
+  159..165/214/216/217/232; GT-PAY-FR-018/170/176; GT-FIN-FR-052/054/
+  055/065/066/068/069; GT-EINV-FR-178; GT-COA-FR-047..049). **COVERAGE
+  82 cited / 0 N-A / 0 pending — CORPUS CLOSED.** All 7 task reviews
+  Approved first-pass (zero fix rounds). Methodology: art. 23 quater +
+  68_ art.-35-bis renderings quote the txt layers where the frozen
+  evidence files truncate (disclosed in LB rows). New gap reports
+  flagged for register triage: AG 52-2017 text absent (35 bis adder);
+  maquila 12 bis closing-¶ vs 8 bis service-universe asymmetry (folds
+  into GOQ-08 on acquisition). **Next: S-GT6/S-GT7 final whole-branch
+  review (first action of next session) → §4.6 milestone merge.**
