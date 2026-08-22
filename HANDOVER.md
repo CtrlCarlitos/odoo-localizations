@@ -662,6 +662,88 @@ expected and absorbed by instantiating the canon, never by forking it.
       docs); S-HN5 DEFERRED — bootstrap `Read hn/HANDOVER.md and
       continue.`
 
+      **HN W9 merge 2026-08-21 (§4.6 protocol, twenty-eighth run):**
+      `hn-research` rebased onto `27b5d0a` (2 commits rewritten
+      `71223da..43b7733`→`fa57aa1..64183e4`: W9 acquisition wave + W9
+      session-state HANDOVER; zero conflicts — hn/-scoped only) then
+      fast-forward-merged; remote branch ref updated via delete +
+      re-push. **HN = W9 RESIDUAL-QUEUE ACQUISITION WAVE COMPLETE
+      (corpus 147 files, evidence through EVID-565):** NINETEEN files
+      `130_`..`148_` registered + evidenced (84 EVIDs across 8
+      dispatched/controller files; SAR-240-2024 fetch discarded
+      md5-identical to `19_`): the SAR-catalog family
+      `130_`-`144_` + **the Reglamento General IHSS triple
+      `145_`/`146_`/`147_` + `148_` via the NEW ihss.hn Wayback-CDX
+      recipe** (`cdx?url=ihss.hn*&filter=mimetype:application/pdf` =
+      246 PDFs, the whole reglamento family). **R-H86 — D. 278-2013
+      CAPÍTULO V Art. 15 "Restablecimiento de la Aportación Solidaria"
+      = the AS FY2014+ RE-ESTABLISHER** (re-reads LET Art. 22: 5% on
+      the EXCESS of RNG > L1M, PJ except export/tourism, sobretasa del
+      ISR non-deductible, ISR calendar — FREP/07 FR-255/256 + LB-018
+      statute-anchored). **130_'s other legs:** Art. 9 = the 22-A
+      ORIGINAL (regime 0 extended FY2014-17; five 0.75% sectors =
+      ORIGINAL list; exclusion b) keeps <L10M inside the ATN; losses →
+      D. 96-2012 dado 20-jun-2012 NEW pin; taxation/03 FR-082/LB-019 +
+      the corpus "D. 273-2013" misprint corrected to 278-2013);
+      Art. 20 = the devolución-8% SIX-MONTH SELF-EXPIRING suspension
+      (01-ene-2014→30-jun-2014 outer bound; `41_ OQ-3` resolved as
+      temporal — NOT a repeal; Art. 21 = OTCD 50% at 2013 → D. 7-2017
+      → SAR-240 chain); Arts. 1-2/5/22-27/49 = the exonerations RESET
+      (24+17-numeral survival catalogues; 12-year default cap; DGCFIA
+      registration; Adulto Mayor #13/#11 alive — the D. 74-2014
+      `132_` authentic-interp 65+ continuity pin, taxation/02 LB-018;
+      derogations incl. D. 194-2002 Art. 48 + CT Art. 464);
+      Arts. 16-19+Anexo I = the CURRENT 15/18 ISV home + the canasta
+      DESCRIPTION-PREVAILS NOTA + Simplificado 31-ene; vigencia
+      EXPLICIT 01-ene-2014 (Art. 51). **SAR-256-2024 = the DMC
+      due-day bomb** (`134_`, G 36,580 8-jul-2024: may/jun/jul-2024 at
+      20 días transitional, from aug-2024 **8 días calendario
+      CURRENT** — FREP/03 FR-091/092/OQ-004 re-seeded, R-H18's
+      manuals-stale reading SUPERSEDED; OVI monopoly operative
+      28-jun-2024; SAR-236 `133_` owns the 535 approval + deroga the
+      whole e-filing ancestry incl. SAR-007-2017 — FREP/01
+      OQ-006/008/009). **LSP statutes** `135_`-`139_` (the CETF
+      códigos 501/524 = LSP's own contribución, tarifa L2.00/millar
+      (a/b/d/e/f) / L1.50 (c) / tramos (g); reglamento exemptions
+      L120k/L20k + enteros 20th/5th; telefonía 1% transitorio;
+      comidas Art. 23 permanente per 31-2018 now in-corpus via the
+      texto actualizado; 506-vs-509 NARROWED — **D. 92-2015 (G 33,883
+      14-nov-2015) = the closer lead**). **TP triple** `140_`-`142_`
+      (vinculación criteria Arts. 11-13; the 545 ancestor Arts. 29-32
+      with the threshold DELEGATION — the ≤USD-1M pequeño gate's true
+      instrument = **DEI-SG-004-2016, still unacquired**; 62-2019's
+      gazette = G 35,077 19-oct-2019 — the catalog's "34,224" was the
+      CT's own edition, registry corrected). **THE Reglamento General
+      IHSS (the W4b TOP lead RESOLVED):** `145_` Acuerdo 003-JD-2005
+      "última versión" + `147_` its GAZETTE ORIGINAL (G 30,735
+      29-jun-2005, full Art. 1-194; the "188-vs-143" count premise =
+      regex artifact) + `146_` the 1971 Reglamento de Aplicación
+      ancestor + `148_` G 33,879 interventora extract. **Art. 135 =
+      the contribution-BASE resolver — payroll/03 OQ-005 RESOLVED,
+      FR-115 rewritten:** OT/horas extras + rest-day value +
+      commissions + profit participation + HABITUAL bonificaciones IN;
+      ocasional-y-por-mera-liberalidad primas/bonos/gratificaciones
+      OUT; in-kind ≤30%; aguinaldo OUT per D. 117-2021 (89_); the
+      14th = config flag (new OQ-010). Art. 134 = minimum base =
+      category SMM (FR-137); Arts. 136/151 = ceiling/review powers;
+      Arts. 43/67 = subsidio 66% + patrono complement (RIT kin);
+      **Arts. 88-97 = the RP chapter (0.2% new-entrant entry on
+      nominal-at-techo, five classes, January siniestralidad filing,
+      ≥1-year stability — OQ-006 narrowed, class cuadros still
+      absent)**; Art. 144 = EMPLOYER 10-day payment (FR-136);
+      Art. 161 = 10%-monthly multa class. Verification: EVID
+      structural 84/84 contiguous + 3-gram bank-check (LOWs
+      adjudicated) + COVERAGE regen. Totals: payroll 330/170/172/84,
+      taxation 249/118/140/56, FREP 363/164/189/170; rulings
+      R-H1..R-H86; COVERAGE **147 rows = 145 cited + 2 N/A, gates
+      PASS (1099/523/574/327)**. Next per `hn/HANDOVER.md`: the
+      sharpened residual queue (TOP: D. 92-2015 the 506-vs-509 closer,
+      DEI-SG-004-2016 TP gate, SAR-653-2023 CbCR, D. 7-2017 OTCD
+      drift, D. 96-2012 loss regimes; then "Acuerdo 799" TEXT (1970)
+      + D. 247-89 watch, Código de Comercio, SEE docs, RP class
+      cuadros, JD ceilings, DGS SMM promedio prints); S-HN5 DEFERRED —
+      bootstrap `Read hn/HANDOVER.md and continue.`
+
       **GT S-GT5 merge 2026-08-21 (§4.6 protocol, twenty-sixth run):**
       `gt-research` rebased onto `1308644` (16 commits rewritten
       `89375f2..c8645a7`→`c739e09..23ad21e`: S-GT5 plan + 7 task waves +
