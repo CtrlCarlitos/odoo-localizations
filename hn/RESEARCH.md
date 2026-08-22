@@ -303,6 +303,43 @@ corpus documents but absent; logged per evidence-file OQs):**
   posts-only, empty (known). Remaining: pre-2015 gazette archive (none located),
   NATLEX (network-blocked), labeled non-official mirror at synthesis time.
 
+**W9 ACQUISITION WAVE (2026-08-21 — the residual queue executed; NINETEEN
+files `130_`..`148_`):**
+- **ACQUIRED (SAR catalog, fresh-wpdmdl recipe):** `130_` **D. 278-2013**
+  Ordenamiento ORIGINAL (G 33,316 30-dic-2013 — the W8 "one instrument three
+  questions" TOP lead: **R-H86 Art. 15 = the AS re-establisher**; Art. 9 the
+  22-A original; Art. 20 the devolución-8% 6-month suspension) + `131_`
+  **Acuerdo 462-2014** its reglamento + `132_` **D. 74-2014** the 65+ interp;
+  `133_` **SAR-236-2024** (the Oficina Virtual — 535-approval limb
+  adjudicated; e-filing ancestry derogated) + `134_` **SAR-256-2024** (G
+  36,580 8-jul-2024; **the DMC 8-day re-seed** — R-H18 superseded, the
+  manuals were current); `135_`-`139_` the LSP/contribuciones statutes
+  (105-2011 texto actualizado + 1775-2011 + 131-2018 + 53-2015 + 128-2020 —
+  the CETF 501/524 family statute-anchored); `140_`-`142_` the TP triple
+  (232-2011 + 027-2015 + 62-2019 — **142_'s gazette pin CORRECTED to G
+  35,077 19-oct-2019**, the catalog's "34,224" = the CT's own edition);
+  `143_` Acuerdo 618-A-2017 turismo reglamento; `144_` SAR-383-2024. NOTE:
+  SAR-240-2024 fetch was md5-IDENTICAL to corpus `19_` — discarded (the W7
+  md5-dedup lesson applied); SAR catalog slug variants matter
+  ("decreto-no-278-2013-..." renders the live wpdmdl where the bare-number
+  variant renders stale).
+- **ACQUIRED (ihss.hn Wayback — the TOP lead RESOLVED):** `145_` Acuerdo
+  **003-JD-2005 Reglamento General "última versión"** + `147_` its GAZETTE
+  ORIGINAL (G 30,735 29-jun-2005) + `146_` the 1971 Reglamento de
+  Aplicación ancestor + `148_` G 33,879 IHSS/RAP interventora extract.
+  RECIPE: enumerate `cdx?url=ihss.hn*&filter=mimetype:application/pdf`
+  (246 PDFs) then `id_` fetch — the transparencia/reglamentos/Documents
+  folder carries the whole reglamento family. **Art. 135 = the IHSS
+  contribution-BASE resolver** (payroll/03 OQ-005 RESOLVED); Arts. 88-97
+  the RP chapter (0.2% entry).
+- **NEW leads spawned:** D. 92-2015 (G 33,883 14-nov-2015 — the 506-vs-509
+  closer); DEI-SG-004-2016 (TP pequeño USD-1M gate + safe harbour);
+  SAR-653-2023 (CbCR); SAR-239-2024; D. 7-2017 (OTCD 50%→10% middle
+  instrument); D. 96-2012 (loss regimes, dado 20-jun-2012 pinned);
+  SAR-283-2024 (same G 36,580 edition); the ihss.hn domésticos/REAP
+  reglamentos + riesgos-profesionales class cuadros (visible in the same
+  CDX); "Acuerdo 799" TEXT + D. 247-89 stay watch items (routes exhausted).
+
 **W8 ACQUISITION WAVE (2026-08-21 — the post-W6 queue executed; 10 files
 registered `120_`..`129_`):**
 - **ACQUIRED:** `120_` **Ley RAP D.L. 107-2013 ORIGINAL** (G 33,222

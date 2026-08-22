@@ -8,11 +8,11 @@
 | Authors | script `hn/scripts/build_coverage.py` (regenerate after every wave) |
 | Updated | 2026-08-20 |
 
-Every row of [../sources/README.md](../sources/README.md) (128 registered files, gap 103 reserved-unused) mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1097 FRs, 511 LB rows, 574 ACs, 326 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 249, e-invoicing 157, fiscal-reporting 363, payroll 328).
+Every row of [../sources/README.md](../sources/README.md) (147 registered files, gap 103 reserved-unused) mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1099 FRs, 523 LB rows, 574 ACs, 327 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 249, e-invoicing 157, fiscal-reporting 363, payroll 330).
 
 Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row of a requirements file (citing file(s) + LB ids listed); **not-applicable-this-wave** — explicit annotation with reason (superseded/historical, in-corpus-unread pending evidence pass, or out of scope for the four topics).
 
-## Matrix (128 source files)
+## Matrix (147 source files)
 
 | Source | Status | Cited in / note |
 |--------|--------|-----------------|
@@ -54,9 +54,9 @@ Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row
 | 38_Ayuda_ret_gc_no_residente_138.pdf | cited-as-LB | `fiscal-reporting/02_djimr-retention-declarations.md` (LB-015); `taxation/03_isr-rates-gains-minimum.md` (LB-009) |
 | 39_Ayuda_ret_1pct_D17-2010.pdf | cited-as-LB | `fiscal-reporting/02_djimr-retention-declarations.md` (LB-016) |
 | 40_Ayuda_ret_ISV_art8_217.pdf | cited-as-LB | `fiscal-reporting/02_djimr-retention-declarations.md` (LB-017+LB-020) |
-| 41_Ayuda_ret_ISV_tarjetas_215.pdf | cited-as-LB | `fiscal-reporting/04_otcd-tarjetas-215-523.md` (LB-003+LB-007+LB-008+LB-009+LB-010) |
+| 41_Ayuda_ret_ISV_tarjetas_215.pdf | cited-as-LB | `fiscal-reporting/04_otcd-tarjetas-215-523.md` (LB-003+LB-007+LB-008+LB-010) |
 | 42_Ayuda_ATC_523.pdf | cited-as-LB | `fiscal-reporting/04_otcd-tarjetas-215-523.md` (LB-004+LB-013) |
-| 43_Ayuda_ISV_201.pdf | cited-as-LB | `fiscal-reporting/01_filing-chassis-due-days.md` (LB-001+LB-009+LB-018); `fiscal-reporting/03_dmc-527-purchases.md` (LB-013); `fiscal-reporting/05_isv-201-202.md` (LB-001+LB-003+LB-007+LB-010+LB-014) |
+| 43_Ayuda_ISV_201.pdf | cited-as-LB | `fiscal-reporting/01_filing-chassis-due-days.md` (LB-009+LB-018); `fiscal-reporting/03_dmc-527-purchases.md` (LB-013); `fiscal-reporting/05_isv-201-202.md` (LB-001+LB-003+LB-007+LB-010+LB-014) |
 | 44_Ayuda_simplificado_202.pdf | cited-as-LB | `fiscal-reporting/01_filing-chassis-due-days.md` (LB-012); `fiscal-reporting/05_isv-201-202.md` (LB-002+LB-005+LB-015) |
 | 45_Ayuda_DMC.pdf | cited-as-LB | `fiscal-reporting/01_filing-chassis-due-days.md` (LB-002+LB-016+LB-019+LB-021); `fiscal-reporting/03_dmc-527-purchases.md` (LB-007+LB-008+LB-009+LB-010+LB-011); `fiscal-reporting/05_isv-201-202.md` (LB-010) |
 | 46_Ayuda_ganancias_capital.pdf | cited-as-LB | `fiscal-reporting/08_gc-events-119-120-152-154.md` (LB-002+LB-008+LB-010) |
@@ -144,14 +144,33 @@ Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row
 | 127_Acuerdo_005-2017_G34282_Regl_produccion_consumo.pdf | cited-as-LB | `fiscal-reporting/09_selectivo-declarations.md` (LB-014) |
 | 128_Gaceta_9jul1993_Decreto_99-93.pdf | cited-as-LB | `fiscal-reporting/02_djimr-retention-declarations.md` (LB-019) |
 | 129_Gaceta_27655_May1995_Decreto_74-95_interp_Art34_135-94.pdf | cited-as-LB | `payroll/02_13th-14th-bono.md` (LB-026) |
+| 130_Gaceta_33316_Decreto_278-2013_Ley_Ordenamiento_Finanzas_Publicas.pdf | cited-as-LB | `fiscal-reporting/04_otcd-tarjetas-215-523.md` (LB-009); `fiscal-reporting/07_isr-annual-102-103.md` (LB-018); `taxation/03_isr-rates-gains-minimum.md` (LB-019); `taxation/06_isv.md` (LB-019); `taxation/07_special-regimes-exonerations.md` (LB-012) |
+| 131_Gaceta_33484_Acuerdo_462-2014_Regl_Ley_Ordenamiento.pdf | cited-as-LB | `taxation/07_special-regimes-exonerations.md` (LB-012) |
+| 132_Gaceta_33617_Decreto_74-2014_interp_Art5_278-2013.pdf | cited-as-LB | `taxation/02_isr-deductions.md` (LB-018) |
+| 133_Acuerdo_SAR-236-2024_Oficina_Virtual.pdf | cited-as-LB | `fiscal-reporting/01_filing-chassis-due-days.md` (LB-001) |
+| 134_Acuerdo_SAR-256-2024_fecha_aplicacion_236-240.pdf | cited-as-LB | `fiscal-reporting/03_dmc-527-purchases.md` (LB-008) |
+| 135_Decreto_105-2011_LSP_texto_actualizado.pdf | cited-as-LB | `fiscal-reporting/11_contribuciones-sector.md` (LB-012) |
+| 136_Gaceta_32730_Acuerdo_1775-2011_Regl_LSP.pdf | cited-as-LB | `fiscal-reporting/11_contribuciones-sector.md` (LB-012) |
+| 137_Gaceta_34881_Decreto_131-2018_Contribucion_Social_Sector_Social.pdf | cited-as-LB | `fiscal-reporting/11_contribuciones-sector.md` (LB-012) |
+| 138_Gaceta_33717_Decreto_53-2015_Cooperativas_exoneracion.pdf | cited-as-LB | `fiscal-reporting/11_contribuciones-sector.md` (LB-012) |
+| 139_Gaceta_35406_Decreto_128-2020_interp_Art3_53-2015.pdf | cited-as-LB | `fiscal-reporting/11_contribuciones-sector.md` (LB-012) |
+| 140_Gaceta_32691_Decreto_232-2011_Precios_Transferencia.pdf | cited-as-LB | `fiscal-reporting/10_tp-545-informativas.md` (LB-013) |
+| 141_Gaceta_33837_Acuerdo_027-2015_Regl_Precios_Transferencia.pdf | cited-as-LB | `fiscal-reporting/10_tp-545-informativas.md` (LB-013) |
+| 142_Decreto_62-2019_interp_Art10_232-2011.pdf | cited-as-LB | `fiscal-reporting/10_tp-545-informativas.md` (LB-013) |
+| 143_Gaceta_34486_Acuerdo_618-A-2017_Regl_Ley_Fomento_Turismo.pdf | cited-as-LB | `taxation/07_special-regimes-exonerations.md` (LB-012) |
+| 144_Acuerdo_SAR-383-2024_codigos_501_524.pdf | cited-as-LB | `fiscal-reporting/11_contribuciones-sector.md` (LB-012) |
+| 145_Acuerdo_003-JD-2005_Regl_Gral_Ley_IHSS_ult_version.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-015+LB-016+LB-017+LB-018) |
+| 146_Regl_Aplicacion_Ley_Seguro_Social_Decreto_193-1971.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-019) |
+| 147_Regl_Gral_Ley_IHSS_transparencia_scan.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-019) |
+| 148_Gaceta_33879_10nov2015_IHSS_RAP.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-019) |
 
 ## Rollup
 
 | Status | Rows |
 |--------|------|
-| cited-as-LB | 126 |
+| cited-as-LB | 145 |
 | not-applicable-this-wave | 2 |
-| **Total** | **128** |
+| **Total** | **147** |
 
 ## V-HN1 gate-1 findings (2026-08-20, fixed in this wave)
 

@@ -93,6 +93,7 @@ D. 54-96, D. 110-93 Art. 9, LET D. 51-2003.
 | LB-015 | **D. 54-96 ORIGINAL (W6, `118_`)** — Ley de Equidad Tributaria e Incentivos al Empleo, G 27,941 26-abr-1996 (Dado/Ejecútese/vigencia per print, EVID-427): Art. 2 "INCENTIVOS AL EMPLEO" — the job-creation fiscal credit (10%/25% crédito fiscal fractions keyed to permanent-new-job counts, ≥5-job gate; still visible in the modern 102 form's "Crédito por generación de nuevos empleos" line) + reformed Ley ISR Art. 10 (renta bruta + ganancias de capital 10% único), Art. 22-b PN brackets, Art. 23 L50,000 exempt floor, Art. 5-6 derogations (D. 138-94 = CAFICULTURA law — NOT an ISR-law citation, prompt-discrepancy flag EVID-428) | The FIRST Equidad Tributaria (ancestor of the queued D. 51-2003) now in corpus: the FR-244 job-credit gate/amounts trace to statute (not just the EV29 print); the 1996 ISR snapshot (brackets/floors) is HISTORICAL config feeding the ISR-law lineage (D.L. 25-1963 chain); D. 138-94 identity flag prevents a caficultura-law mis-citation. | `hn/sources/118_Gaceta_27941_Decreto_54-96_reformas_tributarias.pdf` | 54-96-Art. 1-6 + signatures (pp.1-2) (EV115:EVID-427; EV115:EVID-428) |
 | LB-016 | **D. 51-2003 ORIGINAL (W8, `121_`)** — Ley de Equidad Tributaria, G 30,059 10-abr-2003 (Dado 3-abr-2003, Ejecútese 8-abr-2003 Maduro; vigencia publication-day with +30d ISV-Art.-15 legs and +180d Cap. IX; EVID-442): **Cap. II Arts. 5-16 = the Impuesto Cedular al Activo Total Neto** — Art. 7 rate 1% (Balance 31-dic; same-date-as-ISR declaration; special-FY +3m); Art. 6 base netting; Art. 14 exclusions incl. **L3,000,000 EXCESS-ONLY**; Art. 15 ATN-as-ISR-credit floor mechanics; **Cap. [VIII] Art. 22 = AS 5% sobre exceso RNG > L1M "temporal"… "hasta el año 2005"** (the CURRENT FY2014+ AS rests on a later re-establishment — first candidate D. 278-2013, unacquired; 121_ OQ-4); Art. 18 = ISV-Art.-8 tarjetas retention agents (the 41_/42_ manuals' instrument); Art. 28 = Registro Fiscal de Imprentas creation (+180d vigencia); Art. 49 = OPD/ONG/OPDF commercial-income rule; Art. 56 derogations (D. 54-96 NOT among them — negative finding) | The ATN's statutory core acquired: FR-257 statute-anchored (R-H84, OQ-010 resolved); the AS origin split recorded (structure = Art. 22; current basis = unacquired re-establisher — FR-255 keeps the 74_ print basis, dated row FY2014 unchanged); cooperative-mercantile origin (Art. 44) = the 506/509-boundary bookend; OPD/NGO rule = the 52-2004 interp's target | `hn/sources/121_Gaceta_30059_Decreto_51-2003_Ley_Equidad_Tributaria.pdf` | LET-Arts. 5-16 pp.4-5; Art. 22 p.9; Art. 18 p.7; Arts. 28-30 pp.9-10; Arts. 49/56-57 pp.12-13 (EV121:EVID-442..452) |
 | LB-017 | **Acuerdo 0948-2003 + D. 52-2004 (W8, `122_`/`123_`)** — the LET reglamento (gazette 28-jun-2003, No. not printed on the extract — 122_ OQ-1) + the Art.-49 "ingresos" interp (G 30,437 9-jul-2004): 0948-2003 Cap. I restates ISR no-gravables reglamento rules (prestaciones laborales; vacaciones-allowance qualifier OCR-lost — 122_ OQ-7); the ATN chapter = the operational reglamento behind the 67_-cited "reglamento del Impuesto al Activo Neto" (FREP/06 OQ-003 leg); 52-2004 fixes the "ingresos" vocabulary for LET Art. 49's OPD/ONG/OPDF commercial-income obligation | The ATN's reglamento + interp legs statute-anchored; no FR value changes (procedure layer; the 30-abrilo package consumes via LB-016's Cap. II rows) | `hn/sources/122_Gaceta_28jun2003_Acuerdo_0948-2003_Regl_Ley_Equidad_Tributaria.pdf` + `hn/sources/123_Gaceta_30437_Decreto_52-2004_interp_Art49_51-2003.pdf` | 0948-Arts. 1+ pp.1-2 + ATN chapter; 52-2004 Art. 1 (EV122:EVID-453..459) |
+| LB-018 | **D. 278-2013 Art. 15 (W9, `130_`) — the AS FY2014+ RE-ESTABLISHER** (CAPÍTULO V "DE LA APORTACIÓN SOLIDARIA"; G 33,316 30-dic-2013; vigencia 01-ene-2014): "ARTÍCULO 15.- Restablecimiento de la Aportación Solidaria.- Reformar el Artículo 22 de la LEY DE EQUIDAD TRIBUTARIA, contenida en el Decreto No.51-2003 [...] el que en adelante debe leerse así: 'ARTÍCULO 22.- Las personas jurídicas, excepto las incluidas en los Regímenes Especiales de Exportación y Turismo [...] pagarán una Aportación Solidaria del Cinco Por Ciento (5%) que se aplicará sobre el exceso de la renta neta gravable superior a Un Millón de Lempiras (L1,000,000.00), a partir del periodo fiscal 2014 en adelante. La Aportación Solidaria constituye una sobretasa del Impuesto Sobre la Renta, por lo que no será deducible de dicho impuesto, quedando sujeta al Régimen de Pagos a Cuenta, Declaración Anual y demás disposiciones aplicables de la Ley del Impuesto Sobre la Renta.'" | The R-H84 residual CLOSED: the FY2014+ AS statutory basis = this article (re-reading LET Art. 22 wholesale); FR-255's parameters (5% excess-over-L1M-RNG, PJ except export/tourism — note FR-256's 74_-only-exclusion caveat now has the statutory CONFIRMATION of the export/tourism exception, comma-placement OCR flag `130_` OQ-7; sobretasa; ISR calendar) all text-anchored; reglamento cross-cite = Acuerdo 462-2014 Art. 18 (EV131:EVID-496) | `hn/sources/130_Gaceta_33316_Decreto_278-2013_Ley_Ordenamiento_Finanzas_Publicas.pdf` | D278-Art. 15 (p.7; EV130:EVID-486; EV131:EVID-496) |
 
 ## 3. Functional Requirements
 
@@ -396,15 +397,22 @@ D. 54-96, D. 110-93 Art. 9, LET D. 51-2003.
   fiscal 2014 onward (dated parameter row), encoded as a SOBRETASA del
   ISR — non-deductible for ISR and subject to the pagos-a-cuenta regime,
   annual declaration and the ISR's demás disposiciones (credit subpanel
-  and floor interaction per FR-258). (LB-009; LB-011;
-  EV29:EVID-100/110; R-H30)
+  and floor interaction per FR-258). **W9: the FY2014+ statutory basis
+  acquired — D. 278-2013 Art. 15 "Restablecimiento de la Aportación
+  Solidaria" (LB-018, EV130:EVID-486) re-reads LET Art. 22 wholesale;
+  every FR-255 parameter is now statute-text-anchored (the 74_ print and
+  the statute agree).** (LB-009; LB-011; LB-018; EV29:EVID-100/110;
+  EV130:EVID-486; R-H30)
 - **HN-FREP-FR-256:** The system shall scope AS to personas jurídicas
   only — 102 (persona natural) carries NO AS section and 74_ p.9 says
   "Las personas jurídicas" — and shall exclude taxpayers under the
   Regímenes Especiales de Exportación y de Turismo per 74_ p.9 ONLY (the
   exclusion appears in NO other print — 30_ Feb-2026 omits it; cross-doc
-  CONFIG dependency carried, never silently generalized).
-  (LB-009; LB-011; EV29:EVID-100/110; OQ-004; R-H30)
+  CONFIG dependency carried, never silently generalized. **W9: the
+  exception is now STATUTORY — D. 278-2013 Art. 15's own re-read carries
+  it (LB-018; EV130:EVID-486; comma-placement flag `130_` OQ-7) — but the
+  30_ omission stays a live drift watch.** (LB-009; LB-011; LB-018;
+  EV29:EVID-100/110; EV130:EVID-486; OQ-004; R-H30)
 
 ### 3.8 Activo Total Neto (ATN)
 

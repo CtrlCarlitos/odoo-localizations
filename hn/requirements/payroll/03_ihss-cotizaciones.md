@@ -6,7 +6,7 @@
 | Topic   | payroll |
 | Status  | draft |
 | Authors | Takumi synthesis wave S-HN4 + controller |
-| Updated | 2026-08-20 |
+| Updated | 2026-08-21 (W9 fold-ins: 145_/147_/146_ acquired — base composition RESOLVED to text) |
 
 ## 1. Purpose
 
@@ -84,6 +84,11 @@ period (*hecho generador*), additive-only, never-guess.
 | LB-012 | Ley del Seguro Social, Art. 65 ¶2: "Todo empleador sujeto al Instituto «…» queda obligado a exhibir la constancia de encontrarse al día de sus cotizaciones o contribuciones al Instituto, para ejercer los actos siguientes: a) Cobrar al Instituto cualquier obligación; y, b) Participar en licitaciones que promuevan El Instituto, El Estado y sus Entidades Descentralizadas «…»"; Art. 84 (multas "en salarios mínimos mensuales en su categoría más alta"): "1) De un veinticinco (25%) de un salario mínimo por cada trabajador, si no se inscriben o se niegan a afiliar al trabajador «…»; 2) De un salario mínimo, por demora excesiva o persistente en la presentación y pagos de la planilla de cotización «…» por cada planilla atrasada «…»; 3) De tres (3) salarios mínimos, si deduce sus propias cotizaciones de los salarios de los asegurados «…»"; Art. 88 ¶2: "En caso de los empleadores morosos por cotizaciones obrero patronales, todas las prestaciones previstas en la Ley y su Reglamento, serán asumidas directamente por éllos [ellos], sin responsabilidad alguna para el Instituto."; Art. 99: patronal cotizaciones+recargos+multas "prescriben en el término de cinco (5) años"; "Son imprescriptibles las cotizaciones de los trabajadores retenidas por los patronos que no fuesen enteradas al Instituto." | Enforcement stack: solvencia (being up to date) is a gate for collecting from IHSS and for public tendering; the fine schedule is denominated in highest-category monthly minimum wages (ties the P1 SMM dated rows); employer mora shifts ALL benefit costs to the employer; employer contributions prescribe in 5 years while retained-but-unremitted worker shares never prescribe | `hn/sources/87_Ley_IHSS_TSC.pdf` | LI-Arts. 65, 84, 88, 99 (pp.12-13, 15-16, 17/19) (EV81:EVID-261) |
 | LB-013 | Ley del Seguro Social, Art. 100: "El Reglamento definirá lo que debe entenderse por salario para el efecto del Instituto Hondureño de Seguridad Social (IHSS); éste también establecerá categorías de salarios para la clasificación de los asegurados y fijará «para cada una de ellas un salario base para el cálculo de las cotizaciones y de las prestaciones en dinero. Determinar así mismo, la equivalencia en dinero para los casos en que los asegurados perciban una parte de su remuneración en alimentos o vivienda."; Art. 106: "Si la presente Ley o sus reglamentos no definieren expresamente ciertos términos «…», se aplicarán la definiciones admitidas en las leyes de trabajo, o, a falta de éstas, las del Derecho Común."; Art. 102 ¶2: reglamentos on inscription, rights/duties, and "la periodicidad y a las modalidades de recaudación de las cotizaciones «…» deberán ser aprobadas por la Junta Directiva conforme lo establece en el Artículo 17 «…», debiendo ser publicadas en el Diario Oficial La Gaceta." | THE base delegation: the Law itself does NOT define the cotización salary — it delegates "salario", salary categories, per-category base salaries and in-kind equivalences wholesale to the Reglamento General (NOT in corpus — 87_ OQ-1, top acquisition lead); whether 13th/14th month, overtime or bonuses enter the base is unsaid anywhere in the corpus → configuration flag, never guessed; absent express definitions, labor-law definitions apply subsidiarily; base rules arrive via JD-approved, Gaceta-published reglamentos | `hn/sources/87_Ley_IHSS_TSC.pdf` | LI-Arts. 100, 106 y 102 ¶2 (pp.18-19/19) (EV81:EVID-262) |
 | LB-014 | Ley del Seguro Social, Art. 45: "Las Prestaciones del Seguro por Riesgos Profesionales, se financiarán exclusivamente con cargo a las cotizaciones de los empleadores, según lo determinen los Reglamentos «…» Podrá establecer cuotas técnicas especiales a cargo del empleador, tomando en cuenta la peligrosidad de cada actividad y la región «…»"; Arts. 34.b/39.b: incapacidad/maternity cash subsidies "cuyo monto duración y demás condiciones para su pago, serán fijadas por los Reglamentos"; Art. 90: subsidies "son incompatibles [entre sí]"; Art. 91: subsidy claims prescribe at 1 year; Art. 92: prestaciones en dinero "no serán gravables por impuesto alguno." | Riesgos profesionales are financed EXCLUSIVELY by employer contributions, reglamento-determined, with actividad-peligrosidad-variable technical quotas (no rate in corpus — 87_ OQ-2); the subsidy money-terms live in reglamentos (the RIT, owned by file 04 — cited here as frame only); cash benefits are mutually incompatible per contingency, claim-prescription 1 year, and NOT taxable by any tax (ISR interface) | `hn/sources/87_Ley_IHSS_TSC.pdf` | LI-Arts. 34.b, 39.b, 42.2, 45, 90-92 (pp.7-9, 16/19) (EV81:EVID-263) |
+| LB-015 | **Acuerdo No. 003-JD-2005 (Reglamento General de la Ley del IHSS), Art. 135** (Sección II "DEL SALARIO SUJETO A COTIZACION"; Dado 15-feb-2005; gazette original G 30,735 29-jun-2005 per `147_`; `145_` = institutional "última versión" retypeset): "Se entiende por salario para los efectos de la aplicación de la Ley del Seguro Social no solo la remuneración fija u ordinaria, sino todo lo que recibe el trabajador asegurado ya sea en dinero o en especie y que implique retribución de servicios, sea cualquiera la forma o denominación que se adopte, como las primas, sobresueldos, bonificaciones habituales, valor del trabajo suplementario o de las horas extras, valor del trabajo en días de descanso obligatorio, porcentajes sobre ventas, comisiones o participación de utilidades. No constituyen salario las sumas que ocasionalmente y por mera liberalidad reciban el trabajador del patrono, como las primas, bonificaciones y gratificaciones «…» El salario en especie que reciba el trabajador, no excederá del treinta por ciento (30%) del total de la remuneración." | **THE base-composition resolver** (LI Art. 100's delegate text, W9): the cotizable salary = fixed/ordinary remuneration + everything implying retribution — primas, sobresueldos, **bonificaciones HABITUALES**, **OT/horas extras**, **rest-day work value**, % on sales, commissions, profit participation; EXCLUDED = sums received occasionally and by mere liberality (primas/bonificaciones/gratificaciones); in-kind salary capped at 30% of total remuneration (feeds FR-116's equivalence hook). OT is EXPLICITLY IN the base | `hn/sources/145_Acuerdo_003-JD-2005_Regl_Gral_Ley_IHSS_ult_version.pdf` | RegGen003-Art. 135 + Art. 4 defs. 14-15 (pp.3-4, 37-38; text layer; EV145:EVID-545; gazette-original corroborated EV147) |
+| LB-016 | Acuerdo 003-JD-2005, Art. 134: "Independientemente del monto del salario o ingreso que se anota en la planilla, la cotización mínima mensual se calculará sobre un ingreso de referencia mínimo equivalente al salario mínimo vigente en su categoría o conforme a la modalidad que se establezca en la Tabla del Salario autorizado por el Gobierno de la República."; Art. 136: "El Instituto puede fijar límites mínimo y máximo de los salarios por los cuales se cotizará para los regímenes de afiliación especiales."; Art. 147: "Será de cuenta del patrono la cotización del trabajador, correspondiente a la diferencia entre lo que gane un trabajador y el salario establecido para la cotización mínima." | The MINIMUM cotización base = the worker's category SMM (P1 SMM-table dependency made explicit); the Instituto's min/max-fixing power (the ceiling pipeline's reglamento seat, alongside LI Arts. 17/55-A ¶3/55-B); the BELOW-minimum difference is EMPLOYER cost (worker shares never burden the under-minimum earner) | `hn/sources/145_Acuerdo_003-JD-2005_Regl_Gral_Ley_IHSS_ult_version.pdf` | RegGen003-Arts. 134, 136, 147, 151 (pp.9, 37, 39, 40-41; EV145:EVID-546/547) |
+| LB-017 | Acuerdo 003-JD-2005, Riesgos Profesionales chapter (Arts. 88-97, Tít. III Cap. III Secc. IV): "Las Empresas que ingresen por primera vez al Régimen de Riesgos Profesionales cotizará[n] por el valor inicial del 0.2%. Sobre el salario nominal en base al techo actual para todas las categorías." (Art. 89 final ¶); five risk classes (Art. 95); annual siniestralidad review with employer January filing (Arts. 90-93); rate stability ≥1 year (Art. 97); employer-only financing restated (Art. 88) | The RP-rate machinery's reglamento seat: NEW entrants to the RP regime cotize an initial **0.2% on nominal salary capped at the current techo**; five-class structure + annual experience-review (January employer filing) + ≥1-year rate stability; the class-value cuadros themselves remain absent → OQ-006 NARROWED, not closed (no default rate computed) | `hn/sources/145_Acuerdo_003-JD-2005_Regl_Gral_Ley_IHSS_ult_version.pdf` | RegGen003-Arts. 88-97 (Tít. III Cap. III Secc. IV, pp.25-27; EV145:EVID-549) |
+| LB-018 | Acuerdo 003-JD-2005, Art. 144 (cotización payment rhythm): cotizaciones are due **"dentro de los primeros diez (10) días"** of the following month, with oficio facturación riding the last planilla; Art. 161 a)/b)/g): non-affiliation → resarcimiento + capitales constitutivos + **10% administrative surcharge**; reporting failures → multa mensual 10% of the monthly cotizado total, until the cause is resolved; Arts. 165-166: the delinquent patrono absorbs the full prestaciones | The EMPLOYER payment deadline (10 days, reglamento seat — sharpens the LI-Art.-60 ¶3 15-day State-rhythm note of FR-122; employers' operative calendar = 10 days from 29-jun-2005) + the 10%-monthly sanctions class and moroso-absorbs-everything consequence (enforcement metadata) | `hn/sources/145_Acuerdo_003-JD-2005_Regl_Gral_Ley_IHSS_ult_version.pdf` | RegGen003-Arts. 144, 161, 165-166 (pp.39, 42-44; EV145:EVID-551) |
+| LB-019 | **THE IHSS REGLAMENTO ANCESTRY TRIPLE (W9)** — `147_` = the GAZETTE ORIGINAL of Acuerdo 003-JD-2005 (G 30,735, martes 29-jun-2005, masthead-confirmed; full Art. 1-194 two-column print; the JD roster ≡ 145_'s) — EV147:EVID-556..560; `146_` = the 1971 REGLAMENTO DE APLICACIÓN DE LA LEY DEL SEGURO SOCIAL (institutional print titled "Decreto No.193-1971"; campo-de-aplicación structure; ≡ Acuerdo 101-JD-71 by G05-Art. 194's derogation-target inference — OQ-3(146_); its own salary/base articles pre-figure Art. 135) — EV146:EVID-554/555; `148_` = the G 33,879 (10-nov-2015) Sección-A Seguridad-Social extract: the IHSS Comisión-Interventora resolutions incl. the CUARTO-clause RAP-patrimony-safeguard ley initiative + Ley-Marco kin (payroll/05 context rows) — EV148:EVID-561..565 | The Reglamento General's identity chain complete: 1971 ancestor → 2005 gazette original → institutional retypeset; payroll/03 consumes 145_ for text (LB-015..018) and these three for provenance/ancestry/context | `hn/sources/147_Regl_Gral_Ley_IHSS_transparencia_scan.pdf` + `hn/sources/146_Regl_Aplicacion_Ley_Seguro_Social_Decreto_193-1971.pdf` + `hn/sources/148_Gaceta_33879_10nov2015_IHSS_RAP.pdf` | EV147:EVID-556..560; EV146:EVID-554/555; EV148:EVID-561..565 |
 
 ## 3. Functional Requirements
 
@@ -190,23 +195,28 @@ period (*hecho generador*), additive-only, never-guess.
   min(remuneration, techo IVM) — two separate caps inside the same payslip
   (they differ, e.g. Dec-2024: EM 11,109.30 vs IVM 11,336.32; they merely
   coincide in 2025). (LB-001; LB-002; LB-010; EV81:EVID-251/252/259)
-- **HN-PAYR-FR-115:** The system shall hold the contribution-base
-  COMPOSITION — whether the cotizable remuneration includes the 13th/14th
-  month (*décimo tercero/cuarto mes*), overtime, or bonuses — as a
-  CONFIGURATION FLAG, because LI Art. 100 delegates the salary definition,
-  salary categories and per-category base salaries wholesale to the
-  unacquired Reglamento General (87_ OQ-1, TOP acquisition lead): the
-  system shall NEVER hardcode an include/exclude decision, and a payslip
-  carrying such components with an unconfigured composition shall surface
-  an explicit pending-base-composition flag rather than silently computing
-  (never-guess rule). V-HN1 statutory LEAN recorded (does NOT close the
-  flag): D. 117-2021 Art. 2 (`89_`, EVID-335, valid 14-feb-2022) — the
-  aguinaldo "está exento del pago de todo impuesto, descuentos,
-  cotizaciones y deducciones de cualquier naturaleza, salvo... alimentos"
-  — i.e. a 2022 authentic interpretation bars cotizaciones from the
-  13th-month leg; the flag still governs (Reglamento General unacquired;
-  14th month/OT/bono legs untouched by the interp — see payroll/02
-  OQ-007). (LB-013; EV81:EVID-262)
+- **HN-PAYR-FR-115:** The system shall compute the contribution-base
+  COMPOSITION per the Reglamento General Art. 135 text (ACQUIRED W9 as
+  `145_`, EV145:EVID-545 — the LI-Art.-100 delegate): the cotizable salary
+  INCLUDES the fixed/ordinary remuneration plus primas, sobresueldos,
+  *bonificaciones habituales*, **overtime/horas extras and trabajo
+  suplementario**, **statutory rest-day work value**, percentages on sales,
+  commissions and profit participation, in money or in kind; it EXCLUDES
+  sums received *ocasionalmente y por mera liberalidad* (primas,
+  bonificaciones, gratificaciones). Component-level encoding:
+  (a) OT lines and rest-day work lines are IN the base by default;
+  (b) HABITUAL bonuses are IN; occasional/gratuitous bonuses are OUT
+  (habituality is a configurable per-component attribute, default=habitual
+  for recurring wage components);
+  (c) the 13th month (*aguinaldo*) is OUT — barred from cotizaciones by
+  the D. 117-2021 Art. 2 authentic interpretation (`89_`, EVID-335, valid
+  14-feb-2022), which overrides the reglamento's generic habituality
+  clause for that component;
+  (d) the 14th month (*décimo cuarto mes*) remains a CONFIG FLAG pending
+  the SMM-average-variant adjudication (OQ-010 — never guessed either
+  way). A payslip carrying a component not covered by (a)-(d) surfaces an
+  explicit pending-base-composition flag rather than silently computing
+  (never-guess rule). (LB-013; LB-015; EV81:EVID-262; EV145:EVID-545)
 - **HN-PAYR-FR-116:** The system shall provide an in-kind remuneration
   equivalence hook: salary in kind (*en especie* — e.g. alimentos,
   vivienda) counts as affiliation-triggering remuneration (LI Art. 3.a), and
@@ -290,14 +300,29 @@ period (*hecho generador*), additive-only, never-guess.
 
 - **HN-PAYR-FR-127:** The system shall carry the riesgos profesionales
   (*occupational risks*) branch as employer-ONLY financing per LI Art. 45
-  (exclusive employer contributions, reglamento-determined, with
-  peligrosidad/region-variable *cuotas técnicas*), with the RP cotización
-  rate ABSENT from the corpus: no RP payroll line shall be computed until
-  the rate arrives from the Reglamento de Riesgos Profesionales / JD cuadro
-  de cuotas (87_ OQ-2 — config gap + acquisition lead, never a default
-  rate); the CT Título V residual belongs to file 09
-  (`09_suspension-maternity-special.md`, HN-PAYR-FR-331..357).
-  (LB-014; EV81:EVID-263)
+  and the Reglamento General RP chapter (ACQUIRED W9, `145_`
+  EV145:EVID-549): new regime entrants cotize an initial **0.2% on
+  nominal salary capped at the current techo** (Art. 89), five risk
+  classes (Art. 95), annual siniestralidad review with a January employer
+  filing (Arts. 90-93) and ≥1-year rate stability (Art. 97). The
+  class-value cuadros/JD rate tables remain ABSENT from the corpus: no
+  class-specific RP rate shall be computed until they arrive (87_ OQ-2
+  NARROWED — the 0.2% entry value is encodable as the new-entrant row
+  valid_from 29-jun-2005, with class rates config-gapped); the CT Título V
+  residual belongs to file 09 (`09_suspension-maternity-special.md`,
+  HN-PAYR-FR-331..357). (LB-014; LB-017; EV81:EVID-263; EV145:EVID-549)
+- **HN-PAYR-FR-136:** The system shall schedule the EMPLOYER cotización
+  payment deadline at the FIRST 10 DAYS of the following month per
+  Reglamento General Art. 144 (oficio facturación on the last planilla),
+  distinct from the State's 15-day rhythm (FR-122) — dated row valid_from
+  29-jun-2005 (reglamento publication; any later instrument supersedes by
+  D-H2 additive rows). (LB-018; EV145:EVID-551)
+- **HN-PAYR-FR-137:** The system shall record the Reglamento General's
+  minimum-base rule: independently of the payroll-annotated salary, the
+  monthly minimum cotización base = the worker's category SMM (Art. 134),
+  with the BELOW-minimum worker-share difference borne by the EMPLOYER
+  (Art. 147) — an SMM-table dependency (file 01) feeding the base floor
+  computation; never a flat derived value. (LB-016; EV145:EVID-546)
 
 ### 3.7 Enforcement metadata
 
@@ -490,8 +515,9 @@ the table).
 | OQ-002 | `81_ OQ-2` pre-28-may-2024 interregnum: for payslip periods 2024-01-01→2024-05-27 (and the 2022→2024 revival window after SCO-858-2015) the operative ceilings are unaudited — LI 55-A ¶2 floor presumably revived but the JD ceiling trail 2003→2024 is not in the corpus. Acquisition lead: JD ceiling resolutions (La Gaceta) 2003-2024; until then historical/back-dated payslips stay config-blocked (FR-104/FR-109). | no | acquisition queue | open |
 | OQ-003 | `81_ OQ-3` Estado 0.5% base ("en base del total de los afiliados activos") is grammatically broken in the gazette original; not employer-payroll-relevant (never withheld), but pin before modeling any Estado-side row (FR-105 keeps State shares informational). | no | acquisition queue | open |
 | OQ-004 | `81_ OQ-4` supersession formality: D.48-2024 Art. 1 carries no express derogation of LI 55-A ¶2; supersession follows lex posterior + restitutory considerandos (R-H49 kin). Encoded in FR-104; a formal derogation analysis only matters for litigious edges. | no | — | open (note) |
-| OQ-005 | `87_ OQ-1` (KEY, TOP acquisition lead): contribution-BASE composition — LI Art. 100 delegates "salario", salary categories, per-category base salaries and in-kind equivalences to the Reglamento General del IHSS (NOT in corpus). Whether 13th/14th month, overtime or bonuses enter the base is unsaid anywhere; FR-115 holds it as a config flag with pending-source status — never hardcoded. Lead: Reglamento General / Régimen Obligatorio (JD-approved, La Gaceta per LI Art. 102 ¶2) + JD base-salary tables. | no | acquisition queue (top) | open |
-| OQ-006 | `87_ OQ-2` riesgos profesionales cotización: employer-only financing per LI Art. 45, reglamento-determined with peligrosidad-variable cuotas técnicas — NO rate in the corpus (FR-127 = config gap, no RP line computed). Lead: Reglamento de Riesgos Profesionales IHSS / JD cuadro de cuotas. | no | acquisition queue | open |
+| OQ-005 | `87_ OQ-1` → **RESOLVED W9 (145_ acquired)**: the Reglamento General = Acuerdo 003-JD-2005 (Dado 15-feb-2005, gazette G 30,735 29-jun-2005 per `147_`; `145_` = institutional "última versión"; `146_` = the 1971 Reglamento de Aplicación it replaced, Acuerdo 101-JD-71 inference). Art. 135 = the delegate base definition — OT/horas extras + rest-day value + commissions + habitual bonificaciones IN; occasional/mere-liberality primas/bonos/gratificaciones OUT (FR-115 rewritten; LB-015). RESIDUAL = the 14th-month leg → OQ-010. | no | — | resolved (W9/EV145:EVID-545) |
+| OQ-006 | `87_ OQ-2` riesgos profesionales cotización: NARROWED W9 — the Reglamento General RP chapter (`145_` EV145:EVID-549) supplies the machinery (0.2% new-entrant entry rate on nominal salary at the techo, five classes, annual siniestralidad review + January employer filing, ≥1-year stability; FR-127/LB-017). RESIDUAL: the class-value cuadros / JD rate tables still unacquired — class rates stay config-gapped. Lead: JD cuadro de cuotas por clase. | no | acquisition queue (narrowed) | open |
 | OQ-007 | `87_ OQ-4` ceiling trail 2003→2024 (JD acts raising L4,800 → ~L11k, incl. the voided D.56-2015 gradualidad): needed only for historical dated rows; same acquisition family as OQ-002. | no | acquisition queue | open |
 | OQ-008 | `87_ OQ-5` gradual coverage per zone/category (LI Art. 1): whether every formal-sector employer is inside EM+IVM today is practice data; per-establishment affiliation coverage carried as a data flag (FR-126), never assumed national-by-default. | no | Takumi S-HN4 + controller | open |
 | OQ-009 | `87_ OQ-3` → RESOLVED as R-H65: the TSC print's title-page dates are internally inconsistent (edition defect, not mislabel); LB citations use the signature date 1-jun-2001 + G 29,503 of 14-jun-2001. No further action. | no | — | resolved (R-H65) |
+| OQ-010 | 14th-month (*décimo cuarto mes*) inclusion in the IHSS base: the Reglamento General Art. 135 includes "bonificaciones habituales" generically, but the 14th month is an SMM-average-variant statutory payment (payroll/02 FR-094..096) whose salary-nature for cotización purposes is not adjudicated by any corpus instrument (D. 117-2021's cotizaciones exemption names only the aguinaldo). FR-115(d) holds it as a config flag — never guessed either way. | no | S-HN5 / acquisition watch | open |

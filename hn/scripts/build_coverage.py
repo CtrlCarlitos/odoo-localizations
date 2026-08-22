@@ -20,7 +20,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 REG = os.path.join(ROOT, "hn/sources/README.md")
 REQ = os.path.join(ROOT, "hn/requirements")
 TOPICS = ["taxation", "e-invoicing", "fiscal-reporting", "payroll"]
-EXPECTED = {"taxation": 249, "e-invoicing": 157, "fiscal-reporting": 363, "payroll": 328}
+EXPECTED = {"taxation": 249, "e-invoicing": 157, "fiscal-reporting": 363, "payroll": 330}
 
 # Explicit per-source status/notes. Sources absent here must be LB-cited (G1).
 # Vocabulary mirrors SV's COVERAGE.md:

@@ -3,11 +3,24 @@
 Built: 2026-08-19 (synthesis prep, post-W4); updated through W5c (2026-08-20:
 +EV109, EVID-385..391), W6 (2026-08-20: +EV110/EV114/EV115, EVID-392..428),
 W7 (2026-08-21: +EV119, EVID-429..433 — the residual-chain decode
-R-H81/R-H82) and W8 (2026-08-21: +EV120..EV129, EVID-434..481 — the
+R-H81/R-H82), W8 (2026-08-21: +EV120..EV129, EVID-434..481 — the
 post-W6 acquisition wave: Ley RAP ORIGINAL, D. 51-2003 LET + 0948-2003
 reglamento + 52-2004 interp, the turismo family 314-98/135-2006/68-2017,
 Acuerdo 005-2017 selectivo reglamento, D. 99-93, D. 74-95 TEXT (W7
-routes-exhausted claim corrected); rulings R-H83..R-H85; next EVID = 482).
+routes-exhausted claim corrected); rulings R-H83..R-H85) and **W9
+(2026-08-21: +EV130..EV148, EVID-482..565 — the residual-queue acquisition
+wave: NINETEEN files — D. 278-2013 Ordenamiento (the 22-A original text +
+**R-H86: Art. 15 = the AS FY2014+ RE-ESTABLISHER** + the devolución-8%
+six-month suspension + the exonerations RESET) + its 462-2014 reglamento +
+D. 74-2014 65+ interp, SAR-236-2024 Oficina Virtual + SAR-256-2024 (the
+DMC 8-day chain re-seed — R-H18 superseded), the LSP/contribuciones
+statutes (105-2011 texto actualizado + 1775-2011 + 131-2018 + 53-2015 +
+128-2020), the TP triple (232-2011 + 027-2015 + 62-2019), 618-A-2017
+turismo reglamento, SAR-383-2024, and **THE Reglamento General IHSS
+triple: Acuerdo 003-JD-2005 "última versión" + its G 30,735 gazette
+original + the 1971 Reglamento de Aplicación ancestor (Art. 135 = the
+IHSS contribution-BASE resolver — payroll/03 OQ-005 RESOLVED)** + the G
+33,879 IHSS/RAP extract; next EVID = 566).
 Inputs: the 35 evidence files below
 (EVID-001..333, corpus-global), built by the four evidence waves
 W1 (2026-08-19/20, taxation core), W2a/W2b (fiscal reporting), W3 (facturación),
@@ -98,6 +111,14 @@ full text lives in the evidence files). EVID ranges 130-135, 159-162, 174,
 | EV127 | `127_Acuerdo_005-2017_selectivo_reglamento.evidence.md` (468..473 — W8: the current SEFIN reglamento for production-and-consumption + ISV (G 34,282 6-mar-2017, text-native); Art. 19 import formula ISV=(CIF+DAI+ISC+IPC)t; image-only rates cuadro + Arts. 18/20-vs-19 ISC contradiction = OQs) |
 | EV128 | `128-129_99-93+74-95.evidence.md` (474..478 — W8: D. 99-93 FX-repatriation benefits (gazette 9-jul-1993) = the código-115 exclusion leg; D. 74-95 TEXT (G 27,655 May-1995) = the Art.-34 interp verbatim — R-H81 content statute-pinned, W7 routes-exhausted claim corrected (file was in the W6 leyesdehonduras CDX)) |
 | EV129 | `128-129_99-93+74-95.evidence.md` (476..478 — W8: the 129_ rows of the shared file; cited as EV129:EVID-476..478 — see EV128) |
+| EV130 | `130_Decreto_278-2013_Ordenamiento.evidence.md` (482..491 — W9: the Ordenamiento G 33,316 30-dic-2013, vigencia 01-ene-2014 — Art. 9 = the ORIGINAL 22-A text (regime 0 FY2014-FY2017; five 0.75% sectors; D. 96-2012 pin); **Art. 15 = R-H86 the AS re-establisher** (5% >L1M RNG, sobretasa); Art. 20 = the devolución-8% 6-month suspension; Arts. 16-19+Anexo I = the 15/18 ISV rates + canasta description-prevails NOTA + Simplificado 31-ene; Arts. 1-2/5 exonerations catalogues; Arts. 11-13 plusvalía/12.5%/4%; Art. 49 derogations incl. D. 194-2002 Art. 48 + CT Art. 464) |
+| EV131 | `131-132_Ordenamiento_reglamento_interp.evidence.md` (492..499 — W9: Acuerdo 462-2014 the Ordenamiento reglamento G 33,484 21-jul-2014 (survival inventory 25 numerals; Sacrificio Fiscal; Registro de Beneficiarios; Art. 18 cites Ley Art. 15 — the AS cross-cite; ACPV table Regular 1.2416; Art. 20 valid_to 4-dic-2018) + D. 74-2014 FULL TEXT (G 33,617 27-dic-2014): authentic interp — Ley Art. 5 num. 11 "no deroga y al contrario, conserva íntegra" the 65+ exoneración of D. 194-2002 Art. 14 (print slip "164-2002" flagged); taxonomy/02 LB-018) |
+| EV133 | `133-134_SAR-236-256-2024.evidence.md` (500..506 — W9: SAR-236-2024 Oficina Virtual (G 36,538 20-may-2024; OVI único medio; acuse-electrónico filing proof; 53+31+4+7 form catalogs — the 535 approval limb adjudicated HERE; e-filing ancestry DEROGADA incl. SAR-007-2017) + SAR-256-2024 (G 36,580 8-jul-2019 [sic 2024]; **the DMC 8-day re-seed**: may/jun/jul-2024 at 20 días transitional, from aug-2024 8 días calendario — FREP/03 FR-091/092 re-seeded, R-H18 superseded; OVI implementation 28-jun-2024; DJIMR/524/ATC channel+date maps)) |
+| EV135 | `135-139_LSP_contribuciones.evidence.md` (507..523 — W9: the LSP statutes — D. 105-2011 texto actualizado (telefonía Art. 13; comidas Art. 23 post-31-2018; **CETF 501/524 family tarifa L2.00/L1.50 por millar**) + Acuerdo 1775-2011 reglamento (Arts. 5/9-14 mechanics; exemptions L120k/L20k; enteros 20th/5th; Arts. 32/40 casinos-504/cooperatives-506) + D. 131-2018 (511 statute) + D. 53-2015 (cooperative ISR/ATN/AS exonerations FY2014+; 15% contribución) + D. 128-2020 (Art. 3 interp); the 506-vs-509 boundary NARROWED — D. 92-2015 G 33,883 14-nov-2015 = the top lead) |
+| EV140 | `140-142_TP_precios_transferencia.evidence.md` (524..535 — W9: the TP triple — D. 232-2011 (related-party Art. 3.3; method catalog; sanction table; the pequeños threshold NEGATIVE (lives in DEI-SG-004-2016)) + Acuerdo 027-2015 (vinculación criteria Arts. 11-13; the 545 ancestor Arts. 29-32: filer matrix, threshold DELEGATION, Apr-30/+3m deadlines; intercuartil Art. 26) + D. 62-2019 (Art. 10 modulación interp; **gazette-pin correction: G 35,077 19-oct-2019, the catalog's 34,224 = the CT's own edition**)) |
+| EV143 | `143-144_turismo_SAR-383.evidence.md` (536..543 — W9: Acuerdo 618-A-2017 the D. 68-2017 reglamento (G 34,486 8-nov-2017; edition carries the EVANGELUS transfer first) + SAR-383-2024 (G 36,667 18-oct-2024: código 501/524 declaration governance for banks/cooperativas, deadline 30-ago-2024; the headless DMR/DMC sibling on p.1 flagged)) |
+| EV145 | `145_Reglamento_Gral_IHSS_003-JD-2005.evidence.md` (544..553 — W9: **THE Reglamento General IHSS** — Acuerdo 003-JD-2005 (Dado 15-feb-2005; "última versión" retypeset, duplicate-Art.-193 defect): **Art. 135 = the contribution-BASE resolver** (OT/horas extras + rest-day value + commissions + habitual bonificaciones IN; ocasional-y-por-liberalidad OUT; in-kind ≤30%) + Art. 134 SMM floor + Art. 136 ceiling power + Art. 151 ≤5-year reviews + Arts. 43/67 subsidio 66% + patrono complement + **Arts. 88-97 the RP chapter (0.2% entry rate, five classes, January siniestralidad filing)** + Art. 144 employer 10-day payment + Art. 161 10%-multa class + REAP intake — payroll/03 OQ-005 RESOLVED, OQ-006 narrowed) |
+| EV146 | `146-148_IHSS_ancestors_G33879.evidence.md` (554..565 — W9: `146_` the 1971 Reglamento de Aplicación (D. 193-1971 print; ≡Acuerdo 101-JD-71 inference via G05-Art. 194's derogation target) + `147_` **ADJUDICATED = the GAZETTE ORIGINAL of Acuerdo 003-JD-2005 (G 30,735 29-jun-2005)**, full Art. 1-194 vs 145_'s retypeset (the 188-vs-143 count premise = regex artifact) + `148_` G 33,879 10-nov-2015 the IHSS Comisión-Interventora extract (RAP-patrimony-safeguard initiative + Ley-Marco kin — payroll/05 context)) |
 
 Citations in requirements files use `EVxx:EVID-nnn` (and `EVxx:file OQ-n` for
 register origins). D-H1/D-H2/D-H3 (EXTRACTION_PLAN Decisions) bind all clusters.
@@ -815,6 +836,7 @@ SMM auto-elevation of inferior contracts; CT negatives (R-H60); vintage pins;
 | R-H83 | The five-times-cited "Acuerdo N°799" (Reglamento Ley ISR) had NO identity — 31_ even printed "799-1963" | W8 (`119_` entry 324 re-read, EV119:EVID-479): **Acuerdo 799 = the Reglamento de la Ley de ISR of 1970, G 19,972 (13-ene-1970)**, derogating the 1955 reglamento (Acuerdo 787, G 15,641); its Art. 33 reformed by Acuerdo 6-B (dado 15-ene-1975, G 21,505 4-feb-1975). Lineage: 2106-1952 → 498-1954 → 787-1955 → **799-1970 (+6-B)** — Acuerdo 464-1990 (`94_`) = a separate D.18-90-era instrument. The "799-1963" year-suffix = a manual slip (1963 = the LEY's year). TEXT remains unacquired (1970 gazette, pre-ENAG, not in leyesdehonduras/GLIN/TSC/STSS/SAR — routes stand exhausted); all Arts. 31/32/51/84 citations stay print-based. Encoded: taxation/02 OQ-006, taxation/03 OQ-002, taxation/04 OQ-003, FREP/06 OQ-002, FREP/08 OQ-013 annotated (identity pinned) | EV119:EVID-479; five consumer OQs annotated W8 |
 | R-H84 | ATN instrument "conflict" — 74_ printed "Capítulo II del D.L. 51-2003" vs the corpus lead "Ley de Equidad Tributaria Art. 7" | W8 (`121_` acquired, EV121:EVID-444/445): **no conflict** — the ATN = D. 51-2003 **Capítulo II (Arts. 5-16)**: Art. 5 scope (PJ comerciantes per Código de Comercio), Art. 6 base netting, **Art. 7 rate 1%** (Balance 31-dic; declaration rides the ISR-annual date; special-FY +3m), Art. 14 exclusions incl. **L3,000,000 EXCESS-ONLY** (14.1) + ZOLI/ZIP/ZOLT/RIT (14.3), **Art. 15 ATN-as-ISR-credit** (minimum-tax mechanics), Art. 16 DEI administration. Both citations pointed at the same law all along. FREP/07 OQ-010 RESOLVED; FR-257 statute-anchored. Corollary: the reglamento = Acuerdo 0948-2003 (`122_`, the 67_-cited "reglamento del ATN"); the **AS (Art. 22) is TEMPORAL 2003→2005** — the CURRENT FY2014+ AS needs its re-establishing instrument (first candidate D. 278-2013, unacquired; refined lead) | EV121:EVID-444/445/449; EV122:EVID-453..455; FREP/07 OQ-010 resolved, FR-257/LB-016 |
 | R-H85 | Ley RAP scope questions (27_ OQ-3/OQ-6): universality? IVM-excess base vintage? pre-reform values? transcription completeness? | W8 (`120_` acquired, EV120:EVID-434..441 — the delta inventory): ORIGINAL Art. 42 gate = **empresas con 10+ empleados + FOSOVI-unregistered** (the 2024 reform universalized to "Todo patrono"); ORIGINAL Art. 43 subject = **"El Patrono aportante"**, 1.5% + 1.5% = 3% on **the FULL salario mensual ordinario, ≤15 días calendario entero** — **NO IVM-excess sentence, NO ceiling** (the IVM-excess base = a 2024-reform INSERT governing "La retención"; the credits ¶ = an appropriation of the Arts. 40-41 block); pre-reform percentages = the SAME 1.5/1.5 (shared spans verbatim-identical); ORIGINAL Art. 61 carried a D. 167-91 special-regimes exception — DELETED by the reform; 47_'s printed ellipsis = exactly where the original Art. 42 ends → transcription COMPLETE (OQ-6 closed). payroll/05 OQ-003/OQ-006 RESOLVED; FR-216 (dated rows across the 2013→2024 boundary) + AC-019 encoded | EV120:EVID-434..441; payroll/05 OQ-003/OQ-006 resolved, FR-216/LB-016/AC-019 |
+| R-H86 | The AS (Aportación Solidaria) FY2014+ statutory basis was UNKNOWN — R-H84's lead ("first candidate D. 278-2013, unacquired") awaited the text | W9 (`130_` acquired, EV130:EVID-486 + the reglamento cross-cite EV131:EVID-496): **D. 278-2013 CAPÍTULO V Art. 15 "Restablecimiento de la Aportación Solidaria" re-reads LET (D. 51-2003) Art. 22 wholesale**: PJs except Regímenes Especiales de Exportación y Turismo pay **5% on the EXCESS of renta neta gravable > L1,000,000, "a partir del periodo fiscal 2014 en adelante"**; sobretasa del ISR, non-deductible, riding the ISR pagos-a-cuenta/declaración-anual machinery. FREP/07 FR-255/256 statute-anchored (LB-018); the 121_ "temporal 2003-2005" rows = superseded-as-re-read; cooperative carve-outs via D. 53-2015/92-2015 (EV138) | EV130:EVID-486; EV131:EVID-496; FREP/07 LB-018, FR-255/256 |
 
 ---
 
@@ -838,6 +860,43 @@ OPEN (top): Reglamento General IHSS (119_ IHSS-block negative = one more
 route exhausted); "Acuerdo 799" TEXT (1970); D. 247-89 text (live
 residual); D. 54-95/36-90 texts (content pinned); D. 96-2012; the LSP/
 contribuciones statutes; Código de Comercio; SEE docs (lead 1).
+
+**W9 ACQUISITION-QUEUE DELTAS (2026-08-21, applies register-wide):**
+ACQUIRED this wave (NINETEEN files, EV130..EV148) — D. 278-2013 Ordenamiento
+(`130_`: **R-H86 = the AS re-establisher Art. 15**; the 22-A original text
+FY2014-17; the devolución-8% six-month suspension Art. 20 — 41_ OQ-3 residual
+resolved; the exonerations RESET Arts. 1-2/5/22-27/49) + Acuerdo 462-2014
+reglamento (`131_`) + D. 74-2014 65+ interp (`132_` — the FR-068 continuity
+pin) + SAR-236-2024 Oficina Virtual (`133_` — the 535-approval limb + the
+e-filing-ancestry derogations) + SAR-256-2024 (`134_` — **the DMC 8-day
+re-seed; R-H18's manuals-stale reading superseded**; OVI live 28-jun-2024) +
+the LSP/contribuciones statutes (`135_` texto actualizado D.105-2011 + `136_`
+Acuerdo 1775-2011 + `137_` D. 131-2018 + `138_` D. 53-2015 + `139_` D.
+128-2020 — the CETF 501/524 tarifa L2.00/L1.50 por millar statute-anchored;
+506-vs-509 NARROWED to D. 92-2015) + the TP triple (`140_` D. 232-2011 +
+`141_` Acuerdo 027-2015 + `142_` D. 62-2019 — **142_'s gazette pin CORRECTED
+to G 35,077 19-oct-2019**; the ≤USD-1M pequeño gate relocated to
+DEI-SG-004-2016, still unacquired) + Acuerdo 618-A-2017 turismo reglamento
+(`143_`) + SAR-383-2024 501/524 governance (`144_`) + **THE Reglamento
+General IHSS triple (`145_` Acuerdo 003-JD-2005 "última versión" + `147_` its
+G 30,735 gazette ORIGINAL + `146_` the 1971 Reglamento de Aplicación
+ancestor): Art. 135 = the IHSS contribution-BASE resolver — payroll/03
+OQ-005 RESOLVED (OT/rest-day IN, habitual bonuses IN, ocasional OUT,
+aguinaldo OUT per 89_, 14th = flag OQ-010); Art. 134 SMM floor; Arts. 88-97
+the RP chapter (0.2% entry — OQ-006 narrowed)** + the G 33,879 IHSS/RAP
+interventora extract (`148_`). Resolved/narrowed at fold-in: payroll/03
+OQ-005 + OQ-006(narrowed), FREP/07 AS legs (R-H86), FREP/03 OQ-004 (8-day
+re-seed), FREP/01 OQ-008/009, FREP/10 OQ-006(narrowed)/OQ-007, FREP/11
+OQ-002/004(narrowed)/OQ-009(narrowed), taxation/03 OQ-006 instrument-number
+correction (273→278) + regime-0 FY2014-16 extension, taxation/07 OQ-003
+(narrowed), taxation/02 65+-continuity LB-018. STILL OPEN (top): **D. 92-2015
+(the 506-vs-509 closer — G 33,883 14-nov-2015 pinned)** · DEI-SG-004-2016
+(TP pequeño gate + safe harbour) · SAR-653-2023 (CbCR) · SAR-239-2024 ·
+"Acuerdo 799" TEXT (1970) · D. 247-89 text · D. 96-2012 (loss regimes, dado
+20-jun-2012 pinned via EV130) · D. 7-2017 (OTCD 50%→10% drift middle
+instrument) · Código de Comercio · SEE docs (lead 1) · riesgos-profesionales
+class cuadros · JD ceiling resoluciones 2003-2024 · DGS SMM 2025/2027
+promedio prints · Código de Comercio Art. 143 (541 kin).
 
 Categories: LEAD = acquire instrument · CONFIG = value/instrument unpinned → dated
 config/decision · CONFLICT = sources contradict, never resolve silently · VERIFY =

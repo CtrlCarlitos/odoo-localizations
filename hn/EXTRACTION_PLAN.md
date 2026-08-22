@@ -57,12 +57,60 @@ annotated); verification = structural 48/48 EVIDs contiguous + 3-gram
 bank-check with LOWs adjudicated; COVERAGE 128 rows = 126 cited + 2 N/A,
 gates PASS (1097/511/574/326). Totals: payroll 328/165/172/83, taxation
 249/114/140/56, rulings R-H1..R-H85, next EVID = 482.**
-Next = the residual queue (Reglamento General IHSS TOP; "Acuerdo 799" TEXT
-(1970); D. 278-2013 (AS re-establisher + devolución-8% suspension);
-D. 247-89 text watch; D. 54-95/36-90 completeness; D. 96-2012; LSP/
-contribuciones statutes; Código de Comercio; SEE docs; S-HN5 DEFERRED).**
+**W9 acquisition wave COMPLETE 2026-08-21 (this session, on-branch):
+NINETEEN files `130_`..`148_` registered + evidenced EVID-482..565 (84
+EVIDs; 8 dispatched [4 shape-(b) fails re-dispatched; A controller-executed
+after triple failure] — the proven pattern) — D. 278-2013 Ordenamiento
+(R-H86: Art. 15 = the AS FY2014+ RE-ESTABLISHER — FREP/07 FR-255/256
+statute-anchored; Art. 9 = the 22-A original, regime 0 extended FY2014-17;
+Art. 20 = the devolución-8% six-month self-expiring suspension — 41_ OQ-3
+resolved; Arts. 1-2/5/22-27/49 = the exonerations RESET) + 462-2014
+reglamento + D. 74-2014 65+ interp (FR-068 continuity LB); SAR-236-2024
+Oficina Virtual (535 limb; ancestry derogated) + SAR-256-2024 (**the DMC
+8-day re-seed — R-H18's manuals-stale reading superseded; FREP/03
+FR-091/092/OQ-004 re-seeded; OVI live 28-jun-2024**); the LSP/contribuciones
+statutes ×5 (CETF 501/524 L2.00/L1.50 por millar; 506-vs-509 narrowed to D.
+92-2015); the TP triple ×3 (G-35,077 pin correction; USD-1M gate relocated
+to DEI-SG-004-2016); 618-A-2017 turismo reglamento; SAR-383-2024; **THE
+Reglamento General IHSS triple (003-JD-2005 "última versión" + G 30,735
+gazette original + 1971 ancestor + G 33,879 extract): Art. 135 = the IHSS
+contribution-BASE resolver — payroll/03 OQ-005 RESOLVED, FR-115 rewritten
+(OT/rest-day IN, habitual bonuses IN, ocasional OUT, aguinaldo OUT per
+89_, 14th = flag OQ-010); Art. 134 SMM floor; Arts. 88-97 RP 0.2% entry
+(OQ-006 narrowed); FR-136/137 added**. Verification: EVID structural
+84/84 contiguous + 3-gram bank-check (LOWs adjudicated: interleave
+boundaries, catalog-paraphrase headers, OCR-title fragments); COVERAGE
+regen **147 rows = 145 cited + 2 N/A, gates PASS (1099/523/574/327)**.
+Totals: payroll 330/170/172/84, taxation 249/118/140/56, FREP 363/164/189/
+170; rulings R-H1..R-H86; next EVID = 566.**
+Next = the sharpened residual queue (TOP: D. 92-2015 the 506-vs-509 closer,
+DEI-SG-004-2016 TP gate, SAR-653-2023 CbCR, D. 7-2017 OTCD drift, D.
+96-2012 loss regimes; then "Acuerdo 799" TEXT (1970) + D. 247-89 watch;
+Código de Comercio; SEE docs; RP class cuadros; JD ceiling resoluciones;
+DGS SMM 2025/2027 promedio prints; S-HN5 DEFERRED).**
 
 ## Wave log
+
+- **W9 acquisition wave (2026-08-21, DONE — acquisition + evidence + fold-ins,
+  8 dispatches [4 re-dispatched after shape-(b) fails; brief A
+  controller-executed after triple failure]):** 19 files registered
+  (`130_`..`148_`; SAR-240-2024 duplicate discarded md5-identical to `19_`).
+  Evidence: 9 files, EVID-482..565, pre-allocated per family (130_=482..491,
+  131-132_=492..499, 133-134_=500..506, 135-139_=507..523, 140-142_=524..535,
+  143-144_=536..543, 145_=544..553, 146-148_=554..565). OCR sidecars at
+  300dpi/psm6 for the 8 scans; text layers for the rest. Rulings: **R-H86**
+  (D. 278-2013 Art. 15 = the AS re-establisher). Fold-ins: payroll/03
+  (OQ-005 RESOLVED + LB-015..019 + FR-115 rewrite + FR-127 update +
+  FR-136/137 + OQ-006 narrowed + OQ-010 new), taxation/03 (regime 0
+  FY2014-17 + LB-019 + OQ-006 273→278 correction), taxation/02 (LB-018 65+
+  continuity), taxation/06 (LB-019 the 15/18+canasta-NOTA home; FR-255
+  suspension anchored), taxation/07 (LB-012 + OQ-003 narrowed), FREP/07
+  (LB-018 + FR-255/256), FREP/04 (LB-009 acquired), FREP/03 (LB-008/FR-091/
+  FR-092/OQ-004 — the 8-day re-seed), FREP/01 (LB-001/LB-019 + OQ-006/008/
+  009), FREP/10 (LB-013 + OQ-005/006/007), FREP/11 (LB-012 + OQ-002/004/
+  009). Master index: +EV130..148 + R-H86 + W9 Section-C delta.
+  Verification: structural 84/84 + bank-check adjudicated; COVERAGE 147
+  rows = 145 cited + 2 N/A, gates PASS (1099/523/574/327).
 
 - **W8 acquisition wave (2026-08-21, DONE — acquisition + evidence + fold-ins,
   controller-executed with 6 evidence dispatches [3 shape-(b) failures
