@@ -6,13 +6,13 @@
 | Topic   | all (cross-topic) |
 | Status  | validated (V-HN1 gate 1 — S-HN1/S-HN2/S-HN3/S-HN4 waves; W5 acquisition-reads refresh) |
 | Authors | script `hn/scripts/build_coverage.py` (regenerate after every wave) |
-| Updated | 2026-08-20 |
+| Updated | 2026-08-22 |
 
-Every row of [../sources/README.md](../sources/README.md) (159 registered files, gap 103 reserved-unused) mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1099 FRs, 532 LB rows, 574 ACs, 331 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 249, e-invoicing 157, fiscal-reporting 363, payroll 330).
+Every row of [../sources/README.md](../sources/README.md) (164 registered files, gap 103 reserved-unused) mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1099 FRs, 535 LB rows, 574 ACs, 332 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 249, e-invoicing 157, fiscal-reporting 363, payroll 330).
 
 Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row of a requirements file (citing file(s) + LB ids listed); **not-applicable-this-wave** — explicit annotation with reason (superseded/historical, in-corpus-unread pending evidence pass, or out of scope for the four topics).
 
-## Matrix (159 source files)
+## Matrix (164 source files)
 
 | Source | Status | Cited in / note |
 |--------|--------|-----------------|
@@ -175,14 +175,19 @@ Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row
 | 158_Tabla_Salario_Minimo_2024_DGS.pdf | cited-as-LB | `payroll/01_smm-chassis.md` (LB-023) |
 | 159_Gaceta_37077_Acuerdo_SAR-43-2026_descargo_cta_cte.pdf | cited-as-LB | `payroll/01_smm-chassis.md` (LB-023); `taxation/01_isr-framework.md` (LB-025) |
 | 160_Gaceta_36499_Acuerdo_SAR-125-2024_descargo_cta_cte.pdf | cited-as-LB | `payroll/01_smm-chassis.md` (LB-023); `taxation/01_isr-framework.md` (LB-025) |
+| 161_Reglamento_Especial_Amistia_IHSS_DL112-2016.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-021) |
+| 162_Gaceta_34170_Decreto_112-2016_Amistia_IHSS.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-021) |
+| 163_Gaceta_36861_Decreto_44-2025_Amnistias.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-022); `taxation/07_special-regimes-exonerations.md` (LB-013) |
+| 164_Gaceta_37166_Decreto_78-2026_Amnistia_ampliacion.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-022); `taxation/07_special-regimes-exonerations.md` (LB-013) |
+| 165_Gaceta_37189_SOJD-IHSS-016-2026_Regl_Amnistia_reforma.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-022) |
 
 ## Rollup
 
 | Status | Rows |
 |--------|------|
-| cited-as-LB | 157 |
+| cited-as-LB | 162 |
 | not-applicable-this-wave | 2 |
-| **Total** | **159** |
+| **Total** | **164** |
 
 ## V-HN1 gate-1 findings (2026-08-20, fixed in this wave)
 

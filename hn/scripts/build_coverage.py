@@ -167,7 +167,7 @@ def main():
     out.append("| Topic   | all (cross-topic) |")
     out.append("| Status  | validated (V-HN1 gate 1 — S-HN1/S-HN2/S-HN3/S-HN4 waves; W5 acquisition-reads refresh) |")
     out.append("| Authors | script `hn/scripts/build_coverage.py` (regenerate after every wave) |")
-    out.append("| Updated | 2026-08-20 |")
+    out.append("| Updated | 2026-08-22 |")
     out.append("")
     out.append(f"Every row of [../sources/README.md](../sources/README.md) ({len(registry)} registered files, gap 103 reserved-unused)"
                f" mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 /"

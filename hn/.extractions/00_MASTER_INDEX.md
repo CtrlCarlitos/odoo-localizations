@@ -29,7 +29,25 @@ gate; safe harbour NEGATIVE) + SAR-653-2023 (the CbCR regime) + D. 7-2017
 informativa) + SAR-283-2024 + Acuerdo 006-JD-2008 REAP domésticos + **the
 DGS promedio family 2022/2023/2024 + the SAR-125-2024/SAR-43-2026 descargo
 anchors (R-H90 — the promedio family 5-of-6 years, FY caps unblocked)**;
-next EVID = 644).
+next EVID = 644) and **W11 (2026-08-22: +EV161..EV165, EVID-644..664 — THE IHSS
+AMNISTÍA FAMILY BOTH GENERATIONS + the 2026-ceiling negative: `161_`/`162_`
+the HISTORICAL 2016 pair (D.L. 112-2016 G 34,170 + its Reglamento Especial,
+CI print 11-nov-2016 — closed window 25-oct-2017) + `163_`/`164_`/`165_` the
+LIVE chain located by the W11 ENAG full-text scan (D.L. 44-2025 G 36,861
+11-jun-2025 the seven-amnistía package; D.L. 78-2026 G 37,166 12-jun-2026 the
+AMPLIACIÓN — Art. 1 = the CURRENT SAR amnistía 12-jun→12-oct-2026 and D.
+7-2026-Art.-7 DEROGATED; Res. SOJD-IHSS-016-2026-XIII certified G 37,189
+9-jul-2026 = the REFORMED reglamento: L15,000 gate, 0%/12% interest tracks,
+prima 10-35%, 120/96-month exceptions, terminal 12-oct-2026 + 6-month tail);
+payroll/03 LB-021/022 + OQ-012, taxation/07 LB-013 + LB-010 annotation; W11
+negative findings: the CbCR TRANSITORIO restatement comunicado NOT published
+as of 2026-08-22 [SAR posts + Avisos page + catalog], **NO 2026 JD ceiling
+act through the ENAG scan dic-2025→ago-2026 [218 issues full-text; payroll/03
+AC-006 blocking state = live; IHSS JD acts publish as Sección-A
+certificaciones — the watch route]**, ihss.hn full-domain CDX negative for RP
+class cuadros/JD ceiling resoluciones/REAP rates, Oficio SETRASS-DGS-014-2025
++ DGS 2025 print not published [uploads/2025 swept], D. 96-2012 re-grep of
+all saved enums negative; next EVID = 665).
 Inputs: the 35 evidence files below
 (EVID-001..333, corpus-global), built by the four evidence waves
 W1 (2026-08-19/20, taxation core), W2a/W2b (fiscal reporting), W3 (facturación),
@@ -135,6 +153,11 @@ full text lives in the evidence files). EVID ranges 130-135, 159-162, 174,
 | EV155 | `155_006-JD-2008_domesticos_REAP.evidence.md` (612..621 — W10: **Acuerdo 006-JD-2008** G 31,681 9-ago-2008 — the REAP domésticos reglamento: health-only lane (hospital except maternity EXCLUDED; incapacidad subsidies EXCLUDED), annual prepaid cotización with JD-delegated rates (Art. 18), optional IVM bridge, substitute-inscription, 30-day grace/carencia — payroll/03 FR-126 segment gate + OQ-011) |
 | EV156 | `156-158_DGS_tablas_SMM_promedio.evidence.md` (622..633 — W10: **the DGS promedio prints** — 2022 L11,278.75 (156_; fixer unfootnoted = lead) / 2023 L12,377.73-412.59-51.57 (157_; jornada triple-pass; **two-print validation with SAR-125-2024's SETRASS-411-2023 recital**) / 2024 L13,156.53 (158_; native-layer corroborated) — **R-H90**: the promedio family 5-of-6 years printed/anchored; caps FY2022-FY2025 unblocked) |
 | EV159 | `159-160_SAR_descargos_promedio_anchors.evidence.md` (634..643 — W10: **SAR-43-2026** G 37,077 23-feb-2026 (credits ≤31-dic-2025, umbral L13,985.16 = the 2025 promedio's first official print) + **SAR-125-2024** G 36,499 3-abr-2024 (29-feb-2024, umbral L12,377.73 = the 2023 promedio) — the CT-131 February descargo executing pair; emission-time umbral semantics demonstrated twice; "CÁLCULO EN BASE AL SALARIO MÍNIMO 2025, SUJETO A CAMBIO" future-inception switch; Oficio SETRASS-DGS-014-2025 = the 2025 fixer lead) |
+| EV161 | `161-162_IHSS_amnistia_DL112-2016.evidence.md` (645..650 — W11: the Reglamento Especial rows — CI-IHSS print 11-nov-2016, window 26-oct-2016→25-oct-2017 PRINTED (Art. 3.a); beneficiary taxonomy; convenio economics: FIXED 12% (Art. 3.n) + prima/plazo table (Art. 20) + 3-month interest-free capital-contado (Art. 16); default claw-back 1 cuota+31d (Art. 19); FSA-01 + PN = Afiliación Progresiva (REAP cross-link); RTN-unification/número-único-patronal origin (Art. 6 ¶3); self-terminating vigencia (Art. 23) — payroll/03 LB-021 + OQ-012, HISTORICAL) |
+| EV162 | `161-162_IHSS_amnistia_DL112-2016.evidence.md` (644 + 650 — W11: **D.L. 112-2016** statute-original, G 34,170 miércoles 26-oct-2016 pp. A.5-A.6 (ENAG full issue `20161026-34170`; Dado 16-ago-2016, Ejecútese 12-sep-2016, vigencia = publication day): amnistía on recargos/multas/intereses of un-entered aportes patronales y de trabajadores (public+private; capital always payable); 12-month window (Art. 2); health-access restoration duty (Art. 3 — the LB-012 mora-sensitive coverage lever); Junta-Interventora depuración (Art. 4); edition inventory SAG 972-16 + BCH 03/2016 + PCM-071-2016) |
+| EV163 | `163-165_Amnistia_IHSS_2025-2026.evidence.md` (651..653 — W11: **D.L. 44-2025** G 36,861 mié 11-jun-2025 (Dado 3-jun, Ejecútese 10-jun, vigencia = publication day) — the seven-amnistía package: EVID-651 identity + architecture + the CT-Art.-2.4 definition considerando (with the "70-2016" digit-slip); EVID-652 the IHSS Art. 2 grant (scope "recargos y multas" as printed, 10-month window, health-restoration, widened depuración); EVID-653 the non-IHSS amnesties (municipal →30-sep-2025 mora ≤31-dic-2024 ≤1y plans; ENEE; vehicular; HONDUTEL; SANAA) + the co-published D. 150-2022 individual ENEE condonation (2.5-year publication lag, the corpus extreme) |
+| EV164 | `163-165_Amnistia_IHSS_2025-2026.evidence.md` (654..657 — W11: **D.L. 78-2026** G 37,166 vie 12-jun-2026 (Dado 13-may, Ejecútese 15-may, vigencia 12-jun-2026) the AMPLIACIÓN: EVID-654 identity + **the D. 7-2026-Art.-7 DEROGATION** (same-day successor, no gap; the considerando's IHSS-omission = drafting slip); EVID-655 Art. 1 = the CURRENT SAR general amnistía (4-month window 12-jun→12-oct-2026, obligations ≤31-dic-2025, principal survives — taxation/07 LB-013); EVID-656 Art. 2 = the IHSS re-grant (scope restored to recargos/multas/intereses; window 4 months →12-oct-2026); EVID-657 the municipal/servicios re-grants + edition inventory (D. 91-2026 = Código de FAMILIA Art. 225 — numeric-collision guard applied) |
+| EV165 | `163-165_Amnistia_IHSS_2025-2026.evidence.md` (658..664 — W11: **Res. SOJD-IHSS-016-2026-XIII** (JD 25-jun-2026; Comité Acta CR-02-2026 [6-vs-16-jun print variance OQ-1]; certified G 37,189 jue 9-jul-2026 pp. A.31-64) = the REFORMED REGLAMENTO, the operative 2026 procedure: the definitions (dispensación-for-principal exchange; actualización-de-mora ledger context); **the convenio economics TABLE (L15,000 gate; 0% ≤12m / 12% longer; prima mínima 10/15/25% sin- and 20/30/35% con-refinanciamiento; Art. 10 exceptions 120/96 months ≥5%/≥10%)**; the terminal 12-oct-2026 + 6-month processing tail (~12-abr-2027); Art. 24 continuity + judicial/MP enforcement; the depuración lanes; the live 2026 JD roster; **publication-route datum: IHSS JD acts = Sección-A certificaciones (the future techo/rate-act watch route)** |
 
 Citations in requirements files use `EVxx:EVID-nnn` (and `EVxx:file OQ-n` for
 register origins). D-H1/D-H2/D-H3 (EXTRACTION_PLAN Decisions) bind all clusters.
@@ -917,6 +940,46 @@ correction (273→278) + regime-0 FY2014-16 extension, taxation/07 OQ-003
 instrument) · Código de Comercio · SEE docs (lead 1) · riesgos-profesionales
 class cuadros · JD ceiling resoluciones 2003-2024 · DGS SMM 2025/2027
 promedio prints · Código de Comercio Art. 143 (541 kin).
+
+**W11 ACQUISITION-QUEUE DELTAS (2026-08-22, applies register-wide):**
+ACQUIRED this wave (FIVE files, EV161..EV165, EVID-644..664) — **THE IHSS
+AMNISTÍA FAMILY BOTH GENERATIONS**: the HISTORICAL 2016 pair (D.L. 112-2016
+statute-original G 34,170 + its Reglamento Especial CI print — closed window
+25-oct-2017) + **the LIVE 2025-2026 chain located by the W11 ENAG full-text
+scan**: D.L. 44-2025 (G 36,861 11-jun-2025, the seven-amnistía package) +
+D.L. 78-2026 (G 37,166 12-jun-2026, the AMPLIACIÓN — **Art. 1 = the CURRENT
+SAR general amnistía window 12-jun→12-oct-2026 on obligations ≤31-dic-2025;
+D. 7-2026 Art. 7 DEROGATED same-day** → taxation/07 LB-013 + LB-010
+annotation) + Res. SOJD-IHSS-016-2026-XIII (certified G 37,189 9-jul-2026 =
+the REFORMED REGLAMENTO: L15,000 convenio gate, 0%/12% interest tracks, prima
+10-35%, 120/96-month exceptions, terminal **12-oct-2026** + 6-month
+processing tail → payroll/03 LB-021/022 + OQ-012). OBSERVED-NOT-ACQUIRED: G
+37,130 (30-abr-2026) carries Res. SOJD-IHSS-008-2026-VII = the JD's
+Reglamento Interno (governance only — but PROVES the IHSS JD-act publication
+route: certificación + STSS CÚMPLASE, Sección A; **future techo/rate acts
+will ride this route** — the W11 watch lesson). NEGATIVE FINDINGS (dated
+2026-08-22): the CbCR TRANSITORIO restatement comunicado NOT published (SAR
+wp-json posts + the official Avisos y Comunicados page + the 506-slug
+downloads catalog all checked — FREP/10 OQ-024's suspended row remains the
+live state) · **NO 2026 JD ceiling act through the ENAG full-text scan
+dic-2025→ago-2026 (218 issues; payroll/03 AC-006's blocking config gap = the
+live state, scan-verified — and 2026 payroll periods run on it)** · ihss.hn
+full-domain CDX (8,000 URLs incl. 246 PDFs) NEGATIVE for RP class cuadros, JD
+ceiling resoluciones, REAP JD-rates (all routes exhausted; gazette/
+institutional-archive watch only) · Oficio SETRASS-DGS-014-2025 + DGS 2025
+tabla print not published (uploads/2025 re-swept: 8 files, no tabla; the
+159_ anchor remains the sole 2025 print) · D. 96-2012 re-grep of every saved
+CDX/catalog enumeration NEGATIVE (watch stands, gazetted 20-jul-2012) · the
+"Reglamento-Incapacidad-para-reformas" upload = content-identical re-render
+of 88_ (discarded unregistered; ledger unchanged at 11). STILL OPEN (top):
+D. 96-2012 watch · CbCR restatement comunicado watch · **the 2026 JD ceiling
+act watch (Sección-A certificaciones route — Jun/Jul-2026 carried only
+governance resolutions; an actuarial techo act may land any month)** · RP
+class cuadros + JD ceiling resoluciones 2003-2024 + REAP JD-rates (routes
+exhausted — watch class) · "Acuerdo 799" TEXT (1970) · D. 247-89 text ·
+Código de Comercio · SEE docs (lead 1) · Oficio SETRASS-DGS-014-2025 + DGS
+2027 promedio print (early 2027) · the 506-vs-509 legal reading = OWNER
+DECISION · S-HN5 DEFERRED.
 
 **W10 ACQUISITION-QUEUE DELTAS (2026-08-21, applies register-wide):**
 ACQUIRED this wave (TWELVE files, EV149..EV160) — D. 92-2015 (`149_`:
