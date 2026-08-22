@@ -565,3 +565,25 @@ commit. Never leave a session with evidence unmerged. Update
   maquila 12 bis closing-¶ vs 8 bis service-universe asymmetry (folds
   into GOQ-08 on acquisition). **Next: S-GT6/S-GT7 final whole-branch
   review (first action of next session) → §4.6 milestone merge.**
+- 2026-08-22 — **ACQUISITION BATCH 2 DELIVERED (owner browser; 12
+  instruments registered 84_–95_; queue rev 8 struck; GOQ acquisitions
+  annotated in the master index)**: 84_ D-19-2016 (**GOQ-08 blocker IN
+  HAND** — art. 7 adds 12 bis verified against primary, R81 confirmed;
+  transitorios present; gazette also carries D-20-2016 first page) ·
+  85_ D-31-2024 (GOQ-13; image-heavy scan — deeper OCR pass needed) ·
+  86_ AG 125-2022 (GOQ-68, reglamento D-7-2019) · 87_ IGSS Acuerdo
+  1421-2018 (GOQ-10 mora half) · 88_ D-62-2001 (GOQ-132 instrument —
+  pure IVA art.-4-num.-1 reform, NOT AML content) · 89_ D-58-2005 +
+  90_ AG 86-2006 (FT law + reglamento, GOQ-134 + bonus) · 91_ AG 4-2005 ·
+  92_ Código Civil Dto-Ley 106 (GOQ-147) · 93_ D-76-78 aguinaldo (GOQ-09
+  December half — 100%/half-Dec-half-Jan) · 94_ D-38-2004 · 95_ AG 3-2017.
+  Duplicates rejected md5-identical: LET IVA-General manual (= 58_),
+  certificador procedure (= 22_, v2.1 confirmed current). Registry 94
+  entries; COVERAGE 82 cited + 12 pending (evidence passes reopen the
+  corpus). Still missing: AG 52-2017 (GOQ-149), consolidated IVA ≥2018
+  (GOQ-01/146), D-37-2001 (GOQ-09 half), IGSS Reglamento de Recaudación
+  (GOQ-04 cuota rates), AG 75-2006. **NEXT: W-GT7 evidence pass (EVID-746+)
+  over 84_–95_ + targeted synthesis backfills (special-regimes GOQ-08
+  fences; payroll/04 aguinaldo ABSENCE-FR replacement; payroll/07 mora;
+  AML FT-lineage; cml03 fallback clocks; maquila reglamento
+  supersession); then §4.6 merge.**

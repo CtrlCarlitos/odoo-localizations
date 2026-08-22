@@ -106,9 +106,10 @@ Takumi consumes requirements).
 - Python: `~/.venvs/localizations/bin/python` (shared, absolute path — works
   from the worktree). Scripts in `shared/scripts/` (extract_text.py etc.).
 
-## 4. Corpus state (2026-08-19)
+## 4. Corpus state (2026-08-22 — batch 2 delivered, evidence passes pending)
 
-**82 registered entries** (`gt/sources/`, numbering 01–83; gap 27 unused):
+**94 registered entries** (`gt/sources/`, numbering 01–95; gap 27 unused;
+84–95 = 2026-08-22 owner batch 2, PENDING evidence passes):
 FEL e-invoicing stack (acuerdos 13-2018/26-2019/15-2020, incorporation
 resolutions SAT-DSI 04_–14_, Reglas y validaciones **v1.7.10 Feb-2025**, Doc.
 Técnico Servicios, 26 XSDs + 3 JSON catalogs × 2 channels (29_ GitHub pinned
@@ -1259,3 +1260,4 @@ convergence session; updated again at W-GT1 close)
   (3) DOWNLOAD_QUEUE → rev 8 (3 new rows; hunt-failure banner). TotalDoc
   roster re-check (OQ7; renewal 02/12/2026) + AML reglamento watch
   (≈17-mar-2027) = NOT actionable this session — next owner touchpoint.
+- **Acquisition batch 2 addenda (2026-08-22, same session — 12 instruments registered 84_–95_, queue rev 8 struck, GOQ acquisitions annotated)**: owner delivered via legal.dca.gob.gt/igssgt.org browser: **84_ D-19-2016** (THE GOQ-08 blocker — art. 7 adds maquila 12 bis VERIFIED against primary, R81 confirmed; transitorios present; also carries D-20-2016 first page), 85_ D-31-2024 (GOQ-13; 22MB image scan — thin text layer, OCR before evidence), 86_ AG 125-2022 (GOQ-68; reglamento D-7-2019), 87_ IGSS Acuerdo 1421-2018 (GOQ-10 mora half), 88_ D-62-2001 (GOQ-132 instrument — identity = PURE IVA art.-4-num.-1 reform; the AML-gazette sanction-block adjacency is NOT this decree), 89_ D-58-2005 + 90_ AG 86-2006 (FT law + its reglamento — GOQ-134 + bonus), 91_ AG 4-2005, 92_ Código Civil Dto-Ley 106 (275pp; GOQ-147), 93_ D-76-78 aguinaldo (GOQ-09 December half — 100% ordinary month, half Dec + half Jan), 94_ D-38-2004, 95_ AG 3-2017. Duplicates rejected md5-identical: LET IVA-General manual (= 58_), certificador procedure (= 22_ — v2.1 confirmed current, GOQ-40 v2.2+ watch stays). **Still missing (queue rev 8): AG 52-2017 (GOQ-149 — the one GOQ-08-family lead not delivered), consolidated IVA print ≥2018 (GOQ-01/146), D-37-2001 incentivo (GOQ-09 other half), IGSS Reglamento de Recaudación (GOQ-04 cuota rates — the 1421 mora half arrived, the cuota half did NOT), AG 75-2006 AML reglamento.** Txt layers extracted (6 via OCR: 86_/87_/88_/91_/93_/94_; 85_ needs a deeper OCR pass — 434 chars/pp). NEXT SESSION: W-GT7 evidence pass over 84_–95_ (EVID-746+) + targeted backfills; then §4.6 merge.
