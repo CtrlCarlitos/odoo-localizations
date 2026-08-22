@@ -57,8 +57,11 @@ boundary.**
   **W18 acquisition wave (2026-08-21/22): COMPLETE — 30 acquisitions
   76_-105_ (registry 103 files, next 106); SOQ-32/34/39/41/54-Rgto/56
   resolved, 36/46 partial, 48/58 negative-refreshed, SOQ-31 negative;
-  sources only, no FR changes — MERGE-PENDING, no merge decision yet;
-  see §5 wave log.**
+  sources only, no FR changes (1,662 FRs unchanged) — MERGED to main
+  at f7fb42a via rebase-then-merge (thirtieth §4.6 run in root
+  HANDOVER; one textual conflict on the T8 bookkeeping commit vs the
+  main-side C1 merge record, resolved keep-both; pre-rebase SHAs
+  6d0875c..dbf0cc5 superseded by 87b4b4e..f7fb42a); see §5 wave log.**
   Remaining program: acquisition follow-ups (§8.2), SOQ/external watches,
   owner merge decisions.**
 
@@ -208,7 +211,8 @@ must grep ALL LB source columns of the new files.
    minors all triaged ride/ignore: SOQ-30:705 + SOQ-39:714 nested-bold
    rendering nits ride to W19 which re-edits both rows; 95_ junk-prefix
    trim + vigencia/horizon read ride with its evidence pass).**
-   **MERGE-PENDING, no merge decision yet.**
+   **MERGED to main at f7fb42a (thirtieth §4.6 run in root HANDOVER;
+   pre-rebase SHAs 6d0875c..dbf0cc5 superseded by 87b4b4e..f7fb42a).**
 
 ### W18-process rulings (2026-08-22, preserved from the SDD ledger before workspace deletion)
 
@@ -640,8 +644,8 @@ must grep ALL LB source columns of the new files.
  1. **No next synthesis wave is queued — the 8-topic program + the W17
      75_ fold-in are COMPLETE and MERGED (S9 → main at 09847d0; root
      HANDOVER carries the fourteenth §4.6 run record); C1 cleanup +
-     W18 acquisitions COMPLETE (1,662 FRs; W18 = sources only,
-     MERGE-PENDING).** Candidate follow-on work, owner's call:
+     W18 acquisitions COMPLETE and MERGED (W18 → main at f7fb42a,
+     thirtieth run; 1,662 FRs; W18 = sources only).** Candidate follow-on work, owner's call:
      (a) **W18 fold-in/evidence wave** — 82_+80_+79_+89_/86_
      special-regimes/taxation edits (LSI Arts. 5/6/8/23/24 changed; ZF
      reformed; COTRANS identity correction touches S7/08 + CAT-015

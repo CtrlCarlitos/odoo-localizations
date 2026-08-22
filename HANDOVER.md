@@ -487,6 +487,56 @@ expected and absorbed by instantiating the canon, never by forking it.
       (C1-C6 + GOQ-122..134; GOQ-124 retention/destruction matrix = an
       S-GT5 deliverable; D-19-2016 still blocks S-GT6/S-GT7).
 
+      **SV W18 merge 2026-08-22 (§4.6 protocol, thirtieth run):**
+      `sv-research` rebased onto `adcd528` (13 commits rewritten
+      `6d0875c..dbf0cc5`→`87b4b4e..f7fb42a`: W18 plan + T1..T8 +
+      T4/T6 fix rounds + close/COVERAGE commits; ONE textual conflict
+      on T8's sv/HANDOVER §1 edit vs the main-side-only `27b5d0a`
+      (C1 merge parenthetical), resolved keep-both) then
+      fast-forward-merged; remote branch ref fixed via delete +
+      re-push. **SV = W18 ACQUISITION FOLLOW-UPS WAVE COMPLETE
+      (sources only — 1,662 FRs unchanged; registry 73→103 files,
+      30 acquisitions `76_`..`105_`, next numbering 106):** CVPCPA
+      NIIF authority chain `76_`-`78_` (Res. 154-2024 + Res. 462-2021
+      + Ley Reguladora D.L. 828/646 — **SOQ-46 PARTIAL**: chain owned,
+      PYMES-vs-full criteria instrument still hunted); customs/regime
+      set `79_`-`85_`: **LESIA D.L. 551-2001 (SOQ-32 CLOSED)**, LSI
+      consolidation thru D.L. 277-2013 `80_` (**supersedes `14_`**,
+      Arts. 5/6/8/23/24 changed), MH Recopilación `81_`, **ZF reform
+      D.L. 493-2025 `82_`** (post-`12_`-consolidation), FYDUCA
+      res/format/glossary `83_`-`85_` (SOQ-36 partial: manual
+      Portal-internal; Res. 409-2018 NOT superseded); fuel set
+      `86_`-`89_`: FOVIAL law consolidation + D.O. prints ($0.20/gal
+      = the D.L. 597-2001 Art. 26 REFORM, not the 2000 original) +
+      **COTRANS = D.L. 257-2021 passenger-tariff contribution
+      $0.10/gal thru 31-dic-2026 (IDENTITY CORRECTION vs the
+      transportistas-de-carga gloss — SOQ-39 RESOLVED, MOQ-04
+      instruments half closed)**; ISR-tail set `90_`-`100_`: D.L.
+      598-2020 (**SOQ-41 CLOSED**), aguinaldo-cap chain D.L.
+      229-2021→159-2024 ($1,100→$1,500), D.L. 95-2024/308-2025/386-
+      2025, **DACG tasa prints 2015+2025 both $18.00 (SOQ-34 RESOLVED
+      — never adjusted, documentary supersession)**, D.L. 124-2015
+      (**74_ Art. 12-B parity break — SOQ-30 annotated W18**); Art.
+      46-f BCR set `101_`-`105_` (DGII+BCR joint Instructivo
+      CD-39/2021→CD-24/2023 + live qualification lists — **SOQ-56
+      RESOLVED**: exemption flag = BCR-list membership). **SOQ-54
+      Rgto RESOLVED-AS-PARITY** (TF DC5855 ≡ `02_`, two-official-copy
+      pattern); SOQ-31 Rgto-ZF NEGATIVE (never-issued hypothesis);
+      48/58 negative-refreshed. T1 external checks: no factura/MH
+      drift; **uif.gob.sv WAF-blocked from 2026-08-21** (AML watch
+      interrupted, 2026-10-17 deadline); **D.O. API recipe PINNED**
+      (form-encoded year/month). Route recipes proven in-wave: TF DC
+      catalog via Wayback CDX; SIECA S3 presigned URLs. COVERAGE
+      regen: 64/30/9/1 of 104 rows (30 pending-S2+ until their
+      evidence/fold-in waves cite them — W16 `75_` precedent); gates
+      PASS. Final whole-wave review MERGE-READY (zero C/I; deferred
+      minors triaged ride/ignore — SOQ-30:705/SOQ-39:714 rendering
+      nits + 95_ reads ride to W19). Next per `sv/HANDOVER.md` §8:
+      W19 fold-in/evidence wave (`82_`+`80_`+`79_`+`89_`/`86_`
+      special-regimes/taxation edits + 16-file evidence backlog),
+      residual acquisitions (SOQ-46 criteria instrument), external
+      watches.
+
       **SV C1 merge 2026-08-21 (§4.6 protocol, twenty-seventh run):**
       `sv-research` rebased onto `d29c226` (15 commits rewritten
       `70f86f9..71d2f6d`→`89879bd..289017e`: C1 plan + T1..T11 + fix
