@@ -54,6 +54,11 @@ boundary.**
   (MERGED to main at 289017e via rebase-then-merge, twenty-seventh §4.6
   run in root HANDOVER, zero conflicts; pre-rebase SHAs
   70f86f9..71d2f6d superseded by 89879bd..289017e.)**
+  **W18 acquisition wave (2026-08-21/22): COMPLETE — 30 acquisitions
+  76_-105_ (registry 103 files, next 106); SOQ-32/34/39/41/54-Rgto/56
+  resolved, 36/46 partial, 48/58 negative-refreshed, SOQ-31 negative;
+  sources only, no FR changes — MERGE-PENDING, no merge decision yet;
+  see §5 wave log.**
   Remaining program: acquisition follow-ups (§8.2), SOQ/external watches,
   owner merge decisions.**
 
@@ -88,9 +93,15 @@ boundary.**
   `17_Reglamento_Lavado_Activos` (EVID-232..235, kept-mechanics citable).
   W9 payroll: EVID-191..210. W8 fiscal reporting: EVID-171..190. W7/W6.5/
   W6 ISR: EVID-088..108, 128..170. S1 foundations: EVID-001..087.
-- **73 registered source files** (numbering 01–75, gaps 21/23/24/28; W16
+- **103 registered source files** (numbering 01–105, gaps 21/23/24/28; W16
   added 75_ = Reglamento de Aplicación del CT, D.E. 117-2001 — the R17/
-  R30(a) mass-repeal authority instrument, EVID-339..358).
+  R30(a) mass-repeal authority instrument, EVID-339..358; W18 added
+  76_-105_ = new authority instruments: CVPCPA NIIF chain 76_-78_,
+  LESIA 79_, LSI consolidation 80_ (supersedes 14_), MH Recopilación
+  81_, ZF reform 82_, FYDUCA 83_-85_, FOVIAL/COTRANS 86_-89_, ISR/
+  customs transitories + tasas 90_-100_, Art. 46-f qualification set
+  101_-105_ — full-reading evidence passes deferred to a follow-up wave
+  per plan; T7 disposition list: 16 evidence-pass / 14 identity-only).
   Registry carries title-vs-content amendments (29_ = F985 CNR mislabel;
   09_ = D.L. 614 misnomer; 15_ = D. 498 mislabel; 12_ = "Industriales y de
   Comercialización" content title fixed W13), supersession notes
@@ -167,6 +178,33 @@ must grep ALL LB source columns of the new files.
 
 ### Wave log summary (full detail in `sv/EXTRACTION_PLAN.md` §Extraction log)
 
+- **W18 (2026-08-21/22):** acquisition follow-ups wave COMPLETE per plan
+  `docs/superpowers/plans/2026-08-21-w18-acquisition-followups.md` —
+  subagent-driven, 8 tasks (per-task reviews Approved; T4 + T6 one fix
+  round each; T2 + T6 first dispatches died silently — T2 left state,
+  re-dispatched to finish; T6 zero-state, re-dispatched clean; commits
+  6d0875c + 9c98e5c..4cccb24). **30 acquisitions 76_-105_** (registry
+  103 files, next 106): CVPCPA NIIF chain 76_-78_ (**SOQ-46 PARTIAL** —
+  authority owned, PYMES-vs-full criteria unfound; candidates Res.
+  175-2023 / 82-2024); LESIA 79_ (**SOQ-32 closed**); LSI consolidation
+  80_ thru D.L. 277-2013 (**SUPERSEDES 14_**); MH Recopilación 81_; ZF
+  reform D.L. 493-2025 = 82_; FYDUCA 83_-85_ (**SOQ-36 partial** —
+  manual Portal-internal, Res. 409-2018 current); FOVIAL/COTRANS 86_-89_
+  (**SOQ-39 RESOLVED** — $0.20/gal = the D.L. 597-2001 Art. 26 REFORM;
+  COTRANS = D.L. 257-2021 PASSENGER-tariff $0.10/gal Art. 3 to
+  31-dic-2026, IDENTITY CORRECTION vs "transportistas de carga");
+  90_-100_ ISR/customs set (**SOQ-41 closed** — D.L. 598-2020 spent,
+  aguinaldo caps $1,100→$1,500, **SOQ-34 RESOLVED** $18.00 never
+  adjusted; 100_ = D.L. 124-2015 → **74_ Art. 12-B parity break**,
+  SOQ-30 annotated); 101_-105_ Art. 46-f set (**SOQ-56 RESOLVED** —
+  flag = BCR-list membership; **SOQ-54 Rgto RESOLVED-AS-PARITY** DC5855
+  ≡ 02_; **SOQ-58** negative refreshed; **SOQ-48** optional-negative).
+  **SOQ-31 Rgto-ZF NEGATIVE** (never-issued hypothesis; D.O. Oct-Dic
+  1998 micro-scan optional). T1 external checks: no factura/MH drift;
+  uif WAF-blocked (403 all routes); D.O. API recipe PINNED (§6). Route
+  intel in §6; per-task detail in the SDD ledger + EXTRACTION_PLAN W18
+  entry (incl. next-wave fold-in debt). **Sources only, no FR changes —
+  MERGE-PENDING, no merge decision yet.**
 - **C1 (2026-08-21):** consolidation/cleanup wave COMPLETE per plan
   `docs/superpowers/plans/2026-08-21-c1-sv-cleanup-wave.md` — subagent-driven,
   10 content tasks + controller bookkeeping (T3 dispatch died silently once,
@@ -500,8 +538,20 @@ must grep ALL LB source columns of the new files.
   `/seleccion/{Id}` (serves `application/pdf`). asamblea.gob.sv
   unreachable (000).
   Live official mirror: **uif.gob.sv Marco Legal** (plain GET + browser
-  UA; Incapsula blocks HEAD). MH formularios page: direct wp-content
-  URLs (verified 2026-08-18: no F-11 v19/v20, no F14 v17 manual).
+  UA; Incapsula blocks HEAD) — **WAF-BLOCKED since 2026-08-21** (403 all
+  routes, all UAs; AML reglamento watch interrupted, 2026-10-17
+  adaptation deadline stands; re-probe at wave cadence). MH formularios
+  page: direct wp-content URLs (re-verified 2026-08-21: no F-11 v19/v20,
+  no F14 v17 manual).
+- W18 route intel (2026-08-21/22): **TF DC catalog enumerable via
+  Wayback CDX** (`web.archive.org/cdx/search/cdx?url=transparenciafiscal.
+  gob.sv*`) → live `downloads/pdf/DC<id>_<ExactCase_Slug>.pdf` URLs
+  (UPPERCASE DC serves the PDF; lowercase dc slugs 302 — recipe +
+  precedent rows in sv/sources/README). **SIECA downloads gated but S3
+  presigned URLs work** (POST the product page → presigned S3 link; used
+  for 83_-85_). cvpcpa.gob.sv wpdm table incomplete — WP media REST API
+  surfaces the unlisted PDFs (76_). jurisprudencia.gob.sv bóveda D.O.
+  archive = the ZF-family negative-check route (SOQ-31).
 - Title-vs-content incidents ×5 (29_, 09_, 15_, 12_, 31_-COTRANS) —
   trust content, amend registry, never trust catalog titles.
 - Damaged-PDF recipes: qpdf auto-repair (17_, 74_); ghostscript pdfwrite
@@ -512,12 +562,18 @@ must grep ALL LB source columns of the new files.
 ## 7. Open-question highlights (full registers in master index + topic indexes)
 
 - **MOQ-05** Retorno/OpEsp endpoints (externally blocked, schema-verified
-  absent); **MOQ-04** FOVIAL/COTRANS instruments (FOVIAL half now anchored
-  by 31_/D.L. 208 Art. 26; COTRANS + law texts still absent — SOQ-39).
+  absent); **MOQ-04** FOVIAL/COTRANS instruments — **instruments half
+  CLOSED W18 (SOQ-39 RESOLVED)**: law texts now owned 86_-89_ ($0.20 =
+  D.L. 597-2001 Art. 26 reform; COTRANS = D.L. 257-2021 passenger-tariff
+  $0.10/gal, identity corrected); evidence-pass fold-in pending.
 - Taxation: SOQ-02 ($1,600 proration), 03-OQ-009 straddle, Quincena-25
   double-benefit 2026 (tercerización pointer RESOLVED S9 → 11 §3.3);
-  IVA-side: SOQ-54 (01_/02_ consolidation vintage watch), SOQ-55/56/57/
-  58 carried in 07/08.
+  IVA-side: SOQ-54 **FULLY RESOLVED** (Ley W16 DC9226; **Rgto W18
+  RESOLVED-AS-PARITY** — DC5855 text-identical to 02_; 01_/02_ both
+  current consolidations; cadence watch only), SOQ-55/57 carried in
+  07/08, **SOQ-56 RESOLVED W18** (Art. 46-f = 101_-105_; exemption flag
+  = BCR-list membership), SOQ-58 negative-refreshed W18 (167-A
+  kill-switch instrument not yet issued — watch).
 - Fiscal-reporting: SOQ-08 (due-day windows — **anchor consumed W17**:
   the statutory 10-hábiles layer is anchored by 75_ Art. 100 (frep/08
   LB-006, EVID-351); the by-NIT-digit window assignment remains dated
@@ -527,38 +583,52 @@ must grep ALL LB source columns of the new files.
   anchor ANSWERED S9 (SV-TAX-FR-240/241), 03 OQ-004 ANSWERED S9
   (SV-TAX-FR-313 zone).
 - Commercial-legal: SOQ-23 SAS law, SOQ-24 quiebra vintage, SOQ-25 Ley
-  Registro de Comercio, SOQ-26 Economía rate; AML new-reglamento watch
-  (uif.gob.sv).
-- F-11 v19/v20 + F14 v17 manual acquisitions (≥76 numbering; MH page
-  watch). D.L. 598-2020 + EVID-167 tail laws (S7 SOQ-41).
+  Registro de Comercio, SOQ-26 Economía rate; **SOQ-46 PARTIAL W18** —
+  NIIF authority chain acquired 76_-78_ (CVPCPA Res. 154-2024 current +
+  Res. 462-2021 adoption + Ley Reguladora D.L. 828/646), both frameworks
+  SV-ratified, but the PYMES-vs-full criteria instrument is still
+  unfound (hunt open; candidates Res. 175-2023 [derogated intermediate] /
+  Res. 82-2024, low value per SOQ-52 boundary); AML new-reglamento watch
+  (uif.gob.sv — WAF-blocked since 2026-08-21, re-probe pending;
+  2026-10-17 deadline).
+- F-11 v19/v20 + F14 v17 manual acquisitions (MH page watch; numbering
+  now ≥106). **SOQ-41 CLOSED W18** (90_-97_ acquired; D.L. 201-2025 +
+  411-2025 dated negatives) · **SOQ-34 RESOLVED W18** ($18.00 never
+  adjusted — 98_/99_ DACG prints; 74_ Art. 12-B tail owned as 100_).
 - Ley IVA consolidation: **RESOLVED W16** (TF DC9226 second official
   print, reform list identical through (14) D.L. 71-2015 → 01_ current;
-  registry §75-section note). Reglamento IVA: repeal instrument owned
-  (75_); post-117-2001 consolidation watch continues, negative signals
-  (SOQ-54 Rgto side).
+  registry §75-section note). Reglamento IVA: **RESOLVED-AS-PARITY W18**
+  (TF DC5855 text-identical to 02_, ratio 1.0; transparencia.mh.gob.sv
+  links the same DC5855 → two-institution parity; no post-117-2001
+  consolidated print exists — SOQ-54 Rgto side closed).
 
 ## 8. Next actions (ordered)
 
  1. **No next synthesis wave is queued — the 8-topic program + the W17
-     75_ fold-in are COMPLETE and the program MERGED (S9 → main at
-     09847d0; root HANDOVER carries
-     the fourteenth §4.6 run record).** Candidate follow-on work, owner's
-     call: (a) consolidation/cleanup wave (CAN-STAND + S7/S8/S9 RIDE
-     lists); (b) acquisitions below unlock small fold-in waves; (c)
-     go-live/implementation prep per `shared/docs/go-live-readiness.md`.
- 2. **Acquisition follow-ups (SOQ rides):** S8 — **SV NIIF-adopting
-    instrument (Consejo de Vigilancia criteria per CC Arts. 443-444 or
-    successor; SOQ-46 — the gating gap) + optional 2nd-edition NIIF
-    PYMES text (SOQ-48)**; S7 — Reglamento General ZF (SOQ-31), LESIA
-    (SOQ-32), DUCA user manual (SOQ-36), FOVIAL law D.L. 208-2000 +
-    COTRANS instrument (SOQ-39 — also closes the 09 design rows'
-    provenance), D.L. 598-2020 + EVID-167 tail laws (SOQ-41), current
-    consolidations for 12_/13_/14_/17b_/74_ (SOQ-30), $18-tasa
-    adjusting acuerdos (SOQ-34); S9 — current Ley IVA + Reglamento IVA
-    consolidations (SOQ-54), Art. 46-f BCR instrument (SOQ-56), 167-A
-    sectorial-politics instrument (SOQ-58).
-  3. Registry note: numbering continues from **76** (32_/33_/75_ were already
-     registered; the W16+ acquisition candidates above are the NEW numbering).
+     75_ fold-in are COMPLETE and MERGED (S9 → main at 09847d0; root
+     HANDOVER carries the fourteenth §4.6 run record); C1 cleanup +
+     W18 acquisitions COMPLETE (1,662 FRs; W18 = sources only,
+     MERGE-PENDING).** Candidate follow-on work, owner's call:
+     (a) **W18 fold-in/evidence wave** — 82_+80_+79_+89_/86_
+     special-regimes/taxation edits (LSI Arts. 5/6/8/23/24 changed; ZF
+     reformed; COTRANS identity correction touches S7/08 + CAT-015
+     glosses; $0.20 provenance = D.L. 597-2001), evidence passes for
+     the 16-file backlog (T7 disposition list), 100_/D.L. 124-2015 +
+     74_ Art. 12-B tail, 95_ 15-yr horizon read; (b) residual
+     acquisitions below; (c) go-live/implementation prep per
+     `shared/docs/go-live-readiness.md`.
+ 2. **Acquisition follow-ups (residual after W18):** SOQ-46 criteria
+     instrument (candidates Res. 175-2023 [derogated intermediate] /
+     Res. 82-2024 — low value per SOQ-52 boundary); SOQ-31 D.O.
+     Oct-Dic-1998 micro-scan (optional — never-issued negative
+     hypothesis stands); F-11 v19/v20 + F14 v17 manual MH-page watches;
+     COTRANS Aug-2025 prorroga decree number (asamblea down);
+     uif.gob.sv WAF re-probe (AML reglamento watch, 2026-10-17
+     deadline); D.L. 201-2025 + 411-2025 anchors (dated negatives; D.O.
+     scan routes recorded in the SOQ-41 row).
+ 3. Registry note: numbering continues from **106** (W18 registered
+     76_-105_; sv/sources/README is the count of record — 103 files,
+     gaps 21/23/24/28).
  4. SOQ follow-ups per §7; periodic external checks (factura.gob.sv,
     uif.gob.sv/marco-legal, MH formularios, D.O. recovery).
   5. Deferred cleanups (CAN-STAND): **RESOLVED by C1 (2026-08-21)** — root
@@ -586,8 +656,9 @@ must grep ALL LB source columns of the new files.
   byte-fidelity gitattributes rule (predates it; would need a migration
   pass — never "fix" casually).
 - Commits: short imperative, no emojis; push after each wave.
-- Registry additions continue numbering from 75; page-1 verify
-  everything; record provenance + supersession.
+- Registry additions continue numbering from the current tail (106
+  after W18); page-1 verify everything; record provenance +
+  supersession.
 - Synthesis waves: prep (master-index clusters + SOQs) → plan doc in
   `docs/superpowers/plans/` → subagent loop (fresh implementer per task;
   every FR cites LB; reviewer verifies vs master index; fix rounds;
