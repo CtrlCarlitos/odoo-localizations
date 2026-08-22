@@ -56,7 +56,10 @@ expected and absorbed by instantiating the canon, never by forking it.
 - Branch `main` only; remote `origin` = `git@github-CtrlCarlitos:CtrlCarlitos/odoo-localizations.git` (SSH alias `github-CtrlCarlitos` from `~/.ssh/config`); push after each wave; never force-push. `gh` CLI at `~/.local/bin/gh`, authenticated as CtrlCarlitos.
 - Commits are SSH-signed; local `%G?=N` is a verification-only artifact (`gpg.ssh.allowedSignersFile` unset) — signatures ARE present; don't chase it.
 - `.gitattributes`: `*.csv text eol=lf`.
-- Commits through `23ad21e` (2026-08-21: GT S-GT5 merge — see §3
+- Commits through `3250ffa` (2026-08-22: GT S-GT6/S-GT7 merge — see §3
+  thirty-second run; earlier `d37f89f` 2026-08-22: HN W11 merge —
+  thirty-first run, `56ee669` 2026-08-22: SV W18 merge — thirtieth run,
+  `23ad21e` 2026-08-21: GT S-GT5 merge — see §3
   twenty-sixth run; earlier: `b881f87` 2026-08-20 SV W17, `ac7184b`
   2026-08-20: GT S-GT1 merge — see §3 ninth
   run; earlier: `53edd55` 2026-08-19 6th session, multi-part: D15 as-of
@@ -929,6 +932,33 @@ expected and absorbed by instantiating the canon, never by forking it.
       print early-2027; **the 506-vs-509 legal reading = OWNER
       DECISION**); S-HN5 DEFERRED — bootstrap `Read hn/HANDOVER.md
       and continue.`
+
+      **GT S-GT6/S-GT7 merge 2026-08-22 (§4.6 protocol, thirty-second
+      run):** `gt-research` rebased onto `d37f89f` (15 commits rewritten
+      `d9b34a3..c446df3`→`37a1a65..3250ffa` in two rebase passes — main
+      advanced mid-close as the parallel SV W18 + HN W11 §4.6 runs landed;
+      zero conflicts — gt/-scoped + one new plan file) then
+      fast-forward-merged; remote ref updated via delete + re-push.
+      **GT = S-GT6/S-GT7 SPECIAL-REGIMES SYNTHESIS COMPLETE — ALL SEVEN
+      WAVES DONE, CORPUS CLOSED 82/0/0** (see `gt/HANDOVER.md` §5m):
+      7 files (`gt/requirements/special-regimes/` GT-SPR-FR-001..193;
+      102 LBs / 79 ACs / 20 OQ rows; GOQ-08 + GOQ-135..140 consumed;
+      R72..R81 guards; 4 stale master-index preamble R-cites fixed
+      R49→R72/R50→R73/R52→R75/R55→R81; final whole-branch review
+      APPROVED + one editorial fix wave + re-review PASS). Same session,
+      post-wave: register-triage pass GOQ-141..149 (register 149 rows)
+      + **acquisition batch 2 = 12 instruments 84_–95_** (incl.
+      **D-19-2016 = the GOQ-08 blocker IN HAND** — art. 7 adds maquila
+      12 bis verified against primary; D-76-78 aguinaldo; Código Civil;
+      FT pair D-58-2005 + AG 86-2006; AG 125-2022; IGSS Acuerdo
+      1421-2018; maquila leads AG 3-2017/D-38-04/AG 4-2005; D-31-2024;
+      D-62-2001) — COVERAGE 82 cited + 12 pending evidence passes.
+      Next per `gt/HANDOVER.md` §5m/§9: W-GT7 evidence pass over
+      84_–95_ (EVID-746+) + targeted backfills (GOQ-08 fences,
+      payroll/04 aguinaldo ABSENCE-FR, payroll/07 mora, AML FT-lineage,
+      cml03 fallback clocks, maquila supersession); watches: TotalDoc
+      renewal 02/12/2026 (OQ7), AML reglamento ≈17-mar-2027 (GOQ-12);
+      AG 52-2017 = top remaining acquisition (GOQ-149).
 
       **GT S-GT5 merge 2026-08-21 (§4.6 protocol, twenty-sixth run):**
       `gt-research` rebased onto `1308644` (16 commits rewritten
