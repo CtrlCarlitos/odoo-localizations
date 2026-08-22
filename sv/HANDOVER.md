@@ -71,8 +71,8 @@ boundary.**
    `shared/docs/` method docs (extraction procedure, requirements
    template, regulatory-change-management, odoo-localization-guide,
    go-live-readiness)
-6. `sv/sources/README.md` — the registry (73 files, numbering 01–75,
-    gaps 21/23/24/28; next numbering = 76)
+6. `sv/sources/README.md` — the registry (103 files, numbering 01–105,
+    gaps 21/23/24/28; next numbering = 106)
 
 ## 3. Corpus & evidence state
 
