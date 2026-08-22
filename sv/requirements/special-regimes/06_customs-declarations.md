@@ -5,8 +5,8 @@
 | Country | sv |
 | Topic   | special-regimes |
 | Status  | draft |
-| Authors | Takumi synthesis wave 7 (S7 special-regimes) |
-| Updated | 2026-08-19 |
+| Authors | Takumi synthesis wave 7 (S7 special-regimes); W19 T1 fold-in (79_/100_/98_/99_) |
+| Updated | 2026-08-22 |
 
 ## 1. Purpose
 
@@ -44,9 +44,24 @@ devolución route); the 48-hour simplified withdrawal and the courier FOB
 bands $200/$3,000; the fiscalización surfaces (5-year records/origin-
 certificate retention, 5-year verification *caducidad* per DM, electronic
 notification with agent-notification extension, 15/20-días-hábiles
-alegatos/resolution clocks, recursos per LESIA pointer); and the dated
-SIECA/Panamá DUCA-F interchange note (42_ — 2025-03-03, ducaf.sieca.int,
-tokens, ~37-second acceptance).
+alegatos/resolution clocks, recursos per LESIA — Arts. 45-51 anchored W19:
+reconsideración/revisión 10 días hábiles, efecto suspensivo, no prior
+payment, apelación to the Tribunal de Apelaciones de los Impuestos
+Internos); the dated SIECA/Panamá DUCA-F interchange note (42_ —
+2025-03-03, ducaf.sieca.int, tokens, ~37-second acceptance); and the W19
+fold-in surfaces: the $18 tasa re-anchored on the 98_/99_ value-verdict
+chain (value never changed 2012→2025 — SOQ-34 resolved) with the 100_
+(D.L. 124-2015) exemption set as dated rows (tránsito sin origen/destino
+SV incl. the D.L. 902-2014 intl land-transit exclusion; diplomáticos
+Viena; declaración simplificada < US$1,000 per importer/exporter;
+equipaje de viajeros; convenio/ley-exentas), and the LESIA (79_) sanction
++ expiry anchors on this file's surfaces (tasa/DM nonpayment = infracción
+tributaria per Art. 8 a) priced per Art. 10; multa payment 8 días hábiles
+from firmeza with moratory interest; new-despacho suspension while
+unpaid; the 5-year prescripción of the sanctioning faculty with its
+notification-interruption event and the 5-year fiscalización-faculty
+prescripción from DM legalización — Art. 55 kin noted on the FR-127
+caducidad tracker).
 
 It does **not** cover: the regime clocks the DUCA field 14 feeds
 (`04_customs-clocks.md` — SV-SPE-FR-064..081 by id, esp. FR-080/081); the
@@ -54,7 +69,9 @@ TAN/IVA fiscal routing of declared goods (`05_tan-iva-interface.md` — its
 SS-solvency gate SV-SPE-FR-102 gates this file's withdrawals by id); the
 declarante-role config and consultas/advance-ruling registry
 (`01_regime-framework.md` — SV-SPE-FR-020/021 by id); the descargo
-registers and SMM-priced sanctions (`07_obligations-reporting-sanctions.md`);
+registers and SMM-priced sanctions, including the LESIA sanction-class
+taxonomy and multa formulas of the W19 fold-in
+(`07_obligations-reporting-sanctions.md` — SV-SPE-FR-179..184 by id);
 FOVIAL/COTRANS (`08_fovial-cotrans.md`); the canonical retention matrix
 (`commercial-legal/02_accounting-books.md` §3.7 SV-CML-FR-028 — the customs
 5y row lands there as an update-by-note, never a restatement); and the
@@ -67,7 +84,22 @@ authority's systems.
 Authority order (binding, per master evidence index §S7-A): customs
 chassis = **74_** (D.L. Nº 529, 13-ene-1999, D.O. N° 23 T.342 3-feb-1999;
 consolidated through reform (4) D.L. 23-2012, D.O. N° 123 T.396 4-jul-2012;
-sentence-case print); DGA frame = **13_** (D. Nº 903, 14-dic-2005, D.O.
+sentence-case print); **12-B exception (W19)**: Art. 12-B was reformed
+post-2012 by D.L. 902-2014 (D.O. 238 T.405 19-dic-2014, intl land-transit
+exclusion — anchor recorded in 100_ considerando IV, text not acquired) +
+**100_** (D.L. Nº 124, 18-sep-2015, D.O. N° 181 T.409 5-oct-2015 pp.9-10;
+vigencia 8 días → 13-oct-2015 — the exemption set + final inciso);
+tasa value provenance = **98_** (DACG DGA-014-2025, 24-jun-2025, vigencia
+27-jun-2025, current — US$18.00) + **99_** (DACG DGA-008-2015, 2-dic-2015,
+vigencia 1-ene-2016 — US$18.00; chain DGA-002-2014 → 008-2015 → 014-2025,
+all $18; SOQ-34 resolved: the Art. 12-C revision faculty never fired) —
+identity-anchor instruments (no txts; verdict text carried by the master
+index SOQ-34 row + sources registry); LESIA = **79_** (D.L. N° 551,
+20-sep-2001, D.O. N° 204 T.353 29-oct-2001, vigencia 8 días → 6-nov-2001;
+INDICE LEGISLATIVO print consolidated through reform (5) D.L. 588-2008 —
+cited here for the sanction/expiry/recursos anchors this file's surfaces
+reference; the sanction-class taxonomy and multa formulas live in `07`);
+DGA frame = **13_** (D. Nº 903, 14-dic-2005, D.O.
 Nº 8 T.370 12-ene-2006; consolidated through reform (2) D.L. 121-2012) —
 cited here only as the institutional frame already anchored by
 `01_regime-framework.md` (SV-SPE-FR-005 by id); DUCA = **43_** (Anexo II
@@ -82,18 +114,29 @@ consolidation ends at D.L. 23-2012 (reforms 1) D.L. 523-2001, 2) D.L.
 490-2004, 3) D.L. 906-2006, 4) D.L. 23-2012) and 43_ is the 2018 print —
 post-cutoff reforms and the Res. 409-2018 supersession status are
 unverified until official routes recover (SOQ-22 kin; SOQ-36); article
-text is cited **as printed**. Verbatim text below is copied from the W13
-evidence files (EVID-269..273) and, where the evidence abbreviates, from
-the extraction txts
+text is cited **as printed**. **W19 exception (SOQ-30/SOQ-34): Art. 12-B
+is NO LONGER at corpus parity — the D.L. 902-2014 + D.L. 124-2015
+reforms are owned (100_; LB-021) and the LB-013 print is read THROUGH
+them (exemptions + exclusions supersede the 2012 text); the 79_ LESIA
+print ends at D.L. 588-2008 (its own SOQ-30-kin watch, OQ-7).** Verbatim
+text below is copied from the W13 evidence files (EVID-269..273), the W19
+evidence file (EVID-359..373, `79_100_AduanasSancciones.evidence.md`)
+and, where the evidence abbreviates, from the extraction txts
 `sv/.extractions/74_Ley_Simplificacion_Aduanera_D529.pdf.txt`,
-`sv/.extractions/43_DUCA_Instructivo_COMIECO.pdf.txt` and
-`sv/.extractions/42_Comunicado_Exportaciones_Panama.docx.txt` (citable per
-standing S3 ruling 25; page pointers = txt PAGE markers). D15 discipline:
-the $18 tasa, the presumed percentages and every clock/window in this file
-are dated config rows with instrument provenance — never global constants;
-each resolves as-of its domain anchor (transmission date for the tasa; DM
-acceptance for valuation and caducidad; notification for payment clocks;
-emission for the DUCA-F FAUCA validity) and snapshots on the record.
+`sv/.extractions/43_DUCA_Instructivo_COMIECO.pdf.txt`,
+`sv/.extractions/42_Comunicado_Exportaciones_Panama.docx.txt`,
+`sv/.extractions/79_Ley_Sancionar_Infracciones_Aduaneras_DL551.pdf.txt`
+and `sv/.extractions/100_Reforma_Ley_Simplificacion_DL124_DO_2015-10-05_pp9-10.pdf.txt`
+(citable per standing S3 ruling 25; page pointers = txt PAGE markers;
+98_/99_ have NO txts — identity-anchored per SOQ-34). D15 discipline:
+the $18 tasa with its exemption set, the presumed percentages and every
+clock/window in this file are dated config rows with instrument
+provenance — never global constants;
+each resolves as-of its domain anchor (transmission date for the tasa;
+DM acceptance for valuation and caducidad; notification for payment
+clocks; emission for the DUCA-F FAUCA validity; comisión/descubrimiento
+for the LESIA sanctioning prescripción; DM legalización for the LESIA
+fiscalización prescripción) and snapshots on the record.
 
 | ID | Citation (Spanish) | English translation | Source file | Location |
 |----|--------------------|---------------------|-------------|----------|
@@ -117,6 +160,11 @@ emission for the DUCA-F FAUCA validity) and snapshots on the record.
 | LB-018 | Ley de Simplificación Aduanera (74_), Art. 13: "…el tiempo en que se deberán tener a disposición los registros contables, registros especiales y la documentación de respaldo de los mismos, será de cinco años." "Los exportadores y productores deberán conservar por un mínimo de cinco años, a partir de la fecha de su emisión, las certificaciones o certificados de origen, así como todos los registros y documentos que demuestren que una mercancía, para la cual el productor o el exportador proporcionó una certificación de origen, de conformidad a lo establecido en los tratados, convenios, acuerdos y otros instrumentos en materia de comercio suscritos por el país." Art. 14 (final inciso): "El plazo para la verificación posterior caducará en cinco años contados desde la fecha de aceptación de la declaración de mercancías correspondientes." | Art. 13 — subjects bound by law to keep formal accounting must have it at the competent customs authority's disposal when required (those not so bound keep special registers); in both cases the accounting registers, special registers and their support documentation must remain available for FIVE YEARS; exporters and producers must conserve, for a MINIMUM OF FIVE YEARS from their emission date, the origin certifications or certificates, and all registers and documents demonstrating goods for which the producer or exporter provided an origin certification under the country's trade treaties, convenios, acuerdos and other instruments. Art. 14 (final inciso) — the posterior-verification term EXPIRES (caduca) FIVE YEARS counted from the ACCEPTANCE DATE of the corresponding DM | `sv/sources/74_Ley_Simplificacion_Aduanera_D529.pdf` | Arts. 13/14 pp.12-14 (EVID-271; txt PAGE 12-14; SOQ-30 print) |
 | LB-019 | Ley de Simplificación Aduanera (74_), Art. 16: "Los resultados de la fiscalización deberán ser notificados al declarante o a su agente de aduanas en su caso… Se notificará al supuesto infractor, a su representante legal, apoderado o mandatario aduanero, curador o heredero, en el lugar señalado para recibir notificaciones o en su domicilio. Tales notificaciones se harán por cualquier Delegado de la Dirección General, por la vía electrónica, telefax o telefacsímil, por correo certificado con constancia de recepción, o por los demás medios que autoricen las leyes." (substitute-recipient ladder; esquela at the door; 72-hour edicto fallback) "…Debido a la solicitud que se establece entre el declarante y su agente de aduanas en lo que respecta a sus obligaciones tributarias aduaneras y al mandato que de acuerdo con la legislación de la materia se establece entre los mismos, la notificación que se haga al agente de aduanas se entenderá extensiva para el declarante." Art. 17: "a) La apertura del proceso debe notificarse al declarante o a su Agente de Aduanas, apoderado o representante, haciéndoles saber el contenido íntegro del informe de fiscalización, hoja de discrepancia o informe de investigación correspondiente…" "b) El declarante contará con un plazo de quince días hábiles contados desde el siguiente día de la notificación para la presentación de sus alegatos y las pruebas de descargo que estime pertinente;" "c) Vencido dicho plazo, la Dirección General dictará la resolución que proceda dentro de un plazo de veinte días hábiles. La notificación de dicha resolución se hará dentro del plazo de veinte días hábiles posteriores a la fecha de su emisión, la cual deberá contener el texto íntegro de la misma." "Contra la resolución de liquidación oficiosa de impuestos que se dicte, se admitirán los recursos administrativos señalados en la Ley Especial para Sancionar Infracciones Aduaneras, ante las autoridades competentes y conforme a los requisitos, plazos y procedimientos establecidos en la misma." | Art. 16 — fiscalization results are notified to the declarant or its customs agent; the presumed infractor, legal representative, attorney or customs agent, curator or heir is notified at the place designated for notifications or their domicile, by any DGA delegate, BY ELECTRONIC MEANS, telefax or telefacsimile, certified mail with receipt of reception, or other legally authorized means (with the substitute-recipient ladder — spouse/companion, adult child, partner, employee or household member; door esquela with the resolution in extract; and the 72-hour edicto fallback); given the request relation established between declarant and customs agent regarding their customs tax obligations and the mandate established between them, NOTIFICATION MADE TO THE CUSTOMS AGENT IS UNDERSTOOD AS EXTENSIVE TO THE DECLARANT. Art. 17 — the administrative process: a) the opening is notified to the declarant or its agent, making known the FULL content of the fiscalization report, discrepancy sheet or investigation report; b) the declarant has FIFTEEN días hábiles counted from the day after notification to present alegatos (arguments) and discharge proofs it deems pertinent; c) after that term the DGA issues the resolution within TWENTY días hábiles, notified within the twenty días hábiles after its emission date with the full text; against ex officio tax-liquidation resolutions, the administrative RECOURSES of LESIA are admitted (not in corpus — SOQ-32) | `sv/sources/74_Ley_Simplificacion_Aduanera_D529.pdf` | Arts. 16/17 pp.14-15 (EVID-271; txt PAGE 14-15; SOQ-30/32 print) |
 | LB-020 | Comunicado 42_ (CIEX/BCR/DGA): "…en coordinación con la Secretaría de Integración Económica Centroamericana SIECA, y la Autoridad Nacional de Aduanas de Panamá, se implementará a partir del 03 de marzo de 2025, la transmisión electrónica de las operaciones de exportación e importación entre El Salvador y Panamá bajo DUCA-F, proceso para el cual los exportadores deberán asegurarse de disponer de tokens en el Portal de SIECA, para obtener de forma inmediata la aceptación de la aduana de Panamá o El Salvador según corresponda." Benefits: "Obtendrá la aceptación extranjera en un tiempo de 37 segundos."; "Podrá visualizar el número de declaración de aduana destino para facilitar el proceso de pago de impuestos."; "Tendrá un despacho de mercancías más ágil en los puntos fronterizos". Portal: "https://www.ducaf.sieca.int/PortalCapturaPanama/…". Institutions: BCR (CIEX El Salvador), DGA, SIECA, ANA Panamá | Coordinated with SIECA and Panama's Autoridad Nacional de Aduanas, from 03 MARCH 2025 the electronic transmission of export and import operations between El Salvador and Panama under DUCA-F is implemented; exporters must ensure they hold TOKENS in the SIECA portal to obtain IMMEDIATE acceptance by the Panama or El Salvador customs office as corresponds. Benefits: foreign acceptance in ~37 SECONDS; visibility of the DESTINATION customs declaration number (facilitating the tax-payment process); more agile goods despacho at border points. Capture portal ducaf.sieca.int (PortalCapturaPanama for Panama-origin registrations); participating institutions BCR/CIEX, DGA, SIECA and ANA Panamá | `sv/sources/42_Comunicado_Exportaciones_Panama.docx` | Whole comunicado (EVID-273; txt PARAGRAPHS/TABLE 1; dated operational fact 2025-03-03) |
+| LB-021 | Reformas a la Ley de Simplificación Aduanera (100_), Art. 1: "Refórmase el inciso noveno del artículo 12-B e incorpórase un inciso final, de la manera siguiente: 'Estarán excluidas del pago a que se refiere este artículo, las mercancías en tránsito que no tengan por origen o destino el territorio nacional, las operaciones que realicen los diplomáticos de conformidad al Convenio de Viena, las importaciones o exportaciones de mercancías efectuadas bajo la modalidad de declaración simplificada menores a mil dólares de los Estados Unidos de América por cada importador o exportador, las declaraciones que contengan equipaje de viajeros y aquellas que por Convenios u otras leyes se encuentren exentas.' 'Con el propósito de garantizar lo dispuesto en la presente disposición, facúltase al Ministerio de Hacienda a realizar todas las operaciones financieras, presupuestarias y contables, indispensables y necesarias, que viabilicen pagar todos los costos y gastos derivados por la prestación del servicio de Inspección no Intrusiva.'" Art. 2: "El presente Decreto entrará en vigencia ocho días después de su publicación en el Diario Oficial." Considerando IV: "…por medio del Decreto Legislativo No. 902, de fecha 12 de diciembre de 2014, publicado en el Diario Oficial No. 238, Tomo No. 405, del 19 del mismo mes y año, se excluyeron del pago de la tasa en referencia a las operaciones de tránsito internacional terrestre." | Art. 1 — the Art. 12-B EXEMPTION/EXCLUSION SET (reforming the ninth inciso + adding a final one): EXCLUDED from the tasa payment: goods IN TRANSIT without SV origin or destination; operations of DIPLOMATS per the Vienna Convention; imports/exports under the SIMPLIFIED DECLARATION modality UNDER US$1,000 per importer/exporter; declarations containing TRAVELER BAGGAGE; and those exempt under CONVENIOS or other laws — plus the MH financial-operations faculty (authority-side). Art. 2 — in force 8 days after publication (D.O. 5-oct-2015 → 13-oct-2015). Considerando IV — D.L. 902-2014 (D.O. 238 T.405 19-dic-2014) had already excluded INTERNATIONAL LAND TRANSIT operations (anchor recorded; text not acquired) | `sv/sources/100_Reforma_Ley_Simplificacion_DL124_DO_2015-10-05_pp9-10.pdf` | Art. 1 + considerandos p.9; Art. 2 p.10 (EVID-371; txt PAGE 1-2; D.O. 181 T.409 5-oct-2015; vigencia 13-oct-2015) |
+| LB-022 | DACG value-verdict chain (98_ current + 99_ mid-history; identity anchors — no txts, verdict text carried by master-index SOQ-34 + sources registry from the instrument faces): 98_ = DACG N° DGA-014-2025 (24-jun-2025, vigencia 27-jun-2025): "La tasa establecida por el Servicio de Inspección no Intrusiva es de DIECIOCHO DÓLARES DE LOS ESTADOS UNIDOS DE AMÉRICA (US$18.00)" — fundamentos cite Simplificación Aduanera Arts. 12/12-A/12-B/12-C with NO adjusting Acuerdo Ejecutivo anywhere. 99_ = DACG N° DGA-008-2015 (2-dic-2015, vigencia 1-ene-2016): same "DIECIOCHO DÓLARES… (US$18.00)", reciting the tasa effective "a partir del mes de enero de 2014" + predecessor DACG DGA-002-2014 (16-ene-2014) + the D.L. 124-2015 exemptions. Administrative chain DGA-002-2014 → DGA-008-2015 → … → DGA-014-2025, ALL $18 | The Art. 12-B value NEVER changed: US$18.00 (IVA-included) from the 2012 creation (operative January 2014 per the DACG chain) through the current 2025 disposition — the Art. 12-C biennial ≤10% revision faculty never fired (SOQ-34 resolved 2026-08-21; hunt record: DDG + TF CDX + 81_ Recopilación all negative). Provenance for the dated fee row: 74_ Art. 12-B (2012 instrument) + 98_ (current-value proof) + 99_ (mid-history proof) | `sv/sources/98_DACG_DGA_014_2025_Tasa_InspeccionNoIntrusiva.pdf` + `sv/sources/99_DACG_DGA_008_2015_Tasa_InspeccionNoIntrusiva.pdf` | Identity anchors: 98_ §III.1 (value) + §IV (vigencia/exemptions); 99_ §III.1 + §IV (EVID-372; verdict text carried in 00_MASTER_INDEX SOQ-34 row + sources README §98/§99; NO txt PAGE anchors by design) |
+| LB-023 | LESIA (79_), Art. 8 a) (fragment): "LA NO PRESENTACIÓN DE LA DECLARACIÓN DE MERCANCÍAS ANTE LA AUTORIDAD ADUANERA Y LA FALTA DE PAGO DE LOS TRIBUTOS DENTRO DEL PLAZO LEGALMENTE ESTABLECIDO O EFECTUAR LA DECLARACIÓN… CON OMISIONES O INEXACTITUDES… QUE CAUSEN LA CONCESIÓN INDEBIDA DE BENEFICIOS O LA INCORRECTA LIQUIDACIÓN DE LOS DERECHOS E IMPUESTOS…". Art. 10: "Sin perjuicio del pago de los derechos e impuestos que se adeuden, las infracciones tributarias serán sancionadas con una multa equivalente al 300% de los derechos e impuestos evadidos o que se pretendieron evadir. Cuando el perjuicio fiscal ocasionado sea inferior a cinco mil colones o su equivalente en Dólares de los Estados Unidos de América, la multa aplicable será equivalente al doscientos por ciento…". Art. 37 (final ¶): "La certificación de la resolución que imponga sanciones pecuniarias tendrá fuerza ejecutiva y la multa deberá ser cancelada dentro de los ocho días hábiles siguientes a la fecha en que dicha resolución adquiera estado de firmeza. Vencido dicho plazo, se causarán los intereses moratorios respectivos." Art. 38: "La autoridad aduanera podrá disponer la suspensión de nuevos despachos de mercancías de los consignatarios o declarantes que hayan sido sancionados pecuniariamente, en tanto no cancelen el monto de los derechos e impuestos que corresponda y las multas aplicadas, salvo que exista recurso pendiente de resolución." | Art. 8 a) — non-presentation of the DM and non-payment of tributes within the legal term (the tasa-nonpayment hook of 74_ Art. 12-B's LESIA pointer), or definitive declarations with omissions/inexactitudes causing undue benefits or incorrect liquidation, are CUSTOMS TAX INFRACTIONS; Art. 10 — priced at 300% of the evaded duties/taxes (200% when the fiscal damage is under ¢5,000 ≈ US$571.43), on top of the duties owed; Art. 37 — pecuniary sanctions are payable within EIGHT días hábiles of the resolution acquiring FIRMEZA (executive-force certification), moratory interest thereafter; Art. 38 — the authority may suspend NEW despachos of sanctioned consignees/declarants until duties and multas are paid, save a pending recourse | `sv/sources/79_Ley_Sancionar_Infracciones_Aduaneras_DL551.pdf` | Art. 8 a) pp.9-10; Art. 10 p.12; Art. 37 p.24; Art. 38 p.24 (EVID-361/362/369; txt PAGE 9-10/12/24; INDICE print through D.L. 588-2008 — OQ-7) |
+| LB-024 | LESIA (79_), Art. 33 (final ¶): "La facultad sancionatoria de la autoridad aduanera prescribirá en un plazo de cinco años contados a partir de la fecha de la comisión de la infracción aduanera tributaria o administrativa o de la fecha en que se descubra la infracción cuando se desconozca la fecha de comisión. Dicho término de prescripción se interrumpirá desde que se notifique al supuesto infractor la Hoja de Discrepancias o el Informe de Fiscalización que especifique las infracciones que se le imputan." Art. 55: "La Dirección General estará facultada para realizar las fiscalizaciones e investigaciones necesarias para asegurar el correcto cumplimiento de las obligaciones tributarias. Dicha facultad prescribirá después de cinco años contados a partir de la fecha de legalización de las declaraciones correspondientes." | Art. 33 — the authority's SANCTIONING POWER prescribes FIVE YEARS from the infraction's commission (or discovery when the commission date is unknown), INTERRUPTED by notification of the Hoja de Discrepancias or Informe de Fiscalización specifying the imputed infractions; Art. 55 — the FISCALIZATION power prescribes FIVE YEARS from the LEGALIZATION date of the corresponding declarations (a sibling of — and anchor-distinct from — the 74_ Art. 14 verification caducidad running from DM ACCEPTANCE) | `sv/sources/79_Ley_Sancionar_Infracciones_Aduaneras_DL551.pdf` | Art. 33 p.23; Art. 55 p.29 (EVID-369; txt PAGE 23/29; INDICE print through D.L. 588-2008 — OQ-7) |
+| LB-025 | LESIA (79_), Art. 47: "Contra las decisiones emitidas por el administrador de aduanas podrá interponerse, a elección del recurrente, el recurso de reconsideración ante el mismo administrador o el de revisión ante el Director General. Cualquiera de los anteriores recursos, debe ser interpuesto dentro del plazo de 10 días hábiles siguientes a la notificación de la resolución impugnada…". Art. 46: "…La admisión de los recursos establecidos en este Capítulo, produce efecto suspensivo sobre la resolución recurrida, no siendo necesario para su interposición, el pago previo de los tributos, intereses y sanciones que son materia de impugnación." (subsanación within 5 días hábiles; prevención evacuation 10 días hábiles, else inadmisible). Art. 45 (final ¶): "Sin perjuicio de la interposición de los recursos establecidos en este Capítulo, el interesado podrá proceder al levante de las mercancías, dejando las muestras necesarias cuando se requieran y pagando o garantizando el adeudo correspondiente y las multas eventualmente aplicables." Art. 48: reconsideración resolved "DENTRO DE LOS VEINTE DÍAS HÁBILES SIGUIENTES A LA FECHA DE NOTIFICACIÓN AL RECURRENTE DEL AUTO DE ADMISIÓN", notified within 20 días hábiles; Art. 49: revisión resolved "DENTRO DEL PLAZO DE QUINCE DÍAS HÁBILES SIGUIENTES A LA RECEPCIÓN DEL EXPEDIENTE ADMINISTRATIVO"; Art. 51: "Contra las resoluciones de la Dirección General podrá interponerse el recurso de apelación, el que será conocido por el Tribunal de Apelaciones de los Impuestos Internos…, el cual tendrá en estos casos el carácter de Tribunal Aduanero…" | Recourses against customs sanction resolutions: RECONSIDERACIÓN (before the same administrador) or REVISIÓN (before the Director General), at the appellant's election, within 10 días hábiles of notification; ADMISSION produces SUSPENSIVE EFFECT without prior payment of the challenged tributes/interests/sanctions; subsanación 5 días hábiles / prevención evacuation 10 días hábiles; goods LEVANTE available despite the recourse on payment or guaranty of the debt + potentially applicable fines; resolutions within 20 (reconsideración, from admission notification) / 15 (revisión, from expediente receipt) días hábiles, notified within 20; APPELACIÓN from Dirección General resolutions before the Tribunal de Apelaciones de los Impuestos Internos sitting as Tribunal Aduanero (CAUCA) | `sv/sources/79_Ley_Sancionar_Infracciones_Aduaneras_DL551.pdf` | Arts. 45/46 p.26; Arts. 47/48/49 p.27; Art. 51 p.28 (EVID-370; txt PAGE 26-28; INDICE print through D.L. 588-2008 — OQ-7) |
 
 ## 3. Functional Requirements
 
@@ -304,12 +352,12 @@ emission for the DUCA-F FAUCA validity) and snapshots on the record.
   firma digital, including to their own authorized assistants.
   (LB-012; EVID-269)
 
-### 3.4 The $18 non-intrusive-inspection tasa (74_ Arts. 12-B/12-C)
+### 3.4 The $18 non-intrusive-inspection tasa (74_ Arts. 12-B/12-C; 100_/98_/99_ — W19)
 
 - **SV-SPE-FR-116:** The system shall carry the non-intrusive-inspection
   tasa as a DATED fee row consumed per transmission: amount $18.00
-  (dieciocho dólares de los Estados Unidos de América — the 2012-printed
-  value, IVA-INCLUDED), charged per electronic transmission of a
+  (dieciocho dólares de los Estados Unidos de América, IVA-INCLUDED),
+  charged per electronic transmission of a
   manifiesto, DM to any customs regime, FAUCA, or internal/international
   tránsito (or other declaration/form covering the transport, traslado
   or movement of goods into/out of the national customs territory) via
@@ -318,14 +366,40 @@ emission for the DUCA-F FAUCA validity) and snapshots on the record.
   MOMENT of transmission (anchor = transmission date; snapshot on the
   declaration); the fee is DESPACHO-BLOCKING — despacho authorization is
   not available while the tasa is unpaid — with responsible subjects the
-  declarants or their representatives; nonpayment sanction consequences
-  are a LESIA pointer only (SOQ-32/OQ-6 — zero mechanics); and the row
-  carries the Art. 12-C REVISION MECHANISM as a dated-value watch:
-  revisable and adjustable every two years by the Ministerio de Hacienda
-  up to a maximum of 10 percent over the prior value, by reasoned
-  Acuerdo Ejecutivo (SOQ-34/OQ-1 — the shipped row keeps $18 with the
-  2012-print provenance until an adjusting acuerdo is acquired).
-  (LB-013; EVID-270)
+  declarants or their representatives; **W19 re-anchor (SOQ-34
+  RESOLVED):** the value NEVER changed — provenance = 74_ Art. 12-B
+  (2012 instrument) + the 98_/99_ DACG value-verdict chain
+  (DGA-002-2014 → DGA-008-2015 → DGA-014-2025, all US$18.00; operative
+  from January 2014; no Art. 12-C adjusting Acuerdo Ejecutivo anywhere) —
+  the revision watch closes as a no-change verdict (the Art. 12-C
+  mechanism itself remains recorded); the 100_/902-2014 exemption set is
+  consumed from FR-176 BY ID (exempt transmissions never bill the fee;
+  non-exempt transmissions stay despacho-blocking); and nonpayment
+  sanction consequences are anchored per LESIA in FR-177 BY ID
+  (infracción tributaria, zero mechanics restated here).
+  (LB-013; LB-021; LB-022; EVID-270/371/372)
+- **SV-SPE-FR-176:** The system shall carry the Art. 12-B exemption set
+  as DATED exemption rows on the tasa fee family (D15: dated rows with
+  instrument provenance, valid_from per instrument — never global
+  constants), evaluated per transmission and consumed by FR-116's fee
+  row by id: (i) mercancías en tránsito without SV origin or
+  destination (100_ Art. 1, valid from 13-oct-2015); (ii) international
+  LAND-transit operations (D.L. 902-2014, D.O. 238 T.405 19-dic-2014 —
+  anchor recorded via 100_ considerando IV, text not acquired; valid
+  from its vigencia) — the transit pair kept as two distinct
+  instrument-dated rows; (iii) diplomático operations per the Convenio
+  de Viena (100_); (iv) declaración simplificada imports/exports UNDER
+  US$1,000 "por cada importador o exportador" (100_ — evaluated on the
+  simplified declaration's value; the per-operator phrasing noted,
+  declaration-level reading, OQ-8); (v) declarations containing equipaje
+  de viajeros (100_); and (vi) operations exempt under convenios or
+  other laws (100_ — a config-slot row populated per instrument, NO
+  shipped enumerations); an exempt transmission records its exemption
+  basis (literal + instrument reference) and skips the fee row entirely,
+  never weakening the despacho-blocking gate for non-exempt
+  transmissions; the MH financial-operations faculty inciso (100_ final
+  inciso) is authority-side and carries no Odoo surface.
+  (LB-021; EVID-371)
 
 ### 3.5 Pre-arrival manifiesto + presumed valuation (74_ Art. 2)
 
@@ -490,9 +564,23 @@ emission for the DUCA-F FAUCA validity) and snapshots on the record.
   FULL fiscalization informe; 15 días hábiles from the day after
   notification for alegatos and discharge proofs; DGA resolution within
   20 días hábiles, notified within 20 días hábiles of emission with the
-  full text; recursos against liquidación oficiosa per LESIA — POINTER
-  ONLY (SOQ-32/OQ-6: LESIA absent; zero recourse mechanics invented).
-  (LB-019; EVID-271)
+  full text; **W19 anchor (SOQ-32 consumed, 79_ Arts. 31/34 confirm the
+  same chassis):** recursos against liquidación oficiosa and every
+  sanction resolution per LESIA — reconsideración (same administrador)
+  or revisión (Director General), at the appellant's election, within
+  10 días hábiles of notification; admission carries EFECTO SUSPENSIVO
+  with NO prior payment required (subsanación 5 / prevención evacuation
+  10 días hábiles); goods LEVANTE available despite the recourse on
+  payment or guaranty of the debt and potentially applicable fines;
+  resolutions within 20 (reconsideración) / 15 (revisión, from expediente
+  receipt) días hábiles, notified within 20; apelación from Dirección
+  General resolutions before the Tribunal de Apelaciones de los
+  Impuestos Internos sitting as Tribunal Aduanero — carried as recourse
+  record metadata (type, filing/deadline, suspension effect, levante
+  flag, resolution/notification clocks) consumed from the días-hábiles
+  engine by id; the sanction-record family of `07` (SV-SPE-FR-183 by id)
+  rides these same clocks.
+  (LB-019; LB-025; EVID-271/368/370)
 
 ### 3.10 SIECA/Panamá DUCA-F interchange — dated operational row (42_)
 
@@ -513,6 +601,47 @@ emission for the DUCA-F FAUCA validity) and snapshots on the record.
   assumption note, not a statutory surface; valid_from = 2025-03-03
   dated row).
   (LB-020; EVID-273)
+
+### 3.11 LESIA sanction + expiry anchors on the declaration surfaces (79_ — W19)
+
+- **SV-SPE-FR-177:** The system shall anchor the LESIA sanction
+  consequences that attach to THIS file's surfaces (SOQ-32 consumed):
+  nonpayment of the tasa and the DM presentation/payment breaches are
+  LESIA infracciones tributarias per Art. 8 a) — class, conduct pricing
+  (300% of evaded duties/tributes; 200% when perjuicio fiscal < ¢5,000
+  ≈ US$571.43), the US$25,000 tributaria-vs-crime split and the
+  tolerance margins are OWNED BY `07`'s taxonomy rows
+  (SV-SPE-FR-181/182 by id, never restated here); locally, the FR-122
+  engine carries the Art. 37 payment clock as a SECOND statutory anchor
+  — multas payable within 8 días hábiles of the resolution's FIRMEZA
+  (anchor = firmeza date, distinct from 74_ Art. 11's
+  notification-of-resolución-definitiva anchor; both printed, both
+  recorded, never merged into one anchor field) — with the moratory
+  interest flag stamping after expiry; and the Art. 38 enforcement state
+  — suspension of NEW despachos for pecuniarily-sanctioned
+  consignees/declarants until duties and multas are paid (recurso
+  pendiente carve-out per FR-128's suspensive effect) — mirrors as a
+  declarante-profile state, the despacho-blocking kin of the tasa gate
+  (authority-ordered; recorded, never system-imposed).
+  (LB-023; EVID-361/362/369)
+- **SV-SPE-FR-178:** The system shall run the LESIA prescripción
+  trackers as dated clock rows, one per faculty, NEVER merged with each
+  other or with the T4 regime clocks: (a) sanctioning-faculty
+  prescripción — 5 years from the infraction's COMISIÓN date (or
+  DESCUBRIMIENTO when the commission date is unknown), with the
+  interruption event = notification of the Hoja de Discrepancias or
+  Informe de Fiscalización specifying the imputed infractions (anchor
+  restamps from the interruption; the event record links the sanction
+  file); and (b) fiscalización-faculty prescripción — 5 years from the
+  DM's LEGALIZACIÓN date, carried as the LESIA-side note on the FR-127
+  verification-window tracker family (its 74_ Art. 14 caducidad anchor
+  = DM ACCEPTANCE — the two anchors coexist as printed; the tracker
+  surfaces both anchor dates on the same declaration without computing
+  a merged window); both resolve through the calendar engine by id and
+  snapshot on the record; the CT's general 10-year prescription
+  (05_ Art. 84) does NOT reach these customs-special-law clocks
+  (lex-specialis working ruling, OQ-9).
+  (LB-024; EVID-369/373)
 
 ## 4. Data Model
 
@@ -576,7 +705,10 @@ per plan, judgment noted in the task report).
 
 | Entity | Field | Type | Catalog / values | Reference |
 |--------|-------|------|------------------|-----------|
-| l10n_sv_customs.inspection_tasa | amount · valid_from · provenance · revision_rule | monetary · date · char · char | $18.00 (dieciocho dólares, IVA-included) per manifiesto/DM/FAUCA/tránsito transmission; valid_from = 74_ Art. 12-B 2012 print; biennial ≤10% Acuerdo Ejecutivo watch (SOQ-34/OQ-1); anchor = transmission date | FR-116 |
+| l10n_sv_customs.inspection_tasa | amount · valid_from · provenance · revision_rule | monetary · date · char · char | $18.00 (dieciocho dólares, IVA-included) per manifiesto/DM/FAUCA/tránsito transmission; provenance = 74_ Art. 12-B (2012) + 98_/99_ DACG chain (SOQ-34 resolved — value never changed; operative ene-2014); anchor = transmission date | FR-116 |
+| l10n_sv_customs.inspection_tasa_exemption | basis · instrument · valid_from | select · char · date | transit_no_sv_origin_destination (100_, 13-oct-2015) · intl_land_transit (D.L. 902-2014 anchor, 19-dic-2014) · diplomáticos_viena (100_) · simplified_under_1000 (100_; per-importer/exporter print, declaration-level reading — OQ-8) · equipaje_viajeros (100_) · convenio_ley_exempt (config slot, no shipped enumerations); exempt transmission records basis + skips fee | FR-176 |
+| l10n_sv_customs.duca (sanction links) | multa_firmeza_due · moratory_interest · new_despacho_suspended | date · boolean · boolean | Art. 37 clock: 8 días hábiles from FIRMEZA (second statutory anchor alongside FR-122's notification anchor — never merged); Art. 38 state: new-despacho suspension while pecuniary sanctions unpaid (recurso-pendiente carve-out) | FR-177 |
+| l10n_sv_customs.lesia_prescripcion | faculty · anchor_date · anchor_kind · expiry_date · interruption_ref | select · date · select · date (+5y) · m2o event | sanctioning (comisión · descubrimiento anchors; interrupted by Hoja de Discrepancias/Informe notification — restamps) · fiscalization (DM legalización anchor; noted on the FR-127 tracker, anchor-distinct from DM acceptance) — NEVER merged with T4 regime clocks | FR-178 |
 | l10n_sv_customs.presumed_value | kind · pct · basis · valid_from · provenance | select · pct · select (FOB) · date · char | seguro_regional_1_25 · seguro_internacional_1_50 · flete_10 (74_ Art. 2 reform-3 print — SOQ-35/OQ-2); DGA periodic flete reference values = config-gap slot, NO shipped values; anchor = DM acceptance | FR-118 |
 | l10n_sv_customs.manifiesto | transportista/agente · arrival_ref · peso_bruto_kg · bultos_clase/cantidad · goods_descending_value | fields | pre-arrival manifiesto record (descending-commercial-value ordered goods list) | FR-117 |
 | l10n_sv_customs.verification_window | dm · anchor_date · expiry_date · state | m2o · date · date (+5y) · select | per-DM caducidad: 5 years from DM acceptance (DUCA field 3); open · closed — NEVER merged with T4 regime clocks | FR-127 |
@@ -613,7 +745,7 @@ behavior is required by this file.
 | FR-113 | odoo | l10n_sv_customs.duca | valida_hasta + export-country scope flag | 30 días hábiles from emission, FAUCA role; clock view = SV-SPE-FR-081 by id (ownership split, 04 OQ-6); engine SV-FREP-FR-202..204 by id |
 | FR-114 | odoo | l10n_sv_customs.duca (+attachment surfaces) | electronic-legal-effects storage | data message = paper; accessibility-for-later-consultation guarantee; electronic registers/notifications mirrored |
 | FR-115 | odoo | res.users/res.partner (declarante profiles) | signature/certificate refs + confidentiality-duty flags | certifying entities external; key-pair/firma-digital refs recorded, never managed; auxiliaries' disclosure prohibition flagged |
-| FR-116 | odoo | l10n_sv_customs.inspection_tasa (+duca.tasa_paid) | $18.00 dated row | IVA-included; due AT transmission; DESPACHO-BLOCKING; biennial ≤10% revision watch (SOQ-34/OQ-1); LESIA pointer only (OQ-6) |
+| FR-116 | odoo | l10n_sv_customs.inspection_tasa (+duca.tasa_paid) | $18.00 dated row | IVA-included; due AT transmission; DESPACHO-BLOCKING; W19: provenance 74_+98_+99_ (SOQ-34 resolved — value never changed, watch closed as no-change); exemptions = FR-176 by id; nonpayment sanction = FR-177/07 FR-181 by id |
 | FR-117 | odoo | l10n_sv_customs.manifiesto | pre-arrival fields | peso bruto kg, clase/cantidad bultos, goods by DESCENDING commercial value |
 | FR-118 | odoo | l10n_sv_customs.presumed_value | 1.25%/1.50%/10% FOB dated rows | feeds fields 26/27 flagged presumed; DGA reference flete values = config-gap (SOQ-35/OQ-2); anchor = DM acceptance |
 | FR-119 | odoo | l10n_sv_customs.duca | liquidación ownership = declarant | autoliquidación; liquidación oficiosa = authority determination record only |
@@ -625,11 +757,16 @@ behavior is required by this file.
 | FR-125 | odoo | l10n_sv_customs.duca | courier_band/withdrawal_route/consolidation_group | $200 guía+factura / ≤$3,000 DM withdrawal; consolidation cap ≤ US$3,000 summed FOB per courier operator |
 | FR-126 | odoo | retention metadata on records + origin certificates | 5y availability rows | customs 5y row noted into SV-CML-FR-028 by id (update-by-note; matrix never restated) |
 | FR-127 | odoo | l10n_sv_customs.verification_window | per-DM 5y caducidad tracker | anchor = DUCA field 3; NEVER merged with the T4 regime-clock family |
-| FR-128 | odoo | l10n_sv_customs.duca (notification/procedure metadata) | electronic channels + agent-extends flag + 15/20 días hábiles clocks | engine SV-FREP-FR-202..204 by id; recursos = LESIA pointer only (SOQ-32/OQ-6) |
+| FR-128 | odoo | l10n_sv_customs.duca (notification/procedure metadata + recourse records) | electronic channels + agent-extends flag + 15/20 días hábiles clocks + recourse metadata | engine SV-FREP-FR-202..204 by id; W19: recursos anchored per LESIA (reconsideración/revisión 10 días hábiles, efecto suspensivo, no prior payment, levante on pay/guaranty, 20/15-días resolutions, apelación Tribunal de Apelaciones; LB-025) |
 | FR-129 | odoo | l10n_sv_customs.duca (DUCA-F export records) | SIECA tokens/acceptance metadata + destination declaration-number ref | EXTERNAL-INTERFACE assumption (ducaf.sieca.int); FEXE pairing = SV-EINV-FR-042 by id; dated row valid_from 2025-03-03 |
+| FR-176 | odoo | l10n_sv_customs.inspection_tasa_exemption | 6 dated exemption rows (100_ + 902-2014 anchor) | transit pair instrument-dated separately; simplified <$1,000 per importer/exporter (declaration-level reading, OQ-8); convenio/ley row = config slot; exempt ⇒ no fee, gate untouched |
+| FR-177 | odoo | l10n_sv_customs.duca (sanction links) + declarante profile | firmeza payment clock + moratory interest + new-despacho suspension state | pricing/tolerances/thresholds = 07 FR-181 by id (never restated); Art. 37 firmeza anchor coexists with FR-122 notification anchor |
+| FR-178 | odoo | l10n_sv_customs.lesia_prescripcion | sanctioning (comisión/descubrimiento + interruption) · fiscalización (legalización) trackers | 5y/5y special-law clocks (CT Art. 84 10y lex-specialis ruling, OQ-9); fiscalización note rides the FR-127 tracker; NEVER merged with T4 clocks |
 
 Version-regime notes (D12/D15/D16/D18/D19): all statutory values in this
-file ($18.00 tasa with its biennial ≤10% revision mechanism, the
+file ($18.00 tasa with its 100_/902-2014 exemption set and its biennial
+≤10% revision mechanism — value-never-changed per the 98_/99_ verdict
+chain, the
 1.25%/1.50%/10% presumed percentages, the $200/$3,000 courier bands, the
 30-días-hábiles DUCA-F FAUCA validity, the 8-días-hábiles payment clock,
 the 10-day and 60-day anulación plazos, the 5-year retention/caducidad
@@ -702,14 +839,32 @@ are never bypassed by configuration).
   62) is completed and the declaración de origen (field 61) stays
   suppressed per both prints; a third-party producer export fills BOTH
   (FR-111).
+- **AC-012:** Given three transmissions on 2026-06-01 — a DUCA-T
+  international land transit, a US$850 simplified-declaration import,
+  and a US$2,500 ordinary DM — when the tasa family evaluates them, then
+  the land transit and the simplified declaration record their exemption
+  bases (D.L. 902-2014 / 100_ literal, valid_from stamps) and bill NO
+  fee, while the ordinary DM bills the $18.00 row (98_/99_-anchored) and
+  stays despacho-blocking until paid (FR-116, FR-176).
+- **AC-013:** Given a tributaria infraction committed 2024-02-10 whose
+  Hoja de Discrepancias is notified 2027-09-01, when the LESIA
+  sanctioning-prescripción tracker computes, then the 5-year window
+  (would expire 2029-02-10) RE-STAMPS from the 2027-09-01 interruption
+  event — and the fiscalización tracker of a DM legalized 2026-01-15
+  shows its own 5-year window from legalización, displayed beside the
+  FR-127 acceptance-anchored caducidad without any merged computation
+  (FR-178).
 
 ## 7. Open Questions
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
-| OQ-1 | SOQ-34 carried: the $18 inspection tasa is the 2012-printed value (74_ Art. 12-B as consolidated through D.L. 23-2012) — Art. 12-C biennial ≤10% Acuerdo Ejecutivo revisions since 2012 could have compounded it. FR-116 ships $18.00 as a dated row with the 2012 print provenance and the revision mechanism recorded; hunt the adjusting acuerdos before implementation. | no | Takumi S7 (sources watch) | open |
+| OQ-1 | SOQ-34 carried: the $18 inspection tasa is the 2012-printed value (74_ Art. 12-B as consolidated through D.L. 23-2012) — Art. 12-C biennial ≤10% Acuerdo Ejecutivo revisions since 2012 could have compounded it. — **RESOLVED W19 (2026-08-22), SOQ-34 same-wave verdict consumed:** the value NEVER changed — US$18.00 continuously, provenance 74_ Art. 12-B + 98_ (DGA-014-2025, current) + 99_ (DGA-008-2015; chain DGA-002-2014 → 014-2025 all $18; no adjusting Acuerdo Ejecutivo found across DDG + TF CDX + 81_); FR-116's revision watch closes as a no-change verdict (the mechanism stays recorded; a FUTURE acuerdo would reopen as a new dated row). | no | Takumi S7 (sources watch) | resolved (W19; EVID-372) |
 | OQ-2 | SOQ-35 carried: the presumed percentages (seguro 1.25% regional-land / 1.50% international; flete 10% FOB) are dated rows from the 74_ Art. 2 print, and the DGA's periodic flete reference values are LIVING data — FR-118 carries them as dated config rows + a config-gap slot with NO shipped values; verify currency at implementation. | no | Takumi S7 (config watch) | open |
 | OQ-3 | SOQ-36 carried: the Comité Aduanero DUCA user manual (mandatory-vs-optional fields per operation) is NOT in the corpus, and the Res. 409-2018 supersession status is unverified (2018 text assumed current). FR-112 mirrors the 62-field contract with NO invented field obligations; field-numbering reconciliation kin with 04's OQ-2 (this file cites fields 14/56 as printed). Acquisition candidate. | no | Takumi S7 (sources watch) | open |
 | OQ-4 | SOQ-45 carried: DUCA field 31 "tasa de cambio" (peso centroamericano vs import-country currency at acceptance) — operational meaning post-dollarization is corpus-silent; FR-107 ships it as a config-gap slot with NO default behavior. | no | Takumi S7 (config watch) | open |
-| OQ-5 | SOQ-30 carried: the 74_ consolidation ends at D.L. 23-2012 and 43_/42_ are the 2018 print / 2025 comunicado — post-cutoff reforms unverified until official routes recover; every LB in this file cites as printed; a post-cutoff reform may move the tasa, the presumed percentages, the anulación plazos, the procedure clocks or the DUCA field layout — re-verify before implementation. | no | Takumi S7 (sources watch) | open |
-| OQ-6 | SOQ-32 kin (shared with 04's OQ-1): LESIA is cited by 74_ Art. 12-B (tasa-nonpayment sanctions) and Art. 17 (recursos against liquidación oficiosa) but is NOT in the corpus — FR-116/FR-128 record pointers ONLY, zero sanction/recourse mechanics invented; shared acquisition candidate with the 12_/74_ family (consumed by `07` for the sanction ladders). | no | Takumi S7 (sources watch) | open |
+| OQ-5 | SOQ-30 carried: the 74_ consolidation ends at D.L. 23-2012 and 43_/42_ are the 2018 print / 2025 comunicado — post-cutoff reforms unverified until official routes recover; every LB in this file cites as printed; a post-cutoff reform may move the tasa, the presumed percentages, the anulación plazos, the procedure clocks or the DUCA field layout — re-verify before implementation. **W19 narrowing: the Art. 12-B slice of this watch is CLOSED by ownership of 100_ + the 902-2014 anchor (LB-021); 79_ has its own watch (OQ-7).** | no | Takumi S7 (sources watch) | open (narrowed W19) |
+| OQ-6 | SOQ-32 kin (shared with 04's OQ-1): LESIA was cited by 74_ Art. 12-B (tasa-nonpayment sanctions) and Art. 17 (recursos against liquidación oficiosa) but was NOT in the corpus — **CONSUMED W19 (2026-08-22): LESIA acquired as 79_ (D.L. 551, consolidated through D.L. 588-2008); the former pointers are now anchored — FR-177 (nonpayment = infracción tributaria, pricing in `07` FR-181 by id) and FR-128 (recursos per LB-025); the sanction-class taxonomy and multa formulas live in `07` (FR-179..184, its OQ register)**; residual = the 79_ print's own post-2008 vintage watch (OQ-7). | no | Takumi S7 (sources watch) | consumed (W19; EVID-359..370) |
+| OQ-7 | 79_ LESIA is the INDICE LEGISLATIVO print consolidated through reform (5) D.L. 588-2008 — post-2008 LESIA reforms unverified until official routes recover (SOQ-30 kin; same watch family as OQ-5); LB-023/024/025 article text cited as printed; re-verify the sanction/tolerance/recourse values before implementation. | no | Takumi S7 (sources watch) | open |
+| OQ-8 | 100_ exemption literal (iv): "menores a mil dólares… por cada importador o exportador" — FR-176 ships the DECLARATION-LEVEL reading (the simplified declaration's own value < US$1,000), with the per-operator phrasing noted; whether DGA practice aggregates per operator over a period is corpus-silent — confirm at implementation (98_ §IV operational kin carries the same literal). | no | Takumi S7 (config watch) | open |
+| OQ-9 | LESIA 5-year special-law clocks (Arts. 33/55 — sanctioning and fiscalización prescripción) vs CT Art. 84 general 10-year prescription (05_): working ruling = lex specialis, the customs domain runs its own 5-year clocks (consistent with 74_ Art. 14's 5-year caducidad; CT Art. 6.e reserves prescription changes to tax law); FR-178 encodes the 5-year rows under this labeled ruling — confirm at implementation. | no | Takumi S7 (config watch) | open |

@@ -5,8 +5,8 @@
 | Country | sv |
 | Topic   | special-regimes |
 | Status  | draft |
-| Authors | Takumi synthesis wave 7 (S7 special-regimes) |
-| Updated | 2026-08-19 |
+| Authors | Takumi synthesis wave 7 (S7 special-regimes); W19 T1 fold-in (79_ LESIA) |
+| Updated | 2026-08-22 |
 
 ## 1. Purpose
 
@@ -41,7 +41,20 @@ suspensions, the inactivity category/benefit-loss sanction consequences
 and the Art. 40-A closure-with-open-DMs *defraudación de la renta de
 aduanas* (customs-revenue fraud) crime pointer (LESIA Art. 22 — SOQ-32,
 zero invented mechanics), all under the 13_ Art. 19 a-posteriori/
-permanente control backdrop.
+permanente control backdrop; and — W19 fold-in (79_ LESIA acquired,
+SOQ-32 consumed) — the LESIA sanction taxonomy itself: the
+administrativa/tributaria/penal class triad with the
+independent-sanctioning-per-DM rule, the administrativa multa formulas
+($50 flat / 0.5%-of-patrimonio floor 1 SMM / 3-SMM and 6-SMM tiers with
+the +50% tránsito reincidencia and annual fianza), the tributaria
+pricing (300%/200% of evaded duties with the 5%/3% tolerance margins and
+the US$25,000 crime split), the exemption-caducidad and
+3-infracciones-in-1-year suspension consequences (MINEC-imposed for
+ZF/ATPA), the self-correction and 50%-attenuation modifiers, the
+auxiliares suspension/cancelación ladder, and the sanctioning procedure
+riding the `06` FR-128 chassis with the Art. 33/55 prescripción and
+Art. 37/38 payment-enforcement clocks (consumed from `06` FR-177/178 by
+id).
 
 It does **not** cover: the beneficiary profile, benefit-state machine and
 inactivity monitors it stamps (`01_regime-framework.md` — SV-SPE-FR-015..
@@ -50,8 +63,10 @@ inactivity monitors it stamps (`01_regime-framework.md` — SV-SPE-FR-015..
 data pack (`03_lsi-regime.md` — SV-SPE-FR-051..055 by id — consumed by
 this file's registers, never restated); the customs clocks and DUCA
 record model feeding the descargo registers (`04_customs-clocks.md` —
-SV-SPE-FR-064..081; `06_customs-declarations.md` — SV-SPE-FR-103..129 by
-id); the TAN/IVA internación surfaces the cost records serve
+SV-SPE-FR-064..081; `06_customs-declarations.md` — SV-SPE-FR-103..129 +
+FR-176..178 by id — the latter the tasa exemption set and the LESIA
+sanction/expiry anchors on the declaration surfaces, consumed here for
+pricing and never restated); the TAN/IVA internación surfaces the cost records serve
 (`05_tan-iva-interface.md` by id, incl. the SS-solvency gate
 SV-SPE-FR-102); FOVIAL/COTRANS (`08_fovial-cotrans.md`); the SMM tariff
 values themselves (`payroll/02_minimum-wage.md` — SV-PAY-FR-022 + the
@@ -79,24 +94,39 @@ retention kin = **74_** (D.L. Nº 529, 13-ene-1999, D.O. N° 23 T.342
 3-feb-1999; consolidated through reform (4) D.L. 23-2012 — cited only as
 the 5-year records floor kin of the LSI retention obligations; the
 customs 5y matrix row itself is `06`'s SV-SPE-FR-126, never restated
-here).
+here); sanctions = **79_** (W19; D.L. N° 551, 20-sep-2001, D.O. N° 204
+T.353 29-oct-2001, vigencia 8 días → 6-nov-2001; INDICE LEGISLATIVO
+print consolidated through reform (5) D.L. 588-2008, D.O. 71 T.379
+18-abr-2008 — **the SOQ-32 instrument**, cited by 12_ Arts. 26/40-A +
+74_ Arts. 15/17 + 14_ Art. 51; owns the LESIA class taxonomy, multa
+formulas, tolerance margins, crime split, consequences, auxiliares
+ladder and procedure; the prescripción/payment-enforcement clocks it
+shares with the declaration surfaces live in `06` FR-177/178 by id).
 
 **SOQ-30 verification note (rides EVERY regime LB in this file):** all
 regime consolidations end 2012-2013 (12_ → D.L. 318-2013; 13_ → D.L.
 121-2012; 74_ → D.L. 23-2012; 14_/17b_ → 2007/2008 prints with no reform
-block) — post-cutoff reforms are unverified until official routes recover
+block; 79_ → D.L. 588-2008) — post-cutoff reforms are unverified until
+official routes recover
 (SOQ-22 kin); article text is cited **as printed**. Verbatim text below
 is copied from the W13 evidence files (EVID-258/264/266/268/271) and,
 where the evidence abbreviates, from the extraction txts
 `sv/.extractions/12_Ley_Zonas_Francas.pdf.txt`,
 `sv/.extractions/14_Ley_Servicios_Internacionales.pdf.txt`,
-`sv/.extractions/17b_Reglamento_Servicios_Internacionales.pdf.txt` and
-`sv/.extractions/13_Ley_Organica_Aduanas.pdf.txt` (citable per standing
+`sv/.extractions/17b_Reglamento_Servicios_Internacionales.pdf.txt`,
+`sv/.extractions/13_Ley_Organica_Aduanas.pdf.txt` and
+`sv/.extractions/79_Ley_Sancionar_Infracciones_Aduaneras_DL551.pdf.txt`
+(W19 — EVID-359..370 of `79_100_AduanasSancciones.evidence.md`;
+citable per standing
 S3 ruling 25; page pointers = txt PAGE markers). D15 discipline: every
 sanction multiplier, SMM unit, clock and report spec in this file is a
 dated config row with instrument provenance — never a global constant;
-the SMM "de mayor cuantía" unit resolves against the payroll/02 dated
-sidecar rows and snapshots on the sanction record.
+the SMM "de mayor cuantía" unit (12_/14_ ladders, FR-141) resolves
+against the payroll/02 dated
+sidecar rows and snapshots on the sanction record, while the LESIA SMM
+unit is a DIFFERENT statutory lookup — "el salario mínimo mensual para
+el comercio y la industria en la ciudad" at the infraction date (79_
+Art. 53, FR-180) — the two units are never merged.
 
 | ID | Citation (Spanish) | English translation | Source file | Location |
 |----|--------------------|---------------------|-------------|----------|
@@ -122,6 +152,12 @@ sidecar rows and snapshots on the sanction record.
 | LB-020 | Reglamento de la Ley de Servicios Internacionales (17b_), Art. 44: "Para la aplicación de las obligaciones establecidas en el literal a) del Art. 47 de la Ley, se entenderá por operaciones la información consolidada anual referida a exportaciones e importaciones de mercancías propias o de terceros, que hayan sido realizadas por cualquier Usuario Directo del Parque de Servicios o Centro de Servicios. Asimismo, se entenderá por inventario y sus movimientos, toda la información relacionada a mercancías consolidadas anuales, en el formulario que determine la Dirección. En caso de requerirse otra información, deberá ser solicitada por escrito al Usuario Directo, la cual deberá ser entregada en un plazo de 15 días hábiles. La remisión anual de la información a la Dirección, deberá hacerse a más tardar 30 días hábiles después de finalizado el año. La DGA se reserva la facultad de requerir información documental diferente y/o adicional…" | For the Art. 47 a) obligations, "operations" means the ANNUAL CONSOLIDATED information on exports and imports of the beneficiary's own or third parties' goods performed by any usuario directo of the parque or centro; "inventory and its movements" means all information on goods consolidated annually, IN THE FORM (formulario) THE DIRECCIÓN DETERMINES. Other information, if required, is requested IN WRITING from the usuario directo and delivered within 15 días hábiles. The ANNUAL REMISSION of the information is made AT LATEST 30 días hábiles AFTER THE END OF THE YEAR. The DGA reserves the power to require different and/or additional documentary information | `sv/sources/17b_Reglamento_Servicios_Internacionales.pdf` | Art. 44 pp.15-16 (EVID-266; txt PAGE 15-16; SOQ-30 print) |
 | LB-021 | Ley Orgánica de la DGA (13_), Art. 19: "El control aduanero podrá desarrollarse de las siguientes maneras: a) Control inmediato; b) Control a posteriori; y, c) Control permanente… Por control a posteriori, se entenderá aquél que se ejerce respecto de las operaciones aduaneras, los actos derivados de ellas, las declaraciones aduaneras, las determinaciones de las obligaciones tributarias aduaneras, los pagos de los tributos y la actuación de los auxiliares de la función pública aduanera… dentro del plazo de caducidad… Asimismo, dentro de las actividades de control a posteriori, las autoridades fiscalizadoras podrán verificar el manejo de inventarios, los métodos de valuación y registro del mismo… Por control permanente, se entenderá aquél que se ejerce en cualquier momento sobre los auxiliares de la función pública aduanera, respecto del cumplimiento de sus requisitos de operación, deberes y obligaciones. Se ejercerá también sobre las mercancías que, con posterioridad al levante o retiro, permanezcan sometidas a alguno de los regímenes aduaneros suspensivos o liberatorios, a efecto de fiscalizar y verificar el cumplimiento de las condiciones de permanencia, uso y destino de tales mercancías." | Customs control may develop as: a) immediate control; b) A-POSTERIORI control; c) PERMANENTE control. A-posteriori control is exercised over customs operations, their derivative acts, customs declarations, determinations of customs tax obligations, tribute payments and the performance of the customs auxiliaries — within the caducidad term; within a-posteriori activities the fiscalization authorities may VERIFY INVENTORY HANDLING, VALUATION AND REGISTRATION METHODS. Permanente control is exercised at any moment over the auxiliaries' operating requirements, duties and obligations, and ALSO over goods that, after levante or withdrawal, remain under SUSPENSIVE OR LIBERATORY customs regimes — to fiscalize and verify compliance with the conditions of PERMANENCE, USE AND DESTINATION of such goods | `sv/sources/13_Ley_Organica_Aduanas.pdf` | Art. 19 pp.10-11 (EVID-268; txt PAGE 10-11; SOQ-30 print) |
 | LB-022 | Ley de Simplificación Aduanera (74_), Art. 13 (retention-kin fragment): "…EL TIEMPO EN QUE SE DEBERÁN TENER A DISPOSICIÓN LOS REGISTROS CONTABLES, REGISTROS ESPECIALES Y LA DOCUMENTACIÓN DE RESPALDO… SERÁ DE CINCO AÑOS." | The time during which accounting records, special records and support documentation must remain at the customs authority's disposal is FIVE YEARS (the customs retention floor — kin anchor for the LSI 5-year manifiesto/contractual-document retention flags of this file; the canonical retention-matrix row is commercial-legal/02 §3.7 by id, noted there by `06`'s SV-SPE-FR-126 — never restated here) | `sv/sources/74_Ley_Simplificacion_Aduanera_D529.pdf` | Art. 13 p.12 (EVID-271; txt PAGE 12; SOQ-30 print) |
+| LB-023 | LESIA (79_), Art. 3: "las infracciones aduaneras se clasifican en administrativas, tributarias y penales. SON INFRACCIONES ADMINISTRATIVAS AQUELLOS ACTOS U OMISIONES… SIN QUE PUEDAN OCASIONAR UN PERJUICIO FISCAL. SON INFRACCIONES TRIBUTARIAS… QUE PUEDAN OCASIONAR UN PERJUICIO FISCAL, SIN QUE LLEGUEN A TIPIFICARSE COMO DELITO. SON INFRACCIONES PENALES LAS ACCIONES U OMISIONES DOLOSAS O CULPOSAS TIPIFICADAS COMO DELITO…". "LAS CONDUCTAS… SE SANCIONARÁN EN FORMA INDEPENDIENTE, AUN CUANDO TENGAN ORIGEN EN UNA MISMA DECLARACIÓN DE MERCANCÍAS, APLICANDO LA SANCIÓN PREVISTA PARA CADA INFRACCIÓN ESPECÍFICA, SIN PERJUICIO QUE PUEDA HACERSE EN UN SOLO ACTO." Art. 6: "LAS INFRACCIONES TIPIFICADAS EN EL ARTÍCULO ANTERIOR SERÁN SANCIONADAS CON UNA MULTA EQUIVALENTE A CINCUENTA DÓLARES DE LOS ESTADOS UNIDOS DE AMÉRICA (US$50.00), SALVO LAS INFRACCIONES ESTABLECIDAS EN LOS LITERALES c), d), e), f), m), n), o), p), Y y) LAS QUE SERÁN SANCIONADAS CON UNA MULTA EQUIVALENTE AL 0.5% SOBRE EL PATRIMONIO O CAPITAL CONTABLE QUE FIGURE EN EL BALANCE GENERAL MENOS EL SUPERÁVIT POR REVALÚO DE ACTIVOS NO REALIZADO, LA QUE NO PODRÁ SER INFERIOR A UN SALARIO MÍNIMO MENSUAL, CORRESPONDIENTE AL SECTOR COMERCIO. ASIMISMO, LAS INFRACCIONES CONTEMPLADAS EN LOS LITERALES i), j), k), Y ñ) SERÁN SANCIONADAS CON UNA MULTA EQUIVALENTE A TRES SALARIOS MÍNIMOS MENSUALES CORRESPONDIENTES AL SECTOR COMERCIO…" (registry-inexactitude: "LA DIRECCIÓN GENERAL SUSPENDERÁ EL ACCESO DEL INFRACTOR AL SISTEMA INFORMÁTICO…"; balance mechanics + auditor signature + refusal-fallback 3 SMM; tránsito literal a): "MULTA EQUIVALENTE A SEIS SALARIOS MÍNIMOS MENSUALES ASIGNADOS AL SECTOR COMERCIO… LA REINCIDENCIA… INCREMENTARÁ LA MULTA EN UN CINCUENTA POR CIENTO" + annual fianza "EQUIVALENTE AL VALOR TOTAL DE LA MERCADERÍA TRANSPORTADA EN EL AÑO ANTERIOR… MÁS LOS CORRESPONDIENTES DERECHOS E IMPUESTOS"; courier: "LOS CASOS DE ENVÍOS DE BAJO VALOR… NO ESTARÁN SUJETOS A LAS MULTAS… MONTOS IGUALES O MENORES A CINCUENTA DÓLARES… (US$50.00) DEL VALOR FOB"). Art. 53: "Para la cuantificación de las sanciones pecuniarias cuya aplicación se establezca con base en el salario mínimo fijado por la autoridad competente, deberá considerarse el salario mínimo mensual para el comercio y la industria en la ciudad, vigente a la fecha en que se haya cometido la infracción." | Art. 3 — customs infringements classify as ADMINISTRATIVE (no fiscal damage possible), TAX (fiscal damage below crime) and PENAL (statutory crimes); conducts are sanctioned INDEPENDENTLY even when originating in the same DM, applying each specific infraction's sanction (single administrative act permitted). Art. 6 — administrativa multas: flat US$50.00 default; 0.5% of equity/contable capital per the general balance (minus unrealized revaluation surplus), floor ONE comercio-sector SMM, for literals c)/d)/e)/f)/m)/n)/o)/p)/y); THREE comercio-sector SMM for literals i)/j)/k)/ñ) [k) repealed — as printed] and as the no-balance/refusal fallback; registry inexactitude additionally suspends the infractor's DGA-system access; literal a) tránsito breaches: SIX comercio-sector SMM, recidivism +50%, recidivist transportists render an ANNUAL BOND for the value of goods transported in the prior year plus duties/taxes; express-courier low-value shipments (≤ US$50.00 FOB) NOT subject to these multas. Art. 53 — SMM-based pecuniary sanctions quantify against the COMERCIO E INDUSTRIA (city) monthly minimum wage current at the infraction date | `sv/sources/79_Ley_Sancionar_Infracciones_Aduaneras_DL551.pdf` | Art. 3 p.3; Art. 6 pp.7-8; Art. 53 p.28 (EVID-359/360; txt PAGE 3/7-8/28; INDICE print through D.L. 588-2008 — OQ-6) |
+| LB-024 | LESIA (79_), Art. 8 a) (fragment, tolerance regime): granel "se considerará una tolerancia máxima del 5% del peso total… pero se hará efectivo el cobro de los derechos e impuestos"; non-granel "MARGEN DE TOLERANCIA MÁXIMA DEL 3% SOBRE LOS PARÁMETROS DE CANTIDAD, VOLUMEN, PESO O VALOR… APLICÁNDOSE EL MÁS FAVORABLE AL IMPORTADOR… PERO SE HARÁ EFECTIVO EL COBRO…", both "SIEMPRE Y CUANDO EL IMPORTADOR HAYA EFECTUADO LA DECLARACIÓN DE MERCANCÍAS PREVIAMENTE AL INGRESO… Y NO HAYA EFECTUADO INSPECCIÓN PREVIA ALGUNA"; "EN EL CASO QUE EL EXCEDENTE SEA MAYOR DEL 3% PERO EL IMPUESTO QUE SE DEBE PAGAR NO EXCEDA DE CIEN DÓLARES… (US$100.00), SE APLICARÁ UNA SANCIÓN EQUIVALENTE AL 100% DEL IMPUESTO DEJADO DE PAGAR". Art. 8 f): "LA TRANSFERENCIA DE DOMINIO O LA ENTREGA DE MERCANCÍAS AMPARADAS EN LOS REGÍMENES DE ZONAS FRANCAS, ADMISIÓN TEMPORAL PARA PERFECCIONAMIENTO ACTIVO Y DEPÓSITO DE ADUANAS, A PERSONAS DOMICILIADAS EN EL PAÍS, SIN LA AUTORIZACIÓN CORRESPONDIENTE O EL PAGO DE DERECHOS E IMPUESTOS APLICABLES CUANDO PROCEDA". Art. 9: "LAS CONDUCTAS TIPIFICADAS EN LOS LITERALES a), b), c), d) Y e) DEL ARTÍCULO ANTERIOR, SOLAMENTE CONSTITUIRÁN INFRACCIÓN TRIBUTARIA CUANDO EL PERJUICIO FISCAL PROVOCADO NO SOBREPASE LA CANTIDAD DE DOSCIENTOS DIECIOCHO MIL SETECIENTOS CINCUENTA COLONES (¢218,750.00) O SU EQUIVALENTE EN DÓLARES DE LOS ESTADOS UNIDOS DE AMÉRICA. CUANDO EL PERJUICIO FISCAL SEA SUPERIOR A DICHA SUMA, SE ESTARÁ A LO DISPUESTO EN EL ART. 22 DE ESTA LEY." + "En el caso de los literales c), e), f) y h) del artículo anterior, se presumirá legalmente que ha existido transferencia de dominio, cuando al practicar fiscalizaciones en los almacenes, bodegas o instalaciones de los beneficiarios del régimen aduanero respectivo, se determinen faltantes de mercancías que no hubieran sido debidamente justificados." Art. 10: "Sin perjuicio del pago de los derechos e impuestos que se adeuden, las infracciones tributarias serán sancionadas con una multa equivalente al 300% de los derechos e impuestos evadidos o que se pretendieron evadir. Cuando el perjuicio fiscal ocasionado sea inferior a cinco mil colones o su equivalente en Dólares…, la multa aplicable será equivalente al doscientos por ciento…". Art. 11: vehicles — literal j) "tres salarios mínimos por cada mes o fracción de mes que el vehículo usado permanezca en el país…"; literal n) "cien por ciento de los derechos e impuestos a la importación que correspondan al vehículo, calculado a la fecha de vencimiento del plazo de noventa días" | Art. 8 a) — tolerance margins (granel 5% weight; non-granel 3% of quantity/volume/weight/value, most favorable to the importer) conditioned on PRE-ARRIVAL declaration and no prior inspection: they suppress the SANCTION but never the collection of duties/taxes on the excess; excess >3% with tax ≤ US$100 → sanction = 100% of the unpaid tax. Art. 8 f) — transfer/delivery of ZF/ATPA/depósito goods to domestically-domiciled persons without authorization or payment = tax infraction (the descargo-register/prevention kin). Art. 9 — Art. 8 a)-e) conducts stay TAX infractions only while perjuicio fiscal ≤ ¢218,750.00 (= US$25,000; pegged print — Art. 22 states USD directly); above that → Art. 22 CRIME; unjustified FALTANTES at regime beneficiaries' premises legally PRESUME transfer of dominio (couples literal f) to the inventory registers). Art. 10 — multa = 300% of evaded duties/taxes (200% when damage < ¢5,000 ≈ US$571.43), besides the duties owed. Art. 11 — used-vehicle specials: 3 SMM per month-or-fraction overstaying; 100% of the vehicle's duties for the 90-day distributor breach | `sv/sources/79_Ley_Sancionar_Infracciones_Aduaneras_DL551.pdf` | Art. 8 pp.9-12; Art. 9 p.12; Art. 10 p.12; Art. 11 p.12 (EVID-361/362; txt PAGE 9-12; INDICE print through D.L. 588-2008 — OQ-6) |
+| LB-025 | LESIA (79_), Art. 22: "CUANDO LAS CONDUCTAS CONTEMPLADAS EN LOS LITERALES a), b), c), d) Y e), DEL ART. 8 DE ESTA LEY, PROVOQUEN UN PERJUICIO FISCAL SUPERIOR A VEINTICINCO MIL DÓLARES DE LOS ESTADOS UNIDOS DE AMÉRICA ($25,000.00), DICHAS CONDUCTAS CONSTITUIRÁN DELITO DE DEFRAUDACIÓN DE LA RENTA DE ADUANAS, EL CUAL SE SANCIONARÁ CON UNA PENA DE CUATRO A SEIS AÑOS DE PRISIÓN. EN IGUAL SANCIÓN INCURRIRÁ QUIEN CON LA INTENCIÓN DE OBTENER EXENCIONES O BENEFICIOS FISCALES O EVADIR LOS DERECHOS E IMPUESTOS Y DEMÁS CARGOS QUE SE COBRAN EN RAZÓN DE LA IMPORTACIÓN, PRESENTE DOCUMENTOS DE ACOMPAÑAMIENTO DE LA DECLARACIÓN DE MERCANCÍAS, FALSOS O ALTERADOS, SIN IMPORTAR LA CUANTÍA DEL PERJUICIO FISCAL. SE ENTENDERÁN DOCUMENTOS DE ACOMPAÑAMIENTO DE LA DECLARACIÓN, AQUELLOS QUE RESPALDEN LA OPERACIÓN ADUANERA DE IMPORTACIÓN Y SIRVAN DE SUSTENTO DE LOS DATOS CONSIGNADOS EN LA MISMA, TALES COMO: CERTIFICADO O CERTIFICACIÓN DE ORIGEN, FACTURA, DOCUMENTO DE TRANSPORTE, DECLARACIÓN DE VALOR, CUANDO PROCEDA Y OTROS DOCUMENTOS EXIGIDOS… EN LA LEGISLACIÓN NACIONAL Y EN LOS ACUERDOS, CONVENIOS, TRATADOS Y OTROS INSTRUMENTOS EN MATERIA DE COMERCIO VIGENTES. (1) (3) (4)" | Art. 8 a)-e) conducts with fiscal damage OVER US$25,000.00 constitute the CRIME OF DEFRAUDACIÓN DE LA RENTA DE ADUANAS — penalty FOUR TO SIX YEARS' IMPRISONMENT; the SAME penalty applies to whoever, intending to obtain exemptions/fiscal benefits or evade import duties/taxes/charges, presents FALSE OR ALTERED accompanying documents of the DM REGARDLESS of the damage amount — accompanying documents = those supporting the importation and sustaining the declared data: origin certificate/certification, invoice, transport document, declaration of value when applicable, and other documents required by national legislation and trade instruments | `sv/sources/79_Ley_Sancionar_Infracciones_Aduaneras_DL551.pdf` | Art. 22 pp.17-18 (EVID-365; txt PAGE 17-18; the article 12_ Art. 40-A cites — LB-012's consumer anchor; INDICE print through D.L. 588-2008 — OQ-6) |
+| LB-026 | LESIA (79_), Art. 13: "a) La caducidad de la exención de derechos e impuestos, en la importación de las mercancías objeto de las infracciones previstas en los literales c) y d) del artículo 8 de esta Ley, y como consecuencia, el infractor estará obligado al pago de los derechos e impuestos a la importación, vigentes a la fecha en que se aceptó la correspondiente Póliza o Declaración de Mercancías de Importación Definitiva a Franquicia; y, b) Suspensión temporal de las autorizaciones para operar bajo los regímenes de admisión temporal para perfeccionamiento activo, zonas francas, y tiendas libres, así como para administrar zonas francas, hasta por seis meses, cuando el infractor hubiere incurrido en la comisión de tres infracciones tributarias en un lapso de un año. La reincidencia en la causal de suspensión… se constituirá en una causal de revocatoria… se considerará reincidente quien incurra por segunda ocasión en una causal de suspensión dentro del período de cinco años… El Director General, será la autoridad competente… tiendas libres… En el caso de los regímenes de admisión temporal para perfeccionamiento activo y Zonas Francas, las suspensiones o revocatorias… serán impuestas por el Ministerio de Economía." Art. 14: "a) NO SE APLICARÁ SANCIÓN ALGUNA, CUANDO EL QUE COMETIERE UNA INFRACCIÓN ADMINISTRATIVA O TRIBUTARIA, LA RECONOCIERE Y SUBSANARE POR VOLUNTAD PROPIA Y SIEMPRE QUE NO SE HAYA DISPUESTO O INICIADO EL EJERCICIO DE LA VERIFICACIÓN INMEDIATA, VERIFICACIÓN DE ORIGEN, FISCALIZACIÓN A POSTERIORI O SE HAYA EMITIDO UNA RESOLUCIÓN MODIFICANDO O REVOCANDO UNA RESOLUCIÓN O CRITERIO ANTICIPADO BASADO EN INFORMACIÓN INCORRECTA O FALSA…; b) Cuando el que cometiere… aceptara por escrito los cargos durante la audiencia de 15 días… la sanción será atenuada en un cincuenta por ciento. No se aplicará la atenuante… a quien sea reincidente… dentro del plazo de seis meses…" | Art. 13 — consequences for tax-infraction subjects: a) EXEMPTION CADUCITY for Art. 8 c)/d) goods, obliging payment of import duties at the rates current on the ACCEPTANCE date of the corresponding franquicia definitive-import declaration/policy; b) TEMPORARY SUSPENSION up to SIX MONTHS of the authorizations to operate ATPA, ZONAS FRANCAS and tiendas libres (and to administer zonas francas) upon THREE tax infractions within ONE year; recidivism (a second suspension causal within FIVE years of the first) = REVOCATION ground — tiendas libres imposed by the Director General; ATPA/ZF by the MINISTERIO DE ECONOMÍA. Art. 14 — responsibility modifiers: NO sanction when the infractor recognizes and cures the breach voluntarily BEFORE any immediate verification, origin verification, a-posteriori fiscalization or advance-ruling revocation has been initiated; 50% ATTENUATION for written acceptance of charges during the 15-day hearing (barred for recidivists within six months of having enjoyed the benefit) | `sv/sources/79_Ley_Sancionar_Infracciones_Aduaneras_DL551.pdf` | Art. 13 p.13; Art. 14 pp.13-14 (EVID-363; txt PAGE 13-14; INDICE print through D.L. 588-2008 — OQ-6) |
+| LB-027 | LESIA (79_), Art. 29: "La Dirección General suspenderá a los auxiliares de la función pública aduanera hasta por noventa días en el ejercicio de su función…" causes a)-h) incl. d) inexact declaration injuring fiscal interest (safe harbor for documents delivered by the declarant without reason to doubt); e) inexact suspensive-regime declarations when suspended duties "exceda de cien mil colones o su equivalente en dólares"; f) firm unpaid tributary obligations (suspension while the incumplimiento subsists); g) un-renewed fianza; h) "HABER COMETIDO MÁS DE DOS INFRACCIONES TRIBUTARIAS EL AGENTE DE ADUANAS O DESPACHANTE ADUANERO EN UN LAPSO DE 6 MESES…" + "el auxiliar no podrá iniciar nuevas operaciones, sino solamente concluir las que tuviera ya iniciadas". Art. 30: cancelación causes a)-f) incl. b) consigning the name/domicilio/NIT/NRC of a person who did not request the auxiliar's services; f) "POR DELEGAR SUS FUNCIONES A PERSONAS NO AUTORIZADAS POR LA DIRECCIÓN GENERAL PARA REALIZAR LA TRANSMISIÓN ELECTRÓNICA DE LA DECLARACIÓN, MEDIANTE LA REVELACIÓN Y ACCESO DE SU CLAVE O FIRMA ELECTRÓNICA". Art. 54: "…son considerados como auxiliares de la función pública aduanera los agentes de aduana, los despachantes o apoderados especiales aduaneros, los transportistas y agentes de transporte, los depositarios, los administradores de zonas francas y cualquier otra persona a quien la legislación aduanera le otorgue expresamente esa calidad" + DGA keeps "un registro actualizado de los funcionarios… y de los auxiliares… que han sido objeto de sanciones" | Art. 29 — DGA suspends customs-public-function AUXILIARIES up to NINETY DAYS for the listed causes (provisional detention; mandate breach; unaccredited representation; inexact declarations — with the declarant-document safe harbor; suspensive-regime inexactitude over ¢100,000 (≈ US$11,428.57 — colones print); firm unpaid obligations, while subsisting; un-renewed bond, until renewed; agentes/despachantes with MORE THAN TWO tax infractions in SIX months); suspended auxiliaries may only conclude operations already initiated. Art. 30 — CANCELATION of the authorization (firm participation with prohibited goods; consigning an un-engaged person's data; condemnation for crimes against the Hacienda Pública; letting third parties act under the authorization; 5-year recidivism in the f) cause; DELEGATING electronic-declaration transmission by revealing the access key/electronic signature). Art. 54 — auxiliares = customs agents, despachantes/special customs attorneys, transportists and transport agents, depositaries, FREE-ZONE ADMINISTRATORS and others expressly qualified; DGA maintains a sanctions registry | `sv/sources/79_Ley_Sancionar_Infracciones_Aduaneras_DL551.pdf` | Art. 29 pp.20-21; Art. 30 p.21; Art. 54 p.28 (EVID-367; txt PAGE 20-21/28; INDICE print through D.L. 588-2008 — OQ-6) |
+| LB-028 | LESIA (79_), Art. 31: the attributed infractor may contest "CONFORME AL PROCEDIMIENTO ESTABLECIDO EN EL ART. 17 DE LA LEY DE SIMPLIFICACIÓN ADUANERA", apertura notified with "EL CONTENIDO INTEGRO DE LA HOJA DE DISCREPANCIAS O DE UN INFORME DE FISCALIZACIÓN O INVESTIGACIÓN"; express written acceptance → resolution "INMEDIATAMENTE DESPUÉS DE DICHA ACEPTACIÓN"; "EL PLAZO DE QUINCE DÍAS HÁBILES QUE OTORGA EL ART.17 DE LA LEY DE SIMPLIFICACIÓN ADUANERA, OPERARÁ COMO PLAZO DE AUDIENCIA Y PRUEBA"; goods release "PREVIO RENDIMIENTO DE LA GARANTÍA O FIANZA RESPECTIVA… CONFORMADO POR LOS DERECHOS E IMPUESTOS QUE HABRÍAN DEJADO DE PERCIBIRSE Y LA MULTA APLICABLE". Art. 32: rights a)-f) (charge notification; petition; contradiction — legal evidence, hearing, reasoned decision, recursos; expediente access; innocence presumption; prior procedure). Art. 36: for Art. 5 c)/d)/e)/f), the sealed request and the technician's act/informe "CONSTITUIRÁN PLENA PRUEBA"; "EL REQUERIDO CONTARÁ CON UN PLAZO DE DIEZ DÍAS HÁBILES, CONTADOS A PARTIR DEL DÍA SIGUIENTE AL RECIBO DE DICHA SOLICITUD". Art. 33 (final ¶): "La facultad sancionatoria de la autoridad aduanera prescribirá en un plazo de cinco años contados a partir de la fecha de la comisión de la infracción… o de la fecha en que se descubra… Dicho término de prescripción se interrumpirá desde que se notifique… la Hoja de Discrepancias o el Informe de Fiscalización…". Art. 37 (final ¶): "…la multa deberá ser cancelada dentro de los ocho días hábiles siguientes a la fecha en que dicha resolución adquiera estado de firmeza. Vencido dicho plazo, se causarán los intereses moratorios respectivos." Art. 38: "…suspensión de nuevos despachos de mercancías de los consignatarios o declarantes que hayan sido sancionados pecuniariamente, en tanto no cancelen… salvo que exista recurso pendiente de resolución." | Art. 31 — LESIA's sanctioning PROCEDURE rides the 74_ Art. 17 chassis (the same clocks `06`'s FR-128 owns): apertura with the FULL discrepancy sheet/fiscalization/investigation report; the 15-días-hábiles term operates as hearing-and-proof term; express written acceptance yields an IMMEDIATE resolution; contested goods releasable any time on a guaranty covering unperceived duties + applicable multa. Art. 32 — due-process rights (charge notice, petition, contradiction with evidence/hearing/reasoned decision/recourses, expediente access, innocence presumption, prior procedure). Art. 36 — for the document-custody/control/refusal literals the sealed information request or the technician's act/informe is FULL PROOF; 10 días hábiles to answer DGA requests. Art. 33 — sanctioning power prescribes in FIVE years from commission (or discovery), interrupted by notification of the discrepancy sheet/fiscalization report (tracker consumed from `06` FR-178 by id). Art. 37 — multas payable within EIGHT días hábiles of FIRMEZA, moratory interest after. Art. 38 — suspension of NEW despachos for pecuniarily sanctioned consignees/declarants until paid, save pending recourse (consumed from `06` FR-177 by id) | `sv/sources/79_Ley_Sancionar_Infracciones_Aduaneras_DL551.pdf` | Art. 31 pp.21-22; Art. 32 pp.22-23; Art. 33 p.23; Art. 36 p.24; Art. 37 p.24; Art. 38 p.24 (EVID-368/369; txt PAGE 21-24; INDICE print through D.L. 588-2008 — OQ-6) |
 
 ## 3. Functional Requirements
 
@@ -356,15 +392,23 @@ sidecar rows and snapshots on the sanction record.
   regime (from `04`'s per-DM clocks and `06`'s DUCA records by id),
   their cancellation/descargo demonstration state (linked to the FR-132
   register) and the duties-and-taxes payment state for goods whose
-  cancellation or discharge is NOT demonstrated; the statutory crime
-  consequence — closure or abandonment WITHOUT notifying the DGA and
-  effecting the imposed cancellations constitutes the DELITO DE
-  DEFRAUDACIÓN DE LA RENTA DE ADUANAS per Art. 22 LESIA — is recorded
-  as a POINTER FLAG ONLY (SOQ-32/OQ-2: LESIA absent; zero crime
-  elements, procedure or sanction mechanics invented); the Art. 40
+  cancellation or discharge is NOT demonstrated; **W19 anchor (SOQ-32
+  consumed — 79_ Art. 22 = LB-025):** the statutory crime consequence —
+  closure or abandonment WITHOUT notifying the DGA and effecting the
+  imposed cancellations constitutes the DELITO DE DEFRAUDACIÓN DE LA
+  RENTA DE ADUANAS per Art. 22 LESIA — is recorded as an ANCHORED
+  pointer flag: elements = Art. 8 a)-e) conduct with perjuicio fiscal
+  OVER US$25,000.00 (dated literal; the colones twin ¢218,750.00 noted
+  as printed) → pena 4-6 años prisión, OR false/alterated accompanying
+  documents (origin certificate/certification, factura, transport
+  document, declaración de valor, otros exigidos) with
+  exemption/evasion intent REGARDLESS of amount — penal procedure and
+  pena execution stay authority-side (zero mechanics restated); the
+  crime-threshold gate on sanction records is owned by FR-181 by id;
+  the Art. 40
   judicial abandono procedure is an informational note (judicial forum,
   not an Odoo surface).
-  (LB-012; EVID-258; SOQ-32)
+  (LB-012; LB-025; EVID-258/365)
 
 ### 3.3 LSI obligations — Arts. 46-49 catalogs (14_ Arts. 46-49)
 
@@ -582,9 +626,11 @@ sidecar rows and snapshots on the sanction record.
   the benefits and — on reincidencia attributable to the beneficiary —
   revocatoria; the Odoo surface records the incoming resolution
   reference, the Minister's decision and the state stamp (`01` by id) —
-  the crime-configuration thresholds themselves are LESIA/other-law
-  territory (SOQ-32 pointer; zero mechanics).
-  (LB-016; EVID-264; SOQ-32)
+  **W19 anchor (SOQ-32 consumed):** the "montos… para la configuración
+  de delito" threshold = the LESIA Art. 22 US$25,000.00 perjuicio-fiscal
+  literal (LB-025; the crime-threshold gate is owned by FR-181 by id) —
+  penal procedure mechanics stay authority-side (pointer discipline).
+  (LB-016; LB-025; EVID-264/365)
 
 ### 3.6 DGA a-posteriori/permanente control backdrop (13_ Art. 19)
 
@@ -603,12 +649,138 @@ sidecar rows and snapshots on the sanction record.
   frame makes load-bearing.
   (LB-021; EVID-268)
 
+### 3.7 LESIA sanction taxonomy (79_ — W19; SOQ-32 consumed)
+
+- **SV-SPE-FR-179:** The system shall model the LESIA (Ley Especial
+  para Sancionar Infracciones Aduaneras) sanction domain as a
+  customs-infracción record family DISTINCT from the ZF/LSI
+  own-regime sanction ladders of FR-140/162 (parallel families, never
+  shared config): every recorded customs infraction carries its
+  statutory CLASS per the Art. 3 triad — administrativa (conducts
+  unable to cause fiscal damage), tributaria (fiscal damage below the
+  crime threshold), penal (statutory crimes — pointer records only) —
+  with the INDEPENDENT-SANCTIONING rule encoded: conducts originating
+  in the same DM sanction separately, each under its own priced row,
+  single administrative act permitted (one procedure, N sanction rows);
+  the principles of Art. 1 ride the family as metadata (tipicidad = no
+  analogy-imposed sanctions; non bis in idem = one sanction per
+  conduct-subject-fundament identity; favorable-retroactivity
+  exception), and the record's prescripción, payment and enforcement
+  clocks are consumed from `06` FR-177/178 BY ID (never restated).
+  (LB-023; LB-028; EVID-359)
+- **SV-SPE-FR-180:** The system shall carry the LESIA administrativa
+  multa formulas as DATED pricing rows keyed by conduct literal (Art.
+  5 conducts, Art. 6 pricing): flat US$50.00 default; 0.5% of the
+  patrimonio o capital contable per the signed general balance (minus
+  unrealized revaluation surplus) — balance of the infraction's
+  economic year (prior year if unclosed), CVCPA-authorized-auditor
+  signature, refusal-or-no-balance fallback 3 SMM — with a floor of 1
+  SMM, for the c)/d)/e)/f)/m)/n)/o)/p)/y) tier; 3 SMM for the
+  i)/j)/ñ) tier (the print also names repealed k) — as-printed note,
+  no k)-conduct priced); 6 SMM for literal-a) tránsito breaches with
+  +50% on reincidencia and the recidivist's ANNUAL FIANZA (prior-year
+  transported-goods value + duties/taxes, 1-year clean-record release)
+  as a consequence event; express-courier shipments ≤ US$50.00 FOB
+  exempt from these multas; registry-inexactitude adds the
+  DGA-system-access suspension state; and the LESIA SMM UNIT resolves
+  as its OWN dated lookup — "salario mínimo mensual para el comercio y
+  la industria en la ciudad" at the infraction date (Art. 53; dated
+  row, snapshot on the sanction) — DISTINCT from the FR-141
+  mayor-cuantía unit consumed from payroll/02 (never merged, never
+  restated).
+  (LB-023; EVID-360)
+- **SV-SPE-FR-181:** The system shall carry the LESIA tributaria
+  pricing and jurisdiction gates as dated rows: multa = 300% of the
+  evaded duties and taxes (200% when perjuicio fiscal < ¢5,000 ≈
+  US$571.43 — colones print noted), always ON TOP of the duties owed;
+  the TOLERANCE MARGINS gate — granel 5% of total weight; non-granel
+  3% of quantity/volume/weight/value (most favorable to the importer),
+  conditioned on pre-arrival declaration AND no prior inspection —
+  suppresses the sanction but never the collection of duties/taxes on
+  the excess, and an excess >3% with unpaid tax ≤ US$100.00 prices at
+  100% of that tax; the CRIME-THRESHOLD gate — Art. 8 a)-e) conducts
+  with perjuicio fiscal OVER US$25,000.00 (¢218,750.00 twin as
+  printed) leave the tributaria class for the Art. 22 defraudación
+  crime (penal referral record; pena 4-6 años authority-side — FR-148/
+  164 consume this gate by id); the FALTANTES PRESUMPTION —
+  unjustified inventory shortfalls found at regime beneficiaries'
+  premises legally presume transfer of dominio for the c)/e)/f)/h)
+  conducts, consuming the FR-132 descargo pending balances and FR-135
+  irregularity registry by id as its evidence surface; and the
+  used-vehicle specials (3 SMM per month-or-fraction overstaying;
+  100% of the vehicle's duties at the 90-day expiry) as dated literal
+  rows.
+  (LB-024; LB-025; EVID-361/362/365)
+- **SV-SPE-FR-182:** The system shall implement the LESIA consequence
+  and modifier set: the EXEMPTION CADUCIDAD consequence for Art. 8
+  c)/d) conducts — the exemption lapses and the infractor owes import
+  duties at the rates of the franquicia DM's ACCEPTANCE date (dated
+  rate-anchor rule on the sanction record); the 3-TRIBUTARIAS-IN-1-YEAR
+  suspension — temporary suspension up to SIX MONTHS of the
+  authorizations to operate ATPA, zonas francas and tiendas libres
+  (and administer zonas francas), with revocatoria on a second
+  suspension causal within FIVE years — imposed by MINEC for
+  ATPA/ZF (stamping `01`'s benefit state by id; a LESIA-sourced
+  consequence family kept DISTINCT from the 12_/14_ Art. 36/52
+  ladders of FR-140/162, never merged config) and by the Director
+  General for tiendas libres; the SELF-CORRECTION modifier — no
+  sanction when the breach is recognized and cured voluntarily BEFORE
+  any verification/fiscalization/advance-ruling-revocation initiates
+  (event-state guard on the record); and the 50% ATTENUATION for
+  written acceptance of charges during the 15-day hearing (per the
+  FR-183 procedure), barred on six-month reincidencia.
+  (LB-026; EVID-363)
+- **SV-SPE-FR-183:** The system shall record the LESIA sanctioning
+  procedure states on the infracción family, consuming `06`'s FR-128
+  chassis BY ID (Art. 31 LESIA explicitly rides the 74_ Art. 17
+  procedure — 15-días-hábiles hearing-and-proof term, 20-días-hábiles
+  resolution and notification; never restated here): the aperture with
+  the FULL hoja de discrepancias/informe content; the EXPRESS WRITTEN
+  ACCEPTANCE fast track (resolution immediately after acceptance —
+  pricing per FR-182's attenuation); the GARANTÍA-RELEASE of contested
+  goods at any time (bond = unperceived duties + applicable multa) as
+  a release-reference field; the Art. 32 due-process rights as record
+  metadata; the Art. 36 plena-prueba rule (sealed information request
+  or technician's act/informe = full proof for the document-custody
+  and control literals) with the 10-días-hábiles request-response
+  clock; and the Art. 33 prescripción tracker + Art. 37/38
+  payment-enforcement states consumed from `06` FR-177/178 by id
+  (firmeza payment clock, moratory interest, new-despacho suspension
+  with the recurso-pendiente carve-out per the FR-128 recourse
+  metadata).
+  (LB-028; EVID-368/369/370)
+- **SV-SPE-FR-184:** The system shall carry the LESIA
+  auxiliares-enforcement ladder for the customs-auxiliary profiles of
+  the declarante-role config (`01` SV-SPE-FR-020 by id — agentes de
+  aduana, despachantes/apoderados especiales aduaneros, transportistas
+  and agentes de transporte, depositarios, administradores de zonas
+  francas per the Art. 54 definition): an authorization state (active ·
+  suspended ≤90d · cancelled) with its cause catalog per Arts. 29/30 —
+  suspension causes incl. the declarant-document safe harbor for
+  inexact declarations, the ¢100,000-colones suspensive-inexactitude
+  threshold (as printed), firm-unpaid-obligation and un-renewed-fianza
+  causes (suspension while the cause subsists), and the
+  agente/despachante >2-tributarias-in-6-months cause, with the
+  suspended auxiliary only concluding initiated operations;
+  cancelación causes incl. consigning an un-engaged person's
+  name/domicilio/NIT/NRC and DELEGATING the electronic-declaration
+  transmission by revealing the access key or electronic signature
+  (the penal twin of `06`'s FR-115 confidentiality flags); plus the
+  Art. 54 DGA sanctions-registry reference as authority-side mirrored
+  metadata (never emulated).
+  (LB-027; EVID-366/367)
+
 ## 4. Data Model
 
 Layer semantics: the obligations/reporting/sanction surfaces are
 Odoo-native records and dated config rows under the
 `l10n_sv_special_regime.*` namespace (segregation rides stock locations/
-lots); every FR maps `odoo` (see §5). The DGA/MINEC/MH are external
+lots); every FR maps `odoo` (see §5). **W19 namespace note:** the LESIA
+sanction family of §3.7 lives under `l10n_sv_customs.*` — customs
+sanctions attach to declarations/declarants (the `06` namespace), not to
+regime beneficiaries; this file owns their specification, `06`'s
+FR-177/178 own the shared declaration-side clocks. The DGA/MINEC/MH are
+external
 authorities: the model produces registers, reports and exports at their
 disposal and records authority-issued facts (notifications, resolutions,
 deregistrations) — it does not emulate their systems. No printed data
@@ -664,6 +836,18 @@ none per plan).
 | l10n_sv_special_regime.annual_ops_report | year · operaciones_group · inventario_group · due_on · presented | year · computed · config slot · date (30 días hábiles post-year; engine by id) · select | formulario de la Dirección = DACG config slot (SOQ-44); written-request items deliverable ≤15 días hábiles | FR-159 |
 | l10n_sv_special_regime.dacg_extension | reference · valid_from · scope | char · date · select | Art. 28 final / Art. 44 extension rows — dated config on acquisition, NO shipped defaults | FR-160 |
 
+**LESIA sanction family (l10n_sv_customs.lesia_* — W19; specification owned here, namespace shared with `06`):**
+
+| Entity | Field | Type | Catalog / values | Reference |
+|--------|-------|------|------------------|-----------|
+| l10n_sv_customs.lesia_infraccion | class · conduct_literal · duca_id | select · char · m2o l10n_sv_customs.duca | administrativa · tributaria · penal (Art. 3 triad; penal = pointer record); independent sanctioning per DM (N rows per declaration); principles metadata (tipicidad / non bis in idem) | FR-179 |
+| l10n_sv_customs.lesia_infraccion | multa_basis · amount · smm_unit_snapshot | select · monetary · monetary | usd_50_flat · pct_05_patrimonio (floor 1 SMM; auditor-signed balance, refusal-fallback 3 SMM) · smm_3 (i/j/ñ tier) · smm_6_transit (+50% reincidencia; fianza event) · pct_300_evaded · pct_200_evaded_minor · pct_100_excess_le_100 · vehicle specials — LESIA SMM unit = comercio-y-industria city row at infraction date (Art. 53; DISTINCT from FR-141 mayor-cuantía), snapshot-on-write | FR-180, FR-181 |
+| l10n_sv_customs.lesia_infraccion | tolerance_margin_state · crime_threshold_state | computed · computed | granel 5% weight / non-granel 3% (pre-declared + no-prior-inspection flags; duty collection on excess never suppressed); perjuicio > US$25,000 ⇒ Art. 22 penal referral (¢218,750 twin as printed) | FR-181 |
+| l10n_sv_customs.lesia_infraccion | faltantes_presumption_ref · exemption_caducidad | m2o descargo/irregularity · boolean + rate_anchor_date | unjustified shortfalls presume transfer of dominio (c/e/f/h conducts; evidence = FR-132/135 by id); caducidad prices duties at franquicia-DM acceptance-date rates | FR-181, FR-182 |
+| l10n_sv_customs.lesia_infraccion | self_correction_state · attenuation_50 · acceptance_fasttrack | select · boolean · boolean | cured-before-verification = no sanction; written acceptance in the 15-day hearing = 50% (barred on 6-month reincidencia); immediate resolution on acceptance | FR-182, FR-183 |
+| l10n_sv_customs.lesia_infraccion | procedure_state · garantia_release_ref · plena_prueba_ref · request_response_due | select · char · char · date | FR-128 chassis by id (apertura/audiencia/resolution); bond = unperceived duties + multa; Art. 36 plena prueba; 10 días hábiles to answer DGA requests; prescripción/payment/despacho-suspension = `06` FR-177/178 by id | FR-183 |
+| l10n_sv_customs.lesia_auxiliar | profile · authorization_state · cause · cause_ref | m2o declarante-role config (`01` FR-020) · select · select · char | active · suspended_90d · cancelled; Art. 29 a)-h) suspension causes (safe-harbor, ¢100,000 colones print, subsisting-cause semantics) / Art. 30 a)-f) cancelación causes (incl. key-revelation delegation); Art. 54 sanctions-registry reference mirrored | FR-184 |
+
 ## 5. Odoo Mapping
 
 Layer semantics for this wave: the obligations/reporting/sanction
@@ -698,7 +882,7 @@ by this file.
 | FR-145 | odoo | l10n_sv_special_regime.fianza_event | cause_class/amount_slot | ZF Art. 37-A; LSI twin = `03` FR-061 by id; NO default amount |
 | FR-146 | odoo | l10n_sv_special_regime.sanction (SS-breach consequence) | consequence/reason art31_ss_breach | consumes payroll/06 + `05` FR-102 by id; 3-month suspension / reincidencia definitiva (ZF) |
 | FR-147 | odoo | l10n_sv_special_regime.sanction (inactivity consequence) | state_stamp perdida_inactividad / revocada + baja/access-disablement record | consumes `01` FR-018 monitors by id; 13th-month ZF / 3rd-month LSI semantics live there |
-| FR-148 | odoo | l10n_sv_special_regime.closure_checklist | open_dm_ids/cancellation_state/lesia_pointer | DMs from `04`/`06` by id; defraudación = POINTER ONLY (SOQ-32/OQ-2); Art. 40 judicial = informational |
+| FR-148 | odoo | l10n_sv_special_regime.closure_checklist | open_dm_ids/cancellation_state/lesia_pointer | DMs from `04`/`06` by id; W19: defraudación = ANCHORED pointer (Art. 22 elements — $25,000 + false-docs branch, LB-025; penal mechanics authority-side); Art. 40 judicial = informational |
 | FR-149 | odoo | l10n_sv_special_regime.obligation (LSI Art. 46 set) | tier menos_grave | 8-day notice = calendar as printed; 5y manifiesto retention flag (LB-022 kin; matrix by id) |
 | FR-150 | odoo | l10n_sv_special_regime.obligation (Art. 47 a record) | annual remittance + systems-audit flags | feeds FR-154..157/159 by id; external-interface export note |
 | FR-151 | odoo | l10n_sv_special_regime.obligation (Art. 47 b-j set) | tier grave | f)/k) = `03` FR-051..055/058 by id, never restated |
@@ -714,18 +898,32 @@ by this file.
 | FR-161 | odoo | l10n_sv_special_regime.sanction (LSI classifiers/counters) | class/grave-occurrence counter | classes from 46/47/48/49; feeds FR-162; state stamps via `01` FR-017 by id |
 | FR-162 | odoo | l10n_sv_special_regime.sanction | smm_multiplier 3/30/40 + consequences | LSI ladder; unit via FR-141 (payroll/02 by id); DISTINCT from ZF FR-140 |
 | FR-163 | odoo | l10n_sv_special_regime.sanction (SS-breach consequence) | consequence/reason (revocatoria on reincidencia) | consumes payroll/06 + `05` FR-102 by id; fianza/AML twins = `03` FR-061/062 by id |
-| FR-164 | odoo | l10n_sv_special_regime.sanction (Art. 51 escalation) | resolution ref/decision/state stamp | crime thresholds = LESIA pointer (SOQ-32/OQ-2) |
+| FR-164 | odoo | l10n_sv_special_regime.sanction (Art. 51 escalation) | resolution ref/decision/state stamp | W19: crime thresholds = LESIA Art. 22 US$25,000 anchored (LB-025; gate owned by FR-181 by id); penal procedure = pointer discipline |
 | FR-165 | odoo | (informational) | — | 13_ Art. 19 backdrop anchoring FR-132/136/139/154 as audit-readiness surfaces; caducidad view = `06` FR-127 by id |
+| FR-179 | odoo | l10n_sv_customs.lesia_infraccion | class/conduct_literal/duca_id + principles metadata | Art. 3 triad; independent sanctioning per DM; DISTINCT from ZF/LSI FR-140/162 families; clocks consumed from `06` FR-177/178 by id |
+| FR-180 | odoo | l10n_sv_customs.lesia_infraccion (pricing rows) | multa_basis/amount/smm_unit_snapshot | $50 flat / 0.5% patrimonio floor 1 SMM / 3 SMM / 6 SMM +50% + fianza; courier ≤$50 FOB carve-out; LESIA SMM unit = Art. 53 comercio-y-industria dated lookup (DISTINCT from FR-141) |
+| FR-181 | odoo | l10n_sv_customs.lesia_infraccion (gates) | tolerance_margin_state/crime_threshold_state/faltantes_presumption | 5%/3% margins (pre-declared + no-prior-inspection); >$100→100% rule; US$25,000 Art. 22 split (consumed by FR-148/164); faltantes presume transfer (FR-132/135 evidence by id); vehicle specials |
+| FR-182 | odoo | l10n_sv_customs.lesia_infraccion (consequences/modifiers) | exemption_caducidad/3-in-1y suspension/self_correction/attenuation | caducidad at franquicia-DM acceptance rates; ≤6-month suspension + 5-year-window revocatoria (MINEC for ATPA/ZF; stamps `01` by id; DISTINCT from FR-140/162); cured-before-verification = no sanction; 50% written acceptance |
+| FR-183 | odoo | l10n_sv_customs.lesia_infraccion (procedure) | procedure_state/garantia_release/plena_prueba/request_response_due | FR-128 chassis by id (LESIA Art. 31 rides 74_ Art. 17); acceptance fast track; garantía-release = duties + multa; 10-días request clock; prescripción/payment/suspension = `06` FR-177/178 by id |
+| FR-184 | odoo | l10n_sv_customs.lesia_auxiliar | authorization_state/cause/cause_ref | ≤90d suspension (a-h causes; safe harbor; subsisting-cause semantics) / cancelación (a-f; key-revelation); administradores ZF inside Art. 54 definition; declarante-role config `01` FR-020 by id |
 
 Version-regime notes (D12/D15/D16/D18/D19): all statutory values in this
 file (the 10/20/30-días-hábiles clocks, the 30-day calendar notices, the
 30-días-calendario regularization window, the 8-day notice, the 30-day
 multa payment window, the 5-year retention flags, the 3/5 vs 3/30/40 SMM
-multipliers, the ≤3-month suspension ceilings) are code-text values cited
+multipliers, the ≤3-month suspension ceilings; W19 LESIA additions: the
+US$50/0.5%/3-SMM/6-SMM administrativa multas, the 300%/200%/100%
+tributaria percentages, the 5%/3% tolerance margins, the US$25,000 crime
+threshold with its colones twins, the 90-day auxiliar suspension ceiling
+and the 15/20/10-días-hábiles procedure/recourse clocks riding `06`'s
+engine) are code-text values cited
 as printed under the SOQ-30 verification watch (§2) and live as dated
 config rows with instrument provenance — never constants; the SMM unit
 resolves as-of the sanction date against payroll/02's dated sidecar and
-snapshots on the record (D15). Mid-year go-live (D18): a migrating
+snapshots on the record (D15) — EXCEPT the LESIA SMM unit, which
+resolves as-of the infraction date against the Art. 53
+comercio-y-industria lookup (its own dated row, same snapshot
+discipline). Mid-year go-live (D18): a migrating
 regime company's obligation compliance states, sanction history and
 register balances ingest as `is_historical` rows with original-period
 semantics (tiered ingestion per D18; no re-derivation of past sanctions
@@ -804,13 +1002,38 @@ overridden by configuration).
   inventory groups assemble with the 30-días-hábiles due stamp — and a
   later DGA written request for additional information opens a delivery
   event due within 15 días hábiles.
+- **AC-013:** Given a US$40,000 perjuicio-fiscal understatement on a
+  definitive import DM (Art. 8 a) conduct, non-granel, declared
+  pre-arrival without prior inspection, when the excess measures 6% of
+  value, then the tolerance gate stays closed (margin 3%), the multa
+  prices at 300% of the evaded duties and the crime-threshold gate
+  opens the Art. 22 penal referral (perjuicio > US$25,000) — while its
+  US$18,000 twin prices identically but stays tributaria (FR-181).
+- **AC-014:** Given a ZF beneficiary recording a third LESIA
+  tributaria infraction within a 12-month span, when the third
+  resolution firms, then the Art. 13 consequence opens the ≤6-month
+  suspension record addressed to MINEC (stamping `01`'s benefit state
+  by id) — and a second suspension causal within the following five
+  years escalates to the revocatoria consequence, all as a
+  LESIA-sourced family distinct from the Art. 36/52 ladder rows of
+  FR-140/162 (never shared config) (FR-182).
+- **AC-015:** Given an agente de aduanas with three tributaria
+  infractions recorded in a six-month window, when the FR-184 ladder
+  evaluates, then the authorization stamps suspended_90d with the
+  >2-infringements cause and only already-initiated operations may
+  conclude — while revelation of the transmission key to an unauthorized
+  third party would stamp cancelled (Art. 30 f) with the penal-twin
+  note), mirroring `06`'s FR-115 confidentiality flags (FR-184).
 
 ## 7. Open Questions
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
 | OQ-1 | SOQ-33 carried: "salarios mínimos mensuales de mayor cuantía" (12_ Art. 36; 14_ Art. 52) is undefined in the corpus — FR-141 ships the working assumption as a LABELED config default: the HIGHEST monthly sector row of the operative 16_ vintage consumed from payroll/02 by id (SV-PAY-FR-022 + the dated sidecar); at the current vintage industria and comercio y servicios TIE at the same printed monthly value, so the default's sector choice (comercio y servicios) is itself part of the assumption. The ZF 3/5 and LSI 3/30/40 multipliers stay distinct config regardless. Confirm the reading (and any administering practice fixing the sector) before implementation. | no | Takumi S7 (config watch) | open |
-| OQ-2 | SOQ-32 carried: the Ley Especial para Sancionar Infracciones Aduaneras (LESIA) is NOT in the corpus though cited by 12_ Art. 40-A (Art. 22 — the defraudación de la renta de aduanas crime for closure-with-open-DMs) and by the crime-configuration thresholds of 14_ Art. 51 — FR-148/FR-164 record POINTER FLAGS ONLY, zero crime elements, procedures or sanction mechanics invented; shared acquisition candidate with the 12_/74_ family (kin of `04`'s OQ-1 and `06`'s OQ-6). | no | Takumi S7 (sources watch) | open |
+| OQ-2 | SOQ-32 carried: the Ley Especial para Sancionar Infracciones Aduaneras (LESIA) was NOT in the corpus though cited by 12_ Art. 40-A (Art. 22 — the defraudación de la renta de aduanas crime for closure-with-open-DMs) and by the crime-configuration thresholds of 14_ Art. 51 — **CONSUMED W19 (2026-08-22): LESIA acquired as 79_ (D.L. 551, INDICE print through D.L. 588-2008); FR-148/FR-164 pointers ANCHORED (Art. 22 elements — LB-025) and the gated sanction inventory extended as FR-179..184 (class taxonomy, multa formulas, tolerance margins, crime split, consequences, auxiliares ladder, procedure); the declaration-side clocks live in `06` FR-177/178**; residual = the 79_ print's own post-2008 vintage watch (OQ-6). | no | Takumi S7 (sources watch) | consumed (W19; EVID-359..370) |
 | OQ-3 | SOQ-44 carried: the DGA's living administrative layer (disposiciones administrativas de carácter general) may extend the 17b_ Art. 28 consultas/reportes and their STRUCTURE, determine the Art. 44 annual-report formulario, and require different/additional documentary information — FR-160 ships the extension surface as dated config slots with NO defaults; the descargo-register media/normativa (12_ Art. 28 b) and the MINEC informe format are the same DACG/Reglamento family (kin of SOQ-31, OQ-4). Re-verify every export contract at implementation. | no | Takumi S7 (DACG watch) | open |
 | OQ-4 | SOQ-31 kin: the Reglamento General de la Ley de Zonas Francas (12_ Art. 51 mandates it) is NOT in the corpus — the semestral MINEC informe format, the descargo cuadro structure and the MINEC dependency designations are delegated there; FR-133/FR-134 expose the printed clocks and data groups with the formats as config slots, NO defaults. Acquisition candidate ≥75. | no | Takumi S7 (sources watch) | open |
-| OQ-5 | SOQ-30 carried: the 12_ consolidation ends at D.L. 318-2013, 14_/17b_ are the 2007/2008 prints, and 13_/74_ end at D.L. 121-2012/D.L. 23-2012 — post-cutoff reforms unverified until official routes recover; every LB in this file cites as printed; a post-cutoff reform may move obligation letters, sanction multipliers, the 30-días-calendario window, the report specs or the inactivity thresholds — re-verify before implementation. | no | Takumi S7 (sources watch) | open |
+| OQ-5 | SOQ-30 carried: the 12_ consolidation ends at D.L. 318-2013, 14_/17b_ are the 2007/2008 prints, and 13_/74_ end at D.L. 121-2012/D.L. 23-2012 — post-cutoff reforms unverified until official routes recover; every LB in this file cites as printed; a post-cutoff reform may move obligation letters, sanction multipliers, the 30-días-calendario window, the report specs or the inactivity thresholds — re-verify before implementation. **W19 addition: 79_ ends at D.L. 588-2008 (see OQ-6).** | no | Takumi S7 (sources watch) | open |
+| OQ-6 | 79_ LESIA (LB-023..028) is the INDICE LEGISLATIVO print consolidated through reform (5) D.L. 588-2008 — post-2008 LESIA reforms unverified until official routes recover (SOQ-30 kin; same watch family as OQ-5); FR-179..184 values (multa tiers, tolerance margins, thresholds, clocks) cite as printed; re-verify before implementation (kin of `06`'s OQ-7). | no | Takumi S7 (sources watch) | open |
+| OQ-7 | Colones-era prints inside 79_ (as-printed discipline, operative currency USD at the 8.75 peg): Art. 9 "¢218,750.00 O SU EQUIVALENTE EN DÓLARES" (= the Art. 22 US$25,000.00); Art. 10 "cinco mil colones" (≈ US$571.43 — the 200%-multa boundary); Art. 29 e) "cien mil colones" (≈ US$11,428.57 — the suspensive-inexactitude suspension threshold) — FR-181/184 encode the USD figures with the colones prints noted; confirm the peg reading at implementation. | no | Takumi S7 (config watch) | open |
+| OQ-8 | 79_ Art. 6 as-printed inconsistency: the 3-SMM tier enumerates "i), j), k), Y ñ)" though literal k) is DEROGADO (2) — FR-180 transcribes verbatim and prices no k)-conduct (an as-printed note, not an interpretation). | no | Takumi S7 (config watch) | open |

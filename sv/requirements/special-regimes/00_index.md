@@ -4,9 +4,9 @@
 |---------|-------|
 | Country | sv |
 | Topic   | special-regimes |
-| Status  | draft (S7, 2026-08-19) |
+| Status  | draft (S7, 2026-08-19; W19 T1 fold-in 2026-08-22) |
 | Authors | Controller + S7 subagent wave |
-| Updated | 2026-08-19 |
+| Updated | 2026-08-22 |
 
 This directory holds the S7 (synthesis wave 7) special-regimes requirements:
 the ZF/DPA/LSI beneficiary model with its D15 per-beneficiary dated-row spine
@@ -16,8 +16,9 @@ exemptions with 17b_ Art. 22 local-market caps and the semestral auditor
 dictamen, the customs clocks (12m ZF vs 24m LSI admisión temporal, traslados,
 destinación, expedición), the TAN/IVA interface (0%+Arts. 76/77 routing,
 internaciones on the non-national component, 1.5%/1% retentions), the DUCA
-62-field declaration model with teledespacho/$18 tasa/presumed valuation, the
-regime obligations and SMM-priced sanctions, and the FOVIAL/COTRANS
+62-field declaration model with teledespacho/$18 tasa/presumed valuation,
+the regime obligations and SMM-priced sanctions (W19: + the LESIA
+customs-sanction taxonomy of 79_), and the FOVIAL/COTRANS
 quantity-based contributions. Source-to-requirements coverage:
 [../COVERAGE.md](../COVERAGE.md).
 
@@ -30,14 +31,16 @@ quantity-based contributions. Source-to-requirements coverage:
 | [03_lsi-regime.md](03_lsi-regime.md) | LSI exemption shapes (usuario directo/centro ISR + municipal INDEFINITE until cessation — open D15 rows), franquicia arancelaria, requisito tracking, usuario-indirecto consignment liability, 17b_ Art. 22 local-market caps 50/40/30 (VENTAS basis), semestral auditor dictamen regime, 90%-Salvadoran staffing quota, CT-158-II carve-out | SV-SPE-FR-042..063 | 22 | 16 | 11 | 6 |
 | [04_customs-clocks.md](04_customs-clocks.md) | ZF/DPA 12-month improrrogable per-DM clock vs LSI 24-month+1y clock (NEVER unified), traslado sub-clocks (def ≤12m / temp ≤6m / ZF→TAN 2m), 3-días-hábiles formalización, nota de remisión/NRE pointer, perfeccionamiento pasivo ≤6m, destinación 20 días hábiles → abandono, expedición status, residuales/palets disposition, DUCA field-14 regime-expiry feed, DUCA-F 30-días-hábiles FAUCA validity clock | SV-SPE-FR-064..081 | 18 | 15 | 12 | 6 |
 | [05_tan-iva-interface.md](05_tan-iva-interface.md) | Internaciones pay duties on the non-national component only (entry-value/CIF floor), TAN→ZF/DPA = 0% IVA + Arts. 76/77 (annex-3 tipo-11 bucket SV-FREP-FR-073 by id), not-necessary goods full 13%, B2B intra-regime no IVA, comercializador TAN-sale incentive loss, LSI export test routing, LSI→ZF/DPA cross-regime FCF-documented services, local-LSI 1.5% ISR + 1% IVA retentions (SV-TAX-FR-121..129 by id), SS-solvency gates (Art. 9-A electronic; 74_ 11-A kin) | SV-SPE-FR-082..102 | 21 | 8 | 10 | 4 |
-| [06_customs-declarations.md](06_customs-declarations.md) | DUCA 62-field record model (D/T/F; field 14 = "Fecha de vencimiento del régimen" as printed), declaración/certificación de origen, teledespacho chassis + declarante roles, autoliquidación/selectividad/inspection, $18 tasa (dated 2012 row), presumed flete/seguro 1.25/1.50/10%, manifiesto pre-arrival, anulación clocks, 48h simplified withdrawal, courier bands, consultas/advance rulings, 5-year caducidad + retention (SV-CML-FR-028 note), Panamá SIECA transmission | SV-SPE-FR-103..129 | 27 | 20 | 11 | 6 |
-| [07_obligations-reporting-sanctions.md](07_obligations-reporting-sanctions.md) | ZF obligations (electronic inventory + descargo register, semestral MINEC informe, 30-day cambio/cierre, cost records for TAN-sold goods, insumo-vs-producto-compensador register), ZF sanction ladder (SMM-priced via payroll/02 by id), SS-payment breach suspension, LSI obligations (17b_ Art. 28 inventory-register contract, Art. 44 annual report), LSI sanction ladder (3/30/40 SMM; third-grave revocatoria), SMM de mayor cuantía config default (SOQ-33) | SV-SPE-FR-130..165 | 36 | 22 | 12 | 5 |
+| [06_customs-declarations.md](06_customs-declarations.md) | DUCA 62-field record model (D/T/F; field 14 = "Fecha de vencimiento del régimen" as printed), declaración/certificación de origen, teledespacho chassis + declarante roles, autoliquidación/selectividad/inspection, $18 tasa (dated row; W19: provenance 74_+98_+99_ — value never changed, SOQ-34 resolved — + the 100_/902-2014 exemption set as dated rows), presumed flete/seguro 1.25/1.50/10%, manifiesto pre-arrival, anulación clocks, 48h simplified withdrawal, courier bands, consultas/advance rulings, 5-year caducidad + retention (SV-CML-FR-028 note), Panamá SIECA transmission, LESIA sanction/expiry/recursos anchors (W19: FR-177/178; Art. 33/55 prescripción, Art. 37/38 enforcement, Arts. 45-51 recursos) | SV-SPE-FR-103..129 + 176..178 | 30 | 25 | 13 | 9 |
+| [07_obligations-reporting-sanctions.md](07_obligations-reporting-sanctions.md) | ZF obligations (electronic inventory + descargo register, semestral MINEC informe, 30-day cambio/cierre, cost records for TAN-sold goods, insumo-vs-producto-compensador register), ZF sanction ladder (SMM-priced via payroll/02 by id), SS-payment breach suspension, LSI obligations (17b_ Art. 28 inventory-register contract, Art. 44 annual report), LSI sanction ladder (3/30/40 SMM; third-grave revocatoria), SMM de mayor cuantía config default (SOQ-33), LESIA sanction taxonomy (W19: class triad + independent sanctioning, administrativa/tributaria multa formulas with the Art. 53 comercio-y-industria SMM unit, tolerance margins + US$25,000 crime split, exemption-caducidad/3-in-1-year consequences, auxiliares ladder, procedure on the `06` FR-128 chassis) | SV-SPE-FR-130..165 + 179..184 | 42 | 28 | 15 | 8 |
 | [08_fovial-cotrans.md](08_fovial-cotrans.md) | FOVIAL $0.20/galón per-unit special contribution on diesel/gasolinas (excl. aviación) with the IVA-exclusion guard (never in base imponible), separate document fila/casilla, B2B control-account chain (RETENCIÓN/CTA POR COBRAR-FOVIAL), own-consumption ISR deductibility (SV-TAX-FR-045 by id), COTRANS value-flagged config surface (instrument absent), D1-tributo DTE wiring + F-07 fuel-annex feeds by id | SV-SPE-FR-166..175 | 10 | 7 | 6 | 5 |
-| **Total** | | SV-SPE-FR-001..175 | **175** | **130** | **80** | **42** |
+| **Total** | | SV-SPE-FR-001..184 | **184** | **141** | **85** | **48** |
 
 Numbering note: FR numbering is wave-sequential within the **SV-SPE** prefix
-(001-175, no gaps, no renumbering); consumers cite by FR id, never by
-restatement. D15 per-beneficiary dated rows (acuerdo D.O. date + location
+(001-175 from the S7 wave + 176-184 from the W19 fold-in, no gaps, no
+renumbering; files 06/07 carry non-contiguous tails — 176..178 in `06`,
+179..184 in `07` — consumers cite by FR id, never by
+restatement). D15 per-beneficiary dated rows (acuerdo D.O. date + location
 track + role) are the wave's spine — every exemption value, requisito,
 percentage, tasa and SMM figure is a dated config row with instrument
 provenance, never a global constant.
@@ -81,9 +84,10 @@ authorities by id):
 
 ## Open-questions rollup (in-file OQ-n ↔ master-index SOQ-30..45)
 
-Status legend: all **42 OQs open** (0 resolved; `08` OQ-5 records its MOQ-04
-linkage — FOVIAL half resolved-by-chain, COTRANS half stays open with the
-instrument). Master-index SOQ register:
+Status legend: **48 OQs total — 45 open, 3 resolved/consumed** (W19 T1:
+`06` OQ-1 resolved + OQ-6 consumed, `07` OQ-2 consumed — SOQ-32/34 fold-in;
+`08` OQ-5 records its MOQ-04 linkage — FOVIAL half resolved-by-chain,
+COTRANS half stays open with the instrument). Master-index SOQ register:
 [§S7 open questions](../../.extractions/00_MASTER_INDEX.md).
 
 | File | OQs | Mapping (in-file OQ → SOQ / kin) |
@@ -93,13 +97,15 @@ instrument). Master-index SOQ register:
 | 03 | 6 | OQ-1 SOQ-37 · OQ-2 SOQ-38 · OQ-3 SOQ-42 · OQ-4 CT-158-II cross-check (vs taxation/04 LB-018 / SV-TAX-FR-126) · OQ-5 SOQ-30 · OQ-6 DGII dictamen formularios config-gap (17b_ Arts. 48/50-55) |
 | 04 | 6 | OQ-1 SOQ-32 · OQ-2 SOQ-36 kin + DUCA field-anchor correction (field 14 as printed) · OQ-3 SOQ-45 kin (field 31) · OQ-4 SOQ-30 · OQ-5 pre-expiry warning = operational default · OQ-6 T4/T6 DUCA-F-FAUCA ownership split |
 | 05 | 4 | OQ-1 SOQ-37 · OQ-2 non-national-component determination = DGA-practice config-gap · OQ-3 SOQ-30 (+ IVA-core wave verification of Arts. 54/75-77 anchors) · OQ-4 Art. 9-A electronic-solvency DACG mechanics |
-| 06 | 6 | OQ-1 SOQ-34 · OQ-2 SOQ-35 · OQ-3 SOQ-36 · OQ-4 SOQ-45 · OQ-5 SOQ-30 · OQ-6 SOQ-32 kin (shared with `04` OQ-1) |
-| 07 | 5 | OQ-1 SOQ-33 · OQ-2 SOQ-32 · OQ-3 SOQ-44 · OQ-4 SOQ-31 kin · OQ-5 SOQ-30 |
+| 06 | 9 | OQ-1 SOQ-34 **resolved W19** (value never changed; 98_/99_ chain) · OQ-2 SOQ-35 · OQ-3 SOQ-36 · OQ-4 SOQ-45 · OQ-5 SOQ-30 (12-B slice closed by 100_ ownership) · OQ-6 SOQ-32 kin **consumed W19** (79_ anchored) · OQ-7 79_ 2008-tail vintage (SOQ-30 kin, W19) · OQ-8 100_ simplified <$1,000 per-operator reading (W19) · OQ-9 CT Art. 84 10y vs LESIA 5y lex-specialis ruling (W19) |
+| 07 | 8 | OQ-1 SOQ-33 · OQ-2 SOQ-32 **consumed W19** (79_ FR-179..184 + FR-148/164 anchored) · OQ-3 SOQ-44 · OQ-4 SOQ-31 kin · OQ-5 SOQ-30 (+79_ tail) · OQ-6 79_ 2008-tail vintage (SOQ-30 kin, W19) · OQ-7 colones-era prints in 79_ (W19) · OQ-8 Art. 6 k)-literal as-printed (W19) |
 | 08 | 5 | OQ-1 SOQ-39 (FOVIAL law absent; provenance chain via 31_) · OQ-2 SOQ-39 COTRANS half + MOQ-04 half-open · OQ-3 SOQ-40 (B2B chain design pass → IVA-core wave) · OQ-4 SOQ-30 adapted (2001 vintage, SOQ-22 kin) · OQ-5 MOQ-04 linkage note (master index Section C row) |
 
 SOQ-30 rides every regime LB of the wave as the verification preamble (all
-consolidations end 2012-2013; text cited as printed). Acquisition candidates
-opened by the wave: Reglamento General Ley ZF (SOQ-31), LESIA (SOQ-32), DUCA
+consolidations end 2012-2013 — 79_ at 2008 — text cited as printed).
+Acquisition candidates
+opened by the wave: Reglamento General Ley ZF (SOQ-31), ~~LESIA
+(SOQ-32 — acquired W19 as 79_, fold-in landed)~~, DUCA
 user manual (SOQ-36), FOVIAL/COTRANS instruments (SOQ-39), D.L. 598-2020 +
 tail laws (SOQ-41), F-11 v20 print.
 
