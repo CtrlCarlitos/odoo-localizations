@@ -892,7 +892,7 @@ discarded md5-identical to 104_). Structure:
      commit = the synthesis-wave base; future waves branch from here.
 
 Session state at stop (2026-08-22, R-H91 ruling session — committed on
-`hn-research`, NOT yet merged; owner decision pending): **NO corpus change**
+`hn-research`, MERGED to main same-day): **NO corpus change**
 (164 files, EVID-664, next EVID 665 — unchanged from the W11 merge). The
 session's only work = the 506-vs-509 OWNER RULING folded in: **R-H91
 (2026-08-22) — Reading B, CONSUCOOP-gated**: CONSUCOOP-recognized
@@ -911,7 +911,11 @@ unchanged (TOP: the 2026 JD ceiling act watch via the Sección-A
 certificaciones route [2026 payroll = blocking config gap AC-006 until it
 lands]; D. 96-2012 watch; CbCR restatement comunicado watch; "Acuerdo 799"
 TEXT + D. 247-89 watch; Código de Comercio; SEE docs; DGS SMM 2027
-promedio print early-2027; S-HN5 DEFERRED).**
+promedio print early-2027; S-HN5 DEFERRED).** [R-H91 MERGED to main
+2026-08-22 — thirty-third §4.6 run: 1 commit rewritten
+(`052329c`→`ba98ac7`), zero conflicts, remote ref delete + re-push,
+root record `49feee5`; main carries HN through R-H91 — corpus/EVID
+unchanged at 164 files / EVID-664.]
 
 Session state at stop (2026-08-22, W11 amnistía + negatives wave — committed
 on `hn-research`, NOT yet merged; owner decision pending): evidence COMPLETE
