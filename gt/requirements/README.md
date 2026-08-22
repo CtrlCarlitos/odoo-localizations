@@ -13,5 +13,6 @@ Language: English, Spanish legal terms inline with translations.
 | [commercial-legal](commercial-legal/) | In review | 00_index + 4 files (GT-CML-FR-001..163) |
 | [payroll](payroll/) | In review | 00_index + 10 files + 1 CSV (GT-PAY-FR-001..236) |
 | [fiscal-reporting](fiscal-reporting/) | In review | 00_index + 6 files (GT-FIN-FR-001..185) |
+| [special-regimes](special-regimes/) | In review | 00_index + 6 files (GT-SPR-FR-001..193) |
 
 Status values: Not started, In progress, In review, Complete.
