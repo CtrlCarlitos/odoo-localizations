@@ -22,9 +22,11 @@ No orphans: every row carries at least one of the four. Sources fully
 superseded but cited as historical LB (25_\*, 40_, 41_) still count as
 cited-as-LB.
 
-Rollup (regenerated 2026-08-21 from the W17 corpus state): 64 cited-as-LB ·
-9 not-applicable-this-wave · 1 superseded-not-cited · 0 pending-S2+ — 74
-rows (73 registry sources + the schemas/ dir row). Flip history (S8 32_/33_,
+Rollup (regenerated 2026-08-22 post-W18): 64 cited-as-LB ·
+9 not-applicable-this-wave · 1 superseded-not-cited · 30 pending-S2+ (the
+W18 acquisitions 76-105, uncited until their evidence/fold-in waves cite
+them — W16's 75_ precedent) — 104
+rows (103 registry sources + the schemas/ dir row). Flip history (S8 32_/33_,
 S9 02_, W17 75_) rides the per-source note fragments in
 `COVERAGE_NOTES.md`, which also owns the status overrides.
 
@@ -104,4 +106,34 @@ S9 02_, W17 75_) rides the per-source note fragments in
 | 72_Instructivo_UIF_Acuerdo380_reform2023.pdf | cited-as-LB | `commercial-legal/10_aml-compliance.md` (11 LB rows) — kept UIF instructivo per `71_` Art. 61 — operative thresholds Art. 51 ($10k cash/$25k other media) + Art. 52 institutional aggregates; R28 authority chain |
 | 73_Codigo_Comercio_UIF_indicelegislativo.pdf | cited-as-LB | verification-grade second CC copy (SOQ-22 resolved-with-residual, EVID-250); §2-preamble co-cites across `commercial-legal/01..09` (+ `04` LB-032 pointer row via the 71-73_ evidence gloss) — no independent LB article-text role |
 | 75_Reglamento_Codigo_Tributario_DE117.pdf | cited-as-LB | `fiscal-reporting/01_f07-declaration.md` (2 LB rows); `fiscal-reporting/06_f14-declaration.md` (1 LB rows); `fiscal-reporting/07_codes-and-informs.md` (1 LB rows); `fiscal-reporting/08_filing-calendar.md` (1 LB rows); `payroll/04_statutory-benefits.md` (1 LB rows); `payroll/08_isr-interfaces.md` (5 LB rows); `taxation/01_isr-framework.md` (1 LB rows); `taxation/04_isr-withholding.md` (5 LB rows); `taxation/13_iva-retentions.md` (4 LB rows); `taxation/16_ct-procedures.md` (41 LB rows) — D.E. 117-2001 CT-application reglamento, EVID-339..358; `taxation/01` LB-027's 75_ mention is a prose co-cite (source column = `54_`). FLIPPED from pending-S2+ by the W17 fold-in (2026-08-20) |
+| 76_Resolucion_CVPCPA_154_2024.pdf | pending-S2+ |  |
+| 77_Resolucion_CVPCPA_462_2021.pdf | pending-S2+ |  |
+| 78_Ley_Reguladora_Contaduria_DL828-2000_DL646-2017.pdf | pending-S2+ |  |
+| 79_Ley_Sancionar_Infracciones_Aduaneras_DL551.pdf | pending-S2+ |  |
+| 80_Ley_Servicios_Internacionales_consolidada_DL431_DL277.pdf | pending-S2+ |  |
+| 81_Recopilacion_Leyes_Aduaneras_MH.pdf | pending-S2+ |  |
+| 82_Reforma_Ley_ZF_DL493_DO_2025-12-23.pdf | pending-S2+ |  |
+| 83_Resolucion_IMUA_119_2024_FYDUCA.pdf | pending-S2+ |  |
+| 84_Formato_FYDUCA_Anexo1_ResIMUA_119_2024.docx | pending-S2+ |  |
+| 85_Glosario_FYDUCA_SIECA_2025-09-24.pdf | pending-S2+ |  |
+| 86_Ley_Fondo_Conservacion_Vial_consolidada.pdf | pending-S2+ |  |
+| 87_Ley_FOVIAL_DL208_DO_2000-12-18_pp6-24.pdf | pending-S2+ |  |
+| 88_Reforma_Ley_FOVIAL_DL597_DO_2001-11-09_p3.pdf | pending-S2+ |  |
+| 89_Ley_COTRANS_DL257_DO_2021-12-23_pp5-19.pdf | pending-S2+ |  |
+| 90_Ley_Transitoria_Pagos_ISR_DL598_DO_2020-03-20_pp4-6.pdf | pending-S2+ |  |
+| 91_Disposiciones_Transitorias_Aguinaldo_DL229_DO_2021-12-07_pp4-5.pdf | pending-S2+ |  |
+| 92_Disposiciones_Transitorias_Aguinaldo_DL596_DO_2022-12-07_pp22-24.pdf | pending-S2+ |  |
+| 93_Disposiciones_Transitorias_Aguinaldo_DL900_DO_2023-11-30_pp8-10.pdf | pending-S2+ |  |
+| 94_Disposiciones_Transitorias_Aguinaldo_DL159_DO_2024-11-27_pp64-66.pdf | pending-S2+ |  |
+| 95_Disposiciones_Inmobiliarios_Altura_DL95_2024_DGII.pdf | pending-S2+ |  |
+| 96_Ley_Agentes_Extranjeros_DL308_DO_2025-05-30_pp3-18.pdf | pending-S2+ |  |
+| 97_Disposiciones_Biogas_Acelhuate_DL386_2025_DGII.pdf | pending-S2+ |  |
+| 98_DACG_DGA_014_2025_Tasa_InspeccionNoIntrusiva.pdf | pending-S2+ |  |
+| 99_DACG_DGA_008_2015_Tasa_InspeccionNoIntrusiva.pdf | pending-S2+ |  |
+| 100_Reforma_Ley_Simplificacion_DL124_DO_2015-10-05_pp9-10.pdf | pending-S2+ |  |
+| 101_Instructivo_Calif_Instituciones_Exterior_BCR_DGII_2024.pdf | pending-S2+ |  |
+| 102_Circular_BCR_Remision_Instructivo_Calificacion_2021-12-28.pdf | pending-S2+ |  |
+| 103_Circular_BCR_Modificacion_Instructivo_Calificacion_2023-12-22.pdf | pending-S2+ |  |
+| 104_Listado_Calificaciones_Vigentes_BCR_2026-08-14.pdf | pending-S2+ |  |
+| 105_Listado_Calificaciones_2026_BCR_2026-08-14.pdf | pending-S2+ |  |
 | schemas/ (dir) | superseded-not-cited | superseded 2022-era extraction (fe-ccf-v3, contingencia-v3, anulacion-v2 era; no fe-eret/fe-eop) — NOT the current set; the current 15-schema set lives inside `52_Json_Schemas_DTE_Eventos_2026-08-11.zip`, the LB cited directly (`e-invoicing/01` LB-006; `03` LB-010) |
