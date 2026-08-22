@@ -608,7 +608,11 @@ places — W-GT6)**. Reform chains are recorded in SOURCE_RESEARCH.md.
   grep-verified 2-3 quotes per file (~15 verbatim checks, all passed) +
   reviewer spot-checks per file. No empty-return failures this wave
   (the `ls` + `git log` pre-dispatch check held). **Final whole-branch
-  review PENDING (next session's first action — S-GT5 precedent).**
+  review DONE IN-SESSION 2026-08-21: APPROVED (0 Critical/Important;
+  cross-file ids, external consumption ×20, register/write-back, plan
+  constraints, deferred-minors triage all PASS); fix wave b6a4210
+  (3 editorial minors: index inventory 071/PAY-range, §5m PAY clause,
+  12 stale unwritten labels) — scoped re-review PASS. WAVE CLOSED.**
 
 
 ## 5. GT facts a new session must know
@@ -997,8 +1001,9 @@ synthesized with these as flagged open questions and back-filled later.
     (§5l). ~~S-GT5 final whole-branch review~~ **DONE 2026-08-21**
     (APPROVED; 1 Important index fix + 2 ride-alongs in one commit,
     re-review PASS). ~~S-GT6/S-GT7 (special-regimes) plan doc →
-    synthesis waves~~ **COMPLETE 2026-08-21** (§5m). **NEXT = S-GT6/S-GT7
-    final whole-branch review (first action; S-GT5 precedent) → §4.6
+    synthesis waves~~ **COMPLETE 2026-08-21** (§5m). ~~S-GT6/S-GT7 final
+    whole-branch review~~ **DONE 2026-08-21 same session (APPROVED;
+    fix wave b6a4210 + re-review PASS; wave closed)**. **NEXT = §4.6
     session-close merge protocol (controller drives rebase-then-merge +
     §3 merge record at milestone; owner owns the merge decision).**
     D-19-2016 remains the top-ranked acquisition (GOQ-08 — blocks
@@ -1234,5 +1239,7 @@ convergence session; updated again at W-GT1 close)
   freeze held (txt-layer methodology disclosed in LB rows where the
   frozen files truncate). New-gap discipline: 2 candidates flagged
   (AG 52-2017 text; 12 bis ¶ vs 8 bis universe asymmetry) — register
-  triage pending. **Final whole-branch review PENDING = next session's
-  first action. Next after that: §4.6 milestone merge.**
+  triage pending. **Final whole-branch review DONE 2026-08-21 (same
+  session): APPROVED — 6 review sections PASS; one fix wave b6a4210
+  (3 editorial minors) + scoped re-review PASS; wave CLOSED.** Next:
+  §4.6 milestone merge (owner decision).
