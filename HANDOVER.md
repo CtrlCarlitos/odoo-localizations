@@ -744,6 +744,84 @@ expected and absorbed by instantiating the canon, never by forking it.
       cuadros, JD ceilings, DGS SMM promedio prints); S-HN5 DEFERRED —
       bootstrap `Read hn/HANDOVER.md and continue.`
 
+      **HN W10 merge 2026-08-21 (§4.6 protocol, twenty-ninth run):**
+      `hn-research` rebased onto `53bf391` (1 commit rewritten
+      `bef10b2`→`9e600db`: the W10 wave+session-state commit; zero
+      conflicts — hn/-scoped only) then fast-forward-merged; remote
+      branch ref updated via delete + re-push. **HN = W10
+      SHARPENED-RESIDUAL CLOSERS COMPLETE (corpus 159 files, evidence
+      through EVID-643):** TWELVE files `149_`..`160_` registered +
+      evidenced (78 EVIDs across 7 dispatched files, 3 shape-(b)
+      re-dispatches; the ihss.hn `AJ-RIESGOS-PROFESIONALES` filename
+      caught at page-1 = juramentación memo, discarded unregistered):
+      `149_` **D. 92-2015** (G 33,883 14-nov-2015, ENAG route) + `150_`
+      **DEI-SG-004-2016** (G 34,018 27-abr-2016 — located via the NEW
+      ENAG 49-issue SUMARIO batch-scan recipe) + `151_` SAR-653-2023
+      CbCR + `152_` D. 7-2017 + `153_` SAR-239-2024 + `154_`
+      SAR-283-2024 (SAR catalog) + `155_` Acuerdo 006-JD-2008 REAP
+      domésticos (ihss.hn Wayback) + `156_`/`157_`/`158_` the DGS
+      promedio prints 2022/2023/2024 (trabajo.gob.hn uploads Wayback
+      CDX recipe) + `159_`/`160_` the SAR-43-2026/SAR-125-2024 CT-131
+      descargo anchors (ENAG — the SAR catalog slug login-walls).
+      **R-H87 — D. 92-2015 reforms D. 53-2015 Arts. 3/4/7 ONLY**
+      (grep-negative on LSP/44-A — the 506 side untouched): the
+      reservas/fondos tail in the 509 base = REFORM TEXT (FREP/11
+      FR-378 statute-anchored; α/β staging flagged OQ-022); reformed
+      Art. 7 = the 509 sanction chassis with a THIRD promedio
+      resolution semantics (hecho-generador time — never conflate);
+      **the 506-vs-509 boundary instruments COMPLETE — readings A
+      (all coops) vs B (CONSUCOOP) both textually open, B with more
+      witnesses; FREP/11 FR-382 selector stays BLOCKED pending OWNER
+      RULING.** **R-H88 — DEI-SG-004-2016 = the USD-1M TP pequeño-gate
+      instrument** (FREP/10 OQ-006 resolved; FR-326/327
+      statute-anchored; the 31-dic/BCH rate-day = 63_-manual
+      elaboration — the acuerdo prints bare "paridad cambiaria") +
+      **NEGATIVE RULING: NO safe-harbour regime exists in HN TP law**
+      (OQ-005 resolved flag-only). **SAR-653-2023 = the CbCR/Informe
+      País por País regime** (threshold Def.-3 = prior-FY consolidated
+      < EUR 750M `o` L19,000M words-only, never derive; SEGUNDO
+      Num.I UPE duty LIVE / **Num.II local filing SUSPENDED from the
+      outset by the TRANSITORIO until a Director-Ejecutivo
+      comunicado** — encode suspended; 31-dic digital notification;
+      FY-close+12m XML; first reportable FY2025; OQ-024/025 new).
+      **R-H89 — D. 7-2017 = the OTCD chain middle instrument**
+      (ISV-Art.-8 ¶6: 50%→10% automatic + the 15% NO-DISCRIMINATION
+      fallback on the monto total; Art. 3 deroga 278-2013-Art.-21 —
+      FREP/04 OQ-003 RESOLVED, FR-147 toggle statute-dated; zero drift
+      vs `05_`'s consolidation). **SAR-239-2024 = the QUINCENCAL CETF
+      retenciones/percepciones informativa** (replaces
+      DEI-SG-110-2012; a new cadence class in FREP/01's due-day
+      engine) + SAR-283-2024 the June-2024 prorroga (HISTORICAL).
+      **Acuerdo 006-JD-2008 REAP = the domésticos health-only lane**
+      (annual prepaid cotización, JD-delegated rates unacquired =
+      OQ-011, incapacidad subsidies EXCLUDED, optional IVM bridge —
+      payroll/03 FR-126 segment gate). **R-H90 — THE PROMEDIO FAMILY
+      5-OF-6 YEARS printed/anchored:** 2022 L11,278.75 / 2023
+      L12,377.73 (jornada cell triple-pass 600dpi-closed; two-print
+      validated vs SAR-125-2024's SETRASS-411-2023 recital) / 2024
+      L13,156.53 / 2025 L13,985.16 (SAR-43-2026 official anchor — no
+      DGS 2025 print exists; Oficio SETRASS-DGS-014-2025 = fixer
+      lead) / 2026 L14,917.20 — smm_tables.csv rows flipped; the
+      FY2022-FY2025 10×SMM caps unblocked for taxation/04 FR-134;
+      **THREE promedio resolution semantics separated** (FY-cap /
+      CT-131 emission-time umbral — demonstrated twice by the descargo
+      pair / hecho-generador-time sanctions); 2027 = the only gap
+      (early-2027 watch). **D. 96-2012 routes exhausted W10** (SAR
+      live re-crawl, saved CDXs, DEI sitioleyes = 2007-era, engines;
+      refined pin = gazetted 20-jul-2012 per `80_`'s recital).
+      Verification: EVID structural 78/78 + 3-gram bank-check (LOWs
+      adjudicated) + COVERAGE regen. Totals: payroll 330/172/172/85,
+      taxation 249/120/140/56, FREP 363/169/189/174; rulings
+      R-H1..R-H90; COVERAGE **159 rows = 157 cited + 2 N/A, gates
+      PASS (1099/532/574/331)**. Next per `hn/HANDOVER.md`: the
+      residual queue (D. 96-2012 watch, CbCR TRANSITORIO restatement
+      comunicado, Oficio SETRASS-DGS-014-2025 + DGS 2025 print, RP
+      class cuadros + JD ceilings, REAP JD-rates, "Acuerdo 799" TEXT
+      + D. 247-89 watch, Código de Comercio, SEE docs, DGS SMM 2027
+      print early-2027; **the 506-vs-509 legal reading = OWNER
+      DECISION**); S-HN5 DEFERRED — bootstrap `Read hn/HANDOVER.md
+      and continue.`
+
       **GT S-GT5 merge 2026-08-21 (§4.6 protocol, twenty-sixth run):**
       `gt-research` rebased onto `1308644` (16 commits rewritten
       `89375f2..c8645a7`→`c739e09..23ad21e`: S-GT5 plan + 7 task waves +
