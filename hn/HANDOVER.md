@@ -714,7 +714,10 @@ D. 7-2017 OTCD 50%→10% middle instrument, D. 96-2012 loss regimes [dado
 Código de Comercio; SEE docs; RP class cuadros + JD ceiling resoluciones
 2003-2024; DGS SMM 2025/2027 promedio prints; ihss.hn domésticos/REAP
 reglamentos visible in the W9 CDX; SAR-239-2024 + SAR-283-2024; S-HN5
-stays DEFERRED).**
+stays DEFERRED). [W9 MERGED to main 2026-08-21 — twenty-eighth §4.6
+run: 2 commits rewritten (`71223da..43b7733`→`fa57aa1..64183e4`), zero
+conflicts, remote ref delete + re-push, root record `e777566`; main
+carries HN through EVID-565, corpus 147 files.]
 
 Historical stop state (W7, superseded above): evidence COMPLETE through
 **EVID-433**; corpus 118 files; W6 merged to main
