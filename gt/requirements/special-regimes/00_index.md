@@ -119,7 +119,7 @@ none remain unassigned; none listed not-applicable (grep-verified
 
 | GOQ | Consumed in (§7) | Also carried in body |
 |-----|------------------|----------------------|
-| GOQ-08 | 01, 02, 03, 04, 05, 06 (blocking-acquisition ledger in 06) | all six (79 mentions) |
+| GOQ-08 | 01, 02, 03, 04, 05, 06 (blocking-acquisition ledger in 06) | all six |
 | GOQ-135 | 01, 02, 04, 06 | 03 |
 | GOQ-136 | 02 | — |
 | GOQ-137 | 02 | 05 |
@@ -139,15 +139,17 @@ other GOQ ids are named by this wave's files.
 
 Consumed by exact FR id, never re-derived (grep-verified 2026-08-21):
 
-- **taxation** (S-GT2): GT-TAX-FR-071/072/073 (01, 03 — the D-20-2006
-  exporter-agent calificación/retention surface of the classic maquila);
+- **taxation** (S-GT2): GT-TAX-FR-072/073 (01, 03) · GT-TAX-FR-071 (03) —
+  the D-20-2006 exporter-agent calificación/retention surface of the
+  classic maquila;
   GT-TAX-FR-147 (06 — regime classification); GT-TAX-FR-152/153 (01, 03, 04,
   06 — the Utilidades 25%/calendar-year engine the exonerado valve files
   into); GT-TAX-FR-159..165 (06 — Opcional Simplificado, the textiles
   national-sales valve); GT-TAX-FR-214/216/217 (05 — CT sanctions kin);
   GT-TAX-FR-232 (05 — prescription anchor kin).
-- **payroll** (S-GT3): GT-PAY-FR-170 (03, 04, 05 — planilla-electrónica
-  lifecycle), GT-PAY-FR-176 (04), GT-PAY-FR-018 (04, 05 — kin).
+- **payroll** (S-GT3): GT-PAY-FR-170..177 (03, 05 — planilla-electrónica
+  lifecycle; 18 range citations, chiefly 05) with 04 citing GT-PAY-FR-170
+  and GT-PAY-FR-176 singly; GT-PAY-FR-018 (04, 05 — kin).
 - **fiscal-reporting** (S-GT4): GT-FIN-FR-052 (03, 05), GT-FIN-FR-054/055/
   065/066/068/069 (05 — RetWeb constancia surfaces, pointer-only).
 - **e-invoicing** (S-GT1): GT-EINV-FR-178 (02 — certification-pipeline kin).

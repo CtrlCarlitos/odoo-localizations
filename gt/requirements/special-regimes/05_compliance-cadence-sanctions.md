@@ -59,7 +59,7 @@ record architecture and the customs-operation rows —
 `04_maquila-reglamento-chain.md` (GT-SPR-FR-095..133, consumed by exact id);
 the ZF↔maquila cross-regime bridges (revocation-driven exclusions, D-65-89
 flows, the textiles→ZF valve) — `06_cross-regime-bridges.md` (SR6 —
-unwritten, path-only); and surfaces owned by other waves, consumed here by
+path-only); and surfaces owned by other waves, consumed here by
 exact id or pointer only: GT-PAY-FR-170..177
 (`gt/requirements/payroll/07_igss-contributions.md` — the planilla
 electrónica lifecycle, registro patronal filing unit, late

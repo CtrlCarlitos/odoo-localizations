@@ -47,11 +47,11 @@ names never asserted current (GOQ-140 kin).
 It does **not** cover: the ZF benefit matrix and exemption schedules —
 `01_zf-exemption-schedules.md` (GT-SPR-FR-001..033, consumed by exact id);
 the maquila benefit shape and reglamento chain (`03_maquila-benefit-
-shape.md` SR3, `04_maquila-reglamento-chain.md` SR4 — unwritten, path-only
+shape.md` SR3, `04_maquila-reglamento-chain.md` SR4 — path-only
 references); the compliance cadence family and sanction ladders
-(`05_compliance-cadence-sanctions.md` SR5 — unwritten, path-only); the
+(`05_compliance-cadence-sanctions.md` SR5 — path-only); the
 ZF↔maquila cross-regime bridges including the shared D-19-2016 blocker
-semantics (`06_cross-regime-bridges.md` SR6 — unwritten, path-only); the
+semantics (`06_cross-regime-bridges.md` SR6 — path-only); the
 fondo computation and tarifario fee values (file 01, GT-SPR-FR-022..028);
 and the FEL/firma-electrónica certification ecosystem itself (W-GT1 —
 GT-EINV-FR-178 consumed by id as kin only).
@@ -411,7 +411,7 @@ Odoo 17/18/19/20; no version-specific behavior is required by this file.
 | FR-040 | shared | l10n_gt_regimes.instrument | split vigencia | General 2022-03-15 / e-provisions 2022-09-14 — two rows, never collapsed |
 | FR-041 | shared | l10n_gt_regimes.reform_tag | tag_date semantics | Publication date ≠ given ≠ effective; three distinct fields |
 | FR-042 | shared | l10n_gt_regimes.reform_tag | D-19-2016 footprint | ≥9 tagged articles; missing-instrument flag; pre-reform texts unrecoverable |
-| FR-043 | shared | reform_tag + registry | goq08 wave anchor | Files 01/05/06 post-2016 dependencies point at OQ-001 here (path-only for unwritten files) |
+| FR-043 | shared | reform_tag + registry | goq08 wave anchor | Files 01/05/06 post-2016 dependencies point at OQ-001 here (path-only for sibling files) |
 | FR-044 | shared | article_authority | art. 35 bis record | Only D-19-2016 echo in 68_; pointer to `06_cross-regime-bridges.md` |
 | FR-045 | shared | configuration guards | D-6-2021 narrow delta | Schedules/fondo/art. 25/aduanal regime untouched by D-6-2021 |
 | FR-046 | odoo | l10n_gt_regimes.article_authority | resolution engine | (article, date) → source; 68_-alone citation for arts. 3/6/8/13/tarifario refused |

@@ -52,16 +52,16 @@ consumes taxation/05 by exact id (GT-TAX-FR-152/153) — never re-derived.
 
 It does **not** cover: the maquila reglamento chain, calificación dossier
 and supersession ledger (AG 533-89 → AG 253-2001 → …) — `04_maquila-
-reglamento-chain.md` (SR4 — unwritten, path-only); the compliance cadence
+reglamento-chain.md` (SR4 — path-only); the compliance cadence
 family (monthly cuenta-corriente DJ, coeficiente reports, annual labor DJ +
 Boleta Estadística, nómina filings), the guarantee menu + descargo 45-day
 window + US$100 multa, the 100%-multa sanction, the art. 43 bis IGSS-driven
 suspension ladder and the art. 39/40 prohibitions incl. the 5-year machinery
-transfer lock — `05_compliance-cadence-sanctions.md` (SR5 — unwritten,
+transfer lock — `05_compliance-cadence-sanctions.md` (SR5 —
 path-only); the ZF↔maquila cross-regime bridges (art. 36 bis/36 ter
 inter-regime flows, art. 39 bis textiles→ZF national-sales valve with its
 Régimen Opcional Simplificado taxation, D-65-89/D-22-73 exclusion
-interactions) — `06_cross-regime-bridges.md` (SR6 — unwritten, path-only);
+interactions) — `06_cross-regime-bridges.md` (SR6 — path-only);
 the ZF sibling benefit matrix — `01_zf-exemption-schedules.md`
 (GT-SPR-FR-001..033) and `02_zf-chain-regime.md` (GT-SPR-FR-034..060),
 consumed by exact id; and surfaces owned by other waves, consumed here by
@@ -445,7 +445,7 @@ as printed.
   enjoyed under DL 21-84 were DEDUCTED from the new windows
   (anti-stacking) — the cross-regime migration semantics pair with the ZF
   art. 53 sibling (GT-SPR-FR-030) and are owned by
-  `06_cross-regime-bridges.md` (SR6 — unwritten, path-only; never
+  `06_cross-regime-bridges.md` (SR6 — path-only; never
   re-derived here). (LB-015; EVID-731)
 - **GT-SPR-FR-093:** The system shall carry the maquila benefit matrix as
   shared dated config (D16: instrument + valid_from + provenance per row),
