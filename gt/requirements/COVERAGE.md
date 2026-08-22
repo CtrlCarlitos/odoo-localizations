@@ -4,18 +4,21 @@
 |---------|-------|
 | Country | gt |
 | Topic   | all (cross-topic) |
-| Status  | draft (S-GT1 e-invoicing + catalogs, S-GT2 taxation, S-GT3 payroll, S-GT4 fiscal-reporting, S-GT5 chart-of-accounts/commercial-legal and S-GT6/S-GT7 special-regimes waves complete — corpus closed: 82 cited / 0 not-applicable / 0 pending, the first wave series to close the corpus) |
+| Status  | draft (S-GT1 e-invoicing + catalogs, S-GT2 taxation, S-GT3 payroll, S-GT4 fiscal-reporting, S-GT5 chart-of-accounts/commercial-legal and S-GT6/S-GT7 special-regimes waves complete — the 82-row synthesis corpus closed: 82 cited / 0 not-applicable / 0 pending. **2026-08-22 acquisition batch 2: registry grows to 94 (84_–95_ owner-delivered, GOQ acquisitions annotated) — the 12 new rows are pending-unowned pending evidence passes**) |
 | Authors | GT synthesis waves S-GT1 + S-GT2 + S-GT3 + S-GT4 + S-GT5 + S-GT6/S-GT7 + controller |
-| Updated | 2026-08-21 |
+| Updated | 2026-08-22 |
 
-As-of date 2026-08-21. Scope of this revision: the S-GT1 e-invoicing +
-catalogs wave, the S-GT2 taxation wave, the S-GT3 payroll wave, the S-GT4
-fiscal-reporting wave, the S-GT5 chart-of-accounts/commercial-legal wave and
-the S-GT6/S-GT7 special-regimes wave (complete — with it every registry row
-is cited; no topic remains pending). Every file in
-[../sources/](../sources/) (registry:
-[../sources/README.md](../sources/README.md) — 82 entries, numbering
-01–83 with gap 27; verification-rejected duplicates are not registry rows)
+As-of date 2026-08-22. Scope of this revision: the seven completed
+synthesis waves (every pre-batch-2 registry row cited; the S-GT6/S-GT7
+wave closed the corpus) **plus the 2026-08-22 acquisition batch 2 (owner
+browser, legal.dca.gob.gt/igssgt.org → registry 84_–95_: D-19-2016,
+D-31-2024, AG 125-2022, IGSS Acuerdo 1421-2018, D-62-2001, D-58-2005,
+AG 86-2006, AG 4-2005, Código Civil, D-76-78 aguinaldo, D-38-2004,
+AG 3-2017 — verification-rejected duplicates: LET IVA-General manual =
+58_ md5-identical; certificador procedure = 22_ md5-identical)**. Every
+file in [../sources/](../sources/) (registry:
+[../sources/README.md](../sources/README.md) — 94 entries, numbering
+01–95 with gap 27; verification-rejected duplicates are not registry rows)
 mapped against the requirements waves. Status values:
 
 - **cited** — a requirements file of this wave set cites it via a
@@ -125,6 +128,18 @@ File-number shorthand (e.g. `04` =
 | 81_ZOLIC_Reformas_AG65-2022.pdf | cited | `spr01` (tarifario art. 22 item 9 — R77), `spr02` (AG 65-2022 identity + split vigencia 15-mar/14-sep-2022 — R72; zero ZOLIC content, filename mislabel) — OCR scan; quotes verified against `gt/.extractions/67-68_72_80_81_ZF.evidence.md` |
 | 82_SAT_LET_RegEspeciales_Manual.pdf | cited | `fin04` (LET especiales: three regimes' combined book, masked form numbers — GOQ-109, Q3,000,000 agro glossary, THE 4%/5%-within-10-dh tariff rule — GOQ-107) |
 | 83_RM_edictos_2026-08-19.pdf | cited | `cml01` (edición 6022 channel anatomy + edicto templates; single-snapshot GOQ-131) |
+| 84_ZF_D19-2016_LeyEmergenteConserEmpleo.pdf | pending | acquisition batch 2 (2026-08-22) — GOQ-08 blocker; evidence pass → special-regimes backfill |
+| 85_D31-2024_IntegracionPrimarioAgro.pdf | pending | acquisition batch 2 — GOQ-13; OCR pass needed (thin text layer) |
+| 86_AG_125-2022_Reglamento_D7-2019.pdf | pending | acquisition batch 2 — GOQ-68; 79_ art. 32 re-verification |
+| 87_IGSS_Acuerdo_1421-2018.pdf | pending | acquisition batch 2 — GOQ-10 mora half; payroll/07 backfill |
+| 88_D62-2001_IVA_art4num1.pdf | pending | acquisition batch 2 — GOQ-132 instrument (identity = pure IVA reform) |
+| 89_D58-2005_FT.pdf | pending | acquisition batch 2 — GOQ-134; AML FT-lineage backfill |
+| 90_AG_86-2006_Reglamento_FT.pdf | pending | acquisition batch 2 — bonus; pre-cutover FT thresholds |
+| 91_AG_4-2005_MaquilaReglamento.pdf | pending | acquisition batch 2 — GOQ-08 lead; maquila reglamento supersession backfill |
+| 92_Codigo_Civil_DtoLey106.pdf | pending | acquisition batch 2 — GOQ-147; cml03 fallback clocks |
+| 93_Aguinaldo_D76-78.pdf | pending | acquisition batch 2 — GOQ-09 December half; payroll/04 ABSENCE-FR replacement |
+| 94_D38-2004_Maquila.pdf | pending | acquisition batch 2 — GOQ-08 lead; R81 scope verification |
+| 95_AG_3-2017_MaquilaReglamento.pdf | pending | acquisition batch 2 — GOQ-08 lead; reglamento supersession backfill |
 
 Numbering note: registry numbers 01–83 with gap 27 (27 never allocated);
 82 rows total.
@@ -135,12 +150,17 @@ Numbering note: registry numbers 01–83 with gap 27 (27 never allocated);
 |--------|------|
 | cited | 82 (01–83 with gap 27 — every registry row; with S-GT6/S-GT7 the corpus is FULLY COVERED) |
 | not-applicable | 0 |
-| pending | 0 |
-| **Total** | **82** |
+| pending | 12 (84_–95_, acquisition batch 2) |
+| **Total** | **94** |
 
-With the S-GT6/S-GT7 special-regimes wave the corpus closes: 82 cited /
-0 not-applicable / 0 pending — the first wave series to close the corpus
-(no topic remains pending).
+With the S-GT6/S-GT7 special-regimes wave the synthesis corpus closed:
+82 cited / 0 not-applicable / 0 pending — the first wave series to close
+the corpus. **2026-08-22 batch 2 reopens it: 12 owner-delivered
+instruments (84_–95_) await W-wave evidence passes and targeted synthesis
+backfills (D-19-2016 → special-regimes GOQ-08 rows; D-76-78 → payroll/04
+ABSENCE-FR replacement; 86_ → 79_ re-verification; 87_ → payroll/07 mora;
+89_/90_ → AML FT-lineage; 92_ → cml03 fallback clocks; 94_/95_/91_ →
+maquila reglamento supersession).**
 
 Expected cited sets verified by grep. S-GT1: 01–22, 29, 30, 31 (+24_
 FEL-layer LB only). S-GT2: 23, 24, 25, 26, 28, 47, 48, 49, 52, 53, 54,
