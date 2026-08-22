@@ -202,9 +202,42 @@ must grep ALL LB source columns of the new files.
   **SOQ-31 Rgto-ZF NEGATIVE** (never-issued hypothesis; D.O. Oct-Dic
   1998 micro-scan optional). T1 external checks: no factura/MH drift;
   uif WAF-blocked (403 all routes); D.O. API recipe PINNED (§6). Route
-  intel in §6; per-task detail in the SDD ledger + EXTRACTION_PLAN W18
-  entry (incl. next-wave fold-in debt). **Sources only, no FR changes —
-  MERGE-PENDING, no merge decision yet.**
+   intel in §6; per-task detail in the SDD ledger + EXTRACTION_PLAN W18
+   entry (incl. next-wave fold-in debt). **Sources only, no FR changes —
+   final whole-wave review MERGE-READY (zero Critical/Important; deferred
+   minors all triaged ride/ignore: SOQ-30:705 + SOQ-39:714 nested-bold
+   rendering nits ride to W19 which re-edits both rows; 95_ junk-prefix
+   trim + vigencia/horizon read ride with its evidence pass).**
+   **MERGE-PENDING, no merge decision yet.**
+
+### W18-process rulings (2026-08-22, preserved from the SDD ledger before workspace deletion)
+
+- **(a)** T2's first dispatch died silently leaving 3 COMPLETE downloads
+  uncommitted (76_/77_/78_) — controller verified integrity, then a FRESH
+  implementer finished (registration/verdict/commit). NOT the
+  commit-unmodified path (S7 (a)/S8 (b)/S9 (c) apply to COMPLETE work;
+  here the task itself was incomplete).
+- **(b)** T6's first dispatch died with ZERO state — re-dispatched clean
+  (S7 ruling (c)).
+- **(c)** Plan's T2 file list said "Modify HANDOVER §7"; deferred to T8's
+  wholesale §7 refresh (master index = register of record meanwhile);
+  T7's stale-count Important finding (§3 "73 files") routed to T8 the
+  same way.
+- **(d)** T4's COTRANS D.O. window re-bounded to Dec-2021 by the identity
+  correction (plan's 2001-2002 era was wrong); T5's tasa hunt skipped
+  D.O. via documentary supersession (2015+2025 DACG prints both $18) —
+  both deviations upheld by the final review.
+- **(e)** Registration ownership: each task registers its own
+  acquisitions; T7 = consolidated verification only (found+fixed 14
+  cross-task defects: stale counts, missing CTG/no-D.O. notes).
+- **(f)** T8's §9 numbering→106 edit beyond brief upheld (contradicted
+  §2/§3/§8 otherwise; C1 ruling (c) precedent).
+- **(g)** Controller pinned the D.O. API param shape pre-wave
+  (form-encoded `year`/`month`; JSON+query fail) — T1 recorded it in §6;
+  TF-catalog-via-Wayback-CDX + SIECA-S3-presigned recipes proven in-wave
+  (§6). uif.gob.sv WAF-block began 2026-08-21 (re-probe next sweep; AML
+  watch deadline 2026-10-17 stands).
+
 - **C1 (2026-08-21):** consolidation/cleanup wave COMPLETE per plan
   `docs/superpowers/plans/2026-08-21-c1-sv-cleanup-wave.md` — subagent-driven,
   10 content tasks + controller bookkeeping (T3 dispatch died silently once,
