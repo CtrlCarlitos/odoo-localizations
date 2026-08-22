@@ -59,8 +59,8 @@ an e-invoicing mandate — OQ4 resolved).
 
 - Registro Mercantil site (in maintenance 2026) — recheck later for restored
   `regulaciones/` library + current aranceles (we hold the 2022 snapshot, 73_).
-- MINFIN legislación page → AG 65-2022 PDF (reformas Reglamento ZF 242-90) —
-  closes half of OQ15.
+- ~~MINFIN legislación page → AG 65-2022 PDF~~ **DELIVERED (= 81_, registered
+  W-GT6; OQ15 resolved — row was stale since rev 7).**
 - FEL "Reglas y validaciones" historical chain (1.5.1→1.7.9) — optional
   historical LBs; only if trivially reachable.
 - **Salario mínimo 2022-2025 AGs** (GOQ-11) — mintrabajo/DCA hunt (39_ ends
