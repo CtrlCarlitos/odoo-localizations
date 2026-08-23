@@ -56,7 +56,8 @@ expected and absorbed by instantiating the canon, never by forking it.
 - Branch `main` only; remote `origin` = `git@github-CtrlCarlitos:CtrlCarlitos/odoo-localizations.git` (SSH alias `github-CtrlCarlitos` from `~/.ssh/config`); push after each wave; never force-push. `gh` CLI at `~/.local/bin/gh`, authenticated as CtrlCarlitos.
 - Commits are SSH-signed; local `%G?=N` is a verification-only artifact (`gpg.ssh.allowedSignersFile` unset) — signatures ARE present; don't chase it.
 - `.gitattributes`: `*.csv text eol=lf`.
-- Commits through `c1e740a` (2026-08-22: GT W-GT7 merge — see §3
+- Commits through `8ac5d6a` (2026-08-22: HN W12 merge — see §3
+  thirty-fifth run; `c1e740a` 2026-08-22: GT W-GT7 merge — see §3
   thirty-fourth run; `ba98ac7` 2026-08-22: HN R-H91 merge — see §3
   thirty-third run; `3250ffa` 2026-08-22: GT S-GT6/S-GT7 merge — see §3
   thirty-second run; earlier `d37f89f` 2026-08-22: HN W11 merge —
@@ -548,6 +549,56 @@ expected and absorbed by instantiating the canon, never by forking it.
       D. 96-2012 watch, CbCR comunicado watch, "Acuerdo 799" TEXT,
       D. 247-89, Código de Comercio, SEE docs, DGS 2027 promedio
       print; the 506-vs-509 legal reading = OWNER DECISION; S-HN5
+      DEFERRED).
+
+      **HN W12 merge 2026-08-22 (§4.6 protocol, thirty-fifth
+      run):** `hn-research` rebased onto `d4937f3` (1 commit
+      rewritten `c83c157`→`8ac5d6a`: the W12 GLIN re-grep wave;
+      zero conflicts — hn/-scoped only) then fast-forward-merged;
+      remote branch ref updated via delete + re-push. **HN = W12
+      ACQUISITION WAVE (TWO files, corpus 164→166; EVID-665..680,
+      next EVID 681): the Código de Comercio + CT-original pair,
+      both from the GLIN archive of the old official
+      congreso.gob.hn via Wayback `id_` fetches — surfaced by
+      re-grepping the SAVED W7 full-domain CDX for
+      comercio/codigos (the W8-recipe lesson executed).** `166_`
+      = **Código de Comercio, DECRETO No. 73 de 1950**
+      (attribution CORRECTED from "D. 4-1950" — 12th
+      lead-attribution fix; Dado 16-feb-1950, Ejecútese
+      17-feb-1950, vigor +20 días after publication concludes —
+      gazette pin open; official consolidated print post-May-1959
+      + the 1940-Libro-III Comercio Marítimo APÉNDICE per
+      transitory Art. 1º, truncated at CdC-APX-Art. 1038; **Art.
+      143 VERBATIM = the FREP/10 LB-008 541 dividend anchor —
+      now instrument-backed**; Art. 13-VI cooperativa + fn(1)
+      D. 158-1954 special-law carve-out = R-H91 context only).
+      `167_` = **the CT D. 189-1959 ORIGINAL print (complete)**:
+      **THE CT PROMULGATION PIN — G 16,827-16,834 of 15→23-jul-
+      1959 → vigencia 15-jul-1959**; **THE HEADLINE DELTA:
+      original Art. 120 lit. d) caps cesantía at 8 MESES** (the
+      25/15 caps arrive with D. 150-2008; the 1990-2008 window
+      after D. 247-89 = payroll/08 OQ-008, unpinned,
+      prescription-muted); original preaviso ladder ≡ current
+      (whole-life rows); original 95.13 coop/cajas deductions =
+      sindicalizados-ONLY (non-union 60-A lane wholly post-1973);
+      **the 8+3 feriado list = VERBATIM the 1959 original — the
+      D.L. 116/275-1960 pair reformed MECHANICS only**; Art. 874
+      = the full pre-1959 derogation genealogy. Fold-ins:
+      payroll/08 +LB-015 +OQ-008 + FR-302 dated-row note;
+      payroll/06 OQ-002 refined; payroll/10 LB-005/LB-015
+      annotations; FREP/10 LB-008 annotation; payroll totals
+      330/175/172/87. Verification: corpus-global EVID sweep
+      654/zero-dup + 3-gram bank-check adjudicated (13/13
+      load-bearing tokens; LOWs = OCR-noise/º-glyph classes) +
+      COVERAGE regen 166 rows = 164 cited + 2 N/A, gates PASS
+      (1099/536/574/333). No new ruling (R-H1..R-H91 — deltas are
+      dated-row history). Next per `hn/HANDOVER.md` §6: the
+      residual watch queue (TOP: the 2026 JD ceiling act watch
+      via the Sección-A certificaciones route [2026 payroll =
+      blocking config gap AC-006]; D. 96-2012; CbCR restatement
+      comunicado; "Acuerdo 799" TEXT + D. 247-89 [now also the
+      OQ-008 cap-window key]; ~~Código de Comercio~~ CLOSED W12;
+      SEE docs; DGS SMM 2027 promedio print early-2027; S-HN5
       DEFERRED).
 
       **HN R-H91 merge 2026-08-22 (§4.6 protocol, thirty-third
