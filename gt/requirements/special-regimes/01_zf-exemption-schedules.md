@@ -6,7 +6,7 @@
 | Topic   | special-regimes |
 | Status  | draft |
 | Authors | GT synthesis wave S-GT6/S-GT7 |
-| Updated | 2026-08-21 |
+| Updated | 2026-08-22 |
 
 ## 1. Purpose
 
@@ -27,8 +27,12 @@ operation authorization (with the exterior-domicile carve-out and the D-25-91
 10 años window anchored to notificación of the calificación resolution (with
 the post-31-03-2016 two-class user taxonomy of art. 4 — productores de bienes
 industriales + servicios — and its TAN-facing/exterior carve-outs); the
-GOQ-08 provenance fence around every post-2016 window-shape claim
-(consolidated-tag-verbatim only, D-19-2016 transitional clauses unreadable);
+GOQ-08 verdict on the post-2016 window shape, now RESOLVED from primary
+(D-19-2016 = `84_`: art. 22 b) KEEPS 10 años from notificación — no
+nominal change; the reform's substance = the art. 4 taxonomy + the
+TAN-sales carve-out + the old-category transition; surviving gaps = the
+pre-2016 art. 22 wording and AG 52-2017-dependent reglamento content —
+EVID-755/757/787);
 the inmuebles (real-property) 5-year exoneration on the gobierno-central
 share ONLY with its trimestre-anchored clock; the purpose-bound
 alcabala/timbres family; the 100% resolution-identified import and fuel
@@ -77,17 +81,25 @@ NOT the art. 21/22 schedules; effective publication day 1-Jun-2021, never
 the tarifario → **81_** (AG 65-2022 = the AG 242-90 reform — its title is
 "Reformas al Reglamento de la Ley de Zonas Francas, AG 242-90", zero ZOLIC
 content — R72). The fondo = law art. 36 e) (67_) + reglamento arts. 32-33
-(68_) + **72_** (AG 296-94, the fondo's own reglamento). **D-19-2016 is the
-blocking acquisition** (GOQ-08): its text is not in the corpus, so every
-post-2016 window-shape claim is provenance-limited to what 67_'s
-consolidation tags print. Quotation source: the committed evidence file
-`gt/.extractions/67-68_72_80_81_ZF.evidence.md` (EVID-646..708); 81_ is an
+(68_) + **72_** (AG 296-94, the fondo's own reglamento). **GOQ-08 RESOLVED**:
+D-19-2016 is now corpus primary (`84_` — EVID-746..758): its art. 23
+restated ZF art. 22 with the SAME nominal 10-años-from-notificación
+window the `67_` print carries (byte-consistent — EVID-755/787); what the
+reform changed is WHO qualifies (art. 4 taxonomy), the servicio-users
+TAN-sales carve-out, the exterior-credit carve-out and the old-category
+transition (arts. 28-30, with the printed 31-Dic-2015 hard cut —
+EVID-757). Surviving gaps: the pre-2016 art. 22 wording (1989-2016 text
+unrecoverable) and the AG 52-2017-dependent reglamento content. Quotation
+source: the committed evidence files
+`gt/.extractions/67-68_72_80_81_ZF.evidence.md` (EVID-646..708) and
+`gt/.extractions/84_91_94_95_MaquilaZF_D19-2016_chain.evidence.md`
+(EVID-746..789, the D-19-2016 primary); 81_ is an
 OCR scan — its rows quote the evidence file, never the scan layer directly.
 
 | ID | Citation (Spanish) | English translation | Source file | Location |
 |----|--------------------|---------------------|-------------|----------|
 | LB-001 | Ley D-65-89 art. 21 b): "Exoneración total del Impuesto sobre la Renta que causen las rentas que provengan exclusivamente de la actividad como Entidad Administradora de la Zona Franca, por un plazo de quince (15) años contados a partir de la fecha de inicio del período de imposición inmediato siguiente a la fecha en que emita la autorización a que se refiere el inciso b) del artículo 7*. de esta Ley. Las Entidades Administradoras domiciliadas en el exterior que operen en Guatemala no gozarán de esta exoneración si en su país de origen se otorga crédito fiscal por el Impuesto sobre la Renta que se pague en Guatemala." | Total exoneration of the income tax (ISR) on rents coming exclusively from activity as ZF administrator entity, for a term of fifteen (15) years counted from the start of the tax period immediately following the date of the art. 7 b) operation authorization. Exterior-domiciled administradoras do not enjoy the exoneration if their home country grants a tax credit for Guatemalan ISR. (The "7*" print artifact = the D-25-91 cross-ref fix; the clause's only reform) | `gt/sources/67_ZF_Ley_D65-89.pdf` | p.7, art. 21 b) (EVID-659) |
-| LB-002 | Ley D-65-89 art. 22 b): "Exoneración total del Impuesto Sobre la Renta que causen las rentas que provengan exclusivamente de la actividad como usuario productor de bienes industriales o usuario de servicios por un plazo de diez (10) años contados a partir de la fecha de notificación de la resolución de su calificación por el Ministerio de Economía. Los usuarios productores de bienes industriales y los usuarios de servicios domiciliados en el exterior que operen en Guatemala, no gozarán de esta exoneración si en su país de origen se otorga crédito fiscal por el Impuesto Sobre la Renta que se pague en Guatemala." / "Este beneficio no será aplicable cuando los usuarios de servicios vendan o presten servicios al territorio aduanero nacional." | Total ISR exoneration on rents coming exclusively from activity as an industrial-goods producer user or services user, for ten (10) years counted from the date of notification of the MINECO calificación resolution. Same exterior/home-country-credit carve-out; and the benefit does not apply to service users' sales or services into the national customs territory (TAN). (Article reformed by D-19-2016 art. 23 — tag-verbatim only, GOQ-08) | `gt/sources/67_ZF_Ley_D65-89.pdf` | p.7, art. 22 b) (EVID-662) |
+| LB-002 | Ley D-65-89 art. 22 b): "Exoneración total del Impuesto Sobre la Renta que causen las rentas que provengan exclusivamente de la actividad como usuario productor de bienes industriales o usuario de servicios por un plazo de diez (10) años contados a partir de la fecha de notificación de la resolución de su calificación por el Ministerio de Economía. Los usuarios productores de bienes industriales y los usuarios de servicios domiciliados en el exterior que operen en Guatemala, no gozarán de esta exoneración si en su país de origen se otorga crédito fiscal por el Impuesto Sobre la Renta que se pague en Guatemala." / "Este beneficio no será aplicable cuando los usuarios de servicios vendan o presten servicios al territorio aduanero nacional." | Total ISR exoneration on rents coming exclusively from activity as an industrial-goods producer user or services user, for ten (10) years counted from the date of notification of the MINECO calificación resolution. Same exterior/home-country-credit carve-out; and the benefit does not apply to service users' sales or services into the national customs territory (TAN). (Article restated by D-19-2016 art. 23 — now primary from `84_`: this 10-años-from-notificación text IS D-19-2016's own text, byte-consistent with the print — EVID-755/787) | `gt/sources/67_ZF_Ley_D65-89.pdf` | p.7, art. 22 b) (EVID-662) |
 | LB-003 | Ley D-65-89 art. 4 (texto D-19-2016): "Se entenderá por usuario a la persona individual o jurídica autorizada por el Ministerio de Economía para operar en zona franca… De acuerdo a la actividad que desarrollen, los usuarios podrán ser: a) Productores de bienes industriales: Cuando se dediquen a la producción, transformación, ensamble, armado y procesamiento de bienes… o a la investigación y desarrollo tecnológico. b) De servicios: Cuando se dediquen a la prestación de servicios que incluye la actividad comercial, vinculados al comercio internacional." | User = the individual or legal person authorized by MINECO to operate in a ZF. By activity, users are: (a) industrial-goods producers (production, transformation, assembly, processing, or R&D); (b) services — explicitly including commercial activity linked to international trade. Post-31-03-2016 taxonomy (R79: model on art. 4; pre-2016 "usuarios comerciales" unrecoverable) | `gt/sources/67_ZF_Ley_D65-89.pdf` | p.2, art. 4 (EVID-653) |
 | LB-004 | Ley D-65-89 art. 21 c)-f): c) "Exoneración del Impuesto Unico sobre Inmuebles, que corresponde al gobierno central, por un período de cinco (5) años, sobre los inmuebles que sean destinados exclusivamente al desarrollo de una Zona Franca." / d) "Exoneración del Impuesto sobre Venta y Permuta de Bienes Inmuebles (alcabala) destinados exclusivamente al desarrollo y la ampliación de la Zona Franca." / e)-f) "Exoneración del Impuesto del Papel Sellado y Timbres Fiscales…" on the documents transferring real property to the administradora (e) / to users (f) | c) Exoneration of the single real-property tax (Impuesto Único sobre Inmuebles) share corresponding to the central government, for five (5) years, on properties exclusively destined to ZF development — the municipal share is NOT exonerated. d) Alcabala (real-estate transfer tax) exoneration, purpose-bound. e)-f) Stamped-paper/fiscal-seal tax exoneration on the transfer documents (administradora and user sides) — all purpose-scoped, no time cap on d)-f) | `gt/sources/67_ZF_Ley_D65-89.pdf` | p.7, art. 21 c)-f) (EVID-660) |
 | LB-005 | Reglamento AG 242-90 arts. 20-21: "Dicha exoneración la comenzará a hacer efectiva a partir del trimestre inmediato siguiente a la fecha de dichas resoluciones…" / art. 21: "…la exoneración… les será aplicada a partir del trimestre inmediato siguiente a la fecha en que realice la adquisición… La exoneración terminará de aplicarse en estos casos en el mismo trimestre en que correspondería, si el bien inmueble hubiere sido comprado con antelación a la emisión de la resolución citada." | The inmuebles exoneration (law art. 21 c)) runs by quarters: effective from the quarter immediately following the authorization resolution (or following acquisition where the resolution only identifies the property), and it stops in the same quarter in which it would have ended had the property been bought before the resolution — a fixed 5-year-by-trimestre clock that cannot be stretched by late purchase | `gt/sources/68_ZF_Reglamento_AG_242-90.pdf` | pp.10-11, arts. 20 y 21 (EVID-688) |
@@ -182,16 +194,21 @@ OCR scan — its rows quote the evidence file, never the scan layer directly.
   (ii) service users' sales/services into the territorio aduanero nacional
   (TAN) fall outside the benefit — rent-origin tagging marks TAN-facing
   service revenue as non-exonerated. (LB-002; EVID-662)
-- **GT-SPR-FR-009:** GOQ-08 FENCE (post-2016 window shape): the system
-  shall treat the 10-year art. 22 b) text as the D-65-89-as-consolidated
-  print (tag: reformed by D-19-2016 art. 23, 31-03-2016) and shall NOT
-  freeze any post-2016 window-shape claim beyond what the 67_ consolidation
-  tags evidence: whether D-19-2016 altered durations/rates for users
-  qualifying after 2016, and its transitional clauses, are UNREADABLE
-  without the D-19-2016 text (blocking acquisition). Every window row for a
-  post-31-03-2016 qualifier carries the goq08 provenance-limited flag;
-  durations stay tag-verbatim; no inferred post-2016 window shape shall be
-  seeded. (LB-002; EVID-662/706; GOQ-08 → OQ-001)
+- **GT-SPR-FR-009:** GOQ-08 VERDICT (post-2016 window shape — RESOLVED
+  from primary, `84_`): the 10-year art. 22 b) text as printed IS
+  D-19-2016's own restatement (art. 23 — EVID-755): the nominal window
+  for users qualifying after 31-03-2016 stays DIEZ (10) AÑOS from
+  notificación of the calificación resolution — D-19-2016 introduced NO
+  nominal duration/rate change; the reform's substance is the art. 4
+  two-class taxonomy, the servicio-users TAN-sales carve-out (FR-008),
+  the exterior-credit carve-out and the transition of old-category users
+  (FR-029 kin; hard 31-Dic-2015 cut as printed — EVID-757/787). Window
+  rows for post-31-03-2016 qualifiers carry the d19_2016_primary
+  provenance flag (the former goq08 fence resolves to it); no inferred
+  window shape shall be seeded beyond the primary text; the pre-2016
+  art. 22 wording (whether old usuarios industriales had 12/15-year
+  windows) remains OUTSIDE the corpus and shall never be seeded.
+  (LB-002; LB-019; EVID-662/706/755/757/787; GOQ-08 resolved → OQ-001)
 
 ### 3.4 Property-tax family (arts. 21 c)-f), 22 d))
 
@@ -444,7 +461,7 @@ them later).
 | l10n_gt_regimes.benefit_window | valid_from · valid_to · duration | computed + stored | D15 snapshot-on-write; administradora ISR valid_from = período-de-imposición start following the art. 7 b) event; usuario = notificación date; inmuebles = trimestre-anchored | FR-003, FR-006, FR-011, FR-016 |
 | l10n_gt_regimes.benefit_window | window_source | select | statute · resolution (grandfathered plazo incl. ampliación de incisos arancelarios) | FR-002, FR-029 |
 | l10n_gt_regimes.benefit_window | exterior_carveout_flags | boolean pair | exterior_domiciled + home_country_credit → window suppressed | FR-005, FR-008 |
-| l10n_gt_regimes.benefit_window | goq08_flag · instrument_provenance | boolean + json | post-31-03-2016 ISR rows carry the provenance-limited flag (tag-verbatim only); instrument + article + tag per D16 | FR-009, FR-031 |
+| l10n_gt_regimes.benefit_window | goq08_flag · instrument_provenance | boolean + json | post-31-03-2016 ISR rows carry the d19_2016_primary flag (`84_` art. 23 verbatim — GOQ-08 resolved); instrument + article + tag per D16 | FR-009, FR-031 |
 | l10n_gt_regimes.benefit_window | exempt_item_list | one2many | resolution-identified import items with incisos arancelarios (per-beneficiary authority) | FR-013, FR-015, FR-029 |
 
 **Fondo records (l10n_gt_regimes.fondo_*):**
@@ -493,7 +510,7 @@ this file.
 | FR-006 | odoo | l10n_gt_regimes.benefit_window | isr_usuario window computation | valid_from = notificación date (first-class field; asymmetry intentional) |
 | FR-007 | shared | res.partner zf taxonomy | user class | Post-2016 art. 4 two-class taxonomy; no "comerciales" class (R79) |
 | FR-008 | odoo | benefit_window + rent-origin tagging | carve-out predicates | Home-country-credit + TAN-facing service revenue exclusions |
-| FR-009 | shared | benefit_window | goq08_flag | Post-2016 window shape = tag-verbatim only; no inferred claims |
+| FR-009 | shared | benefit_window | goq08_flag → d19_2016_primary | Post-2016 shape = `84_` primary (10 años unchanged); no inferred claims |
 | FR-010 | shared | l10n_gt_regimes.dated_value | zf_iui_central_window | 5 años, gobierno-central share only; municipal share untouched |
 | FR-011 | odoo | benefit_window (iui rows) | trimestre clock | From following trimestre; hard stop at equivalent trimestre |
 | FR-012 | shared | benefit matrix rows | alcabala/timbres | Purpose-bound predicates, no duration |
@@ -552,9 +569,10 @@ sanction ladder is recorded exposure owned by the SR5 file.
   (window_source = resolution) including ampliación de incisos
   arancelarios. (FR-006, FR-029)
 - **AC-004:** Given a usuario qualifying after 31-03-2016, when its ISR
-  window row is saved, then it carries the goq08 provenance-limited flag
-  and its duration equals only what the 67_ consolidation tag prints — any
-  post-2016 window-shape assertion beyond the tags is refused.
+  window row is saved, then it carries the d19_2016_primary provenance
+  (`84_` art. 23: 10 años from notificación) and any post-2016
+  window-shape assertion beyond the primary text (e.g. a nominal duration
+  change, or a pre-2016 12/15-year wording) is refused.
   (FR-009)
 - **AC-005:** Given a ZF property within its 5-year inmuebles window, when
   the property-tax computation runs, then only the gobierno-central share
@@ -606,15 +624,16 @@ sanction ladder is recorded exposure owned by the SR5 file.
 
 Master-index GOQ ids (register `gt/.extractions/00_MASTER_INDEX.md` §C);
 this file owns GOQ-139 (two FX anchors) and GOQ-138 (AG 296-94 identity
-defects, minor) for SR1, records GOQ-08 (shared blocking acquisition —
-also owned by the SR2/SR3/SR6 files of this wave) and GOQ-135's ZF half
+defects, minor) for SR1, records GOQ-08 (RESOLVED via `84_` primary — the
+window-shape verdict at FR-009; the sibling SR2/SR3/SR6 rows update under
+their own dispatches) and GOQ-135's ZF half
 (chain effective dates — full ownership sits with SR2/SR4 dated rows). Kin
 annotations in-file: GOQ-01 (IVA-geometry rows), GOQ-10 (fondo resarcitorio
 bank rate — SR5), GOQ-99 (day-count wording transcribed per instrument).
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
-| OQ-001 | GOQ-08 (owned, shared): "D-19-2016 (Ley Emergente para la Conservación del Empleo) — THE blocking acquisition for special regimes: post-2016 ZF ISR windows, maquila transitional clauses + old art. 15 text…". For this file: whether D-19-2016 altered ISR durations/rates for ZF users qualifying after 31-03-2016, and its transitional clauses, are unreadable — FR-009 fences every post-2016 window claim to consolidation-tag-verbatim; acquisition of D-19-2016 re-opens FR-006/FR-009. | yes | GT synthesis wave S-GT6/S-GT7 (acquisition queue, top priority) | open |
+| OQ-001 | GOQ-08 (owned, shared): RESOLVED for this file's scope — D-19-2016 = `84_` corpus primary (EVID-746..758): art. 23 restated ZF art. 22 with the SAME nominal 10-años-from-notificación window (no duration/rate change for post-31-03-2016 qualifiers — FR-009 carries the verdict); the transitional clauses are now READABLE (arts. 28-30: grandfathering of running windows + short-grant top-up + old-category hard 31-Dic-2015 cut as printed + re-calificación with year deduction — EVID-757/787). RESIDUAL gaps: the pre-2016 art. 22 wording (1989-2016 text unrecoverable — FR-009 bans seeding it) and the AG 52-2017-dependent reglamento content (ZF-reglamento side, `68_` chain). | no | GT synthesis wave S-GT6/S-GT7 (residual acquisition: pre-2016 art. 22 text + AG 52-2017 only) | resolved (residual gaps open) |
 | OQ-002 | GOQ-135 (kin, ZF half): "D-65-89 effective date: DCA date not printed (vigencia = DCA + 30 días)…". FR-031 stores the formula + unknown-DCA flag; any row needing the 1989 effective date must source the DCA date externally. | no | GT synthesis wave S-GT6/S-GT7 → W6 partner ask | open |
 | OQ-003 | GOQ-138 (owned, minor): "AG 296-94: no DCA date (vigencia next day); constitutional inciso garble ('83' [sic = 183]); co-signatures not captured." FR-031 records the defects; no operative computation blocked. | no | GT synthesis wave S-GT6/S-GT7 → W6 partner ask | open |
 | OQ-004 | GOQ-139 (owned): "FX anchors are TWO distinct rules: fondo = USD rate 'del día anterior' (source unspecified — confirm vs MinFin/DPI practice); tarifario = Banguat daily reference. Never unify." FR-024/FR-028 keep two rule rows with the source-unspecified flag on the fondo anchor; confirmation against current MinFin/DPI practice pending. | no | GT synthesis wave S-GT6/S-GT7 → W6 partner ask | open |

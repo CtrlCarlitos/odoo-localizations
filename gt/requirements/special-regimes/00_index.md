@@ -6,13 +6,18 @@
 | Topic   | special-regimes |
 | Status  | draft (S-GT6/S-GT7 synthesis wave, in review) |
 | Authors | GT synthesis wave S-GT6/S-GT7 |
-| Updated | 2026-08-21 |
+| Updated | 2026-08-22 |
 
 This directory holds the S-GT6/S-GT7 (synthesis waves 6-7) special-regimes
 requirements: the two sibling benefit chains — zonas francas (ZF, free zones:
 D-65-89 / AG 242-90 / AG 296-94 / D-6-2021 / AG 65-2022) and maquila
-(D-29-89 / AG 533-89 / AG 253-2001) — with the missing D-19-2016 blocker
-discipline (GOQ-08), the per-beneficiary D15 window doctrine, one shared
+(D-29-89 / AG 533-89 / AG 253-2001) — with the D-19-2016 chain acquired
+(GOQ-08 resolved: `84_` primary; AG 3-2017 `95_` + AG 4-2005 `91_`
+reglamento reformers primary; surviving gaps = the pre-2016 ZF art. 22
+wording, the 1989-2004 states of maquila arts. 12/13/15, reglamento
+arts. 29/30 pre-derogation texts, art. 23 bis current text `70_`-only,
+and the tag-only AG 253-2013/168-2014 layers), the per-beneficiary D15
+window doctrine, one shared
 compliance-cadence/sanctions spine over both chains, and the cross-regime
 bridge layer (exclusions, merchandise flows, the textiles national-sales
 valve). With this wave every registry source is cited:
@@ -26,7 +31,7 @@ valve). With this wave every registry source is cited:
 | [01_zf-exemption-schedules.md](01_zf-exemption-schedules.md) | SR1 | ZF benefit matrix: arts. 21/22 exemption schedules as per-beneficiary D15 dated rows, taxonomy art. 4, fondo (art. 36 e), MINECO tarifario + the two FX anchors, transitions, negative anchors | GT-SPR-FR-001..033 | 33 | 22 | 13 | 4 |
 | [02_zf-chain-regime.md](02_zf-chain-regime.md) | SR2 | ZF instrument chain + reglamento consolidation state: D-65-89 → AG 242-90 → AG 296-94 → (D-19-2016, missing) → D-6-2021 → AG 65-2022 registry, split vigencia, e-filing platform surfaces | GT-SPR-FR-034..060 | 27 | 18 | 10 | 4 |
 | [03_maquila-benefit-shape.md](03_maquila-benefit-shape.md) | SR3 | Maquila benefit shape (R75-anchored): art. 12 DAI+IVA 1-year suspensión, art. 12 bis d) 10-year ISR exoneration (R81), cost-accounting conditions, ISR-under-LAT valve | GT-SPR-FR-061..094 | 34 | 18 | 14 | 1 |
-| [04_maquila-reglamento-chain.md](04_maquila-reglamento-chain.md) | SR4 | Maquila reglamento chain: AG 533-89 spine read through AG 253-2001 corrections, supersession ledger (R74/R80), qualification dossier history | GT-SPR-FR-095..133 | 39 | 15 | 15 | 3 |
+| [04_maquila-reglamento-chain.md](04_maquila-reglamento-chain.md) | SR4 | Maquila reglamento chain: AG 533-89 spine read through AG 253-2001 corrections, supersession ledger (R74/R80), qualification dossier history, AG-3-2017 (`95_`) / AG-4-2005 (`91_`) primary layers (GOQ-08 resolved) | GT-SPR-FR-095..133 | 39 | 15 | 15 | 3 |
 | [05_compliance-cadence-sanctions.md](05_compliance-cadence-sanctions.md) | SR5 | Compliance cadence + sanctions over BOTH chains: annual labor DJ (first 40 días R80), cuenta corriente/coeficiente, revocation states, fondo resarcitorios | GT-SPR-FR-134..171 | 38 | 18 | 15 | 5 |
 | [06_cross-regime-bridges.md](06_cross-regime-bridges.md) | SR6 | Cross-regime bridges: exclusion matrix (art. 4 bis / art. 5 Bis / D-22-73), inter-regime merchandise flows, textiles national-sales valve, GOQ-08 acquisition ledger | GT-SPR-FR-172..193 | 22 | 11 | 12 | 3 |
 | **Total** | | | **GT-SPR-FR-001..193** | **193** | **102** | **79** | **20** |
@@ -82,11 +87,20 @@ and no renumbering; totals grep-verified 2026-08-21.
   content — the registry "ZOLIC" label and filename are wrong).
 - **Maquila law = 69_ (D-29-89) consolidated through D-19-2016; reglamento =
   70_ (AG 533-89) read through 71_ (AG 253-2001) corrections** (23 bis/23 ter
-  born 2001, not 2013 — R74; current texts cited from 70_).
-- **D-19-2016 is the blocking acquisition (GOQ-08)**: post-2016 ISR windows
-  and transitional clauses are unmodelable without it — every file records
-  the blocker; post-2016 claims are provenance-limited to the D-19-2016
-  footprint tags printed beneath the reformed articles.
+  born 2001, not 2013 — R74; current texts cited from 70_); current
+  reglamento texts of the AG-3-2017/AG-4-2005 layers now cite `95_`/`91_`
+  primary, incl. the presumptive-current arts. 11/12/25/39 A from `91_`
+  (EVID-783).
+- **D-19-2016 = `84_`, now corpus primary (GOQ-08 resolved)**: post-2016
+  shapes are primary-citable, not tag-limited — ZF art. 22 b) keeps 10 años
+  from notificación (the reform's substance = the art. 4 taxonomy + the
+  TAN-sales carve-out + the transition — EVID-787); the maquila 12 bis was
+  born there (R81); the maquila reglamento was rewritten by AG 3-2017
+  (`95_`) under its art. 19 mandate, executed ~9 months after the 30-day
+  deadline (EVID-788). Surviving gaps: the pre-2016 ZF art. 22 wording, the
+  1989-2004 states of maquila arts. 12/13/15, reglamento arts. 29/30
+  pre-derogation texts, art. 23 bis current text (`70_`-only), and the
+  tag-only AG 253-2013/168-2014 layers.
 - **Maquila 10-year ISR exoneration lives SOLELY in art. 12 bis d)** (added
   by D-19-2016 art. 7 — R81; productora AT textiles SA ch. 50-63 + prestadora
   TIC/BPO to non-residents); never assume "maquila = ISR-exempt" (R75 —
@@ -119,13 +133,20 @@ none remain unassigned; none listed not-applicable (grep-verified
 
 | GOQ | Consumed in (§7) | Also carried in body |
 |-----|------------------|----------------------|
-| GOQ-08 | 01, 02, 03, 04, 05, 06 (blocking-acquisition ledger in 06) | all six |
+| GOQ-08 | 01, 02, 03, 04, 05, 06 (acquisition ledger in 06) | all six |
 | GOQ-135 | 01, 02, 04, 06 | 03 |
 | GOQ-136 | 02 | — |
 | GOQ-137 | 02 | 05 |
 | GOQ-138 | 01 | 02 |
 | GOQ-139 | 01 | 05 |
 | GOQ-140 | 04, 05, 06 | 02, 03 |
+
+GOQ-08 status (2026-08-22 backfill): RESOLVED via `84_` primary — §7 rows
+narrowed in 01 (OQ-001: window-shape verdict, residual pre-2016 art. 22 +
+AG 52-2017 gaps), 04 (OQ-003: reformer layer primary, residual tag-only
+253-2013/168-2014/12-97 + arts. 29/30 gaps) and 05 (OQ-005: ladder/attach
+primary-verified, no transitional mechanic); the 02/03/06 rows update
+under their own dispatches.
 
 Kin ids referenced beyond the owned set (all pre-existing register rows,
 owned by other waves): GOQ-01 (01, 03 — body only: consolidated-IVA-print

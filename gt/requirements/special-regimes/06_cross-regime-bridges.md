@@ -6,7 +6,7 @@
 | Topic   | special-regimes |
 | Status  | draft |
 | Authors | GT synthesis wave S-GT6/S-GT7 |
-| Updated | 2026-08-21 |
+| Updated | 2026-08-22 |
 
 ## 1. Purpose
 
@@ -40,9 +40,12 @@ already enjoyed under DL 21-84 / D-29-89 are deducted from the new
 windows (ZF art. 53 + maquila art. 44), modeled as a per-beneficiary
 computation over the window-row models of files 01/03; and (vi) THE GOQ-08
 ACQUISITION LEDGER — this wave's closing summary: D-19-2016 (Ley Emergente
-para la Conservación del Empleo) as the top-ranked blocking acquisition,
-plus every tag-only instrument as a dated acquisition-watcher row that
-shall NEVER be cited as law.
+para la Conservación del Empleo) as the top-ranked acquisition —
+**DELIVERED 2026-08-22: primary-read end-to-end from `84_` (EVID-746..758;
+chain unit with D-38-04 = `94_`, AG 4-2005 = `91_`, AG 3-2017 = `95_`,
+EVID-759..782; synthesis EVID-783..789)** — plus every still-tag-only
+instrument as a dated acquisition-watcher row that shall NEVER be cited as
+law (AG 52-2017's own instrument remains missing — head watcher).
 
 It does **not** cover: the ZF benefit windows and window-row model —
 `01_zf-exemption-schedules.md` (GT-SPR-FR-001..033, consumed by exact id);
@@ -71,13 +74,19 @@ Authority order (binding, per master index preamble): maquila law = **69_**
 = **67_** (D-65-89, consolidated through D-6-2021 — effective publication
 day 1-Jun-2021, never +90 days, R73); ZF reglamento = **68_** (AG 242-90)
 EXCEPT arts. 3/6/8/13 + tarifario → **81_** (AG 65-2022; e-provisions
-14-Sep-2022 — R72). **D-19-2016 remains the blocking acquisition**
-(GOQ-08): this file's art. 4 bis / 39 bis / 43 bis kin and both chains'
-transitional clauses are provenance-limited to their printed texts + tags
-— no transitional window or clause is readable. Quotation source: the
-committed evidence files `gt/.extractions/69-71_Maquila.evidence.md`
+14-Sep-2022 — R72). **D-19-2016 is DELIVERED
+(GOQ-08 resolved 2026-08-22)**: primary-read end-to-end from `84_` — this
+file's art. 4 bis / 39 bis / 43 bis kin and both chains' transitional
+clauses (maquila untitled art.-18 top-up; ZF transitorios arts. 28/29/30 +
+derogations art. 31) are now citable from the chain evidence file; the
+surviving fences are only AG 52-2017-internal content, the pre-2016 ZF
+art. 22 wording and the pre-2005 maquila texts (FR-193). Quotation
+source: the committed evidence files `gt/.extractions/69-71_Maquila.evidence.md`
 (EVID-711..745) and `gt/.extractions/67-68_72_80_81_ZF.evidence.md`
-(EVID-646..708) — both FROZEN; quotes verified against them and
+(EVID-646..708) — both FROZEN — plus
+`gt/.extractions/84_91_94_95_MaquilaZF_D19-2016_chain.evidence.md`
+(EVID-746..789; frozen; D-19-2016 cited as law only from its 84_ readings
+per that file's method note); quotes verified against them and
 spot-checked against the `67_`/`68_`/`69_`/`70_` txt layers; numbers,
 percentages, durations, dates and article numbers exactly as printed; OCR
 and line-break damage kept with [sic] / as joined per the EV06b
@@ -94,8 +103,8 @@ extraction-method note.
 | LB-007 | Reglamento AG 242-90 art. 35 bis (68_, clean text; added by AG 52-2017 art. 10, tag 05-04-2017): "ARTICULO 35 bis. Transitorio.* / Para efectos del pago del Impuesto Sobre la Renta que establece el artículo 39 bis de la Ley de Fomento y Desarrollo de la Activi dad Exportadora y de Maquila, la Superintendencia de Administración Tributaria establecerá el procedimiento correspondiente." | The ZF reglamento's ONLY D-19-2016-world echo: for the payment of the ISR established by D-29-89 art. 39 bis (the maquila textiles valve), the SAT shall establish the corresponding procedure — a cross-regime procedural deferral sitting in the ZF chain's reglamento and pointing at the maquila chain's ISR-payable article | `gt/sources/68_ZF_Reglamento_AG_242-90.pdf` | pp.17-18, arts. 35, 35 bis, 36 (EVID-694) |
 | LB-008 | Ley D-65-89 art. 53: "A las personas individuales o jurídicas que al entrar en vigencia la presente Ley se encuentren gozando de beneficios al amparo del Decreto Ley 21-84 o del Decreto 29-89 del Congreso de la República, que deseen acogerse a la presente Ley, se les deducirá de los nuevos beneficios los años que hubieren gozado de exoneración del Impuesto sobre la Renta conforme a los mismos." | ZF-side anti-stacking: persons already enjoying benefits under Decreto Ley 21-84 or Decreto 29-89 who wish to come under the ZF law have the years they already enjoyed of ISR exoneration under those same instruments DEDUCTED from the new benefits | `gt/sources/67_ZF_Ley_D65-89.pdf` | p.17, art. 53 (EVID-679) |
 | LB-009 | Ley D-29-89 art. 44: "Las empresas que al entrar en vigencia la presente Ley se encuentren gozando de beneficios al amparo del Decreto Ley número 21-84, continuarán en el disfrute de los mismos hasta su vencimiento. No obstante, las empresas que así lo deseen, deberán calificarse dentro de los doce (12) meses siguientes a la fecha que entre en vigencia la presente Ley. A las empresas así calificadas, se les deducirá de los nuevos beneficios, los años que hubieren gozado de exoneraciones del Impuesto sobre la Renta conforme al Decreto Ley 21-84." | Maquila-side anti-stacking: DL 21-84 beneficiaries at D-29-89 vigencia keep their benefits to expiry; optional re-qualification within TWELVE (12) MONTHS of vigencia; and the ISR-exoneration years already enjoyed under DL 21-84 are DEDUCTED from the new windows | `gt/sources/69_Maquila_Ley_D29-89.pdf` | p.17, art. 44 (EVID-731) |
-| LB-010 | D-19-2016 footprint tags (verbatim, tag-verbatim only — the instrument itself is NOT in corpus): 69_ art. 4 bis: "*Adicionado por el Artículo 3, del Decreto Del Congreso Número 19-2016 el 31-03-2016" / 69_ art. 12 bis: "Se adiciona por el Artículo 7, del Decreto Del Congreso Número 19-2016 el 31-03-2016" (R81) / 69_ art. 39 bis: adicionado por el Artículo 16, D-19-2016, 31-03-2016 / 69_ art. 15: "*Se deroga por el Artículo 20, del Decreto Del Congreso Número 19-2016 el 31-03-2016" / 69_ art. 43 bis: "*Se adiciona por el Artículo 17, del Decreto Del Congreso Número 19-2016 el 31-03-2016" / 67_ ledger: arts. 4, 22, 24 reformed; 5 Bis + 36 bis added; 23, 24 final, 26 derogated (all by D-19-2016 arts. 21-31, tags 31-03-2016 — EVID-647) / 80_ considerando: D-19-2016 = "Ley Emergente para la Conservación del Empleo" | The provenance spine of this file: arts. 4 bis, 12 bis, 39 bis and 43 bis of D-29-89 were ALL added by D-19-2016 (arts. 3, 7, 16, 17 — R81 for 12 bis), art. 15 derogated (art. 20); D-65-89 heavily reformed (≥ 9 articles). D-19-2016's OWN text — including its transitional clauses on pre-existing maquila ISR windows and post-2016 ZF user windows — is unreadable in both chains (EVID-706 gap map) | `gt/sources/69_Maquila_Ley_D29-89.pdf` + `gt/sources/67_ZF_Ley_D65-89.pdf` | tags beneath the articles, both laws (EVID-714/718/719/721/728/730/731 tags; EVID-647/706) |
-| LB-011 | Tag-only lead inventory (EV06b file-level gap map + EV06a OQ-2 + the GOQ-08 register row — never citable as law): law-side missing instruments: **D-38-04** (06-01-2005), **D-19-2016** (31-03-2016), **Decreto Ley 21-84** (+ its reglamento), D-22-73 (ZOLIC), D-26-91 (27-03-1991), D-117-97, D-9-98; reglamento-side: **AG 3-2017** (11-01-2017), AG 196-96, AG 12-97 (05-03-1997), AG 4-2005 (13-01-2005), AG 253-2013 (04-07-2013), AG 168-2014 (24-05-2014). GOQ-08 register row (master index §C, verbatim): "D-19-2016 (Ley Emergente para la Conservación del Empleo) — THE blocking acquisition for special regimes: post-2016 ZF ISR windows, maquila transitional clauses + old art. 15 text, arts. 4 bis/8 bis/12 bis/39 bis/43 bis provenance. Tag-only leads: AG 3-2017, D-38-04, D-26-91, D-117-97, D-9-98, AG 12-97/4-2005/253-2013/168-2014, D-22-73, DL 21-84." | The acquisition ledger's source inventory: every instrument above appears ONLY as a consolidation tag / cross-reference in the corpus; none of their internal articles is readable. They feed acquisition-watcher rows (FR-190..191) and can never ground a legal-basis row (FR-192). D-65-89 itself is in corpus (sibling chain) and cited normally | `gt/.extractions/69-71_Maquila.evidence.md` + `gt/.extractions/67-68_72_80_81_ZF.evidence.md` | EV06b gap map (law-side / reglamento-side lists) + EVID-711/732 tag censuses + EV06a OQ-2 (EVID-706); register row `00_MASTER_INDEX.md` §C GOQ-08 |
+| LB-010 | D-19-2016 footprint tags (verbatim, tag-verbatim only — the instrument itself is NOT in corpus): 69_ art. 4 bis: "*Adicionado por el Artículo 3, del Decreto Del Congreso Número 19-2016 el 31-03-2016" / 69_ art. 12 bis: "Se adiciona por el Artículo 7, del Decreto Del Congreso Número 19-2016 el 31-03-2016" (R81) / 69_ art. 39 bis: adicionado por el Artículo 16, D-19-2016, 31-03-2016 / 69_ art. 15: "*Se deroga por el Artículo 20, del Decreto Del Congreso Número 19-2016 el 31-03-2016" / 69_ art. 43 bis: "*Se adiciona por el Artículo 17, del Decreto Del Congreso Número 19-2016 el 31-03-2016" / 67_ ledger: arts. 4, 22, 24 reformed; 5 Bis + 36 bis added; 23, 24 final, 26 derogated (all by D-19-2016 arts. 21-31, tags 31-03-2016 — EVID-647) / 80_ considerando: D-19-2016 = "Ley Emergente para la Conservación del Empleo" | The provenance spine of this file: arts. 4 bis, 12 bis, 39 bis and 43 bis of D-29-89 were ALL added by D-19-2016 (arts. 3, 7, 16, 17 — R81 for 12 bis), art. 15 derogated (art. 20); D-65-89 heavily reformed (≥ 9 articles). D-19-2016's OWN text — including its transitional clauses on pre-existing maquila ISR windows and post-2016 ZF user windows — is unreadable in both chains (EVID-706 gap map). **UPDATE 2026-08-22: DELIVERED — D-19-2016's own text is primary-read from `84_` (EVID-746..758); every 67_/69_ D-19-2016 tag reconciles 1:1 with the resolutivos (EVID-784), and the tags' 31-03-2016 date is the VIGENCIA date (DCA 30-03-2016, No. 29 Tomo CCCIV)** | `gt/sources/69_Maquila_Ley_D29-89.pdf` + `gt/sources/67_ZF_Ley_D65-89.pdf` | tags beneath the articles, both laws (EVID-714/718/719/721/728/730/731 tags; EVID-647/706) |
+| LB-011 | Tag-only lead inventory (EV06b file-level gap map + EV06a OQ-2 + the GOQ-08 register row — never citable as law): law-side missing instruments: **D-38-04** (06-01-2005), **D-19-2016** (31-03-2016), **Decreto Ley 21-84** (+ its reglamento), D-22-73 (ZOLIC), D-26-91 (27-03-1991), D-117-97, D-9-98; reglamento-side: **AG 3-2017** (11-01-2017), AG 196-96, AG 12-97 (05-03-1997), AG 4-2005 (13-01-2005), AG 253-2013 (04-07-2013), AG 168-2014 (24-05-2014). GOQ-08 register row (master index §C, verbatim): "D-19-2016 (Ley Emergente para la Conservación del Empleo) — THE blocking acquisition for special regimes: post-2016 ZF ISR windows, maquila transitional clauses + old art. 15 text, arts. 4 bis/8 bis/12 bis/39 bis/43 bis provenance. Tag-only leads: AG 3-2017, D-38-04, D-26-91, D-117-97, D-9-98, AG 12-97/4-2005/253-2013/168-2014, D-22-73, DL 21-84." | The acquisition ledger's source inventory: every instrument above appears ONLY as a consolidation tag / cross-reference in the corpus; none of their internal articles is readable. They feed acquisition-watcher rows (FR-190..191) and can never ground a legal-basis row (FR-192). D-65-89 itself is in corpus (sibling chain) and cited normally. **UPDATE 2026-08-22: D-19-2016 = `84_`, D-38-04 = `94_`, AG 4-2005 = `91_`, AG 3-2017 = `95_` — all four DELIVERED, primary-read (EVID-746..789; verdicts at FR-190..192) and citable as law from the chain evidence file; STILL tag-only (watchers): D-26-91, D-117-97, D-9-98, D-22-73, DL 21-84, AG 12-97, AG 253-2013, AG 168-2014, and AG 52-2017's own instrument (head watcher — only its tags + the 35 bis text it added are in corpus)** | `gt/.extractions/69-71_Maquila.evidence.md` + `gt/.extractions/67-68_72_80_81_ZF.evidence.md` | EV06b gap map (law-side / reglamento-side lists) + EVID-711/732 tag censuses + EV06a OQ-2 (EVID-706); register row `00_MASTER_INDEX.md` §C GOQ-08 |
 
 ## 3. Functional Requirements
 
@@ -283,16 +292,20 @@ extraction-method note.
   FR-180 pointer (declaration filing states only).
   (LB-005; LB-006; EVID-740/728)
 - **GT-SPR-FR-185:** The system shall fence the valve's provenance:
-  art. 39 bis was added by D-19-2016 art. 16 (tag 31-03-2016) — the
-  pre-2016 world had no printed equivalent in this corpus, and
-  D-19-2016's transitional clauses (whether/how pre-existing
-  beneficiaries were routed into the valve) are unreadable. NO
-  pre-2016 valve mechanics, transitional routing or window interaction
-  shall be modeled; every such dependency resolves to this file's GOQ-08
-  closing row (OQ-001) and the acquisition ledger (FR-190). The valve's
-  mechanics as printed are complete and self-contained — nothing else in
-  this file depends on unreadable D-19-2016 text.
-  (LB-006; LB-010; EVID-728/706; GOQ-08 → OQ-001)
+  art. 39 bis was added by D-19-2016 art. 16 (tag 31-03-2016;
+  primary-verified from `84_`, EVID-752) — the pre-2016 world had no
+  printed equivalent in this corpus (confirmed negative, EVID-789), and
+  D-19-2016's transitorios print NO valve transitional routing (the
+  untitled art. 18 covers only ISR top-ups; the ZF arts. 28/29/30 only
+  ZF-side grandfathering — EVID-753/757): the absence is now a
+  confirmed-negative, no longer an unreadable. NO pre-2016 valve
+  mechanics, transitional routing or window interaction shall be
+  modeled; every such dependency resolves to this file's GOQ-08 closing
+  row (OQ-001, resolved) and the acquisition ledger (FR-190). The
+  valve's mechanics as printed are complete and self-contained —
+  nothing else in this file depends on D-19-2016 text beyond the
+  primary-read record.
+  (LB-006; LB-010; EVID-728/752/753/757/789; GOQ-08 → OQ-001 resolved)
 
 ### 3.4 The ISR-payment procedure bridge (ZF reglamento art. 35 bis ↔ D-29-89 art. 39 bis)
 
@@ -357,62 +370,91 @@ extraction-method note.
 ### 3.6 THE GOQ-08 acquisition ledger — the wave's closing summary
 
 - **GT-SPR-FR-190:** ANCHOR (closing summary): the system shall carry
-  the GOQ-08 acquisition ledger: **D-19-2016 (Ley Emergente para la
-  Conservación del Empleo) = the top-ranked BLOCKING acquisition** for
-  the special-regimes wave — post-2016 ZF user ISR windows, maquila
-  transitional clauses and the old art. 15 text, and the provenance of
-  arts. 4 bis / 8 bis / 12 bis / 39 bis / 43 bis are unresolvable
-  without it. Every ledger row is an ACQUISITION WATCHER: instrument,
-  chain(s) touched, role as printed (reformer/adder/derogator), tag
-  date(s) as printed, watch=true, cite_as_law=false. The ledger rides
-  the DOWNLOAD_QUEUE (acquisition list — controller updates at close;
-  D-19-2016 top priority per rev 7).
-  (LB-010; LB-011; EVID-647/706; GOQ-08 → OQ-001)
+  the GOQ-08 acquisition ledger with **D-19-2016 (Ley Emergente para la
+  Conservación del Empleo) = DELIVERED 2026-08-22** — primary-read
+  end-to-end from `84_` (given 25-Feb-2016; promulgated 29-Mar-2016; DCA
+  No. 29 Tomo CCCIV 30-Mar-2016; vigente 31-Mar-2016; EVID-746): art. 7
+  ADDS law art. 12 bis ("el cual queda así"); arts. 21-27 reform/add ZF
+  arts. 4/5 bis/22/24/36 a)/36 bis/41; art. 31 deroga ZF arts. 23/24/26;
+  transitorios arts. 28/29/30 + the untitled maquila art.-18 ISR top-up
+  (EVID-747..758). The former blocker legs are RESOLVED: post-2016 ZF
+  user ISR windows (10 años from notificación — no nominal change,
+  EVID-755/787), the maquila transitional clauses (EVID-753/757) and the
+  2005-state of the old ISR trio (EVID-762/763/786) are primary-sourced;
+  surviving fences only per FR-193. Every still-tag-only ledger row
+  remains an ACQUISITION WATCHER: instrument, chain(s) touched, role as
+  printed (reformer/adder/derogator), tag date(s) as printed, watch=true,
+  cite_as_law=false. The ledger rides the DOWNLOAD_QUEUE (acquisition
+  list — controller updates at close; AG 52-2017 = head watcher).
+  (LB-010; LB-011; EVID-746..758/784/786/787; GOQ-08 → OQ-001 resolved)
 - **GT-SPR-FR-191:** The system shall enumerate the law-side watcher
-  rows with their printed roles: **D-19-2016** (31-03-2016 — both laws,
-  the blocking acquisition itself: adds 4 bis/8 bis/12 bis/39 bis/43
-  bis, derogates art. 15, reforms ≥ 9 D-65-89 articles); **D-38-04**
-  (06-01-2005 — D-29-89 arts. 1/3/3 bis/12/13/14/29/33/36 ter/40 per
-  the tag census; never the 12 bis creator — R81); **D-26-91**
-  (27-03-1991 — art. 3 g) exportador indirecto); **D-117-97 / D-9-98**
-  (art. 22 resolution deadline); **D-22-73** (ZOLIC organic law — named
-  in both exclusion lists, content outside corpus); **DL 21-84** (+
-  reglamento — the anti-stacking predecessor, arts. 44/53/47 kin,
-  content outside corpus). Reglamento-side watchers (AG 12-97, AG
-  4-2005, AG 253-2013, AG 168-2014, AG 3-2017) are consumed by exact id
-  from GT-SPR-FR-102 (`04_maquila-reglamento-chain.md` — owner of the
-  reglamento-side tag ledger) and referenced here as one aggregate
-  pointer row, never duplicated.
-  (LB-011; EVID-711/713/717/720/721/722 tags; EVID-732; cross-ref
-  GT-SPR-FR-102; R81)
+  rows with DELIVERED verdicts + one-line primary-read summaries:
+  **D-19-2016** = `84_` DELIVERED (see FR-190: art. 7 adds 12 bis; ZF
+  arts. 21-27 + derogations art. 31; transitorios 28/29/30 + untitled
+  art. 18 top-up); **D-38-04** = `94_` DELIVERED (given 25-Nov-2004; DCA
+  29-Dec-2004; vigente 6-Jan-2005 — the 2005-2016 maquila state:
+  re-states arts. 1/3/7-17/20/29/33/36 bis incl. the ISR trio 12 c)/13
+  a)/15 b), adds 3 bis/36 ter/40; NOT the 12 bis creator — R81 confirmed,
+  no "12 bis" string in it; 90-day transitorio; EVID-759..766);
+  **AG 4-2005** = `91_` DELIVERED (given 11-Jan-2005, vigencia =
+  publication day, DCA 13-01-2005 per 70_ tag — the D-38-04 reglamento
+  adaptation: arts. 9-14/24/25/28 restated, adds 30 A/30 B/39 A, two
+  renaming clauses; EVID-767..771); **AG 3-2017** = `95_` DELIVERED
+  (given 6-Jan-2017, vigente 12-Jan-2017 — the D-19-2016-art.-19
+  reglamento rewrite: 20 reforms + 10 additions + art.-33 ¶2, deroga
+  reglamento 13/29/30, ~9 months past the 30-day mandate; EVID-772..782).
+  STILL tag-only watchers (unchanged): **D-26-91** (27-03-1991 — art. 3
+  g) exportador indirecto; also the ZF arts. 21 b)/22 b) cross-ref fix);
+  **D-117-97 / D-9-98** (art. 22 resolution deadline); **D-22-73** (ZOLIC
+  organic law — named in both exclusion lists, content outside corpus);
+  **DL 21-84** (+ reglamento — the anti-stacking predecessor, arts.
+  44/53/47 kin, content outside corpus); and reglamento-side **AG 52-2017
+  = STILL MISSING** (its own instrument is not in corpus — head watcher;
+  only its tags in 68_/67_ + the 35 bis text it added are readable). The
+  still-tag-only reglamento-side set (AG 12-97, AG 253-2013, AG
+  168-2014) is consumed by exact id from GT-SPR-FR-102
+  (`04_maquila-reglamento-chain.md` — owner of the reglamento-side tag
+  ledger) and referenced here as one aggregate pointer row, never
+  duplicated (AG 4-2005/AG 3-2017 verdicts recorded above; the ledger
+  detail stays with FR-102's owner).
+  (LB-011; LB-010; EVID-711/713/717/720/721/722 tags; EVID-732;
+  EVID-746..789; cross-ref GT-SPR-FR-102; R81)
 - **GT-SPR-FR-192:** GUARD (never-cite-as-law): the system shall refuse
   any legal-basis or requirement row that grounds a normative claim on a
-  tag-only instrument (FR-191 set + AG 52-2017's internal articles
-  beyond its printed tag): consolidation tags prove only THAT an
-  instrument touched an article and its printed date — never the
+  STILL-tag-only instrument (D-26-91, D-117-97, D-9-98, D-22-73, DL
+  21-84, AG 12-97, AG 253-2013, AG 168-2014 + AG 52-2017's internal
+  articles beyond its printed tags): consolidation tags prove only THAT
+  an instrument touched an article and its printed date — never the
   touched text. Tag-derived rows carry provenance_kind=tag_only and are
-  invisible to compliance computation. The only D-19-2016-content rows
-  permitted anywhere in the wave are the footprint rows of GT-SPR-FR-042
-  (consumed by id) and the fences of FR-185/FR-193.
-  (LB-010; LB-011; EVID-647/706; GOQ-08 → OQ-001)
-- **GT-SPR-FR-193:** NEGATIVE ANCHOR (the shared blocker): the system
-  shall NOT model any post-2016 transitional window, transitional
-  clause or pre-reform text: (i) post-31-03-2016 ZF user window shapes
-  (fence owned by GT-SPR-FR-009, consumed by id); (ii) maquila
-  transitional clauses on pre-existing ISR windows and the old art. 15
-  holiday mechanics (fences owned by GT-SPR-FR-079/080/087, consumed by
-  id); (iii) reglamento-side pre-derogation texts of arts. 13/29/30
-  (fence owned by GT-SPR-FR-097, consumed by id); (iv) the art. 43 bis
-  ladder's transitional exposure (fence owned by GT-SPR-FR-160,
-  consumed by id); and (v) this file's valve/fence surfaces
-  (FR-185). Every such dependency across the wave resolves to THIS
-  file's GOQ-08 closing row (OQ-001) — the single wave-wide blocker
-  anchor, pairing with the chain anchors GT-SPR-FR-043 (ZF chain) and
-  the file-level OQ rows 01/OQ-001, 02/OQ-001, 03/OQ-001, 04/OQ-003 and
-  05/OQ-005 (all consumed by id; never restated). Acquisition of
-  D-19-2016 re-opens exactly those fenced rows and nothing else.
-  (LB-010; LB-011; EVID-647/706; GOQ-08 → OQ-001; cross-ref
-  GT-SPR-FR-009/042/043/079/080/087/097/160)
+  invisible to compliance computation. DELIVERED instruments (84_
+  D-19-2016, 94_ D-38-04, 91_ AG 4-2005, 95_ AG 3-2017) ARE citable as
+  law from the committed chain evidence file (EVID-746..789), per the
+  FR-190/FR-191 verdicts; D-19-2016-content rows are no longer limited
+  to the FR-042 footprint / FR-185/FR-193 fences (resolver: FR-193
+  amended).
+  (LB-010; LB-011; EVID-746..789; GOQ-08 → OQ-001 resolved)
+- **GT-SPR-FR-193:** NEGATIVE ANCHOR (the shared blocker) — **RESOLVED
+  2026-08-22 (D-19-2016 delivered as `84_`, EVID-746..758/784..789)**:
+  post-2016 claims are NO LONGER blocked wave-wide — the ZF transitorios
+  (arts. 28/29/30), the maquila untitled art.-18 top-up, the 2016
+  elimination of the old ISR trio and the added-article texts (4 bis/8
+  bis/12 bis/39 bis/43 bis) are primary-readable, and the fences this
+  row used to hold are lifted EXCEPT three that SURVIVE: (i)
+  AG 52-2017-dependent content — the art.-35-bis SAT-procedure surface
+  of FR-186 keeps its no-procedure fence (nothing about the procedure is
+  in corpus) and AG 52-2017's own internal articles stay tag-only
+  (instrument not acquired); (ii) the PRE-2016 ZF art. 22 wording (84_
+  prints only the replacement text — any 12/15-year hypothesis stays
+  outside the corpus; 02/OQ-001 + its 2015-cutoff OQ); and (iii) the
+  PRE-2005 maquila texts (1989-2004 states of law arts. 12/13/15
+  unrecoverable — 94_ supplies only the 2005-2016 state, EVID-786;
+  pre-D-38-2004 claims stay fenced, 03/OQ-001). Dependencies previously
+  routed here (GT-SPR-FR-009 file 01; FR-079/080/087 file 03; FR-097
+  file 04; FR-160 file 05) resolve to their owner files' fences as
+  amended; the wave-wide single-blocker anchor is retired (chain anchors
+  02/OQ-001 and 03/OQ-001 resolved).
+  (LB-010; LB-011; EVID-746..758/786/787/789; GOQ-08 → OQ-001 resolved;
+  cross-ref GT-SPR-FR-009/042/043/079/080/087/097/160)
 
 ## 4. Data Model
 
@@ -433,7 +475,7 @@ extraction-method note.
 | l10n_gt_regimes.procedure_pointer | source_article · target_article · deferred_to | char triple | 68_ art. 35 bis → 69_ art. 39 bis → SAT (no procedure in corpus; AG 52-2017 tag 2017-04-05) | FR-186 |
 | l10n_gt_regimes.consumed_years_ledger | beneficiary · predecessor_instrument · years_enjoyed · fed_window | m2o + select + numeric + m2o | predecessors: dl_21_84 · d_29_89 · d_65_89; evidence-only for dl_21_84 (not in corpus) | FR-187, FR-188 |
 | l10n_gt_regimes.benefit_window (consumes GT-SPR-FR-002 model) | consumed_years_deduction · adjusted_valid_to | numeric + date | set by FR-187 computation; provenance = art. 44 / art. 53 | FR-187 |
-| l10n_gt_regimes.acquisition_watcher | instrument · chains · role_as_printed · tag_dates · watch · cite_as_law | char + m2m + char + json + boolean pair | D-19-2016 (rank 1, blocking); law-side set per FR-191; reglamento-side = aggregate pointer to FR-102 ledger; cite_as_law always false | FR-190, FR-191, FR-192 |
+| l10n_gt_regimes.acquisition_watcher | instrument · chains · role_as_printed · tag_dates · watch · cite_as_law | char + m2m + char + json + boolean pair | delivered rows flip watch=false, cite_as_law=true (84_ D-19-2016 · 94_ D-38-04 · 91_ AG 4-2005 · 95_ AG 3-2017, via EVID-746..789); still-tag-only set per FR-191 keeps cite_as_law=false (AG 52-2017 head watcher) | FR-190, FR-191, FR-192 |
 | l10n_gt_regimes.acquisition_watcher | provenance_kind | select | tag_only · gap_map · register_row (GOQ-08 §C verbatim) | FR-190, FR-192 |
 
 ## 5. Odoo Mapping
@@ -453,15 +495,15 @@ extraction-method note.
 | FR-182 | odoo | valve transaction fiscal properties | iva no_afecta + exoneración flags | ZF-side import scope via GT-SPR-FR-015 by id |
 | FR-183 | odoo | valve ISR engine pointer | isr_regime_snapshot = opcional_simplificado | Entire engine = GT-TAX-FR-159..165 by id; pairs FR-008 carve-out |
 | FR-184 | odoo | sale flow 42 ter documentation state | decl_mercancias_ref | Same model as FR-179; ingestion via FR-180 |
-| FR-185 | shared | provenance fence rows | 39 bis tag + blocker link | GOQ-08 fence; no pre-2016 valve mechanics |
-| FR-186 | shared | procedure_pointer config | 35 bis ↔ 39 bis ↔ SAT | Pairs GT-SPR-FR-044 by id; no form/channel until SAT procedure lands |
+| FR-185 | shared | provenance fence rows | 39 bis tag + confirmed-negative blocker link | GOQ-08 resolved; no pre-2016 valve mechanics (84_ prints no transitional routing) |
+| FR-186 | shared | procedure_pointer config | 35 bis ↔ 39 bis ↔ SAT | Pairs GT-SPR-FR-044 by id; no form/channel until SAT procedure lands (AG 52-2017 fence survives) |
 | FR-187 | odoo | benefit_window deduction computation | consumed_years_deduction · adjusted_valid_to | Per-beneficiary D15 rows; over FR-002/006/075 models by id |
 | FR-188 | odoo | consumed_years_ledger | per-predecessor rows | DL 21-84 rows evidence-only (not in corpus) |
 | FR-189 | shared | anti-stacking scope config | transitorio semantics pair | 1989 transitorios; DCA dates unprintable (GOQ-135 kin); FR-029/030/092 by id |
-| FR-190 | shared | acquisition_watcher ledger | D-19-2016 rank-1 blocking row | Rides DOWNLOAD_QUEUE (controller updates at close) |
-| FR-191 | shared | acquisition_watcher law-side rows | D-38-04 · D-26-91 · D-117-97 · D-9-98 · D-22-73 · DL 21-84 | Reglamento-side = aggregate pointer to FR-102 ledger; R81 role guard |
-| FR-192 | shared | provenance_kind=tag_only guard | refusal rule | Tag-only instruments never ground LB/compliance rows |
-| FR-193 | shared | shared-blocker fence (wave-wide) | single GOQ-08 anchor | Consumes FR-009/042/043/079/080/087/097/160 + file OQ rows by id |
+| FR-190 | shared | acquisition_watcher ledger | D-19-2016 DELIVERED row (84_) | Rides DOWNLOAD_QUEUE (controller updates at close; AG 52-2017 head watcher) |
+| FR-191 | shared | acquisition_watcher rows | delivered verdicts 84_/94_/91_/95_ + still-tag-only set (D-26-91 · D-117-97 · D-9-98 · D-22-73 · DL 21-84 · AG 52-2017) | Reglamento-side detail = pointer to FR-102 ledger; R81 role guard |
+| FR-192 | shared | provenance_kind=tag_only guard | refusal rule | Still-tag-only instruments never ground LB/compliance rows; delivered set citable from EVID-746..789 |
+| FR-193 | shared | shared blocker — RESOLVED | surviving fences only | AG 52-2017 content · pre-2016 ZF art. 22 wording · pre-2005 maquila texts; cross-refs FR-009/042/043/079/080/087/097/160 by id |
 
 ## 6. Acceptance Criteria
 
@@ -522,31 +564,40 @@ extraction-method note.
   row, and the consumed-years ledger carries the predecessor row; and
   NO deduction ever applies as a global constant.
   (FR-187, FR-188)
-- **AC-011:** Given any attempt to model post-2016 transitional windows,
-  pre-reform texts or the old art. 15 mechanics, then it is refused and
-  the dependency resolves to this file's GOQ-08 closing row (OQ-001) —
-  the same anchor the wave's other files point at by their own OQ ids.
+- **AC-011:** Given any attempt to model pre-reform texts, pre-2005
+  art.-12/13/15 holiday mechanics, a pre-2016 ZF art. 22 wording or
+  AG 52-2017-internal content, then it is refused and the dependency
+  resolves to this file's GOQ-08 closing row (OQ-001, resolved) —
+  post-2016 transitional windows/clauses themselves are NO LONGER
+  refused (84_ primary-read; FR-185/FR-193 surviving fences only).
   (FR-185, FR-193)
-- **AC-012:** Given the acquisition ledger, then D-19-2016 is the
-  rank-1 blocking row, every law-side lead of FR-191 is a watcher row
-  with cite_as_law=false, and any attempt to ground a legal-basis row on
-  a tag-only instrument is refused at model level.
+- **AC-012:** Given the acquisition ledger, then D-19-2016, D-38-04,
+  AG 4-2005 and AG 3-2017 are DELIVERED rows (cite_as_law=true via
+  EVID-746..789), every still-tag-only lead of FR-191 (incl. AG 52-2017)
+  is a watcher row with cite_as_law=false, and any attempt to ground a
+  legal-basis row on a still-tag-only instrument is refused at model
+  level.
   (FR-190, FR-191, FR-192)
 
 ## 7. Open Questions
 
 Master-index GOQ ids (register `gt/.extractions/00_MASTER_INDEX.md` §C);
-this file OWNS **GOQ-08** — the D-19-2016 blocking acquisition — as the
+this file OWNS **GOQ-08** — the D-19-2016 acquisition — as the
 special-regimes wave's CLOSING SUMMARY row (every affected file records
 its own chain anchor; this row is the wave-wide aggregate the acquisition
-queue rides), and carries kin rows for GOQ-140 (CAUCA/declaration
-platform names) and GOQ-135 (predecessor-chain effective dates). No gaps
-beyond the 140-GOQ register were treated as open questions; genuinely
-new gaps would be report-only to the controller (none found — the
-D-22-73/DL 21-84 absences are ledger watchers, not new questions).
+queue rides) — **RESOLVED 2026-08-22: D-19-2016 = `84_` in corpus,
+primary-read end-to-end (chain unit with D-38-04 = `94_`, AG 4-2005 =
+`91_`, AG 3-2017 = `95_`; EVID-746..789)** — and carries kin rows for
+GOQ-140 (CAUCA/declaration platform names) and GOQ-135 (predecessor-chain
+effective dates). No gaps beyond the 140-GOQ register were treated as
+open questions; genuinely new gaps would be report-only to the controller
+(none found at wave close — the D-22-73/DL 21-84 absences are ledger
+watchers, not new questions; the 2026-08-22 84_ read surfaced only
+file-level anomalies owned by files 02/03: the 2015-cutoff OQ — 02/OQ-005
+— and the permanent 8-bis/12-bis verbatim guard — 03/FR-066/068).
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
-| OQ-001 | GOQ-08 (owned — wave closing summary): "D-19-2016 (Ley Emergente para la Conservación del Empleo) — THE blocking acquisition for special regimes: post-2016 ZF ISR windows, maquila transitional clauses + old art. 15 text, arts. 4 bis/8 bis/12 bis/39 bis/43 bis provenance. Tag-only leads: AG 3-2017, D-38-04, D-26-91, D-117-97, D-9-98, AG 12-97/4-2005/253-2013/168-2014, D-22-73, DL 21-84." This file's exposures: the art. 39 bis valve's transitional routing (FR-185 fence), the exclusion matrix's D-19-2016-added articles (4 bis/5 Bis — printed text + tag only), the anti-stacking predecessors' own mechanics (DL 21-84 — watcher), and every wave dependency fenced at FR-193. Acquisition of D-19-2016 (DOWNLOAD_QUEUE rev 7, top priority — controller updates at close) re-opens the fenced rows; chain anchors: 01/OQ-001, 02/OQ-001, 03/OQ-001, 04/OQ-003, 05/OQ-005 (consumed by id). | yes | GT synthesis wave S-GT6/S-GT7 (acquisition queue — D-19-2016, top priority) | open |
+| OQ-001 | GOQ-08 (owned — wave closing summary): "D-19-2016 (Ley Emergente para la Conservación del Empleo) — THE blocking acquisition for special regimes: post-2016 ZF ISR windows, maquila transitional clauses + old art. 15 text, arts. 4 bis/8 bis/12 bis/39 bis/43 bis provenance. Tag-only leads: AG 3-2017, D-38-04, D-26-91, D-117-97, D-9-98, AG 12-97/4-2005/253-2013/168-2014, D-22-73, DL 21-84." This file's exposures: the art. 39 bis valve's transitional routing (FR-185 fence), the exclusion matrix's D-19-2016-added articles (4 bis/5 Bis — printed text + tag only), the anti-stacking predecessors' own mechanics (DL 21-84 — watcher), and every wave dependency fenced at FR-193. **RESOLVED in-corpus 2026-08-22: D-19-2016 = `84_` primary-read end-to-end (EVID-746..758), chain unit with D-38-04 = `94_` (EVID-759..766), AG 4-2005 = `91_` (EVID-767..771), AG 3-2017 = `95_` (EVID-772..782), synthesis EVID-783..789 — every blocker leg resolved: post-2016 ZF ISR window = 10 años from notificación, art. 23 byte-consistent with the 67_ print, NO nominal window change (EVID-755/787, resolving 67_-OQ-2); maquila transitorios readable (untitled art. 18 top-up — EVID-753); the old ISR trio's 2005-state recovered from 94_ as arts. 12 c)/13 a)/15 b), art. 15 = the CANT benefits article (EVID-762/763/786); added-article texts 4 bis/8 bis/12 bis/39 bis/43 bis primary-verified (EVID-747..752); all 67_/69_ tags reconcile 1:1 (EVID-784). FR-185/FR-190..193 amended; surviving fences = AG 52-2017-internal content (head watcher), pre-2016 ZF art. 22 wording (02/OQ-001 + 02/OQ-005), pre-2005 maquila texts (03/OQ-001).** | yes | GT synthesis wave S-GT6/S-GT7 (acquisition queue — D-19-2016 delivered; AG 52-2017 head watcher) | resolved (2026-08-22) |
 | OQ-002 | GOQ-140 (kin): platform-name currency on the bridge surfaces — the art. 42 bis prior notification runs "de forma física o por medio de la plataforma electrónica… la que a su vez notificará a la Intendencia de Aduanas de la SAT" and the 30 A authorization track via "física or Plataforma" (DPI): names recorded only as printed (1989-2017 layers); the saas ingestion surface of FR-180 asserts no current module names (post-2023 DUCA/FEL world outside corpus). Owned by `05_compliance-cadence-sanctions.md` OQ-001 (SR5 integration); consumed here as kin. | no | GT synthesis wave S-GT6/S-GT7 → W6 partner ask | open |
 | OQ-003 | GOQ-135 (kin): predecessor-chain effective dates — the anti-stacking transitorios (D-29-89 art. 44; D-65-89 art. 53) key off each law's VIGENCIA, and neither DCA publication date is printed (both vigencia = DCA + 30 días); DL 21-84 and D-22-73 (the exclusion matrix's third law) are not in corpus at all. FR-189 stores the semantics with unprintable anchors; dated rows that need actual 1989 effective dates (or any D-22-73 content) require external sourcing — the same register row the SR2/SR4 files carry (consumed by id from 01/OQ-002 and 02/OQ-002). | no | GT synthesis wave S-GT6/S-GT7 (chain-dates half consumed from SR2 rows by pointer) | open |

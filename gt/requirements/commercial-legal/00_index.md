@@ -4,9 +4,9 @@
 |--------|-------|
 | Country | gt |
 | Topic   | commercial-legal |
-| Status  | draft (S-GT5 synthesis wave, in review) |
+| Status  | draft (S-GT5 synthesis wave, in review; GOQ-147/GOQ-134 backfills applied 2026-08-22 — 92_ + 89_/90_) |
 | Authors | GT synthesis wave S-GT5 + controller |
-| Updated | 2026-08-21 |
+| Updated | 2026-08-22 |
 
 This directory holds the commercial-law half of the S-GT5 (synthesis wave 5)
 chart-of-accounts/commercial-legal wave: the *Registro Mercantil* outward
@@ -32,8 +32,8 @@ coverage: [../COVERAGE.md](../COVERAGE.md).
 |------|---------|-------|----------|-----|-----|-----|-----|
 | [01_rm-surfaces.md](01_rm-surfaces.md) | C3 | RM arancel fee catalog (dated-2022-label, re-verify every row — R66) + electronic edicto portal (D-18-2017 → CC art. 343 reform, R64) + edición-6022 channel anatomy (GOQ-131 single-snapshot) | GT-CML-FR-001..025 | 25 | 14 | 9 | 2 |
 | [02_sociedades-lifecycle.md](02_sociedades-lifecycle.md) | C4 | Comerciante qualification + five-form society taxonomy + capital/governance (Q-amounts as dated rows — R67) + lifecycle (inscripción→disolución→liquidación) + AML CC-reform cutover hooks (art. 113 SMM fine keyed 2026-09-17) | GT-CML-FR-026..085 | 60 | 24 | 11 | 5 |
-| [03_titulos-valores-prescripcion.md](03_titulos-valores-prescripcion.md) | C5 | Títulos valores framework + factura cambiaria (FEL-lineage guard — the comerciante's five-year art. 604 duty) + one-per-clock prescription ladder (cheque 6m, regreso 1y, directa 3y, enriquecimiento 1y …) feeding the destruction gate | GT-CML-FR-086..125 | 40 | 14 | 12 | 3 |
-| [04_aml-compliance.md](04_aml-compliance.md) | C6 | AML chain D-51-2001 → D-67-2001 → D-15-2026 on the dated 17-sep-2026 cutover spine (R60): PO catalog, retention ≥5y(+10y digital for financial POs), thresholds deferred to reglamento (GOQ-12), D-62-2001 relationship OPEN (GOQ-132) | GT-CML-FR-126..163 | 38 | 26 | 14 | 4 |
+| [03_titulos-valores-prescripcion.md](03_titulos-valores-prescripcion.md) | C5 | Títulos valores framework + factura cambiaria (FEL-lineage guard — the comerciante's five-year art. 604 conservation duty, retyped 2026-08-22: NOT a claim clock) + one-per-clock prescription ladder (cheque 6m, regreso 1y, directa 3y, enriquecimiento 1y …) feeding the destruction gate + Civil fallback clock 5y CC art. 1508 (GOQ-147 resolved, 92_) | GT-CML-FR-086..125 | 40 | 16 | 12 | 3 |
+| [04_aml-compliance.md](04_aml-compliance.md) | C6 | AML chain D-51-2001 → D-67-2001 → D-15-2026 on the dated 17-sep-2026 cutover spine (R60): PO catalog, retention ≥5y(+10y digital for financial POs), thresholds deferred to reglamento (GOQ-12), D-62-2001 resolved-negative pure-IVA (GOQ-132, 88_), FT pair in corpus (GOQ-134, 89_/90_; AG 118-2002 = AML-reglamento lineage head) | GT-CML-FR-126..163 | 38 | 28 | 14 | 4 |
 | **Total** | | | **GT-CML-FR-001..163** | **163** | **78** | **46** | **14** |
 
 Cluster map (S-GT5): C3→01, C4→02, C5→03, C6→04 here; C1→`../chart-of-accounts/01`,
@@ -156,6 +156,6 @@ sidecars (via GT-PAY-FR-058/063), never hardcoded.
 |------|---------|---------|
 | 01_rm-surfaces.md | 14 | 9 |
 | 02_sociedades-lifecycle.md | 24 | 11 |
-| 03_titulos-valores-prescripcion.md | 14 | 12 |
-| 04_aml-compliance.md | 26 | 14 |
+| 03_titulos-valores-prescripcion.md | 16 | 12 |
+| 04_aml-compliance.md | 28 | 14 |
 | **Total** | **78** | **46** |

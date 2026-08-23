@@ -6,7 +6,7 @@
 | Topic   | payroll |
 | Status  | draft |
 | Authors | GT synthesis wave S-GT3 |
-| Updated | 2026-08-20 |
+| Updated | 2026-08-22 |
 
 ## 1. Purpose
 
@@ -16,8 +16,10 @@ law layer of Decreto 295, *Ley Orgánica del IGSS* (1946; D-11-2004 is a
 governance-only reform, R39) — the *triple contribución* financing structure
 (25% trabajadores / 50% patronos / 25% Estado of the total cost — financing
 PROPORTIONS, never cuota rates) with the cuota MONTOS expressly delegated to
-Junta Directiva reglamentos (Acuerdo 1118 family / Acuerdo 1421 — ALL rate,
-base, tope and component values external per GOQ-04), the employer-share
+Junta Directiva PROGRAM reglamentos (Acuerdo 1421 art. 1 delegates the
+montos to the reglamentos of the respective coverage programs — ALL rate,
+base, tope and component values external per GOQ-04, target REFINED to the
+program reglamentos), the employer-share
 no-deduction invariant (*nulo ípso jure*), the share-shift cases
 (salario-mínimo earners and riesgos profesionales may load the worker share
 onto the patrono), the first-class credit privilege with the *certificación
@@ -37,7 +39,11 @@ patronal (afectos y no afectos a IVS reported together) plus additional
 planillas per obra/servicios contract, the SINGLE payment receipt settling
 IGSS + IRTRA + INTECAP in one event, late payment accepted with mora, the
 mora engine (day after due date; Cuotas IGSS × tasa × días/365(366); tasa
-external GOQ-10) with the +5% gastos administrativos cap Q3,000, the nota de
+RULE anchored at Acuerdo 1421 art. 38 — the Junta Monetaria's latest
+maximum simple-annual rate on the weighted banking rate for active
+operations, an inherently external floating index publication, GOQ-10
+resolved at rule level) with the +5% gastos administrativos cap Q3,000
+(source layer: Acuerdo 1421 arts. 22/24), the nota de
 cargo clock chain (5/15/15/5 días hábiles), the reconocimiento de deuda
 regime (≤60 months, same-day first payment, 2-missed acceleration, 100% cap),
 the four recargo-waiver cases with 6-month windows and 45-días-hábiles
@@ -76,14 +82,23 @@ deduction gate is consumed by id (GT-TAX-FR-146).
 
 Authority order (binding, per master evidence index P4): IGSS mechanics cite
 `35_` (Resolución 08-SGF/2026 + its 45-hoja Instructivo) at the procedure
-layer and `33_` (D-295) at the law layer — but **ALL rate/base/tope values
-are external** (Junta Directiva reglamentos, Acuerdo 1118 family / Acuerdo
-1421 — GOQ-04): never cite 33_-36_ for a rate. The 12.67% patronal / 4.83%
+layer, `33_` (D-295) at the law layer and `87_` (JD Acuerdo 1421, approved
+by AG 180-2018 — LB-025) at the collection-reglamento layer — but **ALL
+rate/base/tope values are external** (JD PROGRAM reglamentos: Acuerdo 1421
+art. 1 expressly delegates the montos to the reglamentos of the respective
+coverage programs — GOQ-04, acquisition target REFINED to the program
+reglamentos, not the recaudación line): never cite 33_-36_ or 87_ for a
+rate — 1421 prints NO cuota rate, base amount, tope or component percentage
+anywhere. The 12.67% patronal / 4.83%
 laboral priors are NOT verifiable from this corpus (R34) — rejected priors,
 never constants. What `35_` prints and owns are the procedural values: 5%
 gastos administrativos (cap Q3,000), 100% recargo/interés cap inside
 reconocimientos de deuda, ±1% tolerance, Q500 incobrabilidad, and every
-días-hábiles clock below. The 1946 `33_` pages are the noisiest OCR in the
+días-hábiles clock below — and their statutory SOURCE layer is now also in
+corpus: `87_` supplies the planilla due date (art. 9: day 20), the mora
+tasa rule + general 100% cap (art. 38), the 5%/Q3,000 admin recargo at
+source (arts. 22/24), the RD interest index rule (art. 31 c)) and the
+incobrabilidad triggers (arts. 39-40, LB-025). The 1946 `33_` pages are the noisiest OCR in the
 corpus — every D-295 verbatim carries `[sic]` tolerance (GOQ-74); D-11-2004
 is governance-only (R39). `36_` is an undated IGSS guide: corroboration
 only, never authority (EVID-323). `34_` (AG 229-2014) is an
@@ -108,20 +123,24 @@ occupational-safety reglamento with zero cuota/recaudación content (R40).
 | LB-015 | 08-SGF/2026 numerales 15-17: "El patrono inscrito que tenga varios centros de trabajo, deberá presentar la correspondiente Planilla de Seguridad Social por los trabajadores afectos y no afectos al programa de Invalidez, Vejez y Sobrevivencia y deben generar, transmitir, validar y pagar por medio de una sola Planilla de Seguridad Social en forma electrónica." / "En el caso que un patrono ejecute un contrato de obra pública, privada o de servicios y proceda su inscripción, se deberá generar, transmitir y validar una Planilla de Seguridad Social adicional por cada contrato." / "Si como resultado de la fiscalización se determina que los patronos tienen contratos adjudicados en el sistema GUATECOMPRAS, el Departamento de Cobro Administrativo solicitará a los Inspectores Patronales que realicen la revisión contable…" / inhabilitación: "cuando incumpla en la presentación y/o pago de Planillas de Seguridad Social en forma electrónica, cuando exista nota de cargo y que esta esté firme, cuando haya incumplimiento del pago de dos amortizaciones consecutivas de un reconocimiento de deuda…" | Filing-unit structure: an enrolled employer with several work centers files ONE electronic planilla covering workers AFECTOS AND NO AFECTOS to the IVS program, generated/transmitted/validated/paid as a single planilla; an employer executing a public/private obra or servicios contract generates an ADDITIONAL planilla per contract upon enrollment; GUATECOMPRAS awards discovered in fiscalization trigger a contable review; State-supplier INHABILITACIÓN attaches on planilla non-filing/non-payment, firm notas de cargo, or two missed consecutive RD amortizations | `gt/sources/35_IGSS_Resolucion_08-SGF-2026_recaudacion.pdf` | p.11, numerales 15-17 (EVID-315) |
 | LB-016 | 08-SGF/2026 §VIII numerales 37-38: "Dicha solvencia tendrá vigencia desde su fecha de emisión hasta la próxima fecha límite de pago de la Planilla de Seguridad Social en forma electrónica." / "Cuando exista nota de cargo notificada y esta no se encuentre firme, no será un impedimento para extender la Solvencia Patronal. / No se extenderá solvencia, aunque el patrono tenga suscrito reconocimiento de deuda, en virtud de persistir la deuda con el Instituto." / "Las constancias de patrono inscrito al Seguro Social, se tramitarán y extenderán por el Departamento de Registro de Patronos y Trabajadores … dentro del plazo de diez (10) días hábiles contados a partir de la recepción de la solicitud" | The solvencia (employer clearance) is valid from issuance UNTIL the next planilla payment due date (one contribution period — the fecha límite VALUE is not printed, GOQ-10); a notified-but-not-firm nota de cargo does NOT bar solvencia, but an open reconocimiento de deuda DOES (debt persists); enrollment constancias issue within TEN días hábiles of the request | `gt/sources/35_IGSS_Resolucion_08-SGF-2026_recaudacion.pdf` | pp.16-17, numerales 37-38 (EVID-316) |
 | LB-017 | 08-SGF/2026 §IX numerales 39-45: "efectuarán revisión contable, a cada patrono inscrito según su jurisdicción y capacidad instalada, con el propósito de verificar si los patronos reportan a todos los trabajadores, sus salarios afectos al Régimen de Seguridad Social" / bases for notas de cargo: "b. Por medio de estimación salarial con base en el promedio de salarios reportados en planillas de seguridad social o por otro medio que se considere acorde a la realidad" / "Los salarios establecidos con este procedimiento no podrán ser, menores al salario mínimo mensual establecido en el Acuerdo Gubernativo vigente a la fecha en que se detectaron los hallazgos" / method: "a. En empresas agropecuarias se tomará de base el promedio de salarios reportados por el patrono, en las Planillas de Seguridad Social correspondientes a los últimos doce (12) meses. b. En las demás empresas … últimos seis (6) meses. [c.] Cuando el patrono no tenga ningún pago registrado … la información salarial reportada en el trámite de inscripción patronal" | Contable reviews verify that employers report ALL workers and their salarios afectos; estimated-salary notas de cargo are built on the AVERAGE of salaries reported in planillas (agropecuarias: last 12 months; all other enterprises: last 6 months; no payment history: the enrollment filing's reported salaries); estimated salaries may NEVER fall below the monthly salario mínimo of the AG vigente at the date the findings were detected — the estimate-floor feed consumed from `03_minimum-wage.md` GT-PAY-FR-073 | `gt/sources/35_IGSS_Resolucion_08-SGF-2026_recaudacion.pdf` | pp.19-22, numerales 39-45 (EVID-317) |
-| LB-018 | 08-SGF/2026 numerales 52, 78-79: "Los recargos por mora que genere el atraso del pago correspondiente, se cobrarán a partir del día siguiente en que el patrono debió efectuar el pago de sus cuotas, mismos que se calcularán hasta la fecha en que el patrono haga efectivo el pago." / "el Instituto cobrará al patrono un recargo por mora sobre el importe de las contribuciones adeudadas por cada día de atraso; el que se calculará según lo regulado en el Artículo 38 del Acuerdo 1421 de Junta Directiva." / "La fórmula para calcular los recargos sobre el importe de contribuciones adeudadas es la siguiente: Cuotas IGSS x tasa aplicable x días de atraso/365 días (366 días si el año es bisiesto)." / "debe cobrarse recargo del 5% adicional por gastos administrativos en toda liquidación que origine nota de cargo" | The mora apparatus as printed: recargos run PER DAY from the DAY AFTER the due date until effective payment; the mora formula is Cuotas IGSS × tasa aplicable × días de atraso/365 (366 in leap years) — the tasa aplicable lives in Acuerdo 1421 art. 38, NOT in this corpus (GOQ-10); every liquidation originating a nota de cargo carries an additional 5% for gastos administrativos (capped Q3,000 inside the Certificación de Gerencia / reconocimiento de deuda, LB-019/LB-020) | `gt/sources/35_IGSS_Resolucion_08-SGF-2026_recaudacion.pdf` | pp.23, 39-40, numerales 52, 78-79 (EVID-318) |
+| LB-018 | 08-SGF/2026 numerales 52, 78-79: "Los recargos por mora que genere el atraso del pago correspondiente, se cobrarán a partir del día siguiente en que el patrono debió efectuar el pago de sus cuotas, mismos que se calcularán hasta la fecha en que el patrono haga efectivo el pago." / "el Instituto cobrará al patrono un recargo por mora sobre el importe de las contribuciones adeudadas por cada día de atraso; el que se calculará según lo regulado en el Artículo 38 del Acuerdo 1421 de Junta Directiva." / "La fórmula para calcular los recargos sobre el importe de contribuciones adeudadas es la siguiente: Cuotas IGSS x tasa aplicable x días de atraso/365 días (366 días si el año es bisiesto)." / "debe cobrarse recargo del 5% adicional por gastos administrativos en toda liquidación que origine nota de cargo" | The mora apparatus as printed: recargos run PER DAY from the DAY AFTER the due date until effective payment; the mora formula is Cuotas IGSS × tasa aplicable × días de atraso/365 (366 in leap years) — the tasa aplicable lives in Acuerdo 1421 art. 38 (now in corpus, `87_`/LB-025: the Junta Monetaria's latest maximum simple-annual rate — a floating index whose numeric value stays an external publication); every liquidation originating a nota de cargo carries an additional 5% for gastos administrativos (capped Q3,000 inside the Certificación de Gerencia / reconocimiento de deuda, LB-019/LB-020; source layer = 1421 arts. 22/24, LB-025) | `gt/sources/35_IGSS_Resolucion_08-SGF-2026_recaudacion.pdf` | pp.23, 39-40, numerales 52, 78-79 (EVID-318) |
 | LB-019 | 08-SGF/2026 numerales 51-66: notificación: "La nota de cargo debe ser notificada al patrono dentro de los cinco (5) días hábiles siguientes a la fecha de su aprobación en el sistema vigente, más el término de la distancia" / firmeza: "se le concederá un plazo de quince (15) días hábiles para que efectúe el pago o impugne … si al transcurrir el plazo … el patrono no paga, no suscribe reconocimiento de deuda o no impugna, la nota de cargo quedará firme" / Certificación de Gerencia: "contendrá según el caso, la cuota patronal y laboral, los recargos, intereses correspondientes, más el 5% de recargo adicional por gastos administrativos sobre dichas cuotas, el cual no podrá ser mayor a tres mil quetzales (Q 3,000.00)." / juicio: "iniciar el juicio económico coactivo, dentro del plazo de quince (15) días hábiles contados a partir de la recepción de la Certificación de Gerencia" / impugnación: "dentro de los quince (15) días hábiles posteriores a su notificación" / resolución: "deberá notificarse al patrono dentro de los diez (10) días hábiles posteriores a la fecha de su emisión" / revocatoria: "Si el patrono no presenta el recurso antes indicado en el plazo que estipula la Ley de lo Contencioso Administrativo (5 días), la Resolución quedará firme" | The nota de cargo dispute-clock chain: approval → notification within 5 días hábiles (+ término de la distancia) → pay-or-impugn 15 días hábiles (else FIRME) → Certificación de Gerencia itemizing cuotas, recargos, intereses + the 5% admin surcharge CAPPED AT Q3,000 → juicio económico coactivo within 15 días hábiles of reception; impugnación filed within 15 días hábiles of notification; resolution notified within 10 días hábiles of emission; revocatoria within 5 días (Ley de lo Contencioso Administrativo) else firm | `gt/sources/35_IGSS_Resolucion_08-SGF-2026_recaudacion.pdf` | pp.22-25, 29-31, numerales 51-66 (EVID-319) |
 | LB-020 | 08-SGF/2026 §XIII numerales 67-77: "Incluirá cuotas patronales, laborales, recargos por mora, intereses resarcitorios si los hubiere, gastos administrativos que corresponden al cinco por ciento (5%) de recargo adicional, calculado sobre la totalidad del capital adeudado, el cual no podrá ser mayor a tres mil quetzales (Q 3,000.00)… Los recargos por mora e intereses resarcitorios, no podrán exceder del 100% de las cuotas. El monto total del adeudo será distribuido proporcionalmente en cuotas niveladas mensuales." / "El plazo máximo para suscribir reconocimiento de deuda ante el Instituto será hasta de 60 meses, contados a partir del momento de suscripción, para lo cual se debe hacer efectivo el primer pago el mismo día de su otorgamiento." / "a la falta de pago de dos amortizaciones consecutivas, queda automáticamente, sin necesidad de declaración, vencido el plazo del reconocimiento de deuda" / num. 76: "el patrono [que suscriba reconocimiento de deuda] tendrá que cancelar simultáneamente con la primera cuota de dicho reconocimiento, lo correspondiente al impuesto IRTRA y tasa INTECAP y sus recargos" / num. 77: "El Instituto no podrá mantener simultáneamente más de un reconocimiento de deuda con un solo patrono" | Reconocimiento de deuda (installment agreement): includes both cuota shares, mora recargos, resarcitory interest, the 5% admin surcharge (cap Q3,000) and the Acuerdo 1421 art. 31 c) interest; mora + resarcitory interest TOGETHER may not exceed 100% of the cuotas; the total spreads in level monthly installments over AT MOST 60 months with the FIRST payment due the SAME DAY of signing; two missed consecutive amortizations automatically accelerate the term; the omitted planillas must be generated/transmitted/validated BEFORE signing; IRTRA + INTECAP arrears settle SIMULTANEOUSLY with the first installment; only ONE RD per patrono at a time | `gt/sources/35_IGSS_Resolucion_08-SGF-2026_recaudacion.pdf` | pp.31-39, numerales 67-77 (EVID-320) |
 | LB-021 | 08-SGF/2026 numerales 80-83: extemporánea planillas WITHOUT recargos "a. Cuando exista interrupción de la relación laboral … y estos llegan a un arreglo directo … una vez se solicite dentro del término de seis meses contados a partir de la reanudación de la relación laboral. b. Cuando exista aumento de salario o cualquier remuneración afecta a las contribuciones a la Seguridad Social otorgadas de forma retroactiva, como consecuencia de la negociación colectiva … dentro del término de seis meses … c. Cuando exista orden de Juez competente, que ordene la reinstalación y/o reajuste en el salario devengado … dentro del término de seis meses contados a partir de la reinstalación, salvo que el juez fije un plazo para el efecto. d. Cuando la causa … sea imputable al Instituto." / num. 83: "El patrono tendrá hasta un máximo de cuarenta y cinco (45) días hábiles a partir del día siguiente de la fecha de notificación del oficio antes indicado para la generación, transmisión, validación y pago de las Planillas … por única vez y a solicitud del patrono se podrá ampliar por otro plazo menor o igual" | The ONLY four recargo-waiver cases, each with a SIX-MONTH application window: (a) rehires after an interrupted relation settled by direct arrangement; (b) RETROACTIVE salary increases — "aumento de salario o cualquier remuneración afecta a las contribuciones" — from collective bargaining (retroactive pay IS contribution-bearing); (c) judicial reinstatement/back-pay orders; (d) IGSS-attributable delay; after the authorization oficio is notified, the employer has 45 días hábiles to generate, transmit, validate AND pay, with ONE extension ≤ the original term | `gt/sources/35_IGSS_Resolucion_08-SGF-2026_recaudacion.pdf` | pp.40-42, numerales 80-83 (EVID-321) |
 | LB-022 | 08-SGF/2026 §§XV-XVI numerales 84-95: "el Instituto no efectuará gestiones de cobro ni se emitirán notas de cargo por diferencias a su favor cuando los montos sean iguales o menores a quinientos quetzales (Q 500.00) o que dichos montos provengan de error en el pago de cuotas, recargos e interés siempre que la liquidación corresponda a 12 o más periodos de contribución" / "Se establece un intervalo de tolerancia aceptable entre los montos de las contribuciones obtenidos y plasmados en los documentos de cobro … Dicho intervalo será cerrado y estará delimitado al valor un [sic] más/menos (+/-) 1% del monto total de las Contribuciones de Seguridad Social." / "Cuando sea necesario que el patrono presente Planillas de Seguridad Social por periodos anteriores a la vigencia del Acuerdo 1520 de Junta Directiva, se podrá utilizar el formato de planilla aplicable en dichos periodos" / "No es exigible la presentación de las Planillas de Seguridad Social para los pagos de adeudos anteriores al mes de marzo del año 1977." | Materiality and history: no collection efforts nor notas de cargo for differences ≤ Q500 (error cases require a 12+-period liquidation); notas de cargo ≤ Q500 are annulled; a CLOSED ±1% tolerance interval bounds computed vs printed contribution totals; periods before the Acuerdo 1520 vigencia (= Sep-2022 boundary per the marco-jurídico recital, AG 239-2022) may use the planilla format of those periods; planillas for debts before March-1977 are not demandable | `gt/sources/35_IGSS_Resolucion_08-SGF-2026_recaudacion.pdf` | pp.43-47, numerales 84-95 (EVID-322) |
 | LB-023 | `36_` Guía Dirección de Recaudación (undated, unnumbered): copia de recibos "La entrega se realizará en 15 días hábiles." / impugnación: "el patrono cuenta con 15 días hábiles para presentar su Impugnación, según Acuerdo 1,421 de Junta Directiva en su artículo 21." / credit: "Material realizado por el Departamento de Comunicación Social y Relaciones Públicas" | An IGSS outreach slide-deck with NO number and NO date anywhere: its content corroborates 08-SGF/2026 (15-dh impugnación, adding the Acuerdo 1421 art. 21 citation) but its currency cannot be established — CORROBORATION ONLY, never an authority or rate source; cite 08-SGF/2026 / Acuerdo 1421 instead | `gt/sources/36_IGSS_Guia_Direccion_Recaudacion.pdf` | pp.5-7 (EVID-323) |
 | LB-024 | AG 229-2014 (34_), scope verdict: "El presente reglamento tiene por objeto regular las condiciones mínimas en salud y seguridad ocupacional con el fin de proteger la vida, seguridad, salud e integridad de todos los trabajadores que se encuentran en un lugar de trabajo…" / Art. 552: "Toda violación a cualquier disposición preceptiva o prohibitiva … da lugar a la imposición de una sanción según lo establecido en los artículos 271 y 272 del Código de Trabajo." | AG 229-2014 (Reglamento de Salud y Seguridad Ocupacional; vigencia 8-Sep-2015, reforms 33-2016/57-2022) is an occupational-safety instrument of ORDEN PÚBLICO with ZERO cuota/recaudación/payroll-money provisions — NEVER a source for IGSS rates (R40); its payroll-touching duties (comité bipartito ≥10 workers, SSO plan 3-year review, medical exams; sanctions via CT arts. 271-272) are owned by `10_sso-provenance.md` | `gt/sources/34_IGSS_Reglamento_SSO_AG_229-2014.pdf` | pp.2-6, arts. 1-3; p.90, arts. 552-559 (EVID-324) |
+| LB-025 | JD Acuerdo 1421 + AG 180-2018 (two-instrument file `87_`), identity + arts. 9, 42, 38, 31 c), 40: "INSTITUTO GUATEMALTECO DE SEGURIDAD SOCIAL / ACUERDO NÚMERO 1421" / "REGLAMENTO SOBRE RECAUDACIÓN DE CONTRIBUCIONES AL RÉGIMEN DE SEGURIDAD SOCIAL" / "Dado en el Salón de Sesiones de la Junta Directiva … a los diecisiete días del mes de mayo del año dos mil dieciocho." / p.11: "ACUERDO GUBERNATIVO MúMERO. 18 0-2 018 [sic — digits damaged; read 180-2018] GUATEMALA, 18 OCT 2018" / Art. 9 (two-column OCR; sentence a marked reconstruction, the day-20 value cleanly printed): "Todo patrono inscrito en el Régimen de Seguridad Social debe entregar al Instituto, bajo su responsabilidad y a más tardar el veinte (20) de cada mes calendario, la Planilla de Seguridad Social, con los soportes respectivos y el monto de las cuotas correspondientes a los salarios pagados dentro del mes calendario anterior, salvo que el Instituto establezca su propio calendario de pagos." / Art. 42: "Cuando el vencimiento de cualquiera de los plazos establecidos en el presente reglamento coincidiere con un día inhábil del Instituto, el mismo se trasladará al primer día hábil siguiente." / Art. 38: "será equivalente a la suma que resulte de aplicar a la contribución adeudada, la última tasa de interés simple máxima anual, determinada por la Junta Monetaria, tomando como base la tasa ponderada bancaria para operaciones activas." / "El recargo a que se refiere este Artículo, debe ser pagado exclusivamente por el patrono … Los recargos por incumplimiento, en ningún caso podrán ser mayores al valor de las contribuciones patronales y de trabajadores que se encuentren en mora" / Art. 31 c): "La tasa de interés que se aplique a la deuda, será igual a la tasa de interés activa promedio ponderado del sistema bancario, de acuerdo a la última publicación del Banco de Guatemala, al día de la firma." / art. 40 [printed "ARTÍCULO 49. [sic]"]: incobrabilidad — prescription appears only as the trigger "a) Judicialmente se declare la prescripción del adeudo" | Acuerdo 1421 = the IGSS Junta Directiva's COLLECTION reglamento (49 arts., 9 chapters; given 17-May-2018 under Ley Orgánica art. 19 a); approved in full by AG 180-2018 of 18-Oct-2018, which repeals AGs 85-2003/17-2007/428-2013; art. 47 repeals JD Acuerdos 1118/1200/1310 — the RECAUDACIÓN line only, not the program rate reglamentos; no DCA date printed — vigencia = day after publication, date open; file name "1421-2018" informal, the acuerdo being "1421"). PLANILLA DUE DATE (art. 9): day 20 of each calendar month for the PRECEDING month's salaries, subject to the printed override "salvo que el Instituto establezca su propio calendario de pagos" + art. 42 inhábil roll-forward. MORA (art. 38): tasa = the Junta Monetaria's latest maximum SIMPLE-annual rate (base = tasa ponderada bancaria activa) — an INDEX-linked rule whose numeric value is an inherently external JM/Banguat publication (never frozen in corpus); patrono-exclusive; general CAP = 100% of the patronal+laboral contributions in mora. RD INTEREST (art. 31 c)): Banguat tasa activa promedio ponderado, latest publication at signing. ART. 40 = INCOBRABILIDAD (Gerente write-off ≤Q1,000 after exhausted efforts; Q500/12-period error rule next door at art. 39) — 1421 contains NO freestanding prescription clock. Art. 1 delegates cuota MONTOS to the PROGRAM reglamentos — NO rates here (GOQ-04 stays open, target refined) | `gt/sources/87_IGSS_Acuerdo_1421-2018.pdf` | pp.1-2 arts. 1-4 (EVID-867/868); p.3 art. 9 (EVID-870); p.7 arts. 31, 38 (EVID-876/878); pp.7-8 arts. 39-40 (EVID-879); pp.8-9 art. 42 (EVID-880); p.9 art. 49 (EVID-881); p.11 AG 180-2018 (EVID-882); full range EVID-866..882 |
 
 Notes (LB-level, not FRs): (i) REJECTED PRIORS (R34/GOQ-04): the
 12.67% patronal / 4.83% laboral percentages circulating as IGSS lore are
-NOT verifiable anywhere in 33_-36_ — they are never encoded, and every cuota
-rate, the minimum-base AMOUNT, any tope máximo, the cotizable-component list
-and the afecto-a-IVS test load exclusively from external JD reglamento rows
-(GOQ-04). (ii) The D-295 25/50/25 figures are FINANCING PROPORTIONS of the
+NOT verifiable anywhere in 33_-36_ (nor in 87_ — Acuerdo 1421 prints no
+rate, art. 1 delegating the montos to the program reglamentos) — they are
+never encoded, and every cuota rate, the minimum-base AMOUNT, any tope
+máximo and the afecto-a-IVS test load exclusively from external JD PROGRAM
+reglamento rows (GOQ-04, target refined); the COTIZABLE-COMPONENT LIST,
+by contrast, is now anchored in corpus at 1421 art. 4 (LB-025; EVID-868)
+— the RATES applying to that base remain external. (ii) The D-295 25/50/25 figures are FINANCING PROPORTIONS of the
 total cost of benefits — structural metadata about who finances the regime,
 never a cuota-rate split; no payroll percentage may be derived from them.
 (iii) The D-295 arts. 52-57 multas (Q1-Q500, 1946 quetzals) are a superseded
@@ -218,9 +237,16 @@ the 08-SGF/2026 switchover row stays undated pending GOQ-75.
   GT-PAY-FR-011 garnishment ladder on the benefit side), and the CLAIM-side
   prescription clocks are one year to claim a pension grant and six months
   to collect granted pensions/indemnizations — these are benefit-claim
-  clocks ONLY; no employer-contribution-side prescription is asserted
-  anywhere (that regime lives in Acuerdo 1421 art. 40, outside the corpus).
-  (LB-007; EVID-307)
+  clocks ONLY; and NO employer-contribution-side prescription clock is
+  asserted anywhere in the corpus: Acuerdo 1421's art. 40 [printed
+  "ARTÍCULO 49", sic] is INCOBRABILIDAD, not prescription (LB-025;
+  EVID-879) — the Gerente's write-off power (≤Q1,000 after exhausted
+  collection/localization efforts; beyond that only on a JUDICIALLY
+  DECLARED prescription, concurso/quiebra, deceased/absent-declared
+  patrons or dissolved legal persons, revivable if assets appear), so
+  prescription appears in 1421 only as a judicial trigger, never as a
+  freestanding period; no prescription period is invented or defaulted.
+  (LB-007; LB-025; EVID-307, EVID-879)
 - **GT-PAY-FR-162:** NEGATIVE FR (R39): D-11-2004 is a GOVERNANCE-ONLY
   reform — it touches solely D-295 arts. 16 a)/d) and 18 (Junta Directiva
   appoints and may freely remove the Gerencia; vigencia 8-May-2004 computed)
@@ -292,18 +318,29 @@ the 08-SGF/2026 switchover row stays undated pending GOQ-75.
   loads from employer configuration, and no exempting test is invented.
   (LB-012; EVID-312)
 - **GT-PAY-FR-169:** The cotizable-component surface shall be
-  configuration-only pending the JD reglamento (GOQ-04): the operative
-  salary concepts are the printed anchor phrases — "los salarios que paguen
-  los patronos", "salarios afectos al Régimen de Seguridad Social", "aumento
-  de salario o cualquier remuneración afecta a las contribuciones a la
-  Seguridad Social" — with NO itemization in corpus; earning-category
-  inclusion flags load from external rows (FR-155), with two corpus-pinned
+  anchored at Acuerdo 1421 art. 4 (LB-025; EVID-868 — the REGLAMENTO-layer
+  itemization the anchor phrases lacked): the cuotas compute over the
+  *salario total del trabajador*, comprising the *devengado durante las
+  jornadas ordinarias, extraordinarias y bonificaciones excepto aquellas
+  cuyas leyes de creación las excluyan*, and EXPRESSLY EXCLUDING the
+  termination-pay *indemnización*, *compensación de vacaciones en dinero*,
+  *el aguinaldo* (excluding creation law = D-76-78 art. 15, EVID-862) and
+  employer complements to IGSS-recognized temporary-incapacity subsidies;
+  the operative salary concepts remain the printed anchor phrases — "los
+  salarios que paguen los patronos", "salarios afectos al Régimen de
+  Seguridad Social", "aumento de salario o cualquier remuneración afecta a
+  las contribuciones a la Seguridad Social" — now itemized at reglamento
+  layer as above; earning-category inclusion flags load that anchored list
+  (the RATES applying to the base remain external program-reglamento rows,
+  FR-155/GOQ-04), with two corpus-pinned
   consumption rules: RETROACTIVE pay IS contribution-bearing (LB-021 —
   retroactive increases enter the period-specific planilla, never a
   non-contributory lump), and the *bonificación incentivo* is non-contributory
   UNLESS a recorded joint patrono+trabajador agreement exists (consumed by
-  id from `04_statutory-bonuses.md` GT-PAY-FR-091).
-  (LB-011; LB-021; EVID-311, EVID-321; cross-ref GT-PAY-FR-091)
+  id from `04_statutory-bonuses.md` GT-PAY-FR-091 — the aguinaldo, by
+  contrast, is excluded UNCONDITIONALLY, no joint-agreement opt-in).
+  (LB-011; LB-021; LB-025; EVID-311, EVID-321, EVID-868; cross-ref
+  GT-PAY-FR-091, GT-PAY-FR-095)
 
 ### 3.3 Planilla Electrónica — lifecycle, filing unit and payment
 
@@ -371,16 +408,29 @@ the 08-SGF/2026 switchover row stays undated pending GOQ-75.
   not yet firme does NOT bar solvencia, while an open reconocimiento de
   deuda DOES (debt persists); enrollment *constancias* (patrono inscrito)
   issue within TEN días hábiles of the request — surfaced as compliance
-  watchdates; the fecha límite VALUE feeding the window is the external
-  GOQ-10 row of FR-177. (LB-016; EVID-316)
+  watchdates; the fecha límite VALUE feeding the window is the FR-177
+  due-date row (day 20, with its IGSS-calendario override slot; LB-025).
+  (LB-016; LB-025; EVID-316)
 - **GT-PAY-FR-177:** The planilla due date (*fecha límite de pago* /
-  reglamentario plazo) shall load from an EXTERNAL configuration row
-  (GOQ-10, this file owns the IGSS half): the corpus prints only the
-  boundary effects — mora from the day after (FR-179), solvencia until the
-  next due date (FR-176) — while the calendar value lives in Acuerdo 1421
-  (not in corpus); no due date is invented or defaulted, and every
-  downstream clock resolves through this row when the instrument is
-  acquired. (LB-016; LB-018; EVID-316, EVID-318; GOQ-10 → OQ-004)
+  reglamentario plazo) is ANCHORED at Acuerdo 1421 art. 9 (GOQ-10 IGSS
+  half RESOLVED — `87_`/LB-025; EVID-870): every enrolled patrono must
+  deliver the Planilla de Seguridad Social with its soportes and cuotas
+  *a más tardar el veinte (20) de cada mes calendario* — day 20 of each
+  calendar month — covering the cuotas on salaries paid *dentro del mes
+  calendario anterior* (the PRECEDING calendar month), subject to the
+  printed override *"salvo que el Instituto establezca su propio
+  calendario de pagos"* (an IGSS-set payment calendar may supersede —
+  the override slot loads from configuration and the 08-SGF/2026
+  procedural layer may BE that calendar; verification slot open, evidence
+  OQ 87_-4); art. 42 rolls a deadline falling on an IGSS inhábil day to
+  the first hábil day following (EVID-880); art. 9's full sentence is a
+  marked OCR reconstruction (the day-20 value itself is cleanly printed —
+  verify the joined text in a clean print before freezing the verbatim
+  citation, evidence OQ 87_-1) and no day other than 20 is invented or
+  defaulted; every downstream clock — mora from the day after
+  (FR-179), solvencia until the next due date (FR-176) — resolves
+  through this day-20 row as dated configuration with its override slot.
+  (LB-025; LB-016; EVID-870, EVID-880; GOQ-10 → OQ-004)
 
 ### 3.4 Audit, mora, enforcement clocks, RD, waivers, materiality
 
@@ -403,16 +453,30 @@ the 08-SGF/2026 switchover row stays undated pending GOQ-75.
 - **GT-PAY-FR-179:** The mora engine shall run per-day from the DAY AFTER
   the due date (FR-177 row) until the date the patrono makes payment
   effective, computed as *Cuotas IGSS × tasa aplicable × días de atraso/365
-  días (366 días si el año es bisiesto)* — the formula SHAPE is printed and
-  owned here, the *tasa aplicable* is an external parameter row (Acuerdo
-  1421 art. 38 — GOQ-10) never a constant; every liquidation originating a
-  nota de cargo additionally carries the 5% *gastos administrativos*
-  surcharge, capped at Q3,000 inside the Certificación de Gerencia and the
-  reconocimiento de deuda (computation in the saas core, exposure and
-  payment surfaces in odoo); the resarcitory-interest leg applies only to
-  expedientes opened during Acuerdo 1087's vigencia (flagged, formula
-  external). (LB-018; LB-019; LB-020; EVID-318, EVID-319, EVID-320;
-  GOQ-10 → OQ-004)
+  días (366 días si el año es bisiesto)* — the formula SHAPE and day-after
+  start are printed and owned here, while the *tasa aplicable* RULE is
+  anchored at Acuerdo 1421 art. 38 (GOQ-10 mora half RESOLVED — `87_`/
+  LB-025; EVID-878): the recargo equals *la última tasa de interés simple
+  máxima anual, determinada por la Junta Monetaria, tomando como base la
+  tasa ponderada bancaria para operaciones activas* — an INDEX-LINKED
+  parameter whose periodic numeric value is an inherently external Junta
+  Monetaria/Banguat publication (a runtime index feed, never a constant
+  frozen in corpus; the config row keeps its dated-value discipline and no
+  figure is hard-coded); the mora is the PATRONO's exclusive obligation
+  (never deducted from or charged to workers) and the recargos may NEVER
+  exceed the value of the patronal + laboral contributions in mora (art.
+  38's GENERAL 100% cap — broader than the RD-scoped cap of FR-181); the
+  two layers COMPOSE: formula shape + day-after start (`35_`, LB-018) +
+  tasa index + cap (1421, LB-025) — composition, not duplication. Every
+  liquidation originating a nota de cargo additionally carries the 5%
+  *gastos administrativos* surcharge, capped at Q3,000 inside the
+  Certificación de Gerencia and the reconocimiento de deuda (procedural
+  value printed at `35_` LB-019/LB-020; SOURCE layer = 1421 arts. 22/24,
+  LB-025, EVID-874 — primary anchor annotated; computation in the saas
+  core, exposure and payment surfaces in odoo); the resarcitory-interest
+  leg applies only to expedientes opened during Acuerdo 1087's vigencia
+  (flagged, formula external). (LB-018; LB-019; LB-020; LB-025;
+  EVID-318, EVID-319, EVID-320, EVID-874, EVID-878; GOQ-10 → OQ-004)
 - **GT-PAY-FR-180:** The nota de cargo lifecycle shall carry the printed
   dispute-clock chain as staged case data (clocks computed in saas, surfaced
   as odoo compliance alerts; the procedural acts are IGSS's, only mirrored):
@@ -428,8 +492,12 @@ the 08-SGF/2026 switchover row stays undated pending GOQ-75.
 - **GT-PAY-FR-181:** The *reconocimiento de deuda* (RD) shall implement:
   contents = cuotas patronales y laborales + mora recargos + resarcitory
   interest (if any) + the 5% admin surcharge on the totality of the capital
-  owed (cap Q3,000) + the Acuerdo 1421 art. 31 c) interest (rate external,
-  GOQ-10); the mora + resarcitory-interest stack may NEVER exceed 100% of
+  owed (cap Q3,000) + the Acuerdo 1421 art. 31 c) interest — RULE now
+  anchored (`87_`/LB-025; EVID-876): *la tasa de interés activa promedio
+  ponderado del sistema bancario, de acuerdo a la última publicación del
+  Banco de Guatemala, al día de la firma* (Banguat's latest publication as
+  of the signing day — an index-linked rule whose numeric value stays an
+  inherently external floating publication, never frozen in corpus); the mora + resarcitory-interest stack may NEVER exceed 100% of
   the cuotas; the total distributes in level monthly installments over AT
   MOST 60 months with the FIRST payment effective the SAME DAY of signing;
   TWO missed consecutive amortizations automatically accelerate the term
@@ -438,7 +506,7 @@ the 08-SGF/2026 switchover row stays undated pending GOQ-75.
   INTECAP arrears settle SIMULTANEOUSLY with the first installment (their
   values owned by `08_irtra-intecap.md`); and the Institute maintains at
   most ONE RD per patrono — a second request while one is open is rejected.
-  (LB-020; EVID-320)
+  (LB-020; LB-025; EVID-320, EVID-876)
 - **GT-PAY-FR-182:** The recargo-waiver workflow shall implement the ONLY
   FOUR cases in which extemporánea planillas process WITHOUT reglamentary
   recargos, each with its SIX-MONTH application window running from the
@@ -492,9 +560,9 @@ and the cutoff ledger.
 
 | Entity | Field | Type | Catalog / values | Reference |
 |--------|-------|------|------------------|-----------|
-| l10n_gt.pay.igss.parameter (new) | row_type | select | cuota_rate_worker · cuota_rate_employer · base_floor_amount · base_ceiling (EMPTY — FR-166) · cotizable_component · ivs_afecto_test · mora_tasa · rd_interes · planilla_due_date | FR-155, FR-165, FR-166, FR-169, FR-179, FR-181, FR-177 |
-| l10n_gt.pay.igss.parameter | value_pct · value_amount · component_ref | float/monetary/char | ALL EMPTY at seed — every row ships with instrument_oq = GOQ-04/GOQ-10 pending acquisition; the 12.67/4.83 priors are rejected and never seeded | FR-155 |
-| l10n_gt.pay.igss.parameter | valid_from · valid_to · provenance | date/date/char | D15/D16 regime; provenance = the JD reglamento (Acuerdo 1118 family / 1421) once acquired | FR-155 |
+| l10n_gt.pay.igss.parameter (new) | row_type | select | cuota_rate_worker · cuota_rate_employer · base_floor_amount · base_ceiling (EMPTY — FR-166) · cotizable_component (anchored list, 1421 art. 4 — LB-025) · ivs_afecto_test · mora_tasa (anchored index rule, 1421 art. 38) · rd_interes (anchored index rule, 1421 art. 31 c) · planilla_due_date (anchored day-20 rule + override slot, 1421 art. 9) | FR-155, FR-165, FR-166, FR-169, FR-179, FR-181, FR-177 |
+| l10n_gt.pay.igss.parameter | value_pct · value_amount · component_ref | float/monetary/char | rate/base/tope rows ALL EMPTY at seed — GOQ-04 pending the JD PROGRAM reglamentos (1421 prints no rates, art. 1 delegating — LB-025); the 12.67/4.83 priors are rejected and never seeded; the mora_tasa/rd_interes rows carry the anchored INDEX RULES whose numeric values are inherently external JM/Banguat floating publications (dated-row discipline, never frozen); the planilla_due_date row seeds the art.-9 day-20 rule with the "propio calendario" override slot | FR-155, FR-177, FR-179, FR-181 |
+| l10n_gt.pay.igss.parameter | valid_from · valid_to · provenance | date/date/char | D15/D16 regime; provenance = the JD PROGRAM reglamento (Acuerdo 1118 family; 1421 delegates montos — LB-025) once acquired | FR-155 |
 
 **Contribution mechanics:**
 
@@ -524,7 +592,7 @@ and the cutoff ledger.
 
 | Entity | Field | Type | Catalog / values | Reference |
 |--------|-------|------|------------------|-----------|
-| l10n_gt.pay.igss.mora (new) | due_row · days_late · formula · tasa_row · amount | m2o (FR-177) · int · char (Cuotas × tasa × días/365(366)) · m2o (GOQ-10 row) · monetary | day-after-due accrual to effective payment; +5% admin (cap Q3,000) on nota-de-cargo liquidations | FR-179 |
+| l10n_gt.pay.igss.mora (new) | due_row · days_late · formula · tasa_row · amount | m2o (FR-177) · int · char (Cuotas × tasa × días/365(366)) · m2o (art. 38 index row — LB-025) · monetary | day-after-due accrual to effective payment; patrono-exclusive; general 100% mora cap (art. 38); +5% admin (cap Q3,000, source 1421 arts. 22/24) on nota-de-cargo liquidations | FR-179 |
 | l10n_gt.pay.igss.nota.cargo (new) | stage · clocks | select · dates (computed) | aprobada → notificada (5 dh + distancia) → pago/impugnación (15 dh) → firme → certificación → económico_coactivo (15 dh); impugnación 15 dh; resolución 10 dh; revocatoria 5 días | FR-180 |
 | l10n_gt.pay.igss.rd (new) | months_max · first_payment_same_day · missed_acceleration · cap_100 · irtra_intecap_first_cuota | 60 · boolean · 2-consecutive trigger · mora+interés ≤ 100% cuotas · boolean | one RD per patrono (unique constraint); pre-condition: omitted planillas filed | FR-181 |
 | l10n_gt.pay.igss.waiver (new) | case · window · execution | select a-d · 6 meses anchors · 45 dh + one extension | (a) arreglo directo (b) retroactive collective raise (c) judicial reinstatement (d) IGSS-attributable | FR-182 |
@@ -554,7 +622,7 @@ version-specific behavior required.
 | FR-158 | shared | — (metadata §4) | first-class tag + título ejecutivo | Settlement ordering: salary > IGSS > others |
 | FR-159 | odoo | inspection export surface | libros/planillas export | Prima-facie actas discipline; feeds FR-178 reconciliation |
 | FR-160 | shared | — (guard rows §4) | D-295 multas superseded | Never operative collection charges; no Q-value converted |
-| FR-161 | shared | — (metadata §4) | benefit inembargabilidad + claim clocks | 50% alimony exception; 1y/6m claim-side only |
+| FR-161 | shared | — (metadata §4) | benefit inembargabilidad + claim clocks | 50% alimony exception; 1y/6m claim-side only; 1421 art. 40 = incobrabilidad, no prescription clock (LB-025) |
 | FR-162 | shared | — (guard rows §4) | D-11-2004 governance-only | R39 negative; zero cuota effect |
 | FR-163 | odoo | hr.employee / planilla.line | ivs_afecto flag | Test external GOQ-04; afectos + no afectos reported together |
 | FR-164 | odoo | hr.payslip.line (IGSS rules) | laboral/patronal legs | Both shares delivered by patrono; permanent/temporary/part-time |
@@ -562,7 +630,7 @@ version-specific behavior required.
 | FR-166 | shared | — (guard + empty ceiling slot) | NO tope máximo | Negative FR; ceiling only via explicit instrument row |
 | FR-167 | odoo | hr.payslip (computation) | proration engine | Mid-month alta/baja + IGSS medical suspensions; maternity branch = GT-PAY-FR-116 |
 | FR-168 | odoo | res.company / hr.employee | cpr_88_100 exempt flag | Identification external (constitutional text not in corpus) |
-| FR-169 | odoo | payslip-line inclusion flags | cotizable components | Config-only GOQ-04; retro pay IN (LB-021); incentivo OUT unless joint agreement (GT-PAY-FR-091) |
+| FR-169 | odoo | payslip-line inclusion flags | cotizable components | List anchored at 1421 art. 4 (LB-025); rates still GOQ-04; retro pay IN (LB-021); incentivo OUT unless joint agreement (GT-PAY-FR-091); aguinaldo OUT unconditionally |
 | FR-170 | saas + odoo | l10n_gt.pay.igss.planilla | state machine | saas ingestion/transmission; odoo data assembly; formats external; GT-TAX-FR-146 gating feed |
 | FR-171 | saas | l10n_gt.pay.igss.rectificacion | estado "pagada" gate | Auto-recargos at procedure time |
 | FR-172 | saas + odoo | planilla (scope=regular) | one per registro patronal | Multi-centro single filing; afectos y no afectos together |
@@ -570,9 +638,9 @@ version-specific behavior required.
 | FR-174 | saas + odoo | l10n_gt.pay.igss.payment | single receipt event | IGSS+IRTRA+INTECAP one payment; values of IRTRA/INTECAP owned by file 08 |
 | FR-175 | saas | payment intake | late accepted + mora | Never refused; exposure record distinguishes on-time/late |
 | FR-176 | odoo | l10n_gt.pay.igss.solvencia | dynamic window | Until next fecha límite (FR-177 row); RD bars; constancias 10 dh |
-| FR-177 | shared | — (due-date config row) | fecha límite | GOQ-10 half owned here; only boundary effects printed |
+| FR-177 | shared | — (due-date config row) | fecha límite = day 20 | Art. 9 anchored (LB-025) + "propio calendario" override slot; art. 42 inhábil roll-forward |
 | FR-178 | saas + odoo | l10n_gt.pay.igss.audit | estimate engine | 12m/6m averaging; floor = AG salario mínimo (GT-PAY-FR-073); GUATECOMPRAS queue |
-| FR-179 | saas | l10n_gt.pay.igss.mora | formula + external tasa | Day-after due; Cuotas × tasa × días/365(366); +5% cap Q3,000; odoo surfaces |
+| FR-179 | saas | l10n_gt.pay.igss.mora | formula + index tasa (art. 38 — LB-025) | Day-after due; Cuotas × tasa × días/365(366); patrono-exclusive; 100% mora cap; +5% cap Q3,000 (source 1421 arts. 22/24); odoo surfaces |
 | FR-180 | saas | l10n_gt.pay.igss.nota.cargo | clock chain 5/15/15/5 | Staged case data; impugnación 15 dh; resolución 10 dh; revocatoria 5 días; odoo alerts |
 | FR-181 | saas | l10n_gt.pay.igss.rd | ≤60m · same-day · 2-missed · 100% cap | One RD per patrono; IRTRA/INTECAP ride first cuota; odoo surfaces |
 | FR-182 | saas | l10n_gt.pay.igss.waiver | 4 cases · 6m windows · 45 dh | Retro pay = contribution-bearing complements; odoo surfaces |
@@ -583,9 +651,12 @@ Version-regime notes (D15/D16): the dated rows owned here are
 instrument/boundary data — the D-295 provenance set (FR-153, GOQ-74 slot),
 the 08-SGF/2026 switchover row (undated pending GOQ-75), the Sep-2022
 format boundary and Mar-1977 exigibility cutoffs (FR-183) — each with
-valid_from/provenance; every VALUE row (rates, base amount, tasa, due date)
-stays an empty GOQ-04/GOQ-10 config row until its instrument is acquired
-and re-dates it.
+valid_from/provenance. Every rate/base/tope VALUE row stays an empty
+GOQ-04 config row pending the JD PROGRAM reglamentos; the due-date row
+now carries the anchored art.-9 rule (day 20 + override slot, LB-025)
+and the tasa rows carry anchored INDEX RULES (1421 arts. 38 / 31 c))
+whose numeric values are inherently external publications (Junta
+Monetaria / Banguat) — dated-row discipline preserved, no figure frozen.
 
 ## 6. Acceptance Criteria
 
@@ -640,8 +711,10 @@ and re-dates it.
   the mora exposure computes, then it equals Cuotas IGSS × tasa row × N/365
   (366 in a leap year) accrued from the day after the due date to effective
   payment, plus 5% gastos administrativos capped at Q3,000 when the
-  liquidation originates a nota de cargo — with the tasa value itself
-  resolved only from the GOQ-10 row (no constant). (FR-179)
+  liquidation originates a nota de cargo — with the tasa resolved only
+  from the art.-38 index row (Junta Monetaria floating publication —
+  no constant) and the recargos never exceeding 100% of the cuotas in
+  mora. (FR-179)
 - **AC-010:** Given a nota de cargo approved in the IGSS system on day 0,
   when the case clocks compute, then: notification due ≤ 5 días hábiles
   (+ distancia); pay-or-impugn window 15 días hábiles from notification
@@ -678,7 +751,7 @@ and re-dates it.
   nota de cargo issues (and a ≤Q500 note is annulled). (FR-178, FR-183)
 - **AC-014:** Given a solvencia issued the day after a period's payment,
   when its validity computes, then it runs until the NEXT fecha límite row
-  (GOQ-10 external); given an open reconocimiento de deuda, then solvencia
+  (FR-177: day 20 with its override slot); given an open reconocimiento de deuda, then solvencia
   is barred even though a merely-notified (not firm) nota de cargo would
   not bar it; given an enrollment-constancia request, then the issuance
   watchdate is 10 días hábiles. (FR-176)
@@ -700,7 +773,10 @@ and re-dates it.
 
 Master-index GOQ ids (register `gt/.extractions/00_MASTER_INDEX.md` §C);
 allowed set for this file: GOQ-04, GOQ-74, GOQ-75 and the IGSS half of
-GOQ-10 — each carried below. All rows Status open; GOQs are
+GOQ-10 — each carried below. GOQ-10's IGSS half is RESOLVED (2026-08-22:
+`87_` in corpus, LB-025 — the tasa's numeric value remains an inherently
+external floating index); GOQ-04's target is REFINED (program
+reglamentos); GOQ-74/75 stay open; GOQs are
 trace-pending, not blockers. No new gaps beyond these owned registers were
 found in this slice (the planilla file-format/layout absence rides GOQ-04's
 acquisition family; the CPR arts. 88/100 identification text and the
@@ -708,7 +784,7 @@ D-295 clean-consolidation re-read ride GOQ-74).
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
-| OQ-001 | GOQ-04 (owned, =OQ11): NONE of the corpus instruments prints the cuota percentages (12.67% patronal / 4.83% laboral priors unverifiable — rejected), the minimum monthly contribution-base amount, the cotizable-salary component list ("remuneración afecta" itemization), any tope máximo (no ceiling text anywhere — FR-166 negative), or the afecto-a-IVS test — all live in JD program reglamentos (Acuerdo 1118 family) and Acuerdo 1421, none in corpus. Until acquired: FR-155 ships EMPTY flagged rows (feeds file 09's estimated surfaces GT-TAX-FR-124/135); FR-165 floor = row only; FR-169 components = config flags; FR-163 afecto test = config; FR-157 share-shift operative detail = config. Acquisition candidate (igssgt.org legislación; also carries the planilla file-format spec EVID-313 flags as absent). | no | GT synthesis wave S-GT3 → acquisition queue (JD reglamentos 1118/1421 family) | open |
+| OQ-001 | GOQ-04 (owned, =OQ11, TARGET REFINED 2026-08-22): NONE of the corpus instruments prints the cuota percentages (12.67% patronal / 4.83% laboral priors unverifiable — rejected), the minimum monthly contribution-base amount, any tope máximo (no ceiling text anywhere — FR-166 negative) or the afecto-a-IVS test — Acuerdo 1421 is NOW IN CORPUS (`87_`/LB-025) and its art. 1 EXPRESSLY DELEGATES the montos to the reglamentos of the respective coverage programs (EVID-867): the acquisition target is thereby REFINED to the JD PROGRAM reglamentos (IM/IVS program sense of the 1118 family), NOT the recaudación line (art. 47's repeal of JD 1118/1200/1310 affects only the collection reglamentos; the cotizable-COMPONENT list, by contrast, is anchored at 1421 art. 4 — FR-169). Until acquired: FR-155 ships EMPTY flagged rows (feeds file 09's estimated surfaces GT-TAX-FR-124/135); FR-165 floor = row only; FR-163 afecto test = config; FR-157 share-shift operative detail = config. Acquisition candidate (igssgt.org legislación; also carries the planilla file-format spec EVID-313 flags as absent). | no | GT synthesis wave S-GT3 → acquisition queue (JD PROGRAM reglamentos — 1118 family; NOT 1421, which prints no rates) | open (target refined) |
 | OQ-002 | GOQ-74 (owned): D-295's 1946 gazette OCR is heavily degraded (every verbatim carries [sic] tolerance; re-verify clause wording against a clean consolidation before quoting beyond substance) and art. 12 sets vigencia "el día de su publicación en el Diario oficial" while publication ran in THREE installments (31-Oct/1-Nov/4-Nov-1946) — which installment legally triggers vigencia is not determinable from the Hemeroteca-certified print. FR-153 ships the row set with the date slot open. | no | GT synthesis wave S-GT3 → evidence re-read / acquisition queue (clean D-295 consolidation) | open |
 | OQ-003 | GOQ-75 (owned): Resolución 08-SGF/2026 Sexto — "entra en vigencia a los 30 días hábiles contados…" — the OCR cuts the count basis (from emission? from a later publication/portal posting per Quinto?) and no DCA publication exists for this internal IGSS instrument. The 2026 recaudación switchover row (from SGF-R/2020 No. 342 to 08-SGF/2026) stays undated; verify the count basis externally before dating any switchover-driven behavior. | no | GT synthesis wave S-GT3 → evidence re-read (external verification of vigencia basis) | open |
-| OQ-004 | GOQ-10, IGSS half (owned): the monthly planilla *fecha límite de pago* (the "plazo reglamentario" — only its boundary effects print: mora from day after, solvencia until next due date) and the mora *tasa aplicable* both live in Acuerdo 1421 (arts. 38 and 31 c respectively; also art. 21 impugnación and art. 40 contribution-side prescription — none in corpus). FR-177 ships the due-date row and FR-179 the tasa row as EMPTY GOQ-10-flagged config; no due date or mora rate is invented. (The GOQ-10 affiliation-deadlines and INTECAP-acta halves are owned outside this file.) | no | GT synthesis wave S-GT3 → acquisition queue (Acuerdo 1421) | open |
+| OQ-004 | GOQ-10, IGSS half (owned, RESOLVED 2026-08-22): the monthly planilla *fecha límite de pago*, the mora *tasa aplicable* and the RD interest all lived in Acuerdo 1421 — NOW IN CORPUS (`87_`/LB-025, EVID-866..882): due date = art. 9 *"a más tardar el veinte (20) de cada mes calendario"* for prior-calendar-month salaries, with the *"salvo que el Instituto establezca su propio calendario de pagos"* override slot and art. 42 inhábil roll-forward (FR-177 anchored); mora tasa = art. 38 Junta Monetaria *última tasa de interés simple máxima anual* (base *tasa ponderada bancaria para operaciones activas*), patrono-exclusive, general 100% cap (FR-179 anchored); RD interest = art. 31 c) Banguat *tasa activa promedio ponderado* at signing (FR-181 anchored); art. 21's 15-dh clock primary-verifies the `36_` guide citation (FR-184); art. 40 [printed "49", sic] = incobrabilidad, no prescription clock (FR-161 corrected). RESIDUALS: the tasa NUMERIC VALUES are inherently external floating index publications (runtime JM/Banguat feeds, never corpus-frozen — dated-row/config discipline preserved); whether an IGSS-issued calendar (e.g. the 08-SGF/2026 layer) supersedes day-20 in current practice stays a verification slot (evidence OQ 87_-4); art. 9's joined sentence is a marked OCR reconstruction (day-20 value cleanly printed — verify in clean print, evidence OQ 87_-1). (The GOQ-10 affiliation-deadlines and INTECAP-acta halves are owned outside this file.) | no | GT synthesis wave S-GT3 → resolved by `87_` acquisition (LB-025); residual index feeds tracked as runtime configuration | resolved (rules anchored; index values external) |

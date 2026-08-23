@@ -6,7 +6,7 @@
 | Topic   | taxation |
 | Status  | draft (S-GT2 synthesis wave, in review) |
 | Authors | GT synthesis wave S-GT2 |
-| Updated | 2026-08-20 |
+| Updated | 2026-08-22 |
 
 This directory holds the S-GT2 (synthesis wave 2) taxation requirements:
 IVA régimen general, IVA pequeño contribuyente, IVA retenciones (with the
@@ -25,8 +25,8 @@ and the reform-chain provenance layer. Source-to-requirements coverage:
 | [04_isr-trabajo.md](04_isr-trabajo.md) | TX4 | ISR employment income: art. 68-82, Q48,000/Q12,000 deductions, 5%/Q15,000+7% scale, projection/12 withholding, practice forms (R46) | GT-TAX-FR-111..146 | 36 | 12 | 13 | 5 |
 | [05_isr-lucrativas-capital.md](05_isr-lucrativas-capital.md) | TX5 | ISR Utilidades 25%/quarterly, Opcional Simplificado 5/7%, capital 10%/5%, no-residentes 5/3/10/15/25, facturas especiales + [isr_rates.csv](isr_rates.csv) | GT-TAX-FR-147..193 | 47 | 23 | 14 | 4 |
 | [06_ct-procedures.md](06_ct-procedures.md) | TX6 | Código Tributario: registry/NIT, prescription 4/8y, mora/omisión, art. 94 multa table, cierre, fiscalización, recursos | GT-TAX-FR-194..235 | 42 | 26 | 15 | 7 |
-| [07_reform-chain-provenance.md](07_reform-chain-provenance.md) | TX7 | Provenance layer: per-instrument consolidation-cutoff register, currency qualifiers, myths-as-validation-rules, D-10-2025 delta | GT-TAX-FR-236..261 | 26 | 16 | 12 | 6 |
-| **Total** | | | **GT-TAX-FR-001..261** | **261** | **136** | **93** | **38** |
+| [07_reform-chain-provenance.md](07_reform-chain-provenance.md) | TX7 | Provenance layer: per-instrument consolidation-cutoff register, currency qualifiers, myths-as-validation-rules, D-10-2025 delta | GT-TAX-FR-236..261 | 26 | 17 | 12 | 6 |
+| **Total** | | | **GT-TAX-FR-001..261** | **261** | **137** | **93** | **38** |
 
 Cluster map (from `gt/.extractions/00_MASTER_INDEX.md` §A, wave W-GT2): the
 seven TX-clusters TX1..TX7 map one-to-one onto the seven files above.
@@ -97,7 +97,7 @@ authority order, binding all S-GT2 files):
 | 04_isr-trabajo.md | 5 | GOQ-58/60/61 (owned), GOQ-99 (kin — statutory half answered), GOQ-04 (kin) |
 | 05_isr-lucrativas-capital.md | 4 | GOQ-58/59/60 (owned), GOQ-61 (kin) |
 | 06_ct-procedures.md | 7 | GOQ-53/54/55/56/57 (owned), GOQ-120 (recorded unresolved), GOQ-49 (kin), GOQ-124 (pointer) |
-| 07_reform-chain-provenance.md | 6 | GOQ-62/63/68/69 (owned; **68 resolved-negative in-corpus**), GOQ-01/13 (kin) |
+| 07_reform-chain-provenance.md | 6 | GOQ-62/63/68/69 (owned; **68 resolved — in-corpus negative + AG 125-2022 acquired as 86_, primary-read 2026-08-22**), GOQ-01/13 (kin; **13 resolved 2026-08-22 — D-31-2024 = 85_ primary-read**) |
 | **Total** | **38** | |
 
 ### GOQ coverage check (taxation register GOQ-53..69 + cross-cutting GOQ-01/06)
@@ -125,7 +125,7 @@ OQ row — none remain unassigned; none listed not-applicable.
 | GOQ-65 | 03 |
 | GOQ-66 | 03 |
 | GOQ-67 | 03 |
-| GOQ-68 | 07 (resolved-negative: 24_ art. 29 ¶6 ≠ AG 125-2022 text; ¶4 = AG 222-2019 rule; acquisition stands) |
+| GOQ-68 | 07 (resolved: 24_ art. 29 ¶6 ≠ AG 125-2022 text; ¶4 = AG 222-2019 rule; acquisition closed 2026-08-22 — AG 125-2022 = 86_ primary-read, 79_ art. 32 pointer resolved, no FEL-transition deadlines changed; EVID-820..833) |
 | GOQ-69 | 07 |
 
 Kin ids referenced beyond the owned set (all pre-existing register rows,
@@ -160,5 +160,5 @@ header comment.
 | 04_isr-trabajo.md | 12 | 13 |
 | 05_isr-lucrativas-capital.md | 23 | 14 |
 | 06_ct-procedures.md | 26 | 15 |
-| 07_reform-chain-provenance.md | 16 | 12 |
-| **Total** | **136** | **93** |
+| 07_reform-chain-provenance.md | 17 | 12 |
+| **Total** | **137** | **93** |

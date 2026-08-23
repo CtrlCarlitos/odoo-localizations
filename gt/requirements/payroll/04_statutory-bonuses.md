@@ -1,4 +1,4 @@
-# GT — Payroll — Statutory bonuses: bono 14 (D-42-92), bonificación incentivo (D-78-89 → D-37-2001) and the corpus-absent December aguinaldo
+# GT — Payroll — Statutory bonuses: bono 14 (D-42-92), bonificación incentivo (D-78-89 → D-37-2001) and the December aguinaldo (D-76-78 private-sector engine; D-1633 public absent)
 
 | Field   | Value |
 |---------|-------|
@@ -6,7 +6,7 @@
 | Topic   | payroll |
 | Status  | draft |
 | Authors | GT synthesis wave S-GT3 |
-| Updated | 2026-08-20 |
+| Updated | 2026-08-22 |
 
 ## 1. Purpose
 
@@ -23,10 +23,12 @@ entitlement for shorter service, paid in the *primera quincena* de
 julio (1–15 July), prorated on termination for ANY cause from the
 immediately preceding 1-July, included in the CT art. 82 indemnización
 computation at a six-months proportion (its art. 4), excluded from the
-aguinaldo base (art. 6), supplementary-fed by the absent aguinaldo
-statutes D-76-78/D-1633 (art. 5 supletoriedad — quoted-only), with no
-sanction article of its own and derogating D-57-90; the *bonificación
-incentivo* engine of Decreto 78-89 (Dec-1989) — today the flat
+aguinaldo base (art. 6), supplementary-fed by the aguinaldo statutes
+D-76-78 (now in corpus as `93_`) and D-1633 (still absent) via art. 5
+supletoriedad — a ONE-WAY pointer (D-42-92 borrows from the aguinaldo
+laws; D-76-78 never mentions bono 14), with no sanction article of its
+own and derogating D-57-90; the *bonificación incentivo* engine of
+Decreto 78-89 (Dec-1989) — today the flat
 Q250.00/month for ALL private-sector workers regardless of activity,
 paid together with the monthly salary since Aug-2001 per Decreto
 37-2001 art. 1 (quoted-only inside the 39_ history NOTA — GOQ-09),
@@ -37,13 +39,24 @@ computation, ISR-deductible employer expense, NOT subject to
 IGSS/IRTRA/INTECAP contributions unless jointly agreed by patrono AND
 trabajador, and neither constituting nor substituting the salario
 mínimo (indivisible add-on per AG 256-2025 art. 8 e) / AG 250-2020
-art. 8); and the December *aguinaldo* ABSENCE regime (GOQ-09) — the
-December aguinaldo statutes (D-76-78 private, D-1633 public) are NOT in
-the corpus, so this file asserts NO December-bonus mechanics (no
-amount, base, window or proration) and records only the known-only
-facts: the LAT art. 70 num. 5 exemption feed (GT-TAX-FR-115, by id),
-the D-42-92 art. 6 exclusion, the Criterio 6-2018 deductibility cap
-(GT-TAX-FR-169, interpretive) and the three-benefit taxonomy
+art. 8); and the December *aguinaldo* engine (GOQ-09 half-resolved) —
+the PRIVATE-sector statute is now in corpus: Decreto 76-78, *Ley
+Reguladora de la Prestación del Aguinaldo para los Trabajadores del
+Sector Privado* (`93_`, acquired 2026-08-22; given 23-Nov-1978,
+published DCA 30-Nov-1978 per compendium footnote) — 100% of one
+ORDINARY monthly salary (*el equivalente al cien por ciento del sueldo
+o salario ordinario mensual*, or the proportional part under one year
+of continuous services), paid 50% in the *primera quincena* of
+December and 50% in the *segunda quincena* of the following January
+(December-100% payers owing no January complement), never accumulable
+year to year, with IMMEDIATE time-proportional payment on termination
+for any cause and NO averaging window or base month printed (design
+must not import D-42-92's June-ending average — OQ-003); the
+PUBLIC-sector statute (D-1633) remains ABSENT, so no public-sector
+mechanics are asserted; the non-computational interfaces stay as the
+known-only facts: the LAT art. 70 num. 5 exemption feed (GT-TAX-FR-115,
+by id), the D-42-92 art. 6 exclusion, the Criterio 6-2018 deductibility
+cap (GT-TAX-FR-169, interpretive) and the three-benefit taxonomy
 (Aguinaldo ≠ Bonificación anual (Bono 14) ≠ Bono vacacional, EVID-338).
 
 It does **not** cover: the salario/salario-completo model and the
@@ -83,15 +96,20 @@ R42/R43, binding): the 40_ file NAME says "Aguinaldo" but its CONTENT
 is the bono 14 law D-42-92; the 41_ file NAME says "Bono14" but its
 CONTENT is the incentivo law D-78-89; today's Q250/month is the
 incentivo of D-37-2001 — NOT bono 14 and NOT a fixed Q3,000/year; the
-December aguinaldo statutes D-76-78/D-1633 are NOT in the corpus
-(GOQ-09) — NO December mechanics may be asserted from these sources.**
+PRIVATE-sector aguinaldo statute **D-76-78 IS in the corpus** (`93_`,
+acquired 2026-08-22 — title covers the SECTOR PRIVADO ONLY; given
+23-Nov-1978, DCA 30-Nov-1978 per compendium footnote, same
+editorial-footnote provenance class as `40_`), while the PUBLIC-sector
+statute **D-1633 remains absent** (GOQ-09 half-open): private December
+mechanics cite `93_` exclusively, and NO public-sector aguinaldo
+mechanic may be asserted.**
 
 | ID | Citation (Spanish) | English translation | Source file | Location |
 |----|--------------------|---------------------|-------------|----------|
 | LB-001 | Decreto 42-92, title + art. 1 + identity blocks: "Ley de Bonificación Anual Para Trabajadores del Sector Privado y Público" / "DECRETO No. 42-92*" / "Artículo 1. Se establece con carácter de prestación laboral obligatoria para todo patrono, tanto del sector privado como del sector público, el pago a sus trabajadores de una bonificación anual equivalente a un salario o sueldo ordinario que devengue el trabajador. Esta prestación es adicional e independiente al aguinaldo.1) [sic] anual que obligatoriamente se debe pagar al trabajador." / "Dado en el Palacio del Organismo Legislativo, en la ciudad de Guatemala, a los dos días del mes de julio de mil novecientos noventa y dos." / compendium footnotes: "* Publicado en el Diario Oficial el 2 de julio de 1992." / "1 Ver Decreto 1633 del Congreso de la Republica, Aguinaldo para los Empleados Públicos y su Reglamento y Acdo. Gub. No. M. de F.P., ambos en este compendio." [sic] | D-42-92 creates, as a mandatory labor prestación for every employer private and public, an annual bonus equal to one ordinary salary or wage the worker earns — a prestación ADDITIONAL TO AND INDEPENDENT of the aguinaldo that must obligatorily be paid to the worker; given 2-Jul-1992, published 2-Jul-1992 (compendium footnote); footnote 1 points to D-1633 (the public-sector aguinaldo law — outside corpus) | `gt/sources/40_Aguinaldo_D42-92.pdf` | Title + Art. 1 p.1; date blocks + footnotes p.3 (EVID-345) |
 | LB-002 | Decreto 42-92, Art. 2: "La bonificación anual será equivalente al cien por ciento (100%) del salario o sueldo ordinario devengado por el trabajador en un mes, para los trabajadores que hubieren laborado al servicio del patrono, durante un año ininterrumpido y anterior a la fecha de pago. Si la duración de la relación laboral fuere menor de un año, la prestación será proporcional al tiempo laborado. Para determinar el monto de la prestación, se tomará como base el promedio de los sueldos o salarios ordinarios devengados por el trabajador en el año el cual termina en el mes de junio de cada año." | Art. 2: the annual bonus equals 100% of the ordinary salary or wage earned by the worker in one month, for workers who have served the employer for an UNINTERRUPTED YEAR before the payment date; shorter service ⇒ the prestación is PROPORTIONAL to time worked; the base = the AVERAGE of the ordinary salaries earned in the year ENDING IN JUNE — ordinary salary only, no extraordinary component, no tier table, no fixed quetzal amount, no minimum-wage reference | `gt/sources/40_Aguinaldo_D42-92.pdf` | Art. 2 p.2 (EVID-346) |
 | LB-003 | Decreto 42-92, Art. 3: "La bonificación deberá pagarse durante la primera quincena del mes de julio de cada año. Si la relación laboral terminare, por cualquier causa, el patrono deberá pagar al trabajador la parte proporcional correspondiente al tiempo corrido entre el uno de julio inmediato anterior y la fecha de terminación." | Art. 3: the bonus must be paid during the FIRST FORTNIGHT of July each year (1–15 July); if the employment relationship terminates, for ANY cause, the employer must pay the worker the proportional part corresponding to the time run between the immediately preceding 1-July and the termination date | `gt/sources/40_Aguinaldo_D42-92.pdf` | Art. 3 p.2 (EVID-347) |
-| LB-004 | Decreto 42-92, Arts. 4-6: "Artículo 4. Para el cálculo de la indemnización a que se refiere el artículo 82 del Código de Trabajo, se debe tener en cuenta el monto de la bonificación anual devengado por el trabajador, en la proporción correspondiente a seis meses de servicios, o por el tiempo trabajado, si éste fuera menor de seis meses." / "Artículo 5. Las normas de los Decretos números 76-78 y 1633 ambos del Congreso de la República, con sus respectivas modificaciones, se aplicarán supletoriamente, según se trate de trabajadores del sector privado o del sector público, respectivamente, en todo lo que no contradiga al presente Decreto." / "Artículo 6. El valor de la bonificación anual no se tomará en cuenta para determinar el aguinaldo anual regulado por las leyes que lo establecen." | Art. 4: the CT art. 82 indemnización computation must take into account the annual bonus accrued, at the proportion of SIX MONTHS of service (or time worked if shorter); Art. 5: the rules of Decrees 76-78 (private) and 1633 (public) — the aguinaldo statutes, absent from corpus — apply SUPPLEMENTARILY per sector, in all that does not contradict this decree; Art. 6: the annual-bonus value is NEVER taken into account in determining the annual aguinaldo regulated by the laws that establish it | `gt/sources/40_Aguinaldo_D42-92.pdf` | Arts. 4-6 p.2 (EVID-348) |
+| LB-004 | Decreto 42-92, Arts. 4-6: "Artículo 4. Para el cálculo de la indemnización a que se refiere el artículo 82 del Código de Trabajo, se debe tener en cuenta el monto de la bonificación anual devengado por el trabajador, en la proporción correspondiente a seis meses de servicios, o por el tiempo trabajado, si éste fuera menor de seis meses." / "Artículo 5. Las normas de los Decretos números 76-78 y 1633 ambos del Congreso de la República, con sus respectivas modificaciones, se aplicarán supletoriamente, según se trate de trabajadores del sector privado o del sector público, respectivamente, en todo lo que no contradiga al presente Decreto." / "Artículo 6. El valor de la bonificación anual no se tomará en cuenta para determinar el aguinaldo anual regulado por las leyes que lo establecen." | Art. 4: the CT art. 82 indemnización computation must take into account the annual bonus accrued, at the proportion of SIX MONTHS of service (or time worked if shorter); Art. 5: the rules of Decrees 76-78 (private) and 1633 (public) — the aguinaldo statutes (D-76-78 now in corpus as `93_`, LB-015; D-1633 absent) — apply SUPPLEMENTARILY per sector, in all that does not contradict this decree; Art. 6: the annual-bonus value is NEVER taken into account in determining the annual aguinaldo regulated by the laws that establish it | `gt/sources/40_Aguinaldo_D42-92.pdf` | Arts. 4-6 p.2 (EVID-348) |
 | LB-005 | Decreto 42-92, Arts. 8-10: "Artículo 8. TRANSITORIO. En lo que corresponde al año de 1992, los patronos del sector privado podrán pagar la bonificación anual a que se refiere esta ley y por esta única vez, hasta el 30 de septiembre del presente año." / "Artículo 9. DEROGATORIAS. Se deroga el Decreto número 57-90 del Congreso de la República." / "Artículo 10. VIGENCIA. El presente Decreto fue declarado de urgencia nacional y aprobado en una sola lectura con el voto favorable de más de las dos terceras partes del número total de diputados que integran el Congreso y entrará en vigencia el mismo día de su publicación en el Dia [sic] rio Oficial." | Art. 8 (transitory, 1992-only): private employers could pay the 1992 bonus until 30-Sep-1992, that one time; Art. 9: derogates Decree 57-90; Art. 10: urgency measure, single-reading approval, effective THE SAME DAY as its official-diary publication (⇒ 2-Jul-1992 per the compendium footnote); NOTE: no sanction article exists in D-42-92 itself — enforcement attaches via the Código de Trabajo generally, not this decree | `gt/sources/40_Aguinaldo_D42-92.pdf` | Arts. 8-10 pp.2-3 (EVID-348) |
 | LB-006 | Decreto 78-89, identity blocks: "ORGANISMO LEGISLATIVO CONGRESO DE LA REPUBLICA DE GUATEMALA DECRETO NUMERO 78-89" / "Dado en el Palacio del Organisno [sic] Legislativo, en la ciudad de Guatemala, á los siste [sic] días del mes de dicienn- [sic] bre de mil novecientos ochenta y nueve." / "Palacio N [sic] … a dieci [sic] … de diciembre de mil novecientos ochenta y nueve. Publíquese y cúmplase. CEREZO AREVALO." | D-78-89 (December 1989; the congressional block's day is OCR-illegible "siste" [sic] and the executive block truncates at "dieci…" [sic] — consistent with "diecisiete" but unconfirmed, GOQ-83; no DCA publication date printed, so its day-after-publication vigencia is undatable from this file): the ORIGINAL bonificación-incentivo law for the private sector — NOT the bono 14 law (the 41_ file name "Bono14" is wrong, R30) | `gt/sources/41_Bono14_D78-89.pdf` | Decree header mid-page; date/signature blocks bottom p.1 (EVID-349) |
 | LB-007 | Decreto 78-89, ARTICULO 7 (transitorio): "ARTICULO 7.—(Transitorio). Por esta única vez y o. [sic] partir del mies [sic] siguiente a' aquél en que entre en vigor esta ley, todos los..empleadores privados deberán con-ceder: a sus trabajadores una bonificación-incentivo ne [sic] menor de quince centavos de quetzal (Q.015) [sic — printed without decimal; read Q.0.15 per `39_`] para las actividades agropecuarias y de treinta centavos de guet-; zal-(Q.030) [sic — read Q.0.30] en las demás que deberá ser calculada por hora ordinaria efectiva de trabajo en moneda de curso; legal y pagada al trabajador - diariamente, en forme qui lo 1, de acuerdo a la forma e [garbled] pago. de la empresa. En los trabajos -a destajo la boni- ivo se determinará en base del cálculo del promedio diario." | Transitory art. 7 (the original mechanics, long superseded): from the month following vigencia, all private employers grant a bonus-incentive of NOT LESS THAN Q0.15/effective-ordinary-hour (agropecuarias) and Q0.30 (all other activities) — the floors print "(Q.015)/(Q.030)" [sic — decimal placement, GOQ-83], resolved Q0.15/Q0.30 per the 39_ parallel rendering — computed per effective ordinary hour and paid DAILY per the enterprise's pay system; destajo workers on a daily-average basis | `gt/sources/41_Bono14_D78-89.pdf` | ARTICULO 7 block p.1 (EVID-350) |
@@ -101,19 +119,26 @@ December aguinaldo statutes D-76-78/D-1633 are NOT in the corpus
 | LB-011 | AG 250-2020, Art. 8: "Artículo 8. Bonificación Incentivo. Adicionalmente al salario mínimo fijado se deberá cancelar mensualmente al trabajador la Bonificación Incentivo, establecida en el Decreto Número 78-89 del Congreso de la República de Guatemala y sus Reformas." | AG 250-2020 art. 8: additionally to the fixed minimum wage the employer must pay the worker MONTHLY the Bonificación Incentivo established by D-78-89 "y sus Reformas" (as amended — today D-37-2001's Q250, LB-010) | `gt/sources/38_Salario_Minimo_AG_250-2020.pdf` | Art. 8 p.2 (EVID-337) |
 | LB-012 | AG 256-2025, Art. 8 e): "(e) Adicionalmente al salario mínimo fijado, según corresponda, se deberá pagar al trabajador la bonificación incentivo, establecida en el Decreto número 78-89 del Congreso de la República. Queda prohibida la división de esta prestación." | AG 256-2025 art. 8 e): additionally to the fixed minimum wage, the worker must be paid the bonificación incentivo established by D-78-89; the DIVISION of this prestación is prohibited (indivisible add-on) | `gt/sources/37_Salario_Minimo_AG_256-2025.pdf` | Art. 8 e) p.2 (EVID-334) |
 | LB-013 | MinFin AG 243-2020 (the instrument occupying `38_` p.3 — NOT AG 250-2020, R43), budget object lines + Art. 4: "MINISTERIO DE FINANZAS PÚBLICAS ACUERDO GUBERNATIVO NÚMERO 243-2020 Guatemala, 17 de diciembre de 2020" / budget lines: "071 — Aguinaldo … 15,000" / "072 Bonificación anual (Bono 14) Ñ [sic] … 15,000" / "073 — Bono vacacional … 15,000" / Art. 4: "El presente Acuerdo Gubernativo empieza a regir inmediatamente y deberá ser publicado en el Diario de Centro América." | The 38_ p.3 budget print belongs to MinFin AG 243-2020 (INFOM) — never attribute it to AG 250-2020 (guard owned by `03_minimum-wage.md` GT-PAY-FR-075); its expense-object nomenclature is independent in-corpus confirmation of THREE distinct annual benefits: Aguinaldo ≠ Bonificación anual (Bono 14) ≠ Bono vacacional | `gt/sources/38_Salario_Minimo_AG_250-2020.pdf` | p.3 (after AG 250-2020's COMUNÍQUESE) (EVID-338) |
-| LB-014 | NEGATIVE FINDING, CT whole text (texto según edición conmemorativa 2024, MinTrabajo): (no verbatim possible — terms absent; nearest: art. 61 a) 1. "…por concepto de salarios, bonificaciones y cualquier otra prestación económica…") | The CT (as printed) contains ZERO aguinaldo, bono/bonificación anual, incentivo and propina provisions (exhaustive search: 0 hits) — no bonus rule may cite the Código de Trabajo; the regimes live exclusively in their specific decrees: bono 14 = D-42-92 (`40_`), incentivo = D-78-89 (`41_`, as amended by D-37-2001, LB-010); the December aguinaldo statutes D-76-78/D-1633 are absent (GOQ-09); "bonificaciones" appears in the CT only as the art. 61 a) annual-report category; the CT's sole contributions are the art. 93 salario completo integration basis (`01_ct-salary-model.md` GT-PAY-FR-005) and the art. 82 indemnización hook fed by LB-004. [Note: the EVID-299 gloss's shorthand statute naming predates the R30 identity correction and is superseded by EVID-345/349 — the negative finding itself stands.] | `gt/sources/32_Codigo_Trabajo_D1441.pdf` | Whole text (exhaustive search: 0 hits); art. 61 a) 1. pp.37-38 (EVID-299) |
+| LB-014 | NEGATIVE FINDING, CT whole text (texto según edición conmemorativa 2024, MinTrabajo): (no verbatim possible — terms absent; nearest: art. 61 a) 1. "…por concepto de salarios, bonificaciones y cualquier otra prestación económica…") | The CT (as printed) contains ZERO aguinaldo, bono/bonificación anual, incentivo and propina provisions (exhaustive search: 0 hits) — no bonus rule may cite the Código de Trabajo; the regimes live exclusively in their specific decrees: bono 14 = D-42-92 (`40_`), incentivo = D-78-89 (`41_`, as amended by D-37-2001, LB-010); the December aguinaldo lives in D-76-78 (`93_`, private sector — LB-015) with D-1633 (public) still absent (GOQ-09 half-open); "bonificaciones" appears in the CT only as the art. 61 a) annual-report category; the CT's sole contributions are the art. 93 salario completo integration basis (`01_ct-salary-model.md` GT-PAY-FR-005) and the art. 82 indemnización hook fed by LB-004. [Note: the EVID-299 gloss's shorthand statute naming predates the R30 identity correction and is superseded by EVID-345/349 — the negative finding itself stands.] | `gt/sources/32_Codigo_Trabajo_D1441.pdf` | Whole text (exhaustive search: 0 hits); art. 61 a) 1. pp.37-38 (EVID-299) |
+| LB-015 | Decreto 76-78, identity + Art. 1 + Art. 2 + Art. 5: "DECRETO NUMERO 76-78" / "LEY REGULADORA DE LA PRESTACIÓN DEL AGUINALDO PARA LOS TRABAJADORES DEL SECTOR PRIVADO" / "Dado en el Palacio del Organismo Legislativo, en la ciudad de Guatemala, a los veintitrés días del mes de noviembre de mil novecientos setenta y ocho." / "Palacio Nacional: Guatemala, 28 de noviembre de 1978. Publíquese y cúmplase. FERNANDO ROMEO LUCAS GARCIA." / editorial footnote "2. Publicado el 30 de noviembre de 1978." / Art. 1: "Todo patrono queda obligado a otorgar a sus trabajadores anualmente en concepto de aguinaldo, el equivalente al cien por ciento del sueldo o salario ordinario mensual que éstos devenguen por un año de servicios continuos o la parte proporcional correspondiente." / Art. 2: "La prestación a que se refiere el artículo anterior, deberá pagarse el cincuenta por ciento en la primera quincena del mes de diciembre y el cincuenta por ciento restante en la segunda quincena del mes de enero siguiente." / "Las empresas o patronos particulares que por convenios, pactos colectivos, costumbre o voluntariamente cubran el cien por ciento de la prestación de aguinaldo en el mes de diciembre, no estan [sic] obligados al pago de ningún complemento en el mes de enero." / Art. 5: "El aguinaldo no es acumulable de año en año, con el objeto de percibir posteriormente una suma mayor; pero el trabajador, a la terminación de su contrato, tiene derecho a que el patrono le pague inmediatamente la parte proporcional del mismo, de acuerdo con el tiempo trabajado." | D-76-78 = the PRIVATE-sector December-aguinaldo statute (GOQ-09 private half DELIVERED): given 23-Nov-1978 (congreso), executive sanction 28-Nov-1978, published DCA 30-Nov-1978 (compendium editorial footnote); art. 1 = aguinaldo of 100% of the ORDINARY monthly salary for one year of continuous services, or the proportional part for shorter service (NO averaging window or base month printed — OQ-003; the considerando's 50% constitutional floor cites "el inciso 18 del artículo 114 de la Consli[t]ución" [sic] — the 1965 charter then in force, never the current 1985 CPR — and the operative text doubles it to 100%); art. 2 = 50% in the primera quincena of December + the remaining 50% in the SEGUNDA quincena of the following January, with employers covering 100% in December (by convenio, pacto colectivo, costumbre or voluntarily) owing NO January complement; art. 5 = no year-to-year accumulation, but at termination of the contract (any cause) IMMEDIATE payment of the proportional part per time worked. Registry-hygiene notes: any register label "…Sector Privado y Público" for this instrument is WRONG (the "y Público" tail belongs to D-42-92's title); D-76-78 derogates D-1634 (its content must never be sourced); `93_` p.2 below the signature block carries D-77-78 (note) and D-78-78 (forestry) — never attribute that content to D-76-78 | `gt/sources/93_Aguinaldo_D76-78.pdf` | Title + arts. 1-2, 5 p.1; date/signature blocks + footnotes p.2 (EVID-851..865) |
 
 Version regime (D12): the only dated data owned by this file are the
 incentivo rate rows (LB-010: historical D78-89/D7-2000 rows +
 the standing Q250.00/month row, valid_from 2001-08-01, provenance
 "D-37-2001 art. 1 — quoted-only inside 39_ p.4 NOTA", GOQ-09
-acquisition-watcher flag) and the D-42-92 instrument lifecycle rows
-(LB-001/LB-005). The 100% formula, the June-ending averaging year, the
-1–15 July window and the 6/12 inclusion proportion are STATIC law of
-D-42-92 (effective 2-Jul-1992); the nature rules of D-78-89 arts. 2-3
-are STATIC law; the 1992-only payment extension is a historical row,
-never a living configuration. No December-aguinaldo value of any kind
-exists in this file (GOQ-09).
+acquisition-watcher flag), the D-42-92 instrument lifecycle rows
+(LB-001/LB-005) and the D-76-78 instrument lifecycle rows (LB-015:
+given 1978-11-23 / executive 1978-11-28 / DCA 1978-11-30,
+compendium-footnote provenance; vigencia rule "entrara [sic] en vigor
+inmediutamente [sic]" — anchor event ambiguous, recorded as printed).
+The 100% formula, the June-ending averaging year, the 1–15 July window
+and the 6/12 inclusion proportion are STATIC law of D-42-92 (effective
+2-Jul-1992); the nature rules of D-78-89 arts. 2-3 are STATIC law; the
+D-76-78 mechanics (100% ordinary month, December/January quincena
+windows, termination proration) are STATIC law; the 1992-only payment
+extension is a historical row, never a living configuration. No
+PUBLIC-sector aguinaldo value of any kind exists in this file (D-1633
+absent — GOQ-09 half-open).
 
 ## 3. Functional Requirements
 
@@ -194,20 +219,29 @@ exists in this file (GOQ-09).
   NEVER be taken into account in determining the annual aguinaldo
   (*el valor de la bonificación anual no se tomará en cuenta para
   determinar el aguinaldo anual*, art. 6) — recorded as a standing
-  guard row over the (currently absent, §3.3) aguinaldo base: whenever
-  an aguinaldo engine is acquired it must consume this exclusion, and
-  no present-day computation may net bono 14 into any year-end benefit
-  base. (LB-004; EVID-348)
-- **GT-PAY-FR-084:** SUPLETORIEDAD POINTER (quoted-only, gated): art. 5
-  orders the rules of **Decretos 76-78 (private) and 1633 (public)** —
-  the aguinaldo statutes — applied supplementarily per sector, in all
-  that does not contradict D-42-92. The system shall record this
-  pointer as configuration metadata ONLY: because both statutes are
-  absent from the corpus (GOQ-09), NO supplementary rule of D-76-78 or
-  D-1633 may be implemented, guessed or defaulted until their texts are
-  acquired; the pointer row raises the GOQ-09 flag on any bono 14 edge
-  case whose resolution would depend on the supplementary law.
-  (LB-004; EVID-348)
+  guard row over the aguinaldo base (§3.3): the FR-095 engine consumes
+  this exclusion, and no present-day computation may net bono 14 into
+  any year-end benefit base. (LB-004; EVID-348)
+- **GT-PAY-FR-084:** SUPLETORIEDAD POINTER (D-76-78 branch exercisable;
+  D-1633 branch gated): art. 5 orders the rules of **Decretos 76-78
+  (private) and 1633 (public)** — the aguinaldo statutes — applied
+  supplementarily per sector, in all that does not contradict D-42-92.
+  The direction is ONE-WAY (EVID-863): D-42-92 art. 5 borrows FROM the
+  aguinaldo statutes — D-76-78 itself contains no supletoriedad clause
+  and never mentions bono 14 or bonificación anual (it predates D-42-92
+  by 14 years); no rule may reverse the pointer. The D-76-78 branch is
+  now EXERCISABLE (text in corpus, `93_`/LB-015): its printed rules —
+  e.g. arts. 3-4 (continuity not interrupted by licencias/suspensions;
+  anticipos never reduce the total) and art. 10 (150-jornadas
+  eligibility for campo/discontinuous workers) — supply the
+  supplementary resolution of PRIVATE-sector bono 14 edge cases in all
+  that does not contradict D-42-92; the D-1633 branch (public sector)
+  stays gated: no supplementary rule of D-1633 may be implemented,
+  guessed or defaulted until its text is acquired (GOQ-09 half-open),
+  and the pointer row raises the GOQ-09 flag on any public-sector bono
+  14 edge case whose resolution would depend on it.
+  (LB-004; LB-015; EVID-348, EVID-855, EVID-859, EVID-863;
+  GOQ-09 → OQ-001)
 - **GT-PAY-FR-085:** Instrument lifecycle rows (static law + history):
   D-42-92 given **2-Jul-1992**, published **2-Jul-1992** (compendium
   footnote — the only in-corpus publication evidence), **vigencia the
@@ -325,36 +359,76 @@ exists in this file (GOQ-09).
   enforcement pointer are recorded as printed. (LB-006; LB-009;
   EVID-349, EVID-350; GOQ-83 → OQ-002)
 
-### 3.3 December aguinaldo — absence regime, taxonomy and interfaces
+### 3.3 December aguinaldo — private-sector engine (D-76-78), public-sector absence, taxonomy and interfaces
 
-- **GT-PAY-FR-095:** ABSENCE FR (GOQ-09): the December aguinaldo
-  statutes — **D-76-78 (private sector) and D-1633 (public sector)** —
-  are NOT in the corpus (they are only cross-referenced by D-42-92
-  arts. 1/5/6 and the compendium footnote). The system shall assert NO
-  December-bonus mechanics of any kind: no aguinaldo amount, base,
-  averaging window, payment window, proration or eligibility rule may
-  be configured, computed, defaulted or inferred; the benefit catalog
-  carries the aguinaldo slot as ABSENT with the GOQ-09 flag, and any
-  attempt to configure or compute an aguinaldo rule raises GOQ-09 and
-  is rejected at definition time — the mechanics enter only when the
-  statutes are acquired (acquisition watcher). (LB-004; LB-014;
-  EVID-348, EVID-299; GOQ-09 → OQ-001)
-- **GT-PAY-FR-096:** KNOWN-ONLY FACTS (catalog, non-computational):
-  while the aguinaldo regime is absent, the ONLY recordable facts are:
-  (a) the ISR exemption feed — aguinaldo exempt up to **100% of one
-  ordinary monthly salary** per LAT art. 70 num. 5, OWNED by
-  `gt/requirements/taxation/04_isr-trabajo.md` **GT-TAX-FR-115** (by
-  exact id — never re-derived here); (b) the D-42-92 art. 6 exclusion
-  (FR-083 — the bono 14 never enters the aguinaldo base); (c) the
-  Criterio 6-2018 interpretive layer — aguinaldo/bono 14 deductible
-  only up to 100% of one monthly salary, excess only with a
-  MinTrabajo-homologado pacto colectivo — OWNED by
+- **GT-PAY-FR-095:** PRIVATE-SECTOR AGUINALDO ENGINE (GOQ-09 private
+  half resolved: D-76-78 acquired as `93_`, LB-015): the statute's
+  printed title is **"Ley Reguladora de la Prestación del Aguinaldo
+  para los Trabajadores del SECTOR PRIVADO"** — it governs
+  PRIVATE-sector workers ONLY; the public-sector statute is **D-1633,
+  still absent** (absence fence below). For private-sector workers the
+  system shall compute: (i) **AMOUNT (art. 1)** = *el equivalente al
+  cien por ciento del sueldo o salario ordinario mensual que éstos
+  devenguen por un año de servicios continuos o la parte proporcional
+  correspondiente* — 100% of one ORDINARY monthly salary for a year of
+  continuous services; a worker with less than one year takes *la
+  parte proporcional correspondiente* (the proportional part);
+  ordinary salary only, no extraordinary component, no fixed quetzal
+  amount, no tiers — and **NO averaging window or base month is
+  defined in the statute** (which month's salary governs is unprinted:
+  an aguinaldo base rule must NOT import D-42-92's June-ending average
+  — OQ-003); (ii) **PAYMENT WINDOWS (art. 2)** = the prestación
+  *deberá pagarse el cincuenta por ciento en la primera quincena del
+  mes de diciembre y el cincuenta por ciento restante en la segunda
+  quincena del mes de enero siguiente* (50% during 1–15 December; the
+  remaining 50% during 16–31 January of the FOLLOWING year — the
+  segunda quincena of January, not "first half of January"); payers
+  who by *convenios, pactos colectivos, costumbre o voluntariamente*
+  cover 100% in December *no estan [sic] obligados al pago de ningún
+  complemento en el mes de enero* (no January complement owed);
+  (iii) **TERMINATION PRORATION (art. 5)** = *El aguinaldo no es
+  acumulable de año en año, con el objeto de percibir posteriormente
+  una suma mayor; pero el trabajador, a la terminación de su contrato,
+  tiene derecho a que el patrono le pague inmediatamente la parte
+  proporcional del mismo, de acuerdo con el tiempo trabajado* — no
+  year-to-year accumulation (the bar covers only deferring to collect
+  a larger later sum), and on termination of the contract — ANY cause,
+  unconditional — the worker takes IMMEDIATE payment of the
+  time-proportional part. PROVENANCE NUANCE: the considerando's
+  constitutional 50% floor cites *el inciso 18 del artículo 114 de la
+  Consli[t]ución* — the 1965 charter in force in 1978, NEVER the current
+  (1985) CPR — and any floor reference must carry that provenance; the
+  operative rule doubles the floor to 100% (art. 1). PUBLIC-SECTOR
+  ABSENCE FENCE: D-1633 remains outside the corpus (GOQ-09 half-open)
+  — no public-sector aguinaldo amount, base, averaging window,
+  payment window, proration or eligibility rule may be configured,
+  computed, defaulted or inferred, and any such attempt raises GOQ-09
+  and is rejected at definition time (acquisition watcher).
+  (LB-015; LB-004; EVID-851..856, EVID-863; GOQ-09 → OQ-001, OQ-003)
+- **GT-PAY-FR-096:** INTERFACE-ONLY FACTS (catalog, non-computational):
+  the aguinaldo's cross-layer interfaces are OWNED elsewhere and are
+  recorded here as non-computational pointers (the private-sector
+  mechanics themselves are computed from D-76-78 per FR-095 — nothing
+  in this catalog row computes): (a) the ISR exemption feed — aguinaldo
+  exempt up to **100% of one ordinary monthly salary** per LAT art. 70
+  num. 5, OWNED by `gt/requirements/taxation/04_isr-trabajo.md`
+  **GT-TAX-FR-115** (by exact id — never re-derived here; the LAT cap
+  and the art. 1 quantum coincide at 100% of the ordinary monthly
+  salary); (b) the D-42-92 art. 6 exclusion (FR-083 — the bono 14
+  never enters the aguinaldo base); (c) the Criterio 6-2018
+  interpretive layer — aguinaldo/bono 14 deductible only up to 100% of
+  one monthly salary, excess only with a MinTrabajo-homologado pacto
+  colectivo — OWNED by
   `gt/requirements/taxation/05_isr-lucrativas-capital.md`
   **GT-TAX-FR-169** (interpretive cross-ref by id; note: the criterio
   cites both laws by title only and cannot backfill the missing
   instruments — register GOQ-121); (d) the three-benefit taxonomy
-  (FR-097). Nothing else about the aguinaldo is assertable.
-  (LB-004; LB-013; EVID-348, EVID-338)
+  (FR-097). The D-76-78 art. 15 fiscal nature — employer-DEDUCTIBLE
+  and worker TAX-FREE, exempt from every impuesto/tasa/cargo, NOT
+  subject to IGSS/IRTRA/INTECAP cuotas, *inembargable* (EVID-862) —
+  anchors the statutory side of the (a)/(c) interfaces and the
+  exclusion consumed by files 07/08, still by exact id / filename only.
+  (LB-004; LB-013; LB-015; EVID-348, EVID-338, EVID-862)
 - **GT-PAY-FR-097:** THREE-BENEFIT TAXONOMY (EVID-338): the catalog
   shall model THREE distinct annual-benefit concepts — **Aguinaldo ≠
   Bonificación anual (Bono 14) ≠ Bono vacacional** — as separate,
@@ -362,11 +436,14 @@ exists in this file (GOQ-09).
   072/073 are independent in-corpus confirmation); the p.3 print
   carrying them belongs to MinFin AG 243-2020, never to AG 250-2020
   (R43 guard owned by `03_minimum-wage.md` GT-PAY-FR-075, consumed by
-  id); and *bono vacacional* is a THIRD concept whose statute is absent
-  from the corpus — an empty catalog slot with NO mechanics (same
-  absence discipline as FR-095; not part of GOQ-09's named instruments,
+  id); the aguinaldo slot is **ACTIVE for the private sector**
+  (D-76-78, mechanics per FR-095) with its **public-sector half ABSENT
+  (D-1633 — GOQ-09 half-open, blocked)**; and *bono vacacional* is a
+  THIRD concept whose statute is absent from the corpus — an empty
+  catalog slot with NO mechanics (same absence discipline as FR-095's
+  public-sector fence; not part of GOQ-09's named instruments,
   recorded here as a catalog placeholder only).
-  (LB-013; EVID-338)
+  (LB-013; LB-015; EVID-338, EVID-851..856)
 - **GT-PAY-FR-098:** ISR EXEMPTION INTERFACE (by reference only): for
   BOTH bonuses the system shall supply to the ISR layer the GROSS
   prestación and its payment date and NOTHING ELSE — bono 14 exemption
@@ -388,16 +465,21 @@ exists in this file (GOQ-09).
   the séptimo-día inclusion exception belongs to the INCENTIVO alone
   (FR-090) — no kin-rule extension to bono 14, whose only base rule is
   the art. 6 exclusion (FR-083). (LB-014; EVID-299)
-- **GT-PAY-FR-100:** BENEFIT-ENGINE SEPARATION: the two live engines —
-  bono_14 (D-42-92) and incentivo (D-78-89 → D-37-2001) — shall be
-  separate catalog entities with separate statute provenance, separate
-  base rules (FR-078 vs FR-090..092) and separate payment cadences
-  (annual July window vs monthly with the salary), sharing NOTHING
-  except this file's guards; the registry shall carry the R30 mislabel
-  warnings (40_ "Aguinaldo" = bono 14 law; 41_ "Bono14" = incentivo
-  law) on both source-file rows, and the two absent slots (aguinaldo
-  D-76-78/D-1633; bono vacacional) resolve to blocked placeholders,
-  never to either live engine. (LB-001; LB-006; EVID-345, EVID-349)
+- **GT-PAY-FR-100:** BENEFIT-ENGINE SEPARATION: the live engines —
+  bono_14 (D-42-92), incentivo (D-78-89 → D-37-2001) and the
+  private-sector aguinaldo (D-76-78, FR-095) — shall be separate
+  catalog entities with separate statute provenance, separate base
+  rules (FR-078 vs FR-090..092 vs FR-095 + OQ-003) and separate
+  payment cadences (annual July window vs monthly with the salary vs
+  the December/January quincena halves), sharing NOTHING except this
+  file's guards; the registry shall carry the R30 mislabel warnings
+  (40_ "Aguinaldo" = bono 14 law; 41_ "Bono14" = incentivo law) on
+  both source-file rows — plus the 93_ label guard (the instrument is
+  the SECTOR PRIVADO statute only; any "…y Público" register tail
+  belongs to D-42-92's title, EVID-851) — and the blocked slots
+  (public-sector aguinaldo D-1633; bono vacacional) resolve to blocked
+  placeholders, never to any live engine. (LB-001; LB-006; LB-015;
+  EVID-345, EVID-349, EVID-851)
 
 ## 4. Data Model
 
@@ -419,7 +501,7 @@ snapshot-on-write; historical rows are non-transmittable class.
 | l10n_gt.pay.bono14 | termination_proration | monetary (computed) | any-cause termination: time from immediately preceding 1-July → termination date; paid at termination (flow owned by file 06) | FR-081 |
 | l10n_gt.pay.bono14 | art82_inclusion · aguinaldo_base_excluded | monetary (computed) / boolean | 6/12 inclusion feed (or time worked if <6m) consumed by 06_contracts-termination.md; art. 6 exclusion guard | FR-082, FR-083 |
 | l10n_gt.pay.instrument (D-42-92 row) | given / published / vigencia · derogates · transitory_window | date rows / char | 1992-07-02 / 1992-07-02 / 1992-07-02 (compendium-footnote provenance); derogates D-57-90; 1992-only payment window to 1992-09-30 (historical); no sanction article | FR-085 |
-| l10n_gt.pay.supletoriedad (pointer row) | statutes · scope · gated | char / char / boolean | D-76-78 (private) / D-1633 (public), supplementary per art. 5; gated = GOQ-09 — no supplementary rule implemented | FR-084 |
+| l10n_gt.pay.supletoriedad (pointer row) | statutes · scope · gated | char / char / boolean | D-76-78 (private — text in corpus `93_`, branch EXERCISABLE; direction ONE-WAY per EVID-863: D-42-92 art. 5 borrows from D-76-78, never the reverse) / D-1633 (public — absent, gated = GOQ-09, no supplementary rule implemented) | FR-084 |
 
 **Incentivo engine (D-78-89 → D-37-2001):**
 
@@ -431,11 +513,12 @@ snapshot-on-write; historical rows are non-transmittable class.
 | hr.contract / company config | gt_pay_incentivo_joint_agreement | boolean | recorded patrono+trabajador joint agreement to pay the contributions (alone admits incentivo into bases 07/08) | FR-091 |
 | l10n_gt.pay.instrument (D-78-89 row) | given · date_incomplete · vigencia | date / boolean / char | Dec-1989, day illegible (GOQ-83); no DCA date printed — vigencia undatable (day after publication); regime start anchored Jan-1990 per 39_ NOTA | FR-094 |
 
-**Absence regime, taxonomy and guards:**
+**Aguinaldo regime (private resolved; public absent), taxonomy and guards:**
 
 | Entity | Field | Type | Catalog / values | Reference |
 |--------|-------|------|------------------|-----------|
-| l10n_gt.pay.benefit.catalog | slot · statute · status | char / char / select | bono_14 = D-42-92 (active) · incentivo = D-78-89→D-37-2001 (active) · aguinaldo = D-76-78/D-1633 (ABSENT — GOQ-09, mechanics blocked) · bono_vacacional = statute unknown (ABSENT, no mechanics) | FR-095..097, FR-100 |
+| l10n_gt.pay.aguinaldo (new) | sector_scope · gross · payment_windows · termination_proration · base_month_open | select / monetary (computed) / date-window constraint / monetary (computed) / boolean | PRIVATE sector only (D-76-78; public = D-1633 blocked, GOQ-09 half-open); 100% × ordinary monthly salary or proportional part (art. 1); 50% due 1–15 Dec + 50% due 16–31 Jan (art. 2), December-100% opt-out suppresses the January complement; immediate any-cause time-proportional payment at termination (art. 5), no inter-year accumulation; NO averaging window printed — base_month_open = true, no default (OQ-003) | FR-095 |
+| l10n_gt.pay.benefit.catalog | slot · statute · status | char / char / select | bono_14 = D-42-92 (active) · incentivo = D-78-89→D-37-2001 (active) · aguinaldo = D-76-78 private sector (ACTIVE — mechanics per FR-095; public-sector D-1633 ABSENT, GOQ-09 half-open, mechanics blocked) · bono_vacacional = statute unknown (ABSENT, no mechanics) | FR-095..097, FR-100 |
 | l10n_gt.pay.guard | mislabel rows | char | 40_ "Aguinaldo" → D-42-92 bono 14; 41_ "Bono14" → D-78-89 incentivo (R30); bonuses NOT_IN_CT (01 GT-PAY-FR-024 consumption) | FR-076, FR-086, FR-099 |
 | l10n_gt.pay.aguinaldo.knownfacts | fact · owner_ref | char / char | LAT 70.5 exemption ≤100% → GT-TAX-FR-115 (taxation-owned); art. 6 exclusion → FR-083; criterio cap → GT-TAX-FR-169 (interpretive); taxonomy → FR-097 — non-computational catalog only | FR-096 |
 | hr.payslip.line (bono 14) | gross supply + payment_date · isr_split_owner | monetary/date · char (reference) | fixed pointers GT-TAX-FR-116 (exemption) and GT-TAX-FR-146/167/169 (deduction) — the split is never computed payroll-side | FR-098 |
@@ -459,8 +542,8 @@ behavior required by this file.
 | FR-080 | shared + odoo runs | l10n_gt.pay.bono14 (window row) / hr.payslip (runs) | payment_date window check | Window row shared (1–15 July); payment runs and compliance flags odoo; exception = FR-081 |
 | FR-081 | odoo | hr.departure flow / l10n_gt.pay.bono14 | termination_proration | Any cause; from immediately preceding 1-July; flow owned by file 06 (filename) |
 | FR-082 | odoo | l10n_gt.pay.bono14 | art82_inclusion | 6/12 (or time worked if <6m) feed consumed by 06_contracts-termination.md; art. 82 average itself never computed here |
-| FR-083 | shared | — (invariant row §4) | aguinaldo_base_excluded | Art. 6 standing guard over the absent aguinaldo base |
-| FR-084 | shared | — (pointer row §4) | supletoriedad gated | D-76-78/D-1633 supplementary — pointer only, GOQ-09 gate; no rule until acquisition |
+| FR-083 | shared | — (invariant row §4) | aguinaldo_base_excluded | Art. 6 standing guard over the aguinaldo base — the FR-095 engine consumes it |
+| FR-084 | shared | — (pointer row §4) | supletoriedad: D-76-78 exercisable / D-1633 gated | One-way direction (EVID-863); D-76-78 branch live (`93_`), D-1633 branch GOQ-09 gate |
 | FR-085 | shared | — (instrument rows §4) | lifecycle dated rows | Vigencia 1992-07-02; 1992-only window to 1992-09-30 (historical); derogates D-57-90; no sanction article |
 | FR-086 | shared | — (guard rows §4) | 41_ → incentivo (D-78-89) | R30/R41; current amount cites D-37-2001 only |
 | FR-087 | saas | — (config row §4; odoo surfaces read) | Q250.00/month standing row | Quoted-only per 39_ NOTA (EVID-344); acquisition-watcher note (GOQ-09); flat, all activities, with the monthly salary, since 2001-08-01 |
@@ -471,7 +554,7 @@ behavior required by this file.
 | FR-092 | shared | — (nature invariant §4) | not_minimum_wage | Never constitutes/substitutes minimum or agreed salaries; 03 GT-PAY-FR-061/062 consumers |
 | FR-093 | odoo | hr.payslip.line (expense tag) | isr_deductible_expense | Feed by id GT-TAX-FR-146/167 — deduction matrices taxation-owned |
 | FR-094 | shared | — (instrument rows §4) | date_incomplete + garble guards | GOQ-83: day illegible, no DCA date; arts. 5/6 garbled — no exemption CR implementable |
-| FR-095 | shared | — (catalog slot §4) | aguinaldo = ABSENT | GOQ-09: no December mechanics configurable/computable; definition-time rejection |
+| FR-095 | shared + odoo | — (engine + catalog rows §4) / hr.payslip.line (aguinaldo) | private mechanics; public fence | D-76-78 (LB-015): 100% ordinary month, 50% 1–15 Dec + 50% 16–31 Jan, immediate termination proration; base_month_open (OQ-003); public-sector (D-1633) attempts → GOQ-09 definition-time rejection |
 | FR-096 | shared | — (known-facts catalog §4) | non-computational rows | GT-TAX-FR-115/169 by id; art. 6 exclusion; GOQ-121 note (criterio cites by title only) |
 | FR-097 | shared | — (catalog slots §4) | three-benefit taxonomy | Aguinaldo ≠ Bono 14 ≠ Bono vacacional; R43 guard consumed from 03 GT-PAY-FR-075 (by id) |
 | FR-098 | odoo | hr.payslip.line (both bonuses) | gross + payment_date supply | Split/deduction owned by GT-TAX-FR-115/116/146/167/169 (exact ids; feeds only) |
@@ -480,9 +563,10 @@ behavior required by this file.
 
 Version-regime notes (D12): the incentivo standing row re-keys only on
 acquisition of the D-37-2001 text (GOQ-09 re-verification); the
-historical rows never re-key; the D-42-92 values are STATIC law. The
-absence regime (FR-095) is configuration status, not dated data — it
-flips to a live regime only via instrument acquisition.
+historical rows never re-key; the D-42-92 values and the D-76-78
+mechanics are STATIC law. The PUBLIC-sector absence (D-1633, FR-095's
+fence) is configuration status, not dated data — it flips to a live
+regime only via instrument acquisition (GOQ-09 half-open).
 
 ## 6. Acceptance Criteria
 
@@ -546,16 +630,24 @@ flips to a live regime only via instrument acquisition.
   exactly as if the incentivo were absent (negative test); given the
   recorded joint agreement of patrono AND trabajador, then alone does
   the incentivo enter the contribution bases. (FR-091)
-- **AC-011:** Given any attempt to configure an aguinaldo rule — an
-  amount, a base, a December window, a proration — when validated, then
-  it is REJECTED and the GOQ-09 flag raises (the aguinaldo slot is
-  ABSENT: D-76-78/D-1633 not in corpus); given the known-facts catalog,
-  then it holds ONLY the four FR-096 facts (GT-TAX-FR-115 feed, art. 6
-  exclusion, GT-TAX-FR-169 interpretive cap, taxonomy) and computes
-  nothing. (FR-095, FR-096)
+- **AC-011:** Given any attempt to configure a PUBLIC-sector aguinaldo
+  rule — an amount, a base, a December window, a proration — when
+  validated, then it is REJECTED and the GOQ-09 flag raises (the
+  public-sector statute D-1633 is not in corpus); given a
+  private-sector worker with a Q4,200 ordinary monthly salary and one
+  continuous year of service, when the aguinaldo computes, then the
+  gross = Q4,200.00 with 50% due in 1–15 December and 50% due in 16–31
+  January — unless 100% was paid in December, in which case no January
+  complement is owed — and on any-cause termination the proportional
+  part is paid immediately (no base-month default applied while
+  OQ-003 stands); given the known-facts catalog, then it holds ONLY
+  the four FR-096 interfaces (GT-TAX-FR-115 feed, art. 6 exclusion,
+  GT-TAX-FR-169 interpretive cap, taxonomy) and computes nothing.
+  (FR-095, FR-096)
 - **AC-012:** Given the benefit catalog, when inspected, then FOUR
   slots exist — bono_14 (D-42-92, active), incentivo (D-78-89→D-37-2001,
-  active), aguinaldo (ABSENT/GOQ-09), bono vacacional (ABSENT, no
+  active), aguinaldo (D-76-78 private sector ACTIVE per FR-095;
+  public-sector half ABSENT/GOQ-09), bono vacacional (ABSENT, no
   statute) — and no slot resolves into another; the 38_ p.3 budget trio
   is attributed to AG 243-2020 only (03 GT-PAY-FR-075 guard).
   (FR-097, FR-100)
@@ -576,11 +668,15 @@ flips to a live regime only via instrument acquisition.
 
 Master-index GOQ ids (register `gt/.extractions/00_MASTER_INDEX.md` §C);
 allowed set for this file: **GOQ-09** and **GOQ-83** (owned — each gets
-this one row). No other OQ ids; both rows Status open; GOQs are
-trace-pending, not blockers. GOQ-121 (65_ criterio cites the bonus laws
-by title only) is noted inline at FR-096, not rowed here.
+this one row); OQ-003 additionally carries the evidence-file open
+question on the D-76-78 averaging/base-month gap (93_ OQ-3 —
+non-register, file-level). GOQ-09 is HALF-RESOLVED (2026-08-22);
+GOQ-83 stays open; GOQs are trace-pending, not blockers. GOQ-121 (65_
+criterio cites the bonus laws by title only) is noted inline at
+FR-096, not rowed here.
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
-| OQ-001 | GOQ-09 (owned): "Missing bonus laws: December aguinaldo D-76-78 + D-1633, Q250 incentivo D-37-2001, D-7-2000 (all quoted-only/absent). NEVER invent December mechanics until acquired." Affects FR-084 (supletoriedad pointer gated), FR-087 (the Q250 row is quoted-only inside 39_ p.4 NOTA — re-verify on acquisition), FR-095/FR-096 (the entire December-absence regime) and FR-098's aguinaldo-side feed. The D-42-92 and D-78-89 mechanics stand on the 40_/41_ texts; acquisition per DOWNLOAD_QUEUE rev 7 (aguinaldo D-76-78 + incentivo D-37-2001). | no | GT synthesis wave S-GT3 → acquisition queue (D-76-78, D-1633, D-37-2001, D-7-2000) | open |
+| OQ-001 | GOQ-09 (owned, HALF-RESOLVED 2026-08-22): "Missing bonus laws: December aguinaldo D-76-78 + D-1633, Q250 incentivo D-37-2001, D-7-2000 (all quoted-only/absent). NEVER invent December mechanics until acquired." **December PRIVATE half DELIVERED**: D-76-78 = `93_` (LB-015; EVID-851..865, primary-read end-to-end) — the private-sector mechanics are now owned by FR-095 (100% ordinary month, 50% primera quincena Dec + 50% segunda quincena Jan, December-100% opt-out, immediate termination proration, no accumulation). STILL OPEN: (i) the PUBLIC half D-1633 (absent — FR-095's public-sector fence stands); (ii) the incentivo D-37-2001 text (FR-087's Q250 row stays quoted-only inside 39_ p.4 NOTA — re-verify on acquisition) and D-7-2000; (iii) the D-76-78 averaging/base-month gap (OQ-003 below). Affects FR-084 (D-76-78 branch exercisable; D-1633 branch gated), FR-095/FR-096 (private resolved; public absent) and FR-098's aguinaldo-side feed (unchanged, taxation-owned). The D-42-92, D-78-89 and D-76-78 mechanics stand on the 40_/41_/93_ texts; acquisition per DOWNLOAD_QUEUE (D-1633, D-37-2001, D-7-2000). | no | GT synthesis wave S-GT3 → acquisition queue (D-1633, D-37-2001, D-7-2000) | half-resolved (private DELIVERED; public/incentivo open) |
 | OQ-002 | GOQ-83 (owned): "D-78-89: date unreadable (day illegible, no DCA date); art. 5/6 garbled (exemption CRs need clean copy); floors printed '(Q.015)/(Q.030)' [sic — decimal placement]." Affects FR-088 (historical floor rows carry the [sic] with the 39_-read resolution Q0.15/Q0.30) and FR-094 (instrument row date_incomplete; NO exemption requirement implementable until a clean DCA print is acquired). | no | GT synthesis wave S-GT3 → acquisition queue (clean DCA print of D-78-89) | open |
+| OQ-003 | Aguinaldo averaging/base-month gap (evidence-file OQ 93_-3, non-register, file-level): D-76-78 art. 1 fixes "el equivalente al cien por ciento del sueldo o salario ordinario mensual" WITHOUT saying which month's salary (December's? an average?) and art. 5's termination proration likewise prints no base rule — NO averaging window or base month is defined in the statute; D-42-92's June-ending average must NOT be imported by analogy (no bono-14-style June average for the aguinaldo). Resolve the base-month rule externally (doctrine/LAT) before implementing the FR-095 base computation; until then the engine carries base_month_open and no default is applied. (EVID-853, EVID-856) | no | GT synthesis wave S-GT3 → external verification (doctrine/LAT) | open |

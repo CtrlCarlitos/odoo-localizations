@@ -421,9 +421,13 @@ the direct-consultation copy of the same artifact.
   (LB-021; EVID-141)
 - **GT-EINV-FR-127:** FEPE ICT retention arithmetic shall hold: RetencionICT
   = Gran Total × 1.5%; TotalMenosRetenciones = Gran Total − RetencionICT
-  (±0.01); the "ICT" expansion is unprinted → OQ-008 (GOQ-24; statutory
-  hook Decreto 31-2024 art. 4 pending acquisition — GOQ-13 kin).
-  (LB-021; EVID-141)
+  (±0.01); the "ICT" expansion is NOW PRIMARY-ANCHORED (GOQ-24/GOQ-13
+  resolved 2026-08-22, 85_ = W-GT7 EVID-803): **ICT = "Impuesto a la
+  Confianza Tributaria" (D-31-2024 art. 2)**; the law-level retention
+  hook prints the 1.5% at **art. 9** (buyer-issued FEL factura) while
+  the Reglas v2.0 cite art. 4 — citation discrepancy flagged (85_ OQ-5),
+  both texts in corpus, rate identical.
+  (LB-021; EVID-141; EVID-803/810)
 - **GT-EINV-FR-128:** The agropecuario payment family (frase tipo 6) shall
   carry the RTU-registered form: 5% sobre las ventas brutas (with retention)
   or 5% sobre las utilidades ("no retener") — the frase legend text differs
@@ -525,7 +529,7 @@ Reglas v2.0):**
 | IBN | Q0.18 / Q0.12 / Q0.10 / Q0.08 | per unit (gaseosas / isotónicas / jugos-yógur / agua ≤4L) | 2024-12-19 | FR-123; LB-017 |
 | TAP | USD0.05 | per unit; day-before Banguat | 2024-12-19 | FR-124; LB-017 |
 | FESP ISR retención | 5% | Σ MontoGravable (Dec 10-2012, mod. Dec 4-2019); IVA ret. = TotalMontoImpuesto | 2024-12-19 | FR-126; LB-021 |
-| FEPE ICT retención | 1.5% of Gran Total | Dec 31-2024 art. 4 (expansion GOQ-24) | 2024-12-19 | FR-127; LB-021 |
+| FEPE ICT retención | 1.5% of Gran Total | D-31-2024 in corpus (85_): ICT = Impuesto a la Confianza Tributaria (art. 2); law prints 1.5% at art. 9, Reglas cite art. 4 (flagged, 85_ OQ-5) | 2024-12-19 | FR-127; LB-021 |
 | Agropecuario (frase 6) | 5% ventas brutas / 5% utilidades | RTU forma de pago | 2024-12-19 | FR-128; LB-013 |
 | Primario (frase 10) | 1.5% ventas brutas / 2% exportador | RTU forma de cálculo | 2024-12-19 | FR-129; LB-013 |
 | Pecuario (frase 11) | 1.5% ventas brutas / 10% utilidades / 2% exportador | RTU forma de cálculo | 2024-12-19 | FR-129; LB-013 |
@@ -657,7 +661,7 @@ rows; historical records are the non-transmittable class (FR-080).
 | FR-124 | saas | account.tax (TAP) | USD0.05 | Day-before Banguat |
 | FR-125 | shared | l10n_latam.document.type × account.tax | matrix rows | Tax-capability matrix seed |
 | FR-126 | shared | account.move (FESP) | retention fields | ISR 5% + IVA arithmetic mirror |
-| FR-127 | shared | account.move (FEPE) | RetencionICT fields | 1.5% arithmetic mirror; label pending GOQ-24 |
+| FR-127 | shared | account.move (FEPE) | RetencionICT fields | 1.5% arithmetic mirror; label = Impuesto a la Confianza Tributaria (85_ art. 2; GOQ-24 resolved) |
 | FR-128 | shared | account.move | frase tipo 6 | Legend text per registered form |
 | FR-129 | shared | account.move | frases 10/11 | Rates tied to RTU election (FR-109) |
 | FR-130 | saas | rate registry | dated rows | valid_from/valid_to + provenance; snapshot-on-write |
@@ -753,7 +757,8 @@ GOQ-44, GOQ-45, GOQ-46, GOQ-47, GOQ-48, GOQ-49, GOQ-50 and GOQ-24. Kin ids
 referenced inline only: GOQ-20 (per-item Impuesto cap, owned by
 `02_dte-schema.md`), GOQ-21 (complement name/URI values, owned by
 `02_dte-schema.md`), GOQ-13 (Decreto 31-2024 acquisition, owned by
-`01_document-types.md`), GOQ-02 (channel umbrella, catalogs-owned).
+`01_document-types.md`; **resolved 2026-08-22 — 85_ in corpus,
+W-GT7**), GOQ-02 (channel umbrella, catalogs-owned).
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
@@ -764,4 +769,4 @@ referenced inline only: GOQ-20 (per-item Impuesto cap, owned by
 | OQ-005 | GOQ-48 (owned): "“Régimen antiguo” paper Código-Tipo list (1,2,7,8,9,30,32,37,38,53,57,60,62,63,66,67,68,69,72) needs the SAT resolution-type catalog to interpret." Affects FR-133/137 paper-origin detection. | no | GT synthesis wave S-GT1 → W6 partner ask (SAT) | open |
 | OQ-006 | GOQ-49 (owned): "NIT check-digit coefficient table not printed (algorithm described, coefficients omitted) — obtain before implementing mod-11." Blocks only the check-digit component of FR-086; structural checks + certificador delegation ship meanwhile — NEVER implement coefficient guesses. | no | GT synthesis wave S-GT1 → W6 partner ask (SAT/RTU reglamento) | open |
 | OQ-007 | GOQ-50 (owned): "Rate rows (IDP Q4.70…, IBN, CEM, TAP, regime %) are decree-bound dated values (“Sujeta a la vigencia de leyes y reglamentos”) — D-GT10 watchlist, never constants." Governs FR-130 and §4 Table 1; taxation waves cross-check the statutory layer. | no | GT synthesis wave S-GT1 (watchlist) | open (standing watch) |
-| OQ-008 | GOQ-24 (owned): "“ICT” (RetencionesFacturaEspecifica, FEPE) expansion + legal basis — verify vs D-31-2024 art. 4 (GOQ-13 kin)." Blocks only the user-facing label of FR-127; the 1.5% arithmetic is fully printed. | no | GT synthesis wave S-GT1 → W6 partner ask (SAT; D-31-2024 acquisition) | open |
+| OQ-008 | GOQ-24 (owned): "“ICT” (RetencionesFacturaEspecifica, FEPE) expansion + legal basis — verify vs D-31-2024 art. 4 (GOQ-13 kin)." **RESOLVED 2026-08-22 (85_ = W-GT7 EVID-803): ICT = "Impuesto a la Confianza Tributaria" (D-31-2024 art. 2)**; the FR-127 label is printable; residual: the Reglas' art.-4 cite vs the law's art.-9 1.5% text (both in corpus, rate identical — 85_ OQ-5, citation discrepancy only). | no | S-GT1 (row landed) → W-GT7 evidence pass (85_) | resolved |

@@ -6,7 +6,7 @@
 | Topic   | taxation |
 | Status  | draft |
 | Authors | GT synthesis wave S-GT2 |
-| Updated | 2026-08-20 |
+| Updated | 2026-08-22 |
 
 ## 1. Purpose
 
@@ -25,9 +25,11 @@ SAT-1371", "LAT ≤2013", "2236", "propinas", CT art. 120 ¶); the
 **D-10-2025 delta register** (derogation of IVA Art. 8-"A" added by D-31-2024
 art. 13; LAE Art. 16 final ¶; vigencia = publication day 4-Nov-2025) with
 its OCR defect ledger (GOQ-62); the "Mayo 8 de 1992" unlabelled-string rule
-(GOQ-63); and the **GOQ-68 in-corpus finding** on the AG 125-2022
+(GOQ-63); and the **GOQ-68 resolution** on the AG 125-2022
 FEL-transition texts (24_ art. 29 ¶6 checked against the corpus copy —
-negative, recorded in FR-258).
+negative, recorded in FR-258; AG 125-2022 subsequently acquired as 86_ and
+primary-read end-to-end — LB-017, FR-258/259 amended: the 79_ art. 32
+pointer resolved, and AG 125-2022 changes no FEL-transition deadlines).
 
 It does **not** cover: the substantive tax rules those instruments contain
 (rate, exemptions, retention matrix, ISR brackets — files
@@ -74,8 +76,9 @@ verified against the committed evidence extracts and the source text layer
 | LB-012 | Código Tributario, Decreto 6-91 (texto consolidado): anotaciones inline — muestra del censo (135 anotaciones): "47-91 el 01-06-1991" / "20-2006 el 06-07-2006" / "4-2012 el 25-02-2012" / "19-2013 el 21-12-2013" / "37-2016 el 31-08-2016" / última anotación de cualquier tipo: "*Sin Lugar la acción de Inconstitucionalidad en contra del Artículo 30 "C"… por el Expediente Número 3267-2018 el 03-12-2019" | CT authority table: legislative consolidation runs through D-37-2016 (31-08-2016); latest integrated event of any kind = CC ruling 03-12-2019; no FEL-era CT reform integrated in this copy — post-D37-2016 state unknown from the corpus | `gt/sources/25_Codigo_Tributario_6-91.pdf` | inline annotations throughout (no tail block exists) (EVID-192) |
 | LB-013 | Decreto 20-2006: "DECRETO NÚMERO 20-2006" / "EMITIDO… EL SEIS DE JUNIO DE DOS MIL SEIS." / "PALACIO NACIONAL: Guatemala, veinte de junio del año dos mil seis. PUBLÍQUESE Y CUMPLASE" / "ARTICULO 76. Vigencia. Los artículos 38, 51, 52, 5 3 [sic], 58, 59, 60 y 62 del presente Decreto empezarán a regir ocho (8) días después de su publicación en el Diario Oficial, y el articulado restante empezará a regir el 1 de agosto del año 2006." — texto consolidado ≥2015 (notas de reforma D-4-2012 arts. 2 ¶4/12/13/20/21 del 25-02-2012 + CC expedientes 2836-2012 y 2240-2014) | D-20-2006 identity: given 6-Jun-2006, sanctioned 20-Jun-2006, DCA date not printed (GOQ-69); **split vigencia**: the eight named articles rule DCA+8d (undateable), ALL other articles — including the entire retention regime arts. 1-14 — rule the fixed date 1-Aug-2006; this print is a consolidated ≥2015 text, not the 2006 first print | `gt/sources/78_Fortalecimiento_D20-2006.pdf` | p.1 title block; p.44 dates + Art. 76 (EVID-246) |
 | LB-014 | D-20-2006, Artículo 68: "Se deroga el artículo 1 del Decreto Número 03-04… Se deroga el artículo 2 5 [sic] del Decreto Número 03-04 del Congreso de la República… Se derogan todas las disposiciones legales que se opongan a lo establecido en esta ley." / Artículo 74: "Dentro del plazo máximo de treinta (30) días contados a partir del día siguiente de la publicación de la presente ley, el Organismo Ejecutivo deberá emitir el reglamento que desarrolle lo establecido en los capítulos I, II y III del presente decreto; el reglamento de la Ley del Impuesto al Valor Agregado." / Artículo 75: "La Administración Tributaria dispondrá de seis meses, a partir de la fecha en que entren en vigencia los capítulos I, II, III de la p resente [sic] ley, para el efecto de implementar en forma programada y progresiva los procesos, procedimientos, comunicaciones y sistemas…" | D-20-2006 lineage: Art. 68 repeals the eight CT-reform articles of D.03-04 (arts. 1/3/12/14/19/21/23/25 — touching CT arts. 30/40/98/101/112/142/153/165) + catch-all; Art. 74 mandates the reglamento within 30 días of publication (fulfilled by AG 425-2006, 26-Jul-2006); Art. 75 gives SAT a 6-month progressive-implementation window from 1-Aug-2006 | `gt/sources/78_Fortalecimiento_D20-2006.pdf` | pp. 41–44 Arts. 68, 74–76 (EVID-256) |
-| LB-015 | Reglamento AG 425-2006: "ACUERDO GUBERNATIVO No. 425-2006 / Guatemala, 26 de julio de 2006." / "ARTICULO 39… El presente Reglamento empezará a regir el uno de agosto de dos mil seis y deberá publicarse en el Diario de Centro América." / Art. 32 (imprentas) tal como imprime esta copia consolidada: "…la vigencia máxima que tendrán los documentos que se autoricen en medios distintos al Régimen de Facturación Electrónica en Línea -FEL-, de acuerdo con el sexto párrafo del artículo 29 del Reglamento de la Ley del Impuesto al Valor Agregado." con nota: "*Reformado por el Artículo 25, del Acuerdo Gubernativo Número 125-2022, vigente a partir del 25 de noviembre del 2022, (seis meses después de su publicación.)" | AG 425-2006 identity: issued 26-Jul-2006 (within the Art. 74 30-day window), rige 1-Aug-2006 same day as the law's chapters I–III, DCA date not printed (GOQ-69 kin); the consolidated print carries exactly one reform stamp — AG 125-2022 on art. 32 (vigente 25-Nov-2022), whose text cites "el sexto párrafo del artículo 29 del Reglamento" for the 6-month/FEL rule — the GOQ-68 hook | `gt/sources/79_Fortalecimiento_Reglamento_AG_425-2006.pdf` | p.1 header; p.16 Arts. 37–39; p.14 art. 32 + nota (EVID-260; art. 32 text txt lines 461–476) |
+| LB-015 | Reglamento AG 425-2006: "ACUERDO GUBERNATIVO No. 425-2006 / Guatemala, 26 de julio de 2006." / "ARTICULO 39… El presente Reglamento empezará a regir el uno de agosto de dos mil seis y deberá publicarse en el Diario de Centro América." / Art. 32 (imprentas) tal como imprime esta copia consolidada: "…la vigencia máxima que tendrán los documentos que se autoricen en medios distintos al Régimen de Facturación Electrónica en Línea -FEL-, de acuerdo con el sexto párrafo del artículo 29 del Reglamento de la Ley del Impuesto al Valor Agregado." con nota: "*Reformado por el Artículo 25, del Acuerdo Gubernativo Número 125-2022, vigente a partir del 25 de noviembre del 2022, (seis meses después de su publicación.)" | AG 425-2006 identity: issued 26-Jul-2006 (within the Art. 74 30-day window), rige 1-Aug-2006 same day as the law's chapters I–III, DCA date not printed (GOQ-69 kin); the consolidated print carries exactly one reform stamp — AG 125-2022 on art. 32 (vigente 25-Nov-2022), whose text cites "el sexto párrafo del artículo 29 del Reglamento" for the 6-month/FEL rule — the GOQ-68 hook (RESOLVED 2026-08-22: the pointer = AG 5-2013 art. 29 **as reformed by AG 125-2022 art. 7** (86_, EVID-825) — FR-258/259) | `gt/sources/79_Fortalecimiento_Reglamento_AG_425-2006.pdf` | p.1 header; p.16 Arts. 37–39; p.14 art. 32 + nota (EVID-260; art. 32 text txt lines 461–476) |
 | LB-016 | Política de gestión de cambios regulatorios (permanente), D15/D16: filas fechadas valid_from/to + procedencia; los cambios agregan filas; nunca se reemplaza en el lugar; snapshot-on-write | Regulatory change-management standing policy, D15/D16: dated rule rows (valid_from/to + provenance); changes add rows; snapshot-on-write; no in-place replacement — the cross-country mechanics this file instantiates for GT taxation instruments | `shared/docs/regulatory-change-management.md` | D15–D16 (master-index shared canon) |
+| LB-017 | AG 125-2022 (86_): "ACUERDO GUBERNATIVO No. 125-2022" / "'Guotemalo [sic Guatemala], 23 de mayo de 2022"" / "MINISTERIO DE FINANZAS PÚBLICAS / EL PRESIDENTE DE LA REPÚBLICA" / gazette: "JUEVES 26 de mayo 2022 DIARIO de CENTRO AMERICA NUMERO 67" (pp.2–5 headers misprint "NUMERO 87" [sic]) / cap. II header: "REFORMAS AL ACUERDO GUBERNATIVO NÚMERO 5-2013, REGLAMENTO DE LA. LEY DEL IMPUESTO AL VALOR AGREGADO." / cap. III header: "REFORMA AL ACUERDO GUBERNATIVO NÚMERO 425-2006…" / art. 5 ¶2: "Los que se en medios distintos al Régimen FE[L] tendrán seis meses como plazo máximo de vigencia, contados a partir de la fecha de la resolución de autorización." | AG 125-2022 identity (dated 23-may-2022; published DCA No. 67, 26-may-2022; **vigente 25-nov-2022** per the 79_ art. 32 footnote — "seis meses después de su publicación" — because 86_ truncates mid-art. 25 BEFORE its own vigencia clause, flagged): it is the **Reglamento del D-7-2019 (cap. I, arts. 1–5) plus wholesale reforms to AG 5-2013 (arts. 6–24) and AG 425-2006 (art. 25 = the 79_ art. 32 reform)**; it changes NO FEL-transition deadlines — no migration calendar anywhere in 86_; it restates the 6-month non-FEL cap (art. 5 ¶2) and mandates FEL for the régimen electrónicos (art. 21/55 septies); arts. 10–11 reform AG 5-2013 arts. 48–49 (EVID-827; anchored in taxation/03 LB-019) | `gt/sources/86_AG_125-2022_Reglamento_D7-2019.pdf` | p.1 header + POR TANTO; pp.1–5 arts. 1–25 (EVID-820; truncation EVID-833; 85_86_88_ OQ-1/2/4) |
 
 ## 3. Functional Requirements
 
@@ -85,7 +88,11 @@ verified against the committed evidence extracts and the source text layer
   **consolidation-cutoff register** with one dated provenance row per
   taxation instrument in the corpus — 23_ D-27-92, 24_ AG 5-2013, 25_ CT
   D-6-91, 26_ LAT D-10-2012, 28_ AG 213-2013, 47_ SAT digest, 74_ D-10-2025,
-  78_ D-20-2006, 79_ AG 425-2006 — each row carrying: instrument id, date
+  78_ D-20-2006, 79_ AG 425-2006 — plus, captured on arrival 2026-08-22 per
+  FR-261, 85_ D-31-2024, 86_ AG 125-2022 and 88_ D-62-2001 (86_ row = LB-017
+  + FR-258; 85_/88_ = dated delta instruments whose primary anchors live in
+  [01_iva-core.md](01_iva-core.md) LB-020/LB-003 — EVID-813, EVID-836) —
+  each row carrying: instrument id, date
   fields (given/sanctioned/published/effective, null where the corpus prints
   none), the consolidation cutoff, the exact reform tail (stamp list), the
   vigencia rule, and known print defects. This register governs every dated
@@ -122,8 +129,12 @@ verified against the committed evidence extracts and the source text layer
   **exactly AG 222-2019** (Arts. 2 j, 25 bis, 26 bis–quinquies, 28 bis, 36
   bis/ter, 29 ¶4, 36) plus the CC 12-Jan-2015 unconstitutionality note on
   Art. 12; Art. 63 derogates AG 424-2006. No other reform stamp exists in
-  this copy — in particular zero AG 125-2022 content (FR-258). (LB-004;
-  EVID-180)
+  this copy — in particular zero AG 125-2022 content (FR-258): the copy
+  PREDATES AG 125-2022 (vigente 25-Nov-2022), so every current-reglamento
+  citation shall now read "AG 5-2013, reformado por AG 222-2019 y
+  AG 125-2022" — 86_ arts. 6–24 reform arts. 22.5, 29, 30, 37, 48–49,
+  cap. XI and add 55 bis–decies (EVID-820, EVID-824..832). (LB-004;
+  LB-017; EVID-180, EVID-820)
 - **GT-TAX-FR-241:** The 26_ register row shall record: LAT D-10-2012
   emitted 16-Feb-2012, sanctioned 1-Mar-2012, consolidated **through Dto.
   46-2022 (27-09-2022)** with the exact stamp inventory 14-2013, 19-2013,
@@ -238,7 +249,9 @@ verified against the committed evidence extracts and the source text layer
 - **GT-TAX-FR-254:** The D-10-2025 delta register shall contain exactly
   four rows, each effective 4-Nov-2025: Art. 1 **DEROGA** D-27-92 Art.
   8-"A" (added by D-31-2024 art. 13 — the MINEDUC alimentación-escolar
-  retention scheme; recorded as printed, never as "3-'A'", R19/GOQ-13);
+  retention scheme; D-31-2024 = 85_ in corpus, primary-read: art. 13 quotes
+  the added Art. 8 "A" verbatim, EVID-813; recorded as printed, never as
+  "3-'A'", R19/GOQ-13);
   Art. 2 **DEROGA** the LAE D-16-2017 Art. 16 final ¶ (added D-31-2024
   art. 18); Art. 3 REFORMA a D-36-2024 budget line (ADIN "3.50»" [sic] —
   OCR-truncated, not citable, FR-256); Art. 4 VIGENCIA. Completeness
@@ -282,17 +295,46 @@ verified against the committed evidence extracts and the source text layer
   but the in-corpus 24_ prints that rule at **¶4**; the ¶6 citation
   therefore implies a post-2022 reglamento text not held in corpus, and the
   **AG 125-2022 acquisition need stands** (already queued,
-  DOWNLOAD_QUEUE rev 7). (LB-005; LB-015; EVID-181, EVID-260; GOQ-68 →
+  DOWNLOAD_QUEUE rev 7). **CLOSED 2026-08-22: AG 125-2022 acquired as 86_
+  and primary-read end-to-end** (LB-017; EVID-820..833). Resolution: (i)
+  identity — 86_ = Reglamento del D-7-2019 (cap. I arts. 1–5) + reforms to
+  AG 5-2013 (arts. 6–24) and AG 425-2006 (art. 25); (ii) the "125-2022"
+  string inside 79_ art. 32 is its own reform-provenance footnote
+  ("*Reformado por el Artículo 25, del Acuerdo Gubernativo Número 125-2022,
+  vigente a partir del 25 de noviembre del 2022, (seis meses después de su
+  publicación.)*") — 79_ art. 32's current text IS the AG 125-2022 art. 25
+  product (EVID-833); (iii) its "sexto párrafo del artículo 29" pointer =
+  **AG 5-2013 art. 29 as reformed by AG 125-2022 art. 7** (EVID-825 —
+  original/copia rules, FEL original/copia = "un archivo electrónico o la
+  representación gráfica… que de ese archivo se entrega al adquirente"),
+  whose AG 222-2019-era numbering carried ¶4 = 6-month rule and ¶6 =
+  electronic exception per 24_ — consistent with the negative in-corpus
+  finding; (iv) **AG 125-2022 changes NO FEL-transition deadlines** — no
+  migration calendar anywhere in 86_; it restates the 6-month non-FEL cap
+  at its own art. 5 ¶2 and mandates FEL for the régimen electrónicos
+  (art. 21/55 septies); the 1-Jul-2021 FEL-only rule remains AG 222-2019
+  art. 28 bis, untouched (EVID-823, EVID-831); (v) 86_ arts. 10–11 also
+  reform AG 5-2013 arts. 48–49 — retention exception for
+  simplified-regime/Tributación Simplificada invoices + agropecuario
+  brutas-retention only above Q2,500 (EVID-827; primary anchor in
+  taxation/03 LB-019). (LB-005; LB-015; LB-017; EVID-181, EVID-260,
+  EVID-820, EVID-823, EVID-825, EVID-827, EVID-831, EVID-833; GOQ-68 →
   OQ-003)
 - **GT-TAX-FR-259:** FEL-transition citations shall resolve as follows
-  until GOQ-68's acquisition leg closes: the 6-month non-FEL sunset cites
-  reglamento Art. 29 **¶4** (AG 222-2019 art. 8) as printed in-corpus; the
+  (GOQ-68's acquisition leg closed 2026-08-22): the 6-month non-FEL sunset
+  cites AG 125-2022 art. 5 ¶2 ("Los que se en medios distintos al Régimen
+  FE[L] tendrán seis meses como plazo máximo de vigencia…") as primary,
+  alongside the in-corpus 24_ print at reglamento Art. 29 **¶4** (AG
+  222-2019 art. 8) and the imprentas-channel restatement AG 425-2006
+  art. 32 as reformed by AG 125-2022 art. 25 (vigente 25-Nov-2022 — the
+  three instruments converge on the same rule set, EVID-823/833); the
   FEL-only rule for first-time registrants cites Art. 28 bis (AG 222-2019,
-  from 1-Jul-2021); the AG 125-2022 reform of 79_ art. 32 (art. 25 of the
-  AG, vigente 25-Nov-2022, "seis meses después de su publicación") is
-  citable only through its reform stamp as printed in 79_ — the AG 125-2022
-  body text itself is not citable from this corpus. (LB-005; LB-015;
-  EVID-181, EVID-260; GOQ-68 → OQ-003)
+  from 1-Jul-2021 — untouched by 86_); the ¶-numbering of reformed
+  AG 5-2013 art. 29 (needed to pin "sexto párrafo" in the post-2022 text)
+  is NOT verifiable from 86_'s OCR (85_86_88_ OQ-3) — the ¶6 citation
+  keeps the pre-reform 24_ lineage as its anchor. (LB-005; LB-015;
+  LB-017; EVID-181, EVID-260, EVID-823, EVID-825, EVID-833; GOQ-68 →
+  OQ-003)
 
 ### 3.5 Register mechanics & validation gate
 
@@ -322,9 +364,9 @@ provenance; snapshot-on-write; register rows are append-only (FR-261).
 
 | Entity | Field | Type | Catalog / values | Reference |
 |--------|-------|------|------------------|-----------|
-| l10n_gt.legal.instrument.provenance | instrument_id | char | 23_ D-27-92 · 24_ AG 5-2013 · 25_ D-6-91 · 26_ LAT D-10-2012 · 28_ AG 213-2013 · 47_ digest · 74_ D-10-2025 · 78_ D-20-2006 · 79_ AG 425-2006 | FR-236 |
+| l10n_gt.legal.instrument.provenance | instrument_id | char | 23_ D-27-92 · 24_ AG 5-2013 · 25_ D-6-91 · 26_ LAT D-10-2012 · 28_ AG 213-2013 · 47_ digest · 74_ D-10-2025 · 78_ D-20-2006 · 79_ AG 425-2006 · 85_ D-31-2024 · 86_ AG 125-2022 · 88_ D-62-2001 (last three captured on arrival 2026-08-22, FR-261) | FR-236 |
 | l10n_gt.legal.instrument.provenance | given / sanctioned / published / effective | date / date / date / date | null where the corpus prints none (23_ published = null — GOQ-63; 28_ published/effective = null; 78_/79_ published = null — GOQ-69); 74_ effective = 2025-11-04 | FR-237, FR-242, FR-245, FR-246, FR-253, FR-257 |
-| l10n_gt.legal.instrument.provenance | consolidation_cutoff | char | 23_ "≤ D-10-2012" · 24_ "AG 222-2019" · 25_ "D-37-2016 (31-08-2016) + CC 03-12-2019" · 26_ "D-46-2022 (27-09-2022)" · 28_ "AG 167-2014 (06-06-2014)" · 47_ "terminus post quem Jan-2024" · 78_ "≥2015 print" · 79_ "AG 125-2022 stamp on art. 32" | FR-237..246 |
+| l10n_gt.legal.instrument.provenance | consolidation_cutoff | char | 23_ "≤ D-10-2012" · 24_ "AG 222-2019 (copy predates AG 125-2022)" · 25_ "D-37-2016 (31-08-2016) + CC 03-12-2019" · 26_ "D-46-2022 (27-09-2022)" · 28_ "AG 167-2014 (06-06-2014)" · 47_ "terminus post quem Jan-2024" · 78_ "≥2015 print" · 79_ "AG 125-2022 stamp on art. 32" · 86_ "reglamento D-7-2019 + reforms AG 5-2013 arts. 6–24 + AG 425-2006 art. 25" | FR-237..246 |
 | l10n_gt.legal.instrument.provenance | reform_tail | char | exact stamp lists (24_: "exactly AG 222-2019 — Arts. 2 j, 25 bis, 26 bis-quinquies, 28 bis, 36 bis/ter, 29 ¶4, 36 + CC 12-01-2015 note Art. 12"; 26_: "14-2013, 19-2013, 4-2019, 2-2020, 40-2022, 46-2022 + CC"; 78_: "D-4-2012 arts. 2 ¶4/12/13/20/21 + CC 2836-2012/2240-2014") | FR-240, FR-241, FR-245 |
 | l10n_gt.legal.instrument.provenance | vigencia_rule | char | fixed date (23_ 1-Jul-1992; 78_ arts. 1-14 / 79_ 1-Aug-2006) · DCA+8d (78_ arts. 38/51/52/53/58/59/60/62 — undateable, GOQ-69) · publication day (74_ Art. 4; 28_ Art. 91) · next day after publication (24_ Art. 64, computed 9-Jan-2013) · "seis meses después de su publicación" (AG 125-2022 stamp) | FR-237, FR-239, FR-240, FR-242, FR-245, FR-246, FR-253 |
 | l10n_gt.legal.instrument.provenance | unlabelled_strings | json | {"23_": "Mayo 8 de 1992."} — stored, never a date field (GOQ-63) | FR-257 |
@@ -421,7 +463,8 @@ file — the register is consumed as config data by both sides.
   24_ art. 29 sixth paragraph prints the electronic-invoice exception (not
   AG 125-2022 text); zero "125-2022" occurrences in 24_; the in-corpus
   6-month rule lives at ¶4 (AG 222-2019); and the AG 125-2022 acquisition
-  flag is set. (FR-258, FR-259)
+  flag is set — closed 2026-08-22 (86_ primary-read; resolution items
+  (i)–(v) recorded in FR-258). (FR-258, FR-259)
 - **AC-011:** Given a new instrument arriving in `gt/sources/`, when
   registered, then its delta and dates are captured before synthesis writes
   against it and the earlier print's provenance row remains intact
@@ -435,14 +478,16 @@ file — the register is consumed as config data by both sides.
 Master-index GOQ ids (register `gt/.extractions/00_MASTER_INDEX.md` §C);
 question text verbatim from the register. Owned: GOQ-62/63/68/69; kin:
 GOQ-01/13 (already S-GT1/S-GT2-cited). All rows trace-pending, not
-blockers; the GOQ-68 in-corpus leg is resolved in this file (FR-258) —
+blockers; the GOQ-68 in-corpus leg is resolved in this file (FR-258) and
+its acquisition leg closed 2026-08-22 (AG 125-2022 = 86_ primary-read);
+GOQ-13's acquisition leg closed the same date (D-31-2024 = 85_) —
 master-index annotation is the controller's.
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
 | OQ-001 | GOQ-62 (owned): "74_ OCR noise: Tomo "CCCXXVII!" [sic], title "168-2017" [sic], signature garbles, "3.50»" — verify vs clean DCA before quoting." Affects FR-256 (defect strings non-citable until verified). | no | GT synthesis wave S-GT2 → acquisition queue (clean DCA 4-Nov-2025 No. 40 copy) | open |
 | OQ-002 | GOQ-63 (owned): "23_ ends with unlabelled "Mayo 8 de 1992." — plausibly the DCA date but unlabeled; do not cite as publication date." Affects FR-257 (published = null on the 23_ row). | no | GT synthesis wave S-GT2 → external confirmation (DCA archive Jun-1992) | open |
-| OQ-003 | GOQ-68 (owned): "AG 125-2022 + "sexto párrafo del artículo 29 del Reglamento IVA" FEL-transition texts: 79_ art. 32 cites both; AG 125-2022 not in corpus — check 24_ art. 29 ¶6 in-corpus at synthesis; acquire AG 125-2022 if needed." **In-corpus check done in this file (FR-258, 2026-08-20): NEGATIVE — 24_ art. 29 ¶6 prints the electronic-invoice exception; no AG 125-2022 text anywhere in 24_; acquisition need confirmed (DOWNLOAD_QUEUE rev 7).** Acquisition leg remains open. | no | GT synthesis wave S-GT2 → acquisition queue (AG 125-2022 full text) | open (in-corpus leg resolved 2026-08-20) |
+| OQ-003 | GOQ-68 (owned): "AG 125-2022 + "sexto párrafo del artículo 29 del Reglamento IVA" FEL-transition texts: 79_ art. 32 cites both; AG 125-2022 not in corpus — check 24_ art. 29 ¶6 in-corpus at synthesis; acquire AG 125-2022 if needed." **In-corpus check done in this file (FR-258, 2026-08-20): NEGATIVE — 24_ art. 29 ¶6 prints the electronic-invoice exception; no AG 125-2022 text anywhere in 24_.** **Acquisition leg CLOSED 2026-08-22: AG 125-2022 = 86_ in corpus, primary-read end-to-end (EVID-820..833; LB-017; FR-258/259 amended) — the 79_ art. 32 pointer resolved (= AG 5-2013 art. 29 as reformed by AG 125-2022 art. 7); AG 125-2022 changes no FEL-transition deadlines.** Residual flags (non-blocking): 86_ truncates mid-art. 25 — own vigencia clause missing, vigencia 25-nov-2022 sourced from the 79_ footnote (EVID-833; 85_86_88_ OQ-2); reformed-art.-29 ¶ numbering unverifiable from the OCR (85_86_88_ OQ-3). | no | GT synthesis wave S-GT2 (acquisition leg closed 2026-08-22; residual truncation flags stand) | resolved (2026-08-22; truncation/¶-numbering flags residual) |
 | OQ-004 | GOQ-69 (owned): "78_/79_ print no DCA dates: the retention chapters are fixed-date (1-ago-2006) but arts. 38/51/52/53/58/59/60/62 = DCA+8d, undateable." Affects FR-245/FR-246 (published = null; DCA+8d articles carry rule strings, not dates). | no | GT synthesis wave S-GT2 → acquisition queue (DCA Jul-2006 dates) | open |
 | OQ-005 | GOQ-01 (kin, register lists TX1/TX2/TX3 freeze): "Post-2018 consolidated Ley IVA 27-92 text: Art. 29-'A' body, Ley 25 bis adder (electronic 100% refund), art. 54 B/BIS nomenclature, post-2012 exemption families (peaje/turismo/canasta), Q150,000 currency." Affects FR-238 (absent-articles), FR-249 (never-alone qualifier). | no | GT synthesis wave S-GT2 → acquisition queue (DCA Edición Legal / accountant) | open |
-| OQ-006 | GOQ-13 (kin): "D-31-2024 full text acquisition (added IVA 8-'A'; LAE changes; the 5 new DTE types FEPE/FARP/FCRP/FPEC/FCPC; ICT definition) + clean-DCA verification of D-10-2025's "8 'A'" reading (OCR 8/3 residue)." Affects FR-254 (delta row recorded as printed — "3-'A'" never existed). | no | GT synthesis wave S-GT2 → acquisition queue (shared with S-GT1) | open |
+| OQ-006 | GOQ-13 (kin): "D-31-2024 full text acquisition (added IVA 8-'A'; LAE changes; the 5 new DTE types FEPE/FARP/FCRP/FPEC/FCPC; ICT definition) + clean-DCA verification of D-10-2025's "8 'A'" reading (OCR 8/3 residue)." Affects FR-254 (delta row recorded as printed — "3-'A'" never existed). **RESOLVED in-corpus 2026-08-22: D-31-2024 = 85_ (6pp complete), primary-read end-to-end (EVID-801..819) — art. 13 adds IVA art. 8 "A" verbatim (EVID-813; no "artículo 3 'A'" anywhere in 85_, grep-verified — resolves the OCR 8/3 residue and 74_ OQ-1); art. 18 reforms LAE art. 16 and corroborates "16-2017" against 74_'s title "168-2017" [sic] (EVID-815); ICT = "Impuesto a la Confianza Tributaria" (art. 2, EVID-803); the LAW names NO DTE codes — FEPE/FARP/FCRP/FPEC/FCPC are SAT-side designations, the law-level hook is art. 7 (EVID-808; annotated in e-invoicing/01).** | no | GT synthesis wave S-GT2 (resolved in-corpus 2026-08-22; master-index annotation = controller's) | resolved (2026-08-22) |

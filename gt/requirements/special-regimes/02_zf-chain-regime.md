@@ -6,7 +6,7 @@
 | Topic   | special-regimes |
 | Status  | draft |
 | Authors | GT synthesis wave S-GT6/S-GT7 |
-| Updated | 2026-08-21 |
+| Updated | 2026-08-22 |
 
 ## 1. Purpose
 
@@ -28,8 +28,10 @@ AL REGLAMENTO DE LA LEY DE ZONAS FRANCAS, AG 242-90" — NOT a ZOLIC
 instrument, R72 — with split vigencia 15-Mar-2022 general / 14-Sep-2022
 electronic provisions); the D-19-2016 footprint registry (the 67_ reform-tag
 ledger: ≥ 9 articles reformed/added/derogated — 4, 5 Bis, 22, 23, 24, 26,
-36 a, 36 bis, 41) and gap map as this wave's GOQ-08 spine (post-2016
-transitional clauses unreadable; D-19-2016 = top-ranked acquisition); the
+36 a, 36 bis, 41) and gap map as this wave's GOQ-08 spine — **RESOLVED
+2026-08-22: D-19-2016 = `84_` in corpus, primary-read end-to-end
+(EVID-746..758); post-2016 clauses now primary-sourced, the pre-reform
+wordings remain unrecoverable and the 2015-cutoff anomaly opens OQ-005**; the
 D-6-2021 delta inventory as a narrow-delta guard (arts. 1, 5 Bis, 41
 restated; 50 Bis defraudación aduanera added; transitorio — the art. 21/22
 schedules, fondo, art. 25 and the aduanal regime untouched); the 68_
@@ -66,12 +68,16 @@ never +90 days — R73). ZF reglamento = **68_** (AG 242-90) EXCEPT arts.
 3/6/8/13 + the tarifario → **81_** (AG 65-2022 = the AG 242-90 reform — its
 title is "Reformas al Reglamento de la Ley de Zonas Francas, AG 242-90",
 zero ZOLIC content — R72). The fondo = law art. 36 e) (67_) + **72_** (AG
-296-94, the fondo's own reglamento). **D-19-2016 is the blocking
-acquisition** (GOQ-08): its text is not in the corpus, so the registry
-records only what 67_'s consolidation tags print. Quotation source: the
-committed evidence file `gt/.extractions/67-68_72_80_81_ZF.evidence.md`
-(EVID-646..708); 80_ and 81_ are OCR layers (81_ a scan) — their rows quote
-the evidence file, never the scan layer directly.
+296-94, the fondo's own reglamento). **D-19-2016 is DELIVERED (GOQ-08
+resolved 2026-08-22)**: primary-read end-to-end from `84_` (EVID-746..758)
+— the registry's D-19-2016 rows are now primary-verified (EVID-784: every
+67_ tag reconciles 1:1 with the resolutivos); the PRE-reform wordings of
+the touched articles remain unrecoverable (84_ never prints replaced
+texts). Quotation source: the committed evidence files
+`gt/.extractions/67-68_72_80_81_ZF.evidence.md`
+(EVID-646..708) and `gt/.extractions/84_91_94_95_MaquilaZF_D19-2016_chain.evidence.md`
+(EVID-746..789; frozen); 80_ and 81_ are OCR layers (81_ a scan) — their
+rows quote the evidence file, never the scan layer directly.
 
 | ID | Citation (Spanish) | English translation | Source file | Location |
 |----|--------------------|---------------------|-------------|----------|
@@ -83,12 +89,12 @@ the evidence file, never the scan layer directly.
 | LB-006 | 80_ page-mate decree tail (OCR, BEFORE the D-6-2021 header): "Articulo 43 . Vigencia . EI presente Decreto entrará en vigor noventa dias despues [sic] de su publicaci6n [sic] en el Diana [sic Diario] Oficial. / REMiTASE AL ORGANISMO EJECUTIVO PARA SU SANCI6N. PROMULGACI6N V PUBLICACI6N. / EMITIDO EN EL PALACIO DEL ORGANISMO LEGISLATIVO, EN LA CIUDAD DE GUATEMALA, EL CINCO DE MIL VEINTIUNO." [sic — month omitted] / D-6-2021's own blocks: "…EL DOCE np'"Io~""V'(\"" [sic — day 12, month/year garbled] / "PALACIO NACIONAL: Guatemala. treinta y uno de mayo del año dos mil veintiuno. / PUBLIQUESE Y CUMPLASE" | The "noventa días" art. 43 clause belongs to a trámites-simplification decree sharing DCA No. 36 (its arts. 40-42 mandate online forms/electronic trámites) — NOT to D-6-2021; D-6-2021 given 12-[month OCR-illegible, read May]-2021, promulgated 31-May-2021 (GOQ-136 residues) | `gt/sources/80_ZF_Reformas_D6-2021.pdf` | p.1 page-mate tail; p.1 y p.3 D-6-2021 blocks (EVID-649) |
 | LB-007 | AG 65-2022 identity blocks (OCR): "MINISTERIO DE ECONOMÍA / ACUERDO GUBERNATIVO NÚMERO 65-2022 / Guatemala, 11 de marzo de 2022 / EL PRESIDENTE DE LA REPÚBLICA" / considerando: "Que de conformidad con lo estabiecido [sic] en el articulo 58 de la Loy [sic Ley] de Zonas F D Mm 05-89 [sic — Ley de Zonas Francas, Decreto 65-89]… el Organismo Ejecutivo con fecha 5 de marzo de 1990 emir [sic emitió] el Reglamento… mediante Acuerdo Gubernativo Número 242-090 [sic 242-90]…" / "ACUERDA / Emitir las siguientes: REFORMAS AL REGLAMENTO DE LA LEY DE ZOMAS FRANCAS [sic ZONAS], ACUERDO GUBERNATIVO NUMERO 242-900 [sic 242-90]" / DCA banner: "2 Guatemala, LUNES 14 de marzo 2022 DIARIO de CENTRO AMERICA NUMERO 36" | AG 65-2022 (MinEconomía, given 11-Mar-2022, published DCA No. 36 of 14-Mar-2022) IS the reform of the ZF reglamento AG 242-90 — zero ZOLIC content (R72: the "ZOLIC-specific" registry verdict and the filename label are wrong); OCR garbles recorded [sic] | `gt/sources/81_ZOLIC_Reformas_AG65-2022.pdf` | p.1, ministerial header through ACUERDA title; DCA banner (EVID-650) |
 | LB-008 | AG 65-2022 art. 25 (OCR): "Artículo 25. Vigencia. Las disposiciones contenidas en los artículos 2, 4, 5, 8 y último párrafo del artículo 9, del presente Acuerdo Gubernativo que están relacionadas con la utilización de medios electrónicos, entrarán en vigencia en un plazo de cinco (5) meses, contado a partir de su publicación en el Diario de Centro América. Las demás disposiciones empezarán a regir al día siguiente de su publicación en el Diario de Centro América." | Split vigencia: published 14-Mar-2022 → general provisions effective 15-Mar-2022; electronic-means provisions (reforms of reglamento arts. 3, 6, 8, 13 + 13 Bis last ¶) effective 14-Sep-2022 (5 months) — two dated rows, article-level routing | `gt/sources/81_ZOLIC_Reformas_AG65-2022.pdf` | p.4, art. 25; p.1 DCA banner (EVID-700) |
-| LB-009 | 67_ reform-tag ledger (as printed beneath the articles): art. 1: "*Reformado por el Artículo 1, del Decreto Número 6-2021… el 01-06-2021" / art. 4: "*Reformado por el Artículo 21, del Decreto Número 19-2016… el 31-03-2016" / art. 5 Bis: "*Adicionado por el Artículo 22, del Decreto Número 19-2016 … el 31-03-2016" + "*Reformado por el Artículo 3, del Decreto Número 6-2021 … el 01-06-2021" / arts. 21 y 22: "*Reformado el inciso b) en el sentido de que el texto del precepto debe leerse "artículo 7" en lugar de "artículo 6" por el Artículo 1, del Decreto Número 25-91… el 27-03-1991"; art. 22 adds "*Reformado por el Artículo 23, del Decreto Número 19-2016 … el 31-03-2016" / art. 23: "*Derogado por el Artículo 31, del Decreto Número 19-2016" / art. 24: "*Reformado por el Artículo 24, del Decreto Número 19-2016" + "*Derogado por el Artículo 31, del Decreto Número 19-2016" / art. 26: "*Derogado por el Artículo 31, del Decreto Número 19-2016" / art. 36: "*Reformada la literal a) por el Artículo 25, del Decreto Número 19-2016" / art. 36 bis: "*Adicionado por el Artículo 26, del Decreto Número 19-2016" / art. 41: "*Reformado el inciso a) por el Artículo 15, del Decreto Número 38-2005… el 30-05-2005" + "*Reformado por el Artículo 27, del Decreto Número 19-2016" + "*Reformado por el Artículo 2, del Decreto Número 6-2021 … el 01-06-2021" / art. 50 Bis: "*Adicionado por el Artículo 4, del Decreto Número 6-2021 … el 01-06-2021" | The D-19-2016 footprint on the law: ≥ 9 articles touched (4, 5 Bis, 22, 23, 24, 26, 36 a, 36 bis, 41); D-19-2016 = heavy reformer NOT in corpus (GOQ-08); D-6-2021 touched arts. 1, 5 Bis, 41 + added 50 Bis; D-25-91 = the arts. 21 b)/22 b) cross-ref fix; D-38-2005 = art. 41 a). Tag dates read as publication dates | `gt/sources/67_ZF_Ley_D65-89.pdf` | tags beneath affected articles, pp.1-16 (EVID-647) |
+| LB-009 | 67_ reform-tag ledger (as printed beneath the articles): art. 1: "*Reformado por el Artículo 1, del Decreto Número 6-2021… el 01-06-2021" / art. 4: "*Reformado por el Artículo 21, del Decreto Número 19-2016… el 31-03-2016" / art. 5 Bis: "*Adicionado por el Artículo 22, del Decreto Número 19-2016 … el 31-03-2016" + "*Reformado por el Artículo 3, del Decreto Número 6-2021 … el 01-06-2021" / arts. 21 y 22: "*Reformado el inciso b) en el sentido de que el texto del precepto debe leerse "artículo 7" en lugar de "artículo 6" por el Artículo 1, del Decreto Número 25-91… el 27-03-1991"; art. 22 adds "*Reformado por el Artículo 23, del Decreto Número 19-2016 … el 31-03-2016" / art. 23: "*Derogado por el Artículo 31, del Decreto Número 19-2016" / art. 24: "*Reformado por el Artículo 24, del Decreto Número 19-2016" + "*Derogado por el Artículo 31, del Decreto Número 19-2016" / art. 26: "*Derogado por el Artículo 31, del Decreto Número 19-2016" / art. 36: "*Reformada la literal a) por el Artículo 25, del Decreto Número 19-2016" / art. 36 bis: "*Adicionado por el Artículo 26, del Decreto Número 19-2016" / art. 41: "*Reformado el inciso a) por el Artículo 15, del Decreto Número 38-2005… el 30-05-2005" + "*Reformado por el Artículo 27, del Decreto Número 19-2016" + "*Reformado por el Artículo 2, del Decreto Número 6-2021 … el 01-06-2021" / art. 50 Bis: "*Adicionado por el Artículo 4, del Decreto Número 6-2021 … el 01-06-2021" | The D-19-2016 footprint on the law: ≥ 9 articles touched (4, 5 Bis, 22, 23, 24, 26, 36 a, 36 bis, 41); D-19-2016 = heavy reformer NOT in corpus (GOQ-08); D-6-2021 touched arts. 1, 5 Bis, 41 + added 50 Bis; D-25-91 = the arts. 21 b)/22 b) cross-ref fix; D-38-2005 = art. 41 a). Tag dates read as publication dates. **UPDATE 2026-08-22: D-19-2016 delivered as `84_` (EVID-746..758) — every 67_ tag reconciles 1:1 with the resolutivos (EVID-784); tag-date semantics corrected per EVID-784: the D-19-2016 tag date 31-03-2016 = the VIGENCIA date (DCA 30-03-2016), not the publication date** | `gt/sources/67_ZF_Ley_D65-89.pdf` | tags beneath affected articles, pp.1-16 (EVID-647) |
 | LB-010 | 68_ reform-tag census (as printed; representative): art. 2: "*Reformado por el Artículo 1, del Acuerdo Gubernativo Número 65-2022 el 15-03-2022" / art. 3: "*Reformado por el Artículo 1, del Acuerdo Gubernativo Número 52-2017 el 05-04-2017" / art. 4: "*Reformado por el Artículo 3, del Acuerdo Gubernativo Número 65-2022 el 15-03-2022" / art. 8: "*Reformado por el Artículo 2, del Acuerdo Gubernativo Número 52-2017 el 05-04-2017" / art. 9: "*Derogado por el Artículo 6, del Acuerdo Gubernativo Número 65-2022 el 15-03-2022" / art. 13 Bis: "*Adicionado por el Artículo 9, del Acuerdo Gubernativo Número 65-2022, ** y el último párrafo estará vigente 5 meses después de su publicación el 15-03-2022" / art. 22: "*Derogado por el Artículo 12, del Acuerdo Gubernativo Número 65-2022 el 15-03-2022" / art. 17 bis: "*Adicionado por el Artículo 6, del Acuerdo Gubernativo Número 52-2017 el 05-04-2017" | The 68_ MIXED-consolidation ledger: AG 52-2017 + AG 65-2022 tags for most articles, BUT arts. 3, 6, 8, 13 print PRE-65-2022 text with no 65-2022 tag even though AG 65-2022 arts. 2, 4, 5, 8 reform them — 68_ cannot be cited alone for arts. 3/6/8/13 or the tarifario (use 81_); tag dates = publication dates; art. 13 Bis last ¶ effective 5 months after 15-03-2022 | `gt/sources/68_ZF_Reglamento_AG_242-90.pdf` | reform tags beneath affected articles, pp.1-18 (EVID-681) |
 | LB-011 | D-6-2021 delta inventory (OCR): considerando: "Que para contribuir al desarrollo y fortalecimiento referidos. se hace necesario introducir reformas a la Ley de Zonas Francas. Decreto Numero 65·89…, la cual fue reformada por el Decreto Numero 19-2016 del Congreso de la República, Ley Emergente para la Conservación del Empleo…" / art. 1: "Se reforma el artículo 1 del Decreto Número 65-89…" / art. 2: "Se reforma el artículo 41… reformado por el artículo 27 del Decreto Número 19-2016…" / art. 3: "Se reforma el artículo 5 Bis…" / art. 4: "Se adiciona el artículo 50 Bis… 'Artículo 50 Bis. Se considera caso especial de defraudación aduanera, obtener la calificación… mediante simulación, ocultación, maniobra, ardid o cualquier otra forma de engaño…'" | The D-6-2021 delta = 4 substantive touches only (art. 1 object restated; art. 41 list replaced; art. 5 Bis exclusions restated; art. 50 Bis defraudación aduanera added) + transitorio — it does NOT touch the art. 21/22 schedules, art. 36 e) fondo, art. 25 or the aduanal regime; the considerando confirms D-19-2016's official long name (Ley Emergente para la Conservación del Empleo) | `gt/sources/80_ZF_Reformas_D6-2021.pdf` | p.1 header + considerandos; pp.1-2 arts. 1-4 (EVID-695) |
 | LB-012 | AG 65-2022 new reglamento texts (OCR, as captured in the evidence file): new art. 3 (via art. 2): "La solicitud de autorización para la instalación y desarrollo de una Zona Franca, deberá presentarse por medio de la plataforma electrónica…" + declarations "por el representante legal, con firma electrónica avanzada" + "f) Solvencia de faltas de trabajo y previsión social, emitido por el Registro de Faltas de Trabajo y Previsión Social de la Inspección General de Trabajo… dentro de los treinta (30) días previos" / new art. 8 (via art. 5): "…plataforma electrónica… El formulario, una vez completado, deberá ser firmado a través de firma electrónica avanzada por parte del interesado… El Departamento de Política Industrial verificará de forma electrónica lo siguiente: vigencia del nombramiento del representante legal inscrito en el Registro Mercantil General de la República, que el interesado no tenga cuotas laborales, patronales o multas pendientes de pagar al Instituto Guatemalteco de Seguridad Social, y, que la persona jurídica solicitante no ha sido sancionada con revocatoria…" + "Con la solicitud debe acreditarse el documento con el que demuestre el cumplimiento de la obligación a que se refiere el artículo 36 literal c) de la Ley" [the 10%-of-assets guaranty] / new art. 13 (via art. 8): user applications by electronic platform + firma electrónica avanzada; production users file the document with "la descripción del proceso productivo y el listado de las mercancías con sus respectivas partidas arancelarias que ingresarán a la Zona Franca y egresarán de la misma" | The 2022 modernization deltas: ALL MINECO ZF filings move to an electronic platform with firma electrónica avanzada; notarial sworn declarations replaced by representative-legal e-declarations; new solvencia type (Registro de Faltas de Trabajo y Previsión Social, entity + socios/accionistas, ≤ 30 días); DPI electronic verification (Mercantil registration, IGSS arrears, revocation history under D-29-89/D-65-89); guaranty evidence at application. Effective 14-Sep-2022 (EVID-700) | `gt/sources/81_ZOLIC_Reformas_AG65-2022.pdf` | pp.1-3, arts. 2, 4, 5, 8 (EVID-699) |
 | LB-013 | Reglamento art. 35 bis (68_, clean text): "ARTICULO 35 bis. Transitorio.* / Para efectos del pago del Impuesto Sobre la Renta que establece el artículo 39 bis de la Ley de Fomento y Desarrollo de la Activi dad Exportadora y de Maquila, la Superintendencia de Administración Tributaria establecerá el procedimiento correspondiente." / tag: "*Adicionado por el Artículo 10, del Acuerdo Gubernativo Número 52-2017 el 05-04-2017" | The reglamento's ONLY reference touching the D-19-2016 world: it defers to SAT the ISR-payment procedure for D-29-89 art. 39 bis (the maquila article added by D-19-2016); added by AG 52-2017; contains NO direct "Decreto 19-2016"/"Ley Emergente" string | `gt/sources/68_ZF_Reglamento_AG_242-90.pdf` | pp.17-18, arts. 35, 35 bis, 36 (EVID-694) |
-| LB-014 | Chain chronology (synthesis, dated rows as printed): 1989-11-14/22 D-65-89 (given/promulgated; vigencia DCA+30, DCA not printed) · 1990-03-05 AG 242-90 (reglamento; vigencia DCA+1) · 1991-03-27 D-25-91 (arts. 21 b)/22 b) "artículo 6"→"artículo 7" cross-ref fix) · 1994-06-10 AG 296-94 (fondo administration) · 2005-05-30 D-38-2005 (law art. 41 a)) · 2016-03-31 D-19-2016 Ley Emergente (NOT in corpus; 9+ articles) · 2017-04-05 AG 52-2017 (reglamento dossiers + LAT-based ISR mechanics) · 2021-06-01 D-6-2021 (effective same day) · 2022-03-11/14 AG 65-2022 (24-article reglamento reform; general vigencia 15-Mar-2022, e-provisions 14-Sep-2022) | The registry's seed chronology: nine instrument rows including the two intermediate law reformers (D-25-91, D-38-2005) and the missing D-19-2016 | `gt/.extractions/67-68_72_80_81_ZF.evidence.md` | EVID-707 (synthesis table; dates as printed in the chain) |
+| LB-014 | Chain chronology (synthesis, dated rows as printed): 1989-11-14/22 D-65-89 (given/promulgated; vigencia DCA+30, DCA not printed) · 1990-03-05 AG 242-90 (reglamento; vigencia DCA+1) · 1991-03-27 D-25-91 (arts. 21 b)/22 b) "artículo 6"→"artículo 7" cross-ref fix) · 1994-06-10 AG 296-94 (fondo administration) · 2005-05-30 D-38-2005 (law art. 41 a)) · 2016-03-31 D-19-2016 Ley Emergente (DELIVERED 2026-08-22 as `84_`, primary-read, EVID-746..758; DCA 30-03-2016, vigente 31-03-2016; 9+ articles) · 2017-04-05 AG 52-2017 (reglamento dossiers + LAT-based ISR mechanics) · 2021-06-01 D-6-2021 (effective same day) · 2022-03-11/14 AG 65-2022 (24-article reglamento reform; general vigencia 15-Mar-2022, e-provisions 14-Sep-2022) | The registry's seed chronology: nine instrument rows including the two intermediate law reformers (D-25-91, D-38-2005) and the missing D-19-2016 | `gt/.extractions/67-68_72_80_81_ZF.evidence.md` | EVID-707 (synthesis table; dates as printed in the chain) |
 | LB-015 | Negatives + inconsistencies inventory (short markers as printed): (i) 67_ art. 2 "usuarios comerciales" vs reformed art. 4 (two classes); (ii) 68_ art. 18 cites "Artículo 26 de la Ley" (derogated); (iii) 68_ art. 33 "usuarios industriales, comerciales o de servicios" (pre-2016 taxonomy drift); (iv) 68_ arts. 3, 6, 8, 13 = pre-AG-65-2022 text (mixed consolidation); (v) 68_ 34 Sexies item 9 duplicated description vs 81_ "Cancelación de resolución de autorización"; (vi) 67_ "ardido" [sic] twice (arts. 5 Bis h, 50 Bis); (vii) 67_ art. 50 "podrá a disposición" [sic]; (viii) 80_'s page-mate "Artículo 43… noventa días" ≠ D-6-2021 vigencia; (ix) no quantitative inversión/empleo thresholds anywhere; (x) boleta field lists differ 68_ vs 81_ (importaciones/exportaciones rows) | Ten guard items so the requirements layer does not inherit print defects: use 81_ for reglamento arts. 3/6/8/13 + tarifario item 9; use 67_ arts. 4/22 for taxonomy; treat art. 18's art.-26 cite as dead; D-6-2021 effective 1-Jun-2021; [sic] defects recorded verbatim | `gt/.extractions/67-68_72_80_81_ZF.evidence.md` | EVID-708 (synthesis; markers cite 67_/68_/80_/81_ inline) |
 | LB-016 | Reglamento art. 18 defect fragment: "…de conformidad con el Artículo 26 de la Ley, el importe exonerado será el producto de multiplicar el impuesto total…" (full prorrata mechanics at file 01 LB-011) | The chain-state fact: art. 18's operative-statute cite is a dangling pre-2016 cross-reference — law art. 26 was DEROGATED by D-19-2016 art. 31 (LB-009) and art. 18 carries no 2017/2022 reform tag; operative basis = law arts. 22 b) final ¶ + 25 (R78) | `gt/sources/68_ZF_Reglamento_AG_242-90.pdf` | p.10, art. 18 (EVID-687/647/708) |
 | LB-017 | Ley D-65-89 art. 2 (unreformed print): "…tendrán físicamente separadas el área donde se ubiquen los usuarios industriales y de servicios de aquella donde se ubiquen los usuarios comerciales…" | The unreformed art. 2 still speaks of "usuarios comerciales" while D-19-2016-reformed art. 4 defines only productores + servicios — internal inconsistency of the consolidated law; taxonomy authority = art. 4 (R79; file 01 GT-SPR-FR-007); art. 2's wording is a print artifact, not a class | `gt/sources/67_ZF_Ley_D65-89.pdf` | pp.1-2, art. 2 (EVID-652/708) |
@@ -164,7 +170,14 @@ the evidence file, never the scan layer directly.
   own vigencia clause via the registry (e.g. art. 13 Bis's last ¶ effective
   five months after the 15-03-2022 publication print); the registry keeps
   the three date kinds — given, published, effective — as distinct fields
-  and no consumer shall collapse them. (LB-009; LB-010; EVID-647/681/700)
+  and no consumer shall collapse them. UPDATE 2026-08-22 (EVID-784): in
+  this chain the semantics split BY INSTRUMENT KIND — decree tags carry
+  the VIGENCIA date (D-19-2016: tag 31-03-2016 = vigencia; DCA
+  30-03-2016) while acuerdo tags carry the PUBLICATION date (AG
+  65-2022: tag 15-03-2022 = publication; AG 52-2017: tag 05-04-2017 =
+  publication) — the three date kinds remain distinct fields and
+  registry rows must not treat consolidated-tag dates as a uniform
+  "DCA date" field. (LB-009; LB-010; EVID-647/681/700/784)
 
 ### 3.2 The D-19-2016 footprint and gap map — GOQ-08 spine
 
@@ -173,21 +186,59 @@ the evidence file, never the scan layer directly.
   reformed (by D-19-2016 art. 21); 5 Bis added (art. 22); 22 reformed (art.
   23); 24 reformed (art. 24) then derogated (art. 31); 23 derogated (art.
   31); 26 derogated (art. 31); 36 a) reformed (art. 25); 36 bis added (art.
-  26); 41 reformed (art. 27) — tag-dated 31-03-2016. GUARD: D-19-2016
-  (Ley Emergente para la Conservación del Empleo) is NOT in the corpus —
-  every footprint row carries the missing-instrument flag; the pre-reform
-  texts of those articles are unrecoverable and shall never be reconstructed
-  or guessed. (LB-009; LB-011; EVID-647/695/706; GOQ-08 → OQ-001)
-- **GT-SPR-FR-043:** The system shall anchor this wave's GOQ-08 blocker at
-  this file's OQ-001 row: every post-2016 dependency elsewhere in the
-  special-regimes wave — `01_zf-exemption-schedules.md` GT-SPR-FR-009
-  (post-2016 window-shape fence) and GT-SPR-FR-031 (identity rows);
-  `05_compliance-cadence-sanctions.md` (art. 43 bis suspension ladder,
-  path-only); `06_cross-regime-bridges.md` (transitional clauses + maquila
-  added-article provenance, path-only) — points here instead of restating
-  the gap; no post-2016 claim beyond the consolidation tags shall be seeded
-  anywhere in the wave, and D-19-2016 remains the top-ranked acquisition
-  (acquisition queue). (LB-009; LB-014; EVID-647/706/707; GOQ-08 → OQ-001)
+  26); 41 reformed (art. 27) — tag-dated 31-03-2016 (= the VIGENCIA date;
+  DCA 30-03-2016). **PRIMARY-READ VERDICTS (84_ delivered 2026-08-22,
+  EVID-746..758/784/787):** every 67_ tag reconciles 1:1 with the
+  resolutivos — no tag names an article 84_ does not touch and vice
+  versa. (i) **D-19-2016 art. 23 restates ZF art. 22 VERBATIM**: the
+  post-2016 usuarios' ISR = "Exoneración total del Impuesto Sobre la
+  Renta … por un plazo de diez (10) años contados a partir de la fecha
+  de notificación de la resolución de su calificación" —
+  byte-consistent with the 67_ art. 22 b) print; NO nominal window
+  change for post-2016 qualifiers (resolves 67_-OQ-2 / this file's
+  former post-2016 window gap; the reform's substance = the art. 4 user
+  taxonomy, the servicio-users TAN-sales carve-out, the exterior-credit
+  carve-out and the notification-anchored effect — EVID-755/787);
+  per-beneficiary window source remains the RESOLUTION plazo (statutory
+  10 años default). (ii) **Transitorios arts. 28/29/30 (the only
+  literal-"Transitorio" articles in 84_) = pre-existing-beneficiary
+  grandfathering:** art. 28 ¶1 keeps running ISR windows "por el plazo
+  que establece el Decreto Número 65-89" (per-beneficiary
+  resolution/statute plazos); art. 28 ¶2 orders MINECO (Acuerdo
+  Ministerial) to TOP UP grants shorter than the then-legal plazo;
+  art. 30 keeps old usuarios industriales/comerciales incentives until
+  expiry EXCEPT the machinery exonerations + usuario-industrial ISR,
+  printed "hasta el 31 de diciembre de 2015", and opens
+  re-calificación into the new categories with ISR-years-already-enjoyed
+  DEDUCTED and the old calificación cancelled; art. 29 = IGSS complaint
+  offices + e-service within 30 días hábiles (EVID-757). (iii) Art. 31
+  deroga ZF arts. 23/24/26 — including the same-decree
+  reform-then-derogate conflict on art. 24 (reformed by art. 24,
+  derogated by art. 31; textual reading: the later-in-decree derogation
+  prevails — not further decidable, EVID-756/758). GUARD (surviving):
+  the PRE-reform texts of the touched articles remain unrecoverable
+  (84_ never prints replaced texts — incl. the pre-2016 art. 22 wording,
+  any 12/15-year hypothesis stays outside the corpus, OQ-001 residual)
+  and shall never be reconstructed; the "31 de diciembre de 2015"
+  cutoffs of arts. 28 ¶2/30 are fenced at OQ-005; the Acuerdos
+  Ministeriales ordered by arts. 18/28 ¶2 are not in corpus.
+  (LB-009; LB-011; EVID-647/695/706 + 746..758/784/787; GOQ-08 →
+  OQ-001 resolved)
+- **GT-SPR-FR-043:** The system shall anchor this wave's GOQ-08
+  dependency at this file's OQ-001 row — **RESOLVED 2026-08-22 (84_
+  primary-read, EVID-746..758)**: post-2016 ZF claims are no longer
+  tag-limited — the post-2016 window shape (ZF art. 22 b) = 10 años
+  from notificación, no nominal change) and the transitorios'
+  grandfathering map are recorded at FR-042 and citable from the chain
+  evidence file; the dependencies that still point here are only the
+  SURVIVING fences: the pre-2016 art. 22 wording (unrecoverable), the
+  arts. 28 ¶2/30 2015-cutoff anomaly (OQ-005) and the art.-24
+  reform/derogation conflict. Sibling anchors: 06/OQ-001 (wave
+  aggregate — resolved) and 03/OQ-001 (maquila half — resolved); file
+  01's GT-SPR-FR-009/FR-031 and file 05's FR-160 fences resolve against
+  FR-042's verdicts (owner files to amend; not restated here).
+  (LB-009; LB-014; EVID-647/706/707 + 746..758/784/787; GOQ-08 →
+  OQ-001 resolved)
 - **GT-SPR-FR-044:** The system shall record reglamento art. 35 bis as the
   ONLY D-19-2016-world echo in 68_: it defers to SAT the payment procedure
   for D-29-89 art. 39 bis (the maquila ISR-payable article added by
@@ -361,7 +412,7 @@ ledger are seed-row sets; the wave index may consolidate them later).
 | l10n_gt_regimes.instrument | given_date · promulgated_date · dca_ref | date + char | D-6-2021 given-date carries ocr_month flag (read May-2021 — GOQ-136) | FR-035, FR-036, FR-037, FR-038, FR-039 |
 | l10n_gt_regimes.instrument | vigencia_formula | select | dca_plus_30 (D-65-89) · dca_plus_1 (AG 242-90, AG 296-94, AG 65-2022 general) · publication_day (D-6-2021) · split (AG 65-2022: general + e-provisions) | FR-035..040 |
 | l10n_gt_regimes.instrument | dca_unknown · effective_general · effective_special | boolean + date | DCA-unprinted flag (D-65-89, AG 242-90, AG 296-94); AG 65-2022: 2022-03-15 / 2022-09-14; D-6-2021: 2021-06-01 (R73 — never +90) | FR-035..040 |
-| l10n_gt_regimes.instrument | consolidation_state · page_share · missing_instrument | select + booleans | consolidated_2021 (67_) · mixed (68_) · reform_ocr (80_) · reform_scan (81_) · standalone_1994 (72_); page-mate flags on 80_/81_; missing flag on D-19-2016 (GOQ-08) | FR-042, FR-057, FR-059 |
+| l10n_gt_regimes.instrument | consolidation_state · page_share · missing_instrument | select + booleans | consolidated_2021 (67_) · mixed (68_) · reform_ocr (80_) · reform_scan (81_) · standalone_1994 (72_); page-mate flags on 80_/81_; D-19-2016 delivered as 84_ (GOQ-08 resolved 2026-08-22 — missing flag retired; pre-reform-text-gap marker kept on its reform_tag rows) | FR-042, FR-057, FR-059 |
 | l10n_gt_regimes.instrument | statutory_hook | char | law art. 58 (AG 242-90) · law art. 36 e) (AG 296-94) · constitution 183 e) / 119 n) | FR-036, FR-037, FR-039 |
 
 **Reform-tag ledger (l10n_gt_regimes.reform_tag):**
@@ -371,7 +422,7 @@ ledger are seed-row sets; the wave index may consolidate them later).
 | l10n_gt_regimes.reform_tag | target_instrument · target_article | m2o + char | 67_ arts. 1, 4, 5 Bis, 21, 22, 23, 24, 26, 36, 36 bis, 41, 50 Bis; 68_ tagged articles | FR-042, FR-056 |
 | l10n_gt_regimes.reform_tag | operation | select | reformado · adicionado · derogado · cross_ref_fix (D-25-91) · rename (AG 211-2019) | FR-041, FR-042 |
 | l10n_gt_regimes.reform_tag | reforming_instrument · reforming_article · tag_date | m2o + char + date | tag_date = PUBLICATION date (never given/effective); e.g. D-19-2016 art. 31 derogates law arts. 23/24/26 (tag 31-03-2016) | FR-041, FR-042 |
-| l10n_gt_regimes.reform_tag | goq08_flag | boolean | every D-19-2016-operation row carries the missing-instrument/provenance-limited flag | FR-042, FR-043 |
+| l10n_gt_regimes.reform_tag | goq08_flag | boolean | D-19-2016-operation rows now carry the primary-verified flag (84_ read 2026-08-22, EVID-784) + the pre-reform-text-gap marker (replaced wordings never printed — incl. pre-2016 art. 22) | FR-042, FR-043 |
 
 **Authority resolution (l10n_gt_regimes.article_authority):**
 
@@ -410,8 +461,8 @@ Odoo 17/18/19/20; no version-specific behavior is required by this file.
 | FR-039 | shared | l10n_gt_regimes.instrument | AG 65-2022 row | R72: title = the AG 242-90 reform, never ZOLIC; OCR garbles [sic] |
 | FR-040 | shared | l10n_gt_regimes.instrument | split vigencia | General 2022-03-15 / e-provisions 2022-09-14 — two rows, never collapsed |
 | FR-041 | shared | l10n_gt_regimes.reform_tag | tag_date semantics | Publication date ≠ given ≠ effective; three distinct fields |
-| FR-042 | shared | l10n_gt_regimes.reform_tag | D-19-2016 footprint | ≥9 tagged articles; missing-instrument flag; pre-reform texts unrecoverable |
-| FR-043 | shared | reform_tag + registry | goq08 wave anchor | Files 01/05/06 post-2016 dependencies point at OQ-001 here (path-only for sibling files) |
+| FR-042 | shared | l10n_gt_regimes.reform_tag | D-19-2016 footprint | ≥9 tagged articles — primary-verified from 84_ (EVID-784); art. 23 = ZF art. 22 verbatim (10 años from notificación, no nominal change); transitorios 28/29/30 grandfathering; pre-reform texts still unrecoverable |
+| FR-043 | shared | reform_tag + registry | goq08 wave anchor — RESOLVED | Post-2016 claims citable from 84_; surviving fences = pre-2016 art. 22 wording + OQ-005; files 01/05/06 resolve against FR-042 verdicts |
 | FR-044 | shared | article_authority | art. 35 bis record | Only D-19-2016 echo in 68_; pointer to `06_cross-regime-bridges.md` |
 | FR-045 | shared | configuration guards | D-6-2021 narrow delta | Schedules/fondo/art. 25/aduanal regime untouched by D-6-2021 |
 | FR-046 | odoo | l10n_gt_regimes.article_authority | resolution engine | (article, date) → source; 68_-alone citation for arts. 3/6/8/13/tarifario refused |
@@ -438,7 +489,8 @@ art. 12 + POR TANTO; D-6-2021 art. 6 [sic "Articulo O"]; AG 65-2022 art.
 25). Pre-2016/1990s instruments keep their own rows under GOQ-135
 dated-row discipline (DCA-unprinted formulas stored as such, never invented
 dates); the AG 65-2022 split vigencia is a two-row D16 pattern; the D-19-2016
-footprint rows are provenance-limited pending the acquisition (GOQ-08). No
+footprint rows are primary-verified from `84_` (GOQ-08 resolved 2026-08-22)
+with the pre-reform-text-gap marker and the OQ-005 cutoff fence. No
 hard emission/posting gates exist in this file beyond the
 citation-validation gates of FR-046/050/051 and the configuration guards of
 FR-045; sanction ladders and compliance cadences are recorded exposure
@@ -468,11 +520,16 @@ owned by the SR5 file.
   from 2022-09-14 they route to the 81_ post-reform text — and the
   instrument is labeled as the AG 242-90 reform, never ZOLIC.
   (FR-039, FR-040, FR-046, FR-047)
-- **AC-005:** Given the D-19-2016 footprint rows, when inspected, then all
-  ≥ 9 tagged law articles carry their exact operation (reformed/added/
-  derogated) with the goq08 missing-instrument flag; and any attempt to
-  seed a post-2016 window shape, transitional clause or pre-reform article
-  text beyond the tags is refused. (FR-042, FR-043)
+- **AC-005:** Given the D-19-2016 footprint rows, when inspected, then
+  all ≥ 9 tagged law articles carry their exact operation
+  (reformed/added/derogated) with the primary-verified flag (84_) — and
+  the post-2016 window shape resolves to art. 22 b) as restated by
+  D-19-2016 art. 23 (10 años from notificación, byte-consistent with
+  the 67_ print — NO nominal change) with the transitorios'
+  grandfathering map attached (FR-042); and any attempt to seed a
+  PRE-reform article text, a window length other than the printed one
+  (incl. 12/15-year hypotheses) or a legacy-window computation despite
+  OQ-005 is refused. (FR-042, FR-043)
 - **AC-006:** Given a D-6-2021 impact claim on the art. 21/22 schedules,
   the fondo (art. 36 e)), art. 25 or the aduanal regime, when the
   narrow-delta guard runs, then the claim is refused — the delta is arts.
@@ -508,16 +565,20 @@ owned by the SR5 file.
 
 Master-index GOQ ids (register `gt/.extractions/00_MASTER_INDEX.md` §C);
 this file owns GOQ-08's ZF chain half (the wave's D-19-2016 anchor — SR1/
-SR3/SR6 files point here), GOQ-136 and GOQ-137 in full, and GOQ-135's SR2
-half (chain effective dates — the SR4 file holds the maquila half). Kin
-annotations in-file: GOQ-138 (AG 296-94 identity defects — owned by
-`01_zf-exemption-schedules.md` OQ-003), GOQ-140 (platform-name currency —
-the saas rows of FR-052..054 never assert current module names). No gaps
-beyond the 140-GOQ register were treated as open questions.
+SR3/SR6 files point here) — **RESOLVED 2026-08-22: D-19-2016 = `84_` in
+corpus, primary-read end-to-end (EVID-746..758)** — GOQ-136 and GOQ-137
+in full, and GOQ-135's SR2 half (chain effective dates — the SR4 file
+holds the maquila half). Kin annotations in-file: GOQ-138 (AG 296-94
+identity defects — owned by `01_zf-exemption-schedules.md` OQ-003),
+GOQ-140 (platform-name currency — the saas rows of FR-052..054 never
+assert current module names). Beyond the 140-GOQ register, ONE new gap
+was opened by the 84_ primary read: OQ-005 (the arts. 28 ¶2/30
+"31 de diciembre de 2015" cutoffs).
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
-| OQ-001 | GOQ-08 (owned, ZF chain anchor): "D-19-2016 (Ley Emergente para la Conservación del Empleo) — THE blocking acquisition for special regimes: post-2016 ZF ISR windows, maquila transitional clauses + old art. 15 text, arts. 4 bis/8 bis/12 bis/39 bis/43 bis provenance. Tag-only leads: AG 3-2017, D-38-04, D-26-91, D-117-97, D-9-98, AG 12-97/4-2005/253-2013/168-2014, D-22-73, DL 21-84." For this file: the 67_ tags prove D-19-2016 touched ≥ 9 articles (FR-042) but its own text — post-2016 ISR mechanics for new ZF users, pre-reform wordings of arts. 4/5 Bis/22/23/24/26/36/36 bis/41, transitional clauses, and its own vigencia date — is NOT in corpus; FR-043 anchors every wave dependency here. Acquisition of D-19-2016 re-opens FR-042/FR-043 and the file 01 fences. | yes | GT synthesis wave S-GT6/S-GT7 (acquisition queue, top priority) | open |
+| OQ-001 | GOQ-08 (owned, ZF chain anchor): "D-19-2016 (Ley Emergente para la Conservación del Empleo) — THE blocking acquisition for special regimes: post-2016 ZF ISR windows, maquila transitional clauses + old art. 15 text, arts. 4 bis/8 bis/12 bis/39 bis/43 bis provenance. Tag-only leads: AG 3-2017, D-38-04, D-26-91, D-117-97, D-9-98, AG 12-97/4-2005/253-2013/168-2014, D-22-73, DL 21-84." For this file: the 67_ tags prove D-19-2016 touched ≥ 9 articles (FR-042) but its own text — post-2016 ISR mechanics for new ZF users, pre-reform wordings of arts. 4/5 Bis/22/23/24/26/36/36 bis/41, transitional clauses, and its own vigencia date — is NOT in corpus; FR-043 anchors every wave dependency here. **RESOLVED in-corpus 2026-08-22: D-19-2016 = `84_` primary-read end-to-end (EVID-746..758; every 67_ tag reconciles 1:1, EVID-784) — post-2016 ZF ISR mechanics secured: art. 23 restates art. 22 with ISR = 10 años from notificación of calificación, byte-consistent with the 67_ print, NO nominal window change for post-2016 users (EVID-755/787, resolving 67_-OQ-2); transitorios arts. 28/29/30 = grandfathering of pre-existing beneficiaries (D-65-89 plazos + short-grant top-ups via Acuerdo Ministerial + re-calificación with ISR-years deducted, EVID-757); identity/dates fixed (given 25-Feb-2016, DCA 30-Mar-2016, vigente 31-Mar-2016, EVID-746). Residual fences (kept at FR-042/OQ-005): the PRE-2016 art. 22 wording is never printed by 84_ (12/15-year hypotheses stay outside the corpus) and the arts. 28 ¶2/30 "31-12-2015" cutoffs are anomalous (OQ-005).** | yes | GT synthesis wave S-GT6/S-GT7 (acquisition queue — delivered 2026-08-22; AG 52-2017 head watcher) | resolved (2026-08-22; pre-2016-wording + OQ-005 fences residual) |
 | OQ-002 | GOQ-135 (owned, SR2 half): "D-65-89 effective date: DCA date not printed (vigencia = DCA + 30 días); likewise the maquila chain (D-29-89 DCA+30; AG 533-89 DCA+1; AG 253-2001 immediate-but-undated, read 27-jun-2001 pending confirmation)." FR-035/FR-036/FR-037 store the formulas + DCA-unknown flags (AG 242-90 and AG 296-94 likewise next-day with unprinted dates); any row needing the 1989-1994 effective dates must source the DCA dates externally. | no | GT synthesis wave S-GT6/S-GT7 → W6 partner ask | open |
 | OQ-003 | GOQ-136 (owned): "D-6-2021 given-date month OCR-illegible ('EL DOCE …', read May-2021) + the page-mate trámites decree (arts. 40-43) unidentified." FR-038 stores the OCR-month flag and FR-057 the page-mate guard; the R73 publication-day effectiveness (2021-06-01) is unaffected — only the given date and the page-mate decree identity remain open. | no | GT synthesis wave S-GT6/S-GT7 → W6 partner ask | open |
 | OQ-004 | GOQ-137 (owned): "81_ (AG 65-2022) OCR gaps: signature unreadable; art.-number garbles; 34-Quater boleta field lists drop importaciones/exportaciones rows vs 68_ (OCR loss vs consolidation defect unresolved) — quote 68_ where it prints the same article WITH a tag." FR-048 implements the quoting rule + defect flags; the boleta field-list discrepancy is flagged for SR5 (FR-058 pointer) and stays unresolved until a clean 81_ print is acquired. | no | GT synthesis wave S-GT6/S-GT7 → W6 partner ask | open |
+| OQ-005 | NEW (opened by the 84_ primary read, 2026-08-22): D-19-2016 arts. 28 ¶2 and 30 print "31 de diciembre de 2015" cutoffs — ¶2 orders the short-grant top-up Acuerdo Ministerial "antes del 31 de diciembre del año 2015", and art. 30 keeps the old usuarios industriales/comerciales machinery exonerations + usuario-industrial ISR alive only "hasta el 31 de diciembre de 2015" — dates that PRE-DATE the decree's own publication (DCA 30-Mar-2016) and vigencia (31-Mar-2016). Read literally, the old-category ZF ISR was already extinct at D-19-2016's vigencia, in visible tension with art. 28 ¶1's preservation clause ("mantendrán este beneficio por el plazo que establece el Decreto Número 65-89"): WTO-deadline drafting vs error cannot be distinguished from the corpus (chain evidence OQ-1). FR-042 records the transition map with the dates AS PRINTED; no legacy-window modeling until externally resolved (SAT/MINECO practice, DCA erratas). EVID-757/787. | no | GT synthesis wave S-GT6/S-GT7 → W6 partner ask | open |

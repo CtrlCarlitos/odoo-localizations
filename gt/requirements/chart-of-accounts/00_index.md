@@ -4,9 +4,9 @@
 |--------|-------|
 | Country | gt |
 | Topic   | chart-of-accounts |
-| Status  | draft (S-GT5 synthesis wave, in review) |
+| Status  | draft (S-GT5 synthesis wave, in review; GOQ-147 art.-604 retype applied 2026-08-22 — 92_) |
 | Authors | GT synthesis wave S-GT5 + controller |
-| Updated | 2026-08-21 |
+| Updated | 2026-08-22 |
 
 This directory holds the chart-of-accounts half of the S-GT5 (synthesis wave
 5) chart-of-accounts/commercial-legal wave: the CCom merchant-books anchor

@@ -56,7 +56,7 @@ valid_from/valid_to and flags are stored on the matrix config rows (FR-074).
 | LB-001 | CCom art. 376: "Los comerciantes, sus herederos o sucesores, conservarán los libros o registros del giro en general de su empresa por todo el tiempo que ésta dure y hasta la liquidación de todos sus negocios y dependencias mercantiles." (via GT-COA-FR-026) | Merchants, their heirs or successors shall conserve the books/registers of the enterprise's giro for the whole time it lasts and until the liquidation of all its businesses and mercantile dependencies | `gt/sources/66_Codigo_Comercio_D2-70.pdf` | p.83, art. 376 (EVID-511; LB-009 of `01_books-anchor.md`) |
 | LB-002 | CCom art. 382: "…deberá conservar, en forma ordenada y organizada, durante no menos de cinco años, los documentos de su empresa, salvo lo que dispongan otras leyes especiales." (via GT-COA-FR-027) | Enterprise documents conserved in orderly, organized form for not less than five years, except as other special laws provide (the deference clause by which longer regimes extend the floor) | `gt/sources/66_Codigo_Comercio_D2-70.pdf` | p.84, art. 382 (EVID-516; LB-014 of `01_books-anchor.md`) |
 | LB-003 | CCom arts. 383-384 + art. 1: "Los documentos que conciernan especialmente a actos o negociaciones determinadas, podrán ser inutilizados o destruidos, pasado el tiempo de prescripción de las acciones que de ellos se deriven." / "Si hubiere pendiente alguna cuestión que se refiera a ellos directa o indirectamente, deberán conservarse hasta la terminación de la misma." (via GT-COA-FR-028; GT-CML-FR-125) | Documents concerning determined acts/negotiations may be destroyed once the prescription of the derived actions has elapsed; pending-matter hold (direct or indirect); art. 1 defers CCom gaps to Civil law — no general commercial prescription period exists | `gt/sources/66_Codigo_Comercio_D2-70.pdf` | p.85 arts. 383-384; p.2 art. 1 (EVID-517; LB-015 of `01_books-anchor.md` / LB-014 of `03_titulos-valores-prescripcion.md`) |
-| LB-004 | CCom art. 604: "Los comerciantes deberán conservar ordenadamente, por el término de cinco años, las facturas cambiarias que hubieren librado o copias de las mismas." (via GT-CML-FR-108) | Merchants must conserve orderly, for the term of five years, the facturas cambiarias they have drawn or copies thereof | `gt/sources/66_Codigo_Comercio_D2-70.pdf` | pp.123-125, arts. 596-604 (EVID-565; LB-011 of `03_titulos-valores-prescripcion.md`) |
+| LB-004 | CCom art. 604: "Los comerciantes deberán conservar ordenadamente, por el término de cinco años, las facturas cambiarias que hubieren librado o copias de las mismas." (via GT-CML-FR-108) | Merchants must conserve orderly, for the term of five years, the facturas cambiarias they have drawn or copies thereof — a CONSERVATION/RETENTION duty, NOT a claim-prescription clock (GOQ-147 retype, EVID-950: the factura-cambiaria claim clocks are CCom arts. 626/627; Civil residual only) | `gt/sources/66_Codigo_Comercio_D2-70.pdf` | pp.123-125, arts. 596-604 (EVID-565; LB-011 of `03_titulos-valores-prescripcion.md`) |
 | LB-005 | CCom per-clock prescription texts: art. 626: "La acción cambiaria directa, prescribe en tres años a partir del día del vencimiento." + arts. 627/628/409 (regreso 1 año; obligado recourse 6 meses; enriquecimiento 1 año) + arts. 513/541/577/799/916/1037 (cheque 6 meses; cheques de viajero 2 años; obligaciones intereses 5 años / capital 10 años; transporte 6 meses; seguro 2 años; fianza 2 años) + D2946 (old code) art. 1313 (5 años, R65) (via GT-CML-FR-110..FR-122) | The per-instrument mercantile prescription clocks — terms and anchors — that key the destruction gate for instrument-backed documents (full texts at the owning file's LB-008/LB-012/LB-013) | `gt/sources/66_Codigo_Comercio_D2-70.pdf` | cml03 LB-012/LB-013 (EVID-566/567); cheque LB-008 (EVID-563); D2946 appendix pp. 298-301 (R65) |
 | LB-006 | CT D-6-91 Arts. 112 y 112 "A": conservation of books, documents, archives, bank statements and information systems in orderly form while the prescription term has not run; electronically filed declarations/annexes conserved in the original medium or paper at the taxpayer's choice (via GT-TAX-FR-232; prescription terms via GT-TAX-FR-203/204) | Prescription-anchored tax conservation — the practical floor of the matrix (4 years general / 8 years unregistered, with the interruption engine) | `gt/sources/25_Codigo_Tributario_6-91.pdf` | pp. 60-62, Arts. 112 y 112 "A" (EVID-205; LB-018 of `taxation/06_ct-procedures.md`) |
 | LB-007 | AD 13-2018 art. 21: "El emisor debe conservar los archivos en formato XML de los DTE certificados mientras no haya transcurrido el plazo de prescripción que establece el Código Tributario, de igual forma el receptor, cuando corresponda." (via GT-EINV-FR-203) | The emitter must conserve the certified-DTE XML files while the Código Tributario prescription period has not run; likewise the receiver, where applicable (the certificador's 14-month "hasta conciliación" backup is provider-side — excluded) | `gt/sources/01_AD_13-2018_FEL.pdf` | Art. 21, p. 10 (EVID-046; LB-015 of `e-invoicing/05_certificador-interface.md`) |
@@ -127,11 +127,20 @@ valid_from/valid_to and flags are stored on the matrix config rows (FR-074).
   prescription-anchored row (FR-066) and/or the AML row (FR-069) are longer
   and MAX governs; NO supersession is asserted from the corpus itself (per
   GT-CML-FR-108's own no-supersession note) — the matrix resolves
-  max-per-object, it never cancels the art.-604 row. Anchor: art. 604
+  max-per-object, it never cancels the art.-604 row. CLOCK-SEMANTICS
+  RETYPE (GOQ-147, EVID-950): art. 604 is a CONSERVATION/RETENTION
+  duty — keep the documents 5 años — NOT a claim-prescription clock;
+  the factura-cambiaria claim clocks are CCom arts. 626 (directa 3y)/
+  627 (regreso 1y), consumed via FR-070's ladder keys, and the
+  art.-383 destruction gate keys to THOSE clocks (never to art. 604
+  itself); the Civil Code supplies nothing here (CC 1508/1516 confirm
+  no fallback runs where CCom fixes the period — residual only for
+  non-cambiaria factura-derived claims). Anchor: art. 604
   fixes no express start; the system uses the drawing (libramiento) date
   as the conservative anchor, flagged as a system convention, not
   statutory text. Destruction gate = FR-070 keys + FR-072 engine.
-  (LB-004; via GT-CML-FR-108; GOQ-124; GOQ-123 rides the 66_ citation)
+  (LB-004; via GT-CML-FR-108; GOQ-124; GOQ-147 retype; GOQ-123 rides
+  the 66_ citation)
 - **GT-COA-FR-066:** ROW — CT tax books, documents, archives, bank
   statements, information systems and e-filed declarations/annexes:
   conservation is PRESCRIPTION-ANCHORED, not a fixed year table — books,
@@ -215,10 +224,13 @@ valid_from/valid_to and flags are stored on the matrix config rows (FR-074).
   R65 citation guard) consumed via GT-CML-FR-124 (aging surface:
   class + anchor + expiry per record) and GT-CML-FR-125 (gate); tax keys =
   GT-TAX-FR-203/204/205/206 via GT-TAX-FR-232; AML keys = the FR-069
-  terms. GT-CML-FR-110's NEGATIVE anchor binds: the CCom enacts NO
-  general commercial prescription period (art. 1 → Civil) — the cc_fallback
-  key carries an OPEN value (OQ-002) and NO Civil-code period is modeled
-  or defaulted. (LB-003; LB-005; LB-006; via GT-CML-FR-110..FR-125,
+  terms. GT-CML-FR-110's fallback anchor binds (GOQ-147 RESOLVED
+  2026-08-22, 92_ = W-GT7 EVID-931..951): the CCom enacts NO
+  general commercial prescription period (art. 1 → Civil) — the Civil
+  fallback = **5 años from exigibility, CC art. 1508** (+ art. 1516
+  gateway; post-2008-edition caveat carried) — the cc_fallback
+  key now carries that value via GT-CML-FR-110 (OQ-002 resolved).
+  (LB-003; LB-005; LB-006; via GT-CML-FR-110..FR-125,
   GT-TAX-FR-232)
 - **GT-COA-FR-071:** ROW — IGSS planilla records (ABSENCE row,
   load-bearing): NO owning retention FR exists in
@@ -291,7 +303,7 @@ canonical table other files consume by id):**
 |-----|--------------|--------|-----------------------------------|------------------------|----------------------|------------------|
 | a | CCom legal books (four mandatory + auxiliaries + corredor registers) | CCom | CCom art. 376 via GT-COA-FR-026 | whole enterprise life + until liquidation of ALL businesses/mercantile dependencies — NO year count; heirs/successors bound | full-liquidation close | liquidation complete AND art.-383 predicate (FR-072) |
 | b | CCom giro documents (correspondence, valores, comprobantes) | CCom | CCom art. 382 via GT-COA-FR-027 | ≥ 5 años floor + deference clause ("salvo lo que dispongan otras leyes especiales") — MAX with rows d/e/g | per-document issue/receipt | art.-383 prescription of the underlying action + no-pending-matter (keys FR-070; engine FR-072) |
-| c | Factura cambiaria issued-facturas/copies | CCom | CCom art. 604 via GT-CML-FR-108 | 5 años orderly (instrument D2-70, valid_from 1971-01-01, R45); GOQ-124: likely superseded by longer rows — no supersession asserted; MAX governs | drawing date (system convention — art. 604 prints no anchor; flagged) | FR-070 keys + FR-072 engine |
+| c | Factura cambiaria issued-facturas/copies | CCom | CCom art. 604 via GT-CML-FR-108 | 5 años orderly (instrument D2-70, valid_from 1971-01-01, R45) — a CONSERVATION duty, not a claim clock (GOQ-147 retype, EVID-950: claim clocks = arts. 626/627 via row-b/FR-070 keys; gate keys to those, never to 604); GOQ-124: likely superseded by longer rows — no supersession asserted; MAX governs | drawing date (system convention — art. 604 prints no anchor; flagged) | FR-070 keys (626/627 ladder) + FR-072 engine |
 | d | CT tax books, documents, archives, bank statements, information systems, e-filed declarations/annexes | CT | CT arts. 112/112-"A" via GT-TAX-FR-232 (terms GT-TAX-FR-203/204; placement GT-TAX-FR-231; family head GT-TAX-FR-230 — withholding guard) | prescription-anchored: while the term has not run (4y general / 8y unregistered + interruptions); e-filings in original medium or paper; re-make ≤ 3 months after loss | obligation due date + interruption restarts (GT-TAX-FR-205); infraction/sanction clock 5y (GT-TAX-FR-206); filing = freeze-at-filing anchor | ALL applicable tax clocks run out + no-pending-matter (FR-072) |
 | e | DTE/FEL certified XML + acuses (emitter-side; receiver "cuando corresponda") | FEL/AD + CT | AD 13-2018 art. 21 via GT-EINV-FR-203, anchored on GT-TAX-FR-232 (GOQ-41/OQ-005 closure — named rule) | while the CT prescription period has not run (= row d terms); certificador 14-month backup = PROVIDER-side, excluded | row-d tax clocks | row-d gate; paper-original destruction additionally SAT-authorized only (GT-TAX-FR-234 kin) |
 | f | LET/libros electrónicos (electronic tax books + resumen/folio surfaces) | CT/LET | GT-FIN-FR-104 (habilitación-precondition gate) + GT-FIN-FR-118 (folio-continuity bridge, Ley de Timbres Fiscales art. 5 num. 4) + retention anchor GT-TAX-FR-232 | prescription-anchored as row d (no LET-specific period printed — none invented); lifecycle gates: active habilitación + immutable último folio | row-d anchors | row-d gate + habilitación/folio lifecycle states recorded (dual-track model by id) |
@@ -309,7 +321,8 @@ DTE emitters (receivers "cuando corresponda"); row f binds LET populations
 the absence. (iii) **Per-instrument prescription keys** (row b/c/e/g
 documents): the GT-CML-FR-111..122 ladder via GT-CML-FR-124/125 and the
 GT-TAX-FR-203..206 clocks via GT-TAX-FR-232 key the art.-383 gate — the
-cc_fallback key stays OPEN (OQ-002). (iv) **Dated rows** (FR-074): every
+cc_fallback key = **CC art. 1508 5 años** via GT-CML-FR-110 (GOQ-147
+resolved, 92_; OQ-002 resolved). (iv) **Dated rows** (FR-074): every
 value carries instrument + valid_from/valid_to + flags (R45/R60/R65); AML
 pre/post-cutover resolution; GOQ-123 flag on every 66_-derived row.
 (v) **Single-source discipline**: this table is the ONLY max-per-object
@@ -352,12 +365,12 @@ behavior is required by this file.
 | FR-062 | odoo | l10n_gt_commerce.retention | regimes, anchors, retention_until | MAX computation + snapshot-on-write; purge refusal names the governing row; applicability fed by owning FRs |
 | FR-063 | shared | retention_rule row a + book registry | conservation_state tie-in | Liquidation-anchored; feeds GT-COA-FR-026's conservation_state (by id) |
 | FR-064 | shared | retention_rule row b | 5-años floor + deference clause | MAX with rows d/e/g; correspondence ≠ book (R63); medium free (FR-029) |
-| FR-065 | shared | retention_rule row c | 5 años art. 604, D2-70 1971-01-01 (R45) | GOQ-124 no-supersession note; anchor = drawing date as flagged convention |
+| FR-065 | shared | retention_rule row c | 5 años art. 604, D2-70 1971-01-01 (R45) | GOQ-124 no-supersession note; conservation duty not claim clock (EVID-950); anchor = drawing date as flagged convention |
 | FR-066 | shared | retention_rule row d | prescription-anchored CT row | Terms via GT-TAX-FR-203/204; withholding-vocabulary guard on GT-TAX-FR-230; re-make ≤ 3 months |
 | FR-067 | shared | retention_rule row e | DTE XML/acuses row | GOQ-41/OQ-005 closure named; provider-side 14-month backup excluded; GT-TAX-FR-234 SAT-authorized paper route kin |
 | FR-068 | shared | retention_rule row f | LET row | FR-066 anchor + GT-FIN-FR-104/118 lifecycle gates; no LET period invented; GOQ-104 undated-print caveat |
 | FR-069 | shared | retention_rule row g | AML 5y + 10y digital | Cutover rows 2026-09-17 (R60); pre-cutover 75_ art. 23 = 5y only |
-| FR-070 | shared | retention_rule key rows | ladder + tax clock keys | cc_fallback OPEN (OQ-002); anchors via GT-CML-FR-124; R65 guard on the D2946 row |
+| FR-070 | shared | retention_rule key rows | ladder + tax clock keys | cc_fallback = CC 1508 5y via GT-CML-FR-110 (OQ-002 resolved); anchors via GT-CML-FR-124; R65 guard on the D2946 row |
 | FR-071 | shared | retention_rule row h | IGSS ABSENCE | No owning FR (grep 2026-08-21); falls under rows b/d; acquisition re-opens |
 | FR-072 | odoo | l10n_gt_commerce.retention | pending_matter_holds, destruction_eligibility/log | No execution while any row unexpired or any matter pending; never auto-destroy; SAT-authorization route recorded |
 | FR-073 | odoo | l10n_gt_commerce.retention | anchor_date/kind per row | Per-row start-events; freeze-at-filing (D16); ladder anchors via GT-CML-FR-124 |
@@ -388,8 +401,10 @@ refusals (FR-062/FR-072).
 - **AC-004:** Given an issued factura cambiaria (or copy) also backing a
   tax operation, when retention is computed, then the effective floor is
   the CT prescription-anchored row (MAX), while the art.-604 5-year row
-  remains on the books with the GOQ-124 no-supersession note and the
-  flagged drawing-date convention anchor. (FR-065)
+  remains on the books typed as a CONSERVATION duty (not a claim clock
+  — EVID-950, its gate keyed to the 626/627 ladder) with the GOQ-124
+  no-supersession note and the flagged drawing-date convention anchor.
+  (FR-065)
 - **AC-005:** Given tax books/e-filings of a registered taxpayer, when
   row d is evaluated, then conservation runs while the 4-year prescription
   (8-year unregistered) has not run — restarted per GT-TAX-FR-205's
@@ -429,5 +444,5 @@ outside the register is treated as an open question.
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
 | OQ-001 | GOQ-124 (owned): "Retention/destruction max-per-object matrix (synthesis deliverable): art. 383 keys destruction to 'prescripción de las acciones' but CCom enacts no general period (art. 1 → Civil); practical floor = tax corpus (CT 112'A, 4y+); factura cambiaria art. 604 5y likely superseded — write the matrix in the S-GT5 file." RESOLVED BY THIS FILE: §4 is the matrix — per-object rows a-h, MAX resolution (FR-061), destruction-gate engine (FR-072), the tax corpus as practical floor (row d via GT-TAX-FR-232), and the art.-604 row carried with the no-supersession note (row c per GOQ-124). Taxation OQ-007 (GT-TAX-FR-232's pointer) and cml03 OQ-002 resolve against this table. | no | GT synthesis wave S-GT5 (this file = the deliverable) | resolved |
-| OQ-002 | Corpus boundary (kin of cml03 OQ-003 cc_fallback): the Civil-law prescription periods behind the art. 1 fallback — the values that would key destruction for non-instrument merchant documents with no tax/AML row — are EXTERNAL to this corpus (the Código Civil is not among the extracted instruments). FR-070 carries the cc_fallback key with an OPEN value; no Civil-code period (e.g. a generic civil term) is modeled, defaulted or guessed until the CC corpus lands (controller → acquisition queue). | no | Controller → acquisition queue (Código Civil); S-GT5 records the flag | open |
+| OQ-002 | Corpus boundary (kin of cml03 OQ-003 cc_fallback): the Civil-law prescription periods behind the art. 1 fallback — the values that would key destruction for non-instrument merchant documents with no tax/AML row. **RESOLVED 2026-08-22 (GOQ-147; 92_ = W-GT7 EVID-931..951): Código Civil in corpus — fallback = 5 años from exigibility (CC art. 1508, via GT-CML-FR-110), gateway art. 1516; carry the post-2008 consolidation-horizon caveat on every CC-anchored row.** | no | W-GT7 evidence pass (92_); edition-horizon watch (post-2008 CC reforms) | resolved |
 | OQ-003 | GOQ-41 (kin; owning file e-invoicing/05 OQ-005): "Certificador 14-month backup retention ('hasta conciliación') vs emitter-side retention duties (CT/LIBRO I) — reconcile for the Odoo archiving requirement." RESOLVED IN-FILE by FR-067's named rule: emitter-side retention of certified XML + acuses = the CT prescription period (AD 13-2018 art. 21 via GT-EINV-FR-203) anchored on GT-TAX-FR-232's prescription-anchored conservation (row d terms/clocks); the certificador's 14-month backup is provider-side and excluded from the emitter model. Register write-back to e-invoicing/05 §7 and taxation/06 is the controller's. | no | GT synthesis wave S-GT5 (closure recorded; write-back = controller) | resolved |

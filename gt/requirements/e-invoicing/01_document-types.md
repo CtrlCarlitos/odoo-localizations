@@ -6,7 +6,7 @@
 | Topic   | e-invoicing |
 | Status  | draft |
 | Authors | GT synthesis wave S-GT1 |
-| Updated | 2026-08-19 |
+| Updated | 2026-08-22 |
 
 ## 1. Purpose
 
@@ -64,7 +64,7 @@ mid-vintage display guide; Reglas §1.2 governs taxonomy).
 | LB-011 | Reglas v2.0, §3.1 catálogo de complementos: "2 Retenciones de factura especial: 2 [Requerido] for FESP"; "14 Retenciones de factura especifica: 2 [Requerido] for FEPE"; "3 Abonos de factura cambiaria: 2 for FCAM/FCCA/FCPE/FCAE/FCRP/FCPC"; "12 Exportación provisional: 2 FACP" | Complement catalog: per-type required complements (0/1/2 semantics) | `gt/sources/15_FEL_Reglas_y_validaciones_v1.7.10_2025-02.pdf` | §3.1 pp. 97–98 (EVID-139) |
 | LB-012 | Reglas v2.0, §3.7 fn. 10: "Referencia a un único DTE: Cada Nota de Crédito o de Débito solo puede hacer referencia a un único DTE" + 3.7.1.3: Código Tipo ∈ "1", "2", "7", "8", "9", "30", "32", "37", "38", "53", "57", "60", "62", "63", "66", "67", "68", "69", "72" (impreso idéntico en 3.10.2.5) | NC/ND single-origin rule + the paper "Régimen antiguo" Código-Tipo values accepted as referencia-origen | `gt/sources/15_FEL_Reglas_y_validaciones_v1.7.10_2025-02.pdf` | §3.7 fn. 10 y 3.7.1.3 (EVID-141) |
 | LB-013 | 17_ casos de prueba (Mayo 2018), "Validaciones Nota de Crédito y Nota de Débito": orígenes FACE con códigos 1,2,7,8,30,32,37,38,53,57,60,62,63,66,67,68,69,72; "Error. El número de Autorización del Documento Origen no coincide con ningún DTE registrado en la SAT." | 2018 test battery for NC/ND referencia-origen (historical reference data; FACE code list current per EV01e OQ-9) | `gt/sources/17_FEL_casos_de_prueba.zip` | Validaciones Nota de Crédito y Nota de Débito pp. 2–13 (EVID-110(e)) |
-| LB-014 | Decreto 31-2024 (citado por la columna base legal de §1.2: "Factura Especifica FEPE … retendrá el impuesto respectivo por el uno punto cinco por ciento (1.5%) sobre el valor de la factura … Base legal: Artículo 4 Decreto 31-2024"; fila FARP "… Decreto 31 -2024"; fila FPEC "… Sector Pecuario, Hidrobiológico y Apícola"; y por la fila de changelog LB-002) | Decree 31-2024 — statutory origin of the five v2.0 DTE types and the FEPE 1.5% retention; full text not in corpus (GOQ-13) — cited only through Reglas §1.2/changelog | (texto ausente del corpus; citado vía `gt/sources/15_FEL_Reglas_y_validaciones_v1.7.10_2025-02.pdf`) | §1.2 filas 9/18/20 + changelog p. 146 (EVID-115/113; GOQ-13) |
+| LB-014 | Decreto 31-2024 (citado por la columna base legal de §1.2: "Factura Especifica FEPE … retendrá el impuesto respectivo por el uno punto cinco por ciento (1.5%) sobre el valor de la factura … Base legal: Artículo 4 Decreto 31-2024"; fila FARP "… Decreto 31 -2024"; fila FPEC "… Sector Pecuario, Hidrobiológico y Apícola"; y por la fila de changelog LB-002) | Decree 31-2024 — statutory origin of the five v2.0 DTE types and the FEPE 1.5% retention; NOW PRIMARY IN CORPUS (85_, read 2026-08-22): the LAW names NO DTE codes — FEPE/FARP/FCRP/FPEC/FCPC are SAT-side designations (Reglas v2.0 changelog + XSD); the law-level hooks are art. 7 a) "Estar inscritos en el Régimen de Factura Electrónica en Línea -FEL-" and art. 7 c) "Emitir en todas sus ventas, facturas de Régimen Primario o Régimen Pecuario, según corresponda, con las características que determine el reglamento." (EVID-808), plus art. 9's buyer-issued FEL factura with 1.5% retention and NIT/CUI identification (EVID-810); the Reglas' FEPE base-legal citation "Artículo 4" vs the law's purchaser-side art. 9 is a flagged source discrepancy (85_ OQ-5) | `gt/sources/15_FEL_Reglas_y_validaciones_v1.7.10_2025-02.pdf` + `gt/sources/85_D31-2024_IntegracionPrimarioAgro.pdf` | §1.2 filas 9/18/20 + changelog p. 146 (EVID-115/113); 85_ arts. 7 y 9 (EVID-808, EVID-810; GOQ-13 resolved) |
 | LB-015 | Reglas v2.0, §1.2 nota al pie 1: "En el proceso de Factura Electrónica en Línea, el Emisor que realice exportaciones, debe utilizar el DTE denominado Factura y debe colocar los datos que correspondan en el “Complemento Exportaciones”." | Exports use the FACTURA DTE plus the Exportaciones complement — no dedicated export DTE type | `gt/sources/15_FEL_Reglas_y_validaciones_v1.7.10_2025-02.pdf` | §1.2 fn. 1 (EVID-115) |
 | LB-016 | Decisión compartida D17 / D-GT8: `l10n_latam_invoice_document` — un diario FEL, muchos tipos de documento; tipos = registros `l10n_latam.document.type` | Cross-country document-model default D17 and its GT instantiation D-GT8 (one journal, many document types) | `shared/docs/odoo-localization-guide.md` | D17 §"Document-type model" (master-index shared canon) |
 
@@ -111,9 +111,14 @@ mid-vintage display guide; Reglas §1.2 governs taxonomy).
   (Reglas changelog row "2.0 19/12/2024", *FECHA ENTRADA DE VIGENCIA Abril
   2025* — valid_from 2025-04); the pre-v2.0 active set was 21 types; the
   duplicate pp.15–17 table in the Reglas IS the stale 21-row set (known
-  document defect) and shall not be implemented. The statutory origin of
-  the five types (Decreto 31-2024 text) is pending acquisition → OQ-002
-  (GOQ-13). (LB-002; LB-003; LB-014; EVID-113, EVID-114, EVID-116)
+  document defect) and shall not be implemented. The statutory layer is
+  now primary in corpus (Decreto 31-2024 = 85_, read 2026-08-22): the LAW
+  names NO DTE codes — FEPE/FARP/FCRP/FPEC/FCPC are SAT-side designations
+  (Reglas v2.0 + XSD; this file keeps owning the type inventory); the
+  law-level hook is art. 7 (FEL inscription + emission of "facturas de
+  Régimen Primario o Régimen Pecuario" in ALL sales, characteristics
+  deferred to the reglamento — EVID-808) → OQ-002 (GOQ-13, resolved).
+  (LB-002; LB-003; LB-014; EVID-113, EVID-114, EVID-116, EVID-808)
 - **GT-EINV-FR-006:** The undated 18_ guide's "actualmente existen
   [veinte] tipos" display list shall be treated as a mid-vintage display
   enumeration only (graphic-representation labeling): taxonomy, counts and
@@ -182,15 +187,22 @@ here.
   art. 8 numeral 1 … art. 8 numeral 2 … Decreto 20-2018 … art. 35 …
   Artículo 29 literal e". XSD active (both channels). Afiliación: General +
   EXE; personería-gated when EXE. No impuestos. (LB-001; LB-010)
-- **GT-EINV-FR-017:** FEPE — *Factura Específica* (specific-regime invoice
-  added by Decreto 31-2024 art. 4: "retendrá el impuesto respectivo por el
-  uno punto cinco por ciento (1.5%) sobre el valor de la factura" — ICT
+- **GT-EINV-FR-017:** FEPE — *Factura Específica* (specific-regime invoice;
+  Reglas §1.2 base legal: "Artículo 4 Decreto 31-2024": "retendrá el
+  impuesto respectivo por el uno punto cinco por ciento (1.5%) sobre el
+  valor de la factura" — ICT
   retention via the *Retenciones factura específica* complement, required;
-  "ICT" expansion unprinted → GOQ-24 kin, see 03_validation-rules.md
-  §complemento matrix). GH XSD active (v2.0 type). Receptor must be a
+  "ICT" expansion resolved from the law: ICT = **"Impuesto a la Confianza
+  Tributaria"** (D-31-2024 art. 2, EVID-803 — resolves the catalogs OQ
+  29_30_ OQ-10 / GOQ-24 expansion half; label update in
+  03_validation-rules.md pending); the law's purchaser-side 1.5% FEL
+  retention with NIT/CUI identification is textually art. 9 (EVID-810 —
+  the Reglas' art.-4 FEPE citation vs art. 9 discrepancy flagged, 85_
+  OQ-5). GH XSD active (v2.0 type). Receptor must be a
   natural person (FR-037). Emitter eligibility: régimen primario/pecuario
   establishments; barred for emitters whose only ClasificacionEmisor is
-  productor (1672). No impuestos. (LB-001; LB-002; LB-011; LB-014; LB-010)
+  productor (1672). No impuestos. (LB-001; LB-002; LB-011; LB-014; LB-010;
+  EVID-803, EVID-810)
 - **GT-EINV-FR-018:** NDEB — *Nota de Débito* (debit note). Base legal:
   "art. 29, literal c." (D-27-92). XSD active (both channels). Afiliación:
   General only. Single FEL origin (FACT/FCAM) or accepted paper origin
@@ -312,7 +324,8 @@ here.
   03_validation-rules.md. (LB-009)
 - **GT-EINV-FR-036:** FESP shall carry the *Retenciones de factura
   especial* complement (ISR 5% + IVA retention arithmetic) and FEPE shall
-  carry the *Retenciones factura específica* complement (ICT 1.5% of Gran
+  carry the *Retenciones factura específica* complement (ICT = Impuesto a
+  la Confianza Tributaria, D-31-2024 art. 2 — EVID-803; 1.5% of Gran
   Total); both are "2 Requerido" in the §3.1 complement catalog — field
   structures and validation → 03_validation-rules.md §complemento matrix.
   (LB-011)
@@ -451,7 +464,9 @@ required by this file.
   rule). (FR-003, FR-004)
 - **AC-003:** Given the five Decreto 31-2024 types (FEPE, FARP, FCRP,
   FPEC, FCPC), when inspected, then each carries valid_from = 2025-04 and
-  a base-legal pointer to D-31-2024 (pending GOQ-13 acquisition), and no
+  a base-legal pointer to D-31-2024 (GOQ-13 resolved: D-31-2024 = 85_
+  primary-read; the law names no DTE codes — the law-level hook is art. 7,
+  EVID-808), and no
   row from the duplicate pp.15–17 21-type table was seeded. (FR-005)
 - **AC-004:** Given an export operation, when the DTE is generated, then
   the type is FACT (never a dedicated export type) and the Complemento
@@ -488,6 +503,6 @@ where noted). This file OWNS GOQ-16.
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
 | OQ-001 | GOQ-16 (owned): "XSD-active-set vs Reglas: are FACA/FCCA/FAPE/FCPE/FAAE/FCAE (active CD, commented GH) still emittable? BIDP (GH-only) vs Reglas silence; FACP expansion unstated (FCAP = 'Factura Cambiaria Pequeño Contribuyente' per Endoso comments)." Blocks FR-003/FR-004 (and the six disabled type FRs); umbrella GOQ-02. | no | GT synthesis wave S-GT1 → W6 partner ask (SAT/TotalDoc) | open |
-| OQ-002 | GOQ-13 (kin): "D-31-2024 full text acquisition (added IVA 8-'A'; LAE changes; the 5 new DTE types FEPE/FARP/FCRP/FPEC/FCPC; ICT definition) + clean-DCA verification of D-10-2025's '8 A' reading (OCR 8/3 residue)." Blocks the statutory layer under FR-005/FR-017/FR-026..029 and GOQ-24 (ICT expansion). | no | GT synthesis wave S-GT1 (acquisition queue) | open |
+| OQ-002 | GOQ-13 (kin): "D-31-2024 full text acquisition (added IVA 8-'A'; LAE changes; the 5 new DTE types FEPE/FARP/FCRP/FPEC/FCPC; ICT definition) + clean-DCA verification of D-10-2025's '8 A' reading (OCR 8/3 residue)." Blocks the statutory layer under FR-005/FR-017/FR-026..029 and GOQ-24 (ICT expansion). **RESOLVED in-corpus 2026-08-22: D-31-2024 = 85_ (6pp complete), primary-read end-to-end (EVID-801..819) — the LAW names NO DTE codes (FEPE/FARP/FCRP/FPEC/FCPC stay SAT-side per Reglas v2.0/XSD; law-level hook = art. 7 a)/c), EVID-808); art. 9 = buyer-issued FEL factura, 1.5% retention, NIT/CUI (EVID-810); ICT = "Impuesto a la Confianza Tributaria" (art. 2, EVID-803 — resolves 29_30_ OQ-10 and GOQ-24's expansion half); art. 13 adds IVA 8-"A" verbatim, no "3 'A'" anywhere (EVID-813); art. 18 corroborates LAE "16-2017" vs 74_ title's "168-2017" [sic] (EVID-815). Residual: Reglas' FEPE "Artículo 4" citation vs the law's art. 9 (85_ OQ-5) — kin to 03_validation-rules GOQ-24.** | no | GT synthesis wave S-GT1 (resolved in-corpus 2026-08-22; master-index annotation = controller's) | resolved (2026-08-22) |
 | OQ-003 | GOQ-47: "CF Q2,500 DTE list: 11 types (incl. FACP, rules 2.2.4.11/2.2.5.6) vs 10 (2.19.1.2/2.19.2.4) — which authoritative for FACP-CF? Conservative: 11." Affects FR-035 (R16 working rule applied meanwhile). | no | GT synthesis wave S-GT1 → W6 partner ask | open |
 | OQ-004 | GOQ-48: "'Régimen antiguo' paper Código-Tipo list (1,2,7,8,9,30,32,37,38,53,57,60,62,63,66,67,68,69,72) needs the SAT resolution-type catalog to interpret." Affects FR-040 (reference data recorded; mapping to legacy document identities unresolved). | no | GT synthesis wave S-GT1 → W6 partner ask | open |

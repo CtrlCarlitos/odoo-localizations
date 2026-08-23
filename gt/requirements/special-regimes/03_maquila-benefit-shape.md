@@ -6,7 +6,7 @@
 | Topic   | special-regimes |
 | Status  | draft |
 | Authors | GT synthesis wave S-GT6/S-GT7 |
-| Updated | 2026-08-21 |
+| Updated | 2026-08-22 |
 
 ## 1. Purpose
 
@@ -36,8 +36,11 @@ the dual-calificación rule (allowed EXCEPT productora AT × prestadora, no
 benefit duplication); the four perfeccionamiento regimes (AT / Devolución de
 Derechos / Reposición con Franquicia Arancelaria / CANT) with the
 Devolución 6-month claim window; the art. 2 traditional-commodity exclusion
-guard; the DEROGATED art. 15 (the pre-2016 maquila ISR holiday — text
-unrecoverable, GOQ-08: never invent mechanics); the R76 identity and
+guard; the DEROGATED art. 15 (2005-state recovered from `94_` as the CANT
+benefits article — incisos b) ISR + d) fuel; the AT holiday lived in
+art. 12 c); arts. 12/13 ISR incisos eliminated silently by the D-19-2016
+restatement, art. 15 by derogation; 1989-2004 texts unrecoverable — never
+invent mechanics); the R76 identity and
 no-sunset guards (printed title = "Ley de Fomento y Desarrollo de la
 Actividad Exportadora y de Maquila"; "intemporal" printed nowhere — never a
 requirement term); the R81 provenance guard (art. 12 bis was ADDED by
@@ -80,11 +83,16 @@ de Maquila*, consolidated through D-19-2016, 31-03-2016 per tags); maquila
 reglamento = **70_** (AG 533-89) read through **71_** (AG 253-2001)
 corrections — this file quotes 70_ only where the brief allows
 reglamento-side quotes (arts. 27/27 bis and 30 B), the chain itself being
-SR4 territory. **D-19-2016 is the blocking acquisition** (GOQ-08): its text
-is not in the corpus, so every post-2016 claim is provenance-limited to what
-69_'s consolidation tags print. Quotation source: the committed evidence
-file `gt/.extractions/69-71_Maquila.evidence.md` (EVID-711..745; this file
-cites EVID-711..721, 731, 737, 738); quotes verified against the source txt
+SR4 territory. **D-19-2016 is DELIVERED (GOQ-08 resolved 2026-08-22)**:
+primary-read end-to-end from `84_`, chain unit with D-38-04 = `94_`
+(2005-2016 law state), AG 4-2005 = `91_` and AG 3-2017 = `95_`
+(reglamento states) — post-2016 claims are primary-verified (EVID-746..789);
+the surviving fence is the pre-2005 (1989-2004) state of law arts. 12/13/15.
+Quotation source: the committed evidence files
+`gt/.extractions/69-71_Maquila.evidence.md`
+(EVID-711..745; this file cites EVID-711..721, 731, 737, 738) and
+`gt/.extractions/84_91_94_95_MaquilaZF_D19-2016_chain.evidence.md`
+(EVID-746..789; frozen); quotes verified against the source txt
 layers — numbers, percentages, durations, dates and article numbers exactly
 as printed.
 
@@ -96,18 +104,18 @@ as printed.
 | LB-004 | Ley D-29-89 art. 5 incisos a)-d): a) "Régimen de Admisión Temporal: Es aquel que permite recibir dentro del territorio aduanero nacional, en suspensión de derechos arancelarios, impuestos a la importación e Impuesto al Valor Agregado -IVA-, mercancías destinadas a ser exportadas o reexportadas en el período de un año después de haber sufrido una transformación o ensamble." / b) "Régimen de Devolución de Derechos: Es aquel que permite una vez efectuada la exportación o reexportación, obtener el reembolso de los derechos arancelarios, impuestos a la importación e Impuesto al Valor Agregado, -IVA-, pagados en depósito…" / c) "Régimen de Reposición con Franquicia Arancelaria: Es aquel que permite importar con exoneración de derechos arancelarios e impuestos a la importación, el valor equivalente por los derechos arancelarios e impuestos a la importación pagados por el exportador indirecto… para la reposición de materias primas, productos semielaborados, productos intermedios, materiales, envases, empaques y etiquetas…" / d) "Régimen de Exportación de Componente Agregado Nacional Total… cuando dentro de su proceso productivo utiliza en su totalidad mercancías nacionales o nacionalizadas…" | The four perfeccionamiento regimes: (a) AT = suspension of duties + import taxes + IVA, with a ONE-YEAR export/re-export window after transformation/assembly; (b) Devolución = deposit-then-refund after export; (c) Reposición = duty-free re-import of the value equivalent to the duties paid by the indirect exporter, for replacement inputs; (d) CANT = export with 100% national/nationalized merchandise | `gt/sources/69_Maquila_Ley_D29-89.pdf` | pp.3-4, art. 5 a)-d) (EVID-715) |
 | LB-005 | Ley D-29-89 art. 6: "las empresas podrán calificarse como: a) Maquiladora bajo el Régimen de Admisión Temporal. b) Exportadora bajo el Régimen de Admisión Temporal. c) Productora bajo el Régimen de Admisión Temporal. d) Prestadora de Servicios. e) Exportadora bajo el Régimen de Devolución de Derechos. f) Exportadora bajo el Régimen de Reposición con Franquicia Arancelaria. g) Exportadora bajo el Régimen de Componente Agregado Nacional Total." (tag: reformado por D-19-2016 art. 4) / art. 7: maquila AT = "producción y/o ensamble de bienes destinados a ser reexportados siempre que se garantice ante el fisco la permanencia de las mercancías admitidas temporalmente mediante fianza, garantía específica autorizada por la Superintendencia de Administración Tributaria, garantía bancaria o a través de almacenes generales de depósitos autorizados…" / art. 8 bis: "Se entiende por prestadora de servicios, la persona individual o jurídica que brinde servicios vinculados a las tecnologías de la información y comunicación, que ofrecen los centros de llamadas o centros de contacto, desarrollo de software, desarrollo de contenido digital, siempre y cuando sus servicios se presten a personas no residentes en el territorio nacional." (tag: adicionado por D-19-2016 art. 5) / art. 19: "Una misma empresa puede calificarse en dos regímenes diferentes, excepto las empresas productoras bajo el Régimen de Admisión Temporal y la Prestadora de Servicios… Lo anterior no implica duplicidad de beneficios…" | Seven calificación categories (art. 6 as reformed by D-19-2016); art. 7 = the maquila-AT guarantee requirement (permanence of temporarily admitted goods backed by fianza / SAT-authorized specific guarantee / bank guarantee / authorized bond warehouses); art. 8 bis = prestadora de servicios: ICT-linked services — call centers or contact centers, software development, digital-content development — ONLY when provided to non-residents (added by D-19-2016 art. 5); art. 19 = one enterprise may hold dual calificación in two different regimes EXCEPT productora AT × prestadora, and dual calificación never implies benefit duplication | `gt/sources/69_Maquila_Ley_D29-89.pdf` | p.5 arts. 6, 7, 8; pp.5-6 art. 8 bis; p.6 arts. 9-11; p.8 art. 19 (EVID-716) |
 | LB-006 | Ley D-29-89 art. 12: "Las empresas propiedad de personas, individuales o jurídicas que se dediquen a la actividad exportadora o de maquila bajo el Régimen de Admisión Temporal, gozarán de la suspensión temporal del pago de derechos arancelarios e impuestos a la importación, con inclusión del Impuesto al Valor Agregado, sobre las materias primas, productos semielaborados, productos intermedios, materiales, envases, empaques y etiquetas necesarios para la exportación o reexportación de mercancías producidas en el país, de conformidad con los listados autorizados en la resolución de calificación emitida por el Ministerio de Economía, hasta por un plazo de un (1) año contado a partir de la fecha de aceptación de la Declaración Aduanera de Importación o el Formulario Aduanero Único Centroamericano respectivo." / tags: "* Reformado por el Artículo 9, del Decreto Del Congreso Número 38-04 el 06-01-2005 / *Reformado por el Artículo 6, del Decreto Del Congreso Número 19-2016 el 31-03-2016" | THE asymmetry finding (R75): as printed (post-D-19-2016), the classic maquiladora/exportadora AT benefit is ONLY the temporary suspension of import duties and taxes incl. IVA, on raw materials, semi-finished and intermediate products, materials, containers, packaging and labels necessary for export/re-export of domestically produced goods, per the lists authorized in the MINECO calificación resolution — window: ONE (1) YEAR from acceptance of the import customs declaration (Declaración Aduanera de Importación) or the respective FAUCA (Central American Single Customs Form). NO ISR exoneration attaches to these categories | `gt/sources/69_Maquila_Ley_D29-89.pdf` | p.6, art. 12 + tags (EVID-717) |
-| LB-007 | Ley D-29-89 art. 12 bis intro + closing + tag: "Las empresas propiedad de personas individuales o jurídicas que se dediquen a la actividad productora bajo el Régimen de Admisión Temporal o a la actividad Prestadora de Servicios, gozarán de los beneficios siguientes:" / closing: "Los beneficios a que se refiere este artículo serán aplicables exclusivamente a la industria de vestuario y textiles, y a las que brindan servicios vinculados a las tecnologías de información y comunicación, que ofrecen los centros de llamadas o centros de contacto." / tag: "*Se adiciona por el Artículo 7, del Decreto Del Congreso Número 19-2016 el 31-03-2016" | The art. 12 bis bundle belongs to productora AT + prestadora de servicios ONLY, and within them exclusively to the apparel/textiles industry and ICT-linked service providers (call/contact centers). PROVENANCE (R81): art. 12 bis was ADDED by D-19-2016 art. 7 (tag 31-03-2016) — D-38-04 (2005) never created it (D-38-04 touched arts. 1/3/3 bis/12/13/14/29/33/36 ter/40 per the tag ledger) | `gt/sources/69_Maquila_Ley_D29-89.pdf` | p.7, art. 12 bis intro + closing ¶ + tag (EVID-718) |
+| LB-007 | Ley D-29-89 art. 12 bis intro + closing + tag: "Las empresas propiedad de personas individuales o jurídicas que se dediquen a la actividad productora bajo el Régimen de Admisión Temporal o a la actividad Prestadora de Servicios, gozarán de los beneficios siguientes:" / closing: "Los beneficios a que se refiere este artículo serán aplicables exclusivamente a la industria de vestuario y textiles, y a las que brindan servicios vinculados a las tecnologías de información y comunicación, que ofrecen los centros de llamadas o centros de contacto." / tag: "*Se adiciona por el Artículo 7, del Decreto Del Congreso Número 19-2016 el 31-03-2016" | The art. 12 bis bundle belongs to productora AT + prestadora de servicios ONLY, and within them exclusively to the apparel/textiles industry and ICT-linked service providers (call/contact centers). PROVENANCE (R81): art. 12 bis was ADDED by D-19-2016 art. 7 (tag 31-03-2016) — D-38-04 (2005) never created it (D-38-04 touched arts. 1/3/3 bis/12/13/14/29/33/36 ter/40 per the tag ledger). **UPDATE 2026-08-22: verbatim CONFIRMED IN PRIMARY (84_, EVID-749/785): the closing ¶ ends "…que ofrecen los centros de llamadas o centros de contacto." — the truncation vs art. 8 bis (which adds "desarrollo de software, desarrollo de contenido digital") is REAL statute text, not a print defect; both texts carried verbatim, never normalized (FR-066/068 permanent guard — interpretation outside the corpus)** | `gt/sources/69_Maquila_Ley_D29-89.pdf` | p.7, art. 12 bis intro + closing ¶ + tag (EVID-718) |
 | LB-008 | Ley D-29-89 art. 12 bis a), b): a) suspensión of DAI + import taxes incl. IVA on "las materias primas, productos semielaborados, productos intermedios, materiales, envases, empaques y etiquetas, de conformidad con los listados autorizados en la resolución de calificación emitida por el Ministerio de Economía, hasta por un plazo de un (1) año contado a partir de la fecha de aceptación de la Declaración Aduanera de Importación o el Formulario Aduanero Único Centroamericano respectivo." / b) same 1-year suspensión for "los muestrarios, muestras de ingeniería, instructivos, patrones y modelos necesarios para el proceso de producción o para fines demostrativos de investigación e instrucción" | Productora/prestadora input-side suspensión: (a) the same input universe and 1-year-per-accepted-declaration window as classic art. 12, keyed to the calificación lists; (b) the same window for samples, engineering samples, instruction materials, patterns and models needed for the production process or for demonstration/research/instruction purposes | `gt/sources/69_Maquila_Ley_D29-89.pdf` | p.7, art. 12 bis a), b) (EVID-718) |
 | LB-009 | Ley D-29-89 art. 12 bis c), e): c) "Exoneración total de los derechos arancelarios e impuestos a la importación con inclusión del Impuesto al Valor Agregado, a la importación de maquinaria, equipo, partes, componentes y accesorios, necesarios para el proceso productivo, debidamente descritos en la resolución de calificación del Ministerio de Economía." / e) suspensión of the same duties/taxes "de maquinaria, equipo, partes, componentes y accesorios necesarios para el proceso productivo debidamente identificados en la resolución de calificación" — "hasta por el plazo de un (1) año, contado a partir de la fecha de aceptación de la Declaración Aduanera de Importación o el Formulario Aduanero Único Centroamericano respectivo." | The machinery/equipment ALTERNATIVE: (c) TOTAL exoneration of import duties and taxes incl. IVA on machinery, equipment, parts, components and accessories needed for the productive process, described in the calificación resolution (no term printed); OR (e) the 1-year suspensión on the same class of goods (same per-declaration window anchor) — an either/or benefit shape, both resolution-identified | `gt/sources/69_Maquila_Ley_D29-89.pdf` | p.7, art. 12 bis c), e) (EVID-718) |
 | LB-010 | Ley D-29-89 art. 12 bis f): "Exoneración total de impuestos, derechos arancelarios y demás cargos aplicables a la importación y al consumo de fuel oil, gas butano y propano y bunker, estrictamente necesarios para la generación de energía eléctrica." | Total exoneration of taxes, import duties and other charges applicable to the IMPORT and CONSUMPTION of fuel oil, butane and propane gas and bunker, strictly necessary for ELECTRICITY GENERATION (self-generation purpose bound; note the maquila wording adds gas to the ZF sibling's list and applies to both import and consumption) | `gt/sources/69_Maquila_Ley_D29-89.pdf` | p.7, art. 12 bis f) (EVID-718) |
 | LB-011 | Ley D-29-89 art. 12 bis g): "No estará afecta al impuesto al Valor Agregado, la adquisición de insumos de producción local para ser incorporados en el producto final y servicios que sean utilizados exclusivamente en su actividad como productora bajo el Régimen de Admisión Temporal o como Prestadora de Servicios." | Local inputs/services outside IVA: acquisition of local production inputs for incorporation into the final product, and services used exclusively in the productora AT or prestadora activity, are not IVA-affected — operationalized through the SAT-authorized Constancias de Adquisición de Insumos cycle of reglamento art. 30 B (LB-017) | `gt/sources/69_Maquila_Ley_D29-89.pdf` | p.7, art. 12 bis g) (EVID-718) |
 | LB-012 | Ley D-29-89 art. 12 bis d): "Exoneración total del Impuesto Sobre la Renta, que se obtenga o provenga exclusivamente de la actividad autorizada en la resolución de calificación. Tal exoneración se otorgará por un período de diez (10) años, contados a partir de la fecha de notificación de la resolución de su calificación por el Ministerio de Economía. Para los efectos de aplicar la exoneración, los contribuyentes beneficiados deben llevar un sistema de contabilidad de costos e inventarios perpetuos, o en su defecto, el sistema de costos unitarios de operación. Las personas individuales o jurídicas domiciliadas en el exterior que tengan sucursales, agencias o establecimientos permanentes que operen en Guatemala calificados como productora bajo el Régimen de Admisión Temporal o como Prestadora de Servicios, no gozarán de la exoneración del Impuesto Sobre la Renta, si en su país de origen se otorga crédito por el Impuesto Sobre la Renta que se pague en la República de Guatemala." | THE 10-year ISR holiday clause (as printed): (i) total ISR exoneration only on income obtained or derived EXCLUSIVELY from the activity authorized in the calificación resolution; (ii) DIEZ (10) AÑOS counted from the date of NOTIFICACIÓN of the MINECO calificación resolution — a per-beneficiary clock, never a calendar window (the print carries no application deadline/sunset — see LB-018); (iii) bookkeeping condition: cost-accounting system + perpetual inventories, fallback = unit-cost-of-operation system; (iv) foreign-branch carve-out: exterior-domiciled persons whose GT branches/agencies/permanent establishments operate as productora AT or prestadora lose the exoneration if the home country grants credit for Guatemalan ISR | `gt/sources/69_Maquila_Ley_D29-89.pdf` | p.7, art. 12 bis d) (EVID-719) |
 | LB-013 | Ley D-29-89 arts. 13-14: art. 13: "…gozan del reembolso de los derechos arancelarios, impuestos a la importación e Impuesto al Valor Agregado, que hayan pagado en depósito para garantizar la internación de las materias primas… El plazo para solicitar el reembolso será de seis (6) meses contados a partir de la fecha de aceptación de la póliza de importación respectiva." (tags: D-38-04 art. 10; D-19-2016 art. 8) / art. 14: "…gozarán de franquicia por el valor equivalente por los derechos arancelarios, impuestos a la importación e Impuesto al Valor Agregado -IVA- pagados. Esta franquicia será utilizada para la reposición de materias primas, productos semielaborados, productos intermedios, materiales, envases, empaques y etiquetas que están directamente relacionados con su proceso de producción" (tag: D-38-04 art. 11) | Devolución (art. 13): deposit-paid duties + import taxes + IVA are reimbursable if claimed within SIX (6) MONTHS of acceptance of the respective import póliza (the refund itself is paid ≤30 days per law art. 30 / reglamento art. 42 — EVID-720 gloss). Reposición (art. 14): equivalent-value franchise for the duties/taxes/IVA paid, usable for replacement of inputs directly related to the production process | `gt/sources/69_Maquila_Ley_D29-89.pdf` | p.8, arts. 13 y 14 + tags (EVID-720) |
-| LB-014 | Ley D-29-89 arts. 15-18: "ARTICULO 15.* Derogado / *Se deroga por el Artículo 20, del Decreto Del Congreso Número 19-2016 el 31-03-2016" / art. 16: "Las empresas calificadas bajo el Régimen de Admisión Temporal podrán subcontratar los servicios productivos de otras empresas calificadas o no, notificando previamente a la Dirección de Política Industrial del Ministerio de Economía, la que a su vez notificará a la SAT…" / art. 17: transfers of inputs/machinery between calificadas "siempre que el adquiriente goce de iguales o mayores beneficios que el cedente y que demuestre que los bienes a transferirse intervienen directamente en la actividad de producción de la empresa…" / art. 17 bis: "…podrán contratar los servicios de personal técnico especializado del exterior, para lo cual el Ministerio de Trabajo y Previsión Social otorgará permisos automáticos por un período de duración de tres meses, durante los cuales deberán completarse los requisitos solicitados por dicha Institución." / art. 18: "Los beneficios establecidos en la presente Ley y conferidos por el Ministerio de Economía, no podrán ser transferidos a ningún título." (tag: D-19-2016 art. 9) | Art. 15 — the pre-2016 maquila/exportadora ISR holiday — is DEROGATED by D-19-2016 art. 20 and its text is NOT recoverable from this print (only "Derogado" + tag — GOQ-08). Art. 16: AT-calificadas may subcontract productive services from other calificadas or non-calificadas enterprises with PRIOR notice to the Dirección de Política Industrial (which notifies SAT). Art. 17: inter-beneficiary transfers of inputs/machinery only where the acquirer enjoys equal-or-greater benefits and the goods directly intervene in its production. Art. 17 bis: automatic MinTrabajo permits for specialized foreign technical personnel for a THREE-MONTH period within which requirements are completed. Art. 18: benefits are non-transferable at any title | `gt/sources/69_Maquila_Ley_D29-89.pdf` | p.8, arts. 15, 16, 17, 17 bis, 18 (EVID-721) |
+| LB-014 | Ley D-29-89 arts. 15-18: "ARTICULO 15.* Derogado / *Se deroga por el Artículo 20, del Decreto Del Congreso Número 19-2016 el 31-03-2016" / art. 16: "Las empresas calificadas bajo el Régimen de Admisión Temporal podrán subcontratar los servicios productivos de otras empresas calificadas o no, notificando previamente a la Dirección de Política Industrial del Ministerio de Economía, la que a su vez notificará a la SAT…" / art. 17: transfers of inputs/machinery between calificadas "siempre que el adquiriente goce de iguales o mayores beneficios que el cedente y que demuestre que los bienes a transferirse intervienen directamente en la actividad de producción de la empresa…" / art. 17 bis: "…podrán contratar los servicios de personal técnico especializado del exterior, para lo cual el Ministerio de Trabajo y Previsión Social otorgará permisos automáticos por un período de duración de tres meses, durante los cuales deberán completarse los requisitos solicitados por dicha Institución." / art. 18: "Los beneficios establecidos en la presente Ley y conferidos por el Ministerio de Economía, no podrán ser transferidos a ningún título." (tag: D-19-2016 art. 9) | Art. 15 — the pre-2016 maquila/exportadora ISR holiday — is DEROGATED by D-19-2016 art. 20 and its text is NOT recoverable from this print (only "Derogado" + tag — GOQ-08). **UPDATE 2026-08-22 (chain read 94_/84_, EVID-762/763/786 — registry correction): art. 15 was the CANT BENEFITS article (by position; incisos b) ISR 10 años + d) fuel "dentro de la propia planta productora"), NOT the AT holiday home; the maquiladora/exportadora-AT holiday lived in art. 12 c) (10 años from notificación, export-pure income, separate-export-cost-identification condition) and the Devolución holiday in art. 13 a). Arts. 12/13 ISR incisos were eliminated SILENTLY by D-19-2016's wholesale restatements (arts. 6/8 — "el cual queda así", never named as derogated); art. 15 by express derogation (art. 20). The 2005-2016 texts are recovered from 94_ as HISTORY rows; the 1989-2004 states of arts. 12/13/15 remain unrecoverable (pre-D-38-2004 claims stay fenced — FR-087).** Art. 16: AT-calificadas may subcontract productive services from other calificadas or non-calificadas enterprises with PRIOR notice to the Dirección de Política Industrial (which notifies SAT). Art. 17: inter-beneficiary transfers of inputs/machinery only where the acquirer enjoys equal-or-greater benefits and the goods directly intervene in its production. Art. 17 bis: automatic MinTrabajo permits for specialized foreign technical personnel for a THREE-MONTH period within which requirements are completed. Art. 18: benefits are non-transferable at any title | `gt/sources/69_Maquila_Ley_D29-89.pdf` | p.8, arts. 15, 16, 17, 17 bis, 18 (EVID-721) |
 | LB-015 | Ley D-29-89 art. 44: "Las empresas que al entrar en vigencia la presente Ley se encuentren gozando de beneficios al amparo del Decreto Ley número 21-84, continuarán en el disfrute de los mismos hasta su vencimiento. No obstante, las empresas que así lo deseen, deberán calificarse dentro de los doce (12) meses siguientes a la fecha que entre en vigencia la presente Ley. A las empresas así calificadas, se les deducirá de los nuevos beneficios, los años que hubieren gozado de exoneraciones del Impuesto sobre la Renta conforme al Decreto Ley 21-84." / art. 49: "Queda derogado el Decreto Ley número 21-84 y su Reglamento…" | 1989 transition (predecessor = Decreto Ley 21-84): beneficiaries at D-29-89 vigencia keep their DL 21-84 benefits until expiry; optional re-qualification within TWELVE (12) MONTHS of vigencia; on re-qualification, the ISR-exemption years already enjoyed under DL 21-84 are DEDUCTED from the new windows (anti-stacking; pairs with the ZF art. 53 sibling — `06_cross-regime-bridges.md` path-only) | `gt/sources/69_Maquila_Ley_D29-89.pdf` | pp.17-18, arts. 44, 45, 49, 50, 51 (EVID-731) |
 | LB-016 | Reglamento AG 533-89 arts. 27 y 27 bis: art. 27: "Las empresas calificadas que operen al amparo del artículo 12 bis de la Ley, deberán efectuar la determinación del Impuesto Sobre la Renta, conforme las disposiciones del Libro I del Decreto número 10-2012 del Congreso de la República de Guatemala y su reglamento, y presentar la declaración correspondiente por los medios que determine la SAT, cuando la totalidad de sus rentas sean exoneradas conforme a la Ley. Las personas calificadas a los efectos de la Ley, deberán acreditar ante la SAT, la resolución de calificación correspondiente y copia de la documentación presentada, dentro del plazo de quince (15) días, contados a partir de la fecha de notificación de dicha resolución. A la Declaración Jurada Anual del Impuesto Sobre la Renta, deberá acompañarse, como anexo, el informe del cómputo del impuesto…" (tag: AG 3-2017 art. 20) / art. 27 bis: "Para los efectos de lo previsto en los artículos 12 y 12 bis literales a), b) y e) de la Ley, el plazo no podrá ser ampliado por la Superintendencia de Administración Tributaria." (added AG 3-2017) | Even 100%-exonerated art. 12 bis beneficiaries DETERMINE and FILE ISR under Book I of the LAT (Decreto 10-2012) with an annual computation annex — the exoneration is a fiscal zeroing, never an exemption from filing; SAT accreditation of the calificación resolution within FIFTEEN (15) DAYS of its notificación; the 1-year suspensión windows of arts. 12 and 12 bis a)/b)/e) are HARD — SAT cannot extend them | `gt/sources/70_Maquila_Reglamento_AG_533-89.pdf` | p.13, arts. 27 y 27 bis (EVID-737) |
 | LB-017 | Reglamento AG 533-89 art. 30 "B": beneficiaries "deberán solicitar ante la SAT la autorización para imprimir las Constancias de Adquisición de Insumos de Producción a proveedores locales, las que estarán obligadas a entregar a los proveedores locales por cada adquisición que se realice… para la adquisición de servicios que sean utilizados exclusivamente en la actividad como Productora… o Prestadora de Servicios que no se encuentran afectos al Impuesto al Valor Agregado… Los proveedores locales que reciban las constancias…, estarán obligados a presentar ante la SAT conjuntamente con la declaración del Impuesto al Valor Agregado, un reporte de las constancias recibidas… Asimismo, están obligados a identificar en la factura que emitan, el número y fecha de la resolución de calificación de la empresa Productora… o Prestadoras de Servicios beneficiadas." (tags: AG 4-2005; 3-2017) | The art. 12 bis g) valve operationalized: SAT-authorized Constancias de Adquisición de Insumos de Producción (production-input acquisition certificates) delivered to local suppliers per purchase; local suppliers report the constancias with their IVA declaration AND must print the beneficiary's calificación resolution number + date on their invoices — document-level integration both directions (the RetWeb-side surfaces are owned by fiscal-reporting/02 by exact id; this file records the beneficiary-side linkage only) | `gt/sources/70_Maquila_Reglamento_AG_533-89.pdf` | pp.15-16, art. 30 "B" (EVID-738) |
-| LB-018 | NEGATIVE findings (chain-wide sweeps of 69_ as consolidated through D-19-2016): NO sunset or application deadline is printed anywhere in the law (the "intemporal" epithet appears NOWHERE — R76; the regime is de-facto open-ended with a per-beneficiary 10-year clock under art. 12 bis d)); the 10-year ISR exoneration attaches ONLY to the art. 12 bis d) universe (productora AT vestuario/textiles SA ch. 50-63 + prestadora TIC/BPO to non-residents — never to maquiladora/exportadora AT); old art. 15's pre-reform text is unrecoverable (GOQ-08); no benefit duration other than the printed 1 año / 10 años / 6 meses / 3 meses / 5 años family exists in this chain | As printed: no application window shall be seeded for the maquila regime; "intemporal" is never a requirement term; the 10-year window is category-restricted; art. 15 holiday mechanics must never be invented | `gt/sources/69_Maquila_Ley_D29-89.pdf` | identity + benefit-schedule sweeps (EVID-711/719 gloss; synthesis benefit matrix, EV06b) |
+| LB-018 | NEGATIVE findings (chain-wide sweeps of 69_ as consolidated through D-19-2016): NO sunset or application deadline is printed anywhere in the law (the "intemporal" epithet appears NOWHERE — R76; the regime is de-facto open-ended with a per-beneficiary 10-year clock under art. 12 bis d)); the 10-year ISR exoneration attaches ONLY to the art. 12 bis d) universe (productora AT vestuario/textiles SA ch. 50-63 + prestadora TIC/BPO to non-residents — never to maquiladora/exportadora AT); old art. 15's pre-reform text is unrecoverable (2005-state recovered from 94_ as history — EVID-762/763/786; 1989-2004 states still outside the corpus); no benefit duration other than the printed 1 año / 10 años / 6 meses / 3 meses / 5 años family exists in this chain | As printed: no application window shall be seeded for the maquila regime; "intemporal" is never a requirement term; the 10-year window is category-restricted; art. 15 holiday mechanics must never be invented | `gt/sources/69_Maquila_Ley_D29-89.pdf` | identity + benefit-schedule sweeps (EVID-711/719 gloss; synthesis benefit matrix, EV06b) |
 
 ## 3. Functional Requirements
 
@@ -118,8 +126,9 @@ as printed.
   Régimen de Admisión Temporal (AT) as an ORDINARY ISR and IVA taxpayer
   whose ONLY D-29-89 law-level benefit is the art. 12 one-year DAI+IVA
   suspensión of FR-063 — and shall NEVER model, seed or compute an ISR
-  exoneration/holiday for these categories (the historical holiday lived in
-  old art. 15, now derogated — FR-087). Rejected myth (wave set): "maquila
+  exoneration/holiday for these categories (the 2005-2016 holidays lived
+  in old arts. 12 c) (AT), 13 a) (Devolución) and 15 b) (CANT) — all
+  three extinguished 2016, FR-087; EVID-786). Rejected myth (wave set): "maquila
   = ISR-exempt". The ordinary-taxpayer retention surface is consumed by
   exact id, never re-derived: GT-TAX-FR-071 (exporter-agent calificación),
   GT-TAX-FR-072 (65%/15% dated rows incl. the 65% rate for D.29-89
@@ -176,7 +185,15 @@ as printed.
   exoneration applies to all maquilas" — any attempt to open a 12 bis
   benefit row for maquiladora AT, exportadora AT, exportadora Devolución,
   exportadora Reposición or exportadora CANT is refused at the model level.
-  (LB-007; EVID-718; R75)
+  PRIMARY-VERBATIM GUARD (84_ read 2026-08-22, EVID-749/785): the closing
+  ¶ is CONFIRMED real statute text and ends "…que ofrecen los centros de
+  llamadas o centros de contacto." — it does NOT contain "desarrollo de
+  software, desarrollo de contenido digital" while art. 8 bis (EVID-748)
+  and reglamento 10 bis a) (95_, EVID-774) DO name them: the asymmetry is
+  verbatim statute, never normalized — both texts are carried verbatim and
+  which reading governs the benefit gate is interpretation OUTSIDE the
+  corpus (PERMANENT guard; it survives the GOQ-08 resolution).
+  (LB-007; EVID-718/748/749/785; R75)
 - **GT-SPR-FR-067:** The system shall scope the productora-AT textiles
   universe by the art. 3 a) gate: goods included in SECCIÓN XI of the
   Sistema Armonizado (materias textiles y sus manufacturas), CAPÍTULOS 50
@@ -191,7 +208,13 @@ as printed.
   beneficiary serving residents carries no 12 bis benefits (resident-facing
   revenue is out of the universe, mirroring the ZF art. 22 b) TAN carve-out
   consumed from `01_zf-exemption-schedules.md` by analogy only, never
-  re-derived). (LB-005; EVID-716)
+  re-derived). PRIMARY-VERIFIED 2026-08-22 (84_, EVID-748/785): art. 8 bis
+  names "…centros de llamadas o centros de contacto, desarrollo de
+  software, desarrollo de contenido digital…" — kept verbatim (printed
+  "tecnologías de la información y comunicación" here vs the 12 bis closing
+  ¶'s "tecnologías de información" — both kept exact); this breadth vs the
+  12 bis closing ¶'s truncation (FR-066) is the permanent asymmetry guard.
+  (LB-005; EVID-716/748/785)
 
 ### 3.3 Calificación categories and the dual rule (arts. 6, 19, 7)
 
@@ -307,16 +330,28 @@ as printed.
   (calendar-year liquidation period) of
   `gt/requirements/taxation/05_isr-lucrativas-capital.md` — never
   re-derived here. (LB-016; EVID-737)
-- **GT-SPR-FR-079:** The system shall enforce the R81 provenance guard and
-  the GOQ-08 fence on every 12 bis window row: art. 12 bis was ADDED by
-  D-19-2016 art. 7 (tag "Se adiciona por el Artículo 7, del Decreto Del
-  Congreso Número 19-2016 el 31-03-2016") — D-38-04 shall NEVER be cited as
-  the 12 bis creator (it touched arts. 1/3/3 bis/12/13/14/29/33/36 ter/40);
-  and D-19-2016's own transitional clauses (treatment of pre-existing
-  beneficiaries and pre-2016 ISR windows) are UNREADABLE without its text —
-  every 12 bis window row carries the goq08 provenance-limited flag with
-  tag-verbatim durations only; no inferred transitional mechanics shall be
-  seeded. (LB-007; LB-001; EVID-718/711; R81; GOQ-08 → OQ-001)
+- **GT-SPR-FR-079:** The system shall enforce the R81 provenance guard on
+  every 12 bis window row: art. 12 bis was ADDED by D-19-2016 art. 7 (tag
+  "Se adiciona por el Artículo 7, del Decreto Del Congreso Número 19-2016
+  el 31-03-2016" — primary-verified from `84_`, EVID-749; the 12 bis d)
+  text byte-consistent, EVID-750) — D-38-04 shall NEVER be cited as
+  the 12 bis creator (it touched arts. 1/3/3 bis/12/13/14/29/33/36
+  ter/40; no "12 bis" string exists anywhere in `94_` — R81 confirmed,
+  EVID-766). D-19-2016's transitional clause is NOW READABLE: the
+  UNTITLED art. 18 (84_, EVID-753 — one of only four transitional
+  articles, none of the maquila-side ones titled "Transitorio") = a
+  DATED ROW: MINECO, within TREINTA (30) DÍAS CALENDARIO of the ley's
+  vigencia, shall via ACUERDO MINISTERIAL allow calificadas "bajo el
+  régimen descrito en el artículo 8 bis" whose ISR-exoneración grants
+  run short of DIEZ (10) AÑOS to complete the statutory term — recorded
+  as provenance + top-up predicate only; the ordered Acuerdo Ministerial
+  is NOT in corpus and which pre-existing population art. 18 covers (an
+  article the same decree creates) is not textually derivable (chain
+  OQ-4): no top-up computation is seeded. The 12 bis window rows carry
+  the primary-verified provenance (instrument + article, 84_) with the
+  8-bis/12-bis asymmetry guard of FR-066/068.
+  (LB-007; LB-001; EVID-718/711 + 748/749/750/753/766/785; R81;
+  GOQ-08 → OQ-001 resolved)
 - **GT-SPR-FR-080:** The system shall enforce the R76 no-sunset guards: NO
   application deadline, sunset or global window constant exists for the
   maquila regime (none is printed — the regime is de-facto open-ended, each
@@ -395,15 +430,27 @@ as printed.
 
 ### 3.8 Derogated art. 15 and bounded operational rows (arts. 15-18)
 
-- **GT-SPR-FR-087:** NEGATIVE ANCHOR: the system shall NOT implement any
-  ISR holiday, exoneration or window for maquiladora/exportadora AT
-  enterprises under the current text — art. 15 (the pre-2016
-  maquila/exportadora ISR clause) prints ONLY "Derogado" (derogated by
-  D-19-2016 art. 20) and its text is unrecoverable from this corpus
-  (GOQ-08): pre-2016 holiday mechanics shall NEVER be invented, and
-  pre-2016 beneficiaries are unmodelable pending the D-19-2016 acquisition
-  (their treatment lives in D-19-2016's unreadable transitional clauses —
-  OQ-001). (LB-014; LB-018; EVID-721; R75; GOQ-08 → OQ-001)
+- **GT-SPR-FR-087:** NEGATIVE ANCHOR (amended 2026-08-22 — D-19-2016
+  delivered as `84_`): the system shall NOT implement any ISR holiday,
+  exoneration or window for maquiladora/exportadora AT/Devolución/CANT
+  enterprises under the current text — the pre-2016 ISR TRIO is
+  extinguished: art. 12 c) (AT) and art. 13 a) (Devolución) eliminated
+  SILENTLY by D-19-2016's wholesale restatements (arts. 6/8 — replaced
+  texts never named as derogated), art. 15 (the CANT benefits article:
+  15 b) ISR + 15 d) fuel "dentro de la propia planta productora") by
+  express derogation (art. 20, EVID-749/753). HISTORY ROWS (recovered
+  from `94_`, EVID-762/763/786 — never current law): the 2005-2016
+  trio was art. 12 c) / art. 13 a) / art. 15 b), each 10 años from
+  notificación, export-pure income, foreign-credit carve-out, the AT
+  clause carrying the separate-export-cost-identification accounting
+  condition (dropped in 2016's 12 bis d) — EVID-750) and 15 d)'s
+  "propia planta" fuel qualifier. The 1989-2004 states of arts.
+  12/13/15 are UNRECOVERABLE (outside the corpus): pre-D-38-2004
+  claims stay fenced — no mechanics invented, no pre-2005 beneficiary
+  modeling (the readable art.-18 top-up predicate is recorded at
+  FR-079, provenance-only).
+  (LB-014; LB-018; EVID-721 + 749/753/762/763/786; R75; GOQ-08 →
+  OQ-001 resolved)
 - **GT-SPR-FR-088:** The system shall implement the art. 16
   subcontratación row: AT-calificadas may subcontratar productive services
   to other calificadas OR non-calificadas enterprises, subject to PRIOR
@@ -492,7 +539,7 @@ the wave index may consolidate them later).
 | l10n_gt_regimes.benefit_window | kind_class | select | suspension · exoneración · no_afectacion (never merged) | FR-062 |
 | l10n_gt_regimes.benefit_window | universe_tags | json | textiles_sa_50_63 · tic_nonresidents (12 bis rows only) | FR-066, FR-067, FR-068 |
 | l10n_gt_regimes.benefit_window | carveout_flags · conditions_state | boolean pair + select | exterior_domiciled + home_country_credit (suppresses 12 bis d)); cost_accounting_primary · costos_unitarios_fallback | FR-076, FR-077 |
-| l10n_gt_regimes.benefit_window | goq08_flag · instrument_provenance | boolean + json | all 12 bis rows + post-2016 claims carry the provenance-limited flag; instrument + article + tag per D16 (12 bis = added D-19-2016 art. 7 — R81) | FR-079 |
+| l10n_gt_regimes.benefit_window | goq08_flag · instrument_provenance | boolean + json | 12 bis rows carry the primary-verified flag (84_, EVID-749/750); instrument + article per D16 (12 bis = added D-19-2016 art. 7 — R81); art.-18 top-up = provenance/predicate-only row (FR-079) | FR-079 |
 
 **Calificación registry (l10n_gt_regimes.calificacion):**
 
@@ -519,7 +566,7 @@ the wave index may consolidate them later).
 |--------|-------|------|------------------|-----------|
 | l10n_gt_regimes.dated_value | key | char | maquila_suspension_window (1 año) · maquila_isr_window_12bis_d (10 años) · maquila_devolucion_claim (6 meses) · maquila_tecnico_permit (3 meses) · maquila_commodity_exclusion (art. 2 list) · maquila_category_catalog (7 + exclusion matrix) · maquila_benefit_matrix | FR-064, FR-065, FR-069, FR-073, FR-090, FR-093 |
 | l10n_gt_regimes.dated_value | instrument_identity | json | D-29-89 printed title + given 1989-05-23 + promulgated 1989-06-13 + vigencia DCA+30 (DCA unprinted — GOQ-135 kin flag); consolidated through D-19-2016 | FR-081 |
-| l10n_gt_regimes.dated_value | negative_anchors | json | no sunset/application window (R76); "intemporal" banned term; art. 15 derogated (no holiday mechanics); 10-year restricted to 12 bis d) universe | FR-080, FR-087 |
+| l10n_gt_regimes.dated_value | negative_anchors | json | no sunset/application window (R76); "intemporal" banned term; ISR trio arts. 12 c)/13 a)/15 b) extinguished 2016 (2005-state history rows only — EVID-786; 1989-2004 texts unrecoverable, pre-2005 fenced); 10-year restricted to 12 bis d) universe | FR-080, FR-087 |
 
 **Transaction surfaces (on purchase/sale documents):**
 
@@ -558,7 +605,7 @@ required by this file.
 | FR-076 | odoo | calificacion conditions_state | gates | GT-COA-FR-047/048/049 consumed by id; alert not auto-close |
 | FR-077 | odoo | benefit_window carveout_flags | suppression pair | Application-time renta-mundial test = SR4 pointer |
 | FR-078 | odoo | ISR return surface | exonerado valve | GT-TAX-FR-152/153 by id; 15-day SAT accreditation |
-| FR-079 | shared | benefit_window goq08_flag | provenance fence | R81: 12 bis added by D-19-2016 art. 7, never D-38-04 |
+| FR-079 | shared | benefit_window goq08_flag | primary-verified provenance | R81 (84_-confirmed): 12 bis added by D-19-2016 art. 7, never D-38-04; art.-18 top-up dated row (predicate-only; its Acuerdo Ministerial not in corpus) |
 | FR-080 | shared | negative_anchors | R76 guards | No sunset; "intemporal" banned; no global window |
 | FR-081 | shared | dated_value instrument_identity | identity row | Printed title (R76); DCA+30 formula + unknown flag |
 | FR-082 | odoo | benefit_window machinery election | c) XOR e) | Items resolution-identified; c) term = resolution (SR4 feed) |
@@ -566,7 +613,7 @@ required by this file.
 | FR-084 | shared | benefit matrix rows | fuel exoneration | Self-generation predicate; import + consumption |
 | FR-085 | odoo | account.move iva_no_afecta_basis | local purchases | Exclusive-use predicate; GOQ-01 kin note |
 | FR-086 | saas | constancia linkage surfaces | beneficiary-side only | GT-FIN-FR-052/054/055/065/066/068/069 pointer-only; GOQ-140 kin |
-| FR-087 | shared | negative_anchors | art. 15 derogated | No holiday mechanics; GOQ-08 fence |
+| FR-087 | shared | negative_anchors | ISR trio extinguished 2016 | No holiday mechanics; 2005-state (94_) history rows only; pre-2005 (1989-2004) texts fenced |
 | FR-088 | odoo | l10n_gt_regimes.subcontract | notified linkage | Prior DPI notification → SAT |
 | FR-089 | odoo | l10n_gt_regimes.benefit_transfer | parity + use checks | Art. 17 predicates |
 | FR-090 | odoo | l10n_gt_regimes.technician_permit | 3-month permits | Automatic MinTrabajo; completion state |
@@ -582,8 +629,10 @@ domain anchor date and carries instrument provenance (D-29-89 arts. 2, 3,
 27 bis + 30 B read through the 71_/AG-3-2017 correction layer). Windows
 are per-beneficiary or per-import rows keyed by qualification/declaration
 events with valid_from computed from the event — never global constants;
-the art. 12 bis family is provenance-limited to the D-19-2016 consolidation
-tags (GOQ-08) and the 1-year suspensión terms are non-extendable. No hard
+the art. 12 bis family is primary-verified from
+`84_` (GOQ-08 resolved 2026-08-22) with the 8-bis/12-bis closing-¶
+asymmetry carried verbatim as a permanent guard (FR-066/068), and the
+1-year suspensión terms are non-extendable. No hard
 emission/posting gates exist in this file beyond the universe gate
 (FR-066), the art. 2 exclusion (FR-065) and the non-transferability guard
 (FR-091); compliance cadence and sanction ladders are recorded exposure
@@ -614,7 +663,7 @@ owned by the SR5 file.
   conditions-state pair (contabilidad de costos + inventarios perpetuos |
   costos unitarios fallback) is present and cross-checks the
   chart-of-accounts invariants consumed from GT-COA-FR-047/048/049, and
-  the row carries the goq08 provenance-limited flag.
+  the row carries the primary-verified provenance flag (84_).
   (FR-075, FR-076, FR-079)
 - **AC-005:** Given an exterior-domiciled parent with a GT permanent
   establishment operating as prestadora whose home country credits
@@ -678,14 +727,19 @@ owned by the SR5 file.
 Master-index GOQ ids (register `gt/.extractions/00_MASTER_INDEX.md` §C);
 this file owns GOQ-08's maquila BENEFIT half (transitional clauses + old
 art. 15 text — the ZF-chain half sits with `02_zf-chain-regime.md` OQ-001,
-which also anchors the wave's D-19-2016 dependency). Kin annotations
-in-file: GOQ-135 (maquila chain effective dates — D-29-89 DCA+30 with DCA
-unprinted, stored by FR-081 as formula + flag; full maquila-half ownership
-sits with the SR4 file per the file-02 split), GOQ-140 (platform-name
-currency — FR-086's saas rows never assert current module names) and
-GOQ-01 (IVA-geometry rows of FR-085 ride the consolidated-IVA-print note).
-No gaps beyond the 140-GOQ register were treated as open questions.
+which also anchors the wave's D-19-2016 dependency) — **RESOLVED
+2026-08-22: D-19-2016 = `84_` primary-read (chain unit with D-38-04 =
+`94_`, AG 4-2005 = `91_`, AG 3-2017 = `95_`; EVID-746..789)**. Kin
+annotations in-file: GOQ-135 (maquila chain effective dates — D-29-89
+DCA+30 with DCA unprinted, stored by FR-081 as formula + flag; full
+maquila-half ownership sits with the SR4 file per the file-02 split),
+GOQ-140 (platform-name currency — FR-086's saas rows never assert
+current module names) and GOQ-01 (IVA-geometry rows of FR-085 ride the
+consolidated-IVA-print note). Beyond the 140-GOQ register, no new OQ was
+opened here: the 8-bis/12-bis asymmetry is kept as a PERMANENT verbatim
+guard (FR-066/068 — interpretation outside the corpus), and the
+pre-2005-text fence is a confirmed corpus gap, not a register question.
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
-| OQ-001 | GOQ-08 (owned, maquila benefit half): "D-19-2016 (Ley Emergente para la Conservación del Empleo) — THE blocking acquisition for special regimes: post-2016 ZF ISR windows, maquila transitional clauses + old art. 15 text, arts. 4 bis/8 bis/12 bis/39 bis/43 bis provenance." For this file: D-19-2016's transitional clauses (treatment of pre-existing maquila beneficiaries and pre-2016 ISR windows) and the pre-reform art. 15 text are unreadable — FR-079 fences every 12 bis window to consolidation-tag-verbatim and FR-087 blocks all pre-2016 holiday modeling; pre-2016 beneficiaries are unmodelable pending acquisition. Acquisition of D-19-2016 re-opens FR-079/FR-087 (and the category-catalog shapes of FR-069). | yes | GT synthesis wave S-GT6/S-GT7 (acquisition queue, top priority) | open |
+| OQ-001 | GOQ-08 (owned, maquila benefit half): "D-19-2016 (Ley Emergente para la Conservación del Empleo) — THE blocking acquisition for special regimes: post-2016 ZF ISR windows, maquila transitional clauses + old art. 15 text, arts. 4 bis/8 bis/12 bis/39 bis/43 bis provenance." For this file: D-19-2016's transitional clauses (treatment of pre-existing maquila beneficiaries and pre-2016 ISR windows) and the pre-reform art. 15 text are unreadable — FR-079 fences every 12 bis window to consolidation-tag-verbatim and FR-087 blocks all pre-2016 holiday modeling; pre-2016 beneficiaries are unmodelable pending acquisition. **RESOLVED in-corpus 2026-08-22: D-19-2016 = `84_` primary-read end-to-end (EVID-746..758), chain unit with D-38-04 = `94_` (EVID-759..766), AG 4-2005 = `91_` (EVID-767..771), AG 3-2017 = `95_` (EVID-772..782), synthesis EVID-783..789 — transitional clause readable: the UNTITLED art. 18 = 10-year ISR top-up via Acuerdo Ministerial within 30 días calendario for art.-8-bis-regime calificadas (EVID-753; predicate-only, its Acuerdo Ministerial not in corpus); the "old art. 15 text" question answered with a registry correction: art. 15 = the CANT benefits article (15 b) ISR + 15 d) fuel), the AT holiday was art. 12 c) and Devolución's art. 13 a) — 2005-2016 texts recovered from 94_ as history rows (EVID-762/763/786); 12 bis d) text primary-verified byte-consistent (EVID-750); the 8-bis/12-bis closing-¶ asymmetry CONFIRMED verbatim and kept as a PERMANENT guard (FR-066/068; EVID-785 — interpretation outside corpus). Residual fence: the 1989-2004 states of arts. 12/13/15 remain unrecoverable — pre-D-38-2004 claims stay fenced (FR-087). FR-079/FR-087 amended.** | yes | GT synthesis wave S-GT6/S-GT7 (acquisition queue — delivered 2026-08-22; AG 52-2017 head watcher) | resolved (2026-08-22; pre-2005 fence + permanent asymmetry guard residual) |

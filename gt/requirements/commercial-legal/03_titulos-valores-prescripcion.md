@@ -6,7 +6,7 @@
 | Topic   | commercial-legal |
 | Status  | draft |
 | Authors | GT synthesis wave S-GT5 |
-| Updated | 2026-08-21 |
+| Updated | 2026-08-22 (GOQ-147 backfill: Código Civil 92_ EVID-931..951) |
 
 ## 1. Purpose
 
@@ -44,11 +44,14 @@ never citing FEL duties to arts. 591-604); and the **PRESCRIPTION
 MATRIX** — one FR per clock: cambiaria directa 3 y / regreso 1 y /
 obligado recourse 6 m; enriquecimiento 1 y; cheque 6 m; cheques de
 viajero 2 y; debentures intereses 5 y / principal 10 y; transporte
-6 m; seguro 2 y; fianza 2 y; the D2946 old-code 5-year catch-all
-(R65-flagged); and the load-bearing negative-FR that CCom enacts NO
-general commercial prescription period (art. 1 defers to Civil law) —
-consumed forward by the Task 7 retention/destruction matrix and by
-receivables/payables aging surfaces.
+  6 m; seguro 2 y; fianza 2 y; the D2946 old-code 5-year catch-all
+  (R65-flagged); and the load-bearing finding that CCom enacts NO
+  general commercial prescription period (art. 1 defers to Civil law)
+  — whose Civil fallback is NOW corpus-anchored (92_, GOQ-147
+  resolved): CC art. 1508's "cinco años, contados desde que la
+  obligación pudo exigirse" default behind the art.-1516 special-law
+  gateway — consumed forward by the Task 7 retention/destruction
+  matrix and by receivables/payables aging surfaces.
 
 It does **not** cover: the books/PCGA anchor, document-conservation
 floor and destruction-gate predicate
@@ -96,10 +99,20 @@ consumed by id, never re-derived. Quotation sources: the committed
 evidence files `gt/.extractions/66_CCom_sociedades_comercial.evidence.md`
 (EV05b; EVID-536..569) and `gt/.extractions/66_CCom_libros_contabilidad.evidence.md`
 (EV05a; EVID-517), verified against the scan text layer
-`gt/.extractions/66_Codigo_Comercio_D2-70.pdf.txt`. Gloss-derived
+`gt/.extractions/66_Codigo_Comercio_D2-70.pdf.txt`; and, for the
+Civil fallback (GOQ-147, resolved 2026-08-22),
+`gt/.extractions/92_Codigo_Civil.evidence.md` (EVID-931..951),
+verified against `gt/.extractions/92_Codigo_Civil_DtoLey106.pdf.txt` —
+the Código Civil is cited as **Decreto-Ley 106** (DCA 07-oct-1963,
+vigencia 01-jul-1964 per art. 2178 as reformed by D-180), ONSEC
+registry edition with **consolidation horizon ≥ 26-ago-2008** (EVID-931/932):
+every CC-anchored row below carries the post-2008-staleness caveat
+(reforms after 26-ago-2008 are invisible in this edition — live-text
+cross-check before modeling, EVID-951). Gloss-derived
 content (species article ranges, unstated-maturity default, art. 625
-caducidad discipline, the acciones-amortizadas matrix row) is marked
-"per the evidence gloss" throughout.
+caducidad discipline) is marked "per the evidence gloss" throughout;
+the acciones-amortizadas row is upgraded to STATUTORY (CCom art. 577
+¶2 prints the dies a quo — EVID-950, GOQ-147 resolution).
 
 | ID | Citation (Spanish) | English translation | Source file | Location |
 |----|--------------------|---------------------|-------------|----------|
@@ -115,8 +128,10 @@ caducidad discipline, the acciones-amortizadas matrix row) is marked
 | LB-010 | CCom arts. 594-595: art. 594: "Además de los requisitos que establece el artículo 386, la factura cambiaria deberá contener: 1º. El número de orden del título librado. 2º. El nombre y domicilio del comprador. 3º. La denominación y características principales de las mercaderías vendidas. 4º. El precio unitario y el precio total de las mismas. La omisión de cualquiera de los requisitos… no afectará la validez del negocio jurídico… pero ésta perderá su calidad de título de crédito." / art. 595: "Cuando el pago haya de hacerse en abonos… 1º. El número de abonos. 2º. La fecha de vencimiento de los mismos. 3º. El monto de cada uno. Los pagos parciales se harán constar en la misma factura…" | Beyond article 386's requisites, the factura cambiaria must contain: 1º the ORDER NUMBER of the drawn title; 2º the buyer's name and domicile; 3º the denomination and principal characteristics of the merchandise sold; 4º the UNIT price and the TOTAL price. Omission of any of these requisites does not affect the validity of the legal business… but it LOSES its quality as a título de crédito. When payment is to be made in installments (abonos): 1º the number of installments; 2º their maturity dates; 3º the amount of each. PARTIAL PAYMENTS are recorded on the invoice itself | `gt/sources/66_Codigo_Comercio_D2-70.pdf` | p.123, arts. 594-595 (EVID-564) |
 | LB-011 | CCom arts. 596/597/599/600/601/602/604: art. 596: "…Si la factura no acompañase las mercaderías o documentos representativos de éstas, deberá ser enviada por el vendedor en un término no mayor de tres días al de su libramiento, que nunca podrá exceder en cuarenta y ocho horas al de la entrega o despacho de las mercaderías…" / art. 597: "Si el vendedor enviase la factura cambiaria por correo, deberá hacerlo por correo certificado con aviso de recepción…" / art. 599: "El comprador deberá devolver al vendedor la factura cambiaria, debidamente aceptada: 1º. Dentro de un plazo de cinco días a contar de la fecha de su recibo, si la operación se ejecuta en la misma plaza. 2º. Dentro de un término de quince días a contar de la fecha de su recibo, si la operación se ejecuta en diferente plaza." / art. 600: "El comprador podrá negarse a aceptar la factura: 1º. En caso de avería, extravío o no recibo de las mercaderías… 2º. Si hay defectos o vicios en la cantidad o calidad de las mercaderías. 3º. Si no contiene el negocio jurídico convenido. 4º. Por omisión de cualquiera de los requisitos que dan a la factura cambiaria su calidad de título de crédito." / art. 601: "La factura cambiaria podrá ser protestada por falta de aceptación o por falta de pago. La no devolución de la factura cambiaria se entenderá como falta de aceptación." / art. 602: "El protesto por falta de aceptación, deberá levantarse dentro de los dos días hábiles siguientes al vencimiento del plazo estipulado en el artículo 599…" / art. 604: "Los comerciantes deberán conservar ordenadamente, por el término de cinco años, las facturas cambiarias que hubieren librado o copias de las mismas." | If the factura does not accompany the goods or their representative documents, the seller must send it within a term NOT greater than THREE DAYS from drawing, which may never exceed FORTY-EIGHT HOURS from delivery or dispatch of the goods. If sent by mail: certified mail with acknowledgment of receipt. The buyer must return the factura cambiaria duly accepted: 1º within FIVE DAYS from receipt, if the transaction is executed in the same plaza (market/town); 2º within FIFTEEN DAYS from receipt, if in a different plaza. The buyer may refuse acceptance: 1º damage, loss or non-receipt of the goods; 2º defects in quantity or quality; 3º it does not contain the agreed legal business; 4º omission of any requisite giving the factura its título de crédito quality. The factura cambiaria may be protested for lack of acceptance or lack of payment; NON-RETURN is understood as lack of acceptance. Protest for non-acceptance must be raised within the TWO BUSINESS DAYS following expiry of art. 599's period. Merchants must conserve ORDERLY, for the term of FIVE YEARS, the facturas cambiarias they have drawn or copies thereof | `gt/sources/66_Codigo_Comercio_D2-70.pdf` | pp.123-125, arts. 596-604 (EVID-565) |
 | LB-012 | CCom arts. 626-628 + 409: art. 626: "La acción cambiaria directa, prescribe en tres años a partir del día del vencimiento." / art. 627: "La acción cambiaria de regreso del último tenedor prescribirá en un año, contado desde la fecha del vencimiento y en su caso, desde que concluyan los plazos de presentación, o si el título fuere con protesto, desde la fecha en que éste se haya levantado." / art. 628: "La acción del obligado, de regreso contra los demás obligados anterior, prescribe en seis meses, contados a partir de la fecha del pago voluntario o de la fecha de notificación de la demanda." / art. 409: "…puede exigir al creador la suma con que se haya enriquecido en su daño. Esta acción prescribe en un año, contado desde el día en que se extinguió la acción cambiaria." | The DIRECT cambiaria action prescribes in THREE YEARS from the day of maturity. The last holder's RECOURSE cambiaria action prescribes in ONE YEAR, counted from the maturity date and, where applicable, from the close of the presentation periods or — if the title is with protest — from the date the protest was raised. The obligated party's action of recourse against the other prior obligados prescribes in SIX MONTHS from the date of voluntary payment or of notification of the claim. [Art. 409] the holder may demand from the creator the sum by which he enriched himself to the holder's detriment; this ENRICHMENT action prescribes in ONE YEAR from the day the cambiaria action extinguished | `gt/sources/66_Codigo_Comercio_D2-70.pdf` | p.130, arts. 626-628; p.89, art. 409 (EVID-566) |
-| LB-013 | CCom arts. 541/577/799/916/1037 + D2946 (old code) art. 1313: art. 541: "Las acciones cambiarias contra el que expida o ponga en circulación cheques de viajero, prescribirán en dos años a partir de la fecha en que los cheques se hayan expedido." / art. 577: "Las acciones para el cobro de los intereses prescribirán en cinco años, y para el cobro del principal en diez." (obligaciones/debentures) / art. 799: "Las acciones derivadas del contrato de transporte prescribirán en seis meses, contados a partir del término del viaje, o de la fecha en que el pasajero o las cosas porteadas debieran llegar a su destino." / art. 916: "Todas las acciones que deriven de un contrato de seguro, prescribirán en dos años, contados desde la fecha del acontecimiento que les dio origen." / art. 1037: "Las acciones del beneficiario contra la afianzadora y las de esta contra los contrafiadores y reafianzadoras, prescribirán en dos años." / D2946 (old code) art. 1313: "Las acciones que proceden de las obligaciones de que trata el presente libro y que no tengan plazo señalado para prescribir, durarán cinco años." | Cambiaria actions against the issuer/circulator of TRAVELLER'S CHEQUES prescribe in TWO YEARS from the date the cheques were issued. [Debentures/obligaciones] actions to collect INTEREST prescribe in FIVE YEARS, and for collection of the PRINCIPAL in TEN. Actions derived from the TRANSPORT contract prescribe in SIX MONTHS, counted from the end of the journey or the date the passenger or carried goods should have arrived at destination. ALL actions deriving from an INSURANCE contract prescribe in TWO YEARS from the date of the originating event. The beneficiary's actions against the surety (afianzadora), and the surety's against co-sureties and reinsurers, prescribe in TWO YEARS. [Old code, maritime appendix — R65: cite as D2946 (old code) art. 1313, NEVER as D2-70] actions proceeding from the obligations of the present book lacking a stated prescription term last FIVE YEARS | `gt/sources/66_Codigo_Comercio_D2-70.pdf` | p.113 art. 541; p.120 art. 577; p.156 art. 799; p.185 art. 916; p.205 art. 1037; p.299 D2946 (old code) arts. 1308-1313 appendix (EVID-567) |
+| LB-013 | CCom arts. 541/577/799/916/1037 + D2946 (old code) art. 1313: art. 541: "Las acciones cambiarias contra el que expida o ponga en circulación cheques de viajero, prescribirán en dos años a partir de la fecha en que los cheques se hayan expedido." / art. 577: "Las acciones para el cobro de los intereses prescribirán en cinco años, y para el cobro del principal en diez. La prescripción de los títulos amortizados por sorteo correrá a partir de la fecha de la primera publicación exigida por el artículo 569." (obligaciones/debentures; ¶2 = the acciones-amortizadas dies a quo — EVID-950, GOQ-147 upgrade from gloss-only to statutory) / art. 799: "Las acciones derivadas del contrato de transporte prescribirán en seis meses, contados a partir del término del viaje, o de la fecha en que el pasajero o las cosas porteadas debieran llegar a su destino." / art. 916: "Todas las acciones que deriven de un contrato de seguro, prescribirán en dos años, contados desde la fecha del acontecimiento que les dio origen." / art. 1037: "Las acciones del beneficiario contra la afianzadora y las de esta contra los contrafiadores y reafianzadoras, prescribirán en dos años." / D2946 (old code) art. 1313: "Las acciones que proceden de las obligaciones de que trata el presente libro y que no tengan plazo señalado para prescribir, durarán cinco años." | Cambiaria actions against the issuer/circulator of TRAVELLER'S CHEQUES prescribe in TWO YEARS from the date the cheques were issued. [Debentures/obligaciones] actions to collect INTEREST prescribe in FIVE YEARS, and for collection of the PRINCIPAL in TEN; draw-amortized (sorteo) títulos: the prescription RUNS FROM the date of the FIRST publication required by art. 569 (¶2 — statutory dies a quo). Actions derived from the TRANSPORT contract prescribe in SIX MONTHS, counted from the end of the journey or the date the passenger or carried goods should have arrived at destination. ALL actions deriving from an INSURANCE contract prescribe in TWO YEARS from the date of the originating event. The beneficiary's actions against the surety (afianzadora), and the surety's against co-sureties and reinsurers, prescribe in TWO YEARS. [Old code, maritime appendix — R65: cite as D2946 (old code) art. 1313, NEVER as D2-70] actions proceeding from the obligations of the present book lacking a stated prescription term last FIVE YEARS | `gt/sources/66_Codigo_Comercio_D2-70.pdf` | p.113 art. 541; p.120 art. 577; p.156 art. 799; p.185 art. 916; p.205 art. 1037; p.299 D2946 (old code) arts. 1308-1313 appendix (EVID-567) |
 | LB-014 | CCom arts. 383/384/1 + transitorio X: art. 383: "Los documentos que conciernan especialmente a actos o negociaciones determinadas, podrán ser inutilizados o destruidos, pasado el tiempo de prescripción de las acciones que de ellos se deriven." / "Si hubiere pendiente alguna cuestión que se refiera a ellos directa o indirectamente, deberán conservarse hasta la terminación de la misma." / art. 384: "Queda al arbitrio del comerciante el sistema de archivo y custodia de valores, correspondencia y demás documentos del giro de su empresa." / art. 1: "Los comerciantes en su actividad profesional, los negocios jurídicos mercantiles y cosas mercantiles, se regirán por las disposiciones de este Código y, en su defecto, por las del Derecho Civil que se aplicarán e interpretarán de conformidad con los principios que inspira el Derecho Mercantil." / transitorio X: "Las disposiciones de este Código relativas a la prescripción, no se aplicarán en todos aquellos casos en que la misma ya hubiere empezado a correr conforme la ley anterior." | Documents concerning specific determined acts or negotiations may be cancelled or destroyed once the PRESCRIPTION PERIOD OF THE ACTIONS DERIVED FROM THEM has passed; if any matter concerning them directly or indirectly is PENDING, they must be conserved until its termination. The system of filing and custody of securities, correspondence and other business documents is at the merchant's discretion. Merchants, mercantile legal businesses and mercantile things are governed by this Code and, IN ITS ABSENCE, by Civil law, applied and interpreted in conformity with the principles inspiring Mercantile law. [Transitory X] this Code's prescription provisions do not apply where prescription had ALREADY begun running under the prior law | `gt/sources/66_Codigo_Comercio_D2-70.pdf` | p.85, arts. 383-384; p.2, art. 1; p.209, transitorio X (EVID-517) |
+| LB-015 | Código Civil (92_), identity + the fallback clock core, Dto-Ley 106: "CÓDIGO CIVIL / DECRETO-LEY NUMERO 106" (footnote: " Publicado en el Diario de Centro América el 07 de octubre de 1963."); art. 2178: "Este Código entrará en vigor el primero de julio de mil novecientos sesenta y cuatro." (texto D-180, DCA 27-Feb-1964); art. 1508: "La prescripción extintiva se verifica en todos los casos no mencionados en disposiciones especiales, por el transcurso de cinco años, contados desde que la obligación pudo exigirse; y si ésta consiste en no hacer, desde el acto contrario a la obligación." / art. 1509: "En las obligaciones a plazo y en las condiciones, se cuenta el término para la prescripción, desde que el plazo se cumple o la condición se verifica." / art. 1516: "Las disposiciones del presente capítulo se entienden sin perjuicio de lo que en este Código o en leyes especiales se establezca respecto a otros casos de prescripción." / art. 1511: "En las obligaciones con intereses, la prescri pci ón [sic split] del capital, vencido el plazo, se cuenta desde la fecha del último pago de los intereses." / art. 1512: "La prescripción de la obligación de rendir cuentas comienza a correr desde el día en que el obligado termina su administración; y la de la acción para cobrar el saldo de aquéllas, desde el día en que la cuenta sea aprobada por los interesados o por sentencia firme." / art. 2180: "…salvo el término de la prescripción que será el señalado por la ley vigente al tiempo en que la obligación fue contraída." | The Civil Code = Decreto-Ley 106 (given 14-sep-1963, DCA 07-oct-1963, VIGENCIA 01-jul-1964 per art. 2178 as reformed by D-180) — ONSEC registry print, pages 671-945, NO generation date, consolidation horizon ≥ 26-AUG-2008 (latest DCA date printed = D-39-2008): every CC-anchored row carries the post-2008-staleness caveat (EVID-931/932/951). THE FR-110 FALLBACK CLOCK (GOQ-147 resolved): extinctive prescription in all cases not covered by special provisions runs FIVE YEARS "contados desde que la obligación pudo exigirse" (from demandability; not-to-do obligations from the contrary act); plazo/condición obligations from maturity/verification (1509); interest-bearing capital (post-maturity) from the LAST INTEREST PAYMENT (1511 — rolling reset); cuentas from end of administration / approval (1512). Art. 1516 = the deference gateway: special prescriptions in this Code or special laws PREVAIL — the Civil 5y is the residual, never the override. Art. 2180 = dated-instrument conflict rule (prescription term = law in force when the obligation was contracted) | `gt/sources/92_Codigo_Civil_DtoLey106.pdf` | p.1 + fn. (identity, EVID-931); p.275 arts. 2178/2180 (EVID-932); pp.198-199 arts. 1508-1509, 1511-1512, 1516 (EVID-936/937/939) |
+| LB-016 | Código Civil (92_), mechanics + the short/long specials ledger: art. 1505: "No corre el término para la prescripción: 1. Contra los menores y los incapacitados, durante el tiempo que estén sin representante legal constituido; 2. Entre padres e hijos, durante la patria potestad; 3. Entre los menores e incapacitados y sus tutores, mientras dure la tutela; 4. Entre los copropietarios, mientras dure la indivisión; y 5. Entre los cónyuges, durante el matrimonio; y entre hombre y mujer, durante la unión de hecho." / art. 1506: "La prescripción se Interrumpe [sic, capital I]: 1. Por demanda judicial debidamente notificada o por cualquier providencia precautoria ejecutada, salvo si el acreedor desistiere de la acción intentada, o el demandado fuere absuelto de la demanda, o el acto judicial se declare nulo; 2. Si la persona a cuyo favor corre la prescri pción [sic split], reconoce expresamente, depalabra [sic] o por escrito, o tácitamente por hechos indudables, el derecho de la persona contra quien prescribe; y 3. Por el pago de intereses o amortizaciones por el deudor, así como por el cumplimiento parcial de la obligación por parte de éste." / art. 1507: "El efecto de la interrupción es inutilizar para la prescripción todo el tiempo corrido antes de ella." / art. 1514 (selected): "Prescriben en dos años: … 2. La acción de cualquier comerciante para cobrar el precio de los objetos vendidos; … 4. Las pensiones, rentas, alquileres y cualesquiera otras prestaciones periódicas no cobradas, a su vencimiento…" / art. 1513: "Prescribe en un año la responsabilidad civil proveniente de delito o falta…" / art. 1515: "La obligación de rendir cuentas… y la acción para cobrar el saldo de ellos, prescriben por el término de tres años." / art. 856: "La obligación garantizada con hipoteca prescribirá a los diez años contados desde el vencimiento de la obligación o de la fecha en que se tuviere como vencido en virtud de lo estipulado." / art. 651 (disambiguation): "…el dominio sobre bienes inmuebles… se adquiere por prescripción, por el transcurso de diez años. Los bienes muebles y semovientes, por el de dos años." / art. 1628: "La acción para recobrar lo i ndebidamente pagado prescribe en un año…" / art. 1300: "La acción revocator ia [sic split] prescribe en un año…" / art. 1727: "Las acciones derivadas del mandato que no tengan término especial de prescripción, duran un año contado de la fecha en que terminó el mandato." | The fallback's MECHANICS + SPECIALS menu (each beats the 5y for its subject — EVID-934/935/938/940/941/943): SUSPENSION (1505) in exactly five status relationships (minors/incapacitated without representative; parent-child under patria potestad; tutor-ward; co-owners while indivisión lasts; spouses/uniones de hecho); INTERRUPTION (1506) by (1) duly-notified judicial demand or executed precautory measure — defeated by desistimiento/absolución/nullity — (2) express or tacit recognition, (3) payment of interests or amortizations / partial performance, with FULL RESTART effect (1507 — "inutilizar… todo el tiempo corrido antes de ella"); 2 años: ANY merchant's action to collect the price of goods sold (1514.2 — the non-title credit-sale clock; título paper goes to CCom 626/627 via 1516), fees/sueldos/salarios/jornales (1514.1), pensiones/rentas/alquileres per installment at its vencimiento (1514.4); 3 años: account rendering + saldo (1515); 1 año: delito/falta civil liability and personal-injury damages (1513), undue-payment recovery (1628 — refund claims), pauliana/revocatoria (1300), mandate-derived actions (1727); 10 años: hipoteca-guaranteed obligation from vencimiento/stipulated acceleration (856). USUCAPIÓN DISAMBIGUATION (651, 10y inmuebles / 2y muebles): arts. 643-654 are ACQUISITIVE-property rules — never cite them for debt/claim clocks (EVID-940) | `gt/sources/92_Codigo_Civil_DtoLey106.pdf` | pp.197-199 arts. 1505-1507, 1513-1515 (EVID-934/935/938); p.112 art. 856 (EVID-941); p.84 art. 651 (EVID-940); pp.174/212/218/224 arts. 1300/1628/1673/1727 (EVID-943) |
 
 ## 3. Functional Requirements
 
@@ -353,8 +368,17 @@ caducidad discipline, the acciones-amortizadas matrix row) is marked
   facturas cambiarias + copies, with NO supersession asserted from
   this corpus and the max-per-regime resolution (vs CCom art. 382's
   floor and the tax corpus via GT-TAX-FR-232) owned by the Task 7
-  retention/destruction matrix, consumed by pointer.
-  (LB-011; EVID-565; GOQ-124 kin)
+  retention/destruction matrix, consumed by pointer. CLOCK-SEMANTICS
+  RETYPE (GOQ-147, EVID-950): art. 604 is a CONSERVATION/RETENTION
+  duty (keep the documents 5 años), NOT a claim-prescription clock —
+  the claim clocks for facturas cambiarias as títulos are CCom arts.
+  626/627 (FR-111/FR-112: directa 3 años from vencimiento / regreso
+  1 año), the destruction gate stays CCom art. 383 (FR-125), and the
+  Civil Code supplies nothing here (arts. 1508/1516 confirm no
+  fallback runs where CCom fixes the period — residual only for
+  non-cambiaria factura-derived claims, e.g. the precio claim at CC
+  art. 1514.2).
+  (LB-011; EVID-565; EVID-950; GOQ-124 kin)
 - **GT-CML-FR-109:** FEL-lineage guard (load-bearing negative row):
   the factura cambiaria of arts. 591-604 is the PAPER ANCESTOR of the
   Guatemalan electronic invoice — lineage factura cambiaria (D2-70,
@@ -372,17 +396,51 @@ caducidad discipline, the acciones-amortizadas matrix row) is marked
 
 ### 3.6 The mercantile prescription matrix — one FR per clock
 
-- **GT-CML-FR-110:** NEGATIVE-FR (load-bearing): the system shall NOT
-  model any general commercial prescription period — the Código de
-  Comercio enacts none; art. 1 defers gaps to the Derecho Civil
-  (applied and interpreted per mercantile-law principles), so every
-  prescription clock in the system is either a CCom per-instrument
-  special (FR-111..FR-122), a pointer row owned by a sibling file
-  (acciones amortizadas per the evidence gloss; liquidation-USAC
-  escheat GT-CML-FR-069), or the Civil-law fallback resolved
-  per-action — the fallback's concrete CC values are outside this
-  corpus and stay open (OQ row; never a guessed default such as a
-  generic 5-year commercial period). (LB-014; EVID-517)
+- **GT-CML-FR-110:** FALLBACK-CLOCK FR (load-bearing; was a
+  negative-FR, CLOSED by GOQ-147/92_): the system shall NOT model any
+  general commercial prescription period INSIDE the CCom — the Código
+  de Comercio enacts none; art. 1 defers gaps to the Derecho Civil
+  (applied and interpreted per mercantile-law principles) — and the
+  Civil fallback now has corpus anchors: the general extinctive
+  prescription of CC art. 1508 — "cinco años, contados desde que la
+  obligación pudo exigirse" (five years from demandability;
+  not-to-do obligations from the contrary act) — applies to every
+  commercial claim lacking a special CCom/special-law period, BEHIND
+  the art.-1516 gateway ("Las disposiciones del presente capítulo se
+  entienden sin perjuicio de lo que en este Código o en leyes
+  especiales se establezca respecto a otros casos de prescripción." —
+  special law prevails; 1508 is the residual, never the override over
+  FR-111..FR-122 or another enumerated special); pointer rows owned by
+  sibling files ride the same precedence: acciones amortizadas — now
+  STATUTORY, not gloss-only: CCom art. 577 ¶2, "La prescripción de los
+  títulos amortizados por sorteo correrá a partir de la fecha de la
+  primera publicación exigida por el artículo 569." (10 años riding
+  ¶1's principal rule; owned cml02) — and liquidation-USAC escheat
+  GT-CML-FR-069. The cc_fallback
+  config row carries: term 5 años; dies-a-quo kit — 1508 (exigibility),
+  1509 (plazo from maturity / condición from verification), 1511
+  (interest-bearing capital, post-maturity, from the last interest
+  payment), 1512 (cuentas: end of administration / approval); the
+  SHORT specials that beat the 5y for their subjects (LB-016 menu):
+  2 años merchant price of goods sold (1514.2 — non-title credit
+  sales; título paper goes to 626/627 via 1516), fees/sueldos/jornales
+  (1514.1), pensiones/rentas/alquileres at each vencimiento (1514.4);
+  3 años cuentas render+saldo (1515); 1 año delito/daño personal
+  (1513), pago indebido (1628), pauliana (1300), mandato (1727); 10
+  años hipoteca-guaranteed obligation (856); mechanics — interruption
+  1506/1507 (notified judicial demand / recognition / interest-
+  amortization payment or partial performance, each RESTARTING the
+  clock from zero) and suspension 1505 (five enumerated status
+  relationships only); USUCAPIÓN GUARD: arts. 643-654 (651: 10 y
+  inmuebles / 2 y muebles) are acquisitive-property rules, never
+  debt/claim clocks. DATED-INSTRUMENT CAVEAT on every CC-anchored
+  value: Dto-Ley 106 as consolidated ≥ 26-ago-2008 (ONSEC edition, no
+  print date) — post-2008 reforms unverifiable from this edition
+  (live-text cross-check before modeling, EVID-951); CC art. 2180
+  conflict rule (prescription term = law in force when the obligation
+  was contracted). Never a guessed default such as a generic
+  CCom-sourced 5-year commercial period.
+  (LB-014; LB-015; LB-016; EVID-517; EVID-931..951)
 - **GT-CML-FR-111:** The system shall carry the acción cambiaria
   directa clock: prescribes in THREE YEARS from the day of
   *vencimiento* (maturity) — anchor = the instrument's maturity date
@@ -427,11 +485,20 @@ caducidad discipline, the acciones-amortizadas matrix row) is marked
   prescribe in FIVE YEARS (anchor per the evidence gloss: no
   statutory anchor printed — the config row carries the term with the
   anchor left to the instrument's own terms/Civil fallback, flagged
-  in §7). (LB-013; EVID-567)
+  in §7). GOQ-147 annotation (EVID-950): the 5y period is CCom-FIXED
+  special law (CC art. 1516 defers — the Civil 5y of art. 1508 is NOT
+  its source); the Civil Code supplies only the MECHANICS CCom 577
+  omits where silent — interruption causes and full restart (CC
+  1506/1507), suspension (CC 1505) — with the CC post-2008
+  consolidation caveat riding the mechanics, not the period.
+  (LB-013; EVID-567; EVID-950)
 - **GT-CML-FR-118:** The system shall carry the obligaciones/
   debentures PRINCIPAL clock: actions to collect the principal
-  prescribe in TEN YEARS (same anchor note as FR-117). (LB-013;
-  EVID-567)
+  prescribe in TEN YEARS (same anchor note as FR-117). GOQ-147
+  annotation (EVID-950): the 10y is CCom's own for debenture
+  principal — CC art. 856 (10-year hipoteca clock, LB-016) is NOT its
+  source (coincidental match only); same Civil-mechanics note as
+  FR-117. (LB-013; EVID-567; EVID-950)
 - **GT-CML-FR-119:** The system shall carry the transporte clock:
   actions derived from the transport contract prescribe in SIX
   MONTHS, counted from the end of the journey or from the date the
@@ -459,9 +526,17 @@ caducidad discipline, the acciones-amortizadas matrix row) is marked
   discipline rows: caducidad terms are never interrupted and are
   suspended only by fuerza mayor (art. 625, per the evidence gloss);
   the títulos prescription articles run through an interruption
-  regime (arts. 626-629 per the EV05a specials inventory — gloss;
-  interruption semantics beyond the anchors are not modeled from this
-  corpus); and transitorio X non-retroactivity — this Code's
+  regime (arts. 626-629 per the EV05a specials inventory — gloss);
+  where CCom is silent on mechanics, the Civil Code now supplies them
+  (GOQ-147, EVID-934/935/950 via CCom art. 1 + CC 1516): suspension in
+  the five art.-1505 status relationships, interruption by the three
+  art.-1506 causes (notified judicial demand / recognition /
+  interest-amortization or partial payment) with the full-restart
+  effect of art. 1507 — EXCEPT where CCom fixes its own divergence
+  (CCom art. 629: cambiaria interruption against one co-debtor does
+  NOT extend to the others, unlike the CC solidarity mechanics of
+  arts. 1351/1361-1362 — CCom governs for títulos; CC mechanics ride
+  with the post-2008 consolidation caveat); and transitorio X non-retroactivity — this Code's
   prescription provisions do NOT apply where prescription had already
   begun running under the prior law, so pre-vigencia (pre-1971-01-01)
   instruments resolve their clocks against the prior regime
@@ -521,7 +596,7 @@ flags — one row per FR-111..FR-122 clock).
 | l10n_gt_commerce.factura_cambiaria | abono_ids · partial_payment_notes | o2m / text | número/vencimiento/monto (art. 595); on-face partial payments | FR-103 |
 | l10n_gt_commerce.factura_cambiaria | dispatch_state · dispatch_deadline | select / datetime | certified-mail w/ aviso (art. 597); 3 días from libramiento, ≤48 h from despacho (art. 596) | FR-104 |
 | l10n_gt_commerce.factura_cambiaria | acceptance_deadline · rejection_reason | date / select | 5 d misma plaza / 15 d diferente (art. 599); art.-600 four grounds | FR-105, FR-106 |
-| l10n_gt_commerce.prescription_class (dated config) | class · term · anchor_kind · instrument · article · valid_from · flags | config rows | cambiaria_directa_3y (626) · cambiaria_regreso_1y (627) · obligado_recourse_6m (628) · enriquecimiento_1y (409) · cheque_6m (513) · viajero_2y (541) · debenture_intereses_5y (577) · debenture_principal_10y (577) · transporte_6m (799) · seguro_2y (916) · fianza_2y (1037) · oldcode_maritime_5y (D2946 art. 1313, R65 flag) · cc_fallback (art. 1, value open) · pointer rows: acciones_amortizadas_10y (112.7º, per the evidence gloss; owned cml02) · liquidation_usac_5y (253, GT-CML-FR-069) | FR-110..FR-123 |
+| l10n_gt_commerce.prescription_class (dated config) | class · term · anchor_kind · instrument · article · valid_from · flags | config rows | cambiaria_directa_3y (626) · cambiaria_regreso_1y (627) · obligado_recourse_6m (628) · enriquecimiento_1y (409) · cheque_6m (513) · viajero_2y (541) · debenture_intereses_5y (577) · debenture_principal_10y (577) · transporte_6m (799) · seguro_2y (916) · fianza_2y (1037) · oldcode_maritime_5y (D2946 art. 1313, R65 flag) · cc_fallback (art. 1 → CC 1508: 5y from exigibility; Dto-Ley 106 consolidated ≥26-ago-2008 — post-2008 caveat; dies-a-quo kit 1508/1509/1511/1512; mechanics 1505-1507; specials menu LB-016: 1514.1/.2/.4 2y, 1515 3y, 1513/1628/1300/1727 1y, 856 10y) · pointer rows: acciones_amortizadas_10y (STATUTORY: CCom 577 ¶2 — 10 años desde la primera publicación exigida por art. 569; owned cml02) · liquidation_usac_5y (253, GT-CML-FR-069) | FR-110..FR-123 |
 | account.move.line (aging surface) | prescription_class · anchor_date · expiry_date · regime_snapshot | m2o / date / date / json | computed + snapshot-on-write; readable by aging + the T7 matrix | FR-124 |
 | retention config (pointer) | destruction-gate keys | pointer | per-instrument prescription keys (this file) + pending-matter hold (art. 383.2); gate predicate = GT-COA-FR-028; max-per-regime = T7 matrix | FR-125 |
 
@@ -551,22 +626,22 @@ flags — one row per FR-111..FR-122 clock).
 | FR-105 | odoo | factura acceptance clock | 5 d / 15 d by plaza | From receipt date; non-return = refusal |
 | FR-106 | shared | rejection-reason catalog | art.-600 four grounds | Closed catalog on refusal event |
 | FR-107 | odoo | protesto (factura) | 2 días hábiles clock | Feeds FR-094 state + FR-112 anchor |
-| FR-108 | shared | retention config row | 5 y issued facturas/copies | GOQ-124 kin; max-per-regime = T7 |
+| FR-108 | shared | retention config row | 5 y issued facturas/copies | GOQ-124 kin; max-per-regime = T7; conservation duty, NOT a claim clock (EVID-950) — claim clocks 626/627 |
 | FR-109 | shared | lineage guard config | field-ancestry map only | FEL duties = GT-EINV wave (file-level) |
-| FR-110 | shared | negative row | no general commercial period | CC fallback open (OQ row); R65-safe |
+| FR-110 | shared | fallback-clock row | no general CCom period; cc_fallback = CC 1508 5y from exigibility (dated, ≥26-ago-2008 caveat) | GOQ-147 resolved (92_); specials menu LB-016; R65-safe |
 | FR-111 | shared | prescription_class row | directa 3y ← vencimiento | Snapshot-on-write |
 | FR-112 | shared | prescription_class row | regreso 1y ← maturity/presentation/protest | Anchor selector per state |
 | FR-113 | shared | prescription_class row | recourse 6m ← payment/demanda notice | Per paying obligado |
 | FR-114 | shared | prescription_class row | enriquecimiento 1y ← cambiaria expiry | Chained clock |
 | FR-115 | shared | prescription_class row | cheque 6m ← presentation / day-after-payment | Dual anchor by party role |
 | FR-116 | shared | prescription_class row | viajero 2y ← issuance | — |
-| FR-117 | shared | prescription_class row | debentures intereses 5y | Anchor open (gloss — §7) |
-| FR-118 | shared | prescription_class row | debentures principal 10y | Anchor open (gloss — §7) |
+| FR-117 | shared | prescription_class row | debentures intereses 5y | Anchor open (gloss — §7); period CCom-fixed, mechanics CC 1505-1507 (EVID-950) |
+| FR-118 | shared | prescription_class row | debentures principal 10y | Anchor open (gloss — §7); CC 856 NOT its source (EVID-950) |
 | FR-119 | shared | prescription_class row | transporte 6m ← journey-end / expected arrival | Dual anchor |
 | FR-120 | shared | prescription_class row | seguro 2y ← originating event | — |
 | FR-121 | shared | prescription_class row | fianza 2y | — |
 | FR-122 | shared | prescription_class row | old-code 5y catch-all | R65: "D2946 (old code) art. 1313" only |
-| FR-123 | shared | regime-discipline rows | caducidad 625 (gloss) + 626-629 inventory (gloss) + transitorio X | No interruption computation from this corpus |
+| FR-123 | shared | regime-discipline rows | caducidad 625 (gloss) + 626-629 inventory (gloss) + CC mechanics 1505-1507 (EVID-934/935) + transitorio X | CCom 629 divergence governs for títulos |
 | FR-124 | odoo | account.move.line aging fields | class/anchor/expiry/snapshot | Feeds aging surfaces + T7 matrix by id |
 | FR-125 | shared | destruction-gate keys (pointer) | art.-383 gate keys + pending-matter hold | GT-COA-FR-028 consumes; GT-TAX-FR-232 disambiguation; T7 owns max-per-regime |
 
@@ -642,10 +717,12 @@ machine exists in this cluster.
   1 y enriquecimiento; 6 m cheque; 2 y viajero; 5 y / 10 y
   debentures; 6 m transporte; 2 y seguro; 2 y fianza; D2946 old-code
   5 y flagged R65) each with its statutory anchor selector — and NO
-  general commercial period exists anywhere, the CC fallback row
-  carrying an open value (OQ), the acciones-amortizadas row marked
-  per the evidence gloss and the USAC row consumed by GT-CML-FR-069
-  pointer. (FR-110..FR-123)
+  general commercial period exists anywhere in the CCom, the CC
+  fallback row carrying the CC-1508 5-year value with its
+  dated-instrument caveat (Dto-Ley 106 consolidated ≥ 26-ago-2008,
+  GOQ-147 resolved), the acciones-amortizadas row carrying its
+  statutory anchor (CCom 577 ¶2 — first art.-569 publication) and the
+  USAC row consumed by GT-CML-FR-069 pointer. (FR-110..FR-123)
 - **AC-010:** Given an open item, when aging is computed, then the
   record carries prescription class, anchor and expiry as a
   snapshot (class + term + anchor + instrument provenance), the
@@ -676,12 +753,13 @@ retention/destruction max-per-object matrix) is the Task 7
 deliverable — this file's ladder rows FR-108/FR-110..FR-125 feed it
 by pointer and its open texture (Civil fallback, art.-604 supersession
 by the tax corpus, max-per-regime) is absorbed there. GOQ-122 (D-43-70
-dated-row completion) is consumed from GT-COA-FR-030..032 by id. The
-Civil Code corpus absence below is flagged to the controller as a
-non-OQ gap (never invented).
+dated-row completion) is consumed from GT-COA-FR-030..032 by id.
+GOQ-147 (the Civil-fallback/scattered-clocks question) is RESOLVED
+below (OQ-003) — the Código Civil landed in-corpus as 92_ on
+2026-08-22.
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
 | OQ-001 | GOQ-123 (kin): "CCom post-May-2006 reform watch: consolidation horizon D-11-2006; later reforms absent (known: art. 343 = D-18-2017) — verification note rides every 66_ citation." All C5 rows cite the consolidated print; any post-2006 reform of Libro III arts. 385-628 or the prescription articles re-opens the affected FRs (esp. the clocks and the art.-604 retention row). | no | GT synthesis wave S-GT5 → W6 partner ask (owner: `01_books-anchor.md` FR-031; this file kin-cites) | open |
 | OQ-002 | GOQ-124 (kin): "Retention/destruction max-per-object matrix (synthesis deliverable): art. 383 keys destruction to 'prescripción de las acciones' but CCom enacts no general period (art. 1 → Civil); practical floor = tax corpus (CT 112'A, 4y+); factura cambiaria art. 604 5y likely superseded — write the matrix in the S-GT5 file." The matrix is Task 7's file (`../chart-of-accounts/03_retention-destruction-matrix.md`, forward ref); FR-108/FR-110/FR-125 supply this file's commercial keys and never resolve max-per-regime locally. | no | GT synthesis wave S-GT5 → Task 7 writer (matrix file) | open |
-| OQ-003 | Non-OQ gap (controller flag; never an invented GOQ): the Civil-law fallback clocks of art. 1 (and the CC interruption/suspension catalog interacting with arts. 626-629) are outside this corpus — the Código Civil is not among the extracted instruments. FR-110 carries the cc_fallback row with an OPEN value; no CC period (e.g. a generic civil term) is modeled until the CC corpus lands. Related gloss-level residue: art. 577 prints no anchor for the debenture interest/principal clocks (FR-117/FR-118 anchor note). | no | Controller → acquisition queue (Código Civil); S-GT5 records the flag | open |
+| OQ-003 | GOQ-147 (kin; owner: S-GT5 gap report/HANDOVER §5l): "CCom scattered prescription clocks lack corpus-anchored starting events: art. 604 factura-cambiaria retention (drawing-date = system convention); art. 577 debentures intereses/principal clocks; acciones-amortizadas 10y gloss-only — and the Código Civil corpus is absent, so fallback clocks (commercial-legal/03 FR-110 negative-FR) stay open. [ACQUIRED 2026-08-22: Código Civil Dto-Ley 106 = 92_.]" **RESOLVED by 92_ (EVID-931..951)**: FR-110 rewritten in place as the fallback-clock FR (CC art. 1508 "cinco años, contados desde que la obligación pudo exigirse" + 1516 gateway + dies-a-quo kit 1509-1512 + mechanics 1505-1507 + specials menu LB-016); art. 604 retyped as a conservation/retention duty, not a claim clock (claim clocks = 626/627 — EVID-950); acciones-amortizadas upgraded to statutory (CCom 577 ¶2); 577 periods CCom-fixed with Civil mechanics only (CC 856 not the 10y source). SURVIVING SUB-GAPS: (i) consolidation horizon = 26-ago-2008 — post-2008 CC reforms unverifiable from the ONSEC edition (verify arts. 1500-1516, 856 and the garantías zone against a current consolidated text before modeling — EVID-951 OQ-3); (ii) LGM-deference tension in the prenda/hipoteca zone (D51-2007 footnotes on arts. 916/1124 — EVID-932 OQ-1); (iii) 1514.2 vs título-clock boundary for semi-formalized credits (facturas no cambiarias) stated as a modeling assumption, not resolved by text (EVID OQ-7). | no | Controller (register write-back) + S-GT5 (rows landed); acquisition queue: current consolidated CC text | resolved |
