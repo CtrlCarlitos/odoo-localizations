@@ -564,3 +564,55 @@ dispatches, both clean; the §10 ls-before-retry protocol held), 4+2
 backfill dispatches, controller quote-bank verification + small-fix pass
 (coa03 stale cc_fallback rows, cml index LB totals, e-invoicing/03 GOQ-24
 residues, cml04 GOQ-132 row).
+
+### 2026-08-23 — W-GT8: batches 3+4 evidence pass + targeted backfills (COMPLETE)
+
+Owner batches 3+4 (legal.dca.gob.gt / igssgt.org / portal.sat.gob.gt,
+browser): 19 inbox files → 12 registered (96_ AG 118-2002 AML reglamento ·
+97_ D-1633 public aguinaldo · 98_ D-37-2001 incentivo · 99_ IVA 27-92
+consolidated ~2019 · 100_ D-4-2012 gazette · 101_ D-10-2012 LAT gazette ·
+103_ SAT Calendario 2026-01..08 ×8 · 104_/105_/106_ IGSS SEM Acuerdo 410
+set · 107_ IVS requisitos · 108_ IVS-103 xlsx); re-rejected: the AG
+75-2006 gazette page (off-scope SINAS — its identity RESOLVES the AML
+hypothesis NEGATIVE; second rejection of the same page, 2026-08-19 kin)
++ a D-10-2025 duplicate capture (= 74_). Registry numbering 01–108, gaps
+27/102. Evidence: 6 files EV08a..f (EVID-952..1185, 169 entries; OCR:
+96_/97_/98_/105_/106_ footer-layer scans). Resolutions: GOQ-01
+RESOLVED-COMPOSITE (99_ horizon-audited through D-4-2019/D-7-2019 + 85_ +
+74_ = every operative IVA article primary-sourced) · GOQ-146 RESOLVED
+(Cap. VIII/IX = D-7-2019 RECA (54 A-D) + electrónico pair (54 E-F);
+4%/5% tariff = art. 54 "E", TIME-BOXED 2019→2025-08-09, derogated
+D-31-2024 art. 25) · GOQ-107 RESOLVED-ANCHORED (tariff anchored + sunset
+propagated ×15 in fin04) · GOQ-09 RESOLVED-IN-PART (98_ incentivo
+primary; 97_ D-1633 = STANDING public statute, single December window,
+no January split; art. 11 = OE-annual quantum EXTERNAL — amount
+instruments open, payroll/04 OQ-004) · GOQ-12 lineage SETTLED (96_
+primary: arts. 16/17/21 RTS plazos verbatim, sole threshold US$10,000
+art. 37, vigencia 26-abr-2002; 75-2006 DEAD) · GOQ-04 RE-REFINED (SEM
+set acquired RATELESS — art. 62's 4/2/1 + 3/2/1 = superseded 1964
+Guatemala-dept originals per art. 85 chain 475→1243; 107_ NAMES the IVS
+reglamento = Acuerdo 1124 → the concrete rate target) · GOQ-14/145
+RE-SCOPED (103_: SAT calendars FLAT per-obligation, zero NIT-digit
+language 8/8; owner verified the app exposes no digit windows; inhábil
+rulings per-locality, Res. SAT-DSI-1328-2026). Registry identity
+correction: 106_ = 24-11-2011 consolidation (NOT the original print;
+no pre-1154 art. 6 baseline exists). Backfills: 9 requirements files
+(payroll/04 LB-016/017 · payroll/05 LB-022 (maternidad 30+54=84 días
+@100%, no "12 semanas" wording) · payroll/07 LB-026 · cml04 LB-029 ·
+taxation/01 LB-022 (tariff = Art. 10, brief corrected by evidence) ·
+taxation/02 LB-016 (R20 primary) · taxation/07 LB-021 · fin01 LB-017 ·
+fin04 LB-026); topic-index LB totals updated (payroll 165 / taxation 140
+/ fin 113 / cml 79); zero FR renumbering. Master index: GOQ
+write-backs (01/04/09/12/14/107/146/149) + R82 tail + EV08a..f + corpus
+line 106; COVERAGE re-closed **106 cited / 0 N-A / 0 pending**;
+DOWNLOAD_QUEUE rev 11 (1124 top-ranked; art.-11 montos new; calendario
+JSF item CLOSED; AG 52-2017 low-priority watch — mineco hunt FAILED,
+site rebuilt without a legislación library). Session mechanics: 6 reader
+dispatches + 4 backfill dispatches, ALL first-pass clean (the 3-4-file
+unit cap held); controller quote verification caught 2 false-zero greps
+(OCR line-break "Eje-/cutivo" + double-space "cincuenta  y cuatro") —
+both agent quotes faithful; controller small-fix pass (payroll index
+total 164→165 arithmetic). Next: §4.6 merge of W-GT8 commits; idle
+awaiting owner items (Acuerdo 1124; art.-11 montos; AG 52-2017 watch) /
+accountant answers / TotalDoc W6 / watch dates (TotalDoc renewal
+02-12-2026; AML reglamento ≈17-mar-2027).
