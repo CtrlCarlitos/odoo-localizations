@@ -92,7 +92,7 @@ text is now primary from AG 3-2017 (`95_` art. 17 — EVID-777). Quotation
 source: the committed evidence files
 `gt/.extractions/69-71_Maquila.evidence.md` (EVID-711..745),
 `gt/.extractions/67-68_72_80_81_ZF.evidence.md` (EVID-646..708) and
-`gt/.extractions/84_91_94_95_MaquilaZF_D19-2016_chain.evidence.md`
+`gt/.extractions/84_91_94_95_MaquilaZF_D19-2016_chain.evidence.md` (EVID-746..789; frozen) — sources `gt/sources/84_ZF_D19-2016_LeyEmergenteConserEmpleo.pdf`, `gt/sources/91_AG_4-2005_MaquilaReglamento.pdf`, `gt/sources/94_D38-2004_Maquila.pdf`, `gt/sources/95_AG_3-2017_MaquilaReglamento.pdf`
 (EVID-746..789) — all
 FROZEN; quotes verified against them and spot-checked against the `67_`/
 `68_`/`69_`/`70_` txt layers; numbers, percentages, durations, dates and

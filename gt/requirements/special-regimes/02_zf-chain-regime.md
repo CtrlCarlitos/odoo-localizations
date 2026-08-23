@@ -75,8 +75,7 @@ resolved 2026-08-22)**: primary-read end-to-end from `84_` (EVID-746..758)
 the touched articles remain unrecoverable (84_ never prints replaced
 texts). Quotation source: the committed evidence files
 `gt/.extractions/67-68_72_80_81_ZF.evidence.md`
-(EVID-646..708) and `gt/.extractions/84_91_94_95_MaquilaZF_D19-2016_chain.evidence.md`
-(EVID-746..789; frozen); 80_ and 81_ are OCR layers (81_ a scan) — their
+(EVID-646..708) and `gt/.extractions/84_91_94_95_MaquilaZF_D19-2016_chain.evidence.md` (EVID-746..789; frozen) — sources `gt/sources/84_ZF_D19-2016_LeyEmergenteConserEmpleo.pdf`, `gt/sources/91_AG_4-2005_MaquilaReglamento.pdf`, `gt/sources/94_D38-2004_Maquila.pdf`, `gt/sources/95_AG_3-2017_MaquilaReglamento.pdf`; 80_ and 81_ are OCR layers (81_ a scan) — their
 rows quote the evidence file, never the scan layer directly.
 
 | ID | Citation (Spanish) | English translation | Source file | Location |

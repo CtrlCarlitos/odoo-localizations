@@ -4,7 +4,7 @@
 |---------|-------|
 | Country | gt |
 | Topic   | all (cross-topic) |
-| Status  | draft (S-GT1 e-invoicing + catalogs, S-GT2 taxation, S-GT3 payroll, S-GT4 fiscal-reporting, S-GT5 chart-of-accounts/commercial-legal and S-GT6/S-GT7 special-regimes waves complete — the 82-row synthesis corpus closed: 82 cited / 0 not-applicable / 0 pending. **2026-08-22 acquisition batch 2: registry grows to 94 (84_–95_ owner-delivered, GOQ acquisitions annotated) — the 12 new rows are pending-unowned pending evidence passes**) |
+| Status  | draft (S-GT1..S-GT7 synthesis waves complete; W-GT7 evidence pass + targeted backfills applied 2026-08-22 — **94 cited / 0 not-applicable / 0 pending: corpus CLOSED at 94 rows** (batch-2 instruments 84_–95_ evidenced EVID-746..951 and consumed by exact GOQ resolution)) |
 | Authors | GT synthesis waves S-GT1 + S-GT2 + S-GT3 + S-GT4 + S-GT5 + S-GT6/S-GT7 + controller |
 | Updated | 2026-08-22 |
 
@@ -128,18 +128,18 @@ File-number shorthand (e.g. `04` =
 | 81_ZOLIC_Reformas_AG65-2022.pdf | cited | `spr01` (tarifario art. 22 item 9 — R77), `spr02` (AG 65-2022 identity + split vigencia 15-mar/14-sep-2022 — R72; zero ZOLIC content, filename mislabel) — OCR scan; quotes verified against `gt/.extractions/67-68_72_80_81_ZF.evidence.md` |
 | 82_SAT_LET_RegEspeciales_Manual.pdf | cited | `fin04` (LET especiales: three regimes' combined book, masked form numbers — GOQ-109, Q3,000,000 agro glossary, THE 4%/5%-within-10-dh tariff rule — GOQ-107) |
 | 83_RM_edictos_2026-08-19.pdf | cited | `cml01` (edición 6022 channel anatomy + edicto templates; single-snapshot GOQ-131) |
-| 84_ZF_D19-2016_LeyEmergenteConserEmpleo.pdf | pending | acquisition batch 2 (2026-08-22) — GOQ-08 blocker; evidence pass → special-regimes backfill |
-| 85_D31-2024_IntegracionPrimarioAgro.pdf | pending | acquisition batch 2 — GOQ-13; OCR pass needed (thin text layer) |
-| 86_AG_125-2022_Reglamento_D7-2019.pdf | pending | acquisition batch 2 — GOQ-68; 79_ art. 32 re-verification |
-| 87_IGSS_Acuerdo_1421-2018.pdf | pending | acquisition batch 2 — GOQ-10 mora half; payroll/07 backfill |
-| 88_D62-2001_IVA_art4num1.pdf | pending | acquisition batch 2 — GOQ-132 instrument (identity = pure IVA reform) |
-| 89_D58-2005_FT.pdf | pending | acquisition batch 2 — GOQ-134; AML FT-lineage backfill |
-| 90_AG_86-2006_Reglamento_FT.pdf | pending | acquisition batch 2 — bonus; pre-cutover FT thresholds |
-| 91_AG_4-2005_MaquilaReglamento.pdf | pending | acquisition batch 2 — GOQ-08 lead; maquila reglamento supersession backfill |
-| 92_Codigo_Civil_DtoLey106.pdf | pending | acquisition batch 2 — GOQ-147; cml03 fallback clocks |
-| 93_Aguinaldo_D76-78.pdf | pending | acquisition batch 2 — GOQ-09 December half; payroll/04 ABSENCE-FR replacement |
-| 94_D38-2004_Maquila.pdf | pending | acquisition batch 2 — GOQ-08 lead; R81 scope verification |
-| 95_AG_3-2017_MaquilaReglamento.pdf | pending | acquisition batch 2 — GOQ-08 lead; reglamento supersession backfill |
+| 84_ZF_D19-2016_LeyEmergenteConserEmpleo.pdf | cited | `special-regimes/01..06` (W-GT7 EVID-746..758, 783..789 — GOQ-08 RESOLVED: art. 7 adds 12 bis "el cual queda asi"; ZF arts. 21-27/31 + transitorios 28-30 + untitled art. 18 top-up; 12-bis/8-bis asymmetry verbatim-primary) |
+| 85_D31-2024_IntegracionPrimarioAgro.pdf | cited | `taxation/01` + `taxation/07` + `e-invoicing/01` + `e-invoicing/03` (W-GT7 EVID-801..811 — IVA art. 8 "A" primary (art. 13); art. 7 FEL mandate, NO DTE codes in law; ICT = Impuesto a la Confianza Tributaria art. 2; GOQ-13/24 resolved) |
+| 86_AG_125-2022_Reglamento_D7-2019.pdf | cited | `taxation/07` + `taxation/03` (W-GT7 EVID-812..833 — GOQ-68 closed: reglamento D-7-2019 + AG 5-2013/425-2006 reforms; 79_ art. 32 pointer = own footnote; arts. 48-49 reforms EVID-827; truncated mid-art. 25 flag) |
+| 87_IGSS_Acuerdo_1421-2018.pdf | cited | `payroll/07` (W-GT7 EVID-866..882 — JD 1421 + AG 180-2018: fecha límite art. 9 day-20 + mora art. 38 JM floating cap 100%; GOQ-10 mora half resolved; FR-161 incobrabilidad fix; GOQ-04 refined to program reglamentos) |
+| 88_D62-2001_IVA_art4num1.pdf | cited | `taxation/01` + `commercial-legal/04` (W-GT7 EVID-834..839 — D-27-92 arts. 4.1/24/29/31/32/36 primary anchors; GOQ-132 resolved-negative: pure IVA, zero AML, adjacency artifact) |
+| 89_D58-2005_FT.pdf | cited | `commercial-legal/04` (W-GT7 EVID-891..905 — GOQ-134 resolved: FT law primary; art. 15 incorporation by reference + art. 18 light tier; no-Q corroboration; travel rule 2005) |
+| 90_AG_86-2006_Reglamento_FT.pdf | cited | `commercial-legal/04` (W-GT7 EVID-906..918 — all-temporal reglamento inventory; AG 118-2002 = AML-reglamento lineage head at 2-mar-2006) |
+| 91_AG_4-2005_MaquilaReglamento.pdf | cited | `special-regimes/01..06` (W-GT7 EVID-767..771 — scope arts. 9-14/24/25/28/30 A/B/39 A; presumptive-current arts. 11/12/25/39 A + art. 13's last pre-derogation text) |
+| 92_Codigo_Civil_DtoLey106.pdf | cited | `commercial-legal/03` + `chart-of-accounts/03` (W-GT7 EVID-931..951 — GOQ-147 resolved: CC 1508 5-y fallback closes FR-110 + cc_fallback; art. 604 conservation retype; acciones-amortizadas 577 ¶2; horizon ≥ 26-ago-2008 caveat) |
+| 93_Aguinaldo_D76-78.pdf | cited | `payroll/04` (W-GT7 EVID-851..865 — GOQ-09 private half resolved: FR-095 ABSENCE → private-sector engine, 50% primera quincena dic + 50% segunda quincena enero, art. 5 proration; public D-1633 still fenced) |
+| 94_D38-2004_Maquila.pdf | cited | `special-regimes/01..06` (W-GT7 EVID-759..766 — R81 verified: no 12 bis; 2005-state trio recovered: AT holiday = art. 12 c) 10 años, 13 a) Devolución, 15 b) CANT) |
+| 95_AG_3-2017_MaquilaReglamento.pdf | cited | `special-regimes/01..06` (W-GT7 EVID-772..782 — current reglamento reformer: 23 quater + 10 bis/15 bis/17 bis/27 bis/30 C/D/42 bis/ter primary; derogated 13/29/30; D-19-2016 art. 19 hook) |
 
 Numbering note: registry numbers 01–83 with gap 27 (27 never allocated);
 82 rows total.
@@ -148,19 +148,19 @@ Numbering note: registry numbers 01–83 with gap 27 (27 never allocated);
 
 | Status | Rows |
 |--------|------|
-| cited | 82 (01–83 with gap 27 — every registry row; with S-GT6/S-GT7 the corpus is FULLY COVERED) |
+| cited | 94 (01–95 with gap 27 — every registry row; W-GT7 evidence pass + targeted backfills closed batch 2) |
 | not-applicable | 0 |
-| pending | 12 (84_–95_, acquisition batch 2) |
+| pending | 0 |
 | **Total** | **94** |
 
 With the S-GT6/S-GT7 special-regimes wave the synthesis corpus closed:
 82 cited / 0 not-applicable / 0 pending — the first wave series to close
-the corpus. **2026-08-22 batch 2 reopens it: 12 owner-delivered
-instruments (84_–95_) await W-wave evidence passes and targeted synthesis
-backfills (D-19-2016 → special-regimes GOQ-08 rows; D-76-78 → payroll/04
-ABSENCE-FR replacement; 86_ → 79_ re-verification; 87_ → payroll/07 mora;
-89_/90_ → AML FT-lineage; 92_ → cml03 fallback clocks; 94_/95_/91_ →
-maquila reglamento supersession).**
+the corpus. **2026-08-22 batch 2 reopened it with 12 owner-delivered
+instruments (84_–95_); the 2026-08-22 W-GT7 evidence pass (EVID-746..951,
+5 files) + targeted synthesis backfills CLOSED it again — 94 cited /
+0 not-applicable / 0 pending. GOQ-08/09(mora)/10/13/68/132/134/147
+resolved into the corpus; GOQ-04 refined (IGSS cuota rates → program
+reglamentos); GOQ-09 survives half-open (D-1633 public + D-37-2001).**
 
 Expected cited sets verified by grep. S-GT1: 01–22, 29, 30, 31 (+24_
 FEL-layer LB only). S-GT2: 23, 24, 25, 26, 28, 47, 48, 49, 52, 53, 54,

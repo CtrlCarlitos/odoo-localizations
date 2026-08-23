@@ -1,14 +1,16 @@
-# GT — Manual Download Queue (ruling OQ2) — rev 8
+# GT — Manual Download Queue (ruling OQ2) — rev 9
 
 Browser-only items remaining after W1–W5 automated acquisition. Drop files
 into `.worktrees/gt-research/gt/sources/inbox/` (any filename; I verify,
-rename, register). Rev 8 (2026-08-22): post-S-GT7 register-triage additions
-(GOQ-141..149 rolled — master index §C.7): adds AG 52-2017 (GOQ-149),
-D-27-92 Cap. VIII/IX texts (GOQ-146), Código Civil (GOQ-147). **Automated
-routes for D-19-2016 exhausted 2026-08-22 (Wayback CDX probes:
-legal.dca.gob.gt = SPA shells only; dca.gob.gt 2016 = login-gated PHP
-archivo, zero gazette PDFs archived) — owner-browser is the ONLY route.**
-Rev 7 items below still stand unless struck.
+rename, register). Rev 9 (2026-08-22, post-W-GT7): batch-2 items 84_–95_
+EVIDENCED (EVID-746..951) + backfilled — GOQ-08/09(mora)/10/13/24/68/132/
+134/147 resolved. **Queue re-shapes: (i) AML reglamento hunt now targets
+AG 118-2002 FIRST (AG 86-2006 art. 2 names it as the reglamento in force
+at 2-mar-2006 — NOT AG 75-2006; if real, 75-2006 = a later successor —
+hunt both); (ii) IGSS cuota-rate target refined to the PROGRAM reglamentos
+(IVM etc.; 1421 art. 1 delegates montos there — GOQ-04); (iii) NEW:
+D-1633 public-sector aguinaldo (GOQ-09 public half, R82).** Rev 8 items
+below still stand unless struck.
 
 ## 0. Top-ranked (master-index blocking GOQs)
 
@@ -30,11 +32,13 @@ browser; "Búsqueda avanzada" → filters by organismo/tipo/año + texto)
 
 | # | Save as | Search |
 |---|---------|--------|
-| — | gt_sources_ag_52-2017.pdf | Acuerdos Gubernativos 2017 — "52-2017" (ZF reglamento AG 242-90 reformer: added art. 35 bis + reformed arts. 3/6/8/13 pre-65-2022 — tags dated 05-04-2017 in 68_; GOQ-149) |
+| — | gt_sources_ag_52-2017.pdf | Acuerdos Gubernativos 2017 — "52-2017" (ZF reglamento AG 242-90 reformer: added art. 35 bis + reformed arts. 3/6/8/13 pre-65-2022 — tags dated 05-04-2017 in 68_; GOQ-149; **now the ONLY missing GOQ-08-family lead**) |
 | — | gt_sources_iva_27-92_post2018.pdf | Decretos 1992 → 27-92 — look for a consolidated edition listing reforms through ≥2018 (must include Art. 29-"A" FEL hook; closes OQ10/GOQ-01; ideally through D-10-2025) — one consolidated print also covers the Cap. VIII/IX tariff chapters (GOQ-146) |
-| — | gt_sources_aml_reglamento.pdf | Acuerdos Gubernativos 2006 — "Lavado" (expected AG 75-2006 — verify; OQ14 also asks its post-D-15-2026 status) |
+| — | gt_sources_ag_118-2002.pdf | Acuerdos Gubernativos 2002 — "118-2002" (**the pre-cutover AML reglamento named by AG 86-2006 art. 2 — W-GT7 EVID-906; its arts. 16/17/21 carry the RTS plazos the FT reglamento cross-cites**) |
+| — | gt_sources_aml_reglamento.pdf | Acuerdos Gubernativos 2006 — "Lavado" (AG 75-2006 hypothesis — **now SECOND in line: would be a later successor to AG 118-2002; verify existence first**; OQ14 also asks its post-D-15-2026 status) |
+| — | gt_sources_aguinaldo_D1633.pdf | Decretos (1963-1966 era, likely 1966) — aguinaldo sector público (**GOQ-09 public half — R82: 93_ D-76-78 = private sector ONLY**) |
 | — | gt_sources_incentivo_D37-2001.pdf | Decretos 2001 — "37-2001" (bonificación incentivo Q250/mes current law; 41_ = D-78-89 is the old hourly-floor version) |
-| — | gt_sources_igss_reglamento_recaudacion.pdf | igssgt.org legislación section — Junta Directiva Reglamento de Recaudación (Acuerdo 1118-kin + reformas) — **the IGSS cuota rates live here (OQ11/GOQ-04; the Acuerdo 1421 mora half arrived as 87_, the cuota-rate half did NOT)** |
+| — | gt_sources_igss_reglamento_programas.pdf | igssgt.org legislación section — **PROGRAM reglamentos (IVMSOMA/IVM kin)**: 1421-2018 art. 1 delegates cuota montos there (GOQ-04 refined; the recaudación line 87_ carries NO rates) |
 
 Struck (delivered/resolved 2026-08-19): ~~37_ AG 256-2025~~, ~~41_ bono 14
 D-78-89~~ (delivered — W-GT3 corrected: actually the incentivo D-78-89;
@@ -73,7 +77,8 @@ Acuerdo 1421-2018 (87_), D-62-2001 (88_), D-58-2005 (89_) + AG 86-2006
   2021; 37_ = 2026; the 4-year gap breaks the dated-row series).
 - Refreshed FEL casos-de-prueba battery (GOQ-07) + v2.2+ of the certificador
   authorization procedure 22_ (GOQ-40) — portal re-checks.
-- AML lineage completeness (GOQ-132/134): D-58-2005 text + the D-62-2001
-  relationship — only if DCA browsing passes them by.
+- ~~AML lineage completeness (GOQ-132/134): D-58-2005 text + the D-62-2001
+  relationship~~ **RESOLVED W-GT7 (89_/90_ = FT pair evidenced; 88_ =
+  D-62-2001 pure IVA, adjacency artifact — GOQ-132/134 closed).**
 - 2024 cuentos: D-15-2026 reglamento watch (GOQ-12) — legal.dca.gob.gt
   periodic re-check (due ≈17-mar-2027).

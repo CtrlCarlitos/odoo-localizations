@@ -587,3 +587,42 @@ commit. Never leave a session with evidence unmerged. Update
   fences; payroll/04 aguinaldo ABSENCE-FR replacement; payroll/07 mora;
   AML FT-lineage; cml03 fallback clocks; maquila reglamento
   supersession); then §4.6 merge.**
+- 2026-08-22 — **W-GT7 COMPLETE (batch-2 evidence pass + targeted
+  synthesis backfills — corpus re-closed 94 cited / 0 N-A / 0 pending)**.
+  Stage 1: 85_ force-OCR'd (footer layer defeated the 80-char heuristic —
+  76_/77_ lesson; 8.8k chars/pp recovered). Stage 2: 5 reader agents
+  (maquila/ZF D-19-2016 chain · IVA/FEL instruments · IGSS+aguinaldo · FT
+  pair · Código Civil decomposed), controller spot-verified ~20
+  load-bearing quotes (all passed, incl. whitespace-normalized re-checks).
+  5 evidence files COMMITTED (EVID-746..951): `84_91_94_95_MaquilaZF_
+  D19-2016_chain` · `85_86_88_IVA_FEL_D31-2024` · `87_93_IGSS_Aguinaldo` ·
+  `89_90_FT` · `92_Codigo_Civil`. Key outcomes: **GOQ-08 RESOLVED**
+  (D-19-2016 primary-read: ZF art. 23 keeps 10-años-from-notificación — no
+  nominal window change; transitorios 28-30 + untitled art. 18 top-up;
+  12-bis-¶/8-bis asymmetry verbatim-real; old art. 15 not reproduced BUT
+  94_ recovers the 2005-state trio — AT holiday was art. 12 c); AG 3-2017
+  current reglamento reformer, supersession-mapped vs 70_); **GOQ-13
+  RESOLVED** (art. 13 IVA 8-"A" verbatim; art. 7 FEL mandate — law names
+  NO DTE codes; ICT = Impuesto a la Confianza Tributaria — also resolves
+  GOQ-24); **GOQ-68 CLOSED** (AG 125-2022 = reglamento D-7-2019 + AG
+  5-2013/425-2006 reforms; 79_ art. 32 pointer = own footnote; arts. 48-49
+  reforms); **GOQ-09 half + R82** (D-76-78 = SECTOR PRIVADO ONLY — "…y
+  Público" label wrong, public = D-1633 absent; 50%-Dec-quincena +
+  50%-Jan-quincena; one-way supletoriedad; payroll/04 FR-095 ABSENCE →
+  private engine); **GOQ-10 RESOLVED** (1421 art. 9 fecha límite day-20 +
+  art. 38 mora JM-floating cap-100%; FR-161 incobrabilidad fix; cuota
+  rates → GOQ-04 refined to PROGRAM reglamentos); **GOQ-132
+  RESOLVED-NEGATIVE** (88_ pure IVA, adjacency artifact); **GOQ-134
+  RESOLVED** (FT pair primary; art. 18 light tier; AG 118-2002 = AML
+  reglamento named at 2-mar-2006 — NOT AG 75-2006); **GOQ-147 RESOLVED**
+  (CC art. 1508 5-y fallback closes FR-110; art. 604 = conservation duty;
+  acciones-amortizadas = CCom 577 ¶2; horizon ≥ 26-ago-2008 caveat).
+  Backfills: 20 requirements files in place, 7 new LB rows, zero FR
+  renumbering. Master index: GOQ write-backs + R82 + EV07a..e + totals;
+  COVERAGE 94/0/0; DOWNLOAD_QUEUE rev 9 (AG 118-2002 first, D-1633 new,
+  IGSS program reglamentos refined). Failure mode hit: BF1 backfill
+  dispatch returned EMPTY twice with zero writes (7-file unit too large) —
+  split into two, both clean. **Remaining queue: AG 52-2017 (GOQ-149),
+  consolidated IVA ≥2018 (GOQ-01/146), D-37-2001 (GOQ-09), D-1633
+  (GOQ-09), IGSS program reglamentos (GOQ-04), AG 118-2002/75-2006
+  (GOQ-12 lineage). Next: §4.6 merge; no further waves pending.**

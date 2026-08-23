@@ -22,7 +22,12 @@ fiscal-reporting synthesis COMPLETE — see §5k + §10 S-GT4 addenda**);
 updated 2026-08-21 (**S-GT5 COA/commercial-legal synthesis
 COMPLETE — see §5l + §10 S-GT5 addenda**); updated 2026-08-21 again
 (**S-GT6/S-GT7 special-regimes synthesis COMPLETE — see §5m + §10
-S-GT6/S-GT7 addenda; ALL SEVEN WAVES DONE, corpus 82/0/0**). Read
+S-GT6/S-GT7 addenda; ALL SEVEN WAVES DONE, corpus 82/0/0**); updated
+2026-08-22 (batch 2 registered 84_–95_, queue rev 8, §4.6 merge at
+3250ffa); updated 2026-08-22 again (**W-GT7 COMPLETE — batch-2 evidence
+pass EVID-746..951 + targeted backfills; GOQ-08/09(mora)/10/13/24/68/
+132/134/147 resolved; corpus re-closed 94/0/0 — see §5n + §10 addenda**).
+Read
 this fully before acting; it is the authoritative cross-session memory.
 **Update it at every session boundary.**
 
@@ -71,10 +76,14 @@ FR-172..193); 193 FRs / 102 LBs / 79 ACs / 20 OQ rows; GOQ-08 + GOQ-135..140
 all consumed + kin 01/04/10/99; R72..R81 guards instantiated; GOQ-08
 acquisition ledger delivered in 06; **COVERAGE = 82 cited / 0 N-A / 0 pending
 — corpus CLOSED**; 4 stale master-index preamble R-cites fixed at write-back
-(R49→R72, R50→R73, R52→R75, R55→R81). **Next: S-GT6/S-GT7 final
-whole-branch review (first action of next session, S-GT5 precedent) →
-milestone: owner decides `gt-research` → `main` merge (§4.6 protocol).**
-D-19-2016 still blocks post-2016 claims (GOQ-08 — top-ranked acquisition).
+(R49→R72, R50→R73, R52→R75, R55→R81). **Next: ~~S-GT6/S-GT7 final whole-branch review~~ DONE + ~~batch-2 W-GT7
+evidence pass + targeted backfills~~ **DONE 2026-08-22 (§5n)** —
+current state: synthesis 7/7 + W-GT7 complete, corpus CLOSED at
+94 cited / 0 N-A / 0 pending; milestone: owner decides any future
+`gt-research` → `main` merge (§4.6 protocol; the 2026-08-22 close merged
+at 3250ffa — W-GT7's commits ride the NEXT §4.6 run).
+Remaining acquisitions are queue-rev-9 owner-browser items (AG 52-2017
+top-ranked; D-19-2016 blocker RESOLVED).**
 Product architecture context: root `HANDOVER.md` §1 (SaaS thin-client + Odoo;
 Takumi consumes requirements).
 
@@ -106,10 +115,12 @@ Takumi consumes requirements).
 - Python: `~/.venvs/localizations/bin/python` (shared, absolute path — works
   from the worktree). Scripts in `shared/scripts/` (extract_text.py etc.).
 
-## 4. Corpus state (2026-08-22 — batch 2 delivered, evidence passes pending)
+## 4. Corpus state (2026-08-22 — W-GT7 COMPLETE: all 94 rows evidenced)
 
 **94 registered entries** (`gt/sources/`, numbering 01–95; gap 27 unused;
-84–95 = 2026-08-22 owner batch 2, PENDING evidence passes):
+84–95 = 2026-08-22 owner batch 2, **EVIDENCED W-GT7 same day — EVID-746..951,
+5 files; all 12 consumed by GOQ resolution + backfills; COVERAGE 94 cited /
+0 N-A / 0 pending — corpus CLOSED**):
 FEL e-invoicing stack (acuerdos 13-2018/26-2019/15-2020, incorporation
 resolutions SAT-DSI 04_–14_, Reglas y validaciones **v1.7.10 Feb-2025**, Doc.
 Técnico Servicios, 26 XSDs + 3 JSON catalogs × 2 channels (29_ GitHub pinned
@@ -615,6 +626,105 @@ places — W-GT6)**. Reform chains are recorded in SOURCE_RESEARCH.md.
   (3 editorial minors: index inventory 071/PAY-range, §5m PAY clause,
   12 stale unwritten labels) — scoped re-review PASS. WAVE CLOSED.**
 
+## 5n. W-GT7 facts a session MUST know (2026-08-22)
+
+- **Deliverables (all committed, branch gt-research)**: 5 evidence files
+  (`84_91_94_95_MaquilaZF_D19-2016_chain` EVID-746..789 ·
+  `85_86_88_IVA_FEL_D31-2024` 801..839 · `87_93_IGSS_Aguinaldo` 851..882 ·
+  `89_90_FT` 891..918 · `92_Codigo_Civil` 931..951; 164 entries) +
+  targeted backfills into 20 requirements files (7 new LB rows, zero FR
+  renumbering) + master-index write-backs (GOQ-08/09/10/13/24/68/132/134/147
+  resolved; GOQ-04 refined; GOQ-12 lineage note; R82; EV07a..e key rows) +
+  registry 84_–95_ amendments + COVERAGE re-closed **94/0/0** + queue rev 9.
+- **GOQ-08 (D-19-2016 = 84_)**: art. 7 adds maquila 12 bis "el cual queda
+  asi" (R81 primary-confirmed); **ZF art. 23 = 10 años from notificación —
+  byte-consistent with 67_ art. 22 b) (NO nominal window change; the
+  substance is taxonomy + TAN carve-out + transition)**; transitorios =
+  arts. 28/29/30 (ZF grandfathering per D-65-89 plazos + re-calificación
+  with ISR-years deducted; **arts. 28 ¶2/30 print "31 de diciembre de
+  2015" cutoffs pre-dating the decree's own 31-mar-2016 vigencia = open
+  file OQ (WTO drafting vs error)**) + untitled maquila art. 18 (10-yr
+  top-up via Acuerdo Ministerial within 30 días — the Acuerdo itself not
+  in corpus); **12-bis-¶/8-bis asymmetry is REAL statute text** (8 bis
+  adds "desarrollo de software, desarrollo de contenido digital"; 12 bis
+  closes at "centros de llamadas o centros de contacto.") — permanent
+  verbatim guard; **old art. 15 never reproduced, but 94_ recovers the
+  2005-state trio: AT ISR holiday = art. 12 c) (10 años), art. 13 a)
+  Devolución, art. 15 b) CANT** — pre-D-38-2004 claims stay fenced;
+  AG 3-2017 (95_) = CURRENT reglamento reformer (23 quater + 10 bis/15
+  bis/17 bis/27 bis/30 C/D/42 bis/ter now primary; derogated 13/29/30;
+  art. 13's 2005 text recoverable via 91_); 70_'s no-253-2001-tags defect
+  stands, supersession-mapped. Surviving GOQ-08-family fence = AG 52-2017
+  only (GOQ-149).
+- **GOQ-13/24 (85_ D-31-2024, force-OCR'd 8.8k chars/pp — the footer-layer
+  heuristic trap hit again)**: art. 13 adds IVA art. 8 "A" verbatim; art. 7
+  a)/c) FEL mandate + art. 9 buyer-issued FEL 1.5% retention — **the LAW
+  names NO DTE codes** (FEPE/FARP/FCRP/FPEC/FCPC = SAT-side; Reglas'
+  art.-4 cite vs law's art.-9 = citation discrepancy, both in corpus);
+  **ICT = "Impuesto a la Confianza Tributaria" (art. 2)**; body never
+  prints its own decree number (identity via TOC + 74_ back-citations).
+- **GOQ-68 CLOSED (86_ AG 125-2022)**: = Reglamento D-7-2019 + AG 5-2013
+  (arts. 6-24) + AG 425-2006 (art. 25) reforms; **79_ art. 32's
+  "125-2022" = its own reform-provenance footnote**; "sexto párrafo del
+  art. 29" = AG 5-2013 art. 29 as reformed by art. 7 (consistent with
+  S-GT2's negative resolution); NO FEL-deadline changes; arts. 10-11
+  reform AG 5-2013 arts. 48-49 (simplified-regime exception + agro brutas
+  >Q2,500); file truncated mid-art. 25 (vigente 25-nov-2022 per 79_
+  footnote).
+- **GOQ-09/R82 (93_ D-76-78)**: **title = "…SECTOR PRIVADO" ONLY — the
+  registry "…y Público" label was WRONG (R82); public = D-1633, STILL
+  ABSENT (queue rev 9)**; art. 2 windows verbatim = 50% "primera quincena
+  del mes de diciembre" + 50% "segunda quincena del mes de enero
+  siguiente" (December-100% payers owe no January complement); art. 5
+  proration immediate-proportional; **NO averaging window/base-month in
+  the statute (payroll/04 OQ-003 — never invent the bono-14 June-average)**;
+  supletoriedad ONE-WAY (D-42-92 art. 5 borrows from D-76-78); 50%-floor
+  considerando cites the 1965 charter art. 114.18, not the current CPR.
+  **payroll/04 FR-095 ABSENCE-FR → private-sector engine (the plan's
+  flagship backfill).**
+- **GOQ-10 (87_ = JD Acuerdo 1421 17-may-2018 + AG 180-2018 approval —
+  two-instrument file)**: **fecha límite = art. 9 day-20 rule**
+  ("salvo que el Instituto establezca su propio calendario" + art. 42
+  inhábil roll-forward; NOT arts. 31 c)/38 as the register guessed);
+  **mora = art. 38 Junta Monetaria floating rate (base tasa ponderada
+  bancaria activa), patrono-exclusive, cap 100% of contributions** —
+  numeric value stays a floating external index (never frozen); 5%/Q3,000
+  layer = arts. 22/24; FR-161 fixed (art. 40 [printed "49" sic] =
+  incobrabilidad); **cuota rates NOT in the recaudación line — art. 1
+  delegates to PROGRAM reglamentos (GOQ-04 target refined; queue rev 9)**.
+- **GOQ-132 RESOLVED-NEGATIVE (88_ D-62-2001)**: pure IVA reform (D-27-92
+  arts. 4 num. 1, 24, 29 últ. ¶, 31, 32, 36 — broader than labeled); ZERO
+  AML content; the p.1 sanction-block adjacency = gazette artifact; no
+  relationship to D-67-2001.
+- **GOQ-134 (89_/90_ FT pair)**: PO universe = art. 15 incorporates the
+  AML universe by name-reference + **art. 18 FT-only light tier (real
+  estate, vehicles, joyas/metales, arte, notaries + CPAs — FIRST
+  appearance 2005; full PO only in D-15-2026)**; NO quetzal thresholds in
+  the pair; travel rule existed 2005 (EVID-624 correction — only the
+  shell-bank ban is new in D-15-2026); D-15-2026 FT penalties = a 2026
+  INCREASE; **AG 86-2006 art. 2 names the AML reglamento in force at
+  2-mar-2006 = AG 118-2002 — NOT AG 75-2006** (both queued; AG 118-2002
+  first — its arts. 16/17/21 carry the RTS plazos the FT reglamento
+  cross-cites).
+- **GOQ-147 (92_ Código Civil)**: DCA 07-oct-1963, vigencia 01-jul-1964
+  (art. 2178), ONSEC edition, **consolidation horizon ≥ 26-ago-2008 —
+  post-2008 staleness caveat on EVERY CC-anchored row**; general
+  prescription = **5 años from exigibility (art. 1508 verbatim)** + kit
+  (1509-1512 dies-a-quo, 1505-1507 mechanics, 1516 gateway) + specials
+  ledger (1y/2y/3y, 10y hipoteca 856); **CCom 604 = conservation duty NOT
+  a claim clock (claim clocks 626/627)**; CCom 577 periods CCom-fixed (CC
+  856 NOT the source); acciones-amortizadas = statutory CCom 577 ¶2;
+  cml03 FR-110 closed; coa03 cc_fallback = CC 1508.
+- **Session mechanics (failure modes)**: 5 reader dispatches all clean
+  first-pass; **the BF1 backfill dispatch returned EMPTY twice with ZERO
+  writes (7-file unit + 125KB evidence too large) — split into two
+  smaller dispatches, both clean. Lesson: cap backfill/implementer units
+  at ~3-4 files, and ALWAYS `git status` before re-dispatch.** Controller
+  quote-bank verification caught one conflation (AG 125-2022 arts. 48/49
+  quotes misread as 88_ content during verification — evidence-file Loc
+  fields resolved it); trust-evidence rule held (BF4 corrected the
+  brief's EVID range: D-62-2001 = EVID-834..839, not 821..825).
+
 
 ## 5. GT facts a new session must know
 
@@ -1006,11 +1116,13 @@ synthesized with these as flagged open questions and back-filled later.
     re-review PASS). ~~S-GT6/S-GT7 (special-regimes) plan doc →
     synthesis waves~~ **COMPLETE 2026-08-21** (§5m). ~~S-GT6/S-GT7 final
     whole-branch review~~ **DONE 2026-08-21 same session (APPROVED;
-    fix wave b6a4210 + re-review PASS; wave closed)**. **NEXT = §4.6
-    session-close merge protocol (controller drives rebase-then-merge +
-    §3 merge record at milestone; owner owns the merge decision).**
-    D-19-2016 remains the top-ranked acquisition (GOQ-08 — blocks
-    post-2016 claims; tag-only leads AG 3-2017, D-38-04).
+    fix wave b6a4210 + re-review PASS; wave closed)**. ~~NEXT = §4.6
+    session-close merge protocol~~ (executed 2026-08-22 at 3250ffa) →
+    **batch-2 W-GT7 evidence pass + targeted backfills COMPLETE 2026-08-22
+    (§5n) — corpus re-closed 94/0/0; NEXT = §4.6 merge of the W-GT7
+    commits, then idle awaiting owner-browser queue-rev-9 items (AG 52-2017
+    top-ranked — the last GOQ-08-family lead; AG 118-2002; D-1633;
+    D-37-2001; IGSS program reglamentos; consolidated IVA ≥2018).**
 2. ~~Opportunistic gap closure~~ **Register-triage maintenance pass DONE
    2026-08-22 (post-S-GT7, same session): GOQ-141..149 added to the master
    index §C.7** (OT divisor 141 · festividad 142 · CT 152/154 re-extraction
@@ -1266,3 +1378,25 @@ convergence session; updated again at W-GT1 close)
   15 commits; two rebase passes — main advanced mid-close via the
   parallel SV W18 + HN W11 runs; remote ref delete + re-push). Session
   closed post-merge.
+- **W-GT7 session addenda (2026-08-22, post-merge session — batch-2
+  evidence pass + targeted backfills COMPLETE; corpus re-closed 94/0/0)**:
+  Stage 1: 85_ force-OCR'd (footer-layer heuristic trap, 76_/77_ lesson —
+  8.8k chars/pp). Stage 2 subagent-driven: 5 reader agents (all clean
+  first-pass; controller spot-verified ~20 load-bearing quotes incl.
+  whitespace-normalized re-checks — all passed), then 6 backfill
+  dispatches (BF1 died EMPTY twice with ZERO writes — 7-file unit too
+  large; split into BF1a/BF1b, both clean; **lesson: cap implementer
+  units at 3-4 files, always `git status` before re-dispatch**). Commits:
+  evidence wave 5d2afd0 → registry 784b31e → backfills 66f7fbd →
+  records/bookkeeping (this commit). Resolutions: GOQ-08/09(mora)/10/13/
+  24/68/132/134/147 + GOQ-04 refined (program reglamentos) + R82 (93_ =
+  SECTOR PRIVADO only) + AG 118-2002 AML-reglamento lineage head named.
+  Backfill surface: 20 files, 7 new LB rows (payroll/04 LB-015, payroll/07
+  LB-025, cml03 LB-015/016, cml04 LB-027/028, taxation/07 LB-017), zero FR
+  renumbering; FR-095 ABSENCE → private-sector engine (the flagship).
+  Controller small-fix pass: coa03 stale cc_fallback rows, cml index LB
+  totals, e-invoicing/03 GOQ-24 residues, cml04 GOQ-132 row; special-
+  regimes quotation-source sections normalized with gt/sources paths.
+  Queue rev 9. **NEXT: §4.6 merge of the W-GT7 commits; then idle pending
+  owner-browser queue items (AG 52-2017 top) / accountant answers /
+  TotalDoc partner access (W6). No synthesis work remains.**

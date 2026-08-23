@@ -91,8 +91,7 @@ the surviving fence is the pre-2005 (1989-2004) state of law arts. 12/13/15.
 Quotation source: the committed evidence files
 `gt/.extractions/69-71_Maquila.evidence.md`
 (EVID-711..745; this file cites EVID-711..721, 731, 737, 738) and
-`gt/.extractions/84_91_94_95_MaquilaZF_D19-2016_chain.evidence.md`
-(EVID-746..789; frozen); quotes verified against the source txt
+`gt/.extractions/84_91_94_95_MaquilaZF_D19-2016_chain.evidence.md` (EVID-746..789; frozen) — sources `gt/sources/84_ZF_D19-2016_LeyEmergenteConserEmpleo.pdf`, `gt/sources/91_AG_4-2005_MaquilaReglamento.pdf`, `gt/sources/94_D38-2004_Maquila.pdf`, `gt/sources/95_AG_3-2017_MaquilaReglamento.pdf`; quotes verified against the source txt
 layers — numbers, percentages, durations, dates and article numbers exactly
 as printed.
 

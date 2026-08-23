@@ -459,3 +459,108 @@ LET-pequeño md5-identical).
   articles incl. derogating 23/24/26; maquila old art. 15 text
   unrecoverable in-corpus); AG 3-2017 (maquila reglamento reformer)
   tag-only lead; D-38-04 (maquila art. 12 bis creator) also absent.
+
+### 2026-08-22 — W-GT7: batch-2 evidence pass + targeted backfills (COMPLETE)
+
+Evidence pass over registry 84_–95_ (owner batch 2), executed subagent-driven
+(5 reader agents — Unit A maquila/ZF D-19-2016 chain, Unit B IVA/FEL
+instruments, Unit C IGSS+aguinaldo, Unit D FT pair, Unit E Código Civil
+decomposed) + controller spot-verification (~20 load-bearing quotes grep'd
+against the source txt layers — all passed, incl. whitespace-normalized
+re-checks). Stage 1: 85_ force-OCR'd (the 434-chars/pp footer layer defeated
+the 80-char scan heuristic — the W-GT5 76_/77_ lesson; recovered at 8.8k
+chars/pp). 5 evidence files COMMITTED (EVID-746..951, 164 entries):
+`84_91_94_95_MaquilaZF_D19-2016_chain` (746-789) ·
+`85_86_88_IVA_FEL_D31-2024` (801-839) · `87_93_IGSS_Aguinaldo` (851-882) ·
+`89_90_FT` (891-918) · `92_Codigo_Civil` (931-951). Key outcomes:
+
+- **GOQ-08 RESOLVED** (D-19-2016 = 84_ primary-read): art. 7 adds maquila
+  art. 12 bis "el cual queda asi" (R81 primary-confirmed); **ZF art. 23 =
+  10 años from notificación, byte-consistent with 67_ art. 22 b) — NO
+  nominal window change for post-2016 users** (W-GT6's unresolvable
+  question answered); transitorios arts. 28/29/30 (ZF grandfathering +
+  re-calificación with ISR-years deducted; "31 de diciembre de 2015"
+  cutoffs pre-dating own vigencia = new file OQ) + untitled maquila art. 18
+  (10-yr top-up via Acuerdo Ministerial, 30 días); **12-bis-¶/8-bis
+  asymmetry CONFIRMED VERBATIM** (8 bis adds "desarrollo de software,
+  desarrollo de contenido digital"; 12 bis closes at "centros de llamadas
+  o centros de contacto.") — permanent verbatim guard; **old art. 15 NOT
+  reproduced anywhere, but 94_ D-38-2004 recovers the 2005-state trio: the
+  AT ISR holiday was art. 12 c) (10 años), art. 13 a) Devolución, art. 15
+  b) CANT** (EVID-786 — registry-level correction of the W-GT6 reading);
+  AG 3-2017 (95_) = the CURRENT reglamento reformer (23 quater + 10 bis/
+  15 bis/17 bis/27 bis/30 C/D/42 bis/ter primary; derogated 13/29/30;
+  art. 13 recoverable via 91_ AG 4-2005); D-20-2016 page-mate = Marcas
+  Treaty adhesion; AM 15-2004 BANVI column-mate in 94_.
+- **GOQ-13 RESOLVED** (85_ D-31-2024, OCR'd): art. 13 adds IVA art. 8 "A"
+  verbatim; art. 7 a)/c) = the FEL mandate for Régimen Primario/Pecuario +
+  art. 9 buyer-issued FEL 1.5% retention — **the LAW names NO DTE codes
+  (FEPE/FARP/FCRP/FPEC/FCPC stay SAT-side)**; **ICT = "Impuesto a la
+  Confianza Tributaria" (art. 2)** — also resolves GOQ-24/e-invoicing
+  OQ-008; body never prints its own decree number (identity via TOC + 74_
+  back-citations); corroborates 74_ "16-2017" vs title "168-2017" [sic].
+- **GOQ-68 CLOSED** (86_ AG 125-2022): = Reglamento D-7-2019 + reforms to
+  AG 5-2013 (arts. 6-24) + AG 425-2006 (art. 25); **79_ art. 32's
+  "125-2022" string = its own reform-provenance footnote**; the "sexto
+  párrafo del artículo 29" = AG 5-2013 art. 29 as reformed by 125-2022
+  art. 7 (consistent with the S-GT2 negative resolution); NO FEL-deadline
+  changes; arts. 10-11 reform AG 5-2013 arts. 48-49 (simplified-regime
+  retention exception + agro brutas >Q2,500 — EVID-827); file truncated
+  mid-art. 25 (vigencia clause missing; vigente 25-nov-2022 per 79_
+  footnote).
+- **GOQ-09 half-resolved + R82** (93_ D-76-78): printed title = **"…SECTOR
+  PRIVADO" ONLY — the registry label "…y Público" was WRONG (R82); public
+  = D-1633, still absent**. Windows verbatim: 50% "primera quincena del
+  mes de diciembre" + 50% "segunda quincena del mes de enero siguiente"
+  (December-100% payers owe no January complement); art. 5 termination
+  proration immediate-proportional; NO averaging window/base-month defined
+  (new payroll/04 OQ); supletoriedad ONE-WAY (D-42-92 art. 5 borrows from
+  D-76-78); 50%-floor considerando cites the 1965 charter art. 114.18.
+  payroll/04 FR-095 ABSENCE-FR → private-sector engine.
+- **GOQ-10 RESOLVED** (87_ = JD Acuerdo 1421 + AG 180-2018, two-instrument
+  file): planilla **fecha límite = art. 9 "a más tardar el veinte (20) de
+  cada mes calendario"** (salvo calendario propio + art. 42 inhábil
+  roll-forward; NOT arts. 31 c)/38 as the register guessed); **mora =
+  art. 38 Junta Monetaria floating rate (base tasa ponderada bancaria
+  activa), patrono-exclusive, capped at 100% of contributions**; 5%/Q3,000
+  = arts. 22/24; payroll/07 FR-161 fixed (art. 40 [printed "49" sic] =
+  incobrabilidad, NOT prescription); **cuota rates NOT here — art. 1
+  delegates to PROGRAM reglamentos → GOQ-04 target refined**.
+- **GOQ-132 RESOLVED-NEGATIVE** (88_ D-62-2001): pure IVA reform (D-27-92
+  arts. 4 num. 1, 24, 29 últ. ¶, 31, 32, 36 — broader than the batch
+  label); ZERO AML content; the p.1 sanction-block adjacency = gazette
+  layout artifact.
+- **GOQ-134 RESOLVED** (89_ D-58-2005 + 90_ AG 86-2006): FT PO universe =
+  art. 15 incorporates the AML universe by name-reference + **art. 18
+  FT-only light tier (real estate, vehicles, joyas/metales, arte,
+  notaries + CPAs — first appearance 2005, full PO only in D-15-2026)**;
+  NO quetzal thresholds in the pair (reglamento prints zero monetary
+  amounts); travel rule existed 2005 (art. 17 — EVID-624 correction);
+  D-15-2026 penalty band = a 2026 INCREASE; **KEY: AG 86-2006 art. 2 names
+  the AML reglamento in force at 2-mar-2006 = AG 118-2002 — NOT
+  AG 75-2006** (both now queued; queue rev 9).
+- **GOQ-147 RESOLVED** (92_ Código Civil): DCA 07-oct-1963, vigencia
+  01-jul-1964 (art. 2178), ONSEC edition, consolidation horizon ≥
+  26-ago-2008 (post-2008 caveat on every CC-anchored row); **general
+  prescription = 5 años from exigibility (art. 1508 verbatim)** + dies-a-quo
+  kit 1509-1512 + interruption/suspension 1506/1507/1505 + gateway 1516 +
+  specials ledger (1y/2y/3y, 10y hipoteca 856, usucapión 651); CCom 604 =
+  CONSERVATION duty not a claim clock (claim clocks 626/627); CCom 577
+  periods CCom-fixed (CC 856 NOT the source); acciones-amortizadas =
+  statutory inside CCom 577 ¶2; cml03 FR-110 CLOSED (Civil fallback = 5
+  años); coa03 cc_fallback keyed.
+
+Backfills: 20 requirements files edited in place (special-regimes ×7 ·
+payroll/04+07+index · cml03/04+index · coa03 · taxation/01/03/07+index ·
+e-invoicing/01+03); LB additions: LB-015 (payroll/04, 93_), LB-025
+(payroll/07, 87_), LB-015/016 (cml03, 92_), LB-027/028 (cml04, 89_/90_),
+LB-017 (taxation/07, 86_); no FR renumbering anywhere. Registry 84_–95_
+rows amended; master-index write-backs (GOQ-08/09/10/13/24/68/132/134/147 +
+GOQ-04 refined + GOQ-12 lineage note + R82 + EV07a..e key rows + coverage
+totals); COVERAGE re-closed **94 cited / 0 N-A / 0 pending**. Session
+mechanics: 5 reader dispatches (all landed first-pass; BF1 backfill
+dispatch died EMPTY twice with zero writes — split into two smaller
+dispatches, both clean; the §10 ls-before-retry protocol held), 4+2
+backfill dispatches, controller quote-bank verification + small-fix pass
+(coa03 stale cc_fallback rows, cml index LB totals, e-invoicing/03 GOQ-24
+residues, cml04 GOQ-132 row).
