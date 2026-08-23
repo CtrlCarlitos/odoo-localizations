@@ -193,6 +193,27 @@ watch; Código de Comercio; SEE docs; DGS SMM 2027 promedio print early
 R-H91 (Reading B, CONSUCOOP-gated); S-HN5 DEFERRED).
 ## Wave log
 
+- **W13 watch-tick session (2026-08-23, DONE — no acquisition, no corpus
+  change, controller-executed): the residual watch queue re-ticked, ALL
+  CLEAN/NEGATIVE.** (a) **2026 JD ceiling act watch (TOP)**: the ENAG
+  ago-2026 month listing re-enumerated (start=0..72) — still ends at
+  `20260821-37226` (G 37,226, Friday 21-ago-2026); 22/23-ago = weekend, no
+  weekday issues have appeared since the W12 tick; the septiembre listing
+  does not exist yet; the `gaceta-digital/2026` year index links months
+  only (no lagging-issue route). Payroll/03 AC-006 blocking config gap =
+  still the LIVE state; next meaningful tick = Mon 24-ago-2026. (b) **CbCR
+  restatement comunicado** (FREP/10 OQ-024): SAR wp-json posts re-checked
+  for "comunicado país por país" / "653-2023" — empty (the only "país por
+  país" hits = FYDUCA FAQ noise); suspended row stands. (c) **D. 96-2012 /
+  "Acuerdo 799" / D. 247-89 watch class**: Wayback CDX delta vs the W11/W12
+  re-greps — ZERO new captures of congreso.gob.hn (from=20260821) and zero
+  new ihss.hn PDF captures (from=20260801) and zero new trabajo.gob.hn
+  captures → nothing to re-grep (the re-grep trigger = a new enumeration
+  landing, per the W8 recipe). (d) DGS SMM 2027 promedio: not due until
+  early-2027; no new trabajo.gob.hn uploads. (e) SEE docs: no route
+  (lead 1, unchanged). Corpus stays 166 files / EVID-680; rulings
+  R-H1..R-H91; totals unchanged.**
+
 - **W12 acquisition wave (2026-08-22, DONE — acquisition + evidence +
   fold-ins + verification, controller-executed): the Código de Comercio +
   CT-original wave — both from the GLIN archive of the old official

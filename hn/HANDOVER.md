@@ -40,12 +40,20 @@ the CT D. 189-1959 ORIGINAL print [THE CT promulgation pin: G 16,827-16,834
 15→23-jul-1959 → vigencia 15-jul-1959; the original Art. 120 cap = 8 MESES
 — the 25/15 caps arrive with D. 150-2008; the 8+3 feriado list = 1959
 original, the 1960 pair reformed mechanics only]; corpus 166 files;
-COVERAGE 166 rows = 164 cited + 2 N/A, gates PASS [1099/536/574/333])**.
+COVERAGE 166 rows = 164 cited + 2 N/A, gates PASS [1099/536/574/333])**,
+and **the W13 watch-tick session (2026-08-23, no corpus change — the
+residual watch queue re-ticked ALL CLEAN: ENAG ago-2026 listing still ends
+at G 37,226/21-ago [weekend elapsed, no new weekday issues; no 2026 JD
+ceiling act through 23-ago-2026]; CbCR restatement comunicado
+SAR-negative; zero new Wayback captures of congreso/ihss/trabajo →
+nothing to re-grep)**.
 Next = the residual watch queue
 (TOP: the 2026 JD ceiling act watch via the Sección-A certificaciones
-route — W11 scan + W12 tick both clean through G 37,226/21-ago-2026;
+route — W11 scan + W12/W13 ticks all clean through G 37,226/21-ago-2026,
+next tick Mon 24-ago [2026 payroll = blocking config gap AC-006 until it
+lands];
 D. 96-2012 watch [gazetted 20-jul-2012 pinned]; CbCR restatement
-comunicado watch [negative as of 2026-08-22]; "Acuerdo 799" TEXT + D.
+comunicado watch [negative as of 2026-08-23]; "Acuerdo 799" TEXT + D.
 247-89 watch [D. 247-89 now ALSO the payroll/08 OQ-008 cap-window key];
 SEE docs; DGS SMM 2027 promedio print early-2027; S-HN5 DEFERRED).
 Read this fully before acting; it is the authoritative HN cross-session
@@ -944,6 +952,33 @@ discarded md5-identical to 104_). Structure:
   4. **Merge to main at milestone:** owner decision; rebase-then-merge; never
      force-push (root HANDOVER country model). Branch head after S-HN1/S-HN2
      commit = the synthesis-wave base; future waves branch from here.
+
+Session state at stop (2026-08-23, W13 watch-tick session — committed on
+`hn-research`): **NO corpus change** (166 files, EVID-680, R-H91 —
+unchanged from the W12 merge). The session's only work = the residual
+watch queue re-ticked, ALL CLEAN/NEGATIVE: (a) **2026 JD ceiling act watch
+(TOP)** — ENAG ago-2026 month listing re-enumerated (start=0..72): still
+ends at `20260821-37226` (G 37,226, Fri 21-ago-2026; 22/23-ago = weekend,
+no weekday issues since the W12 tick; septiembre listing absent; the
+`gaceta-digital/2026` year index links months only — no lagging-issue
+route) → **no JD ceiling act through 23-ago-2026; payroll/03 AC-006
+blocking config gap = the LIVE state; next meaningful tick = Mon
+24-ago-2026**; (b) **CbCR restatement comunicado** (FREP/10 OQ-024) — SAR
+wp-json posts negative for "comunicado país por país"/"653-2023" (only
+hits = FYDUCA FAQ noise); suspended row stands; (c) **D. 96-2012 /
+"Acuerdo 799" / D. 247-89 watch class** — Wayback CDX delta vs the W11/W12
+re-greps: ZERO new captures of congreso.gob.hn (from=21-ago), zero new
+ihss.hn PDFs (from=1-ago), zero new trabajo.gob.hn → nothing to re-grep
+(trigger = a new enumeration landing, per the W8 recipe); (d) DGS SMM 2027
+promedio: not due until early-2027; (e) SEE docs: no route (lead 1).
+Fold-ins: EXTRACTION_PLAN wave-log W13 entry + RESEARCH §5 WATCH TICK
+(2026-08-23) line + this HANDOVER. Totals unchanged: payroll
+330/175/172/87, taxation 249/121/140/56, FREP 363/169/189/174; rulings
+R-H1..R-H91; next EVID = 681. **Next = the residual watch queue (TOP: the
+2026 JD ceiling act watch via the Sección-A certificaciones route, next
+tick Mon 24-ago; D. 96-2012 watch; CbCR restatement comunicado watch;
+"Acuerdo 799" TEXT + D. 247-89 watch [the OQ-008 cap-window key]; SEE
+docs; DGS SMM 2027 promedio print early-2027; S-HN5 DEFERRED).**
 
 Session state at stop (2026-08-22, W12 GLIN re-grep wave — committed on
 `hn-research`, MERGED to main same-day): evidence COMPLETE

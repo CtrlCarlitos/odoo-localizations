@@ -339,6 +339,15 @@ files `161_`..`165_`, EVID-644..664 + the W5 lost-file recovery):**
   "Reglamento-Incapacidad-para-reformas" ihss.hn upload = content-identical
   re-render of 88_ (discarded unregistered; md5 differs but 40/40 pages same
   text — a re-render, the dedup lesson extended to TEXT-identity).
+- **WATCH TICK (2026-08-23, W13 — all clean):** ENAG ago-2026 listing still
+  ends at `20260821-37226` (21-ago = Friday; weekend elapsed, no new issues;
+  septiembre listing absent; year index links months only) — **no 2026 JD
+  ceiling act through 23-ago-2026**, next tick = Mon 24-ago · CbCR
+  restatement comunicado: SAR wp-json negative (FYDUCA-FAQ noise only) ·
+  Wayback delta vs W11/W12 re-greps: zero new congreso.gob.hn captures
+  (from=21-ago), zero new ihss.hn PDFs (from=1-ago), zero new
+  trabajo.gob.hn — nothing to re-grep for D. 96-2012 / "Acuerdo 799" /
+  D. 247-89.
 - **THE W5 LOST-FILE RECOVERY (process lesson):** the committed
   `106+107+108_*.evidence.md` was an md5-IDENTICAL duplicate of the 105_ pass
   — the real EVID-373..384 bank never landed in git (a shape-(b) subagent
