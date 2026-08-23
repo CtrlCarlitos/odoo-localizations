@@ -1,16 +1,16 @@
-# GT — Manual Download Queue (ruling OQ2) — rev 9
+# GT — Manual Download Queue (ruling OQ2) — rev 10
 
 Browser-only items remaining after W1–W5 automated acquisition. Drop files
 into `.worktrees/gt-research/gt/sources/inbox/` (any filename; I verify,
-rename, register). Rev 9 (2026-08-22, post-W-GT7): batch-2 items 84_–95_
-EVIDENCED (EVID-746..951) + backfilled — GOQ-08/09(mora)/10/13/24/68/132/
-134/147 resolved. **Queue re-shapes: (i) AML reglamento hunt now targets
-AG 118-2002 FIRST (AG 86-2006 art. 2 names it as the reglamento in force
-at 2-mar-2006 — NOT AG 75-2006; if real, 75-2006 = a later successor —
-hunt both); (ii) IGSS cuota-rate target refined to the PROGRAM reglamentos
-(IVM etc.; 1421 art. 1 delegates montos there — GOQ-04); (iii) NEW:
-D-1633 public-sector aguinaldo (GOQ-09 public half, R82).** Rev 8 items
-below still stand unless struck.
+rename, register). Rev 10 (2026-08-23, batch 3): **AG 118-2002 + D-1633 +
+D-37-2001 DELIVERED to inbox and identity-VERIFIED (OCR'd; D-37-2001 file
+carries D-36-2001 tail as page-mate) — W-GT8 registration pending; §A rows
+struck. Remaining §A priority: AG 52-2017 → IGSS program reglamentos →
+consolidated IVA → AG 75-2006 existence check.** Rev 9 (2026-08-22,
+post-W-GT7): batch-2 items 84_–95_ EVIDENCED (EVID-746..951) + backfilled —
+GOQ-08/09(mora)/10/13/24/68/132/134/147 resolved; queue re-shapes (AG
+118-2002 first; IGSS PROGRAM reglamentos; D-1633 public aguinaldo) are now
+executed or carried below.
 
 ## 0. Top-ranked (master-index blocking GOQs)
 
@@ -27,6 +27,14 @@ aguinaldo (93_, GOQ-09 December half), D-38-2004 (94_), AG 3-2017 (95_).
 Duplicates rejected: LET manual = 58_, certificador procedure = 22_ (v2.1
 confirmed current — GOQ-40 v2.2+ watch stays).**
 
+**DELIVERED 2026-08-23 (owner batch 3 → inbox, identity VERIFIED, W-GT8
+registration pending): AG 118-2002 (`gtagx01182002.pdf`, DCA 18-abr-2002
+No. 96 — the AML reglamento AG 86-2006 art. 2 names; arts. 16/17/21 RTS
+plazos), D-1633 (`gtdcx16331966.pdf`, DCA 10-dic-1966 — public-sector
+aguinaldo, GOQ-09 public half / R82), D-37-2001 (`gtdcx37-2001.pdf`, DCA
+3-ago-2001 — Q250 bonificación incentivo, art. 1 in-substitution-of
+D-78-89; page 1 carries D-36-2001 tarifas-impositivas tail as page-mate).**
+
 ## A. legal.dca.gob.gt interactive search (Edición Legal — works in a real
 browser; "Búsqueda avanzada" → filters by organismo/tipo/año + texto)
 
@@ -34,10 +42,7 @@ browser; "Búsqueda avanzada" → filters by organismo/tipo/año + texto)
 |---|---------|--------|
 | — | gt_sources_ag_52-2017.pdf | Acuerdos Gubernativos 2017 — "52-2017" (ZF reglamento AG 242-90 reformer: added art. 35 bis + reformed arts. 3/6/8/13 pre-65-2022 — tags dated 05-04-2017 in 68_; GOQ-149; **now the ONLY missing GOQ-08-family lead**) |
 | — | gt_sources_iva_27-92_post2018.pdf | Decretos 1992 → 27-92 — look for a consolidated edition listing reforms through ≥2018 (must include Art. 29-"A" FEL hook; closes OQ10/GOQ-01; ideally through D-10-2025) — one consolidated print also covers the Cap. VIII/IX tariff chapters (GOQ-146) |
-| — | gt_sources_ag_118-2002.pdf | Acuerdos Gubernativos 2002 — "118-2002" (**the pre-cutover AML reglamento named by AG 86-2006 art. 2 — W-GT7 EVID-906; its arts. 16/17/21 carry the RTS plazos the FT reglamento cross-cites**) |
-| — | gt_sources_aml_reglamento.pdf | Acuerdos Gubernativos 2006 — "Lavado" (AG 75-2006 hypothesis — **now SECOND in line: would be a later successor to AG 118-2002; verify existence first**; OQ14 also asks its post-D-15-2026 status) |
-| — | gt_sources_aguinaldo_D1633.pdf | Decretos (1963-1966 era, likely 1966) — aguinaldo sector público (**GOQ-09 public half — R82: 93_ D-76-78 = private sector ONLY**) |
-| — | gt_sources_incentivo_D37-2001.pdf | Decretos 2001 — "37-2001" (bonificación incentivo Q250/mes current law; 41_ = D-78-89 is the old hourly-floor version) |
+| — | gt_sources_aml_reglamento.pdf | Acuerdos Gubernativos 2006 — "Lavado" (AG 75-2006 hypothesis — **existence check only now: would be a later successor to AG 118-2002 (delivered); if ABSENT, 118-2002 likely remained in force until the D-15-2026 reglamento**; OQ14 also asks its post-D-15-2026 status) |
 | — | gt_sources_igss_reglamento_programas.pdf | igssgt.org legislación section — **PROGRAM reglamentos (IVMSOMA/IVM kin)**: 1421-2018 art. 1 delegates cuota montos there (GOQ-04 refined; the recaudación line 87_ carries NO rates) |
 
 Struck (delivered/resolved 2026-08-19): ~~37_ AG 256-2025~~, ~~41_ bono 14
