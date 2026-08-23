@@ -56,7 +56,8 @@ expected and absorbed by instantiating the canon, never by forking it.
 - Branch `main` only; remote `origin` = `git@github-CtrlCarlitos:CtrlCarlitos/odoo-localizations.git` (SSH alias `github-CtrlCarlitos` from `~/.ssh/config`); push after each wave; never force-push. `gh` CLI at `~/.local/bin/gh`, authenticated as CtrlCarlitos.
 - Commits are SSH-signed; local `%G?=N` is a verification-only artifact (`gpg.ssh.allowedSignersFile` unset) — signatures ARE present; don't chase it.
 - `.gitattributes`: `*.csv text eol=lf`.
-- Commits through `ba98ac7` (2026-08-22: HN R-H91 merge — see §3
+- Commits through `c1e740a` (2026-08-22: GT W-GT7 merge — see §3
+  thirty-fourth run; `ba98ac7` 2026-08-22: HN R-H91 merge — see §3
   thirty-third run; `3250ffa` 2026-08-22: GT S-GT6/S-GT7 merge — see §3
   thirty-second run; earlier `d37f89f` 2026-08-22: HN W11 merge —
   thirty-first run, `56ee669` 2026-08-22: SV W18 merge — thirtieth run,
@@ -964,6 +965,34 @@ expected and absorbed by instantiating the canon, never by forking it.
       print early-2027; **the 506-vs-509 legal reading = OWNER
       DECISION**); S-HN5 DEFERRED — bootstrap `Read hn/HANDOVER.md
       and continue.`
+
+      **GT W-GT7 merge 2026-08-22 (§4.6 protocol, thirty-fourth
+      run):** `gt-research` rebased onto `da47a38` (HN's thirty-third
+      run had advanced main; 4 commits rewritten
+      `5d2afd0..b96b71c`→`d1e0964..be6e89c`; zero conflicts —
+      gt/-scoped only) then fast-forward-merged; remote branch ref
+      updated via delete + re-push. **GT = W-GT7 BATCH-2 EVIDENCE
+      PASS + TARGETED BACKFILLS COMPLETE — CORPUS RE-CLOSED
+      94/0/0** (see `gt/HANDOVER.md` §5n): 5 evidence files
+      (EVID-746..951, 164 entries) over 84_–95_ incl. the D-19-2016
+      blocker; 85_ force-OCR'd (footer-layer heuristic trap).
+      **GOQ-08/09(mora)/10/13/24/68/132/134/147 RESOLVED into the
+      corpus** (D-19-2016 primary-read: ZF art. 23 keeps
+      10-años-from-notificación; 12-bis/8-bis asymmetry verbatim-real;
+      2005-state trio recovered via D-38-2004 — AT holiday was art.
+      12 c); ICT = Impuesto a la Confianza Tributaria; AG 125-2022
+      pointer = own footnote; D-76-78 = SECTOR PRIVADO only (R82 —
+      payroll/04 ABSENCE-FR → private engine; public D-1633 absent);
+      1421 art. 9 day-20 deadline + art. 38 JM-floating mora cap-100%;
+      D-62-2001 = pure IVA adjacency artifact; FT pair primary +
+      **AG 118-2002 = AML reglamento named at 2-mar-2006 (NOT
+      AG 75-2006)**; Código Civil art. 1508 5-y fallback closes
+      FR-110). Backfills: 20 requirements files, 7 new LB rows, zero
+      FR renumbering.       GOQ-04 refined (IGSS program reglamentos);
+      queue rev 9. No synthesis work remains — next inputs are
+      owner-side (AG 52-2017 top acquisition, GOQ-149; TotalDoc
+      renewal 02/12/2026, OQ7; AML reglamento ≈17-mar-2027, GOQ-12);
+      bootstrap `Read gt/HANDOVER.md and continue.`
 
       **GT S-GT6/S-GT7 merge 2026-08-22 (§4.6 protocol, thirty-second
       run):** `gt-research` rebased onto `d37f89f` (15 commits rewritten
