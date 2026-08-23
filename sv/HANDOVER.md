@@ -65,8 +65,11 @@ boundary.**
    **W19 fold-in wave (2026-08-23): COMPLETE — the W18 16-file evidence
    backlog consumed (five EV files, EVID-359..403); SV-SPE-FR-176..203
    (+28) = corpus 1,690 FRs; 14_→80_ re-key (0 survivors); COVERAGE
-   81/9/2/12 of 104, gate green; MERGE-READY (final review + fix wave
-   PASS at edit time; merge record below); see §5 wave log.**
+   81/9/2/12 of 104, gate green — MERGED to main at 33deaaa via
+   rebase-then-merge (thirty-seventh §4.6 run in root HANDOVER; one
+   textual conflict on the T8 bookkeeping commit vs the main-side W18
+   merge record 56ee669, resolved keep-both; pre-rebase SHAs
+   e86e100..c188c6c superseded by 6ab5a6a..33deaaa); see §5 wave log.**
   Remaining program: acquisition follow-ups (§8.2), SOQ/external watches,
   owner merge decisions.**
 
@@ -225,8 +228,9 @@ must grep ALL LB source columns of the new files.
   minors triaged: 2 ignore (COVERAGE.md:18 "zero pending" aside; EVID
   cosmetic nits), rest ride (HANDOVER:645 AML phrasing, spe/08
   historical misprint-notes, spe/04 OQ-1 pointer, coa OQ wording,
-  taxation/09 rewords = SR8 backlog). Commits ecd553d..67f75bc;
-  pushed sv-research. **Merge to main = owner decision.**
+   taxation/09 rewords = SR8 backlog). Commits ecd553d..67f75bc;
+   pushed sv-research. **Merged to main at 33deaaa same day —
+   thirty-seventh §4.6 run; see §1 record.**
 
 ### W19-process rulings (2026-08-23, preserved from the SDD ledger before workspace deletion)
 

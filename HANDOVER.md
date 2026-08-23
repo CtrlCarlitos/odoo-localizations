@@ -665,7 +665,45 @@ expected and absorbed by instantiating the canon, never by forking it.
       ceiling act via the Sección-A certificaciones route;
       D. 96-2012; CbCR restatement comunicado; "Acuerdo 799"
       TEXT; D. 247-89; Código de Comercio; SEE docs; DGS SMM 2027
-      promedio print early-2027; S-HN5 DEFERRED).
+       promedio print early-2027; S-HN5 DEFERRED).
+
+       **SV W19 merge 2026-08-23 (§4.6 protocol, thirty-seventh run):**
+       `sv-research` rebased onto `bde7cfa` (15 commits rewritten
+       `e86e100..c188c6c`→`6ab5a6a..33deaaa`: W19 plan + T1..T8 +
+       T1/T3/T4 fix rounds + T3-fix2/close/fix-wave commits; ONE
+       textual conflict on T8's sv/HANDOVER §1/§8 edits vs the
+       main-side `56ee669` (W18 merge record), resolved keep-both) then
+       fast-forward-merged; remote branch ref fixed via delete +
+       re-push. **SV = W18 FOLD-IN/EVIDENCE WAVE COMPLETE (corpus
+       1,662→1,690 FRs):** the 16-file evidence backlog consumed —
+       **five EV files, EVID-359..403 gapless** (LESIA+124-2015 tasa /
+       FOVIAL-COTRANS instruments / LSI-277+ZF-493 / 95_+96_+97_
+       incentives / 90_-94_ transitories); **SV-SPE-FR-176..203 (+28)**
+       across spe/01/02/06/07/08; **14_→80_ LSI re-key = 38 LB columns
+       + 47 inline, 0 survivors** (12m-ZF vs 24m-LSI clock invariant
+       re-verified HOLDS); ZF 493-2025 tail folded (Arts.
+       2/10/11/17/18/19/28/44/46-A/54-B/54-I + 2-yr grace); COTRANS
+       passenger-identity + $0.20=D.L. 597-2001-Art.26 provenance
+       landed in SR8 + e-invoicing FR-046/CAT-015 glosses (**MOQ-04
+       CLOSED**); aguinaldo-cap vintages re-anchored to 91_-94_
+       (values byte-identical); **95_ horizon TEXT-PINNED 15 años**
+       (Art. 3 inc. 2); **SOQ-32/34/39/56 consumed, 36/46/58 refreshed
+       (stay open), 30 narrowed; SOQ-56 = BCR-list membership (OQ-2
+       resolved)**; **96_ Chapter V = REAL 30%-withholding surface
+       discovered (plan hypothesis refuted) — routed out-of-wave to a
+       future taxation wave** (spe/01 OQ-6 + SOQ-41 + FR-201 pointers).
+       COVERAGE regen: **81 cited / 9 N-A / 2 superseded / 12 pending
+       of 104** (18 flips + 14_→superseded, gate PASS). External
+       checks: factura 200 / MH unchanged / **D.O. + uif.gob.sv
+       DNS-level outage since 2026-08-22** (no A record, DoH-verified;
+       AML watch deadline 2026-10-17 = 71_ 12-month adaptation).
+       Registry fix: §89 compensation figures $250/$500 per the print.
+       Final whole-wave review USABLE-WITH-FIXES → one fix wave PASS
+       (master-index stale authority claims cleared) = MERGE-READY.
+       Next per `sv/HANDOVER.md` §8: SR8 rewire backlog, 96_ Chapter V
+       taxation fold-in, taxation-side 2025+ standing-rule mirror,
+       residual acquisitions + external watches.
+
 
       **SV W18 merge 2026-08-22 (§4.6 protocol, thirtieth run):**
       `sv-research` rebased onto `adcd528` (13 commits rewritten
