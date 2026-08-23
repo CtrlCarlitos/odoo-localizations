@@ -1400,3 +1400,13 @@ convergence session; updated again at W-GT1 close)
   Queue rev 9. **NEXT: §4.6 merge of the W-GT7 commits; then idle pending
   owner-browser queue items (AG 52-2017 top) / accountant answers /
   TotalDoc partner access (W6). No synthesis work remains.**
+- **§4.6 merge record (2026-08-22, second run of the day — W-GT7)**:
+  gt-research rebased onto main `da47a38` (HN's thirty-third run had
+  advanced main mid-session) and merged as the **thirty-fourth s4.6 run**
+  — 4 W-GT7 commits: d1e0964 evidence pass (EVID-746..951, 5 files) ·
+  239dcf3 registry 84–95 amendments · 9db44a9 targeted backfills (20
+  files) · be6e89c master-index/COVERAGE/queue/records close. Root
+  HANDOVER §3 record written; remote gt-research updated via delete +
+  re-push (rebase rewrote history). Corpus CLOSED 94/0/0 — no synthesis
+  work remains; next inputs are owner-side (queue rev 9 / accountant /
+  TotalDoc W6).
