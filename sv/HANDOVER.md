@@ -70,13 +70,21 @@ boundary.**
    textual conflict on the T8 bookkeeping commit vs the main-side W18
    merge record 56ee669, resolved keep-both; pre-rebase SHAs
    e86e100..c188c6c superseded by 6ab5a6a..33deaaa); see §5 wave log.**
-  Remaining program: acquisition follow-ups (§8.2), SOQ/external watches,
-  owner merge decisions.**
+   **W20 taxation edit wave (2026-08-23): COMPLETE — 96_ D.L. 308-2025
+   Chapter V foreign-agents levy fold-in: NEW taxation/17
+   (SV-TAX-FR-405..416) + taxation/09 SR8 rewire (COTRANS rows → 89_,
+   FR-245 gate satisfiable) + taxation/04 vintages mirrored to 91_-94_
+   (OQ-003 resolved) + spe/01 pointer flips; +12 FRs = corpus 1,702;
+   COVERAGE 81/9/2/12 gate green (96_ curated note only); the W19 §8
+   debts (a)(b)(c) all EXECUTATED; merge-pending at edit time (final
+   review + fix wave to come); see §5 wave log.**
+   Remaining program: acquisition follow-ups (§8.2), SOQ/external watches,
+   owner merge decisions.**
 
 ## 2. Read order for a new session
 
 1. THIS file
-2. `sv/EXTRACTION_PLAN.md` — wave log (W1–W19), reading order, risks
+2. `sv/EXTRACTION_PLAN.md` — wave log (W1–W20), reading order, risks
 3. `sv/.extractions/00_MASTER_INDEX.md` — synthesis lookup: clusters
    (A1-A12, T1-T8, F1-F12, P1-P10, C1-C10, SR1-SR8, N1-N8, V1-V10),
    rulings R1–R30, MOQ/SOQ registers
@@ -139,17 +147,18 @@ boundary.**
 | Topic dir | Files | FRs | Prefix |
 |---|---|---|---|
 | `e-invoicing/` | 6 + index | 222 (incl. §3.11 FR-159..164) | SV-EINV-FR-001..164, SV-PROT-FR-001..040, SV-CAT-FR-001..018 |
-| `taxation/` | 16 + index + 2 CSV | 404 (S2: 001..175 ISR; S9: 176..353 IVA; W17: 354..404 CT procedures) | SV-TAX-FR-001..404 |
+| `taxation/` | 17 + index + 2 CSV | 416 (S2: 001..175 ISR; S9: 176..353 IVA; W17: 354..404 CT procedures; W20: 405..416 foreign-agents levy) | SV-TAX-FR-001..416 |
 | `fiscal-reporting/` | 8 + index + CSV | 214 | SV-FREP-FR-001..214 |
 | `payroll/` | 8 + index + 2 CSV | 147 | SV-PAY-FR-001..147 |
 | `commercial-legal/` | 10 + index | 224 | SV-CML-FR-001..224 |
 | `special-regimes/` | 8 + index | 203 | SV-SPE-FR-001..203 |
 | `chart-of-accounts/` | 8 + index | 276 | SV-COA-FR-001..276 |
 
-Totals: 1690 FRs (W17 fold-in = 57 new: taxation 354..404, fiscal-
+Totals: 1702 FRs (W17 fold-in = 57 new: taxation 354..404, fiscal-
 reporting 213..214, payroll 144..147; W19 fold-in = +28: special-regimes
-176..203, all other dirs unchanged; taxation dir 404 FRs / 295 LBs /
-274 ACs / 87 OQs). CSVs:
+176..203, all other dirs unchanged; W20 fold-in = +12: taxation 405..416,
+all other dirs unchanged; taxation dir 416 FRs / 305 LBs / 283 ACs /
+91 OQs). CSVs:
 `withholding_tables.csv` + `isr_brackets.csv` (taxation),
 `f14_income_codes.csv` (fiscal-reporting), `smm_2025.csv` +
 `ss_contributions.csv` (payroll). FR numbering is wave-sequential within a
@@ -157,8 +166,9 @@ prefix; **R30(b): one prefix per topic dir — the IVA-core files continued
 `SV-TAX` at 176 rather than taking a new prefix**; genuinely new topics
 take new prefixes per the `<CC>-<TOPIC>-FR-nnn` contract.
 
-COVERAGE rollup after W19: 81 cited / 9 N-A / 2 superseded / 12 pending
-(104 rows — regen 2026-08-22; the 12 pending = registry-provenance/
+COVERAGE rollup after W19 (W20 2026-08-23 regen: NO drift — only the
+96_ curated note text refreshed): 81 cited / 9 N-A / 2 superseded /
+12 pending (104 rows; the 12 pending = registry-provenance/
 identity-only instruments, rationale in COVERAGE_NOTES). S8 lesson
 (standing): registry flips
 must grep ALL LB source columns of the new files.
@@ -197,6 +207,33 @@ must grep ALL LB source columns of the new files.
   consumer interface).
 
 ### Wave log summary (full detail in `sv/EXTRACTION_PLAN.md` §Extraction log)
+
+- **W20 (2026-08-23):** taxation edit wave COMPLETE per plan
+  `docs/superpowers/plans/2026-08-23-w20-taxation-edit-wave.md` —
+  subagent-driven, tasks T1-T4 + controller prep (T2/T3 Approved clean;
+  T1 one fix round = quote fidelity — txt-normalized "sin deducción"
+  variant noted, two reviewer prescriptions rejected on txt evidence +
+  re-review upheld; T4 one fix round = curated 96_ COVERAGE note;
+  commits 81e0906..89443fe). **T1** NEW `taxation/17_foreign-agents-levy.md`
+  (SV-TAX-FR-405..416; 12 FRs / 10 LBs / 9 ACs / 4 OQs) = the 96_ D.L.
+  308-2025 Chapter V 30% levy fold-in, cluster L1 · **T2** taxation/09
+  SR8 rewire (COTRANS rows anchored to 89_; FR-245 gate satisfiable) ·
+  **T3** taxation/04 aguinaldo vintages mirrored to 91_-94_ + **OQ-003
+  RESOLVED** + master-index R22/SOQ-05 appends · **T4** spe/01 + spe
+  index + EV95/96/97 OQ-2 pointer flips, taxation/00_index 17-row +
+  totals 416/305/283/91, COVERAGE regen. **SV-TAX-FR-405..416 (+12) →
+  corpus 1,702 FRs**; registry unchanged (103 files, next 106); COVERAGE
+  81/9/2/12 of 104 stands, gate green (96_ curated note only). SOQ
+  verdicts: **SOQ-41 96_-Chapter-V half consumed** (residuals = D.L.
+  201-2025 + 411-2025 dated negatives + RAEX reglamento config-gap);
+  spe/01 OQ-6 + taxation/04 OQ-003 resolved; MOQ-04 stays closed;
+  **SOQ-40/OQ-2 (taxation/09) still open — the D1-mapping design
+  confirmation, now unblocked by the rewire**. The W19 §8 debts (a)(b)(c)
+  ALL EXECUTATED. Follow-ups: EV-bank hygiene queue (EVID-397 "sin
+  dedcción [sic OCR]" + dropped "se" — S9 ruling (g) precedent; rides
+  this wave's final fix wave) + FR-244 OQ-2 phrasing (deferred minor).
+  **Final whole-wave review + fix wave pending; merge-pending at edit
+  time. Merge to main = owner decision (thirty-eighth §4.6 run).**
 
 - **W19 (2026-08-22/23):** W18 fold-in/evidence wave COMPLETE per plan
   `docs/superpowers/plans/2026-08-22-w19-w18-foldin.md` — subagent-driven,
@@ -692,12 +729,17 @@ must grep ALL LB source columns of the new files.
   verdict), **SOQ-39 consumed** (MOQ-04 closed), SOQ-30 watch NARROWED
   (LSI half resolved by the 80_ re-key; ZF 82_ tail folded; residual =
   post-tail traffic), **95_ horizon TEXT-PINNED 15 años** (Art. 3 inc. 2,
-  no OQ), **96_ Chapter V = NEW WATCH** — a real 30%-withholding surface
-  on remittances to foreign agents, routed out-of-wave as a
-  taxation-wave fold-in candidate (spe/01 OQ-6 + SOQ-41 + FR-201
-  pointer).
+  no OQ), **96_ Chapter V CONSUMED W20** — the real 30%-withholding
+  surface on remittances to foreign agents now owned by `taxation/17`
+  (SV-TAX-FR-405..416; spe/01 OQ-6 resolved-by-pointer; SOQ-41 96_ half
+  consumed — residuals: D.L. 201-2025 + 411-2025 dated negatives, RAEX
+  reglamento config-gap).
 - Taxation: SOQ-02 ($1,600 proration), 03-OQ-009 straddle, Quincena-25
   double-benefit 2026 (tercerización pointer RESOLVED S9 → 11 §3.3);
+  **04 OQ-003 RESOLVED W20** (2025+ standing 2-SMM rule chain-verified —
+  EVID-403 + 91_-94_ anchored; the annual December re-check rides the
+  encoding pass); **SOQ-40/OQ-2 (09 §3.7 D1-tributo-mapping design
+  confirmation) still open — unblocked by the W20 SR8 rewire**;
   IVA-side: SOQ-54 **FULLY RESOLVED** (Ley W16 DC9226; **Rgto W18
   RESOLVED-AS-PARITY** — DC5855 text-identical to 02_; 01_/02_ both
   current consolidations; cadence watch only), SOQ-55/57 carried in
@@ -724,7 +766,9 @@ must grep ALL LB source columns of the new files.
 - F-11 v19/v20 + F14 v17 manual acquisitions (MH page watch; numbering
   now ≥106). **SOQ-41 CLOSED W18** (90_-97_ acquired; D.L. 201-2025 +
   411-2025 dated negatives) — W19: the 96_ transitory limb
-  dispositioned via the Chapter V out-of-wave pointer · **SOQ-34
+  dispositioned via the Chapter V pointer, **CONSUMED W20 by
+  taxation/17 (SV-TAX-FR-405..416) — SOQ-41 residuals = the two dated
+  negatives + RAEX reglamento config-gap** · **SOQ-34
   RESOLVED W18 + consumed W19** ($18.00 never adjusted — 98_/99_ DACG
   prints; 74_ Art. 12-B tail owned as 100_; spe/06 LB-022 chain
   anchored).
@@ -737,24 +781,22 @@ must grep ALL LB source columns of the new files.
 
 ## 8. Next actions (ordered)
 
- 1. **No next synthesis wave is queued — the 8-topic program + the W17
-     75_ fold-in are COMPLETE and MERGED (S9 → main at 09847d0; root
-     HANDOVER carries the fourteenth §4.6 run record); C1 cleanup +
-      W18 acquisitions COMPLETE and MERGED (W18 → main at f7fb42a,
-      thirtieth run; 1,662 FRs; W18 = sources only) + **W19 fold-in
-      COMPLETE (1,690 FRs; merge-pending at edit time — merge record in
-      §1)**.** Candidate follow-on work,
-      owner's call: (a) **SR8 rewire backlog** (T6 I-1 follow-up) —
-      taxation/09:79/478/662 "instrument absent" reword + FR-245 gate
-      satisfiable-via-89_ rewire + spe/08 SR8 rows cite 86_-89_; (b)
-      **96_ Chapter V 30%-withholding taxation-wave fold-in** (spe/01
-      OQ-6 + SOQ-41 pointers; the real surface discovered W19 T4); (c)
-      **taxation-side 2025+ standing-rule mirror** when taxation
-      reopens (T5 cross-task note; taxation/04 OQ-003 kin); (d)
-      residual acquisitions below + external watches unchanged
-      (D.O./uif DNS-level down since 2026-08-22 — §6) +
-      go-live/implementation prep per
-     `shared/docs/go-live-readiness.md`.
+ 1. **No next synthesis wave is queued — the 8-topic program + W17 +
+      C1 + W18 + W19 COMPLETE and MERGED (W19 = the thirty-seventh
+      §4.6 run, record in root HANDOVER) + **W20 taxation edit wave
+      COMPLETE (1,702 FRs; merge-pending at edit time — merge record
+      in §1 at close)**. The W19 follow-on debts are ALL EXECUTATED in
+      W20: (a) SR8 rewire — taxation/09 COTRANS rows anchored to 89_,
+      FR-245 gate satisfiable; (b) 96_ Chapter V 30%-withholding
+      fold-in — taxation/17 SV-TAX-FR-405..416; (c) taxation-side 2025+
+      standing-rule mirror — taxation/04 vintages → 91_-94_, OQ-003
+      resolved.** Remaining, owner's call: residual acquisitions
+      (item 2) + external watches (D.O./uif DNS-level down since
+      2026-08-22 — §6) + **SR8 residual = SOQ-40/OQ-2 the FR-244/
+      FR-245 D1-tributo-mapping design confirmation (now unblocked)** +
+      EV-bank hygiene queue (EVID-397 OCR nits — S9 ruling (g)
+      precedent; rides the W20 final fix wave) + go-live/implementation
+      prep per `shared/docs/go-live-readiness.md`.
  2. **Acquisition follow-ups (residual after W18):** SOQ-46 criteria
      instrument (candidates Res. 175-2023 [derogated intermediate] /
      Res. 82-2024 — low value per SOQ-52 boundary); SOQ-31 D.O.
