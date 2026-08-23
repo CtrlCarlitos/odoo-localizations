@@ -626,3 +626,17 @@ commit. Never leave a session with evidence unmerged. Update
   consolidated IVA ≥2018 (GOQ-01/146), D-37-2001 (GOQ-09), D-1633
   (GOQ-09), IGSS program reglamentos (GOQ-04), AG 118-2002/75-2006
   (GOQ-12 lineage). Next: §4.6 merge; no further waves pending.**
+- 2026-08-23 — **W-GT8 COMPLETE (batches 3+4 evidence pass + targeted
+  backfills)**: 12 registry rows (96_–101_, 103_–108_; gap 102 = SINAS
+  re-reject killing the AG 75-2006 AML hypothesis), 6 evidence files
+  EV08a..f (EVID-952..1185), 9 backfilled requirements files (10 new LB
+  rows, zero FR renumbering), master-index write-backs (GOQ-01
+  resolved-composite / 107+146 resolved / 09 in-part / 12 settled / 04
+  re-refined→Acuerdo 1124 / 14+145 re-scoped flat), COVERAGE re-closed
+  106/0/0, queue rev 11 (calendario JSF item closed — SAT publishes flat
+  deadlines only; 1124 + D-1633 art.-11 montos top-ranked; AG 52-2017
+  low-priority watch). Material: D-1633 = standing public aguinaldo with
+  external art.-11 quantum; 4%/5% electrónico tariff = D-27-92 art. 54
+  "E" (D-7-2019) SUNSET 2025-08-09; SEM program reglamento set acquired
+  rateless; SAT calendars carry no NIT-digit windows. **Next: §4.6 merge
+  of W-GT8 commits; no further waves pending.**
