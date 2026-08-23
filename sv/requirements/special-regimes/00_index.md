@@ -87,17 +87,18 @@ authorities by id):
 
 ## Open-questions rollup (in-file OQ-n ↔ master-index SOQ-30..45)
 
-Status legend: **59 OQs total — 53 open, 6 resolved/consumed/closed**
+Status legend: **59 OQs total — 52 open, 7 resolved/consumed/closed**
 (W19 T1: `06` OQ-1 resolved + OQ-6 consumed, `07` OQ-2 consumed —
 SOQ-32/34 fold-in; W19 T2: `08` OQ-1 + OQ-2 resolved — SOQ-39 halves,
 `86_-89_` acquired — + OQ-5 closed (MOQ-04 linkage recorded); W19 T5:
 payroll/04 OQ-005's 2025 leg closed by the 91_-94_ chain — rides the
-payroll index). Master-index SOQ register:
+payroll index; W20 T4: `01` OQ-6 resolved-by-pointer — taxation/17
+SV-TAX-FR-405..416 owns the Chapter V engine). Master-index SOQ register:
 [§S7 open questions](../../.extractions/00_MASTER_INDEX.md).
 
 | File | OQs | Mapping (in-file OQ → SOQ / kin) |
 |------|-----|----------------------------------|
-| 01 | 7 | OQ-1 SOQ-30 (14_/LSI half + 12_ tail resolved W19 T3 — 80_/82_) · OQ-2 SOQ-43 (+ 82_ Art. 1 successor-track kin, W19) · OQ-3 SOQ-31 (+ 82_ Arts. 8-9 config slots, W19) · OQ-4 declarante config-gap (74_ Art. 9 exam/fianza DACG delegation — no SOQ) · OQ-5 área-metropolitana successor law absent (82_ Art. 1 — Ley Desarrollo y Ordenamiento Territorial, W19 T3) · OQ-6 96_ Chapter V 30%-withholding surface = out-of-wave taxation pointer (W19 T4, EVID-397) · OQ-7 97_ Art. 1 d) impuesto-exclusivo phrase (`02` OQ-8 kin, W19 T4) |
+| 01 | 7 | OQ-1 SOQ-30 (14_/LSI half + 12_ tail resolved W19 T3 — 80_/82_) · OQ-2 SOQ-43 (+ 82_ Art. 1 successor-track kin, W19) · OQ-3 SOQ-31 (+ 82_ Arts. 8-9 config slots, W19) · OQ-4 declarante config-gap (74_ Art. 9 exam/fianza DACG delegation — no SOQ) · OQ-5 área-metropolitana successor law absent (82_ Art. 1 — Ley Desarrollo y Ordenamiento Territorial, W19 T3) · OQ-6 96_ Chapter V 30%-withholding surface = out-of-wave taxation pointer (W19 T4, EVID-397) — **resolved W20 via taxation/17 (SV-TAX-FR-405..416)** · OQ-7 97_ Art. 1 d) impuesto-exclusivo phrase (`02` OQ-8 kin, W19 T4) |
 | 02 | 9 | OQ-1 dividend-interaction express-suppression encoding (EVID-253, in-wave) · OQ-2 F-11 v20 acquisition watch (kin taxation/01 OQ-007 + payroll/08 OQ-004) · OQ-3 SOQ-30 (82_ tail folded W19 T3 as FR-195..198; post-2025 watch) · OQ-4 administrador benefit authority (Arts. 14+15 derogated; 54-C only — SOQ-30 kin) · OQ-5 transitorias 54-D/54-E/54-F config scope · OQ-6 concejos-municipales benefit slots (config) · OQ-7 82_ extension-regime interactions (54-C ampliations vs +10y text, W19 T3) · OQ-8 97_ impuesto-exclusivo config-gap (W19 T4) · OQ-9 97_ retention gloss working ruling (renta no gravada, W19 T4) |
 | 03 | 7 | OQ-1 SOQ-37 · OQ-2 SOQ-38 · OQ-3 SOQ-42 · OQ-4 CT-158-II cross-check (vs taxation/04 LB-018 / SV-TAX-FR-126) · OQ-5 SOQ-30 (LSI half resolved W19 T3 — 80_ acquired) · OQ-6 DGII dictamen formularios config-gap (17b_ Arts. 48/50-55) · OQ-7 17b_ Art. 22 b) 40%-cap row vs reformed 80_ Art. 8 letter-drop (W19 T3) |
 | 04 | 6 | OQ-1 SOQ-32 **consumed W19** (LESIA acquired as 79_; kin `06` OQ-6/`07` OQ-2) · OQ-2 SOQ-36 kin + DUCA field-anchor correction (field 14 as printed) · OQ-3 SOQ-45 kin (field 31) · OQ-4 SOQ-30 · OQ-5 pre-expiry warning = operational default · OQ-6 T4/T6 DUCA-F-FAUCA ownership split |

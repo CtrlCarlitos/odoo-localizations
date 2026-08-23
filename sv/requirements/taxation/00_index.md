@@ -4,9 +4,9 @@
 |---------|-------|
 | Country | sv |
 | Topic   | taxation |
-| Status  | draft (S2 ISR + S9 IVA synthesis waves + W17 CT-reglamento fold-in + W19 identity-notes pass, in review) |
+| Status  | draft (S2 + S9 + W17 CT fold-in + W19 identity notes + W20 levy fold-in, in review) |
 | Authors | Takumi synthesis waves 2 + 9 + controller |
-| Updated | 2026-08-22 (W19 T6: 08/09 identity notes — SOQ-56/58 refreshed, 09 OQ-3 resolved; no new FRs) |
+| Updated | 2026-08-23 (W20: file 17 + 09 rewire + 04 mirror) |
 
 This directory holds the S2 (synthesis wave 2) ISR (*Impuesto sobre la
 Renta*, income tax) requirements: the subject/period/territoriality/filing
@@ -20,10 +20,12 @@ framework & excluidos regime, the Art. 45/46 exemption catalogs, base &
 13% rate (with the FOVIAL/COTRANS guard), crédito fiscal deductibility,
 the Art. 66 pro-rata & remanente engine, débito/crédito adjustments &
 the fixed-asset four-year rule, the CT 161-162-B IVA retention matrix,
-exports & reintegro refunds, and the declaration-interfaces file. The
-W17 fold-in (2026-08-20) added file 16, the CT application-reglamento
+exports & reintegro refunds, and the declaration-interfaces file. The W17 fold-in (2026-08-20) added file 16, the CT application-reglamento
 procedural layer (75_ D.E. 117-2001), with 75_ retention/declaration
-anchors folded into 01/04/13.
+anchors folded into 01/04/13; the W20 fold-in (2026-08-23) added file 17,
+the 96_ D.L. 308-2025 Chapter V foreign-agents special levy (30%
+retention engine — spe/01's former OQ-6 pointer, now owned here as
+SV-TAX-FR-405..416).
 Source-to-requirements coverage: [../COVERAGE.md](../COVERAGE.md).
 
 ## Files & FR ranges
@@ -46,7 +48,8 @@ Source-to-requirements coverage: [../COVERAGE.md](../COVERAGE.md).
 | [14_iva-exports-refunds.md](14_iva-exports-refunds.md) | Export definition & zero rate (74-75; Rgto. 2-10), ZF/recintos export-equivalence (Rgto. 29; 12_ Art. 25 co-cite), export credits & on-request offsets (76), reintegro workflow (77; Rgto. 30) with the 13%-of-export-value cap (mixed/pure), three-way purchase ledger (Rgto. 30) | SV-TAX-FR-320..337 | 18 | 10 | 15 | 4 |
 | [15_iva-declaration-interfaces.md](15_iva-declaration-interfaces.md) | Monthly declaration chassis (Arts. 93-94; Art. 81 pair), operation-classification interface (R/S fold-in + F-07 annex feed contract, días-hábiles via SV-FREP-FR-200/201), version-regime & historical notes (165, 167-172, 175) | SV-TAX-FR-338..353 | 16 | 8 | 12 | 3 |
 | [16_ct-procedures.md](16_ct-procedures.md) | CT application-reglamento procedural layer (75_ D.E. 117-2001, W17): definitions & the caducidad/prescripción clock vocabulary (Arts. 1-2), representation & domicilio fiscal (5-8, 28-30), registration & agent designation (24-27), the declaration-state model with the amendment classification gate (31-35; CT 103 co-anchor), payments & extinction modes (13-18), compensación + the Art. 23/133 retention imprescriptibilidad/caducidad pair (19-23, 133), refunds (129-135), sanctions & deuda tributaria (136-143), books & records (73-90), notifications/fiscalización awareness (3-4, 9, 108-128), print-era historical blocks — dictamen/máquinas — norm hierarchy (36-72, 144-146, historical only per EV75 OQ-3/OQ-4) | SV-TAX-FR-354..396 | 43 | 41 | 10 | 5 |
-| **Total** | | SV-TAX-FR-001..404 | **404** | **295** | **274** | **87** |
+| [17_foreign-agents-levy.md](17_foreign-agents-levy.md) | 96_ D.L. 308-2025 Chapter V foreign-agents special levy: 30% on mandante-financed transactions (RAES-determined in-kind), two-limb Agentes de Retención Especial scope (SSF general + NPO-qualified catch-all), DGT enteros 10 días hábiles, electronic reports 15, monthly donation self-entero, Art. 14 own-informe, CT 246/247/241 sanctions + supletorio, Art. 16 MH delegation — cluster L1 | SV-TAX-FR-405..416 | 12 | 10 | 9 | 4 |
+| **Total** | | SV-TAX-FR-001..416 | **416** | **305** | **283** | **91** |
 
 Numbering note: FR numbering is wave-sequential within the `SV-TAX` prefix
 (001-175 ISR, no gaps, no renumbering; 173-175 appended by the S6 Quincena-25
@@ -57,7 +60,8 @@ of opening a `SV-IVA` prefix** (S6 append precedent; the corpus consistently
 books 01_/02_ as "owed to `taxation/`"; HANDOVER §4's new-topic-prefix rule
 applies only to genuinely new topics). **354-404 = the W17 CT-reglamento
 fold-in continuation (2026-08-20): file 16 (354-396) + the 04/13 retention
-FR zones (397-404), one prefix per R30(b).**
+FR zones (397-404), one prefix per R30(b).** **405-416 = the W20
+foreign-agents-levy fold-in (2026-08-23): file 17, one prefix per R30(b).**
 The two CSVs are dated-data sidecars of `04_isr-withholding.md`
 (`isr_brackets.csv` additionally carries the historical D.E. 25-1992
 colones-era vintage rows); they carry no FRs of their own.
@@ -128,8 +132,8 @@ verification against the gazette print, source `60_`/EVID-171,
 reading, 2026-08-20; 01's OQ-001 resolved W17 2026-08-20 — 75_ Arts.
 99-100 corroborate Ley Art. 62, LB-027/036, EVID-351). S9 IVA files
 (07-15): 35 open — including the SOQ-54 vintage watch as every file's
-OQ-1. W17 file 16: 5 open. Wave total: **81 open / 6 resolved
-(87 OQs)**.
+OQ-1. W17 file 16: 5 open. W20 file 17: 4 open. Wave total: **85 open /
+6 resolved (91 OQs)**.
 
 Master-index SOQ mapping: 04's OQ-001 = SOQ-02; 04's OQ-002 = SOQ-03;
 04's OQ-003 = SOQ-05; SOQ-06 lives in 01's OQ-004 + 06's OQ-001; SOQ-07
