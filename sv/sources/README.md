@@ -239,6 +239,14 @@ SOQ-54 Rgto side + SOQ-56 (Art. 46-f) + SOQ-58 (Art. 167-A) + SOQ-48 (optional).
 - **SOQ-48 negative (2026-08-22, optional attempt):** NIIF-PYMES 2nd-edition (2015) full text NOT acquired — ifrs.org SMEs page hosts the 2015 edition but PDF downloads sit behind mandatory (free) registration — noted and stopped, no account created; cvpcpa.gob.sv media library (93 items) has no edition texts; TF CDX "niif|pymes" = 0 hits. The 32_ Apéndice A Tabla A1 delta map remains the vintage artifact; edition texts would be IFRS-Foundation-copyright publications regardless.
 
 
+## External checks — 2026-08-22 (W19 session open)
+
+- **factura.gob.sv:** root 200 — alive (no drift check needed beyond root; no LB suspicion).
+- **MH formularios page:** unchanged — F-11 v18 + F14 v17 borrador only (no v19/v20 print, no F14 v17 manual; the 66-70_ OQ-5 watch stands).
+- **D.O. (diariooficial.gob.sv):** DNS-level outage since 2026-08-22 — host resolves to NO A record (Cloudflare DoH verified); API + /seleccion unreachable; the recovery recipe stands in HANDOVER §6.
+- **uif.gob.sv:** degraded from WAF-403 to DNS-absent — the AML-reglamento watch is interrupted; the 2025-10-17 deadline (71_ effectiveness) stands.
+
+
 ## Notes
 
 - File `14_Ley_Servicios_Internacionales.pdf`: an earlier version of this

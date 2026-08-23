@@ -4,9 +4,9 @@
 |---------|-------|
 | Country | sv |
 | Topic   | e-invoicing |
-| Status  | draft (S1 synthesis wave, in review) |
+| Status  | draft (S1 synthesis wave + W19 gloss pass, in review) |
 | Authors | Takumi synthesis wave 1 + controller |
-| Updated | 2026-08-17 |
+| Updated | 2026-08-22 (W19 T2: 01 D1/C8 FOVIAL×COTRANS identity glosses; counts unchanged) |
 
 This directory holds the S1 (synthesis wave 1) e-invoicing requirements:
 document types, transmission, events, signing/delivery/archive, and the

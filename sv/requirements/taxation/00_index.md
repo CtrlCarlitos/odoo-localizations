@@ -4,9 +4,9 @@
 |---------|-------|
 | Country | sv |
 | Topic   | taxation |
-| Status  | draft (S2 ISR + S9 IVA synthesis waves + W17 CT-reglamento fold-in, in review) |
+| Status  | draft (S2 ISR + S9 IVA synthesis waves + W17 CT-reglamento fold-in + W19 identity-notes pass, in review) |
 | Authors | Takumi synthesis waves 2 + 9 + controller |
-| Updated | 2026-08-20 (W17) |
+| Updated | 2026-08-22 (W19 T6: 08/09 identity notes — SOQ-56/58 refreshed, 09 OQ-3 resolved; no new FRs) |
 
 This directory holds the S2 (synthesis wave 2) ISR (*Impuesto sobre la
 Renta*, income tax) requirements: the subject/period/territoriality/filing

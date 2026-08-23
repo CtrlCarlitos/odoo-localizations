@@ -4,9 +4,9 @@
 |---------|-------|
 | Country | sv |
 | Topic   | payroll |
-| Status  | draft (S4 wave + W17 fold-in, in review) |
+| Status  | draft (S4 wave + W17 + W19 fold-ins, in review) |
 | Authors | Takumi synthesis wave 4 + controller |
-| Updated | 2026-08-20 (W17) |
+| Updated | 2026-08-22 (W19 T5 re-anchor pass: 04 aguinaldo-cap vintages → 91_-94_ primary prints, no new FRs) |
 
 This directory holds the S4 (synthesis wave 4) payroll requirements: the
 Código de Trabajo (CT) salary model with the canonical earning-category

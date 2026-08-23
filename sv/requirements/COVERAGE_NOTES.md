@@ -21,6 +21,7 @@ lists must NOT be duplicated here — they regenerate.
 | 47_Manual_Funcional_Sistema_Transmision_2026-05-25.pdf | not-applicable-this-wave |
 | 48_Manual_Estructuras_Catalogos_Modelos_v1.6.pdf | not-applicable-this-wave |
 | 49_Manual_Eventos_Invalidacion_Contingencia_v1.1.pdf | not-applicable-this-wave |
+| 14_Ley_Servicios_Internacionales.pdf | superseded-not-cited |
 | 73_Codigo_Comercio_UIF_indicelegislativo.pdf | cited-as-LB |
 | schemas/ (dir) | superseded-not-cited |
 
@@ -38,7 +39,7 @@ lists must NOT be duplicated here — they regenerate.
 | 10_Tablas_Retencion_ISR.pdf | historical LB — 1992 colones-era D.E. 75-1991/25-1992, superseded by the `53_` chain via D.E. 95-2015; dated-data rows live in `taxation/isr_brackets.csv` |
 | 12_Ley_Zonas_Francas.pdf | D.L. 405-1998 consolidated through D.L. 318-2013, cited as printed (SOQ-30) |
 | 13_Ley_Organica_Aduanas.pdf | D. 903 through D.L. 121-2012, as printed; also §2 authority-order preamble in `special-regimes/06` |
-| 14_Ley_Servicios_Internacionales.pdf | D.L. 431 2007 print "Reformas: S/R", as printed |
+| 14_Ley_Servicios_Internacionales.pdf | D.L. 431 2007 print "Reformas: S/R", as printed; superseded as the LSI LB by the W19 T3 re-key to `80_` (consolidated through D.L. 277-2013 — all 38 spe LB source columns re-keyed, 0 survivors; EV14-cited historical provenance retained). FLIPPED cited-as-LB → superseded-not-cited by the W19 fold-in (2026-08-22) |
 | 15_Ley_Lavado_Activos.pdf | historical — `commercial-legal/10` §2 preamble + authority-order note only (shorthand `15_` cites, no LB row); derogated wholesale by `71_` Art. 61 (effective 2025-10-17) — historical LB for pre-cutover facts, never current authority (R28; W10 EVID-228..231; R25 title-vs-content: content = D. 498-1998 through reform (6) D.L. 104-2015) |
 | 16_Salarios_Minimos_2025.pdf | Decreto 11-2025 tariffs → `payroll/smm_2025.csv`; SMM figure also feeds `e-invoicing/01` OQ-007 threshold config (prose ref) |
 | 17_Reglamento_Lavado_Activos.pdf | kept-in-force OPERATIVE reglamento per `71_` Art. 61 + R26 (no post-568-2013 reglamento ever issued): window mechanics, no-tip-off, red-flag catalogs; stale pre-reform thresholds never cited; further prose co-cites in `commercial-legal/10` beyond the 2 pathed rows |
@@ -90,4 +91,35 @@ lists must NOT be duplicated here — they regenerate.
 | 73_Codigo_Comercio_UIF_indicelegislativo.pdf | verification-grade second CC copy (SOQ-22 resolved-with-residual, EVID-250); §2-preamble co-cites across `commercial-legal/01..09` (+ `04` LB-032 pointer row via the 71-73_ evidence gloss) — no independent LB article-text role |
 | 74_Ley_Simplificacion_Aduanera_D529.pdf | D. 529-1999 consolidated through D.L. 23-2012, acquired W13 from uif.gob.sv, as printed (SOQ-30) |
 | 75_Reglamento_Codigo_Tributario_DE117.pdf | D.E. 117-2001 CT-application reglamento, EVID-339..358; `taxation/01` LB-027's 75_ mention is a prose co-cite (source column = `54_`). FLIPPED from pending-S2+ by the W17 fold-in (2026-08-20) |
+| 79_Ley_Sancionar_Infracciones_Aduaneras_DL551.pdf | LESIA D.L. 551, INDICE LEGISLATIVO print consolidated through reform (5) D.L. 588-2008 — sanction taxonomy + expiry/recursos anchors (spe/06 FR-176..178, spe/07 FR-179..184; EVID-359..370). FLIPPED from pending-S2+ by the W19 fold-in (2026-08-22) |
+| 80_Ley_Servicios_Internacionales_consolidada_DL431_DL277.pdf | LSI consolidated through D.L. 277-2013 — supersedes `14_` as the cited LB (W19 T3 re-key; 277-2013 deltas folded, EVID-380..391). FLIPPED from pending-S2+ by the W19 fold-in (2026-08-22) |
+| 82_Reforma_Ley_ZF_DL493_DO_2025-12-23.pdf | ZF tail D.L. 493-2025 (extension economics +10y/2-yr-grace + Art. 7 grave-e) derogation; spe/01 FR-190..194, spe/02 FR-195..198, spe/07 FR-199. FLIPPED from pending-S2+ by the W19 fold-in (2026-08-22) |
+| 86_Ley_Fondo_Conservacion_Vial_consolidada.pdf | FOVIAL consolidated statute (D.L. 208-2000 through D.L. 93-2012) — provenance chain now instrument-anchored (was 31_-guide-only). FLIPPED from pending-S2+ by the W19 fold-in (2026-08-22) |
+| 87_Ley_FOVIAL_DL208_DO_2000-12-18_pp6-24.pdf | FOVIAL D.O. original print — original Art. 26 carried NO per-gallon value (Executive traslado clause only). FLIPPED from pending-S2+ by the W19 fold-in (2026-08-22) |
+| 88_Reforma_Ley_FOVIAL_DL597_DO_2001-11-09_p3.pdf | D.L. 597-2001 reformed Art. 26 — THE $0.20/galón instrument (spe/08 LB-009). FLIPPED from pending-S2+ by the W19 fold-in (2026-08-22) |
+| 89_Ley_COTRANS_DL257_DO_2021-12-23_pp5-19.pdf | COTRANS D.L. 257-2021 — $0.10/galón passenger-tariff contribution (identity corrected from the cargo-transport gloss; spe/08 FR-187..189). FLIPPED from pending-S2+ by the W19 fold-in (2026-08-22) |
+| 90_Ley_Transitoria_Pagos_ISR_DL598_DO_2020-03-20_pp4-6.pdf | spent COVID payment-deferral law — spe/01 LB-033 historical note only, no FR (EVID-402, W19 T5). FLIPPED from pending-S2+ by the W19 fold-in (2026-08-22) |
+| 91_Disposiciones_Transitorias_Aguinaldo_DL229_DO_2021-12-07_pp4-5.pdf | aguinaldo-cap transitory D.L. 229-2021 ($1,100, single-fiscal-year spent) — payroll/04 vintage-limb re-anchor (W19 T5, EVID-398). FLIPPED from pending-S2+ by the W19 fold-in (2026-08-22) |
+| 92_Disposiciones_Transitorias_Aguinaldo_DL596_DO_2022-12-07_pp22-24.pdf | aguinaldo-cap transitory D.L. 596-2022 ($1,500, spent) — payroll/04 re-anchor (W19 T5, EVID-399). FLIPPED from pending-S2+ by the W19 fold-in (2026-08-22) |
+| 93_Disposiciones_Transitorias_Aguinaldo_DL900_DO_2023-11-30_pp8-10.pdf | aguinaldo-cap transitory D.L. 900-2023 ($1,500, spent) — payroll/04 re-anchor (W19 T5, EVID-400). FLIPPED from pending-S2+ by the W19 fold-in (2026-08-22) |
+| 94_Disposiciones_Transitorias_Aguinaldo_DL159_DO_2024-11-27_pp64-66.pdf | aguinaldo-cap transitory D.L. 159-2024 ($1,500, spent; chain verification EVID-403) — payroll/04 re-anchor (W19 T5, EVID-401). FLIPPED from pending-S2+ by the W19 fold-in (2026-08-22) |
+| 95_Disposiciones_Inmobiliarios_Altura_DL95_2024_DGII.pdf | inmobiliarios-en-altura incentive D.L. 95-2024 — horizon TEXT-PINNED 15y (spe/01 FR-200 + spe/02 FR-202 D15-kin rows; W19 T4, EVID-392..393). FLIPPED from pending-S2+ by the W19 fold-in (2026-08-22) |
+| 96_Ley_Agentes_Extranjeros_DL308_DO_2025-05-30_pp3-18.pdf | Agentes Extranjeros D.L. 308-2025 — identity row only (Chapter V 30% levy = out-of-wave taxation pointer, spe/01 OQ-6; W19 T4, EVID-397). FLIPPED from pending-S2+ by the W19 fold-in (2026-08-22) |
+| 97_Disposiciones_Biogas_Acelhuate_DL386_2025_DGII.pdf | biogás Acelhuate D.L. 386-2025 — event-bounded project transitory (spe/02 FR-203 + OQ-8/9 working rulings; W19 T4, EVID-394..396). FLIPPED from pending-S2+ by the W19 fold-in (2026-08-22) |
+| 98_DACG_DGA_014_2025_Tasa_InspeccionNoIntrusiva.pdf | DACG DGA-014-2025 — $18.00 current-tasa identity anchor (SOQ-34 resolved: value never changed; spe/06 LB-022; W19 T1, EVID-371/372). FLIPPED from pending-S2+ by the W19 fold-in (2026-08-22) |
+| 99_DACG_DGA_008_2015_Tasa_InspeccionNoIntrusiva.pdf | DACG DGA-008-2015 — $18.00-since-2014 chain anchor (SOQ-34; spe/06 LB-022; W19 T1). FLIPPED from pending-S2+ by the W19 fold-in (2026-08-22) |
+| 100_Reforma_Ley_Simplificacion_DL124_DO_2015-10-05_pp9-10.pdf | D.L. 124-2015 — the 74_ Art. 12-B exemption set incl. simplified-declaration <$1,000 (spe/06 FR-176/LB-021; W19 T1). FLIPPED from pending-S2+ by the W19 fold-in (2026-08-22) |
 | schemas/ (dir) | superseded 2022-era extraction (fe-ccf-v3, contingencia-v3, anulacion-v2 era; no fe-eret/fe-eop) — NOT the current set; the current 15-schema set lives inside `52_Json_Schemas_DTE_Eventos_2026-08-11.zip`, the LB cited directly (`e-invoicing/01` LB-006; `03` LB-010) |
+
+W19 regen (2026-08-22) pending-set rationale — 12 rows stay `pending-S2+`,
+none cited in an LB source column this wave: **76_/77_/78_** (CVPCPA NIIF
+adoption resolutions + Ley Reguladora de Contaduría — registry-provenance
+use only; no requirements wave has needed an LB article row) · **81_**
+(Recopilación de Leyes Aduaneras — SOQ-34-hunt identity/provenance use, its
+$18 text superseded by the 98_/99_ dispositions) · **83_/84_/85_** (FYDUCA
+format set — SOQ-36 field-level residual, gated on the Portal-internal
+Comité Aduanero manuals) · **101_/102_/103_/104_/105_** (BCR qualification
+set — consumed as CONFIG provenance by taxation/08 FR-219/OQ-2 prose:
+`bcr_calificada` = BCR-list membership with per-institution vigencia; the
+46-f exemption LBs rest on 01_/02_ statute text, so no LB source column
+cites them). Flip rule held: status follows the LB-citation scan only.
