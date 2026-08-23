@@ -26,6 +26,16 @@ EXPECTED = {"taxation": 249, "e-invoicing": 157, "fiscal-reporting": 363, "payro
 # Vocabulary mirrors SV's COVERAGE.md:
 #   cited-as-LB | not-applicable-this-wave (+ reason)
 SOURCES = {
+    "177_Texto_consolidado_ISR_vigente_26-jun-2018_DGPT.pdf": (
+        "not-applicable-this-wave",
+        "W14 corroboration tier: the DGPT/SEFIN official ISR consolidation 'VIGENTE AL 26-jun-2018' (between 94_'s 1990 reglamento "
+        "ancestor and 01_'s SAR-07-2025 state). Evidenced in EV177 (EVID-727/728) for availability + the 2018-state spot; no LB rows — "
+        "consolidations are never verbatim authority vs instrument prints (the 01_ tier rule); consult for 2018-state dated-row disputes only."),
+    "178_IHSS_en_Cifras_2005-2025.xlsx": (
+        "not-applicable-this-wave",
+        "W14 context/reference tier: the official IHSS statistics series 2005-2025 (población/prestaciones/finanzas por régimen). "
+        "Evidenced in EV178 (EVID-729) — the RP regime's operational-liveness corroboration (gasto series 2021-2025); "
+        "statistics never feed rate/techo or amount cells."),
     "93_Decreto_31-2019_interp_reforma_D31-2018_22A.pdf": (
         "not-applicable-this-wave",
         "Interpretive instrument on the D. 31-2018 22-A transition (FY2017 tariff/cálculo per D. 278-2013). "
@@ -92,7 +102,8 @@ def main():
     regset = set(registry)
 
     diskset = {f for f in os.listdir(os.path.join(ROOT, "hn/sources"))
-               if not f.startswith(".") and f != "README.md"}
+               if not f.startswith(".") and f != "README.md"
+               and f != "inbox"}  # gitignored manual-download inbox (W14, GT convention) — unverified files, not sources
     errors = []
     if regset != diskset:
         errors.append(f"registry/disk mismatch: {sorted(regset ^ diskset)}")

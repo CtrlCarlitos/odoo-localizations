@@ -46,7 +46,21 @@ residual watch queue re-ticked ALL CLEAN: ENAG ago-2026 listing still ends
 at G 37,226/21-ago [weekend elapsed, no new weekday issues; no 2026 JD
 ceiling act through 23-ago-2026]; CbCR restatement comunicado
 SAR-negative; zero new Wayback captures of congreso/ihss/trabajo →
-nothing to re-grep)**.
+nothing to re-grep)**. And **the W14 owner-browser
+acquisition wave (2026-08-23, on-branch): the inbox channel's first run —
+ELEVEN files `168_`..`178_` + EVID-681..730 + rulings R-H92/R-H93/R-H94:
+D. 96-2012 (the top text residual) CLOSED; **THE IHSS TECHOS/TASAS FAMILY
+2024-2026** (the tri-regime matrix incl. RP 0.2%/techo=EM/patrono 8.7%
+all-in; the three-sector split; the pre-D.48 "SEPT. 2015" state; **the
+2026 interim carry-forward per the 21-abr-2026 IHSS memo — AC-006's block
+LIFTED on a dated REVERSIBLE institutional-memo row**); **D. 247-89 FULL
+TEXT** (the ≈1993-94 CT edition's ANEXO — cesantía cap 15 meses from
+6-ene-1990, cap lineage COMPLETE 8→15→25/15, payroll/08 OQ-008 RESOLVED);
+the clean D. 199-2006 print (Art. 30.14's 7-item tail resolved,
+OQ-009(d) print-damage leg + 109_ OQ-2 CLOSED); the ISR-2018 consolidation
++ the IHSS statistics (context tier). Corpus 177 files; COVERAGE 177 rows
+= 173 cited + 4 N/A, gates PASS [1099/540/574/335]; totals payroll
+332/178/172/89, FREP 363/170/189/174, taxation 249/121/140/56)**.
 Next = the residual watch queue
 (TOP: the 2026 JD ceiling act watch via the Sección-A certificaciones
 route — W11 scan + W12/W13 ticks all clean through G 37,226/21-ago-2026,
@@ -127,8 +141,23 @@ boundary.
    "Reglamento-Incapacidad-para-reformas" upload = a content-identical
    re-render of `88_` [40/40 pages same text, different md5] — discarded
    unregistered, ledger unchanged)
-7. Evidence files in `hn/.extractions/*.evidence.md` (committed), W12 newest
-   first: `166_Codigo_Comercio_D73-1950.evidence.md` (665..672 — Art. 143 =
+7. Evidence files in `hn/.extractions/*.evidence.md` (committed), W14 newest
+   first: `168_Decreto_96-2012.evidence.md` (681..687 — **R-H92: the top
+   text residual CLOSED** — gates "consecutivas o alternas" + six classes;
+   cadence NEW trimestral Jun/Sep/Dec from FY2013; Art. 4 deroga D.
+   113-2011 Art. 13) + `169_Gaceta_36545_D47-2024_D48-2024.evidence.md`
+   (688..695 — the GAZETTE ORIGINALS of D. 47-2024+D. 48-2024: the techos
+   IN the law's Art. 2 + the JD-actuarial delegation verbatim; D47-Art. 16
+   RAP reforms incl. the fondo's worker-side ISR exemption) +
+   `170-174_IHSS_techos_tasas_2024-2026.evidence.md` (696..709 — **R-H94:
+   THE TECHOS/TASAS FAMILY** — tri-regime matrix incl. RP; sector split;
+   the pre-D.48 2015 state; **the 2026 interim carry-forward**; SETRASS
+   08-2026; the D. 92-14 lead) + `175_Codigo_Trabajo_1993_D247-89.evidence.md`
+   (710..722 — **R-H93: D. 247-89 FULL TEXT, cap 15 meses 6-ene-1990,
+   lineage 8→15→25/15; ~24 appendix decrees 1960-1993 quotable**) +
+   `176-178_AdultoMayor_clean_ISR2018_IHSScifras.evidence.md` (723..730 —
+   the clean D. 199-2006 print [Art. 30.14 tail resolved] + the ISR-2018
+   consolidation + the IHSS statistics; next EVID = 731); W12 next: `166_Codigo_Comercio_D73-1950.evidence.md` (665..672 — Art. 143 =
    the 541 anchor VERBATIM-verified; Art. 13-VI + D. 158-1954 cooperative
    carve-out; the Apéndice identity + transitory Art. 1º 1940-survival;
    full-file OCR sidecars in `.extractions/` for both) +
@@ -179,7 +208,7 @@ boundary.
    `119_Congreso_Inventarios_de_Leyes.evidence.md` (W7, **429..433** — the
    official congreso law inventory: the 102_ OQ-2 decoder).
     **EVID numbering is
-    corpus-global, next = 681. OQs are per-file/per-doc at evidence-file end.**
+    corpus-global, next = 731. OQs are per-file/per-doc at evidence-file end.**
 
 ## 3. State: corpus (research phase COMPLETE)
 
@@ -836,6 +865,59 @@ discarded md5-identical to 104_). Structure:
   (13/13 load-bearing tokens in-bank; LOWs = OCR-noise/º classes) +
   COVERAGE regen 166 rows = 164 cited + 2 N/A, gates PASS (1099/536/574/333).
 
+- **W14 owner-browser acquisition wave (2026-08-23, do not re-derive):**
+  the inbox channel's first run (owner downloaded 14 files, primarily from
+  the IAIP Portal Único IHSS series `portalunico.iaip.gob.hn/356/83/`;
+  THREE verified duplicate discards: GACETA-36489 md5≡151_,
+  Decreto-45-2025 text≡96_, Decreto-59-2023 text-prefix⊂109_ — ledger
+  unchanged at 11). **R-H92 — D. 96-2012 (168_, G 32,877 20-jul-2012,
+  vigente 21-jul-2012, EVID-681..687):** the Ley de Medida Antievasión —
+  1%-anticipo trigger = 2 consecutive-OR-ALTERNATE loss years
+  (non-prescribed CT-136.2) + last-FY gross ≥ L100.000.000.00 declared,
+  SIX subject classes (incl. special-law exonerees); cadence =
+  TRIMESTRAL Jun/Sep/Dec from FY2013, credit at the annual declaration;
+  3%-CIF imports anticipo at DUA liquidation (credit pool
+  ISR/Activo-Neto/AS-temporal until exhausted; registered-educational
+  exclusion); Art. 4 DEROGATES D. 113-2011 Art. 13; parallel-never-merged
+  vs the 22-A regime. **R-H93 — D. 247-89 FULL TEXT (175_, the ≈1993-94
+  CT consolidated edition's ANEXO, EVID-710..722):** the Art. 120
+  replacement caps cesantía at QUINCE (15) MESES, vigente 6-ene-1990
+  (Art. 2º publication-day; G 26,028 per W7) → **cap lineage COMPLETE 8
+  (1959) → 15 (1990) → 25/15 (D. 150-2008; micro-15 = continuation);
+  payroll/08 OQ-008 RESOLVED; the "valor actual"→"valor actuarial" drift
+  pins to 247-89's own lit. f) six-cause negative list**; ~24 appendix
+  decree texts 1960-1993 now quotable (D. 116/275/45/92/96×2/61/21/50/62/
+  65/89/243/461-463/760/927/948/952/978/9-89/247-89/138-93); citation
+  guard: 175_ = base+appendix method — cite the APPENDIX for reformed
+  articles. **R-H94 — THE IHSS TECHOS/TASAS FAMILY (169_/170_/171_/172_/
+  173_/174_, EVID-688..709):** (a) D. 48-2024's own Art. 2 GRADUALIDAD
+  carries the 2024/2025 techo table + the JD-actuarial delegation for
+  2026+ (verbatim; the AC-006 instrument class); (b) the APPLIED matrix
+  is TRI-REGIME — RP = 0.2% patrono-only, RP techo = EM techo whole-life
+  (7,350→11,109.30→11,903.13), patrono all-in 8.70%, trabajador 5% →
+  the 2025 uniformity BY DESIGN (R-H50 coincidence framing superseded;
+  families still never merged); OQ-006 narrowed to the class cuadros;
+  (c) **the 2026 INTERIM STATE: IHSS memo 21-abr-2026 — no new act →
+  2025 values carry forward "hasta que exista una instrucción legal
+  superior" → AC-006's 2026 block LIFTED on a dated REVERSIBLE
+  institutional-memo row (payroll/03 FR-111/AC-006; the JD-act watch
+  continues, Sección-A certificaciones route)**; (d) the SECTOR
+  dimension: private ≡ gobierno-contrato (full matrix);
+  gobierno-PERMANENTES = EM+RP only (IVM exceptional — the D. 92-14
+  multi-instituto class, NEW lead OQ-014@payroll/03; INPREMA/INJUPEMP/
+  INPREUNAH/IPM); (e) the pre-D.48 "SEPT. 2015" state (IVM 8,882.30 at
+  2/1/0.5; EM 7,350 at 5/2.5/0.5; RP 7,350 at 0.2% — the
+  27-oct-2022→28-may-2024 interregnum EVIDENCED, payroll/03 FR-109
+  unblocked); (f) D47-Art. 16: the fondo's worker-side ISR exemption
+  STATUTORY + RAP 1.5+1.5=3% re-stated (R-H85 continuity); (g) SETRASS
+  08-2026 ≡ bienio percentages (90_/91_ two-witness). Also: the clean
+  D. 199-2006 print (176_, EVID-723..726) — Art. 30.14's full 7-item
+  expense tail + Art. 3 beneficiarios verbatim-clean (taxation/02
+  OQ-009(d) print-damage leg + 109_ OQ-2 CLOSED; the flat-vs-purchase
+  tension stays flagged — plantilla flat = the encoded contract); the
+  ISR-2018 consolidation (177_) + IHSS statistics (178_) = context tier
+  (COVERAGE N/A annotations). New route (RESEARCH §6): the IAIP
+  portalunico series + the owner-browser inbox channel.
 - **Decisions:** **D-H1** (binding, EXTRACTION_PLAN): one journal per company
   via `l10n_latam_invoice_document`; sequence key = (establecimiento→
   `stock.warehouse`, punto de emisión→child emission point, doc type→
@@ -952,6 +1034,47 @@ discarded md5-identical to 104_). Structure:
   4. **Merge to main at milestone:** owner decision; rebase-then-merge; never
      force-push (root HANDOVER country model). Branch head after S-HN1/S-HN2
      commit = the synthesis-wave base; future waves branch from here.
+
+Session state at stop (2026-08-23, W14 owner-browser acquisition wave —
+committed on `hn-research`, MERGED to main same-day): evidence COMPLETE
+through **EVID-730** (704 EVIDs on disk, zero collisions, 25 pre-W14
+historical gaps unchanged); corpus **177 files** (01-178, gap 103). **W14
+on-branch: (1) INTAKE — the owner placed 14 files in the new
+`hn/sources/inbox/` (gitignored, GT convention; .gitignore line committed
+pre-wave as `bf14cf5`); 3 verified duplicate discards (GACETA-36489
+md5≡151_, Decreto-45-2025 text≡96_, Decreto-59-2023 text-prefix⊂109_);
+(2) ACQUISITION — 11 files `168_`..`178_` (168_ D. 96-2012 G 32,877;
+169_ G 36,545 gazette originals; 170_-174_ the IHSS techos/tasas family;
+175_ the 1993 CT edition w/ D. 247-89; 176_ the clean D. 199-2006 print;
+177_ ISR-2018 consolidation; 178_ IHSS statistics); (3) EVIDENCE —
+EVID-681..730 controller-executed in 5 files + OCR sidecars (168/169/172/
+176 in .extractions/); rulings **R-H92** (D. 96-2012),
+**R-H93** (D. 247-89 — cap 15 meses, payroll/08 OQ-008 RESOLVED),
+**R-H94** (the techos/tasas family — AC-006's 2026 block LIFTED on the
+interim carry-forward row); (4) FOLD-INS — payroll/03 +LB-023/024 +
+FR-108/109/111/127 rewritten + FR-138/140 new + AC-005/006 rewritten +
+OQ-006 narrowed + OQ-013/014 new; payroll/08 +LB-016 + FR-302 + OQ-008
+RESOLVED; payroll/05 LB-011 annotation; FREP/07 +LB-019 + FR-243 + OQ-014
+RESOLVED; taxation/02 LB-015 + OQ-009(d) closed; taxation/03 LB-019
+annotation; three topic indexes wave-noted; master index +EV168..178 +
+R-H92/93/94 + Section-C W14 delta; RESEARCH §5/§6 (IAIP/inbox route);
+EXTRACTION_PLAN wave log; sources/README registry (numbering → next 179);
+(5) verification — corpus-global EVID sweep (zero dup, W14 ranges
+contiguous) + bank-check (1 transcription defect caught+fixed: the
+168_ L100M decimal style; interleave LOWs adjudicated) + COVERAGE regen
+177 rows = 173 cited + 4 N/A, gates PASS (1099/540/574/335; NOTE: use
+`hn/scripts/build_coverage.py`, NOT the shared SV script). Totals:
+payroll 332/178/172/89, FREP 363/170/189/174, taxation 249/121/140/56;
+rulings R-H1..R-H94; next EVID = 731.** Next = the residual watch queue
+(TOP: the 2026 JD ceiling act watch via the Sección-A certificaciones
+route — **the statutory instrument the 172_ interim row awaits; until it
+lands 2026 payroll runs on the interim carry-forward [reversible]**; next
+ENAG tick Mon 24-ago; D. 92-14 acquisition [NEW lead, LOW-MEDIUM]; CbCR
+restatement comunicado watch; "Acuerdo 799" TEXT watch; RP class cuadros
+[narrowed to class rates]; SEE docs; DGS SMM 2027 promedio print
+early-2027; S-HN5 DEFERRED [the 176_ clean catalogue = the upgraded
+source when un-deferred]). **NOT yet merged — owner decision pending
+(rebase-then-merge per root HANDOVER §4.6 when the milestone is called).**
 
 Session state at stop (2026-08-23, W13 watch-tick session — committed on
 `hn-research`): **NO corpus change** (166 files, EVID-680, R-H91 —

@@ -6,7 +6,7 @@
 | Topic   | fiscal-reporting |
 | Status  | approved (V-HN1 validation wave 2026-08-20; see EXTRACTION_PLAN wave log) |
 | Authors | Takumi synthesis wave S-HN3 + controller |
-| Updated | 2026-08-20 |
+| Updated | 2026-08-23 (W14) |
 
 This directory holds the S-HN3 (synthesis wave HN-3) fiscal-reporting
 requirements: the OVI/SW declaration chassis and shared due-day engine, the
@@ -21,6 +21,8 @@ TP 545 + informativas 541/542/543, and the contribuciones sector family
 evidence, EVID-072..185); S-HN1 rates and S-HN2 document mechanics are
 consumed by id, never re-derived. Source-to-requirements coverage:
 [../COVERAGE.md](../COVERAGE.md) (V-HN1 gate 1, script-checked).
+
+**W14 wave (2026-08-23) fold-ins — the owner-browser acquisition wave:** file 07 +LB-019 + FR-243 rewritten + **OQ-014 RESOLVED** + traceability row (**D. 96-2012 ACQUIRED as `168_`** [G 32,877 20-jul-2012, vigente 21-jul-2012] — the anticipo statute: gates confirmed ["consecutivas o alternas"; six subject classes incl. special-law exonerees]; the payment cadence pinned NEW = TRIMESTRAL June/September/December from FY2013, credit at the annual declaration; the 3%-CIF imports leg + its registered-educational exclusion; Art. 4 DEROGATES D. 113-2011 Art. 13; parallel-never-merged vs the 22-A regime). Totals 363/**170**/189/174.
 
 **W10 wave (2026-08-21) fold-ins:** file 01 +LB-022 (SAR-239-2024 the
 QUINCENCAL CETF retentions/percepciones informativa + SAR-283-2024 the

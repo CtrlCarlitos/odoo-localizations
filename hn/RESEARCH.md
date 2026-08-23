@@ -339,6 +339,20 @@ files `161_`..`165_`, EVID-644..664 + the W5 lost-file recovery):**
   "Reglamento-Incapacidad-para-reformas" ihss.hn upload = content-identical
   re-render of 88_ (discarded unregistered; md5 differs but 40/40 pages same
   text — a re-render, the dedup lesson extended to TEXT-identity).
+- **W14 OWNER-BROWSER WAVE (2026-08-23 — the inbox channel opened; 11
+  registered, 3 duplicate discards):** files placed by the owner in
+  `hn/sources/inbox/` (gitignored; the GT convention), sourced primarily
+  from the **IAIP Portal Único publication series for the IHSS
+  (`portalunico.iaip.gob.hn/356/83/`)** — the transparency-route family:
+  `168_` D. 96-2012 (**the top residual CLOSED** — R-H92) · `169_` the
+  G 36,545 gazette originals · `170_-174_` **THE IHSS techos/tasas family**
+  (R-H94: the tri-regime matrix incl. RP; the sector split; **the 2026
+  interim carry-forward — AC-006 unblocked**; SETRASS-08-2026; the D. 92-14
+  lead) · `175_` the 1993 CT edition (**D. 247-89 FULL TEXT — R-H93, the
+  cap window decoded**) · `176_` the clean D. 199-2006 print (OQ-009(d)
+  closed) · `177_` ISR-2018 consolidation · `178_` IHSS statistics.
+  Discards: GACETA-36489 (md5 ≡ `151_`), Decreto-45-2025 (text ≡ `96_`),
+  Decreto-59-2023 (text-prefix ⊂ `109_`).
 - **WATCH TICK (2026-08-23, W13 — all clean):** ENAG ago-2026 listing still
   ends at `20260821-37226` (21-ago = Friday; weekend elapsed, no new issues;
   septiembre listing absent; year index links months only) — **no 2026 JD
@@ -393,15 +407,13 @@ TWELVE files `149_`..`160_`, EVID-566..643):**
   and DISCARDED: `AJ-RIESGOS-PROFESIONALES.compressed.pdf` = a 2024
   Acta-de-Juramentación memo, NOT the RP instrument (ledger unchanged at
   11 — the RP class cuadros stay open).
-- **D. 96-2012 (loss regimes) UNACQUIRED — routes exhausted this session:**
-  SAR catalog live re-crawl (11 section pages, 506 slugs), TSC/congreso/
-  STSS saved CDX enumerations, the DEI sitioleyes Wayback library (67 PDFs,
-  2007-era snapshots — pre-2012), search engines (Bing returns generic
-  results for .hn queries). Refined pin: gazetted **20-jul-2012** per
-  `80_`'s recital ("publicado en el Diario Oficial 'La Gaceta' el 20 de
-  julio de 2012"); content partially pinned via the 01_/29_/30_ Ayudas
-  (1% anticipo on 2-loss-years + L100M gross; 3%-CIF import advance).
-  Watch: any pre-2015 gazette archive, labeled mirrors.
+- **~~D. 96-2012 (loss regimes) UNACQUIRED — routes exhausted this session~~
+  CLOSED W14 (owner-browser intake, IAIP portalunico series; registered
+  `168_`, EVID-681..687, R-H92):** the gazette pin confirmed G 32,877
+  20-jul-2012 (vigente 21-jul-2012); gates instrument-pinned ("consecutivas
+  o alternas" + six subject classes), cadence NEW (trimestral Jun/Sep/Dec
+  from FY2013), the 3%-CIF leg + registered-educational exclusion, Art. 4
+  derogates D. 113-2011 Art. 13.
 
 **W9 ACQUISITION WAVE (2026-08-21 — the residual queue executed; NINETEEN
 files `130_`..`148_`):**
@@ -623,6 +635,18 @@ cited by corpus documents but absent; logged per evidence-file OQs):**
 
 ## 6. Fetch recipes (verified this pass)
 
+- **W14 — the IAIP Portal Único publication series + the owner-browser
+  inbox (NEW route, proven 2026-08-23):** `portalunico.iaip.gob.hn/356/83/`
+  = the IAIP transparency publication series for the IHSS — transparency
+  -release compilations (gazette issues + cover memos), operational
+  techos/tasas memos and workbooks, lineamientos, comunicados, statistics.
+  Requires a real browser (owner channel): the owner downloads and places
+  files in `hn/sources/inbox/` (gitignored, GT convention); the controller
+  runs intake = md5-dedupe vs corpus → page-1 verify (title≠content) →
+  text-compare near-duplicates → register from the next number → evidence
+  pass → fold-ins → COVERAGE regen. The W14 intake adjudications:
+  md5-identical, text-identical (re-render class, the W11 88_ incident),
+  and strict-text-prefix (subset) duplicates all = discard unregistered.
 - **SAR downloads:** resolve the target `/download/<slug>/` page live →
   extract the fresh `?wpdmdl=<id>&refresh=<token>` href (tokens rotate; IDs
   drift — never hard-code) → GET → verify page 1 with pypdf. Some slugs in

@@ -93,6 +93,13 @@ period (*hecho generador*), additive-only, never-guess.
 | LB-021 | **THE IHSS AMNISTÍA FAMILY ACQUIRED W11** — `162_` = **D.L. 112-2016** statute-original (G 34,170 miércoles 26-oct-2016 pp. A.5-A.6, ENAG full issue; Dado 16-ago-2016, Ejecútese 12-sep-2016, vigencia = publication day): authorizes the IHSS "por esta única vez" to amnistiate **recargos, multas e intereses** on aportes patronales y de trabajadores "dejados de enterar" (public+private patronos — the CAPITAL always remains payable); beneficiary gate = pay in legal form OR document+guarantee within 12 months (Art. 2); **Art. 3 = health-access restoration duty** ("debe restablecer el acceso a servicios de salud y protección social de los afiliados cuyos patronos paguen o regularicen sus adeudos en mora" — the mora-sensitive coverage lever behind LI Art. 88 ¶2/LB-012); Art. 4 = Junta-Interventora depuración mandate. `161_` = its **Reglamento Especial** (Comisión Interventora print, 11-nov-2016; Arts. 1-23 complete): **window printed 26-oct-2016 → 25-oct-2017** (Art. 3.a); four beneficiary-direct classes incl. current-convenio holders in mora (Art. 3.b); **convenio economics = plazo + prima inicial + FIXED 12% interest** (Arts. 3.d/n) with the prima/plazo table ≤L200k→20%/12m · L200k-1M→20%/18m · >L1M→15%/24m (Art. 20, prima = FLOOR); **default = 1 cuota + 31-day mora → amnistía lost, multas/recargos/intereses REVERT via débitos** (Art. 19, Ley-Marco-Art.-36 pointer); **convenios never suspend current monthly aportes** (Art. 20 ¶2); PN lane = Afiliación Progresiva (REAP population cross-link, Art. 14); 3-month interest-free capital-contado option (Art. 16 ¶2) | **HISTORICAL/closed-window rows only** (expired 25-oct-2017 — **succeeded by the LIVE 2025-2026 chain acquired the SAME WAVE, LB-022**: D.L. 44-2025 Art. 2 → D.L. 78-2026 Art. 2 → Res. SOJD-IHSS-016-2026-XIII): no live payroll computation from the 2016 family; value = (a) the LB-012 enforcement stack's first documented regularization episode (migration-era IHSS account reconciliation context, D-H3); (b) the 161_-Art.-6 RTN-unification/número-único-patronal origin (IHSS employer master-data is RTN-keyed); (c) the amnistía-family completeness lane (kin of 06_/109_'s D. 5-2024). Reglamento's own gazette-publication unpinned (OQ-012) | `hn/sources/161_Reglamento_Especial_Amistia_IHSS_DL112-2016.pdf` + `hn/sources/162_Gaceta_34170_Decreto_112-2016_Amistia_IHSS.pdf` | EV161:EVID-645..650; EV162:EVID-644/650 |
 | LB-022 | **THE LIVE IHSS AMNISTÍA CHAIN 2025-2026 ACQUIRED W11** — `163_` = **D.L. 44-2025** (G 36,861 mié 11-jun-2025; Dado 3-jun, Ejecútese 10-jun-2025; vigencia = publication day): the seven-amnistía package; its Art. 2 = the IHSS amnistía re-grant (scope "recargos y multas" as printed; **10-month window** 11-jun-2025→11-abr-2026, superseded mid-flight; health-restoration + widened depuración). `164_` = **D.L. 78-2026** (G 37,166 vie 12-jun-2026; Dado 13-may, Ejecútese 15-may-2026; vigencia 12-jun-2026) the AMPLIACIÓN: Art. 2 re-grants the IHSS amnistía — **scope restored to recargos/multas/INTERESES, window 4 months = 12-jun-2026 → 12-oct-2026**; its Art. 1 = the SAR general amnistía (taxation/07 lane) and its considerando DEROGATES D. 7-2026 Art. 7 (06_). `165_` = **Res. SOJD-IHSS-016-2026-XIII** (JD 25-jun-2026; Comité Acta CR-02-2026; certified G 37,189 jue 9-jul-2026 pp. A.31-64) = the REFORMED REGLAMENTO — the operative procedure: convenio gate **principal > L15,000**; **economics table: 0% interest ≤12-month convenios / 12% longer; prima mínima 10%/15%/25% sin-refinanciamiento (12m/13-96m/demand-process) and 20%/30%/35% con-refinanciamiento (12m/13-48m/demand)**; hardship exceptions up to **120 months (prima ≥5%) / 96 months (prima ≥10%)** with 2-year-financials/ISR evidence; **terminal 12-oct-2026 + 6-month processing tail (→~12-abr-2027, received-in-time only)**; Art. 24 continuity (monthly cuota + convenio never suspended; default → judicial recovery LI-Art.-65 + Ministerio Público referral); patrono-initiated + 3 oficio depuración lanes | **the CURRENT employer regularization lane** — dated config rows per D-H2.6 (access window 12-jun→12-oct-2026; processing tail to ~12-abr-2027); the 2016 economics (LB-021: flat 12%, 12/18/24m) are SUPERSEDED — never mix the two tables; scope chain: 44-2025 two-item print vs 78-2026 three-item = OQ-2(163_) flagged for any 2025-window historical reconstruction; publication-route datum: IHSS JD acts publish as Sección-A certificaciones (the future techo/rate-act watch route) | `hn/sources/163_Gaceta_36861_Decreto_44-2025_Amnistias.pdf` + `hn/sources/164_Gaceta_37166_Decreto_78-2026_Amnistia_ampliacion.pdf` + `hn/sources/165_Gaceta_37189_SOJD-IHSS-016-2026_Regl_Amnistia_reforma.pdf` | EV163:EVID-651..653; EV164:EVID-654..657; EV165:EVID-658..664 |
 
+### W14 additions to the Legal Basis (techos/tasas family)
+
+| # | Verbatim | Gloss | Source | Loc |
+|---|----------|-------|--------|-----|
+| LB-023 | **THE TECHOS/TASAS FAMILY ACQUIRED W14** — `169_` = the **G 36,545 (28-may-2024) GAZETTE ORIGINALS** of D. 47-2024 + D. 48-2024 (Dado 30-abr-2024/Ejecútese 8-may-2024; the `81_`/`27_` instruments, gazette-side): D48-Art. 1 verbatim ≡ LB-001 ("Estos porcentajes se aplicarán sobre los techos de cotización vigentes para este Régimen"); **D48-Art. 2 GRADUALIDAD verbatim ≡ LB-002 incl. the JD-actuarial delegation**; D47-Art. 16 reformed RAP Arts. 42/43 (fondo ISR non-inclusion + 1.5+1.5=3% re-stated — file 05 lane); considerandos ≡ LB-004 (SCO-858-2015 chain; L2,971M/mo Dec-2023). `170_` = **IHSS COMUNICADO 19-dic-2024** (text-native): the **TRI-REGIME techo/rate matrix incl. the RP leg — 2024: IVM 11,336.32 / EM 11,109.30 / RP 11,109.30; 2025: 11,903.13 ×3; rates IVM 3.5/2.5, EM 5.0/2.5, RP 0.2% patrono-only; totals patrono 8.70% / trabajador 5%**; ZOLI = cotize at the techo; facturación desfase (month-N calculated N+1). `171_` = the official **"REGULACIÓN TECHOS ENERO-DIC 25" workbook**: the three-sector matrix — (a) gobierno-CONTRATO ≡ private full matrix 2025 (11,903.13 ×3) with a trailing note printing the 2024 techos in present tense (OQ-013 tension); (b) gobierno-PERMANENTES = **EM+RP ONLY** ("ÉSTE SECTOR COTIZA A OTROS INSTITUTOS DE PREVISIÓN SOCIAL, SE COBRARÁ I.V.M. EN CASOS EXCEPCIONALES… CUANDO EL OTRO SISTEMA NO LOS ACOGE"); (c) **the pre-D.48-2024 state column "PERIODO SEPT. 2015": techo IVM 8,882.30 (2%/1%/0.5%) / EM 7,350 (5%/2.5%/0.5%) / RP 7,350 (0.2%), "CON ANTERIOR LEY DE SEGURIDAD SOCIAL… Decreto 140-1959 artículo 55-A y 55-B"**. `172_` = **IHSS Sub-Gerencia memo 21-abr-2026 (THE 2026 INTERIM STATE)**: "no se han emitido ni publicado nuevas disposiciones legales que reformen los valores establecidos en el año anterior, el instituto continuará aplicando los techos y porcentajes hasta el 2025 conforme a lo establecido en la Gaceta No. 36,545… hasta que exista una instrucción legal superior" — 2026 = 2025 values carried forward (institutional-memo basis, reversible); its table's 7 printed Lempira values arithmetic-close exactly at 11,903.13 (297.58/416.61/595.16/23.81/1,035.57/714.19/892.73/1,630.73) with **"Total 8.70%" = 3.5+5.0+0.2 (employer all-in incl. RP)** | The IHSS operational-config family: (i) the RP branch gets printed rate/techo anchors (0.2% patrono-only; **RP techo = EM techo whole-life**: 7,350→11,109.30→11,903.13) — OQ-006 narrowed to the class cuadros only; (ii) **the 2025 uniform techo = BY DESIGN (RP tracks EM), superseding R-H50's coincidence framing** — the two families stay separate in storage, but the design note replaces "coincidence"; (iii) **the pre-28-may-2024 interregnum now has evidenced operative values** (the Sept-2015 state) — FR-109's block class shrinks to genuinely-unknown periods; (iv) **AC-006's 2026 block lifts** on a dated reversible interim row (FR-111); (v) the SECTOR dimension (FR-138) + the multi-instituto election (FR-140, D. 92-14 lead) | `hn/sources/169_Gaceta_36545_D47-2024_D48-2024_techos.pdf` + `hn/sources/170_Comunicado_IHSS_D48-2024_techos_19-dic-2024.pdf` + `hn/sources/171_Techos_cotizacion_2025_IHSS.xlsx` + `hn/sources/172_Memo_IHSS_tasas_techos_2026_21-abr-2026.pdf` | EV169:EVID-688..695; EV170:EVID-696/697; EV171:EVID-698..700; EV172:EVID-701..703 |
+| LB-024 | **W14 operational prints**: `173_` = the abril-2026 lineamientos compilation — the SMM-2026 facturación-retroactivity question (enero-marzo retroactive vs abril-only; unanswered in-file — flag-only; D-H2 period-correct computation unaffected) + a 2026 confirm table ≡ 172_ + **COMUNICADO SETRASS No. 08-2026** (the tripartite acuerdo % table: 2026 = 6/6/7/7, 2027 = 6/6/7/7.5 — **value-identical to `90_`/`91_`**, two-witness corroboration of the bienio percentages). `174_` = the planillas-abril-2025 comunicado — month-N planillas payment deadline ~26 days later (abr-2025 → 26-may-2025, the operational payment rhythm around the facturación desfase; annotation to FR-136, not a statute row); altas window 27th→3rd with real-salary + DNI/carnet; **the D. 92-14 leg: "Artículo 5 del Decreto 92-14 'Ley de Reconocimiento de Cotizaciones Individuales y aportaciones patronales entre Institutos Públicos de Previsión Social'… requerir la autorización por escrito de cada trabajador que cotice con otro instituto de previsión (INPREMA, INJUPEMP, INPREUNAH, IPM) con el fin de darle de baja en el Régimen de Previsión Social del IHSS… sin perjuicio de los valores acreditados al IHSS"** — **D. 92-14 = NEW INSTRUMENT LEAD (unacquired; OQ-014)** | The operational/rhythm family + the multi-instituto election's IHSS-side procedure; the gobierno-permanentes IVM-exception (LB-023) gets its statutory home class (D. 92-14's own text when acquired) | `hn/sources/173_Lineamientos_IHSS_afiliacion_abr-2026_SETRASS-08-2026.pdf` + `174_Comunicado_IHSS_planillas_abr-2025_D92-14.pdf` | EV173:EVID-704..706; EV174:EVID-707 |
+
 ## 3. Functional Requirements
 
 ### 3.1 The cotización matrix as dated rows
@@ -149,19 +156,26 @@ period (*hecho generador*), additive-only, never-guess.
 ### 3.2 The two regime ceilings as dated-row families
 
 - **HN-PAYR-FR-108:** The system shall load the contribution ceilings
-  (*techos de cotización*) as TWO SEPARATE dated-row families, one per
-  regime, per R-H50: IVM 2024 L11,336.32 / IVM 2025 L11,903.13; EM 2024
-  L11,109.30 / EM 2025 L11,903.13 — the 2025 numeric equality is a
-  coincidence and shall NEVER be stored, merged or looked up as one shared
-  ceiling row; each family is independently superseded by future JD acts.
-  (LB-002; EV81:EVID-252; R-H50)
+  (*techos de cotización*) as SEPARATE dated-row families — one per regime
+  (IVM, EM, and RP), per R-H50 as REFINED W14: IVM 2024 L11,336.32 / IVM
+  2025 L11,903.13; EM 2024 L11,109.30 / EM 2025 L11,903.13; **RP 2024
+  L11,109.30 / RP 2025 L11,903.13 (the RP techo = the EM techo whole-life —
+  7,350→11,109.30→11,903.13 per `171_`; the 2025 uniformity is BY DESIGN,
+  not coincidence, but families are still never merged in storage)**; each
+  family is independently superseded by future JD acts.
+  (LB-002; LB-023; EV81:EVID-252; EV170:EVID-696/697; EV171:EVID-698/699;
+  R-H50-refined)
 - **HN-PAYR-FR-109:** The system shall bound the 2024 ceiling rows by the
   mid-year vigencia of D.48: `valid_from` 2024-05-28, `valid_to`
-  2024-12-31; payslip periods 2024-01-01→2024-05-27 have NO corpus-evidenced
-  operative ceilings (interregnum unaudited) and shall be BLOCKED with an
-  explicit missing-ceiling configuration flag — never computed with the
-  D.48 values, never back-dated, never guessed (D-H2 never-guess; 81_ OQ-2).
-  (LB-002; LB-003; EV81:EVID-252/253)
+  2024-12-31. **W14: payslip periods BEFORE 2024-05-28 now resolve to the
+  official pre-D.48 workbook state (`171_` "PERIODO SEPT. 2015" column,
+  print_status = institutional workbook): IVM techo L8,882.30 (2% employer /
+  1% worker / 0.5% State) / EM techo L7,350 (5%/2.5%/0.5%) / RP techo L7,350
+  (0.2%), the LI-Arts.-55-A/55-B revival state post-SCO-858-2015 — computed
+  with a statutory-grade-upgrade flag, never blocked-by-default; only
+  periods predating the workbook's own reach (pre-Sept-2015 parametrization)
+  remain config-gapped (never guessed) (D-H2; 81_ OQ-2 narrowed).**
+  (LB-002; LB-003; LB-023; EV81:EVID-252/253; EV171:EVID-699)
 - **HN-PAYR-FR-110:** The system shall key ceiling rows by calendar year
   with per-regime lookup by (regime, payslip-period date): 2025 rows
   `valid_from` 2025-01-01 / `valid_to` 2025-12-31; every ceiling selection
@@ -170,13 +184,20 @@ period (*hecho generador*), additive-only, never-guess.
   paid slips frozen and corrections recomputed with ORIGINAL-period rows
   (D-H2/D16). (LB-002; EV81:EVID-251/252)
 - **HN-PAYR-FR-111:** The system shall treat post-2025 ceilings as EXTERNAL
-  DATED DATA per D48 Art. 2 ¶2: the Junta Directiva fixes both ceilings by
-  actuarial study (JD resolution in La Gaceta); when a payslip period has no
-  loaded ceiling row for a regime (e.g. any 2026+ period before the JD act
-  is ingested) the computation shall be BLOCKED with a missing-ceiling flag
-  — never defaulted to the prior year, never indexed, never derived
-  (never-guess rule; watch instrument = JD resoluciones in La Gaceta).
-  (LB-002; LB-008; EV81:EVID-252/257)
+  DATED DATA per D48 Art. 2 ¶2 (the Junta Directiva fixes both ceilings by
+  actuarial study, JD resolution in La Gaceta), WITH the W14 interim rule:
+  **2026 periods with no JD act ingested resolve to the CARRY-FORWARD row —
+  all three techos = 11,903.13, rates unchanged (patrono 8.7% all-in incl.
+  RP / trabajador 5%) — on the institutional-memo basis of `172_`
+  (21-abr-2026: IHSS states no new act exists and it continues the 2025
+  values "hasta que exista una instrucción legal superior"), stored with
+  print_status = institutional-memo, valid_from 2026-01-01, valid_to =
+  open-until-JD-act, and a REVERSIBLE flag that recomputes with the act's
+  own terms when it lands**; periods with neither a JD act nor the interim
+  row loaded (e.g. 2027+) remain BLOCKED with a missing-ceiling flag —
+  never indexed, never derived (never-guess rule; watch instrument = JD
+  resoluciones, Sección-A certificaciones route). (LB-002; LB-008; LB-023;
+  EV81:EVID-252/257; EV172:EVID-701/702)
 - **HN-PAYR-FR-112:** The system shall expose the resolved IVM techo of the
   payslip period as a consumption interface for the RAP/fondo engine — file
   05 (`05_rap-fondo.md`, HN-PAYR-FR-181..215) consumes the IVM techo BY ID
@@ -319,13 +340,40 @@ period (*hecho generador*), additive-only, never-guess.
   EV145:EVID-549): new regime entrants cotize an initial **0.2% on
   nominal salary capped at the current techo** (Art. 89), five risk
   classes (Art. 95), annual siniestralidad review with a January employer
-  filing (Arts. 90-93) and ≥1-year rate stability (Art. 97). The
-  class-value cuadros/JD rate tables remain ABSENT from the corpus: no
-  class-specific RP rate shall be computed until they arrive (87_ OQ-2
-  NARROWED — the 0.2% entry value is encodable as the new-entrant row
-  valid_from 29-jun-2005, with class rates config-gapped); the CT Título V
-  residual belongs to file 09 (`09_suspension-maternity-special.md`,
-  HN-PAYR-FR-331..357). (LB-014; LB-017; EV81:EVID-263; EV145:EVID-549)
+  filing (Arts. 90-93) and ≥1-year rate stability (Art. 97). **W14: the
+  APPLIED 0.2% + its techo now print institutionally (`170_` comunicado
+  2024/2025 tables + `171_` workbook + `172_` memo with the 23.81 =
+  0.2% × 11,903.13 Lempira closure) — the flat 0.2% is encodable as the
+  WHOLE-LIFE applied rate (patrono-only; RP techo = EM techo per FR-108),
+  no longer only a new-entrant entry value.** The class-value
+  cuadros/JD rate tables remain ABSENT from the corpus: no class-specific
+  RP rate shall be computed until they arrive (OQ-006 narrowed to the
+  class cuadros); the CT Título V residual belongs to file 09
+  (`09_suspension-maternity-special.md`, HN-PAYR-FR-331..357). (LB-014;
+  LB-017; LB-023; EV81:EVID-263; EV145:EVID-549; EV170:EVID-696/697;
+  EV171:EVID-698..700)
+- **HN-PAYR-FR-138 (new W14):** The system shall carry the SECTOR dimension
+  of IHSS cotization as a company/worker config axis with three lanes per
+  the official workbook (`171_`): (a) **private sector + gobierno-CONTRATO
+  staff = the FULL matrix** (IVM+EM+RP at FR-103/108 values); (b)
+  **gobierno-PERMANENTES staff = EM+RP ONLY** (IVM charged only
+  exceptionally "CUANDO EL OTRO SISTEMA NO LOS ACOJE" — the alternate-
+  instituto class); (c) REAP domésticos = their own health-only lane
+  (FR-126, unchanged). Lane selection is a dated config row (sector ×
+  employment-class), never a rate override; the gobierno-contrato 2025
+  trailing-note tension (2024 techos printed present-tense under the 2025
+  table) stays OQ-flagged (OQ-013) with the table encoded.
+  (LB-023; EV171:EVID-698/700)
+- **HN-PAYR-FR-140 (new W14):** The system shall carry the ONE-INSTITUTO
+  election flag per D. 92-14's IHSS-side procedure (`174_`): a worker who
+  cotizes with an alternate previsión instituto (INPREMA, INJUPEMP,
+  INPREUNAH, IPM) is flagged with a written-authorization record and
+  given BAJA in the IHSS Régimen de Previsión (IVM lane off; EM/RP per
+  sector rules), with previously credited IHSS values preserved
+  ("sin perjuicio de los valores acreditados al IHSS") — the statutory
+  text of D. 92-14 itself remains unacquired (OQ-014 lead); the flag is
+  reversible and export-only (no IHSS-side mutation in Odoo).
+  (LB-024; EV174:EVID-707)
 - **HN-PAYR-FR-136:** The system shall schedule the EMPLOYER cotización
   payment deadline at the FIRST 10 DAYS of the following month per
   Reglamento General Art. 144 (oficio facturación on the last planilla),
@@ -413,7 +461,7 @@ in the instruments.
 | Entity | Field | Type | Catalog / values | Reference |
 |--------|-------|------|------------------|-----------|
 | l10n_hn.ihss.rate (new) | branch, employer_pct, worker_pct, state_pct, valid_from, valid_to, source_kind, gazette_ref | select/float/date/char | branch: ivm · em; rows seeded: ivm 3.5/2.5/0.5 (valid_from 2024-05-28, statute d48_2024); em 5/2.5/0.5 (valid_from 2001-06-01, statute d80_2001, R-H65 citation); ivm 2/1/0.5 (valid_to 2024-05-27, superseded floor + interregnum caveat); state_pct informational only (FR-105) | FR-101..FR-107 |
-| l10n_hn.ihss.ceiling (new) | regime, valid_from, valid_to, amount, source_kind, gazette_ref | select/date/monetary/char | TWO families, never merged (R-H50): ivm 2024-05-28→2024-12-31 = 11,336.32; ivm 2025 = 11,903.13; em 2024-05-28→2024-12-31 = 11,109.30; em 2025 = 11,903.13; post-2025 = jd_resolution rows (actuarial study); lookup by (regime, payslip period); missing rows = blocking config gap | FR-108..FR-112 |
+| l10n_hn.ihss.ceiling (new) | regime, valid_from, valid_to, amount, source_kind, gazette_ref | select/date/monetary/char | THREE families, never merged (R-H50-refined): ivm 2024-05-28→2024-12-31 = 11,336.32; ivm 2025 = 11,903.13; em 2024-05-28→2024-12-31 = 11,109.30; em 2025 = 11,903.13; **rp 2024-05-28→2024-12-31 = 11,109.30 (= em); rp 2025 = 11,903.13 (= em — design, not coincidence)**; **2026 interim row: all three = 11,903.13, source_kind = institutional_memo (172_), reversible**; **pre-2024-05-28 rows: 8,882.30/7,350/7,350, source_kind = institutional_workbook (171_ "SEPT. 2015" state)**; post-interim = jd_resolution rows (actuarial study); lookup by (regime, payslip period); genuinely-missing rows = blocking config gap | FR-108..FR-112 |
 | l10n_hn.ihss.base.config (new) | include_13th, include_14th, include_overtime, include_bonuses, in_kind_equivalence_rules, status | boolean/char | status: pending_source (Reglamento General unacquired, 87_ OQ-1 TOP lead) · configured; NEVER seeded with guessed defaults | FR-115, FR-116 |
 | l10n_hn.ihss.multa (new) | concept, smm_factor | select/float | concept: non_affiliation (0.25) · late_planilla (1.0) · employer_share_deduction (3.0); unit = highest-category monthly SMM resolved by period from P1 rows (file 01) | FR-120, FR-131 |
 
@@ -479,12 +527,18 @@ the table).
   L11,903.13 — one `ivm_2025`, one `em_2025` — and deactivating/superseding
   one family never affects the other (R-H50 coincidence guard) (FR-108).
 - **AC-005:** Given a payslip period of 15-mar-2024 (pre-vigencia), then the
-  computation is BLOCKED with a missing-ceiling config flag — never the
-  D.48 ceilings, never the 55-A ¶2 floor with a guessed techo (FR-104,
-  FR-109).
+  computation resolves to the official pre-D.48 workbook rows (IVM techo
+  8,882.30 at 2/1/0.5; EM 7,350 at 5/2.5/0.5; RP 7,350 at 0.2% — `171_`
+  "PERIODO SEPT. 2015" state) with a statutory-grade-upgrade flag — never
+  the D.48 ceilings, never the 55-A ¶2 floor with a guessed techo, never a
+  silent block (FR-104, FR-109 W14).
 - **AC-006:** Given a January-2026 run with no JD actuarial ceiling row
-  loaded, then the computation is blocked with a missing-ceiling flag —
-  never the 2025 values, never an indexed derivation (FR-111).
+  loaded, then the computation resolves to the W14 interim carry-forward
+  row (all techos 11,903.13; patrono 8.7% all-in incl. RP; trabajador 5%;
+  print_status = institutional-memo per `172_`, reversible-on-JD-act) with
+  an interim-basis flag — never an indexed derivation; given a 2027 run
+  with neither a JD act nor an interim row, then the computation is BLOCKED
+  with a missing-ceiling flag (FR-111 W14).
 - **AC-007:** Given a December payslip carrying a 13th-month component with
   the base-composition flag unconfigured, then the cotización computation
   surfaces a pending-base-composition flag and produces no silently
@@ -531,10 +585,12 @@ the table).
 | OQ-003 | `81_ OQ-3` Estado 0.5% base ("en base del total de los afiliados activos") is grammatically broken in the gazette original; not employer-payroll-relevant (never withheld), but pin before modeling any Estado-side row (FR-105 keeps State shares informational). | no | acquisition queue | open |
 | OQ-004 | `81_ OQ-4` supersession formality: D.48-2024 Art. 1 carries no express derogation of LI 55-A ¶2; supersession follows lex posterior + restitutory considerandos (R-H49 kin). Encoded in FR-104; a formal derogation analysis only matters for litigious edges. | no | — | open (note) |
 | OQ-005 | `87_ OQ-1` → **RESOLVED W9 (145_ acquired)**: the Reglamento General = Acuerdo 003-JD-2005 (Dado 15-feb-2005, gazette G 30,735 29-jun-2005 per `147_`; `145_` = institutional "última versión"; `146_` = the 1971 Reglamento de Aplicación it replaced, Acuerdo 101-JD-71 inference). Art. 135 = the delegate base definition — OT/horas extras + rest-day value + commissions + habitual bonificaciones IN; occasional/mere-liberality primas/bonos/gratificaciones OUT (FR-115 rewritten; LB-015). RESIDUAL = the 14th-month leg → OQ-010. | no | — | resolved (W9/EV145:EVID-545) |
-| OQ-006 | `87_ OQ-2` riesgos profesionales cotización: NARROWED W9 — the Reglamento General RP chapter (`145_` EV145:EVID-549) supplies the machinery (0.2% new-entrant entry rate on nominal salary at the techo, five classes, annual siniestralidad review + January employer filing, ≥1-year stability; FR-127/LB-017). RESIDUAL: the class-value cuadros / JD rate tables still unacquired — class rates stay config-gapped. Lead: JD cuadro de cuotas por clase. | no | acquisition queue (narrowed) | open |
+| OQ-006 | `87_ OQ-2` riesgos profesionales cotización: NARROWED W9 (machinery per `145_` EV145:EVID-549) — **NARROWED AGAIN W14: the flat 0.2% patrono-only + the RP techo (= EM techo) now print institutionally (`170_`/`171_`/`172_`, EV170:EVID-696/697; EV171:EVID-698..700; EV172:EVID-702 with the 23.81 Lempira closure) — FR-127 encodes 0.2% as the whole-life APPLIED rate.** RESIDUAL: the class-value cuadros / JD siniestralidad rate tables still unacquired — class-specific rates stay config-gapped. Lead: JD cuadro de cuotas por clase. | no | acquisition queue (narrowed to class cuadros) | open (narrowed W14) |
 | OQ-007 | `87_ OQ-4` ceiling trail 2003→2024 (JD acts raising L4,800 → ~L11k, incl. the voided D.56-2015 gradualidad): needed only for historical dated rows; same acquisition family as OQ-002. | no | acquisition queue | open |
 | OQ-008 | `87_ OQ-5` gradual coverage per zone/category (LI Art. 1): whether every formal-sector employer is inside EM+IVM today is practice data; per-establishment affiliation coverage carried as a data flag (FR-126), never assumed national-by-default. | no | Takumi S-HN4 + controller | open |
 | OQ-009 | `87_ OQ-3` → RESOLVED as R-H65: the TSC print's title-page dates are internally inconsistent (edition defect, not mislabel); LB citations use the signature date 1-jun-2001 + G 29,503 of 14-jun-2001. No further action. | no | — | resolved (R-H65) |
 | OQ-010 | 14th-month (*décimo cuarto mes*) inclusion in the IHSS base: the Reglamento General Art. 135 includes "bonificaciones habituales" generically, but the 14th month is an SMM-average-variant statutory payment (payroll/02 FR-094..096) whose salary-nature for cotización purposes is not adjudicated by any corpus instrument (D. 117-2021's cotizaciones exemption names only the aguinaldo). FR-115(d) holds it as a config flag — never guessed either way. | no | S-HN5 / acquisition watch | open |
 | OQ-011 | W10 REAP (from `155_` OQs): (a) the domésticos cotización VALUES live in a JD-acuerdo family instrument (006-JD-2008 Art. 18 delegates to JD majority per actuarial studies — same delegation class as LB-015's Art. 136 ceilings/OQ-006) — unacquired, config-gapped, never guessed; (b) the REAP regime's CURRENT operative status (post-2013 Ley RAP, post-2024 IHSS reforms) unverified — whether the annual-prepaid lane still governs domésticos or a later instrument moved them needs a status check (ihss.hn reglamentos family); the optional-IVM bridge's rates = the Ley's standard worker/employer split per the Ley IHSS Arts. (87_ family by id). | no | acquisition watch (JD acuerdo family + status check) | open (new W10) |
 | OQ-012 | W11 amnistía family (from `161_`/`162_` OQs): (a) the Reglamento Especial's own gazette publication (its Art. 23 duty) is unpinned — the corpus copy is the IHSS institutional print (a G ~nov/dic-2016 print would be the record copy; ENAG route available; LOW priority, window closed, content not in doubt); (b) minor: D.L. 112-2016's 44-day Ejecútese-to-publication lag (12-sep→26-oct-2016) unexplained in the print — no legal effect turns on it (vigencia = publication day). | no | LOW watch | open (new W11) |
+| OQ-013 | W14 (`171_` OQ-1): the gobierno-contrato block's trailing note prints the 2024 techos (11,336.32/11,109.30/11,109.30) in PRESENT tense under the "PERIODO ENERO A DICIEMBRE 2025" table (11,903.13 ×3) — stale-template carryover vs a genuine sector carve-out for 2025; the TABLE is encoded (three witnesses agree on 2025 uniform), the note is flagged; re-adjudicate if a sector-specific 2025 instrument surfaces. | no | flag-only (table encoded) | open (new W14) |
+| OQ-014 | W14 (`174_` OQ-4): **D. 92-14 "Ley de Reconocimiento de Cotizaciones Individuales y aportaciones patronales entre Institutos Públicos de Previsión Social" UNACQUIRED** — its Art. 5 one-instituto election (written authorization + IHSS baja + credited-values survival; the INPREMA/INJUPEMP/INPREUNAH/IPM alternates) is quoted second-hand in the IHSS comunicado; the gobierno-permanentes IVM-exception lane (FR-138) and the election flag (FR-140) get their statutory home when the text lands. Acquisition lead (SAR/congreso catalogs; LOW-MEDIUM priority — config already encoded from the institutional print). | no | acquisition queue | open (new W14) |

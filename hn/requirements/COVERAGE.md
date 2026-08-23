@@ -8,11 +8,11 @@
 | Authors | script `hn/scripts/build_coverage.py` (regenerate after every wave) |
 | Updated | 2026-08-22 |
 
-Every row of [../sources/README.md](../sources/README.md) (166 registered files, gap 103 reserved-unused) mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1099 FRs, 536 LB rows, 574 ACs, 333 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 249, e-invoicing 157, fiscal-reporting 363, payroll 330).
+Every row of [../sources/README.md](../sources/README.md) (177 registered files, gap 103 reserved-unused) mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1099 FRs, 540 LB rows, 574 ACs, 335 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 249, e-invoicing 157, fiscal-reporting 363, payroll 330).
 
 Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row of a requirements file (citing file(s) + LB ids listed); **not-applicable-this-wave** — explicit annotation with reason (superseded/historical, in-corpus-unread pending evidence pass, or out of scope for the four topics).
 
-## Matrix (166 source files)
+## Matrix (177 source files)
 
 | Source | Status | Cited in / note |
 |--------|--------|-----------------|
@@ -182,14 +182,25 @@ Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row
 | 165_Gaceta_37189_SOJD-IHSS-016-2026_Regl_Amnistia_reforma.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-022) |
 | 166_Codigo_Comercio_D73-1950_print.pdf | cited-as-LB | `fiscal-reporting/10_tp-545-informativas.md` (LB-008) |
 | 167_Codigo_Trabajo_D189-1959_original.pdf | cited-as-LB | `payroll/08_cesantia-preaviso.md` (LB-015); `payroll/10_salario-concepts-records.md` (LB-005+LB-015) |
+| 168_Decreto_96-2012_G32877_anticipo_ISR.pdf | cited-as-LB | `fiscal-reporting/07_isr-annual-102-103.md` (LB-019) |
+| 169_Gaceta_36545_D47-2024_D48-2024_techos.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-023); `payroll/05_rap-fondo.md` (LB-011) |
+| 170_Comunicado_IHSS_D48-2024_techos_19-dic-2024.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-023) |
+| 171_Techos_cotizacion_2025_IHSS.xlsx | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-023) |
+| 172_Memo_IHSS_tasas_techos_2026_21-abr-2026.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-023) |
+| 173_Lineamientos_IHSS_afiliacion_abr-2026_SETRASS-08-2026.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-024) |
+| 174_Comunicado_IHSS_planillas_abr-2025_D92-14.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-024) |
+| 175_Codigo_Trabajo_189-59_reformas_hasta_1993.pdf | cited-as-LB | `payroll/08_cesantia-preaviso.md` (LB-016) |
+| 176_Gaceta_31361_Decreto_199-2006_clean_print.pdf | cited-as-LB | `taxation/02_isr-deductions.md` (LB-015) |
+| 177_Texto_consolidado_ISR_vigente_26-jun-2018_DGPT.pdf | not-applicable-this-wave | W14 corroboration tier: the DGPT/SEFIN official ISR consolidation 'VIGENTE AL 26-jun-2018' (between 94_'s 1990 reglamento ancestor and 01_'s SAR-07-2025 state). Evidenced in EV177 (EVID-727/728) for availability + the 2018-state spot; no LB rows — consolidations are never verbatim authority vs instrument prints (the 01_ tier rule); consult for 2018-state dated-row disputes only. |
+| 178_IHSS_en_Cifras_2005-2025.xlsx | not-applicable-this-wave | W14 context/reference tier: the official IHSS statistics series 2005-2025 (población/prestaciones/finanzas por régimen). Evidenced in EV178 (EVID-729) — the RP regime's operational-liveness corroboration (gasto series 2021-2025); statistics never feed rate/techo or amount cells. |
 
 ## Rollup
 
 | Status | Rows |
 |--------|------|
-| cited-as-LB | 164 |
-| not-applicable-this-wave | 2 |
-| **Total** | **166** |
+| cited-as-LB | 173 |
+| not-applicable-this-wave | 4 |
+| **Total** | **177** |
 
 ## V-HN1 gate-1 findings (2026-08-20, fixed in this wave)
 

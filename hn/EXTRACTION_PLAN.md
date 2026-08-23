@@ -193,6 +193,48 @@ watch; Código de Comercio; SEE docs; DGS SMM 2027 promedio print early
 R-H91 (Reading B, CONSUCOOP-gated); S-HN5 DEFERRED).
 ## Wave log
 
+- **W14 owner-browser acquisition wave (2026-08-23, DONE — intake +
+  acquisition + evidence + fold-ins + verification, controller-executed):
+  the inbox channel's first run.** The owner downloaded 14 files (primarily
+  from the IAIP Portal Único IHSS series, `portalunico.iaip.gob.hn/356/83/`)
+  into the new `hn/sources/inbox/` (gitignored, GT convention; the
+  `.gitignore` line committed pre-wave). **INTAKE ADJUDICATIONS: 3
+  discards** — GACETA-36489 md5-identical to `151_`; Decreto-45-2025
+  text-identical to `96_` (re-render class); Decreto-59-2023 a strict
+  text-prefix of `109_` (subset) — all discarded unregistered (ledger stays
+  11). **(1) ACQUISITION — 11 files `168_`..`178_`:** `168_` = **D.
+  96-2012** (G 32,877 20-jul-2012 — the W10 top text residual CLOSED) ·
+  `169_` = the **G 36,545 gazette originals** of D. 47-2024 + D. 48-2024 ·
+  `170_`/`171_`/`172_`/`173_`/`174_` = **THE IHSS TECHOS/TASAS FAMILY**
+  (the 19-dic-2024 comunicado; the official 2025 workbook; the 21-abr-2026
+  memo; the abril-2026 lineamientos + SETRASS-08-2026; the planillas/D. 92-14
+  comunicado) · `175_` = the **≈1993-94 CT consolidated edition with ~24
+  appendix decree texts incl. D. 247-89 IN FULL** · `176_` = the **clean
+  D. 199-2006 print** (G 31,361) · `177_` = the ISR-2018 consolidation ·
+  `178_` = the IHSS statistics series. **(2) EVIDENCE — EVID-681..730 (50;
+  controller-executed in 5 files) + rulings R-H92 (D. 96-2012: gates
+  confirmed "consecutivas o alternas" + six classes; cadence NEW trimestral
+  Jun/Sep/Dec from FY2013; Art. 4 deroga D. 113-2011 Art. 13) / R-H93
+  (**D. 247-89's replacement Art. 120 caps cesantía at 15 MESES from
+  6-ene-1990 — the cap lineage COMPLETE 8→15→25/15; the valor-actual→
+  actuarial drift pins to 247-89**) / R-H94 (**the techos/tasas family:
+  tri-regime matrix incl. RP [0.2% patrono-only, techo=EM, patrono 8.7%
+  all-in]; the 2025 uniformity BY DESIGN; the sector split
+  [gobierno-permanentes EM+RP-only]; the pre-D.48 "SEPT. 2015" state; THE
+  2026 INTERIM CARRY-FORWARD — AC-006's block LIFTED on a dated reversible
+  institutional-memo row**).** **(3) FOLD-INS —** payroll/03 +LB-023/024 +
+  FR-108/109/111/127 rewritten + FR-138/140 new + AC-005/006 rewritten +
+  OQ-006 narrowed + OQ-013/014 new; payroll/08 +LB-016 + FR-302 + **OQ-008
+  RESOLVED**; payroll/05 LB-011 gazette-witness annotation; FREP/07 +LB-019
+  + FR-243 + **OQ-014 RESOLVED**; taxation/02 LB-015 + OQ-009(d)
+  print-damage leg closed; taxation/03 LB-019 annotation; three topic
+  indexes wave-noted (payroll 332/178/172/89; FREP 363/170/189/174;
+  taxation 249/121/140/56); master index +EV168..178 + R-H92/93/94 +
+  Section-C W14 delta; RESEARCH §5/§6 (the IAIP/inbox route documented);
+  sources/README registry. **(4) verification — corpus-global EVID sweep +
+  bank-check + COVERAGE regen 177 rows (see verification note).** Corpus
+  **177 files** (01-178, gap 103); next EVID = 731.**
+
 - **W13 watch-tick session (2026-08-23, DONE — no acquisition, no corpus
   change, controller-executed): the residual watch queue re-ticked, ALL
   CLEAN/NEGATIVE.** (a) **2026 JD ceiling act watch (TOP)**: the ENAG

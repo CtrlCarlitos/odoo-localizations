@@ -6,7 +6,7 @@
 | Topic   | taxation |
 | Status  | approved (V-HN1 validation wave 2026-08-20; see EXTRACTION_PLAN wave log) |
 | Authors | Takumi synthesis wave S-HN1 + controller |
-| Updated | 2026-08-20 |
+| Updated | 2026-08-23 (W14) |
 
 This directory holds the S-HN1 (synthesis wave HN-1) taxation
 requirements: the ISR framework + Código Tributario chassis, renta-neta
@@ -18,6 +18,8 @@ regimes/exonerations. Built from master-index clusters T1-T12 (W1
 evidence, EVID-001..071); F/P/E clusters are consumed by id, never
 re-derived. Source-to-requirements coverage: [../COVERAGE.md](../COVERAGE.md)
 (to be generated at S-wave validation).
+
+**W14 wave (2026-08-23) fold-ins — the owner-browser acquisition wave:** file 02 LB-015 rewritten + OQ-009(d) print-damage leg RESOLVED (**`176_` = the clean G 31,361 print of D. 199-2006 — Art. 30.14's full 7-item expense tail ["por la compra de medicamentos, materiales médicos, prótesis, aparatos ortopédicos, camas hospitalarias, sillas de ruedas y otros afines"] + Art. 3 beneficiarios verbatim-clean; the flat-vs-purchase-linked tension stays flagged — plantilla flat = the encoded contract; `109_ OQ-2` CLOSED**); file 03 LB-019 annotation (D. 96-2012 acquired as `168_` — G 32,877 pin; the loss-routing consumer note); the fondo's worker-side ISR exemption now STATUTORY via `169_` D47-Art. 16 reformed RAP Art. 42 (payroll/05 LB-011 cross-ref — exempt-income class). Totals unchanged 249/121/140/56.
 
 **W11 wave (2026-08-22) fold-ins:** file 07 +LB-013 + LB-010 annotation (the
 2025-2026 amnistía package SAR side: D.L. 44-2025 seven-amnistía architecture

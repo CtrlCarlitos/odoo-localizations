@@ -6,7 +6,7 @@
 | Topic   | payroll |
 | Status  | approved (V-HN1 validation wave 2026-08-20; W5 amendment — D. 112 unblock + bono reglamento + Acuerdo 345; see EXTRACTION_PLAN wave log) |
 | Authors | Takumi synthesis wave S-HN4 + controller; W5 wave | 
-| Updated | 2026-08-20 |
+| Updated | 2026-08-23 (W14) |
 
 This directory holds the S-HN4 (synthesis wave HN-4) payroll
 requirements: the SMM chassis (Ley D. 103 machinery + bienio 2022-2027
@@ -24,6 +24,32 @@ EVID-215..333); S-HN1 retention interfaces (taxation/04), S-HN3 111
 columns (fiscal-reporting/02) and S-HN2 comprobante mechanics are consumed
 by id, never re-derived. Source-to-requirements coverage:
 [../COVERAGE.md](../COVERAGE.md) (validation wave — runs next).
+
+**W14 wave (2026-08-23) fold-ins — the owner-browser acquisition wave
+(IAIP portalunico series):** file 03 +LB-023 +LB-024 + FR-108/109/111/127
+rewritten + **FR-138/FR-140 new** + AC-005/AC-006 rewritten + OQ-006
+narrowed + OQ-013/OQ-014 new (**THE IHSS TECHOS/TASAS FAMILY 2024-2026**:
+`169_` the G 36,545 gazette originals of D. 47-2024+D. 48-2024 [D48-Art. 2
+gradualidad verbatim — the JD delegation + the techos IN the law] +
+`170_` the 19-dic-2024 comunicado [**the TRI-REGIME matrix incl. RP:
+0.2% patrono-only, RP techo = EM techo; patrono all-in 8.70%**] + `171_`
+the official 2025 workbook [**the three-sector split**: private ≡
+gobierno-contrato full matrix; gobierno-PERMANENTES EM+RP-only with IVM
+exceptional — the D. 92-14 multi-instituto class; **the pre-D.48 "SEPT.
+2015" state: 8,882.30/7,350/7,350 at 2/1/0.5 + 5/2.5/0.5 + 0.2 — the
+interregnum evidenced, FR-109 unblocked**] + `172_` the 21-abr-2026 memo
+[**THE 2026 INTERIM STATE: no new act → 2025 values carry forward,
+AC-006's block LIFTED on a dated reversible institutional-memo row**;
+7/7 Lempira arithmetic closure] + `173_`/`174_` operational prints
+[SETRASS 08-2026 ≡ bienio percentages; D. 92-14 Art. 5 mechanics — new
+instrument lead OQ-014]); file 08 +LB-016 + FR-302 rewritten + **OQ-008
+RESOLVED (R-H93)** (`175_` the ≈1993-94 CT edition: **D. 247-89 FULL TEXT
+— the Art. 120 replacement caps cesantía at QUINCE (15) MESES from
+6-ene-1990; the "valor actual"→"valor actuarial" drift pins to 247-89;
+cap lineage COMPLETE 8→15→25/15**; ~24 appendix decree texts 1960-1993
+now quotable); file 05 LB-011 gazette-witness annotation (169_ reformed
+Arts. 42/43 + the fondo ISR-exemption statutory). Totals
+**332**/**178**/172/**89**.
 
 **W12 wave (2026-08-22) fold-ins:** `167_` = the CT D. 189-1959 ORIGINAL print
 (GLIN archive of the old congreso.gob.hn via Wayback) — file 08 +LB-015
