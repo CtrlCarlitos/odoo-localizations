@@ -565,10 +565,24 @@ cited by corpus documents but absent; logged per evidence-file OQs):**
 3. **Ley del RAP, D.L. 107-2013** full text — `27_` Art. 16 transcription
    covers Arts. 42/43/61. TSC exhausted; rap.hn's own reglamento link dead;
    routes left: UPAP (down), La Gaceta 06-sep-2013, Congreso (down).
-4. **Código de Comercio** (D. 4-1950 + reforms) — TSC/CEDIJ lacks it
+4. ~~**Código de Comercio** (D. 4-1950 + reforms) — TSC/CEDIJ lacks it
    (verified); Congreso down; SEFIN no yield; search engines unusable.
    Routes: Congreso revival, or labeled non-official mirror as last resort
-   at commercial-legal wave time.
+   at commercial-legal wave time.~~ **ACQUIRED W12 as `166_` — via the GLIN
+   archive of the old congreso.gob.hn (`PDF/CODIGOS/HN0505195001.PDF`,
+   Wayback `id_`; surfaced by re-grepping the SAVED W7 full-domain CDX for
+   "comercio/codigos" — the W8-recipe lesson paid off). ATTRIBUTION
+   CORRECTED: the instrument = DECRETO No. 73 DE 1950 (Dado 16-feb-1950,
+   Ejecútese 17-feb-1950), NOT "D. 4-1950" (the 12th lead-attribution fix;
+   hint-layer numbers are never LB-grade). The same enumeration also
+   yielded `167_` = the CT D. 189-1959 ORIGINAL print (GLIN
+   HN1905195901.PDF) — the 86_ consolidation's genealogical baseline:
+   G 16,827-16,834 15→23-jul-1959, vigencia 15-jul-1959; original Art. 120
+   cap = 8 meses; original 95.13 sindicalizados-only; the 8+3 feriado list
+   = 1959 original (the 1960 pair reformed mechanics only). Residuals
+   spawned: D.L. 116-1960 + D.L. 275-1960 texts (Anexo class), D. 158-1954
+   (pre-LSP cooperative statute), the CdC gazette pin (pre-ENAG 1950), the
+   truncated 166_ Apéndice tail.**
 5. **Reglamento General IHSS + remaining rate instruments** — EM/IVM rate
    split beyond the D. 48-2024 ceilings; Ley-level text now in `87_`
    (scanned); general reglamento still unlocated.
@@ -626,6 +640,21 @@ cited by corpus documents but absent; logged per evidence-file OQs):**
   page texts before registering; (d) **corpus-global EVID structural sweep at
   every wave** (duplicates + range contiguity across ALL evidence files) — it
   is what caught the W5 lost file two waves later.
+
+- **W12 additions:** (a) **the saved-CDX re-grep DELIVERS** — the W8
+  recipe ("when a hunt fails, re-grep EVERY saved CDX enumeration") closed
+  the Código de Comercio two sessions after the W7 full-domain CDX was
+  saved: the `PDF/CODIGOS/HN<DDMMYYYY><NN>.PDF` GLIN names are
+  GAZETTE-DATE-CODED (HN0505195001 = the 05-may-1950 CdC print;
+  HN1905195901 = the 19-may-1959 Dado of the CT original) — enumerate the
+  folder, decode the dates against the instrument you want, then `id_`
+  fetch; (b) **the º-ordinal OCR trap** in old typeset codes: "Artículo
+  1º" OCRs as "19/1%/lo./10." — resolve by structural coherence +
+  600dpi convergence before treating any "Artículo N9" as real; (c) a
+  book print's own footnotes are the edition-dating instrument (166_'s
+  Apéndice footnote citing CT-189-1959 as "actualmente" dated the whole
+  print post-May-1959; 167_'s gazette footnote pinned the 8-issue
+  publication range).
 
 - **La Gaceta:** no free official archive located; SAR's gazette-extract PDFs
   (most corpus files) are official republished copies and carry gazette

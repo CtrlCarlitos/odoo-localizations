@@ -25,38 +25,29 @@ the legal reading = owner decision], the TP gate + safe-harbour-NEGATIVE,
 the CbCR regime, the OTCD chain complete, the QUINCENCAL CETF informativa,
 the REAP domésticos lane, and THE PROMEDIO FAMILY 5-of-6 years [2022-2025
 printed/anchored, FY caps unblocked]; COVERAGE 159 rows = 157 cited + 2 N/A,
-gates PASS [1099/532/574/331]), and **the W11 amnistía + negatives wave (MERGED to main 2026-08-22 —
-thirty-first §4.6 run at `20d10fd`, root record `4b51c74`; FIVE files
-`161_`..`165_` + EVID-
-644..664 + NO new ruling: THE IHSS AMNISTÍA FAMILY BOTH GENERATIONS — the
-2016 HISTORICAL pair + the LIVE chain D.L. 44-2025 → D.L. 78-2026 [Art. 1 =
-the CURRENT SAR amnistía 12-jun→12-oct-2026, D. 7-2026-Art.-7 DEROGATED;
-Art. 2 = the IHSS re-grant] → Res. SOJD-IHSS-016-2026-XIII [the reformed
-reglamento: L15k gate, 0%/12% tracks, prima 10-35%, terminal 12-oct-2026 +
-6-month tail]; W11 NEGATIVES: NO 2026 JD ceiling act through the ENAG
-full-text scan dic-2025→ago-2026 [218 issues; payroll/03 AC-006 blocking
-state = LIVE; IHSS JD acts = Sección-A certificaciones route], CbCR
-restatement comunicado + Oficio SETRASS-DGS-014-2025 + DGS 2025 print +
-RP cuadros/JD ceilings/REAP rates + D. 96-2012 all negative; PLUS the W5
-lost-file recovery — the committed 106+107+108 evidence file had been an
-md5-duplicate of the 105_ pass, EVID-373..384 reconstructed controller-side
-[OCR sidecars survived; 600dpi corrections]; COVERAGE 164 rows = 162 cited
-+ 2 N/A, gates PASS [1099/535/574/332]). **R-H91 RULING SESSION (2026-08-22,
-post-W11, same-day): the product owner ruled THE 506-vs-509 cooperative
-boundary = Reading B, CONSUCOOP-gated** — CONSUCOOP-recognized cooperativas
-→ código 509 (D. 53-2015/92-2015 world); non-recognized → código 506 (LSP
-Art. 44-A 3.6%). FREP/11 OQ-009 RESOLVED + FR-382 rewritten (selector
-safeguards intact, recognition-guided default, rows REVERSIBLE — legal
-reading, not statute); COVERAGE regen gates PASS [counts unchanged]; rulings
-R-H1..R-H91. Next = the residual watch queue
+gates PASS [1099/532/574/331]), the W11 amnistía + negatives wave (MERGED to
+main 2026-08-22 — thirty-first §4.6 run at `20d10fd`, root record `4b51c74`;
+FIVE files `161_`..`165_` + EVID-644..664; the IHSS amnistía both
+generations + the negatives sweep + the W5 lost-file recovery; COVERAGE 164
+rows = 162 cited + 2 N/A, gates PASS [1099/535/574/332]), the R-H91 ruling
+session (MERGED same-day — thirty-third §4.6 run at `ba98ac7`, root record
+`49feee5`; the 506-vs-509 boundary ruled CONSUCOOP-gated, OQ-009 resolved,
+no corpus change), and **the W12 GLIN re-grep wave (2026-08-22, on-branch
+— TWO files `166_`/`167_` + EVID-665..680: the Código de Comercio = D.
+73-1950 ACQUIRED [attribution corrected from "D. 4-1950" — the 12th
+lead-attribution fix; Art. 143 = the 541 anchor now instrument-backed] +
+the CT D. 189-1959 ORIGINAL print [THE CT promulgation pin: G 16,827-16,834
+15→23-jul-1959 → vigencia 15-jul-1959; the original Art. 120 cap = 8 MESES
+— the 25/15 caps arrive with D. 150-2008; the 8+3 feriado list = 1959
+original, the 1960 pair reformed mechanics only]; corpus 166 files;
+COVERAGE 166 rows = 164 cited + 2 N/A, gates PASS [1099/536/574/333])**.
+Next = the residual watch queue
 (TOP: the 2026 JD ceiling act watch via the Sección-A certificaciones
-route; D. 96-2012 watch [gazetted 20-jul-2012 pinned]; CbCR restatement
-comunicado watch; then "Acuerdo 799" TEXT + D. 247-89 watch; Código de
-Comercio; SEE docs; DGS SMM 2027 promedio print early-2027; ~~the
-506-vs-509 legal reading~~ RESOLVED R-H91 2026-08-22; S-HN5 DEFERRED). [W11 MERGED to main
-2026-08-22 — thirty-first §4.6 run at `20d10fd`, root record `4b51c74`:
-1 commit rewritten (`0143500`→`20d10fd`), zero conflicts, remote ref delete +
-re-push; main carries HN through EVID-664, corpus 164 files.]
+route — W11 scan + W12 tick both clean through G 37,226/21-ago-2026;
+D. 96-2012 watch [gazetted 20-jul-2012 pinned]; CbCR restatement
+comunicado watch [negative as of 2026-08-22]; "Acuerdo 799" TEXT + D.
+247-89 watch [D. 247-89 now ALSO the payroll/08 OQ-008 cap-window key];
+SEE docs; DGS SMM 2027 promedio print early-2027; S-HN5 DEFERRED).
 Read this fully before acting; it is the authoritative HN cross-session
 memory (conversation context does not survive). Update it at every session
 boundary.
@@ -128,8 +119,16 @@ boundary.
    "Reglamento-Incapacidad-para-reformas" upload = a content-identical
    re-render of `88_` [40/40 pages same text, different md5] — discarded
    unregistered, ledger unchanged)
-7. Evidence files in `hn/.extractions/*.evidence.md` (committed), W11 newest
-   first: `163-165_Amnistia_IHSS_2025-2026.evidence.md` (651..664 — the LIVE
+7. Evidence files in `hn/.extractions/*.evidence.md` (committed), W12 newest
+   first: `166_Codigo_Comercio_D73-1950.evidence.md` (665..672 — Art. 143 =
+   the 541 anchor VERBATIM-verified; Art. 13-VI + D. 158-1954 cooperative
+   carve-out; the Apéndice identity + transitory Art. 1º 1940-survival;
+   full-file OCR sidecars in `.extractions/` for both) +
+   `167_Codigo_Trabajo_D189-1959_original.evidence.md` (673..680 — THE CT
+   promulgation pin G 16,827-16,834 → vigencia 15-jul-1959; the original
+   Art. 120 cap = 8 MESES; preaviso ladder whole-life; 95.13
+   sindicalizados-only; the 8+3 feriado list = 1959 original; Art. 874
+   derogation genealogy); W11: `163-165_Amnistia_IHSS_2025-2026.evidence.md` (651..664 — the LIVE
    chain); `161-162_IHSS_amnistia_DL112-2016.evidence.md` (644..650 — the
    2016 pair); **the W5 lost-file recovery:
    `106+107+108_bono-reglamento-pacto-comisiones.evidence.md` RECONSTRUCTED
@@ -172,12 +171,20 @@ boundary.
    `119_Congreso_Inventarios_de_Leyes.evidence.md` (W7, **429..433** — the
    official congreso law inventory: the 102_ OQ-2 decoder).
     **EVID numbering is
-    corpus-global, next = 665. OQs are per-file/per-doc at evidence-file end.**
+    corpus-global, next = 681. OQs are per-file/per-doc at evidence-file end.**
 
 ## 3. State: corpus (research phase COMPLETE)
 
-**164 registered files, every one page-1 verified (01-165; gap 103
-reserved-unused; 161-165 acquired 2026-08-22 W11 = the amnistía wave: 161_
+**166 registered files, every one page-1 verified (01-167; gap 103
+reserved-unused; **166_/167_ acquired 2026-08-22 W12 = the GLIN re-grep wave:
+166_ the Código de Comercio D. 73-1950 print [GLIN HN0505195001.PDF —
+official consolidated edition post-May-1959, + the 1940-Libro-III Comercio
+Marítimo APÉNDICE, truncated at CdC-APX-Art. 1038; Dado 16-feb-1950,
+Ejecútese 17-feb-1950, vigor +20d after publication concludes — gazette pin
+open; ATTRIBUTION CORRECTED from "D. 4-1950" — 12th lead-attribution fix];
+167_ the CT D. 189-1959 ORIGINAL print [GLIN HN1905195901.PDF — complete
+with promulgation tail: G 16,827-16,834 of 15→23-jul-1959 → vigencia
+15-jul-1959; the genealogical baseline for 86_]**; 161-165 acquired 2026-08-22 W11 = the amnistía wave: 161_
 the Reglamento Especial Amnistía/Depuración CI print 11-nov-2016 [ihss.hn
 Wayback]; 162_ D.L. 112-2016 G 34,170 [ENAG]; 163_ D.L. 44-2025 G 36,861
 [ENAG]; 164_ D.L. 78-2026 G 37,166 [ENAG]; 165_ Res. SOJD-IHSS-016-2026-XIII
@@ -774,6 +781,53 @@ discarded md5-identical to 104_). Structure:
   (duplicates + contiguity across ALL evidence files) at EVERY wave's
   verification.**
 
+- **W12 GLIN re-grep wave (2026-08-22, do not re-derive):** TWO files,
+  EVID-665..680, controller-executed, NO new ruling (deltas are dated-row
+  history, both texts coexist at different dates). **The acquisition
+  route:** the W8-recipe lesson ("when a hunt fails, re-grep EVERY saved
+  CDX enumeration") executed against the SAVED W7 full-domain congreso CDX
+  — the `PDF/CODIGOS/HN<DDMMYYYY><NN>.PDF` GLIN names are GAZETTE-DATE
+  -CODED; HN0505195001 = the Código de Comercio print, HN1905195901 = the
+  CT original. **166_ = Código de Comercio, DECRETO No. 73 de 1950** (NOT
+  "D. 4-1950" — 12th lead-attribution fix; Dado 16-feb-1950, Ejecútese
+  17-feb-1950; official consolidated print post-May-1959 [the Apéndice
+  footnote cites CT-189-1959 as "actualmente"]; main sequence Libros I-VI
+  to Art. ~1,683 + disposiciones 1º-21 + APÉNDICE = the 1940 code's Libro
+  III Comercio Marítimo [kept vigente per transitory Art. 1º until a
+  Código de la Navegación; TRUNCATED at CdC-APX-Art. 1038]; the º-glyph
+  OCR trap decoded: "Artículo 1º" OCRs as "19/1%/lo./10."). **Art. 143
+  VERBATIM = the FREP/10 LB-008 541 dividend-proportionality anchor — now
+  instrument-backed** (Art. 144 = the socio credit right). Art. 13 catalogs
+  the cooperativa as mercantile type VI with fn(1) = the **D. 158-1954**
+  special-law carve-out — R-H91 CONTEXT only (corroborates the
+  statute-mediated cooperative posture; does NOT reopen the ruling).
+  **167_ = the CT D. 189-1959 ORIGINAL print, complete**: **THE CT
+  PROMULGATION PIN — G 16,827-16,834 of 15→23-jul-1959 → vigencia
+  15-JUL-1959** (Art. 875 publication-day trigger; Dado 19-may-1959,
+  Ejecútese 10-jun-1959). **THE HEADLINE DELTA: original Art. 120 lit. d)
+  caps cesantía at 8 MESES** — the 25/15 caps arrive with D. 150-2008
+  (fn.19); no lit. g) originally; original lit. f) "valor actual" (vs
+  current "valor actuarial"); the 1990-2008 window after D. 247-89's
+  "ampliación" = payroll/08 OQ-008 (cap UNPINNED, prescription-muted).
+  Original preaviso ladder ≡ current → whole-life rows (24h/1w/2w/1m/2m +
+  the 1-day/week job-search licencia + Art. 118's worker-½/patrono-full
+  omission asymmetry). Original 95.13 coop/cajas deductions =
+  "trabajadores sindicalizados" ONLY (the non-union 60-A lane is wholly
+  post-1973); 95.16 = the February annual wages report + Libro de Salarios
+  authorization. **The 8+3 feriado list = VERBATIM the 1959 original — the
+  D.L. 116-1960 + D.L. 275-1960 pair (per 86_-fn.31, confirmed by the
+  print's own Anexo pointers) reformed MECHANICS only** (÷6 average interp
+  + collision rule); list vintage 1959 whole-life; the 1960 texts =
+  Anexo-class leads. Art. 874 = the full pre-1959 derogation genealogy
+  (feriados: D.L. 96-1949 → D.L. 7-1958 → CT; contratación 224-1956;
+  sindicales 101-1955). Fold-ins: payroll/08 +LB-015 +OQ-008 + FR-302
+  dated-row note; payroll/06 OQ-002 refinement; payroll/10 LB-005/LB-015
+  annotations; FREP/10 LB-008 annotation. Totals: payroll 330/175/172/87;
+  rulings R-H1..R-H91 (unchanged); next EVID = 681. Verification: EVID
+  sweep 654/zero-dup (654 = W11's 638 + 16) + bank-check adjudicated
+  (13/13 load-bearing tokens in-bank; LOWs = OCR-noise/º classes) +
+  COVERAGE regen 166 rows = 164 cited + 2 N/A, gates PASS (1099/536/574/333).
+
 - **Decisions:** **D-H1** (binding, EXTRACTION_PLAN): one journal per company
   via `l10n_latam_invoice_document`; sequence key = (establecimiento→
   `stock.warehouse`, punto de emisión→child emission point, doc type→
@@ -875,7 +929,7 @@ discarded md5-identical to 104_). Structure:
     companion prints (2022-2025 + 2027 when exists) + ~~D. 58-1982 + D. 131-98~~
     (BOTH ACQUIRED W6 as `115_`/`116_` — evidenced EVID-415..424) +
     TP family (D. 232-2011 + 027-2015 + DEI-SG-004-2016) + contribuciones
-     statutes + Código de Comercio + DEI-9382-J-2003 I-VIII + W3
+     statutes + ~~Código de Comercio~~ (CLOSED W12 as `166_` — D. 73-1950) + DEI-9382-J-2003 I-VIII + W3
      adds (462-2014, 424-2018, post-2017 compras-eventuales instrument if any)
      + riesgos-profesionales reglamento + **D. 74-95 / D. 54-95 texts
      (content already pinned — priority LOW, completeness only)**. S-HN3
@@ -890,6 +944,32 @@ discarded md5-identical to 104_). Structure:
   4. **Merge to main at milestone:** owner decision; rebase-then-merge; never
      force-push (root HANDOVER country model). Branch head after S-HN1/S-HN2
      commit = the synthesis-wave base; future waves branch from here.
+
+Session state at stop (2026-08-22, W12 GLIN re-grep wave — committed on
+`hn-research`, NOT yet merged; owner decision pending): evidence COMPLETE
+through **EVID-680** (654 EVIDs on disk, zero collisions); corpus **166
+files** (01-167, gap 103); main carries HN through R-H91 (corpus 164 files
+at the merge; the W11 + R-H91 merges both landed 2026-08-22). **W12
+on-branch: (1) ACQUISITION — 2 files `166_`/`167_` from the GLIN archive of
+the old congreso.gob.hn (Wayback `id_`; surfaced by re-grepping the SAVED W7
+full-domain CDX for comercio/codigos — keep the saved enumerations forever);
+(2) EVIDENCE — EVID-665..680 controller-executed + full OCR sidecars
+(166_/167_); no new ruling; (3) FOLD-INS — payroll/08 +LB-015 +OQ-008 +
+FR-302 note, payroll/06 OQ-002 refined, payroll/10 LB-005/LB-015
+annotations, FREP/10 LB-008 annotation, payroll/00_index wave-noted (totals
+330/175/172/87), master index +EV166/167 + Section-C W12 delta, RESEARCH
+§5 item-4 strike + §6 W12 recipes, EXTRACTION_PLAN wave log, sources/README
+registry; (4) verification — EVID sweep + bank-check adjudicated + COVERAGE
+regen 166 rows = 164 cited + 2 N/A, gates PASS (1099/536/574/333).** Watch
+ticks this session: ENAG ago-2026 listing — no issue newer than the W11
+scan's 20260821-37226 (JD-ceiling watch clean; CbCR comunicado negative as
+of the W11 same-day check — not re-checked). Next = the residual watch queue
+(TOP: the 2026 JD ceiling act watch via the Sección-A certificaciones
+route [2026 payroll = blocking config gap AC-006 until it lands]; D.
+96-2012 watch; CbCR restatement comunicado watch; "Acuerdo 799" TEXT + D.
+247-89 watch [now also the OQ-008 cap-window key]; ~~Código de Comercio~~
+CLOSED W12; SEE docs; DGS SMM 2027 promedio print early-2027; S-HN5
+DEFERRED).
 
 Session state at stop (2026-08-22, R-H91 ruling session — committed on
 `hn-research`, MERGED to main same-day): **NO corpus change**
@@ -910,7 +990,7 @@ R-H1..R-H91; totals unchanged (payroll 330/174/172/86, taxation
 unchanged (TOP: the 2026 JD ceiling act watch via the Sección-A
 certificaciones route [2026 payroll = blocking config gap AC-006 until it
 lands]; D. 96-2012 watch; CbCR restatement comunicado watch; "Acuerdo 799"
-TEXT + D. 247-89 watch; Código de Comercio; SEE docs; DGS SMM 2027
+TEXT + D. 247-89 watch; Código de Comercio (CLOSED W12); SEE docs; DGS SMM 2027
 promedio print early-2027; S-HN5 DEFERRED).** [R-H91 MERGED to main
 2026-08-22 — thirty-third §4.6 run: 1 commit rewritten
 (`052329c`→`ba98ac7`), zero conflicts, remote ref delete + re-push,

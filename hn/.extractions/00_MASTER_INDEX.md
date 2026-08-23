@@ -47,7 +47,11 @@ AC-006 blocking state = live; IHSS JD acts publish as Sección-A
 certificaciones — the watch route]**, ihss.hn full-domain CDX negative for RP
 class cuadros/JD ceiling resoluciones/REAP rates, Oficio SETRASS-DGS-014-2025
 + DGS 2025 print not published [uploads/2025 swept], D. 96-2012 re-grep of
-all saved enums negative; next EVID = 665).
+all saved enums negative; next EVID = 665 → consumed by W12). **W12
+(2026-08-22, the GLIN re-grep wave): +EV166/+EV167, EVID-665..680 — the
+Código de Comercio (D. 73-1950, the STILL-OPEN top acquisition target,
+CLOSED) + the CT D. 189-1959 ORIGINAL print; corpus 166 files; next EVID =
+681.**
 Inputs: the 35 evidence files below
 (EVID-001..333, corpus-global), built by the four evidence waves
 W1 (2026-08-19/20, taxation core), W2a/W2b (fiscal reporting), W3 (facturación),
@@ -158,6 +162,8 @@ full text lives in the evidence files). EVID ranges 130-135, 159-162, 174,
 | EV163 | `163-165_Amnistia_IHSS_2025-2026.evidence.md` (651..653 — W11: **D.L. 44-2025** G 36,861 mié 11-jun-2025 (Dado 3-jun, Ejecútese 10-jun, vigencia = publication day) — the seven-amnistía package: EVID-651 identity + architecture + the CT-Art.-2.4 definition considerando (with the "70-2016" digit-slip); EVID-652 the IHSS Art. 2 grant (scope "recargos y multas" as printed, 10-month window, health-restoration, widened depuración); EVID-653 the non-IHSS amnesties (municipal →30-sep-2025 mora ≤31-dic-2024 ≤1y plans; ENEE; vehicular; HONDUTEL; SANAA) + the co-published D. 150-2022 individual ENEE condonation (2.5-year publication lag, the corpus extreme) |
 | EV164 | `163-165_Amnistia_IHSS_2025-2026.evidence.md` (654..657 — W11: **D.L. 78-2026** G 37,166 vie 12-jun-2026 (Dado 13-may, Ejecútese 15-may, vigencia 12-jun-2026) the AMPLIACIÓN: EVID-654 identity + **the D. 7-2026-Art.-7 DEROGATION** (same-day successor, no gap; the considerando's IHSS-omission = drafting slip); EVID-655 Art. 1 = the CURRENT SAR general amnistía (4-month window 12-jun→12-oct-2026, obligations ≤31-dic-2025, principal survives — taxation/07 LB-013); EVID-656 Art. 2 = the IHSS re-grant (scope restored to recargos/multas/intereses; window 4 months →12-oct-2026); EVID-657 the municipal/servicios re-grants + edition inventory (D. 91-2026 = Código de FAMILIA Art. 225 — numeric-collision guard applied) |
 | EV165 | `163-165_Amnistia_IHSS_2025-2026.evidence.md` (658..664 — W11: **Res. SOJD-IHSS-016-2026-XIII** (JD 25-jun-2026; Comité Acta CR-02-2026 [6-vs-16-jun print variance OQ-1]; certified G 37,189 jue 9-jul-2026 pp. A.31-64) = the REFORMED REGLAMENTO, the operative 2026 procedure: the definitions (dispensación-for-principal exchange; actualización-de-mora ledger context); **the convenio economics TABLE (L15,000 gate; 0% ≤12m / 12% longer; prima mínima 10/15/25% sin- and 20/30/35% con-refinanciamiento; Art. 10 exceptions 120/96 months ≥5%/≥10%)**; the terminal 12-oct-2026 + 6-month processing tail (~12-abr-2027); Art. 24 continuity + judicial/MP enforcement; the depuración lanes; the live 2026 JD roster; **publication-route datum: IHSS JD acts = Sección-A certificaciones (the future techo/rate-act watch route)** |
+| EV166 | `166_Codigo_Comercio_D73-1950.evidence.md` (665..672 — W12: **CÓDIGO DE COMERCIO = DECRETO No. 73 DE 1950** [Dado 16-feb-1950, Ejecútese 17-feb-1950; vigor +20 días after publication CONCLUDES; gazette pin unpinned, GLIN date-coding implies from ~05-may-1950 — **ATTRIBUTION CORRECTION: NOT "D. 4-1950"**, the 12th lead-attribution fix] — official consolidated book print post-May-1959, structure Título Preliminar + Libros I-VI [main sequence to Art. ~1,683] + disposiciones 1º-21 + **APÉNDICE = Libro III Comercio Marítimo of the 1940 code, kept vigente per transitory Art. 1º until a Código de la Navegación** [truncated at CdC-APX-Art. 1038]; **Art. 143 VERBATIM = the 541 per-socio dividend-proportionality anchor — FREP/10 LB-008 now instrument-backed**; Art. 13 type-VI cooperativa + fn(1) = **D. 158-1954 special-law carve-out** [R-H91 context, corroborates the statute-mediated structure]; the º-glyph OCR trap decoded ["1º"→"19/10/lo."]) |
+| EV167 | `167_Codigo_Trabajo_D189-1959_original.evidence.md` (673..680 — W12: **the CT D. 189-1959 ORIGINAL print, complete with promulgation tail — THE CT PROMULGATION PIN: G 16,827-16,834 of 15→23-jul-1959 → vigencia 15-JUL-1959** [Dado 19-may-1959, Ejecútese 10-jun-1959, Art. 875 publication-day trigger]; **THE HEADLINE DELTA: original Art. 120 lit. d) caps cesantía at 8 MESES** — the 25/15 caps arrive with D. 150-2008 [fn.19]; no lit. g) originally; original preaviso ladder ≡ current [whole-life rows confirmed]; Art. 118 omission asymmetry [worker ½ / patrono full]; **original 95.13 coop/cajas deductions = sindicalizados-ONLY** [non-union 60-A lane wholly post-1973] + 95.16 the February annual wages report; **the 8+3 feriado list = VERBATIM the 1959 original — D.L. 116/275-1960 reformed MECHANICS only** [list vintage 1959 whole-life; the 1960 texts = Anexo class, unacquired]; Art. 874 the full pre-1959 derogation genealogy [feriados: D.L. 96-1949 → D.L. 7-1958 → CT]; payroll/08 +LB-015 +OQ-008 [the 1990-2008 cap window after D. 247-89 — unpinned, prescription-muted]) |
 
 Citations in requirements files use `EVxx:EVID-nnn` (and `EVxx:file OQ-n` for
 register origins). D-H1/D-H2/D-H3 (EXTRACTION_PLAN Decisions) bind all clusters.
@@ -992,6 +998,36 @@ RESOLVED; index wave-noted; this ledger +EV register updated. The ruling is
 a legal reading, NOT new statute text — rows stay reversible if a contrary
 instrument or administrative practice lands (watch class: SAR resoluciones/
 DJT opinions assigning non-CONSUCOOP coops).
+
+**W12 ACQUISITION-QUEUE DELTAS (2026-08-22, applies register-wide):**
+ACQUIRED this wave (TWO files, EV166..EV167, EVID-665..680) — **the Código
+de Comercio = D. 73-1950** (`166_`: the STILL-OPEN target CLOSED via the
+GLIN archive re-grep of the saved W7 full-domain CDX — the W8-recipe lesson
+executed; official consolidated print post-May-1959 + the 1940-Libro-III
+Apéndice; **Art. 143 verbatim = the FREP/10 LB-008 541 anchor;
+ATTRIBUTION CORRECTED from "D. 4-1950" — the 12th lead-attribution fix**;
+Art. 13-VI + fn(1) = the D. 158-1954 cooperative special-law carve-out,
+R-H91 CONTEXT only) + **the CT D. 189-1959 ORIGINAL print** (`167_`:
+**the CT promulgation PINNED — G 16,827-16,834 of 15→23-jul-1959, vigencia
+15-jul-1959**; the original Art. 120 **cap = 8 meses** [the 25/15 caps =
+D. 150-2008; the 1990-2008 window after D. 247-89 = OQ-008, unpinned,
+prescription-muted]; preaviso ladder whole-life; original 95.13
+sindicalizados-only; the 8+3 feriado list = 1959 original UNCHANGED by the
+1960 pair [mechanics-only reform]; Art. 874 = the full pre-1959 derogation
+genealogy). Resolved/narrowed at fold-in: payroll/06 OQ-002 refined (list
+vintage 1959 whole-life); FREP/10 LB-008 instrument-backed. NEW leads
+spawned (all LOW/watch): CdC gazette pin (pre-ENAG 1950); **D.L. 116-1960 +
+D.L. 275-1960** (the feriado-mechanics texts — Anexo class; instruments
+already identified by 86_-fn.31, texts add precision only); **D. 158-1954**
+(the pre-LSP cooperative statute — R-H91 completeness); the CdC-1940
+predecessor + the truncated Apéndice tail (S-HN5 completeness). STILL OPEN
+(top): D. 96-2012 watch · CbCR restatement comunicado watch · **the 2026 JD
+ceiling act watch (Sección-A certificaciones route)** · RP class cuadros +
+JD ceiling resoluciones 2003-2024 + REAP JD-rates (routes exhausted — watch
+class) · "Acuerdo 799" TEXT (1970) · **D. 247-89 text (now also the OQ-008
+cap-window key)** · ~~Código de Comercio~~ **CLOSED W12** · SEE docs (lead
+1) · Oficio SETRASS-DGS-014-2025 + DGS 2027 promedio print (early 2027) ·
+S-HN5 DEFERRED.
 
 **W10 ACQUISITION-QUEUE DELTAS (2026-08-21, applies register-wide):**
 ACQUIRED this wave (TWELVE files, EV149..EV160) — D. 92-2015 (`149_`:

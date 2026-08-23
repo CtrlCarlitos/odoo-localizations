@@ -25,6 +25,20 @@ columns (fiscal-reporting/02) and S-HN2 comprobante mechanics are consumed
 by id, never re-derived. Source-to-requirements coverage:
 [../COVERAGE.md](../COVERAGE.md) (validation wave — runs next).
 
+**W12 wave (2026-08-22) fold-ins:** `167_` = the CT D. 189-1959 ORIGINAL print
+(GLIN archive of the old congreso.gob.hn via Wayback) — file 08 +LB-015
+(**THE CT PROMULGATION PIN: G 16,827-16,834 (15→23-jul-1959) → vigencia
+15-jul-1959** + the ORIGINAL Art. 120 baseline: **cap = 8 MESES at 1959** —
+the 25/15 caps arrive with D. 150-2008; no lit. g) originally; original
+preaviso ladder ≡ current [whole-life rows]; Art. 118 omission asymmetry) +
+OQ-008 (the 1990-2008 cap window after D. 247-89's "ampliación" — unpinned,
+prescription-muted); file 06 OQ-002 refinement (**the 8+3 feriado list =
+VERBATIM the 1959 original — the D.L. 116/275-1960 pair reformed MECHANICS
+only; list vintage 1959 whole-life**); file 10 LB-005/LB-015 annotations
+(original 95.13 = sindicalizados-only [non-union lane wholly post-1973];
+95.16 the February annual wages report + Libro authorization). Totals
+330/**175**/172/**87**.
+
 **W11 wave (2026-08-22) fold-ins:** file 03 +LB-021 +LB-022 + OQ-012 new (**THE
 IHSS AMNISTÍA FAMILY — BOTH GENERATIONS**: `162_` D.L. 112-2016 + `161_` its
 Reglamento Especial [HISTORICAL, window 26-oct-2016→25-oct-2017; flat-12%
@@ -57,10 +71,10 @@ JD-delegated rates, optional IVM bridge; segment config gate).
 | [05_rap-fondo.md](05_rap-fondo.md) | RAP-side stack: fondo 4% (techo 3×SMM-nivel-más-alto) + RAP 1.5+1.5 on IVM-excess base, three-bases-never-share rule, termination offset matrix (R-H55), grandfathering (D. 150-2008), D. 40-2026 window + FOVIIF (P7) | HN-PAYR-FR-181..215 | 35 | 15 | 18 | 9 |
 | [06_jornada-surcharges.md](06_jornada-surcharges.md) | Jornada types (44 worked/48 paid), night +25%, OT ×1.25/×1.50/×1.75 + caps, séptimo día ÷6 **+ the D. 112 statutory layer (W5: FR-248 ordinary-jornada/OT-excluded/fixed-part/destajo-floor valuation + FR-249 deemed-inclusion classes/forfeiture gate/rest-day stacking)**, 11 feriados (1960-vintage dated config, R-H70) + collision rule, rest-day/holiday ×2 (P8) | HN-PAYR-FR-221..249 | 29 | 16 | 19 | 6 |
 | [07_vacaciones.md](07_vacaciones.md) | Vacaciones: 10/12/15/20 días laborables scale, 200-day rule, pay-3-days-before, cash-ban + STSS exceptions, 6-month ordinary average ÷ days worked (NO 360 CT-side), ≤2-year accumulation (P9) | HN-PAYR-FR-261..280 | 20 | 12 | 12 | 2 |
-| [08_cesantia-preaviso.md](08_cesantia-preaviso.md) | Preaviso 24h-2m scale + in-lieu, cesantía 10d/20d/1mo-yr + fraction, 25/15-month caps, 35%/75% variants, last-6-month base ÷ days worked, salarios caídos, pregnancy penalties, constancia, NO final-pay deadline (negative) (P10) | HN-PAYR-FR-291..325 | 35 | 14 | 22 | 7 |
+| [08_cesantia-preaviso.md](08_cesantia-preaviso.md) | Preaviso 24h-2m scale + in-lieu, cesantía 10d/20d/1mo-yr + fraction, 25/15-month caps, 35%/75% variants, last-6-month base ÷ days worked, salarios caídos, pregnancy penalties, constancia, NO final-pay deadline (negative) (P10) | HN-PAYR-FR-291..325 | 35 | 15 | 22 | 8 |
 | [09_suspension-maternity-special.md](09_suspension-maternity-special.md) | 15 suspension causes, CT sickness half-pay layering vs RIT, CT maternity 4+6w + 180-day base + IHSS reconciliation, minors, domésticos (cash-only base), riesgo profesional residual (P11) | HN-PAYR-FR-331..357 | 27 | 11 | 13 | 5 |
 | [10_salario-concepts-records.md](10_salario-concepts-records.md) | Salario taxonomy (habitual+retributive; in-kind ≤30%), pay periods, salario completo indemnity base, mandatory deductions (union/non-union/coop), embargo caps (1959 nominals dated), Libro de Salarios/planillas, contract chassis + retroactive start, **85_ mislabel guard (EVID-333)** (P12) | HN-PAYR-FR-371..398 | 28 | 20 | 16 | 3 |
-| **Total** | | HN-PAYR-FR-001..405 | **330** | **174** | **172** | **86** |
+| **Total** | | HN-PAYR-FR-001..405 | **330** | **175** | **172** | **87** |
 
 Numbering note: FR ranges pre-allocated per file (subagent dispatch
 pattern); unused tails/reserved gaps (042-050, 097-100 (087 + 088-096 consumed at V-HN1/W5), 136-140, 171-180,

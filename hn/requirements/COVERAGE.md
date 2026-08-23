@@ -8,11 +8,11 @@
 | Authors | script `hn/scripts/build_coverage.py` (regenerate after every wave) |
 | Updated | 2026-08-22 |
 
-Every row of [../sources/README.md](../sources/README.md) (164 registered files, gap 103 reserved-unused) mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1099 FRs, 535 LB rows, 574 ACs, 332 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 249, e-invoicing 157, fiscal-reporting 363, payroll 330).
+Every row of [../sources/README.md](../sources/README.md) (166 registered files, gap 103 reserved-unused) mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1099 FRs, 536 LB rows, 574 ACs, 333 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 249, e-invoicing 157, fiscal-reporting 363, payroll 330).
 
 Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row of a requirements file (citing file(s) + LB ids listed); **not-applicable-this-wave** — explicit annotation with reason (superseded/historical, in-corpus-unread pending evidence pass, or out of scope for the four topics).
 
-## Matrix (164 source files)
+## Matrix (166 source files)
 
 | Source | Status | Cited in / note |
 |--------|--------|-----------------|
@@ -180,14 +180,16 @@ Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row
 | 163_Gaceta_36861_Decreto_44-2025_Amnistias.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-022); `taxation/07_special-regimes-exonerations.md` (LB-013) |
 | 164_Gaceta_37166_Decreto_78-2026_Amnistia_ampliacion.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-022); `taxation/07_special-regimes-exonerations.md` (LB-013) |
 | 165_Gaceta_37189_SOJD-IHSS-016-2026_Regl_Amnistia_reforma.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-022) |
+| 166_Codigo_Comercio_D73-1950_print.pdf | cited-as-LB | `fiscal-reporting/10_tp-545-informativas.md` (LB-008) |
+| 167_Codigo_Trabajo_D189-1959_original.pdf | cited-as-LB | `payroll/08_cesantia-preaviso.md` (LB-015); `payroll/10_salario-concepts-records.md` (LB-005+LB-015) |
 
 ## Rollup
 
 | Status | Rows |
 |--------|------|
-| cited-as-LB | 162 |
+| cited-as-LB | 164 |
 | not-applicable-this-wave | 2 |
-| **Total** | **164** |
+| **Total** | **166** |
 
 ## V-HN1 gate-1 findings (2026-08-20, fixed in this wave)
 

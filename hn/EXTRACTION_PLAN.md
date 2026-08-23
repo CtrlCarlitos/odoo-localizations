@@ -193,6 +193,49 @@ watch; Código de Comercio; SEE docs; DGS SMM 2027 promedio print early
 R-H91 (Reading B, CONSUCOOP-gated); S-HN5 DEFERRED).
 ## Wave log
 
+- **W12 acquisition wave (2026-08-22, DONE — acquisition + evidence +
+  fold-ins + verification, controller-executed): the Código de Comercio +
+  CT-original wave — both from the GLIN archive of the old official
+  congreso.gob.hn via Wayback `id_` fetches, surfaced by RE-GREPPING THE
+  SAVED W7 FULL-DOMAIN CDX for "comercio/codigos" (the W8-recipe lesson
+  executed two sessions later — keep the saved enumerations forever).**
+  (1) ACQUISITION — 2 files: `166_` = **Código de Comercio, DECRETO No. 73
+  de 1950** (GLIN HN0505195001.PDF; **ATTRIBUTION CORRECTED — NOT "D.
+  4-1950"**, the 12th lead-attribution fix; Dado 16-feb-1950, Ejecútese
+  17-feb-1950; official consolidated book print post-May-1959 [Apéndice
+  footnote cites CT-189-1959 as "actualmente"]; structure = Título
+  Preliminar + Libros I-VI to Art. ~1,683 + disposiciones 1º-21 + APÉNDICE
+  = the 1940 code's Libro III Comercio Marítimo [kept vigente per
+  transitory Art. 1º; TRUNCATED at CdC-APX-Art. 1038]) and `167_` = **the
+  CT D. 189-1959 ORIGINAL print** (GLIN HN1905195901.PDF; COMPLETE with
+  promulgation tail). (2) EVIDENCE — EVID-665..680 (16, controller-
+  executed): the CdC structural/promulgation/Art.-143-verbatim [**the FREP
+  /10 LB-008 541 anchor now instrument-backed**]/Art.-13-VI-cooperativa +
+  D. 158-1954 carve-out [R-H91 CONTEXT only]/Apéndice-identity EVIDs; the
+  CT promulgation PIN (**G 16,827-16,834 of 15→23-jul-1959 → vigencia
+  15-JUL-1959**) + **the HEADLINE DELTA: original Art. 120 cesantía cap =
+  8 MESES** (the 25/15 caps arrive with D. 150-2008 per fn.19; the
+  1990-2008 window after D. 247-89 = new payroll/08 OQ-008, unpinned,
+  prescription-muted) + original preaviso ladder ≡ current [whole-life] +
+  original 95.13 sindicalizados-only [non-union lane wholly post-1973] +
+  95.16 February report + **the 8+3 feriado list = VERBATIM the 1959
+  original — D.L. 116/275-1960 reformed MECHANICS only** (payroll/06
+  OQ-002 refined) + Art. 874 the pre-1959 derogation genealogy. The
+  º-glyph OCR trap decoded ("Artículo 1º" → "19/1%/lo./10." — structural
+  coherence + 600dpi convergence). No new ruling (no contradiction
+  resolved — the deltas are dated-row history, both texts coexist at
+  different dates). (3) FOLD-INS — payroll/08 +LB-015 +OQ-008 + FR-302
+  dated-row note; payroll/06 OQ-002 refinement; payroll/10 LB-005/LB-015
+  annotations; FREP/10 LB-008 annotation; payroll/00_index wave-noted
+  (totals 330/**175**/172/**87**); master index +EV166/EV167 + header +
+  Section-C W12 delta; RESEARCH §5 item-4 strike + §6 W12 recipes;
+  sources/README +registry; this wave log. (4) verification — corpus-global
+  EVID sweep (the every-wave convention) + COVERAGE regen (gates to be
+  recorded at the regen). Residuals spawned (all LOW/watch): D.L.
+  116-1960 + D.L. 275-1960 texts (Anexo class — instruments identified by
+  86_-fn.31); D. 158-1954; the CdC gazette pin (pre-ENAG 1950); the
+  truncated Apéndice tail.**
+
 - **R-H91 ruling session (2026-08-22, post-W11 fold-in — no acquisition, no
   new EVID, no corpus change):** the product owner ruled THE 506-vs-509
   cooperative boundary = **Reading B, CONSUCOOP-gated** — CONSUCOOP-
