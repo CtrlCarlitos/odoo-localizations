@@ -5,7 +5,7 @@
 | Country | sv |
 | Topic   | special-regimes |
 | Status  | draft |
-| Authors | Takumi synthesis wave 7 (S7 special-regimes); W19 T3 re-verification (80_/82_) |
+| Authors | Takumi synthesis wave 7 (S7 special-regimes); W19 T3 re-verification (80_/82_); W19 T4 fold-in (95_/96_/97_) |
 | Updated | 2026-08-22 |
 
 ## 1. Purpose
@@ -38,7 +38,13 @@ dated list that selects the metro/fuera location track — **W19 T3
 re-verification: LSI LBs re-keyed 14_→80_ (277-2013 deltas folded: letters
 a)-o), placement matrix, Art. 23/24/24-A requisito rewrite) + the ZF 82_
 (D.L. 493-2025) tail gates (Arts. 2/10/11/17/18/19/28/44/46-A/54-B/54-I +
-2-yr grace — FR-190..194 with spe/02/spe/07)**.
+2-yr grace — FR-190..194 with spe/02/spe/07)**; **W19 T4: the
+project-specific D.L.-incentive class** (95_ inmobiliarios en altura;
+97_ biogás Acelhuate — instrument-keyed admission/benefit families whose
+D15 dated rows live in `02` as FR-202/203) **+ the 96_ D.L. 308-2025
+Ley de Agentes Extranjeros identity row** (MIGOB RAEX transparency
+registro — NOT an incentive regime; resolves the 54_ tail's EVID-167
+pointer).
 
 It does **not** cover: the ZF/DPA exemption ladders and exception-goods gates
 (`02_zf-exemption-schedules.md`); the LSI exemption shapes, local-market caps
@@ -96,7 +102,14 @@ pre-277 provenance record),
 PSM 4 — cleaning declared in EV82 header),
 `sv/.extractions/13_Ley_Organica_Aduanas.pdf.txt` and
 `sv/.extractions/74_Ley_Simplificacion_Aduanera_D529.pdf.txt` (citable per
-standing S3 ruling 25; page pointers = txt PAGE markers). D15 discipline:
+standing S3 ruling 25; page pointers = txt PAGE markers). **W19 T4 adds three
+single-print current instruments (no consolidation layer; post-print reform
+watch = SOQ-30 cadence kin): 95_ (D.L. 95-2024, D.O. 181 T.444 24-sep-2024,
+vigencia 2-oct-2024), 97_ (D.L. 386-2025, D.O. 158 T.448 25-ago-2025,
+vigencia publication-day), 96_ (D.L. 308-2025, D.O. 100 T.447 30-may-2025,
+vigencia 7-jun-2025, forced-OCR PSM 4 — cleaning declared in EV95/96/97
+header)** — 95_/97_ route their ISR-side effects through Ley ISR Art. 4.1
+renta-no-gravable (54_ cited by id, never restated). D15 discipline:
 every requisito value, threshold and list in this file is a dated config row
 with instrument provenance — never a global constant.
 
@@ -131,6 +144,9 @@ with instrument provenance — never a global constant.
 | LB-027 | Reformas a la Ley de Zonas Francas (82_), Art. 1: "Sustitúyase en el artículo 2 el literal d) y agréguese un nuevo literal x)…: 'd) Área Metropolitana de San Salvador y de los Municipios Aledaños: La constituyen los municipios y distritos contemplados en la Ley de Desarrollo y Ordenamiento Territorial del Área Metropolitana de San Salvador y de los Municipios Aledaños, y su Reglamento, en adelante Área Metropolitana. x) Libre Internación: Es la introducción de mercancías al territorio nacional exentas del pago del Derecho Arancelario a la Importación (DAI) y del Impuesto a la Transferencia de Bienes Muebles y a la Prestación de Servicios (IVA), u[sic OCR] cualquier otro impuesto que grave su importación.'" Art. 2: "Sustitúyase en el artículo 10 el literal b) del numeral 3…: 'Área verde: 30% del área total que incluye área verde ecológica, zona deportiva. Dicha área deberá distribuirse un 10% dentro de la Zona Franca, o en un área colindante a la Zona Franca, y el otro 20% podrá establecerse dentro o fuera de la Zona Franca, en caso se establezca fuera se estará a lo dispuesto en el artículo 46-A de esta ley.'" | ZF-law Art. 2 d) substitution: the metropolitan area is henceforth constituted by the municipios y distritos of the referenced Territorial-Development Law and its Reglamento (a dynamic external reference — replaces the printed 13-municipio enumeration of LB-002); new literal x) defines Libre Internación as entry of goods into the national territory EXEMPT from DAI, IVA and any other import tax (definitional anchor — the operative import-benefit rows already exist). ZF-law Art. 10.3.b substitution: the developer's green-area requirement (30% of total incl. ecological/sport) now SPLITS — 10% inside or adjacent to the zona franca + 20% inside OR outside (outside rides the Art. 46-A gate of LB-028) | `sv/sources/82_Reforma_Ley_ZF_DL493_DO_2025-12-23.pdf` | 82_ Arts. 1-2 pp.2-3 (EVID-385/386; 82_ txt PAGE 2-3; D.L. 493-2025 vigencia ~31-dic-2025 — co-cite 12_+82_; OCR PSM 4) |
 | LB-028 | Reformas a la Ley de Zonas Francas (82_), Art. 8: "Intercálese en el artículo 44 un nuevo inciso entre el primero y el segundo…: 'Para los casos en que los Usuarios de Zona Franca requieran el cambio de tipo de beneficiario a Depósito para Perfeccionamiento Activo (DPA) o viceversa, estos deberán solicitar al Ministerio de Economía dicho cambio, debiendo cumplir con los requisitos establecidos en la Ley y su Reglamento.'" Art. 9 (nuevo Art. 46-A, "Autorización para área verde fuera del DPA o de la Zona Franca"): "Las nuevas solicitudes de los DPA que impliquen la construcción de instalaciones o naves industriales, en las que se solicite que el área verde se establezca fuera del DPA, se podrán autorizar siempre que dicha área cumpla con un porcentaje de compensación equivalente al diez por ciento del área total de su construcción. En el caso de las nuevas solicitudes de Desarrollistas de Zonas Francas…, un veinte por ciento del área total de su construcción. Los Desarrollistas… o los propietarios de DPA, deberán gestionar ante las autoridades competentes la autorización relacionada con [las] zonas verdes…, las cuales podrán establecerse en el sitio del impacto, en zonas aledañas, en zonas más propicias para su reposición o recuperación, entre otras. En lo relativo a los permisos de construcción…, se estará a lo dispuesto en las normas y especificaciones dictadas por la Dirección de Ordenamiento Territorial y Construcción (DOT), la Oficina de Planificación del Área Metropolitana de San Salvador (OPAMSS) o cualquier Otra institución con similares facultades…" | ZF-law Art. 44 intercalated inciso: a ZF usuario changing beneficiary type to DPA (or vice versa) must REQUEST the change from MINEC meeting the law + reglamento requisitos (the explicit ZF↔DPA role-change gate). New Art. 46-A: green-area-outside authorization — DPA new applications with outside green area need a compensation percentage equal to 10% of the constructed total area; ZF developers' outside green area needs 20%; the area may sit at the impact site, adjacent, or in better-suited recovery zones; construction permits before DOT/OPAMSS or equivalents | `sv/sources/82_Reforma_Ley_ZF_DL493_DO_2025-12-23.pdf` | 82_ Arts. 8-9 pp.5-7 (EVID-385/389/390; 82_ txt PAGE 5-7; vigencia ~31-dic-2025; OCR PSM 4 — "condas"→"con las" normalized) |
 | LB-029 | Reformas a la Ley de Zonas Francas (82_), Art. 10 (ZF-law Art. 54-B inc. 1º sustituido): "Las personas naturales o jurídicas que hayan operado en el territorio aduanero nacional y tributado Impuesto sobre la Renta, previo a la solicitud de calificación de Desarrollista, Usuario de Zona Franca o como DPA, no podrán acogerse a la presente Ley." Art. 11 (ZF-law Art. 54-1 [sic print; = 54-I] adicionado): "Para efectos de la presente Ley, los Usuarios de Zonas Francas autorizados conforme a las disposiciones de la misma, que se instalen en Parques de Servicios autorizados de conformidad con la Ley de Servicios Internacionales, se considerarán como si estuviesen instalados en una Zona Franca." | Substituted Art. 54-B first inciso: natural or legal persons that OPERATED in the national customs territory and PAID ISR before applying for Desarrollista/Usuario/DPA qualification CANNOT take cover under the law (a prior-TAN-operation admission exclusion — bars conversions of operating TAN businesses). New Art. 54-I: ZF usuarios authorized under the law that install themselves in LSI-authorized parques de servicios are considered AS IF installed in a zona franca (the ZF-side mirror of LSI Art. 66 / SV-SPE-FR-063 iii) | `sv/sources/82_Reforma_Ley_ZF_DL493_DO_2025-12-23.pdf` | 82_ Arts. 10-11 pp.7-8 (EVID-385/390; 82_ txt PAGE 7-8; vigencia ~31-dic-2025; OCR PSM 4 — "54-1" printed = Art. 54-I) |
+| LB-030 | Disposiciones Especiales … Incentivo Fiscal … Proyectos Inmobiliarios en Altura (95_), Art. 1: "…se entienden por desarrollos inmobiliarios en altura, las construcciones o edificaciones de bienes inmuebles nuevos que se realicen a partir de la entrada en vigencia de esta ley, y que cuenten con treinta y cinco pisos o niveles de altura o más, medidos desde el punto más bajo de la rasante de la calle frente a dichas edificaciones." Art. 3 inc. 2: "La exención operará por el período de quince años, los cuales serán contados a partir del ejercicio de imposición en que se comiencen a obtener tales utilidades e ingresos." Art. 4: "Las presentes disposiciones, por su carácter especial, prevalecerán sobre cualquier otra normativa que las contraríe, especialmente respecto de aquellas leyes que establecen exenciones o incentivos fiscales." Art. 6: "El presente Decreto entrará en vigencia ocho días después de su publicación en el Diario Oficial." (considerando III: Ley ISR Art. 4.1 basis) | High-rise real-estate developments: new constructions from the law's vigencia with 35+ floors/levels measured from the LOWEST point of the street rasante facing the building. The exemption operates for a FIFTEEN-YEAR period counted from the tax year in which such profits/income first begin to be obtained (TEXT-PINNED horizon — the registry's "per approval press" provenance superseded). Special character: prevails over any contrary norm, especially other exemption/incentive laws. Vigencia: 8 days after D.O. publication (24-sep-2024 → 2-oct-2024) | `sv/sources/95_Disposiciones_Inmobiliarios_Altura_DL95_2024_DGII.pdf` | 95_ Arts. 1/3/4/6 pp.1-3 (EVID-392/393; 95_ txt PAGE 1-3; W19 T4) |
+| LB-031 | Disposiciones Especiales, Transitorias y Complementarias … Proyecto "…Biogás en el Río Acelhuate" (97_), Art. 1 (head): "Tanto la Comisión Ejecutiva Hidroeléctrica del Río Lempa (CEL), como las personas naturales o jurídicas involucradas como contratistas o subcontratistas, en el proyecto…, durante el período de planificación, diseño, estudios, consultorías, supervisión y construcción y hasta la completa recepción de las obras…, gozarán de las siguientes exenciones tributarias:…" Art. 2: "Los ingresos que perciban las personas naturales o jurídicas, involucradas como contratistas o subcontratistas…, se considerarán no gravadas para efectos del Impuesto sobre la Renta según lo regulado en el artículo 4, numeral 1 de la Ley de Impuesto sobre la Renta. Esta disposición estará vigente hasta la completa recepción de las obras." Art. 12: "Estas disposiciones son de carácter especial y priva sobre cualquier otra ley especial o general que la contradiga." Art. 13: "El presente decreto entrará en vigencia a partir del día de su publicación en el Diario Oficial." | Both CEL and the natural/legal persons involved as contractors or subcontractors of the named biogás project — for the planning through complete-reception-of-works period — enjoy the enumerated tax exemptions; contractor income is considered NOT TAXABLE for ISR under Ley ISR Art. 4.1, in force until complete reception of the works; special character prevails over any contrary special or general law; vigencia = publication day (25-ago-2025) | `sv/sources/97_Disposiciones_Biogas_Acelhuate_DL386_2025_DGII.pdf` | 97_ Arts. 1/2/12/13 pp.2-5 (EVID-394/395; 97_ txt PAGE 2-5; W19 T4) |
+| LB-032 | Ley de Agentes Extranjeros (96_), Art. 1: "…establecer el régimen jurídico aplicable a las personas naturales o jurídicas, nacionales o extranjeras, cuyas actividades dentro de El Salvador respondan a intereses o sean financiadas, directa o indirectamente, por una persona extranjera." Art. 3: "Están obligados… toda persona natural o jurídica… que… realicen actividades que respondan a intereses, sean controladas o financiadas, directa o indirectamente por un mandante extranjero… tendrán la calidad de sujetos obligados, incluyendo a las asociaciones y fundaciones sin fines de lucro." Art. 6: "Créase el Registro de Agentes Extranjeros como una dependencia del Ministerio de Gobernación y Desarrollo Territorial, que podrá abreviarse 'RAEX'. En ese registro público deberán inscribirse, con carácter obligatorio, todos los sujetos obligados…" Art. 19: obligations breaches multa "desde CIEN MIL DÓLARES… hasta CIENTO CINCUENTA MIL DÓLARES…"; prohibitions breaches "desde CIENTO CINCUENTA MIL… hasta DOSCIENTOS CINCUENTA MIL DÓLARES…". Art. 24: "…deberán registrarse… en un plazo máximo de 90 días, a partir de la entrada en vigencia…". Art. 25: "…entrará en vigencia ocho días después de su publicación en el Diario Oficial." | Foreign-agents law: legal regime for natural/legal persons (national or foreign, non-profits included) whose in-country activities respond to, are controlled by or are financed by a foreign mandante; MIGOB's public RAEX registry with obligatory inscription (90-day transitory from vigencia; unregistered ⇒ no activities or asset movements); MIGOB-side fines US$100,000-250,000; vigencia 8 days after publication (30-may-2025 → 7-jun-2025). A TRANSPARENCY registro — not a fiscal-incentive regime (identity row; resolves the 54_ tail's EVID-167 pointer) | `sv/sources/96_Ley_Agentes_Extranjeros_DL308_DO_2025-05-30_pp3-18.pdf` | 96_ Arts. 1/3/6/19/24/25 pp.2-16 (EVID-396/397; 96_ txt PAGE 2-16; OCR PSM 4 — cleaning declared in EV header; W19 T4) |
 
 ## 3. Functional Requirements
 
@@ -501,6 +517,52 @@ with instrument provenance — never a global constant.
   regime family, never merged).
   (LB-029; EVID-390 W19 T3)
 
+### 3.11 W19 T4 fold-in — project-specific D.L.-incentive class (95_/97_) + 96_ identity (D.L. 308-2025)
+
+- **SV-SPE-FR-200:** The system shall model PROJECT-SPECIFIC D.L.
+  FISCAL-INCENTIVE instruments as a distinct regime class in the inventory —
+  a THIRD family alongside the territorial regimes (ZF/DPA/LSI, FR-001/002)
+  and the quantity-based contributions (`08`), never unified with either:
+  admission is per-instrument and NON-territorial (95_: DGII beneficiario
+  resolución on a ≥30-day prior written notice enumerating project name,
+  ubicación, altura specs, titulares + socios, investment amount and
+  completion date — no MINEC acuerdo, no location track; 97_: contractual —
+  CEL plus its contratistas/subcontratistas for the named project), and the
+  benefit window is INSTRUMENT-KEYED with the window kind carried as a
+  discriminator, never normalized: 95_ = fixed 15-AÑOS horizon counted from
+  the ejercicio in which incentivized utilidades first obtain (TEXT-PINNED,
+  Art. 3 inc. 2 — a standing per-beneficiary window, the law remaining open
+  for new ≥35-piso projects from 2-oct-2024); 97_ = EVENT-BOUNDED, effective
+  from contract signature until the completa recepción de las obras or the
+  end of the CEL relationship in any of its forms (a project-spent
+  transitory-style window, publication-day vigencia 25-ago-2025). Each
+  instrument lands as its own config family keyed by instrument id +
+  vigencia, with its especialidad clause (95_ Art. 4; 97_ Art. 12) recorded
+  as a prevalence flag (never a conflict-resolution engine); the D15 dated
+  exemption rows are consumed from `02` (FR-202/203 by id); ISR-side effects
+  route through Ley ISR Art. 4.1 renta-no-gravable (54_ by id — never
+  restated here).
+  (LB-030; LB-031; EVID-392..395 W19 T4)
+- **SV-SPE-FR-201:** The system shall carry the D.L. 308-2025 Ley de
+  Agentes Extranjeros (96_) as an IDENTITY row of the regime inventory —
+  NOT a fiscal-incentive regime and NEVER consumed by this wave's exemption
+  machinery: a MIGOB transparency law whose operative surface is the RAEX
+  registro público (obligatory inscription of sujetos obligados — persons
+  whose activities respond to, are controlled by or are financed by a
+  foreign mandante, non-profits included; 90-day transitory from vigencia
+  7-jun-2025 with a total activity/asset freeze while unregistered; RAEX
+  exclusion calificación renewable annually or per project). The Odoo
+  surface is a registration-state flag on the company/partner profile
+  (unregistered · registered · excluded + date) with the MIGOB sanction
+  character (US$100,000-250,000 multas; suspension/cancelación of personería
+  jurídica) recorded as informational metadata — the registry itself is
+  authority-side, mirrored never emulated. The Chapter V 30% special levy
+  on mandante-financed transactions with its Agentes de Retención Especial
+  machinery (96_ Arts. 10-14) is a POINTER ONLY, routed out-of-wave to a
+  future taxation pass (OQ-6; no retention FRs here). This row resolves the
+  54_ tail's EVID-167 pointer that named this law (SOQ-41 W19 T4).
+  (LB-032; EVID-396/397 W19 T4)
+
 ## 4. Data Model
 
 Layer semantics: the regime framework is Odoo-native (res.company profile +
@@ -562,6 +624,17 @@ default none per plan).
 | res.company (application profile) | sv_spe_prior_tan_excluded | boolean (dated) | 54-B inc. 1º (82_ Art. 10): operated in TAN + paid ISR before the qualification request ⇒ cannot take cover under the law (effective ~31-dic-2025) | FR-193 |
 | res.company | sv_spe_location_equivalence | select | none · zf_user_in_lsi_parque (Art. 54-I — ZF row sets resolve while premises sit in an LSI parque; mirror of spe/03 FR-063 iii Art. 66) · lsi_user_in_zf (FR-063 iii, spe/03) | FR-194 |
 
+**W19 T4 fold-in rows (95_/97_ project-incentive class; 96_ identity — FR-200/201):**
+
+| Entity | Field | Type | Catalog / values | Reference |
+|--------|-------|------|------------------|-----------|
+| res.company | sv_spe_regime | select + project_incentive | new class value project_incentive (third family alongside zona_franca/dpa/parque_servicios/centro_servicios — never unified with territorial kinds) | FR-200 |
+| l10n_sv_special_regime.dl_incentive | instrument_id · vigencia | select · date | dl95_2024 (2-oct-2024) · dl386_2025 (25-ago-2025); instrument-keyed config family (post-print reform watch = SOQ-30 cadence kin) | FR-200 |
+| l10n_sv_special_regime.dl_incentive | admission_kind | select | dgii_notice_resolucion (95_: ≥30-day prior notice, content-enumerated; DGII resolución ≤10 días) · cel_contract (97_: CEL + contratistas/subcontratistas) | FR-200 |
+| l10n_sv_special_regime.dl_incentive | window_kind · window_params | select · config | fixed_15y_from_first_utilidades (95_ — text-pinned Art. 3 inc. 2) · event_bounded_recepcion (97_: firma de contratos → recepción final / fin de relación CEL) | FR-200 |
+| l10n_sv_special_regime.dl_incentive | especialidad · valid_from · provenance | boolean · date · char | prevalence flag (95_ Art. 4 / 97_ Art. 12) + instrument provenance; dated rows per D15 | FR-200 |
+| res.company/res.partner | sv_raex_state · sv_raex_date | select · date | unregistered · registered · excluded (96_ identity row — MIGOB RAEX; sanction character informational; Chapter V levy = out-of-wave pointer OQ-6) | FR-201 |
+
 **Declarante-role config + rulings (res.company / l10n_sv_special_regime.ruling):**
 
 | Entity | Field | Type | Catalog / values | Reference |
@@ -612,6 +685,8 @@ this file.
 | FR-192 | odoo | l10n_sv_special_regime.area_verde_rule | track/split/compensation | 82_ Arts. 2/5/9 (ZF 10.3.b / 18 d).5 / 46-A): 30% 10+20 ZF · 20% 10+10 DPA (ampliaciones/reducciones/traslados) · outside gate 10%/20% compensation + DOT/OPAMSS refs |
 | FR-193 | odoo | res.company | sv_spe_prior_tan_excluded | 82_ Art. 10 (ZF 54-B inc. 1º): prior TAN operation + ISR payment bars qualification (dated, ~31-dic-2025) |
 | FR-194 | odoo | res.company | sv_spe_location_equivalence = zf_user_in_lsi_parque | 82_ Art. 11 (ZF 54-I): ZF usuarios in LSI parques = as if in a zona franca; ZF row sets keep resolving; mirror of spe/03 FR-063 iii |
+| FR-200 | odoo | l10n_sv_special_regime.dl_incentive (+ sv_spe_regime = project_incentive) | instrument/vigencia/admission/window fields | 95_ D.L. 95-2024 + 97_ D.L. 386-2025 class row: instrument-keyed admission + window families (fixed-15y text-pinned vs event-bounded); D15 rows consumed from 02 (FR-202/203 by id); ISR side via 54_ Art. 4.1 by id |
+| FR-201 | odoo | res.company/res.partner | sv_raex_state/sv_raex_date | 96_ D.L. 308-2025 identity row: MIGOB RAEX registration state only — no benefit machinery; Chapter V 30% levy = out-of-wave pointer (OQ-6); resolves EVID-167 pointer |
 
 Version-regime notes (D12/D15/D16/D18/D19): all statutory values in this
 file (US$500,000/US$800,000/US$100,000/US$150,000/US$1,000,000 médico/
@@ -683,6 +758,16 @@ never overridden by configuration).
   (effective ~31-dic-2025) blocks the qualification, and a cambio of type
   from ZF usuario to DPA never mutates the profile without a granted
   MINEC solicitud reference (FR-193, FR-191).
+- **AC-010:** Given a company admitted as a 95_ project titular via DGII
+  resolución (prior notice filed, resolution issued) whose first
+  exclusively-project utilidades arrive in ejercicio 2027, when the profile
+  saves, then the regime resolves project_incentive with instrument
+  dl95_2024 and window kind fixed_15y_from_first_utilidades anchored at
+  2027, the dated rows hand off to `02` FR-202 by id, and no territorial
+  machinery (acuerdo D.O. date, location track) engages (FR-200); given a
+  partner covered by 96_, when its RAEX state is stamped registered, then
+  only the identity flag records — no exemption row, no retention row, no
+  benefit state ever engages for it in this wave (FR-201).
 
 ## 7. Open Questions
 
@@ -693,3 +778,5 @@ never overridden by configuration).
 | OQ-3 | SOQ-31 carried: the Reglamento General de la Ley de Zonas Francas (mandated by 12_ Art. 51) is NOT in the corpus — solicitud/informe formats and DACG structures are delegated there. FR-019 exposes the procedure clocks as printed; the format-level details ship as config slots with NO defaults. Acquisition candidate ≥75. **W19 T3: FR-191's cambio-de-tipo requisitos and FR-192's permit surfaces also cite "su Reglamento" (82_ Arts. 8-9) — same config-slot family.** | no | Takumi S7 (sources watch) | open |
 | OQ-4 | 74_ declarante exam mechanics: the statute (Art. 9) delegates the sufficiency-exam requirements and the fianza amount to DGA disposiciones administrativas de carácter general (not in corpus, 13_ Art. 36-A similar); FR-020 records escritura/exam/fianza at evidence depth with the exam content and fianza value as config-gaps — no invented procedural detail. | no | Takumi S7 (sources watch) | open |
 | OQ-5 | 82_ Art. 1 (ZF-law Art. 2 d) substitution, W19 T3): the área metropolitana is now constituted by "los municipios y distritos contemplados en la Ley de Desarrollo y Ordenamiento Territorial del Área Metropolitana de San Salvador y de los Municipios Aledaños, y su Reglamento" — NEITHER instrument is in corpus; FR-022 ships the successor track as a config slot with NO shipped default (facts before ~31-dic-2025 resolve against the 13-municipio rows); acquisition candidate. | no | Takumi S7 (sources watch) | open |
+| OQ-6 | 96_ Chapter V = a REAL 30%-withholding surface (W19 T4, EVID-397): D.L. 308-2025 Arts. 10-14 create a 30% tax on mandante-financed transactions collected by RETENCIÓN (financial-system institutions + any reception/canalization/transfer entity as Agentes de Retención Especial; DGT enteros within the 10 first días hábiles; electronic reports within 15; monthly 30% self-entero on domestic donations; CT 246/247/241 sanction routing) — refuting the pre-reading "NOT a tax-withholding surface" hypothesis. OUT of this wave's scope bars: no retention FRs minted here; routed to a future taxation pass. Adjacent config-gaps: the RAEX reglamento (transparencia.gob.sv "versión pública" seen in search, not acquired) + the AT-provided forms of Arts. 13/14. | no | Takumi S7 (taxation-wave pointer) | open |
+| OQ-7 | 97_ Art. 1 d) "el impuesto exclusivo de acuerdo al tipo de internación": WHICH exclusive tax(s) the phrase covers is corpus-silent — the `02` FR-203 arancel/gravamen row names the printed phrase as a config-gap with NO default enumeration (value discipline; `02` OQ-8); resolve when the operative DGA/DGII disposition or a later aclaración lands. | no | Takumi S7 (sources watch) | open |

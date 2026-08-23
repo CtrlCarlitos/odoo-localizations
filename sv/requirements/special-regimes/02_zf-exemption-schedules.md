@@ -5,7 +5,7 @@
 | Country | sv |
 | Topic   | special-regimes |
 | Status  | draft |
-| Authors | Takumi synthesis wave 7 (S7 special-regimes); W19 T3 fold-in (82_ ZF tail) |
+| Authors | Takumi synthesis wave 7 (S7 special-regimes); W19 T3 fold-in (82_ ZF tail); W19 T4 fold-in (95_/97_ project incentives) |
 | Updated | 2026-08-22 |
 
 ## 1. Purpose
@@ -33,7 +33,12 @@ municipal proration — **W19 T3: the 82_ tail (D.L. 493-2025, vigencia
 desarrollista +10y ampliación with the ISR proportional rule + special
 registries) as FR-195..197 and the 2-year grace transitory with its
 clawback as FR-198; pre-vigencia +5-year regimes retained as their own
-dated rows (FR-026/FR-030 scope notes)**.
+dated rows (FR-026/FR-030 scope notes)** — and **W19 T4: the per-project
+D.L.-incentive dated rows** (95_ inmobiliarios en altura, D.L. 95-2024 —
+15-year ISR exención TEXT-PINNED from the first-utilidades ejercicio;
+97_ biogás Acelhuate, D.L. 386-2025 — the IVA/DAI/ISRBT/arancel cluster
+on an event-bounded firma→recepción window) **as FR-202/203, D15-kin
+consumers of spe/01's FR-200 class row**.
 
 It does **not** cover: the LSI exemption shapes and local-market caps
 (`03_lsi-regime.md`); the customs clocks (`04_customs-clocks.md`); the
@@ -81,7 +86,13 @@ evidence abbreviates, from the extraction txt
 `sv/.extractions/12_Ley_Zonas_Francas.pdf.txt` +
 `sv/.extractions/82_Reforma_Ley_ZF_DL493_DO_2025-12-23.pdf.txt` (forced-OCR
 PSM 4 — cleaning declared in EV82 header; citable per standing S3 ruling
-25; page pointers = txt PAGE markers). D15 discipline: every
+25; page pointers = txt PAGE markers). **W19 T4 adds two project-incentive
+single prints — 95_ (D.L. 95-2024, D.O. 181 T.444 24-sep-2024, vigencia
+2-oct-2024) and 97_ (D.L. 386-2025, D.O. 158 T.448 25-ago-2025, vigencia
+publication-day) — current instruments with no consolidation layer
+(post-print reform watch = SOQ-30 cadence kin); their ISR-side effects
+route through Ley ISR Art. 4.1 renta-no-gravable (54_ cited by id, never
+restated here).** D15 discipline: every
 percentage, year-count, threshold and window in this file is a dated config
 row with instrument provenance — never a global constant.
 
@@ -108,6 +119,8 @@ row with instrument provenance — never a global constant.
 | LB-019 | Reformas a la Ley de Zonas Francas (82_), Art. 4 (ZF-law Art. 17, inciso after f) sustituido + 2 added + fifth inciso reformed): "Vencido el plazo de las exenciones totales, los Usuarios de Zona Franca tendrán derecho a un plazo adicional de diez (10) años, si se comprueba que durante el periodo de la exención total o su respectivo plazo adicional, han aumentado su inversión en un cien por ciento (100%) con relación a su inversión inicial. Esta inversión deberá realizarse cumpliendo con lo dispuesto en el artículo 17-A de la presente ley; valor que deberá ser ajustado conforme al último porcentaje de inflación anual reportado por el Banco Central de Reserva de El Salvador. Para el caso de los Usuarios de Zonas Francas que hayan cumplido el requisito de empleo, deberán de comprobar una inversión equivalente a la inversión inicial realizada, monto que en ningún caso podrá ser menor a quinientos mil dólares de los Estados Unidos de América (US$500,000.00), así como comprobar un aumento en el número de empleos equivalente al cien por ciento (100%), con relación al promedio de empleos activos de los últimos tres años." + multiple-request inciso + sociedad/socios proportional inciso + Acuerdo-content inciso: "El Ministerio de Economía deberá incorporar en el Acuerdo… el detalle de aquellos bienes que no se consideren necesarios para la ejecución de la actividad autorizada, con su respectiva nomenclatura arancelaria… En dicho Acuerdo, se deberán mencionar, además, en forma clara y taxativa, la actividad económica incentivada o el conjunto de dichas actividades." | Usuario extension regime from ~31-dic-2025: +10 YEARS (was +5 — LB-002 final inciso) when, during the total-exemption period or a previous additional term, investment increased ≥100% over the INITIAL investment — computed per Art. 17-A and ADJUSTED by the latest annual inflation percentage reported by the BCR; EMPLOYMENT ROUTE: those who met the jobs requisito instead prove investment equal to the initial (floor US$500,000) PLUS a 100% increase in jobs vs the average ACTIVE jobs of the last three years; repeatable with re-accreditation; sociedad + socios proportional; the usuario Acuerdo must carry the no-necessary-goods tariff detail (FR-038 kin) AND the clear, taxative mention of the incentivized activity (or set) | `sv/sources/82_Reforma_Ley_ZF_DL493_DO_2025-12-23.pdf` | 82_ Art. 4 pp.3-4 (EVID-385/387; 82_ txt PAGE 3-4; vigencia ~31-dic-2025 — co-cite 12_+82_; OCR PSM 4) |
 | LB-020 | Reformas a la Ley de Zonas Francas (82_), Art. 6 (ZF-law Art. 19, 3 incisos intercalados after f) + sixth inciso modified): "Vencido el plazo de las exenciones totales, de los literales que anteceden, los DPA tendrán derecho a un plazo adicional de diez (10) años, si se comprueba que durante el periodo de la exención total o su respectivo plazo adicional han aumentado su inversión en un cien por ciento (100%) con relación a su inversión inicial. Esta inversión deberá realizarse cumpliendo con lo dispuesto en los artículos 19-A y 19-B de la presente ley, según corresponda; valor que deberá ser ajustado conforme al último porcentaje de inflación anual reportado por el Banco Central de Reserva de El Salvador. Para el caso de las empresas que hayan cumplido el requisito de empleo, deberán de comprobar una inversión equivalente a la inversión inicial realizada, monto que en ningún caso podrá ser menor a ochocientos mil dólares de los Estados Unidos de América (US$800,000.00), así como comprobar un aumento en el número de empleos equivalente al cien por ciento (100%), con relación al promedio de empleos activos de los últimos tres años." + multiple-request + sociedad/socios proportional incisos + the same MINEC-Acuerdo content inciso for DPAs | DPA-titular extension regime from ~31-dic-2025 — GENUINELY NEW (the 12_ Art. 19 carried NO investment-extension inciso): +10 years on ≥100% investment increase over initial (per 19-A/19-B, BCR-inflation-adjusted); employment route = investment equal to the initial (floor US$800,000, matching the 19-A value) + 100% jobs increase vs the 3-year active-jobs average; repeatable; proportional; the DPA Acuerdo carries the nomenclature + taxative-activity mentions | `sv/sources/82_Reforma_Ley_ZF_DL493_DO_2025-12-23.pdf` | 82_ Art. 6 pp.5-6 (EVID-385/388; 82_ txt PAGE 5-6; vigencia ~31-dic-2025 — co-cite 12_+82_; OCR PSM 4) |
 | LB-021 | Reformas a la Ley de Zonas Francas (82_), Art. 12 (Disposición Transitoria): "Los Desarrollistas, Usuarios de Zonas Francas y los Depósitos para Perfeccionamiento Activo (DPA), contarán con un período de gracia de dos años contados a partir del vencimiento del plazo establecido en su respectivo Acuerdo, durante el cual continuarán gozando de todos los beneficios de la ley, incluyendo la exención del Impuesto sobre la Renta respecto de las utilidades o dividendos distribuidos a sus socios o accionistas, provenientes de la actividad favorecida. Durante dicho periodo, deberán realizar las adecuaciones e inversiones que consideren necesarias, a fin de que, vencido el período de gracia, continúen recibiendo los beneficios conferidos por la Ley… En el caso de que no se concrete la inversión en el plazo señalado en el inciso anterior, los Desarrollistas, Usuarios de Zonas Francas y los Depósitos para Perfeccionamiento Activo (DPA) estarán obligados a cancelar los derechos e impuestos que resulten aplicables y que se habrían generado durante ese periodo en caso de no haber gozado del beneficio." | The 2-YEAR GRACE transitory: Desarrollistas, ZF usuarios and DPAs get a grace period counted from the EXPIRY OF THEIR RESPECTIVE ACUERDO'S TERM during which ALL the law's benefits continue — expressly INCLUDING the ISR exemption on utilidades/dividends distributed to socios or accionistas from the favored activity; during the grace period they must make the adequacy investments needed to keep receiving benefits after it ends; if the investment is not concretized within the period, they must PAY the rights and taxes that would have been generated during the grace period had the benefit not been enjoyed (a clawback) | `sv/sources/82_Reforma_Ley_ZF_DL493_DO_2025-12-23.pdf` | 82_ Art. 12 p.8 (EVID-385/390; 82_ txt PAGE 8; vigencia ~31-dic-2025; OCR PSM 4 — "dosaños"→"dos años" normalized) |
+| LB-022 | Disposiciones Especiales … Proyectos Inmobiliarios en Altura (95_), Art. 2: "Podrán gozar del incentivo fiscal…, las personas naturales, jurídicas y las Uniones de Personas, que se encuentren domiciliados o no en el territorio nacional, que sean titulares de inversiones nuevas en proyectos de construcción o edificación de desarrollos inmobiliarios en altura…, debiendo estar relacionadas a la comercialización en algunos de los siguientes rubros o condiciones: 1) Cuando se trate de la primera compraventa de inmuebles en altura, ya sea la venta total de la edificación o, en caso de venta o ventas parciales, la primera venta de cada una de las áreas previamente determinadas; tales como la venta de apartamentos o de espacios para oficinas, establecimientos o comercios. 2) El alquiler de inmuebles en altura con fines turísticos, comerciales o para la prestación de servicios, siempre y cuando el propietario del inmueble sea el inversionista inicial. 3) El alquiler de espacios y la prestación de servicios de hostelería, cuando el prestador del servicio fuere el mismo titular del proyecto. 4) La prestación de servicios de construcción de bienes inmuebles en altura." Art. 3 inc. 1: "Se declaran exentas del pago del Impuesto sobre la Renta, las utilidades e ingresos que obtengan…, cuando tales productos sean obtenidos exclusivamente a dichos proyectos, provenientes de las actividades mencionadas en el artículo precedente." Art. 3 inc. 2: "La exención operará por el período de quince años, los cuales serán contados a partir del ejercicio de imposición en que se comiencen a obtener tales utilidades e ingresos. Dichas rentas tampoco estarán sujetas a la aplicación de Ganancia de Capital, estipulada en los artículos 14 y 42 de la Ley de Impuesto sobre la Renta, así como de retenciones en la fuente, ni al pago o anticipo a cuenta del referido impuesto, por dichos rubros." Art. 3 incisos 3-7 (selection): PJ/Uniones pass-through ("…tanto a la entidad titular del proyecto, como a los socios, accionistas o integrantes… individualmente considerados, únicamente respecto a las utilidades o dividendos provenientes de las actividades incentivadas… este beneficio no podrá trasladarse sucesivamente a otros socios"); adquirentes/arrendatarios exclusion ("no será aplicable para quienes ostenten el carácter de adquirentes de apartamentos, oficinas…, ni para los usuarios que arrienden o subarrienden dichos espacios"); DGII notice (≥30 días before construction start; content-enumerated) + resolución ≤10 días; "En ningún caso, esta exoneración impositiva será procedente, cuando el arrendante del inmueble…, no sea el propietario original del inmueble o inversionista inicial."; abuse revocation per "artículo 260 del Código Tributario" | Natural/juridical persons and Uniones de Personas (domiciled or not) holding NEW investments in 35+-floor high-rise projects enjoy the incentive across four commercialization rubros: first sale of the building (total, or first sale of each pre-determined area); tourist/commercial/services LEASING only when the owner is the initial investor; space leasing + hotelier services only when the provider is the project titular; construction services. Profits/income obtained EXCLUSIVELY from the project are declared ISR-EXEMPT for FIFTEEN YEARS counted from the tax year they first begin to be obtained (TEXT-PINNED); those rents are also free of Capital Gain (Ley ISR Arts. 14/42), of source retentions, and of ISR payments/advances on those items. Entity-level exemption flows to partners/shareholders individually, only on incentivized-activity profits/dividends, PJ-partner exclusivity, no successive transfer. Excluded: buyers of units, (sub)tenants, and any lease whose lessor is not the original owner/initial investor. Admission: DGII prior notice ≥30 days with enumerated content + beneficiary resolution ≤10 days. Determined abuse ⇒ resolution revoked via the CT Art. 260 procedure | `sv/sources/95_Disposiciones_Inmobiliarios_Altura_DL95_2024_DGII.pdf` | 95_ Arts. 2-3 pp.2-3 (EVID-392/393; 95_ txt PAGE 2-3; W19 T4) |
+| LB-023 | Disposiciones Especiales, Transitorias y Complementarias … Proyecto "…Biogás en el Río Acelhuate" (97_), Art. 1 literals a-d (selection): a) "Exención total del Impuesto a la Transferencia de Bienes Muebles y a la Prestación de Servicios…"; b) "Exención total…, de impuestos y gravámenes a la importación e internación, de Derechos Arancelarios a la Importación, y del Impuesto a la Transferencia de Bienes Muebles y a la Prestación de Servicios. El beneficio no podrá ser extensivo a ningún otro sujeto que pudiera intervenir en la operación de importación." + "Los proveedores locales que realicen ventas de bienes o prestaciones de servicios a favor de los beneficiarios…, no se encontrarán obligados a aplicar la proporcionalidad del crédito fiscal a que se refiere el artículo 66 de la Ley del Impuesto a la Transferencia de Bienes Muebles y a la Prestación de Servicios." c) "Exención total del Impuesto sobre Transferencia de Bienes Raíces… cuando quien adquiera tales bienes…, sea la Comisión Ejecutiva Hidroeléctrica del Río Lempa (CEL)." d) "Exención total de aranceles y gravámenes…, tales como el… (IVA), los Derechos Arancelarios a la Importación (DAI) y el impuesto exclusivo de acuerdo al tipo de internación…". Art. 2: contractor ingresos "se considerarán no gravadas para efectos del Impuesto sobre la Renta según lo regulado en el artículo 4, numeral 1 de la Ley de Impuesto sobre la Renta. Esta disposición estará vigente hasta la completa recepción de las obras." Art. 3: "…Ninguna exención regulada en este decreto será extensiva a bienes para el consumo o de uso personal de directivos, socios o personal de las empresas, familiares de aquellos o empresas relacionadas y bienes del activo corriente." + "Las exenciones…, serán efectivas desde la firma de los contratos…, y hasta la recepción final de las obras respectivas o el fin de la relación con la Comisión Ejecutiva Hidroeléctrica del Río Lempa (CEL) en cualquiera de sus formas." Art. 4: "…estarán obligadas a llevar registro completo del uso de los incentivos fiscales…; además, deberán presentar las declaraciones tributarias correspondientes a los beneficios determinados en este decreto…". Art. 5: voluntary sellers to CEL "estarán exentos del pago de impuestos que pudiera generar la venta de los mismos por concepto de Impuesto sobre la Renta, Impuesto a la Transferencia de Bienes Raíces y los derechos ante el Centro Nacional de Registros." | The CEL-biogás exemption cluster: total IVA on covered local transfers/services; total import/internación taxes + DAI + IVA for project operations (expressly NON-extensive to other subjects of the import operation); local suppliers to beneficiaries relieved of the Ley IVA Art. 66 fiscal-credit pro-rata; total ISRBT when the real-estate acquirer is CEL; total aranceles/gravámenes incl. IVA, DAI and the internación-type exclusive tax (identity corpus-silent — OQ-7). Contractor/subcontractor income is NOT TAXABLE for ISR under Ley ISR Art. 4.1, until complete reception of the works. No exemption extends to personal-consumption/personal-use goods or current-asset goods. Exemptions run from CONTRACT SIGNATURE until final reception of the works or the end of the CEL relationship in any form. Contractors must keep a complete record of incentive use and file the corresponding declarations per MH guidelines. Voluntary sellers to CEL: ISR + ISRBT + CNR duties exempt | `sv/sources/97_Disposiciones_Biogas_Acelhuate_DL386_2025_DGII.pdf` | 97_ Arts. 1-5 pp.2-4 (EVID-394/395; 97_ txt PAGE 2-4; W19 T4) |
 
 ## 3. Functional Requirements
 
@@ -447,6 +460,77 @@ row with instrument provenance — never a global constant.
   computation engines are consumed by id, never re-derived here).
   (LB-021; EVID-390 W19 T3)
 
+### 3.12 W19 T4 fold-in — per-project D.L.-incentive dated rows (95_ inmobiliarios en altura; 97_ biogás Acelhuate)
+
+- **SV-SPE-FR-202:** The system shall implement the 95_ inmobiliarios-en-
+  altura incentive as a dated per-project exemption-row family on the
+  FR-023 chassis, keyed to the FR-200 class row (instrument dl95_2024,
+  vigencia 2-oct-2024): eligible projects = NEW construction/edification
+  with ≥35 pisos/niveles measured from the lowest point of the street
+  rasante facing the building, begun from 2-oct-2024; benefited subjects =
+  titulares of new investments (personas naturales/jurídicas + Uniones de
+  Personas, domiciled or not) across the four rubros — primera compraventa
+  (total, or first sale of each pre-determined area: apartamentos, oficinas,
+  establecimientos, comercios); alquiler turístico/comercial/servicios only
+  when the lessor is the inversionista inicial; alquiler de espacios +
+  hostelería only when the prestador is the project titular; construction
+  services — plus within-window economic reconversión of the project. The
+  exemption rows cover utilidades/ingresos obtained EXCLUSIVELY from the
+  project, at 100% ISR for QUINCE AÑOS counted from the ejercicio de
+  imposición in which such utilidades first obtain (TEXT-PINNED horizon —
+  Art. 3 inc. 2; the registry's "per approval press" provenance
+  superseded, no OQ); the same rubros carry the express suppressions: no
+  Ganancia de Capital (Ley ISR Arts. 14/42 — 54_ by id), no retenciones en
+  la fuente, no pago o anticipo a cuenta; the entity-level exemption flows
+  to socios/accionistas individually only on incentivized-activity
+  utilidades/dividendos with PJ-socio exclusivity and no successive
+  transfer (FR-035-kin semantics kept a DISTINCT family — never merged
+  with the 12-ejercicio window). EXCLUSION flags: adquirentes of units,
+  service users, arrendatarios/subarrendatarios, and any lease whose
+  arrendante is not the propietario original/inversionista inicial.
+  Admission record = the DGII written notice (≥30 días before construction
+  start; name, ubicación, altura specs, titulares + socios, investment
+  amount, completion date) + the ≤10-day DGII beneficiario resolución;
+  determined abuse ⇒ the granting resolución is revoked via the CT Art. 260
+  procedure (state-reason row on the FR-015 benefit-state family, own
+  cause, never merged with the ZF/LSI ladders).
+  (LB-022; EVID-392/393 W19 T4)
+- **SV-SPE-FR-203:** The system shall implement the 97_ biogás-Acelhuate
+  incentive cluster as a dated PROJECT-BOUNDED exemption-row family keyed
+  to the FR-200 class row (instrument dl386_2025, vigencia 25-ago-2025 =
+  publication day): beneficiaries = CEL + natural/juridical persons as
+  contratistas/subcontratistas for the enumerated project activities
+  (planificación, diseño, estudios, consultorías, supervisión, construcción
+  through completa recepción de las obras; maquinaria/equipos/materiales,
+  obras civiles, montaje, puesta en operación, medidas ambientales y
+  sociales, accesos, terrenos/inmuebles, línea de distribución, obras
+  complementarias, "cualquier otra actividad necesaria" — goods or services
+  acquired locally or abroad); the rows carry the four exemption literals —
+  a) total IVA on covered transfers/services; b) total import/internación
+  impuestos y gravámenes + DAI + IVA (expressly NOT extensive to any other
+  subject of the import operation — no cascade); c) total ISRBT when the
+  acquirer (compra or donación) is CEL; d) total aranceles/gravámenes incl.
+  IVA + DAI + "el impuesto exclusivo de acuerdo al tipo de internación"
+  (identity corpus-silent — config-gap with NO default, OQ-7); the ISR side
+  = contractor/subcontractor ingresos flagged renta NO GRAVADA per Ley ISR
+  Art. 4.1 (54_ by id — the no-retention consequence flows from the
+  no-gravada status via the ISR retention engine by id; 97_ prints no
+  express retention clause, unlike 95_ — working reading, OQ-9); the
+  WINDOW is EVENT-BOUNDED: rows stamp effective from the FIRMA
+  DE LOS CONTRATOS and expire at the recepción final de las obras or the
+  fin de la relación with CEL in any of its forms (project-spent
+  transitory character — never an indefinite tail, never the 95_ fixed
+  horizon); carve-out flags exclude personal-consumption/personal-use
+  goods (directors, partners, staff, relatives, related companies) and
+  activo corriente; compliance = a complete registro of incentive use +
+  declarations per MH directrices (bookkeeping-segregation flag, FR-197
+  registros-especiales kin); proveedores locales selling to beneficiaries
+  carry the Ley IVA Art. 66 proporcionalidad-relief pointer (01_ by id,
+  never restated); sellers-to-CEL (ISR + ISRBT + CNR derechos, Art. 5) and
+  the CEL/contractor CNR-arancel exemption (Art. 6) land as their own
+  dated rows.
+  (LB-023; EVID-394/395 W19 T4)
+
 ## 4. Data Model
 
 Layer semantics: all entities are Odoo-native config/ledger rows on the
@@ -520,6 +604,17 @@ judgment noted in the task report).
 | l10n_sv_special_regime.municipal_proration | fiscal_year · local_sales · total_sales · activo | year · monetary | ratio = local sales ÷ total sales in relation to activo, per Art. 25 final | FR-041 |
 | l10n_sv_special_regime.municipal_proration | ratio · provenance | computed · char | dated computed row per ejercicio (comercializadores; TAN-sale income excluded from incentive rows) | FR-041 |
 
+**Project-incentive rows (W19 T4 — 95_/97_ on the exemption-row chassis, FR-202/203):**
+
+| Entity | Field | Type | Catalog / values | Reference |
+|--------|-------|------|------------------|-----------|
+| l10n_sv_special_regime.exemption_row | instrument_id · tax_kind | select (dl95_2024 · dl386_2025) · select | 95_: isr (100%, rubro-scoped); 97_: iva · import_dai_iva · isrbt_cel · aranceles (incl. the impuesto-exclusivo config-gap slot, OQ-8) · isr_no_gravada (contractor flag) · isrbt_isr_seller_art5 · cnr_derechos | FR-202, FR-203 |
+| l10n_sv_special_regime.exemption_row | window_kind · anchor | select · date/event | 95_: fixed_15y_from_first_utilidades (anchor = first-utilidades ejercicio, TEXT-PINNED); 97_: event_bounded (anchor = firma de contratos; end = recepción final / fin de relación CEL) | FR-202, FR-203 |
+| l10n_sv_special_regime.exemption_row | suppression_flags | booleans | 95_: no_capital_gain (54_ Arts. 14/42 by id) · no_source_retention (EXPRESS) · no_payment_advance; socio flow-through row with pj_exclusive + no_successive_transfer | FR-202 |
+| l10n_sv_special_regime.exemption_row | exclusion_flags · carve_outs | booleans | 95_: adquirente · arrendatario_subarrendatario · lessor_not_initial_investor; 97_: personal_consumption · activo_corriente; 97_ import rows carry non_cascade (no extension to other import-operation subjects) | FR-202, FR-203 |
+| l10n_sv_special_regime.dl_incentive | admission_ref · registro_flag | char · boolean | 95_: DGII notice (≥30 días prior, content-enumerated) + resolución ≤10 días + abuse-revocation state (CT Art. 260 procedure); 97_: contrato refs + registro-de-uso compliance flag + Art. 66 proporcionalidad-relief pointer (01_ by id) | FR-202, FR-203 |
+| l10n_sv_special_regime.exemption_row | provenance | char | 95_/97_ article as printed (single-print current instruments — SOQ-30 cadence kin) | FR-202, FR-203 |
+
 ## 5. Odoo Mapping
 
 Layer semantics for this wave: the exemption schedules are Odoo-native
@@ -555,6 +650,8 @@ behavior is required by this file.
 | FR-196 | odoo | l10n_sv_special_regime.extension_event | kind dpa_10y_82 | 82_ Art. 6 (ZF Art. 19): NEW DPA extension (no 12_ twin); per 19-A/19-B; employment route US$800,000; never cross-applied to usuario sets |
 | FR-197 | odoo | l10n_sv_special_regime.extension_event | kind desarrollista_10y_82 | 82_ Art. 3 (ZF Art. 11): +10y, ampliación surface ≥ possessed; ISR proportional rule + special segregated registries; repeatable |
 | FR-198 | odoo | l10n_sv_special_regime.exemption_row | grace_period_82 rows + clawback | 82_ Art. 12: 2-yr grace from acuerdo-term end, all benefits incl. socio dividend ISR exemption; failure-to-invest ⇒ pay the would-have-been rights+taxes |
+| FR-202 | odoo | l10n_sv_special_regime.exemption_row | instrument dl95_2024 isr rows | 95_ D.L. 95-2024: 100% ISR on exclusively-project utilidades, 15 yrs from first-utilidades ejercicio (text-pinned); GC/retención/anticipo suppressions; socio flow-through PJ-exclusive; adquirente/arrendatario/non-initial-lessor exclusions; DGII notice+resolución admission; CT-260 abuse revocation |
+| FR-203 | odoo | l10n_sv_special_regime.exemption_row | instrument dl386_2025 rows | 97_ D.L. 386-2025: IVA/import-DAI/ISRBT-CEL/arancel cluster + contractor ISR no-gravada flag (54_ Art. 4.1 by id); event-bounded firma→recepción/final-relación window; personal-consumption + activo corriente carve-outs; registro-use + declaration duty; Art. 66 relief pointer (01_ by id); Art. 5/6 seller + CNR rows |
 
 Version-regime notes (D12/D15/D16/D18/D19): all ladders, percentages,
 year-counts, extension predicates and windows are code-text values cited as
@@ -639,6 +736,22 @@ regime validity is never overridden by configuration).
   2028-06-30 without the adequacy investment concretized, the clawback row
   computes the would-have-been rights and taxes for the grace span
   (FR-198).
+- **AC-014:** Given a 95_-admitted titular (DGII resolución recorded)
+  whose first exclusively-project utilidades arrive in ejercicio 2027 and
+  who effects primera compraventa sales of apartments, when the year's
+  determination closes, then the ISR exemption rows resolve 100% for the
+  15-year window 2027-2041 with the capital-gain, source-retention and
+  anticipo suppressions stamped on those rubros — while the ADQUIRENTE's
+  later resale and any sublease by a non-initial investor resolve with no
+  95_ benefit (FR-202).
+- **AC-015:** Given a 97_ contractor whose CEL contract is signed
+  1-oct-2025 and whose obras reach recepción final 30-jun-2028, when the
+  project window resolves, then the exemption cluster (IVA, import/DAI,
+  CEL-side ISRBT, aranceles) and the contractor ISR no-gravada flag run
+  exactly from signature to 30-jun-2028 (never beyond; never the 95_
+  fixed-horizon shape), the import rows refuse extension to other subjects
+  of the import operation, and a director's personal-use vehicle purchase
+  is carved out of every row (FR-203).
 
 ## 7. Open Questions
 
@@ -651,3 +764,5 @@ regime validity is never overridden by configuration).
 | OQ-5 | Transitoria scope decision: this file encodes 54-C (per task scope); the sibling transitorias 54-D/54-E (pre-existing usuarios/DPA qualifying via jobs/investment proof, taking the Art. 17 numeral-2 shapes) and 54-F (hard stop of benefits at 31-dic-2015 for non-qualifiers) are recorded at evidence depth only — historical beneficiaries are ingested per D18 as `is_historical` rows with their original-period shapes; encode as FRs only if a migrating pre-2013 beneficiary requires them. | no | Takumi S7 (config watch) | open |
 | OQ-6 | Concejos-municipales additional benefits (Arts. 11/17/19 final paragraphs): municipal councils MAY grant benefits beyond the law's — discretionary, instrument-less in corpus; FR-025/FR-028 expose empty config slots with NO defaults; a granted benefit lands as new dated rows with municipal-instrument provenance. | no | Takumi S7 (config watch) | open |
 | OQ-7 | 82_ extension-regime interactions (W19 T3): (a) the 54-C grandfathering grants pre-2013 desarrollistas/administradores "+5 años" for ampliations per "el inciso último del artículo 11" — that inciso is now the reformed +10-year text (LB-018); working ruling: grandfathered extension requests determined after ~31-dic-2025 ride the reformed predicate/term, pre-vigencia determinations keep the 12_ reading (dated rows both sides). (b) The 82_ transitory grace (FR-198) spans acuerdos expiring at/after ~31-dic-2025 with no printed end date of its own — encode per-acuerdo +2-year rows; mass-expiry interaction with the D.L. 598-2020-era decree (out of corpus) unverified. (c) The BCR "último porcentaje de inflación anual" is an external input — dated lookup, source assumption labeled. | no | Takumi S7 (config watch) | open |
+| OQ-8 | 97_ Art. 1 d) "el impuesto exclusivo de acuerdo al tipo de internación" (W19 T4): WHICH exclusive tax(s) the phrase covers is corpus-silent — FR-203's arancel/gravamen row names the printed phrase as a config-gap with NO default enumeration (value discipline); resolve when the operative DGA/DGII disposition or a later aclaración lands (EV95/96/97 OQ-1). | no | Takumi S7 (sources watch) | open |
+| OQ-9 | 97_ retention gloss, working ruling (W19 T4, EV95/96/97 OQ-3): contractor ingresos are renta NO GRAVADA per Ley ISR Art. 4.1 (54_ by id) and 97_ prints NO express "retenciones en la fuente" clause (95_ does) — the no-retention consequence on covered contractor invoices is encoded via the no-gravada flag consumed by the ISR retention engine by id; confirm at implementation. | no | Takumi S7 (fiscalización watch) | open |
