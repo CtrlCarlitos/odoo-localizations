@@ -946,7 +946,7 @@ discarded md5-identical to 104_). Structure:
      commit = the synthesis-wave base; future waves branch from here.
 
 Session state at stop (2026-08-22, W12 GLIN re-grep wave — committed on
-`hn-research`, NOT yet merged; owner decision pending): evidence COMPLETE
+`hn-research`, MERGED to main same-day): evidence COMPLETE
 through **EVID-680** (654 EVIDs on disk, zero collisions); corpus **166
 files** (01-167, gap 103); main carries HN through R-H91 (corpus 164 files
 at the merge; the W11 + R-H91 merges both landed 2026-08-22). **W12
@@ -969,7 +969,9 @@ route [2026 payroll = blocking config gap AC-006 until it lands]; D.
 96-2012 watch; CbCR restatement comunicado watch; "Acuerdo 799" TEXT + D.
 247-89 watch [now also the OQ-008 cap-window key]; ~~Código de Comercio~~
 CLOSED W12; SEE docs; DGS SMM 2027 promedio print early-2027; S-HN5
-DEFERRED).
+DEFERRED). [W12 MERGED to main 2026-08-22 — thirty-fifth §4.6 run: 1 commit
+rewritten (`c83c157`→`8ac5d6a`), zero conflicts, remote ref delete +
+re-push; main carries HN through EVID-680, corpus 166 files.]
 
 Session state at stop (2026-08-22, R-H91 ruling session — committed on
 `hn-research`, MERGED to main same-day): **NO corpus change**
