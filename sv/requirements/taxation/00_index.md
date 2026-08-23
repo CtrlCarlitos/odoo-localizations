@@ -137,9 +137,10 @@ in 03's OQ-007 (kin: 02's OQ-006). SOQ-01/SOQ-04 = 03's OQ-001/OQ-002,
 resolved. S9: SOQ-54 = OQ-1 of EVERY file 07-15 (01_/02_ consolidation
 vintage watch, rides every LB); SOQ-55 = 07's OQ-2 (MOQ-03 closure —
 colones thresholds as config); SOQ-56 = 08's OQ-2 (BCR-qualification
-instrument); SOQ-57 = 08's OQ-3 (stale SAP anchor); SOQ-58 = 08's OQ-4
-(167-A kill-switch). Kin: 09's OQ-2 = SOQ-40 design pass; 09's OQ-3 =
-SOQ-39/MOQ-04 kin; 10's OQ-2 = SOQ-18 kin; 13's OQ-2 = SOQ-21 kin.
+instrument found, 101_-105_); SOQ-57 = 08's OQ-3 (stale SAP anchor);
+SOQ-58 = 08's OQ-4 (167-A kill-switch). Kin: 09's OQ-2 = SOQ-40 design
+pass; 09's OQ-3 = SOQ-39/MOQ-04 kin; 10's OQ-2 = SOQ-18 kin; 13's OQ-2
+= SOQ-21 kin.
 
 ### 01_isr-framework.md (7)
 
@@ -217,16 +218,16 @@ SOQ-39/MOQ-04 kin; 10's OQ-2 = SOQ-18 kin; 13's OQ-2 = SOQ-21 kin.
 ### 08_iva-exemptions.md (5)
 
 - OQ-1 — SOQ-54 (vintage): re-verify Arts. 44-46/66/71/167-A/174 + Rgto. Art. 16. open
-- OQ-2 — SOQ-56: Art. 46-f BCR-qualification instrument absent; institution flags ship as config. open
+- OQ-2 — SOQ-56: Art. 46-f BCR-qualification instrument FOUND (101_-105_); `bcr_calificada` = BCR-list membership (dated list, as-of 08-ago-2026). resolved (W18)
 - OQ-3 — SOQ-57: Art. 46-k stale SAP citation (D.L. 927-1996 vs current D.L. 614 SIP); substance carried under the current regime. open
-- OQ-4 — SOQ-58: Art. 167-A sectorial-politics kill-switch instrument absent; NULL-valid_to dated row + watch. open
+- OQ-4 — SOQ-58: Art. 167-A sectorial-politics kill-switch instrument not issued as of 2026-08-22; NULL-valid_to dated row + watch. open
 - OQ-5 — Art. 45-i Reglamento de Transporte Terrestre spec gate + the 5-year register's document feed. open
 
 ### 09_iva-base-rate.md (4)
 
 - OQ-1 — SOQ-54 (vintage): load-bearing on the 13% rate row (FR-240); re-verify Arts. 47-55 + Rgto. 17-18. open
 - OQ-2 — SOQ-40 (design pass): the 2001 FOVIAL control-account chain mapped onto DTE-embedded D1 tributo lines = THIS file's design (FR-244/245); confirm at FOVIAL-law acquisition. open
-- OQ-3 — SOQ-39/MOQ-04 (guard note): FOVIAL law + COTRANS instrument absent; FR-242's guard is instrument-independent; re-date provenance at acquisition. open
+- OQ-3 — SOQ-39/MOQ-04 (guard note): FOVIAL + COTRANS instruments owned (86_-89_); FR-242's guard unchanged, provenance re-dated ($0.20 = 88_; $0.10 = 89_ Art. 3). resolved (W19)
 - OQ-4 — Rate-cutover precision: D.L. 370 (1995) exact vigencia day unpinned; pre-reform 10% rests on the EVID-317 gloss. open
 
 ### 10_iva-credit-deductibility.md (3)

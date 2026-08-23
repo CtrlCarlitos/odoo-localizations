@@ -63,20 +63,20 @@ documented full-NIIF-vs-PYMES contrasts; where 33_ and 32_ could diverge,
 32_ governs without exception.
 
 **SOQ-46 instrument-gap note (rides every FR in this file and this
-wave):** the Norma itself is jurisdiction-neutral on who applies it —
-"Las decisiones sobre qué entidades están requeridas o autorizadas a
-utilizar las Normas NIIF de Contabilidad completas o la Norma de
-Contabilidad NIIF para las PYMES recaen en las autoridades legislativas y
-regulatorias y en los emisores de normas de las distintas jurisdicciones"
-(Prólogo P12; txt PAGE 22) — and the SV adopting instrument (Consejo de
-Vigilancia criteria per CC Arts. 443-444, or successor legislation) is
-NOT in the corpus (commercial-legal/03 OQ-002 tracks the same
-acquisition). Eligibility is therefore encoded as a CONFIG-GAP: the
-deferred-tax/adoption engine ships against the Norma as printed, NO
-quantitative SV thresholds or SV-specific adaptations are invented, and
-the per-company framework flag inherited from
-`01_framework-policies.md` SV-COA-FR-001 remains informational
-configuration.
+wave):** W18 identity verdict — the SV NIIF authority chain is OWNED:
+78_ (Ley Reguladora de Contaduría, D.L. 828-2000/D.L. 646-2017) = the
+Art. 36 authority; 77_ (Res. 462-2021) = the version-pinning adoption
+(NIIF-PYMES español-2015 + full NIIF español-2020); 76_ (Res. 154-2024,
+31-oct-2024) = the CURRENT NIIF-framework ratification incl. NIIF S1/S2,
+deroga Res. 175-2023. The criteria instrument (WHO must apply
+NIIF-PYMES vs full NIIF per CC Arts. 443-444, and any quantitative
+thresholds) is STILL UNFOUND — candidates Res. 175-2023 (derogated
+intermediate) / Res. 82-2024. SOQ-46 stays OPEN as an external watch
+(hunt continues outside the corpus); this file's config-gap discipline
+stands unchanged — the deferred-tax/adoption engine ships against the
+Norma as printed, NO quantitative SV thresholds or SV-specific
+adaptations invented, the framework flag inherited from
+`01_framework-policies.md` SV-COA-FR-001 informational.
 
 **Two-track invariant (binding, wave spine):** this file owns the
 ACCOUNTING-book deferred-tax bridge ONLY. Every fiscal quantity it

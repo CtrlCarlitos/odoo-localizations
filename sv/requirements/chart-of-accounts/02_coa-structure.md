@@ -69,19 +69,20 @@ no version/horizon fact or contrast is needed for the taxonomy and
 statement-architecture rules encoded here.
 
 **SOQ-46 instrument-gap note (rides every FR in this file and this
-wave):** the Norma itself is jurisdiction-neutral on who applies it —
-"Las decisiones sobre qué entidades están requeridas o autorizadas a
-utilizar las Normas NIIF de Contabilidad completas o la Norma de
-Contabilidad NIIF para las PYMES recaen en las autoridades legislativas y
-regulatorias y en los emisores de normas de las distintas jurisdicciones"
-(Prólogo P12; txt PAGE 22) — and the SV adopting instrument (Consejo de
-Vigilancia criteria per CC Arts. 443-444, or successor legislation) is
-NOT in the corpus (commercial-legal/03 OQ-002 tracks the same
-acquisition). The statement architecture encoded here therefore ships as
-the Norma's own printed rules with NO invented SV presentation overlays;
-it attaches to whatever company runs the NIIF-PYMES engine per the
-framework flag of `01_framework-policies.md` SV-COA-FR-001 (informational
-config, SOQ-53), never as a compliance gate.
+wave):** W18 identity verdict — the SV NIIF authority chain is OWNED:
+78_ (Ley Reguladora de Contaduría, D.L. 828-2000/D.L. 646-2017) = the
+Art. 36 authority; 77_ (Res. 462-2021) = the version-pinning adoption
+(NIIF-PYMES español-2015 + full NIIF español-2020); 76_ (Res. 154-2024,
+31-oct-2024) = the CURRENT NIIF-framework ratification incl. NIIF S1/S2,
+deroga Res. 175-2023. The criteria instrument (WHO must apply
+NIIF-PYMES vs full NIIF per CC Arts. 443-444, and any quantitative
+thresholds) is STILL UNFOUND — candidates Res. 175-2023 (derogated
+intermediate) / Res. 82-2024. SOQ-46 stays OPEN as an external watch
+(hunt continues outside the corpus); this file's config-gap discipline
+stands unchanged — NO invented SV presentation overlays, the statement
+architecture attaching to the framework flag of
+`01_framework-policies.md` SV-COA-FR-001 (informational config,
+SOQ-53), never as a compliance gate.
 
 | ID | Citation (Spanish) | English translation | Source file | Location |
 |----|--------------------|---------------------|-------------|----------|

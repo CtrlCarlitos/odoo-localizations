@@ -77,18 +77,19 @@ cited as contrasts only, with every FR's LB staying 32_; where 33_ and
 32_ could diverge, 32_ governs without exception.
 
 **SOQ-46 instrument-gap note (rides every FR in this file and this
-wave):** the Norma itself is jurisdiction-neutral on who applies it —
-"Las decisiones sobre qué entidades están requeridas o autorizadas a
-utilizar las Normas NIIF de Contabilidad completas o la Norma de
-Contabilidad NIIF para las PYMES recaen en las autoridades legislativas y
-regulatorias y en los emisores de normas de las distintas
-jurisdicciones" (Prólogo P12) — and the SV adopting instrument (Consejo
-de Vigilancia criteria per CC Arts. 443-444, or successor legislation) is
-NOT in the corpus (commercial-legal/03 OQ-002 tracks the same
-acquisition). Nothing in this file invents SV thresholds or SV-specific
-instruments, markets or rates: the classification, measurement, FV and FX
-machinery encodes the Norma as printed, and every jurisdictional
-parameter (functional currency, markets, rate feeds) is company config.
+wave):** W18 identity verdict — the SV NIIF authority chain is OWNED:
+78_ (Ley Reguladora de Contaduría, D.L. 828-2000/D.L. 646-2017) = the
+Art. 36 authority; 77_ (Res. 462-2021) = the version-pinning adoption
+(NIIF-PYMES español-2015 + full NIIF español-2020); 76_ (Res. 154-2024,
+31-oct-2024) = the CURRENT NIIF-framework ratification incl. NIIF S1/S2,
+deroga Res. 175-2023. The criteria instrument (WHO must apply
+NIIF-PYMES vs full NIIF per CC Arts. 443-444, and any quantitative
+thresholds) is STILL UNFOUND — candidates Res. 175-2023 (derogated
+intermediate) / Res. 82-2024. SOQ-46 stays OPEN as an external watch
+(hunt continues outside the corpus); this file's config-gap discipline
+stands unchanged — the classification/measurement/FV/FX machinery
+encodes the Norma as printed, every jurisdictional parameter (functional
+currency, markets, rate feeds) stays company config.
 
 **Two-clock spine (this file's most-loaded invariant):** (i) FX — the
 book engine of Sección 30 (transaction-date spot, closing-rate

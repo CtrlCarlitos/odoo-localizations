@@ -70,18 +70,19 @@ authority (never sole LB; where 33_ and 32_ could diverge, 32_ governs
 without exception); this file carries no 33_-anchored FR.
 
 **SOQ-46 instrument-gap note (rides every FR in this file and this
-wave):** the Norma itself is jurisdiction-neutral on who applies it —
-"Las decisiones sobre qué entidades están requeridas o autorizadas a
-utilizar las Normas NIIF de Contabilidad completas o la Norma de
-Contabilidad NIIF para las PYMES recaen en las autoridades legislativas y
-regulatorias y en los emisores de normas de las distintas jurisdicciones"
-(Prólogo P12; txt PAGE 22) — and the SV adopting instrument (Consejo de
-Vigilancia criteria per CC Arts. 443-444, or successor legislation) is
-NOT in the corpus (commercial-legal/03 OQ-002 tracks the same
-acquisition). Every hard encoding in this file is therefore the Norma's
-own printed rule: NO SV-specific quantitative deviation, threshold or
-override is invented — where the corpus is silent the surface stays
-config-gap (SOQ-46/SOQ-53 discipline).
+wave):** W18 identity verdict — the SV NIIF authority chain is OWNED:
+78_ (Ley Reguladora de Contaduría, D.L. 828-2000/D.L. 646-2017) = the
+Art. 36 authority; 77_ (Res. 462-2021) = the version-pinning adoption
+(NIIF-PYMES español-2015 + full NIIF español-2020); 76_ (Res. 154-2024,
+31-oct-2024) = the CURRENT NIIF-framework ratification incl. NIIF S1/S2,
+deroga Res. 175-2023. The criteria instrument (WHO must apply
+NIIF-PYMES vs full NIIF per CC Arts. 443-444, and any quantitative
+thresholds) is STILL UNFOUND — candidates Res. 175-2023 (derogated
+intermediate) / Res. 82-2024. SOQ-46 stays OPEN as an external watch
+(hunt continues outside the corpus); this file's config-gap discipline
+stands unchanged — every hard encoding is the Norma's own printed rule,
+NO SV-specific quantitative deviation, threshold or override invented
+(SOQ-46/SOQ-53 discipline).
 
 **Citation ruling (S8 controller, binding on this file):** the evidence
 file's blocks for Sección 16 and the FULL Sección 27 engine are thin —

@@ -114,10 +114,13 @@ rate-source and bridge-refresh halves open). Master-index SOQ register:
 | 07 | 3 | OQ-1 SOQ-46 + consolidation-applicability kin · OQ-2 fiscal basis divergence watch (Ley ISR Art. 14 vs book carrying; `08` owns the bridge) · OQ-3 KMP remuneration payroll feed design |
 | 08 | 5 | OQ-1 SOQ-48 (edition versioning; Tabla A1 artifact) · OQ-2 SOQ-50 (in-file ruling SV-COA-FR-258: no-NOL → capital-loss ledger only) · OQ-3 SOQ-51 (Pillar Two config-off) · OQ-4 SOQ-52 · OQ-5 consolidated-filing base practice (taxation-wave confirm) |
 
-SOQ-46 rides every file as the verification preamble (the SV adopting
-instrument is absent; the framework ships as a config-gap with NO invented
-SV thresholds; acquisition candidate ≥75 shared with
-commercial-legal/03 OQ-002). 33_ (EY guide) carries the NIIF 19
+SOQ-46 rides every file as the verification preamble (W18 identity
+verdict: authority chain OWNED — 76_/77_/78_ per the §2 notes of 01..08;
+the criteria instrument — WHO applies NIIF-PYMES vs full NIIF per CC
+Arts. 443-444 — STILL UNFOUND, candidates Res. 175-2023 [derogated] /
+Res. 82-2024; the framework ships as a config-gap with NO invented
+SV thresholds; external watch shared with commercial-legal/03 OQ-002).
+33_ (EY guide) carries the NIIF 19
 framework-flag third value (EVID-301) and the full-NIIF-vs-PYMES contrast
 set as SECONDARY-ONLY authority.
 

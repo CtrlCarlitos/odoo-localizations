@@ -304,10 +304,13 @@ vintage watch (§2 preamble) applies to every row above.
   público o de utilidad pública* excluded from ISR by DGII per ISR Art. 6
   that dedicate to granting financing — the institution-family and
   qualification flags recorded per payee (`ssf_supervised` ·
-  `cooperativa_ahorro_credito` · `bcr_calificada` — config gap: the
-  DGII+BCR joint instrument with the qualification procedure/requisites is
-  NOT in the corpus, SOQ-56; `isr6_excluded_financing`); a payee without
-  the corresponding flag yields a TAXED interest line.
+  `cooperativa_ahorro_credito` · `bcr_calificada` — sourced from the
+  BCR qualification list (SOQ-56 resolved, W18: 101_-105_ = the
+  DGII+BCR joint Instructivo the law mandates + circulars CD-39/2021 /
+  CD-24/2023 + the live lists; the exemption flag = BCR-list membership
+  with current per-institution vigencia; dated data — 104_/105_ as-of
+  08-ago-2026, refresh at wave cadence); `isr6_excluded_financing`); a
+  payee without the corresponding flag yields a TAXED interest line.
   (LB-010; EVID-314)
 - **SV-TAX-FR-220:** The system shall exempt the *emisión y colocación de
   títulos valores* (emission and placement of securities) by the Estado
@@ -426,7 +429,7 @@ restriction register below.
 | account.move.line | l10n_sv_iva_exempt_reason_id | m2o | Art. 46 a)-l) registry rows only | FR-214 |
 | res.partner | l10n_sv_iva_dgii_calificada, l10n_sv_iva_espectaculo_autorizado | boolean / boolean | 46-a utilidad-pública calification; 46-d double gate (calificado + autorizado) | FR-215 |
 | res.partner | l10n_sv_iva_mined_authorized | boolean (validated) | hard gate for 46-e education payments | FR-218 |
-| res.partner | l10n_sv_iva_fin_family | multi-select + flags | banco · ssf_supervised · cooperativa_ahorro_credito · bcr_calificada (config gap — SOQ-56) · isr6_excluded_financing | FR-219 |
+| res.partner | l10n_sv_iva_fin_family | multi-select + flags | banco · ssf_supervised · cooperativa_ahorro_credito · bcr_calificada (sourced from BCR qualification list — 101_-105_; dated list, as-of 08-ago-2026, refresh at cadence) · isr6_excluded_financing | FR-219 |
 | res.partner | l10n_sv_iva_title_issuer_kind | select | estado · oficial_autonoma · bolsa_primary_public_offering (46-g) | FR-220 |
 | product.template (SV extension) | l10n_sv_iva_transport_mode, l10n_sv_iva_insurance_branch | select / select | terrestrial · aerial · maritime (46-i gate); personas · reaseguro vs taxed branches (46-j) | FR-221, FR-222 |
 | account.move.line | l10n_sv_iva_interest_scope_only | boolean | 46-f/46-g exempt the interest component only (pago o devengo de intereses) | FR-219, FR-220 |
@@ -462,7 +465,7 @@ legalización date (a fact date, not a parameter date).
 | FR-216 | odoo | product.template (lease) + account.move.line | residential destination test | 46-b viviendas-para-la-habitación only; commercial/industrial/services leases stay taxed per 17-d (T1 FR-192 by id); mixed-use allocation [DESIGN — default allocation; statute silent] |
 | FR-217 | odoo | account.move.line | dependence/public-employee ground | 46-c labor-law relación de dependencia + public/municipal/autonomous employees |
 | FR-218 | odoo | res.partner (institution) | mined_authorized hard gate | 46-e stamp-11 inciso: ONLY values paid to MINED-authorized public/private institutions; non-authorized academies taxed |
-| FR-219 | odoo | res.partner + account.move.line | fin_family flags + interest_scope_only | 46-f: interest only (pago o devengo); SSF supervision · cooperativas · BCR-qualified foreign (config gap SOQ-56 — DGII+BCR joint instrument absent) · ISR-6-excluded financing corporations/foundations |
+| FR-219 | odoo | res.partner + account.move.line | fin_family flags + interest_scope_only | 46-f: interest only (pago o devengo); SSF supervision · cooperativas · BCR-qualified foreign (flag sourced from BCR qualification list — 101_-105_) · ISR-6-excluded financing corporations/foundations |
 | FR-220 | odoo | res.partner + account.move.line | title_issuer_kind + interest_scope_only | 46-g: Estado/oficiales autónomas + bolsa-primary-public-offering privates; interest only; non-bolsa private titles taxed |
 | FR-221 | odoo | product.template | transport_mode + utilities row | 46-h service-side utilities (NOT 167-A-subjected, unlike 45-h import-side); 46-i terrestrial only — air/sea passengers taxed per 17-m (T1 FR-192 by id) |
 | FR-222 | odoo | product.template (insurance/lottery) | insurance_branch + lottery ground | 46-j seguros de personas premiums + reaseguros general; other branches taxed; 46-l Lotería Nacional per its law |
@@ -479,7 +482,9 @@ sectoral-policies instrument is dated, then a dated exemption row with
 D15 as-of-tax-point qualification (SOQ-58). FR-213 anchors the 5-year
 window on the legalización date (dated row per vehicle, snapshot-on-write).
 FR-223 carries the SOQ-57 stale-anchor note (SAP → SIP, substance carried).
-FR-219 carries the SOQ-56 config-gap (BCR qualification instrument absent).
+FR-219's `bcr_calificada` is sourced from the BCR qualification list
+(SOQ-56 resolved, 101_-105_: exemption flag = list membership with
+current vigencia — dated data, refresh at wave cadence).
 The SOQ-54 consolidation watch rides every LB (§2 preamble) — re-verify
 against a current official consolidation at implementation.
 
@@ -560,7 +565,7 @@ against a current official consolidation at implementation.
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
 | OQ-1 | SOQ-54 (vintage): the 01_ consolidation's last reform stamp is D.L. 71-2015 and the 02_ Reglamento's is D.E. 117-2001 — post-2015/post-2001 reforms unverified until an official current consolidation is acquired; corpus-internal signals negative (DTE stack 44_/45_, Quincena-25 package 66_/67_, F-07 v14 manual all silent on later IVA-core reforms). Re-verify Arts. 44-46/66/71/167-A/174 + Rgto. Art. 16 at implementation; the watch rides every LB of this file (§2). | no | Takumi S9 (sources registry) | open |
-| OQ-2 | SOQ-56 (Art. 46-f BCR-qualification instrument absent): the exemption of foreign financial institutions' deposit/loan interest requires their previous BCR calificación, and the statute orders DGII+BCR to elaborate a joint instrument with the procedure/requisites — the instrument is NOT in the corpus. FR-219 ships institution flags as a config surface (`bcr_calificada` with qualification reference); onboarding must configure the real qualification register before trusting the 46-f gate. | no | Takumi S9 + Odoo implementation | open |
+| OQ-2 | SOQ-56 (Art. 46-f BCR-qualification instrument): **RESOLVED W18 (2026-08-22, instruments 101_-105_)** — the "instrumento necesario" the statute orders DGII+BCR to elaborate jointly EXISTS and is owned: 101_ Instructivo (DGII+BCR joint cover, base legal citing LIVA 46-f; CD-39/2021 → CD-24/2023 authorization per 102_/103_) + live qualification lists 104_/105_ (as-of 08-ago-2026). The exemption flag = BCR-list membership with current per-institution 1-year vigencia (Art. 46-f "PREVIAMENTE CALIFICADOS POR EL BANCO CENTRAL DE RESERVA" + the joint instrument — NOT an SSF banking-supervision flag); FR-219's `bcr_calificada` gains the dated-list data source (104_/105_, dated data — refresh at wave cadence); onboarding loads the current list instead of hand-keying qualifications. | no | Takumi S9 (list refresh) | **resolved** (W18; 101_-105_) |
 | OQ-3 | SOQ-57 (Art. 46-k stale SAP citation): the printed anchor cites Art. 16-b of the Ley del Sistema de Ahorro para Pensiones (D.L. 927-1996), superseded by D.L. 614 (SIP, effective 2022-12-29 — R23/R24 kin). FR-223 carries the exemption substance (pension-administration commissions) under the current regime with the stale anchor recorded as printed; re-verify the SIP-equivalent commission regime before final wiring of the AFP flags. | no | Takumi S9 (payroll/pension cross-check) | open |
-| OQ-4 | SOQ-58 (Art. 167-A kill-switch): the 45-h public water/alcantarillado import exemption dies at the vigencia of a future instrumento legal regulating the régimen de políticas sectoriales — the instrument is NOT in the corpus. FR-211 ships a NULL-valid_to dated row + watch; when the instrument is identified, configure its vigencia (and the explicit/categorical cessation it must define) and the D15 as-of-tax-point resolution does the rest; no retroactive re-classification. | no | Takumi S9 (sources registry) | open |
+| OQ-4 | SOQ-58 (Art. 167-A kill-switch): the 45-h public water/alcantarillado import exemption dies at the vigencia of a future instrumento legal regulating the régimen de políticas sectoriales — the instrument is NOT in the corpus. FR-211 ships a NULL-valid_to dated row + watch; when the instrument is identified, configure its vigencia (and the explicit/categorical cessation it must define) and the D15 as-of-tax-point resolution does the rest; no retroactive re-classification. **W18 (2026-08-22) watch refresh: instrument NOT issued as of 2026-08-22** (TF DC catalog CDX 15,385 URLs + DDG exact-phrase ×3 + Bing all negative); exemption ALIVE, kill-switch config slot stands, next check at wave cadence. | no | Takumi S9 (sources registry) | open |
 | OQ-5 | Reglamento de Transporte Terrestre spec gate: Art. 45-i conditions the vehicle exemption on meeting the distinguishing characteristics that regulation señala — the regulation is not in the corpus. FR-212 ships the spec gate as a config surface (spec checklist per vehicle class); obtain the current Reglamento de Transporte Terrestre vehicle specs (and the legalización/permiso-legal document feed for FR-213's 5-year register) before go-live. | no | Takumi S9 + Odoo implementation | open |
