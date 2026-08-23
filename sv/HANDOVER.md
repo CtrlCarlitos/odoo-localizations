@@ -76,7 +76,7 @@ boundary.**
    FR-245 gate satisfiable) + taxation/04 vintages mirrored to 91_-94_
    (OQ-003 resolved) + spe/01 pointer flips; +12 FRs = corpus 1,702;
    COVERAGE 81/9/2/12 gate green (96_ curated note only); the W19 §8
-   debts (a)(b)(c) all EXECUTATED; merge-pending at edit time (final
+   debts (a)(b)(c) all EXECUTED; merge-pending at edit time (final
    review + fix wave to come); see §5 wave log.**
    Remaining program: acquisition follow-ups (§8.2), SOQ/external watches,
    owner merge decisions.**
@@ -229,7 +229,7 @@ must grep ALL LB source columns of the new files.
   spe/01 OQ-6 + taxation/04 OQ-003 resolved; MOQ-04 stays closed;
   **SOQ-40/OQ-2 (taxation/09) still open — the D1-mapping design
   confirmation, now unblocked by the rewire**. The W19 §8 debts (a)(b)(c)
-  ALL EXECUTATED. Follow-ups: EV-bank hygiene queue (EVID-397 "sin
+  ALL EXECUTED. Follow-ups: EV-bank hygiene queue (EVID-397 "sin
   dedcción [sic OCR]" + dropped "se" — S9 ruling (g) precedent; rides
   this wave's final fix wave) + FR-244 OQ-2 phrasing (deferred minor).
   **Final whole-wave review + fix wave pending; merge-pending at edit
@@ -785,7 +785,7 @@ must grep ALL LB source columns of the new files.
       C1 + W18 + W19 COMPLETE and MERGED (W19 = the thirty-seventh
       §4.6 run, record in root HANDOVER) + **W20 taxation edit wave
       COMPLETE (1,702 FRs; merge-pending at edit time — merge record
-      in §1 at close)**. The W19 follow-on debts are ALL EXECUTATED in
+      in §1 at close)**. The W19 follow-on debts are ALL EXECUTED in
       W20: (a) SR8 rewire — taxation/09 COTRANS rows anchored to 89_,
       FR-245 gate satisfiable; (b) 96_ Chapter V 30%-withholding
       fold-in — taxation/17 SV-TAX-FR-405..416; (c) taxation-side 2025+

@@ -184,7 +184,7 @@ pass; 09's OQ-3 = SOQ-39/MOQ-04 kin; 10's OQ-2 = SOQ-18 kin; 13's OQ-2
 
 - OQ-001 — SOQ-02: $1,600 fixed-deduction proration (quincenal/semanal Tramo II) + ordering vs SS/AFP netting. open — working assumption implemented (FR-103/104)
 - OQ-002 — SOQ-03: D.E. 10-2025 provenance (publishing D.O. issue) + printed-digit anomalies. **resolved** (60_/EVID-171: effective 2025-05-08 confirmed; all anomaly digits gazette-original)
-- OQ-003 — SOQ-05: 2025/2026 aguinaldo transitory (standing 2-SMM rule assumed for 2025+). open
+- OQ-003 — SOQ-05: 2025/2026 aguinaldo transitory (standing 2-SMM rule assumed for 2025+). **resolved** (W20: 2025+ standing 2-SMM chain-verified — EVID-403 + 91_-94_ anchored; annual December re-check rides the encoding pass)
 - OQ-004 — Part-time without subordination: retention tables vs 10% honorarios rule. open
 - OQ-005 — Retention-decree chain gap D.E. 25-1992 → D.E. 95-2015 (pre-2025-05-08 tables absent). open
 - OQ-006 — 10_ 1992 vintage print anomalies (row-3 offsets, quincenal overlap, semanal typo). open
@@ -280,3 +280,10 @@ pass; 09's OQ-3 = SOQ-39/MOQ-04 kin; 10's OQ-2 = SOQ-18 kin; 13's OQ-2
 - OQ-3 — EV75 OQ-3: dictamen block (Arts. 58-72) restructured at the CT level post-2001 — FR-395 stays historical/awareness. open
 - OQ-4 — EV75 OQ-7: Art. 42 export-factura cross-ref "arts. 81 y 82" looks mis-pointed (consumer-sales book = Art. 83) — print anomaly [sic], no behavior keyed. open
 - OQ-5 — EV75 OQ-8, SOQ-06 kin: post-2001 repeal watch (CT Art. 344 ff) — extends to every 75_-cited LB. open
+
+### 17_foreign-agents-levy.md (4)
+
+- OQ-1 — RAEX reglamento not acquired (registration formats/directrices + Art. 5 exclusion-calificación practice — config-gaps). open
+- OQ-2 — AT-provided forms of Arts. 13/14 absent (retention document, entero form, report/informe formats); Art. 16 delegation = the acquisition-watch root. open
+- OQ-3 — RAES in-kind determination mechanics unknown ("cuando así lo determine" — config rows, no default enumeration). open
+- OQ-4 — Fiscal-reporting declaration surface for levy enteros/reports/informes unknown (future-wave pointer). open

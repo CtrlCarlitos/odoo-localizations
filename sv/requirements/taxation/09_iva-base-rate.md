@@ -470,7 +470,7 @@ watch (§2 preamble) applies to every row above.
   chain mechanics are 2001-GUIDE VINTAGE (31_ predates e-invoicing); the
   DTE mapping is DESIGN (SOQ-40), NOT statutory — no corpus instrument
   prescribes D1-on-chain-documents as the recovery mechanism; the rows are
-  labeled design and re-validate at instrument acquisition (OQ-2).
+  labeled design and re-validate at the OQ-2 design confirmation (instruments owned since W18).
   (LB-012; EVID-274; SOQ-40; SPE 08-file SV-SPE-FR-170/171/172)
 - **SV-TAX-FR-245:** **[DESIGN — SOQ-40]** The system shall ship
   the COTRANS side of the design pass CONFIG-GATED: the C8 tributo line
