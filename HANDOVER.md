@@ -551,11 +551,46 @@ expected and absorbed by instantiating the canon, never by forking it.
       print; the 506-vs-509 legal reading = OWNER DECISION; S-HN5
       DEFERRED).
 
-      **HN W12 merge 2026-08-22 (§4.6 protocol, thirty-fifth
-      run):** `hn-research` rebased onto `d4937f3` (1 commit
-      rewritten `c83c157`→`8ac5d6a`: the W12 GLIN re-grep wave;
-      zero conflicts — hn/-scoped only) then fast-forward-merged;
-      remote branch ref updated via delete + re-push. **HN = W12
+       **HN W13 merge 2026-08-23 (§4.6 protocol, thirty-sixth
+       run):** `hn-research` already on main tip `a34747b` + 1
+       commit `0fc2cbe` (the W13 watch-tick close-out; no rebase
+       rewrite needed, zero conflicts — hn/-scoped only) then
+       fast-forward-merged; plain push (no ref rewrite). **HN =
+       W13 WATCH-TICK SESSION ONLY: NO corpus change (166 files,
+       EVID-680, R-H1..R-H91 — all unchanged from the W12 merge).
+       The residual watch queue re-ticked, ALL CLEAN/NEGATIVE:**
+       (a) **2026 JD ceiling act watch (TOP)** — ENAG ago-2026
+       month listing re-enumerated (start=0..72): still ends at
+       `20260821-37226` (G 37,226, Fri 21-ago-2026; 22/23-ago =
+       weekend, no weekday issues since the W12 tick; septiembre
+       listing absent; the year index links months only) → no JD
+       ceiling act through 23-ago-2026; payroll/03 AC-006 blocking
+       config gap = the LIVE state; next meaningful tick = Mon
+       24-ago-2026. (b) **CbCR restatement comunicado**
+       (FREP/10 OQ-024) — SAR wp-json negative ("comunicado país
+       por país"/"653-2023" empty; only hits = FYDUCA FAQ noise);
+       suspended row stands. (c) **D. 96-2012 / "Acuerdo 799" /
+       D. 247-89 watch class** — Wayback CDX delta vs the W11/W12
+       re-greps: zero new captures of congreso.gob.hn (from
+       21-ago), zero new ihss.hn PDFs (from 1-ago), zero new
+       trabajo.gob.hn → nothing to re-grep (trigger = a new
+       enumeration landing, per the W8 recipe). (d) DGS SMM 2027
+       promedio: not due until early-2027. (e) SEE docs: no route
+       (lead 1). Fold-ins: EXTRACTION_PLAN wave-log W13 entry +
+       RESEARCH §5 dated WATCH TICK line + hn/HANDOVER header/
+       session-state. Next per `hn/HANDOVER.md` §6: the residual
+       watch queue unchanged (TOP: the 2026 JD ceiling act watch
+       via the Sección-A certificaciones route, next tick Mon
+       24-ago; D. 96-2012; CbCR restatement comunicado;
+       "Acuerdo 799" TEXT + D. 247-89 [the OQ-008 cap-window key];
+       SEE docs; DGS SMM 2027 promedio print early-2027; S-HN5
+       DEFERRED).
+
+       **HN W12 merge 2026-08-22 (§4.6 protocol, thirty-fifth
+       run):** `hn-research` rebased onto `d4937f3` (1 commit
+       rewritten `c83c157`→`8ac5d6a`: the W12 GLIN re-grep wave;
+       zero conflicts — hn/-scoped only) then fast-forward-merged;
+       remote branch ref updated via delete + re-push. **HN = W12
       ACQUISITION WAVE (TWO files, corpus 164→166; EVID-665..680,
       next EVID 681): the Código de Comercio + CT-original pair,
       both from the GLIN archive of the old official

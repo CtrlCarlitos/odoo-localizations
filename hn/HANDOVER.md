@@ -979,6 +979,11 @@ R-H1..R-H91; next EVID = 681. **Next = the residual watch queue (TOP: the
 tick Mon 24-ago; D. 96-2012 watch; CbCR restatement comunicado watch;
 "Acuerdo 799" TEXT + D. 247-89 watch [the OQ-008 cap-window key]; SEE
 docs; DGS SMM 2027 promedio print early-2027; S-HN5 DEFERRED).**
+[W13 MERGED to main 2026-08-23 — thirty-sixth §4.6 run: branch already on
+main tip `a34747b` + 1 commit `0fc2cbe` (no rebase rewrite needed, zero
+conflicts), fast-forward + plain push; main carries HN through the W13
+watch-tick close-out — corpus/EVID/rulings unchanged at 166 files /
+EVID-680 / R-H91.]
 
 Session state at stop (2026-08-22, W12 GLIN re-grep wave — committed on
 `hn-research`, MERGED to main same-day): evidence COMPLETE
