@@ -70,14 +70,17 @@ boundary.**
    textual conflict on the T8 bookkeeping commit vs the main-side W18
    merge record 56ee669, resolved keep-both; pre-rebase SHAs
    e86e100..c188c6c superseded by 6ab5a6a..33deaaa); see §5 wave log.**
-   **W20 taxation edit wave (2026-08-23): COMPLETE — 96_ D.L. 308-2025
-   Chapter V foreign-agents levy fold-in: NEW taxation/17
-   (SV-TAX-FR-405..416) + taxation/09 SR8 rewire (COTRANS rows → 89_,
-   FR-245 gate satisfiable) + taxation/04 vintages mirrored to 91_-94_
-   (OQ-003 resolved) + spe/01 pointer flips; +12 FRs = corpus 1,702;
-   COVERAGE 81/9/2/12 gate green (96_ curated note only); the W19 §8
-   debts (a)(b)(c) all EXECUTED; merge-pending at edit time (final
-   review + fix wave to come); see §5 wave log.**
+    **W20 taxation edit wave (2026-08-23): COMPLETE — 96_ D.L. 308-2025
+    Chapter V foreign-agents levy fold-in: NEW taxation/17
+    (SV-TAX-FR-405..416) + taxation/09 SR8 rewire (COTRANS rows → 89_,
+    FR-245 gate satisfiable) + taxation/04 vintages mirrored to 91_-94_
+    (OQ-003 resolved) + spe/01 pointer flips; +12 FRs = corpus 1,702;
+    COVERAGE 81/9/2/12 gate green (96_ curated note only); the W19 §8
+    debts (a)(b)(c) all EXECUTED; **final whole-wave review
+    USABLE-WITH-FIXES → one fix wave PASS (efa4370: index OQ-003 flip +
+    per-file 17 OQ section, 09 OQ-2 phrasing reword, EXECUTED typo ×4,
+    EVID-397 hygiene per S9 ruling (g)) = MERGE-READY; commits
+    81e0906..efa4370; pushed sv-research**; see §5 wave log.**
    Remaining program: acquisition follow-ups (§8.2), SOQ/external watches,
    owner merge decisions.**
 
@@ -268,6 +271,39 @@ must grep ALL LB source columns of the new files.
    taxation/09 rewords = SR8 backlog). Commits ecd553d..67f75bc;
    pushed sv-research. **Merged to main at 33deaaa same day —
    thirty-seventh §4.6 run; see §1 record.**
+
+### W20-process rulings (2026-08-23, preserved from the SDD ledger before workspace deletion)
+
+- **(a)** T1 quote-fidelity ruling: where the EV bank and the primary
+  extraction txt diverge on an unambiguous OCR artifact (EVID-397's
+  "sin dedcción [sic OCR]" vs the txt's normalized "sin deducción
+  alguna"), the TXT governs the LB/FR quotes; the variant survives only
+  in non-quote notes. EV-bank transcription fixes ride fix waves per the
+  S9 ruling (g) precedent (EVID-397 hygiene landed in the W20 fix wave).
+- **(b)** T1 fix round: TWO reviewer-prescribed edits were rejected by
+  the implementer on direct txt evidence (txt L48 prints `de lo
+  "dispuesto`; L50 is blank) — re-review UPHELD both rejections (W17
+  ruling (a) kin: evidence-based implementer override of a review
+  pointer defect, grep-evidenced).
+- **(c)** Controller applied the W20-A citation-rule amendment as a
+  verified one-liner post-T1 (S9 ruling (b) precedent).
+- **(d)** T4: a curated COVERAGE_NOTES refresh was sanctioned by the
+  reviewer's prescription (supersedes the wave's no-manual-edit default
+  for the 96_ row — the scanner half already listed taxation/17's LB
+  cites, so the stale curated gloss self-contradicted).
+- **(e)** T5 review routed the taxation/00_index per-file OQ-003 stale
+  "open" marker (a T3/T4 edit-set split) to the final fix wave — the
+  wave owns index consistency; the fix wave added the per-file 17 OQ
+  section on the same precedent (W17 pattern).
+- **(f)** Final-review triage stands: the indexes' prose "85 open /
+  6 resolved" watch-flavor totals = house convention (registers are the
+  record); narrative reflow + report token-count minors = ignore.
+- **(g)** Mechanical: `build_coverage.py --check` REQUIRES the country
+  arg (`sv --check`); bare `--check` misparses as the country and
+  errors.
+- **(h)** The "EXECUTATED" ×4 typo originated in a controller dispatch
+  and was faithfully carried into files — fixed in the fix wave; lesson:
+  proofread controller-authored fact strings before dispatch.
 
 ### W19-process rulings (2026-08-23, preserved from the SDD ledger before workspace deletion)
 
