@@ -6,7 +6,7 @@
 | Topic   | payroll |
 | Status  | draft |
 | Authors | GT synthesis wave S-GT3 |
-| Updated | 2026-08-20 |
+| Updated | 2026-08-23 |
 
 ## 1. Purpose
 
@@ -81,9 +81,11 @@ commemorative MinTrabajo print of indeterminate consolidation cutoff: latest
 printed annotation D18-2001 with demonstrably later unannotated content —
 GOQ-70/71; the R44 mitigation is the qualifier carried on every CT row
 below). This file's LB slice is EVID-291..296 (EV03a). The IGSS-side
-maternity program split is EVID-309 (EV03b) — cross-referenced BY ID ONLY,
-no LB row here (the employer-pay branch of Art. 152 b) is CT-side and
-LB-anchored below). The ISR perception-rule anchors GT-TAX-FR-111/112 are
+maternity program split is EVID-309 (EV03b) — cross-referenced by id;
+since 2026-08-23 (W-GT8) the SEM-reglamento side is ALSO LB-anchored
+here as LB-022 (JD Acuerdo 410 as amended by 1154 — the Art. 152 b)
+interface anchor); the employer-pay branch itself stays CT-side, LB-010
+below. The ISR perception-rule anchors GT-TAX-FR-111/112 are
 external ids consumed by id. Gloss-level rows are marked as such (no
 Spanish verbatim exists in this file's evidence slice for them; the source
 txt layer is cited for corroboration only).
@@ -111,6 +113,8 @@ txt layer is cited for corroboration only).
 | LB-019 | CT art. 149 (texto según edición conmemorativa 2024, MinTrabajo): diurnal jornada reduced "a) En una hora diaria y en seis horas a la semana para los mayores de catorce años; y b) En dos horas diarias y en doce horas a la semana para los jóvenes que tengan esa edad o menos, siempre que el trabajo de éstos se autorice conforme al artículo 150 siguiente." ["esa edad" = catorce, as context shows — EVID-296 doubts] | Art. 149: the ordinary DIURNAL jornada of Art. 116 ¶1 is REDUCED for minors: a) by ONE hour daily and SIX hours weekly for those OVER fourteen; b) by TWO hours daily and TWELVE hours weekly for those aged fourteen or less, whenever their work is authorized per Art. 150; IGT-authorized lesser reductions are also possible | `gt/sources/32_Codigo_Trabajo_D1441.pdf` | Art. 149 pp.72-74 (EVID-296) |
 | LB-020 | CT art. 150 (texto según edición conmemorativa 2024, MinTrabajo) (gloss-level per EVID-296): Inspección General de Trabajo may authorize in exceptional cases work of under-14s (learning/family-economy need, light work, schooling) | Art. 150 (gloss): the IGT may extend, in duly-qualified exceptional cases, WRITTEN authorizations permitting ordinary diurnal work of under-14s, or reducing (totally or partially) the Art. 149 jornada reductions; applicants must prove the minor will work as apprenticeship or from family-economy necessity (extreme poverty), that the work is light in duration and intensity and compatible with the minor's health, and that schooling obligations are met in some form; each authorization records the minimum protection conditions | `gt/sources/32_Codigo_Trabajo_D1441.pdf` | Art. 150 pp.72-74 (EVID-296, gloss) |
 | LB-021 | CT art. 151 a)-b) (texto según edición conmemorativa 2024, MinTrabajo): job ads may not specify "sexo, raza, etnia y estado civil" nor "hacer diferencia entre mujeres solteras y casadas y/o con responsabilidades familiares" | Art. 151 a)-b): job advertisements may not specify sex, race, ethnicity or marital status as a requirement (save nature-of-the-job exceptions with IGT + Oficina Nacional de la Mujer authorization), and employers may not differentiate between single and married women and/or women with family responsibilities — recorded here as recruitment-surface metadata; NON-COMPUTATIONAL, no FR in this file | `gt/sources/32_Codigo_Trabajo_D1441.pdf` | Art. 151 a)-b) p.74 (EVID-296) |
+
+| LB-022 | IGSS JD Acuerdo 410, Reglamento sobre Protección Relativa a Enfermedad y Maternidad (consolidation stamp 28-05-2018, operative content ≥ Oct-2020), Art. 6 as amended by JD Acuerdo 1154 (2005; primary print `105_`): "Artículo 6o.- (Modificado por el Artículo 1 del Acuerdo 1154 de la Junta Directiva, publicado en el Diario Oficial el 05 de agosto del 2005, vigente el mismo día de su publicación). El derecho al subsidio diario de enfermedad se otorga al trabajador afiliado, siempre que dentro de los seis meses calendario anteriores al mes en que se inicie la incapacidad, haya contribuido en tres períodos o meses de contribución. Para la mujer afiliada se toman en cuenta los períodos o meses de goce del subsidio de maternidad, según el Artículo 26., al efecto del cómputo de esos tres períodos o meses de contribución". / Art. 25 b) (Reformado por Acuerdo 519, 1972): "b) Durante los descansos pre y postparto, en la proporción del ciento por ciento del salario diario base." / Art. 26 (Reformado por Acuerdo 965, 1993): "El subsidio de maternidad se paga durante los treinta días anteriores al día de la fecha probable del parto, incluida ésta, debidamente certificada por médico del Instituto, y durante los cincuenta y cuatro días posteriores al parto. El derecho a gozar del subsidio está supeditado al reposo efectivo de la trabajadora afiliada, quien debe abstenerse de todo trabajo remunerado mientras reciba subsidio por maternidad." | The IGSS-side maternidad subsidio anchor for the CT Art. 152 b) interface (LB-010/FR-116): the CT supplies job protection (inamovilidad, Art. 151 c)-e)) and the employer-pay default; Acuerdo 410 supplies the social-security WAGE REPLACEMENT that suppresses the employer line for the IGSS-covered worker. Qualification = 3 períodos/months of contribution within the 6 calendar months preceding the month the incapacidad starts (art. 6; maternidad-goce months CREDIT toward the 3 per the art. 26 hook; the maternidad-specific anchor is art. 23's 3/6 before the prenatal reposo, with the unmet-condition patrono fallback per CPR art. 102 + CT art. 152 — EVID-1143); quantum = 100% of the salario diario base during the pre/postparto rests (art. 25 b); pregnancy illness short of the rests = 2/3 per art. 25 a); duration = 30 días prenatal (up to the fecha probable del parto, incluida ésta, IGSS-médico certified) + 54 días postnatal = 84 días TOTAL, printed in DAYS — NO "12 semanas" wording exists anywhere in the reglamento (the CT-vs-410 84-día concordance is now primary-sourced; art. 26's early-birth day-for-day postnatal prolongation mirrors the CT Art. 152 roll-forward of FR-112); the subsidio is conditioned on REPOSO EFECTIVO (the afiliada must abstain from all remunerated work while receiving it). NOTE: NO operative cuota rates in Acuerdo 410 — art. 62's 4%/2%/1% are the superseded 1964 originals, departamento de Guatemala only per art. 85 (operative SEM financing rates external — GOQ-04, EVID-1151/1155); salario-diario-base computation delegated to JD Acuerdo 468 (file 07 domain). (Open in evidence only, OQ-104.6: art. 6's 3/6 vs art. 84 Bis's 4/6 for post-2005 affiliates — unharmonized in print.) | `gt/sources/104_IGSS_Acuerdo410_SEM_rev2018.pdf` + `gt/sources/105_IGSS_Acuerdo1154_SEM.pdf` | Art. 6 p.4 (EVID-1136; `105_` p.1, EVID-1157); Art. 25 p.11 (EVID-1144); Art. 26 pp.12-13 (EVID-1145); identity/lifecycle pp.1, 29-30 (EVID-1132) |
 
 Version regime (D15/D16): NO dated data is owned by this file. Every value
 cited here (15 días hábiles, 150 days, 60 days, 3-month/12-month windows,
@@ -247,9 +251,11 @@ re-keys per the IGSS instruments owned by `07_igss-contributions.md`.
   covered by IGSS benefits (*acogida a los beneficios del Instituto
   Guatemalteco de Seguridad Social*), in which case the IGSS reglamentos
   govern and the employer line is suppressed — the IGSS program mechanics
-  are owned by `07_igss-contributions.md` (by filename; EVID-309
-  cross-referenced by id only, no LB row here); the branch selection is a
-  per-worker coverage flag on the leave record. (LB-010; EVID-293)
+  are owned by `07_igss-contributions.md` (by filename; EVID-309 by id —
+  the reglamento-side anchor is LB-022: Acuerdo 410 arts. 23-26 —
+  qualification 3/6, 100% of the salario diario base, 30+54 = 84 días);
+  the branch selection is a
+  per-worker coverage flag on the leave record. (LB-010; LB-022; EVID-293)
 - **GT-PAY-FR-117:** The system shall compute the maternity-rest pay value
   from the Art. 154 bases (gloss-level, LB-013): an ordinary+extraordinary
   salary AVERAGE — time-unit pay over the last SIX months or fraction,

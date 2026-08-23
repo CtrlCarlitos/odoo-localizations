@@ -28,8 +28,9 @@ Importaciones, the paper-document modules and their scoping, auto-detected
 surfaces including the one-time immutable *último folio* (last folio) capture;
 the in-system declaration generation (SAT-2046 for PC; masked form numbers for
 the especial/electrónico regimes); the report inventories; the
-electrónico-regime 4%-within-10-*días hábiles*/5% tariff rule (a rate rule,
-NOT a filing deadline); the Informe Electrónico attestation flow (auto DTE
+  electrónico-regime 4%-within-10-*días hábiles*/5% tariff rule (a rate rule,
+  NOT a filing deadline; statute-anchored to D-27-92 art. 54 "E" and
+  time-boxed 2019 → 2025-08-09 — LB-026); the Informe Electrónico attestation flow (auto DTE
 search, two FEL-coverage questions, *carga masiva* (mass upload) with its
 100%-processed gate, PDF *constancia*, SAT-side *en/fuera de tiempo*
 (on/over time), full-flow rectificación); and the cross-cutting guards (all
@@ -94,7 +95,7 @@ and the 57_/58_/82_/59_ committed text layers. Dated rows follow D15/D16
 | LB-015 | 82_ Requisitos + Aclaraciones: "1 Contar como mínimo con un establecimiento en estado Activo. 2 Contar con habilitación de libros computarizados de compras y ventas en estado Activo. 3 Aplica para los contribuyentes afiliados al… IVA— en alguno de los regímenes siguientes: ➢ Especial de Contribuyente Agropecuario, ➢ Electrónico de Pequeño Contribuyente y ➢ Electrónico Especial de Contribuyente Agropecuario." / same Aclaraciones as 57_: ventas "no podrás realizar ningún cambio" / compras by selection, cierre emptiable / "(*)" obligatorios | Identical eligibility gate and identical data asymmetry as 57_: the two combined-book populations (PC + RegEspeciales) share ONE LET interaction model — one engine, regime flavors | `gt/sources/82_SAT_LET_RegEspeciales_Manual.pdf` (via txt) | pp.3, 6 (EVID-465) |
 | LB-016 | 82_ flow-to-declaration (PC-mirror): "…Si al seleccionar el período este corresponde a uno generado previamente…" / "…todas las FEL emitidas/recibidas en el período… Refrescar…" / "Si cuentas con documentos en papel que requieras reportar, selecciona el apartado Detalle de Documentos en Papel Recibidos…" / "El sistema detecta las constancias de retención… te muestra el rubro…" / "Si es la primera vez que usas el libro… el número del último folio utilizado…" / "Para generar la declaración presiona el botón Generar Formulario." / "Se te mostrará el número de formulario y acceso que el sistema te generó." (masked "00000000") / "Si el valor a pagar es igual a cero «0»… fecha de nacimiento o constitución…" / "…Declaraguate e imprimir la Boleta SAT-2000…" | Full PC-mirror flow (periods, FEL feeds, constancias, folio, zero-pay, SAT-2000/banca) with ONE printed difference: paper module described for Recibidos only (electronic regimes issue FEL by definition); form number masked | `gt/sources/82_SAT_LET_RegEspeciales_Manual.pdf` (via txt) | pp.10-15 (EVID-466) |
 | LB-017 | 82_ glosario (Especial Agropecuario): "Régimen Especial de Contribuyente Agropecuario: Persona individual que desarrolle actividades de producción y comercialización en el sector agropecuario, cuyo monto de ventas no exceda los tres millones de Quetzales (Q.3,000,000.00) dentro del año fiscal…, cuya tarifa… es del 5% de forma mensual. Sus facturas no generan derecho a crédito fiscal y únicamente debe llevar el libro de compras y ventas habilitado… Capítulo VIII del Decreto 27-92…" | Secondary print of the (non-electrónico) Especial Agropecuario regime: persona individual, agro producción/comercialización, ≤ Q3,000,000 per año fiscal, 5% mensual, no crédito fiscal, single book; statutory cite Cap. VIII D27-92 | `gt/sources/82_SAT_LET_RegEspeciales_Manual.pdf` (via txt) | p.21 Glosario (EVID-467) |
-| LB-018 | 82_ glosario (electrónico regimes): "Régimen Electrónico de Pequeño Contribuyente y Régimen Electrónico Especial de Contribuyente Agropecuario: Persona individual para el caso de los que desarrolle [sic] actividades… agropecuario y persona individual o jurídica para los contribuyentes que se acojan al Régimen Electrónico de Pequeño Contribuyente, quienes deben registrar una cuenta bancaria ante SAT, emitir facturas electrónicas en todas sus ventas y por las cuales no generaran [sic] derecho a crédito fiscal. La tarifa aplicable… es del 4% de forma mensual si presenta la declaración dentro de los primeros 10 días hábiles del mes inmediato siguiente al mes vencido, posterior a esos días deben de tributar por el 5%. Capítulo IX del Decreto 27-92…" | THE deadline-linked tariff rule of the electrónico regimes: 4% monthly if the declaración is filed within the first 10 días hábiles of the following month, else 5%; preconditions: bank account registered with SAT, FEL-mandatory sales, no crédito fiscal; Electrónico PC = individual o jurídica, Electrónico Agro = individual; Cap. IX D27-92 — a RATE rule, not a LET filing deadline (GOQ-107) | `gt/sources/82_SAT_LET_RegEspeciales_Manual.pdf` (via txt) | p.21 Glosario (EVID-468) |
+| LB-018 | 82_ glosario (electrónico regimes): "Régimen Electrónico de Pequeño Contribuyente y Régimen Electrónico Especial de Contribuyente Agropecuario: Persona individual para el caso de los que desarrolle [sic] actividades… agropecuario y persona individual o jurídica para los contribuyentes que se acojan al Régimen Electrónico de Pequeño Contribuyente, quienes deben registrar una cuenta bancaria ante SAT, emitir facturas electrónicas en todas sus ventas y por las cuales no generaran [sic] derecho a crédito fiscal. La tarifa aplicable… es del 4% de forma mensual si presenta la declaración dentro de los primeros 10 días hábiles del mes inmediato siguiente al mes vencido, posterior a esos días deben de tributar por el 5%. Capítulo IX del Decreto 27-92…" | THE deadline-linked tariff rule of the electrónico regimes: 4% monthly if the declaración is filed within the first 10 días hábiles of the following month, else 5%; preconditions: bank account registered with SAT, FEL-mandatory sales, no crédito fiscal; Electrónico PC = individual o jurídica, Electrónico Agro = individual; Cap. IX D27-92 — a RATE rule, not a LET filing deadline (GOQ-107); statute-anchored by LB-026: D-27-92 art. 54 "E" (added D-7-2019 art. 8), time-boxed 2019 → 2025-08-09 (derogated by D-31-2024 art. 25) | `gt/sources/82_SAT_LET_RegEspeciales_Manual.pdf` (via txt) | p.21 Glosario (EVID-468) |
 | LB-019 | 59_ identity + hook: "Manual del Usuario — Informe Electrónico de Compras y Ventas — Guatemala, diciembre 2023" / "El presente manual brinda soporte al contribuyente catalogado como Especial para el cumplimiento de la obligación establecida en el artículo 57 “D” del Decreto Número 27-92 del Congreso de la República de Guatemala." / "Requerimientos Básicos…: Contar con acceso a la Agencia Virtual; Estar actualizado en RTU Digital; Aplica a contribuyentes clasificados como Especiales" / "Ingresa tu usuario: NIT del Contribuyente Especial" | The Informe Electrónico = a Contribuyente Especial obligation hung on art. 57 "D" D27-92 (only printed hook); dated diciembre 2023; prerequisites Agencia Virtual + RTU Digital current; login user = the Especial's NIT; the reform instrument adding literal D is not in the corpus (GOQ-108) | `gt/sources/59_SAT_InformeComprasVentas_Manual.pdf` (via `gt/.extractions/59_SAT_InformeComprasVentas_Manual.pdf.txt`) | pp.1-3 (EVID-469) |
 | LB-020 | 59_ attestation flow: "…los campos para ingresar los parámetros de consulta del período a presentar. a. Mes… b. Año… c. Consultar…" / "Al seleccionar la opción Consultar, el sistema busca de forma automática que existan registros de Documentos Tributarios Electrónicos (DTE) emitidos y/o recibidos, al encontrar registros mostrará la pregunta siguiente ¿Todas sus ventas las factura a través del Régimen de Factura Electrónica en Línea –FEL-? Selecciona la opción SI para continuar…" / "…¿Todas sus compras locales reciben DTE generados a través del Régimen de Factura Electrónica en Línea –FEL-? Selecciona la opción SI… Si posee compras realizadas por medio de documentos pre impresos, realice lo indicado en el numeral 3.2" | The informe is a monthly (Mes+Año) attestation flow, not a data upload: SAT auto-searches the period's DTE and the taxpayer answers two FEL-coverage questions (all sales FEL?; all local purchases FEL-DTE?); SI/SI = 100%-FEL direct path; NO on purchases diverts to the paper-upload path (LB-021) | `gt/sources/59_SAT_InformeComprasVentas_Manual.pdf` (via txt) | pp.3-6 §§1-3.1 (EVID-470) |
 | LB-021 | 59_ carga masiva: "3.2.3. …selecciona la opción Carga Masiva de Documentos Tributarios en papel para cargar los documentos pre impresos." / "3.2.4. …debes ingresar los parámetros siguientes: a. Mes al que corresponde la carga… b. Año…" / "3.2.5. …cargar el archivo seleccionando la opción a. Subir Archivo" / "3.2.6. Elige el botón Cargar…" / "3.2.8. El sistema te enviará la notificación sobre el resultado de la carga realizada al correo electrónico registrado en la Agencia Virtual." / "3.2.9. …puedes consultar el resultado… “Consulta Archivos de Carga Masiva”" / "a. Si los registros fueron procesados con éxito en su totalidad puedes continuar con la presentación del Informe. b. Si los registros no fueron procesados debes volver a realizar la carga corrigiendo los errores." | Non-FEL local purchases reconciled via period-scoped mass upload; result by e-mail + queryable; HARD GATE: ALL records must process successfully before the informe proceeds — partial success forces corrected re-upload; file format/extension/layout NOT printed (GOQ-108) | `gt/sources/59_SAT_InformeComprasVentas_Manual.pdf` (via txt) | pp.7-12 §§3.2.1-3.2.12 (EVID-471) |
@@ -102,6 +103,7 @@ and the 57_/58_/82_/59_ committed text layers. Dated rows follow D15/D16
 | LB-023 | NEGATIVE (all four manuals): the only field-level strings reaching the text layer: "Todos los campos con (*) dentro del sistema son obligatorios" (57_/82_ p.3; 58_ p.3 "de llenado obligatorio") / "NIT:" "Nombre:" (login bars) / "completa las casillas que se te piden" (57_ p.14, 82_ p.13) / resumen captions only — book grids, resumen totals, papel-entry forms, carga-masiva template and report column sets are ALL images | No column-by-column book layout (field name, type, format, required flag) exists in any text layer — layouts must NEVER be guessed; export-layout surfaces stay blocked until a layout source is acquired (GOQ-105/EVID-473) | `gt/sources/57_…/58_…/82_…/59_…` (via txt layers) | throughout, e.g. 57_ pp.10-16; 58_ pp.11-17; 82_ pp.10-15; 59_ pp.4-15 (EVID-473) |
 | LB-024 | Printed-citation inventory (complete, all four manuals): "Capítulos V y VI del Decreto 27-92…" (57_ glosario) / "Capítulo VIII del Decreto 27-92" + "Capítulo IX del Decreto 27-92" (82_ glosario) / "artículo 57 “D” del Decreto Número 27-92…" (59_ p.2) / "Decreto Número 27-92 … y sus reformas" (58_ glosario) / "el artículo 5 numeral 4 de la ley de Timbres Fiscales y de Papel Sellado Especial para Protocolos" (three glosarios, idéntico) / "Decreto 10-2012…" + "artículo 38" + "Artículos del 14 al 42" (58_ glosario) / forms: "SAT-2046 «IVA Pequeño Contribuyente»" (57_), "Boleta SAT-2000" (57_ p.16, 82_ p.15) | The hunting map: EVERY instrument cited across the four manuals; NO SAT resolution number creating/regulating LET is printed anywhere — hooks only (GOQ-106); never assert a resolution number | `gt/sources/57_…/58_…/82_…/59_…` (via txt) | 57_ pp.16, 22; 58_ pp.5, 23; 82_ p.21; 59_ p.2 (EVID-474) |
 | LB-025 | Paper-books bridge (three manuals): "Contar con habilitación de libros computarizados de compras y de ventas … en estado Activo" (Requisitos) / "Si es la primera vez que usas el libro, el sistema te solicitará que ingreses el número del último folio utilizado, no podrás modificar este datos posterior a su resguardo." / "Asignación de folios: Función automática que realiza el sistema LET, reconociendo el número de hojas habilitadas por el contribuyente, de conformidad con el artículo 5 numeral 4 de la ley de Timbres Fiscales…" (glosarios, identical) | LET is the electronic continuation of the authorized computerized-books regime: entry requires an active habilitación; LET assigns folios automatically against the hojas habilitadas (Timbres art. 5 num. 4); first use imports the último folio irreversibly — the flow as printed here, S-GT5 C2 cross-ref pointer only | `gt/sources/57_…/58_…/82_…` (via txt) | 57_ pp.6, 15, 22; 58_ pp.6, 12, 17, 23; 82_ pp.6, 14, 21-22 (EVID-475) |
+| LB-026 | 99_ D-27-92 consolidated print, Cap. IX — art. 54 "E", the statute behind the electrónico 4%/5% rule: "ARTÍCULO 54 "E". Régimen Electrónico de Pequeño Contribuyente y Régimen Electrónico Especial de Contribuyente Agropecuario. *" / "Los contribuyentes que soliciten su incorporación a este régimen, en todas sus ventas están obligados a emitir factura electrónica de pequeño contribuyente o contribuyente agropecuario, según corresponda, y estarán afectos a un tipo impositivo reducido del cuatro por ciento (4%) en sustitución del cinco por ciento (5%) establecido en los artículos 47 y 54 "A"." / "El contribuyente deberá registrar ante la Administración Tributaria una cuenta bancaria y autorizar a esta para que el décimo día hábil de cada mes calendario, debite automáticamente de dicha cuenta el monto equivalente a aplicar el tipo impositivo del cuatro por ciento (4%) sobre el total de ingresos reportados en el mes inmediato anterior, de conformidad con las facturas electrónicas emitidas para tal efecto." / "El contribuyente que no tenga los fondos suficientes para cubrir el impuesto de este régimen en la fecha establecida, presentará la declaración dentro de los días que faltan para finalizar el mes calendario, pagando un tipo impositivo del cinco por ciento (5%) sobre el valor de los ingresos reportados en el mes inmediato anterior, de conformidad con las facturas electrónicas emitidas para tal efecto, sin que ello implique su exclusión del Régimen Electrónico de Pequeño Contribuyente y Régimen Especial de Contribuyente Agropecuario." / footnote: "*Adicionado por el Artículo 8 del Decreto Número 7-2019 del Congreso de la República." | Interpretation: (i) the 4%-within-10-días-hábiles rule = D-27-92 art. 54 "E" (added D-7-2019 art. 8) — NOT a LET deadline: GOQ-107's TARIFF-not-LET ruling is now statute-anchored (4% EN SUSTITUCIÓN del 5% of arts. 47/54 "A", collected by automatic bank debit on the décimo día hábil; 5% fallback only on insufficient funds, declared within the days remaining in the month, no exclusion); (ii) the whole 54 "E"/"F" electrónico pair was TIME-BOXED 2019 → 2025-08-09, derogated by D-31-2024 art. 25 (cross-ref 85_/W-GT7 EVID-819 — registry cross-note, NOT printed in 99_): every 4%/5% tariff row in this file carries valid_from 2019 / valid_to 2025-08-09 (D15 discipline) and must NOT be modeled as a current live rate; (iii) post-derogation electronic-filing incentive state = corpus-silent (OQ-008). GOQ-146 resolved: the Cap. VIII/IX primary texts are now in the corpus via 99_ (cap. VIII verbatim at EVID-1047) | `gt/sources/99_IVA_27-92_Consolidado_2019.pdf` (via `gt/.extractions/99_100_IVA_Consolidado2019_D4-2012.evidence.md`) | 99_ pp.42-43 (EVID-1051; GOQ-146 verdict EVID-1053; consolidation horizon EVID-1032; derogation cross-ref 85_ EVID-819) |
 
 ## 3. Functional Requirements
 
@@ -282,13 +284,20 @@ and the 57_/58_/82_/59_ committed text layers. Dated rows follow D15/D16
   rows implementing the deadline-driven effective rate: **4% monthly if the
   declaración is presented within the first 10 días hábiles of the month
   immediately following the taxed month; 5% thereafter** (Capítulo IX
-  D27-92 as printed in the 82_ glossary). This is a secondary print — the
-  D27-92 Cap. IX primary text is not in the requirements corpus, no
-  taxation-file anchor id exists yet, and the row carries the
-  anchor-pending flag (never surfaced as verified statutory law until the
-  primary text is acquired; GOQ-104 currency caveat applies). The
-  declaration engine shall resolve the effective rate as-of the filing
-  date (snapshot-on-write per D15/D16). (LB-018; EVID-468; D15/D16)
+  D27-92 as printed in the 82_ glossary). ANCHORED + SUNSET (W-GT8,
+  LB-026): the primary text is now in the corpus — the rule = **D-27-92
+  art. 54 "E"** (added D-7-2019 art. 8; `99_`): 4% EN SUSTITUCIÓN del 5%
+  of arts. 47/54 "A", collected by automatic bank debit on the **décimo
+  día hábil**, with the 5% fallback on insufficient funds — a TARIFF,
+  never a LET deadline (GOQ-107 statute-anchored). The whole 54 "E"/"F"
+  electrónico pair was TIME-BOXED **2019 → 2025-08-09**, derogated by
+  D-31-2024 art. 25 (85_ cross-ref): every 4%/5% tariff row carries
+  valid_from 2019 / valid_to 2025-08-09 (D15) and shall NEVER be modeled
+  as a current live rate; the post-derogation electronic-tariff state is
+  corpus-silent (OQ-008). The declaration engine shall resolve the
+  effective rate as-of the filing date (snapshot-on-write per D15/D16;
+  the GOQ-104 currency caveat still applies to the 82_ print).
+  (LB-018; LB-026; EVID-468, EVID-1051, EVID-1053; D15/D16)
 - **GT-FIN-FR-123:** The deadline surface shall encode GOQ-107 exactly:
   `57_` and `58_` print **no** cierre/declaration deadline; the ONLY
   printed deadline anywhere is the electrónico-regime 4%/5% rule of
@@ -308,11 +317,14 @@ and the 57_/58_/82_/59_ committed text layers. Dated rows follow D15/D16
   option fixed per annual period (GT-TAX-FR-152, GT-TAX-FR-150 regime
   lifecycle). The Especial Agropecuario print (**persona individual; ≤
   Q3,000,000 año fiscal; 5% mensual; no crédito fiscal; Cap. VIII D27-92**)
-  and the electrónico-regime prints (**cuenta bancaria ante SAT; FEL-only
-  sales; 4%/5% — FR-122**) carry the anchor-pending flag: D27-92 Cap.
-  VIII/IX primary texts are not in the requirements corpus and no taxation
-  id exists — flagged for the acquisition queue, never asserted as verified
-  current law. (LB-007; LB-009; LB-013; LB-017; LB-018; EVID-457, EVID-459,
+  keeps its anchor-pending flag (no taxation id yet), while the
+  electrónico-regime prints (**cuenta bancaria ante SAT; FEL-only
+  sales; 4%/5% — FR-122**) are statute-anchored (W-GT8, LB-026): the
+  D27-92 Cap. VIII/IX primary texts are now in the corpus via the `99_`
+  consolidated print (54 "E"/"F" EVID-1051/1052; cap. VIII EVID-1047) —
+  the 4%/5% rows anchor to art. 54 "E" with valid_from 2019 /
+  valid_to 2025-08-09 (derogated by D-31-2024 art. 25), historical-only,
+  never asserted as verified current law. (LB-007; LB-009; LB-013; LB-017; LB-018; EVID-457, EVID-459,
   EVID-463, EVID-467, EVID-468; cross-ref GT-TAX-FR-006, GT-TAX-FR-046,
   GT-TAX-FR-051, GT-TAX-FR-064, GT-TAX-FR-066, GT-TAX-FR-150,
   GT-TAX-FR-152, GT-TAX-FR-159)
@@ -386,8 +398,8 @@ Dated rows follow D15/D16 (cite together): valid_from/valid_to + provenance +
 as-of qualifier; snapshot-on-write. This file stores NO statutory constants —
 regime parameters are taxation-owned and consumed by FR id (FR-124 anchors);
 what is stored here is the regime-architecture map, the feed/cierre/folio
-operational surfaces, the form-mask rows, the tariff dated row (anchor-
-pending), the informe state machine and the guard rows. No field-layout
+operational surfaces, the form-mask rows, the tariff dated row (anchored,
+historical 2019 → 2025-08-09 — LB-026), the informe state machine and the guard rows. No field-layout
 entity exists (FR-106 blocker — layouts stay unasserted).
 
 | Entity | Field | Type | Catalog / values | Reference |
@@ -403,8 +415,8 @@ entity exists (FR-106 blocker — layouts stay unasserted).
 | l10n_gt.let.report | set / params / closed_periods_only / establecimiento_param | selection pc_especiales-3-general-4 / char list / boolean / boolean | book reports queried Año+Mes+Establecimiento (General) | FR-119 |
 | l10n_gt.let.declaration | generate / form_ref / acceso_number / presentation_date / zero_pay_id_check / rails | boolean / char / char / date / selection nacimiento-constitucion / list banca_en_linea-sat_2000 | PC = SAT-2046 (T1 GT-FIN-FR-006/015); General = NONE | FR-120, FR-121 |
 | l10n_gt.let.form.mask | regime / form_identity / source / status | selection especial_agro-electronico_pc-electronico_agro / char / char / selection resolved-masked | electrónico PC = SAT-2241 (48_ via T1); agro pair masked (GOQ-109) | FR-121 |
-| l10n_gt.let.tariff.electronico | rate_early / window / rate_late / valid_from / provenance / anchor_status | decimal=0.04 / char=first 10 días hábiles of following month / decimal=0.05 / date / char=82_ glosario Cap. IX D27-92 / selection pending | deadline-driven effective rate; snapshot-on-write at filing date; statutory anchor pending | FR-122 |
-| l10n_gt.let.glossary.print | term / printed_value / anchor_ref / status | char / char / char (GT-TAX-FR id) / selection anchored-pending | Q150k→046; 5%→051; 12%→006; ROS→159; Utilidades→152; Q3M·agro 5%·electrónico preconditions = pending | FR-124 |
+| l10n_gt.let.tariff.electronico | rate_early / window / rate_late / valid_from / valid_to / provenance / anchor_status | decimal=0.04 / char=4% via automatic bank debit on the décimo día hábil (art. 54 "E") / decimal=0.05 / date=2019 (D-7-2019 art. 8) / date=2025-08-09 (D-31-2024 art. 25) / char=99_ art. 54 "E" (EVID-1051) + 82_ glosario / selection anchored_historical | deadline-driven effective rate while the regime lived; snapshot-on-write at filing date; HISTORICAL — never a current live rate (LB-026) | FR-122 |
+| l10n_gt.let.glossary.print | term / printed_value / anchor_ref / status | char / char / char (GT-TAX-FR id) / selection anchored-pending | Q150k→046; 5%→051; 12%→006; ROS→159; Utilidades→152; electrónico 4%/5% → anchored art. 54 "E" (LB-026; 2019→2025-08-09); Q3M·agro 5% = pending | FR-124 |
 | l10n_gt.informe | actor / hook / prerequisites / login_user / periodicity_printed / statutory_ancestor_ref | char=Especial / char=art. 57 "D" D27-92 / list agencia_virtual-rtu_digital / char=NIT / char=monthly flow (manual) / char (GT-TAX-FR-045: semi-annual ≤ D-10-2012) | periodicity tension recorded, not reconciled | FR-125 |
 | l10n_gt.informe.attestation | period / auto_dte_search / q_ventas_fel / q_compras_fel / sin_registros_path | char=mes+año / boolean / boolean / boolean / boolean | SI/SI direct; NO compras → carga masiva; nil month valid | FR-126 |
 | l10n_gt.informe.carga | period / upload / result_email / consulta / gate_pct / format_status | char / char=Subir Archivo→Cargar / boolean / boolean / integer=100 / selection unprinted | 100%-processed hard gate; format = GOQ-108 + FR-106 blocker | FR-127 |
@@ -445,7 +457,7 @@ version-specific behavior required by this file.
 | FR-119 | odoo | libro report actions | report set + params + closed-periods filter | Establecimiento dimension on General book records |
 | FR-120 | odoo | declaration generation flow + saas transmission | SAT-2046 assembly + numbers + zero-pay + rails | Form identity from T1; era ledger from T3 (FR-093) |
 | FR-121 | shared | — (config data §4) | form.mask rows | Electrónico PC = SAT-2241 (48_ via T1); agro pair never asserted (GOQ-109) |
-| FR-122 | shared | — (config data §4 / CSV) | tariff.electronico dated rows | Effective rate resolved as-of filing date (D15/D16 snapshot); anchor-pending flag |
+| FR-122 | shared | — (config data §4 / CSV) | tariff.electronico dated rows | Effective rate resolved as-of filing date (D15/D16 snapshot); anchored art. 54 "E" (99_, LB-026); valid 2019→2025-08-09 — historical, never a current live rate |
 | FR-123 | shared | — (guard) | deadline_external_goq14_kin | No deadline object from these manuals; calendar via T1 GT-FIN-FR-024 |
 | FR-124 | shared | — (config data §4) | glossary.print rows | Anchored rows consume taxation ids; pending rows flagged (Cap. VIII/IX primary texts to acquire) |
 | FR-125 | shared | — (config data §4) | informe obligation row | GT-TAX-FR-045 statutory ancestor; periodicity tension recorded |
@@ -506,14 +518,18 @@ version-specific behavior required by this file.
   the agro pair stays masked (GOQ-109). (FR-120, FR-121)
 - **AC-011:** Given an electrónico-regime declaration filed within the
   first 10 días hábiles of the following month, then the effective rate
-  resolves 4%; filed later, 5% (snapshot-on-write; anchor-pending flag
-  visible); and given any deadline question, then no LET/informe deadline
-  object exists beyond the external calendar surface — the 4%/5% row is
-  labeled a rate rule, never a filing deadline. (FR-122, FR-123)
+  resolves 4%; filed later, 5% (snapshot-on-write; anchored to art. 54 "E"
+  per LB-026, dated valid_from 2019 / valid_to 2025-08-09 — historical
+  only, never a current live rate); and given any deadline question, then
+  no LET/informe deadline object exists beyond the external calendar
+  surface — the 4%/5% row is labeled a rate rule, never a filing
+  deadline. (FR-122, FR-123)
 - **AC-012:** Given the glossary prints, then Q150k/5%/12%/ROS 5-7%/
-  Utilidades 25% resolve their taxation anchors by exact id, and the agro
-  Q3,000,000/5% and electrónico precondition rows carry anchor-pending
-  flags (never surfaced as verified statutory law). (FR-124)
+  Utilidades 25% resolve their taxation anchors by exact id, the agro
+  Q3,000,000/5% rows keep anchor-pending flags, and the electrónico rows
+  resolve their statutory anchor (art. 54 "E", LB-026) with valid_from
+  2019 / valid_to 2025-08-09 dating — never surfaced as current
+  law. (FR-124)
 - **AC-013:** Given an Especial running the informe, then Consultar
   triggers the DTE auto-search; SI/SI on both FEL-coverage questions
   proceeds; a NO on compras routes to carga masiva where presentation is
@@ -529,16 +545,19 @@ version-specific behavior required by this file.
 
 Master-index GOQ ids (register `gt/.extractions/00_MASTER_INDEX.md` §C.4);
 question text verbatim from the register. This file OWNS GOQ-104/105/106/
-107/108/109 (F4 rows). GOQ-14 (calendar ingestion) is consumed as kin via
+107/108/109 (F4 rows) and GOQ-146 (electrónico-tariff anchor — row OQ-007,
+resolved W-GT8). GOQ-14 (calendar ingestion) is consumed as kin via
 Task 1's GT-FIN-FR-024. Nothing outside this register is treated as an open
 question; new gaps are flagged to the controller as non-OQ notes (no
-invented ids).
+invented ids), except controller-directed OQ rows (OQ-008, W-GT8).
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
 | OQ-001 | GOQ-104 (owned): "57_/58_/82_ print NO version/date (unlike 56_/59_) — LET manual currency unverifiable; later UI/flow changes invisible." Affects every mechanics row of this file (FR-103..FR-124, FR-130): values verified against the live LET portal before any current-procedure assertion; rides the same acquisition pass as the layout re-capture. | no | GT synthesis wave S-GT4 → acquisition queue (live LET portal verification) | open |
 | OQ-002 | GOQ-105 (owned): "LET record-level layouts = ALL images (book grids, resumen totals, papel forms, carga-masiva templates, report columns) — layout acquisition REQUIRED before any export-layout CR; never guess. Same for 63_ group-header spans (column-letter list is the authoritative part)." This file owns the F4 half (FR-106 hard blocker; FR-119/FR-127 blocked surfaces); the 63_/F5 half of the register row is Task 5's. Layout re-capture already queued (DOWNLOAD_QUEUE rev 7). | yes (export-layout FRs only) | GT synthesis wave S-GT4 → acquisition queue (LET field-layout re-capture) | open |
 | OQ-003 | GOQ-106 (owned): "No LET-creating/regulating SAT resolution printed anywhere (hooks only: D27-92 caps. V/VI/VIII/IX + art. 57 'D'; D10-2012 arts. 14-42; Timbres art. 5.4; EVID-474 hunting map) — normative basis hunt (normativa listing AJAX-gated). Carries the CT '69-kin' residual (R29)." Affects FR-107 (never assert a resolution number) and the file's LB provenance generally. | no | GT synthesis wave S-GT4 → acquisition queue (normativa listing; AJAX-gated) | open |
-| OQ-004 | GOQ-107 (owned): "LET/informe deadlines: 57_/58_ print none; 82_ only the electrónico 4%-within-10-hábiles/5% tariff rule; 59_ marks en/fuera de tiempo without printing the rule — actual deadlines live outside these manuals." Affects FR-123 (no deadline object; GOQ-14 kin via GT-FIN-FR-024), FR-122 (rate-rule labeling), FR-128 (timeliness as received state). | no | GT synthesis wave S-GT4 → acquisition queue (deadline instruments; calendar track) | open |
+| OQ-004 | GOQ-107 (owned): "LET/informe deadlines: 57_/58_ print none; 82_ only the electrónico 4%-within-10-hábiles/5% tariff rule; 59_ marks en/fuera de tiempo without printing the rule — actual deadlines live outside these manuals." Affects FR-123 (no deadline object; GOQ-14 kin via GT-FIN-FR-024), FR-122 (rate-rule labeling), FR-128 (timeliness as received state). RESOLVED (W-GT8): the 4%/5% rule is statute-anchored as a TARIFF — D-27-92 art. 54 "E" (99_, LB-026) — never a LET deadline, sunset 2025-08-09 (D-31-2024 art. 25); actual deadlines = SAT Calendario flat per-obligation dates (103_ → 01/LB-017, consumed via GT-FIN-FR-024); the informe's en/fuera rule stays unprinted (received state per FR-128). | no | GT synthesis wave S-GT4 → resolved W-GT8 (99_ + 103_ acquisitions) | resolved (W-GT8) |
 | OQ-005 | GOQ-108 (owned): "Informe (59_): the instrument adding art. 57 'D' + its obligation text (periodicity/deadline/sanction) not in corpus; carga-masiva file format/extension unspecified." Affects FR-125 (monthly-manual vs semi-annual statutory print GT-TAX-FR-045 tension unresolved), FR-127 (no upload template — also FR-106). | no | GT synthesis wave S-GT4 → acquisition queue (art. 57 "D" reform instrument) | open |
 | OQ-006 | GOQ-109 (owned): "82_ masks the generated declaration number — which formulario per especial/electrónico regime (PC = SAT-2046 per 57_)?" Partially resolved from within the corpus: Electrónico PC = SAT-2241 per the 48_ registry (Task 1 GT-FIN-FR-006); the Especial Agropecuario and Electrónico Especial Agropecuario forms remain unknown — never asserted (FR-121). | no | GT synthesis wave S-GT4 → acquisition queue (form registry check / live portal) | open |
+| OQ-007 | GOQ-146 (owned): "D-27-92 Cap. VIII/IX primary texts absent from corpus — fiscal-reporting/04's electrónico-tariff rows (4%/5% within 10 días hábiles) are anchor-pending on the tariff chapter itself (currently anchored to 82_ glossary print only)." RESOLVED (W-GT8, LB-026): the 99_ consolidated print carries Cap. IX arts. 54 "E"/"F" verbatim (EVID-1051/1052; cap. VIII at EVID-1047) — the 4%/5% tariff = art. 54 "E" (added D-7-2019 art. 8); FR-122 rows re-anchored and dated 2019 → 2025-08-09 (derogated by D-31-2024 art. 25, 85_ cross-ref). | no | GT synthesis wave S-GT4 → resolved W-GT8 (99_ acquisition) | resolved (W-GT8) |
+| OQ-008 | Post-2025-08-09 electronic-tariff state: D-31-2024 art. 25 derogated the whole D-27-92 art. 54 "E"/"F" electrónico pair — whether any successor electronic-filing tariff/incentive exists after the D-31-2024 ICT cutover is corpus-silent; the 4%/5% rows are modeled historical-only (FR-122, LB-026) until an instrument is acquired. | no | GT synthesis wave S-GT4 → acquisition queue (post-D-31-2024 electronics regime) | open |
