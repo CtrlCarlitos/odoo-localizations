@@ -154,11 +154,11 @@ header comment.
 
 | File | LB rows | AC rows |
 |------|---------|---------|
-| 01_iva-core.md | 21 | 13 |
-| 02_iva-pequeno.md | 15 | 12 |
+| 01_iva-core.md | 22 | 13 |
+| 02_iva-pequeno.md | 16 | 12 |
 | 03_iva-retenciones.md | 23 | 14 |
 | 04_isr-trabajo.md | 12 | 13 |
 | 05_isr-lucrativas-capital.md | 23 | 14 |
 | 06_ct-procedures.md | 26 | 15 |
-| 07_reform-chain-provenance.md | 17 | 12 |
-| **Total** | **137** | **93** |
+| 07_reform-chain-provenance.md | 18 | 12 |
+| **Total** | **140** | **93** |

@@ -4,11 +4,11 @@
 |---------|-------|
 | Country | gt |
 | Topic   | all (cross-topic) |
-| Status  | draft (S-GT1..S-GT7 synthesis waves complete; W-GT7 evidence pass + targeted backfills applied 2026-08-22 — **94 cited / 0 not-applicable / 0 pending: corpus CLOSED at 94 rows** (batch-2 instruments 84_–95_ evidenced EVID-746..951 and consumed by exact GOQ resolution)) |
+| Status  | draft (S-GT1..S-GT7 synthesis waves complete; W-GT7 + W-GT8 evidence passes with targeted backfills — latest 2026-08-23 — **106 cited / 0 not-applicable / 0 pending: corpus CLOSED at 106 rows** (batch-3/4 instruments 96_–101_ + 103_–108_ evidenced EVID-952..1185 and consumed by exact GOQ resolution)) |
 | Authors | GT synthesis waves S-GT1 + S-GT2 + S-GT3 + S-GT4 + S-GT5 + S-GT6/S-GT7 + controller |
-| Updated | 2026-08-22 |
+| Updated | 2026-08-23 |
 
-As-of date 2026-08-22. Scope of this revision: the seven completed
+As-of date 2026-08-23. Scope of this revision: the seven completed
 synthesis waves (every pre-batch-2 registry row cited; the S-GT6/S-GT7
 wave closed the corpus) **plus the 2026-08-22 acquisition batch 2 (owner
 browser, legal.dca.gob.gt/igssgt.org → registry 84_–95_: D-19-2016,
@@ -17,8 +17,9 @@ AG 86-2006, AG 4-2005, Código Civil, D-76-78 aguinaldo, D-38-2004,
 AG 3-2017 — verification-rejected duplicates: LET IVA-General manual =
 58_ md5-identical; certificador procedure = 22_ md5-identical)**. Every
 file in [../sources/](../sources/) (registry:
-[../sources/README.md](../sources/README.md) — 94 entries, numbering
-01–95 with gap 27; verification-rejected duplicates are not registry rows)
+[../sources/README.md](../sources/README.md) — 106 entries, numbering
+01–108 with gaps 27 and 102; verification-rejected duplicates are not
+registry rows)
 mapped against the requirements waves. Status values:
 
 - **cited** — a requirements file of this wave set cites it via a
@@ -148,10 +149,10 @@ Numbering note: registry numbers 01–83 with gap 27 (27 never allocated);
 
 | Status | Rows |
 |--------|------|
-| cited | 94 (01–95 with gap 27 — every registry row; W-GT7 evidence pass + targeted backfills closed batch 2) |
+| cited | 106 (01–108 with gaps 27/102 — every registry row; W-GT7 closed batch 2; W-GT8 closed batches 3+4) |
 | not-applicable | 0 |
 | pending | 0 |
-| **Total** | **94** |
+| **Total** | **106** |
 
 With the S-GT6/S-GT7 special-regimes wave the synthesis corpus closed:
 82 cited / 0 not-applicable / 0 pending — the first wave series to close
@@ -161,6 +162,18 @@ instruments (84_–95_); the 2026-08-22 W-GT7 evidence pass (EVID-746..951,
 0 not-applicable / 0 pending. GOQ-08/09(mora)/10/13/68/132/134/147
 resolved into the corpus; GOQ-04 refined (IGSS cuota rates → program
 reglamentos); GOQ-09 survives half-open (D-1633 public + D-37-2001).**
+**2026-08-23 batches 3+4 reopened it with 12 registered instruments
+(96_–101_ + 103_–108_; the AG-75-2006 gazette page re-delivered and
+re-rejected off-scope, its identity resolving the AML hypothesis
+NEGATIVE — gap 102); the 2026-08-23 W-GT8 evidence pass (EVID-952..1185,
+6 files) + targeted synthesis backfills CLOSED it again — 106 cited /
+0 not-applicable / 0 pending. GOQ-01 resolved-COMPOSITE (99_ consolidated
+IVA ~2019 + 85_ + 74_) + GOQ-107/146 resolved (art. 54 "E" tariff,
+D-7-2019, sunset 2025-08-09) + GOQ-09 resolved-in-part (D-1633 standing
+public statute; art.-11 amount instruments open) + GOQ-12 lineage settled
+(AG 118-2002 primary; 75-2006 DEAD) + GOQ-04 re-refined (Acuerdo 1124
+IVS; SEM set rateless) + GOQ-14/145 re-scoped (flat calendars, no
+NIT-digit windows).**
 
 Expected cited sets verified by grep. S-GT1: 01–22, 29, 30, 31 (+24_
 FEL-layer LB only). S-GT2: 23, 24, 25, 26, 28, 47, 48, 49, 52, 53, 54,

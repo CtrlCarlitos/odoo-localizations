@@ -29,7 +29,7 @@ payroll/09. Source-to-requirements coverage:
 | [01_form-inventory-channels.md](01_form-inventory-channels.md) | F1 | Form registry data model + channel model (DG-only declarations, 27 paper-only, AsiseLight=0, apps = 5th surface); R46 ISR identities (1411/1431/1371/1331/1321); 18-string dated-validity ledger (R53 both-windows); SAT-1111 dual; SAT-2390 absence (R58); no-maquilla negative (GOQ-95); calendario ingestion (GOQ-14) | GT-FIN-FR-001..026 | 26 | 16 | 13 | 5 |
 | [02_retenciones-web.md](02_retenciones-web.md) | F2 | RetWeb operational surfaces OF GT-TAX-FR-105/106/107: SAT-2340 15 dh vs SAT-2320 10 dh (R47 never-frozen); rate-matrix rendering of the taxation CSVs (R55 secondary-pending); ISR RetWeb (SAT-1331, 10 dh, constancia = factura date, 5 días w/o "hábiles" — R54/GOQ-99); constancia state machine; carga masiva engines; roster 8,447 + SAT-0261 tri-partite provenance | GT-FIN-FR-027..074 | 48 | 29 | 15 | 10 |
 | [03_pequeno-libro-regime.md](03_pequeno-libro-regime.md) | F3 | Two-document chain as dated layers (55_ = as-of-~2013 banner GOQ-100; 61_ LET-era); R20 Q150k attribution; Q50 floor + Clientes Varios consolidation; single compras-y-ventas libro + SAT-7121 habilitación flow; form-drift ledger 2043/2047/2049→2046→2046/2241; LIVA art. 48 whole-month deadline (GOQ-103 — no fixed day invented); R56/R57 guards | GT-FIN-FR-075..102 | 28 | 20 | 12 | 6 |
-| [04_let-electronic-books.md](04_let-electronic-books.md) | F4 | Book architecture per regime (PC + 3 especiales = ONE combined book → SAT-2046; General = TWO books/establecimiento, no form, resumen = insumo); feeds (FEL ventas immutable, compras by selection, FYDUCA/DUCA, vehicles ≤2 model years); layouts = images NEGATIVE-FR (GOQ-105); no LET resolution (GOQ-106); 4%/5%-10-dh tariff rule ≠ deadline (GOQ-107); informe art. 57 "D" + 100% gate (GOQ-108); masked numbers (GOQ-109); R48 RTN guard | GT-FIN-FR-103..130 | 28 | 25 | 14 | 6 |
+| [04_let-electronic-books.md](04_let-electronic-books.md) | F4 | Book architecture per regime (PC + 3 especiales = ONE combined book → SAT-2046; General = TWO books/establecimiento, no form, resumen = insumo); feeds (FEL ventas immutable, compras by selection, FYDUCA/DUCA, vehicles ≤2 model years); layouts = images NEGATIVE-FR (GOQ-105); no LET resolution (GOQ-106); 4%/5%-10-dh tariff rule ≠ deadline (GOQ-107 RESOLVED W-GT8: art. 54 "E" D-7-2019, sunset 2025-08-09); informe art. 57 "D" + 100% gate (GOQ-108); masked numbers (GOQ-109); R48 RTN guard | GT-FIN-FR-103..130 | 28 | 25 | 14 | 6 |
 | [05_devolucion-credito-fiscal.md](05_devolucion-credito-fiscal.md) | F5 | SAT-2390: claim window from IVA due date ≤4y trimestral/semestral (statutory = GT-TAX-FR-025/031..037); THE cross-validation gate (Libro CSV totals vs SAT-2237 declarations — reject on mismatch); CSV annex spec authoritative from 63_ (compras 16 cols A-P / ventas 11 cols A-K, TEXT cells, dd/MM/yyyy, NC−/ND+, >Q2,500 NIT+ID from 2023-01 GOQ-113); CARTERA states; R49 defects verbatim | GT-FIN-FR-131..164 | 34 | 11 | 14 | 6 |
 | [06_criterios-interpretive.md](06_criterios-interpretive.md) | F6 | Criterios 2-2019 (dualidad — confirm-only vs the taxation matrix; GOQ-118/119 resolved kin) + 6-2018 (deducibilidad gates: IGSS-planilla ≥3/≥1, related-party 10%, aguinaldo/bono 100% caps + pacto homologado, dietas LAT art. 44); GOQ-116 clause-citation ban; GOQ-121 negative-FR (no decree-number backfill); R50 [sic] guard | GT-FIN-FR-165..185 | 21 | 10 | 11 | 7 |
 | **Total** | | | **GT-FIN-FR-001..185** | **185** | **111** | **79** | **40** |
@@ -141,10 +141,10 @@ None in this wave — the two rate catalogs consumed read-only live in
 
 | File | LB rows | AC rows |
 |------|---------|---------|
-| 01_form-inventory-channels.md | 16 | 13 |
+| 01_form-inventory-channels.md | 17 | 13 |
 | 02_retenciones-web.md | 29 | 15 |
 | 03_pequeno-libro-regime.md | 20 | 12 |
-| 04_let-electronic-books.md | 25 | 14 |
+| 04_let-electronic-books.md | 26 | 14 |
 | 05_devolucion-credito-fiscal.md | 11 | 14 |
 | 06_criterios-interpretive.md | 10 | 11 |
-| **Total** | **111** | **79** |
+| **Total** | **113** | **79** |

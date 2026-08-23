@@ -26,7 +26,12 @@ S-GT6/S-GT7 addenda; ALL SEVEN WAVES DONE, corpus 82/0/0**); updated
 2026-08-22 (batch 2 registered 84_–95_, queue rev 8, §4.6 merge at
 3250ffa); updated 2026-08-22 again (**W-GT7 COMPLETE — batch-2 evidence
 pass EVID-746..951 + targeted backfills; GOQ-08/09(mora)/10/13/24/68/
-132/134/147 resolved; corpus re-closed 94/0/0 — see §5n + §10 addenda**).
+132/134/147 resolved; corpus re-closed 94/0/0 — see §5n + §10 addenda**);
+updated 2026-08-23 (**W-GT8 COMPLETE — batches 3+4 evidence pass
+EVID-952..1185 + targeted backfills; 12 registry rows 96_–101_/103_–108_;
+GOQ-01 resolved-composite, 107/146 resolved, 09 in-part, 12 settled, 04
+re-refined→Acuerdo 1124, 14/145 re-scoped flat; corpus re-closed 106/0/0
+— see §5o + §10 addenda**).
 Read
 this fully before acting; it is the authoritative cross-session memory.
 **Update it at every session boundary.**
@@ -77,13 +82,15 @@ all consumed + kin 01/04/10/99; R72..R81 guards instantiated; GOQ-08
 acquisition ledger delivered in 06; **COVERAGE = 82 cited / 0 N-A / 0 pending
 — corpus CLOSED**; 4 stale master-index preamble R-cites fixed at write-back
 (R49→R72, R50→R73, R52→R75, R55→R81). **Next: ~~S-GT6/S-GT7 final whole-branch review~~ DONE + ~~batch-2 W-GT7
-evidence pass + targeted backfills~~ **DONE 2026-08-22 (§5n)** —
-current state: synthesis 7/7 + W-GT7 complete, corpus CLOSED at
-94 cited / 0 N-A / 0 pending; milestone: owner decides any future
-`gt-research` → `main` merge (§4.6 protocol; the 2026-08-22 close merged
-at 3250ffa — W-GT7's commits ride the NEXT §4.6 run).
-Remaining acquisitions are queue-rev-9 owner-browser items (AG 52-2017
-top-ranked; D-19-2016 blocker RESOLVED).**
+evidence pass + targeted backfills~~ **DONE 2026-08-22 (§5n)** + ~~W-GT8
+batches-3+4 pass~~ **DONE 2026-08-23 (§5o)** —
+current state: synthesis 7/7 + W-GT7 + W-GT8 complete, corpus CLOSED at
+106 cited / 0 N-A / 0 pending; milestone: owner decides / controller
+drives the next §4.6 merge (the 2026-08-22 closes merged at 3250ffa +
+da47a38; W-GT8's commits ride the NEXT §4.6 run).
+Remaining acquisitions are queue-rev-11 owner-browser items (IGSS
+Acuerdo 1124 IVS top-ranked; D-1633 art.-11 montos; AG 52-2017
+low-priority watch — mineco automated hunt FAILED).**
 Product architecture context: root `HANDOVER.md` §1 (SaaS thin-client + Odoo;
 Takumi consumes requirements).
 
@@ -115,12 +122,19 @@ Takumi consumes requirements).
 - Python: `~/.venvs/localizations/bin/python` (shared, absolute path — works
   from the worktree). Scripts in `shared/scripts/` (extract_text.py etc.).
 
-## 4. Corpus state (2026-08-22 — W-GT7 COMPLETE: all 94 rows evidenced)
+## 4. Corpus state (2026-08-23 — W-GT8 COMPLETE: all 106 rows evidenced)
 
-**94 registered entries** (`gt/sources/`, numbering 01–95; gap 27 unused;
-84–95 = 2026-08-22 owner batch 2, **EVIDENCED W-GT7 same day — EVID-746..951,
-5 files; all 12 consumed by GOQ resolution + backfills; COVERAGE 94 cited /
-0 N-A / 0 pending — corpus CLOSED**):
+**106 registered entries** (`gt/sources/`, numbering 01–108; gaps 27/102;
+**96_–101_ + 103_–108_ = 2026-08-23 owner batches 3+4, EVIDENCED W-GT8
+same day — EVID-952..1185, 6 files; all 12 consumed by GOQ resolution +
+backfills; COVERAGE 106 cited / 0 N-A / 0 pending — corpus CLOSED**;
+batch-3/4 contents: 96_ AG 118-2002 AML reglamento · 97_ D-1633 public
+aguinaldo · 98_ D-37-2001 incentivo · 99_ IVA 27-92 consolidated ~2019 ·
+100_ D-4-2012 gazette (R20 primary) · 101_ D-10-2012 LAT gazette · 103_
+SAT Calendario 2026-01..08 ×8 · 104_/105_/106_ IGSS SEM Acuerdo 410 set ·
+107_ IVS sobrevivencia requisitos (names Acuerdo 1124) · 108_ IVS-103
+xlsx; re-rejected: AG 75-2006 page = SINAS (AML hypothesis DEAD) +
+D-10-2025 duplicate capture):
 FEL e-invoicing stack (acuerdos 13-2018/26-2019/15-2020, incorporation
 resolutions SAT-DSI 04_–14_, Reglas y validaciones **v1.7.10 Feb-2025**, Doc.
 Técnico Servicios, 26 XSDs + 3 JSON catalogs × 2 channels (29_ GitHub pinned
@@ -726,6 +740,89 @@ places — W-GT6)**. Reform chains are recorded in SOURCE_RESEARCH.md.
   brief's EVID range: D-62-2001 = EVID-834..839, not 821..825).
 
 
+## 5o. W-GT8 facts a session MUST know (2026-08-23)
+
+- **Deliverables (all committed, branch gt-research)**: 6 evidence files
+  (`96_AG118-2002_AML` EVID-952..976 · `97_98_AguinaldoPublico_IncentivoD37`
+  992..1023 · `99_100_IVA_Consolidado2019_D4-2012` 1032..1068 ·
+  `103_SAT_Calendario_2026` 1092..1117 · `104_105_106_IGSS_SEM_410`
+  1132..1169 · `107_108_IGSS_IVS` 1172..1185; 169 entries) + targeted
+  backfills into 9 requirements files (10 new LB rows, zero FR
+  renumbering) + master-index write-backs + registry 96_–108_ + COVERAGE
+  re-closed **106/0/0** + queue rev 11.
+- **GOQ-01 RESOLVED-COMPOSITE (99_)**: the consolidated IVA print's
+  horizon = D-4-2019/D-7-2019 (asterisk-tag audited; art. 8-"A" correctly
+  ABSENT; art. 7 = 15 numerales; Art. 29-"A" FULL text primary with the
+  in-law D-4-2019 tag). Chain complete via 85_ + 74_: every operative
+  IVA article primary-sourced; a single print through D-10-2025 stays
+  unacquired but NON-BLOCKING. **The 12% + 3.5/1.5 earmark block = Art.
+  10** (an earlier controller brief said 44 — evidence governs; BF3
+  caught it).
+- **GOQ-146 RESOLVED — Cap. VIII/IX = D-7-2019 simplified-regime
+  chapters, NOT a 1992 tariff appendix**: VIII = RECA (arts. 54 "A"-"D":
+  Q3M ceiling, 5% brutas/utilidades, 10-day retention); IX = electrónico
+  pair (arts. 54 "E"-"F"). **The 4%/5% electrónico tariff = art. 54 "E"
+  (4% en sustitución del 5% for 10th-día-hábil bank-debit payers) —
+  TIME-BOXED 2019 → 2025-08-09, derogated by D-31-2024 art. 25.** fin04
+  LB-026 anchors it + sunset propagated ×15; post-derogation
+  electronic-tariff state = fin04 OQ-008 open. GOQ-107 resolved-anchored
+  (tariff-not-LET ruling statute-anchored).
+- **GOQ-09 RESOLVED-IN-PART (97_/98_)**: 98_ D-37-2001 art. 1 primary
+  (Q250 "junto al sueldo mensual devengado", EN SUSTITUCIÓN de 78-89 +
+  7-2000; public tiers arts. 2-4 to Q250; payroll/04 LB-016, quoted-only
+  flag lifted). **97_ D-1633 = the STANDING public-sector aguinaldo base
+  statute** (NOT a 1966 one-year grant — every 1966 string is
+  funding-side; "en cada ejercicio fiscal… diciembre de cada año"; single
+  December window, NO January split; LB-017). **NEW FENCE: art. 11 "=
+  Anualmente el Organismo Ejecutivo fijará el aguinaldo…" — the quantum
+  is an annually-set EXTERNAL parameter; art.-11 instruments NOT in
+  corpus (payroll/04 OQ-004, queue rev 11); no amount may cite D-1633.**
+- **GOQ-12 lineage SETTLED (96_)**: AG 118-2002 = the pre-cutover AML
+  reglamento, primary-sourced — arts. 16/17/21 RTS plazos verbatim
+  (15-day sospechosa + 10-day anotación chain to SB/IVE; quarterly
+  negative report within the month following the quarter; OC exclusivity
+  with the Grupo B carve-out); **sole monetary threshold = US$10,000
+  (art. 37) — the no-quetzal-threshold finding now holds at law AND
+  reglamento level**; vigencia 26-abr-2002 (derived). **AG 75-2006 =
+  SINAS food-security reglamento — the AML hypothesis is DEAD** (gazette
+  page re-delivered + re-rejected; identity pinned). cml04 LB-029.
+- **GOQ-04 RE-REFINED (104_-108_)**: the SEM program set ACQUIRED
+  RATELESS — art. 6 (as amended by 1154): 3 contribution periods in 6
+  preceding calendar months + maternidad credit; arts. 25-26: maternidad
+  = 100% salario diario base, 30 días pre + 54 días post = **84 días
+  (days-governed; NO "12 semanas" wording)**; **art. 62's printed 4/2/1
+  (104_) vs 3/2/1 (106_) = successive SUPERSEDED 1964
+  departamento-de-Guatemala originals per art. 85 (chain Acuerdos
+  475→1243, contents unprinted — never cite for a rate)**. **107_ NAMES
+  the IVS program reglamento = ACUERDO 1124 de Junta Directiva** (arts.
+  22-24 survivorship: 36-months-in-6-years illness / 3-in-6 accident /
+  vejez 60y + 240m; Mar-1977 cutoff corroborated) → the concrete cuota
+  -rate acquisition target (queue rev 11 top-ranked). **Registry
+  identity correction: 106_ = 24-11-2011 consolidation (NOT the
+  original print; 1154 already integrated — no pre-1154 art. 6 baseline
+  exists in corpus).**
+- **GOQ-14/145 RE-SCOPED (103_)**: SAT's current Calendario Mensual
+  Tributario (Ene–Ago 2026 captured) prints **FLAT per-obligation
+  deadlines — one date per period, ZERO NIT-digit/group language
+  (full-text verified 8/8)** + month-scoped per-locality inhábil rulings
+  (Res. SAT-DSI-1328-2026: 14-ago-2026 inhábil ONLY for municipios
+  Guatemala/Chiquimula/Sololá). **Owner verified the current app exposes
+  NO digit-keyed windows → the historic per-NIT-digit model = legacy
+  compat, never asserted as current practice; the JSF-transcription
+  queue item is CLOSED.** D-7-2019 RECA rows ABSENT 8/8 (consistent
+  with the derogation); D-31-2024 ICT rows surface Jul/Aug only.
+- **Session mechanics (all clean)**: 6 reader dispatches + 4 backfill
+  dispatches, ALL first-pass clean (the W-GT7 3-4-file unit cap held).
+  Controller quote verification hit 2 FALSE-ZERO greps — OCR artifacts
+  ("Eje-/cutivo" line-break; "cincuenta  y cuatro" double space) —
+  agents' normalized quotes faithful; lesson: normalize whitespace
+  before grep-verifying OCR quotes. One controller arithmetic fix
+  (payroll index total). The `&&`-chained rename batch silently stopped
+  at the calendar-loop failure — 104_-108_ txt renames landed only after
+  re-run; **always verify each rename landed**. Mineco.gob.gt automated
+  hunt for AG 52-2017 FAILED (site rebuilt as CMS, no legislación
+  library) — owner-browser low-priority watch only.
+
 ## 5. GT facts a new session must know
 
 - **FEL model**: SAT owns XML standard + validates; taxpayers integrate via
@@ -1119,10 +1216,13 @@ synthesized with these as flagged open questions and back-filled later.
     fix wave b6a4210 + re-review PASS; wave closed)**. ~~NEXT = §4.6
     session-close merge protocol~~ (executed 2026-08-22 at 3250ffa) →
     **batch-2 W-GT7 evidence pass + targeted backfills COMPLETE 2026-08-22
-    (§5n) — corpus re-closed 94/0/0; NEXT = §4.6 merge of the W-GT7
-    commits, then idle awaiting owner-browser queue-rev-9 items (AG 52-2017
-    top-ranked — the last GOQ-08-family lead; AG 118-2002; D-1633;
-    D-37-2001; IGSS program reglamentos; consolidated IVA ≥2018).**
+    (§5n) — corpus re-closed 94/0/0** → ~~§4.6 merge of the W-GT7
+    commits~~ (executed 2026-08-22, thirty-fourth run) → **W-GT8
+    (batches 3+4) COMPLETE 2026-08-23 (§5o) — corpus re-closed 106/0/0;
+    NEXT = §4.6 merge of the W-GT8 commits, then idle awaiting
+    owner-browser queue-rev-11 items (IGSS Acuerdo 1124 top-ranked —
+    the IVS cuota-rate target named by 107_; D-1633 art.-11 montos;
+    AG 52-2017 low-priority watch — mineco hunt failed).**
 2. ~~Opportunistic gap closure~~ **Register-triage maintenance pass DONE
    2026-08-22 (post-S-GT7, same session): GOQ-141..149 added to the master
    index §C.7** (OT divisor 141 · festividad 142 · CT 152/154 re-extraction
@@ -1410,3 +1510,27 @@ convergence session; updated again at W-GT1 close)
   re-push (rebase rewrote history). Corpus CLOSED 94/0/0 — no synthesis
   work remains; next inputs are owner-side (queue rev 9 / accountant /
   TotalDoc W6).
+- **W-GT8 session addenda (2026-08-23, post-merge session — batches 3+4
+  evidence pass + targeted backfills COMPLETE; corpus re-closed 106/0/0)**:
+  owner delivered 19 inbox files across the day (batches 3+4); 12
+  registered (96_–101_ + 103_–108_), 2 re-rejected (AG 75-2006 gazette
+  page = SINAS — resolves the AML hypothesis NEGATIVE, second rejection
+  of the same page; D-10-2025 duplicate capture = 74_), gap 102 unused.
+  Stage 1 OCR: 96_/97_/98_/105_/106_ (footer-layer scans). Stage 2
+  subagent-driven: 6 reader dispatches + 4 backfill dispatches, ALL
+  first-pass clean (3-4-file cap held). Resolutions: GOQ-01
+  resolved-COMPOSITE · GOQ-107 + GOQ-146 resolved (art. 54 "E" tariff,
+  D-7-2019, sunset 2025-08-09) · GOQ-09 resolved-in-part (D-1633
+  standing public statute, art.-11 quantum external) · GOQ-12 lineage
+  settled (AG 118-2002 primary, US$10,000 sole threshold; 75-2006 DEAD)
+  · GOQ-04 re-refined (SEM set rateless → Acuerdo 1124 IVS) ·
+  GOQ-14/145 re-scoped (calendars FLAT — no NIT-digit windows; JSF item
+  closed). Registry identity correction: 106_ = 24-11-2011
+  consolidation. Commits: queue rev 10 ff027bc → registration b921325 →
+  evidence 61276f3 → backfills 5af5537 → records/bookkeeping (this
+  commit). Controller small-fixes: payroll index total arithmetic;
+  §5-heading restore during §5o insertion. **NEXT: §4.6 merge of the
+  W-GT8 commits; then idle pending owner-browser queue-rev-11 items
+  (IGSS Acuerdo 1124 top — the IVS cuota-rate target named by 107_;
+  D-1633 art.-11 montos; AG 52-2017 low watch) / accountant answers /
+  TotalDoc partner access (W6). No synthesis work remains.**
