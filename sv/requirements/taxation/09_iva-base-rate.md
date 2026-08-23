@@ -76,7 +76,8 @@ never charged or recargado over the contribution (Ley IVA Arts. 2 + 47 +
 48-a + 51-d as printed by the 31_ guide) — and the SOQ-40 DESIGN PASS: the
 mapping of the 2001 control-account B2B recovery chain (RETENCIÓN-FOVIAL /
 CUENTAS-POR-COBRAR-FOVIAL re-bill) onto DTE-embedded D1 tributo lines, with
-COTRANS rows config-gated behind its absent instrument.
+the COTRANS rows config-gated on the 89_ instrument (D.L. 257-2021, owned
+W18; vigencia through 31-dic-2026 per the registry prorroga chain).
 
 It does **not** cover: the operation classification and tax-point machinery
 (Arts. 1-32 — `07_iva-framework.md` SV-TAX-FR-176..205, consumed BY ID: the
@@ -471,15 +472,18 @@ watch (§2 preamble) applies to every row above.
   prescribes D1-on-chain-documents as the recovery mechanism; the rows are
   labeled design and re-validate at instrument acquisition (OQ-2).
   (LB-012; EVID-274; SOQ-40; SPE 08-file SV-SPE-FR-170/171/172)
-- **SV-TAX-FR-245:** **[DESIGN — SOQ-40/SOQ-39]** The system shall ship
+- **SV-TAX-FR-245:** **[DESIGN — SOQ-40]** The system shall ship
   the COTRANS side of the design pass CONFIG-GATED: the C8 tributo line
   (CAT-015 code consumed from e-invoicing by id — SV-EINV-FR-017) and the
-  COTRANS quantity-tax family row (SR8 SV-SPE-FR-174 by id — value-flagged
-  print-anchor, instrument absent) wire into the SAME never-in-base guard
-  (FR-242), fila/casilla separation (FR-243) and chain-mapping design
-  (FR-244) as FOVIAL, but their chain/config rows ACTIVATE only upon
-  instrument acquisition (SOQ-39: zero shipped chain mechanics for
-  COTRANS; the guard itself is instrument-independent per FR-242).
+  COTRANS quantity-tax family row (SR8 SV-SPE-FR-174 by id —
+  instrument-anchored via 89_ (spe/08 LB-011 by id)) wire into the SAME
+  never-in-base guard (FR-242), fila/casilla separation (FR-243) and
+  chain-mapping design (FR-244) as FOVIAL, but the chain/config rows ship
+  ANCHORED to 89_ (activation satisfiable since W19; the C8 row activates
+  inside the 89_ vigencia window, valid_from 23-dic-2021 through
+  31-dic-2026 per the registry prorroga chain — texts not acquired,
+  spe/08 OQ-8 watch) while the never-in-base guard stays
+  instrument-independent per FR-242.
   (LB-012; EVID-274; SOQ-39; SPE 08-file SV-SPE-FR-174)
 
 ## 4. Data Model
@@ -527,7 +531,7 @@ record + per-operation débito below.
 | account.tax (quantity-tax family) | iva_base_exclusion invariant | boolean/computed | consumed from SR8's field family (SV-SPE-FR-167/168 by id — never duplicated); the base-engine validation rejects any composition where the contribution enters an IVA base | FR-242 |
 | account.move.line (fuel line) | l10n_sv_iva_price_only_base | monetary (computed) | IVA base = price only; D1/C8 tributo line = $/gal × qty on its own fila (DTE emission = e-invoicing SV-EINV-FR-017, by id) | FR-242, FR-243 |
 | account.move.line (fuel, B2B) | l10n_sv_fovial_chain_echo | m2o control-account move | design: D1 line ↔ RETENCIÓN/CUENTAS-POR-COBRAR-FOVIAL booking link (SR8 SV-SPE-FR-170/171 own the accounts); chain invariant net-zero monitor | FR-244 |
-| account.tax (COTRANS row) | l10n_sv_config_gated | boolean + activation slot | design: C8 chain/config rows activate on instrument acquisition (SOQ-39; SR8 SV-SPE-FR-174 by id) | FR-245 |
+| account.tax (COTRANS row) | l10n_sv_config_gated | boolean + activation slot | design: C8 chain/config rows anchored to 89_ (satisfiable since W19; SOQ-39 consumed; SR8 SV-SPE-FR-174 by id) | FR-245 |
 
 ## 5. Odoo Mapping
 
@@ -565,7 +569,7 @@ use ORIGINAL-period parameters.
 | FR-242 | odoo | computation guard (base engine) | price_only_base + validation | Ley-side root (Arts. 47/48-a/51-d via 31_ §IV.1); SR8 SV-SPE-FR-168 twin by id; rejects base contamination; instrument-independent |
 | FR-243 | odoo | account.move.line (fuel) + doc fields | fila/casilla separation | Price/IVA/contribution in separate filas; D1 emission = SV-EINV-FR-017 by id; Art. 57 separate-from-price parallel (LB-013 pointer) |
 | FR-244 | odoo | account.move.line + control-account link | chain_echo [DESIGN] | SOQ-40: D1-per-operation ↔ RETENCIÓN/CUENTAS-POR-COBRAR-FOVIAL (SR8 FR-170/171 own accounts); net-zero chain invariant; 2001-vintage vs design labeled |
-| FR-245 | odoo | account.tax (COTRANS) | config_gated [DESIGN] | SOQ-39: activates on instrument acquisition; guard itself already live per FR-242; SR8 SV-SPE-FR-174 by id |
+| FR-245 | odoo | account.tax (COTRANS) | config_gated [DESIGN] | anchored to 89_ (SOQ-39 consumed W19); guard itself already live per FR-242; SR8 SV-SPE-FR-174 by id |
 
 Version-regime notes (D12/D15): FR-240 carries the rate-history rows (10%
 1992 → 13% D.L. 370-1995; exact cutover day unpinned — OQ-4; SOQ-54 watch
@@ -659,8 +663,9 @@ against a current official consolidation at implementation.
   re-billed on its sale document), when the tier closes, then its
   CUENTAS-POR-COBRAR-FOVIAL nets to zero and each document carried its own
   per-operation D1 line — the design chain invariant (FR-244); given
-  COTRANS unconfigured (instrument absent), then no C8 chain rows activate
-  while the never-in-base guard already covers the family (FR-245).
+  COTRANS outside the 89_ vigencia window (or the C8 row disabled), then no
+  C8 chain rows activate while the never-in-base guard already covers the
+  family (FR-245).
 - **AC-018:** Given an import whose foreign-currency customs value
   converts, when the import move resolves, then the USD conversion uses the
   póliza/formulario ACCEPTANCE-day rate recorded as the FX anchor (FR-239).
@@ -671,5 +676,5 @@ against a current official consolidation at implementation.
 |----|----------|-----------|-------|--------|
 | OQ-1 | SOQ-54 (vintage): the 01_ consolidation's last reform stamp is D.L. 71-2015 and the 02_ Reglamento's is D.E. 117-2001 — post-2015/post-2001 reforms unverified until an official current consolidation is acquired; corpus-internal signals negative (DTE stack 44_/45_, Quincena-25 package 66_/67_, F-07 v14 manual all silent on later IVA-core reforms). Load-bearing here for the 13% rate row (FR-240) and the base machinery alike. Re-verify Arts. 47-55 + Rgto. Arts. 17-18 at implementation; the watch rides every LB of this file (§2). | no | Takumi S9 (sources registry) | open |
 | OQ-2 | SOQ-40 (design pass): the 2001 control-account chain (RETENCIÓN-FOVIAL / CUENTAS-POR-COBRAR-FOVIAL re-bill) is 31_-guide vintage and PREDATES e-invoicing; the mapping onto DTE-embedded D1 tributo lines (one per operation across FE/CCF chains, final consumer absorbing) is THIS file's DESIGN (FR-244/245), not statutory — no corpus instrument prescribes it. Confirm the intended modern mechanics (D1-line-per-document as the recovery echo vs any MH/DGII chain rule) at FOVIAL-law acquisition; SR8's design-pass pointer (SV-SPE-FR-175) records the same handoff. | no | Takumi S9 + Odoo implementation | open |
-| OQ-3 | SOQ-39/MOQ-04 (guard note): **RESOLVED — instruments ACQUIRED W18, consumed W19 (86_-89_; spe/08 LB-008..012 + FR-185..189 own the instrument-side mechanics)**: FOVIAL = 86_ (D.L. 208-2000 consolidated through D.L. 93-2012) + 87_/88_ D.O. prints — the $0.20/galón value is D.L. 597-2001's Art. 26 reform text per 88_ (in force 17-nov-2001), no longer catalog-print-only; COTRANS = 89_ (D.L. 257-2021, passenger-tariff-stabilization contribution — NOT transportistas de carga — $0.10/galón Art. 3, vigencia through 31-dic-2026 per the prorroga tail). FR-242's guard is UNCHANGED (instrument-independent — it excludes ANY configured per-unit fuel contribution from the IVA base); FR anchors intact; FR-245's COTRANS activation gate is now satisfiable via 89_ (chain-mechanics rewire rides the SR8 wave). Residual = OQ-2's D1-mapping design confirmation (now unblocked). | no | Takumi S9 (sources registry) | **resolved** (W19; 86_-89_) |
+| OQ-3 | SOQ-39/MOQ-04 (guard note): **RESOLVED — instruments ACQUIRED W18, consumed W19 (86_-89_; spe/08 LB-008..012 + FR-185..189 own the instrument-side mechanics)**: FOVIAL = 86_ (D.L. 208-2000 consolidated through D.L. 93-2012) + 87_/88_ D.O. prints — the $0.20/galón value is D.L. 597-2001's Art. 26 reform text per 88_ (in force 17-nov-2001), no longer catalog-print-only; COTRANS = 89_ (D.L. 257-2021, passenger-tariff-stabilization contribution — NOT transportistas de carga — $0.10/galón Art. 3, vigencia through 31-dic-2026 per the prorroga tail). FR-242's guard is UNCHANGED (instrument-independent — it excludes ANY configured per-unit fuel contribution from the IVA base); FR anchors intact; FR-245's COTRANS activation gate is now satisfiable via 89_ (chain-mechanics rewire rides the SR8 wave). Residual = OQ-2's D1-mapping design confirmation (now unblocked). **Rewire landed W20: FR-245/§4/§5/AC-017 now anchor to 89_ (vigencia window through 31-dic-2026).** | no | Takumi S9 (sources registry) | **resolved** (W19; 86_-89_) |
 | OQ-4 | Rate-cutover precision: Art. 54's stamp (2) prints D.L. 370 dated 8-jun-1995 with D.O. 114 T.327 of 21-jun-1995 "(13 %)", and EVID-317 glosses "effective jun-1995" — but the exact vigencia DAY (publication date? eight days after? retro to the decree date?) is unprinted in the corpus, and the pre-reform 10% value itself rests on the EVID-317 gloss, not on a printed 1992 Art. 54 text. The FR-240 history rows carry the cutover as an unpinned boundary (conservative default: D.O. publication 21-jun-1995, flagged). Pin from the D.L. 370 text or an official consolidation before historical-import certification. | no | Takumi S9 (sources registry) | open |
