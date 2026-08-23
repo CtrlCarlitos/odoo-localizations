@@ -217,8 +217,16 @@ must grep ALL LB source columns of the new files.
   checks: factura/MH no drift; **D.O. + uif DNS-level outage since
   2026-08-22** (§6). Follow-up debts: SR8 rewire backlog, 96_ Chapter V
   taxation-wave fold-in, taxation-side 2025+ standing-rule mirror (§8).
-  **Not yet pushed/merged — push after the final whole-wave review (S9
-  protocol); merge = owner decision.**
+  **Final whole-wave review: USABLE-WITH-FIXES → one fix wave PASS
+  (67f75bc: master-index stale pre-W19 authority claims cleared — SR8
+  re-anchored to instruments 86_-89_ w/ EVID-374..379 + MOQ-04 closed,
+  SR6 LB line + SOQ-34 resolution, SR7 LESIA consumed, preamble 31_
+  demoted; final-review I-1, prescribed edits) = MERGE-READY.** Deferred
+  minors triaged: 2 ignore (COVERAGE.md:18 "zero pending" aside; EVID
+  cosmetic nits), rest ride (HANDOVER:645 AML phrasing, spe/08
+  historical misprint-notes, spe/04 OQ-1 pointer, coa OQ wording,
+  taxation/09 rewords = SR8 backlog). Commits ecd553d..67f75bc;
+  pushed sv-research. **Merge to main = owner decision.**
 
 ### W19-process rulings (2026-08-23, preserved from the SDD ledger before workspace deletion)
 
