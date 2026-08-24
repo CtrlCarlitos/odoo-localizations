@@ -95,9 +95,14 @@ evidence already in bank (pattern: GT S-GT1 Task 5 `04_mandate-onboarding.md`).
 The gate flips green when that file lands and the dangling pointers below
 resolve.
 
-Dangling in-corpus pointers to "(A11)" (file:line anchors):
-`e-invoicing/01:201` · `e-invoicing/02:38` · `e-invoicing/03:42` and
-`03:211` · `e-invoicing/04:77` · `e-invoicing/06:36`.
+Dangling in-corpus pointers to "(A11)" (file:line anchors, exhaustive;
+grep-reproducible 2026-08-24): `e-invoicing/01:30` · `01:201` ·
+`e-invoicing/02:38` · `e-invoicing/03:42` · `03:211` ·
+`e-invoicing/04:34` · `04:77` · `04:189` · `e-invoicing/06:36`; plus
+cross-topic pointer notes in commercial-legal (cml/01:354 · cml/04:136,
+1006 · cml/05:82, 134, 213, 411, 750, 816, 823, 835 · cml/07:88, 693)
+and the COVERAGE 26_ consola-manual row (A11-wave candidate) — all
+resolve at mint.
 
 ### 5.2 WATCH items (each: pointer + cadence/deadline)
 
@@ -114,12 +119,12 @@ Dangling in-corpus pointers to "(A11)" (file:line anchors):
 Canonical instances cited; per-file OQ registers own the long tail:
 
 - RAEX reglamento (96_; SOQ-41 residual)
-- Economía commission rate (SOQ-26)
+- Interés legal mercantil rate (Economía; SOQ-26)
 - Ley Registro de Comercio + reglamento (SOQ-25)
 - Quiebra vintage (SOQ-24)
 - 108_ operative format (spe/02 OQ-10)
 - FE receptor ≥3 SMM amount (FR-020 → OQ-007)
-- SMM-mayor-cuantía sector
+- SMM-mayor-cuantía sector (SOQ-33)
 - BCR Tasa Máxima Legal (cml/08)
 
 ## §6 Gate statement
