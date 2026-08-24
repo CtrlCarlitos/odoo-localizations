@@ -1,12 +1,12 @@
-# SV — Commercial-legal — Payment instruments: títulos valores, pagaré, cheque, mora interest and the prescription matrix (C8)
+# SV — Commercial-legal — Payment instruments: títulos valores, pagaré, cheque, mora interest and the prescription matrix (C8; usura Art. 960-A + cheque truncation awareness per 110_/112_)
 
 | Field   | Value |
 |---------|-------|
 | Country | sv |
 | Topic   | commercial-legal |
-| Status  | draft |
-| Authors | Takumi synthesis wave 5 (S5 commercial-legal) |
-| Updated | 2026-08-18 |
+| Status  | draft (W23 fold-in, in review) |
+| Authors | Takumi synthesis wave 5 (S5 commercial-legal) + W23 T4 |
+| Updated | 2026-08-23 |
 
 ## 1. Purpose
 
@@ -87,18 +87,35 @@ e-invoicing wave (SV-EINV-FR-154/155) and cited by pointer only.
 
 Authority order (binding, per master evidence index S5): the Código de
 Comercio = **07_** (D.L. Nº 671, 8-may-1970, D.O. 140 T.228 31-jul-1970;
-29 listed reforms, last = D.L. 641-2008) — article text CURRENT per the
-**SOQ-22 verification (resolved-with-residual, W12 2026-08-18)**: the
-second official copy 73_ (UIF-hosted Índice Legislativo edition) also
-ends its reform list at D.L. 641-2008, so no post-2008 CC structural
-reform is evidenced in two official consolidations; the residual —
-both copies are Asamblea-editorial artifacts without a stated as-of
-date — rides every 07_ LB in this file. Verbatim text below is copied
-from the 07_ evidence file (EVID-225/226) and — the evidence
-abbreviates several operative articles (625 final inciso, 793, 806,
-808, 815, 819-821, 822-837, 960, 995-1002) — from the extraction txt
-`sv/.extractions/07_Codigo_Comercio.pdf.txt` (citable per standing
-ruling; page pointers = txt PAGE markers). Editorial provenance notes:
+29 listed reforms, last = D.L. 641-2008) — **STALE-PRINT RULING (SOQ-22,
+W22 falsification 2026-08-23)**: the W12 "no post-2008 CC structural
+reform" verdict is FALSIFIED — the asamblea por-anios census found and
+this corpus now OWNS the six-instrument post-2008 reform set 109_-114_
+(EVID-407..412: bearer-share suppression, usura, SAS, cheque
+truncation, SAS-gratuidad chain); 07_/73_ consolidation texts are STALE
+for the reformed articles, and THIS file's zone is hit at **Art. 960
+(110_ D.L. 295-2022 — inciso tercero added + Art. 960-A intercalated;
+awareness LB-028 below + the FR-158 note, §3.6) and the cheque
+chapter's new Sección "F" TRUNCAMIENTO DE CHEQUES, Arts. 838-A..838-E
+(112_ D.L. 972-2024 — awareness LB-029 below; no FR mechanics)** —
+FOLDED IN W23 T4 as awareness rows only; every CC clock in this file
+(the Art. 638 conventions, the pagaré/cheque clocks of Arts.
+790-792/805/808/815-821/826/829-831/835 and the Arts. 995-998
+prescription/caducidad matrix) is OUTSIDE both reforms' touch — the
+07_ print stands current there. Census residual (negative watch):
+por-anios carries no cards for 2010/2012-2015 and 2019 looks partial —
+a 2009-2019 CC reform cannot be fully excluded from enumeration
+alone; the six owned instruments carry the KNOWN post-2008 surface.
+Verbatim text below is copied from the 07_ evidence file (EVID-225/226)
+and — the evidence abbreviates several operative articles (625 final
+inciso, 793, 806, 808, 815, 819-821, 822-837, 960, 995-1002) — from
+the extraction txt `sv/.extractions/07_Codigo_Comercio.pdf.txt`
+(citable per standing ruling; page pointers = txt PAGE markers); the
+reformed-in-file articles quote the 110_/112_ reform texts directly
+(LB-028/029 below; txts
+`sv/.extractions/110_Reforma_CodigoComercio_DL295_2022_Asamblea.pdf.txt`
+and `sv/.extractions/112_Reforma_CodigoComercio_DL972_2024_Asamblea.pdf.txt`,
+spacing artifacts cleaned intra-word only). Editorial provenance notes:
 (i) the print carries an authentic-interpretation NOTE under Art. 625
 (D.L. Nº 389, 20-abr-2001, D.O. 90 T.351 16-may-2001) transcribing the
 final inciso's authoritative reading — recorded in LB-001's gloss, not
@@ -150,6 +167,8 @@ clock here is a day/month count, under the SOQ-22 residual watch.
 | LB-025 | Código de Comercio, Art. 999: "Las obligaciones mercantiles y su extinción se prueban por los medios siguientes: I.- Instrumentos públicos, auténticos y privados. II.- Facturas. III.- Correspondencia postal. IV.- Correspondencia telegráfica reconocida. V.- Registros contables. VI.- Testigos. VII.- Los demás admitidos por la ley." | Mercantile obligations and their extinction are proved by: I. public, authentic and private instruments; II. FACTURAS (invoices); III. postal correspondence; IV. recognized telegraphic correspondence; V. ACCOUNTING RECORDS; VI. witnesses; VII. the other means admitted by law | `sv/sources/07_Codigo_Comercio.pdf` | Art. 999 pp.169-170 (EVID-226; txt PAGE 169-170) |
 | LB-026 | Código de Comercio, Art. 1002: "Si apareciere diferencia entre los ejemplares de un contrato que presenten las partes en juicio, el asunto se dilucidará de acuerdo con los asientos de contabilidad de los contratantes; hará fe la contabilidad mercantil de aquél que la lleve en forma legal; llevándola ambos, cualquier otro medio de prueba; si ambos alegaren probanzas de igual fuerza, el Juez resolverá a favor del demandado." | If a DIFFERENCE appears between the contract copies the parties present at trial, the matter is elucidated according to the contractors' ACCOUNTING ENTRIES: the mercantile accounting of the one who keeps it IN LEGAL FORM MAKES FE (prevails as evidence); if BOTH keep it legally, any other means of proof; if both allege proofs of equal force, the Judge resolves FOR THE DEFENDANT | `sv/sources/07_Codigo_Comercio.pdf` | Art. 1002 p.170 (EVID-226; txt PAGE 170) |
 | LB-027 | Código de Comercio, print markers: TÍTULO II "ARBITRAJE COMERCIAL": "Del Art. 1004 al Art. 1012.- DEROGADOS (21)" | Commercial arbitration (Arts. 1004-1012) DEROGATED by reform (21) — superseded by special arbitration legislation outside this corpus (scope note §3.9; no FRs) | `sv/sources/07_Codigo_Comercio.pdf` | Arts. 1004-1012 p.170 (EVID-226 zone; txt PAGE 170) |
+| LB-028 | Reformas al Código de Comercio (110_ = D.L. N° 295, 22-feb-2022; D.O. N° 78 T.435 26-abr-2022; vigencia Art. 3: 8 days post-publication → **4-may-2022**), Arts. 1-2 (Art. 960 inciso tercero ADDED + Art. 960-A INTERCALATED — AWARENESS ROW, no FR mechanics). Art. 1: "Añádase un inciso tercero al artículo 960 de la siguiente manera:" "Para determinar si la tasa de interés efectiva pactada sobrepasa o no las tasas máximas publicadas conforme a la Ley Contra la Usura, el juez deberá consultar al Banco Central de Reserva de El Salvador." Art. 2: "Intercálese el artículo 960-A, entre los artículos 960 y 961 de la siguiente manera:" "Efectos del cobro de intereses usurarios vía judicial" "Art. 960-A.- Las obligaciones de crédito que, de conformidad con la legislación aplicable, se pacten con intereses usurarios serán nulas de pleno derecho, en lo atinante al interés pactado que constituya usura." "En caso de sentencia condenatoria en los procesos judiciales, para el cálculo de los intereses a pagar, el Juez tomará de base la Tasa Máxima Legal publicada y vigente al momento de la celebración del contrato." Art. 3: "El presente decreto entrará en vigencia ocho días después de su publicación en el Diario Oficial." | The usura layer on Art. 960 (AWARENESS ONLY — §2/§3.6): to determine whether the pactada EFFECTIVE interest rate exceeds the maxima published under the Ley Contra la Usura, the JUDGE must consult the Banco Central de Reserva de El Salvador (960 inciso tercero, added); credit obligations pactada with USURIOUS interest are NULL DE PLENO DERECHO as to the usurious slice — "en lo atinante al interés pactado que constituya usura" — and on a condemnatory judgment the judicial interest calculation bases on the TASA MÁXIMA LEGAL published and in force AT CONTRACT CELEBRATION (960-A, intercalated). Gloss: a JUDICIAL-MECHANICS layer with NO Odoo posting surface — the Economía interest-rate config of FR-158 (SOQ-26; OQ-001) is UNCHANGED by this reform; the Tasa Máxima Legal is a BCR external series, never shipped; the presidential-observations NOTA (returned 7-mar-2022, accepted in plenary 29-mar-2022) is as-printed legislative history. Effective 4-may-2022 | `sv/sources/110_Reforma_CodigoComercio_DL295_2022_Asamblea.pdf` (base print co-cited: `sv/sources/07_Codigo_Comercio.pdf`) | 110_ Arts. 1-3 (txt PAGE 1-2; EVID-408); NOTA + D.O. stamp (txt PAGE 2); 07_ Art. 960 p.165 (EVID-226; txt PAGE 165 — pre-110_ print, LB-021) |
+| LB-029 | Reformas al Código de Comercio (112_ = D.L. N° 972, 19-mar-2024; D.O. N° 67 T.443 11-abr-2024; vigencia Art. 3: 8 days post-publication → **19-abr-2024**), Art. 1 (Libro Tercero, Título II, Capítulo VIII, Sección "F" TRUNCAMIENTO DE CHEQUES ADDED, Arts. 838-A..838-E — AWARENESS ROW, no FR mechanics). Art. 838-A (incisos 1, 3 y 5; incisos 2, 4 y final omitidos — compensación/sistema-informático definitions + the physical-custodia Consejo Directivo parameters: bank-exchange mechanics): "El Truncamiento de Cheques es un procedimiento por el cual el intercambio físico del cheque se reduce o se elimina como condición previa para la liberación de fondos a los beneficiarios finales, siendo reemplazado por registros electrónicos que incluyen la imagen del cheque, para su procesamiento o transmisión automática." "El Banco Central de Reserva de El Salvador reglamentará y administrará el proceso de compensación de cheques y otros sistemas de pago, entre bancos y otras instituciones del sistema financiero." "Además de lo dispuesto en el presente Capítulo, la presentación de un cheque, indistintamente del valor consignado en él, en el sistema de compensación de cheques, por medio de imágenes que contienen sus elementos esenciales en forma electrónica u otros medios que en el futuro puedan ser autorizados, surtirá los mismos efectos que la presentación de un cheque físico." Art. 838-B: "El Banco Central de Reserva de El Salvador, por medio de su Consejo Directivo, en un plazo no mayor a noventa días a partir de la entrada en vigencia de esta Sección, emitirá las normas necesarias para reglamentar el proceso de compensación de cheques, así como las disposiciones necesarias para las características y medidas de seguridad de los cheques en físico y de los registros electrónicos que contengan su imagen para efectos del truncamiento." "La normativa a la que hace referencia la presente disposición, se considera materia excluida de conformidad al artículo 7, literal b) de la Ley de Mejora Regulatoria, para los efectos pertinentes." Art. 838-C (lead verbatim; literals a)-l) summarized — full list in txt): "Son infracciones administrativas las acciones u omisiones siguientes:" [a) negarse la institución bancaria a efectuar de forma injustificada el truncamiento (justificación: cheque sin fondos, sin firmas de refrendario, falsedad, cuenta intervenida/embargada o sin disponibilidad); b) demorar o dilatar la compensación; c) alterar, intervenir o interrumpir el sistema informático; d) entregar la reproducción de la imagen digital sin requisitos o negándose a entregarla; e) no proveer medios de consulta de la imagen digital; f) "No acreditar de manera inmediata a sus clientes, una vez recibidos los fondos de parte del liquidador"; g) no entregar la certificación de la imagen del cheque; h) no informar de manera inmediata a la Superintendencia del Sistema Financiero el incumplimiento de otras instituciones participantes; i) negligencia o demora en la reparación de problemas o fallas técnicas; j) no realizar las verificaciones necesarias de los cheques transmitidos; k) exponer a riesgos operativos y financieros a otras instituciones participantes y a terceros; l) incumplir los procesos operativos y demás disposiciones administrativas del Banco Central de Reserva]. Art. 838-D: "Las infracciones que establece el artículo anterior serán sancionadas con multa, cuyo monto se determinará de conformidad a los criterios establecidos de las disposiciones generales sobre las sanciones administrativas, se impondrán multas por medio del Banco Central de Reserva desde los cien (100) hasta los un mil (1000) salarios mínimos vigentes, sin perjuicio de las demás sanciones que puedan ser determinadas de conformidad con la Ley de Supervisión y Regulación del Sistema Financiero y la Ley Orgánica del Banco Central de Reserva de El Salvador al tratarse el cheque de un sistema de pago. Lo anterior, mediante resolución motivada en la que el Banco Central de Reserva deberá respetar el principio de proporcionalidad en la imposición de la multa." "Cuando en las disposiciones legales contenidas en este título se haga referencia a la expresión salario mínimo o salario mínimo mensual, como base para la imposición de sanciones, se entenderá que se hace referencia al valor que corresponda al equivalente a treinta días del salario mínimo por jornada ordinaria de trabajo diario diurno fijado mediante decreto emitido por el Órgano Ejecutivo en el ramo de Trabajo y Previsión Social, para los que trabajan en los rubros del comercio, servicios e industria." Art. 838-E: "Para efectos de la imposición de sanciones administrativas en relación con infracciones tipificadas en el presente capitulo, se aplicará el procedimiento establecido en la Ley de Procedimientos Administrativos." Disposición Transitoria Art. 2: "Los participantes del sistema de compensación de cheques tendrán noventa días, a partir de la vigencia de las normas que emita el Consejo Directivo del Banco Central de Reserva para la regulación del proceso de compensación de cheques y disposiciones relacionadas a los cheques en físico y los registros electrónicos que hace referencia el art. 838-B, para adecuar sus procesos internos y realizar la sustitución de los cheques al formato dispuesto por el Banco Central de Reserva de El Salvador, a efecto de aplicar el Truncamiento de Cheques; posterior a dicho plazo, no se deberán aceptar cheques en formato distinto al normado." Art. 3: "El presente decreto entrará en vigencia ocho días después de su publicación en el Diario Oficial." | The cheque-truncation layer (AWARENESS ONLY — §2): truncation is the procedure by which the PHYSICAL exchange of the cheque is reduced or eliminated as a precondition for releasing funds to final beneficiaries, replaced by ELECTRONIC RECORDS INCLUDING THE CHEQUE IMAGE; presentation in the BCR-administered compensation system BY IMAGES (or future authorized means) — regardless of the consigned value — produces THE SAME EFFECTS AS PHYSICAL PRESENTATION; the BCR Consejo Directivo must issue the compensation/characteristics-and-security norms ≤90 DAYS from the Sección's vigencia (the matter EXCLUDED from Art. 7-b Ley de Mejora Regulatoria); administrative infractions a)-l) (bank-participant duties) are sanctioned with BCR multas of 100-1000 SMM under proportionality — the SMM = THIRTY DAYS of the comercio/servicios/industria ordinary-diurnal-day minimum wage — via the Ley de Procedimientos Administrativos (838-E); a 90-day transitoria substitutes the cheque format to the BCR-dispensed one, after which non-conforming formats are NOT accepted. Gloss: BANK-PARTICIPANT/BCR-SIDE duties — informational for Odoo; this file's CC clocks (Art. 808 presentation, Arts. 815-821 protest/caducidad/prescription, the Art. 995 prescription matrix) are UNTOUCHED by this reform (OQ-004 narrowed). Effective 19-abr-2024 | `sv/sources/112_Reforma_CodigoComercio_DL972_2024_Asamblea.pdf` (base print co-cited: `sv/sources/07_Codigo_Comercio.pdf`) | 112_ Arts. 1-3 + Disposición Transitoria (txt PAGE 1-5; EVID-410); D.O. stamp (txt PAGE 5); 07_ cheque chapter pp.139-143 (EVID-225 zone — untouched base print) |
 ## 3. Functional Requirements
 
 ### 3.1 Títulos valores: the general regime (Arts. 623-653)
@@ -436,8 +455,12 @@ clock here is a day/month count, under the SOQ-22 residual watch.
   computations requiring the legal rate BLOCK with a
   configuration-missing flag until the rate is loaded, and NEVER fall
   back to a hardcoded number (the pagaré ladder of FR-148 consumes
-  this same config).
-  (LB-021; EVID-226)
+  this same config); the Art. 960 base text cited (LB-021) is the
+  pre-110_ print for the pactado/legal ladder limbs — the 110_
+  (D.L. 295-2022) inciso tercero (BCR consultation) and Art. 960-A
+  (nullity of the usurious-interest slice) ride the awareness LB-028,
+  adding no computation mechanics here.
+  (LB-021; EVID-226; awareness LB-028; EVID-408)
 - **SV-CML-FR-159:** The system shall record the Art. 962 solidarity
   default on mercantile obligation records: save legal provision or
   EXPRESS contrary pact, CO-DEBTORS AND GUARANTORS in commercial
@@ -663,9 +686,11 @@ the deliberately-unconfigured legal interest rate (SOQ-26; OQ-001 —
 dated config with NO shipped default, never hardcoded). All day/month
 terms (15d/1m/3m/72h/1y/2y/5y/6m) and proportions (≥20%) are
 un-reformed statutory text under the SOQ-22 residual watch, stored as
-code constants with provenance. Modern payment-system evolution
-(electronic clearing/truncation regimes) is not evidenced in the
-corpus (OQ-004); the CC clocks remain the evidenced defaults.
+code constants with provenance. Modern payment-system evolution beyond
+the CC truncation layer of 112_ (LB-029 — the BCR Consejo Directivo
+compensation norms and the current interbank rules) remains outside the
+corpus (OQ-004, narrowed W23); the CC clocks remain the evidenced
+defaults.
 
 ## 6. Acceptance Criteria
 
@@ -766,5 +791,5 @@ corpus (OQ-004); the CC clocks remain the evidenced defaults.
 | OQ-001 | SOQ-26 (carrying 07_ OQ-6): the mercantile LEGAL INTEREST RATE is fixed periodically by the Economía office (Art. 960 final inciso, print "Secretaría de Economía") but the current rate instrument — publication vehicle, current values, effective dating — is outside the corpus. FR-158 ships the dated config slot with NO shipped default and blocks legal-rate computations while unconfigured; when the instrument is pinned (sources-registry acquisition), load the dated table and keep it SOQ-26-governed — never hardcode. | no | Takumi S5 (sources watch) | open |
 | OQ-002 | The letra de cambio chapter (Arts. 702-787 zone) was skimmed in the 07_ evidence (EVID-225 doubts): only the general chapter, the pagaré's Art. 792 incorporation list and the Art. 995-II regreso row are used here. If a sales-flow or letra register surface is ever required, acquire/extract the letra detail before writing FRs; the Art. 792 inciso-1 incorporation list is recorded but not mechanized. | no | Takumi S5 (sources watch) | open |
 | OQ-003 | Art. 995-IV anchors the 5y credit-contract term on the "último reconocimiento de la obligación por parte del deudor" without defining recognition events, and Art. 996 excludes the Código Civil's interruption/suspension norms from caducidad (implying they govern prescription) — the Civil Code's interruption catalog is not in the corpus. FR-161 stamps the canonical events (payment, partial-payment acknowledgment, explicit acknowledgment); the classification of further candidate events (interest capitalization, dunning) and any interruption semantics beyond the recognition anchor stay open until the CC corpus lands. | no | Takumi S5 + legal review | open |
-| OQ-004 | Modern payment-system evolution — electronic clearing regimes, cheque truncation, current interbank rules implementing Arts. 810/805 — is not evidenced in the corpus (SOQ-22 residual rides the whole 2008-consolidated text). The CC clocks and the clearing-equals-presentation rule are the evidenced defaults; if a clearing-house rule set must be mechanized, acquire it first and wire it as a dated override, never as an edit of the CC defaults. | no | Takumi S5 (sources watch) | open |
+| OQ-004 | (narrowed W23 T4) Cheque truncation is NOW evidenced in the corpus — 112_ D.L. 972-2024 Sección "F" Arts. 838-A..838-E rides the awareness LB-029 (image presentation = physical-presentation effects; BCR reglamenta y administra compensation; no FR mechanics). Still un-acquired — ACQUISITION CANDIDATES: the BCR Consejo Directivo compensation norms (owed ≤90 días from the 19-abr-2024 vigencia) and the current interbank rules implementing them, plus electronic clearing beyond truncation (watch). The CC clocks and the clearing-equals-presentation rule (Art. 810) remain the evidenced defaults; any clearing-house rule set must be acquired first and wired as a dated override, never as an edit of the CC defaults. | no | Takumi S5 (sources watch) | open |
 
