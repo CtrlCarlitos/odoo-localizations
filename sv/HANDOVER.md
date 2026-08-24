@@ -308,6 +308,16 @@ boundary.**
         external sweeps recorded at ec149e0/8eceda1 (factura/MH no
         drift; D.O. feed stalls at 10-ago-2026; uif WAF blocks humans —
         no 2026 AML reglamento evidenced). Merge = owner decision.**
+        **(MERGED to main at 1b43569 same day via rebase-then-merge —
+        forty-eighth §4.6 run in root HANDOVER; the rebase was a NO-OP
+        [main unmoved since the W26 merge at f3e66ab], so the 3 session
+        commits ec149e0..1b43569 stand UNREWRITTEN and the remote
+        needed no re-pin; plain fast-forward push; both branches
+        converged at close + this record. W27 = the chapter-spine mini
+        wave: +2 FRs [corpus 1,732], +1 acquisition [127_, cited on
+        arrival], 305-A..Z spine complete, SOQ-46 candidates
+        dispositioned, COVERAGE 91/9/2/24 of 126 gate green, registry
+        125 file rows next 128.)**
 
 
 ## 2. Read order for a new session
