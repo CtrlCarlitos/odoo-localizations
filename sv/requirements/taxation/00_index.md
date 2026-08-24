@@ -127,17 +127,24 @@ special-regimes wave's consumption anchor, cited by id.
 
 ## Open-questions rollup (ids + titles)
 
-Status legend: `open` unless noted `resolved`. ISR files (01-06): 41
-open / 6 resolved (SOQ-01 and SOQ-04 in `03_isr-rates-gains.md` §7;
+Status legend: `open` unless noted `resolved`. ISR files (01-06): 40
+open / 7 resolved (SOQ-01 and SOQ-04 in `03_isr-rates-gains.md` §7;
 SOQ-03 in `04` OQ-002 + `01` OQ-005 — D.O. pin + digit-fidelity
 verification against the gazette print, source `60_`/EVID-171,
 2026-08-18; 02's OQ-009 resolved-by-pointer to S9 11, R30(c) working
 reading, 2026-08-20; 01's OQ-001 resolved W17 2026-08-20 — 75_ Arts.
-99-100 corroborate Ley Art. 62, LB-027/036, EVID-351). S9 IVA files
-(07-15): 34 open — including the SOQ-54 vintage watch as every file's
-OQ-1; 09's OQ-2 (SOQ-40 design pass) RESOLVED W24 2026-08-24 —
+99-100 corroborate Ley Art. 62, LB-027/036, EVID-351; 04's OQ-003
+resolved W20 2026-08-23 — 2025+ standing 2-SMM aguinaldo
+chain-verified). S9 IVA files (07-15): 32 open / 3 resolved —
+including the SOQ-54 vintage watch as every file's OQ-1; 08's OQ-2
+resolved W18 (SOQ-56 — BCR-qualification list found); 09's OQ-3
+resolved W19 (SOQ-39/MOQ-04 kin — instruments 86_-89_ owned, guard
+re-dated); 09's OQ-2 (SOQ-40 design pass) RESOLVED W24 2026-08-24 —
 instruments rule-negative, design confirmed. W17 file 16: 5 open. W20
-file 17: 4 open. Wave total: **84 open / 7 resolved (91 OQs)**.
+file 17: 4 open. Wave total: **81 open / 10 resolved (91 OQs)** (W24
+recount 2026-08-24 booked the three pre-existing resolutions — 04
+OQ-003 W20, 08 OQ-2 W18, 09 OQ-3 W19 — already recorded resolved in
+the per-file bullets below).
 
 Master-index SOQ mapping: 04's OQ-001 = SOQ-02; 04's OQ-002 = SOQ-03;
 04's OQ-003 = SOQ-05; SOQ-06 lives in 01's OQ-004 + 06's OQ-001; SOQ-07

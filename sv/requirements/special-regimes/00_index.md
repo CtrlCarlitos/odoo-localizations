@@ -122,7 +122,7 @@ user manual (SOQ-36), ~~FOVIAL/COTRANS instruments (SOQ-39 — acquired W18
 as 86_-89_, fold-in landed W19)~~, D.L. 598-2020 + tail laws (SOQ-41 —
 90_-97_ acquired + read W19; ~~residual named-but-unacquired: D.L. 201-2025 +
 411-2025, dated negatives~~ **both acquired W22 as 107_/108_ — EVID-405/406;
-the 10-instrument named set complete, ~~FR fold-ins pending~~** — **fold-ins
+the 10-instrument named set complete, ~~FR fold-ins pending~~ — **fold-ins
 EXECUTED W24 (T1: spe/01 FR-200 amendment + LB-034/035, spe/02 FR-204 +
 LB-024 + OQ-10; taxation limbs SV-TAX-FR-417..421 in the sibling
 index)**), F-11 v20 print.
