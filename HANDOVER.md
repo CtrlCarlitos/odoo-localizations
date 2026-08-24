@@ -693,12 +693,15 @@ expected and absorbed by instantiating the canon, never by forking it.
        worktree clean at the merge point; no wave queued.
 
        **SV W22 merge 2026-08-23 (§4.6 protocol, forty-first run):**
-       `sv-research` rebased onto `7ee18c7` (1 commit rewritten
-       `10963bb`→`8fe7854`: the W22 acquisition wave; ONE textual
+       `sv-research` rebased onto `7ee18c7` (2 commits rewritten total:
+       `10963bb`→`8fe7854` the W22 acquisition wave — ONE textual
        conflict on sv/HANDOVER §1 — the W22 status block vs the
-       main-side W21 merge-record parenthetical, resolved keep-both)
-       then fast-forward-merged at `8fe7854`; remote branch ref fixed
-       via delete + re-push. **SV = W22 SOQ-41-RESIDUALS + SAS-HUNT
+       main-side W21 merge-record parenthetical, resolved keep-both —
+       and the post-merge SHA-bookkeeping commit `4319603`→`15b48a4`,
+       rebased clean onto the parallel GT forty-second-run `854cc47`
+       at session close) then fast-forward-merged (`8fe7854`, record
+       `c4eda40`; bookkeeping follow-up `15b48a4`); remote branch ref
+       fixed via delete + re-push. **SV = W22 SOQ-41-RESIDUALS + SAS-HUNT
        ACQUISITION WAVE COMPLETE (corpus UNCHANGED 1,702 FRs; registry
        104→111 files, numbering 01-114, next 115):** asamblea up second
        day (D.O. degraded further to NXDOMAIN; uif still DNS-absent;

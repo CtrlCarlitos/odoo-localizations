@@ -118,7 +118,7 @@ boundary.**
      SAS-gratuidad chain → 31-dic-2026) — **SOQ-22's W12 "no post-2008 CC
      reform" verdict FALSIFIED (07_/73_ stale for the reformed article
      set)**. EVID-405..412 (two EV files); registry 111 numbered files,
-     next 115;      FR corpus UNCHANGED at 1,702 (sources wave; fold-in debts
+     next 115; FR corpus UNCHANGED at 1,702 (sources wave; fold-in debts
      registered §8.1); COVERAGE 81/9/2/20 of 112 — gate green (see §5
      wave log). (MERGED to main at 8fe7854 via rebase-then-merge —
      forty-first §4.6 run in root HANDOVER; one textual conflict on
@@ -320,11 +320,13 @@ must grep ALL LB source columns of the new files.
   at 1,702; registry 111 files, next 115; COVERAGE 81/9/2/20 of 112 —
   gate green** (+8 pending rows with COVERAGE_NOTES rationale; the
   pre-W22 "104 files" glosses corrected). **Fold-in debts born: (a) cml
-  edit wave — FR-044 SAS flip + profile rows, acciones re-anchors,
-  usura/truncation/338 notes, gratuidad window; (b) spe/taxation wave —
-  107/108 exemption surfaces.** Commits: 10963bb pre-rebase → 8fe7854
-  post-rebase (sv-research push; main merge = 8fe7854 + record c4eda40 —
-  forty-first §4.6 run).
+   edit wave — FR-044 SAS flip + profile rows, acciones re-anchors,
+   usura/truncation/338 notes, gratuidad window; (b) spe/taxation wave —
+   107/108 exemption surfaces.** Commits: 10963bb pre-rebase → 8fe7854
+   post-rebase (main merge + record c4eda40 — forty-first §4.6 run);
+   the W22 bookkeeping commit (SHAs recorded) rode to main afterwards as
+   4319603 → 15b48a4 (rebase onto the parallel GT forty-second-run
+   854cc47, clean) — both branches converged; session closed.
 
 - **W21 (2026-08-23):** COTRANS Aug-2025 prorroga mini acquisition wave
   COMPLETE — controller-direct (no subagents; proportionate scale —
