@@ -886,8 +886,60 @@ expected and absorbed by instantiating the canon, never by forking it.
          2026-10-17) + census watch + go-live prep. sv worktree
          converged to main at close.
 
-       **SV W29 merge 2026-08-24 (§4.6 protocol, fiftieth
-         run):** `sv-research` rebased onto `912cdde` (a NO-OP — main
+        **SV W30 merge 2026-08-24 (§4.6 protocol, fifty-first
+          run):** `sv-research` rebased onto `956c41c` (a NO-OP — main
+          unmoved since the W29 merge-record close, so the 6 session
+          commits `62d5329..a0272dd` stand UNREWRITTEN — plan → T1 mint
+          → T2 pointer sweep → T3 gate flip → fix wave → bookkeeping)
+          then fast-forward-merged at `a0272dd`; plain fast-forward
+          push, no remote re-pin needed. **SV W30 = the A11
+          onboarding/authorization synthesis wave — THE W29 GO-LIVE
+          BLOCKER CLOSED (subagent-driven per plan
+          `docs/superpowers/plans/2026-08-24-w30-a11-onboarding-synthesis.md`,
+          3 tasks + per-task reviews all Approved 0 C/I + final
+          whole-wave review USABLE-WITH-FIXES → one fix wave PASS
+          `c9cf9b9`): (1) NEW
+          `sv/requirements/e-invoicing/07_onboarding.md` = master-index
+          cluster A11 SYNTHESIZED from bank evidence (EVID-001/036/045/
+          074/077/080/081/083) — SV-EINV-FR-165..179 (15 FRs / 8 LBs /
+          6 ACs / 4 OQs; R30(b) continuation from the FR-164 tail): the
+          7-step onboarding state machine (40_ §I verbatim incl. both
+          early-adopter qualifiers), the minimum-test regime (per-DTE-
+          type tracking + starred-mandatory gate via 26_ consola;
+          per-event 5+5 verbatim per 41_ Anexo 1; counts = config rows
+          NO defaults, OQ-001/002), authorization (early-adopter
+          solicitud/Resolución + the AT program groups/dates as dated
+          config rows, OQ-003; early adoption; ALL-authorized-types-
+          across-ALL-establishments; report-liberation rows), the
+          physical-stock cut-over (15 días hábiles inform+destroy +
+          correlative-range reporting + no-coexistence consuming
+          FR-129 by id), the company status surface; by-id discipline
+          reviewer-verified zero restatements; (2) every dangling
+          "(A11)" pointer resolved (five §1 anchors + FR-001/087/138
+          cells → FR-id pointers; 13 cml cluster refs verified
+          resolvable; 00_index grep-derived totals 237 FRs / 78 LB /
+          106 AC / 51 OQ — 06's stale AC-19 → 20 corrected in passing);
+          (3) master-index A11 closure + COVERAGE regen — 26_
+          not-applicable → cited-as-LB, rollup 93/8/2/24 of 127 gate
+          green (--check clean); **(4) GO_LIVE_READINESS gate FLIPPED:
+          17 VERIFIED · 4 WATCH (§2.6/§3.2/§4.2/§4.4) · 0 BLOCKER —
+          GREEN FOR PLANNING** (21-row matrix recount, independently
+          reproduced; §5.1 CLOSED with mint record, W29 inventory
+          preserved; shared-docs §4 SV register row blocker
+          closed).** W30-process rulings (a)-(f) preserved in
+          sv/HANDOVER (stale-index-count ownership; two upheld
+          beyond-brief consistency edits; Build-note staleness left
+          untouched; fix-wave record-only harmonization; report-only
+          arithmetic = ignore; standing no-model-param). **Corpus
+          1,732 → 1,747 (+15); registry 126 file rows next 129
+          UNCHANGED.** SV residual = external watches only (uif AML
+          deadline 2026-10-17; D.O. feed stall; MH formularios F-11
+          v19/v20 + F-14 v17; MOQ-05 endpoints; SOQ-46 negative watch;
+          cvpcpa cadence) + census watch + owner merge decisions. sv
+          worktree converged to main at close.
+
+        **SV W29 merge 2026-08-24 (§4.6 protocol, fiftieth
+          run):** `sv-research` rebased onto `912cdde` (a NO-OP — main
          unmoved since the W28 merge-record close, so the 7 session
          commits `b102b1c..04ed7fa` stand UNREWRITTEN — design spec
          → plan → assessment → citation fixes → review fixes +

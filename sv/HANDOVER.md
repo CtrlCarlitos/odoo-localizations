@@ -451,6 +451,17 @@ boundary.**
            129); sv/README untouched. +15 FRs → corpus 1,747. See §5 W30
            log + W30-process rulings. Merge = owner decision (fifty-first
            §4.6 run when directed).**
+           **(MERGED to main at a0272dd same day via rebase-then-merge —
+           fifty-first §4.6 run in root HANDOVER; the rebase was a NO-OP
+           [main unmoved since the W29 merge record at 956c41c], so the
+           6 session commits 62d5329..a0272dd stand UNREWRITTEN and the
+           remote needed no re-pin; plain fast-forward push; both
+           branches converged at close + this record. W30 = the A11
+           onboarding synthesis wave: +15 FRs [corpus 1,747], cluster
+           A11 file minted [e-invoicing/07], every dangling pointer
+           resolved, 26_ cited, COVERAGE 93/8/2/24 of 127 gate green,
+           GO_LIVE gate 17 VERIFIED / 4 WATCH / 0 BLOCKER — GREEN FOR
+           PLANNING, registry 126 file rows next 129.)**
 
 ### W29-process rulings (2026-08-24, recorded at T5 bookkeeping from the wave ledger)
 
