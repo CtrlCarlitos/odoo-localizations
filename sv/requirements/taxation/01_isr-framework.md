@@ -152,11 +152,12 @@ LB-019).
   ingresos received by personas naturales o jurídicas involved as
   contratistas o subcontratistas in the "Programa de Acceso Universal a
   la Energía en El Salvador" activities enumerated in its Art. 1 shall
-  be flagged `programa_energia_dl411_art3` — renta NO GRAVADA by
-  special law (Ley ISR Art. 4.1 basis, 54_ by id) — for operations
-  inside the per-contract event window (firma de contratos → recepción
-  final / fin de la relación contractual con CEL; the vinculación and
-  window inputs = SV-SPE-FR-204 by id, never restated here); on the
+   be flagged `programa_energia_dl411_art3` — renta NO GRAVADA by
+   special law (Ley ISR Art. 4.1 basis, 54_ by id) — for operations
+   inside the TWO-LAYER 108_ window (the per-contract event window —
+   firma de contratos → recepción final / fin de la relación contractual
+   con CEL — carried inside the decree-vigencia layer; the vinculación
+   and window inputs = SV-SPE-FR-204 by id, never restated here); on the
   FR-173 chassis the flagged amounts never enter the retention base nor
   the annual liquidation renta, and the no-retention consequence flows
   from the no-gravada status per the 97_ working reading (spe/02 OQ-9 —
@@ -486,7 +487,7 @@ file.
 | FR-033 | odoo | l10n_sv.isr.filing.duty | duty_reasons | Presumed-paid vs unretained self-declaration flags on non-domiciled partners |
 | FR-173 | odoo | account.move.line | isr_no_renta_rule (+ quincena_25_art4_66_) | Special-law no-gravada stamp fed by SV-PAY-FR-137 (payroll matrix): never in the SV-TAX-FR-104 retention base nor the annual liquidation renta; only surface = no-gravado reporting (F-910 code 73 / 724-kin, SV-FREP-FR-212) |
 | FR-174 | odoo | l10n_sv.isr.quincena.credit | all | FY-2026-only dated regime (Art. 6 transitory); F-11 v19 casilla-319 feed key inside the casilla-330 subtraction; v19's dead pago-mínimo rows never fed (R21 extends — AC-020); ZF/DPA/LSI certificado entitlement recorded, issuance external to MH; special-regimes wave consumes the certificado by id |
-| FR-417 | odoo | account.move.line | isr_no_renta_rule (+ programa_energia_dl411_art3) | 108_ D.L. 411-2025 Art. 3 program-income stamp on the FR-173 chassis: contratista/subcontratista ingresos from the Art. 1-enumerated activities, inside the per-contract event window (SV-SPE-FR-204 by id); never in the retention base nor the annual liquidation renta; no-retention per the spe/02 OQ-9 working reading; no-gravado reporting only (F-910 code 73 / 724-kin, SV-FREP-FR-212) |
+| FR-417 | odoo | account.move.line | isr_no_renta_rule (+ programa_energia_dl411_art3) | 108_ D.L. 411-2025 Art. 3 program-income stamp on the FR-173 chassis: contratista/subcontratista ingresos from the Art. 1-enumerated activities, inside the two-layer 108_ window (event layer inside the decree vigencia — SV-SPE-FR-204 by id); never in the retention base nor the annual liquidation renta; no-retention per the spe/02 OQ-9 working reading; no-gravado reporting only (F-910 code 73 / 724-kin, SV-FREP-FR-212) |
 
 Version-regime notes (D12): FR-022/FR-025 record the D.L. 969-2024 cutover
 (2024-03-22) — any computation on pre-cutover periods must select the dated

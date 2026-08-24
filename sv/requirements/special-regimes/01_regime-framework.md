@@ -573,7 +573,7 @@ with instrument provenance — never a global constant.
   decree vigencia 27-sep-2025 → 26-sep-2031 (six years, Art. 13) as the
   outer layer, with the per-benefit event window firma de contratos →
   recepción final de las obras / fin de la relación contractual con CEL
-  (Art. 4-II) inside it (the 97_ event_bounded_recepción kind, now carried
+  (Art. 4-II) inside it (the 97_ `event_bounded_recepcion` kind, now carried
   inside a still-open decree vigencia — a CURRENT member, not project-spent
   like 97_; both layers on every dated row, never collapsed). Each
   instrument lands as its own config family keyed by instrument id +
@@ -676,7 +676,7 @@ default none per plan).
 | res.company | sv_spe_regime | select + project_incentive | new class value project_incentive (third family alongside zona_franca/dpa/parque_servicios/centro_servicios — never unified with territorial kinds) | FR-200 |
 | l10n_sv_special_regime.dl_incentive | instrument_id · vigencia · valid_to | select · date · date | dl95_2024 (2-oct-2024) · dl386_2025 (25-ago-2025) · dl411_2025 (vigencia 27-sep-2025, valid_to 26-sep-2031 — provenance 108_ Art. 13, six years from the day after D.O. publication); instrument-keyed config family (post-print reform watch = SOQ-30 cadence kin) | FR-200 |
 | l10n_sv_special_regime.dl_incentive | admission_kind | select | dgii_notice_resolucion (95_: ≥30-day prior notice, content-enumerated; DGII resolución ≤10 días) · cel_contract (97_: CEL + contratistas/subcontratistas) · dgii_escrito_vinculacion (108_: Art. 5 escrito + vinculación proof, resolución ≤10 días hábiles from the day following reception; format = config-gap, NO default — `02` OQ-10) | FR-200 |
-| l10n_sv_special_regime.dl_incentive | window_kind · window_params | select · config | fixed_15y_from_first_utilidades (95_ — text-pinned Art. 3 inc. 2) · event_bounded_recepcion (97_: firma de contratos → recepción final / fin de relación CEL) · event_bounded_recepcion_within_6y_vigencia (108_ — discriminated value, never normalized to either layer alone: decree vigencia 27-sep-2025 → 26-sep-2031 (Art. 13) + per-benefit firma de contratos → recepción final / fin de relación CEL (Art. 4-II) inside it) | FR-200 |
+| l10n_sv_special_regime.dl_incentive | window_kind · window_params | select · config | fixed_15y_from_first_utilidades (95_ — text-pinned Art. 3 inc. 2) · event_bounded_recepcion (97_: firma de contratos → recepción final / fin de relación CEL) · event_bounded_recepcion_within_vigencia (108_ — discriminated value, never normalized to either layer alone: decree vigencia 27-sep-2025 → 26-sep-2031 (Art. 13) + per-benefit firma de contratos → recepción final / fin de relación CEL (Art. 4-II) inside it) | FR-200 |
 | l10n_sv_special_regime.dl_incentive | especialidad · valid_from · provenance | boolean · date · char | prevalence flag (95_ Art. 4 / 97_ Art. 12 / 108_ Art. 11) + instrument provenance; dated rows per D15 | FR-200 |
 | l10n_sv_special_regime.dl_incentive | vinculacion_contrato_ref | m2o/char | 108_: per-contract vinculación link — the Art. 5 escrito/Art. 6 registro hook consumed by `02` FR-204 by id (registros especiales keyed per contract) | FR-200, FR-204 (`02` by id) |
 | res.company/res.partner | sv_raex_state · sv_raex_date | select · date | unregistered · registered · excluded (96_ identity row — MIGOB RAEX; sanction character informational; Chapter V levy = taxation-owned (SV-TAX-FR-405..416 by id)) | FR-201 |

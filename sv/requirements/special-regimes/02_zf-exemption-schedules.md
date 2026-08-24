@@ -687,7 +687,7 @@ judgment noted in the task report).
 | Entity | Field | Type | Catalog / values | Reference |
 |--------|-------|------|------------------|-----------|
 | l10n_sv_special_regime.exemption_row | instrument_id · tax_kind | select (dl95_2024 · dl386_2025 · dl411_2025) · select | 95_: isr (100%, rubro-scoped); 97_: iva · import_dai_iva · isrbt_cel · aranceles (incl. the impuesto-exclusivo config-gap slot, OQ-8) · isr_no_gravada (contractor flag) · isrbt_isr_seller_art5 · cnr_derechos; 108_: iva · import_dai_iva · licencias_tributos · isr_no_gravada_until_recepcion (contractor flag — FR-417 by id) · isr_gain_cel_seller (FR-419 by id) · cnr_arancel | FR-202, FR-203, FR-204 |
-| l10n_sv_special_regime.exemption_row | window_kind · anchor | select · date/event | 95_: fixed_15y_from_first_utilidades (anchor = first-utilidades ejercicio, TEXT-PINNED); 97_: event_bounded (anchor = firma de contratos; end = recepción final / fin de relación CEL); 108_: event_bounded_recepcion_within_vigencia (TWO layers on the row, never collapsed: per-benefit firma de contratos → recepción final / fin de relación CEL per Art. 4-II, inside decree vigencia 27-sep-2025 → 26-sep-2031 per Art. 13) | FR-202, FR-203, FR-204 |
+| l10n_sv_special_regime.exemption_row | window_kind · anchor | select · date/event | 95_: fixed_15y_from_first_utilidades (anchor = first-utilidades ejercicio, TEXT-PINNED); 97_: event_bounded_recepcion (anchor = firma de contratos; end = recepción final / fin de relación CEL); 108_: event_bounded_recepcion_within_vigencia (TWO layers on the row, never collapsed: per-benefit firma de contratos → recepción final / fin de relación CEL per Art. 4-II, inside decree vigencia 27-sep-2025 → 26-sep-2031 per Art. 13) | FR-202, FR-203, FR-204 |
 | l10n_sv_special_regime.exemption_row | suppression_flags | booleans | 95_: no_capital_gain (54_ Arts. 14/42 by id) · no_source_retention (EXPRESS) · no_payment_advance; socio flow-through row with pj_exclusive + no_successive_transfer; 108_: isr_gain_cel_seller row carries no_formulario (express lift, Art. 7) | FR-202, FR-204 |
 | l10n_sv_special_regime.exemption_row | exclusion_flags · carve_outs | booleans | 95_: adquirente · arrendatario_subarrendatario · lessor_not_initial_investor; 97_: personal_consumption · activo_corriente; 97_ import rows carry non_cascade (no extension to other import-operation subjects); 108_: personal_consumption · activo_corriente (Art. 4-I) + non_cascade on the import_dai_iva row | FR-202, FR-203, FR-204 |
 | l10n_sv_special_regime.dl_incentive | admission_ref · registro_flag | char · boolean | 95_: DGII notice (≥30 días prior, content-enumerated) + resolución ≤10 días + abuse-revocation state (CT Art. 260 procedure); 97_: contrato refs + registro-de-uso compliance flag + Art. 66 proporcionalidad-relief pointer (01_ by id); 108_: dgii_escrito_vinculacion admission (Art. 5 escrito + resolución ≤10 días hábiles; format = config-gap OQ-10; spe/01 FR-200 by id) + per-contract vinculación registro link (Art. 6 — spe/01 vinculacion_contrato_ref by id) + CT-260 abuso revocation with liquidation from the abuso-determination ejercicio (Art. 4-III) | FR-202, FR-203, FR-204 |
@@ -828,9 +828,9 @@ regime validity is never overridden by configuration).
   project window resolves, then the exemption cluster (IVA, import/DAI,
   CEL-side ISRBT, aranceles) and the contractor ISR no-gravada flag run
   exactly from signature to 30-jun-2028 (never beyond; never the 95_
-   fixed-horizon shape), the import rows refuse extension to other subjects
-   of the import operation, and a director's personal-use vehicle purchase
-   is carved out of every row (FR-203).
+  fixed-horizon shape), the import rows refuse extension to other subjects
+  of the import operation, and a director's personal-use vehicle purchase
+  is carved out of every row (FR-203).
 - **AC-016:** Given a contractor declared 108_ beneficiario by DGII
   resolución (Art. 5 escrito + vinculación proof recorded) whose program
   equipment import is handled by a freight forwarder, when the import
