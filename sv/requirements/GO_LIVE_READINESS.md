@@ -17,7 +17,7 @@ worst limb for gate purposes (a `VERIFIED + WATCH limb` row gates as WATCH; a
 `VERIFIED (mechanics) + BLOCKER limb` row gates as BLOCKER).
 
 Citation key: FR/LB ids cited by id, never restated — every id below exists
-verbatim in the named file (grep-verified 2026-08-24). Bare numbers `01`–`06`
+verbatim in the named file (grep-verified 2026-08-24). Bare numbers `01`–`07`
 = `sv/requirements/e-invoicing/` file numbers; `coa/` = chart-of-accounts,
 `frep/` = fiscal-reporting, `spe/` = special-regimes, `cml/` = commercial-legal
 directories.

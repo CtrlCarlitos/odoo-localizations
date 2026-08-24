@@ -103,6 +103,7 @@ no product defaults.
 | l10n_sv_edi.onboarding.state | step | selection | paso_1..paso_7 (40_ §I) | FR-165 |
 | l10n_sv_edi.onboarding.state | state | selection | pending / done / not_applicable (steps 5–6 post-designation: program route) | FR-165, FR-171 |
 | l10n_sv_edi.onboarding.state | completed_on | date | — | FR-165 |
+| l10n_sv_edi.onboarding.test | company | m2o res.company | — | FR-166 |
 | l10n_sv_edi.onboarding.test | scope | selection | doc_type / event_type | FR-166, FR-168 |
 | l10n_sv_edi.onboarding.test | environment | selection | 00 / 01 | FR-166 |
 | l10n_sv_edi.onboarding.test | doc_type | selection | CAT-002 (when scope = doc_type) | FR-166 |
@@ -116,6 +117,7 @@ no product defaults.
 | l10n_sv_edi.mandate.group | obligation_date | date | — | FR-172 |
 | l10n_sv_edi.mandate.group | instrument | char | provenance — CONFIG-GATED, no corpus instrument (OQ-003) | FR-172, FR-175 |
 | l10n_sv_edi.mandate.group | valid_from / valid_to | date | dated-row discipline | FR-172; D15/D16 |
+| l10n_sv_edi.authorization.resolution | company | m2o res.company | — | FR-171 |
 | l10n_sv_edi.authorization.resolution | environment | selection | 00 / 01 | FR-171 |
 | l10n_sv_edi.authorization.resolution | requested_on | date | Paso 5 solicitud | FR-171 |
 | l10n_sv_edi.authorization.resolution | resolution_ref | char | DGII Resolución reference | FR-171 |
@@ -130,7 +132,7 @@ no product defaults.
 | l10n_sv_edi.stock.destruction.range | destruction_id | m2o l10n_sv_edi.stock.destruction | — | FR-177 |
 | l10n_sv_edi.stock.destruction.range | doc_type | selection | CAT-002 | FR-177 |
 | l10n_sv_edi.stock.destruction.range | correlative_from / correlative_to | char | the reported range (snapshot-on-write) | FR-177; D15 |
-| res.company | sv_edi_onboarding_state · sv_edi_mandate_state · sv_edi_obligation_date · sv_edi_stock_state | selection / date | derived aggregates (FR-179); authorized doc types derived from the resolution rows | FR-179 |
+| res.company | l10n_sv_edi_onboarding_state · l10n_sv_edi_mandate_state · l10n_sv_edi_obligation_date · l10n_sv_edi_stock_state | selection / date | derived aggregates (FR-179); authorized doc types derived from the resolution rows | FR-179 |
 
 ## 5. Odoo Mapping
 
