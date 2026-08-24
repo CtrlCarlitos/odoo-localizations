@@ -4,7 +4,7 @@
 |---------|-------|
 | Country | gt |
 | Topic   | all (cross-topic) |
-| Status  | draft (S-GT1..S-GT7 synthesis waves complete; W-GT7 + W-GT8 evidence passes with targeted backfills — latest 2026-08-23 — **113 cited / 0 not-applicable / 0 pending: corpus CLOSED at 113 rows** (batch-3/4 instruments 96_–101_ + 103_–108_ evidenced EVID-952..1185; W-GT9 IGSS-library rows 109_–115_ evidenced EVID-1186..1305 — all consumed by exact GOQ resolution)) |
+| Status  | draft (S-GT1..S-GT7 synthesis waves complete; W-GT7 + W-GT8 evidence passes with targeted backfills — latest 2026-08-23 — **115 cited / 0 not-applicable / 0 pending: corpus CLOSED at 115 rows** (batch-3/4 instruments 96_–101_ + 103_–108_ evidenced EVID-952..1185; W-GT9 IGSS-library rows 109_–115_ evidenced EVID-1186..1305; W-GT10 hunt rows 116_/117_ evidenced EVID-1306..1329 — all consumed by exact GOQ resolution; note: the build_coverage.py gate is SV-registry-format-bound — GT COVERAGE is hand-maintained per W-GT7+ convention)) |
 | Authors | GT synthesis waves S-GT1 + S-GT2 + S-GT3 + S-GT4 + S-GT5 + S-GT6/S-GT7 + controller |
 | Updated | 2026-08-23 |
 
@@ -149,10 +149,10 @@ Numbering note: registry numbers 01–83 with gap 27 (27 never allocated);
 
 | Status | Rows |
 |--------|------|
-| cited | 113 (01–115 with gaps 27/102 — every registry row; W-GT7 closed batch 2; W-GT8 batches 3+4; W-GT9 the IGSS JD library) |
+| cited | 115 (01–117 with gaps 27/102 — every registry row; W-GT7 closed batch 2; W-GT8 batches 3+4; W-GT9 the IGSS JD library; W-GT10 the hunt pair 116_/117_) |
 | not-applicable | 0 |
 | pending | 0 |
-| **Total** | **113** |
+| **Total** | **115** |
 
 With the S-GT6/S-GT7 special-regimes wave the synthesis corpus closed:
 82 cited / 0 not-applicable / 0 pending — the first wave series to close
@@ -179,7 +179,21 @@ controller fetched + registered 109_–115_ (1124 Rev-2021 + intermediate /
 1118 / 1002 / 468 / 466 / 1135; batch-5 rejections off-scope), evidenced
 EVID-1186..1305, backfilled payroll/07+10 — **GOQ-04 IVS-rate half
 RESOLVED (3.67% + 1.83% = 5.50% payroll pair)**, program-family map
-pinned; corpus re-closed 113 cited / 0 N-A / 0 pending.**
+pinned; corpus re-closed 113 cited / 0 N-A / 0 pending.** **2026-08-23 W-GT10
+(same day, controller direct fetches from the JD library the hunt targeted):
++2 registry rows — 116_ JD Acuerdo 1520 + AG 239-2022 (the REFORM of
+Acuerdo 1421 arts. 4/5: cotizable base + exclusions, floor redefined as
+monto base = SMM × 243.3333/30.4167/1.00 with patrono-borne top-up, the
+first printed program-distribution proportions table [corroboration-only —
+percentages still delegated], art. 9 ¶3; effective 29-sep-2022 — LB-028)
++ 117_ JD Acuerdo 1556 + AG 17-2026 (the standing recargo-exoneración
+window, ≈25-mar→25-sep-2026 computed — LB-029); EV10 = EVID-1306..1329
+(controller-written) incl. the HUNT VERDICT: the JD library holds NO
+Acuerdo 475 and NO SEM/accidentes rate-setting instrument among ~500
+titles — GOQ-04's rate residue routes = owner-browser DCA-archive only
+(queue rev 13); backfills payroll/07 LB-028/029 + FR-165/169/182/183 +
+payroll/10 LB-011 addendum; corpus re-closed 115 cited / 0 N-A /
+0 pending.**
 
 Expected cited sets verified by grep. S-GT1: 01–22, 29, 30, 31 (+24_
 FEL-layer LB only). S-GT2: 23, 24, 25, 26, 28, 47, 48, 49, 52, 53, 54,

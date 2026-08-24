@@ -632,3 +632,55 @@ GOQ-04 residue = SEM/accidentes operative rates (410 art.-85 chain
 payroll/10 LB-011; COVERAGE 113/0/0; queue rev 12. Standing lesson
 reconfirmed: IGSS library uploads are consolidations, never originals
 (106_ + 115_).
+
+### 2026-08-23 — W-GT10: JD-library hunt + recaudación-reform/exoneración acquisitions (COMPLETE)
+
+Session opened post-§4.6-fortieth-run merge (W-GT8+W-GT9 already on
+main). Executed the queue-rev-12 top item: full sweep of the
+igssgt.org/acuerdos-y-resoluciones listing (~500 titles, 6,158 extracted
+lines, all sections + year tabs). **Hunt verdict NEGATIVE (EVID-1329):
+NO Acuerdo 475 and NO SEM/accidentes rate-setting instrument anywhere in
+the library** (only "475" hit = Resolución 475-SPP/2024, unrelated; the
+library's "Acuerdo 1243" = the 2010 SEM EXTENSION to Santa Rosa/El
+Progreso/Petén — the W-GT9 acdo1243_2010ger rejection stands; oldest
+holdings = the program reglamentos already registered 109_-114_ + 1989
+manuals; the public "Consulta Cuotas IGSS" service = login-gated Portal
+del Afiliado, no rate table). GOQ-04 rate residue re-routed:
+owner-browser DCA-archive only + the "normativa institucional"
+percentages instrument (queue rev 13). **Bonus acquisitions (controller
+direct fetches, W-GT9 precedent): 116_ = JD Acuerdo 1520 (4-ago-2022) +
+AG 239-2022 — the REFORM of Acuerdo 1421 arts. 4/5 (+art. 9 ¶3):
+cotizable-base exclusions statutory, floor redefined as monto base =
+OE SMM (jornada diurna, ≥8h/día, by activity) × 243.3333/30.4167/1.00
+with patrono-borne top-up, and the FIRST PRINTED program-distribution
+proportions table (EMA 0.258065/0.129032 · Acc 0.193548/0.064516 · IVS
+0.236774/0.118065 + non-IVS 0.40/0.20 + 0.30/0.10) — corroboration-only
+(×15.50% ⇒ EMA 4/2 + Acc 3/1 with IVS 3.67/1.83 exact; also explains
+the folk "12.67" = 10.67 IGSS-patronal + IRTRA 1 + INTECAP 1;
+percentages remain delegated — GOQ-04 rate residue UNCHANGED);
+effective 29-sep-2022 (the LB-022 Sep-2022 boundary now primary and
+day-precise). 117_ = JD Acuerdo 1556 (28-ene-2025) + AG 17-2026 — the
+CURRENT standing recargo-exoneración window (lineage 1200 → 1504/1519
+(2022 COVID pair, expired, unacquired) → 1556): 100% recargos +
+costas + interés legal for pre-window periods, six-month window
+≈25-mar-2026 → ≈25-sep-2026 (computed; two-issue DCA publication
+disclosed), planilla-electrónica preconditions, oficio annulment of
+recargo-only cobros, dación en pago.** EV10 = EVID-1306..1329
+(controller-written, session-compression pattern; every quote
+grep-verified against the committed txt dumps — line-wrap false-zeros
+re-verified flattened, the W-GT8 whitespace lesson). Backfills:
+payroll/07 LB-028/029 + FR-165 (floor formula + dated rows) + FR-169
+(art. 4 as reformed) + FR-182 (1556 = dated-regime overlay, never a
+fifth waiver case) + FR-183 (boundary day-precise) + §2 prose + OQ-001
+annotation; payroll/10 LB-011 W-GT10 addendum (recaudación line
+layer-dated + exoneración lineage); payroll/00_index 07-row LBs 25→29
+(stale W-GT8-era cell found + fixed) + totals 167→169. Master index:
+EV10 key row + GOQ-04 W-GT10 annotation + registry/synthesis-order
+lines. COVERAGE re-closed **115 cited / 0 N-A / 0 pending** (hand-
+maintained per GT convention — the build_coverage.py gate is
+SV-registry-format-bound: SOURCE_RE expects backticked registry cells,
+GT's registry has never used them; tooling gap recorded). Corpus
+register: 115 rows, numbering 01–117 gaps 27/102. Next: idle on
+owner-side inputs (DCA-archive rate hunt; art.-11 montos; AG 52-2017
+low watch; accountant; TotalDoc W6; 1556-window expiry watch ≈25-sep
+-2026).

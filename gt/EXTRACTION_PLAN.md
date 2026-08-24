@@ -646,3 +646,15 @@ commit. Never leave a session with evidence unmerged. Update
   program-family map pinned, corpus re-closed 113/0/0, queue rev 12
   (residue = SEM/accidentes rates via the 410 art.-85 chain). **Next:
   §4.6 merge at session close.**
+- 2026-08-23 (iii) — **W-GT10 COMPLETE (JD-library hunt + 1520/1556
+  acquisitions)**: hunt verdict NEGATIVE for the SEM/accidentes rate
+  instruments (no Acuerdo 475, no rate-setting title among ~500 —
+  EVID-1329; DCA-archive owner-browser route only); +2 registry rows
+  (116_ Acuerdo 1520/AG 239-2022 = the 1421 arts. 4/5 reform: floor
+  formula SMM × 243.3333/30.4167/1.00 + distribution proportions
+  corroboration-only; 117_ Acuerdo 1556/AG 17-2026 = standing
+  exoneración window ≈25-mar→25-sep-2026); EV10 = EVID-1306..1329
+  (controller-written); payroll/07 LB-028/029 + FR-165/169/182/183 +
+  payroll/10 LB-011 addendum; GOQ-04 base-floor half formula-anchored
+  (rate residue unchanged); corpus re-closed 115/0/0, queue rev 13.
+  **Next: §4.6 merge at session close; then idle on owner-side inputs.**

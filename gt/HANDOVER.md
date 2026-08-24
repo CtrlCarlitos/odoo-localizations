@@ -36,7 +36,15 @@ COMPLETE — IGSS JD-library wave: owner found igssgt.org/acuerdos-y
 -resoluciones (fetches direct); 109_–115_ registered + EVID-1186..1305;
 GOQ-04 IVS-rate half RESOLVED (1124 art. 40 = 3.67% + 1.83% = 5.50%
 payroll pair); program-family map pinned; corpus re-closed 113/0/0 —
-see §5p + §10 addenda**).
+see §5p + §10 addenda**); updated 2026-08-23 once more (**W-GT10
+COMPLETE — post-fortieth-§4.6-merge session: JD-library hunt NEGATIVE for
+the SEM/accidentes rate instruments (no Acuerdo 475, no rate-setting
+title among ~500 — EVID-1329) + bonus acquisitions 116_ Acuerdo
+1520/AG 239-2022 (the REFORM of 1421 arts. 4/5: floor formula + program
+-distribution proportions) + 117_ Acuerdo 1556/AG 17-2026 (standing
+exoneración window ≈25-mar→25-sep-2026); EVID-1306..1329; payroll/07
+LB-028/029 + FR-165/169/182/183 + payroll/10 LB-011 addendum; corpus
+re-closed 115/0/0 — see §5q + §10 addenda**).
 Read
 this fully before acting; it is the authoritative cross-session memory.
 **Update it at every session boundary.**
@@ -89,13 +97,15 @@ acquisition ledger delivered in 06; **COVERAGE = 82 cited / 0 N-A / 0 pending
 (R49→R72, R50→R73, R52→R75, R55→R81). **Next: ~~S-GT6/S-GT7 final whole-branch review~~ DONE + ~~batch-2 W-GT7
 evidence pass + targeted backfills~~ **DONE 2026-08-22 (§5n)** + ~~W-GT8
 batches-3+4 pass~~ **DONE 2026-08-23 (§5o)** —
-current state: synthesis 7/7 + W-GT7 + W-GT8 + W-GT9 complete, corpus
-CLOSED at 113 cited / 0 N-A / 0 pending; milestone: controller drives
-the next §4.6 merge at session close (W-GT8 + W-GT9 commits ride it).
-Remaining acquisitions are queue-rev-12 items (SEM/accidentes rate
-instruments — the 410 art.-85 chain 475→1243 + successors, hunt the
-igssgt.org JD library Otros tab; D-1633 art.-11 montos; AG 52-2017 low
-watch — mineco automated hunt FAILED).**
+current state: synthesis 7/7 + W-GT7 + W-GT8 + W-GT9 + W-GT10 complete,
+corpus CLOSED at 115 cited / 0 N-A / 0 pending; the W-GT8+W-GT9 §4.6
+merge landed 2026-08-23 as the FORTIETH s4.6 run (root HANDOVER §3 at
+7ee18c7). Remaining acquisitions are queue-rev-13 items (SEM/accidentes
+rate instruments — the 410 art.-85 chain 475→1243 + the "normativa
+institucional" percentages instrument: JD library EXHAUSTED W-GT10,
+owner-browser DCA-archive route ONLY; D-1633 art.-11 montos; AG 52-2017
+low watch — mineco automated hunt FAILED; 1556-window expiry watch
+≈25-sep-2026).**
 Product architecture context: root `HANDOVER.md` §1 (SaaS thin-client + Odoo;
 Takumi consumes requirements).
 
@@ -127,9 +137,14 @@ Takumi consumes requirements).
 - Python: `~/.venvs/localizations/bin/python` (shared, absolute path — works
   from the worktree). Scripts in `shared/scripts/` (extract_text.py etc.).
 
-## 4. Corpus state (2026-08-23 — W-GT9 COMPLETE: all 113 rows evidenced)
+## 4. Corpus state (2026-08-23 — W-GT10 COMPLETE: all 115 rows evidenced)
 
-**113 registered entries** (`gt/sources/`, numbering 01–115; gaps 27/102;
+**115 registered entries** (`gt/sources/`, numbering 01–117; gaps 27/102;
+**116_/117_ = 2026-08-23 W-GT10 hunt acquisitions (controller direct
+fetches from the JD library; 116_ = Acuerdo 1520 + AG 239-2022 — the
+REFORM of 1421 arts. 4/5 + art. 9 ¶3, effective 29-sep-2022; 117_ =
+Acuerdo 1556 + AG 17-2026 — the standing recargo-exoneración window
+≈25-mar→25-sep-2026; EVID-1306..1329 incl. the hunt verdict — see §5q)**;
 **109_–115_ = 2026-08-23 W-GT9 IGSS JD-library wave (owner found
 igssgt.org/acuerdos-y-resoluciones — fetches DIRECT, controller-fetched;
 1124 Rev-2021 + 1124 intermediate + 1118 + 1002 + 468 + 466 + 1135;
@@ -883,6 +898,82 @@ places — W-GT6)**. Reform chains are recorded in SOURCE_RESEARCH.md.
   folder only exists where created); both main + worktree inboxes now
   exist.
 
+## 5q. W-GT10 facts a session MUST know (2026-08-23)
+
+- **Deliverables (all committed, branch gt-research)**: 1 controller
+  -written evidence file (`116_117_IGSS_1520_Reforma1421_1556_Exoneracion`
+  EVID-1306..1329, 24 entries incl. the hunt verdict) + backfills
+  payroll/07 (LB-028/029 + FR-165/169/182/183 amendments + §2 prose +
+  OQ-001 annotation) + payroll/10 (LB-011 W-GT10 addendum) + payroll
+  index (07-row LBs 25→29 — a stale W-GT8-era cell found + fixed; totals
+  167→169) + master-index/COVERAGE/queue write-backs. Corpus re-closed
+  **115/0/0** (register 01–117, gaps 27/102).
+- **HUNT VERDICT (EVID-1329 — binds GOQ-04 residue routing)**: full
+  sweep of igssgt.org/acuerdos-y-resoluciones (~500 titles, all sections
+  + year tabs) = **NO Acuerdo 475, NO SEM/accidentes rate-setting
+  instrument** (only "475" hit = Resolución 475-SPP/2024; the library's
+  "Acuerdo 1243" = the 2010 SEM EXTENSION to Santa Rosa/El Progreso/
+  Petén — W-GT9's acdo1243_2010ger rejection stands; oldest holdings =
+  the program reglamentos already registered + 1989 manuals). The public
+  "Consulta Cuotas IGSS" service (/cuotas/) = login-gated Portal del
+  Afiliado — NO public rate table. **Residue routes: owner-browser
+  DCA-archive hunt (the 1960s-70s 475→1243 gazettes) + the "normativa
+  institucional" percentages instrument — queue rev 13.**
+- **116_ = THE 1421 REFORM (material to every payroll/07 row citing
+  1421 arts. 4/5)**: JD Acuerdo 1520 (4-ago-2022) + AG 239-2022
+  (16-sep-2022; DCA Nº 72 pp.7-9 28-sep-2022; 1520 rige 29-sep-2022,
+  day-after-publication; AG rige publication day — the printed one-day
+  stagger; LB-022's Sep-2022 boundary now primary + day-precise). Art. 4
+  (cotizable base): jornadas ordinarias + extraordinarias +
+  bonificaciones (unless creating-law excludes) + INLINE floor clause;
+  exclusions = termination indemnización + vacation cash-out +
+  aguinaldo (blanket) + law-excluded bonificaciones + IGSS-subsidy
+  complement (the 2018 text already carried the itemization — the
+  reform's substance is art. 5). Art. 5 (floor): "salario mínimo" for
+  contribution purposes = MONTO BASE = OE SMM (jornada diurna, ≥8h/día,
+  by activity) × factor **243.3333 (hora) / 30.4167 (día) / 1.00 (mes)**
+  [printed "Mes 100" = table-collapse; formula column "* 1" governs];
+  universal (contract/jornada/days/geography-independent); below-base
+  only; **patrono pays the top-up difference**; the PERCENTAGES stay
+  delegated to "normativa institucional vigente" (GOQ-04 rate residue
+  UNCHANGED). **Distribution proportions of the top-up (first printed
+  program-split in corpus): EMA 0.258065/0.129032 · Accidentes
+  0.193548/0.064516 · IVS 0.236774/0.118065 (+ non-IVS variant
+  0.40/0.20 + 0.30/0.10) — CORROBORATION-ONLY**: arithmetic ×15.50%
+  total ⇒ EMA 4%/2% + Acc 3%/1% with IVS 3.67/1.83 EXACT (matches 1124
+  art. 40) and mechanically explains the folk "12.67" = 10.67
+  IGSS-patronal + IRTRA 1 + INTECAP 1 — but it is an INFERENCE, never a
+  rate source; the 12.67/4.83 rejected-prior verdicts STAND. Art. 9 ¶3
+  added (Recaudación-data confidentiality; the day-20 rule untouched).
+- **117_ = the standing exoneración window**: JD Acuerdo 1556
+  (28-ene-2025) + AG 17-2026 (18-feb-2026; two-issue DCA: AG in Nº 13
+  20-feb-2026, 1556 text + Gerencia order in Nº 14 23-feb-2026) — 100%
+  of recargos + costas + interés legal (NEVER cuotas capital) for
+  PRE-window periods on payment/RD during a SIX-MONTH window (art. 12
+  30-day clock → rige ≈25-mar-2026; closes ≈25-sep-2026 — computed,
+  day-precision open; **as of 2026-08-23 the window is STILL OPEN**;
+  post-window state NOT in corpus — JD-library watcher, lineage
+  1200→1504/1519→1556 shows re-issuance is the pattern). Preconditions:
+  registro-patronal current + planilla-electrónica adherence +
+  back-filed planillas + payment; partials per WHOLE documento de cobro;
+  recargo-only cobros annulled EX OFFICIO; dación en pago of inmuebles
+  (2-yr + one extension; RD >60 months = Gerencia). Modeled as a
+  D15/D16 dated-regime overlay (FR-182) — NEVER a fifth reglementary
+  waiver case.
+- **Tooling gap recorded**: `shared/scripts/build_coverage.py --check`
+  is RED for GT by construction — SOURCE_RE expects SV-style
+  BACKTICKED registry filename cells; GT's registry has never used
+  them. GT COVERAGE stays hand-maintained (W-GT7+ convention). Fix
+  candidate (next maintenance pass, owner decision): reformat GT
+  registry cells to backticks OR extend SOURCE_RE to plain cells.
+- **Session mechanics**: zero subagent dispatches (controller-executed
+  end-to-end — session-compression pattern, quotes grep-verified
+  flattened after 5 line-wrap false-zeros; the W-GT8 whitespace lesson
+  held); session opened with the §4.6 fortieth-run merge ALREADY landed
+  (verified: main = 7ee18c7, gt-research 0-ahead, worktree clean,
+  inboxes empty, no repo-local core.editor leftover); repo-local
+  core.editor set at session start per §4.6.
+
 ## 5. GT facts a new session must know
 
 - **FEL model**: SAT owns XML standard + validates; taxpayers integrate via
@@ -1282,7 +1373,19 @@ synthesized with these as flagged open questions and back-filled later.
     NEXT = §4.6 merge of the W-GT8 commits, then idle awaiting
     owner-browser queue-rev-11 items (IGSS Acuerdo 1124 top-ranked —
     the IVS cuota-rate target named by 107_; D-1633 art.-11 montos;
-    AG 52-2017 low-priority watch — mineco hunt failed).**
+    AG 52-2017 low-priority watch — mineco hunt failed).** → ~~§4.6
+    merge of the W-GT8+W-GT9 commits~~ **DONE 2026-08-23 (fortieth
+    s4.6 run, root HANDOVER §3 record at 7ee18c7; 12 commits rebased
+    clean onto 4be5347 + fast-forward-merged; remote gt-research fixed
+    via delete + re-push)** → **W-GT10 (JD-library hunt + 1520/1556
+    acquisitions) COMPLETE 2026-08-23 (§5q) — corpus re-closed 115/0/0;
+    hunt verdict NEGATIVE at the JD library → SEM/accidentes rate
+    instruments = owner-browser DCA-archive route only (queue rev 13).
+    NEXT = idle on owner-side inputs: DCA-archive rate hunt (the
+    475→1243 chain + the "normativa institucional" percentages
+    instrument) · D-1633 art.-11 montos · AG 52-2017 low watch ·
+    accountant answers · TotalDoc W6 · 1556-window expiry watch
+    ≈25-sep-2026.**
 2. ~~Opportunistic gap closure~~ **Register-triage maintenance pass DONE
    2026-08-22 (post-S-GT7, same session): GOQ-141..149 added to the master
    index §C.7** (OT divisor 141 · festividad 142 · CT 152/154 re-extraction
@@ -1615,3 +1718,45 @@ convergence session; updated again at W-GT1 close)
   explained). Commits: registration (109-114) → batch-5 (115_) →
   evidence 3612471 → backfills → close. NEXT: §4.6 merge of W-GT8 +
   W-GT9 commits (this session's close).
+- **§4.6 merge record (2026-08-23, fortieth run — W-GT8 + W-GT9)**:
+  `gt-research` rebased onto `4be5347` (12 commits rewritten
+  `ff027bc..895e452` → one clean pass, zero conflicts — gt/-scoped) then
+  fast-forward-merged; root HANDOVER §3 record committed at `7ee18c7`;
+  remote gt-research updated via delete + re-push. GT worktree clean at
+  the merge point; corpus 113/0/0; no wave queued at that moment.
+- **W-GT10 session addenda (2026-08-23, post-merge session — JD-library
+  hunt + recaudación-reform/exoneración acquisitions COMPLETE; corpus
+  re-closed 115/0/0)**: session opened with the fortieth-run merge
+  verified already landed (main = 7ee18c7; gt-research 0-ahead; both
+  checkouts clean; inboxes empty; NO repo-local core.editor leftover —
+  the §4.6 unset had been done; repo-local editor set fresh at this
+  session's start). Executed the queue-rev-12 top item controller-side
+  (W-GT9 direct-fetch precedent): full JD-library listing sweep (~500
+  titles via webfetch) → **HUNT NEGATIVE (EVID-1329): no Acuerdo 475, no
+  SEM/accidentes rate instrument; library "1243" = 2010 SEM extension
+  (W-GT9 rejection stands); /cuotas/ = login-gated** → residue routed to
+  owner-browser DCA-archive + the institucional-normativa percentages
+  instrument (queue rev 13). Two bonus acquisitions registered +
+  evidenced controller-written (EVID-1306..1329): **116_ Acuerdo 1520 +
+  AG 239-2022 (THE reform of 1421 arts. 4/5 + art. 9 ¶3 — floor
+  formula SMM × 243.3333/30.4167/1.00, patrono top-up, program
+  -distribution proportions corroboration-only, effective 29-sep-2022;
+  payroll/07 LB-028 + FR-165/169/183 amended)** + **117_ Acuerdo 1556 +
+  AG 17-2026 (standing exoneración window ≈25-mar→25-sep-2026,
+  STILL OPEN at session date; FR-182 dated-regime overlay + LB-029)**;
+  payroll/10 LB-011 addendum; payroll index 07-row stale LB cell
+  (25→29) + totals 167→169; master-index EV10 row + GOQ-04 W-GT10
+  annotation + registry/synthesis lines; COVERAGE re-closed 115/0/0;
+  queue rev 13 (also fixed the stale rev-11 header left by W-GT9's
+  inline rev-12 amendment). **Tooling gap recorded: build_coverage.py
+  --check is RED for GT by construction (SOURCE_RE expects SV-style
+  backticked registry filename cells; GT registry never used them) — GT
+  COVERAGE stays hand-maintained; fix candidate parked for the next
+  maintenance pass.** Session mechanics: zero subagent dispatches
+  (controller-executed end-to-end, session-compression pattern);
+  quote verification hit 5 line-wrap false-zeros (all PASS flattened —
+  the W-GT8 whitespace lesson); **the §5-heading-swallow failure mode
+  REPEATED during §5q insertion (W-GT8's §5o lesson) — heading
+  restored in-file; always re-grep `^## 5` after inserting a §5x
+  section**. NEXT: §4.6 merge of the W-GT10 commits at session close;
+  then idle on owner-side inputs (queue rev 13).
