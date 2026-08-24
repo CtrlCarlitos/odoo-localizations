@@ -1417,6 +1417,14 @@ must grep ALL LB source columns of the new files.
    days; no corpus dependency today, but re-probe at cadence BEFORE any
    2026-instrument hunt, incl. the Nov/Dec-2026 aguinaldo-cap decree
    watch).
+   **uif addendum (owner-assisted, same day): the WAF block hits the
+   owner's own browser too (Incapsula block page, Attack ID 20000052)
+   — not bot-filtering; fiscalia.gob.sv (UIF parent) = stub page only;
+   Wayback has no 2026 marco-legal capture; news search = only the
+   D. 2-2000 reglamento (17_). NO new AML reglamento evidenced as of
+   2026-08-24 — watch rides; fallback = D.O. sumario grep when the
+   gazette-feed stall clears (registry "External checks — post-W26"
+   addendum = the record).**
 - W18 route intel (2026-08-21/22): **TF DC catalog enumerable via
   Wayback CDX** (`web.archive.org/cdx/search/cdx?url=transparenciafiscal.
   gob.sv*`) → live `downloads/pdf/DC<id>_<ExactCase_Slug>.pdf` URLs
