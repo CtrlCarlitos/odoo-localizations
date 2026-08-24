@@ -275,21 +275,45 @@ boundary.**
        305-T (arreglo directo/arbitraje) uncited by scoping. Commits
        a56c2a1..ac626db; pushed sv-research; merge = owner decision
        (forty-seventh §4.6 run when directed).**
-       **(MERGED to main at c74770c same day via rebase-then-merge —
-       forty-seventh §4.6 run in root HANDOVER; the rebase was a NO-OP
-       [main unmoved since the W25 merge at 6121d42], so the 9 session
-       commits a56c2a1..c74770c stand UNREWRITTEN and the remote
-       needed no re-pin; plain fast-forward push; both branches
-       converged at close + this record. W26 = the rides + hygiene
-       consolidation: ZERO corpus deltas — 1,730 FRs, same LB/AC
-       counts, spe OQ legend 48/12, COVERAGE 90/9/2/24 of 125 gate
-       green, registry 124 file rows next 127.)**
+        **(MERGED to main at c74770c same day via rebase-then-merge —
+        forty-seventh §4.6 run in root HANDOVER; the rebase was a NO-OP
+        [main unmoved since the W25 merge at 6121d42], so the 9 session
+        commits a56c2a1..c74770c stand UNREWRITTEN and the remote
+        needed no re-pin; plain fast-forward push; both branches
+        converged at close + this record. W26 = the rides + hygiene
+        consolidation: ZERO corpus deltas — 1,730 FRs, same LB/AC
+        counts, spe OQ legend 48/12, COVERAGE 90/9/2/24 of 125 gate
+        green, registry 124 file rows next 127.)**
+        **W27 chapter-spine mini wave (2026-08-24): COMPLETE —
+        controller-direct per the owner-approved bounded design
+        (proportionate scale, W21/W25 precedent): (1) the recorded
+        111_-touch residual EXECUTED — cml/04 LB-041..043 (305-C
+        accionista-not-employee / 305-I inscription-certificate proof /
+        305-T awareness; PAGE 5/5/8) + FR-247 (contract-gated
+        accionista→employee link, payroll consumes by id) + FR-248
+        (Registro-issued inscription document = the SAS documentary
+        proof, escritura-class replacement per FR-225) + AC-021/022 +
+        §5 rows — the 305-A..Z citation spine COMPLETE; (2) the SOQ-46
+        hunt DISPOSITIONED — 175-2023 closed-negative (text not
+        acquirable: broken post link, no PDF, Wayback empty; successor
+        76_ has no criteria content); Res. 82-2024 ACQUIRED as 127_
+        (cvpcpa wp-json `www.` base; EVID-416..418) = the NIIF S1/S2
+        voluntary window (1-ene-2025, framework-independent) + the
+        operative NIIF-PYMES S1/S2 bar — PRESUMES the classification,
+        so SOQ-46 residual = negative watch only; coa/01 LB-008
+        (awareness/config-off, Pillar-Two precedent). +2 FRs → corpus
+        1,732 (cml 248/259/144/35; coa LBs 58); registry 125 file rows,
+        next 128 (sv/README stale W22 count fixed); COVERAGE 91/9/2/24
+        of 126 gate green — 127_ cited ON ARRIVAL. Same-session
+        external sweeps recorded at ec149e0/8eceda1 (factura/MH no
+        drift; D.O. feed stalls at 10-ago-2026; uif WAF blocks humans —
+        no 2026 AML reglamento evidenced). Merge = owner decision.**
 
 
 ## 2. Read order for a new session
 
 1. THIS file
-2. `sv/EXTRACTION_PLAN.md` — wave log (W1–W24), reading order, risks
+2. `sv/EXTRACTION_PLAN.md` — wave log (W1–W27), reading order, risks
 3. `sv/.extractions/00_MASTER_INDEX.md` — synthesis lookup: clusters
    (A1-A12, T1-T8, F1-F12, P1-P10, C1-C10, SR1-SR8, N1-N8, V1-V10),
    rulings R1–R30, MOQ/SOQ registers
@@ -300,9 +324,9 @@ boundary.**
    `shared/docs/` method docs (extraction procedure, requirements
    template, regulatory-change-management, odoo-localization-guide,
    go-live-readiness)
-6. `sv/sources/README.md` — the registry (124 file rows, numbering
-   01–126 + 17b, gaps 21/23/24/28, 25_ double vintage; next numbering =
-   127)
+6. `sv/sources/README.md` — the registry (125 file rows, numbering
+   01–127 + 17b, gaps 21/23/24/28, 25_ double vintage; next numbering =
+   128)
 
 ## 3. Corpus & evidence state
 
@@ -335,9 +359,12 @@ boundary.**
   `17_Reglamento_Lavado_Activos` (EVID-232..235, kept-mechanics citable).
   W9 payroll: EVID-191..210. W8 fiscal reporting: EVID-171..190. W7/W6.5/
   W6 ISR: EVID-088..108, 128..170. S1 foundations: EVID-001..087.
-- **124 registered source file rows** (numbering 01–126 + **17b**, gaps
-   21/23/24/28 = 122 plain numbers + 17b + the 25_ double vintage (pdf+xlsx)
-   = 124 files — W25 added 115_-126_ = the D.O. original prints of
+- **125 registered source file rows** (numbering 01–127 + **17b**, gaps
+    21/23/24/28 = 123 plain numbers + 17b + the 25_ double vintage (pdf+xlsx)
+    = 125 files — W27 added 127_ = Resolución CVPCPA 82-2024 (the NIIF S1/S2
+    window + PYMES bar; SOQ-46 hunt by-product, EVID-416..418; cvpcpa
+    wp-json route — the `www.` base required); W25 added 115_-126_ = the D.O.
+    original prints of
    106_-114_ + the COTRANS chain texts 307/617/1000; W24 bookkeeping
    correction: the W22 "111 files" recount
    forgot the 17b registry key; sources/README and the COVERAGE script
@@ -386,17 +413,19 @@ boundary.**
 | `taxation/` | 17 + index + 2 CSV | 421 (S2: 001..175 ISR; S9: 176..353 IVA; W17: 354..404 CT procedures; W20: 405..416 foreign-agents levy; W24: 417 no-gravables chassis [01] + 418..419 ganancia exonerations [03] + 420 IVA exemption channel [08] + 421 pro-rata exception [11]) | SV-TAX-FR-001..421 |
 | `fiscal-reporting/` | 8 + index + CSV | 214 | SV-FREP-FR-001..214 |
 | `payroll/` | 8 + index + 2 CSV | 147 | SV-PAY-FR-001..147 |
-| `commercial-legal/` | 10 + index | 246 (W23: 225..246 tails — 04 carries 225..242+246, 05 carries 243..245) | SV-CML-FR-001..246 |
+| `commercial-legal/` | 10 + index | 248 (W23: 225..242 + 246 tails — 04 carries 225..242 + 246..248, 05 carries 243..245; W27: 247..248 = the 305-C/I chapter-spine additions) | SV-CML-FR-001..248 |
 | `special-regimes/` | 8 + index | 204 (W24: 204 = the 108_ package family in 02; FR-200 amended in place) | SV-SPE-FR-001..204 |
 | `chart-of-accounts/` | 8 + index | 276 | SV-COA-FR-001..276 |
 
-Totals: 1730 FRs (W17 fold-in = 57 new: taxation 354..404, fiscal-
+Totals: 1732 FRs (W17 fold-in = 57 new: taxation 354..404, fiscal-
 reporting 213..214, payroll 144..147; W19 fold-in = +28: special-regimes
 176..203, all other dirs unchanged; W20 fold-in = +12: taxation 405..416,
 all other dirs unchanged; W23 fold-in = +22: commercial-legal 225..246,
 all other dirs unchanged; W24 fold-in = +6: spe FR-204 + taxation
-FR-417..421, all other dirs unchanged; taxation dir 421 FRs / 310 LBs /
-290 ACs / 91 OQs; spe dir 204 FRs / 165 LBs / 100 ACs / 60 OQs). CSVs:
+FR-417..421, all other dirs unchanged; W27 chapter-spine = +2:
+commercial-legal 247..248, all other dirs unchanged; taxation dir 421 FRs / 310 LBs /
+290 ACs / 91 OQs; spe dir 204 FRs / 165 LBs / 100 ACs / 60 OQs; cml dir
+248 FRs / 259 LBs / 144 ACs / 35 OQs; coa dir 276 FRs / 58 LBs). CSVs:
 `withholding_tables.csv` + `isr_brackets.csv` (taxation),
 `f14_income_codes.csv` (fiscal-reporting), `smm_2025.csv` +
 `ss_contributions.csv` (payroll). FR numbering is wave-sequential within a
@@ -404,12 +433,11 @@ prefix; **R30(b): one prefix per topic dir — the IVA-core files continued
 `SV-TAX` at 176 rather than taking a new prefix**; genuinely new topics
 take new prefixes per the `<CC>-<TOPIC>-FR-nnn` contract.
 
-COVERAGE rollup after W25 (2026-08-24 regen, gate green): 90 cited /
-9 N-A / 2 superseded / 24 pending (125 rows = 124 registry file rows +
-the schemas/ dir row; W25 adds 12 pending rows 115_-126_ — provenance
-class, deliberately not LB-flipped, rationale in COVERAGE_NOTES. The 24
-pending = the W18 identity-only set (12) + the W25 provenance set (12).
-Registry-count correction W24: the
+COVERAGE rollup after W27 (2026-08-24 regen, gate green): 91 cited /
+9 N-A / 2 superseded / 24 pending (126 rows = 125 registry file rows +
+the schemas/ dir row; W27 adds 127_ cited-as-LB ON ARRIVAL via coa/01
+LB-008; the 24 pending = the W18 identity-only set (12) + the W25
+provenance set (12), unchanged. Registry-count correction W24: the
 W22-onward "111 files" prose forgot the 17b registry key — README/script
 parse = 112 file rows (third off-by-one-prose incident; standing lesson
 re-confirmed: counts derive from the README/script parse, never from
@@ -451,6 +479,43 @@ must grep ALL LB source columns of the new files.
   consumer interface).
 
 ### Wave log summary (full detail in `sv/EXTRACTION_PLAN.md` §Extraction log)
+
+- **W27 (2026-08-24):** chapter-spine mini wave COMPLETE — controller-direct
+  per the owner-approved bounded design (proportionate scale, W21/W25
+  precedent). (1) **The 111_ chapter-spine residual CLOSED**: cml/04
+  LB-041..043 (305-C/I/T verbatim, PAGE 5/5/8; print "305 -C" spacing
+  normalized per the LB-040 discipline) + **FR-247** (305-C
+  accionista-not-employee: the accionista→employee link is gated by a
+  recorded WRITTEN contrato laboral; payroll consumes by id) + **FR-248**
+  (305-I: the Registro-issued inscription document = the SAS
+  documentary-proof interface, the escritura class's replacement per
+  FR-225) + AC-021/022 + §5 rows — the 305-A..Z citation spine is
+  COMPLETE. (2) **SOQ-46 hunt dispositioned (spike)**: Res. 175-2023
+  closed-negative (text not acquirable — broken post link, no PDF on
+  server, Wayback CDX empty; successor 76_ owned+read with no criteria
+  content); **Res. 82-2024 acquired as 127_** (cvpcpa wp-json on the
+  `www.` base — apex 301s, bare-host wp-json non-JSON; media id 3910 +
+  text-identical twin 3907; 1 p native text; EVID-416..418): the ISSB
+  **NIIF S1/S2 window** (voluntary from 1-ene-2025, framework-independent)
+  + **RESUELVE: the NIIF-PYMES S1/S2 bar** ("hasta que el CVPCPA lo
+  especifique" — future-specification watch rides cadence) + LREC
+  Art.-36-j authority (78_ kin); session 27-jun-2024, issued 08-ago-2024,
+  D.O. unpinned (76_/77_ class, non-blocking). **NOT the criteria
+  instrument (presumes the classification) — SOQ-46 residual = negative
+  watch only**; coa/01 **LB-008** minted (awareness/config-off,
+  Pillar-Two precedent, no FR). **+2 FRs → corpus 1,732** (cml
+  248/259/144/35; coa 276/58; the approved design's "1,724→1,726" was a
+  stale W23-era figure — corrected per the matrix-derived-prose lesson);
+  registry **125 file rows, next 128** (sv/README stale W22 count fixed
+  in passing); **COVERAGE 91/9/2/24 of 126 gate green** — 127_
+  cited-as-LB ON ARRIVAL (the LB row ships in the acquisition wave, no
+  fold-in debt). Index surfaces: cml 00_index (strict gloss now
+  "225..242 + 246..248"), coa 00_index (LB total 58), MASTER C4 +
+  SOQ-23 closure + SOQ-46 disposition. Same-session external sweeps
+  recorded at ec149e0/8eceda1 (factura schemas byte-identical to 52_;
+  MH no drift; D.O. feed stalls at 10-ago-2026 — re-probe before any
+  2026-instrument hunt; uif WAF blocks human browsers, no 2026 AML
+  reglamento evidenced). Merge = owner decision.
 
 - **W26 (2026-08-24):** rides + hygiene wave COMPLETE — controller-direct
   per plan `docs/superpowers/plans/2026-08-24-w26-rides-hygiene-wave.md`
@@ -1552,13 +1617,19 @@ must grep ALL LB source columns of the new files.
         cosmetics — §5 wave log) + the W25 ride (drop the "recited by
         106_ cons. II" qualifier on FR-189's →31-ago-2025 limb at the
         next spe/08 touch)~~ **ALL EXECUTED W26 (rides + hygiene wave —
-        §5 wave log; zero corpus deltas)** + the recorded 111_-touch
-        chapter-spine residual (305-C/305-I/305-T) +
+        §5 wave log; zero corpus deltas)** + ~~the recorded 111_-touch
+        chapter-spine residual (305-C/305-I/305-T)~~ **EXECUTED W27
+        (FR-247/248 + LB-041..043; §5 wave log)** +
         go-live/implementation prep per
         `shared/docs/go-live-readiness.md`.
-   2. **Acquisition follow-ups (residual after W25):** SOQ-46 criteria
+   2. **Acquisition follow-ups (residual after W27):** ~~SOQ-46 criteria
        instrument (candidates Res. 175-2023 [derogated intermediate] /
-       Res. 82-2024 — low value per SOQ-52 boundary); ~~SOQ-31 D.O.
+       Res. 82-2024 — low value per SOQ-52 boundary)~~ **BOTH
+       DISPOSITIONED W27 (175-2023 closed-negative — text not
+       acquirable; 82-2024 acquired as 127_ = the S1/S2 window +
+       PYMES bar, NOT the criteria instrument; residual = negative
+       watch only, cadence re-probes cvpcpa wp-json + D.O. when the
+       feed stall clears)**; ~~SOQ-31 D.O.
         Oct-Dic-1998 micro-scan~~ **CLOSED W25 (negative confirmed —
         no Reglamento General ever printed; §7)**; F-11 v19/v20 + F14
         v17 manual MH-page watches (**re-pin DONE 2026-08-24**: new landing
@@ -1575,10 +1646,10 @@ must grep ALL LB source columns of the new files.
         por-anios residual
         census (2010/2012-2015 no cards, 2019 partial — the SOQ-22
         negative watch).
-    3. Registry note: numbering continues from **127** (W25 registered
-        115_-126_; sv/sources/README is the count of record — **124 file
-        rows** = 122 plain numbers + 17b + 25_×2 [W24 correction; the
-        "111" prose forgot 17b], gaps 21/23/24/28).
+     3. Registry note: numbering continues from **128** (W27 registered
+         127_; sv/sources/README is the count of record — **125 file
+         rows** = 123 plain numbers + 17b + 25_×2 [W24 correction; the
+         "111" prose forgot 17b], gaps 21/23/24/28).
  4. SOQ follow-ups per §7; periodic external checks (factura.gob.sv,
     uif.gob.sv/marco-legal, MH formularios, D.O. recovery).
   5. Deferred cleanups (CAN-STAND): **RESOLVED by C1 (2026-08-21)** — root

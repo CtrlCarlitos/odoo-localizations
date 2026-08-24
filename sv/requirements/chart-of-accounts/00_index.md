@@ -4,9 +4,9 @@
 |---------|-------|
 | Country | sv |
 | Topic   | chart-of-accounts |
-| Status  | draft (S8, 2026-08-20) |
-| Authors | Controller + S8 subagent wave |
-| Updated | 2026-08-20 |
+| Status  | draft (S8, 2026-08-20; W27 LB addition) |
+| Authors | Controller + S8 subagent wave + W27 controller |
+| Updated | 2026-08-24 |
 
 This directory holds the S8 (synthesis wave 8) chart-of-accounts
 requirements: the ACCOUNTING book under the *Norma de Contabilidad NIIF
@@ -28,7 +28,7 @@ re-derives fiscal values. Source-to-requirements coverage:
 
 | File | Scope | FR range | FRs | LBs | ACs | OQs |
 |------|-------|----------|-----|-----|-----|-----|
-| [01_framework-policies.md](01_framework-policies.md) | PYME eligibility two-prong determination (no public accountability + GPFS; 1.5 compliance bar; separate-FS rule), marco-contable flag as informational config (SOQ-53), complete-FS-set contract (five components; annual + ≥1 comparative; going concern ≥12-month lookahead), disproportionate-cost relief registry, Sección 10 policy governance (full NIIF as non-binding aid; 10.10A prospective revaluation switch; error restatement SV-COA-FR-018 explicitly DISTINCT from e-invoicing fiscal correction — SV-EINV-FR-159 by id), notes architecture (N1) | SV-COA-FR-001..021 | 21 | 7 | 9 | 4 |
+| [01_framework-policies.md](01_framework-policies.md) | PYME eligibility two-prong determination (no public accountability + GPFS; 1.5 compliance bar; separate-FS rule), marco-contable flag as informational config (SOQ-53), complete-FS-set contract (five components; annual + ≥1 comparative; going concern ≥12-month lookahead), disproportionate-cost relief registry, Sección 10 policy governance (full NIIF as non-binding aid; 10.10A prospective revaluation switch; error restatement SV-COA-FR-018 explicitly DISTINCT from e-invoicing fiscal correction — SV-EINV-FR-159 by id), notes architecture (N1); W27: LB-008 = Res. CVPCPA 82-2024 (127_) — the NIIF S1/S2 voluntary window + the NIIF-PYMES S1/S2 bar, awareness/config-off | SV-COA-FR-001..021 | 21 | 8 | 9 | 4 |
 | [02_coa-structure.md](02_coa-structure.md) | THE canonical account taxonomy: ESF root classes (a)-(r) with report-line binding (deferred tax ALWAYS non-current), current/non-current split, Sección 4 sub-classifications (PPE classes; related-party AR/AP split; statutory reserves consumed from commercial-legal SV-CML-FR-041/053..056 by id), Sección 5 income-statement architecture (nature vs function; closed OCI list; discontinued single amount), estado de cambios en el patrimonio, CFS per-account classification + 7.19A/B-C supplier-finance surfaces (N2) | SV-COA-FR-022..054 | 33 | 4 | 9 | 3 |
 | [03_financial-instruments-fx.md](03_financial-instruments-fx.md) | Part I basic-instrument classification + amortized cost/EIR engine, incurred-loss impairment (NOT ECL), derecognition, Part II FV + narrow hedging (config-gated OFF), fair-value engine, FX translation (functional-currency indicators; prepayment-date rate 30.8A — SV-COA-FR-084) with the CT Art. 62 two-clock fiscal rule consumed as SV-TAX-FR-020 by id (SV-COA-FR-086 — book FX never conflated with tax-base FX) (N3) | SV-COA-FR-055..092 | 38 | 8 | 11 | 4 |
 | [04_nonfinancial-assets.md](04_nonfinancial-assets.md) | Inventories (FIFO\|AVG only — LIFO banned 13.19), PPE component model + cost-OR-revaluation per class (10.10A prospective switch; surplus → OCI), intangibles finite-always + ALL internally generated expensed + goodwill ≤10y, Sección 27 impairment engine (CGU allocation, reversal caps), investment property, Sección 34 specialized activities; fiscal Art. 84 register / Art. 30 rates / non-deductibles consumed as SV-TAX-FR-038/052/081/150/165/167/170 by id (dismantling + lease classification route to `05` by filename — see reconciliation notes) (N4) | SV-COA-FR-093..134 | 42 | 7 | 14 | 3 |
@@ -36,7 +36,7 @@ re-derives fiscal values. Source-to-requirements coverage:
 | [06_revenue.md](06_revenue.md) | Sección 23 IFRS-15-aligned five-step engine + Apéndice 23A (modifications, warranties, material rights, principal-vs-agent, returns, licences, royalties), contract balances (asset vs receivable vs liability; whole-contract netting 23.77), contract costs; DTE credit/refund surfaces consumed as SV-EINV-FR-028/101/161 by id (N6) | SV-COA-FR-182..223 | 42 | 12 | 6 | 4 |
 | [07_groups-related-parties.md](07_groups-related-parties.md) | Consolidation duty + exemptions, control model (agent/principal), consolidation mechanics + loss of control, NCI transactions as equity, separate/combined FS, business combinations (NCI at proportionate amount; goodwill formula), associates/JCEs, related-party disclosures (KMP remuneration fed from payroll by id), post-period events — including the 32.11 reporting-date no-liability half of the dividends rule (SV-COA-FR-251; declaration half stays `05` FR-175) and the puttable-at-parent case (AC-003 ↔ SV-COA-FR-167) (N7) | SV-COA-FR-224..252 | 29 | 7 | 10 | 3 |
 | [08_deferred-tax-adoption.md](08_deferred-tax-adoption.md) | THE fiscal-by-id bridge: Sección 29 current/deferred tax (tax bases sourced from taxation registers BY FR ID — SV-TAX-FR-074/077/082/085/086/087/132/144/156 and SV-SPE-FR-023 exemption-schedule recovery; SV no-NOL ruling — only the capital-loss ledger grounds loss-DTAs), dividend WHT charged to equity (29.33 ↔ taxation/05), Pillar Two config-off, Sección 35 first-time adoption (mandatory exceptions + optional exemptions, adjustments → retained earnings), edition versioning via Tabla A1 (D12 two-vintage rows) (N8) | SV-COA-FR-253..276 | 24 | 5 | 6 | 5 |
-| **Total** | | SV-COA-FR-001..276 | **276** | **57** | **76** | **30** |
+| **Total** | | SV-COA-FR-001..276 | **276** | **58** | **76** | **30** |
 
 Numbering note: FR numbering is wave-sequential within the **SV-COA**
 prefix (001-276, no gaps, no renumbering); consumers cite by FR id, never

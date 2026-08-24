@@ -163,3 +163,13 @@ the 89_/106_ instruments + registry recitals, and the wave changed no FR rows
 at the next spe/08 edit). Flip rule held: status follows the LB-citation
 scan only. SOQ-31 closed negative the same wave (D.O. window scan — no
 row impact).
+
+W27 regen (2026-08-24) — the chapter-spine mini wave: ONE new row,
+**127_ = Resolución CVPCPA 82-2024, cited-as-LB ON ARRIVAL** (coa/01
+LB-008 — the S1/S2 window + the NIIF-PYMES bar, awareness/config-off;
+the only acquisition class that lands cited without a fold-in debt
+because the LB row ships in the same wave). 111_'s cml/04 LB count
+8→11 (LB-041..043 — the 305-C/I/T chapter spine). No pending-set
+change: the 24 pending rows (12 W18 identity-only + 12 W25 provenance)
+ride unchanged. Flip rule held: status follows the LB-citation scan
+only.
