@@ -89,7 +89,7 @@ authorities by id):
 
 ## Open-questions rollup (in-file OQ-n ↔ master-index SOQ-30..45)
 
-Status legend: **60 OQs total — 51 open, 9 resolved/consumed/closed**
+Status legend: **60 OQs total — 50 open, 10 resolved/consumed/closed**
 (W19 T1: `06` OQ-1 resolved + OQ-6 consumed, `07` OQ-2 consumed —
 SOQ-32/34 fold-in; W19 T2: `08` OQ-1 + OQ-2 resolved — SOQ-39 halves,
 `86_-89_` acquired — + OQ-5 closed (MOQ-04 linkage recorded); W19 T5:
@@ -99,7 +99,9 @@ SV-TAX-FR-405..416 owns the Chapter V engine; W21: `08` OQ-8 resolved —
 COTRANS vigencia chain pinned, 106_ owned, EVID-404 (index rollup caught
 up W24); W24 T1: `02` OQ-10 opened — 108_ operative-format config-gap;
 W24 T5: `08` OQ-3 resolved by pointer — taxation/09 OQ-2, design
-confirmed, config-gated). Master-index SOQ register:
+confirmed, config-gated; W26: `04` OQ-1 flipped resolved on-file —
+LESIA 79_ gloss de-staled, sources-resolved since W18). Master-index SOQ
+register:
 [§S7 open questions](../../.extractions/00_MASTER_INDEX.md).
 
 | File | OQs | Mapping (in-file OQ → SOQ / kin) |

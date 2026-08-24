@@ -227,8 +227,51 @@ boundary.**
       same day via rebase-then-merge — forty-sixth §4.6 run in root
       HANDOVER; the rebase was a NO-OP [main unmoved since the W24
       merge at 812bd84], so the 2 session commits fd54f03..f53af59
-      stand UNREWRITTEN and the remote needed no re-pin; both branches
-      converged at close.)**
+       stand UNREWRITTEN and the remote needed no re-pin; both branches
+       converged at close.)**
+       **W26 rides + hygiene wave (2026-08-24): COMPLETE — controller-direct
+       per plan `docs/superpowers/plans/2026-08-24-w26-rides-hygiene-wave.md`
+       (proportionate scale, W21/W25 precedent; owner directed the
+       consolidation): every open ride in the §8.1 residual list EXECUTED —
+       W23 cml minors (strict "225..242 + 246" glosses on the three
+       04-attributing surfaces [00_index 04-row + numbering note, MASTER
+       C4 + SOQ-23]; LB-034 "finalidad especifica [sic]" per the 111_ txt
+       print; LB-018 compressed-paraphrase de-quote; the Art. 338
+       double-verbatim COLLAPSED at LB-033 → pointer, LB-018 owns the
+       quote; LB-039 transitorio numerals 3-4 [bearer voto/utilidades bar
+       + Arts. 210/211-II/213/215 bono-usability bar, awareness]; six
+       >80-char prose lines rewrapped in 01/02/03/06 — the verified subset
+       of the lost-detail "five files" ride) + W24 spe/taxation minors
+       (window_kind tokens reconciled — `event_bounded_recepcion` +
+       `event_bounded_recepcion_within_vigencia` canonical across
+       spe/01+02+prose; spe/02 AC-015 3-space continuation ws; FR-417
+       two-layer window sketch in body+§5-map; taxation/03 §5 FR-418/419
+       Field cells aligned to the §4 vocabulary
+       `isr_capital_gain_exoneration[_window · no_computation_form]`) +
+       the W25 spe/08 ride (FR-189/LB-012/config-row chain provenance
+       refreshed to text-owned 124_/125_/126_ — all "recital-pinned /
+       texts un-acquired" hedges dropped corpus-surface-complete, incl.
+       the §2 preamble + §5 vintage-watch + OQ-8 W25 ownership note) +
+       W19 stragglers (spe/04 OQ-1 LESIA gloss de-staled + flipped
+       resolved — spe OQ legend recounted 50 open/10 resolved per W24
+       ruling (d); six coa OQ rows' stale "candidate ≥75" numbering
+       refreshed to the W18/W25 hunt state) + C1 §8.5 hygiene (frep/04
+       LB-009 full registered source stem + the COVERAGE_NOTES
+       truncated-path note retired + regen; EV-bank A1 "estas"→"esas"
+       per the 32_ txt PAGE 315 + the coa/01 LB-002 kin the proof grep
+       caught; coa/01 LB-004 anchor PAGE 46-53→48-53; build_catalogs.py
+       now PRESERVES the _INDEX corrections-log on regen). FR corpus
+       UNCHANGED at 1,730; LB/AC counts unchanged; COVERAGE 90/9/2/24 of
+       125 — gate green, no drift; registry UNCHANGED (124 file rows,
+       next 127). Documented no-action rides (verify-or-document, C1
+       ruling (g) class): HANDOVER:645 AML phrasing (text superseded by
+       rewrites — unrecoverable); payroll 05/08 trailing-newline (verified
+       consistent); spe/08 historical misprint-notes (present since W19).
+       Chapter-spine residual RECORDED for the next 111_ touch: 305-C
+       (accionista-not-employee), 305-I (proof-of-existence document),
+       305-T (arreglo directo/arbitraje) uncited by scoping. Commits
+       a56c2a1..~; pushed sv-research; merge = owner decision
+       (forty-seventh §4.6 run when directed).**
 
 
 ## 2. Read order for a new session
@@ -396,6 +439,30 @@ must grep ALL LB source columns of the new files.
   consumer interface).
 
 ### Wave log summary (full detail in `sv/EXTRACTION_PLAN.md` §Extraction log)
+
+- **W26 (2026-08-24):** rides + hygiene wave COMPLETE — controller-direct
+  per plan `docs/superpowers/plans/2026-08-24-w26-rides-hygiene-wave.md`
+  (proportionate scale, W21/W25 precedent). The accumulated deferred-minor
+  ledger CLEARED: (1) W23 cml — strict "225..242 + 246" glosses (3
+  04-attributing surfaces; the 2 corpus-level MASTER surfaces correctly
+  stay), LB-034 [sic], LB-018 de-quote, Art.-338 double-verbatim collapsed
+  at LB-033 (LB-018 = quote owner), LB-039 transitorio numerals 3-4, six
+  >80-char prose rewraps; (2) W24 spe/taxation — window_kind canonical
+  set (`event_bounded_recepcion` / `event_bounded_recepcion_within_
+  vigencia`), spe/02 AC-015 ws, FR-417 two-layer sketch (body + §5 map),
+  taxation/03 §5 FR-418/419 cells → §4 field vocabulary; (3) W25 spe/08 —
+  FR-189/LB-012/config-row + §2 preamble + §5 vintage-watch + OQ-8 chain
+  provenance → text-owned 124_/125_/126_ (EVID-413..415), recital hedges
+  dropped; (4) W19 stragglers — spe/04 OQ-1 flipped resolved (79_ gloss
+  de-stale; spe legend 50/10 recounted), six coa OQ rows' "≥75" refreshed;
+  (5) C1 hygiene — frep/04 LB-009 full stem (+ COVERAGE_NOTES retirement +
+  regen), EV-bank A1 estas→esas + the coa/01 LB-002 kin (proof-grep
+  catch), coa/01 LB-004 PAGE 48-53, build_catalogs corrections-log
+  preserved on regen. NO corpus deltas: 1,730 FRs / same LB-AC / spe OQ
+  50-10 / COVERAGE 90-9-2-24 of 125 gate green / registry 124 rows next
+  127. No-action rides documented (C1 ruling (g)): HANDOVER:645 AML
+  phrasing moot; payroll newlines consistent; spe/08 misprint-notes
+  present. 111_-touch residual recorded: 305-C/305-I/305-T.
 
 - **W25 (2026-08-24):** D.O. original-print wave COMPLETE — controller-direct
   (no subagents; proportionate scale, W21/W22 precedent; owner directed the
@@ -1444,12 +1511,14 @@ must grep ALL LB source columns of the new files.
         Remaining, owner's call: residual acquisitions (item 2 — the
         SOQ-46 criteria hunt + census watches) + external watches (uif
         403-WAF — AML deadline 2026-10-17; D.O. www recovered 2026-08-24,
-        §6) + EV-bank
+        §6) + ~~EV-bank
         hygiene queue + the W23 cml deferred-minor rides + the W24
         spe/taxation deferred minors (window_kind token split + three
         cosmetics — §5 wave log) + the W25 ride (drop the "recited by
         106_ cons. II" qualifier on FR-189's →31-ago-2025 limb at the
-        next spe/08 touch) +
+        next spe/08 touch)~~ **ALL EXECUTED W26 (rides + hygiene wave —
+        §5 wave log; zero corpus deltas)** + the recorded 111_-touch
+        chapter-spine residual (305-C/305-I/305-T) +
         go-live/implementation prep per
         `shared/docs/go-live-readiness.md`.
    2. **Acquisition follow-ups (residual after W25):** SOQ-46 criteria
@@ -1483,11 +1552,14 @@ must grep ALL LB source columns of the new files.
      verdict "cosmetics; nothing load-bearing"); boilerplate swept (43
      instances); COVERAGE regen script shipped. Residual deferred minors
      from C1 per-task reviews (all Minor, non-blocking) live in the C1
-     wave-log entry / EXTRACTION_PLAN record; first-picks: frep/04
+     wave-log entry / EXTRACTION_PLAN record; first-picks:
+     ~~frep/04
      truncated source path `63_F930v3.pdf` latent fix, catalogs _INDEX
      corrections-log wipe-on-regen, EV-bank hygiene nits (A1 estas/esas,
      01 LB-004 PAGE 46-53 vs 48-53), payroll 05/08 trailing-newline
-     inconsistency sweep.
+     inconsistency sweep~~ **ALL DISPOSITIONED W26: first three EXECUTED;
+     payroll newlines verified consistent (no action — C1 ruling (g)
+     documentation).**
  6. At wave closes: update THIS file + master index + COVERAGE + topic
     indexes; commit + push sv-research; record rulings here BEFORE
     deleting any SDD workspace. Owner decides sv-research → main merges
