@@ -359,6 +359,72 @@ boundary.**
          LB-031], SOQ-46 negative at full-enumeration strength,
          COVERAGE 92/9/2/24 of 127 gate green, registry 126 file rows
          next 129.)**
+          **W29 SV go-live readiness assessment wave (2026-08-24):
+          COMPLETE — hybrid per the approved design + plan
+          (docs/superpowers/specs/2026-08-24-w29-sv-go-live-readiness-design.md
+          + docs/superpowers/plans/2026-08-24-w29-sv-go-live-readiness.md);
+          subagent-driven T1-T4 + this T5 bookkeeping (execution detail
+          + rulings: "### W29-process rulings" below). DELIVERED: NEW
+          sv/requirements/GO_LIVE_READINESS.md — 21-row catalog walk (§1
+          bootstrap 5 + §2 cut-over 6 + §3 onboarding 6 + §4 register 4;
+          graded statuses VERIFIED/CONFIG-GAP/WATCH/BLOCKER; gate rollup
+          13 VERIFIED · 6 with-limb · 2 BLOCKER rows = ONE root) +
+          shared/docs/go-live-readiness.md §4 SV register flip "seeded
+          2026-08-19 — verify at special-regimes synthesis close" →
+          "verified 2026-08-24 — see sv/requirements/GO_LIVE_READINESS.md;
+          one blocker: A11 onboarding synthesis gap". HEADLINE FINDING:
+          the S1 synthesis wave NEVER synthesized master-index cluster
+          A11 (onboarding/authorization — emitter acreditamiento minimum
+          tests, AT authorization groups/dates + early adoption,
+          physical-stock destruction/range reporting, no coexistence; 8
+          governing EVIDs 001/036/045/080/081/077/074/083); the S1
+          plan's file list (01/02/03/04/05-cat/06) has no A11 file and
+          records no deferral — a silent omission, not a decision. Every
+          e-invoicing file carries dangling "(A11)" forward references
+          (exhaustive inventory: e-invoicing/01:30, 01:201, 02:38,
+          03:42, 03:211, 04:34, 04:77, 04:189, 06:36 + cml cross-topic
+          pointer notes + COVERAGE/COVERAGE_NOTES 26_ rows); EVID-081
+          grep-zero in requirements = evidence owned but unsynthesized;
+          GT precedent: S-GT1 Task 5 minted 04_mandate-onboarding.md.
+          GATE VERDICT: NOT go-live-ready until the A11 file is minted
+          (single closing wave; numbering per R30(b) SV-EINV
+          continuation); everything else VERIFIED/CONFIG-GAP/WATCH. NO
+          corpus deltas: FR corpus UNCHANGED at 1,732; registry
+          UNCHANGED (126 file rows, next 129); COVERAGE 92/9/2/24 of
+          127 gate green (no drift, re-verified post-edit);
+          spe/taxation/cml counts untouched; sv/README untouched (no
+          new sources). Commits b102b1c (design) → 590bffa (plan) →
+          8b0c11d (assessment) → 5f30164 (citation fixes) → f5dcfb2
+          (review fixes + register flip) + this bookkeeping commit;
+          pushed sv-research; merge to main = owner decision (fiftieth
+          §4.6 run when directed).**
+
+### W29-process rulings (2026-08-24, recorded at T5 bookkeeping from the wave ledger)
+
+Execution: T1 implementer + task review (Approved, 3 minors deferred) ·
+T2 verification implementer + review (Approved; 3 fixes: §5.1 inventory
+6→9 exhaustive, SOQ-26 canonical rename, SOQ-33 anchor) · T3 independent
+reviewer (verdict FIX-REQUIRED non-substantive — substance verified at
+full strength: citations/statuses/A11 chain/gate arithmetic; re-review
+waived per S9 ruling (b) form) · T4 controller-applied fixes (MOQ-05
+§5.2 WATCH addition per reviewer class-parity; COVERAGE_NOTES
+completion; §3.5 DTE-emission scoping [spe/06 customs entidades
+certificadoras = different institution]; F-11/F-14-manual watch item
+reword + sv/HANDOVER §6 pointer; §5.3 usos-del-lugar commission rates
+addition [cml/06 OQ-002]) · T5 = this bookkeeping.
+
+- **(a)** The plan's Task-1 brief bracket arithmetic (15/4) was wrong
+  vs its own row map (13/6/2) — the implementer's honest recount
+  upheld; matrix-derived-prose lesson re-confirmed.
+- **(b)** §5.2 WATCH list ruled CURATED-CANONICAL, not
+  exhaustive-by-register: the SOQ-58 exclusion stands (no deadline, no
+  hunt-blocker); MOQ-05 promoted (class-parity with the F-11 item).
+- **(c)** W24 ruling (g) satisfied by implementer full-pass + sampled
+  independent reproduction.
+- **(d)** Reviewer minor "event.contingency" verified
+  already-conformant (C1 ruling (g) verify-or-document class).
+- **(e)** Controller applied the six T3/T4 one-liners directly per the
+  plan's S9-ruling-(b) sanction, each grep-verified before/after.
 
 
 ## 2. Read order for a new session
@@ -1730,11 +1796,23 @@ must grep ALL LB source columns of the new files.
         106_ cons. II" qualifier on FR-189's →31-ago-2025 limb at the
         next spe/08 touch)~~ **ALL EXECUTED W26 (rides + hygiene wave —
         §5 wave log; zero corpus deltas)** + ~~the recorded 111_-touch
-        chapter-spine residual (305-C/305-I/305-T)~~ **EXECUTED W27
-        (FR-247/248 + LB-041..043; §5 wave log)** +
-        go-live/implementation prep per
-        `shared/docs/go-live-readiness.md`.
-   2. **Acquisition follow-ups (residual after W28):** ~~SOQ-46 criteria
+         chapter-spine residual (305-C/305-I/305-T)~~ **EXECUTED W27
+         (FR-247/248 + LB-041..043; §5 wave log)** + the W29-recorded
+         A11 onboarding synthesis gap (GO_LIVE_READINESS.md §5.1 — the
+         go-live BLOCKER) + go-live/implementation prep per
+         `shared/docs/go-live-readiness.md`.
+   2. **Acquisition follow-ups (residual after W29):** **TOP (owner's
+      call): the A11 onboarding/authorization synthesis wave — the W29
+      go-live BLOCKER (GO_LIVE_READINESS.md §5.1: master-index cluster
+      A11 never synthesized by S1 — silent omission, no deferral
+      recorded; dangling "(A11)" forward refs across every e-invoicing
+      file + cml cross-topic notes + COVERAGE 26_ rows; EVID-081
+      grep-zero in requirements = evidence owned but unsynthesized;
+      single closing wave, numbering per R30(b) SV-EINV continuation;
+      GT precedent S-GT1 Task 5 04_mandate-onboarding.md; gate flips
+      green at mint. W29 flipped the shared-docs §4 SV register to
+      verified 2026-08-24 — the one blocker noted there rides this
+      item)**; ~~SOQ-46 criteria
        instrument (candidates Res. 175-2023 [derogated intermediate] /
        Res. 82-2024 — low value per SOQ-52 boundary)~~ **BOTH
        DISPOSITIONED W27 (175-2023 closed-negative — text not
