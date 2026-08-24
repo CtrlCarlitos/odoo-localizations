@@ -408,8 +408,49 @@ boundary.**
           shared-docs §4 SV register flipped to verified-2026-08-24,
           the A11 onboarding synthesis gap recorded as the go-live
           BLOCKER [gate rollup 13 VERIFIED / 6 with-limb / 2 BLOCKER
-          rows, one root], final whole-branch review MERGE-READY zero
-          findings.)**
+           rows, one root], final whole-branch review MERGE-READY zero
+           findings.)**
+           **W30 A11 onboarding synthesis wave (2026-08-24): COMPLETE —
+           subagent-driven per plan
+           `docs/superpowers/plans/2026-08-24-w30-a11-onboarding-synthesis.md`
+           (the W29 go-live BLOCKER closing wave; 3 tasks, per-task reviews
+           all Approved 0 C/I; final whole-wave review USABLE-WITH-FIXES →
+           one fix wave PASS c9cf9b9 [3 final-review minors: field prefix
+           l10n_sv_edi_* + 2 company m2o rows + GO_LIVE citation key];
+           commits 62d5329 plan → c52f8ba T1 → 8b118d3 T2 → 8b0c60e T3 →
+           c9cf9b9 fix). Delivered: NEW
+           `sv/requirements/e-invoicing/07_onboarding.md` = master-index
+           cluster A11 SYNTHESIZED (**SV-EINV-FR-165..179**; 15 FRs / 8
+           LBs / 6 ACs / 4 OQs; R30(b) continuation from the 164 tail):
+           the 7-step onboarding flow (40_ §I verbatim incl. both
+           early-adopter qualifiers), per-DTE-type minimum-test regime +
+           starred-mandatory gate (26_ consola via EVID-081; counts =
+           config rows no defaults, OQ-001), per-event tests 5+5 verbatim
+           (41_ Anexo 1) + event-tests-count-toward-authorization +
+           test-env reuse for mandated updates, early-adopter
+           solicitud/Resolución + the AT program model (groups/dates as
+           dated config rows, no cohort instrument in corpus, OQ-003),
+           all-authorized-types-across-all-establishments discipline,
+           report-liberation dated rows, physical-stock cut-over (15 días
+           hábiles inform+destroy, correlative-range reporting,
+           no-coexistence consuming FR-129 by id), company status surface
+           FR-179; by-id discipline throughout (FR-129/136..138/054/057/
+           004/087/CAT-FR-006/FREP-202..204). T2: every dangling "(A11)"
+           pointer resolved (five §1 anchors + FR-001/FR-087/FR-138 note
+           cells → FR-id pointers; 00_index 07 row + numbering note +
+           OQ rollup; 06 AC count stale-19 corrected to 20 in passing —
+           grep-derived totals 237 FRs / 78 LB / 106 AC / 51 OQ; 13 cml
+           cluster refs verified resolvable, zero edits). T3: master-index
+           A11 closure + Build-note; COVERAGE regen — 26_
+           not-applicable → **cited-as-LB; rollup 93/8/2/24 of 127 gate
+           green** (--check clean); **GO_LIVE_READINESS gate FLIPPED:
+           17 VERIFIED · 4 WATCH (§2.6/§3.2/§4.2/§4.4) · 0 BLOCKER —
+           GREEN FOR PLANNING** (§5.1 marked CLOSED with the mint record;
+           recount from the 21-row matrix); shared/docs §4 SV register
+           row blocker closed. Registry UNCHANGED (126 file rows, next
+           129); sv/README untouched. +15 FRs → corpus 1,747. See §5 W30
+           log + W30-process rulings. Merge = owner decision (fifty-first
+           §4.6 run when directed).**
 
 ### W29-process rulings (2026-08-24, recorded at T5 bookkeeping from the wave ledger)
 
@@ -548,7 +589,7 @@ addition [cml/06 OQ-002]) · T5 = this bookkeeping.
 
 | Topic dir | Files | FRs | Prefix |
 |---|---|---|---|
-| `e-invoicing/` | 6 + index | 222 (incl. §3.11 FR-159..164) | SV-EINV-FR-001..164, SV-PROT-FR-001..040, SV-CAT-FR-001..018 |
+| `e-invoicing/` | 7 + index | 237 (incl. §3.11 FR-159..164; W30 A11 onboarding file: 165..179) | SV-EINV-FR-001..179, SV-PROT-FR-001..040, SV-CAT-FR-001..018 |
 | `taxation/` | 17 + index + 2 CSV | 421 (S2: 001..175 ISR; S9: 176..353 IVA; W17: 354..404 CT procedures; W20: 405..416 foreign-agents levy; W24: 417 no-gravables chassis [01] + 418..419 ganancia exonerations [03] + 420 IVA exemption channel [08] + 421 pro-rata exception [11]) | SV-TAX-FR-001..421 |
 | `fiscal-reporting/` | 8 + index + CSV | 214 | SV-FREP-FR-001..214 |
 | `payroll/` | 8 + index + 2 CSV | 147 | SV-PAY-FR-001..147 |
@@ -556,13 +597,15 @@ addition [cml/06 OQ-002]) · T5 = this bookkeeping.
 | `special-regimes/` | 8 + index | 204 (W24: 204 = the 108_ package family in 02; FR-200 amended in place) | SV-SPE-FR-001..204 |
 | `chart-of-accounts/` | 8 + index | 276 | SV-COA-FR-001..276 |
 
-Totals: 1732 FRs (W17 fold-in = 57 new: taxation 354..404, fiscal-
+Totals: 1747 FRs (W17 fold-in = 57 new: taxation 354..404, fiscal-
 reporting 213..214, payroll 144..147; W19 fold-in = +28: special-regimes
 176..203, all other dirs unchanged; W20 fold-in = +12: taxation 405..416,
 all other dirs unchanged; W23 fold-in = +22: commercial-legal 225..246,
 all other dirs unchanged; W24 fold-in = +6: spe FR-204 + taxation
 FR-417..421, all other dirs unchanged; W27 chapter-spine = +2:
-commercial-legal 247..248, all other dirs unchanged; taxation dir 421 FRs / 310 LBs /
+commercial-legal 247..248, all other dirs unchanged; W30 A11 synthesis =
++15: e-invoicing 165..179, all other dirs unchanged; e-invoicing dir 237
+FRs / 78 LBs / 106 ACs / 51 OQs; taxation dir 421 FRs / 310 LBs /
 290 ACs / 91 OQs; spe dir 204 FRs / 165 LBs / 100 ACs / 60 OQs; cml dir
 248 FRs / 260 LBs / 144 ACs / 35 OQs; coa dir 276 FRs / 58 LBs). CSVs:
 `withholding_tables.csv` + `isr_brackets.csv` (taxation),
@@ -572,9 +615,10 @@ prefix; **R30(b): one prefix per topic dir — the IVA-core files continued
 `SV-TAX` at 176 rather than taking a new prefix**; genuinely new topics
 take new prefixes per the `<CC>-<TOPIC>-FR-nnn` contract.
 
-COVERAGE rollup after W28 (2026-08-24 regen, gate green): 92 cited /
-9 N-A / 2 superseded / 24 pending (127 rows = 126 registry file rows +
-the schemas/ dir row; W28 adds 128_ cited-as-LB ON ARRIVAL via cml/10
+COVERAGE rollup after W30 (2026-08-24 regen, gate green): 93 cited /
+8 N-A / 2 superseded / 24 pending (127 rows = 126 registry file rows +
+the schemas/ dir row; W30 flips 26_ not-applicable → cited-as-LB via
+e-invoicing/07 LB-006; W28 had added 128_ cited-as-LB ON ARRIVAL via cml/10
 LB-031; W27 had added 127_ cited-as-LB on arrival via coa/01
 LB-008; the 24 pending = the W18 identity-only set (12) + the W25
 provenance set (12), unchanged. Registry-count correction W24: the
@@ -619,6 +663,88 @@ must grep ALL LB source columns of the new files.
   consumer interface).
 
 ### Wave log summary (full detail in `sv/EXTRACTION_PLAN.md` §Extraction log)
+
+- **W30 (2026-08-24):** A11 onboarding synthesis wave COMPLETE — subagent-
+  driven per plan `docs/superpowers/plans/2026-08-24-w30-a11-onboarding-
+  synthesis.md`; the W29-recorded go-live BLOCKER closed. **T1** minted
+  `sv/requirements/e-invoicing/07_onboarding.md` (cluster A11;
+  **SV-EINV-FR-165..179**, 15/8/6/4; R30(b) continuation from the FR-164
+  tail): §3.1 the 7-step onboarding state machine (LB-005 = 40_ §I Paso
+  1-7 verbatim incl. both "(solo para contribuyentes que opten por iniciar
+  a emitir DTE previo a la fecha designada…)" qualifiers + the 2-month
+  parenthetical) + per-DTE-type minimum-test tracking (FR-166; 26_ consola
+  via EVID-081 — counts NOT extracted, config rows no defaults, OQ-001) +
+  the starred-mandatory additional-types gate (FR-167); §3.2 per-event
+  minimums **5 invalidación + 5 contingencia verbatim** (LB-007 = 41_
+  §1 + Anexo 1; EVID-036/045) + event-tests-count-toward-the-resolución +
+  test-env reusability for AT-mandated updates (ties SV-CAT-FR-006 by id;
+  Retorno/OpEsp minimums not evidenced → OQ-002); §3.3 authorization —
+  early-adopter solicitud + DGII Resolución as dated rows (LB-001/002 =
+  44_ 119-A + transitorias), the AT program model (FR-172: groups/dates as
+  append-only dated config rows — no cohort instrument in corpus, OQ-003;
+  early adoption FR-173 routes to FR-171), the all-authorized-types-across-
+  ALL-establishments discipline (FR-174; FR-004 + D14 by id), report-
+  liberation dated rows (FR-175, rides OQ-003); §3.4 physical-stock
+  cut-over — 15 días hábiles inform+present-for-destruction from the
+  obligation date (FREP-202..204 días-hábiles engine by id), correlative-
+  range reporting, the no-coexistence invariant consuming FR-129 by id
+  (FVS/113-OpEsp exception limb + the 119-H Sistema de Facturación
+  awareness note; LB-003/004 = 18_ §15-16 + §12, EVID-077/074); §3.5 the
+  company status surface FR-179 (consola Detalle-de-Emisor mirror). LB-008
+  anchors the 27_ 2-month/15-day windows as 04-LB-008 kin (FR-136..138 by
+  id). By-id discipline verified by the reviewer (zero restatements of
+  FR-129/136..138/054/057/004/087/CAT-FR-006/FREP-202..204). **T2** the
+  dangling-pointer sweep: five §1 anchors → "(A11, `07_onboarding.md`)";
+  FR-001 note → FR-172/174/179; FR-087 note → FR-166..168; 04 FR-138 body
+  tail + note cell → FR-166..170; 00_index 07 row + numbering note (05
+  stays catalogs) + OQ rollup + grep-derived totals **237 FRs / 78 LB /
+  106 AC / 51 OQ** (the 06 AC stale-19 → 20 corrected in passing —
+  grep-true; W24 ruling (e) kin); the 13 cml cluster refs verified
+  resolvable, zero edits. **T3** master-index A11 closure line + Build-
+  note W30 one-liner (chains from the W29 corpus-of-record; the W25-W29
+  Build-note gap = pre-existing staleness, untouched); COVERAGE regen —
+  26_ **not-applicable → cited-as-LB** (07's LB-006; the N/A rationale
+  lines retired from COVERAGE_NOTES) → **rollup 93/8/2/24 of 127, gate
+  green** (--check clean, reviewer-reproduced); **GO_LIVE_READINESS
+  flipped: 17 VERIFIED · 4 WATCH (§2.6, §3.2, §4.2, §4.4) · 0 BLOCKER —
+  GREEN FOR PLANNING** (21-row matrix recount, reviewer-reproduced; §5.1
+  heading CLOSED + mint record, W29 inventory text preserved; citation key
+  01–06 → 01–07); shared/docs/go-live-readiness.md:59 SV register row →
+  "blocker closed 2026-08-24 — A11 synthesized; gate green for planning".
+  Final whole-wave review USABLE-WITH-FIXES → one fix wave PASS (c9cf9b9:
+  the 3 final-review minors — `sv_edi_*` → `l10n_sv_edi_*` on 4 res.company
+  fields; company m2o on onboarding.test + authorization.resolution; the
+  GO_LIVE citation key; scoped re-review all-ADDRESSED zero breakage).
+  **+15 FRs → corpus 1,747** (e-invoicing 237/78/106/51); **registry
+  UNCHANGED (126 file rows, next 129); sv/README untouched**. Remaining
+  program: external watches only (§8) + owner merge decisions.
+
+### W30-process rulings (2026-08-24, preserved from the SDD ledger before workspace deletion)
+
+- **(a)** T2's beyond-brief correction upheld: the 00_index had 06's AC
+  count stale at 19 (the file carries AC-001..020) — the task that touches
+  the index owns the count it can see is stale; disclosed in the report,
+  reviewer-reproduced (W24 ruling (e) kin). Totals therefore 106 AC, not
+  the naive 99+6.
+- **(b)** T3's two beyond-brief edits upheld (consistency-driven +
+  disclosed): the GO_LIVE §1-row-1 "rides the A11 gap" tail would have
+  dangled post-flip; the COVERAGE_NOTES W30 regen-log entry follows the
+  W19-W27 in-file precedent for recording flips.
+- **(c)** Master-index Build-note staleness: the header one-liners ended
+  at W24 (W25-W29 never appended any) — pre-existing gap left untouched;
+  the W30 entry chains from the W29 corpus-of-record (1,732). No
+  intermediate entries fabricated.
+- **(d)** Fix-wave record-only deviation: the company m2o row on
+  `onboarding.test` cites FR-166 alone (the final-review prescription
+  sketch said "FR-166, FR-168") — harmonized with the sibling single-FR
+  company-row shape; FR-166 is the entity's base FR in §5; re-review
+  ruled it record-only, not a reopened finding.
+- **(e)** T2's report-arithmetic minors (hit counts 20 vs 21, literal-cml
+  3 vs 8, 3 unlisted history-log hits) = report-only, ignore class; the
+  corpus sweep itself was verified correct by the reviewer's independent
+  grep.
+- **(f)** Standing (S7 ruling (d)): no per-subagent model parameter —
+  dispatches inherited the session model.
 
 - **W28 (2026-08-24):** SOQ-46 re-probe sweep + 128_ acquisition mini
   wave COMPLETE — controller-direct (proportionate scale, W21/W27
@@ -1809,22 +1935,28 @@ must grep ALL LB source columns of the new files.
         next spe/08 touch)~~ **ALL EXECUTED W26 (rides + hygiene wave —
         §5 wave log; zero corpus deltas)** + ~~the recorded 111_-touch
         chapter-spine residual (305-C/305-I/305-T)~~ **EXECUTED W27
-        (FR-247/248 + LB-041..043; §5 wave log)** + the W29-recorded
-        A11 onboarding synthesis gap (GO_LIVE_READINESS.md §5.1 —
-        go-live BLOCKER) + go-live/implementation prep per
-        `shared/docs/go-live-readiness.md`.
-   2. **Acquisition follow-ups (residual after W29):** **TOP (owner's
-      call): the A11 onboarding/authorization synthesis wave — the W29
-      go-live BLOCKER (GO_LIVE_READINESS.md §5.1: master-index cluster
-      A11 never synthesized by S1 — silent omission, no deferral
-      recorded; dangling "(A11)" forward refs across every e-invoicing
-      file + cml cross-topic notes + COVERAGE 26_ rows; EVID-081
-      grep-zero in requirements = evidence owned but unsynthesized;
-      single closing wave, numbering per R30(b) SV-EINV continuation;
-      GT precedent S-GT1 Task 5 04_mandate-onboarding.md; gate flips
-      green at mint. W29 flipped the shared-docs §4 SV register to
-      verified 2026-08-24 — the one blocker noted there rides this
-      item)**; ~~SOQ-46 criteria
+         (FR-247/248 + LB-041..043; §5 wave log)** + ~~the W29-recorded
+         A11 onboarding synthesis gap (GO_LIVE_READINESS.md §5.1 —
+         go-live BLOCKER)~~ **EXECUTED W30 (e-invoicing/07_onboarding.md,
+         SV-EINV-FR-165..179; gate 17 VERIFIED / 4 WATCH / 0 BLOCKER —
+         GREEN FOR PLANNING; §1/§5 wave log)** + go-live/implementation
+         prep per `shared/docs/go-live-readiness.md` (register verified;
+         blocker closed W30).
+   2. **Acquisition follow-ups (residual after W30):** ~~TOP (owner's
+       call): the A11 onboarding/authorization synthesis wave — the W29
+       go-live BLOCKER (GO_LIVE_READINESS.md §5.1: master-index cluster
+       A11 never synthesized by S1 — silent omission, no deferral
+       recorded; dangling "(A11)" forward refs across every e-invoicing
+       file + cml cross-topic notes + COVERAGE 26_ rows; EVID-081
+       grep-zero in requirements = evidence owned but unsynthesized;
+       single closing wave, numbering per R30(b) SV-EINV continuation;
+       GT precedent S-GT1 Task 5 04_mandate-onboarding.md; gate flips
+       green at mint. W29 flipped the shared-docs §4 SV register to
+       verified 2026-08-24 — the one blocker noted there rides this
+       item)~~ **EXECUTED W30 (2026-08-24): e-invoicing/07_onboarding.md
+       minted, SV-EINV-FR-165..179, +15 FRs → corpus 1,747; every
+       dangling pointer resolved; 26_ cited; GO_LIVE gate GREEN FOR
+       PLANNING — see §1/§5)**; ~~SOQ-46 criteria
        instrument (candidates Res. 175-2023 [derogated intermediate] /
        Res. 82-2024 — low value per SOQ-52 boundary)~~ **BOTH
        DISPOSITIONED W27 (175-2023 closed-negative — text not
