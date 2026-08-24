@@ -273,7 +273,7 @@ boundary.**
        Chapter-spine residual RECORDED for the next 111_ touch: 305-C
        (accionista-not-employee), 305-I (proof-of-existence document),
        305-T (arreglo directo/arbitraje) uncited by scoping. Commits
-       a56c2a1..033f8ef; pushed sv-research; merge = owner decision
+       a56c2a1..ac626db; pushed sv-research; merge = owner decision
        (forty-seventh §4.6 run when directed).**
 
 
