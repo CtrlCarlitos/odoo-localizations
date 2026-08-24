@@ -1,12 +1,12 @@
-# SV — Commercial-legal — Society types: taxonomy, formation, capital, statutory reserves and the SRL/S.A. profiles (SAS extensible design)
+# SV — Commercial-legal — Society types: taxonomy, formation, capital, statutory reserves and the SRL/S.A./SAS profiles (SAS statutory profile per 111_ D.L. 905-2023)
 
 | Field   | Value |
 |---------|-------|
 | Country | sv |
 | Topic   | commercial-legal |
-| Status  | draft |
-| Authors | Takumi synthesis wave 5 (S5 commercial-legal) |
-| Updated | 2026-08-18 |
+| Status  | draft (W23 fold-in, in review) |
+| Authors | Takumi synthesis wave 5 (S5 commercial-legal) + W23 T1 |
+| Updated | 2026-08-23 |
 
 ## 1. Purpose
 
@@ -19,9 +19,9 @@ and the Art. 18 taxonomy — *sociedades de personas* (partnership-type:
 (capital-type: *S.A.*, *comandita por acciones*), each × *capital fijo o
 variable* (fixed or variable capital), with only law-regulated forms
 admissible — plus the Art. 19 cooperative special profile and the **SAS
-extensible-type design** (Sociedad por Acciones Simplificada —
-confirmed-existing under separate legislation, statute NOT in corpus,
-SOQ-23); the formation family of Arts. 21-27 — *escritura pública*
+statutory profile** (Sociedad por Acciones Simplificada — statute IN
+corpus as 111_ D.L. 905-2023, Capítulo VIII-Bis; SOQ-23 resolved,
+§3.8); the formation family of Arts. 21-27 — *escritura pública*
 (public deed) for constitution/modification/transformation/fusión/
 liquidación, the 12-field escritura content with its nullity rule, the
 *estatutos* (bylaws) deposit, and **legal personality perfected ONLY at
@@ -34,8 +34,9 @@ per-balance profits only), the mandatory *reserva legal* (statutory legal
 reserve) chassis with its restoration duty, and the per-type rates
 (colectiva 5% → 1/6 limit, Art. 91; SRL/S.A./EIRL 7% → 1/5 minimum floor,
 Arts. 123/295/616) with their investment constraints; the society books of
-Art. 40; and the SRL (Arts. 101-125) and S.A. (Arts. 126-160, 289-295)
-statutory profiles — suffix, capital denominations, subscription/
+Art. 40; and the SRL (Arts. 101-125), S.A. (Arts. 126-160, 289-295)
+and SAS (Arts. 305-A..305-Z per 111_) statutory profiles — suffix,
+capital denominations, subscription/
 exhibition, partner and share ledgers, voting/quorum, own-share
 prohibitions, preferential-subscription windows and the mandatory external
 auditor with monthly duties.
@@ -64,32 +65,45 @@ legal* — a DIFFERENT institution owned by the taxation wave by id (§2).
 
 Authority order (binding, per master evidence index S5): the Código de
 Comercio = **07_** (D.L. Nº 671, 8-may-1970, D.O. 140 T.228 31-jul-1970;
-29 listed reforms, last = D.L. 641-2008) — article text CURRENT per the
-**SOQ-22 verification (resolved-with-residual, W12 2026-08-18)**: the
-second official copy 73_ (UIF-hosted Índice Legislativo edition, 280 pp.)
-ALSO ends its reform list at D.L. 641-2008 (20-item vs 29-item editorial
-counting; decree-date print conflict 12- vs 26-jun-2008 [sic], same D.O.
-120 T.379 27-jun-2008), so no post-2008 CC structural reform is evidenced
-in two official consolidations; the residual — both copies are
-Asamblea-editorial artifacts without a stated as-of date — rides every 07_
-LB in this file. Verbatim text below is copied from the 07_ evidence file
-(EVID-218/219/220) and, where the evidence abbreviates (Arts. 17-25,
-27-33, 37-40, 91-92, 100-125, 129-160, 236, 289-295, 465-I, 616), from
-the extraction txt `sv/.extractions/07_Codigo_Comercio.pdf.txt` (citable
-per standing ruling; page pointers = txt PAGE markers; reform tick marks
+29 listed reforms, last = D.L. 641-2008) — **STALE-PRINT RULING (SOQ-22,
+W22 falsification 2026-08-23)**: the W12 "no post-2008 CC structural
+reform" verdict is FALSIFIED — the asamblea por-anios census found and
+this corpus now OWNS the six-instrument post-2008 reform set 109_-114_
+(EVID-407..412: bearer-share suppression, usura, SAS, cheque
+truncation, SAS-gratuidad chain); 07_/73_ consolidation texts are STALE
+for the reformed articles, and THIS file's zone is hit at **Arts. 17
+and 18 (111_ D.L. 905-2023 — re-anchored below at LB-033/FR-042) and
+Arts. 134 and 155 (109_ D.L. 153-2021, nominative-only acciones — the
+LB-026/LB-028 and §3.7 zone; the 109_ re-anchor rows ride this W23
+state as the next-edit watch and are NOT restated here)**. Census
+residual (negative watch): por-anios carries no cards for
+2010/2012-2015 and 2019 looks partial — a 2009-2019 CC reform cannot
+be fully excluded from enumeration alone; the six owned instruments
+carry the KNOWN post-2008 surface. Verbatim text below is copied from
+the 07_ evidence file (EVID-218/219/220) and, where the evidence
+abbreviates (Arts. 17-25, 27-33, 37-40, 91-92, 100-125, 129-160, 236,
+289-295, 465-I, 616), from the extraction txt
+`sv/.extractions/07_Codigo_Comercio.pdf.txt` (citable per standing
+ruling; page pointers = txt PAGE markers; reform tick marks
 "(2)(3)(10)(16)(18)(29)" stripped from quotations, provenance noted
-here).
+here); the reformed-in-file articles quote the 111_ reform text
+directly (LB-033..038 below; txt
+`sv/.extractions/111_Reforma_CodigoComercio_DL905_2023_Asamblea.pdf.txt`,
+spacing artifacts cleaned intra-word only).
 
-SAS extensible design (SOQ-23, open): the Sociedad por Acciones
-Simplificada (SAS, simplified joint-stock company) is NOT in this Código
-— 07_ OQ-2 and the W12 verification (EVID-250) both leave it under
-separate legislation; its EXISTENCE is confirmed via the official CNR
-creaempresa portal (LB-032), but the statute itself (number/date) is
-unpinned because asamblea.gob.sv and the D.O. route are down. Per the
-wave design ruling: the company-type model is EXTENSIBLE (selection +
-profile-driven), the type select carries `sas` with a statute-pending
-flag, and NO mechanics (suffix, capital, quorum, reserve) are invented —
-OQ-001.
+SAS statute (SOQ-23 RESOLVED — W22 acquisition, W23 fold-in): the
+Sociedad por Acciones Simplificada (SAS) is IN this Código — the statute
+is **111_ = D.L. N° 905, 6-dic-2023** (D.O. N° 234 T.441, 13-dic-2023;
+vigencia Art. 11: 60 days post-publication → **11-feb-2024**), a CÓDIGO
+DE COMERCIO REFORM, not a separate law: Art. 2 adds SAS as the Art.
+18-II-c sixth society type (capital class, unipersonal exception) and
+Art. 3 intercalates the whole Capítulo VIII-Bis (Arts. 305-A..305-Z).
+The 111_ asamblea print is a CONSOLIDATED REPRINT whose Art. 10
+gratuidad text already incorporates BOTH later chain limbs (113_ D.L.
+203-2025 → 31-dic-2025; 114_ D.L. 468-2025 → 31-dic-2026 terminal —
+REFORMAS block on face, LB-038). LB-032 below is RETIRED in place
+(historical provenance record); the SAS profile rows are now STATUTORY
+(LB-033..038; EVID-409/411/412); OQ-001 resolved (§7).
 
 Currency discipline (SOQ-29): the US$2,000 SRL minimum capital and the
 US$1 participación/acción denominations (Arts. 103/129) and the
@@ -153,25 +167,39 @@ norm in this article set ties DTE emission to society type; the
 | LB-029 | Código de Comercio, Art. 157: "Salvo pacto en contrario, los accionistas tienen derecho preferente, en proporción a sus acciones, para suscribir las que se emitan en caso de aumento del capital social. Este derecho debe ejercitarse dentro de los quince días siguientes a la publicación del acuerdo respectivo." | Save contrary pact, accionistas have a PREFERENTIAL RIGHT, in proportion to their acciones, to subscribe those issued upon capital increase. This right must be exercised within FIFTEEN DAYS following the publication of the respective agreement | `sv/sources/07_Codigo_Comercio.pdf` | Art. 157 p.30 (EVID-220; txt PAGE 30) |
 | LB-030 | Código de Comercio, Art. 289: "La vigilancia de la sociedad anónima, estará confiada a un auditor designado por la junta general, la cual señalará también su remuneración. El auditor ejercerá sus funciones por el plazo que determine el pacto social y, en su defecto, por el que señale la junta general en el acto del nombramiento." Art. 290: "La Auditoría a que se refiere el artículo anterior es la externa. Una Ley especial regulará su ejercicio." "La vigilancia de los contadores públicos será ejercida por un Consejo de Vigilancia que tendrá la organización y atribuciones que dicha ley le confiera." "El cargo de auditor es incompatible con el de administrador, gerente o empleado subalterno de la sociedad. No podrán ser auditores los parientes de los administradores o gerentes de la sociedad, dentro del cuarto grado de consanguinidad o segundo de afinidad." Art. 291: "Son facultades y obligaciones del auditor: I.- Cerciorarse de la constitución y vigencia de la sociedad. II.- Cerciorarse de la constitución y subsistencia de la garantía de los administradores y tomar las medidas necesarias para corregir cualquiera irregularidad. III.- Exigir a los administradores un balance mensual de comprobación. IV.- Comprobar las existencias físicas de los inventarios. V.- Inspeccionar una vez al mes, por lo menos, los libros y papeles de la sociedad, así como la existencia en caja. VI.- Revisar el balance anual, rendir el informe correspondiente en los términos que establece la ley y autorizarlo al darle su aprobación. VII.- Someter a conocimiento de la administración social y hacer que se inserten en la agenda de la junta general de accionistas, los puntos que crea pertinentes. VIII.- Convocar las juntas generales ordinarias y extraordinarias de accionistas, en caso de omisión de los administradores y en cualquiera otro en que lo juzgue conveniente. IX.- Asistir, con voz, pero sin voto, a las juntas generales de accionistas. X.- En general, comprobar en cualquier tiempo las operaciones de la sociedad." | S.A. vigilance is confided to an auditor designated by the junta general, which also sets his remuneration; he serves the term fixed by the pacto social or, failing it, by the junta at appointment. The audit is EXTERNAL; a special law governs its exercise and a Vigilance Council watches public accountants. The auditor office is INCOMPATIBLE with being administrator, gerente or subordinate employee of the society; relatives of administrators/gerentes within the fourth degree of consanguinity or second of affinity may not be auditors. Auditor faculties and duties: I. verify the society's constitution and vigencia; II. verify the administrators' guarantee and correct irregularities; III. demand from the administrators a MONTHLY verification balance (balance mensual de comprobación); IV. verify physical inventory existence; V. inspect at least ONCE A MONTH the society's books and papers and the cash on hand; VI. revise the ANNUAL balance, render the report the law establishes and authorize it by approval; VII. submit points to the administration and the junta agenda; VIII. convene ordinary/extraordinary juntas on administrators' omission or when he judges convenient; IX. attend juntas with voice but without vote; X. verify the society's operations at any time | `sv/sources/07_Codigo_Comercio.pdf` | Arts. 289-291 pp.54-55 (EVID-220; txt PAGE 54-55) |
 | LB-031 | Código de Comercio, Art. 236: "A partir de la publicación de la convocatoria, los libros y documentos relacionados con los fines de la junta estarán en las oficinas de la sociedad, a disposición de los accionistas, para que puedan enterarse de ellos." "Si el pacto social hubiere subordinado el ejercicio de los derechos de participación al depósito de los títulos de las acciones con cierta anticipación, el plazo de la convocatoria se fijará de tal modo que los accionistas dispongan, por lo menos, de ocho días para practicar el depósito en cuestión, el cual podrá hacerse en cualquiera institución bancaria, si no se hubiere indicado una determinada en la convocatoria." | From the publication of the convocatoria (meeting call), the books and documents related to the junta's purposes are at the society's offices AT THE ACCIONISTAS' DISPOSAL for their information. If the pacto social subordinated participation rights to depositing the action titles with some anticipation, the convocatoria term is fixed so accionistas have at least EIGHT DAYS to make the deposit — doable at any banking institution unless one is designated in the call | `sv/sources/07_Codigo_Comercio.pdf` | Art. 236 p.45 (txt PAGE 45; mechanics deferred to this file by `03_financial-statements.md` LB-005) |
-| LB-032 | SAS existence evidence (non-statutory pointer LB): 71-73_ evidence EVID-250 gloss: "SAS existence (creaempresa.cnr.gob.sv 'Asesoría virtual SAS' + btn-sas) under separate legislation remains consistent with BOTH lists (no CC reform) — SOQ-23 open." And OQ-5: "SAS law identity still unpinned (SOQ-23): official CNR creaempresa portal confirms SAS services exist (Asesoría virtual SAS; eCNR login for constitution flow); the statute itself (number/date) not identifiable with asamblea + D.O. down; law-firm mirrors are NOT official (do not register). Keep open; company-type menu FR gets an extensible-type design + OQ." | The simplified joint-stock company (SAS) EXISTS as a company type under separate legislation (official CNR creaempresa portal confirmation), but its statute is not in the corpus and its identity is unpinned; two official CC consolidations list no SAS-amending reform. Consequence: extensible-type design with statute-pending flag; no invented mechanics | `sv/.extractions/71-73_AML_DL426_Instructivo380_CCverify.evidence.md` (pointer LB per task design; statutory SAS text NOT in corpus) | EVID-250 gloss + OQ-5 (SOQ-23; origin: 07_ OQ-2 carried) |
+| LB-032 | **RETIRED W23 (2026-08-23) — superseded by LB-033..038 (111_ statutory rows); retained as the pre-statute provenance record (EVID-250 pointer).** [Historical, pre-W22 reading:] SAS existence evidence (non-statutory pointer LB): 71-73_ evidence EVID-250 gloss: "SAS existence (creaempresa.cnr.gob.sv 'Asesoría virtual SAS' + btn-sas) under separate legislation remains consistent with BOTH lists (no CC reform) — SOQ-23 open." And OQ-5: "SAS law identity still unpinned (SOQ-23): official CNR creaempresa portal confirms SAS services exist (Asesoría virtual SAS; eCNR login for constitution flow); the statute itself (number/date) not identifiable with asamblea + D.O. down; law-firm mirrors are NOT official (do not register). Keep open; company-type menu FR gets an extensible-type design + OQ." [The W22 census falsified the "no CC reform" premise — the SAS statute = 111_ D.L. 905-2023 (D.O. 234 T.441 13-dic-2023); the CNR creaempresa flow this row pointed at = the Art. 305-B formulario machinery, now statutory at LB-033..038.] | (historical) The pre-statute record: SAS existed as a company type (official CNR creaempresa portal confirmation) while its statute was believed unpinned under separate legislation; consequence was the extensible-type design with statute-pending flag. Superseded W23 by the statutory profile (LB-033..038) | `sv/.extractions/71-73_AML_DL426_Instructivo380_CCverify.evidence.md` (EVID-250 pointer — historical; the statutory text now lives at `sv/sources/111_Reforma_CodigoComercio_DL905_2023_Asamblea.pdf`) | EVID-250 gloss + OQ-5 (SOQ-23; superseded W22/W23) |
+| LB-033 | Reformas al Código de Comercio (111_ = D.L. N° 905, 6-dic-2023), Art. 1 (Art. 17 as replaced, inciso 2): "Sociedad mercantil es la persona jurídica que resulta de una declaración unilateral de voluntad, o bien, del acuerdo entre dos o más personas, nacionales o extranjeras, en virtud de la cual se aportan bienes o industria para la realización habitual o profesional de actos de comercio, con ánimo de lucro." (inciso 3): "Las sociedades mercantiles gozan de personalidad jurídica y de patrimonio propio distintos de aquellos que corresponden a sus accionistas o socios." Art. 2 (Art. 18 as replaced): "Las sociedades mercantiles se dividen en sociedades de personas y sociedades de capitales; ambas clases pueden ser de capital variable y se clasifican de la siguiente forma: I. Sociedades mercantiles de personas: a) Las sociedades en nombre colectivo o sociedades colectivas. b) Las sociedades en comandita simple o comanditarias simples. c) Las sociedades de responsabilidad limitada. II. Sociedades mercantiles de capitales: a) Las sociedades anónimas. b) Las sociedades en comandita por acciones o comanditarias por acciones. c) Las sociedades por acciones simplificadas." (closing): "Para la constitución de sociedades mercantiles se necesitarán al menos dos socios o accionistas, a excepción de las sociedades por acciones simplificadas, las cuales podrán constituirse por declaración unilateral de la voluntad de un solo accionista." | A mercantile sociedad is the juridical person resulting from a UNILATERAL DECLARATION OF WILL, or from the agreement of two or more persons (national or foreign), by which goods or industry are contributed for the habitual or professional realization of acts of commerce with profit intent; sociedades mercantiles enjoy legal personality and patrimony DISTINCT from those of their accionistas/socios. The replaced Art. 18 taxonomy: person-type = colectivas · comanditarias simples · SRL (SRL under personas); capital-type = S.A. · comandita por acciones · **SAS**; both classes may be variable-capital; constitution needs ≥2 socios/accionistas EXCEPT the SAS, which may be constituted by the unilateral declaration of will of a single accionista (the 07_-printed two-person contrato sole basis is the superseded pre-905 text) | `sv/sources/111_Reforma_CodigoComercio_DL905_2023_Asamblea.pdf` | 111_ Art. 1 (Art. 17) + Art. 2 (Art. 18) (txt PAGE 1-2; EVID-409) |
+| LB-034 | Reformas al Código de Comercio (111_), Art. 3 (CAPÍTULO VIII-BIS — operative spine, Arts. 305-A/305-B). Art. 305-A: "La sociedad por acciones simplificada es una persona jurídica resultante de la manifestación de una o más voluntades de personas naturales o jurídicas, provista de responsabilidad limitada hasta el monto de sus respectivos aportes, cuya naturaleza será siempre mercantil, independientemente de las actividades previstas en su finalidad." "Las sociedades por acciones simplificadas podrán constituirse de forma unipersonal, teniendo como único accionista a una persona natural o a una sociedad de capital." "Dicha personalidad jurídica se adquiere al momento de su inscripción en el Registro de Comercio." "La sociedad por acciones simplificada se constituirá, modificará, transformará, disolverá, liquidará y realizará todos sus actos sociales mediante formularios que el Registro de Comercio pondrá a disposición y los cuales serán asentados en dicho Registro. En ningún caso se exigirá el requisito de escritura pública o cualquier otra formalidad adicional para la constitución de esta sociedad, debiendo presentar, sin menoscabo de lo establecido en otras leyes, únicamente el formulario respectivo para su constitución." (governance cascade): "La sociedad por acciones simplificada se regirá, por su orden: a) por las disposiciones contenidas en su pacto social, b) por lo previsto en el presente capítulo y, c) en su defecto, se le aplicará lo establecido para las sociedades anónimas reguladas en el presente Código." Art. 305-B (formulario requisites, selected): I. "La denominación de la sociedad por acciones simplificada se formará libremente, debiendo ir inmediatamente seguida de la indicación 'Sociedad por Acciones Simplificada' o su abreviatura 'S.A.S.', y ser distinta a la de cualquier otra sociedad existente. La omisión de esta mención hará responsables ilimitada y solidariamente a los administradores o representantes de la sociedad, por los actos que celebren en esas condiciones." II. "En caso de que no se establezca una duración expresa se entenderá que es de duración indeterminada." III. "En caso de que no se establezca un domicilio social se entenderá que es el municipio de San Salvador Centro, Departamento de San Salvador." IV. "En caso no se establezca una finalidad especifica se entenderá que pueden realizar cualquier actividad lícita." V. "Capital social suscrito al cien por ciento y cuando la sociedad se someta al régimen de capital variable, se deberá indicar el mínimo." VI. "Número de acciones en las cuales se dividirá el capital social y deberán ser múltiplos de un dólar de los Estados Unidos de América." IX. "Firma de los accionistas de la Sociedad que se constituye, o bien, de sus representantes legales, ejecutores especiales o apoderados. En caso de firmar de manera electrónica, deberá utilizar Firma Electrónica Certificada." | The SAS is a juridical person resulting from the manifestation of ONE OR MORE wills (natural or juridical persons), with liability LIMITED to the respective aportations, ALWAYS mercantil in nature regardless of its finality; constitution may be UNIPERSONAL (sole accionista = a natural person or a capital society); personality acquired ONLY at Registro de Comercio inscription; ALL social acts (constitución, modificación, transformación, disolución, liquidación, actos sociales) via Registro FORMULARIOS asentados in that Registro — escritura pública NEVER exigible for constitution (the Registro may provide proforma models); governance cascade = pacto social → Chapter VIII-Bis → S.A. supletorio. 305-B formulario requisites: free denominación + mandatory immediate "Sociedad por Acciones Simplificada"/"S.A.S." suffix (omission ⇒ administrators/representatives UNLIMITED and SOLIDARY liability for acts so celebrated); defaults: duración indeterminada, domicilio San Salvador Centro (Departamento de San Salvador), finalidad any lawful activity; capital 100% suscrito (variable-regime mínimo indicated); acciones múltiplos de un dólar; electronic signing via Firma Electrónica Certificada | `sv/sources/111_Reforma_CodigoComercio_DL905_2023_Asamblea.pdf` | 111_ Art. 3 (305-A txt PAGE 2-3; 305-B txt PAGE 3-4; EVID-409) |
+| LB-035 | Reformas al Código de Comercio (111_), Art. 3 (Arts. 305-D..305-H). Art. 305-D: "El capital social para la constitución de las sociedades por acciones simplificadas será fijado de manera precisa por los accionistas debiendo establecerse libremente a partir del monto mínimo de un dólar de los Estados Unidos de América, el cual deberá suscribirse íntegramente al momento de constituirse." "El pago del capital podrá efectuarse, si así lo convinieren los accionistas, posteriormente a la inscripción de la sociedad, en condiciones y proporciones distintas a las previstas en el presente Código, pero en ningún caso el plazo para el pago de las acciones excederá de dos años." (payment means): "pudiendo ser en bienes, en especie, industria, efectivo, transferencia bancaria, transferencias a través de billeteras electrónicas, entre otros." Art. 305-E: "Las sociedades por acciones simplificadas podrán emitir diversas clases y series de acciones de acuerdo con lo establecido por el accionista único o los accionistas en el formulario de constitución, incluyendo acciones privilegiadas, con o sin derecho a voto, de conformidad con este Código, y supletoriamente, lo establecido para las sociedades anónimas." Art. 305-F: "La sociedad por acciones simplificada podrá adoptar el régimen de capital variable, para lo cual deberá estarse a lo dispuesto en el presente Código." Art. 305-G: "Las sociedades por acciones simplificadas podrán destinar anualmente cantidades para formar la reserva legal, lo cual se regulará libremente en su documento constitutivo, en caso de que el accionista único o los accionistas así lo determinen." Art. 305-H: "Las acciones que emita la sociedad por acciones simplificada no podrán inscribirse en el Registro Público Bursátil, ni negociarse en la bolsa de valores. En consecuencia, las acciones emitidas por dicha sociedad no podrán adoptar la naturaleza de anotaciones electrónicas de valores en cuenta." | SAS capital is freely fixed from the MINIMUM of ONE US DOLLAR (dated value, 111_ instrument provenance), SUSCRITO ÍNTEGRAMENTE at constitution; payment may be deferred post-inscription on freely-set conditions and proportions but NEVER beyond TWO YEARS; payment means include bienes, especie, industria, efectivo, bank transfer and ELECTRONIC-WALLET transfers. Diverse clases/series of acciones per the formulario — incl. privilegiadas, with or without voto — S.A. supletorio; any consideration type incl. especie or exchange of mano de obra (valued in dollar multiples). The capital-VARIABLE regime is adoptable (Code mechanics apply). The reserva legal is FREE — annual destinations as freely regulated in the constitutive document if the accionista(s) so determine (no mandatory rate, no limit; the Art. 39 chassis does not apply). SAS acciones CANNOT be inscribed in the Registro Público Bursátil, negotiated on the bolsa de valores, or adopt anotaciones-en-cuenta nature — listing blocked | `sv/sources/111_Reforma_CodigoComercio_DL905_2023_Asamblea.pdf` | 111_ Art. 3 (305-D/E/F/G/H txt PAGE 5; EVID-409) |
+| LB-036 | Reformas al Código de Comercio (111_), Art. 3 (Arts. 305-J..305-0 [zero glyph for O — sic, read 305-O]). Art. 305-J (defaults): "A falta de estipulación, se entenderá que todas las funciones previstas en este Código para la junta general de accionistas de las sociedades anónimas serán ejercidas por la junta general, o bien, por el accionista único de la sociedad por acciones simplificada, y que las de administración estarán a cargo del representante legal." (meetings): "Salvo disposición contraria en el pacto social, las reuniones de los órganos sociales, convocatorias, quórum, tomas de decisión y acuerdos, se regirán por lo establecido en las disposiciones pertinentes a la sociedad anónima, pudiendo utilizarse para todos los efectos cualquier medio tecnológico que asegure la identificación de los asistentes, la confidencialidad y la conservación de la información." (books): "La junta general de accionistas, el accionista único o el órgano social que se determine en su pacto social, podrá acordar los libros sociales para su funcionamiento, siendo obligatorio al menos un libro para las actas de órganos de administración y los libros contables. La forma de llevarse y su legalización deberá autorizarse por acuerdo del o los accionistas. Todos los libros de este tipo societario podrán llevarse en formato físico o por medios electrónicos que permitan el resguardo, la integridad y la conservación de la información consignada." Art. 305-K: "La representación legal de la sociedad por acciones simplificada estará a cargo de una persona natural, designada en la forma prevista en el documento constitutivo, que podrá ser el accionista único, en su caso. A falta de estipulación, se entenderá que el representante legal podrá celebrar o ejecutar todos los actos y contratos comprendidos en la finalidad o que se relacionen directamente con la existencia y el funcionamiento de la misma, sin requerir acuerdo previo de la junta general de accionistas o cualquier otro órgano social definido en su estructura, excepto que una ley lo requiera, pudiendo otorgar poderes judiciales y administrativos, contratar personal y contraer derechos y obligaciones de cualquier clase para la sociedad misma." Art. 305-L: "Los accionistas minoritarios que sean titulares de por lo menos el cinco por ciento del capital social, pueden solicitar por escrito que se realice una sesión, así como incluir asuntos en el orden del día de la junta general ya convocada, para tratar los puntos que indiquen en su petición, o que se efectúen correcciones formales a convocatorias previamente realizadas." Art. 305-M: "Salvo disposición contraria en el documento constitutivo de la sociedad, cuando la sociedad tenga en su administración una junta directiva y estuviere compuesta por tres o más directores, los accionistas que representen un diez por ciento del capital social tendrán derecho a designar a un tercio de los directores." Art. 305-N: "El pacto social podrá prever causales de exclusión de accionistas, en cuyo caso deberá reintegrarse al accionista excluido el valor contable de sus acciones." "La exclusión de accionistas requerirá el acuerdo de la junta general extraordinaria de accionistas con el consentimiento de las tres cuartas partes de los títulos representativos de las acciones que conforman el capital social, lo cual tendrá efectos una vez se notifique al accionista excluido." Art. 305-0 [sic]: "Cuando se utilice la sociedad por acciones simplificada en fraude a la ley o en perjuicio de terceros, los accionistas y administradores que hubieren realizado, participado o facilitado los actos fraudulentos, responderán personal y solidariamente por las obligaciones nacidas de tales actos y por los daños y perjuicios causados a la sociedad, sus empleados y demás afectados, con independencia de cualesquier otras responsabilidades civiles, administrativas o penales a que haya lugar." | Governance: at default, ALL S.A. junta-general functions are exercised by the junta general OR the accionista único, administration by the representante legal; the sole accionista exercises all compatible organ attributions; meetings/convocatorias/quórum per the S.A. provisions SALVO contrary pacto, via ANY technology assuring attendee identification, confidentiality and conservation of information (305-J). Legal representation = ONE natural person (may be the accionista único) with BROAD default powers absent stipulation; not required to reside at the society's domicile (305-K). Minorities: ≥5% of capital may request sesiones in writing, add agenda items, or seek formal corrections of prior convocatorias (305-L); ≥10% designates ONE-THIRD of a ≥3-director junta directiva, may convene the administration/representante at any time, and any accionista may request reports (305-M). Exclusión: causales only as foreseen in the pacto social; extraordinary-junta agreement with THREE-FOURTHS of the capital títulos; reintegro = valor contable floor (pacto may set a different value in the excluded accionista's favour, never lower); effective on notification (305-N). Use "en fraude a la ley o en perjuicio de terceros" ⇒ participating accionistas/administrators PERSONALLY and SOLIDARILY liable, independent of other liabilities (305-O) | `sv/sources/111_Reforma_CodigoComercio_DL905_2023_Asamblea.pdf` | 111_ Art. 3 (305-J txt PAGE 5-6; 305-K/L txt PAGE 6; 305-M/N/305-0 txt PAGE 7; EVID-409) |
+| LB-037 | Reformas al Código de Comercio (111_), Art. 3 (Arts. 305-P, 305-S, 305-U..305-X). Art. 305-P: "No será obligatorio el nombramiento de un auditor interno, externo o consejo de vigilancia para aquellas sociedades por acciones simplificadas consideradas como microempresarios de acuerdo con la legislación vigente. En caso que las sociedades por acciones simplificadas excedan en razón de su cuantía a la clasificación de microempresario que establece la ley, quedarán obligadas al nombramiento antes indicado para el ejercicio en el cual se excedió, así como en los siguientes, a fin de incluir el dictamen de auditor externo en los estados financieros que se depositan en el Registro de Comercio." Art. 305-S: "Los accionistas podrán acordar en el pacto social las reglas para el reparto de dividendos de la sociedad." "Una vez aprobada la distribución de dividendos, estos se pagarán en un plazo no mayor a ciento ochenta días desde la fecha del acuerdo, pudiendo establecerse un plazo menor en el pacto social." Art. 305-U (dissolution causes, numeral 6): "6. Por la falta total de pago del capital suscrito en el plazo establecido en las presentes disposiciones. En caso de que se efectuare parcialmente el pago del capital suscrito, pasado el plazo de dos años, se deberá proceder a disminuir el capital inicialmente establecido hasta el monto efectivamente pagado, lo que no ocasionará la disolución de la sociedad, a menos que sea inferior al legalmente establecido." Art. 305-V: "Las sociedades por acciones simplificadas, podrán seguir un procedimiento simplificado de disolución de sociedades, de conformidad con el presente apartado, siempre que la sociedad misma no posea cuentas pendientes por pagar ni obligaciones que cancelar, cuando así lo exprese el contador público o auditor externo, según el caso." Art. 305-W (selected): "En dicho acuerdo de disolución, deberá hacerse constar que no existen obligaciones pendientes de ser canceladas a terceros, lo que se hará constar por parte del contador público o auditor externo de la sociedad misma, así como el nombramiento de al menos un liquidador propietario y suplente, indicándose cualquier medio de notificación." Art. 305-X: "Adoptado el acuerdo, y transcurridos quince días hábiles posteriores a la inscripción en el Registro de Comercio, los liquidadores nombrados procederán a repartir el haber social, de acuerdo a las aportaciones de cada uno de los accionistas en un plazo que no exceda de treinta días hábiles. Posterior a dicho plazo, se tendrá por disuelta la sociedad, procediendo de forma inmediata a otorgar el formulario de liquidación por parte del liquidador nombrado en el Registro de Comercio, sin más trámite." | Auditor GATE: no internal/external auditor or consejo de vigilancia required while the SAS is classified MICROEMPRESARIO under vigente legislation (the classification criteria live OUTSIDE this corpus — config-gap); exceeding the classification ⇒ obligatory appointment for that ejercicio and the following, with the external-auditor dictamen included in the EF deposited at the Registro de Comercio (305-P). Dividends: reparto rules FREE per pacto social (absent any rule, ≥10% accionistas may put approval/repartto on the EF-approving junta agenda); once approved, payment ≤ 180 DAYS from the acuerdo date, pacto may shorten (305-S). Dissolution causes incl. TOTAL non-payment of suscrito capital in term; PARTIAL payment past the 2-year term ⇒ capital diminished to the effectively-paid amount (no dissolution unless below the legal minimum) (305-U). Simplified dissolution/liquidation for societies with NO pending payments — contador público/auditor externo certification; the disolución acuerdo (minimum S.A. content; or ≥3/4 of acciones by will) is inscribed via formulario with the no-pending-obligations constancia + ≥1 liquidador propietario and suplente; liquidators repartir the haber social within ≤30 días hábiles counted 15 días hábiles post-inscription; past that period the society "se tendrá por disuelta" and the liquidación formulario is granted sin más trámite; liquidators respond solidarily and subsidiarily for acts prejudicing third parties (305-V..X) | `sv/sources/111_Reforma_CodigoComercio_DL905_2023_Asamblea.pdf` | 111_ Art. 3 (305-P txt PAGE 7; 305-S txt PAGE 8; 305-U/V/W/X txt PAGE 8-9; EVID-409) |
+| LB-038 | Reformas al Código de Comercio (111_), Art. 3 (Arts. 305-Z, 305-Y) + Art. 10 (gratuidad — consolidated terminal text, capitalization as printed) + Art. 11 (vigencia) + disposición transitoria + gratuidad chain (113_/114_). Art. 305-Z: "Todas las sociedades por acciones simplificada están obligadas al cumplimiento de las obligaciones establecidas para el comerciante social en este Código." "Las sociedades por acciones simplificadas con activo inferior a los doce mil dólares de los Estados Unidos de América llevarán la contabilidad por sí mismos o por personas de su nombramiento." "Sin embargo, las sociedades cuyo activo en giro sea igual o superior a doce mil dólares de los Estados Unidos de América están obligados a llevar su contabilidad por medio de contadores públicos autorizados de conformidad con la legislación vigente, los estados financieros deberán ser suscritos únicamente por el Representante Legal y el contador público correspondiente, a menos que se encuentre obligada al nombramiento de auditor externo, en cuyo caso deberá suscribirlos igualmente." "En cualquier supuesto, deberán ser aprobados por la Junta General de Accionistas o el accionista único y deberán ser depositados en el Registro de Comercio por medio de un formulario al que se le adjuntará los estados financieros correspondientes." Art. 305-Y: "Tanto los estados financieros como los informes de gestión y demás cuentas sociales deberán ser presentadas por el representante legal a consideración de la junta general de accionistas para su aprobación." "Cuando se trate de sociedades por acciones simplificadas con único accionista, éste aprobará todas las cuentas sociales y dejará constancia de tal aprobación en actas debidamente asentadas en el libro correspondiente de la sociedad ya sea físico o digital." Art. 10: "LA INSCRIPCIÓN DE LOS FORMULARIOS DE CONSTITUCIÓN DE SOCIEDADES POR ACCIONES SIMPLIFICADAS, ASÍ COMO EL DE SU MATRÍCULA DE EMPRESA, LOCAL, SUCURSAL O AGENCIA POR PRIMERA VEZ, NO CAUSARÁ NINGÚN TIPO DE DERECHOS O ARANCELES ANTE EL REGISTRO DE COMERCIO DEL CENTRO NACIONAL DE REGISTROS. LO ANTERIOR SERÁ VIGENTE HASTA EL 31 DE DICIEMBRE DE 2026. (1) (2)" [111_ REFORMAS block: "(1) D. L. No. 203, 29 DE ENERO DE 2025; D. O. No. 21, T. 446, 30 DE ENERO DE 2025. (2) D. L. No. 468, 25 DE NOVIEMBRE DE 2025; D. O. No. 226, T. 449, 28 DE NOVIEMBRE DE 2025. (Art. 10)" — the print is a CONSOLIDATED REPRINT; the ORIGINAL Art. 10 read "por un año a partir de su entrada en vigencia" per the 113_/114_ recitals]. Art. 11: "El presente decreto entrará en vigencia sesenta días después de su publicación en el Diario Oficial." (D.O. 13-dic-2023 + 60 días = 11-feb-2024). Disposición transitoria (Art. 9): "El Registro de Comercio queda facultado para la implementación gradual de formularios a los cuales se hace referencia en el presente Decreto, de conformidad con sus capacidades tecnológicas y financieras disponibles y demás disposiciones establecidas en esta reforma." Chain limbs — 113_ (D.L. 203-2025) Art. 1: "La inscripción de los formularios de constitución de sociedades por acciones simplificadas, así como el de su matrícula de empresa, local, sucursal o agencia por primera vez, no causará ningún tipo de derechos o aranceles ante el Registro de Comercio del Centro Nacional de Registros. Lo anterior será vigente hasta el 31 de diciembre de 2025." 114_ (D.L. 468-2025) Art. 1: "La inscripción de los formularios de constitución de sociedades por acciones simplificadas, así como el de su matrícula de empresa, local, sucursal o agencia por primera vez, no causará ningún tipo de derechos o aranceles ante el Registro de Comercio del Centro Nacional de Registros. Lo anterior será vigente hasta el 31 de diciembre de 2026." (114_ considerando III: "las sociedades por acciones simplificadas se han convertido en el tipo societario de mayor uso") | Accounting/EF: every SAS complies with the comerciante-social obligations of this Code; activo < US$12,000 (DATED, 111_ — NOT the Art. 437 keeper threshold, a different instrument) ⇒ contabilidad kept by the society itself or appointees of its nombramiento; activo en giro ≥ US$12,000 ⇒ contadores públicos autorizados; EF signed by the Representante Legal + the contador público (the auditor externo additionally when obligatory); approved by the Junta General or the accionista único (EF + informes de gestión presented by the representante legal, 305-Y; the único approves all cuentas sociales, recording approval in actas físico o digital); DEPOSITED at the Registro de Comercio VIA FORMULARIO with the EF attached (305-Z). Gratuidad (as consolidated): inscription of SAS constitution formularios + the FIRST matrícula de empresa/local/sucursal/agencia = NO derechos o aranceles, through 31-DIC-2026; chain provenance: original Art. 10 = 1 year from vigencia (11-feb-2024 → 11-feb-2025, per the 113_/114_ recitals); 113_ D.L. 203-2025 (D.O. 21 T.446 30-ene-2025) → 31-dic-2025; 114_ D.L. 468-2025 (D.O. 226 T.449 28-nov-2025) → 31-DIC-2026 CURRENT terminal; 114_ cons. III = the official recital that the SAS is "el tipo societario de mayor uso". Vigencia: 60 days post-publication → 11-feb-2024. Transitoria: the Registro de Comercio implements the formularios GRADUALLY per its technological/financial capacities (instructivos/lineamientos/guías authority-side) — the CNR formulario CURRENT SHAPE = authority-side watch recorded here (residual note, NOT a new OQ) | `sv/sources/111_Reforma_CodigoComercio_DL905_2023_Asamblea.pdf` (chain limbs: `sv/sources/113_Reforma_DL905_CodigoComercio_DL203_2025_Asamblea.pdf` + `sv/sources/114_Reforma_DL905_GratuidadSAS_DL468_2025_Asamblea.pdf`) | 111_ Art. 3 (305-Y txt PAGE 9; 305-Z txt PAGE 9-10) + Art. 10 (txt PAGE 12) + Art. 11 (txt PAGE 12) + transitoria (txt PAGE 12) + REFORMAS block (txt PAGE 13; EVID-409); 113_ Art. 1 (txt PAGE 1; EVID-411); 114_ Art. 1 (txt PAGE 2; EVID-412) |
 
 ## 3. Functional Requirements
 
 ### 3.1 Type taxonomy and the extensible company-type model (Arts. 17-19; SAS)
 
-- **SV-CML-FR-042:** The system shall model the sociedad as the Art. 17
-  *comerciante social* — the juridical entity resulting from a *contrato
-  solemne* between two or more persons pooling *bienes o industria* to
-  share profits, enjoying legal personality within its purpose limits —
-  and shall classify every sociedad record with the Art. 18 taxonomy:
-  class ∈ {*de personas* (colectiva · comandita simple · SRL) · *de
-  capitales* (S.A. · comandita por acciones)} × capital regime ∈
-  {capital fijo · capital variable}, remembering that BOTH classes may be
-  of variable capital; the Art. 18 closing rule — ONLY law-regulated
-  forms may be constituted — is the textual basis of the EXTENSIBLE,
-  profile-driven type model (§4): the type list is a data table, not a
-  hardcoded enum, so law-created types (e.g. SAS, FR-044) attach without
-  schema change. (LB-001; EVID-218)
+- **SV-CML-FR-042:** The system shall model the sociedad mercantil as
+  the Art. 17 (as replaced by 111_) *comerciante social* — the juridical
+  entity resulting from the MANIFESTACIÓN DE UNA VOLUNTAD (a unilateral
+  declaration — the SAS unipersonal basis) or from the acuerdo of two
+  or more persons pooling *bienes o industria* for the habitual or
+  professional realization of acts of commerce with *ánimo de lucro*,
+  enjoying legal personality and patrimony distinct from its
+  accionistas/socios (the 07_-printed two-person *contrato solemne*
+  sole basis is the superseded pre-905 text) — and shall classify every
+  sociedad record with the Art. 18 (as replaced) taxonomy: class ∈
+  {*de personas* (colectiva · comandita simple · SRL) · *de capitales*
+  (S.A. · comandita por acciones · **SAS, Art. 18-II-c per 111_**)} ×
+  capital regime ∈ {capital fijo · capital variable}, remembering that
+  BOTH classes may be of variable capital; the two-socio minimum
+  carries the SAS unipersonal exception (FR-228). The closing rule —
+  ONLY law-regulated forms may be constituted — remains the textual
+  basis of the EXTENSIBLE, profile-driven type model (§4): the type
+  list is a data table, not a hardcoded enum, so law-created types
+  attach without schema change.
+  (LB-001 [07_ print — Arts. 17/18 superseded by 111_]; LB-033;
+  EVID-218/409)
 - **SV-CML-FR-043:** The system shall carry the Art. 19 cooperative
   profile as a distinct society type with its special rules: minimum TEN
   socios; governance = the rules of the adopted species PLUS the S.A.
@@ -187,17 +215,22 @@ norm in this article set ties DTE emission to society type; the
   "Ilimitada"; and tax-subject status (the printed capital/yields
   exemption was derogated by D.L. 385-1989 — no exemption logic ships).
   (LB-002; EVID-218)
-- **SV-CML-FR-044:** The system shall implement the SAS
-  extensible-type design per the SOQ-23 ruling: the company-type
-  selection carries `sas` (Sociedad por Acciones Simplificada) as a
-  CONFIRMED-EXISTING type — existence evidenced by the official CNR
-  creaempresa portal (LB-032) — whose statute is NOT in the corpus; the
-  `sas` type record ships with a statute-pending flag and the OQ-001
-  pointer, and with NO mechanics of its own: no suffix rule, no capital
-  minimum, no quorum rule, no reserve rate, no ledger profile are
-  invented — every such field renders as statute-pending config-gaps
-  until the SAS law lands (acquisition candidate, sources registry
-  numbering ≥74). (LB-001; LB-032; SOQ-23)
+- **SV-CML-FR-044:** The system shall implement the SAS type with a
+  REAL, statute-backed profile (SOQ-23 resolved — the statute is 111_
+  D.L. 905-2023, a Código de Comercio reform; §2): the company-type
+  selection carries `sas` (Sociedad por Acciones Simplificada) with
+  statute_status = **in_corpus** and profile fields POPULATED per the
+  Capítulo VIII-Bis statutory rows — suffix "S.A.S." (FR-226),
+  constitution by formulario without escritura pública (FR-225),
+  unipersonal constitution (FR-228), minimum capital US$1 dated
+  (FR-229), free reserva legal (FR-231), bolsa-blocked acciones
+  (FR-232), S.A.-supletorio governance cascade (FR-233),
+  microempresario-conditional auditor (FR-236), ≤180-day dividend
+  payment deadline (FR-237), US$12,000 accounting-mode threshold dated
+  (FR-238), gratuidad window rows (FR-240) — NO field renders as a
+  statute-pending config-gap (the pre-W23 config-gap rendering is
+  retired together with LB-032).
+  (LB-033; LB-034; LB-035; LB-036; LB-037; LB-038; EVID-409)
 
 ### 3.2 Formation (Arts. 21-27)
 
@@ -364,9 +397,11 @@ norm in this article set ties DTE emission to society type; the
   is reached); (c) the cooperative's *Fondo de Reserva* interacts with
   the Art. 19-XI exclusion-withdrawal rule (withdrawal per last
   balance EXCLUDES the Fondo de Reserva — recorded as the cooperative
-  profile's reserve-exclusion flag); types without Code rates (e.g.
-  SAS, statute-pending) carry config-gap slots with NO shipped
-  values. Disambiguation (by id, §2): this statutory reserve is a
+  profile's reserve-exclusion flag); (d) SAS = FREE by statute (Art.
+  305-G per 111_ — no mandatory rate or limit, FR-231; the Art. 39
+  chassis inapplicable), NOT a config-gap; types without Code rates
+  carry config-gap slots with NO shipped values. Disambiguation (by
+  id, §2): this statutory reserve is a
   DIFFERENT institution from the Art. 445 revaluation reserve
   (SV-CML-FR-041) and from the ISR *reserva legal* book reserve
   (SV-TAX-FR-063 constitution register + SV-TAX-FR-101 25%
@@ -593,6 +628,185 @@ norm in this article set ties DTE emission to society type; the
   and bank-designation slot on the junta/assembly record).
   (LB-031; EVID-214 zone)
 
+### 3.8 SAS profile (Arts. 305-A..305-Z; Arts. 17-18)
+
+- **SV-CML-FR-225:** The system shall record EVERY SAS social act —
+  constitución, modificación, transformación, disolución, liquidación
+  and all actos sociales — as effected VIA REGISTRO-DE-COMERCIO
+  FORMULARIOS (asentados in that Registro): "En ningún caso se exigirá
+  el requisito de escritura pública o cualquier otra formalidad
+  adicional para la constitución de esta sociedad" (305-A) — no
+  escritura/deed record is required or validated for SAS lifecycle
+  acts (the FR-045 escritura anchor is type-gated OFF for SAS);
+  electronic signing uses Firma Electrónica Certificada (305-B-IX);
+  the Registro's proforma models are authority-side; and legal
+  personality is acquired ONLY at formulario INSCRIPTION in the
+  Registro de Comercio (305-A — the Art. 25 inscription-perfected
+  chassis of SV-CML-FR-048 consumed by id: same invariant, formulario
+  channel instead of deed). (LB-034; EVID-409)
+- **SV-CML-FR-226:** The system shall enforce the SAS denomination
+  rule: the freely-formed denominación must be IMMEDIATELY followed by
+  "Sociedad por Acciones Simplificada" or its abbreviation "S.A.S."
+  and be distinct from any existing society; omission renders the
+  administrators/representatives UNLIMITEDLY AND SOLIDARILY liable for
+  the acts celebrated in that condition — suffix-validation warning
+  with the liability-exposure note (SRL "Ltda." kin, FR-058).
+  (LB-034; EVID-409)
+- **SV-CML-FR-227:** The system shall ship the SAS statutory DEFAULTS
+  as overridable pacto fields on the constitution record: duración
+  INDETERMINADA absent express term; domicilio = San Salvador Centro,
+  Departamento de San Salvador absent stipulation; finalidad = any
+  lawful activity absent stipulation (305-B II-IV) — pre-populated
+  default rows with the pacto-social override always admissible.
+  (LB-034; EVID-409)
+- **SV-CML-FR-228:** The system shall support UNIPERSONAL SAS
+  constitution: the sole accionista may be a NATURAL PERSON or a
+  SOCIEDAD DE CAPITAL (305-A); constitution proceeds by declaración
+  unilateral de la voluntad of one accionista — the Art. 18
+  two-socio minimum does NOT apply to SAS ("a excepción de las
+  sociedades por acciones simplificadas", LB-033); the accionista
+  único exercises all compatible organ attributions incl.
+  representante legal (305-J; FR-233). Foreign persona-jurídica
+  accionistas attach existence/representation evidence to the
+  formulario (already-Registered ones exempt, 305-B-VIII).
+  (LB-033; EVID-409)
+- **SV-CML-FR-229:** The system shall validate SAS capital per 305-D:
+  minimum capital **US$1** — freely fixed by the accionistas from that
+  floor (DATED value, 111_ instrument provenance), ÍNTEGRAMENTE
+  SUSCRITO at constitution; the UNPAID balance payable per the
+  formulario's freely-set rules (conditions and proportions free) but
+  NEVER beyond **TWO YEARS** post-inscription; payment means recorded
+  incl. bienes, especie, industria, efectivo, transferencia bancaria
+  and transferencias vía billeteras electrónicas (305-B-VII payment
+  form/term data on the constitution record).
+  (LB-035; EVID-409)
+- **SV-CML-FR-230:** The system shall encode the SAS acción
+  structure: acciones are MÚLTIPLOS DE UN DÓLAR (305-B-VI); diverse
+  CLASES Y SERIES — incl. privilegiadas, with or without voto — as set
+  in the formulario, with título rights/limitations recorded (305-E,
+  S.A. supletorio); any consideration type incl. especie or exchange
+  of mano de obra (valued by the accionistas in dollar multiples); and
+  the capital-VARIABLE regime is ADOPTABLE (305-F — the
+  variable-capital movement mechanics chassis consumed from
+  `05_society-lifecycle.md` SV-CML-FR-072 by id, never restated).
+  (LB-035; EVID-409)
+- **SV-CML-FR-231:** The system shall carry the SAS reserva legal as
+  FREE: "Las sociedades por acciones simplificadas podrán destinar
+  anualmente cantidades para formar la reserva legal, lo cual se
+  regulará libremente en su documento constitutivo" (305-G) — profile
+  row = free (no mandatory rate, no limit; annual destinations only if
+  the accionista(s) so determine); the Art. 39 mandatory chassis of
+  SV-CML-FR-054 is INAPPLICABLE-BY-STATUTE to SAS (no annual
+  separation duty, no restoration machinery — the SAS carve-out noted
+  on the reserve engine; FR-054 consumed by id for contrast only).
+  (LB-035; EVID-409)
+- **SV-CML-FR-232:** The system shall mark SAS acciones as
+  LISTING-BLOCKED: no inscripción in the Registro Público Bursátil, no
+  negociación en bolsa de valores, and NO adoption of anotaciones
+  electrónicas de valores en cuenta nature (305-H) — the SAS share
+  surface (FR-068 ledger kin) carries no market-listing states.
+  (LB-035; EVID-409)
+- **SV-CML-FR-233:** The system shall implement SAS governance per
+  the 305-J/305-K defaults with the statutory CASCADE: junta-general
+  functions → the junta general OR the accionista único;
+  administración → the representante legal (ONE natural person — may
+  be the accionista único — with BROAD default powers: all acts and
+  contracts within the finalidad or directly related to the society's
+  existence/functioning, no prior junta/organ agreement required
+  unless a law demands, incl. judicial/administrative powers, hiring,
+  and contracting rights/obligations of any class; no
+  domicile-residency requirement); organ meetings, convocatorias,
+  quórum and acuerdos governed by the S.A. pertinent provisions SALVO
+  contrary pacto, via ANY technological means assuring attendee
+  identification, confidentiality and information conservation; the
+  governance cascade = pacto social → Capítulo VIII-Bis → S.A.
+  supletorio (305-A) — the S.A. profile rows SV-CML-FR-063..071
+  consumed as the FALLBACK layer by id, never restated here.
+  (LB-034; LB-036; EVID-409)
+- **SV-CML-FR-234:** The system shall encode the SAS minority rights:
+  accionistas holding ≥ 5% of capital social may request a sesión in
+  writing, add items to an already-convened junta's agenda, or seek
+  formal corrections of prior convocatorias (305-L — correction
+  requests to the convoking representative ≤ 5 días hábiles before
+  the junta); and where a junta directiva of ≥ 3 directors exists,
+  accionistas representing ≥ 10% of capital may designate ONE-THIRD of
+  the directors, may convene the órgano de administración or
+  representante legal at any time, and ANY accionista may request
+  reports on the administration or current situation (305-M).
+  (LB-036; EVID-409)
+- **SV-CML-FR-235:** The system shall implement SAS accionista
+  exclusion: causales ONLY as foreseen in the pacto social; the
+  exclusion agreement = junta general extraordinaria with the consent
+  of THREE-FOURTHS of the títulos representing the capital social,
+  effective on notification to the excluded accionista; reintegro ≥
+  the VALOR CONTABLE of the acciones (pacto may set a different value
+  in the excluded accionista's favour, never lower); and use of the
+  SAS "en fraude a la ley o en perjuicio de terceros" exposes the
+  participating accionistas/administradores to PERSONAL AND SOLIDARY
+  liability for the fraud-born obligations and damages (305-0 [sic —
+  zero glyph for O, read 305-O]) — exposure flag on the profile,
+  recorded not litigated. (LB-036; EVID-409)
+- **SV-CML-FR-236:** The system shall implement the SAS auditor gate
+  (305-P): NO auditor interno, externo or consejo de vigilancia is
+  required while the society is classified MICROEMPRESARIO under the
+  vigente legislation; on EXCEEDING that classification the
+  appointment becomes obligatory for the ejercicio in which the
+  threshold was exceeded and the following ones, with the
+  auditor-externo dictamen included in the EF deposited at the
+  Registro de Comercio — the microempresario classification criteria
+  are NOT in this corpus (external classification source = config
+  slot, NO shipped default — config-gap; no OQ minted).
+  (LB-037; EVID-409)
+- **SV-CML-FR-237:** The system shall implement SAS dividend rules per
+  305-S: the reparto rules are FREE per pacto social (absent any
+  rule, accionistas representing ≥ 10% of capital may demand that the
+  EF-approving junta's agenda include approval and reparto); once the
+  distribution is approved, payment occurs within **≤180 DÍAS from
+  the fecha del acuerdo** (pacto may set a shorter term) — the
+  deadline clock stored on the distribution record, expiry = overdue
+  flag (the Arts. 37-38 realized-profit ceiling of SV-CML-FR-053
+  remains the outer bound, consumed by id).
+  (LB-037; EVID-409)
+- **SV-CML-FR-238:** The system shall implement the SAS accounting-mode
+  threshold (305-Z; D15-kin DATED row, 111_ instrument provenance —
+  NOT the Art. 437 keeper threshold, a different instrument): SAS with
+  activo < US$12,000 keep contabilidad by themselves or via persons of
+  their nombramiento; SAS with activo en giro ≥ US$12,000 MUST keep it
+  via contadores públicos autorizados; the EF are signed by the
+  Representante Legal + the contador público (the auditor externo
+  additionally when appointment is obligatory, FR-236), approved by
+  the Junta General or the accionista único (EF + informes de gestión,
+  305-Y), and DEPOSITED at the Registro de Comercio VIA FORMULARIO
+  with the EF attached — the book/legalization model of
+  `02_accounting-books.md` and the FY-close/EF cycle of
+  `03_financial-statements.md` consumed by id, never restated.
+  (LB-038; EVID-409)
+- **SV-CML-FR-239:** The system shall implement the SAS book regime
+  (305-J): the obligatory minimum = AT LEAST ONE libro de actas de
+  órganos de administración PLUS the libros contables (further social
+  libros as the junta/único/organ agrees; absent stipulation the
+  Art. 40 types apply); legalization AUTHORIZED BY ACCORD of the
+  accionista(s) (not notary/Registry ex lege); and ALL such books may
+  be kept PHYSICAL or ELECTRONIC (medios electrónicos assuring
+  resguardo, integridad y conservación de la información) — electronic
+  is a FIRST-CLASS statutory option with NO 24-month gate: per the
+  305-J print the Art. 455 authorization clock does not govern SAS
+  statutory books (reading recorded here); the cml/02 legalization
+  machinery and Art. 440 discipline flags are consumed by id
+  (SV-CML-FR-022/025). (LB-036; EVID-409)
+- **SV-CML-FR-240:** The system shall carry the SAS gratuidad window
+  as DATED fee rows (Art. 10 chain; D15 discipline): inscription of
+  the SAS constitution formularios AND the FIRST matrícula de
+  empresa/local/sucursal/agencia = **NO derechos o aranceles (US$0)**
+  — window rows: 11-feb-2024 → 11-feb-2025 (111_ original: one year
+  from vigencia, per the 113_/114_ recitals); → 31-dic-2025 (113_
+  D.L. 203-2025, D.O. 21 T.446 30-ene-2025); → **31-dic-2026 (114_
+  D.L. 468-2025, D.O. 226 T.449 28-nov-2025 — CURRENT terminal)**;
+  post-2026 reversion = dated watch (absent a further chain limb the
+  window lapses and standard Registro fees apply — reversion-watch
+  flag); the fee/matricula surface machinery is consumed from
+  `01_merchant-registration.md` by id. (LB-038; EVID-409/411/412)
+
 ## 4. Data Model
 
 Layer semantics: the society-type model is Odoo-native — all entities
@@ -608,10 +822,11 @@ today) attach as data rows, never schema changes.
 | Entity | Field | Type | Catalog / values | Reference |
 |--------|-------|------|------------------|-----------|
 | l10n_sv_commerce.society.type | code · name · class | char · char · select | shipped rows: colectiva · comandita_simple · srl · sa · comandita_acciones · cooperativa · sas; class = personas · capitales (cooperativa = species-adopted per Art. 19-I — informational) | FR-042 |
-| l10n_sv_commerce.society.type | statute_status · pending_oq | select · char | in_corpus · statute_pending (sas → SOQ-23/OQ-001 pointer; mechanics fields render as config-gaps) | FR-044 |
+| l10n_sv_commerce.society.type | statute_status · pending_oq | select · char | in_corpus · statute_pending; sas row = in_corpus per 111_ (FR-044 flip W23 — profile fields POPULATED, no config-gap rendering; statute_pending retained as catalog value for un-acquired types only) | FR-044 |
 | l10n_sv_commerce.society.type | suffix_rule · suffix_liability_note | char · text | Ltda. (Art. 101) · S. en C. (Arts. 94/297 — 05-consumed) · Sociedad Cooperativa de R.L./Ilimitada (Art. 19-XII); only evidenced suffixes ship | FR-043, FR-058 |
 | l10n_sv_commerce.society.type | min_capital_usd · participation_denomination_usd | monetary (dated config) | srl: 2,000 · 1+multiples (Art. 103); sa: n/a · 1+multiples (Art. 129); 2008 USD code text dated-but-current | FR-059, FR-065 |
-| l10n_sv_commerce.society.type | reserve_rate · reserve_limit_kind · reserve_limit_fraction | float · select · fraction | colectiva/comandita_simple: 0.05 · legal_limit · 1/6 (Arts. 91/100); srl/sa/eirl: 0.07 · minimum_legal · 1/5 (Arts. 123/295/616); sas: config-gap | FR-055 |
+| l10n_sv_commerce.society.type | reserve_rate · reserve_limit_kind · reserve_limit_fraction | float · select · fraction | colectiva/comandita_simple: 0.05 · legal_limit · 1/6 (Arts. 91/100); srl/sa/eirl: 0.07 · minimum_legal · 1/5 (Arts. 123/295/616); sas: FREE (Art. 305-G per 111_ — no mandatory rate, no limit) | FR-055, FR-231 |
+| l10n_sv_commerce.society.type (sas row) | min_capital_usd · constitution_channel · unipersonal · bolsa_blocked · auditor_required · accounting_mode_threshold_usd | monetary (dated) · select · boolean · boolean · conditional · monetary (dated) | sas: 1 (305-D, dated 111_) · formulario (305-A) · true (305-A) · true (305-H) · conditional on microempresario classification (305-P — external config slot, NO default) · 12000 (305-Z, dated 111_; NOT Art. 437's threshold) | FR-044, FR-225, FR-228, FR-229, FR-232, FR-236, FR-238 |
 | l10n_sv_commerce.society.type | reserve_investment_rule | select | half_salvadoran_realizable (Art. 92) · two_thirds_salvadoran_centralamerican (Art. 124); cooperative fondo-de-reserva exclusion flag (Art. 19-XI) | FR-056 |
 | l10n_sv_commerce.society.type | votes_rule · escritura_change_quorum · auditor_required | select · fraction/enum · boolean | srl: vote_per_dollar · 3/4 (unanimity: fin-change/obligation-increase) · true (Art. 122); sa: one_per_accion (Art. 160 kin) · type-specific · true (Art. 289); cooperative: one_per_socio (Art. 19-III) | FR-043, FR-063, FR-064, FR-070 |
 | res.company | sv_cml_society_type · sv_cml_capital_regime | many2one profile · select | fijo · variable (variable-regime mechanics owned by 05) | FR-042 |
@@ -665,6 +880,21 @@ today) attach as data rows, never schema changes.
 | l10n_sv_commerce.junta | convocatoria_published_on · docs_available_from | date · computed | Art. 236 availability start = convocatoria publication | FR-071 |
 | l10n_sv_commerce.junta | title_deposit_window · bank_designation | computed date · char | ≥8 days for pacto-subordinated title deposits (Art. 236 inciso 2) | FR-071 |
 
+**SAS profile additions (111_ Capítulo VIII-Bis; FR-044 flip + FR-225..240):**
+
+| Entity | Field | Type | Catalog / values | Reference |
+|--------|-------|------|------------------|-----------|
+| l10n_sv_commerce.sas.formulario | act_kind · e_signature_ref · inscription_state | select · ref · select | constitución · modificación · transformación · disolución · liquidación · actos sociales (305-A); Firma Electrónica Certificada signing ref (305-B-IX); pre_inscription · asentado — kin of escritura but formulario-based; personality at inscription only | FR-225 |
+| l10n_sv_commerce.sas.formulario | defaults_rendered · sole_accionista_kind | computed · select | duración indeterminada · San Salvador Centro · any lawful activity (305-B II-IV, overridable); natural person · capital society (305-A unipersonal; two-socio minimum inapplicable) | FR-227, FR-228 |
+| l10n_sv_commerce.sas.formulario | capital_usd · payment_terms · payment_means | monetary · terms · m2m | ≥ 1 (DATED, 305-D); 100% suscrito at constitution; unpaid ≤ 2 años; means incl. efectivo/transferencia bancaria/billeteras electrónicas | FR-229 |
+| l10n_sv_commerce.share (sas acciones) | denomination validator · classes/series · listing_blocked · variable_regime | computed · m2m · boolean · flag | múltiplos de un dólar (305-B-VI); clases/series freedom incl. privilegiadas ± voto (305-E); no Registro Público Bursátil/bolsa/anotaciones en cuenta (305-H); capital variable adoptable (305-F — cml/05 FR-072 chassis by id) | FR-230, FR-232 |
+| l10n_sv_commerce.minority.right (sas) | threshold · entitlement | percent · select | 5%: sesión/agenda/convocatoria corrections (305-L); 10%: designate 1/3 of ≥3-member junta directiva + convene organs + reports (305-M) | FR-234 |
+| l10n_sv_commerce.exclusion (sas) | cause_source · quorum · reintegro_floor · fraud_exposure | pacto-only · 3/4 títulos · valor contable · flag | pacto causales; junta general extraordinaria consent; reintegro ≥ valor contable (pacto may exceed); 305-0 [read 305-O] fraud → personal solidary liability flag | FR-235 |
+| l10n_sv_commerce.dividend.distribution | sas_payment_deadline | computed date | acuerdo date + ≤180 días (pacto may shorten); expiry = overdue flag; FR-053 ceiling outer bound by id | FR-237 |
+| l10n_sv_commerce.accounting.mode (sas) | activo_threshold_usd · mode · ef_signature_set | monetary (dated) · select · computed | 12000 (DATED, 305-Z — NOT Art. 437's): < threshold → self/appointees; ≥ → contadores públicos autorizados; EF = Representante Legal + contador público (+ auditor when obligated); approved junta/único; deposited via formulario with EF attached | FR-238 |
+| l10n_sv_commerce.book (sas kinds) | register_kind · format · legalization | select · select · ref | ≥ 1 actas-de-órganos-de-administración + libros contables (305-J); physical OR electronic (first-class; Art. 455 gate not governing per 305-J print); legalization by accionistas accord (cml/02 model by id) | FR-239 |
+| fee/matricula surface (consumed, 01) | gratuidad window rows | dated rows | $0 constitution-formulario inscription + first matrícula empresa/local/sucursal/agencia: 11-feb-2024→11-feb-2025 (111_) → 31-dic-2025 (113_) → 31-dic-2026 (114_ terminal); post-2026 reversion watch | FR-240 |
+
 ## 5. Odoo Mapping
 
 Layer semantics for this wave: the society-type model is Odoo-native
@@ -680,9 +910,9 @@ version-specific behavior is required by this file.
 
 | FR | Layer | Odoo model | Field(s) | Notes / version differences |
 |----|-------|------------|----------|------------------------------|
-| FR-042 | odoo | res.company + l10n_sv_commerce.society.type | sv_cml_society_type, class/regime | Extensible profile table (Art. 18 closed-form rule as DATA, not enum); type profiles drive suffix/capital/reserve/vote rules |
+| FR-042 | odoo | res.company + l10n_sv_commerce.society.type | sv_cml_society_type, class/regime | Art. 17/18 as REPLACED by 111_ (LB-033): manifestación-de-una-voluntad-or-acuerdo basis; capitales class GAINS SAS (Art. 18-II-c); extensible profile table (closed-form rule as DATA, not enum) |
 | FR-043 | odoo | l10n_sv_commerce.society.type (cooperativa row) | Art. 19 flags | 10-socio min; one-vote-per-socio override; nominative-only + inscription-transfer; ¢5,000 cap = colones remnant (value flagged, OQ-002); tax-subject (D.L. 385-1989 derogation note) |
-| FR-044 | odoo | l10n_sv_commerce.society.type (sas row) | statute_status=statute_pending | Existence = LB-032 (creaempresa CNR); NO mechanics invented — all profile fields render config-gap with OQ-001 pointer |
+| FR-044 | odoo | l10n_sv_commerce.society.type (sas row) | statute_status=in_corpus + populated profile | SOQ-23 resolved (111_ D.L. 905-2023; LB-033..038): suffix S.A.S. · $1 dated capital · free reserve · formulario channel · unipersonal · bolsa-blocked · conditional auditor · $12,000 dated threshold — the mechanics live in FR-225..240 |
 | FR-045 | odoo | l10n_sv_commerce.escritura | act_kind, notary_ref | Art. 21 family; deed = formality anchor of every lifecycle act (05 consumes by id) |
 | FR-046 | odoo | l10n_sv_commerce.escritura | art22_checklist, nullity_outcome | 12-ordinal completeness; Art. 27 nullity (I-IX) vs Code-fallback (X-XII) computed per field |
 | FR-047 | odoo | l10n_sv_commerce.estatutos + l10n_sv_commerce.registry.entry | deposit_entry_ref, deposit_no, copies | Contradiction check = warning (legal review external); deposit via instrumento_social entry (SV-CML-FR-013) |
@@ -710,6 +940,22 @@ version-specific behavior is required by this file.
 | FR-069 | odoo | l10n_sv_commerce.capital.change (increase) + publication | 15-day preference window | Anchored to agreement PUBLICATION (Art. 157); publication engine = SV-CML-FR-017 by id |
 | FR-070 | odoo | l10n_sv_commerce.auditor.appointment | designation/incompatibilities/duty calendar | Junta-designated external auditor; 4°/2° incompatibility check (warning); monthly comprobación-balance + books/caja checkpoints; annual cycle = 03 by id; SRL/EIRL incorporation (125/616-IV) |
 | FR-071 | odoo | l10n_sv_commerce.junta | availability start + deposit window | Art. 236: docs available from convocatoria publication; ≥8-day title-deposit window; any-bank default |
+| FR-225 | odoo | l10n_sv_commerce.sas.formulario | act_kind, e_signature_ref, inscription_state | ALL SAS acts via Registro formularios; escritura never exigible (305-A; FR-045 anchor type-gated off); FEC signing (305-B-IX); personality at inscription only (FR-048 chassis by id) |
+| FR-226 | odoo | res.company + l10n_sv_commerce.society.type (sas) | suffix_rule validator | "S.A.S."/"Sociedad por Acciones Simplificada" immediate suffix; omission ⇒ administrators unlimited-solidary exposure note (305-B-I) |
+| FR-227 | odoo | l10n_sv_commerce.sas.formulario | defaults_rendered | duración indeterminada · San Salvador Centro · any lawful activity as shipped overridable defaults (305-B II-IV) |
+| FR-228 | odoo | l10n_sv_commerce.sas.formulario | sole_accionista_kind | Unipersonal: natural person or capital society (305-A); declaración unilateral; Art. 18 two-socio minimum inapplicable; foreign-PJ evidence refs (305-B-VIII) |
+| FR-229 | odoo | l10n_sv_commerce.sas.formulario | capital_usd, payment_terms/means | $1 DATED floor (111_); 100% suscrito; unpaid ≤2 años; means incl. e-wallets (305-D) |
+| FR-230 | odoo | l10n_sv_commerce.share (sas) | denomination/classes/series, variable flag | Múltiplos-de-un-dólar validator (305-B-VI); clases/series freedom (305-E); capital variable adoptable — cml/05 FR-072 chassis by id (305-F) |
+| FR-231 | odoo | l10n_sv_commerce.society.type → reserve (sas) | reserve_rate=free | 305-G free formation; Art. 39 chassis (FR-054) inapplicable-by-statute to SAS |
+| FR-232 | odoo | l10n_sv_commerce.share (sas) | listing_blocked | No Registro Público Bursátil/bolsa/anotaciones en cuenta (305-H); no market-listing ledger states (FR-068 kin) |
+| FR-233 | odoo | l10n_sv_commerce.junta + society.type (sas) | governance defaults + cascade | Junta general/accionista único; representante legal = one natural person, broad default powers (305-K); any-tech meetings (305-J); cascade pacto→VIII-Bis→S.A. (FR-063..071 fallback by id) |
+| FR-234 | odoo | l10n_sv_commerce.minority.right (sas) | 5%/10% thresholds | Sesión/agenda/corrections ≥5% (305-L); designate 1/3 of ≥3-member junta directiva ≥10% + convene + reports (305-M) |
+| FR-235 | odoo | l10n_sv_commerce.exclusion (sas) | cause/quorum/reintegro/fraud | Pacto causales only; 3/4-títulos junta extraordinaria; reintegro ≥ valor contable; 305-0 [read 305-O] fraud exposure flag |
+| FR-236 | odoo | l10n_sv_commerce.auditor.appointment (sas) | conditional gate | No auditor while microempresario; exceed ⇒ appointment + dictamen in deposited EF (305-P); classification = external config slot, NO default |
+| FR-237 | odoo | l10n_sv_commerce.dividend.distribution | sas_payment_deadline | Free pacto rules; ≤180 días from acuerdo (305-S); overdue flag on expiry; FR-053 ceiling by id |
+| FR-238 | odoo | l10n_sv_commerce.accounting.mode (sas) | threshold/mode/ef_signature_set | $12,000 DATED (111_ — NOT Art. 437's); self/appointees vs contadores públicos; EF signatures + junta/único approval + formulario deposit (305-Z/Y; cml/02+03 by id) |
+| FR-239 | odoo | l10n_sv_commerce.book (sas kinds) | register_kind, format, legalization | ≥1 actas-de-administración + contables; physical OR electronic (Art. 455 gate not governing per 305-J print — reading recorded); legalization by accionistas accord (cml/02 by id) |
+| FR-240 | odoo | fee/matricula surface (consumed, 01) | gratuidad window rows | $0 constitution formulario + first matrícula; 11-feb-2024→11-feb-2025→31-dic-2025→31-dic-2026 (114_ terminal); post-2026 reversion watch |
 
 Version-regime notes (D12): the dated values in this file — US$2,000
 SRL minimum, US$1 participación/acción denominations, US$100,000
@@ -718,9 +964,13 @@ code text, dated-but-current under the SOQ-22 residual watch, stored as
 dated configuration (§2). The ¢5,000 cooperative action cap (Art. 19-II)
 is a COLONES remnant (SOQ-29/OQ-7 kin): historical text, operative
 reading USD, every value-level use flagged (OQ-002); Art. 31's "moneda
-nacional" rides the same discipline. The SAS statute-pending flag is a
-version-regime slot by design: when the SAS law lands (SOQ-23), its
-profile row populates without schema change (acquisition numbering ≥74).
+nacional" rides the same discipline. The SAS gratuidad window is a
+DATED fee-row chain (FR-240: 11-feb-2024 → 11-feb-2025 (111_
+original) → 31-dic-2025 (113_) → 31-dic-2026 (114_ terminal);
+post-2026 reversion watch), and the SAS US$1 minimum capital and
+US$12,000 accounting-mode threshold are DATED values with 111_
+instrument provenance (D15; the $12,000 is NOT the Art. 437 keeper
+threshold — different instrument).
 No renewal-epoch, fee or rate instrument lives in this file.
 
 ## 6. Acceptance Criteria
@@ -747,10 +997,14 @@ No renewal-epoch, fee or rate instrument lives in this file.
   reserve decrease, then the restoration duty recomputes the 7%
   separation (FR-053, FR-054, FR-055).
 - **AC-004:** Given the company-type selection, when `sas` is chosen,
-  then the record saves with statute_status = statute_pending, the
-  OQ-001 pointer surfaces, and NO suffix/capital/quorum/reserve
-  mechanics render — every profile field shows as a config-gap
-  (FR-044).
+  then the record saves with statute_status = in_corpus and the SAS
+  profile fields POPULATED — suffix rule "S.A.S.", min_capital_usd = 1
+  (dated, 111_), reserve_rate = free, constitution_channel =
+  formulario, unipersonal = true, bolsa_blocked = true, auditor gate
+  conditional on the external microempresario classification (config
+  slot, no default), accounting-mode threshold 12,000 (dated, 111_) —
+  and the gratuidad window rows apply on the fee surface: NO
+  config-gap rendering remains (FR-044).
 - **AC-005:** Given a sociedad whose escritura de constitución is
   granted but not yet inscribed, when its state is evaluated, then the
   record carries the pre-inscription no-personality marker and no
@@ -806,10 +1060,36 @@ No renewal-epoch, fee or rate instrument lives in this file.
   capital, then the 7% separation likewise stops (minimum floor
   satisfied) — the limit-vs-floor semantics differ per family
   (FR-055).
+- **AC-015:** Given an SAS constitution recorded via
+  l10n_sv_commerce.sas.formulario WITHOUT any escritura record, when
+  the FR-225 validation runs, then the act is VALID (no
+  formally-defective flag — escritura pública never exigible for SAS)
+  and the society carries the pre-inscription no-personality marker
+  until the formulario's inscription is recorded, at which point
+  personality is perfected (FR-225; FR-048 chassis by id).
+- **AC-016:** Given an SAS constituted with capital US$1 fully
+  subscribed, when the FR-229 validator runs, then it PASSES ($1 =
+  dated floor per 111_); given a dividend distribution approved by the
+  junta on 01-Mar, then the FR-237 deadline computes to 28-Aug
+  (acuerdo + 180 días) with the overdue flag arming at expiry, and a
+  pacto-stipulated shorter deadline overrides (FR-229, FR-237).
+- **AC-017:** Given an SAS with activo US$11,999, when the FR-238 mode
+  evaluates, then self-or-appointee accounting mode applies and the EF
+  signature set = Representante Legal + contador público; given
+  activo US$12,000, then contadores-públicos-autorizados mode applies
+  and — when the auditor appointment is also obligatory (classification
+  exceeded, FR-236) — the auditor externo joins the EF signature set
+  (FR-238).
+- **AC-018:** Given an SAS constitution formulario inscribed on
+  15-jun-2026, when the FR-240 fee rows apply, then the inscription
+  and the first matrícula carry the US$0 gratuidad rows (window
+  terminal 31-dic-2026); given a constitution dated 2027-01-02 with no
+  further chain limb acquired, then the reversion-watch flag surfaces
+  and standard Registro fees apply (dated config) (FR-240).
 
 ## 7. Open Questions
 
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
-| OQ-001 | SOQ-23 carried: the SAS statute (Sociedad por Acciones Simplificada) is NOT in the corpus — existence is confirmed via the official CNR creaempresa portal (LB-032) but the law's number/date is unpinned (asamblea.gob.sv + D.O. down; law-firm mirrors NOT official). FR-044 ships `sas` as statute_pending with NO mechanics; suffix, capital, reserve, quorum and ledger profiles for SAS remain config-gaps until the law is acquired and read (acquisition candidate, sources-registry numbering ≥74). **RESOLVED at sources level W22 (2026-08-23): the SAS statute = D.L. 905-2023 — a CÓDIGO DE COMERCIO REFORM, not a separate law — acquired + read as 111_ (D.O. 234 T.441 13-dic-2023, vigencia 11-feb-2024): Art. 18-II-c adds SAS to the capital-society types (unipersonal constitution allowed) + Capítulo VIII-Bis Arts. 305-A..305-Z = the full SAS regime (formulario constitution, no escritura pública; "S.A.S." suffix; capital from US$1 fully subscribed; reserva legal free; S.A.-supletorio cascade; dividends ≤180 días; accounting threshold activo < US$12,000 self-kept / ≥ US$12,000 contadores públicos; EF deposited at Registro de Comercio; gratuidad chain 113_/114_ → constitution + first matrícula FREE through 31-dic-2026; EVID-409/411/412). FR-044's statute_pending flip + the SAS profile rows + the LB-032 retirement = the next cml fold-in wave (this wave is sources-only; mechanics stay config-gaps until that edit lands).** | no | Takumi S5 (sources watch) | **sources-resolved (W22; fold-in pending)** |
+| OQ-001 | SOQ-23 carried: the SAS statute (Sociedad por Acciones Simplificada) is NOT in the corpus — existence is confirmed via the official CNR creaempresa portal (LB-032) but the law's number/date is unpinned (asamblea.gob.sv + D.O. down; law-firm mirrors NOT official). FR-044 ships `sas` as statute_pending with NO mechanics; suffix, capital, reserve, quorum and ledger profiles for SAS remain config-gaps until the law is acquired and read (acquisition candidate, sources-registry numbering ≥74). **RESOLVED at sources level W22 (2026-08-23): the SAS statute = D.L. 905-2023 — a CÓDIGO DE COMERCIO REFORM, not a separate law — acquired + read as 111_ (D.O. 234 T.441 13-dic-2023, vigencia 11-feb-2024): Art. 18-II-c adds SAS to the capital-society types (unipersonal constitution allowed) + Capítulo VIII-Bis Arts. 305-A..305-Z = the full SAS regime (formulario constitution, no escritura pública; "S.A.S." suffix; capital from US$1 fully subscribed; reserva legal free; S.A.-supletorio cascade; dividends ≤180 días; accounting threshold activo < US$12,000 self-kept / ≥ US$12,000 contadores públicos; EF deposited at Registro de Comercio; gratuidad chain 113_/114_ → constitution + first matrícula FREE through 31-dic-2026; EVID-409/411/412). FR-044's statute_pending flip + the SAS profile rows + the LB-032 retirement = the next cml fold-in wave (this wave is sources-only; mechanics stay config-gaps until that edit lands).** **FOLD-IN COMPLETE W23 (2026-08-23, this file): FR-044 flipped to in_corpus with POPULATED profile fields (§3.1/§4); FR-225..240 = the SAS mechanics (§3.8); LB-033..038 statutory rows added; LB-032 retired in place (§2). Residual watch = the CNR formulario CURRENT SHAPE per 111_'s disposición transitoria (gradual implementation per the Registro's technological/financial capacities; instructivos/lineamientos/guías authority-side) — recorded in the LB-038 gloss, NOT a new OQ.** | no | Takumi S5 (sources watch) | **resolved (W23)** |
 | OQ-002 | SOQ-29/OQ-7 kin: the Art. 19-II cooperative per-action cap "¢5,000.00" is colones-era code text — historical value, operative reading USD (dollarization). Working reading: record the cap as historical text with the USD-operative flag at every value-level use (FR-043); the operative per-action ceiling in practice rides the dollarized acción-denomination discipline. Additionally, whether a special cooperatives statute (outside corpus) supersedes or complements the Art. 19 regime is unverified — watch when a cooperatives law surfaces. | no | Takumi S5 | open |
