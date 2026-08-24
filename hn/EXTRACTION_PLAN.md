@@ -193,6 +193,17 @@ watch; Código de Comercio; SEE docs; DGS SMM 2027 promedio print early
 R-H91 (Reading B, CONSUCOOP-gated); S-HN5 DEFERRED).
 ## Wave log
 
+- **W16 hunt session (2026-08-23, DONE — server-side hunt + `184_` + the
+  RAP-Art.-61 in-corpus close):** watch tick clean (G 37,226/21-ago still the
+  newest; sep-2026 absent); live ihss.hn wp-json media enumerated (61 PDFs —
+  RP cuadros/JD acts/REAP rates NEGATIVE live); `184_` = the FA-01 amnistía
+  form (EVID-743; the three-item-scope-on-2024/05 datum; the "D.L. 7-2024"
+  citation OQ-flagged); LOM-GACETA-2023 discarded (medicamentos list, out of
+  scope); SAR (D. 92-2014/461-2020/CbCR) + SEFIN (CAEE) negative;
+  portalunico = Cloudflare-walled (owner route); the reformed Ley-RAP Art. 61
+  resolved @600dpi (blanket derogation — R-H85 confirmed, 169_ OQ-2 closed).
+  EVID-743; corpus 183; COVERAGE regen 183 rows.**
+
 - **W15 owner-browser wave 2 (2026-08-23, DONE — intake + acquisition +
   evidence + fold-ins + verification, controller-executed): the facturación
   reform chain.** The owner's second inbox drop (16 files). **INTAKE

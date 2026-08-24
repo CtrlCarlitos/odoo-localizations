@@ -62,7 +62,7 @@ the ISR-2018 consolidation, the IHSS statistics; corpus 177 files; next
 EVID = 731.** **W15 (2026-08-23, second owner-browser drop): +EV179
 (one file, five sources), EVID-731..742 — the 481-2017 reform chain statute-tier
 (609-2017 primera + 725-2018 segunda + the original + a 2020 transitory) + the
-INPREMA BCR; 11 verified discards; corpus 182 files; next EVID = 743.**
+INPREMA BCR; 11 verified discards; corpus 182 files; next EVID = 743.** **W16 (2026-08-23, hunt session): +EV184 (EVID-743) — the FA-01 form + the live-ihss.hn media inventory enumerated [61 PDFs; RP cuadros negative] + the watch tick clean through G 37,226/21-ago + SAR/SEFIN negatives + portalunico confirmed Cloudflare-walled (owner-browser route); corpus 183 files; next EVID = 744.**
 Inputs: the 35 evidence files below
 (EVID-001..333, corpus-global), built by the four evidence waves
 W1 (2026-08-19/20, taxation core), W2a/W2b (fiscal reporting), W3 (facturación),
@@ -187,6 +187,7 @@ full text lives in the evidence files). EVID ranges 130-135, 159-162, 174,
 | EV177 | (in EV176's file — EVID-727/728) |
 | EV178 | (in EV176's file — EVID-729) |
 | EV179 | `179-183_Facturacion_reform_chain_INPREMA.evidence.md` (731..742 — W15: **THE 481-2017 REFORM CHAIN statute-tier** — `179_` the GAZETTE ORIGINAL [G 34,413 10-ago-2017; original Art. 79 '+2 meses' ≈12-oct-2017 superseded pre-effectivity; signature chain Coordinador-General 031-2015 + SEFIN] + `180_` **609-2017 the PRIMERA REFORMA** [G 34,457 2-oct-2017, vigente 3-oct-2017; 14 articles incl. the eight inciso-c requirement insertions + **the Art.-79 vigencia MOVE to 31-dic-2017 — the regime-crossover instrument**] + `181_` **725-2018 the SEGUNDA REFORMA** [G 34,792 12-nov-2018, vigente 13-nov-2018; Arts. 8/10-13/15/16/37 + **the 76-A adición with the ORIGINAL 30-nov-2018 grace → 28-feb-2019 by 817** + the Art.-8 OTROS-COMPROBANTES catalog {CNBS boundary; IATA boletos; NO-AT-authorization lane} + Arts. 4-5 ISV-recovery lanes + deroga 462-2014-Art.-20] + `182_` 231-2020 the COVID transitory [HISTORICAL] + `183_` the INPREMA BCR [D. 92-2014 mechanics institutional witness — payroll/03 OQ-014 annotated]; EINV file-01 LB-017 + annotations; corpus 182 files) |
+| EV184 | `184_Formato_FA-01.evidence.md` (743 — W16: the IHSS FA-01 amnistía form — the three-item scope on a 2024/05 upload [the 44-2025 two-item print = drafting drop, corroborated]; the "D.L. 7-2024" header citation OQ-flagged [likely the pre-enactment bill number of 44-2025]; + the reformed RAP Art. 61 RESOLVED in-corpus [169_ @600dpi: blanket derogation, the 167-91 exception gone — R-H85 confirmed]) |
 
 Citations in requirements files use `EVxx:EVID-nnn` (and `EVxx:file OQ-n` for
 register origins). D-H1/D-H2/D-H3 (EXTRACTION_PLAN Decisions) bind all clusters.

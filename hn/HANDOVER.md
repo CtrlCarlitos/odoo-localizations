@@ -210,7 +210,7 @@ boundary.
    `119_Congreso_Inventarios_de_Leyes.evidence.md` (W7, **429..433** — the
    official congreso law inventory: the 102_ OQ-2 decoder).
     **EVID numbering is
-    corpus-global, next = 743. OQs are per-file/per-doc at evidence-file end.**
+    corpus-global, next = 744. OQs are per-file/per-doc at evidence-file end.**
 
 ## 3. State: corpus (research phase COMPLETE)
 
@@ -1069,6 +1069,30 @@ discarded md5-identical to 104_). Structure:
   4. **Merge to main at milestone:** owner decision; rebase-then-merge; never
      force-push (root HANDOVER country model). Branch head after S-HN1/S-HN2
      commit = the synthesis-wave base; future waves branch from here.
+
+Session state at stop (2026-08-23, W16 hunt session — committed on
+`hn-research`, NOT merged): server-side hunt + ONE acquisition + ONE
+in-corpus resolution. (a) **JD-act watch tick**: ENAG ago-2026 listing
+(star=12 pagination) still ends `20260821-37226`; sep-2026 listing absent →
+no act through 23-ago; next tick Mon 24-ago. (b) **Live ihss.hn enumerated**
+(wp-json media, 20 pages): 61 PDFs — the AJ-juramentación family +
+boletines/memorias/inversiones; **RP cuadros / JD techo acts / REAP rates
+NEGATIVE on the live site** (the old-site family remains Wayback-negative
+per W11); registered `184_` = **the FA-01 amnistía form** (three-item scope
+banner on a 2024/05 upload → the 44-2025 two-item print = drafting drop,
+corroborated; the "D.L. 7-2024" header citation OQ-flagged = likely the
+pre-enactment bill number of 44-2025) + discarded unregistered the
+LOM-GACETA-2023 (= G 36,373, the Listado Oficial de Medicamentos — out of
+scope). (c) **SAR negative** for D. 92-2014/461-2020/CbCR-comunicado;
+**SEFIN negative** for CAEE/SEE. (d) **Reformed Ley-RAP Art. 61 RESOLVED
+in-corpus** (169_ p. A.9 @600dpi: blanket derogation — the D. 167-91
+exception GONE, R-H85 confirmed; 169_ OQ-2 closed). (e) **portalunico
+confirmed Cloudflare-walled** — owner-browser-only route (hit-list handed
+over). EVID-743; corpus 183 files; totals unchanged +LB-025. Next = the
+residual watch queue (next ENAG tick Mon 24-ago; the owner hit-list:
+2026 JD ceiling act [portalunico/ENAG sep-2026], RP class cuadros, D.
+92-2014 statute, "Acuerdo 799", CbCR comunicado, SEE docs, 461-2020,
+GLIN-era texts).
 
 Session state at stop (2026-08-23, W15 owner-browser wave 2 — committed on
 `hn-research`, NOT yet merged; owner decision pending): evidence COMPLETE

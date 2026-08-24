@@ -8,11 +8,11 @@
 | Authors | script `hn/scripts/build_coverage.py` (regenerate after every wave) |
 | Updated | 2026-08-22 |
 
-Every row of [../sources/README.md](../sources/README.md) (182 registered files, gap 103 reserved-unused) mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1099 FRs, 541 LB rows, 574 ACs, 335 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 249, e-invoicing 157, fiscal-reporting 363, payroll 330).
+Every row of [../sources/README.md](../sources/README.md) (183 registered files, gap 103 reserved-unused) mapped against the four synthesis waves + the W5 acquisition-reads wave (taxation 7 files / e-invoicing 4 / fiscal-reporting 11 / payroll 10 = 32 requirement files; 1099 FRs, 542 LB rows, 574 ACs, 335 OQ rows). Script-checked gates (exit 1 on failure): every FR cites ≥1 LB of its own file; every LB token resolves to a registry row that exists on disk; every registry row is LB-cited or carries an explicit not-applicable annotation; per-topic FR totals match the wave records (taxation 249, e-invoicing 157, fiscal-reporting 363, payroll 330).
 
 Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row of a requirements file (citing file(s) + LB ids listed); **not-applicable-this-wave** — explicit annotation with reason (superseded/historical, in-corpus-unread pending evidence pass, or out of scope for the four topics).
 
-## Matrix (182 source files)
+## Matrix (183 source files)
 
 | Source | Status | Cited in / note |
 |--------|--------|-----------------|
@@ -198,14 +198,15 @@ Status vocabulary (mirrors SV): **cited-as-LB** — appears in a Legal Basis row
 | 181_Gaceta_34792_Acuerdo_725-2018_segunda_reforma.pdf | cited-as-LB | `e-invoicing/01_document-types-numbering.md` (LB-017) |
 | 182_Gaceta_35215_Acuerdo_231-2020_transitorio.pdf | cited-as-LB | `e-invoicing/01_document-types-numbering.md` (LB-017) |
 | 183_INPREMA_BCR_D92-2014_requisitos.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-024) |
+| 184_Formato_FA-01_Amnistia_IHSS.pdf | cited-as-LB | `payroll/03_ihss-cotizaciones.md` (LB-025) |
 
 ## Rollup
 
 | Status | Rows |
 |--------|------|
-| cited-as-LB | 178 |
+| cited-as-LB | 179 |
 | not-applicable-this-wave | 4 |
-| **Total** | **182** |
+| **Total** | **183** |
 
 ## V-HN1 gate-1 findings (2026-08-20, fixed in this wave)
 
