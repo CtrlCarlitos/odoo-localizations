@@ -35,7 +35,7 @@ lists must NOT be duplicated here — they regenerate.
 | 04_Reglamento_ISR.pdf | D.E. 101-1992 consolidated, survivor articles only per R17 (mass repeal = D.E. 117-2001) |
 | 05_Codigo_Tributario.pdf | `taxation/13` LB rows = the CT 161/162/162-A/162-B IVA retention matrix (verbatim from the CT txt); `taxation/10` LB-018 re-anchors the stale Rgto. Art. 22/23 Ley anchors onto CT 141/161 |
 | 06_Guia_Facturacion_Electronica.pdf | non-normative guide; S1 rests on 44_/45_/46_/50_/51_/52_ |
-| 07_Codigo_Comercio.pdf | Código de Comercio D.L. 671-1970 current; article text verified vs second official copy `73_` (SOQ-22 resolved-with-residual: both reform lists end at D.L. 641-2008; editorial-artifact residual rides every 07_ LB); row arithmetic: 211 = 07_-sourced LB rows (excluding `02`'s `71_` LB-013 and `04`'s LB-032 pointer), 213 = all 01-09 LB rows |
+| 07_Codigo_Comercio.pdf | Código de Comercio D.L. 671-1970 current; article text verified vs second official copy `73_` (~~SOQ-22 resolved-with-residual: both reform lists end at D.L. 641-2008~~ **SOQ-22 FALSIFIED W22: the post-2008 reform set 109_-114_ is OWNED — 07_/73_ STALE for Arts. 17/18/134/153/155/158/164/212/219/315-319/337/338/358/960 + new articles 305-A..Z/838-A..E/960-A; C1-C9 LBs carry re-anchor-pending until the cml fold-in wave; EVID-407..412**); row arithmetic: 211 = 07_-sourced LB rows (excluding `02`'s `71_` LB-013 and `04`'s LB-032 pointer), 213 = all 01-09 LB rows |
 | 10_Tablas_Retencion_ISR.pdf | historical LB — 1992 colones-era D.E. 75-1991/25-1992, superseded by the `53_` chain via D.E. 95-2015; dated-data rows live in `taxation/isr_brackets.csv` |
 | 12_Ley_Zonas_Francas.pdf | D.L. 405-1998 consolidated through D.L. 318-2013, cited as printed (SOQ-30) |
 | 13_Ley_Organica_Aduanas.pdf | D. 903 through D.L. 121-2012, as printed; also §2 authority-order preamble in `special-regimes/06` |
@@ -123,3 +123,15 @@ set — consumed as CONFIG provenance by taxation/08 FR-219/OQ-2 prose:
 `bcr_calificada` = BCR-list membership with per-institution vigencia; the
 46-f exemption LBs rest on 01_/02_ statute text, so no LB source column
 cites them). Flip rule held: status follows the LB-citation scan only.
+
+W22 regen (2026-08-23) pending additions — 8 rows, ALL read + evidenced
+this wave (EVID-405..412), NONE yet cited in an LB source column (W22 is
+sources-only; the fold-in waves cite them): **107_** (D.L. 201-2025
+Aeropuerto del Pacífico capital-gains exemption — spe/taxation fold-in
+pending) · **108_** (D.L. 411-2025 energía eléctrica contractor package —
+IVA/ISR/registros surfaces, spe/taxation fold-in pending) · **109_-114_**
+(the post-2008 CC reform set — cml fold-in pending: SAS profile rows,
+acciones re-anchors, usura/truncation/escheat notes, gratuidad dated
+window). SOQ-41 named set now 10-of-10 in-corpus; SOQ-23 sources-resolved
+(D.L. 905-2023 = 111_); SOQ-22 falsified-and-re-resolved (see the 07_
+fragment). Flip rule held: status follows the LB-citation scan only.

@@ -95,8 +95,9 @@ Status legend: `open` unless noted `resolved`. 35 OQs total — 34 open /
 across the wave (config-gap discipline: slots ship empty, no invented
 defaults).
 
-Master-index SOQ mapping: SOQ-23 = `04` OQ-001 (SAS statute; CNR-existence
-confirmed, identity unpinned); SOQ-24 = `05` OQ-001 (quiebra vintage; kin
+Master-index SOQ mapping: SOQ-23 = `04` OQ-001 (SAS statute; **RESOLVED at
+sources level W22 — D.L. 905-2023 CC reform = 111_ owned; fold-in pending**);
+SOQ-24 = `05` OQ-001 (quiebra vintage; kin
 `07` OQ-002 terminology-only); SOQ-25 = `01` OQ-001 (Ley de Registro de
 Comercio absent); SOQ-26 = `08` OQ-001 (interés legal rate instrument);
 SOQ-27 = RESOLVED-BY-RESTRUCTURE W12/R28 (`10` OQ-001 carries the
@@ -125,7 +126,7 @@ as-of date — verified vs 73_).
 
 ### 04_society-types.md (2)
 
-- OQ-001 — SOQ-23 carried: SAS statute not in corpus (CNR-portal existence confirmed; extensible-type design). open
+- OQ-001 — SOQ-23 carried: SAS statute not in corpus (CNR-portal existence confirmed; extensible-type design). **sources-resolved W22 (D.L. 905-2023 = 111_ + gratuidad chain 113_/114_; FR-044 flip rides the fold-in wave)**
 - OQ-002 — SOQ-29/OQ-7 kin: Art. 19-II cooperative per-action cap "¢5,000.00" colones-era — operative USD, historical text kept. open
 
 ### 05_society-lifecycle.md (4)

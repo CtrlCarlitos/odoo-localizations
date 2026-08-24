@@ -46,8 +46,9 @@ Ley de Agentes Extranjeros identity row** (MIGOB RAEX transparency
 registro — NOT an incentive regime; resolves the 54_ tail's EVID-167
 pointer); **W19 T5: the 90_ D.L. 598-2020 spent-COVID-deferral
 historical note** (LB-033 — awareness only, no operative FRs; the
-54_-tail pointer for this instrument resolved, the 201-2025/411-2025
-acquisition negatives per SOQ-41 standing).
+54_-tail pointer for this instrument resolved, ~~the 201-2025/411-2025
+acquisition negatives per SOQ-41 standing~~ **both acquired W22 as
+107_/108_ — EVID-405/406; fold-in rows pending at the next edit wave**).
 
 It does **not** cover: the ZF/DPA exemption ladders and exception-goods gates
 (`02_zf-exemption-schedules.md`); the LSI exemption shapes, local-market caps

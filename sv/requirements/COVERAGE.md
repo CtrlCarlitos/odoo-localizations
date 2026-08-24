@@ -22,18 +22,24 @@ No orphans: every row carries at least one of the four. Sources fully
 superseded but cited as historical LB (25_\*, 40_, 41_) still count as
 cited-as-LB.
 
-Rollup (regenerated 2026-08-23 post-W21): 82 cited-as-LB ·
-9 not-applicable-this-wave · 2 superseded-not-cited · 12 pending-S2+ —
-105 rows (104 registry sources + the schemas/ dir row). W21 flips: +1
+Rollup (regenerated 2026-08-23 post-W22): 81 cited-as-LB ·
+9 not-applicable-this-wave · 2 superseded-not-cited · 20 pending-S2+ —
+112 rows (111 registry source files — numbering 01–114, gaps
+21/23/24/28, the 25_ number carrying two vintages — plus the schemas/
+dir row; the pre-W22 "104 files" glosses were off-by-one, the W22
+recount is the count of record). W22 additions: +8 rows, all
+pending-S2+ (107_/108_ SOQ-41 dated negatives + 109_-114_ the post-2008
+CC reform set — read + evidenced EVID-405..412, fold-in pending; see
+COVERAGE_NOTES W22 rationale). W21 flips: +1
 row, cited (106_ D.L. 387-2025 COTRANS prorroga — spe/08 LB-013; the
 Aug-2025 prorroga hunt resolved: asamblea recovered 2026-08-23).
 W19 flips: 18
 pending → cited (79_/80_/82_ LESIA+LSI+ZF tails, 86_-89_ FOVIAL/COTRANS,
 90_-94_ transitory vintages, 95_-97_ incentives, 98_-100_ customs tasa
 set — LB columns now cite them) and 14_ cited → superseded-not-cited
-(the W19 T3 re-key moved every LSI LB column to `80_`). The 12 pending
-rows (76_-78_/81_/83_-85_/101_-105_) carry no LB-column citation —
-rationale in `COVERAGE_NOTES.md`. Flip history (S8 32_/33_, S9 02_, W17
+(the W19 T3 re-key moved every LSI LB column to `80_`). The pending
+rows carry no LB-column citation — rationale in `COVERAGE_NOTES.md`. Flip
+history (S8 32_/33_, S9 02_, W17
 75_, W19 above) rides the per-source note fragments in
 `COVERAGE_NOTES.md`, which also owns the status overrides.
 
@@ -47,7 +53,7 @@ rationale in `COVERAGE_NOTES.md`. Flip history (S8 32_/33_, S9 02_, W17
 | 05_Codigo_Tributario.pdf | cited-as-LB | `e-invoicing/01_document-types.md` (3 LB rows); `fiscal-reporting/06_f14-declaration.md` (1 LB rows); `fiscal-reporting/07_codes-and-informs.md` (1 LB rows); `taxation/01_isr-framework.md` (1 LB rows); `taxation/04_isr-withholding.md` (4 LB rows); `taxation/05_isr-distributions.md` (2 LB rows); `taxation/10_iva-credit-deductibility.md` (1 LB rows); `taxation/13_iva-retentions.md` (13 LB rows) — `taxation/13` LB rows = the CT 161/162/162-A/162-B IVA retention matrix (verbatim from the CT txt); `taxation/10` LB-018 re-anchors the stale Rgto. Art. 22/23 Ley anchors onto CT 141/161 |
 | 10_Tablas_Retencion_ISR.pdf | cited-as-LB | `taxation/04_isr-withholding.md` (1 LB rows) — historical LB — 1992 colones-era D.E. 75-1991/25-1992, superseded by the `53_` chain via D.E. 95-2015; dated-data rows live in `taxation/isr_brackets.csv` |
 | 31_Guia_FOVIAL_COTRANS.pdf | cited-as-LB | `special-regimes/08_fovial-cotrans.md` (6 LB rows); `taxation/09_iva-base-rate.md` (1 LB rows) — provenance chain: guide = secondary authority citing D.L. 208-2000 Art. 26 as reformed D.L. 597-2001; law text absent (SOQ-39; COTRANS instrument absent, MOQ-04 half-open) |
-| 07_Codigo_Comercio.pdf | cited-as-LB | `commercial-legal/01_merchant-registration.md` (22 LB rows); `commercial-legal/02_accounting-books.md` (12 LB rows); `commercial-legal/03_financial-statements.md` (12 LB rows); `commercial-legal/04_society-types.md` (31 LB rows); `commercial-legal/05_society-lifecycle.md` (30 LB rows); `commercial-legal/06_commercial-agents.md` (24 LB rows); `commercial-legal/07_empresa-mercantil-eirl.md` (25 LB rows); `commercial-legal/08_payment-instruments.md` (27 LB rows); `commercial-legal/09_sales-contracts.md` (28 LB rows) — Código de Comercio D.L. 671-1970 current; article text verified vs second official copy `73_` (SOQ-22 resolved-with-residual: both reform lists end at D.L. 641-2008; editorial-artifact residual rides every 07_ LB); row arithmetic: 211 = 07_-sourced LB rows (excluding `02`'s `71_` LB-013 and `04`'s LB-032 pointer), 213 = all 01-09 LB rows |
+| 07_Codigo_Comercio.pdf | cited-as-LB | `commercial-legal/01_merchant-registration.md` (22 LB rows); `commercial-legal/02_accounting-books.md` (12 LB rows); `commercial-legal/03_financial-statements.md` (12 LB rows); `commercial-legal/04_society-types.md` (31 LB rows); `commercial-legal/05_society-lifecycle.md` (30 LB rows); `commercial-legal/06_commercial-agents.md` (24 LB rows); `commercial-legal/07_empresa-mercantil-eirl.md` (25 LB rows); `commercial-legal/08_payment-instruments.md` (27 LB rows); `commercial-legal/09_sales-contracts.md` (28 LB rows) — Código de Comercio D.L. 671-1970 current; article text verified vs second official copy `73_` (~~SOQ-22 resolved-with-residual: both reform lists end at D.L. 641-2008~~ **SOQ-22 FALSIFIED W22: the post-2008 reform set 109_-114_ is OWNED — 07_/73_ STALE for Arts. 17/18/134/153/155/158/164/212/219/315-319/337/338/358/960 + new articles 305-A..Z/838-A..E/960-A; C1-C9 LBs carry re-anchor-pending until the cml fold-in wave; EVID-407..412**); row arithmetic: 211 = 07_-sourced LB rows (excluding `02`'s `71_` LB-013 and `04`'s LB-032 pointer), 213 = all 01-09 LB rows |
 | 15_Ley_Lavado_Activos.pdf | cited-as-LB | historical — `commercial-legal/10` §2 preamble + authority-order note only (shorthand `15_` cites, no LB row); derogated wholesale by `71_` Art. 61 (effective 2025-10-17) — historical LB for pre-cutover facts, never current authority (R28; W10 EVID-228..231; R25 title-vs-content: content = D. 498-1998 through reform (6) D.L. 104-2015) |
 | 17_Reglamento_Lavado_Activos.pdf | cited-as-LB | `commercial-legal/10_aml-compliance.md` (2 LB rows) — kept-in-force OPERATIVE reglamento per `71_` Art. 61 + R26 (no post-568-2013 reglamento ever issued): window mechanics, no-tip-off, red-flag catalogs; stale pre-reform thresholds never cited; further prose co-cites in `commercial-legal/10` beyond the 2 pathed rows |
 | 08_Ley_ISSS.pdf | cited-as-LB | `payroll/01_salary-model.md` (1 LB rows); `payroll/05_social-security-contributions.md` (5 LB rows); `payroll/06_ss-declaration-remittance.md` (3 LB rows) |
@@ -144,4 +150,12 @@ rationale in `COVERAGE_NOTES.md`. Flip history (S8 32_/33_, S9 02_, W17
 | 104_Listado_Calificaciones_Vigentes_BCR_2026-08-14.pdf | pending-S2+ |  |
 | 105_Listado_Calificaciones_2026_BCR_2026-08-14.pdf | pending-S2+ |  |
 | 106_Reforma_COTRANS_DL387_2025_Asamblea.pdf | cited-as-LB | `special-regimes/08_fovial-cotrans.md` (1 LB rows) |
+| 107_Reforma_AeropuertoPacifico_DL201_2025_Asamblea.pdf | pending-S2+ |  |
+| 108_EnergiaElectrica_AccesoUniversal_DL411_2025_Asamblea.pdf | pending-S2+ |  |
+| 109_Reforma_CodigoComercio_DL153_2021_Asamblea.pdf | pending-S2+ |  |
+| 110_Reforma_CodigoComercio_DL295_2022_Asamblea.pdf | pending-S2+ |  |
+| 111_Reforma_CodigoComercio_DL905_2023_Asamblea.pdf | pending-S2+ |  |
+| 112_Reforma_CodigoComercio_DL972_2024_Asamblea.pdf | pending-S2+ |  |
+| 113_Reforma_DL905_CodigoComercio_DL203_2025_Asamblea.pdf | pending-S2+ |  |
+| 114_Reforma_DL905_GratuidadSAS_DL468_2025_Asamblea.pdf | pending-S2+ |  |
 | schemas/ (dir) | superseded-not-cited | superseded 2022-era extraction (fe-ccf-v3, contingencia-v3, anulacion-v2 era; no fe-eret/fe-eop) — NOT the current set; the current 15-schema set lives inside `52_Json_Schemas_DTE_Eventos_2026-08-11.zip`, the LB cited directly (`e-invoicing/01` LB-006; `03` LB-010) |

@@ -102,11 +102,30 @@ boundary.**
      a5f5ea3..8a32e93 superseded by f4a861d..3627bd3.)**
     Remaining program: acquisition follow-ups (§8.2), SOQ/external watches,
     owner merge decisions.**
+     **W22 acquisition wave (2026-08-23): COMPLETE — controller-direct
+     (proportionate scale, asamblea-recovered route): the two SOQ-41 dated
+     negatives OWNED (107_ = D.L. 201-2025 Aeropuerto del Pacífico
+     capital-gains exemption, D.O. 21 T.446 30-ene-2025 stamp on face,
+     efectos from 8-may-2022; 108_ = D.L. 411-2025 energía eléctrica
+     acceso-universal contractor package, D.O. 181 T.448 26-sep-2025 stamp
+     on face, vigencia through 26-sep-2031 — IVA exención + Art. 66
+     pro-rata exception + ISR rentas no gravables + registros especiales +
+     CEL-seller ganancia-de-capital exemption) + THE SAS-HUNT DISCOVERY:
+     the post-2008 Código de Comercio reform set 109_-114_ (D.L. 153-2021
+     bearer-share suppression; 295-2022 usura; **905-2023 = THE SAS
+     STATUTE (Capítulo VIII-Bis Arts. 305-A..Z — SOQ-23 RESOLVED at
+     sources level)**; 972-2024 cheque truncation; 203-2025 + 468-2025
+     SAS-gratuidad chain → 31-dic-2026) — **SOQ-22's W12 "no post-2008 CC
+     reform" verdict FALSIFIED (07_/73_ stale for the reformed article
+     set)**. EVID-405..412 (two EV files); registry 111 numbered files,
+     next 115; FR corpus UNCHANGED at 1,702 (sources wave; fold-in debts
+     registered §8.1); COVERAGE 81/9/2/20 of 112 — gate green (see §5
+     wave log).**
 
 ## 2. Read order for a new session
 
 1. THIS file
-2. `sv/EXTRACTION_PLAN.md` — wave log (W1–W20), reading order, risks
+2. `sv/EXTRACTION_PLAN.md` — wave log (W1–W22), reading order, risks
 3. `sv/.extractions/00_MASTER_INDEX.md` — synthesis lookup: clusters
    (A1-A12, T1-T8, F1-F12, P1-P10, C1-C10, SR1-SR8, N1-N8, V1-V10),
    rulings R1–R30, MOQ/SOQ registers
@@ -117,12 +136,21 @@ boundary.**
    `shared/docs/` method docs (extraction procedure, requirements
    template, regulatory-change-management, odoo-localization-guide,
    go-live-readiness)
-6. `sv/sources/README.md` — the registry (104 files, numbering 01–106,
-   gaps 21/23/24/28; next numbering = 107)
+6. `sv/sources/README.md` — the registry (111 numbered files, numbering
+   01–114, gaps 21/23/24/28; next numbering = 115)
 
 ## 3. Corpus & evidence state
 
-- **EVID corpus 001..404** (gaps 109-127, 240 reserved-unused; W21 adds
+- **EVID corpus 001..412** (gaps 109-127, 240 reserved-unused; W22 adds
+  EVID-405..412 across two EV files: `107_108_Aeropuerto_Energia`
+  (SOQ-41 residuals — D.L. 201-2025 ganancia-de-capital exoneration with
+  8-may-2022 retroactivity + D.L. 411-2025 contractor package: IVA
+  exención, Art. 66 pro-rata exception for local suppliers, ISR Art. 4.1
+  rentas no gravables, CT 260 abuso, registros especiales, CEL-seller
+  exemption) and `109-114_Reformas_CodigoComercio` (the post-2008 CC
+  reform set: bearer-share suppression, usura, THE SAS STATUTE D.L.
+  905-2023 Capítulo VIII-Bis, cheque truncation, the SAS-gratuidad
+  chain → 31-dic-2026); W21 adds
   EVID-404 in `106_Reforma_COTRANS_DL387` — the D.L. 387-2025 COTRANS
   prorroga; W15 IVA deep
   pass EVID-304..338 in EV01's W15 section; W16 CT-reglamento EVID-339..358
@@ -139,7 +167,10 @@ boundary.**
   `17_Reglamento_Lavado_Activos` (EVID-232..235, kept-mechanics citable).
   W9 payroll: EVID-191..210. W8 fiscal reporting: EVID-171..190. W7/W6.5/
   W6 ISR: EVID-088..108, 128..170. S1 foundations: EVID-001..087.
-- **104 registered source files** (numbering 01–106, gaps 21/23/24/28; W16
+- **111 registered source files** (numbering 01–114, gaps 21/23/24/28 =
+   110 distinct numbers + the 25_ double vintage = 111 files; the
+   pre-W22 "104 files" glosses were off-by-one — the W22 recount is the
+   count of record; W16
    added 75_ = Reglamento de Aplicación del CT, D.E. 117-2001 — the R17/
    R30(a) mass-repeal authority instrument, EVID-339..358; W18 added
    76_-105_ = new authority instruments: CVPCPA NIIF chain 76_-78_,
@@ -150,7 +181,13 @@ boundary.**
    backlog (79_/80_/82_/86_-89_/90_-94_/95_/96_/97_/100_; the identity-only
    remainder is dispositioned in the registry + COVERAGE_NOTES pending-set
    rationale); W21 (2026-08-23) added 106_ = D.L. 387-2025 COTRANS
-   Aug-2025 prorroga (EVID-404; asamblea print).
+   Aug-2025 prorroga (EVID-404; asamblea print); W22 (2026-08-23) added
+   107_-114_ (asamblea prints, all D.O.-stamped on face): 107_ = D.L.
+   201-2025 Aeropuerto del Pacífico + 108_ = D.L. 411-2025 energía
+   eléctrica (the SOQ-41 residuals) + 109_-114_ = the post-2008 CC
+   reform set (D.L. 153-2021/295-2022/905-2023/972-2024/203-2025/
+   468-2025 — SAS statute + bearer-share suppression + usura + cheque
+   truncation + gratuidad chain).
   Registry carries title-vs-content amendments (29_ = F985 CNR mislabel;
   09_ = D.L. 614 misnomer; 15_ = D. 498 mislabel; 12_ = "Industriales y de
   Comercialización" content title fixed W13), supersession notes
@@ -192,11 +229,13 @@ prefix; **R30(b): one prefix per topic dir — the IVA-core files continued
 `SV-TAX` at 176 rather than taking a new prefix**; genuinely new topics
 take new prefixes per the `<CC>-<TOPIC>-FR-nnn` contract.
 
-COVERAGE rollup after W19 (W20 2026-08-23 regen: NO drift — only the
-96_ curated note text refreshed): 81 cited / 9 N-A / 2 superseded /
-12 pending (104 rows; the 12 pending = registry-provenance/
-identity-only instruments, rationale in COVERAGE_NOTES). S8 lesson
-(standing): registry flips
+COVERAGE rollup after W22 (2026-08-23 regen, gate green): 81 cited /
+9 N-A / 2 superseded / 20 pending (112 rows = 111 numbered registry
+files + the schemas/ dir row; the 20 pending = the W18 identity-only
+set + the 8 W22 sources awaiting their fold-in LB citations, rationale
+in COVERAGE_NOTES; W21 = 82/9/2/12 of 105 before the W22 additions —
+the pre-W22 "104 files" glosses were off-by-one, corrected W22). S8
+lesson (standing): registry flips
 must grep ALL LB source columns of the new files.
 
 ## 5. SV facts a new session must know (condensed; details in wave sections below)
@@ -233,6 +272,56 @@ must grep ALL LB source columns of the new files.
   consumer interface).
 
 ### Wave log summary (full detail in `sv/EXTRACTION_PLAN.md` §Extraction log)
+
+- **W22 (2026-08-23):** SOQ-41 residuals + SAS hunt acquisition wave
+  COMPLETE — controller-direct (no subagents; proportionate scale, W21
+  precedent). Trigger: §8.2 follow-ups newly unblocked by the asamblea
+  recovery. External state: asamblea UP (second day); **D.O. degraded
+  further to NXDOMAIN**; uif still SOA-only no-A; factura 200; MH
+  formularios path 302→home (wp-content re-pin at the next watch).
+  Route: by-year enumeration → card → view/<id> → PDF (W21 recipe);
+  all eight decree PDFs carried the 8-byte junk prefix (now proven
+  systemic to the asamblea document server); the 111_ print is a
+  CONSOLIDATED REPRINT carrying later-reform stamps (living-document
+  pattern — expect on future reform-chain acquisitions). **8
+  acquisitions = 107_-114_:** 107_ D.L. 201-2025 (ganancia-de-capital
+  exoneration for CEPA/MOPT airport-perimeter sellers; new Art. 35
+  retrotrae efectos al 8-may-2022; D.O. 21 T.446 30-ene-2025 — the
+  unpinned issue now stamped) + 108_ D.L. 411-2025 (BID/CEL electrification
+  package, vigencia → 26-sep-2031: IVA exención total, **Art. 66 pro-rata
+  NOT applied by local suppliers**, ISR 4.1 rentas no gravables until
+  reception, CT 260 abuso revocation, registros especiales, CEL-seller
+  exemption + no formulario duty; D.O. 181 T.448 26-sep-2025) + the
+  SAS-hunt discovery: a full por-anios census 2016-2026 found the
+  **post-2008 CC reform set** — 109_ D.L. 153-2021 (bearer shares banned
+  from 7-oct-2021; "Las acciones serán siempre nominativas"; RUC-blocking
+  transitorio; staleness hit on every cml LB quoting 07_'s
+  Arts. 134/153/155/158/164/212/219/337/338), 110_ D.L. 295-2022 (usura
+  960-III + 960-A nullity), **111_ D.L. 905-2023 = THE SAS STATUTE**
+  (SOQ-23 RESOLVED at sources level: sixth society type via Art. 18-II-c
+  + Capítulo VIII-Bis 305-A..Z — formulario constitution, unipersonal,
+  $1 capital, free reserve, ≤180-day dividends, $12,000 accounting
+  threshold, no-auditor-while-microempresario, simplified dissolution;
+  fusión transnacional + foreign domicilio; vigencia 11-feb-2024), 112_
+  D.L. 972-2024 (cheque truncation 838-A..E, multas 100-1000 SMM), 113_
+  D.L. 203-2025 + 114_ D.L. 468-2025 (SAS-gratuidad → 31-dic-2026
+  terminal; 114_ cons. III: SAS = "el tipo societario de mayor uso").
+  **SOQ verdicts: SOQ-22 FALSIFIED-AND-RE-RESOLVED** (W12 two-stale-
+  consolidations verdict dead; census caveat: por-anios has no cards for
+  2010/2012-2015, 2019 partial — negative watch rides), **SOQ-23
+  RESOLVED at sources level** (cml/04 OQ-001 sources-resolved, fold-in
+  pending), **SOQ-41 both negatives OWNED** (EVID-167 named set
+  10-of-10; residual = RAEX reglamento config-gap). EVID-405..412.
+  Corpus edits at index/status level only (cml/04 OQ-001 + cml/00 + spe/00
+  + spe/01 + master index + registry + COVERAGE). **FR corpus UNCHANGED
+  at 1,702; registry 111 files, next 115; COVERAGE 81/9/2/20 of 112 —
+  gate green** (+8 pending rows with COVERAGE_NOTES rationale; the
+  pre-W22 "104 files" glosses corrected). **Fold-in debts born: (a) cml
+  edit wave — FR-044 SAS flip + profile rows, acciones re-anchors,
+  usura/truncation/338 notes, gratuidad window; (b) spe/taxation wave —
+  107/108 exemption surfaces.** Commits: see the git log (sv-research
+  push). Merge to main = owner decision (fortieth §4.6 run when it
+  happens).
 
 - **W21 (2026-08-23):** COTRANS Aug-2025 prorroga mini acquisition wave
   COMPLETE — controller-direct (no subagents; proportionate scale —
@@ -775,19 +864,33 @@ must grep ALL LB source columns of the new files.
   **RECOVERED 2026-08-23** (DNS A-records restored — 168.90.109.76 +
   138.255.154.12; serves 200/74KB on both apex + www, but TLS chain
   incomplete → `curl -k` REQUIRED; unblocks the COTRANS Aug-2025
-  prorroga decree hunt §8.2).
+  prorroga decree hunt §8.2). **W22 route intel (2026-08-23): the
+  by-year pages are full-calendar-year single pages, newest-first**
+  (pages 1+ return 2-4 cards or empty — pagination broken server-side,
+  page 0 is complete per year; year straddling a legislature seating
+  carries BOTH numbering families on its page); ALL decree PDFs carry
+  the 8-byte junk prefix before `%PDF` (systemic); the document server
+  serves some decrees as CONSOLIDATED REPRINTS with REFORMAS blocks
+  (111_ = the pattern's first observation); NO cards exist for
+  2010/2012-2015 and 2019 looks partial (73 cards) — the por-anios
+  archive is NOT a complete pre-2016 census instrument; one 504-retry
+  needed on the 2021 page.
   Live official mirror: **uif.gob.sv Marco Legal** (plain GET + browser
   UA; Incapsula blocks HEAD) — WAF-blocked since 2026-08-21 (403 all
-  routes), **degraded further to DNS-ABSENT since 2026-08-22** (D.O. +
+  routes),   **degraded further to DNS-ABSENT since 2026-08-22** (D.O. +
   uif.gob.sv both in a DNS-level outage: hosts resolve to NO A record,
-  Cloudflare DoH-verified; **still absent at the 2026-08-23 re-probe**;
-  recovery = A-record restoration on the registrar/host side; all pinned
-  recipes stand unchanged; factura.gob.sv alive 200). AML
+  Cloudflare DoH-verified; **still absent at the 2026-08-23 W22
+  re-probe — D.O. apex now NXDOMAIN (was SOA-only no-A); recovery =
+  A-record restoration on the registrar/host side; all pinned
+  recipes stand unchanged; factura.gob.sv alive 200**). AML
   reglamento watch interrupted; the live date is **2026-10-17 = the 71_
   12-month adaptation deadline (publication 9-oct-2025 + 12 months; 71_
   effective 2025-10-17)**; re-probe at wave cadence. MH formularios
   page: direct wp-content URLs (re-verified 2026-08-22: no F-11
-  v19/v20, no F14 v17 manual).
+  v19/v20, no F14 v17 manual; **W22 2026-08-23: the
+  `/formularios-e-instructivos/` path now 302s to the mh.gob.sv home —
+  page moved/removed, re-pin the wp-content route at the next F-11/F14
+  watch**).
 - W18 route intel (2026-08-21/22): **TF DC catalog enumerable via
   Wayback CDX** (`web.archive.org/cdx/search/cdx?url=transparenciafiscal.
   gob.sv*`) → live `downloads/pdf/DC<id>_<ExactCase_Slug>.pdf` URLs
@@ -843,7 +946,17 @@ must grep ALL LB source columns of the new files.
   apéndice code 73), 06 OQ-008 (MH validation depth); 02 OQ-002 rate
   anchor ANSWERED S9 (SV-TAX-FR-240/241), 03 OQ-004 ANSWERED S9
   (SV-TAX-FR-313 zone).
-- Commercial-legal: SOQ-23 SAS law, SOQ-24 quiebra vintage, SOQ-25 Ley
+- Commercial-legal: **SOQ-23 SAS statute RESOLVED at sources level W22**
+  (D.L. 905-2023 = 111_ — a CC REFORM adding Art. 18-II-c + Capítulo
+  VIII-Bis 305-A..Z; gratuidad chain 113_/114_ → 31-dic-2026; cml/04
+  OQ-001 sources-resolved — FR-044 flip + SAS profile fold-in = the next
+  cml edit wave; SAS = "el tipo societario de mayor uso" per 114_
+  cons. III); **SOQ-22 FALSIFIED-AND-RE-RESOLVED W22** (the post-2008 CC
+  reform set 109_-114_ owned — 07_/73_ STALE for Arts. 17/18/134/153/
+  155/158/164/212/219/315-319/337/338/358/960 + new articles; C1-C9 LB
+  verification notes flip to re-anchor-pending; census caveat: por-anios
+  no cards for 2010/2012-2015, 2019 partial — negative watch);
+  SOQ-24 quiebra vintage, SOQ-25 Ley
   Registro de Comercio, SOQ-26 Economía rate; **SOQ-46 PARTIAL W18** —
   NIIF authority chain acquired 76_-78_ (CVPCPA Res. 154-2024 current +
   Res. 462-2021 adoption + Ley Reguladora D.L. 828/646), both frameworks
@@ -853,11 +966,13 @@ must grep ALL LB source columns of the new files.
   (uif.gob.sv — WAF-blocked since 2026-08-21, re-probe pending;
   2026-10-17 deadline).
 - F-11 v19/v20 + F14 v17 manual acquisitions (MH page watch; numbering
-  now ≥106). **SOQ-41 CLOSED W18** (90_-97_ acquired; D.L. 201-2025 +
+  now ≥115). **SOQ-41 CLOSED W18** (90_-97_ acquired; D.L. 201-2025 +
   411-2025 dated negatives) — W19: the 96_ transitory limb
   dispositioned via the Chapter V pointer, **CONSUMED W20 by
-  taxation/17 (SV-TAX-FR-405..416) — SOQ-41 residuals = the two dated
-  negatives + RAEX reglamento config-gap** · **SOQ-34
+  taxation/17 (SV-TAX-FR-405..416) — W22: the two dated negatives OWNED
+  as 107_/108_ (EVID-405/406; D.O. anchors stamped on face); SOQ-41
+  residual = the RAEX reglamento config-gap (96_) + the 107_/108_ FR
+  fold-ins only** · **SOQ-34
   RESOLVED W18 + consumed W19** ($18.00 never adjusted — 98_/99_ DACG
   prints; 74_ Art. 12-B tail owned as 100_; spe/06 LB-022 chain
   anchored).
@@ -870,41 +985,50 @@ must grep ALL LB source columns of the new files.
 
 ## 8. Next actions (ordered)
 
- 1. **No next synthesis wave is queued — the 8-topic program + W17 +
-      C1 + W18 + W19 COMPLETE and MERGED (W19 = the thirty-seventh
-      §4.6 run, record in root HANDOVER) + **W20 taxation edit wave
-      COMPLETE (1,702 FRs; merge-pending at edit time — merge record
-      in §1 at close)**. The W19 follow-on debts are ALL EXECUTED in
-      W20: (a) SR8 rewire — taxation/09 COTRANS rows anchored to 89_,
-      FR-245 gate satisfiable; (b) 96_ Chapter V 30%-withholding
-      fold-in — taxation/17 SV-TAX-FR-405..416; (c) taxation-side 2025+
-      standing-rule mirror — taxation/04 vintages → 91_-94_, OQ-003
-      resolved.** Remaining, owner's call: residual acquisitions
-      (item 2) + external watches (D.O./uif DNS-level down since
-      2026-08-22 — §6) + **SR8 residual = SOQ-40/OQ-2 the FR-244/
-      FR-245 D1-tributo-mapping design confirmation (now unblocked)** +
-      EV-bank hygiene queue (EVID-397 OCR nits — S9 ruling (g)
-      precedent; rides the W20 final fix wave) + go-live/implementation
-      prep per `shared/docs/go-live-readiness.md`.
-  2. **Acquisition follow-ups (residual after W18):** SOQ-46 criteria
+ 1. **Fold-in edit waves are the top program item after W22 (sources
+      acquired; FRs pending):** (a) **cml edit wave** — FR-044
+      statute_pending flip + SAS profile rows from 111_/EVID-409
+      (suffix S.A.S., unipersonal, $1 capital fully subscribed w/ ≤2-y
+      payment, free reserva legal, S.A.-supletorio cascade, ≤180-day
+      dividends, $12,000 accounting-mode threshold, no-auditor-while-
+      microempresario, simplified dissolution, books physical-or-
+      electronic, gratuidad window → 31-dic-2026) + LB-032 retirement +
+      the 109_ acciones re-anchors (nominative-only from 7-oct-2021;
+      Art. 155 CT-124 hook; RUC-block surface) + cml/02/03 fusión-
+      transnacional rows (111_ Arts. 4-8) + cml/08 awareness notes
+      (110_ usura 960/960-A, 112_ truncation 838-A..E, 109_ Art. 338
+      escheat) + C1-C9 verification-note flips (SOQ-22 falsification);
+      (b) **spe/taxation wave** — 107_ ganancia-de-capital exoneration
+      window (efectos 8-may-2022, CEPA/MOPT perimeter) + 108_ contractor
+      package rows (IVA exención + Art. 66 pro-rata exception for local
+      suppliers + ISR 4.1 rentas no gravables + registros especiales +
+      CEL-seller exemption); (c) **SOQ-40/OQ-2** (taxation/09 D1-tributo
+      mapping design confirmation — unblocked since W20) rides the next
+      taxation wave. The 8-topic program + W17 + C1 + W18-W22 are
+      COMPLETE (W20/W21 MERGED; W22 push/merge per item 6). Remaining,
+      owner's call: residual acquisitions (item 2) + external watches
+      (D.O./uif DNS-level down since 2026-08-22 — §6) + EV-bank hygiene
+      queue + go-live/implementation prep per
+      `shared/docs/go-live-readiness.md`.
+  2. **Acquisition follow-ups (residual after W22):** SOQ-46 criteria
       instrument (candidates Res. 175-2023 [derogated intermediate] /
       Res. 82-2024 — low value per SOQ-52 boundary); SOQ-31 D.O.
       Oct-Dic-1998 micro-scan (optional — never-issued negative
-      hypothesis stands); F-11 v19/v20 + F14 v17 manual MH-page watches;
-      ~~COTRANS Aug-2025 prorroga decree number~~ **RESOLVED W21 —
-      D.L. 387-2025 = 106_ owned (D.L. 1000-2024 recital-pinned;
-      617/1000/307 texts optional at the D.O. recovery watch)**;
-      **asamblea RECOVERED (2026-08-23, `-k` recipe §6/main) also
-      unblocks: the SAS statute hunt (SOQ-23/cml OQ-001 — try the
-      by-year enumeration route proven in W21) + the D.L. 201-2025
-      Aeropuerto del Pacífico text (asamblea hosts it per the SOQ-41
-      record)**; uif.gob.sv re-probe (AML reglamento watch —
-      2026-10-17 adaptation deadline; DNS-level outage since
-      2026-08-22); D.L. 201-2025 + 411-2025 anchors (dated negatives;
-      D.O. scan routes recorded in the SOQ-41 row).
-  3. Registry note: numbering continues from **107** (W21 registered
-      106_ = D.L. 387-2025; sv/sources/README is the count of record —
-      104 files, gaps 21/23/24/28).
+      hypothesis stands); F-11 v19/v20 + F14 v17 manual MH-page watches
+      (re-pin the wp-content route — the formularios path 302s to home
+      since 2026-08-23); ~~COTRANS Aug-2025 prorroga~~ RESOLVED W21
+      (106_; 617/1000/307 texts optional at the D.O. recovery watch);
+      ~~SAS statute hunt~~ **RESOLVED W22 (D.L. 905-2023 = 111_ + the
+      gratuidad chain 113_/114_)**; ~~D.L. 201-2025 + 411-2025 anchors~~
+      **RESOLVED W22 (107_/108_, D.O. stamps on face)**; uif.gob.sv
+      re-probe (AML reglamento watch — 2026-10-17 adaptation deadline;
+      DNS-level outage since 2026-08-22); optional D.O. original prints
+      of 106_-114_ when D.O. recovers; asamblea por-anios residual
+      census (2010/2012-2015 no cards, 2019 partial — the SOQ-22
+      negative watch).
+  3. Registry note: numbering continues from **115** (W22 registered
+      107_-114_; sv/sources/README is the count of record — 111
+      numbered files, gaps 21/23/24/28, 25_ double vintage).
  4. SOQ follow-ups per §7; periodic external checks (factura.gob.sv,
     uif.gob.sv/marco-legal, MH formularios, D.O. recovery).
   5. Deferred cleanups (CAN-STAND): **RESOLVED by C1 (2026-08-21)** — root
@@ -932,8 +1056,8 @@ must grep ALL LB source columns of the new files.
   byte-fidelity gitattributes rule (predates it; would need a migration
   pass — never "fix" casually).
 - Commits: short imperative, no emojis; push after each wave.
-- Registry additions continue numbering from the current tail (106
-  after W18); page-1 verify everything; record provenance +
+- Registry additions continue numbering from the current tail (115
+  after W22); page-1 verify everything; record provenance +
   supersession.
 - Synthesis waves: prep (master-index clusters + SOQs) → plan doc in
   `docs/superpowers/plans/` → subagent loop (fresh implementer per task;
