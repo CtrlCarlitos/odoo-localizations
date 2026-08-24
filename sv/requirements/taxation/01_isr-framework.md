@@ -5,8 +5,8 @@
 | Country | sv |
 | Topic   | taxation |
 | Status  | draft |
-| Authors | Takumi synthesis wave 2 (S2 ISR) |
-| Updated | 2026-08-20 |
+| Authors | Takumi synthesis wave 2 (S2 ISR); W24 T2 fold-in (108_ ISR no-gravables) |
+| Updated | 2026-08-24 |
 
 ## 1. Purpose
 
@@ -88,6 +88,7 @@ REFORMAS block and post-2001 repeal by CT Art. 344 ff is print-unresolvable
 | LB-034 | Ley Especial Quincena Veinticinco (D.L. 499), Art. 8 — special-law character of public order: the Quincena-25 rules prevail over any contrary norm (EVID-237 gloss; verbatim text not extracted in evidence) | The Quincena-25 special law is of public order (orden público) and prevails over contrary norms — anchoring the Art. 4 renta-no-gravada declaration's precedence in the ISR computation without amending the Ley ISR exemption list | `sv/sources/66_Ley_Quincena25_DL499.pdf` | Art. 8 pp.4-6 (EVID-237) |
 | LB-035 | Guía de Orientación Quincena Veinticinco (MH.UVI.DGII/006.001/2026; **acquired 2026-08-18 as `67_`**), §§3-4 + Anexos 1/7/8: credit documentation = "planilla en original... y la suscripción de la misma por beneficiarios" + the F-14 annex; Anexo 1: "Se genera una nueva versión del Formulario F-11 versión 19" with the credit in "casilla 319 denominada 'Crédito Tributario Quincena Veinticinco'" inside the IMPUESTO DETERMINADO subtraction (casilla-330 formula includes 319), the v19 print still carrying the dead pago-mínimo rows (R21); Anexo 7: ZF/DPA/LSI checkbox "Marque si es usuario de Zona Franca, DPA o Usuario regulado en la Ley de Servicios Internacionales" on the Renta-2026 screen; Anexo 8: "Versión 20 — Declaración de Impuesto sobre la Renta para Sujetos con Régimen Especial... la que tendrá como anexo el Certificado de Crédito Tributario" | Credit documentation = original planilla subscribed (signed) by the beneficiaries + the F-14 annex; declaration surface = F-11 v19 casilla 319 inside the casilla-330 subtraction; ZF/DPA/LSI certificado seekers identified by the renta-en-línea checkbox; F-11 v20 (special-regime subjects, renamed) carries the Certificado as anexo (prints not yet acquired — OQ-007) | `sv/sources/67_Guia_Orientacion_Quincena25.pdf` | §§3-4 + Anexos 1/7/8 pp.2-13 (EVID-237; EVID-238) |
 | LB-036 | Reglamento de Aplicación del Código Tributario (D.E. N° 117-2001), Arts. 99-100 | Retention payment period and entero deadline: Art. 99: "Por período de pago para efectos de retenciones del Impuesto sobre la Renta, se entiende el mes calendario en el que el agente de retención paga ordinariamente la remuneración sea ésta total o parcial"; Art. 100: "Las cantidades retenidas deberán ser enteradas al colector respectivo, dentro de los diez días hábiles que inmediatamente sigan al vencimiento del mes calendario en que se efectúa la retención", and for remunerations paid "por día, por período especial, semana o quincena" the agent "deberá consolidar en períodos mensuales, las respectivas retenciones" — corroborating Ley Art. 62's ten-días-hábiles remittance (OQ-001 resolved; no divergence) and adding the monthly consolidation of sub-monthly pay cycles; the by-NIT-digit window question stays fiscal-reporting's SOQ-08 | `sv/sources/75_Reglamento_Codigo_Tributario_DE117.pdf` | Arts. 99-100 p.62 (EVID-351; verified 75_ txt lines 3193-3210) |
+| LB-037 | Disposiciones Especiales y Transitorias de Apoyo al "Programa de Acceso Universal a la Energía en El Salvador" (108_), Art. 3: "Los ingresos que perciban las personas naturales o jurídicas, involucradas como contratistas o subcontratistas respecto de las actividades relacionadas con el Programa y a las que se ha hecho referencia en el artículo 1 de este decreto, se considerarán como no gravables para los efectos de lo dispuesto en el artículo 4 numeral 1 de la Ley de Impuesto sobre la Renta, hasta la completa recepción de las obras, bienes y servicios adquiridos." | Program-income no-gravables declaration, kin LB-032 (Quincena-25): the ingresos of personas naturales o jurídicas involved as contratistas o subcontratistas in the Program's Art. 1-enumerated activities are rentas NO GRAVABLES on the Ley ISR Art. 4.1 basis — a special-law declaration operating ALONGSIDE, not amending, the Ley ISR Art. 4 list (54_ by id); window = until the completa recepción de las obras, bienes y servicios adquiridos, event-bounded per contract vinculación (the per-benefit event window inside the decree vigencia 27-sep-2025 → 26-sep-2031 = spe/02 SV-SPE-FR-204 by id; identity/instrument row = spe/01 LB-034; BID-financed, CEL-executed rural-electrification program per EVID-406). Operative stamp = FR-417 (the spe/02 FR-204 ISR limb consumed by id) | `sv/sources/108_EnergiaElectrica_AccesoUniversal_DL411_2025_Asamblea.pdf` | 108_ Art. 3 p.3 (EVID-406; 108_ txt PAGE 3; native asamblea text layer — intra-word cleaning per EV header; W24 T2) |
 
 Dead text — never implementable as current law (recorded here as LB notes, not
 FRs, per wave constraint): pago mínimo Arts. 76-81 (declared unconstitutional,
@@ -146,6 +147,24 @@ LB-019).
   reporting (F-910 code 73 / renta-en-línea 724-kin — SV-FREP-FR-212).
   (LB-032; LB-034; EVID-237; cross-ref SV-PAY-FR-137, SV-FREP-FR-212,
   SV-TAX-FR-104)
+- **SV-TAX-FR-417:** The system shall extend the `isr_no_renta_rule`
+  classification (SV-TAX-FR-173 chassis) to 108_ program incomes: the
+  ingresos received by personas naturales o jurídicas involved as
+  contratistas o subcontratistas in the "Programa de Acceso Universal a
+  la Energía en El Salvador" activities enumerated in its Art. 1 shall
+  be flagged `programa_energia_dl411_art3` — renta NO GRAVADA by
+  special law (Ley ISR Art. 4.1 basis, 54_ by id) — for operations
+  inside the per-contract event window (firma de contratos → recepción
+  final / fin de la relación contractual con CEL; the vinculación and
+  window inputs = SV-SPE-FR-204 by id, never restated here); on the
+  FR-173 chassis the flagged amounts never enter the retention base nor
+  the annual liquidation renta, and the no-retention consequence flows
+  from the no-gravada status per the 97_ working reading (spe/02 OQ-9 —
+  108_, like 97_, prints no express retention clause); reporting
+  surfaces consume the flag by id (no-gravado reporting kin the FR-173
+  note — F-910 code 73 / renta-en-línea 724-kin, SV-FREP-FR-212).
+  (LB-037; LB-032; EVID-406 W24 T2; cross-ref SV-TAX-FR-173,
+  SV-SPE-FR-204)
 
 ### 3.2 Subjects and exclusions (T1)
 
@@ -382,7 +401,7 @@ computation/bookkeeping data only (wave default `odoo`; see §5).
 | account.move.line | isr_income_category | select | trabajo · empresarial · capital · catch_all | FR-001 |
 | account.move.line | isr_catch_all_rule | select | condoned_debt · undocumented_liability · excess_provision · unjustified_patrimony_ct195 · other_benefit | FR-002 |
 | account.move.line | isr_representation_allowance | boolean | true → excluded from trabajo remuneration (D.L. 629) | FR-003 |
-| account.move.line | isr_no_renta_rule | select null | work_tools_viaticos · legacy_inheritance · family_donation · quincena_25_art4_66_ (renta NO GRAVADA by special law — excluded from the cómputo; reporting-only code-73/724 surface) | FR-004, FR-005, FR-173 |
+| account.move.line | isr_no_renta_rule | select null | work_tools_viaticos · legacy_inheritance · family_donation · quincena_25_art4_66_ (renta NO GRAVADA by special law — excluded from the cómputo; reporting-only code-73/724 surface) · programa_energia_dl411_art3 (108_ Art. 3 — renta NO GRAVADA by special law until completa recepción; same excluded-from-cómputo/reporting-only treatment) | FR-004, FR-005, FR-173, FR-417 |
 | account.move.line | isr_territorial_status | select | domestic · foreign_excluded · partial_apportioned | FR-021, FR-022, FR-024 |
 | account.move.line | isr_sv_source_rule | select | goods_situated · activity_performed · capital_invested · service_provided_or_used · ip_registered_or_used · securities_emitter_domiciled · securities_capital_in_country · govt_remuneration_abroad | FR-021 |
 
@@ -467,6 +486,7 @@ file.
 | FR-033 | odoo | l10n_sv.isr.filing.duty | duty_reasons | Presumed-paid vs unretained self-declaration flags on non-domiciled partners |
 | FR-173 | odoo | account.move.line | isr_no_renta_rule (+ quincena_25_art4_66_) | Special-law no-gravada stamp fed by SV-PAY-FR-137 (payroll matrix): never in the SV-TAX-FR-104 retention base nor the annual liquidation renta; only surface = no-gravado reporting (F-910 code 73 / 724-kin, SV-FREP-FR-212) |
 | FR-174 | odoo | l10n_sv.isr.quincena.credit | all | FY-2026-only dated regime (Art. 6 transitory); F-11 v19 casilla-319 feed key inside the casilla-330 subtraction; v19's dead pago-mínimo rows never fed (R21 extends — AC-020); ZF/DPA/LSI certificado entitlement recorded, issuance external to MH; special-regimes wave consumes the certificado by id |
+| FR-417 | odoo | account.move.line | isr_no_renta_rule (+ programa_energia_dl411_art3) | 108_ D.L. 411-2025 Art. 3 program-income stamp on the FR-173 chassis: contratista/subcontratista ingresos from the Art. 1-enumerated activities, inside the per-contract event window (SV-SPE-FR-204 by id); never in the retention base nor the annual liquidation renta; no-retention per the spe/02 OQ-9 working reading; no-gravado reporting only (F-910 code 73 / 724-kin, SV-FREP-FR-212) |
 
 Version-regime notes (D12): FR-022/FR-025 record the D.L. 969-2024 cutover
 (2024-03-22) — any computation on pre-cutover periods must select the dated
@@ -551,6 +571,14 @@ credit (66_ Art. 6 transitory, D.O. 14-ene-2026): no continuation in
   319 = 5,000.00 inside the casilla-330 IMPUESTO DETERMINADO subtraction, and
   casillas 630-648 still carry no value under any configuration (dead
   pago-mínimo rows — R21 extends to v19) (FR-174).
+- **AC-021:** Given a DGII-declared 108_ contractor's program-service
+  invoice of $50,000.00 dated inside the per-contract event window, then the
+  line flags isr_no_renta_rule = programa_energia_dl411_art3, the amount is
+  excluded from the ISR retention base and never appears in the annual
+  liquidation renta (no-gravado reporting surface only); given the same
+  contractor's operation dated after the contract's recepción final, then
+  the flag is off and the income computes as ordinary gravable renta
+  (FR-417).
 
 ## 7. Open Questions
 

@@ -5,8 +5,8 @@
 | Country | sv |
 | Topic   | taxation |
 | Status  | draft |
-| Authors | Takumi synthesis wave 2 (S2 ISR) |
-| Updated | 2026-08-18 |
+| Authors | Takumi synthesis wave 2 (S2 ISR); W24 T2 fold-in (107_/108_ ganancia-de-capital exonerations) |
+| Updated | 2026-08-24 |
 
 ## 1. Purpose
 
@@ -82,6 +82,8 @@ markers; stamp keys read from the 54_ reform tail pp.59-60).
 | LB-017 | Reglamento ISR, Art. 27 | Renta from obligaciones de hacer (contracts to perform works) to be executed over a period greater than one year: computed in proportion to the part of the obra (work) performed during each ejercicio; the SAME proportional calculation applies to the cost and other legal deductions | `sv/sources/04_Reglamento_ISR.pdf` | Art. 27 p.10 (EVID-138) |
 | LB-018 | Reglamento ISR, Art. 33 | Insurance/fianza/capitalization companies: net income = total income per Art. 26 + opening mathematical/technical reserves − Ley Art. 29 deductions − enumerated items (claims paid; endowment/matured contracts; life annuities paid; special benefits; rescates; claim-adjustment expenses; premium refunds; claims paid; premiums ceded to reinsurers; raffle prizes; reinsurance/reafianzamiento commissions; closing mathematical/technical reserves; death premium refunds) | `sv/sources/04_Reglamento_ISR.pdf` | Art. 33 pp.11-12 (EVID-141) |
 | LB-019 | Reglamento ISR, Art. 34 | Export income: net income from exporting goods grown/produced/manufactured/acquired in-country = wholesale price at destination − cost of goods − in-country expenses − transport & insurance − commissions/selling expenses to the extent necessary | `sv/sources/04_Reglamento_ISR.pdf` | Art. 34 p.12 (EVID-142) |
+| LB-020 | Reformas a la Ley para la Construcción, Administración, Operación y Mantenimiento del Aeropuerto Internacional del Pacífico (107_), Art. 1: "Adiciónase en el artículo 29, inciso primero, la letra e), de la siguiente manera: 'e) Exonérase del pago del Impuesto a la Ganancia de Capital, a que se refieren los artículos 14 y 42 de la Ley de Impuesto sobre la Renta, a los propietarios de los inmuebles que los vendan a CEPA y/o al MOPT, siempre que estos inmuebles estén comprendidos dentro del perímetro de delimitación a que se refiere el artículo 2 de la presente Ley.'" Art. 2: "Sustitúyese el artículo 35, por el siguiente: 'Art. 35.- Esta ley es de orden público y especial, por lo que sus efectos se retrotraerán al ocho de mayo del año dos mil veintidós, y priva sobre cualquier otra ley especial o general que la contradiga.'" Art. 3: "El presente decreto entrará en vigencia ocho días después de su publicación en el Diario Oficial." | The airport seller limb: the base law's Art. 29 exemption catalogue gains literal e) — propietarios selling inmuebles to CEPA and/or MOPT, provided the inmuebles sit inside the law's Art. 2 perímetro de delimitación, are EXONERATED from the Impuesto a la Ganancia de Capital of Ley ISR Arts. 14 and 42 (the Art. 42 10% AND the ≤12-month ordinary-renta limb's ganancia component — the Art. 14 determination is lifted for exonerated transfers); the substituted Art. 35 retrotrae the LAW's efectos al 8-may-2022 with orden-público-y-especial prevalence, so the exoneración window runs from 8-may-2022 — drafted to reach already-executed CEPA/MOPT purchases (considerandos IV-V replacement-property recitals; EVID-405). [As printed] note (EVID-405 doubt recorded here, NOT an OQ): the retro anchor 8-may-2022 sits one day AFTER the base law's own original vigencia start (D.L. 361-2022, D.O. N° 81 T.435 29-abr-2022 + 8 días = 7-may-2022) — no operative ambiguity for the exemption window (efectos from 8-may-2022 as printed). The base law D.L. 361-2022 is UN-ACQUIRED (identity row = spe/01 LB-035): the Art. 2 perimeter geometry = external config slot with NO default, and the base law's other Capítulo IV exonerations (CEPA/MOPT/companies — considerando II) are out-of-corpus, gloss only. Reform vigencia: D.O. 30-ene-2025 + 8 días = 7-feb-2025 (forward-looking) + the Art. 35 retro coverage. Operative FR = FR-418 | `sv/sources/107_Reforma_AeropuertoPacifico_DL201_2025_Asamblea.pdf` | 107_ Arts. 1-3 p.2 (EVID-405; 107_ txt PAGE 2; native asamblea text layer — intra-word cleaning per EV header; W24 T2) |
+| LB-021 | Disposiciones Especiales y Transitorias de Apoyo al "Programa de Acceso Universal a la Energía en El Salvador" (108_), Art. 7: "Los propietarios o poseedores que vendan voluntariamente sus inmuebles a favor de la Comisión Ejecutiva Hidroeléctrica del Río Lempa (CEL), estarán exentos del pago del Impuesto sobre la Renta que pudiera generar la venta de los mismos en concepto de Ganancia de Capital, en consecuencia, tampoco estarán obligados a presentar por dicha venta el formulario para el cómputo correspondiente a la misma." | CEL-seller exoneración (kin-class to LB-020's CEPA/MOPT limb; EVID-406 gloss (5)): propietarios O POSEEDORES voluntarily selling their inmuebles to CEL are exempt from the ISR the sale could generate in concepto de Ganancia de Capital — the seller class is BROADER than 107_'s propietarios (poseedores included) and carries no perimeter geometry (the acquirer CEL is identitary); in consequence the formulario-for-cómputo duty for that sale is EXPRESSLY LIFTED (the ganancia-cómputo form duty — the express lift distinguishes 108_ from 107_, which prints no formulario clause). Operative FR = FR-419; window = the 108_ decree vigencia with the benefit's own event limbs (spe/02 SV-SPE-FR-204 by id; identity row = spe/01 LB-034) | `sv/sources/108_EnergiaElectrica_AccesoUniversal_DL411_2025_Asamblea.pdf` | 108_ Art. 7 p.4 (EVID-406; 108_ txt PAGE 4; native asamblea text layer — intra-word cleaning per EV header; W24 T2) |
 
 Dead text — never implementable as current law (recorded as LB notes, not
 FRs, per wave constraints; cross-referenced, not restated): Reglamento
@@ -215,6 +217,39 @@ unconstitutional (`01_isr-framework.md` §2; R21).
   offset), and losses from related-subject or preferential-regime
   transactions are blocked outright per SV-TAX-FR-061. (LB-006; LB-007;
   EVID-093/106)
+- **SV-TAX-FR-418:** The system shall apply a dated exoneración stamp
+  `aeropuerto_dl201_art29_1e` on the gain-track engine (SV-TAX-FR-082):
+  disposals of inmuebles sold to CEPA and/or MOPT — sellers being
+  propietarios, the inmueble sitting inside the base law's Art. 2
+  perímetro de delimitación (perimeter = external config slot, base law
+  D.L. 361-2022 UN-ACQUIRED — NO default geometry; spe/01 LB-035 by id) —
+  carry the stamp for sales with efectos from **8-may-2022** (the
+  substituted Art. 35 retro window; D15 dated rows: window start
+  8-may-2022, instrument 107_ (D.L. 201-2025), reform vigencia
+  7-feb-2025 forward-looking PLUS the retro coverage — drafted to reach
+  already-executed sales). Stamped disposals produce NO Art. 42 10%
+  liability and NO ganancia entry in the annual liquidation — the Art. 14
+  determination is not computed for exonerated transfers (the LB-006/
+  LB-007 heads are lifted for this disposal class; nothing flows into the
+  SV-TAX-FR-082 routing or the SV-TAX-FR-085/086 loss machinery). 107_
+  prints no express formulario lift — the form surface rides the OQ-006
+  forms config-gap (computation-annex discipline, no layout invented).
+  (LB-020; LB-006; LB-007; EVID-405 W24 T2)
+- **SV-TAX-FR-419:** The system shall apply the same exoneración chassis
+  (FR-418) to stamp `energia_dl411_art7` on disposals of inmuebles
+  voluntarily sold to the Comisión Ejecutiva Hidroeléctrica del Río Lempa
+  (CEL) by propietarios O POSEEDORES — the broader 108_ seller class
+  (poseedores included — the class difference vs FR-418's
+  perimeter-bounded propietarios), no perimeter geometry (the acquirer
+  CEL is identitary) — with window = the 108_ decree vigencia
+  **27-sep-2025 → 26-sep-2031** (Art. 13; the benefit's own event limbs
+  per SV-SPE-FR-204 by id). Stamped disposals produce no Ganancia de
+  Capital ISR liability and no ganancia entry in the annual liquidation
+  (Art. 14/42 heads not computed, kin FR-418), AND the
+  formulario-for-cómputo duty for the sale is EXPRESSLY LIFTED — the
+  disposal record carries a no-computation-form flag (the express text
+  distinguishes this limb from FR-418, where no formulario clause is
+  printed). (LB-021; EVID-406 W24 T2; cross-ref FR-418, SV-SPE-FR-204)
 
 ### 3.3 Losses: no general NOL
 
@@ -418,6 +453,8 @@ table, stamps (1)(19)(25)):
 | account.move (disposal) | isr_habituality_status | select | presumed_non_habitual · proven_habitual · giro | FR-079 |
 | l10n_sv.isr.capital.loss.ledger (new) | subject, origin_year, transaction_ref, loss_amount, declared_on_dgii_form | monetary/boolean | entries require DGII-form declaration flag | FR-085 |
 | l10n_sv.isr.capital.loss.ledger | applications, balance, expiry_year | monetary/int (computed) | 5-year carryforward; gains-only application; expiry = origin + 5 | FR-085 |
+| account.move (disposal) | isr_capital_gain_exoneration | select null | aeropuerto_dl201_art29_1e (107_: acquirer CEPA y/o MOPT; inmueble inside the base-law Art. 2 perimeter — external config, NO default geometry) · energia_dl411_art7 (108_ Art. 7: voluntary sale to CEL; seller class propietarios O POSEEDORES) | FR-418, FR-419 |
+| account.move (disposal) | isr_capital_gain_exoneration_window · no_computation_form | config/date + boolean | 107_: efectos from 8-may-2022 (Art. 35 retro window) + reform vigencia 7-feb-2025; 108_: decree vigencia 27-sep-2025 → 26-sep-2031 (event limbs per SV-SPE-FR-204 by id); no_computation_form = true ONLY on energia_dl411_art7 rows (express formulario lift, Art. 7) | FR-418, FR-419 |
 
 **Securities and deposits:**
 
@@ -482,6 +519,8 @@ a legal vintage exists.
 | FR-099 | odoo | l10n_sv.isr.insurer.determination | worksheet | Awareness-level sector template; special-regimes wave may extend |
 | FR-100 | odoo | account.move.line (export) | isr_export_valuation | Export valuation worksheet on export invoices |
 | FR-101 | odoo | computation slot | separate tracks | Umbrella engine: tracks computed isolated from ordinary base and each other; reserva-25 consumes 02-file FR-063 register |
+| FR-418 | odoo | account.move (disposal) | isr_gain_track + aeropuerto_dl201_art29_1e stamp | 107_ D.L. 201-2025 Art. 1 (airport-law Art. 29.1.e): CEPA/MOPT perimeter sellers exonerated from the Arts. 14/42 ganancia — efectos from 8-may-2022 (Art. 35 retro window; reform vigencia 7-feb-2025); perimeter = external config slot (base law un-acquired, NO default geometry); no formulario clause printed — form surface rides OQ-006 |
+| FR-419 | odoo | account.move (disposal) | energia_dl411_art7 stamp + no_computation_form | 108_ D.L. 411-2025 Art. 7: propietarios O POSEEDORES voluntary sellers to CEL exonerated (window = decree vigencia 27-sep-2025 → 26-sep-2031; event limbs per SV-SPE-FR-204 by id); formulario-for-cómputo duty EXPRESSLY lifted — the express no-form text distinguishes from FR-418 |
 
 Version-regime notes (D12): FR-074 records the Art. 37 two-vintage regime
 (957-2011 config valid through 2025-05-07; 293-2025 config from 2025-05-08 —
@@ -600,6 +639,18 @@ are stable unindexed amounts in the current text (OQ-003).
   $7,000.00 + $3,400.00 (10% capital gain) + $100.00 (10% securities)
   = $10,500.00 payable in the four-month window, each track computed
   isolated from the others (FR-101).
+- **AC-024:** Given a disposal dated 12-aug-2023 of an inmueble inside
+  the Art. 2 perimeter sold by its propietario to CEPA, then the
+  disposal is exonerated retroactively (efectos from 8-may-2022): no
+  Art. 42 10% liability and no ganancia entry in the annual liquidation;
+  where the 2023 ejercicio was already liquidated carrying the 10%, the
+  correction recomputes at original-period parameters per D15 (amend the
+  2023 liquidation — never a current-period offset) (FR-418).
+- **AC-025:** Given a poseedor (not the propietario) voluntarily selling
+  an inmueble to CEL on 15-oct-2025 (after 27-sep-2025, inside the
+  decree vigencia), then the disposal carries the energia_dl411_art7
+  stamp with no ganancia liability AND the no_computation_form flag set
+  (express formulario lift) (FR-419).
 
 ## 7. Open Questions
 
