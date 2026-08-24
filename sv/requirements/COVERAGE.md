@@ -159,7 +159,7 @@ history (S8 32_/33_, S9 02_, W17
 | 108_EnergiaElectrica_AccesoUniversal_DL411_2025_Asamblea.pdf | pending-S2+ |  |
 | 109_Reforma_CodigoComercio_DL153_2021_Asamblea.pdf | cited-as-LB | `commercial-legal/04_society-types.md` (3 LB rows); `commercial-legal/05_society-lifecycle.md` (2 LB rows) |
 | 110_Reforma_CodigoComercio_DL295_2022_Asamblea.pdf | cited-as-LB | `commercial-legal/08_payment-instruments.md` (1 LB rows) |
-| 111_Reforma_CodigoComercio_DL905_2023_Asamblea.pdf | cited-as-LB | `commercial-legal/04_society-types.md` (7 LB rows); `commercial-legal/05_society-lifecycle.md` (6 LB rows) |
+| 111_Reforma_CodigoComercio_DL905_2023_Asamblea.pdf | cited-as-LB | `commercial-legal/04_society-types.md` (8 LB rows); `commercial-legal/05_society-lifecycle.md` (6 LB rows) |
 | 112_Reforma_CodigoComercio_DL972_2024_Asamblea.pdf | cited-as-LB | `commercial-legal/08_payment-instruments.md` (1 LB rows) |
 | 113_Reforma_DL905_CodigoComercio_DL203_2025_Asamblea.pdf | cited-as-LB | `commercial-legal/04_society-types.md` (1 LB rows) |
 | 114_Reforma_DL905_GratuidadSAS_DL468_2025_Asamblea.pdf | cited-as-LB | `commercial-legal/04_society-types.md` (1 LB rows) |
