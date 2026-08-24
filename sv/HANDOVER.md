@@ -727,14 +727,18 @@ must grep ALL LB source columns of the new files.
   POST `/api/v1/diarios-disponibles` form-encoded `year=YYYY&month=MM`
   (English keys only — JSON body 400s incl. `anio`/`mes`; query-string
   404s) → `[{Id, FechaInicio, FechaInexacta, NombreArchivo}]`; PDF at
-  `/seleccion/{Id}` (serves `application/pdf`). asamblea.gob.sv
-  unreachable (000).
+  `/seleccion/{Id}` (serves `application/pdf`). asamblea.gob.sv:
+  **RECOVERED 2026-08-23** (DNS A-records restored — 168.90.109.76 +
+  138.255.154.12; serves 200/74KB on both apex + www, but TLS chain
+  incomplete → `curl -k` REQUIRED; unblocks the COTRANS Aug-2025
+  prorroga decree hunt §8.2).
   Live official mirror: **uif.gob.sv Marco Legal** (plain GET + browser
   UA; Incapsula blocks HEAD) — WAF-blocked since 2026-08-21 (403 all
   routes), **degraded further to DNS-ABSENT since 2026-08-22** (D.O. +
   uif.gob.sv both in a DNS-level outage: hosts resolve to NO A record,
-  Cloudflare DoH-verified; recovery = A-record restoration on the
-  registrar/host side; all pinned recipes stand unchanged). AML
+  Cloudflare DoH-verified; **still absent at the 2026-08-23 re-probe**;
+  recovery = A-record restoration on the registrar/host side; all pinned
+  recipes stand unchanged; factura.gob.sv alive 200). AML
   reglamento watch interrupted; the live date is **2026-10-17 = the 71_
   12-month adaptation deadline (publication 9-oct-2025 + 12 months; 71_
   effective 2025-10-17)**; re-probe at wave cadence. MH formularios
@@ -843,7 +847,8 @@ must grep ALL LB source columns of the new files.
      Res. 82-2024 — low value per SOQ-52 boundary); SOQ-31 D.O.
      Oct-Dic-1998 micro-scan (optional — never-issued negative
      hypothesis stands); F-11 v19/v20 + F14 v17 manual MH-page watches;
-     COTRANS Aug-2025 prorroga decree number (asamblea down);
+      COTRANS Aug-2025 prorroga decree number (**asamblea RECOVERED
+      2026-08-23, `-k` recipe §6 — hunt now unblocked**);
      uif.gob.sv re-probe (AML reglamento watch — 2026-10-17
      adaptation deadline; DNS-level outage since 2026-08-22);
      D.L. 201-2025 + 411-2025 anchors (dated negatives; D.O.
