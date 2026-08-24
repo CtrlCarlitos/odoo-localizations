@@ -5,8 +5,8 @@
 | Country | sv |
 | Topic   | special-regimes |
 | Status  | draft |
-| Authors | Takumi synthesis wave 7 (S7 special-regimes); W19 T3 re-verification (80_/82_); W19 T4 fold-in (95_/96_/97_); W19 T5 historical note (90_) |
-| Updated | 2026-08-22 |
+| Authors | Takumi synthesis wave 7 (S7 special-regimes); W19 T3 re-verification (80_/82_); W19 T4 fold-in (95_/96_/97_); W19 T5 historical note (90_); W24 T1 fold-in (107_/108_) |
+| Updated | 2026-08-24 |
 
 ## 1. Purpose
 
@@ -41,14 +41,20 @@ a)-o), placement matrix, Art. 23/24/24-A requisito rewrite) + the ZF 82_
 2-yr grace — FR-190..194 with spe/02/spe/07)**; **W19 T4: the
 project-specific D.L.-incentive class** (95_ inmobiliarios en altura;
 97_ biogás Acelhuate — instrument-keyed admission/benefit families whose
-D15 dated rows live in `02` as FR-202/203) **+ the 96_ D.L. 308-2025
+D15 dated rows live in `02` as FR-202/203; **W24: 108_ energía-eléctrica
+acceso-universal joins as a CURRENT member** — instrument dl411_2025,
+D.O. 181 T.448 26-sep-2025, vigencia 27-sep-2025 → 26-sep-2031, not
+project-spent like 97_; FR-200 amended in place, dated rows = FR-204 in
+`02`) **+ the 96_ D.L. 308-2025
 Ley de Agentes Extranjeros identity row** (MIGOB RAEX transparency
 registro — NOT an incentive regime; resolves the 54_ tail's EVID-167
 pointer); **W19 T5: the 90_ D.L. 598-2020 spent-COVID-deferral
 historical note** (LB-033 — awareness only, no operative FRs; the
 54_-tail pointer for this instrument resolved, ~~the 201-2025/411-2025
 acquisition negatives per SOQ-41 standing~~ **both acquired W22 as
-107_/108_ — EVID-405/406; fold-in rows pending at the next edit wave**).
+107_/108_ — EVID-405/406; W24 T1: the fold-in landed — LB-034/035
+identity rows + the FR-200 108_ class-member amendment here, FR-204 in
+`02`, taxation FR-417..421 in the sibling files**).
 
 It does **not** cover: the ZF/DPA exemption ladders and exception-goods gates
 (`02_zf-exemption-schedules.md`); the LSI exemption shapes, local-market caps
@@ -117,7 +123,16 @@ renta-no-gravable (54_ cited by id, never restated). **W19 T5 adds the
 spent COVID transitory 90_ (D.L. 598-2020, D.O. N° 58 T.426 20-mar-2020,
 vigencia publication-day, effects exhausted inside 2020 — LB-033
 historical note, no operative FRs; forced-OCR PSM 4, cleaning declared
-in the EV90-94 header).** D15 discipline:
+in the EV90-94 header).** **W24 T1 adds the two W22-acquired Salvadoran
+decree instruments (native asamblea text layers — intra-word cleaning
+declared in the EV header; post-print reform watch = SOQ-30 cadence kin):
+107_ (D.L. 201-2025, D.O. N° 21 T.446 30-ene-2025, vigencia 7-feb-2025 —
+LB-035 identity row; the operative airport seller-limb exemption =
+taxation/03 SV-TAX-FR-418 by id) and 108_ (D.L. 411-2025, D.O. N° 181
+T.448 26-sep-2025, vigencia 27-sep-2025 → 26-sep-2031 — LB-034
+identity/instrument row; the FR-200 class-member amendment + the `02`
+FR-204 dated family; ISR/IVA operative rows = taxation SV-TAX-FR-417/
+419/420/421 by id).** D15 discipline:
 every requisito value, threshold and list in this file is a dated config row
 with instrument provenance — never a global constant.
 
@@ -156,6 +171,8 @@ with instrument provenance — never a global constant.
 | LB-031 | Disposiciones Especiales, Transitorias y Complementarias … Proyecto "…Biogás en el Río Acelhuate" (97_), Art. 1 (head): "Tanto la Comisión Ejecutiva Hidroeléctrica del Río Lempa (CEL), como las personas naturales o jurídicas involucradas como contratistas o subcontratistas, en el proyecto…, durante el período de planificación, diseño, estudios, consultorías, supervisión y construcción y hasta la completa recepción de las obras…, gozarán de las siguientes exenciones tributarias:…" Art. 2: "Los ingresos que perciban las personas naturales o jurídicas, involucradas como contratistas o subcontratistas…, se considerarán no gravadas para efectos del Impuesto sobre la Renta según lo regulado en el artículo 4, numeral 1 de la Ley de Impuesto sobre la Renta. Esta disposición estará vigente hasta la completa recepción de las obras." Art. 12: "Estas disposiciones son de carácter especial y priva sobre cualquier otra ley especial o general que la contradiga." Art. 13: "El presente decreto entrará en vigencia a partir del día de su publicación en el Diario Oficial." | Both CEL and the natural/legal persons involved as contractors or subcontractors of the named biogás project — for the planning through complete-reception-of-works period — enjoy the enumerated tax exemptions; contractor income is considered NOT TAXABLE for ISR under Ley ISR Art. 4.1, in force until complete reception of the works; special character prevails over any contrary special or general law; vigencia = publication day (25-ago-2025) | `sv/sources/97_Disposiciones_Biogas_Acelhuate_DL386_2025_DGII.pdf` | 97_ Arts. 1/2/12/13 pp.2-5 (EVID-394/395; 97_ txt PAGE 2-5; W19 T4) |
 | LB-032 | Ley de Agentes Extranjeros (96_), Art. 1: "…establecer el régimen jurídico aplicable a las personas naturales o jurídicas, nacionales o extranjeras, cuyas actividades dentro de El Salvador respondan a intereses o sean financiadas, directa o indirectamente, por una persona extranjera." Art. 3: "Están obligados… toda persona natural o jurídica… que… realicen actividades que respondan a intereses, sean controladas o financiadas, directa o indirectamente por un mandante extranjero… tendrán la calidad de sujetos obligados, incluyendo a las asociaciones y fundaciones sin fines de lucro." Art. 6: "Créase el Registro de Agentes Extranjeros como una dependencia del Ministerio de Gobernación y Desarrollo Territorial, que podrá abreviarse 'RAEX'. En ese registro público deberán inscribirse, con carácter obligatorio, todos los sujetos obligados…" Art. 19: obligations breaches multa "desde CIEN MIL DÓLARES… hasta CIENTO CINCUENTA MIL DÓLARES…"; prohibitions breaches "desde CIENTO CINCUENTA MIL… hasta DOSCIENTOS CINCUENTA MIL DÓLARES…". Art. 24: "…deberán registrarse… en un plazo máximo de 90 días, a partir de la entrada en vigencia…". Art. 25: "…entrará en vigencia ocho días después de su publicación en el Diario Oficial." | Foreign-agents law: legal regime for natural/legal persons (national or foreign, non-profits included) whose in-country activities respond to, are controlled by or are financed by a foreign mandante; MIGOB's public RAEX registry with obligatory inscription (90-day transitory from vigencia; unregistered ⇒ no activities or asset movements); MIGOB-side fines US$100,000-250,000; vigencia 8 days after publication (30-may-2025 → 7-jun-2025). A TRANSPARENCY registro — not a fiscal-incentive regime (identity row; resolves the 54_ tail's EVID-167 pointer) | `sv/sources/96_Ley_Agentes_Extranjeros_DL308_DO_2025-05-30_pp3-18.pdf` | 96_ Arts. 1/3/6/19/24/25 pp.2-16 (EVID-396/397; 96_ txt PAGE 2-16; OCR PSM 4 — cleaning declared in EV header; W19 T4) |
 | LB-033 | Ley Especial y Transitoria sobre la Modalidad de Pago del ISR… (90_), Arts. 1-9 (gloss-level per EVID-402; quotes there): COVID-19 emergency transitory — Art. 1 exonerates the Ley de Turismo Art. 16 contribución especial for 3 months from vigencia; Art. 2 defers turismo-sector ISR-2019 payment (impuesto ≤ US$25,000.00) to 31-may-2020 free of interests/recargos/multas (declaration still due 30-abr-2020; benefit EXCLUDED for holders of Ley-de-Turismo fiscal incentives — MITUR + MH resolution gate); Arts. 3-5 grant DGT pago a plazos up to OCHO cuotas mensuales (first cuota = 10% in May-2020, interest-free) for ISR-2019 ≤ US$10,000.00 (any sector) and, same terms, the energía-eléctrica chain and ≥2-service TV/internet/telefonía providers; Art. 6 defers the telecom sector's March-May 2020 ISR-anticipo enteros (6 cuotas, first = 10% in July-2020); Art. 7: CT governs all not regulated (sanciones, caducidad, procedimiento); Art. 9: "entrará en vigencia a partir del día de su publicación en el Diario Oficial." | HISTORICAL NOTE ONLY — a SPENT COVID-19 transitory (D.L. 598-2020, D.O. N° 58 T.426 20-mar-2020, vigencia publication-day): every deferral window ran and expired inside 2020; NO operative FR attaches (no Odoo surface for exhausted 2020 payment plans — awareness row only), and the row resolves the 54_ tail's EVID-167 pointer for this instrument (SOQ-41 W19 T5) | `sv/sources/90_Ley_Transitoria_Pagos_ISR_DL598_DO_2020-03-20_pp4-6.pdf` | 90_ Arts. 1-9 pp.4-6 (EVID-402; 90_ txt PAGE 1-3; forced-OCR PSM 4 — cleaning declared in EV header; W19 T5) |
+| LB-034 | Disposiciones Especiales y Transitorias de Apoyo al "Programa de Acceso Universal a la Energía en El Salvador" (108_), Art. 1: "Las presentes disposiciones tienen por objeto establecer medidas especiales para apoyar y facilitar la implementación del "Programa de Acceso Universal a la Energía en El Salvador", que también podrá denominarse en las presentes disposiciones como "el Programa", el cual será desarrollado en todo el territorio nacional, y comprenderá el proceso de planificación, diseño, adquisición de equipos, herramientas, materiales, accesorios y repuestos, estudios, consultorías, supervisión y construcción de las obras civiles y redes de distribución de energía eléctrica, así como de sistemas de generación de energía eléctrica con base en recursos renovables; instalación y montaje de equipos; implementación de medidas ambientales y sociales; mejoramiento de accesos; adquisición de inmuebles; obras complementarias; o de cualquier actividad que sea necesaria para la completa ejecución del Programa hasta la completa recepción de las obras, bienes y servicios adquiridos localmente o en el extranjero." Art. 5: "Para el goce de los beneficios tributarios otorgados en las presentes disposiciones, los sujetos beneficiarios deberán presentar un escrito a la Dirección General de Impuestos Internos, por medio del cual se deberá informar sobre las contrataciones de obras, bienes o servicios respecto de los cuales se solicita el beneficio, adjuntando los documentos correspondientes en los que se compruebe su vinculación con el programa a que se refiere el artículo 1 de las presentes disposiciones." + "La Dirección General de Impuestos Internos, en un plazo que no exceda los diez días hábiles, contados a partir del siguiente al de la recepción del escrito al que refiere el presente artículo, emitirá la resolución correspondiente, a través de la cual podrá efectuar prevenciones o, en caso de que se cumplan todos los requisitos legales, declarará al solicitante como beneficiario de los beneficios contemplados en las presentes disposiciones." Art. 11: "Las presentes disposiciones tienen carácter especial y priman sobre cualquier ley especial o general que las contradiga." Art. 12: "Se faculta al Ministerio de Hacienda, para que, por sí, o a través de cualquiera de sus dependencias, pueda emitir los acuerdos, instructivos, circulares, resoluciones, o cualquier tipo de instrumento administrativo que garantice y viabilice la correcta y debida aplicación de lo dispuesto en las presentes disposiciones." Art. 13: "El presente decreto tendrá una vigencia de seis años contados a partir del día siguiente al de su publicación en el Diario Oficial." | Identity/instrument row (kin LB-030/031): the decree establishes special measures supporting a BID-financed, CEL-executed rural-electrification program (≈8,756 hogares per considerando V) under the CT Art. 6 literal b exoneración power (considerando VI); beneficiaries = contratistas/subcontratistas, admitted via the Art. 5 DGII escrito (informing the contrataciones + vinculación proof) with a resolución within ≤10 días hábiles counted from the day following reception (prevenciones or beneficiario declaration); special character prevails over any contrary special or general law; MH may issue acuerdos/instructivos/circulares/resoluciones to apply the decree; vigencia = six years from the day after D.O. publication (26-sep-2025 → 27-sep-2025 through 26-sep-2031). The admission mechanics are config-family inputs (escrito/resolución format = delegated practice — config-gap, no default, `02` OQ-10); the Art. 12 delegation = config-gap class (kin 96_ Art. 16); the exemption schedule lives in `02` (LB-024/FR-204); ISR/IVA operative rows = taxation SV-TAX-FR-417/419/420/421 by id | `sv/sources/108_EnergiaElectrica_AccesoUniversal_DL411_2025_Asamblea.pdf` | 108_ Arts. 1/5/11/12/13 pp.1-5 (EVID-406; 108_ txt PAGE 1-5; native asamblea text layer — intra-word cleaning per EV header; W24 T1) |
+| LB-035 | Reformas a la Ley para la Construcción, Administración, Operación y Mantenimiento del Aeropuerto Internacional del Pacífico (107_), considerando I (base-law frame): "Que mediante Decreto Legislativo No. 361, de fecha 26 de abril de 2022, publicado en el Diario Oficial No. 81, Tomo No. 435, del 29 de ese mismo mes y año, se emitió la Ley para la Construcción, Administración, Operación y Mantenimiento del Aeropuerto Internacional del Pacífico." Considerando V: "Que en la práctica, se ha podido constatar que, en gran medida, al establecer los valores de los inmuebles, con los que las personas han vendido a CEPA y se contrastan con los valores a los que estas personas los adquirieron originalmente, se advierte que se podría generar una eventual Ganancia de Capital." Considerando VI: "Que con la finalidad de no ocasionar una afectación que impacte en los recursos que las personas que han vendido a CEPA, recibieron o recibirán, por razones de un gravamen impositivo, como lo es la Ganancia de Capital, se estima necesario, por motivaciones de orden social, no incidir impositivamente a estas personas; por lo que, se vuelve necesario emitir las disposiciones legales para eximir de este gravamen a las citadas operaciones." Art. 3: "El presente decreto entrará en vigencia ocho días después de su publicación en el Diario Oficial." | IDENTITY row (CURRENT, not spent): the reform's operative articles — the added airport-law Art. 29.1.e (CEPA/MOPT seller ganancia-de-capital exoneración, perimeter-bounded) and the substituted Art. 35 (efectos retrotraídos al 8-may-2022 + orden-público-y-especial prevalence) — are quoted verbatim in taxation/03's W24 LB rows; the corpus encodes ONLY the Art. 29.1.e seller limb (operative FR = SV-TAX-FR-418, taxation/03 by id) with the Art. 35 retro-efectos window; vigencia 30-ene-2025 + 8 días = 7-feb-2025; the base law D.L. 361-2022 is UN-ACQUIRED — the Art. 2 perimeter geometry is an external config slot with NO default, and the base law's other Capítulo IV exonerations (CEPA/MOPT/companies, considerando II) are out-of-corpus — gloss only, no FR mechanics invented | `sv/sources/107_Reforma_AeropuertoPacifico_DL201_2025_Asamblea.pdf` | 107_ considerandos I/V/VI + Art. 3 pp.1-2 (EVID-405; 107_ txt PAGE 1-2; native asamblea text layer — intra-word cleaning per EV header; W24 T1) |
 
 ## 3. Functional Requirements
 
@@ -526,7 +543,7 @@ with instrument provenance — never a global constant.
   regime family, never merged).
   (LB-029; EVID-390 W19 T3)
 
-### 3.11 W19 T4 fold-in — project-specific D.L.-incentive class (95_/97_) + 96_ identity (D.L. 308-2025)
+### 3.11 W19 T4 fold-in — project-specific D.L.-incentive class (95_/97_; W24 T1: +108_) + 96_ identity (D.L. 308-2025)
 
 - **SV-SPE-FR-200:** The system shall model PROJECT-SPECIFIC D.L.
   FISCAL-INCENTIVE instruments as a distinct regime class in the inventory —
@@ -536,22 +553,40 @@ with instrument provenance — never a global constant.
   resolución on a ≥30-day prior written notice enumerating project name,
   ubicación, altura specs, titulares + socios, investment amount and
   completion date — no MINEC acuerdo, no location track; 97_: contractual —
-  CEL plus its contratistas/subcontratistas for the named project), and the
-  benefit window is INSTRUMENT-KEYED with the window kind carried as a
-  discriminator, never normalized: 95_ = fixed 15-AÑOS horizon counted from
-  the ejercicio in which incentivized utilidades first obtain (TEXT-PINNED,
-  Art. 3 inc. 2 — a standing per-beneficiary window, the law remaining open
-  for new ≥35-piso projects from 2-oct-2024); 97_ = EVENT-BOUNDED, effective
-  from contract signature until the completa recepción de las obras or the
-  end of the CEL relationship in any of its forms (a project-spent
-  transitory-style window, publication-day vigencia 25-ago-2025). Each
+  CEL plus its contratistas/subcontratistas for the named project; 108_:
+  admission kind `dgii_escrito_vinculacion` — the Art. 5 escrito a la DGII
+  informing the contrataciones de obras, bienes o servicios with the
+  program-vinculación proof attached, resolved by DGII resolución within
+  ≤10 días hábiles counted from the day following the escrito's reception
+  (prevenciones or beneficiario declaration — días-hábiles arithmetic
+  SV-FREP-FR-202..204 by id; NOT the 95_ ≥30-day prior notice; the
+  escrito/resolución format is delegated practice — config-gap, NO default,
+  `02` OQ-10)), and the benefit window is INSTRUMENT-KEYED with the window
+  kind carried as a discriminator, never normalized: 95_ = fixed 15-AÑOS
+  horizon counted from the ejercicio in which incentivized utilidades
+  first obtain (TEXT-PINNED, Art. 3 inc. 2 — a standing per-beneficiary
+  window, the law remaining open for new ≥35-piso projects from
+  2-oct-2024); 97_ = EVENT-BOUNDED, effective from contract signature until
+  the completa recepción de las obras or the end of the CEL relationship in
+  any of its forms (a project-spent transitory-style window,
+  publication-day vigencia 25-ago-2025); 108_ = TWO-LAYER — the fixed
+  decree vigencia 27-sep-2025 → 26-sep-2031 (six years, Art. 13) as the
+  outer layer, with the per-benefit event window firma de contratos →
+  recepción final de las obras / fin de la relación contractual con CEL
+  (Art. 4-II) inside it (the 97_ event_bounded_recepción kind, now carried
+  inside a still-open decree vigencia — a CURRENT member, not project-spent
+  like 97_; both layers on every dated row, never collapsed). Each
   instrument lands as its own config family keyed by instrument id +
-  vigencia, with its especialidad clause (95_ Art. 4; 97_ Art. 12) recorded
-  as a prevalence flag (never a conflict-resolution engine); the D15 dated
-  exemption rows are consumed from `02` (FR-202/203 by id); ISR-side effects
-  route through Ley ISR Art. 4.1 renta-no-gravable (54_ by id — never
-  restated here).
-  (LB-030; LB-031; EVID-392..395 W19 T4)
+  vigencia, with its especialidad clause (95_ Art. 4; 97_ Art. 12; 108_
+  Art. 11) recorded as a prevalence flag (never a conflict-resolution
+  engine); the D15 dated exemption rows are consumed from `02`
+  (FR-202/203/204 by id); ISR-side effects route through Ley ISR Art. 4.1
+  renta-no-gravable (54_ by id — never restated here); the 108_ ISR/IVA
+  side effects route to the taxation siblings BY ID only (SV-TAX-FR-417
+  no-gravables stamp · SV-TAX-FR-419 CEL-seller exoneración · SV-TAX-FR-420
+  IVA exemption registry · SV-TAX-FR-421 pro-rata relief — pointer
+  sentences only, no restatement).
+  (LB-030; LB-031; LB-034; EVID-392..395 W19 T4; EVID-406 W24 T1)
 - **SV-SPE-FR-201:** The system shall carry the D.L. 308-2025 Ley de
   Agentes Extranjeros (96_) as an IDENTITY row of the regime inventory —
   NOT a fiscal-incentive regime and NEVER consumed by this wave's exemption
@@ -634,15 +669,16 @@ default none per plan).
 | res.company (application profile) | sv_spe_prior_tan_excluded | boolean (dated) | 54-B inc. 1º (82_ Art. 10): operated in TAN + paid ISR before the qualification request ⇒ cannot take cover under the law (effective ~31-dic-2025) | FR-193 |
 | res.company | sv_spe_location_equivalence | select | none · zf_user_in_lsi_parque (Art. 54-I — ZF row sets resolve while premises sit in an LSI parque; mirror of spe/03 FR-063 iii Art. 66) · lsi_user_in_zf (FR-063 iii, spe/03) | FR-194 |
 
-**W19 T4 fold-in rows (95_/97_ project-incentive class; 96_ identity — FR-200/201):**
+**W19 T4 fold-in rows (95_/97_ project-incentive class; 96_ identity — FR-200/201; W24 T1: +108_ dl411_2025 values on FR-200):**
 
 | Entity | Field | Type | Catalog / values | Reference |
 |--------|-------|------|------------------|-----------|
 | res.company | sv_spe_regime | select + project_incentive | new class value project_incentive (third family alongside zona_franca/dpa/parque_servicios/centro_servicios — never unified with territorial kinds) | FR-200 |
-| l10n_sv_special_regime.dl_incentive | instrument_id · vigencia | select · date | dl95_2024 (2-oct-2024) · dl386_2025 (25-ago-2025); instrument-keyed config family (post-print reform watch = SOQ-30 cadence kin) | FR-200 |
-| l10n_sv_special_regime.dl_incentive | admission_kind | select | dgii_notice_resolucion (95_: ≥30-day prior notice, content-enumerated; DGII resolución ≤10 días) · cel_contract (97_: CEL + contratistas/subcontratistas) | FR-200 |
-| l10n_sv_special_regime.dl_incentive | window_kind · window_params | select · config | fixed_15y_from_first_utilidades (95_ — text-pinned Art. 3 inc. 2) · event_bounded_recepcion (97_: firma de contratos → recepción final / fin de relación CEL) | FR-200 |
-| l10n_sv_special_regime.dl_incentive | especialidad · valid_from · provenance | boolean · date · char | prevalence flag (95_ Art. 4 / 97_ Art. 12) + instrument provenance; dated rows per D15 | FR-200 |
+| l10n_sv_special_regime.dl_incentive | instrument_id · vigencia · valid_to | select · date · date | dl95_2024 (2-oct-2024) · dl386_2025 (25-ago-2025) · dl411_2025 (vigencia 27-sep-2025, valid_to 26-sep-2031 — provenance 108_ Art. 13, six years from the day after D.O. publication); instrument-keyed config family (post-print reform watch = SOQ-30 cadence kin) | FR-200 |
+| l10n_sv_special_regime.dl_incentive | admission_kind | select | dgii_notice_resolucion (95_: ≥30-day prior notice, content-enumerated; DGII resolución ≤10 días) · cel_contract (97_: CEL + contratistas/subcontratistas) · dgii_escrito_vinculacion (108_: Art. 5 escrito + vinculación proof, resolución ≤10 días hábiles from the day following reception; format = config-gap, NO default — `02` OQ-10) | FR-200 |
+| l10n_sv_special_regime.dl_incentive | window_kind · window_params | select · config | fixed_15y_from_first_utilidades (95_ — text-pinned Art. 3 inc. 2) · event_bounded_recepcion (97_: firma de contratos → recepción final / fin de relación CEL) · event_bounded_recepcion_within_6y_vigencia (108_ — discriminated value, never normalized to either layer alone: decree vigencia 27-sep-2025 → 26-sep-2031 (Art. 13) + per-benefit firma de contratos → recepción final / fin de relación CEL (Art. 4-II) inside it) | FR-200 |
+| l10n_sv_special_regime.dl_incentive | especialidad · valid_from · provenance | boolean · date · char | prevalence flag (95_ Art. 4 / 97_ Art. 12 / 108_ Art. 11) + instrument provenance; dated rows per D15 | FR-200 |
+| l10n_sv_special_regime.dl_incentive | vinculacion_contrato_ref | m2o/char | 108_: per-contract vinculación link — the Art. 5 escrito/Art. 6 registro hook consumed by `02` FR-204 by id (registros especiales keyed per contract) | FR-200, FR-204 (`02` by id) |
 | res.company/res.partner | sv_raex_state · sv_raex_date | select · date | unregistered · registered · excluded (96_ identity row — MIGOB RAEX; sanction character informational; Chapter V levy = taxation-owned (SV-TAX-FR-405..416 by id)) | FR-201 |
 
 **Declarante-role config + rulings (res.company / l10n_sv_special_regime.ruling):**
@@ -695,7 +731,7 @@ this file.
 | FR-192 | odoo | l10n_sv_special_regime.area_verde_rule | track/split/compensation | 82_ Arts. 2/5/9 (ZF 10.3.b / 18 d).5 / 46-A): 30% 10+20 ZF · 20% 10+10 DPA (ampliaciones/reducciones/traslados) · outside gate 10%/20% compensation + DOT/OPAMSS refs |
 | FR-193 | odoo | res.company | sv_spe_prior_tan_excluded | 82_ Art. 10 (ZF 54-B inc. 1º): prior TAN operation + ISR payment bars qualification (dated, ~31-dic-2025) |
 | FR-194 | odoo | res.company | sv_spe_location_equivalence = zf_user_in_lsi_parque | 82_ Art. 11 (ZF 54-I): ZF usuarios in LSI parques = as if in a zona franca; ZF row sets keep resolving; mirror of spe/03 FR-063 iii |
-| FR-200 | odoo | l10n_sv_special_regime.dl_incentive (+ sv_spe_regime = project_incentive) | instrument/vigencia/admission/window fields | 95_ D.L. 95-2024 + 97_ D.L. 386-2025 class row: instrument-keyed admission + window families (fixed-15y text-pinned vs event-bounded); D15 rows consumed from 02 (FR-202/203 by id); ISR side via 54_ Art. 4.1 by id |
+| FR-200 | odoo | l10n_sv_special_regime.dl_incentive (+ sv_spe_regime = project_incentive) | instrument/vigencia/admission/window fields | 95_ D.L. 95-2024 + 97_ D.L. 386-2025 + 108_ D.L. 411-2025 class row: instrument-keyed admission + window families (fixed-15y text-pinned vs event-bounded vs 108_ two-layer within decree vigencia 27-sep-2025→26-sep-2031); D15 rows consumed from 02 (FR-202/203/204 by id); ISR side via 54_ Art. 4.1 by id; 108_ ISR/IVA sides = taxation FR-417/419/420/421 by id |
 | FR-201 | odoo | res.company/res.partner | sv_raex_state/sv_raex_date | 96_ D.L. 308-2025 identity row: MIGOB RAEX registration state only — no benefit machinery; Chapter V 30% levy = taxation-owned (SV-TAX-FR-405..416 by id); resolves EVID-167 pointer |
 
 Version-regime notes (D12/D15/D16/D18/D19): all statutory values in this

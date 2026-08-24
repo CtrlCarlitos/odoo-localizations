@@ -5,8 +5,8 @@
 | Country | sv |
 | Topic   | special-regimes |
 | Status  | draft |
-| Authors | Takumi synthesis wave 7 (S7 special-regimes); W19 T3 fold-in (82_ ZF tail); W19 T4 fold-in (95_/97_ project incentives) |
-| Updated | 2026-08-22 |
+| Authors | Takumi synthesis wave 7 (S7 special-regimes); W19 T3 fold-in (82_ ZF tail); W19 T4 fold-in (95_/97_ project incentives); W24 T1 fold-in (108_ energía acceso-universal) |
+| Updated | 2026-08-24 |
 
 ## 1. Purpose
 
@@ -38,7 +38,13 @@ D.L.-incentive dated rows** (95_ inmobiliarios en altura, D.L. 95-2024 —
 15-year ISR exención TEXT-PINNED from the first-utilidades ejercicio;
 97_ biogás Acelhuate, D.L. 386-2025 — the IVA/DAI/ISRBT/arancel cluster
 on an event-bounded firma→recepción window) **as FR-202/203, D15-kin
-consumers of spe/01's FR-200 class row**.
+consumers of spe/01's FR-200 class row** — and **W24 T1: 108_ energía-
+eléctrica acceso-universal (D.L. 411-2025, D.O. 181 T.448 26-sep-2025,
+vigencia 27-sep-2025 → 26-sep-2031 — a CURRENT member, not project-spent
+like 97_) joins as FR-204, a per-instrument exemption-row family with
+TWO-LAYER windows (per-benefit firma→recepción/fin-relación inside the
+decree vigencia), keyed to the FR-200 class row as amended (LB-024;
+ISR/IVA operative rows live in the taxation siblings by id)**.
 
 It does **not** cover: the LSI exemption shapes and local-market caps
 (`03_lsi-regime.md`); the customs clocks (`04_customs-clocks.md`); the
@@ -92,7 +98,12 @@ single prints — 95_ (D.L. 95-2024, D.O. 181 T.444 24-sep-2024, vigencia
 publication-day) — current instruments with no consolidation layer
 (post-print reform watch = SOQ-30 cadence kin); their ISR-side effects
 route through Ley ISR Art. 4.1 renta-no-gravable (54_ cited by id, never
-restated here).** D15 discipline: every
+restated here).** **W24 T1 adds the 108_ single print (D.L. 411-2025,
+D.O. 181 T.448 26-sep-2025, vigencia 27-sep-2025 → 26-sep-2031 — native
+asamblea text layer, intra-word cleaning declared in the EV header;
+post-print reform watch = SOQ-30 cadence kin) as LB-024 + FR-204; its
+ISR/IVA operative surfaces live in the taxation siblings
+(SV-TAX-FR-417/419/420/421 by id — never restated here).** D15 discipline: every
 percentage, year-count, threshold and window in this file is a dated config
 row with instrument provenance — never a global constant.
 
@@ -121,6 +132,7 @@ row with instrument provenance — never a global constant.
 | LB-021 | Reformas a la Ley de Zonas Francas (82_), Art. 12 (Disposición Transitoria): "Los Desarrollistas, Usuarios de Zonas Francas y los Depósitos para Perfeccionamiento Activo (DPA), contarán con un período de gracia de dos años contados a partir del vencimiento del plazo establecido en su respectivo Acuerdo, durante el cual continuarán gozando de todos los beneficios de la ley, incluyendo la exención del Impuesto sobre la Renta respecto de las utilidades o dividendos distribuidos a sus socios o accionistas, provenientes de la actividad favorecida. Durante dicho periodo, deberán realizar las adecuaciones e inversiones que consideren necesarias, a fin de que, vencido el período de gracia, continúen recibiendo los beneficios conferidos por la Ley… En el caso de que no se concrete la inversión en el plazo señalado en el inciso anterior, los Desarrollistas, Usuarios de Zonas Francas y los Depósitos para Perfeccionamiento Activo (DPA) estarán obligados a cancelar los derechos e impuestos que resulten aplicables y que se habrían generado durante ese periodo en caso de no haber gozado del beneficio." | The 2-YEAR GRACE transitory: Desarrollistas, ZF usuarios and DPAs get a grace period counted from the EXPIRY OF THEIR RESPECTIVE ACUERDO'S TERM during which ALL the law's benefits continue — expressly INCLUDING the ISR exemption on utilidades/dividends distributed to socios or accionistas from the favored activity; during the grace period they must make the adequacy investments needed to keep receiving benefits after it ends; if the investment is not concretized within the period, they must PAY the rights and taxes that would have been generated during the grace period had the benefit not been enjoyed (a clawback) | `sv/sources/82_Reforma_Ley_ZF_DL493_DO_2025-12-23.pdf` | 82_ Art. 12 p.8 (EVID-385/390; 82_ txt PAGE 8; vigencia ~31-dic-2025; OCR PSM 4 — "dosaños"→"dos años" normalized) |
 | LB-022 | Disposiciones Especiales … Proyectos Inmobiliarios en Altura (95_), Art. 2: "Podrán gozar del incentivo fiscal…, las personas naturales, jurídicas y las Uniones de Personas, que se encuentren domiciliados o no en el territorio nacional, que sean titulares de inversiones nuevas en proyectos de construcción o edificación de desarrollos inmobiliarios en altura…, debiendo estar relacionadas a la comercialización en algunos de los siguientes rubros o condiciones: 1) Cuando se trate de la primera compraventa de inmuebles en altura, ya sea la venta total de la edificación o, en caso de venta o ventas parciales, la primera venta de cada una de las áreas previamente determinadas; tales como la venta de apartamentos o de espacios para oficinas, establecimientos o comercios. 2) El alquiler de inmuebles en altura con fines turísticos, comerciales o para la prestación de servicios, siempre y cuando el propietario del inmueble sea el inversionista inicial. 3) El alquiler de espacios y la prestación de servicios de hostelería, cuando el prestador del servicio fuere el mismo titular del proyecto. 4) La prestación de servicios de construcción de bienes inmuebles en altura." Art. 3 inc. 1: "Se declaran exentas del pago del Impuesto sobre la Renta, las utilidades e ingresos que obtengan…, cuando tales productos sean obtenidos exclusivamente a dichos proyectos, provenientes de las actividades mencionadas en el artículo precedente." Art. 3 inc. 2: "La exención operará por el período de quince años, los cuales serán contados a partir del ejercicio de imposición en que se comiencen a obtener tales utilidades e ingresos. Dichas rentas tampoco estarán sujetas a la aplicación de Ganancia de Capital, estipulada en los artículos 14 y 42 de la Ley de Impuesto sobre la Renta, así como de retenciones en la fuente, ni al pago o anticipo a cuenta del referido impuesto, por dichos rubros." Art. 3 incisos 3-7 (selection): PJ/Uniones pass-through ("…tanto a la entidad titular del proyecto, como a los socios, accionistas o integrantes… individualmente considerados, únicamente respecto a las utilidades o dividendos provenientes de las actividades incentivadas… este beneficio no podrá trasladarse sucesivamente a otros socios"); adquirentes/arrendatarios exclusion ("no será aplicable para quienes ostenten el carácter de adquirentes de apartamentos, oficinas…, ni para los usuarios que arrienden o subarrienden dichos espacios"); DGII notice (≥30 días before construction start; content-enumerated) + resolución ≤10 días; "En ningún caso, esta exoneración impositiva será procedente, cuando el arrendante del inmueble…, no sea el propietario original del inmueble o inversionista inicial."; abuse revocation per "artículo 260 del Código Tributario" | Natural/juridical persons and Uniones de Personas (domiciled or not) holding NEW investments in 35+-floor high-rise projects enjoy the incentive across four commercialization rubros: first sale of the building (total, or first sale of each pre-determined area); tourist/commercial/services LEASING only when the owner is the initial investor; space leasing + hotelier services only when the provider is the project titular; construction services. Profits/income obtained EXCLUSIVELY from the project are declared ISR-EXEMPT for FIFTEEN YEARS counted from the tax year they first begin to be obtained (TEXT-PINNED); those rents are also free of Capital Gain (Ley ISR Arts. 14/42), of source retentions, and of ISR payments/advances on those items. Entity-level exemption flows to partners/shareholders individually, only on incentivized-activity profits/dividends, PJ-partner exclusivity, no successive transfer. Excluded: buyers of units, (sub)tenants, and any lease whose lessor is not the original owner/initial investor. Admission: DGII prior notice ≥30 days with enumerated content + beneficiary resolution ≤10 days. Determined abuse ⇒ resolution revoked via the CT Art. 260 procedure | `sv/sources/95_Disposiciones_Inmobiliarios_Altura_DL95_2024_DGII.pdf` | 95_ Arts. 2-3 pp.2-3 (EVID-392/393; 95_ txt PAGE 2-3; W19 T4) |
 | LB-023 | Disposiciones Especiales, Transitorias y Complementarias … Proyecto "…Biogás en el Río Acelhuate" (97_), Art. 1 literals a-d (selection): a) "Exención total del Impuesto a la Transferencia de Bienes Muebles y a la Prestación de Servicios…"; b) "Exención total…, de impuestos y gravámenes a la importación e internación, de Derechos Arancelarios a la Importación, y del Impuesto a la Transferencia de Bienes Muebles y a la Prestación de Servicios. El beneficio no podrá ser extensivo a ningún otro sujeto que pudiera intervenir en la operación de importación." + "Los proveedores locales que realicen ventas de bienes o prestaciones de servicios a favor de los beneficiarios…, no se encontrarán obligados a aplicar la proporcionalidad del crédito fiscal a que se refiere el artículo 66 de la Ley del Impuesto a la Transferencia de Bienes Muebles y a la Prestación de Servicios." c) "Exención total del Impuesto sobre Transferencia de Bienes Raíces… cuando quien adquiera tales bienes…, sea la Comisión Ejecutiva Hidroeléctrica del Río Lempa (CEL)." d) "Exención total de aranceles y gravámenes…, tales como el… (IVA), los Derechos Arancelarios a la Importación (DAI) y el impuesto exclusivo de acuerdo al tipo de internación…". Art. 2: contractor ingresos "se considerarán no gravadas para efectos del Impuesto sobre la Renta según lo regulado en el artículo 4, numeral 1 de la Ley de Impuesto sobre la Renta. Esta disposición estará vigente hasta la completa recepción de las obras." Art. 3: "…Ninguna exención regulada en este decreto será extensiva a bienes para el consumo o de uso personal de directivos, socios o personal de las empresas, familiares de aquellos o empresas relacionadas y bienes del activo corriente." + "Las exenciones…, serán efectivas desde la firma de los contratos…, y hasta la recepción final de las obras respectivas o el fin de la relación con la Comisión Ejecutiva Hidroeléctrica del Río Lempa (CEL) en cualquiera de sus formas." Art. 4: "…estarán obligadas a llevar registro completo del uso de los incentivos fiscales…; además, deberán presentar las declaraciones tributarias correspondientes a los beneficios determinados en este decreto…". Art. 5: voluntary sellers to CEL "estarán exentos del pago de impuestos que pudiera generar la venta de los mismos por concepto de Impuesto sobre la Renta, Impuesto a la Transferencia de Bienes Raíces y los derechos ante el Centro Nacional de Registros." | The CEL-biogás exemption cluster: total IVA on covered local transfers/services; total import/internación taxes + DAI + IVA for project operations (expressly NON-extensive to other subjects of the import operation); local suppliers to beneficiaries relieved of the Ley IVA Art. 66 fiscal-credit pro-rata; total ISRBT when the real-estate acquirer is CEL; total aranceles/gravámenes incl. IVA, DAI and the internación-type exclusive tax (identity corpus-silent — OQ-8). Contractor/subcontractor income is NOT TAXABLE for ISR under Ley ISR Art. 4.1, until complete reception of the works. No exemption extends to personal-consumption/personal-use goods or current-asset goods. Exemptions run from CONTRACT SIGNATURE until final reception of the works or the end of the CEL relationship in any form. Contractors must keep a complete record of incentive use and file the corresponding declarations per MH guidelines. Voluntary sellers to CEL: ISR + ISRBT + CNR duties exempt | `sv/sources/97_Disposiciones_Biogas_Acelhuate_DL386_2025_DGII.pdf` | 97_ Arts. 1-5 pp.2-4 (EVID-394/395; 97_ txt PAGE 2-4; W19 T4) |
+| LB-024 | Disposiciones Especiales y Transitorias de Apoyo al "Programa de Acceso Universal a la Energía en El Salvador" (108_), Art. 2: "Las personas naturales o jurídicas que tengan la calidad de contratistas o subcontratistas en el "Programa de Acceso Universal a la Energía en El Salvador" gozarán de las exenciones tributarias siguientes: a) Exención total del Impuesto a la Transferencia de Bienes Muebles y a la Prestación de Servicios, la cual se aplicará a las transferencias de bienes y prestaciones de servicios enunciados en el artículo 1 de las presentes disposiciones. b) Exención total por el período que realicen operaciones relacionadas con el Programa mencionado de impuestos y gravámenes a la importación e internación, de Derechos Arancelarios a la Importación, y del Impuesto a la Transferencia de Bienes Muebles y a la Prestación de Servicios. El beneficio no podrá ser extensivo a ningún otro sujeto que pudiera intervenir en la operación de importación." + final ¶: "Los proveedores locales que realicen ventas de bienes o prestaciones de servicios a favor de los beneficiarios de las exenciones detalladas no aplicarán la proporcionalidad del crédito fiscal a que se refiere el artículo 66 de la Ley del Impuesto a la Transferencia de Bienes Muebles y a la Prestación de Servicios." c) "Exención de toda clase de tributos relacionados con la obtención de licencias y permisos para la construcción de redes de distribución de energía eléctrica y sistemas de generación de energía eléctrica con base en recursos renovables." Art. 3: "Los ingresos que perciban las personas naturales o jurídicas, involucradas como contratistas o subcontratistas respecto de las actividades relacionadas con el Programa y a las que se ha hecho referencia en el artículo 1 de este decreto, se considerarán como no gravables para los efectos de lo dispuesto en el artículo 4 numeral 1 de la Ley de Impuesto sobre la Renta, hasta la completa recepción de las obras, bienes y servicios adquiridos." Art. 4: "Ninguna exención o beneficio regulados en este decreto será extensiva a bienes para el consumo o de uso personal de directivos, socios o personal de las empresas, familiares de aquellos o empresas relacionadas ni podrá aplicarse para la adquisición de bienes del activo corriente de los sujetos beneficiarios." + "Los beneficios tributarios contemplados en las presentes disposiciones serán efectivos desde la firma de los contratos para las adquisiciones, compras, contrataciones, importaciones e internaciones, aplicables a las actividades relacionadas en el artículo 1 de este decreto, para el beneficio exclusivo de la ejecución de los mismos y hasta la recepción final de las obras respectivas o el fin de la relación contractual con la Comisión Ejecutiva Hidroeléctrica del Río Lempa (CEL) bajo cualquier modalidad de contratación." + "En aquellos casos, en los cuales, con posterioridad al ejercicio de las facultades de fiscalización por parte de la Administración Tributaria, se llegare a determinar abuso en el uso de los beneficios tributarios concedidos en virtud de las presentes disposiciones, se procederá a revocar la resolución que las autorizó, de conformidad con el procedimiento regulado en el artículo 260 del Código Tributario. Además, la Administración Tributaria deberá determinar y liquidar los tributos dejados de pagar a partir del ejercicio en que se determinó la existencia del abuso." Art. 6: "Para los efectos de control tributario tanto de los contratistas y subcontratistas, ya sean personas naturales o jurídicas, estarán obligados a llevar registros especiales por las operaciones de compras y ventas de bienes y prestaciones de servicios que efectúen y que sean requeridas para el desarrollo del contrato correspondiente, durante las etapas relativas a: planificación, diseño, suministro de equipos, herramientas, materiales, accesorios y repuestos, estudios, consultorías, supervisión y construcción, construcción de las obras civiles y redes de distribución de energía eléctrica, así como de sistemas de generación de energía eléctrica con base en recursos renovables; instalación y montaje de equipos; implementación de medidas ambientales y sociales; mejoramiento de accesos, adquisición de terrenos/inmuebles; obras complementarias; o de cualquier otra actividad que sea necesaria para la completa ejecución del Programa; haciendo constar en dicho registro, la vinculación de tales operaciones con el contrato respectivo, para efectos de fiscalizaciones ulteriores, los cuales deberán conservarse por el plazo y forma indicados en el artículo 147 del Código Tributario." + "Asimismo, deberán presentar las declaraciones tributarias y aduaneras correspondientes, en relación con las exenciones contenidas en el presente decreto y a la legislación tributaria respectiva." Art. 7: "Los propietarios o poseedores que vendan voluntariamente sus inmuebles a favor de la Comisión Ejecutiva Hidroeléctrica del Río Lempa (CEL), estarán exentos del pago del Impuesto sobre la Renta que pudiera generar la venta de los mismos en concepto de Ganancia de Capital, en consecuencia, tampoco estarán obligados a presentar por dicha venta el formulario para el cómputo correspondiente a la misma." Art. 8: "Exonérese del pago de cualquier arancel por los servicios que brinda el Centro Nacional de Registros (CNR), a los contratistas y subcontratistas que realicen actos sujetos a inscripción en el marco de la ejecución de lo establecido en las presentes disposiciones." | The energy-program contractor package: a) total IVA exemption on the Art. 1-enumerated transfers of goods and prestations of services; b) total exemption — for the period of Program-related operations — of importation/internación taxes and levies, DAI and IVA, expressly NON-extensive to any other subject that might intervene in the import operation; final ¶: local suppliers selling goods/services to the exemption beneficiaries do NOT apply the Art. 66 Ley-IVA crédito-fiscal proportionality; c) exemption of every class of tributes related to obtaining licenses/permits for building distribution networks and renewable-resource generation systems. Art. 3: contractor/subcontractor ingresos are NOT TAXABLE for Ley ISR Art. 4.1 purposes until complete reception of the works, goods and services acquired. Art. 4: no exemption extends to personal-consumption/personal-use goods of directors, partners, staff, their relatives or related companies, nor to current-asset acquisitions; benefits run from CONTRACT SIGNATURE to final reception of the works or the end of the CEL contractual relationship under any contracting modality; post-fiscalización abuso determinations revoke the authorizing resolución per CT Art. 260 and the Administration determines and liquidates unpaid tributes from the ejercicio the abuso was determined in. Art. 6: special per-contract records of purchases/sales/services across the enumerated program stages, making constar each operation's contract vinculación, conserved per CT Art. 147; tax and customs declarations remain due. Art. 7: propietarios o poseedores voluntarily selling inmuebles to CEL are exempt from the ISR Ganancia de Capital the sale could generate AND are likewise NOT obliged to present the computation formulario for that sale. Art. 8: CNR arancel exoneration for inscribable acts in program execution. GLOSS (per EVID-406): a BID-financed, CEL-executed rural-electrification package (≈8,756 hogares, considerando V) under CT Art. 6-b exoneración power (considerando VI); beneficiary class gated by the Art. 5 DGII resolución (≤10 días hábiles — format = config-gap, OQ-10); vigencia D.O. 26-sep-2025 + 1 day → 27-sep-2025 through 26-sep-2031 (six years, Art. 13) — a CURRENT operative window; the Art. 66 pro-rata carve-out is a REAL seller-side IVA-credit-engine exception (taxation/11 by id); ISR no-gravables stamp = taxation/01 by id; CEL-seller exoneración + no-formulario = taxation/03 by id; CT 147 conservation = taxation/16 by id; the class/window rows = spe/01 FR-200 (amended W24) + FR-204 | `sv/sources/108_EnergiaElectrica_AccesoUniversal_DL411_2025_Asamblea.pdf` | 108_ Arts. 2/3/4/6/7/8 pp.2-4 (EVID-406; 108_ txt PAGE 2-4; native asamblea text layer — intra-word cleaning per EV header; W24 T1) |
 
 ## 3. Functional Requirements
 
@@ -531,6 +543,72 @@ row with instrument provenance — never a global constant.
   dated rows.
   (LB-023; EVID-394/395 W19 T4)
 
+### 3.13 W24 T1 fold-in — 108_ per-instrument exemption-row family (energía eléctrica acceso-universal)
+
+- **SV-SPE-FR-204:** The system shall implement the 108_ energía-eléctrica
+  acceso-universal exemption package as a dated per-instrument exemption-row
+  family on the FR-023 chassis, keyed to the amended FR-200 class row
+  (instrument dl411_2025, decree vigencia 27-sep-2025 → 26-sep-2031 — a
+  CURRENT member, not project-spent like 97_): beneficiaries = personas
+  naturales o jurídicas holding the calidad de contratista o
+  subcontratista in the "Programa de Acceso Universal a la Energía en El
+  Salvador", admitted through the Art. 5 DGII gate — the escrito informing
+  the obras/bienes/servicios contrataciones with the program-vinculación
+  proof attached, resolved by resolución within ≤10 días hábiles counted
+  from the day following the escrito's reception (prevenciones or
+  beneficiario declaration; días-hábiles arithmetic SV-FREP-FR-202..204 by
+  id; the escrito/resolución format is delegated practice — config-gap
+  with NO default, OQ-10; EV file OQ-1). The exemption rows carry the
+  three Art. 2 literals — a) IVA exención TOTAL on the transfers of goods
+  and prestations of services enumerated in Art. 1 (operative IVA registry
+  = SV-TAX-FR-420, taxation/08 by id); b) exención total de impuestos y
+  gravámenes a la importación e internación + DAI + IVA for the period of
+  Program-related operations, expressly NON-extensive to any other subject
+  that might intervene in the import operation (no-cascade flag on the
+  import rows); c) exención of every class of tributes related to
+  obtaining the licencias y permisos for the construction of distribution
+  networks and renewable-resource generation systems (a non-IVA regulatory
+  surface — awareness limb inside the row, no invented mechanics) — and
+  the ISR side: contractor/subcontractor ingresos from the Art.
+  1-enumerated activities are renta NO GRAVADA per Ley ISR Art. 4.1 (54_
+  by id) until the completa recepción de las obras, bienes y servicios
+  adquiridos (operative stamp = SV-TAX-FR-417, taxation/01 by id; the
+  no-retention consequence flows from the no-gravada status per the OQ-9
+  working reading — 108_, like 97_, prints no express retention clause).
+  The WINDOW rows are TWO-LAYER per D15: the per-benefit event window —
+  effective from the firma de los contratos until the recepción final de
+  las obras respectivas or the fin de la relación contractual con CEL
+  bajo cualquier modalidad de contratación (Art. 4-II) — carried INSIDE
+  the fixed decree vigencia 27-sep-2025 → 26-sep-2031 (Art. 13); both
+  layers stamped on every dated row, never collapsed (a post-recepción
+  operation loses the rows even while the decree-vigencia layer is still
+  open). CARVE-OUT flags: no exemption extends to bienes para el consumo
+  o de uso personal of directivos, socios o personal, familiares or
+  empresas relacionadas, nor to adquisiciones of activo corriente goods
+  (Art. 4-I). COMPLIANCE: registros especiales per contract for the
+  compras/ventas/servicios operations across the enumerated program
+  stages, making constar the vinculación of each operation with its
+  contract, conserved per CT Art. 147 (taxation/16 by id), with the
+  declaraciones tributarias y aduaneras duty standing (Art. 6 —
+  bookkeeping-segregation flag, FR-203/FR-197 kin). ABUSO state: a
+  post-fiscalización determination of abuso revokes the granting
+  resolución via the CT Art. 260 procedure and the Administración
+  Tributaria determines and liquidates the tributos dejados de pagar from
+  the ejercicio in which the abuso was determined (Art. 4-III) — an
+  own-cause state-reason row on the FR-015 benefit-state family (95_/97_
+  pattern), never merged with the ZF/LSI ladders. CEL-SELLER limb:
+  propietarios O POSEEDORES voluntarily selling their inmuebles to CEL
+  are exentos from the ISR on the Ganancia de Capital the sale could
+  generate AND expressly NOT obliged to present the formulario for its
+  cómputo (operative = SV-TAX-FR-419, taxation/03 by id — the express
+  formulario-duty lift distinguishes the limb); the CNR arancel
+  exoneration for inscribable acts in program execution (Art. 8) lands as
+  its own dated row. PROVEEDORES-LOCALES limb: local suppliers selling to
+  the exemption beneficiaries do not apply the Art. 66 proporcionalidad
+  del crédito fiscal (Art. 2 final paragraph) = SV-TAX-FR-421,
+  taxation/11 by id — pointer only, never restated here.
+  (LB-024; EVID-406 W24 T1)
+
 ## 4. Data Model
 
 Layer semantics: all entities are Odoo-native config/ledger rows on the
@@ -604,16 +682,16 @@ judgment noted in the task report).
 | l10n_sv_special_regime.municipal_proration | fiscal_year · local_sales · total_sales · activo | year · monetary | ratio = local sales ÷ total sales in relation to activo, per Art. 25 final | FR-041 |
 | l10n_sv_special_regime.municipal_proration | ratio · provenance | computed · char | dated computed row per ejercicio (comercializadores; TAN-sale income excluded from incentive rows) | FR-041 |
 
-**Project-incentive rows (W19 T4 — 95_/97_ on the exemption-row chassis, FR-202/203):**
+**Project-incentive rows (W19 T4 — 95_/97_; W24 T1 — +108_ dl411_2025 on the exemption-row chassis, FR-202/203/204):**
 
 | Entity | Field | Type | Catalog / values | Reference |
 |--------|-------|------|------------------|-----------|
-| l10n_sv_special_regime.exemption_row | instrument_id · tax_kind | select (dl95_2024 · dl386_2025) · select | 95_: isr (100%, rubro-scoped); 97_: iva · import_dai_iva · isrbt_cel · aranceles (incl. the impuesto-exclusivo config-gap slot, OQ-8) · isr_no_gravada (contractor flag) · isrbt_isr_seller_art5 · cnr_derechos | FR-202, FR-203 |
-| l10n_sv_special_regime.exemption_row | window_kind · anchor | select · date/event | 95_: fixed_15y_from_first_utilidades (anchor = first-utilidades ejercicio, TEXT-PINNED); 97_: event_bounded (anchor = firma de contratos; end = recepción final / fin de relación CEL) | FR-202, FR-203 |
-| l10n_sv_special_regime.exemption_row | suppression_flags | booleans | 95_: no_capital_gain (54_ Arts. 14/42 by id) · no_source_retention (EXPRESS) · no_payment_advance; socio flow-through row with pj_exclusive + no_successive_transfer | FR-202 |
-| l10n_sv_special_regime.exemption_row | exclusion_flags · carve_outs | booleans | 95_: adquirente · arrendatario_subarrendatario · lessor_not_initial_investor; 97_: personal_consumption · activo_corriente; 97_ import rows carry non_cascade (no extension to other import-operation subjects) | FR-202, FR-203 |
-| l10n_sv_special_regime.dl_incentive | admission_ref · registro_flag | char · boolean | 95_: DGII notice (≥30 días prior, content-enumerated) + resolución ≤10 días + abuse-revocation state (CT Art. 260 procedure); 97_: contrato refs + registro-de-uso compliance flag + Art. 66 proporcionalidad-relief pointer (01_ by id) | FR-202, FR-203 |
-| l10n_sv_special_regime.exemption_row | provenance | char | 95_/97_ article as printed (single-print current instruments — SOQ-30 cadence kin) | FR-202, FR-203 |
+| l10n_sv_special_regime.exemption_row | instrument_id · tax_kind | select (dl95_2024 · dl386_2025 · dl411_2025) · select | 95_: isr (100%, rubro-scoped); 97_: iva · import_dai_iva · isrbt_cel · aranceles (incl. the impuesto-exclusivo config-gap slot, OQ-8) · isr_no_gravada (contractor flag) · isrbt_isr_seller_art5 · cnr_derechos; 108_: iva · import_dai_iva · licencias_tributos · isr_no_gravada_until_recepcion (contractor flag — FR-417 by id) · isr_gain_cel_seller (FR-419 by id) · cnr_arancel | FR-202, FR-203, FR-204 |
+| l10n_sv_special_regime.exemption_row | window_kind · anchor | select · date/event | 95_: fixed_15y_from_first_utilidades (anchor = first-utilidades ejercicio, TEXT-PINNED); 97_: event_bounded (anchor = firma de contratos; end = recepción final / fin de relación CEL); 108_: event_bounded_recepcion_within_vigencia (TWO layers on the row, never collapsed: per-benefit firma de contratos → recepción final / fin de relación CEL per Art. 4-II, inside decree vigencia 27-sep-2025 → 26-sep-2031 per Art. 13) | FR-202, FR-203, FR-204 |
+| l10n_sv_special_regime.exemption_row | suppression_flags | booleans | 95_: no_capital_gain (54_ Arts. 14/42 by id) · no_source_retention (EXPRESS) · no_payment_advance; socio flow-through row with pj_exclusive + no_successive_transfer; 108_: isr_gain_cel_seller row carries no_formulario (express lift, Art. 7) | FR-202, FR-204 |
+| l10n_sv_special_regime.exemption_row | exclusion_flags · carve_outs | booleans | 95_: adquirente · arrendatario_subarrendatario · lessor_not_initial_investor; 97_: personal_consumption · activo_corriente; 97_ import rows carry non_cascade (no extension to other import-operation subjects); 108_: personal_consumption · activo_corriente (Art. 4-I) + non_cascade on the import_dai_iva row | FR-202, FR-203, FR-204 |
+| l10n_sv_special_regime.dl_incentive | admission_ref · registro_flag | char · boolean | 95_: DGII notice (≥30 días prior, content-enumerated) + resolución ≤10 días + abuse-revocation state (CT Art. 260 procedure); 97_: contrato refs + registro-de-uso compliance flag + Art. 66 proporcionalidad-relief pointer (01_ by id); 108_: dgii_escrito_vinculacion admission (Art. 5 escrito + resolución ≤10 días hábiles; format = config-gap OQ-10; spe/01 FR-200 by id) + per-contract vinculación registro link (Art. 6 — spe/01 vinculacion_contrato_ref by id) + CT-260 abuso revocation with liquidation from the abuso-determination ejercicio (Art. 4-III) | FR-202, FR-203, FR-204 |
+| l10n_sv_special_regime.exemption_row | provenance | char | 95_/97_/108_ article as printed (single-print current instruments — SOQ-30 cadence kin; 108_ dated rows carry both window layers per D15) | FR-202, FR-203, FR-204 |
 
 ## 5. Odoo Mapping
 
@@ -652,6 +730,7 @@ behavior is required by this file.
 | FR-198 | odoo | l10n_sv_special_regime.exemption_row | grace_period_82 rows + clawback | 82_ Art. 12: 2-yr grace from acuerdo-term end, all benefits incl. socio dividend ISR exemption; failure-to-invest ⇒ pay the would-have-been rights+taxes |
 | FR-202 | odoo | l10n_sv_special_regime.exemption_row | instrument dl95_2024 isr rows | 95_ D.L. 95-2024: 100% ISR on exclusively-project utilidades, 15 yrs from first-utilidades ejercicio (text-pinned); GC/retención/anticipo suppressions; socio flow-through PJ-exclusive; adquirente/arrendatario/non-initial-lessor exclusions; DGII notice+resolución admission; CT-260 abuse revocation |
 | FR-203 | odoo | l10n_sv_special_regime.exemption_row | instrument dl386_2025 rows | 97_ D.L. 386-2025: IVA/import-DAI/ISRBT-CEL/arancel cluster + contractor ISR no-gravada flag (54_ Art. 4.1 by id); event-bounded firma→recepción/final-relación window; personal-consumption + activo corriente carve-outs; registro-use + declaration duty; Art. 66 relief pointer (01_ by id); Art. 5/6 seller + CNR rows |
+| FR-204 | odoo | l10n_sv_special_regime.exemption_row | instrument dl411_2025 rows | 108_ D.L. 411-2025: IVA / import-DAI-IVA (non-cascade) / licencias-tributos exemptions + contractor ISR no-gravada-until-recepción (FR-417 by id) + CEL-seller ganancia exoneración with no-formulario (FR-419 by id) + CNR arancel; TWO-LAYER window (firma→recepción/fín-relación per Art. 4-II inside decree vigencia 27-sep-2025→26-sep-2031 per Art. 13); personal-consumption + activo corriente carve-outs; Art. 6 registros especiales + CT-147 (taxation/16 by id); Art. 66 relief = FR-421 by id; DGII escrito/resolución format + MH Art. 12 directrices = config-gaps (OQ-10) |
 
 Version-regime notes (D12/D15/D16/D18/D19): all ladders, percentages,
 year-counts, extension predicates and windows are code-text values cited as
@@ -749,9 +828,26 @@ regime validity is never overridden by configuration).
   project window resolves, then the exemption cluster (IVA, import/DAI,
   CEL-side ISRBT, aranceles) and the contractor ISR no-gravada flag run
   exactly from signature to 30-jun-2028 (never beyond; never the 95_
-  fixed-horizon shape), the import rows refuse extension to other subjects
-  of the import operation, and a director's personal-use vehicle purchase
-  is carved out of every row (FR-203).
+   fixed-horizon shape), the import rows refuse extension to other subjects
+   of the import operation, and a director's personal-use vehicle purchase
+   is carved out of every row (FR-203).
+- **AC-016:** Given a contractor declared 108_ beneficiario by DGII
+  resolución (Art. 5 escrito + vinculación proof recorded) whose program
+  equipment import is handled by a freight forwarder, when the import
+  resolves, then the contractor's import row lands at $0 DAI/IVA while the
+  no-cascade flag blocks any extension of the benefit to the freight
+  forwarder or any other subject of the import operation (FR-204).
+- **AC-017:** Given the same contractor acquiring a director's personal-use
+  vehicle under the program, when the purchase records, then every 108_
+  exemption row refuses it (personal-consumption/personal-use + activo
+  corriente carve-outs, Art. 4-I) (FR-204).
+- **AC-018:** Given a contractor whose obras reached recepción final on
+  15-mar-2027, when an operation dated 2-abr-2027 resolves (inside the
+  decree vigencia running to 26-sep-2031), then the 108_ exemption rows
+  are expired for it by the per-benefit event window
+  (firma→recepción/fín-relación) even though the decree-vigencia layer is
+  still open — both window layers carried on the dated row, never
+  collapsed (FR-204).
 
 ## 7. Open Questions
 
@@ -765,4 +861,5 @@ regime validity is never overridden by configuration).
 | OQ-6 | Concejos-municipales additional benefits (Arts. 11/17/19 final paragraphs): municipal councils MAY grant benefits beyond the law's — discretionary, instrument-less in corpus; FR-025/FR-028 expose empty config slots with NO defaults; a granted benefit lands as new dated rows with municipal-instrument provenance. | no | Takumi S7 (config watch) | open |
 | OQ-7 | 82_ extension-regime interactions (W19 T3): (a) the 54-C grandfathering grants pre-2013 desarrollistas/administradores "+5 años" for ampliations per "el inciso último del artículo 11" — that inciso is now the reformed +10-year text (LB-018); working ruling: grandfathered extension requests determined after ~31-dic-2025 ride the reformed predicate/term, pre-vigencia determinations keep the 12_ reading (dated rows both sides). (b) The 82_ transitory grace (FR-198) spans acuerdos expiring at/after ~31-dic-2025 with no printed end date of its own — encode per-acuerdo +2-year rows; mass-expiry interaction with the D.L. 598-2020-era decree (out of corpus) unverified. (c) The BCR "último porcentaje de inflación anual" is an external input — dated lookup, source assumption labeled. | no | Takumi S7 (config watch) | open |
 | OQ-8 | 97_ Art. 1 d) "el impuesto exclusivo de acuerdo al tipo de internación" (W19 T4): WHICH exclusive tax(s) the phrase covers is corpus-silent — FR-203's arancel/gravamen row names the printed phrase as a config-gap with NO default enumeration (value discipline); resolve when the operative DGA/DGII disposition or a later aclaración lands (EV95/96/97 OQ-1). | no | Takumi S7 (sources watch) | open |
-| OQ-9 | 97_ retention gloss, working ruling (W19 T4, EV95/96/97 OQ-3): contractor ingresos are renta NO GRAVADA per Ley ISR Art. 4.1 (54_ by id) and 97_ prints NO express "retenciones en la fuente" clause (95_ does) — the no-retention consequence on covered contractor invoices is encoded via the no-gravada flag consumed by the ISR retention engine by id; confirm at implementation. | no | Takumi S7 (fiscalización watch) | open |
+| OQ-9 | 97_ retention gloss, working ruling (W19 T4, EV95/96/97 OQ-3): contractor ingresos are renta NO GRAVADA per Ley ISR Art. 4.1 (54_ by id) and 97_ prints NO express "retenciones en la fuente" clause (95_ does) — the no-retention consequence on covered contractor invoices is encoded via the no-gravada flag consumed by the ISR retention engine by id; confirm at implementation. **W24 T1: 108_ rides this same working reading (FR-204 — it too prints no express retention clause).** | no | Takumi S7 (fiscalización watch) | open |
+| OQ-10 | 108_ operative-format config-gap (W24 T1; EV107/108 file OQ-1 rides here): the Art. 5 DGII escrito/resolución format (solicitud/prevenciones practice), the Art. 12 MH directrices (acuerdos/instructivos/circulares/resoluciones — the delegation kin of 96_ Art. 16), and the documental presentation of 108_-exempt operations (DTE exento emission kin the 67_ guía pattern — no corpus instrument) are delegated/absent from the corpus — FR-204 and the spe/01 FR-200 admission rows ship config slots with NO defaults (value-discipline canon: no invented procedure formats); resolve when the operative MH/DGII disposition lands. | no | Takumi S7 (sources watch) | open |
