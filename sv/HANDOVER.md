@@ -322,9 +322,9 @@ must grep ALL LB source columns of the new files.
   pre-W22 "104 files" glosses corrected). **Fold-in debts born: (a) cml
   edit wave — FR-044 SAS flip + profile rows, acciones re-anchors,
   usura/truncation/338 notes, gratuidad window; (b) spe/taxation wave —
-  107/108 exemption surfaces.** Commits: see the git log (sv-research
-  push). Merge to main = owner decision (fortieth §4.6 run when it
-  happens).
+  107/108 exemption surfaces.** Commits: 10963bb pre-rebase → 8fe7854
+  post-rebase (sv-research push; main merge = 8fe7854 + record c4eda40 —
+  forty-first §4.6 run).
 
 - **W21 (2026-08-23):** COTRANS Aug-2025 prorroga mini acquisition wave
   COMPLETE — controller-direct (no subagents; proportionate scale —
