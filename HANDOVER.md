@@ -739,6 +739,24 @@ expected and absorbed by instantiating the canon, never by forking it.
        truncation notes) + spe/taxation wave (107/108 exemption
        surfaces). SV worktree clean at the merge point.
 
+       **GT idle-close merge 2026-08-23 (§4.6 protocol, forty-third
+       run):** bootstrap session (`Read gt/HANDOVER.md and continue.`)
+       found the forty-second run already landed and recorded; state
+       verified clean (main `854cc47` at open, both checkouts clean,
+       remotes synced, both GT inboxes EMPTY, no core.editor
+       leftover). No controller-actionable work — queue rev 13 = all
+       owner-side/future-dated (DCA-archive SEM/accidentes rate hunt ·
+       D-1633 art.-11 montos · AG 52-2017 low watch · 1556-window
+       expiry ≈25-sep-2026 · TotalDoc roster 02-dic-2026 · AML
+       reglamento ≈17-mar-2027 · accountant · TotalDoc W6); owner
+       chose idle close. Single gt/HANDOVER.md addendum commit
+       (idle-verification note + next-session bootstrap = inbox check
+       for W-GT11) rebased onto the advanced main tip `beef5e1`
+       (parallel SV bookkeeping; zero conflicts — gt/-scoped) and
+       fast-forward-merged at `ffde2c5`; remote gt-research updated
+       via delete + re-push; core.editor unset at close. Corpus
+       unchanged 115/0/0; no wave queued.
+
        **GT W-GT10 merge 2026-08-23 (§4.6 protocol, forty-second
        run):** `gt-research` rebased onto the SV-W22 tip `8fe7854`
        (4 commits rewritten `051a276..026df77`→`9758f59..c259fc1`,
