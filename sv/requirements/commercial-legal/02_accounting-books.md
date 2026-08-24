@@ -222,7 +222,8 @@ the §3.7 matrix and never restated.
   disciplines to EVERY statutory register merchants must keep by law, even
   non-accounting ones (Art. 440): castellano/USD/in-country keeping,
   legalization data and the no-alteration regime apply to society books
-  (*actas* — minutes —, registro de socios/accionistas, capital-variable movements —
+  (*actas* — minutes —, registro de socios/accionistas,
+  capital-variable movements —
   content owned by `04_society-types.md`), the agentes' *libro especial*
   (Art. 388, `06_commercial-agents.md`) and any other statutory register —
   each register record inheriting the §3.1/§3.3/§3.4 discipline flags.

@@ -72,7 +72,8 @@ the 07_ print STANDS CURRENT for this article range (W23 T5
 grep-verified). Census residual (negative watch): por-anios carries no
 cards for 2010/2012-2015 and 2019 looks partial — a 2009-2019 CC reform
 cannot be fully excluded from enumeration alone; the six owned
-instruments carry the KNOWN post-2008 surface. Verbatim text below is copied from the
+instruments carry the KNOWN post-2008 surface. Verbatim text below is
+copied from the
 07_ evidence file (EVID-214) and, where the evidence abbreviates (Arts.
 282-286, 441-447, 442-445, 459, 474), from the extraction txt
 `sv/.extractions/07_Codigo_Comercio.pdf.txt` (citable per standing
@@ -321,7 +322,8 @@ the junta approval and the registry deposit are EXTERNAL acts: the system
 tracks dates, signatories, references and effect states; it never
 generates a dictamen or emulates the Registro de Comercio.
 
-**Statement cycle (l10n_sv_commerce.statements.cycle, per company × fiscal year):**
+**Statement cycle (l10n_sv_commerce.statements.cycle, per company ×
+fiscal year):**
 
 | Entity | Field | Type | Catalog / values | Reference |
 |--------|-------|------|------------------|-----------|

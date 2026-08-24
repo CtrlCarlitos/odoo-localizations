@@ -63,7 +63,8 @@ print STANDS CURRENT for this article range (W23 T5 grep-verified).
 Census residual (negative watch): por-anios carries no cards for
 2010/2012-2015 and 2019 looks partial — a 2009-2019 CC reform cannot
 be fully excluded from enumeration alone; the six owned instruments
-carry the KNOWN post-2008 surface. Verbatim text below is copied from the 07_ evidence file
+carry the KNOWN post-2008 surface. Verbatim text below is copied from
+the 07_ evidence file
 (EVID-211/212/217) and, where the evidence abbreviates, from the
 extraction txt `sv/.extractions/07_Codigo_Comercio.pdf.txt` (citable per
 standing ruling; page pointers = txt PAGE markers). Currency discipline
@@ -110,7 +111,8 @@ NOT a taxpayer obligation; no FR is derived from it in this file.
   exactly one *comerciante* kind: *comerciante individual* (individual
   merchant — a natural person titular of an *empresa mercantil*, commercial
   enterprise) or *comerciante social* (social merchant — a *sociedad*,
-  company), per the Art. 2 dichotomy; foreigners and foreign-formed sociedades may engage in
+  company), per the Art. 2 dichotomy; foreigners and foreign-formed
+  sociedades may engage in
   commerce under the same Code (Art. 2 final inciso — no nationality-based
   split of the obligation model). (LB-001; EVID-211)
 - **SV-CML-FR-002:** The system shall treat a merchant record as

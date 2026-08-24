@@ -89,7 +89,8 @@ touch and the 07_ print STANDS CURRENT for this article range (W23 T5
 grep-verified). Census residual (negative watch): por-anios carries no
 cards for 2010/2012-2015 and 2019 looks partial — a 2009-2019 CC reform
 cannot be fully excluded from enumeration alone; the six owned
-instruments carry the KNOWN post-2008 surface. Verbatim text below is copied from the
+instruments carry the KNOWN post-2008 surface. Verbatim text below is
+copied from the
 extraction txt `sv/.extractions/07_Codigo_Comercio.pdf.txt` (citable per
 standing ruling; page pointers = txt PAGE markers; reform tick marks
 "(5)" (Section B, D.L. 247 substitution) and "(18)" stripped from
