@@ -223,7 +223,12 @@ boundary.**
       D.L. 464-1998 sighting = already-consolidated reform (1)) + MH
       formularios re-pinned (new landing, no drift). Registry 124 file
       rows, next 127; FR corpus UNCHANGED at 1,730; COVERAGE 90/9/2/24
-      of 125 gate green. See §5 wave log.**
+      of 125 gate green. See §5 wave log. (MERGED to main at f53af59
+      same day via rebase-then-merge — forty-sixth §4.6 run in root
+      HANDOVER; the rebase was a NO-OP [main unmoved since the W24
+      merge at 812bd84], so the 2 session commits fd54f03..f53af59
+      stand UNREWRITTEN and the remote needed no re-pin; both branches
+      converged at close.)**
 
 
 ## 2. Read order for a new session

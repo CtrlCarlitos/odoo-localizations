@@ -821,6 +821,35 @@ expected and absorbed by instantiating the canon, never by forking it.
          still down (day 3); uif back to 403-WAF. sv worktree converged
          to main at close.
 
+         **SV W25 merge 2026-08-24 (§4.6 protocol, forty-sixth run):**
+         `sv-research` rebased onto `812bd84` (a NO-OP — main unmoved
+         since the W24 merge, so the 2 session commits `fd54f03..
+         f53af59` stand UNREWRITTEN) then fast-forward-merged at the
+         W25 close `f53af59`; plain fast-forward push, no remote
+         re-pin needed. **SV W25 = the D.O. original-print wave
+         (controller-direct, owner-directed full sweep after D.O. www
+         recovered same day):** 12 acquisitions `115_-126_` — the D.O.
+         original gazette prints of the nine W21/W22 instruments
+         106_-114_ (8 issues; 120_ preserves the AS-ENACTED 2023
+         Art.-10 gratuidad vintage vs 111_'s consolidated reprint) +
+         the COTRANS chain limbs D.L. 307/617/1000 TEXT-OWNED as
+         124_/125_/126_ (EVID-413..415; **Art. 17-A provenance
+         RESOLVED — 617 is the creator**; chain fully instrument-text
+         end-to-end 89_→124_→125_→126_→106_) + **SOQ-31 CLOSED
+         negative-CONFIRMED** (the full D.O. window scan 23-sep→
+         23-dic-1998 — 65 issues, two OCR passes each, no Reglamento
+         General Ley-ZF ever printed; MINEC-practice corroboration).
+         **FR corpus UNCHANGED at 1,730 (sources wave); registry 124
+         file rows, next 127; COVERAGE 90/9/2/24 of 125 gate green**
+         (+12 provenance-class pending rows, rationale in
+         COVERAGE_NOTES). MH formularios re-pinned same sweep (new
+         landing `/servicios/formularios-tributarios-para-descarga/`,
+         NO drift — F-11 v18/F-14 v17 current). D.O. route intel:
+         web prints are body-raster (headers-only text layer) — locate
+         instruments by single-page OCR probes; sumario p.1-2 as
+         index; use the www base (apex still 000). sv worktree
+         converged to main at close.
+
 
        **GT W-GT10 merge 2026-08-23 (§4.6 protocol, forty-second
        run):** `gt-research` rebased onto the SV-W22 tip `8fe7854`
