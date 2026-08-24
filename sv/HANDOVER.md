@@ -1399,11 +1399,24 @@ must grep ALL LB source columns of the new files.
    reglamento watch interrupted; the live date is **2026-10-17 = the 71_
    12-month adaptation deadline (publication 9-oct-2025 + 12 months; 71_
    effective 2025-10-17)**; re-probe at wave cadence. MH formularios
-  page: direct wp-content URLs (re-verified 2026-08-22: no F-11
-  v19/v20, no F14 v17 manual; **W22 2026-08-23: the
-  `/formularios-e-instructivos/` path now 302s to the mh.gob.sv home —
-  page moved/removed, re-pin the wp-content route at the next F-11/F14
-  watch**).
+   page: direct wp-content URLs (re-verified 2026-08-22: no F-11
+   v19/v20, no F14 v17 manual; **W22 2026-08-23: the
+   `/formularios-e-instructivos/` path now 302s to the mh.gob.sv home —
+   page moved/removed, re-pin the wp-content route at the next F-11/F14
+   watch**).
+   **Post-W26 watch sweep (2026-08-24, same day; registry "External
+   checks — post-W26" section = the record): factura NO LB DRIFT**
+   (Normativa v2.0 / Catálogos v1.1 / schemas 11-ago all current —
+   schemas zip byte-identical to 52_, sha256-verified); **MH NO DRIFT**
+   (F11-V18 + F14-V17-1 still current, no v19/v20, no v17 manual);
+   asamblea 200 (`-k`); uif unchanged (www 403-WAF, apex 000); **D.O.
+   www + API serving BUT the gazette feed STALLS at 10-ago-2026**
+   (May/Jun/Jul-2026 = 20/21/23 issues; Aug-2026 = 2, Ids 31815/31816 =
+   07-08/10-08, both `/seleccion`-verified clean PDFs — the recovery is
+   partial: historical archive fine, new-issue ingestion lagging ≥14
+   days; no corpus dependency today, but re-probe at cadence BEFORE any
+   2026-instrument hunt, incl. the Nov/Dec-2026 aguinaldo-cap decree
+   watch).
 - W18 route intel (2026-08-21/22): **TF DC catalog enumerable via
   Wayback CDX** (`web.archive.org/cdx/search/cdx?url=transparenciafiscal.
   gob.sv*`) → live `downloads/pdf/DC<id>_<ExactCase_Slug>.pdf` URLs
