@@ -430,7 +430,7 @@ addition [cml/06 OQ-002]) · T5 = this bookkeeping.
 ## 2. Read order for a new session
 
 1. THIS file
-2. `sv/EXTRACTION_PLAN.md` — wave log (W1–W27), reading order, risks
+2. `sv/EXTRACTION_PLAN.md` — wave log (W1–W29), reading order, risks
 3. `sv/.extractions/00_MASTER_INDEX.md` — synthesis lookup: clusters
    (A1-A12, T1-T8, F1-F12, P1-P10, C1-C10, SR1-SR8, N1-N8, V1-V10),
    rulings R1–R30, MOQ/SOQ registers
@@ -1796,11 +1796,11 @@ must grep ALL LB source columns of the new files.
         106_ cons. II" qualifier on FR-189's →31-ago-2025 limb at the
         next spe/08 touch)~~ **ALL EXECUTED W26 (rides + hygiene wave —
         §5 wave log; zero corpus deltas)** + ~~the recorded 111_-touch
-         chapter-spine residual (305-C/305-I/305-T)~~ **EXECUTED W27
-         (FR-247/248 + LB-041..043; §5 wave log)** + the W29-recorded
-         A11 onboarding synthesis gap (GO_LIVE_READINESS.md §5.1 — the
-         go-live BLOCKER) + go-live/implementation prep per
-         `shared/docs/go-live-readiness.md`.
+        chapter-spine residual (305-C/305-I/305-T)~~ **EXECUTED W27
+        (FR-247/248 + LB-041..043; §5 wave log)** + the W29-recorded
+        A11 onboarding synthesis gap (GO_LIVE_READINESS.md §5.1 —
+        go-live BLOCKER) + go-live/implementation prep per
+        `shared/docs/go-live-readiness.md`.
    2. **Acquisition follow-ups (residual after W29):** **TOP (owner's
       call): the A11 onboarding/authorization synthesis wave — the W29
       go-live BLOCKER (GO_LIVE_READINESS.md §5.1: master-index cluster
