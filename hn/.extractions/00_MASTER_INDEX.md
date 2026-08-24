@@ -59,7 +59,10 @@ FAMILY 2024-2026 (the tri-regime matrix incl. RP; the sector split; the
 2026 interim carry-forward — AC-006 unblocked), the 1993 CT edition with
 D. 247-89 FULL TEXT (the cap window decoded), the clean D. 199-2006 print,
 the ISR-2018 consolidation, the IHSS statistics; corpus 177 files; next
-EVID = 731.**
+EVID = 731.** **W15 (2026-08-23, second owner-browser drop): +EV179
+(one file, five sources), EVID-731..742 — the 481-2017 reform chain statute-tier
+(609-2017 primera + 725-2018 segunda + the original + a 2020 transitory) + the
+INPREMA BCR; 11 verified discards; corpus 182 files; next EVID = 743.**
 Inputs: the 35 evidence files below
 (EVID-001..333, corpus-global), built by the four evidence waves
 W1 (2026-08-19/20, taxation core), W2a/W2b (fiscal reporting), W3 (facturación),
@@ -183,6 +186,7 @@ full text lives in the evidence files). EVID ranges 130-135, 159-162, 174,
 | EV176 | `176-178_AdultoMayor_clean_ISR2018_IHSScifras.evidence.md` (723..730 — W14: **the CLEAN D. 199-2006 print** [G 31,361 21-jul-2007, same issue as 95_, cleaner scan] — **Art. 30.14's full 7-item expense tail RESOLVED ["por la compra de medicamentos, materiales médicos, prótesis, aparatos ortopédicos, camas hospitalarias, sillas de ruedas y otros afines"] — taxation/02 OQ-009(d) print-damage leg CLOSED + `109_ OQ-2` CLOSED; the flat-vs-purchase-linked tension stays flagged [plantilla flat = the encoded contract]**; Art. 3 beneficiarios verbatim-clean; the full tercera-edad catalogue 1)-13) cleanly legible [the S-HN5 bank source]; `177_` = the ISR consolidation vigente-26-jun-2018 [DGPT, corroboration tier]; `178_` = the IHSS-en-Cifras statistics series [the RP regime's operational corroboration]) |
 | EV177 | (in EV176's file — EVID-727/728) |
 | EV178 | (in EV176's file — EVID-729) |
+| EV179 | `179-183_Facturacion_reform_chain_INPREMA.evidence.md` (731..742 — W15: **THE 481-2017 REFORM CHAIN statute-tier** — `179_` the GAZETTE ORIGINAL [G 34,413 10-ago-2017; original Art. 79 '+2 meses' ≈12-oct-2017 superseded pre-effectivity; signature chain Coordinador-General 031-2015 + SEFIN] + `180_` **609-2017 the PRIMERA REFORMA** [G 34,457 2-oct-2017, vigente 3-oct-2017; 14 articles incl. the eight inciso-c requirement insertions + **the Art.-79 vigencia MOVE to 31-dic-2017 — the regime-crossover instrument**] + `181_` **725-2018 the SEGUNDA REFORMA** [G 34,792 12-nov-2018, vigente 13-nov-2018; Arts. 8/10-13/15/16/37 + **the 76-A adición with the ORIGINAL 30-nov-2018 grace → 28-feb-2019 by 817** + the Art.-8 OTROS-COMPROBANTES catalog {CNBS boundary; IATA boletos; NO-AT-authorization lane} + Arts. 4-5 ISV-recovery lanes + deroga 462-2014-Art.-20] + `182_` 231-2020 the COVID transitory [HISTORICAL] + `183_` the INPREMA BCR [D. 92-2014 mechanics institutional witness — payroll/03 OQ-014 annotated]; EINV file-01 LB-017 + annotations; corpus 182 files) |
 
 Citations in requirements files use `EVxx:EVID-nnn` (and `EVxx:file OQ-n` for
 register origins). D-H1/D-H2/D-H3 (EXTRACTION_PLAN Decisions) bind all clusters.
@@ -1087,6 +1091,23 @@ lead — the multi-instituto election law) · ~~D. 96-2012~~ **CLOSED W14** ·
 ~~D. 247-89~~ **CLOSED W14** · SEE docs (lead 1) · Oficio
 SETRASS-DGS-014-2025 + DGS 2027 promedio print (early 2027) · S-HN5
 DEFERRED (the 176_ clean catalogue = the upgraded source when un-deferred).
+
+**W15 ACQUISITION-QUEUE DELTAS (2026-08-23, the second owner-browser drop —
+applies register-wide):** ACQUIRED (FIVE files, EV179, EVID-731..742) — the
+**481-2017 reform chain statute-tier**: `179_` gazette original + `180_` 609-2017
+(primera reforma; the 31-dic-2017 vigencia instrument) + `181_` 725-2018 (segunda
+reforma; 76-A's original 30-nov-2018 grace; the Art.-8 Otros-Comprobantes catalog;
+ISV-recovery lanes) + `182_` 231-2020 (COVID transitory, HISTORICAL) — EINV
+file-01 LB-017 + LB-011/012 annotations, einv index wave-noted; `183_` INPREMA
+BCR (payroll/03 OQ-014 annotated, citation unified 92-14≡92-2014; statute still
+unacquired); taxation/06 the 725-Art.-4/5 ISV-recovery annotation. Discards
+(eleven, verified): four "(1)" md5-dups (≡171_/172_/174_/177_); 189-2014 ≡ 25_;
+817-2018 ≡ 26_; 481 texto-actualizado ≡ 24_; Regl. Aplicación IHSS ≡ 146_; the
+G-34,457 scanned re-render (≡ 180_, the 88_ re-render class); the 40-pp 481
+(instrument-identical to 179_, Sección-B-only superset); the ASST-2016 docx
+(STSS occupational-health DRAFT — out of scope). STILL OPEN: unchanged from W14
+(the 2026 JD ceiling act watch; CbCR comunicado; "Acuerdo 799"; D. 92-14/92-2014
+statute; RP class cuadros; SEE docs; DGS 2027 promedio).
 
 **W10 ACQUISITION-QUEUE DELTAS (2026-08-21, applies register-wide):**
 ACQUIRED this wave (TWELVE files, EV149..EV160) — D. 92-2015 (`149_`:

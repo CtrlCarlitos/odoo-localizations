@@ -6,7 +6,7 @@
 | Topic   | e-invoicing |
 | Status  | approved (V-HN1 validation wave 2026-08-20; see EXTRACTION_PLAN wave log) |
 | Authors | Takumi synthesis wave S-HN2 + controller |
-| Updated | 2026-08-20 |
+| Updated | 2026-08-23 (W15) |
 
 This directory holds the S-HN2 (synthesis wave HN-2) facturación
 requirements. **Honduras has NO national XML/DTE transmission regime**:
@@ -20,6 +20,8 @@ Built from master-index clusters E1-E8 (W3 evidence, EVID-186..214);
 D-H1 (journal/sequence architecture), D-H2 (dated rows + hard emission
 gate), D-H3 (ingestion depths) bind throughout. Source-to-requirements
 coverage: [../COVERAGE.md](../COVERAGE.md) (V-HN1 gate 1, script-checked).
+
+**W15 wave (2026-08-23) fold-ins — the owner-browser facturación wave:** file 01 +LB-017 + LB-011/012 annotations (**THE 481-2017 REFORM CHAIN, statute-tier**: `179_` the gazette original [G 34,413 10-ago-2017] + `180_` **609-2017 the PRIMERA REFORMA** [14 articles; the eight inciso-c requirement insertions; the vigencia move to 31-dic-2017 = its reformed Art. 79] + `181_` **725-2018 the SEGUNDA REFORMA** [Arts. 8/10-13/15/16/37; the 76-A adición with the ORIGINAL 30-nov-2018 grace → 28-feb-2019 by 817; the Art.-8 OTROS-COMPROBANTES catalog with the CNBS boundary + the NO-AT-authorization lane; Arts. 4-5 ISV-recovery lanes; derogates 462-2014-Art.-20] + `182_` 231-2020 the COVID transitory [HISTORICAL]). Authority order unchanged (24_ cite-first). Totals unchanged (LB-only wave).
 
 ## Files & FR ranges
 

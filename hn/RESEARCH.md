@@ -339,6 +339,14 @@ files `161_`..`165_`, EVID-644..664 + the W5 lost-file recovery):**
   "Reglamento-Incapacidad-para-reformas" ihss.hn upload = content-identical
   re-render of 88_ (discarded unregistered; md5 differs but 40/40 pages same
   text — a re-render, the dedup lesson extended to TEXT-identity).
+- **W15 OWNER-BROWSER WAVE 2 (2026-08-23 — the facturación reform chain,
+  5 registered, 11 discards):** `179_` the 481-2017 gazette original +
+  `180_` 609-2017 (primera reforma — the 31-dic-2017 vigencia instrument) +
+  `181_` 725-2018 (segunda reforma — 76-A's original 30-nov-2018 grace; the
+  Otros-Comprobantes catalog) + `182_` 231-2020 (COVID transitory) +
+  `183_` the INPREMA BCR (D. 92-2014 mechanics — the statute lead's first
+  institutional witness). Discards incl. the re-render class (a scanned
+  G 34,457 ≡ 180_) and the Sección-B-superset class (the 40-pp 481 ≡ 179_).
 - **W14 OWNER-BROWSER WAVE (2026-08-23 — the inbox channel opened; 11
   registered, 3 duplicate discards):** files placed by the owner in
   `hn/sources/inbox/` (gitignored; the GT convention), sourced primarily

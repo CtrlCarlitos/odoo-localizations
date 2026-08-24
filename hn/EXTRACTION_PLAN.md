@@ -193,6 +193,34 @@ watch; Código de Comercio; SEE docs; DGS SMM 2027 promedio print early
 R-H91 (Reading B, CONSUCOOP-gated); S-HN5 DEFERRED).
 ## Wave log
 
+- **W15 owner-browser wave 2 (2026-08-23, DONE — intake + acquisition +
+  evidence + fold-ins + verification, controller-executed): the facturación
+  reform chain.** The owner's second inbox drop (16 files). **INTAKE
+  ADJUDICATIONS: 11 discards** (four "(1)" md5 re-downloads ≡ W14's
+  171_/172_/174_/177_; 189-2014 ≡ 25_; 817-2018 ≡ 26_; the 481
+  texto-actualizado ≡ 24_; the Regl. Aplicación IHSS ≡ 146_; a scanned
+  re-render of the same G 34,457 issue ≡ 180_; the 40-pp 481 = the same
+  G 34,413 A-block + Sección-B court notices only, instrument-identical to
+  179_; the ASST-2016 docx = an STSS occupational-health DRAFT, out of
+  scope). **(1) ACQUISITION — 5 files:** `179_` = the 481-2017 GAZETTE
+  ORIGINAL (G 34,413 10-ago-2017, 28 pp); `180_` = **Acuerdo 609-2017, the
+  PRIMERA REFORMA** (G 34,457 2-oct-2017 — 14 articles incl. the Art.-79
+  vigencia move to 31-dic-2017); `181_` = **Acuerdo 725-2018, the SEGUNDA
+  REFORMA** (G 34,792 12-nov-2018 — the 76-A adición's ORIGINAL 30-nov-2018
+  grace, the Art.-8 Otros-Comprobantes catalog, the ISV-recovery lanes, the
+  462-2014-Art.-20 derogation); `182_` = Acuerdo 231-2020 (COVID transitory,
+  HISTORICAL); `183_` = the INPREMA BCR (D. 92-2014 institutional
+  procedure). **(2) EVIDENCE — EVID-731..742 (controller-executed, EV179) +
+  the 181_ OCR sidecar; no new ruling** (the chain CONFIRMS the W3
+  footnote-readings; the 76-A grace boundary refined 30-nov-2018 →
+  28-feb-2019-by-817). **(3) FOLD-INS —** EINV file-01 +LB-017 +
+  LB-011/012/016 annotations + the einv index wave-note; taxation/06 the
+  725-Art.-4/5 annotation; payroll/03 the 183_/OQ-014 annotation; master
+  index + Section-C W15 delta; RESEARCH §5; sources/README registry (next
+  184). **(4) verification — EVID sweep + COVERAGE regen 182 rows = 178
+  cited + 4 N/A, gates PASS (1099/541/574/335; an LB-only wave — FR/OQ/AC
+  counts unchanged).** Corpus **182 files**; next EVID = 743.**
+
 - **W14 owner-browser acquisition wave (2026-08-23, DONE — intake +
   acquisition + evidence + fold-ins + verification, controller-executed):
   the inbox channel's first run.** The owner downloaded 14 files (primarily

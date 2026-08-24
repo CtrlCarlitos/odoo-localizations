@@ -141,8 +141,10 @@ boundary.
    "Reglamento-Incapacidad-para-reformas" upload = a content-identical
    re-render of `88_` [40/40 pages same text, different md5] — discarded
    unregistered, ledger unchanged)
-7. Evidence files in `hn/.extractions/*.evidence.md` (committed), W14 newest
-   first: `168_Decreto_96-2012.evidence.md` (681..687 — **R-H92: the top
+7. Evidence files in `hn/.extractions/*.evidence.md` (committed), W15 newest
+   first: `179-183_Facturacion_reform_chain_INPREMA.evidence.md` (731..742 —
+   the 481-2017 reform chain statute-tier + the INPREMA BCR; next EVID = 743);
+   W14 next: `168_Decreto_96-2012.evidence.md` (681..687 — **R-H92: the top
    text residual CLOSED** — gates "consecutivas o alternas" + six classes;
    cadence NEW trimestral Jun/Sep/Dec from FY2013; Art. 4 deroga D.
    113-2011 Art. 13) + `169_Gaceta_36545_D47-2024_D48-2024.evidence.md`
@@ -208,7 +210,7 @@ boundary.
    `119_Congreso_Inventarios_de_Leyes.evidence.md` (W7, **429..433** — the
    official congreso law inventory: the 102_ OQ-2 decoder).
     **EVID numbering is
-    corpus-global, next = 731. OQs are per-file/per-doc at evidence-file end.**
+    corpus-global, next = 743. OQs are per-file/per-doc at evidence-file end.**
 
 ## 3. State: corpus (research phase COMPLETE)
 
@@ -918,6 +920,39 @@ discarded md5-identical to 104_). Structure:
   ISR-2018 consolidation (177_) + IHSS statistics (178_) = context tier
   (COVERAGE N/A annotations). New route (RESEARCH §6): the IAIP
   portalunico series + the owner-browser inbox channel.
+- **W15 owner-browser wave 2 (2026-08-23, do not re-derive):** the facturación
+  reform chain statute-tier. **179_ = the 481-2017 GAZETTE ORIGINAL** (G
+  34,413 10-ago-2017; original Art. 79 = "+2 meses" ≈12-oct-2017, superseded
+  pre-effectivity; signature = Coordinador-General delegation 031-2015 +
+  SEFIN Cerrato). **180_ = 609-2017 the PRIMERA REFORMA** (G 34,457
+  2-oct-2017, vigente 3-oct-2017): 14 reformed articles — Art. 4 num. 36
+  (new definition), Art. 11, EIGHT inciso-c per-document requirement
+  insertions (15.6c/17.4/20.5c/23.7/25.5c/27.5c/29.4c/33.5c — the
+  requirement expansions post-3-oct-2017), 38, 46, 57, and **Art. 79 = the
+  vigencia MOVE to 31-dic-2017 (the regime-crossover instrument, W3's
+  R-H39-class pin now statute-backed)**. **181_ = 725-2018 the SEGUNDA
+  REFORMA** (G 34,792 12-nov-2018, vigente 13-nov-2018): reformed
+  Arts. 8/10/11/12/13/15/16/37 + **the 76-A ADICIÓN with the ORIGINAL
+  30-nov-2018 grace** (requisito-8 print field; 817-2018 published
+  26-nov-2018 then pushed it to 28-feb-2019 — a two-step boundary the
+  consolidated print never showed) + **the reformed Art. 8 OTROS
+  COMPROBANTES catalog** (six classes; the CNBS banking/insurance boundary
+  with the express non-regulated→Comprobantes-Fiscales remap; treaty docs +
+  IATA boletos; **NO AT-authorization lane — outside the CAI ledger**) +
+  Arts. 4-5 the ISV-recovery lanes (exonerated-sales compensation→devolución;
+  export-input devolución, producer=exporter) + Art. 3 the SEFIN
+  residual-normative clause + Art. 8 deroga Acuerdo 462-2014 Art. 20 +
+  CAUCA/RECAUCA authority legs. **182_ = 231-2020** (COVID transitory
+  print-authorization for R-Art.-63-limited taxpayers via OVI; HISTORICAL,
+  expired 31-dic-2020). **183_ = the INPREMA BCR** (D. 92-2014 ≡ 92-14
+  citation unified: devolución de cotizaciones + factor de rendimientos,
+  dual-system docentes; the Afiliaciones suspension lane — payroll/03
+  OQ-014's first institutional witness; statute still unacquired). EINV
+  file-01 LB-017 + LB-011/012/016 annotations; einv index wave-noted;
+  taxation/06 the Arts.-4/5 annotation; 11 verified intake discards
+  (incl. the G-34,457 scanned re-render ≡ 180_ and the 40-pp 481 ≡ 179_
+  Sección-B-only superset; the ASST-2016 docx = STSS occupational-health
+  DRAFT, out of scope). EVID-731..742; corpus 182 files.
 - **Decisions:** **D-H1** (binding, EXTRACTION_PLAN): one journal per company
   via `l10n_latam_invoice_document`; sequence key = (establecimiento→
   `stock.warehouse`, punto de emisión→child emission point, doc type→
@@ -1034,6 +1069,32 @@ discarded md5-identical to 104_). Structure:
   4. **Merge to main at milestone:** owner decision; rebase-then-merge; never
      force-push (root HANDOVER country model). Branch head after S-HN1/S-HN2
      commit = the synthesis-wave base; future waves branch from here.
+
+Session state at stop (2026-08-23, W15 owner-browser wave 2 — committed on
+`hn-research`, NOT yet merged; owner decision pending): evidence COMPLETE
+through **EVID-742**; corpus **182 files** (01-183, gap 103). **W15
+on-branch: (1) INTAKE — second owner drop (16 files): 11 verified discards
+(four "(1)" md5 re-downloads ≡ 171_/172_/174_/177_; ACUERDO_189-2014 ≡ 25_;
+Acuerdo-817-2018 ≡ 26_; the 481 texto-actualizado ≡ 24_; Regl. Aplicación
+IHSS ≡ 146_; the G-34,457 scanned re-render ≡ 180_; the 40-pp 481 ≡ 179_
+[Sección-B-only superset]; the ASST-2016 docx [STSS OHS draft, out of
+scope]); (2) ACQUISITION — 5 files `179_`..`183_` (the 481-2017 reform
+chain statute-tier + the INPREMA BCR); (3) EVIDENCE — EVID-731..742
+controller-executed (EV179) + the 181_ OCR sidecar; no new ruling (no
+contradiction resolved — the chain CONFIRMS the W3 readings and refines
+the 76-A grace boundary); (4) FOLD-INS — EINV file-01 +LB-017 +
+LB-011/012/016 annotations + einv index wave-note; taxation/06 the
+725-Art.-4/5 ISV-recovery annotation; payroll/03 the 183_/OQ-014
+annotation; master index +EV179 + Section-C W15 delta; RESEARCH/EXTRACTION
+_PLAN wave log; sources/README registry (next 184); (5) verification —
+corpus-global EVID sweep + COVERAGE regen 182 rows = 178 cited + 4 N/A,
+gates PASS (1099/541/574/335 — LB +1, FR/OQ/AC unchanged: an LB-only
+wave). Totals unchanged: payroll 332/178/172/89 (+183_ LB-share), FREP
+363/170/189/174, taxation 249/121/140/56; rulings R-H1..R-H94; next EVID
+= 743.** Next = the residual watch queue unchanged (the 2026 JD ceiling
+act watch [the 172_ interim row's statutory successor]; next ENAG tick Mon
+24-ago; D. 92-2014 statute; CbCR comunicado; "Acuerdo 799"; RP class
+cuadros; SEE docs; DGS 2027 promedio; S-HN5 DEFERRED).
 
 Session state at stop (2026-08-23, W14 owner-browser acquisition wave —
 committed on `hn-research`, MERGED to main same-day): evidence COMPLETE

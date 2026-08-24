@@ -89,6 +89,8 @@ Eficiencia E-Art 10 budget transfers (VOID per RI-0763-2011, R-H4 —
 non-ISV content, recorded for dead-text discipline); D. 17-2010 L-Arts
 13-18 12%-tier scales (homogenized to 15%, R-H2 — LB-007 history only).
 
+**W15 annotation (via `181_` A725-Arts. 4-5, EVID-737 — the facturación segunda reforma's tax legs, valid 13-nov-2018+):** (i) ISV paid upstream by comercializadores on sales to EXONERATED persons = recoverable via débito-crédito compensation, else devolución at the AT; (ii) export-producers' input ISV (producer=exporter) = devolución/credit at the AT only; (iii) exoneración resolutions = direct-beneficiaries-only (CT-Arts.-20/21). Annotates the crédito/devolución rows; no new FRs.
+
 ## 3. Functional Requirements
 
 Hecho-generador discipline (D-H2): every FR resolves the tax point
