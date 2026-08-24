@@ -80,7 +80,12 @@ boundary.**
     USABLE-WITH-FIXES → one fix wave PASS (efa4370: index OQ-003 flip +
     per-file 17 OQ section, 09 OQ-2 phrasing reword, EXECUTED typo ×4,
     EVID-397 hygiene per S9 ruling (g)) = MERGE-READY; commits
-    81e0906..efa4370; pushed sv-research**; see §5 wave log.**
+    81e0906..efa4370 (pre-rebase; superseded by bcd4a4f..d3a9b11 —
+    fix-wave SHA d3a9b11); pushed sv-research; **MERGED to main at
+    1912d6a via rebase-then-merge (thirty-eighth §4.6 run in root
+    HANDOVER; two textual conflicts on the T5/close commits vs the
+    main-side W19 merge record eb59e17, resolved keep-both)**; see §5
+    wave log.**
    Remaining program: acquisition follow-ups (§8.2), SOQ/external watches,
    owner merge decisions.**
 

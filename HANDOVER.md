@@ -667,6 +667,43 @@ expected and absorbed by instantiating the canon, never by forking it.
       TEXT; D. 247-89; Código de Comercio; SEE docs; DGS SMM 2027
        promedio print early-2027; S-HN5 DEFERRED).
 
+       **SV W20 merge 2026-08-23 (§4.6 protocol, thirty-eighth run):**
+       `sv-research` rebased onto `eb59e17` (11 commits rewritten
+       `81e0906..1cce46d`→`bcd4a4f..1912d6a`: W20 plan + prep + T1..T5
+       + T1/T4 fix rounds + fix-wave/close commits; TWO textual
+       conflicts on the T5 bookkeeping + W20-close commits vs the
+       main-side W19 merge record `eb59e17`, both resolved keep-both)
+       then fast-forward-merged; remote branch ref fixed via delete +
+       re-push. **SV = W20 TAXATION EDIT WAVE COMPLETE (corpus
+       1,690→1,702 FRs):** the three W19 follow-up debts executed —
+       **96_ D.L. 308-2025 Chapter V fold-in** (NEW
+       `taxation/17_foreign-agents-levy.md`, cluster L1, SV-TAX-FR-
+       405..416: 30% levy on mandante-financed transactions, two-limb
+       Agentes de Retención Especial scope — SSF general + NPO-qualified
+       catch-all —, DGT enteros 10 días hábiles, reports 15, monthly
+       donation self-entero, CT 246/247/241 sanctions + supletorio;
+       spe/01 OQ-6 + EV OQ-2 resolved-by-pointer; SOQ-41 Chapter-V half
+       consumed); **SR8 rewire** (taxation/09 COTRANS rows anchored to
+       89_, FR-245 gate satisfiable — SOQ-39/MOQ-04 chain closed);
+       **2025+ standing-rule mirror** (taxation/04 aguinaldo vintages
+       instrument-anchored to 91_-94_ per payroll/04 LB-023; OQ-003
+       resolved — 2025+ standing 2-SMM chain-verified EVID-403; R22 +
+       SOQ-05 verdicts appended). Corpus: taxation dir 416 FRs / 305
+       LBs / 283 ACs / 91 OQs; COVERAGE 81/9/2/12 of 104, gate green
+       (96_ curated note refreshed to W20 ownership); registry
+       UNCHANGED (103 files, next 106). Process: T1 quote-fidelity
+       ruling (txt-normalized "sin deducción" governs over the EV
+       artifact; EVID-397 hygiene landed per S9 ruling (g)); T1
+       implementer rejected 2 reviewer prescriptions on txt evidence
+       (upheld); T4 curated-note refresh reviewer-sanctioned; 8 W20
+       rulings preserved in sv/HANDOVER §5. Final whole-wave review
+       USABLE-WITH-FIXES → one fix wave PASS = MERGE-READY. **SV
+       remaining: residual acquisitions (SOQ-46 criteria instrument;
+       D.L. 201-2025 + 411-2025 anchors; COTRANS Aug-2025 prorroga
+       decree), external watches (D.O./uif DNS-down since 08-22; AML
+       2026-10-17), SR8 residual (taxation/09 OQ-2 design
+       confirmation), go-live prep.**
+
        **SV W19 merge 2026-08-23 (§4.6 protocol, thirty-seventh run):**
        `sv-research` rebased onto `bde7cfa` (15 commits rewritten
        `e86e100..c188c6c`→`6ab5a6a..33deaaa`: W19 plan + T1..T8 +
