@@ -5,8 +5,8 @@
 | Country | sv |
 | Topic   | taxation |
 | Status  | draft (S9 IVA-core wave, in review) |
-| Authors | Takumi synthesis wave 9 + controller |
-| Updated | 2026-08-20 |
+| Authors | Takumi synthesis wave 9 + controller; W24 T3 fold-in (108_ instrument-channel IVA exemptions) |
+| Updated | 2026-08-24 |
 
 ## 1. Purpose
 
@@ -120,6 +120,7 @@ of them.
 | LB-013 | Ley IVA, Art. 174 — **GENERIC-NULLITY GATE** | "DEROGATORIA DE EXENCIONES ESPECIFICAS. Artículo 174.- Las exenciones tributarias genéricas, totales o parciales otorgadas o que se otorguen por otras leyes, incluyendo las contenidas en la Ley de Creación de la Comisión Ejecutiva Hidroeléctrica del Río Lempa (CEL), exceptuando las amparadas por la Ley de Imprenta, no producirán ningún efecto en relación con este impuesto." — IVA exemptions live in this law (or ratified international instruments) only; other laws' generic exemptions are inert for IVA | `sv/sources/01_Ley_IVA.pdf` | Art. 174 p.55 (EVID-331; verified 01_ txt lines 1977-1981) |
 | LB-014 | Ley IVA, Art. 66 inciso (missions/organisms) — **POINTER (instruments anchor)** | "… TAMPOCO SE INCLUIRÁN EN EL CÁLCULO DE LA PROPORCIONALIDAD, LAS OPERACIONES … LAS OPERACIONES DE VENTAS DE BIENES Y SERVICIOS QUE REALICEN LOS CONTRIBUYENTES A LAS MISIONES DIPLOMÁTICAS, CONSULARES, ORGANISMOS INTERNACIONALES Y A SUS MIEMBROS ACREDITADOS ANTE EL GOBIERNO DE LA REPÚBLICA DE EL SALVADOR, CUANDO ÉSTAS HAYAN SIDO DECLARADAS COMO EXENTAS O NO SUJETAS AL PAGO DEL IMPUESTO QUE REGULA ESTA LEY, CONFORME A LOS RESPECTIVOS INSTRUMENTOS INTERNACIONALES SUSCRITOS Y RATIFICADOS POR EL SALVADOR." — the ratified-instruments channel for exemption declarations; the pro-rata mechanics belong to the determination/credit file of this wave (cited here ONLY as the instruments anchor, never restated) | `sv/sources/01_Ley_IVA.pdf` | Art. 66 inciso p.35 (EVID-324; verified 01_ txt lines 1296-1301) |
 | LB-015 | Reglamento IVA (D.E. 83-1992 consolidado), Art. 16 | "Artículo 16.- En las exenciones que, para su calificación, se requiera de conocimientos técnicos, tales como la consideración de productos en cuanto a su naturaleza, clasificación y otros, la Dirección General, solicitará, en caso de duda, informe sobre el particular a la autoridad competente. Lo dispuesto en el inciso anterior será aplicable en lo pertinente, a las prestaciones de servicios." | `sv/sources/02_Reglamento_IVA.pdf` | Rgto. Art. 16 p.6 (EVID-335; verified 02_ txt lines 200-205) |
+| LB-016 | Disposiciones Especiales y Transitorias de Apoyo al "Programa de Acceso Universal a la Energía en El Salvador" (108_), Art. 2 a)/b) + Art. 11: "Las personas naturales o jurídicas que tengan la calidad de contratistas o subcontratistas en el "Programa de Acceso Universal a la Energía en El Salvador" gozarán de las exenciones tributarias siguientes: a) Exención total del Impuesto a la Transferencia de Bienes Muebles y a la Prestación de Servicios, la cual se aplicará a las transferencias de bienes y prestaciones de servicios enunciados en el artículo 1 de las presentes disposiciones. b) Exención total por el período que realicen operaciones relacionadas con el Programa mencionado de impuestos y gravámenes a la importación e internación, de Derechos Arancelarios a la Importación, y del Impuesto a la Transferencia de Bienes Muebles y a la Prestación de Servicios. El beneficio no podrá ser extensivo a ningún otro sujeto que pudiera intervenir en la operación de importación." Art. 11: "Las presentes disposiciones tienen carácter especial y priman sobre cualquier ley especial o general que las contradiga." | The IVA limbs of the 108_ energy-package SPECIFIC-INSTRUMENT exemption class: natural or juridical persons holding the quality of contratista or subcontratista in the Program enjoy a) TOTAL exemption of the IVA, applying to the transfers of goods and prestations of services enumerated in Art. 1 of the instrument; b) total exemption — for the period they realize Program-related operations — of importation/internación taxes and levies, of Derechos Arancelarios a la Importación, and of the IVA, with the express NO-CASCADE sentence: the benefit may not be extensive to any other subject that might intervene in the import operation. Art. 11: the provisions have especial character and PREVAIL over any special or general law that contradicts them (the express especialidad clause). GLOSS (per EVID-406): a specific-instrument grant — named program, operations bounded by the Art. 1 enumeration, beneficiary class of contratistas/subcontratistas GATED by the Art. 5 DGII resolución (≤10 días hábiles; format = config-gap, spe/02 OQ-10), windows dated per instrument (D.O. N° 181 T.448 26-sep-2025; decree vigencia 27-sep-2025 → 26-sep-2031, Art. 13 — a CURRENT operative window). ART. 174 WORKING READING (recorded here, NOT an OQ): Art. 174's nullity reaches exenciones GENÉRICAS of other laws; this grant is instrument-bounded (named program, enumerated operations, declared beneficiaries) and carries the Art. 11 express especialidad/prevalence clause under the CT Art. 6-b exoneración power recital (considerando VI) — so it encodes as a REGISTERED instrument channel on the FR-224 gate (amended W24 T3, channel (c)), never as a generic foreign-law claim. In-corpus precedent: 97_ Art. 1-a/b prints the identical clause (spe/02 LB-023 — project-spent window, no separate taxation/08 row minted in W19); operative registry FR = FR-420; the package family (beneficiary admission, per-contract vinculación, two-layer windows) = spe/02 SV-SPE-FR-204 by id, never restated here | `sv/sources/108_EnergiaElectrica_AccesoUniversal_DL411_2025_Asamblea.pdf` | 108_ Art. 2 a)/b) p.2 + Art. 11 p.4 (EVID-406; 108_ txt PAGE 2, lines 95-114 + PAGE 4, lines 230-233; native asamblea text layer — intra-word cleaning per EV header; W24 T3) |
 
 Dead text — never implementable as current law (recorded as notes/omission
 markers, not FRs, per wave constraints): Art. 44 (the TRANSFERENCIAS
@@ -364,22 +365,66 @@ vintage watch (§2 preamble) applies to every row above.
 
 - **SV-TAX-FR-224:** The system shall enforce the exemption SOURCE gate:
   an IVA exemption may rest ONLY on (a) an Art. 45 or Art. 46 letter of
-  this law (the registries of FR-206/FR-214), or (b) a ratified
+  this law (the registries of FR-206/FR-214), (b) a ratified
   international instrument — the Art. 66 anchor channel: sales of goods
   and services to *misiones diplomáticas, consulares, organismos
-  internacionales y a sus miembros acreditados* declared exempt or no-sujetas
-  *conforme a los respectivos instrumentos internacionales suscritos y
-  ratificados por El Salvador* (instrument registration with ratification
-  reference required); GENERIC total or partial exemptions granted — or to
-  be granted — by OTHER LAWS (the printed statutory exemplar: the Ley de
-  Creación de la Comisión Ejecutiva Hidroeléctrica del Río Lempa (CEL))
-  produce NO effect whatsoever for this tax, SAVE the *excepción amparada
-  por la Ley de Imprenta* (the Printing-Law exception — noted as printed,
-  a recorded carve-out row); the configuration shall REJECT any
-  foreign-law generic-exemption claim (a "ley especial" exemption reason
-  never validates) and shall expose no user-defined exemption source beyond
-  the two channels.
-  (LB-013; LB-014; EVID-331/324)
+  internacionales y a sus miembros acreditados* declared exempt or
+  no-sujetas *conforme a los respectivos instrumentos internacionales
+  suscritos y ratificados por El Salvador* (instrument registration
+  with ratification reference required), or (c) — **W24 T3
+  amendment** — a REGISTERED specific special-law instrument of the
+  108_ class: an instrument-bounded grant whose row records the
+  instrument id, its D.O. anchor, its vigencia and its EXPRESS
+  especialidad clause (108_ Art. 11, LB-016), the exemption bounded to
+  the declared beneficiary class and the instrument-enumerated
+  operations AS PRINTED (named program; operative registry = FR-420) —
+  the channel is config-gated PER INSTRUMENT, never user-defined.
+  GENERIC total or partial exemptions granted — or to be granted — by
+  OTHER LAWS (the printed statutory exemplar: the Ley de Creación de la
+  Comisión Ejecutiva Hidroeléctrica del Río Lempa (CEL)) produce NO
+  effect whatsoever for this tax, SAVE the *excepción amparada por la
+  Ley de Imprenta* (the Printing-Law exception — noted as printed, a
+  recorded carve-out row); the configuration shall REJECT any
+  foreign-law generic-exemption claim (a "ley especial" exemption
+  reason never validates) and shall expose no user-defined exemption
+  source beyond the three channels. ART. 174 RECONCILIATION (working
+  reading per the LB-016 gloss, recorded in-row — not an OQ): the
+  nullity clause reaches *exenciones genéricas*; channel (c) admits
+  only instrument-bounded grants with express especialidad + vigencia
+  (in-corpus precedent 97_ = spe/02 LB-023; 108_ the first CURRENT
+  member), so the rejection limb stands UNCHANGED for generic
+  foreign-law claims.
+  (LB-013; LB-014; LB-016; EVID-331/324/406)
+
+### 3.4 Instrument-channel exemptions — the 108_ specific-instrument registry (W24 T3)
+
+- **SV-TAX-FR-420:** The system shall extend the exemption-reason
+  registry (the FR-206/FR-214 chassis) with dated instrument-channel
+  rows for the 108_ energy-package IVA exemptions (instrument
+  `dl411_2025`, D.O. N° 181 T.448 26-sep-2025, decree vigencia
+  27-sep-2025 → 26-sep-2031 — Art. 13; the per-contract event window
+  inside it consumed from spe/02 SV-SPE-FR-204 by id, both layers
+  stamped on every dated row, never collapsed): (a) TRANSFERS/SERVICES
+  rows — IVA exención TOTAL on the transfers of bienes and
+  prestaciones of servicios enumerated in Art. 1 of the instrument,
+  for operations of DGII-DECLARED beneficiaries only (the
+  contratista/subcontratista declared per the Art. 5 resolución;
+  per-contract vinculación + event window per SV-SPE-FR-204 by id,
+  never restated here); (b) IMPORT/INTERNACIÓN rows — exención total
+  de impuestos y gravámenes a la importación e internación + Derechos
+  Arancelarios a la Importación + IVA on Program-related imports for
+  the period of Program-related operations, carrying the NON-CASCADE
+  GUARD: the benefit does NOT extend to *ningún otro sujeto que
+  pudiera intervenir en la operación de importación* (no-cascade flag
+  on the row — a third-party freight forwarder, agent or intermediary
+  never inherits the exemption). Every 108_ exemption claim cites the
+  instrument channel — FR-224-(c): the registered instrument row with
+  its D.O. anchor, vigencia and especialidad clause (LB-016) — NEVER a
+  generic free-text claim, and resolves as-of the tax-point date (D15)
+  against the beneficiary's per-contract event window inside the
+  decree vigencia.
+  (LB-016; EVID-406 W24 T3; cross-ref SV-SPE-FR-204, FR-224, FR-206,
+  FR-214)
 
 ## 4. Data Model
 
@@ -402,6 +447,8 @@ restriction register below.
 | l10n_sv.iva.exemption.reason | letter, status, valid_from, valid_to | char / select / date / date | letter: b..i (Art. 45) / a..l (Art. 46); status: active · derogado_877_00 (the Art. 45-a omission marker — never selectable) | FR-206 |
 | l10n_sv.iva.exemption.reason (45-h row) | kill_switch_art | char + watch flag | 167-A: `valid_to` NULL until the sectoral-policies instrument is dated; instrument reference field (SOQ-58 watch) | FR-211 |
 | l10n_sv.iva.international.instrument (new) | name, kind, ratification_ref, vigencia | char / select / char / date | kind: convenio_suscrito_aprobado · convenio_suscrito · instrumento_ratificado; D15: qualification resolves as-of tax-point date | FR-207, FR-209, FR-224 |
+| l10n_sv.iva.special.instrument (new) | instrument_id, do_anchor, vigencia_from, vigencia_to, especialidad_clause | char / char / date / date / char | REGISTERED specific special-law instruments — FR-224 channel (c), config-gated per instrument, never user-defined; dl411_2025: D.O. 181 T.448 26-sep-2025, vigencia 27-sep-2025 → 26-sep-2031, Art. 11 especialidad as recorded | FR-224, FR-420 |
+| l10n_sv.iva.exemption.reason (instrument rows) | instrument_id, non_cascade, beneficiary_declaration | m2o / boolean / m2o | 108_ dated rows (dl411_2025): transfers/services (IVA exención total, Art. 1-enumerated) + import/internación (impuestos y gravámenes + DAI + IVA) — import rows carry non_cascade = true (the benefit never extends to any other subject of the import operation); beneficiary = DGII-declared per the Art. 5 resolución; vinculación + event window per SV-SPE-FR-204 by id | FR-420 |
 
 **Import-side exemption claims (account.move — SV extension):**
 
@@ -434,7 +481,7 @@ restriction register below.
 | product.template (SV extension) | l10n_sv_iva_transport_mode, l10n_sv_iva_insurance_branch | select / select | terrestrial · aerial · maritime (46-i gate); personas · reaseguro vs taxed branches (46-j) | FR-221, FR-222 |
 | account.move.line | l10n_sv_iva_interest_scope_only | boolean | 46-f/46-g exempt the interest component only (pago o devengo de intereses) | FR-219, FR-220 |
 | res.partner (AFP) | l10n_sv_iva_afp_commission_exempt | boolean + stale-anchor note | 46-k employer-cotization administration commissions; SAP citation note (SOQ-57) | FR-223 |
-| account.move.line (exemption claim) | l10n_sv_iva_exemption_source | select | art45_letter · art46_letter · instrumento_ratificado — the Art. 174 gate rejects any other source | FR-224 |
+| account.move.line (exemption claim) | l10n_sv_iva_exemption_source | select | art45_letter · art46_letter · instrumento_ratificado · instrumento_especial_ley (FR-224-c, W24 T3 — registered instrument row required, never user-typed) — the Art. 174 gate rejects any other source | FR-224, FR-420 |
 
 ## 5. Odoo Mapping
 
@@ -470,7 +517,8 @@ legalización date (a fact date, not a parameter date).
 | FR-221 | odoo | product.template | transport_mode + utilities row | 46-h service-side utilities (NOT 167-A-subjected, unlike 45-h import-side); 46-i terrestrial only — air/sea passengers taxed per 17-m (T1 FR-192 by id) |
 | FR-222 | odoo | product.template (insurance/lottery) | insurance_branch + lottery ground | 46-j seguros de personas premiums + reaseguros general; other branches taxed; 46-l Lotería Nacional per its law |
 | FR-223 | odoo | res.partner (AFP) + account.move.line | afp_commission_exempt + stale-anchor note | 46-k employer-cotización administration commissions; SAP citation D.L. 927-1996 stale (superseded by D.L. 614) — substance carried, SOQ-57 re-verification under SIP |
-| FR-224 | odoo | account.move.line + exemption-reason registry | exemption_source gate | Art. 174: sources = Art. 45/46 letters + ratified instruments (Art. 66 anchor); other laws' generic exemptions (CEL exemplar) NO effect; Ley de Imprenta exception as printed; foreign-law claims rejected |
+| FR-224 | odoo | account.move.line + exemption-reason registry | exemption_source gate | Art. 174: sources = Art. 45/46 letters + ratified instruments (Art. 66 anchor) + **W24 T3 channel (c)** registered specific special-law instruments (108_ class: instrument id + D.O. anchor + vigencia + express especialidad on the row; config-gated per instrument, never user-defined); other laws' GENERIC exemptions (CEL exemplar) NO effect; Ley de Imprenta exception as printed; foreign-law GENERIC claims rejected — rejection limb unchanged |
+| FR-420 | odoo | l10n_sv.iva.special.instrument + exemption.reason (instrument rows) | 108_ registry rows | Transfers/services (IVA exención total, Art. 1-enumerated, DGII-declared beneficiaries) + import/internación (impuestos y gravámenes + DAI + IVA, non-cascade flag — never extends to any other subject of the import operation); exemption reason cites the FR-224-c instrument row, never a generic claim; vinculación + event window per SV-SPE-FR-204 by id; D15 as-of tax-point |
 
 Version-regime notes (D12/D15): FR-208 records the D.L. 820-1994
 authentic-interpretation cutover (effective 25-mar-1994 — eight days after
@@ -481,6 +529,11 @@ carries the 167-A kill-switch regime: NULL `valid_to` + watch until the
 sectoral-policies instrument is dated, then a dated exemption row with
 D15 as-of-tax-point qualification (SOQ-58). FR-213 anchors the 5-year
 window on the legalización date (dated row per vehicle, snapshot-on-write).
+FR-420's instrument rows are regime-dated (108_ dl411_2025: decree vigencia
+27-sep-2025 → 26-sep-2031 with the per-contract event window inside it —
+both layers on every dated row, never collapsed; spe/02 SV-SPE-FR-204 by
+id); the FR-224 channel-(c) Art. 174 reconciliation is recorded in-row,
+not as an OQ.
 FR-223 carries the SOQ-57 stale-anchor note (SAP → SIP, substance carried).
 FR-219's `bcr_calificada` is sourced from the BCR qualification list
 (SOQ-56 resolved, 101_-105_: exemption flag = list membership with
@@ -557,8 +610,26 @@ against a current official consolidation at implementation.
 - **AC-015:** Given an invoice line claiming an exemption because "a ley
   especial exime a la empresa" (a CEL-kin special-law claim), when the
   Art. 174 gate runs, then the claim FAILS — the line posts TAXED (other
-  laws' generic exemptions produce no effect; only Art. 45/46 letters and
-  ratified instruments validate) (FR-224).
+  laws' generic exemptions produce no effect; only Art. 45/46 letters,
+  ratified instruments and REGISTERED instrument rows — W24 T3 channel
+  (c) — validate) (FR-224).
+- **AC-016:** Given a program-related transfer of Art. 1-enumerated
+  goods by a supplier WITHOUT a DGII beneficiario declaration (no Art. 5
+  resolución), when the exemption claim resolves, then the 108_
+  exemption is NOT applied and the transfer posts TAXED (FR-420).
+- **AC-017:** Given a declared beneficiary's program import whose
+  dispatch runs through a third-party freight forwarder, when the import
+  resolves, then the beneficiary's entry posts the import EXEMPT
+  (impuestos y gravámenes + DAI + IVA) while the no-cascade guard BLOCKS
+  the extension — the forwarder's own legs of the operation remain
+  TAXED (the benefit is never extensive to any other subject of the
+  import operation) (FR-420).
+- **AC-018:** Given an invoice line whose exemption reason is the
+  user-typed free text "ley especial exime esta operación", when the
+  Art. 174 gate runs after the W24 T3 amendment, then the claim STILL
+  FAILS — channel (c) validates only a registered instrument row
+  (instrument id + D.O. anchor + vigencia + especialidad), never a
+  user-defined generic claim; the line posts TAXED (FR-224).
 
 ## 7. Open Questions
 

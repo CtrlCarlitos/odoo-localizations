@@ -5,8 +5,8 @@
 | Country | sv |
 | Topic   | taxation |
 | Status  | draft (S9 IVA-core wave, in review) |
-| Authors | Takumi synthesis wave 9 + controller |
-| Updated | 2026-08-20 |
+| Authors | Takumi synthesis wave 9 + controller; W24 T3 fold-in (108_ proveedores-locales Art. 66 exception) |
+| Updated | 2026-08-24 |
 
 ## 1. Purpose
 
@@ -135,6 +135,7 @@ the SOQ-54 watch rides all of them.
 | LB-006 | Ley IVA, Art. 69 (incisos 1º-5º) | "El derecho a deducir el crédito fiscal del débito fiscal es propio de cada contribuyente, y no podrá ser transferido a terceros, excepto cuando un contribuyente sea el continuador de otro por mandato legal o cuando se trate de la fusión o absorción de sociedades y en que la sociedad nueva o la subsistente continúa el giro o actividad de las primitivas, en cuyo caso la nueva sociedad gozará del remanente del crédito fiscal que les correspondía a las sociedades fusionadas o absorbidas." — "En el caso de liquidación de sociedades, no procede la devolución o reintegro del remanente del crédito fiscal." — "El aporte de todo el activo y pasivo de una sociedad a otra, no le da derecho a la sociedad receptora para usar el crédito fiscal de la aportante." — "Asimismo, no procede traspasar el remanente del crédito fiscal entre contribuyentes vinculados económicamente." — "Tampoco tienen derecho los herederos a utilizar el remanente del crédito fiscal resultante del término de actividades de un contribuyente fallecido." | The right to deduct the crédito fiscal from the débito fiscal is PROPER to each contribuyente and not transferable to third parties, EXCEPT where a contribuyente is the continuador of another by legal mandate, or in the fusión or absorción of societies where the new or subsisting society CONTINUES the giro or activity of the primitives — in which case the new society enjoys the remanente crédito fiscal that corresponded to the fused or absorbed societies; in society LIQUIDATION no devolution or reinstatement of the remanente proceeds; the aport of ALL the activo and pasivo of one society to another gives the receiving society NO right to use the aportante's crédito fiscal; no traspaso of the remanente between economically LINKED contribuyentes proceeds; and HEIRS have no right to use the remanente crédito fiscal resulting from the termination of activities of a deceased contribuyente | `sv/sources/01_Ley_IVA.pdf` | Art. 69 p.36 (EVID-325; verified 01_ txt lines 1328-1341, PAGE 36) |
 | LB-007 | Ley IVA, Art. 70 + Reglamento IVA, Art. 25 | Ley Art. 70: "El presente impuesto pagado o causado no constituye un costo de los bienes y servicios adquiridos, importados o utilizados, respectivamente, salvo cuando los bienes o servicios estén destinados al uso o consumo final, a operaciones exentas o sujetos excluidos del presente impuesto. Tampoco es un gasto deducible para los efectos del impuesto sobre la renta." Rgto. Art. 25: "El impuesto pagado o causado por las compras o adquisiciones de bienes y utilización de servicios por parte del contribuyente, al constituir Crédito Fiscal, no debe formar parte del costo de los mismos, salvo que estén destinados a operaciones exentas o no gravadas. Por otra parte, si el impuesto no pudiere utilizarse totalmente, por aplicación de la proporcionalidad del Crédito Fiscal a que se refiere el artículo 66 de la ley o por el término o cese de actividades, pasará a constituir un gasto general." | This tax paid or caused is NOT a cost of the goods and services acquired, imported or used — SAVE when the goods or services are destined to final use or consumption, to exempt operations, or to subjects excluded from this tax — nor is it a deductible expense for ISR purposes; Rgto. Art. 25: IVA paid or caused on purchases/acquisitions and service use which constitutes Crédito Fiscal must not form part of their cost — SAVE destinations to exempt or non-gravada operations — and if the tax cannot be totally used, whether by application of the Art. 66 crédito-fiscal proportionality or by the término or cese de actividades, it passes to constitute a GENERAL EXPENSE | `sv/sources/01_Ley_IVA.pdf` + `sv/sources/02_Reglamento_IVA.pdf` | Ley Art. 70 p.36 (EVID-325; verified 01_ txt lines 1342-1346, PAGE 36); Rgto. Art. 25 p.7 (EVID-336; verified 02_ txt lines 249-256, PAGE 7) |
 | LB-008 | D.L. 499 (Ley Quincena Veinticinco, 66_), Art. 6 pasaje de tercerización + Guía DGII 67_ (tratamiento documental e IVA) — **OCR QUOTE-FIDELITY NOTE** | 66_ Art. 6: el tercerizador que pague el íntegro de la Quincena Veinticinco "debera emitir al contratante, por separado, el correspondiente documento fiscal en el que conste el monto pagado en concepto de Quincena Veinticinco y, oportunamente, presentar la copia de la planilla" ["debera" sic — OCR]. 67_: el documento fiscal del tercerizador = "**Factura de Consumidor Final, con valor exento**" + "de conformidad con la parte primera del inciso sexto del artículo 66 de la Ley del Impuesto a la Transferencia de Bienes Muebles y a la Prestación de Servicios, **no se aplicará la proporcionalidad del Crédito Fiscal por dicha operación**" | The tercerización contractor paying the full Quincena-25 amount must emit to the contracting party, SEPARATELY, the corresponding fiscal document stating the amount paid as Quincena Veinticinco and opportunely PRESENT THE PLANILLA COPY; the guía: that document is a Factura de Consumidor Final WITH EXEMPT VALUE, and per "the first part of the sixth inciso of Art. 66" of the IVA law the crédito-fiscal PROPORTIONALITY IS NOT APPLIED for that operation | `sv/sources/66_Ley_Quincena25_DL499.pdf` + `sv/sources/67_Guia_Orientacion_Quincena25.pdf` | 66_ Art. 6 p.5-6 + 67_ §4 (EVID-237; OCR extraction — no txt layer; R30(c) inciso-mapping note applies) |
+| LB-009 | Disposiciones Especiales y Transitorias de Apoyo al "Programa de Acceso Universal a la Energía en El Salvador" (108_), Art. 2, párrafo final: "Los proveedores locales que realicen ventas de bienes o prestaciones de servicios a favor de los beneficiarios de las exenciones detalladas no aplicarán la proporcionalidad del crédito fiscal a que se refiere el artículo 66 de la Ley del Impuesto a la Transferencia de Bienes Muebles y a la Prestación de Servicios." | Local suppliers making sales of goods or prestations of services in favor of the beneficiaries of the detailed (108_ Art. 2) exemptions do NOT apply the Art. 66 crédito-fiscal proportionality — a SELLER-SIDE (proveedor local) relief printed on EXPRESS STATUTORY text (a law-printed no-proporcionalidad command — contrast LB-008/FR-277, where the Quincena-25 no-pro-rata rule rests on the DGII guía 67_ reading of a pre-D.L.-224-2009 inciso under the R30(c) working reading). KIN NOTE: 97_ Art. 1-b prints the identical proveedores-locales relief (spe/02 LB-023 — the in-corpus precedent; 97_'s window is project-spent, so W19 minted no separate taxation/11 row — recorded here as kin, not re-quoted). Operative FR = FR-421; the beneficiaries' vinculación and exemption windows resolve per spe/02 SV-SPE-FR-204 by id (identity row = spe/01 LB-034) | `sv/sources/108_EnergiaElectrica_AccesoUniversal_DL411_2025_Asamblea.pdf` | 108_ Art. 2 final ¶ p.2 (EVID-406; 108_ txt PAGE 2, lines 111-114; native asamblea text layer — intra-word cleaning per EV header; W24 T3) |
 
 Dead text — never implementable as current law (recorded as notes, not
 FRs): nothing in this file's article range is derogated or void — Arts.
@@ -285,6 +286,28 @@ SOQ-54 vintage watch applies to every row above.
   on it; this row CLOSES `taxation/02_isr-deductions.md` OQ-009 by
   pointer (the index task wires the status flip).
   (LB-008; EVID-237; R30(c) — OQ-2)
+- **SV-TAX-FR-421:** The system shall NOT apply the Art. 66
+  proportionality (FR-269) to a LOCAL SUPPLIER's ventas de bienes or
+  prestaciones de servicios made in favor of 108_-exemption
+  beneficiaries: the operation is tagged OUT of the seller's pro-rata
+  base as an excluded operation — the FR-277 chassis, but anchored on
+  EXPRESS STATUTORY text (108_ Art. 2 final paragraph: "no aplicarán
+  la proporcionalidad del crédito fiscal" — versus FR-277's guía-67_
+  anchor) — with exclusion ground `energia_dl411_proveedor_local`
+  keyed to the instrument (dl411_2025): the beneficiary vinculación
+  and the exemption window resolve per spe/02 SV-SPE-FR-204 by id, and
+  the exclusion window FOLLOWS THE BENEFICIARY'S exemption window
+  (dated, per-contract event window inside the decree vigencia
+  27-sep-2025 → 26-sep-2031; D15 as-of the operation date — a sale
+  outside the beneficiary's window stays IN the seller's
+  proportionality base). DENOMINATOR-SIDE reading (recorded in-row per
+  the printed text, not an OQ): the printed command relieves the
+  proportionality CALCULATION only — the seller's crédito fiscal
+  attributable to those operations is NOT blocked and remains
+  creditable under the engine's other rules (FR-269 consumes the T4
+  credit output unchanged); no monthly factor and no annual true-up
+  ever draws on the excluded operation.
+  (LB-009; EVID-406 W24 T3; cross-ref FR-269, FR-277, SV-SPE-FR-204)
 
 ### 3.4 Remanente — definition, indefinite carryforward and the cessation lock (Art. 67-68; Rgto. 24)
 
@@ -389,7 +412,8 @@ only (wave default `odoo`; see §5).
 | l10n_sv.iva.prorata.redistribution (new) | prior_ejercicio, recalc_factor, credit_should, credit_effective, difference, sign | char / ratio / monetary ×3 / select | January true-up: superior ⇒ sum to following ejercicio's first period (+); inferior ⇒ subtract (−); original-year parameters, never re-resolved | FR-271 |
 | l10n_sv.iva.prorata.run (links) | casilla_132_feed, casilla_133_feed, casilla_134_feed | monetary | named producer outputs consumed by SV-FREP-FR-012 (by id) | FR-275 |
 | account.move.line (sale, SV extension) | l10n_sv_iva_prorata_bucket | select (computed) | gravada · exenta · no_sujeta · excluded | FR-269, FR-273 |
-| account.move.line (sale, SV extension) | l10n_sv_iva_prorata_exclusion | select | none · no_habitual_no_credit · donation_11_16_isr6 · diplomatic_instrument · quincena25_tercerizacion | FR-274, FR-277 |
+| account.move.line (sale, SV extension) | l10n_sv_iva_prorata_exclusion | select | none · no_habitual_no_credit · donation_11_16_isr6 · diplomatic_instrument · quincena25_tercerizacion · energia_dl411_proveedor_local (W24 T3) | FR-274, FR-277, FR-421 |
+| account.move.line (sale, SV extension) | l10n_sv_iva_exclusion_instrument (108_ limb) | m2o (instrument config) + date fields | instrument-keyed dated window for energia_dl411_proveedor_local: follows the BENEFICIARY's exemption window (per-contract event window per SV-SPE-FR-204 by id, inside decree vigencia 27-sep-2025 → 26-sep-2031); D15 as-of operation date; DENOMINATOR-SIDE only — the seller's credit on the operation is NOT blocked | FR-421 |
 | l10n_sv.iva.prorata.dossier (new) | ejercicio, records refs | char / refs | conservation/exhibition dossier (CT term config; DGII on requirement) | FR-272 |
 
 **Remanente and succession:**
@@ -437,6 +461,7 @@ the closed year re-derive it, never re-resolve it.
 | FR-275 | odoo | l10n_sv.iva.prorata.run + account.move (auto) | costo-o-gasto entry + 132/133/134 feeds | Named producer for SV-FREP-FR-012 (by id); v14 attests only 132/133/134 (OQ-3: gloss's "137-138" unanchored); mirrors SV-TAX-FR-268 |
 | FR-276 | odoo | account.move (emission) | quincena25_passthrough doc | FCF con valor exento = FE type-01 (SV-EINV-FR-001 by id; never CCF/CCFE); planilla copy from SV-PAY-FR-142 ledger (by id) |
 | FR-277 | odoo | account.move.line (sale) | exclusion = quincena25_tercerizacion | No pro-rata for the pass-through (67_ "inciso sexto parte primera" = pre-224-2009 numbering → current no-habitual exclusion, R30(c)/OQ-2); regime-dated 14-ene-2026+; closes taxation/02 OQ-009 by pointer |
+| FR-421 | odoo | account.move.line (sale) | exclusion = energia_dl411_proveedor_local | 108_ Art. 2 final ¶: local suppliers selling to 108_ beneficiaries do not apply the Art. 66 proportionality — EXPRESS statutory anchor (vs FR-277's guía/R30(c) reading); window follows the beneficiary's exemption window (SV-SPE-FR-204 by id); DENOMINATOR-SIDE relief — the seller's credit remains creditable |
 | FR-278 | odoo | l10n_sv.iva.remanente.ledger | opening/generated/used/closing | Indefinite carryforward hasta su deducción total; F-07 consumers SV-FREP-FR-015/026 (by id); no prescription write-off encoded |
 | FR-279 | odoo | l10n_sv.iva.remanente.ledger + res.company | cese_date + cessation_locked | No devolución/reintegro, no other-debt offset, no transfer save Art. 69; tail → gasto general (FR-283) |
 | FR-280 | odoo | l10n_sv.iva.remanente.transfer | continuador_mandato_legal / fusion / absorcion | ONLY these inherit (giro continuity attested vs registered giro); all other transfer paths rejected at validation |
@@ -447,7 +472,11 @@ the closed year re-derive it, never re-resolve it.
 Version-regime notes (D12/D15/D18): FR-277's tercerización exclusion is
 regime-dated (D.L. 499 effective 14-ene-2026 — voluntary private-sector
 Quincena-25 in 2026, mandatory every January from 2027; periods before
-2026-01-14 never carry the exclusion, D18 historical-import kin). FR-269/
+2026-01-14 never carry the exclusion, D18 historical-import kin). FR-421's
+exclusion is instrument-dated (108_ dl411_2025: operations from 27-sep-2025
+inside a declared beneficiary's per-contract event window, inside decree
+vigencia through 26-sep-2031 — SV-SPE-FR-204 by id; periods before the
+decree vigencia never carry the exclusion, D18 kin). FR-269/
 270/271 carry the D15 doctrine (per-period as-of resolution; January
 redistribution against closed-year original parameters). The SOQ-54
 consolidation watch rides every LB (§2 preamble) — re-verify against a
@@ -520,6 +549,15 @@ current official consolidation at implementation.
   the dossier exports the per-period bucket ledgers, factors, credit
   splits and the January redistribution entries conserved for the CT
   term (FR-272).
+- **AC-013:** Given a local supplier with mixed gravadas/exentas
+  operations that sells $50,000 of goods to a DGII-declared 108_
+  beneficiary inside the beneficiary's per-contract event window, when
+  the period's denominator composes, then that sale's amount LEAVES
+  the proportionality calculation (ground `energia_dl411_proveedor_local`
+  — no monthly factor and no annual true-up draws on it), while the
+  supplier's créditos fiscales on that operation REMAIN CREDITABLE per
+  the engine's other rules (denominator-side relief as printed)
+  (FR-421).
 
 ## 7. Open Questions
 
