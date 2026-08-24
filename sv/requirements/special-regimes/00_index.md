@@ -89,7 +89,7 @@ authorities by id):
 
 ## Open-questions rollup (in-file OQ-n ↔ master-index SOQ-30..45)
 
-Status legend: **60 OQs total — 50 open, 10 resolved/consumed/closed**
+Status legend: **60 OQs total — 48 open, 12 resolved/consumed/closed**
 (W19 T1: `06` OQ-1 resolved + OQ-6 consumed, `07` OQ-2 consumed —
 SOQ-32/34 fold-in; W19 T2: `08` OQ-1 + OQ-2 resolved — SOQ-39 halves,
 `86_-89_` acquired — + OQ-5 closed (MOQ-04 linkage recorded); W19 T5:
@@ -100,25 +100,30 @@ COTRANS vigencia chain pinned, 106_ owned, EVID-404 (index rollup caught
 up W24); W24 T1: `02` OQ-10 opened — 108_ operative-format config-gap;
 W24 T5: `08` OQ-3 resolved by pointer — taxation/09 OQ-2, design
 confirmed, config-gated; W26: `04` OQ-1 flipped resolved on-file —
-LESIA 79_ gloss de-staled, sources-resolved since W18). Master-index SOQ
+LESIA 79_ gloss de-staled, sources-resolved since W18; W26 addendum:
+`01` OQ-3 + `07` OQ-4 flipped resolved-negative on-file — SOQ-31's W25
+verdict propagated to the per-file rows, "candidate ≥75" stale tails
+cleared). Master-index SOQ
 register:
 [§S7 open questions](../../.extractions/00_MASTER_INDEX.md).
 
 | File | OQs | Mapping (in-file OQ → SOQ / kin) |
 |------|-----|----------------------------------|
-| 01 | 7 | OQ-1 SOQ-30 (14_/LSI half + 12_ tail resolved W19 T3 — 80_/82_) · OQ-2 SOQ-43 (+ 82_ Art. 1 successor-track kin, W19) · OQ-3 SOQ-31 (+ 82_ Arts. 8-9 config slots, W19) · OQ-4 declarante config-gap (74_ Art. 9 exam/fianza DACG delegation — no SOQ) · OQ-5 área-metropolitana successor law absent (82_ Art. 1 — Ley Desarrollo y Ordenamiento Territorial, W19 T3) · OQ-6 96_ Chapter V 30%-withholding surface = out-of-wave taxation pointer (W19 T4, EVID-397) — **resolved W20 via taxation/17 (SV-TAX-FR-405..416)** · OQ-7 97_ Art. 1 d) impuesto-exclusivo phrase (`02` OQ-8 kin, W19 T4) |
+| 01 | 7 | OQ-1 SOQ-30 (14_/LSI half + 12_ tail resolved W19 T3 — 80_/82_) · OQ-2 SOQ-43 (+ 82_ Art. 1 successor-track kin, W19) · OQ-3 SOQ-31 (+ 82_
+Arts. 8-9 config slots, W19; **resolved negative W25 — never printed; gloss de-staled W26**) · OQ-4 declarante config-gap (74_ Art. 9 exam/fianza DACG delegation — no SOQ) · OQ-5 área-metropolitana successor law absent (82_ Art. 1 — Ley Desarrollo y Ordenamiento Territorial, W19 T3) · OQ-6 96_ Chapter V 30%-withholding surface = out-of-wave taxation pointer (W19 T4, EVID-397) — **resolved W20 via taxation/17 (SV-TAX-FR-405..416)** · OQ-7 97_ Art. 1 d) impuesto-exclusivo phrase (`02` OQ-8 kin, W19 T4) |
 | 02 | 10 | OQ-1 dividend-interaction express-suppression encoding (EVID-253, in-wave) · OQ-2 F-11 v20 acquisition watch (kin taxation/01 OQ-007 + payroll/08 OQ-004) · OQ-3 SOQ-30 (82_ tail folded W19 T3 as FR-195..198; post-2025 watch) · OQ-4 administrador benefit authority (Arts. 14+15 derogated; 54-C only — SOQ-30 kin) · OQ-5 transitorias 54-D/54-E/54-F config scope · OQ-6 concejos-municipales benefit slots (config) · OQ-7 82_ extension-regime interactions (54-C ampliations vs +10y text, W19 T3) · OQ-8 97_ impuesto-exclusivo config-gap (W19 T4) · OQ-9 97_ retention gloss working ruling (renta no gravada, W19 T4) · OQ-10 108_ operative-format config-gap (Art. 5 DGII escrito/resolución + Art. 12 MH directrices formats absent; W24 T1) |
 | 03 | 7 | OQ-1 SOQ-37 · OQ-2 SOQ-38 · OQ-3 SOQ-42 · OQ-4 CT-158-II cross-check (vs taxation/04 LB-018 / SV-TAX-FR-126) · OQ-5 SOQ-30 (LSI half resolved W19 T3 — 80_ acquired) · OQ-6 DGII dictamen formularios config-gap (17b_ Arts. 48/50-55) · OQ-7 17b_ Art. 22 b) 40%-cap row vs reformed 80_ Art. 8 letter-drop (W19 T3) |
 | 04 | 6 | OQ-1 SOQ-32 **consumed W19** (LESIA acquired as 79_; kin `06` OQ-6/`07` OQ-2; file-row gloss de-staled + flipped resolved W26) · OQ-2 SOQ-36 kin + DUCA field-anchor correction (field 14 as printed) · OQ-3 SOQ-45 kin (field 31) · OQ-4 SOQ-30 · OQ-5 pre-expiry warning = operational default · OQ-6 T4/T6 DUCA-F-FAUCA ownership split |
 | 05 | 4 | OQ-1 SOQ-37 · OQ-2 non-national-component determination = DGA-practice config-gap · OQ-3 SOQ-30 (+ IVA-core wave verification of Arts. 54/75-77 anchors) · OQ-4 Art. 9-A electronic-solvency DACG mechanics |
 | 06 | 9 | OQ-1 SOQ-34 **resolved W19** (value never changed; 98_/99_ chain) · OQ-2 SOQ-35 · OQ-3 SOQ-36 · OQ-4 SOQ-45 · OQ-5 SOQ-30 (12-B slice closed by 100_ ownership) · OQ-6 SOQ-32 kin **consumed W19** (79_ anchored) · OQ-7 79_ 2008-tail vintage (SOQ-30 kin, W19) · OQ-8 100_ simplified <$1,000 per-operator reading (W19) · OQ-9 CT Art. 84 10y vs LESIA 5y lex-specialis ruling (W19) |
-| 07 | 9 | OQ-1 SOQ-33 · OQ-2 SOQ-32 **consumed W19** (79_ FR-179..184 + FR-148/164 anchored) · OQ-3 SOQ-44 · OQ-4 SOQ-31 kin · OQ-5 SOQ-30 (+79_ tail) · OQ-6 79_ 2008-tail vintage (SOQ-30 kin, W19) · OQ-7 colones-era prints in 79_ (W19) · OQ-8 Art. 6 k)-literal as-printed (W19) · OQ-9 82_ Art. 7 derogated grave-e) vs Art. 28-final classification (W19 T3) |
+| 07 | 9 | OQ-1 SOQ-33 · OQ-2 SOQ-32 **consumed W19** (79_ FR-179..184 + FR-148/164 anchored) · OQ-3 SOQ-44 · OQ-4 SOQ-31 kin (**resolved negative W25 — never printed; gloss de-staled W26**) · OQ-5 SOQ-30 (+79_ tail) · OQ-6 79_ 2008-tail vintage (SOQ-30 kin, W19) · OQ-7 colones-era prints in 79_ (W19) · OQ-8 Art. 6 k)-literal as-printed (W19) · OQ-9 82_ Art. 7 derogated grave-e) vs Art. 28-final classification (W19 T3) |
 | 08 | 8 | OQ-1 SOQ-39 FOVIAL half **resolved W19** (86_-88_ acquired) · OQ-2 SOQ-39 COTRANS half **resolved W19** (89_ acquired; identity corrected — passenger-tariff contribution) · OQ-3 SOQ-40 (B2B chain design pass → IVA-core wave) — **resolved W24 by pointer to taxation/09 OQ-2** (instruments rule-negative; design confirmed, config-gated; FR-175 pointer flipped) · OQ-4 SOQ-30 narrowed W19 (86_ tail ends D.L. 93-2012) · OQ-5 MOQ-04 linkage **closed W19** (master index Section C row) · OQ-6 88_/597 late-enter interest rule derogated by D.L. 789-2008 — no replacement printed (W19) · OQ-7 89_ Art. 5 target-ambiguity readings recorded (W19) · OQ-8 COTRANS vigencia-chain provenance **resolved W21** (Aug-2025 prorroga = D.L. 387-2025 owned as 106_; D.L. 1000-2024 →31-ago-2025 limb recital-pinned; EVID-404) |
 
 SOQ-30 rides every regime LB of the wave as the verification preamble (all
 consolidations end 2012-2013 — 79_ at 2008 — text cited as printed).
 Acquisition candidates
-opened by the wave: Reglamento General Ley ZF (SOQ-31), ~~LESIA
+opened by the wave: ~~Reglamento General Ley ZF (SOQ-31)~~ (**resolved
+negative W25 — never printed; 65-issue D.O. window scan**), ~~LESIA
 (SOQ-32 — acquired W18 as 79_, fold-in landed W19)~~, DUCA
 user manual (SOQ-36), ~~FOVIAL/COTRANS instruments (SOQ-39 — acquired W18
 as 86_-89_, fold-in landed W19)~~, D.L. 598-2020 + tail laws (SOQ-41 —

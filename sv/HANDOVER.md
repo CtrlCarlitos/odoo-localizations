@@ -253,9 +253,12 @@ boundary.**
        texts un-acquired" hedges dropped corpus-surface-complete, incl.
        the §2 preamble + §5 vintage-watch + OQ-8 W25 ownership note) +
        W19 stragglers (spe/04 OQ-1 LESIA gloss de-staled + flipped
-       resolved — spe OQ legend recounted 50 open/10 resolved per W24
+       resolved — spe OQ legend recounted per W24
        ruling (d); six coa OQ rows' stale "candidate ≥75" numbering
-       refreshed to the W18/W25 hunt state) + C1 §8.5 hygiene (frep/04
+       refreshed to the W18/W25 hunt state; W26 addendum caught by the
+       proof grep: spe/01 OQ-3 + spe/07 OQ-4 flipped resolved-negative —
+       SOQ-31's W25 verdict propagated to the per-file rows — final spe
+       OQ legend 48 open/12 resolved) + C1 §8.5 hygiene (frep/04
        LB-009 full registered source stem + the COVERAGE_NOTES
        truncated-path note retired + regen; EV-bank A1 "estas"→"esas"
        per the 32_ txt PAGE 315 + the coa/01 LB-002 kin the proof grep
@@ -270,7 +273,7 @@ boundary.**
        Chapter-spine residual RECORDED for the next 111_ touch: 305-C
        (accionista-not-employee), 305-I (proof-of-existence document),
        305-T (arreglo directo/arbitraje) uncited by scoping. Commits
-       a56c2a1..~; pushed sv-research; merge = owner decision
+       a56c2a1..033f8ef; pushed sv-research; merge = owner decision
        (forty-seventh §4.6 run when directed).**
 
 
@@ -454,12 +457,14 @@ must grep ALL LB source columns of the new files.
   FR-189/LB-012/config-row + §2 preamble + §5 vintage-watch + OQ-8 chain
   provenance → text-owned 124_/125_/126_ (EVID-413..415), recital hedges
   dropped; (4) W19 stragglers — spe/04 OQ-1 flipped resolved (79_ gloss
-  de-stale; spe legend 50/10 recounted), six coa OQ rows' "≥75" refreshed;
+  de-stale), six coa OQ rows' "≥75" refreshed, spe/01 OQ-3 + spe/07
+  OQ-4 flipped resolved-negative (SOQ-31 W25 propagation; spe legend
+  48/12 recounted),
   (5) C1 hygiene — frep/04 LB-009 full stem (+ COVERAGE_NOTES retirement +
   regen), EV-bank A1 estas→esas + the coa/01 LB-002 kin (proof-grep
   catch), coa/01 LB-004 PAGE 48-53, build_catalogs corrections-log
   preserved on regen. NO corpus deltas: 1,730 FRs / same LB-AC / spe OQ
-  50-10 / COVERAGE 90-9-2-24 of 125 gate green / registry 124 rows next
+  48-12 / COVERAGE 90-9-2-24 of 125 gate green / registry 124 rows next
   127. No-action rides documented (C1 ruling (g)): HANDOVER:645 AML
   phrasing moot; payroll newlines consistent; spe/08 misprint-notes
   present. 111_-touch residual recorded: 305-C/305-I/305-T.
