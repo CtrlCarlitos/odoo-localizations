@@ -886,7 +886,47 @@ expected and absorbed by instantiating the canon, never by forking it.
          2026-10-17) + census watch + go-live prep. sv worktree
          converged to main at close.
 
-       **SV W27 merge 2026-08-24 (§4.6 protocol, forty-eighth
+       **SV W28 merge 2026-08-24 (§4.6 protocol, forty-ninth
+         run):** `sv-research` rebased onto `647faa0` (a NO-OP — main
+         unmoved since the W27 merge-record close, so the single
+         session commit `f7c2f71` stands UNREWRITTEN) then
+         fast-forward-merged at the W28 close `f7c2f71`; plain
+         fast-forward push, no remote re-pin needed. **SV W28 = the
+         SOQ-46 re-probe sweep + 128_ acquisition mini wave
+         (controller-direct, owner-directed hunt re-probe): (1) the
+         SOQ-46 hunt re-probed at FULL-ENUMERATION strength — the
+         entire cvpcpa publication record triaged (media library
+         1,082 items / 11 pages, all 32 PDFs; all 13 resolución
+         posts; keyword searches pymes/niif/norma contable/umbral/
+         criterio = ZERO hits); every resolution 2021-2026
+         dispositioned criteria-negative (Res. 111-2025 aranceles +
+         159-2025 ethics = the D.O.-published Aug-2025 pair; Res.
+         83/84-2024 fees/services; Res. 275/237-2023 AML, 237 now
+         derogated by 128_; the site's LREC Reglamento PDF = an
+         UN-ENACTED DRAFT with zero framework content) ⇒ SOQ-46
+         negative at full-enumeration strength on the primary
+         surface, watch rides cadence unchanged (fallback surface =
+         the transparencia.gob.sv LAIP deposit, JS app, route
+         undiscovered); (2) 128_ = Resolución CVPCPA 111-2026
+         ACQUIRED (27-feb-2026, Acta 10/2026; sha256-verified;
+         EVID-419..420) — the D.L. 426 supervisor-side Art.-58
+         diagnostic requirement + the EXPRESS no-lineamientos
+         statement (strongest supervisor-side OQ-001 datum) + the
+         12-month window re-cited (⇒ 2026-10-17 corroborated) + Res.
+         237-2023 derogation; cml/10 LB-031 minted ON ARRIVAL (zero
+         fold-in debt).** Same-session D.O. re-probe: gazette feed
+         STILL stalls at 10-ago-2026 (Ids 31815/31816 unchanged —
+         the successor-legislation + AML-reglamento D.O.-sumario
+         routes gated on the stall clearing). **Corpus 1,732 FRs
+         UNCHANGED / cml 248-260-144-35 (LB-031 only); COVERAGE
+         92/9/2/24 of 127 gate green (128_ cited on arrival);
+         registry 126 file rows, next 129.** SV program residual =
+         external watches (uif AML deadline 2026-10-17, now
+         instrument-evidenced by 128_; D.O. feed stall; MH
+         formularios; F-11 v19/v20) + census watch + go-live prep.
+         sv worktree converged to main at close.
+
+        **SV W27 merge 2026-08-24 (§4.6 protocol, forty-eighth
          run):** `sv-research` rebased onto `f3e66ab` (a NO-OP — main
          unmoved since the W26 merge, so the 3 session commits
          `ec149e0..1b43569` stand UNREWRITTEN) then

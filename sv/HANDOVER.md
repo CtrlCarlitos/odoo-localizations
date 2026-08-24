@@ -348,6 +348,17 @@ boundary.**
          10-ago-2026 (Ids 31815/31816 unchanged — successor-legislation
          route gated). Fallback surface recorded: transparencia.gob.sv
          LAIP deposit (JS app, route undiscovered). See §5 wave log.**
+         **(MERGED to main at f7c2f71 same day via rebase-then-merge —
+         forty-ninth §4.6 run in root HANDOVER; the rebase was a NO-OP
+         [main unmoved since the W27 merge-record close at 647faa0],
+         so the single session commit f7c2f71 stands UNREWRITTEN and
+         the remote needed no re-pin; plain fast-forward push; both
+         branches converged at close + this record. W28 = the SOQ-46
+         re-probe + 128_ acquisition mini wave: ZERO FR deltas [corpus
+         1,732], +1 acquisition [128_, cited on arrival via cml/10
+         LB-031], SOQ-46 negative at full-enumeration strength,
+         COVERAGE 92/9/2/24 of 127 gate green, registry 126 file rows
+         next 129.)**
 
 
 ## 2. Read order for a new session
