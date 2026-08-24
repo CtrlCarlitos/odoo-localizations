@@ -5,8 +5,8 @@
 | Country | sv |
 | Topic   | special-regimes |
 | Status  | draft |
-| Authors | Takumi synthesis wave 7 (S7 special-regimes) |
-| Updated | 2026-08-22 (W19 instrument fold-in) |
+| Authors | Takumi synthesis wave 7 (S7 special-regimes); W24 T4 pointer flip (taxation/09 OQ-2) |
+| Updated | 2026-08-24 (W24 T4 pointer flip) |
 
 ## 1. Purpose
 
@@ -482,7 +482,7 @@ version-specific behavior is required by this file.
 | FR-172 | odoo | res.company (consuming) + account.move | l10n_sv_fovial_classification election | costo de combustibles / gasto de operación / gasto de fabricación; example 7°: inventory $4,200 including contribution, IVA crédito on price only |
 | FR-173 | odoo | (link) res.company → account.account | isr_surface_ref | taxation/02 SV-TAX-FR-045 by id (Art. 29.6 caused-and-paid); election feeds the deductible account; never restated |
 | FR-174 | odoo | account.tax (COTRANS row) | unit_amount $0.10 + CAT-015 C8 · instrument provenance | instrument = 89_ Art. 3 (acquired W18, anchored W19 — SOQ-39 consumed, MOQ-04 closed); identity = passenger-tariff contribution; mechanics at FR-187/188/189 |
-| FR-175 | odoo | (feed) fuel-line data exports | galones/grade/D1 amounts | F-07 annexes 13-14 = SV-FREP-FR-124..129 by id; casilla-525 interplay open (fiscal-reporting/01 FR-020 + OQ-003 kin); B2B-chain-vs-DTE mapping = SOQ-40 IVA-core pointer |
+| FR-175 | odoo | (feed) fuel-line data exports | galones/grade/D1 amounts | F-07 annexes 13-14 = SV-FREP-FR-124..129 by id; casilla-525 interplay open (fiscal-reporting/01 FR-020 + OQ-003 kin); B2B-chain-vs-DTE mapping = SOQ-40 IVA-core pointer — resolved W24 (taxation/09 OQ-2: design confirmed, config-gated) |
 | FR-185 | odoo | l10n_sv.fuel.contribution.obligation (per retention-agent company) | period totals · first-5-días-hábiles enter · declaración-jurada record | statute enter/inform duty (86_ Art. 26); no instrument interest (inciso final derogated by D.L. 789-2008, OQ-6) |
 | FR-186 | odoo | res.partner (DIF fields) + account.move (dispensa documents) + l10n_sv.devolution.request | DIF number · cuota · name+DIF+NIT consignment (CCF/factura, Art. 26-C) · 2-yr caducidad · 15-días-hábiles clock | buyer-side exclusion machinery (86_ Arts. 26/26-A..26-D); devolución DISTINCT from FR-171 chain and FR-175 credit |
 | FR-187 | odoo | account.tax (COTRANS) + product.template scope flag | amount_type=fixed · dated $0.10 (valid_from 23-dic-2021) · C8 · cotrans scope | same per-unit family; scope distinct from FOVIAL (diésel bajo en azufre etc.); passenger-only beneficiary side (transporte especial excluded) |

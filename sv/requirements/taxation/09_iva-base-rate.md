@@ -5,8 +5,8 @@
 | Country | sv |
 | Topic   | taxation |
 | Status  | draft (S9 IVA-core wave, in review) |
-| Authors | Takumi synthesis wave 9 + controller |
-| Updated | 2026-08-20 |
+| Authors | Takumi synthesis wave 9 + controller; W24 T4 OQ-2 resolution (86_-89_/106_ verification) |
+| Updated | 2026-08-24 |
 
 ## 1. Purpose
 
@@ -487,6 +487,10 @@ watch (§2 preamble) applies to every row above.
   instrument-independent per FR-242.
   (LB-012; EVID-274; SOQ-39; SPE 08-file SV-SPE-FR-174)
 
+  Design confirmed W24 (OQ-2 resolved): no statutory DTE-chain rule
+  exists in the owned instruments; rows stand as labeled product
+  design, config-gated.
+
 ## 4. Data Model
 
 No dated legal TABLE vintages ship as CSV sidecars for this file (wave
@@ -676,6 +680,6 @@ against a current official consolidation at implementation.
 | ID | Question | Blocking? | Owner | Status |
 |----|----------|-----------|-------|--------|
 | OQ-1 | SOQ-54 (vintage): the 01_ consolidation's last reform stamp is D.L. 71-2015 and the 02_ Reglamento's is D.E. 117-2001 — post-2015/post-2001 reforms unverified until an official current consolidation is acquired; corpus-internal signals negative (DTE stack 44_/45_, Quincena-25 package 66_/67_, F-07 v14 manual all silent on later IVA-core reforms). Load-bearing here for the 13% rate row (FR-240) and the base machinery alike. Re-verify Arts. 47-55 + Rgto. Arts. 17-18 at implementation; the watch rides every LB of this file (§2). | no | Takumi S9 (sources registry) | open |
-| OQ-2 | SOQ-40 (design pass): the 2001 control-account chain (RETENCIÓN-FOVIAL / CUENTAS-POR-COBRAR-FOVIAL re-bill) is 31_-guide vintage and PREDATES e-invoicing; the mapping onto DTE-embedded D1 tributo lines (one per operation across FE/CCF chains, final consumer absorbing) is THIS file's DESIGN (FR-244/245), not statutory — no corpus instrument prescribes it. Confirm the intended modern mechanics (D1-line-per-document as the recovery echo vs any MH/DGII chain rule) at FOVIAL-law acquisition; SR8's design-pass pointer (SV-SPE-FR-175) records the same handoff. | no | Takumi S9 + Odoo implementation | open |
+| OQ-2 | SOQ-40 (design pass): **RESOLVED W24 — instruments verified RULE-NEGATIVE; design CONFIRMED**: the FOVIAL/COTRANS instruments owned since W18/W19 (86_/87_/88_/89_, + the 106_ prorroga) print the per-unit contribution and its base exclusions but NO rule mapping the B2B recovery chain onto DTE/tributo lines — direct txt grep (terms: tributo/D1/documento/factur/electrónic/línea/cadena/echo/traslado/recuperación) returns ZERO DTE-chain prescriptions across all four txts; recorded hit classes: buyer-identification consignment on dispense transfers (86_ Art. 26-C: buyer name/DIF/NIT consigned in the CCF/factura sustaining the sale), the 26-A..26-D devolución procedure (DGII forms + references to sale-backing documents — EVID-376's exclusion administration), electronic reporting/control means (86_ Arts. 26-A/26-C; 89_'s electronic recaudo system + electronic filings) and contractual/board documents (87_/89_) — none prescribes a documento-tributario-embedded recovery echo; the control-account chain (RETENCIÓN-FOVIAL / CUENTAS-POR-COBRAR-FOVIAL re-bill) therefore rests on the 31_ guide (2001, pre-DTE vintage) alone — the D1-line-per-operation echo (FR-244) and the config-gated COTRANS rows (FR-245) are CONFIRMED as the labeled product design (config-gated), not statutory; SR8's design-pass pointer (SV-SPE-FR-175) flipped resolved the same day. Standing re-validation trigger = any future MH/DGII chain rule prescribing the DTE mapping (watch kin: SOQ-30 cadence). | no | Takumi S9 + Odoo implementation | **resolved** (W24; instruments verified — design confirmed) |
 | OQ-3 | SOQ-39/MOQ-04 (guard note): **RESOLVED — instruments ACQUIRED W18, consumed W19 (86_-89_; spe/08 LB-008..012 + FR-185..189 own the instrument-side mechanics)**: FOVIAL = 86_ (D.L. 208-2000 consolidated through D.L. 93-2012) + 87_/88_ D.O. prints — the $0.20/galón value is D.L. 597-2001's Art. 26 reform text per 88_ (in force 17-nov-2001), no longer catalog-print-only; COTRANS = 89_ (D.L. 257-2021, passenger-tariff-stabilization contribution — NOT transportistas de carga — $0.10/galón Art. 3, vigencia through 31-dic-2026 per the prorroga tail). FR-242's guard is UNCHANGED (instrument-independent — it excludes ANY configured per-unit fuel contribution from the IVA base); FR anchors intact; FR-245's COTRANS activation gate is now satisfiable via 89_ (chain-mechanics rewire rides the SR8 wave). Residual = OQ-2's D1-mapping design confirmation (now unblocked). **Rewire landed W20: FR-245/§4/§5/AC-017 now anchor to 89_ (vigencia window through 31-dic-2026).** | no | Takumi S9 (sources registry) | **resolved** (W19; 86_-89_) |
 | OQ-4 | Rate-cutover precision: Art. 54's stamp (2) prints D.L. 370 dated 8-jun-1995 with D.O. 114 T.327 of 21-jun-1995 "(13 %)", and EVID-317 glosses "effective jun-1995" — but the exact vigencia DAY (publication date? eight days after? retro to the decree date?) is unprinted in the corpus, and the pre-reform 10% value itself rests on the EVID-317 gloss, not on a printed 1992 Art. 54 text. The FR-240 history rows carry the cutover as an unpinned boundary (conservative default: D.O. publication 21-jun-1995, flagged). Pin from the D.L. 370 text or an official consolidation before historical-import certification. | no | Takumi S9 (sources registry) | open |
