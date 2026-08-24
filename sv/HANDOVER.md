@@ -275,6 +275,15 @@ boundary.**
        305-T (arreglo directo/arbitraje) uncited by scoping. Commits
        a56c2a1..ac626db; pushed sv-research; merge = owner decision
        (forty-seventh §4.6 run when directed).**
+       **(MERGED to main at c74770c same day via rebase-then-merge —
+       forty-seventh §4.6 run in root HANDOVER; the rebase was a NO-OP
+       [main unmoved since the W25 merge at 6121d42], so the 9 session
+       commits a56c2a1..c74770c stand UNREWRITTEN and the remote
+       needed no re-pin; plain fast-forward push; both branches
+       converged at close + this record. W26 = the rides + hygiene
+       consolidation: ZERO corpus deltas — 1,730 FRs, same LB/AC
+       counts, spe OQ legend 48/12, COVERAGE 90/9/2/24 of 125 gate
+       green, registry 124 file rows next 127.)**
 
 
 ## 2. Read order for a new session

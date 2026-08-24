@@ -850,6 +850,42 @@ expected and absorbed by instantiating the canon, never by forking it.
          index; use the www base (apex still 000). sv worktree
          converged to main at close.
 
+       **SV W26 merge 2026-08-24 (§4.6 protocol, forty-seventh
+         run):** `sv-research` rebased onto `6121d42` (a NO-OP — main
+         unmoved since the W25 merge, so the 9 session commits
+         `a56c2a1..c74770c` stand UNREWRITTEN) then
+         fast-forward-merged at the W26 close `c74770c`; plain
+         fast-forward push, no remote re-pin needed. **SV W26 = the
+         rides + hygiene wave (controller-direct, owner-directed
+         consolidation per plan
+         `docs/superpowers/plans/2026-08-24-w26-rides-hygiene-wave.md`):
+         every open ride in sv/HANDOVER §8.1's residual list
+         EXECUTED with ZERO corpus deltas** — W23 cml minors (strict
+         "225..242 + 246" glosses ×3 surfaces; LB-034 [sic]; LB-018
+         de-quote; Art.-338 double-verbatim collapsed at LB-033;
+         LB-039 transitorio numerals 3-4; six >80-char rewraps) + W24
+         spe/taxation minors (window_kind canonical tokens
+         spe-corpus-wide; AC-015 ws; FR-417 two-layer window sketch;
+         taxation/03 §5 cells → §4 field vocabulary) + the W25 spe/08
+         ride (FR-189/LB-012/config-row/preamble/OQ-8 chain provenance
+         → text-owned 124_/125_/126_, all recital hedges dropped) +
+         W19 stragglers (spe/04 OQ-1 flipped resolved — LESIA 79_;
+         spe/01 OQ-3 + spe/07 OQ-4 flipped resolved-negative — SOQ-31
+         W25 propagation, caught by the proof grep; six coa OQ rows'
+         stale "≥75" refreshed; spe OQ legend 48 open/12 resolved) +
+         C1 hygiene (frep/04 LB-009 full registered source stem +
+         COVERAGE_NOTES retirement + regen; EV-bank A1 estas→esas +
+         the coa/01 LB-002 kin; coa/01 LB-004 PAGE 48-53;
+         build_catalogs.py preserves the _INDEX corrections-log on
+         regen). **Corpus 1,730 FRs UNCHANGED / same LB-AC counts;
+         COVERAGE 90/9/2/24 of 125 gate green (no drift); registry
+         UNCHANGED (124 file rows, next 127).** No-action rides
+         documented (verify-or-document); 111_-touch chapter-spine
+         residual recorded (305-C/305-I/305-T). SV program residual =
+         SOQ-46 criteria hunt + external watches (uif AML deadline
+         2026-10-17) + census watch + go-live prep. sv worktree
+         converged to main at close.
+
 
        **GT W-GT10 merge 2026-08-23 (§4.6 protocol, forty-second
        run):** `gt-research` rebased onto the SV-W22 tip `8fe7854`
