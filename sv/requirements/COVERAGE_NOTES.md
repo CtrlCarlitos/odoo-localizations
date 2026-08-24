@@ -109,6 +109,8 @@ lists must NOT be duplicated here — they regenerate.
 | 98_DACG_DGA_014_2025_Tasa_InspeccionNoIntrusiva.pdf | DACG DGA-014-2025 — $18.00 current-tasa identity anchor (SOQ-34 resolved: value never changed; spe/06 LB-022; W19 T1, EVID-371/372). FLIPPED from pending-S2+ by the W19 fold-in (2026-08-22) |
 | 99_DACG_DGA_008_2015_Tasa_InspeccionNoIntrusiva.pdf | DACG DGA-008-2015 — $18.00-since-2014 chain anchor (SOQ-34; spe/06 LB-022; W19 T1). FLIPPED from pending-S2+ by the W19 fold-in (2026-08-22) |
 | 100_Reforma_Ley_Simplificacion_DL124_DO_2015-10-05_pp9-10.pdf | D.L. 124-2015 — the 74_ Art. 12-B exemption set incl. simplified-declaration <$1,000 (spe/06 FR-176/LB-021; W19 T1). FLIPPED from pending-S2+ by the W19 fold-in (2026-08-22) |
+| 107_Reforma_AeropuertoPacifico_DL201_2025_Asamblea.pdf | D.L. 201-2025 airport capital-gains reform — taxation/03 LB-020 (FR-418 CEPA/MOPT perimeter-seller exoneración, efectos from 8-may-2022 per the substituted Art. 35) + spe/01 LB-035 identity row (base law D.L. 361-2022 un-acquired). FLIPPED from pending-S2+ by the W24 fold-in (2026-08-24) |
+| 108_EnergiaElectrica_AccesoUniversal_DL411_2025_Asamblea.pdf | D.L. 411-2025 energía-eléctrica contractor package — spe/01 LB-034 + spe/02 LB-024 (SV-SPE-FR-204 family) + taxation/01 LB-037 (FR-417) + taxation/03 LB-021 (FR-419) + taxation/08 LB-016 (FR-420) + taxation/11 LB-009 (FR-421). FLIPPED from pending-S2+ by the W24 fold-in (2026-08-24) |
 | schemas/ (dir) | superseded 2022-era extraction (fe-ccf-v3, contingencia-v3, anulacion-v2 era; no fe-eret/fe-eop) — NOT the current set; the current 15-schema set lives inside `52_Json_Schemas_DTE_Eventos_2026-08-11.zip`, the LB cited directly (`e-invoicing/01` LB-006; `03` LB-010) |
 
 W19 regen (2026-08-22) pending-set rationale — 12 rows stay `pending-S2+`,
@@ -130,8 +132,19 @@ CC reform set: **109_-114_** now cited-as-LB (the cml fold-in landed —
 Arts. 4-8 fusión transnacional + 338-escheat/358-domicilio, `08` 110_
 usura + 112_ truncation awareness rows; re-anchor map in the 07_
 fragment). SOQ-22 falsification swept; SOQ-23 fully closed (D.L.
-905-2023 = 111_). Residual pending from W22: **107_** (D.L. 201-2025
+905-2023 = 111_). Residual pending from W22: ~~**107_** (D.L. 201-2025
 Aeropuerto del Pacífico capital-gains exemption) + **108_** (D.L.
 411-2025 energía eléctrica contractor package — IVA/ISR/registros
-surfaces) — the SOQ-41 dated negatives, spe/taxation fold-in wave next.
-Flip rule held: status follows the LB-citation scan only.
+surfaces) — the SOQ-41 dated negatives, spe/taxation fold-in wave
+next~~ — retired W24. Flip rule held: status follows the LB-citation
+scan only.
+
+W24 regen (2026-08-24) — the last W22 pending pair RETIRED:
+**107_/108_** now cited-as-LB (the spe/taxation fold-in landed —
+`special-regimes/01` LB-034/035 + `02` LB-024; `taxation/01` LB-037,
+`03` LB-020/021, `08` LB-016, `11` LB-009; FR fold-ins SV-SPE-FR-204 +
+SV-TAX-FR-417..421; SOQ-41 residual = the RAEX reglamento config-gap
+(96_) only; SOQ-40/OQ-2 resolved the same wave). Residual pending =
+the 12 W19 rows above (registry-provenance/config use, no LB article
+row — the W18 identity-only rationale stands). Flip rule held: status
+follows the LB-citation scan only.

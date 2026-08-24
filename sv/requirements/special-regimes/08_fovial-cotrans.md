@@ -5,8 +5,8 @@
 | Country | sv |
 | Topic   | special-regimes |
 | Status  | draft |
-| Authors | Takumi synthesis wave 7 (S7 special-regimes); W24 T4 pointer flip (taxation/09 OQ-2) |
-| Updated | 2026-08-24 (W24 T4 pointer flip) |
+| Authors | Takumi synthesis wave 7 (S7 special-regimes); W24 T4 pointer flip (taxation/09 OQ-2); W24 T5 OQ-3 resolution |
+| Updated | 2026-08-24 (W24 T4 pointer flip + T5 OQ-3 resolution) |
 
 ## 1. Purpose
 
@@ -44,7 +44,8 @@ D15 dated rows (23-dic-2021 → 31-dic-2026 current end).
 
 It does **not** cover: the Ley IVA computation mechanics themselves
 (IVA-core wave territory — this file records the base-exclusion
-invariant and the SOQ-40 design-pass pointer, never the engine); DTE
+invariant and the SOQ-40 design-pass pointer, never the engine —
+resolved W24 (taxation/09 OQ-2: design confirmed, config-gated)); DTE
 tributo-line generation and per-type CAT-015 restrictions
 (`e-invoicing/01_document-types.md` SV-EINV-FR-017/SV-EINV-FR-046 by
 id); the F-07 fuel annexes 13-14 and the casilla-525 credit interplay
@@ -412,7 +413,8 @@ EVID-274; page pointers = txt PAGE markers).
   mechanics, so this file invents zero computation); and the mapping
   of the 2001 B2B control-account chain onto DTE-embedded tributos
   (D1 lines across FE/CCF chains) is recorded as the IVA-CORE WAVE
-  DESIGN-PASS POINTER (SOQ-40) — this file delivers the accounting
+  DESIGN-PASS POINTER (SOQ-40) — resolved W24 (taxation/09 OQ-2:
+  design confirmed, config-gated) — this file delivers the accounting
   surfaces the guide prints (FR-170..172) and no chain FR beyond
   them.
   (LB-004; LB-005; EVID-274; SOQ-40)
@@ -584,7 +586,7 @@ configuration).
 |----|----------|-----------|-------|--------|
 | OQ-1 | SOQ-39 carried (FOVIAL half): the Ley del Fondo de Conservación Vial was NOT in corpus at S7 (31_ guide print as provenance chain). **RESOLVED W19 (2026-08-22): instruments acquired — 86_ (consolidated statute through D.L. 93-2012; Art. 26 = LB-008), 87_/88_ (D.O. prints; the $0.20 = D.L. 597-2001's reformed Art. 26, valid_from 17-nov-2001 — LB-009); FR-167 now statute-cited; CAT-015 v1.1 $0.20 print = consistency check (EVID-379). Residual post-2012 watch = OQ-4.** | no | Takumi S7 (sources watch) | **resolved** (W19; EVID-374/375/379) |
 | OQ-2 | SOQ-39 carried (COTRANS half; MOQ-04): the COTRANS instrument was NOT in corpus (31_ title-vs-content defect; only the CAT-015 C8 print). **RESOLVED W19: acquired as 89_ (D.L. 257-2021) — IDENTITY CORRECTED (passenger-tariff contribution, NOT "transportistas de carga"); FR-174 re-anchored, mechanics FR-187/188/189 (LB-011/012; EVID-377/378); MOQ-04 closed (master-index row updated W19; FEXE/AT half → A10).** | no | Takumi S7 (sources watch) | **resolved** (W19; EVID-377) |
-| OQ-3 | SOQ-40 carried: the B2B recovery chain (the 2001 control-account mechanics of FR-170..171) predates e-invoicing — mapping the $0.20×gal recovery onto D1-tributo lines across FE/CCF chains is a DESIGN PASS in the IVA-core taxation wave; this file records the pointer plus the accounting surfaces the guide prints, no chain FR beyond them. Kin: the F-07 casilla-525 FOVIAL credit interplay (fiscal-reporting/01 §7 OQ-003 + 05 §7 OQ-003) — 31_ prints no declaration/credit mechanics, so FR-175 feeds data only and invents zero computation (31_ file OQ-3 kin). | no | Takumi IVA-core wave (design pass) | open |
+| OQ-3 | SOQ-40 carried: the B2B recovery chain (the 2001 control-account mechanics of FR-170..171) predates e-invoicing — mapping the $0.20×gal recovery onto D1-tributo lines across FE/CCF chains is a DESIGN PASS in the IVA-core taxation wave; this file records the pointer plus the accounting surfaces the guide prints, no chain FR beyond them. Kin: the F-07 casilla-525 FOVIAL credit interplay (fiscal-reporting/01 §7 OQ-003 + 05 §7 OQ-003) — 31_ prints no declaration/credit mechanics, so FR-175 feeds data only and invents zero computation (31_ file OQ-3 kin). **RESOLVED W24 (2026-08-24): the design confirmation landed — taxation/09 OQ-2 resolved (instruments 86_-89_/106_ verified rule-negative; no statutory DTE-chain rule exists; FR-244/245 = confirmed product design, config-gated; re-validation trigger = any future MH/DGII chain rule). This file's pointer + accounting surfaces stand as recorded.** | no | Takumi IVA-core wave (design pass) | **resolved** (W24; by pointer to taxation/09 OQ-2) |
 | OQ-4 | SOQ-30 adapted (narrowed W19): the vintage risk of this file is the **86_ consolidation tail (ends at D.L. 93-2012)** — post-2012 FOVIAL reforms are unverified (registry search 2026-08-21: none surfaced) — plus the COTRANS prorroga-chain texts (OQ-8); the instruments themselves (2000/2001/2021) are now owned. Every LB cites as consolidated/printed; a post-2012 reform or value change lands as a new dated row after verification, never a silent edit; re-verify before implementation. | no | Takumi S7 (sources watch) | open |
 | OQ-5 | MOQ-04 linkage note (master index Section C): MOQ-04 asked (i) the FOVIAL/COTRANS legal basis (laws absent, only guide 31_), (ii) whether they are in the IVA base (Art. 51-d tension), (iii) FEXE usage requiring AT authorization. **State after W19: (i) RESOLVED — instruments owned (86_/87_/88_ FOVIAL; 89_ COTRANS; LB-008..012); (ii) RESOLVED for FOVIAL by 31_ §IV.1 (FR-168's guard stands); unstated for COTRANS in 89_ — the FOVIAL guard family extends by config analogy, never asserted as instrument text; (iii) owned by e-invoicing SV-EINV-FR-046 by id (FEXE/AT half remains with A10). Master-index MOQ-04 row updated W19 (evidence pass DONE, EVID-374..379).** | no | Takumi S7 + T7/T8 index rollup | **closed** (W19; linkage recorded) |
 | OQ-6 | The 597 late-enter INTEREST rule (BCR tasa activa promedio + 4 pts, LB-009) = the Art. 26 inciso final DEROGATED by D.L. 789-2008 (86_ p.12/p.22 stamps) — the consolidated law prints NO replacement interest rule for the FOVIAL enter clock. Working ruling: encode NO instrument interest (FR-185); whether the CT's general late-payment interest applies to this contribución especial is an implementation-time decision (never asserted from the corpus). | no | implementation pass | open |

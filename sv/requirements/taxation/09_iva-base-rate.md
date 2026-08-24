@@ -78,7 +78,10 @@ mapping of the 2001 control-account B2B recovery chain (RETENCIÓN-FOVIAL /
 CUENTAS-POR-COBRAR-FOVIAL re-bill) onto DTE-embedded D1 tributo lines, with
 the COTRANS rows config-gated on the 89_ instrument (D.L. 257-2021, owned
 W18; vigencia through 31-dic-2026 per the prorroga chain — terminal limb
-D.L. 387-2025 owned W21 as 106_, Art. 2; spe/08 FR-189 by id).
+D.L. 387-2025 owned W21 as 106_, Art. 2; spe/08 FR-189 by id) — the
+design pass itself confirmed W24 (OQ-2 resolved: instruments
+rule-negative; the mapping stands as labeled product design,
+config-gated).
 
 It does **not** cover: the operation classification and tax-point machinery
 (Arts. 1-32 — `07_iva-framework.md` SV-TAX-FR-176..205, consumed BY ID: the
@@ -125,7 +128,8 @@ recorded as provenance, no FR asserted on it. **31_ = the FOVIAL guide**
 (DGII Guía de Orientación Nº DG-002/2001, 26-nov-2001) — administrative
 guidance printing the D.L. 208-2000 Art. 26 chain (as reformed D.L.
 597-2001): the §IV.1 base-exclusion text is the verbatim Ley-side anchor
-of the guard, and the chain ledger examples are the SOQ-40 design input;
+of the guard, and the chain ledger examples are the SOQ-40 design input
+(pass confirmed W24 — OQ-2 resolved);
 the underlying LAW texts are now OWNED (SOQ-39 RESOLVED W18/consumed
 W19: 86_ = D.L. 208-2000 consolidated through D.L. 93-2012 + 87_/88_
 D.O. prints — the $0.20/galón is D.L. 597-2001's Art. 26 reform text

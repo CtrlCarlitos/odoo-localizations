@@ -4,9 +4,9 @@
 |---------|-------|
 | Country | sv |
 | Topic   | taxation |
-| Status  | draft (S2 + S9 + W17 CT fold-in + W19 identity notes + W20 levy fold-in, in review) |
+| Status  | draft (S2 + S9 + W17 CT fold-in + W19 identity notes + W20 levy fold-in + W24 fold-in, in review) |
 | Authors | Takumi synthesis waves 2 + 9 + controller |
-| Updated | 2026-08-23 (W20: file 17 + 09 rewire + 04 mirror) |
+| Updated | 2026-08-24 (W24: 01/03/08/11 fold-ins + 09 OQ-2 resolution) |
 
 This directory holds the S2 (synthesis wave 2) ISR (*Impuesto sobre la
 Renta*, income tax) requirements: the subject/period/territoriality/filing
@@ -32,24 +32,24 @@ Source-to-requirements coverage: [../COVERAGE.md](../COVERAGE.md).
 
 | File | Scope | FR range | FRs | LBs | ACs | OQs |
 |------|-------|----------|-----|-----|-----|-----|
-| [01_isr-framework.md](01_isr-framework.md) | Subjects, renta obtenida categories, Art. 6 exclusions, periods & cash/accrual methods, territoriality (D.L. 969-2024 exclusion, Art. 127 apportionment), FX, Art. 92 filing duties; Quincena-25 renta no gravada (FR-173) + FY-2026 employer credit/certificado (FR-174); Ley Art. 62 retention-remittance corroborated by 75_ Arts. 99-100 (LB-027/036, OQ-001 resolved W17) | SV-TAX-FR-001..033, 173..174 | 35 | 36 | 20 | 7 |
+| [01_isr-framework.md](01_isr-framework.md) | Subjects, renta obtenida categories, Art. 6 exclusions, periods & cash/accrual methods, territoriality (D.L. 969-2024 exclusion, Art. 127 apportionment), FX, Art. 92 filing duties; Quincena-25 renta no gravada (FR-173) + FY-2026 employer credit/certificado (FR-174); Ley Art. 62 retention-remittance corroborated by 75_ Arts. 99-100 (LB-027/036, OQ-001 resolved W17); W24 T2: FR-417 108_ program-income rentas-no-gravables chassis (Art. 3, LB-037 — the spe/02 FR-204 ISR limb) | SV-TAX-FR-001..033, 173..174, 417 | 36 | 37 | 21 | 7 |
 | [02_isr-deductions.md](02_isr-deductions.md) | Renta neta: Art. 28 pro-rata (+969 carve-out), Art. 29 deductions, Art. 29-A non-deductibles (thin-cap, 25-SMM cash ban), Arts. 31-32 (reserva legal, bad debts, donations), mermas (D.L. 345-2019), Reglamento segregation; Quincena-25 employer gasto deducible (FR-175) | SV-TAX-FR-034..073, 175 | 41 | 20 | 23 | 9 |
-| [03_isr-rates-gains.md](03_isr-rates-gains.md) | Art. 37 brackets (both dated vintages), Art. 41 entity rates, capital gains (10% separate, 12-month rule, no general NOL), securities/deposits 10%, special computations (instalments, repossession, annuities, export valuation); SOQ-01/04 verdicts in §7 | SV-TAX-FR-074..101 | 28 | 19 | 23 | 9 |
+| [03_isr-rates-gains.md](03_isr-rates-gains.md) | Art. 37 brackets (both dated vintages), Art. 41 entity rates, capital gains (10% separate, 12-month rule, no general NOL), securities/deposits 10%, special computations (instalments, repossession, annuities, export valuation); SOQ-01/04 verdicts in §7; W24 T2: FR-418..419 ganancia-de-capital exonerations (107_ airport CEPA/MOPT perimeter sellers, efectos from 8-may-2022; 108_ CEL sellers + the express no-formulario lift) | SV-TAX-FR-074..101, 418..419 | 30 | 21 | 25 | 9 |
 | [04_isr-withholding.md](04_isr-withholding.md) | Salaried retention regime (base, $1,600 fixed deduction, Art. 33 deductions), D.E. 10-2025 periodic + June/December recálculo tables, aguinaldo vintages, multi-employer split, CT 154-160 non-payroll matrix; 75_ retention-agent layer (Arts. 94-97/99/103: permanent-service sweep, in-specie market valuation at delivery, retention moment & mes-calendario period, non-domiciled 20% credit awareness — FR-397..400, LB-022..026); CSVs `withholding_tables.csv` (20 rows) + `isr_brackets.csv` (23 rows) | SV-TAX-FR-102..131, 397..400 | 34 | 26 | 22 | 8 |
 | [05_isr-distributions.md](05_isr-distributions.md) | Art. 72 5% definitive retention on utilidades, Arts. 73-74-C (permanent establishments, capital reductions, partner-loan deemed distributions, no-retention cases), Registro de Control de Utilidades | SV-TAX-FR-132..149 | 18 | 11 | 18 | 7 |
 | [06_isr-assets.md](06_isr-assets.md) | Art. 30 depreciation (rates, used-asset caps, mixed-use pro-rata, seasonal quota), Art. 30-A software 25%, Reglamento Art. 84 per-asset register, Art. 35 maquinaria | SV-TAX-FR-150..172 | 23 | 11 | 20 | 7 |
 | [07_iva-framework.md](07_iva-framework.md) | IVA operation model: transfer concept & goods tax point (Arts. 1-10), retiro self-supply (11-13; FACTURA-only root), importación/internación + D.L. 645-2005 exclusive-use services (14-15), prestaciones catalog, tax points & territoriality (16-19), sujetos pasivos (20-27), excluidos regime with the 1992-colones thresholds as [sic] dated rows (28-32; Rgto. 9-10; SOQ-55 = MOQ-03 closure) | SV-TAX-FR-176..205 | 30 | 28 | 21 | 5 |
-| [08_iva-exemptions.md](08_iva-exemptions.md) | Art. 45 import/internación + Art. 46 service exemption catalogs as dated rows (46-f BCR-qualification config gate, 46-k stale-SAP anchor, 45-h/167-A sectorial-politics kill-switch, 45-i transport 5-year restriction) + the Art. 174 generic-nullity gate | SV-TAX-FR-206..224 | 19 | 15 | 15 | 5 |
-| [09_iva-base-rate.md](09_iva-base-rate.md) | Art. 47 documented-amounts floor, the FULL Art. 48 a)-m) specific-base catalog (Rgto. 17), non-base additions/exclusions (49, 51-52), FX bases (53; Rgto. 18), 13% rate & débito fiscal (54-55, D.L. 370 cutover unpinned), FOVIAL/COTRANS never-in-base guard + the SOQ-40 B2B recovery design pass on DTE tributo lines; COTRANS rows anchored to 89_ (W20 — SOQ-39 consumed, gate satisfiable) | SV-TAX-FR-225..245 | 21 | 13 | 18 | 4 |
+| [08_iva-exemptions.md](08_iva-exemptions.md) | Art. 45 import/internación + Art. 46 service exemption catalogs as dated rows (46-f BCR-qualification config gate, 46-k stale-SAP anchor, 45-h/167-A sectorial-politics kill-switch, 45-i transport 5-year restriction) + the Art. 174 generic-nullity gate; W24 T3: FR-224 third-channel amendment (registered instrument channel (c), Art. 174 working reading) + FR-420 108_ instrument-channel exemption registry (LB-016) | SV-TAX-FR-206..224, 420 | 20 | 16 | 18 | 5 |
+| [09_iva-base-rate.md](09_iva-base-rate.md) | Art. 47 documented-amounts floor, the FULL Art. 48 a)-m) specific-base catalog (Rgto. 17), non-base additions/exclusions (49, 51-52), FX bases (53; Rgto. 18), 13% rate & débito fiscal (54-55, D.L. 370 cutover unpinned), FOVIAL/COTRANS never-in-base guard + the SOQ-40 B2B recovery design pass on DTE tributo lines; COTRANS rows anchored to 89_ (W20 — SOQ-39 consumed, gate satisfiable); W24 T4: OQ-2 RESOLVED — instruments 86_-89_/106_ verified rule-negative, FR-244/245 stand as confirmed product design, config-gated | SV-TAX-FR-225..245 | 21 | 13 | 18 | 4 |
 | [10_iva-credit-deductibility.md](10_iva-credit-deductibility.md) | Art. 57 traslación + credit-document root, no-credit operations (58-61), Art. 65 deductibility gates (58-SMM cash/written-contract, 50% vehicles), retention credits (65 final incisos; Rgto. 23; CT 161-162 same-period gate), Art. 65-A non-deductible catalog (58-SMM via SV-PAY-FR-022 config, SOQ-18 kin) | SV-TAX-FR-246..268 | 23 | 18 | 14 | 3 |
-| [11_iva-pro-rata-remanente.md](11_iva-pro-rata-remanente.md) | Art. 66 proportionality engine (factor, accumulated base, January redistribution), denominator composition & no-sujetas exclusions, Quincena-25 tercerización closure (D.L. 499 Art. 6; guía 67_; R30(c) working reading — closes 02's OQ-009 by pointer), remanente indefinite carryforward + cessation lock (67-68; Rgto. 24), credit non-transferability (69), IVA never cost nor gasto (70) | SV-TAX-FR-269..283 | 15 | 8 | 12 | 3 |
+| [11_iva-pro-rata-remanente.md](11_iva-pro-rata-remanente.md) | Art. 66 proportionality engine (factor, accumulated base, January redistribution), denominator composition & no-sujetas exclusions, Quincena-25 tercerización closure (D.L. 499 Art. 6; guía 67_; R30(c) working reading — closes 02's OQ-009 by pointer), remanente indefinite carryforward + cessation lock (67-68; Rgto. 24), credit non-transferability (69), IVA never cost nor gasto (70); W24 T3: FR-421 108_ proveedores-locales Art. 66 no-proportionality exception (express statutory text, LB-009 — contrast the Quincena-25 guía reading) | SV-TAX-FR-269..283, 421 | 16 | 9 | 13 | 3 |
 | [12_iva-adjustments-assets.md](12_iva-adjustments-assets.md) | Art. 62 débito adjustments (incl. the medicines lot regime), Arts. 63-64 crédito adjustments + determination (modificatoria flag, D9-kin), fixed-asset/capital four-year rule & fijo credits (71-72; Rgto. 26), reorganization transfer gates (Art. 7 f)-i)) | SV-TAX-FR-284..302 | 19 | 12 | 13 | 4 |
 | [13_iva-retentions.md](13_iva-retentions.md) | CT 161 non-domiciled transferors/prestadores (acquirer as obligado), CT 162 grandes/medianos 1%/2% matrix + $100 floor, CT 162-A card 2% anticipo, CT 162-B juicios ejecutivos, credit-release same-period tie-in, F-930 reporting surfaces, ISR-track separation vs `04` (closes frep/03 OQ-004); 75_ procedural development of the matrix (Arts. 104-107: non-domiciled reverse-charge entero + mandamiento/nómina, import-temporal lease "recio" [sic], AT designation of domestic agents, percepción-agent price reporting — FR-401..404, LB-016..019) | SV-TAX-FR-303..319, 401..404 | 21 | 19 | 18 | 4 |
 | [14_iva-exports-refunds.md](14_iva-exports-refunds.md) | Export definition & zero rate (74-75; Rgto. 2-10), ZF/recintos export-equivalence (Rgto. 29; 12_ Art. 25 co-cite), export credits & on-request offsets (76), reintegro workflow (77; Rgto. 30) with the 13%-of-export-value cap (mixed/pure), three-way purchase ledger (Rgto. 30) | SV-TAX-FR-320..337 | 18 | 10 | 15 | 4 |
 | [15_iva-declaration-interfaces.md](15_iva-declaration-interfaces.md) | Monthly declaration chassis (Arts. 93-94; Art. 81 pair), operation-classification interface (R/S fold-in + F-07 annex feed contract, días-hábiles via SV-FREP-FR-200/201), version-regime & historical notes (165, 167-172, 175) | SV-TAX-FR-338..353 | 16 | 8 | 12 | 3 |
 | [16_ct-procedures.md](16_ct-procedures.md) | CT application-reglamento procedural layer (75_ D.E. 117-2001, W17): definitions & the caducidad/prescripción clock vocabulary (Arts. 1-2), representation & domicilio fiscal (5-8, 28-30), registration & agent designation (24-27), the declaration-state model with the amendment classification gate (31-35; CT 103 co-anchor), payments & extinction modes (13-18), compensación + the Art. 23/133 retention imprescriptibilidad/caducidad pair (19-23, 133), refunds (129-135), sanctions & deuda tributaria (136-143), books & records (73-90), notifications/fiscalización awareness (3-4, 9, 108-128), print-era historical blocks — dictamen/máquinas — norm hierarchy (36-72, 144-146, historical only per EV75 OQ-3/OQ-4) | SV-TAX-FR-354..396 | 43 | 41 | 10 | 5 |
 | [17_foreign-agents-levy.md](17_foreign-agents-levy.md) | 96_ D.L. 308-2025 Chapter V foreign-agents special levy: 30% on mandante-financed transactions (RAES-determined in-kind), two-limb Agentes de Retención Especial scope (SSF general + NPO-qualified catch-all), DGT enteros 10 días hábiles, electronic reports 15, monthly donation self-entero, Art. 14 own-informe, CT 246/247/241 sanctions + supletorio, Art. 16 MH delegation — cluster L1 | SV-TAX-FR-405..416 | 12 | 10 | 9 | 4 |
-| **Total** | | SV-TAX-FR-001..416 | **416** | **305** | **283** | **91** |
+| **Total** | | SV-TAX-FR-001..421 | **421** | **310** | **290** | **91** |
 
 Numbering note: FR numbering is wave-sequential within the `SV-TAX` prefix
 (001-175 ISR, no gaps, no renumbering; 173-175 appended by the S6 Quincena-25
@@ -62,6 +62,9 @@ applies only to genuinely new topics). **354-404 = the W17 CT-reglamento
 fold-in continuation (2026-08-20): file 16 (354-396) + the 04/13 retention
 FR zones (397-404), one prefix per R30(b).** **405-416 = the W20
 foreign-agents-levy fold-in (2026-08-23): file 17, one prefix per R30(b).**
+**417-421 = the W24 fold-in (2026-08-24): FR-417 in 01, 418-419 in 03,
+420 in 08, 421 in 11 (the 107_/108_ SOQ-41 residuals; FR-224 amended in
+place), one prefix per R30(b).**
 The two CSVs are dated-data sidecars of `04_isr-withholding.md`
 (`isr_brackets.csv` additionally carries the historical D.E. 25-1992
 colones-era vintage rows); they carry no FRs of their own.
@@ -131,9 +134,10 @@ verification against the gazette print, source `60_`/EVID-171,
 2026-08-18; 02's OQ-009 resolved-by-pointer to S9 11, R30(c) working
 reading, 2026-08-20; 01's OQ-001 resolved W17 2026-08-20 — 75_ Arts.
 99-100 corroborate Ley Art. 62, LB-027/036, EVID-351). S9 IVA files
-(07-15): 35 open — including the SOQ-54 vintage watch as every file's
-OQ-1. W17 file 16: 5 open. W20 file 17: 4 open. Wave total: **85 open /
-6 resolved (91 OQs)**.
+(07-15): 34 open — including the SOQ-54 vintage watch as every file's
+OQ-1; 09's OQ-2 (SOQ-40 design pass) RESOLVED W24 2026-08-24 —
+instruments rule-negative, design confirmed. W17 file 16: 5 open. W20
+file 17: 4 open. Wave total: **84 open / 7 resolved (91 OQs)**.
 
 Master-index SOQ mapping: 04's OQ-001 = SOQ-02; 04's OQ-002 = SOQ-03;
 04's OQ-003 = SOQ-05; SOQ-06 lives in 01's OQ-004 + 06's OQ-001; SOQ-07
@@ -143,7 +147,8 @@ vintage watch, rides every LB); SOQ-55 = 07's OQ-2 (MOQ-03 closure —
 colones thresholds as config); SOQ-56 = 08's OQ-2 (BCR-qualification
 instrument found, 101_-105_); SOQ-57 = 08's OQ-3 (stale SAP anchor);
 SOQ-58 = 08's OQ-4 (167-A kill-switch). Kin: 09's OQ-2 = SOQ-40 design
-pass; 09's OQ-3 = SOQ-39/MOQ-04 kin; 10's OQ-2 = SOQ-18 kin; 13's OQ-2
+pass (**resolved W24** — instruments verified rule-negative, design
+confirmed, config-gated); 09's OQ-3 = SOQ-39/MOQ-04 kin; 10's OQ-2 = SOQ-18 kin; 13's OQ-2
 = SOQ-21 kin.
 
 ### 01_isr-framework.md (7)
@@ -230,7 +235,7 @@ pass; 09's OQ-3 = SOQ-39/MOQ-04 kin; 10's OQ-2 = SOQ-18 kin; 13's OQ-2
 ### 09_iva-base-rate.md (4)
 
 - OQ-1 — SOQ-54 (vintage): load-bearing on the 13% rate row (FR-240); re-verify Arts. 47-55 + Rgto. 17-18. open
-- OQ-2 — SOQ-40 (design pass): the 2001 FOVIAL control-account chain mapped onto DTE-embedded D1 tributo lines = THIS file's design (FR-244/245); confirm at FOVIAL-law acquisition. open
+- OQ-2 — SOQ-40 (design pass): the 2001 FOVIAL control-account chain mapped onto DTE-embedded D1 tributo lines = THIS file's design (FR-244/245); confirm at FOVIAL-law acquisition. **resolved** (W24 2026-08-24: instruments 86_-89_/106_ verified RULE-NEGATIVE — no statutory DTE-chain rule exists; FR-244/245 confirmed as labeled product design, config-gated; re-validation trigger = any future MH/DGII chain rule — see 09 §7 OQ-2)
 - OQ-3 — SOQ-39/MOQ-04 (guard note): FOVIAL + COTRANS instruments owned (86_-89_); FR-242's guard unchanged, provenance re-dated ($0.20 = 88_; $0.10 = 89_ Art. 3). resolved (W19)
 - OQ-4 — Rate-cutover precision: D.L. 370 (1995) exact vigencia day unpinned; pre-reform 10% rests on the EVID-317 gloss. open
 
