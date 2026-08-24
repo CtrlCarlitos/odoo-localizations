@@ -781,11 +781,45 @@ expected and absorbed by instantiating the canon, never by forking it.
         rollup off-by-one corrected; 107_/108_ pending = the next SV
         wave, spe/taxation). Registry unchanged (111 files, next 115).
         Process: subagent-driven 6 tasks (T4 one fix round = quote-tail
-        discipline; T1 first dispatch died zero-state, re-dispatched
-        clean), final whole-wave review USABLE-WITH-FIXES → one fix
-        wave PASS (FR-246 restored); W23-process rulings (a)-(i)
-        preserved in sv/HANDOVER.md §5. sv worktree converged to main
-        at close.
+         discipline; T1 first dispatch died zero-state, re-dispatched
+         clean), final whole-wave review USABLE-WITH-FIXES → one fix
+         wave PASS (FR-246 restored); W23-process rulings (a)-(i)
+         preserved in sv/HANDOVER.md §5. sv worktree converged to main
+         at close.
+
+         **SV W24 merge 2026-08-24 (§4.6 protocol, forty-fifth run):**
+         `sv-research` rebased onto `dbe2306` (a NO-OP — main unmoved
+         since the W23 merge, so the 11 session commits `eab7604..
+         4a4613a` stand UNREWRITTEN) then fast-forward-merged at the
+         W24 close `4a4613a`; plain fast-forward push, no remote
+         re-pin needed. **SV W24 = the W22 spe/taxation fold-in EXECUTED
+         (program item §8.1 CLOSED):** the two SOQ-41 residual
+         instruments consumed — 107_ D.L. 201-2025 (CEPA/MOPT
+         perimeter-seller ganancia exoneración, efectos from 8-may-2022
+         as printed — SV-TAX-FR-418 + spe/01 LB-035) + 108_ D.L.
+         411-2025 contractor package (spe/01 FR-200 class-member
+         amendment + spe/02 SV-SPE-FR-204 family + taxation FR-417
+         rentas-no-gravables chassis + FR-419 CEL-seller exoneración
+         with express no-formulario + FR-224 third-channel amendment
+         [Art. 174 genéricas working reading recorded, rejection limb
+         intact] + FR-420 IVA exemption registry with import no-cascade
+         + FR-421 proveedores-locales Art.-66-proportionality
+         exception) + **SOQ-40/OQ-2 RESOLVED** (FOVIAL/COTRANS
+         instruments independently grep-verified rule-negative;
+         FR-244/245 confirmed as labeled product design, config-gated;
+         spe/08 OQ-3 resolved-by-pointer). **Corpus 1,724→1,730 (spe
+         204/165/100/60; taxation 421/310/290/91); SOQ-41 residual =
+         the RAEX reglamento config-gap ONLY — the EVID-167 named set
+         fully dispositioned; COVERAGE 90/9/2/12 of 113 gate green**
+         (107_/108_ cited). Registry unchanged — count CORRECTED to
+         112 file rows (the "111" prose forgot the 17b key; third
+         off-by-one-prose incident). Process: subagent-driven 5 tasks
+         (T3 one fix round; T5 two; T1 dispatch 1 died mid-work →
+         fresh implementer finished), final whole-wave review
+         MERGE-READY 0 C/I (4 minors riding); W24-process rulings
+         (a)-(h) preserved in sv/HANDOVER.md §5. External sweep: D.O.
+         still down (day 3); uif back to 403-WAF. sv worktree converged
+         to main at close.
 
 
        **GT W-GT10 merge 2026-08-23 (§4.6 protocol, forty-second

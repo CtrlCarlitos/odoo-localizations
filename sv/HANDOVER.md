@@ -200,14 +200,19 @@ boundary.**
      CORRECTED: sources/README carries 112 file rows (110 plain numbers
      01-114-minus-gaps + 17b + 25_×2), not 111; the script/README agree
      (third off-by-one-prose incident — the W22 "111" recount forgot
-     17b).** Pushed sv-research; merge = owner decision. See §5 wave
-     log + W24-process rulings.**
+     17b).** Pushed sv-research.
+     **(MERGED to main at 4a4613a same day via rebase-then-merge —
+     forty-fifth §4.6 run in root HANDOVER; the rebase was a NO-OP
+     (main unmoved since the W23 merge at dbe2306), so the 11 session
+     commits eab7604..4a4613a stand UNREWRITTEN and the remote needed
+     no re-pin; both branches converged at close; W24 deferred minors
+     ride the next spe/taxation touches per §5.)**
 
 
 ## 2. Read order for a new session
 
 1. THIS file
-2. `sv/EXTRACTION_PLAN.md` — wave log (W1–W23), reading order, risks
+2. `sv/EXTRACTION_PLAN.md` — wave log (W1–W24), reading order, risks
 3. `sv/.extractions/00_MASTER_INDEX.md` — synthesis lookup: clusters
    (A1-A12, T1-T8, F1-F12, P1-P10, C1-C10, SR1-SR8, N1-N8, V1-V10),
    rulings R1–R30, MOQ/SOQ registers
@@ -1326,7 +1331,9 @@ must grep ALL LB source columns of the new files.
        taxation FR-417..421; corpus 1,730; COVERAGE 90/9/2/12 gate
        green; see §1/§5); ~~(c) SOQ-40/OQ-2 ride~~ RESOLVED W24. The
        8-topic program + W17 + C1 + W18-W24 are
-       COMPLETE (W20/W21/W22/W23 MERGED; W24 push/merge per item 6).
+       COMPLETE (W20/W21/W22/W23/W24 ALL MERGED — W24 at 4a4613a,
+       forty-fifth §4.6 run; every fold-in debt in this program item
+       is dispositioned).
        Remaining, owner's call: residual acquisitions (item 2) + external
        watches (D.O. down since 2026-08-22, uif 403-WAF — §6) + EV-bank
        hygiene queue + the W23 cml deferred-minor rides + the W24
