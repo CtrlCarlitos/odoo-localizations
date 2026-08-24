@@ -16,7 +16,6 @@ lists must NOT be duplicated here — they regenerate.
 | 19_Manual_Funcional_Transmision.pdf | not-applicable-this-wave |
 | 20_Catalogos_Transmision.pdf | not-applicable-this-wave |
 | 25_Catalogos_Transmision_v1.2.pdf | not-applicable-this-wave |
-| 26_Manual_Consola_Administrativa.pdf | not-applicable-this-wave |
 | 29_Modificacion_Anexos_F07_F14.pdf | not-applicable-this-wave |
 | 47_Manual_Funcional_Sistema_Transmision_2026-05-25.pdf | not-applicable-this-wave |
 | 48_Manual_Estructuras_Catalogos_Modelos_v1.6.pdf | not-applicable-this-wave |
@@ -48,7 +47,6 @@ lists must NOT be duplicated here — they regenerate.
 | 20_Catalogos_Transmision.pdf | 2022 catalog PDF; supersession chain 20_ → 25_ → 50_/51_; catalogs wave cites 50_/51_/25_ |
 | 25_Catalogos_Transmision_v1.2.pdf | PDF twin of the cited 25_ XLSX |
 | 25_Catalogos_Transmision_v1.2.xlsx | superseded-historical — retained as LB for documents emitted under the v1.2 regime |
-| 26_Manual_Consola_Administrativa.pdf | MH emitter-console manual; S1 scope is system-to-system (46_); candidate for onboarding (A11) wave |
 | 29_Modificacion_Anexos_F07_F14.pdf | mislabeled source — actual content is the CNR Registro de Comercio F-985 upload manual (extraction `29_F985_CNR_RegComercio`); the intended F-07/F-14 annex-modification resolutions remain absent (SOQ-12); referenced as 29_-file OQ-1 kin in `fiscal-reporting/06` OQ-004 and `07` OQ-001 |
 | 30_Calendario_Tributario_2026.pdf | 2026 tax calendar — obligation inventory, due-day visual layer, asueto legend |
 | 31_Guia_FOVIAL_COTRANS.pdf | provenance chain: guide = secondary authority citing D.L. 208-2000 Art. 26 as reformed D.L. 597-2001; law text absent (SOQ-39; COTRANS instrument absent, MOQ-04 half-open) |
@@ -173,3 +171,12 @@ because the LB row ships in the same wave). 111_'s cml/04 LB count
 change: the 24 pending rows (12 W18 identity-only + 12 W25 provenance)
 ride unchanged. Flip rule held: status follows the LB-citation scan
 only.
+
+W30 regen (2026-08-24) — the A11 onboarding fold-in: **26_ flipped
+not-applicable-this-wave → cited-as-LB** (`e-invoicing/07_onboarding.md`
+LB-006 — the consola test-regime/authorization surface; both curated 26_
+lines above retired: the N-A override + the "candidate for onboarding
+(A11) wave" fragment, whose rationale is spent). The already-cited
+18_/27_/40_/41_/44_ rows gain `07_onboarding.md` LB-row citations the
+same wave. Rollup 93 cited / 8 N-A / 2 superseded / 24 pending. Flip
+rule held: status follows the LB-citation scan only.

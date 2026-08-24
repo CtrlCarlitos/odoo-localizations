@@ -4,13 +4,13 @@
 |---------|-------|
 | Country | sv |
 | Topic   | go-live readiness (cross-topic assessment) |
-| Status  | assessment (W29: catalog walk + register verification, graded statuses, gate rollup) |
+| Status  | assessment (W30: A11 onboarding synthesized — gate green for planning) |
 | As-of   | 2026-08-24 |
-| Corpus basis | 1,732 FRs |
+| Corpus basis | 1,747 FRs |
 | Registry | 126 source-file rows (numbering 01–128, next free 129) |
-| COVERAGE | 92 cited-as-LB / 9 not-applicable-this-wave / 2 superseded-not-cited / 24 pending-S2+ of 127 — gate green (W28) |
+| COVERAGE | 93 cited-as-LB / 8 not-applicable-this-wave / 2 superseded-not-cited / 24 pending-S2+ of 127 — gate green (W30) |
 | Authors | Controller + W29 Task 1 synthesis |
-| Updated | 2026-08-24 (W29) |
+| Updated | 2026-08-24 (W30 — A11 gate flip) |
 
 How to read this file: statuses are per-row; a row with a limb counts as its
 worst limb for gate purposes (a `VERIFIED + WATCH limb` row gates as WATCH; a
@@ -24,23 +24,23 @@ directories.
 
 ## Gate summary
 
-- 21 assessment rows (§1–§4): **13 VERIFIED · 6 VERIFIED-with-limb ·
-  2 BLOCKER rows** (recount of record, this file).
-- Limbs: WATCH limbs on §2.6, §3.2, §4.2, §4.4; BLOCKER limbs on §3.1, §4.1.
-- Every BLOCKER surface (rows §3.3/§3.4 plus the §3.1/§4.1 limbs) is one
-  root — the single §5.1 entry (A11 synthesis gap).
+- 21 assessment rows (§1–§4): **17 VERIFIED · 4 VERIFIED-with-limb ·
+  0 BLOCKER rows** (recount of record, this file, W30 flip).
+- Limbs: WATCH limbs on §2.6, §3.2, §4.2, §4.4; zero BLOCKER limbs (the
+  §3.1/§4.1 limbs closed with §5.1, W30).
+- The former BLOCKER surfaces (rows §3.3/§3.4 plus the §3.1/§4.1 limbs)
+  were one root — the single §5.1 entry — **closed W30** (see §5.1).
 - 0 standalone CONFIG-GAP rows; §5.3 carries the canonical CONFIG-GAP list
   (non-blocking by value-discipline canon).
-- Worst-limb tally: 13 VERIFIED / 4 WATCH / 4 BLOCKER-rooted (one root) →
-  **NOT go-live-ready until the A11 file is minted** (§6); expected green
-  after the A11 wave.
+- Worst-limb tally: 17 VERIFIED / 4 WATCH / 0 BLOCKER →
+  **go-live-ready for planning** (§6).
 
 ## §1 Bootstrap master data
 
 | # | Concern | SV instantiation | Status | Citations (verified to exist) | Notes |
 |---|---------|------------------|--------|-------------------------------|-------|
-| 1 | Legal identity & tax registrations | NIT/DUI/CAT-022 identification; NIT+NRC active contributor profile; foreign-receptor registry IDs | VERIFIED | `SV-EINV-FR-021` (01: CAT-022: 13 DUI / 36 NIT / 02 / 37 / 03 passport), `SV-EINV-FR-023` (01: CCFE NIT 9/14 + active NRC), `SV-EINV-FR-042` (01: FEXE foreign receptor), `SV-EINV-FR-009` (01: fusion NIT AT merged list) | Emitter-side NIT/NRC ride the A11 gap row (§3.1) |
-| 2 | Establishments & points of sale | numeroControl carries estab/PV; warehouses ↔ establecimientos, caja ↔ punto de venta (D17/D14) | VERIFIED | `SV-EINV-FR-004` (01: `DTE-{tipoDte:2}-{estab/PV:8}-{consecutivo:15}`, sections M/B/S/P + P-prefix PV), coa/02 template config sets | D14 canon; EVID-077 all-types-all-establishments rides §3 A11 |
+| 1 | Legal identity & tax registrations | NIT/DUI/CAT-022 identification; NIT+NRC active contributor profile; foreign-receptor registry IDs | VERIFIED | `SV-EINV-FR-021` (01: CAT-022: 13 DUI / 36 NIT / 02 / 37 / 03 passport), `SV-EINV-FR-023` (01: CCFE NIT 9/14 + active NRC), `SV-EINV-FR-042` (01: FEXE foreign receptor), `SV-EINV-FR-009` (01: fusion NIT AT merged list) | Emitter-side NIT/NRC ride §3.1 (closed W30 — onboarding state owned by 07) |
+| 2 | Establishments & points of sale | numeroControl carries estab/PV; warehouses ↔ establecimientos, caja ↔ punto de venta (D17/D14) | VERIFIED | `SV-EINV-FR-004` (01: `DTE-{tipoDte:2}-{estab/PV:8}-{consecutivo:15}`, sections M/B/S/P + P-prefix PV), coa/02 template config sets | D14 canon; EVID-077 all-types-all-establishments resolved W30 — 07 `SV-EINV-FR-174` |
 | 3 | Authorization ranges | SV: NONE — MH assigns; Art. 115-A correlative authorization lifted for DTEs | VERIFIED | `SV-EINV-FR-004` (01: "no AT correlative authorization — Art. 115-A is lifted"), contrast: shared/docs/go-live-readiness.md §4 HN CAI row | Sequence-init still applies (row 5) |
 | 4 | Chart of accounts | sv_coa template + opening balances | VERIFIED | coa/02 (`l10n_sv_chart` template surfaces, ~L589 "account template… Odoo-native"), coa/08 `SV-COA-FR-270` (adoption_transition: transition_date + adjustment_account, ganancias acumuladas) | Opening balances = §2 posting-tier rows |
 | 5 | Legal sequences | D19(c): from imported last-legacy documents, `is_sequence_init`, never user-typed | VERIFIED | `SV-EINV-FR-004` (year-reset consecutive), coa/08 L521 (`is_sequence_init` follows D19 canon) | Corpus-thin: implementation rows are canon-level (shared docs); recorded as such |
@@ -60,10 +60,10 @@ directories.
 
 | # | Concern | SV instantiation | Status | Citations | Notes |
 |---|---------|------------------|--------|-----------|-------|
-| 1 | Regime enrollment | MH DTE emitter registration; acreditamiento once per environment | VERIFIED (mechanics) + BLOCKER limb | `SV-EINV-FR-138` (04: portal info.dtes.mh.gob.sv → verification → cert generation → API user), LB-008 (04: 27_ manual) | AT authorization program (groups/dates) = A11 gap (below). BLOCKER limb: the mechanics are corpus-VERIFIED but the program-level rows are unsynthesized — the row gates as BLOCKER |
+| 1 | Regime enrollment | MH DTE emitter registration; acreditamiento once per environment | VERIFIED (mechanics) | `SV-EINV-FR-138` (04: portal info.dtes.mh.gob.sv → verification → cert generation → API user), LB-008 (04: 27_ manual), `SV-EINV-FR-165` (07: per-environment 7-step onboarding state machine — consumes 04 FR-136..138 + 02 FR-054/057 by id) | AT authorization program (groups/dates) now owned by 07 `SV-EINV-FR-172` (closed W30) |
 | 2 | Credentials & certificates | JWS RS512/PKCS8; per-env vault; env separation | VERIFIED + WATCH limb | `SV-EINV-FR-136` (04: one ACTIVE cert per ambiente, cross-env refused), `SV-PROT-FR-021` (06: const RS512 opaque full-bytes), `SV-EINV-FR-054` (02: pruebas/producción separation), `SV-PROT-FR-013/023` (06: signing round-trip) | WATCH limb: 04 OQ-006 renewal/revocation procedure unobtained |
-| 3 | Test/homologation pass | minimum tests per DTE type + event; test-env windows | **BLOCKER** | Gap: master-index A11 (8 governing EVIDs: 001/036/045/080/081/077/074/083) has NO requirements file — every e-invoicing file scopes "(A11)" out to a file never synthesized (S1 plan file list 01/02/03/04/05-cat/06 has no A11; FR-138's own citation dangles: "owned by the A11 onboarding file") | Closing condition: mint the A11 onboarding requirements file (S-wave; evidence owned; GT S-GT1 Task 5 `04_mandate-onboarding.md` = pattern) |
-| 4 | Phased mandates | AT sets groups/dates; early adoption | **BLOCKER** (same root) | Gap: EVID-077 rows unsynthesized (A11) | Same closing condition as row 3 — ONE §5 inventory entry |
+| 3 | Test/homologation pass | minimum tests per DTE type + event; test-env windows | VERIFIED | `SV-EINV-FR-166` (07: per-(environment, DTE type) passed-tests counters + 2-month/15-day windows), `SV-EINV-FR-167` (07: starred-mandatory gate for additional types), `SV-EINV-FR-168` (07: 5+5 invalidation/contingency event-test minimums, 41_ Anexo 1), `SV-EINV-FR-169` (07: event tests count toward the authorization resolución), `SV-EINV-FR-170` (07: test-env reuse for AT-mandated updates) | Closed W30 — A11 synthesized (`e-invoicing/07_onboarding.md`); per-type counts/starred set config-gated (07 OQ-001, non-blocking) |
+| 4 | Phased mandates | AT sets groups/dates; early adoption | VERIFIED | `SV-EINV-FR-171` (07: early-adopter solicitud + DGII Resolución dated rows), `SV-EINV-FR-172` (07: AT implementation program = append-only mandate rows), `SV-EINV-FR-173` (07: early-adoption path), `SV-EINV-FR-174` (07: all authorized types across ALL establishments), `SV-EINV-FR-175` (07: report-liberation dates as dated config rows) | Closed W30 (same root as row 3); cohort instruments config-gated (07 OQ-003, non-blocking watch) |
 | 5 | Provider contracts | SV model = MH-direct; no certified intermediary | VERIFIED (negative) | `SV-EINV-FR-138` (portal-direct acquisition flow; no DTE-emission certificador surface in corpus) | Contrast GT (18 certificadores); spe/06 customs *entidades certificadoras* = different institution, non-DTE |
 | 6 | Contingency authorization | contingencia CAT-005 tipos 1-5; clocks; invalidación deadlines | VERIFIED | `SV-EINV-FR-103` (03: 1d/10háb/4d/3mo/2y differentiated), `SV-EINV-FR-111/112` (03: contingencia 24h/72h clocks), 03 §4 map rows (event.contingencia) | NCE contingency-eligible; CLE/DCLE/CDE excluded |
 
@@ -74,14 +74,25 @@ mirrored §1–§3 rows named in each disposition.
 
 | Register row | Status | Disposition |
 |--------------|--------|-------------|
-| Enrollment | VERIFIED (mechanics) + BLOCKER limb | Verified w/ A11 caveat (mechanics VERIFIED; program rows = BLOCKER §3.3/3.4) |
+| Enrollment | VERIFIED (mechanics) | Verified (mechanics; program rows synthesized — 07 `SV-EINV-FR-165..175`; closed W30) |
 | Credentials | VERIFIED + WATCH limb | Verified (JWS RS512/PKCS8; OQ-006 renewal watch) |
 | Sequences/ranges | VERIFIED | Verified (no ranges — MH assigns; sequence-init applies) |
 | Straddle filings | VERIFIED + WATCH limb | Verified (F-07/F-14 monthly, F-11 annual; v19/v20 prints WATCH) |
 
 ## §5 Blocking-gaps inventory
 
-### 5.1 BLOCKER — A11 onboarding/authorization never synthesized
+### 5.1 BLOCKER — A11 onboarding/authorization never synthesized — CLOSED (W30)
+
+**RESOLVED 2026-08-24 (W30):** the A11 cluster was synthesized —
+`sv/requirements/e-invoicing/07_onboarding.md` minted (T1, c52f8ba:
+SV-EINV-FR-165..179 — 15 FRs, 8 LBs citing 44_/18_ ×2/40_/26_/41_/27_,
+6 ACs, 4 OQs; e-invoicing corpus 222 → 237, total 1,747); the dangling
+pointer sweep executed (T2, 8b118d3: 9 e-invoicing anchors flipped to
+by-id pointers, 13 cml cluster refs verified resolvable); COVERAGE
+regenerated (26_ cited-as-LB — 93/8/2/24). Every BLOCKER surface gated
+on this entry flipped VERIFIED (§3.1, §3.3, §3.4, §4 Enrollment); the
+gate is green for planning (§6). The inventory below is the historical
+record (W29), retained verbatim.
 
 Surfaces: acreditamiento minimum tests (EVID-081 consola mandatory-starred;
 EVID-036/045 per-event), AT authorization groups/dates + early adoption
@@ -134,11 +145,12 @@ Canonical instances cited; per-file OQ registers own the long tail:
 
 ## §6 Gate statement
 
-1 BLOCKER (A11 synthesis gap; single root, one closing wave) →
-**NOT go-live-ready until closed**; all other rows VERIFIED / CONFIG-GAP /
-WATCH. Expected post-A11: gate green for planning.
+0 BLOCKER — the A11 synthesis gap closed W30
+(`sv/requirements/e-invoicing/07_onboarding.md`, SV-EINV-FR-165..179);
+all rows VERIFIED / WATCH / CONFIG-GAP → **go-live-ready for planning**.
+The §5.2 watches (external deadlines/inputs) ride the planning cadence;
+none blocks planning.
 
-Rollup arithmetic (worst limb per row, 21 rows): 13 VERIFIED · 4 WATCH ·
-4 BLOCKER-rooted (§3.3/§3.4 rows + §3.1/§4.1 limbs; all one §5.1 root) ·
-0 CONFIG-GAP rows. Closing the single §5.1 entry flips every BLOCKER surface
-at once.
+Rollup arithmetic (worst limb per row, 21 rows): 17 VERIFIED · 4 WATCH
+(§2.6, §3.2, §4.2, §4.4) · 0 BLOCKER · 0 CONFIG-GAP rows. Closing the
+single §5.1 entry (W30) flipped every former BLOCKER surface at once.
