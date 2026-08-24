@@ -103,32 +103,69 @@ boundary.**
     Remaining program: acquisition follow-ups (§8.2), SOQ/external watches,
     owner merge decisions.**
      **W22 acquisition wave (2026-08-23): COMPLETE — controller-direct
-     (proportionate scale, asamblea-recovered route): the two SOQ-41 dated
-     negatives OWNED (107_ = D.L. 201-2025 Aeropuerto del Pacífico
-     capital-gains exemption, D.O. 21 T.446 30-ene-2025 stamp on face,
-     efectos from 8-may-2022; 108_ = D.L. 411-2025 energía eléctrica
-     acceso-universal contractor package, D.O. 181 T.448 26-sep-2025 stamp
-     on face, vigencia through 26-sep-2031 — IVA exención + Art. 66
-     pro-rata exception + ISR rentas no gravables + registros especiales +
-     CEL-seller ganancia-de-capital exemption) + THE SAS-HUNT DISCOVERY:
-     the post-2008 Código de Comercio reform set 109_-114_ (D.L. 153-2021
-     bearer-share suppression; 295-2022 usura; **905-2023 = THE SAS
-     STATUTE (Capítulo VIII-Bis Arts. 305-A..Z — SOQ-23 RESOLVED at
-     sources level)**; 972-2024 cheque truncation; 203-2025 + 468-2025
-     SAS-gratuidad chain → 31-dic-2026) — **SOQ-22's W12 "no post-2008 CC
-     reform" verdict FALSIFIED (07_/73_ stale for the reformed article
-     set)**. EVID-405..412 (two EV files); registry 111 numbered files,
-     next 115; FR corpus UNCHANGED at 1,702 (sources wave; fold-in debts
-     registered §8.1); COVERAGE 81/9/2/20 of 112 — gate green (see §5
-     wave log). (MERGED to main at 8fe7854 via rebase-then-merge —
-     forty-first §4.6 run in root HANDOVER; one textual conflict on
-     sv/HANDOVER §1 vs the main-side W21 merge record, resolved
-     keep-both; pre-rebase SHA 10963bb superseded by 8fe7854.)**
+      (proportionate scale, asamblea-recovered route): the two SOQ-41 dated
+      negatives OWNED (107_ = D.L. 201-2025 Aeropuerto del Pacífico
+      capital-gains exemption, D.O. 21 T.446 30-ene-2025 stamp on face,
+      efectos from 8-may-2022; 108_ = D.L. 411-2025 energía eléctrica
+      acceso-universal contractor package, D.O. 181 T.448 26-sep-2025 stamp
+      on face, vigencia through 26-sep-2031 — IVA exención + Art. 66
+      pro-rata exception + ISR rentas no gravables + registros especiales +
+      CEL-seller ganancia-de-capital exemption) + THE SAS-HUNT DISCOVERY:
+      the post-2008 Código de Comercio reform set 109_-114_ (D.L. 153-2021
+      bearer-share suppression; 295-2022 usura; **905-2023 = THE SAS
+      STATUTE (Capítulo VIII-Bis Arts. 305-A..Z — SOQ-23 RESOLVED at
+      sources level)**; 972-2024 cheque truncation; 203-2025 + 468-2025
+      SAS-gratuidad chain → 31-dic-2026) — **SOQ-22's W12 "no post-2008 CC
+      reform" verdict FALSIFIED (07_/73_ stale for the reformed article
+      set)**. EVID-405..412 (two EV files); registry 111 numbered files,
+      next 115; FR corpus UNCHANGED at 1,702 (sources wave; fold-in debts
+      registered §8.1); COVERAGE 81/9/2/20 of 112 — gate green (see §5
+      wave log). (MERGED to main at 8fe7854 via rebase-then-merge —
+      forty-first §4.6 run in root HANDOVER; one textual conflict on
+      sv/HANDOVER §1 vs the main-side W21 merge record, resolved
+      keep-both; pre-rebase SHA 10963bb superseded by 8fe7854.)**
+      **W23 cml fold-in wave (2026-08-23): COMPLETE — the W22 fold-in
+      debt (a) EXECUTED per plan
+      `docs/superpowers/plans/2026-08-23-w23-cml-sas-foldin.md` —
+      subagent-driven, 6 tasks + fix rounds (T1 dispatch died zero-state
+      once → re-dispatched clean; T4 one fix round = LB-029 quote-tails;
+      final whole-wave review USABLE-WITH-FIXES → one fix wave PASS
+      f9ab4e5: FR-246 305-Q/R SAS-eligibility routes restored — the
+      plan-mandated rows the T1 brief's enumeration dropped; commits
+      688b4c4..f9ab4e5). Delivered: cml/04 SAS profile (111_: FR-044
+      statute_pending→in_corpus, FR-225..240 + FR-246 = formulario
+      constitution, S.A.S. suffix + omission liability, $1 capital ≤2-y
+      payment incl. e-wallets, free reserve, no bolsa, S.A.-supletorio
+      cascade, minorities 5/10, exclusión 3/4, auditor-gate-while-
+      microempresario, dividends ≤180 días, $12,000 accounting-mode
+      threshold, books physical-or-electronic, simplified dissolution,
+      gratuidad → 31-dic-2026, transform/fuse-into-SAS routes; LB-032
+      retired in place; LB-033..038 + LB-040) + 109_ acciones re-anchors
+      (FR-066/068 rewrites + FR-241..242: nominative-ABSOLUTE from
+      7-oct-2021, bearer machinery dead, Art. 155 7-kind registry + CT-124
+      information-duty interface, 158 no-consent traspasos, 164
+      registered-titular; LB-026/028 re-anchored + LB-039) + cml/05
+      fusión transnacional + Art. 358 + Art. 338 escheat (111_ Arts. 4-8:
+      FR-243..245 + FR-077/079/086/097 amends + LB-031..033; Arts. 317/319
+      REPLACED wholesale — marginal-notes clause gone, SAS formulario
+      exception, SC comprobar-or-declarar, absorbed-abroad cancellation
+      duty; escheat → Fondo General del Estado; domicilio-fixing
+      continuity/adecuación) + cml/08 awareness LBs (110_ usura 960/960-A;
+      112_ truncation 838-A..E; OQ-004 narrowed) + the SOQ-22
+      falsification sweep (§2 verification-note flips in ALL nine 01-09
+      files; six no-overlap files grep-verified). **+22 FRs → corpus
+      1,724 (cml 246 FRs / 256 LBs / 142 ACs / 35 OQs); SOQ-23 FULLY
+      CLOSED (OQ-001 resolved); SOQ-22 swept (residual = census negative
+      watch only); COVERAGE 88/9/2/14 of 113 — gate green (109_-114_
+      cited; the W22 rollup gloss was off-by-one vs its own matrix,
+      corrected; 107_/108_ pending = the spe/taxation wave). Registry
+      UNCHANGED (111 files, next 115).** Pushed sv-research; merge to
+      main = owner decision. See §5 wave log + W23-process rulings.**
 
 ## 2. Read order for a new session
 
 1. THIS file
-2. `sv/EXTRACTION_PLAN.md` — wave log (W1–W22), reading order, risks
+2. `sv/EXTRACTION_PLAN.md` — wave log (W1–W23), reading order, risks
 3. `sv/.extractions/00_MASTER_INDEX.md` — synthesis lookup: clusters
    (A1-A12, T1-T8, F1-F12, P1-P10, C1-C10, SR1-SR8, N1-N8, V1-V10),
    rulings R1–R30, MOQ/SOQ registers
@@ -216,13 +253,14 @@ boundary.**
 | `taxation/` | 17 + index + 2 CSV | 416 (S2: 001..175 ISR; S9: 176..353 IVA; W17: 354..404 CT procedures; W20: 405..416 foreign-agents levy) | SV-TAX-FR-001..416 |
 | `fiscal-reporting/` | 8 + index + CSV | 214 | SV-FREP-FR-001..214 |
 | `payroll/` | 8 + index + 2 CSV | 147 | SV-PAY-FR-001..147 |
-| `commercial-legal/` | 10 + index | 224 | SV-CML-FR-001..224 |
+| `commercial-legal/` | 10 + index | 246 (W23: 225..246 tails — 04 carries 225..242+246, 05 carries 243..245) | SV-CML-FR-001..246 |
 | `special-regimes/` | 8 + index | 203 | SV-SPE-FR-001..203 |
 | `chart-of-accounts/` | 8 + index | 276 | SV-COA-FR-001..276 |
 
-Totals: 1702 FRs (W17 fold-in = 57 new: taxation 354..404, fiscal-
+Totals: 1724 FRs (W17 fold-in = 57 new: taxation 354..404, fiscal-
 reporting 213..214, payroll 144..147; W19 fold-in = +28: special-regimes
 176..203, all other dirs unchanged; W20 fold-in = +12: taxation 405..416,
+all other dirs unchanged; W23 fold-in = +22: commercial-legal 225..246,
 all other dirs unchanged; taxation dir 416 FRs / 305 LBs / 283 ACs /
 91 OQs). CSVs:
 `withholding_tables.csv` + `isr_brackets.csv` (taxation),
@@ -232,12 +270,15 @@ prefix; **R30(b): one prefix per topic dir — the IVA-core files continued
 `SV-TAX` at 176 rather than taking a new prefix**; genuinely new topics
 take new prefixes per the `<CC>-<TOPIC>-FR-nnn` contract.
 
-COVERAGE rollup after W22 (2026-08-23 regen, gate green): 81 cited /
-9 N-A / 2 superseded / 20 pending (112 rows = 111 numbered registry
-files + the schemas/ dir row; the 20 pending = the W18 identity-only
-set + the 8 W22 sources awaiting their fold-in LB citations, rationale
-in COVERAGE_NOTES; W21 = 82/9/2/12 of 105 before the W22 additions —
-the pre-W22 "104 files" glosses were off-by-one, corrected W22). S8
+COVERAGE rollup after W23 (2026-08-23 regen, gate green): 88 cited /
+9 N-A / 2 superseded / 14 pending (113 rows = 111 numbered registry
+files + the schemas/ dir row; W23 flips: 109_-114_ pending → cited
+[cml/04/05/08 LB columns]; the W22 "81/112" rollup gloss was off-by-one
+vs its own committed matrix — actual was 82/113; corrected at the W23
+regen, second off-by-one-prose incident after the W22 "104 files" one —
+standing lesson: rollup prose derives from the matrix). The 14 pending =
+107_/108_ (the spe/taxation fold-in wave §8.1(b)) + the W18 identity-only
+set, rationale in COVERAGE_NOTES. S8
 lesson (standing): registry flips
 must grep ALL LB source columns of the new files.
 
@@ -275,6 +316,128 @@ must grep ALL LB source columns of the new files.
   consumer interface).
 
 ### Wave log summary (full detail in `sv/EXTRACTION_PLAN.md` §Extraction log)
+
+- **W23 (2026-08-23):** cml fold-in wave COMPLETE per plan
+  `docs/superpowers/plans/2026-08-23-w23-cml-sas-foldin.md` —
+  subagent-driven, 6 tasks + per-task reviews (T1-T3/T5/T6 Approved
+  clean; T4 one fix round = two LB-029 silent quote-TAIL truncations
+  extended per the omission-marker discipline; T1's first dispatch died
+  zero-state → re-dispatched clean; commits 688b4c4..024a1de + fix wave
+  f9ab4e5). **T1** cml/04 SAS profile: §2 SOQ-22 stale-print flip +
+  SAS-design resolution; LB-032 retired in place; LB-033..038 (111_
+  verbatim spine incl. the consolidated Art. 10 gratuidad terminal text
+  + chain; "305-0" [sic, read 305-O] discipline); FR-042 amended (Art.
+  17 one-will-or-agreement basis; Art. 18-II-c sixth type); FR-044
+  flipped to in_corpus; NEW §3.8 FR-225..240 (formulario constitution,
+  S.A.S. suffix + unlimited-solidary omission liability, statutory
+  defaults, unipersonal, $1 capital + ≤2-y payment incl. e-wallets,
+  free reserve, bolsa-blocked, governance cascade + tech meetings,
+  minorities 5/10, exclusión 3/4 + reintegro ≥ valor contable, 305-O
+  fraud liability, auditor-gate-while-microempresario [criteria =
+  config-gap], dividends ≤180 días, $12,000 accounting-mode threshold
+  [≠ Art. 437 keeper threshold — different instrument], books
+  physical-or-electronic [Art. 455 24-month gate read not to govern SAS
+  statutory books per 305-J print — recorded as reading], simplified
+  dissolution clocks, gratuidad window rows → 31-dic-2026); §4
+  society.type sas profile + `sas.formulario` entity; AC-004 rewrite +
+  AC-015..018; OQ-001 resolved. **T2** 109_ acciones re-anchors:
+  LB-026/028 re-anchored (operative quotes from 109_; effective
+  7-oct-2021; Art. 134 survivors = incisos 3-5 as printed — the brief's
+  "3-4" was a miscount) + LB-039 (Arts. 153/158-II/164/212 +
+  transitorio awareness incl. RUC-block); FR-066 rewritten
+  (nominative-ABSOLUTE, bearer-conversion gate removed, provisional-
+  title ≤1-y clock survives) + FR-068 amended (7-kind registry,
+  debidamente-actualizado duty, CT-124 pointer) + NEW FR-241
+  (nominative-title mechanics: no-consent traspasos of paid acciones
+  even contra pacto; registered-titular rule) + FR-242 (CT-124
+  shareholder/dividend information-duty interface → taxation by id;
+  RUC-block/SSF-bar/conversion-window = awareness gloss);
+  `nominative_to_bearer` entry_kind retired with D15 migration note;
+  AC-019. **T3** cml/05: §2 flip + LB-005/018 annotations + LB-006/008
+  re-anchors + LB-031..033 (111_ Arts. 4-8 + 109_ Arts. 7-8 verbatim);
+  FR-077 amended (new-317 registration limb — marginal-notes duty
+  superseded), FR-078 verified untouched (Arts. 318/320 un-reformed),
+  FR-079 rewritten (SAS formulario exception, SC comprobar-or-declarar,
+  absorbed-abroad cancellation duty + failure → personality persists),
+  FR-086 amended (3-días-hábiles deposit clock; 5-y escheat → Fondo
+  General del Estado; bearer limbs dead), FR-097 amended (home-law
+  permission gate + domicilio-fixing route); NEW FR-243 (fusión
+  transnacional enablement + governing-law split), FR-244 (SV-only
+  inscription; notary foreign-doc duty; cancellation-duty state
+  machine), FR-245 (SV-domicile fixing: personality continuity +
+  adecuación escritura); AC-017..020; OQ-002 reshaped-open. **T4**
+  cml/08: §2 flip + awareness LB-028 (110_ usura: 960-III BCR
+  consultation + 960-A nullity of the usurious slice; Tasa Máxima
+  Legal = BCR external series, never shipped; vigencia 4-may-2022) +
+  LB-029 (112_ truncation 838-A..E incl. multas 100-1000 SMM
+  comercio/servicios/industria + the cross-capítulo SMM-extension
+  sentence; vigencia 19-abr-2024); FR-158 pre-110_-print note; OQ-004
+  narrowed-open (BCR norms ≤90 días + interbank rules still
+  un-acquired). **T5** the six no-overlap files (01/02/03/06/07/09)
+  §2 verification-note flips (per-file grep-verified zero
+  reformed-article citations; Art. 1582 C. Civil-code false positive
+  handled). **T6** cml/00_index + master-index rollups + COVERAGE
+  regen. **Final whole-wave review: USABLE-WITH-FIXES → one fix wave
+  PASS (f9ab4e5): I-1 = FR-246 305-Q/R SAS-eligibility routes restored
+  (any society → SAS transformación quorums incl. 3/4-títulos
+  SAS→other; parent-SAS >90% simplified absorption — SAS-absorbing-SAS
+  only per the 305-R print, acciones only; consuming FR-080..082/
+  077..079/225 by id) + LB-040 + §3.8 tail scope note + recount
+  246/256/142 / corpus 1,724 + COVERAGE regen = MERGE-READY.** Deferred
+  minors riding (next cml touch): "225..246" range glosses spanning
+  05's 243..245 in three descriptive surfaces (00_index 04-row,
+  numbering note, MASTER C4/SOQ-23 annotations — strict form "225..242 +
+  246"); LB-034 "finalidad especifica" [sic]; §3.8 heading note landed
+  in the fix wave; LB-018 paraphrase-in-quotes de-quote; Art. 338
+  double-quoted (LB-018 + LB-033) collapse; LB-039 transitorio
+  numerals 3-4; five files' line-wrap. Chapter-spine residual: 305-C
+  (accionista-not-employee), 305-I (proof-of-existence document),
+  305-T (arreglo directo/arbitraje) uncited by scoping — record for the
+  next 111_ touch.
+
+### W23-process rulings (2026-08-23, preserved from the SDD ledger before workspace deletion)
+
+- **(a)** T1's first dispatch died with ZERO state — re-dispatched clean
+  (S7 ruling (c); recurring — dispatch fatality remains the standing
+  first-failure mode).
+- **(b)** The T2 brief's "incisos 3-4" was a MISCOUNT: the 07_ print of
+  Art. 134 has five incisos (1 replaced, 2 derogated, survivors 3-5) —
+  the implementer's as-printed reading upheld (evidence-based
+  implementer override of a plan pointer defect, W17 ruling (a) kin).
+- **(c)** FR-241/242 placement at the §3.8 tail: numbering contiguity +
+  the file's ascending-FR reading order beat the brief's zone planning;
+  a heading scope note was added in the fix wave (T2-M-1).
+- **(d)** FR-246 saga: the T3 brief's header said "FR-243..246" but its
+  allocation text defined three FRs — allocation governed (T3-a);
+  SUPERSEDED at the final review: the plan's Global Constraints had
+  mandated 305-Q/R SAS-eligibility rows which the T1 brief's 16-FR
+  enumeration silently dropped — I-1, fixed in the one fix wave by
+  minting FR-246 per the plan. **Lesson: per-task review gates must
+  check the plan's Global-Constraints deliverables against the brief
+  enumerations, not only the brief's own list.**
+- **(e)** T4 process note: verbatim self-checks must check quote TAILS,
+  not only intra-word spacing (two silent tail truncations escaped);
+  fix = quote extension preferred over omission markers when the
+  dropped text carries substance.
+- **(f)** T6 rollup arithmetic: the W22 rollup prose was off-by-one vs
+  its own committed matrix (81/112 vs actual 82/113) — the regen
+  flipped exactly 6 rows; actuals + a correction note recorded, matrix
+  never hand-forced (W20 ruling (d) precedent; second off-by-one-prose
+  incident — standing lesson: rollup prose derives from the matrix).
+- **(g)** Routing corrections (pre-flight R-1): fusión transnacional +
+  Art. 358 + Art. 338 escheat folded into cml/05, NOT cml/02/03/08 as
+  the W22 EVID-409 gloss routed — corpus LB ownership governs; the EV
+  file's OQ-1 row rides untouched as the historical acquisition-time
+  routing.
+- **(h)** The 07_ extraction txt (pre-W14, main-checkout-only) was
+  regenerated worktree-local, byte-identical — closes the S8 ruling (a)
+  gap for any pre-worktree txt a future wave needs.
+- **(i)** Fix wave: 305-R's simplified absorption is SAS-absorbing-SAS
+  only ("de otra sociedad por acciones simplificada", acciones only) —
+  the controller dispatch's looser "acciones/participaciones of any
+  sociedad" was tightened by the implementer for verbatim fidelity
+  (upheld; proofread controller-authored fact strings, W20 ruling (h)
+  kin).
 
 - **W22 (2026-08-23):** SOQ-41 residuals + SAS hunt acquisition wave
   COMPLETE — controller-direct (no subagents; proportionate scale, W21
@@ -951,18 +1114,23 @@ must grep ALL LB source columns of the new files.
   apéndice code 73), 06 OQ-008 (MH validation depth); 02 OQ-002 rate
   anchor ANSWERED S9 (SV-TAX-FR-240/241), 03 OQ-004 ANSWERED S9
   (SV-TAX-FR-313 zone).
-- Commercial-legal: **SOQ-23 SAS statute RESOLVED at sources level W22**
-  (D.L. 905-2023 = 111_ — a CC REFORM adding Art. 18-II-c + Capítulo
-  VIII-Bis 305-A..Z; gratuidad chain 113_/114_ → 31-dic-2026; cml/04
-  OQ-001 sources-resolved — FR-044 flip + SAS profile fold-in = the next
-  cml edit wave; SAS = "el tipo societario de mayor uso" per 114_
-  cons. III); **SOQ-22 FALSIFIED-AND-RE-RESOLVED W22** (the post-2008 CC
-  reform set 109_-114_ owned — 07_/73_ STALE for Arts. 17/18/134/153/
-  155/158/164/212/219/315-319/337/338/358/960 + new articles; C1-C9 LB
-  verification notes flip to re-anchor-pending; census caveat: por-anios
-  no cards for 2010/2012-2015, 2019 partial — negative watch);
-  SOQ-24 quiebra vintage, SOQ-25 Ley
-  Registro de Comercio, SOQ-26 Economía rate; **SOQ-46 PARTIAL W18** —
+- Commercial-legal: **SOQ-23 SAS statute FULLY CLOSED W23** (sources
+  W22: D.L. 905-2023 = 111_ CC reform, Capítulo VIII-Bis 305-A..Z +
+  Art. 18-II-c; fold-in EXECUTED W23: FR-044 in_corpus + FR-225..240 +
+  FR-246 + LB-032 retired, OQ-001 resolved; gratuidad chain 113_/114_ →
+  31-dic-2026; SAS = "el tipo societario de mayor uso" per 114_ cons.
+  III); **SOQ-22 FALSIFIED-AND-RE-SWEPT W22/W23** (the post-2008 CC
+  reform set 109_-114_ owned + folded: 04 Arts. 17/18/134/155
+  re-anchored, 05 Arts. 315-319/337/338/358 re-anchored, 08 Art. 960 +
+  838-A..E awareness; the six no-overlap files' verification notes
+  flipped; residual = the asamblea census negative watch only — no
+  cards for 2010/2012-2015, 2019 partial); SOQ-24 quiebra vintage,
+  SOQ-25 Ley
+  Registro de Comercio, SOQ-26 Economía rate; 05 OQ-002 reshaped-open
+  (Ley de Competencia values still config-gap; checkpoint now
+  notary/suscriptor comprobar-or-declarar per the new Art. 319); 08
+  OQ-004 narrowed-open (truncation evidenced; BCR norms/interbank
+  rules un-acquired); **SOQ-46 PARTIAL W18** —
   NIIF authority chain acquired 76_-78_ (CVPCPA Res. 154-2024 current +
   Res. 462-2021 adoption + Ley Reguladora D.L. 828/646), both frameworks
   SV-ratified, but the PYMES-vs-full criteria instrument is still
@@ -990,30 +1158,24 @@ must grep ALL LB source columns of the new files.
 
 ## 8. Next actions (ordered)
 
- 1. **Fold-in edit waves are the top program item after W22 (sources
-      acquired; FRs pending):** (a) **cml edit wave** — FR-044
-      statute_pending flip + SAS profile rows from 111_/EVID-409
-      (suffix S.A.S., unipersonal, $1 capital fully subscribed w/ ≤2-y
-      payment, free reserva legal, S.A.-supletorio cascade, ≤180-day
-      dividends, $12,000 accounting-mode threshold, no-auditor-while-
-      microempresario, simplified dissolution, books physical-or-
-      electronic, gratuidad window → 31-dic-2026) + LB-032 retirement +
-      the 109_ acciones re-anchors (nominative-only from 7-oct-2021;
-      Art. 155 CT-124 hook; RUC-block surface) + cml/02/03 fusión-
-      transnacional rows (111_ Arts. 4-8) + cml/08 awareness notes
-      (110_ usura 960/960-A, 112_ truncation 838-A..E, 109_ Art. 338
-      escheat) + C1-C9 verification-note flips (SOQ-22 falsification);
-      (b) **spe/taxation wave** — 107_ ganancia-de-capital exoneration
+ 1. **Fold-in edit waves (W23 EXECUTED the cml half; the spe/taxation
+      half is now the top program item):** ~~(a) cml edit wave~~
+      **COMPLETE W23 (2026-08-23)** — SAS profile FR-225..246 + acciones
+      re-anchors + fusión transnacional + escheat + awareness rows + the
+      SOQ-22 sweep delivered; corpus 1,724 (see §1/§5); pushed
+      sv-research, merge = owner decision. Remaining: (b) **spe/taxation
+      wave** — 107_ ganancia-de-capital exoneration
       window (efectos 8-may-2022, CEPA/MOPT perimeter) + 108_ contractor
       package rows (IVA exención + Art. 66 pro-rata exception for local
       suppliers + ISR 4.1 rentas no gravables + registros especiales +
       CEL-seller exemption); (c) **SOQ-40/OQ-2** (taxation/09 D1-tributo
-      mapping design confirmation — unblocked since W20) rides the next
-      taxation wave. The 8-topic program + W17 + C1 + W18-W22 are
-      COMPLETE (W20/W21 MERGED; W22 push/merge per item 6). Remaining,
-      owner's call: residual acquisitions (item 2) + external watches
-      (D.O./uif DNS-level down since 2026-08-22 — §6) + EV-bank hygiene
-      queue + go-live/implementation prep per
+      mapping design confirmation — unblocked since W20) rides that
+      wave. The 8-topic program + W17 + C1 + W18-W23 are
+      COMPLETE (W20/W21/W22 MERGED; W23 push/merge per item 6).
+      Remaining, owner's call: residual acquisitions (item 2) + external
+      watches (D.O./uif DNS-level down since 2026-08-22 — §6) + EV-bank
+      hygiene queue + the W23 deferred-minor rides (§5 wave log) +
+      go-live/implementation prep per
       `shared/docs/go-live-readiness.md`.
   2. **Acquisition follow-ups (residual after W22):** SOQ-46 criteria
       instrument (candidates Res. 175-2023 [derogated intermediate] /
