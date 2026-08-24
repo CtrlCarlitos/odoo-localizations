@@ -308,16 +308,46 @@ boundary.**
         external sweeps recorded at ec149e0/8eceda1 (factura/MH no
         drift; D.O. feed stalls at 10-ago-2026; uif WAF blocks humans —
         no 2026 AML reglamento evidenced). Merge = owner decision.**
-        **(MERGED to main at 1b43569 same day via rebase-then-merge —
-        forty-eighth §4.6 run in root HANDOVER; the rebase was a NO-OP
-        [main unmoved since the W26 merge at f3e66ab], so the 3 session
-        commits ec149e0..1b43569 stand UNREWRITTEN and the remote
-        needed no re-pin; plain fast-forward push; both branches
-        converged at close + this record. W27 = the chapter-spine mini
-        wave: +2 FRs [corpus 1,732], +1 acquisition [127_, cited on
-        arrival], 305-A..Z spine complete, SOQ-46 candidates
-        dispositioned, COVERAGE 91/9/2/24 of 126 gate green, registry
-        125 file rows next 128.)**
+         **(MERGED to main at 1b43569 same day via rebase-then-merge —
+         forty-eighth §4.6 run in root HANDOVER; the rebase was a NO-OP
+         [main unmoved since the W26 merge at f3e66ab], so the 3 session
+         commits ec149e0..1b43569 stand UNREWRITTEN and the remote
+         needed no re-pin; plain fast-forward push; both branches
+         converged at close + this record. W27 = the chapter-spine mini
+         wave: +2 FRs [corpus 1,732], +1 acquisition [127_, cited on
+         arrival], 305-A..Z spine complete, SOQ-46 candidates
+         dispositioned, COVERAGE 91/9/2/24 of 126 gate green, registry
+         125 file rows next 128.)**
+         **W28 SOQ-46 re-probe sweep + 128_ acquisition mini wave
+         (2026-08-24): COMPLETE — controller-direct (proportionate
+         scale, W21/W27 precedent; owner directed the criteria-hunt
+         re-probe). The sweep went beyond the W18/W27 by-number searches
+         to a FULL ENUMERATION of the cvpcpa publication record (media
+         library 1,082 items / 11 pages, all 32 PDFs triaged; all 13
+         resolución post pages; keyword searches pymes/niif/norma
+         contable/umbral/criterio = ZERO hits) ⇒ **SOQ-46 negative at
+         full-enumeration strength on the primary surface** (master-index
+         row W28 append; watch rides cadence unchanged). Every surfaced
+         resolution dispositioned: Res. 111-2025 (aranceles) + 159-2025
+         (ethics) = the D.O.-published Aug-2025 pair; Res. 83/84-2024
+         fees/services; Res. 275/237-2023 AML (237 now derogated by
+         128_); the site's LREC Reglamento PDF = UN-ENACTED DRAFT, zero
+         PYMES/NIIF/threshold content. **Acquisition 128_ = Resolución
+         CVPCPA 111-2026** (27-feb-2026, Acta 10/2026; media id 4942;
+         sha256-verified byte-identical; 2-pp scan OCR; EVID-419..420):
+         the Council as D.L. 426 supervisor of the Art.-7-num.7 subjects
+         REQUIRES information for the Art.-58 diagnostic matrix; recital
+         cross-pins 71_'s D.O. 190 T.449; **"a la fecha, no se han
+         emitido lineamientos"** (the strongest supervisor-side OQ-001
+         datum) + 12-month window re-cited (⇒ 2026-10-17 corroborated);
+         deroga Res. 237-2023. **cml/10 LB-031 minted ON ARRIVAL (no
+         fold-in debt)** + §3.1 watch sentence + OQ-001 refresh; cml
+         index 10-row LBs 30→31 + total 260. FR corpus UNCHANGED at
+         1,732; registry 126 file rows, next 129; COVERAGE 92/9/2/24 of
+         127 gate green. D.O. re-probe: gazette feed STILL stalls at
+         10-ago-2026 (Ids 31815/31816 unchanged — successor-legislation
+         route gated). Fallback surface recorded: transparencia.gob.sv
+         LAIP deposit (JS app, route undiscovered). See §5 wave log.**
 
 
 ## 2. Read order for a new session
@@ -334,13 +364,20 @@ boundary.**
    `shared/docs/` method docs (extraction procedure, requirements
    template, regulatory-change-management, odoo-localization-guide,
    go-live-readiness)
-6. `sv/sources/README.md` — the registry (125 file rows, numbering
-   01–127 + 17b, gaps 21/23/24/28, 25_ double vintage; next numbering =
-   128)
+6. `sv/sources/README.md` — the registry (126 file rows, numbering
+   01–128 + 17b, gaps 21/23/24/28, 25_ double vintage; next numbering =
+   129)
 
 ## 3. Corpus & evidence state
 
-- **EVID corpus 001..415** (gaps 109-127, 240 reserved-unused; W25 adds
+- **EVID corpus 001..420** (gaps 109-127, 240 reserved-unused; W28 adds
+  EVID-419..420 in `128_Resolucion_CVPCPA_111_2026` — the CVPCPA's
+  Feb-2026 supervisor-side AML move: Art.-58 diagnostic requirement +
+  the express no-lineamientos statement + 12-month-window corroboration
+  + Res. 237-2023 derogation; W27 had added
+  EVID-416..418 in `127_Resolucion_CVPCPA_82_2024` — the S1/S2 window
+  + PYMES bar; the §3 head was stale at "001..415" through W27, fixed
+  here); W25 adds
   EVID-413..415 in `124-126_COTRANS_Cadena` — the COTRANS chain texts:
   307 suspension + 617 prorroga/17-A-creator + 1000 prorroga/17-A-reform;
   W22 adds
@@ -369,9 +406,12 @@ boundary.**
   `17_Reglamento_Lavado_Activos` (EVID-232..235, kept-mechanics citable).
   W9 payroll: EVID-191..210. W8 fiscal reporting: EVID-171..190. W7/W6.5/
   W6 ISR: EVID-088..108, 128..170. S1 foundations: EVID-001..087.
-- **125 registered source file rows** (numbering 01–127 + **17b**, gaps
-    21/23/24/28 = 123 plain numbers + 17b + the 25_ double vintage (pdf+xlsx)
-    = 125 files — W27 added 127_ = Resolución CVPCPA 82-2024 (the NIIF S1/S2
+- **126 registered source file rows** (numbering 01–128 + **17b**, gaps
+    21/23/24/28 = 124 plain numbers + 17b + the 25_ double vintage (pdf+xlsx)
+    = 126 files — W28 added 128_ = Resolución CVPCPA 111-2026 (the D.L. 426
+    supervisor-side AML diagnostic requirement + no-lineamientos statement;
+    SOQ-46 re-probe by-product, EVID-419..420; cited on arrival via
+    cml/10 LB-031); W27 added 127_ = Resolución CVPCPA 82-2024 (the NIIF S1/S2
     window + PYMES bar; SOQ-46 hunt by-product, EVID-416..418; cvpcpa
     wp-json route — the `www.` base required); W25 added 115_-126_ = the D.O.
     original prints of
@@ -435,7 +475,7 @@ all other dirs unchanged; W24 fold-in = +6: spe FR-204 + taxation
 FR-417..421, all other dirs unchanged; W27 chapter-spine = +2:
 commercial-legal 247..248, all other dirs unchanged; taxation dir 421 FRs / 310 LBs /
 290 ACs / 91 OQs; spe dir 204 FRs / 165 LBs / 100 ACs / 60 OQs; cml dir
-248 FRs / 259 LBs / 144 ACs / 35 OQs; coa dir 276 FRs / 58 LBs). CSVs:
+248 FRs / 260 LBs / 144 ACs / 35 OQs; coa dir 276 FRs / 58 LBs). CSVs:
 `withholding_tables.csv` + `isr_brackets.csv` (taxation),
 `f14_income_codes.csv` (fiscal-reporting), `smm_2025.csv` +
 `ss_contributions.csv` (payroll). FR numbering is wave-sequential within a
@@ -443,9 +483,10 @@ prefix; **R30(b): one prefix per topic dir — the IVA-core files continued
 `SV-TAX` at 176 rather than taking a new prefix**; genuinely new topics
 take new prefixes per the `<CC>-<TOPIC>-FR-nnn` contract.
 
-COVERAGE rollup after W27 (2026-08-24 regen, gate green): 91 cited /
-9 N-A / 2 superseded / 24 pending (126 rows = 125 registry file rows +
-the schemas/ dir row; W27 adds 127_ cited-as-LB ON ARRIVAL via coa/01
+COVERAGE rollup after W28 (2026-08-24 regen, gate green): 92 cited /
+9 N-A / 2 superseded / 24 pending (127 rows = 126 registry file rows +
+the schemas/ dir row; W28 adds 128_ cited-as-LB ON ARRIVAL via cml/10
+LB-031; W27 had added 127_ cited-as-LB on arrival via coa/01
 LB-008; the 24 pending = the W18 identity-only set (12) + the W25
 provenance set (12), unchanged. Registry-count correction W24: the
 W22-onward "111 files" prose forgot the 17b registry key — README/script
@@ -489,6 +530,52 @@ must grep ALL LB source columns of the new files.
   consumer interface).
 
 ### Wave log summary (full detail in `sv/EXTRACTION_PLAN.md` §Extraction log)
+
+- **W28 (2026-08-24):** SOQ-46 re-probe sweep + 128_ acquisition mini
+  wave COMPLETE — controller-direct (proportionate scale, W21/W27
+  precedent; owner directed the criteria-hunt re-probe). **(1) The
+  SOQ-46 hunt re-probed at FULL-ENUMERATION strength** (beyond the
+  W18/W27 by-number searches): the entire cvpcpa publication record
+  triaged — media library 1,082 items / 11 pages (X-WP-Total
+  pagination; default per_page hides the tail), all 32 PDFs read or
+  class-dispositioned, all 13 resolución post pages, keyword searches
+  (pymes/niif/norma contable/umbral/criterio) ZERO hits. Every
+  resolution 2021-2026 dispositioned criteria-negative: **Res.
+  111-2026 = the only post-154-2024 framework-adjacent instrument —
+  AML supervisor-side, acquired as 128_**; Res. 111-2025 (aranceles) +
+  159-2025 (ethics) = the D.O.-published Aug-2025 pair; Res. 83/84-2024
+  (firma-electrónica fee / tasas); Res. 275/237-2023 (AML; 237 now
+  derogated by 128_); **the site's LREC Reglamento PDF = UN-ENACTED
+  DRAFT** ("DECRETO EJECUTIVO NO. ___" blank; 28 pp; zero
+  PYMES/NIIF/threshold grep hits) ⇒ **SOQ-46 negative at
+  full-enumeration strength on the primary surface** (master-index row
+  append; watch rides cadence unchanged). Fallback surface recorded:
+  transparencia.gob.sv LAIP deposit (32-2/32-4/32-44) = JS app, no
+  wp-json, route undiscovered — probe only if the hunt re-opens with
+  priority. **(2) 128_ = Resolución CVPCPA 111-2026** (27-feb-2026
+  13:40, Acta 10/2026; media id 4942 uploads/2026/03; announced by the
+  "Comunicado Oficial" post; live URL sha256-verified byte-identical
+  (1,583,041 b); 2-pp scan, no text layer — repo `--ocr`
+  flow; EVID-419..420): the Council as D.L. 426 supervisor of the
+  Art.-7-num.7 subjects (contadores/auditores) **requires information
+  for the Art.-58 maturity-diagnóstico matrix**; recital cross-pins
+  D.L. 426's print (D.O. 190 T.449 9-oct-2025 — corroborates 71_);
+  **"Aclárase… a la fecha, no se han emitido lineamientos de la
+  metodología"** = the strongest supervisor-side OQ-001 datum; the
+  12-months-from-vigencia window re-cited (⇒ ≈2026-10-17,
+  corroborating cml/10 LB-030); **deroga Res. 237-2023** (year OCR
+  line-cut, cross-pinned via the cvpcpa post). **Fold-in: cml/10
+  LB-031 minted ON ARRIVAL (W27 cited-on-arrival precedent — zero
+  fold-in debt)** + §3.1 watch sentence + OQ-001 as-of refresh; cml
+  00_index 10-row LBs 30→31 + total 259→260. Practice-artifact leads
+  recorded NOT acquired (cvpcpa SAS formulario 2024/03 = the FR-225
+  duty's fillable artifact; Bitcoin guides 2021). **FR corpus
+  UNCHANGED at 1,732; registry 126 file rows, next 129 (sv/README
+  updated); COVERAGE 92/9/2/24 of 127 gate green.** D.O. same-session
+  re-probe: gazette feed STILL stalls at 10-ago-2026 (Aug-2026 Ids
+  31815/31816 unchanged — the successor-legislation route + the
+  AML-reglamento D.O.-sumario fallback both gated on the stall
+  clearing). Merge = owner decision.
 
 - **W27 (2026-08-24):** chapter-spine mini wave COMPLETE — controller-direct
   per the owner-approved bounded design (proportionate scale, W21/W25
@@ -1587,6 +1674,10 @@ must grep ALL LB source columns of the new files.
   unfound (hunt open; candidates Res. 175-2023 [derogated intermediate] /
   Res. 82-2024, low value per SOQ-52 boundary); AML new-reglamento watch
   (uif.gob.sv — WAF-blocked since 2026-08-21, re-probe pending;
+  **W28 supervisor-side corroboration: Res. CVPCPA 111-2026 = 128_
+  [cml/10 LB-031] — NO methodology lineamientos issued as of
+  27-feb-2026; the 12-month adaptation window ⇒ 2026-10-17 stands;
+  D.O.-sumario fallback gated on the gazette-feed stall**;
   2026-10-17 deadline).
 - F-11 v19/v20 + F14 v17 manual acquisitions (MH page watch; numbering
   now ≥115). **SOQ-41 CLOSED W18** (90_-97_ acquired; D.L. 201-2025 +
@@ -1632,14 +1723,19 @@ must grep ALL LB source columns of the new files.
         (FR-247/248 + LB-041..043; §5 wave log)** +
         go-live/implementation prep per
         `shared/docs/go-live-readiness.md`.
-   2. **Acquisition follow-ups (residual after W27):** ~~SOQ-46 criteria
+   2. **Acquisition follow-ups (residual after W28):** ~~SOQ-46 criteria
        instrument (candidates Res. 175-2023 [derogated intermediate] /
        Res. 82-2024 — low value per SOQ-52 boundary)~~ **BOTH
        DISPOSITIONED W27 (175-2023 closed-negative — text not
        acquirable; 82-2024 acquired as 127_ = the S1/S2 window +
-       PYMES bar, NOT the criteria instrument; residual = negative
-       watch only, cadence re-probes cvpcpa wp-json + D.O. when the
-       feed stall clears)**; ~~SOQ-31 D.O.
+       PYMES bar, NOT the criteria instrument); W28 re-probe ran at
+       FULL-ENUMERATION strength (the entire cvpcpa publication record
+       2021-2026 triaged — every resolution criteria-negative; the
+       site's LREC Reglamento PDF = un-enacted draft with zero
+       framework content; 128_ = the by-product acquisition) ⇒ residual
+       = negative watch only, cadence re-probes cvpcpa wp-json + D.O.
+       when the feed stall clears; fallback surface = transparencia
+       LAIP deposit (JS app, route undiscovered)**; ~~SOQ-31 D.O.
         Oct-Dic-1998 micro-scan~~ **CLOSED W25 (negative confirmed —
         no Reglamento General ever printed; §7)**; F-11 v19/v20 + F14
         v17 manual MH-page watches (**re-pin DONE 2026-08-24**: new landing
@@ -1651,14 +1747,17 @@ must grep ALL LB source columns of the new files.
         gratuidad chain 113_/114_)**; ~~D.L. 201-2025 + 411-2025 anchors~~
         **RESOLVED W22 (107_/108_, D.O. stamps on face)**; uif.gob.sv
         re-probe (AML reglamento watch — 2026-10-17 adaptation deadline;
-        www 403-WAF since 2026-08-24, apex 000); ~~optional D.O. original
+        www 403-WAF since 2026-08-24, apex 000; **supervisor-side state
+        now instrument-evidenced: 128_/LB-031 — no lineamientos as of
+        27-feb-2026; watch = the UIF reglamento + D.O. sumario once the
+        feed stall clears**); ~~optional D.O. original
         prints of 106_-114_~~ **ACQUIRED W25 (115_-123_)**; asamblea
         por-anios residual
         census (2010/2012-2015 no cards, 2019 partial — the SOQ-22
         negative watch).
-     3. Registry note: numbering continues from **128** (W27 registered
-         127_; sv/sources/README is the count of record — **125 file
-         rows** = 123 plain numbers + 17b + 25_×2 [W24 correction; the
+     3. Registry note: numbering continues from **129** (W28 registered
+         128_; sv/sources/README is the count of record — **126 file
+         rows** = 124 plain numbers + 17b + 25_×2 [W24 correction; the
          "111" prose forgot 17b], gaps 21/23/24/28).
  4. SOQ follow-ups per §7; periodic external checks (factura.gob.sv,
     uif.gob.sv/marco-legal, MH formularios, D.O. recovery).
@@ -1690,8 +1789,8 @@ must grep ALL LB source columns of the new files.
   byte-fidelity gitattributes rule (predates it; would need a migration
   pass — never "fix" casually).
 - Commits: short imperative, no emojis; push after each wave.
-- Registry additions continue numbering from the current tail (127
-  after W25); page-1 verify everything; record provenance +
+- Registry additions continue numbering from the current tail (128
+  after W28); page-1 verify everything; record provenance +
   supersession.
 - Synthesis waves: prep (master-index clusters + SOQs) → plan doc in
   `docs/superpowers/plans/` → subagent loop (fresh implementer per task;

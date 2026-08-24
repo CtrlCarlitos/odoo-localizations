@@ -23,7 +23,7 @@ Status values: Not started, In progress, In review, Complete.
 
 ## Sources
 
-125 registered source file rows (numbering 01-127 + 17b; gaps 21/23/24/28
+126 registered source file rows (numbering 01-128 + 17b; gaps 21/23/24/28
 unused; the 25_ double vintage pdf+xlsx counts once in the numbering and
 twice in the file rows — sources/README is the count of record; 66-70
 added by the W11 Quincena-25 package; 71-73 added by W12 — AML regime
@@ -38,8 +38,10 @@ residuals (D.L. 201-2025 Aeropuerto del Pacífico + D.L. 411-2025 energía
 eléctrica) + the post-2008 Código de Comercio reform set incl. THE SAS
 statute (D.L. 905-2023); 115-126 added by W25 — the D.O. original prints
 of 106_-114_ + the COTRANS chain texts 307/617/1000; 127 added by W27 —
-Resolución CVPCPA 82-2024, the NIIF S1/S2 window + PYMES bar; next
-numbering = 128) — laws
+Resolución CVPCPA 82-2024, the NIIF S1/S2 window + PYMES bar; 128 added
+by W28 — Resolución CVPCPA 111-2026, the D.L. 426 supervisor-side AML
+diagnostic requirement + no-lineamientos statement (SOQ-46 re-probe
+by-product); next numbering = 129) — laws
 and regulations (tax, commercial, labor), MH electronic-invoicing manuals and
 catalogs, F-07/F-14 forms and templates, NIIF — plus the 15 current official
 MH JSON schemas inside `52_Json_Schemas_DTE_Eventos_2026-08-11.zip` and a
