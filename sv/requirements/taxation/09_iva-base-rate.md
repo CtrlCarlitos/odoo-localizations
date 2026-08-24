@@ -77,7 +77,8 @@ never charged or recargado over the contribution (Ley IVA Arts. 2 + 47 +
 mapping of the 2001 control-account B2B recovery chain (RETENCIÓN-FOVIAL /
 CUENTAS-POR-COBRAR-FOVIAL re-bill) onto DTE-embedded D1 tributo lines, with
 the COTRANS rows config-gated on the 89_ instrument (D.L. 257-2021, owned
-W18; vigencia through 31-dic-2026 per the registry prorroga chain).
+W18; vigencia through 31-dic-2026 per the prorroga chain — terminal limb
+D.L. 387-2025 owned W21 as 106_, Art. 2; spe/08 FR-189 by id).
 
 It does **not** cover: the operation classification and tax-point machinery
 (Arts. 1-32 — `07_iva-framework.md` SV-TAX-FR-176..205, consumed BY ID: the

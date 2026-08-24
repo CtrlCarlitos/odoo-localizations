@@ -22,9 +22,12 @@ No orphans: every row carries at least one of the four. Sources fully
 superseded but cited as historical LB (25_\*, 40_, 41_) still count as
 cited-as-LB.
 
-Rollup (regenerated 2026-08-22 post-W19): 81 cited-as-LB ·
+Rollup (regenerated 2026-08-23 post-W21): 82 cited-as-LB ·
 9 not-applicable-this-wave · 2 superseded-not-cited · 12 pending-S2+ —
-104 rows (103 registry sources + the schemas/ dir row). W19 flips: 18
+105 rows (104 registry sources + the schemas/ dir row). W21 flips: +1
+row, cited (106_ D.L. 387-2025 COTRANS prorroga — spe/08 LB-013; the
+Aug-2025 prorroga hunt resolved: asamblea recovered 2026-08-23).
+W19 flips: 18
 pending → cited (79_/80_/82_ LESIA+LSI+ZF tails, 86_-89_ FOVIAL/COTRANS,
 90_-94_ transitory vintages, 95_-97_ incentives, 98_-100_ customs tasa
 set — LB columns now cite them) and 14_ cited → superseded-not-cited
@@ -140,4 +143,5 @@ rationale in `COVERAGE_NOTES.md`. Flip history (S8 32_/33_, S9 02_, W17
 | 103_Circular_BCR_Modificacion_Instructivo_Calificacion_2023-12-22.pdf | pending-S2+ |  |
 | 104_Listado_Calificaciones_Vigentes_BCR_2026-08-14.pdf | pending-S2+ |  |
 | 105_Listado_Calificaciones_2026_BCR_2026-08-14.pdf | pending-S2+ |  |
+| 106_Reforma_COTRANS_DL387_2025_Asamblea.pdf | cited-as-LB | `special-regimes/08_fovial-cotrans.md` (1 LB rows) |
 | schemas/ (dir) | superseded-not-cited | superseded 2022-era extraction (fe-ccf-v3, contingencia-v3, anulacion-v2 era; no fe-eret/fe-eop) — NOT the current set; the current 15-schema set lives inside `52_Json_Schemas_DTE_Eventos_2026-08-11.zip`, the LB cited directly (`e-invoicing/01` LB-006; `03` LB-010) |
