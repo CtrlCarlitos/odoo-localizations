@@ -736,6 +736,55 @@ expected and absorbed by instantiating the canon, never by forking it.
        truncation notes) + spe/taxation wave (107/108 exemption
        surfaces). SV worktree clean at the merge point.
 
+       **GT W-GT10 merge 2026-08-23 (§4.6 protocol, forty-second
+       run):** `gt-research` rebased onto the SV-W22 tip `8fe7854`
+       (4 commits rewritten `051a276..026df77`→`9758f59..c259fc1`,
+       one clean pass, zero conflicts — gt/-scoped) then
+       fast-forward-merged at the rewritten W-GT10 close; remote
+       gt-research updated via delete + re-push. **GT = JD-LIBRARY
+       HUNT + RECAUDACIÓN-REFORM/EXONERACIÓN WAVE COMPLETE (corpus
+       113→115 rows, COVERAGE re-closed 115/0/0):** hunt for the
+       queue-rev-12 top item (SEM/accidentes operative-rate
+       instruments) executed controller-side over the full
+       igssgt.org JD-library listing — **VERDICT NEGATIVE (EVID-1329):
+       no Acuerdo 475, no rate-setting title among ~500; library
+       "1243" = 2010 SEM extension (W-GT9 rejection stands);
+       /cuotas/ login-gated; residue → owner-browser DCA-archive
+       route only (queue rev 13)**. Two bonus acquisitions
+       (controller direct fetches): **116_ = JD Acuerdo 1520 + AG
+       239-2022 — THE 2022 REFORM of recaudación reglamento Acuerdo
+       1421 (= 87_, now layer-dated): arts. 4/5 reformed + art. 9 ¶3
+       added; floor redefined as monto base = OE SMM (jornada diurna,
+       ≥8h/día, by activity) × 243.3333/30.4167/1.00 with
+       patrono-borne top-up; the FIRST printed program-distribution
+       proportions table (EMA/Acc/IVS + non-IVS variant) recorded
+       CORROBORATION-ONLY (×15.50% ⇒ EMA 4/2 + Acc 3/1, IVS 3.67/1.83
+       exact — the folk "12.67" mechanically explained yet the
+       12.67/4.83 rejected-prior verdicts STAND; percentages remain
+       delegated to "normativa institucional" — GOQ-04 rate residue
+       UNCHANGED, base-floor half now FORMULA-ANCHORED); effective
+       29-sep-2022** + **117_ = JD Acuerdo 1556 + AG 17-2026 — the
+       standing 100% recargo-exoneración window (lineage
+       1200→1504/1519→1556; ≈25-mar→25-sep-2026 computed, OPEN at
+       session date; planilla-electrónica preconditions; oficio
+       annulment of recargo-only cobros; dación en pago) modeled as a
+       D15/D16 dated-regime overlay (payroll/07 FR-182), never a
+       fifth reglementary waiver case**. EV10 = EVID-1306..1329
+       (controller-written); backfills payroll/07 LB-028/029 +
+       FR-165/169/182/183 + payroll/10 LB-011 addendum + payroll index
+       totals 167→169 (stale W-GT8-era 07-row cell fixed). Tooling
+       gap recorded: build_coverage.py --check RED for GT by
+       construction (SOURCE_RE expects SV-style backticked registry
+       cells) — GT COVERAGE stays hand-maintained; fix parked for the
+       next maintenance pass. GT worktree clean at the merge point; no
+       wave queued — next inputs owner-side (DCA-archive rate hunt,
+       D-1633 art.-11 montos, AG 52-2017 low watch, accountant,
+       TotalDoc W6, 1556-window expiry ≈25-sep-2026). **Note: this
+       commit also carries the SV W22 forty-first-run record above,
+       which the parallel SV session left UNCOMMITTED in the main
+       checkout at its close (their merged commit 8fe7854 rides this
+       push).**
+
        **GT W-GT8 + W-GT9 merge 2026-08-23 (§4.6 protocol, fortieth
        run):** `gt-research` rebased onto `4be5347` (12 commits
        rewritten `ff027bc..895e452`→one clean pass, zero conflicts —
