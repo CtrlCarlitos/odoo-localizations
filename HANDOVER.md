@@ -692,6 +692,33 @@ expected and absorbed by instantiating the canon, never by forking it.
        (SOQ-23) + D.L. 201-2025 text via the asamblea route. SV
        worktree clean at the merge point; no wave queued.
 
+
+       **GT W-GT8 + W-GT9 merge 2026-08-23 (§4.6 protocol, fortieth
+       run):** `gt-research` rebased onto `4be5347` (12 commits
+       rewritten `ff027bc..895e452`→one clean pass, zero conflicts —
+       gt/-scoped) then fast-forward-merged at the rewritten W-GT9
+       close; remote gt-research updated via delete + re-push.
+       **GT = BATCH-3/4/5 + IGSS-JD-LIBRARY WAVES COMPLETE (corpus
+       94→113 rows, COVERAGE re-closed 113/0/0):** W-GT8 (96_–101_ +
+       103_–108_: AML reglamento AG 118-2002 primary, US$10,000 sole
+       threshold, AG 75-2006=SINAS hypothesis DEAD; D-1633 standing
+       public aguinaldo with art.-11 quantum external; D-37-2001
+       incentivo primary; IVA 27-92 consolidated ~2019 → GOQ-01
+       resolved-composite; Cap. VIII/IX = D-7-2019 RECA/electrónico,
+       sunset 2025-08-09 → GOQ-146/107 resolved; SAT Calendario 2026
+       ×8 FLAT, no NIT-digit windows → GOQ-14/145 re-scoped; SEM 410
+       set rateless). W-GT9 (owner found the IGSS JD library
+       igssgt.org/acuerdos-y-resoluciones — fetches direct; 109_–115_:
+       **GOQ-04 IVS-rate half RESOLVED — Acuerdo 1124 art. 40 =
+       3.67% patronal + 1.83% laboral = 5.50% payroll pair, Estado
+       25% = of benefits**; program-family map pinned
+       410/468/466/1002/1124/1118/1135-staff-excluded; residue =
+       SEM/accidentes operative rates via the 410 art.-85 chain
+       475→1243, queue rev 12). GT worktree clean at the merge
+       point; no wave queued — next inputs owner-side (JD-library
+       SEM/accidentes hunt, D-1633 art.-11 montos, AG 52-2017 low
+       watch, accountant, TotalDoc W6).
+
        **SV W20 merge 2026-08-23 (§4.6 protocol, thirty-eighth run):**
        `sv-research` rebased onto `eb59e17` (11 commits rewritten
        `81e0906..1cce46d`→`bcd4a4f..1912d6a`: W20 plan + prep + T1..T5
