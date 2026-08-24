@@ -22,17 +22,18 @@ No orphans: every row carries at least one of the four. Sources fully
 superseded but cited as historical LB (25_\*, 40_, 41_) still count as
 cited-as-LB.
 
-Rollup (regenerated 2026-08-24 post-W24): 90 cited-as-LB ·
-9 not-applicable-this-wave · 2 superseded-not-cited · 12 pending-S2+ —
-113 rows (112 registry source files — numbering 01–114, gaps
+Rollup (regenerated 2026-08-24 post-W25): 90 cited-as-LB ·
+9 not-applicable-this-wave · 2 superseded-not-cited · 24 pending-S2+ —
+125 rows (124 registry source files — numbering 01–126, gaps
 21/23/24/28, with both 17_ and 25_ carrying two vintages — plus the
 schemas/ dir row; the W22 gloss's "81 cited · 112 rows" was off-by-one
 on both sides — the committed W22 matrix already carried 82 cited and
-113 rows — the W23 recount is the count of record). W24 flips: 2 rows
-pending → cited (107_/108_ the SOQ-41 dated negatives — LB columns in
-`special-regimes/01/02` + `taxation/01/03/08/11` per the spe/taxation
-fold-in; FR fold-ins SV-SPE-FR-204 + SV-TAX-FR-417..421). Residual
-pending = the 12 W19 rows (registry
+113 rows — the W23 recount is the count of record). W25 adds 12 pending
+rows (115_-126_, the D.O. original-print wave — provenance upgrades of
+106_-114_ + the COTRANS chain texts 307/617/1000, deliberately not
+LB-flipped; rationale in `COVERAGE_NOTES.md`; SOQ-31 closed negative
+the same wave). Residual
+pending = the 12 W19 rows + the 12 W25 rows (registry
 provenance/config use, no LB article row — rationale in
 `COVERAGE_NOTES.md`; SOQ-41 residual = the RAEX reglamento config-gap
 (96_) only — SOQ-40/OQ-2 resolved the same wave). W23 flips: 6 rows
@@ -167,4 +168,16 @@ history (S8 32_/33_, S9 02_, W17
 | 112_Reforma_CodigoComercio_DL972_2024_Asamblea.pdf | cited-as-LB | `commercial-legal/08_payment-instruments.md` (1 LB rows) |
 | 113_Reforma_DL905_CodigoComercio_DL203_2025_Asamblea.pdf | cited-as-LB | `commercial-legal/04_society-types.md` (1 LB rows) |
 | 114_Reforma_DL905_GratuidadSAS_DL468_2025_Asamblea.pdf | cited-as-LB | `commercial-legal/04_society-types.md` (1 LB rows) |
+| 115_Reforma_COTRANS_DL387_DO_2025-08-22_pp3-5.pdf | pending-S2+ |  |
+| 116_Reforma_AeropuertoPacifico_DL201_DO_2025-01-30_pp13-14.pdf | pending-S2+ |  |
+| 117_EnergiaElectrica_AccesoUniversal_DL411_DO_2025-09-26_pp5-12.pdf | pending-S2+ |  |
+| 118_Reforma_CodigoComercio_DL153_DO_2021-09-29_pp10-14.pdf | pending-S2+ |  |
+| 119_Reforma_CodigoComercio_DL295_DO_2022-04-26_pp20-22.pdf | pending-S2+ |  |
+| 120_Reforma_CodigoComercio_DL905_DO_2023-12-13_pp3-17.pdf | pending-S2+ |  |
+| 121_Reforma_CodigoComercio_DL972_DO_2024-04-11_pp3-8.pdf | pending-S2+ |  |
+| 122_Reforma_DL905_GratuidadSAS_DL203_DO_2025-01-30_pp19-20.pdf | pending-S2+ |  |
+| 123_Reforma_DL905_GratuidadSAS_DL468_DO_2025-11-28_pp6-8.pdf | pending-S2+ |  |
+| 124_COTRANS_Suspension_DL307_DO_2022-03-13_pp2-4.pdf | pending-S2+ |  |
+| 125_COTRANS_Prorroga_DL617_DO_2022-12-22_pp3-5.pdf | pending-S2+ |  |
+| 126_COTRANS_Prorroga_DL1000_DO_2024-04-25_pp20-21.pdf | pending-S2+ |  |
 | schemas/ (dir) | superseded-not-cited | superseded 2022-era extraction (fe-ccf-v3, contingencia-v3, anulacion-v2 era; no fe-eret/fe-eop) — NOT the current set; the current 15-schema set lives inside `52_Json_Schemas_DTE_Eventos_2026-08-11.zip`, the LB cited directly (`e-invoicing/01` LB-006; `03` LB-010) |

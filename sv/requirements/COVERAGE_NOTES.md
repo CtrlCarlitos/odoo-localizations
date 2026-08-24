@@ -148,3 +148,18 @@ SV-TAX-FR-417..421; SOQ-41 residual = the RAEX reglamento config-gap
 the 12 W19 rows above (registry-provenance/config use, no LB article
 row — the W18 identity-only rationale stands). Flip rule held: status
 follows the LB-citation scan only.
+
+W25 regen (2026-08-24) — the D.O. original-print wave: 12 new pending rows
+(115_-126_) with a uniform rationale — **provenance-upgrade / text-ownership
+acquisitions, deliberately NOT LB-flipped** (sources-wave discipline, W18/W22
+precedent): **115_-123_** = the D.O. original gazette prints of the W21/W22
+instruments 106_-114_ (the asamblea rows remain the cited LB anchors — the
+D.O. prints upgrade publication provenance; 120_ additionally preserves the
+AS-ENACTED 2023 Art. 10 gratuidad vintage vs 111_'s consolidated reprint);
+**124_/125_/126_** = the COTRANS chain limbs D.L. 307/617/1000 now text-owned
+(EVID-413..415) — the chain VALUES were already encoded in spe/08 FR-189 via
+the 89_/106_ instruments + registry recitals, and the wave changed no FR rows
+(the "recited by 106_ cons. II" qualifier on the →31-ago-2025 limb can drop
+at the next spe/08 edit). Flip rule held: status follows the LB-citation
+scan only. SOQ-31 closed negative the same wave (D.O. window scan — no
+row impact).
