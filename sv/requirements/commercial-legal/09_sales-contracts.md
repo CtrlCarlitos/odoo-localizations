@@ -85,13 +85,23 @@ lotificadora rules are recorded as scope notes (§3.13), not FRs.
 
 Authority order (binding, per master evidence index S5): the Código de
 Comercio = **07_** (D.L. Nº 671, 8-may-1970, D.O. 140 T.228 31-jul-1970;
-29 listed reforms, last = D.L. 641-2008) — article text CURRENT per the
-**SOQ-22 verification (resolved-with-residual, W12 2026-08-18)**: the
-second official copy 73_ (UIF-hosted Índice Legislativo edition) also
-ends its reform list at D.L. 641-2008, so no post-2008 CC structural
-reform is evidenced in two official consolidations; the residual —
-both copies are Asamblea-editorial artifacts without a stated as-of
-date — rides every 07_ LB in this file. Governing evidence: EVID-227
+29 listed reforms, last = D.L. 641-2008) — **STALE-PRINT RULING (SOQ-22,
+W22 falsification 2026-08-23)**: the W12 "no post-2008 CC structural
+reform" verdict is FALSIFIED — the asamblea por-anios census found and
+this corpus now OWNS the six-instrument post-2008 reform set 109_-114_
+(EVID-407..412: bearer-share suppression, usura, SAS, cheque
+truncation, SAS-gratuidad chain — reformed-article surface: 111_ Arts.
+17/18 + Capítulo VIII-Bis 305-A..Z + 315-319 + 358; 109_ Arts.
+134/153/155/158/164/212/219/337/338; 110_ Art. 960-III + 960-A; 112_
+Arts. 838-A..E); 07_/73_ consolidation texts are STALE for the
+reformed articles, and **NO article of this file's LB set is in the
+reformed set** — this file's sales chapter (Arts. 712 and 1013-1094)
+is OUTSIDE the six instruments' touch and the 07_ print STANDS CURRENT
+for this article range (W23 T5 grep-verified). Census residual
+(negative watch): por-anios carries no cards for 2010/2012-2015 and
+2019 looks partial — a 2009-2019 CC reform cannot be fully excluded
+from enumeration alone; the six owned instruments carry the KNOWN
+post-2008 surface. Governing evidence: EVID-227
 (Arts. 1013-1097, pp.170-182). The evidence file compresses this
 article set to gloss level, so verbatim text below is copied from the
 extraction txt `sv/.extractions/07_Codigo_Comercio.pdf.txt` (citable

@@ -72,13 +72,24 @@ the labor layer (boundary → OQ-001).
 
 Authority order (binding, per master evidence index S5): the Código de
 Comercio = **07_** (D.L. Nº 671, 8-may-1970, D.O. 140 T.228 31-jul-1970;
-29 listed reforms, last = D.L. 641-2008) — article text CURRENT per the
-**SOQ-22 verification (resolved-with-residual, W12 2026-08-18)**: the
-second official copy 73_ (UIF-hosted Índice Legislativo edition, 280 pp.)
-ALSO ends its reform list at D.L. 641-2008, so no post-2008 CC structural
-reform is evidenced in two official consolidations; the residual — both
-copies are Asamblea-editorial artifacts without a stated as-of date —
-rides every 07_ LB in this file. Verbatim text below is copied from the
+29 listed reforms, last = D.L. 641-2008) — **STALE-PRINT RULING (SOQ-22,
+W22 falsification 2026-08-23)**: the W12 "no post-2008 CC structural
+reform" verdict is FALSIFIED — the asamblea por-anios census found and
+this corpus now OWNS the six-instrument post-2008 reform set 109_-114_
+(EVID-407..412: bearer-share suppression, usura, SAS, cheque
+truncation, SAS-gratuidad chain — reformed-article surface: 111_ Arts.
+17/18 + Capítulo VIII-Bis 305-A..Z + 315-319 + 358; 109_ Arts.
+134/153/155/158/164/212/219/337/338; 110_ Art. 960-III + 960-A; 112_
+Arts. 838-A..E); 07_/73_ consolidation texts are STALE for the
+reformed articles, and **NO article of this file's LB set is in the
+reformed set** — this file's agency chapter (Arts. 365-410 incl.
+399-A/399-B; the only cross-code citation is Art. 1582 C., Código
+Civil, quoted inside Art. 409's text) is OUTSIDE the six instruments'
+touch and the 07_ print STANDS CURRENT for this article range (W23 T5
+grep-verified). Census residual (negative watch): por-anios carries no
+cards for 2010/2012-2015 and 2019 looks partial — a 2009-2019 CC reform
+cannot be fully excluded from enumeration alone; the six owned
+instruments carry the KNOWN post-2008 surface. Verbatim text below is copied from the
 extraction txt `sv/.extractions/07_Codigo_Comercio.pdf.txt` (citable per
 standing ruling; page pointers = txt PAGE markers; reform tick marks
 "(5)" (Section B, D.L. 247 substitution) and "(18)" stripped from
