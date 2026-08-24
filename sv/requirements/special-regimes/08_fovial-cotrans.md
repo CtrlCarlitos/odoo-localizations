@@ -102,8 +102,8 @@ below):** the vintage risk is now the **86_ consolidation tail
 (registry search 2026-08-21: none surfaced), and the COTRANS vigencia
 chain beyond 89_'s own Art. 28 now anchors to **106_ D.L. 387-2025**
 (the Aug-2025 prorroga, W21-owned) with the 617-2022/1000-2024 limbs
-recital-pinned by its considerando II (texts un-acquired —
-verification watch; OQ-8 resolved to a re-verify note); article text is
+now text-owned W25 (125_/126_, EVID-413/415 — plus 124_ = the 307-2022
+suspension; OQ-8 resolved with its W25 residual note); article text is
 cited **as consolidated/printed**. CAT-015 v1.1 (2026-07
 re-versioning, source 51_) prints "$0.20 Ctvs. por galón" (D1) and
 "$0.10 Ctvs. por galón" (C8) — consistent with 88_ Art. 1 / 89_
@@ -499,7 +499,7 @@ per the chain rows of FR-189 — terminal limb = 106_ D.L. 387-2025
 Art. 2, instrument-owned W21; post-31-dic-2026 = config watch, zero
 invented behavior); the vintage watch rides §2 (SOQ-30 adapted — the
 86_ consolidation tail ends D.L. 93-2012 and the COTRANS prorroga
-chain texts 617/1000/307 are un-acquired (recital-pinned): a
+chain texts 617/1000/307 are W25-owned (124_/125_/126_): a
 post-2012 reform, a value change or a
 new prorroga lands as a NEW dated row after instrument verification,
 never a silent edit). Mid-year
@@ -590,4 +590,8 @@ configuration).
 | OQ-5 | MOQ-04 linkage note (master index Section C): MOQ-04 asked (i) the FOVIAL/COTRANS legal basis (laws absent, only guide 31_), (ii) whether they are in the IVA base (Art. 51-d tension), (iii) FEXE usage requiring AT authorization. **State after W19: (i) RESOLVED — instruments owned (86_/87_/88_ FOVIAL; 89_ COTRANS; LB-008..012); (ii) RESOLVED for FOVIAL by 31_ §IV.1 (FR-168's guard stands); unstated for COTRANS in 89_ — the FOVIAL guard family extends by config analogy, never asserted as instrument text; (iii) owned by e-invoicing SV-EINV-FR-046 by id (FEXE/AT half remains with A10). Master-index MOQ-04 row updated W19 (evidence pass DONE, EVID-374..379).** | no | Takumi S7 + T7/T8 index rollup | **closed** (W19; linkage recorded) |
 | OQ-6 | The 597 late-enter INTEREST rule (BCR tasa activa promedio + 4 pts, LB-009) = the Art. 26 inciso final DEROGATED by D.L. 789-2008 (86_ p.12/p.22 stamps) — the consolidated law prints NO replacement interest rule for the FOVIAL enter clock. Working ruling: encode NO instrument interest (FR-185); whether the CT's general late-payment interest applies to this contribución especial is an implementation-time decision (never asserted from the corpus). | no | implementation pass | open |
 | OQ-7 | 89_ Art. 5 target ambiguity: the 2021 FOVIAL Art. 26 exclusion set is aviación+pesca (LB-008), so "la exención… no se aplicará al diésel adquirido con los beneficios" reads as a belt-and-suspenders override echoing the REPEALED 597 diesel-subsidiado exception (LB-009); plain rule encoded at FR-188 (COTRANS-benefit diesel pays BOTH contributions). Companion fidelity note: the sources-registry §89 gloss prints compensation values "$200 microbuses/$400 autobuses" while the instrument prints US$250/US$500 (Art. 11, LB-012; EVID-378) — evidence governs; authority-side (MOPT), zero Odoo FRs ride it; registry row left for the controller's README pass. | no | Takumi S7 + controller | open (readings recorded) |
-| OQ-8 | COTRANS vigencia chain provenance (FR-189): 89_'s own text ends at 31-dic-2022 (Art. 28). **RESOLVED W21 (2026-08-23): the Aug-2025 prorroga is PINNED and OWNED — D.L. 387-2025 = 106_ (D.O. 157 T.448 22-ago-2025, vigencia = publication day; Art. 2 extends efectos → 31-dic-2026 = direct instrument provenance for the terminal row; Art. 17-A cajas-únicas rides the same horizon); the previously-numberless →31-ago-2025 limb = D.L. 1000-2024 (D.O. 77 T.443 25-abr-2024), and D.L. 617-2022, both RECITAL-PINNED by 106_ considerando II (EVID-404; asamblea.gob.sv recovered — view/6500, Expediente 450-8-2025-1).** Residual verification watch: the 617/1000/307 texts remain un-acquired (identity + terminal dates recital-pinned; optional acquisition at the D.O. recovery watch); re-verify the post-31-dic-2026 horizon at implementation (config-watch unchanged). | no | Takumi S7 (sources watch) | **resolved** (W21; EVID-404; 106_ owned) |
+| OQ-8 | COTRANS vigencia chain provenance (FR-189): 89_'s own text ends at 31-dic-2022 (Art. 28). **RESOLVED W21 (2026-08-23): the Aug-2025 prorroga is PINNED and OWNED — D.L. 387-2025 = 106_ (D.O. 157 T.448 22-ago-2025, vigencia = publication day; Art. 2 extends efectos → 31-dic-2026 = direct instrument provenance for the terminal row; Art. 17-A cajas-únicas rides the same horizon); the previously-numberless
+→31-ago-2025 limb = D.L. 1000-2024 (D.O. 77 T.443 25-abr-2024), and D.L. 617-2022, both RECITAL-PINNED by 106_ considerando II (EVID-404;
+asamblea.gob.sv recovered — view/6500, Expediente 450-8-2025-1). W25 (2026-08-24): the 617/1000/307 texts are now OWNED as 125_/126_/124_
+(EVID-413..415 — the recital-pinning is superseded by direct instrument text; 617 = the Art. 17-A creator); re-verify the post-31-dic-2026 horizon at
+implementation (config-watch unchanged). | no | Takumi S7 (sources watch) | **resolved** (W21; EVID-404; 106_ owned; chain texts owned W25) |
