@@ -886,6 +886,39 @@ expected and absorbed by instantiating the canon, never by forking it.
          2026-10-17) + census watch + go-live prep. sv worktree
          converged to main at close.
 
+       **SV W27 merge 2026-08-24 (§4.6 protocol, forty-eighth
+         run):** `sv-research` rebased onto `f3e66ab` (a NO-OP — main
+         unmoved since the W26 merge, so the 3 session commits
+         `ec149e0..1b43569` stand UNREWRITTEN) then
+         fast-forward-merged at the W27 close `1b43569`; plain
+         fast-forward push, no remote re-pin needed. **SV W27 = the
+         chapter-spine mini wave (controller-direct, owner-approved
+         bounded design): (1) the W26-recorded 111_ residual EXECUTED —
+         cml/04 LB-041..043 (305-C accionista-not-employee / 305-I
+         Registro-issued inscription-certificate proof / 305-T
+         awareness) + SV-CML-FR-247 (contract-gated accionista→employee
+         link, payroll consumes by id) + FR-248 (the inscription
+         document = the SAS documentary-proof interface) + AC-021/022 —
+         the 305-A..Z citation spine COMPLETE; (2) the SOQ-46 hunt
+         DISPOSITIONED — Res. 175-2023 closed-negative (text not
+         acquirable; successor 76_ has no criteria content); Res.
+         82-2024 ACQUIRED as 127_ (cvpcpa wp-json, EVID-416..418) = the
+         NIIF S1/S2 voluntary window (1-ene-2025) + the NIIF-PYMES
+         S1/S2 bar — PRESUMES the classification, so SOQ-46 residual =
+         negative watch only; coa/01 LB-008 awareness/config-off.**
+         Same-session external sweeps (commits ec149e0/8eceda1):
+         factura NO drift (schemas zip byte-identical to 52_); MH NO
+         drift; D.O. www+API serving but the gazette feed STALLS at
+         10-ago-2026 (partial recovery — re-probe before any
+         2026-instrument hunt); uif WAF blocks human browsers too — no
+         2026 AML reglamento evidenced (deadline 2026-10-17 stands).
+         **Corpus 1,732 FRs (+2) / cml 248-259-144-35 / coa LBs 58;
+         COVERAGE 91/9/2/24 of 126 gate green (127_ cited on arrival);
+         registry 125 file rows, next 128 (stale sv/README W22 count
+         fixed).** SV program residual = external watches (uif AML,
+         D.O. feed, MH formularios, F-11 v19/v20) + census watch +
+         go-live prep. sv worktree converged to main at close.
+
 
        **GT W-GT10 merge 2026-08-23 (§4.6 protocol, forty-second
        run):** `gt-research` rebased onto the SV-W22 tip `8fe7854`
