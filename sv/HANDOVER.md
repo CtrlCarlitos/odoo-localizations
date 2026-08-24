@@ -95,7 +95,11 @@ boundary.**
      FR-189 re-stamps + **OQ-8 RESOLVED**; taxation/09 gate note;
      master-index SOQ-39 residual closure; COVERAGE 82/9/2/12 of 105
      gate green; FR corpus UNCHANGED at 1,702; registry 104 files,
-     next 107 — see §5 wave log.**
+     next 107 — see §5 wave log. (MERGED to main at 3627bd3 via
+     rebase-then-merge — thirty-ninth §4.6 run in root HANDOVER; two
+     textual conflicts vs the main-side re-probe record 15f2147,
+     resolved keep-both / keep-theirs-subsumed; pre-rebase SHAs
+     a5f5ea3..8a32e93 superseded by f4a861d..3627bd3.)**
     Remaining program: acquisition follow-ups (§8.2), SOQ/external watches,
     owner merge decisions.**
 

@@ -667,6 +667,31 @@ expected and absorbed by instantiating the canon, never by forking it.
       TEXT; D. 247-89; Código de Comercio; SEE docs; DGS SMM 2027
        promedio print early-2027; S-HN5 DEFERRED).
 
+       **SV W21 merge 2026-08-23 (§4.6 protocol, thirty-ninth run):**
+       `sv-research` rebased onto `15f2147` (2 commits rewritten
+       `a5f5ea3..8a32e93`→`f4a861d..3627bd3`: W21 acquisition + SHA
+       bookkeeping; TWO textual conflicts on the W21 commit vs the
+       main-side re-probe record `15f2147` — §1 W20-merge-record +
+       W21 blurb resolved keep-both; §8.2/8.3 triplicate resolved
+       keep-theirs (the W21 version subsumes the re-probe edit)) then
+       fast-forward-merged at `3627bd3`; remote branch ref fixed via
+       delete + re-push. **SV = W21 COTRANS PRORROGA MINI WAVE
+       COMPLETE (corpus UNCHANGED 1,702 FRs; registry 103→104):**
+       asamblea.gob.sv recovered same session (A-records restored;
+       TLS chain incomplete → `curl -k`; working route = by-year
+       decree enumeration, keyword search useless) → **106_ = D.L.
+       387-2025 acquired** (the spe/08 OQ-8 target: Art. 2 extends
+       COTRANS efectos → 31-dic-2026, D.O. 157 T.448 22-ago-2025;
+       vigencia = publication day; EVID-404; junk-prefix trimmed +
+       qpdf-repaired) + **D.L. 1000-2024 pinned by recital** (106_
+       cons. II = the numberless →31-ago-2025 limb; 617/1000/307
+       texts stay un-acquired, verification watch). spe/08 LB-013 +
+       FR-189/LB-012 re-stamps + OQ-8 RESOLVED; taxation/09 gate
+       note; master index SR8/SOQ-39 closure; COVERAGE 82/9/2/12 of
+       105 gate green. Newly unblocked (§8.2): SAS statute hunt
+       (SOQ-23) + D.L. 201-2025 text via the asamblea route. SV
+       worktree clean at the merge point; no wave queued.
+
        **SV W20 merge 2026-08-23 (§4.6 protocol, thirty-eighth run):**
        `sv-research` rebased onto `eb59e17` (11 commits rewritten
        `81e0906..1cce46d`→`bcd4a4f..1912d6a`: W20 plan + prep + T1..T5
