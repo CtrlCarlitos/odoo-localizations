@@ -540,6 +540,12 @@ must grep ALL LB source columns of the new files.
   was independently RE-RUN by the task reviewer (grep reproduction, hit
   classes dispositioned) — resolution-carrying verifications get
   reproduced, not trusted.
+- **(h)** Pre-flight ruling: T1's spe/02 FR-204 wrote by-id pointers to
+  SV-TAX-FR-417/419/420/421 BEFORE T2/T3 minted them — allowed because
+  the plan's Global-Constraints allocation is fixed and authoritative
+  (ids cannot drift; per-task reviews check allocation vs files per the
+  W23 ruling (d) lesson; T5's gate grepped pointer-target existence —
+  all five resolved).
 
 ### W23-process rulings (2026-08-23, preserved from the SDD ledger before workspace deletion)
 
