@@ -27,7 +27,7 @@ It does **not** cover: the transmission connector and API lifecycle
 (`04_signing_delivery.md`, A7), the document state machine and correction
 windows (`02_transmission.md`, A8), catalog governance beyond per-type usage
 (A9), general tax computation rules
-(A10, `taxation/`), onboarding/authorization (A11), or the client↔SaaS private
+(A10, `taxation/`), onboarding/authorization (A11, `07_onboarding.md`), or the client↔SaaS private
 protocol contract (A12, `06_api-protocol.md`). Those files reference this one
 for per-type structure.
 
@@ -198,7 +198,7 @@ is required by this file.
 
 | FR | Layer | Odoo model | Field(s) | Notes / version differences |
 |----|-------|------------|----------|------------------------------|
-| FR-001 | saas | l10n_latam.document.type | code, name | Type registry seeded per CAT-002; per-company enablement gated by AT authorization (A11 file). l10n_latam pattern available 17–20 |
+| FR-001 | saas | l10n_latam.document.type | code, name | Type registry seeded per CAT-002; per-company enablement gated by AT authorization (`07_onboarding.md` FR-172/174/179 by id). l10n_latam pattern available 17–20 |
 | FR-002 | saas | l10n_latam.document.type | json_version | Version stamped at generation; client never handles it |
 | FR-003 | saas | — | codigoGeneracion | UUID v4 generated server-side; mirrored to client archive (D3 Tier A) |
 | FR-004 | saas | — | numeroControl | Single server-side sequencer per D2 (no fleet drift); year-reset + uniqueness in one store |

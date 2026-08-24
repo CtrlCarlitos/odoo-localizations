@@ -33,7 +33,7 @@ structures (`01_document-types.md`), event semantics and deadlines
 (`03_events.md`), the JWS signing standard, certificate vault and delivery
 mechanics (`04_signing_delivery.md` — this file owns only the wire envelope
 of the signing round-trip), catalog governance (`../catalogs/05_governance.md`),
-tax computation (A10), or onboarding/authorization (A11). Where an FR here
+tax computation (A10), or onboarding/authorization (A11, `07_onboarding.md`). Where an FR here
 restates a decision from the architecture doc, that doc governs the
 rationale; this file governs the contract detail.
 

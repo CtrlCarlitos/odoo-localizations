@@ -31,7 +31,7 @@ MH connector, transmission modalities' clocks and the state machine
 (`02_transmission.md` — this file cross-references its FRs), event
 semantics and deadlines (`03_events.md`), catalog governance (A9,
 `../catalogs/`), tax computation (A10), onboarding/authorization beyond
-certificate acquisition (A11), or the private protocol's own contract
+certificate acquisition (A11, `07_onboarding.md`), or the private protocol's own contract
 detail and versioning (`06_api-protocol.md`, A12). Where event signing
 executes, `03_events.md` FR-090 (as amended, S1) and this file agree:
 the SaaS orchestrates — it generates and validates, the CLIENT signs
@@ -74,7 +74,7 @@ arbitrated, the resolution id (R1–R16) from the master index is noted.
 
 - **SV-EINV-FR-136:** The Odoo client shall keep an encrypted certificate vault with one ACTIVE MH-issued signing certificate per environment at any time — ambiente 00 *pruebas* (test) and 01 *producción* (production), each personalized and obtained through that environment's acreditamiento; renewal may stage a successor certificate while the current one remains valid, with activation swapping atomically and the vault refusing concurrent ACTIVE certificates per environment — and shall bind every signing operation to the certificate whose ambiente matches the payload's ambiente, refusing cross-environment signing (a test certificate shall never sign a production payload or vice versa). (LB-008; LB-012 CAT-001; LB-013 D2)
 - **SV-EINV-FR-137:** The vault shall enforce the MH password policy on every vault credential and private-key password: 13 to 25 characters combining letters, numbers and special characters; weaker passwords shall be rejected at entry. (The SaaS-side MH API-user credentials follow the same policy — owned by `02_transmission.md` FR-057.) (LB-006; LB-007)
-- **SV-EINV-FR-138:** The client shall support the certificate lifecycle: acquisition through the acreditamiento flow per environment (portal https://info.dtes.mh.gob.sv/ → RUC data verification → certificate generation → API user management), with the test environment's 2-month credential window (Sistema de Transmisión) tracked as a deadline against completing the minimum tests; plus validity monitoring (valid-from/valid-to), renewal, and revocation handling, with expiry alarms raised ahead of expiry so emission never halts unexpectedly. (LB-008; onboarding test regime owned by the A11 onboarding file)
+- **SV-EINV-FR-138:** The client shall support the certificate lifecycle: acquisition through the acreditamiento flow per environment (portal https://info.dtes.mh.gob.sv/ → RUC data verification → certificate generation → API user management), with the test environment's 2-month credential window (Sistema de Transmisión) tracked as a deadline against completing the minimum tests; plus validity monitoring (valid-from/valid-to), renewal, and revocation handling, with expiry alarms raised ahead of expiry so emission never halts unexpectedly. (LB-008; onboarding test regime owned by `07_onboarding.md` FR-166..170, by id)
 - **SV-EINV-FR-139:** The vault shall be an access-controlled security surface: key material encrypted at rest, never logged, never included in protocol responses, webhooks, diagnostics, support bundles or ordinary database backups in readable form; vault access shall be permissioned and audited. (LB-013 D2; LB-005)
 
 ### 3.3 Representación Gráfica (RG)
@@ -186,7 +186,7 @@ required by this file.
 | FR-135 | saas | account.move, l10n_sv_edi.event | rejection family | Cert-error taxonomy surfaced through protocol state pushes; client renders vault-linked remediation |
 | FR-136 | odoo | l10n_sv_edi.certificate | environment | Per-env vault rows; env binding enforced at sign time |
 | FR-137 | odoo | l10n_sv_edi.certificate | key_password | Policy check at entry; SaaS API creds counterpart = 02 FR-057 |
-| FR-138 | odoo | l10n_sv_edi.certificate | validity, state | Acreditamiento steps are manual (MH portal) — client tracks deadlines/alerts; test minimums owned by A11 onboarding file |
+| FR-138 | odoo | l10n_sv_edi.certificate | validity, state | Acreditamiento steps are manual (MH portal) — client tracks deadlines/alerts; test minimums owned by `07_onboarding.md` (FR-166..170) |
 | FR-139 | odoo | l10n_sv_edi.certificate | private_key | Encrypted at rest (Odoo crypto util); excluded from logs/backups/protocol |
 | FR-140 | shared | account.move | entrega flags | Package definition contract: Archivo DTE + RG together |
 | FR-141 | saas | — | — | RG generated with the DTE in the same SaaS generation transaction |

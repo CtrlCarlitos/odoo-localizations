@@ -39,7 +39,7 @@ endpoints, retry, lots, state vocabulary and the 24-hour correction rule
 (`01_document-types.md`, A1), signing (`04_signing_delivery.md`, A6),
 RG/QR/delivery mechanics (`04_signing_delivery.md`, A7), catalog governance
 (A9), the tax computation feeding retorno caps (A10, `taxation/`),
-onboarding tests per event (A11), or the private protocol's own contract
+onboarding tests per event (A11, `07_onboarding.md`), or the private protocol's own contract
 detail (A12, `06_api-protocol.md`).
 
 ## 2. Legal Basis
@@ -208,7 +208,7 @@ nothing in this file requires version-specific behavior.
 
 | FR | Layer | Odoo model | Field(s) | Notes / version differences |
 |----|-------|------------|----------|------------------------------|
-| FR-087 | saas | l10n_sv_edi.event.type | key, tipoEvento | Registry seeded per CAT-002; per-event enablement gated by acreditamiento (A11) |
+| FR-087 | saas | l10n_sv_edi.event.type | key, tipoEvento | Registry seeded per CAT-002; per-event enablement gated by acreditamiento (`07_onboarding.md` FR-166..168 by id) |
 | FR-088 | saas | l10n_sv_edi.event.type | json_version | Stamped at generation; contingencia = 4 per 52_ (OQ-001 record) |
 | FR-089 | saas | — | codigoGeneracion | UUID v4 server-side; mirrored to client |
 | FR-090 | shared | l10n_sv_edi.event | protocol payload contract | D2/D3: client initiates, never compiles; SaaS generates/validates/transmits, client signs (04 FR-132..134; amended S1); Tier A mirror at response time |

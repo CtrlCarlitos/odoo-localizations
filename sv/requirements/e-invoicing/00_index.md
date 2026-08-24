@@ -4,9 +4,9 @@
 |---------|-------|
 | Country | sv |
 | Topic   | e-invoicing |
-| Status  | draft (S1 synthesis wave + W19 gloss pass, in review) |
+| Status  | draft (S1 synthesis wave + W19 gloss pass + W30 A11 onboarding mint, in review) |
 | Authors | Takumi synthesis wave 1 + controller |
-| Updated | 2026-08-22 (W19 T2: 01 D1/C8 FOVIAL×COTRANS identity glosses; counts unchanged) |
+| Updated | 2026-08-24 (W30 T2: 07_onboarding.md wired in — A11 pointers resolved by id; counts +15 FR/+8 LB/+6 AC/+4 OQ; 06 AC count corrected 19→20 per grep) |
 
 This directory holds the S1 (synthesis wave 1) e-invoicing requirements:
 document types, transmission, events, signing/delivery/archive, and the
@@ -23,9 +23,10 @@ of this wave; SV-CAT-FR-001..018). Source-to-requirements coverage:
 | [02_transmission.md](02_transmission.md) | SaaS-side MH connector, modalities/clocks, state machine; fiscal immutability & correction accounting (§3.11 addendum FR-159..164) | SV-EINV-FR-053..086 + 159..164 | 40 | 11 | 21 | 11 |
 | [03_events.md](03_events.md) | The four event types (invalidación, contingencia, retorno, OpEsp) | SV-EINV-FR-087..129 | 43 | 14 | 18 | 6 |
 | [04_signing_delivery.md](04_signing_delivery.md) | JWS signing, certificates, RG/QR, entrega, archive tiers | SV-EINV-FR-130..158 | 29 | 13 | 15 | 9 |
-| [06_api-protocol.md](06_api-protocol.md) | Client↔SaaS private protocol contract (D2/D6) | SV-PROT-FR-001..040 | 40 | 10 | 19 | 8 |
+| [06_api-protocol.md](06_api-protocol.md) | Client↔SaaS private protocol contract (D2/D6) | SV-PROT-FR-001..040 | 40 | 10 | 20 | 8 |
+| [07_onboarding.md](07_onboarding.md) | A11 onboarding/authorization: 7-step flow, minimum tests, AT program, physical-stock cut-over | SV-EINV-FR-165..179 | 15 | 8 | 6 | 4 |
 | [../catalogs/05_governance.md](../catalogs/05_governance.md) | Catalog machine-readable authority, versioning, dated storage | SV-CAT-FR-001..018 | 18 | 6 | 8 | 5 |
-| **Total** | | | **222** | **70** | **99** | **47** |
+| **Total** | | | **237** | **78** | **106** | **51** |
 
 Numbering note: A6 (signing) and A7 (delivery) merged into
 `04_signing_delivery.md`; the state machine (A8) is owned by
@@ -33,12 +34,15 @@ Numbering note: A6 (signing) and A7 (delivery) merged into
 is no file 05 in this directory (it lives in `../catalogs/`). The
 fiscal-immutability/correction-accounting addendum (post-S1, 2026-08-17)
 takes the next free EINV numbers FR-159..164 in `02_transmission.md` §3.11 —
-no renumbering of existing FRs.
+no renumbering of existing FRs. 07 = the A11 onboarding file
+(`07_onboarding.md`, W30; SV-EINV-FR-165..179); there is still no file 05
+here (it lives in `../catalogs/`).
 
 ## Open-questions rollup (ids + titles)
 
-Status legend: `open` unless noted `resolved`. 34 open / 13 resolved (schema
-pass 2026-08-17 closed 10; the §3.11 addendum + protocol note opened 5).
+Status legend: `open` unless noted `resolved`. 38 open / 13 resolved (schema
+pass 2026-08-17 closed 10; the §3.11 addendum + protocol note opened 5; the
+W30 07_onboarding mint opened 4).
 
 ### 01_document-types.md (8)
 
@@ -104,3 +108,10 @@ pass 2026-08-17 closed 10; the §3.11 addendum + protocol note opened 5).
 - OQ-006 — Abuse/anomaly telemetry decision (legal questions). open
 - OQ-007 — Entitlement `features` map initial key set. open
 - OQ-008 — D10 guarantee: MH schema version per document record in protocol payloads — decision taken (regulatory-change session 2026-08-17), FR wording in next 06 edit. open — wording pending
+
+### 07_onboarding.md (4)
+
+- OQ-001 — Per-type minimum-test counts + starred-mandatory set (26_ consola table) not corpus-extracted; config rows, no defaults (40_ Anexo 1 may hold the table). open
+- OQ-002 — Retorno/OpEsp test minimums: 41_ v1.1 prints 5+5 (invalidación/contingencia) only; the 2026 event types postdate it. open
+- OQ-003 — AT implementation-program instruments (obligation groups/dates) + report-liberation acts (119-A lit. i) not in corpus; mandate rows config-gated. open
+- OQ-004 — 26_/27_ 2022-vintage portal flows (Sitio Emisores DTE steps) currency watch. open

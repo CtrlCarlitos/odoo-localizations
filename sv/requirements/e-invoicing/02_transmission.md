@@ -35,7 +35,7 @@ It does **not** cover: per-type document structures (`01_document-types.md`),
 event semantics, clocks and deadlines per event type (`03_events.md`,
 clusters A3–A5), signing and certificates (`04_signing_delivery.md`, A6),
 Representación Gráfica / delivery mechanics (`04_signing_delivery.md`, A7),
-catalog governance (A9), onboarding/authorization (A11), or the private
+catalog governance (A9), onboarding/authorization (A11, `07_onboarding.md`), or the private
 protocol's own contract detail (`06_api-protocol.md`, A12). Event
 transmission deadlines are owned by `03_events.md`; this file owns the
 transport they ride on.
