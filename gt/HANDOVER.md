@@ -44,7 +44,11 @@ title among ~500 — EVID-1329) + bonus acquisitions 116_ Acuerdo
 -distribution proportions) + 117_ Acuerdo 1556/AG 17-2026 (standing
 exoneración window ≈25-mar→25-sep-2026); EVID-1306..1329; payroll/07
 LB-028/029 + FR-165/169/182/183 + payroll/10 LB-011 addendum; corpus
-re-closed 115/0/0 — see §5q + §10 addenda**).
+re-closed 115/0/0 — see §5q + §10 addenda**); updated 2026-08-23 once
+more (**idle-verification close: forty-second s4.6 merge verified
+already landed — root HANDOVER §3 record at 854cc47; both checkouts
+clean, remotes synced, both inboxes empty; queue rev 13 = owner-side
+only; ZERO work this session, branch closed idle — see §10 addenda**).
 Read
 this fully before acting; it is the authoritative cross-session memory.
 **Update it at every session boundary.**
@@ -1756,7 +1760,26 @@ convergence session; updated again at W-GT1 close)
   (controller-executed end-to-end, session-compression pattern);
   quote verification hit 5 line-wrap false-zeros (all PASS flattened —
   the W-GT8 whitespace lesson); **the §5-heading-swallow failure mode
-  REPEATED during §5q insertion (W-GT8's §5o lesson) — heading
-  restored in-file; always re-grep `^## 5` after inserting a §5x
-  section**. NEXT: §4.6 merge of the W-GT10 commits at session close;
-  then idle on owner-side inputs (queue rev 13).
+   REPEATED during §5q insertion (W-GT8's §5o lesson) — heading
+   restored in-file; always re-grep `^## 5` after inserting a §5x
+   section**. NEXT: §4.6 merge of the W-GT10 commits at session close;
+   then idle on owner-side inputs (queue rev 13).
+- **Idle-verification close (2026-08-23, post-W-GT10 bootstrap
+  session)**: session opened per §2 read order and found the
+  forty-second s4.6 merge ALREADY landed and fully recorded (main =
+  854cc47 carrying the root §3 record; gt-research = c259fc1 0-ahead
+  post-merge; both checkouts clean; remotes synced; **both inboxes
+  EMPTY**; no repo-local core.editor leftover — set fresh at session
+  start per §4.6). No controller-actionable work: queue rev 13
+  remaining items are owner-side (DCA-archive SEM/accidentes rate hunt
+  — the 475→1243 chain + the "normativa institucional" percentages
+  instrument · D-1633 art.-11 montos · AG 52-2017 low watch) or
+  future-dated watches (1556-window expiry ≈25-sep-2026 · TotalDoc
+  roster renewal 02-dic-2026, OQ7 · AML reglamento ≈17-mar-2027) or
+  external (accountant answers · TotalDoc W6 partner access). Owner
+  chose idle close; core.editor unset at close. This addendum + its
+  merge = the forty-third s4.6 run. **Bootstrap for the next session
+  remains unchanged: `Read gt/HANDOVER.md and continue.` — first
+  action = check the inboxes (main checkout AND worktree) for owner
+  deliveries; if present, W-GT11 opens (registration → evidence →
+  backfills per the W-GT7..W-GT10 patterns).**
