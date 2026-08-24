@@ -886,6 +886,59 @@ expected and absorbed by instantiating the canon, never by forking it.
          2026-10-17) + census watch + go-live prep. sv worktree
          converged to main at close.
 
+       **SV W29 merge 2026-08-24 (§4.6 protocol, fiftieth
+         run):** `sv-research` rebased onto `912cdde` (a NO-OP — main
+         unmoved since the W28 merge-record close, so the 7 session
+         commits `b102b1c..04ed7fa` stand UNREWRITTEN — design spec
+         → plan → assessment → citation fixes → review fixes +
+         register flip → bookkeeping → whitespace fix) then
+         fast-forward-merged at `04ed7fa`; plain fast-forward push,
+         no remote re-pin needed. **SV W29 = the SV go-live readiness
+         assessment wave (first wave of the post-program
+         implementation-prep phase, owner-directed per
+         `shared/docs/go-live-readiness.md`'s register-verification
+         mandate; hybrid process per the approved design
+         `docs/superpowers/specs/2026-08-24-w29-sv-go-live-readiness-design.md`
+         + plan, subagent-driven T1-T5 with per-task reviews + a
+         Task-3 independent reviewer + final whole-branch review
+         MERGE-READY zero findings): (1) NEW
+         `sv/requirements/GO_LIVE_READINESS.md` = the universal-catalog
+         walk against the corpus — 21 rows (bootstrap 5 + cut-over 6 +
+         onboarding 6 + register 4), graded statuses
+         VERIFIED/CONFIG-GAP/WATCH/BLOCKER, gate rollup 13 VERIFIED ·
+         6 with-limb · 2 BLOCKER rows = ONE root; (2) the shared-docs
+         §4 SV instantiation register FLIPPED "seeded 2026-08-19" →
+         "verified 2026-08-24" with pointer to the assessment;
+         (3) HEADLINE FINDING: the S1 synthesis wave NEVER
+         synthesized master-index cluster A11 (onboarding/
+         authorization — acreditamiento minimum tests, AT
+         authorization groups/dates + early adoption, physical-stock
+         destruction, no-coexistence; 8 governing EVIDs
+         001/036/045/080/081/077/074/083 owned-but-unsynthesized;
+         EVID-081 grep-zero in requirements; the S1 plan's file list
+         records NO deferral — silent omission, not a decision; 9
+         exhaustive dangling "(A11)" pointers + cml cross-topic
+         notes + COVERAGE/COVERAGE_NOTES 26_ rows; GT S-GT1 Task 5
+         04_mandate-onboarding.md = the precedent) ⇒ **gate verdict:
+         NOT go-live-ready until the A11 onboarding file is minted
+         (single closing wave; numbering per R30(b) SV-EINV
+         continuation; recorded as the TOP owner's-call follow-up in
+         sv/HANDOVER §8)** — everything else VERIFIED / CONFIG-GAP /
+         WATCH (6 WATCH limbs incl. F-11 v19/v20 + F-14 v17 manual,
+         cert renewal OQ-006, AML reglamento 2026-10-17, MOQ-05
+         endpoints promoted at review; canonical CONFIG-GAP list
+         RAEX/SOQ-26/SOQ-25/SOQ-24/OQ-10/OQ-007/SOQ-33/usos-del-lugar).**
+         W29-process rulings (a)-(e) preserved in sv/HANDOVER (brief-
+         arithmetic matrix-lesson; curated-canonical WATCH list;
+         W24-(g) sampled-reproduction standard; controller one-liners
+         per S9 (b); verify-or-document minor). **ZERO corpus deltas:
+         FR corpus 1,732 UNCHANGED; registry 126 file rows next 129;
+         COVERAGE 92/9/2/24 of 127 gate green (no drift, re-verified
+         post-merge).** SV residual = the A11 synthesis wave (owner's
+         call) + external watches (uif AML deadline 2026-10-17; D.O.
+         feed stall; MH formularios; cvpcpa cadence) + census watch.
+         sv worktree converged to main at close.
+
        **SV W28 merge 2026-08-24 (§4.6 protocol, forty-ninth
          run):** `sv-research` rebased onto `647faa0` (a NO-OP — main
          unmoved since the W27 merge-record close, so the single

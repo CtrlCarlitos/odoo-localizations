@@ -398,6 +398,18 @@ boundary.**
           (review fixes + register flip) + this bookkeeping commit;
           pushed sv-research; merge to main = owner decision (fiftieth
           §4.6 run when directed).**
+          **(MERGED to main at 04ed7fa same day via rebase-then-merge —
+          fiftieth §4.6 run in root HANDOVER; the rebase was a NO-OP
+          [main unmoved since the W28 merge record at 912cdde], so the
+          7 session commits b102b1c..04ed7fa stand UNREWRITTEN and the
+          remote needed no re-pin; plain fast-forward push; both
+          branches converged at close + this record. W29 = the go-live
+          readiness assessment: ZERO corpus deltas [1,732 FRs], the
+          shared-docs §4 SV register flipped to verified-2026-08-24,
+          the A11 onboarding synthesis gap recorded as the go-live
+          BLOCKER [gate rollup 13 VERIFIED / 6 with-limb / 2 BLOCKER
+          rows, one root], final whole-branch review MERGE-READY zero
+          findings.)**
 
 ### W29-process rulings (2026-08-24, recorded at T5 bookkeeping from the wave ledger)
 
