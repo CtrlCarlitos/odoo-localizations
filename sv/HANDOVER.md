@@ -254,8 +254,7 @@ must grep ALL LB source columns of the new files.
   green.** Same-day external state: D.O. + uif still DNS-absent;
   factura 200. Follow-ups born: none (SOQ-40/OQ-2 unchanged-open);
   optional D.O. print of D.L. 387 when D.O. recovers. Commits:
-  (SHA recorded at commit time — see git log sv-research). Merge to
-  main = owner decision.
+  a5f5ea3 (sv-research). Merge to main = owner decision.
 
 - **W20 (2026-08-23):** taxation edit wave COMPLETE per plan
   `docs/superpowers/plans/2026-08-23-w20-taxation-edit-wave.md` —
