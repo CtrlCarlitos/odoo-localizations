@@ -118,9 +118,12 @@ boundary.**
      SAS-gratuidad chain → 31-dic-2026) — **SOQ-22's W12 "no post-2008 CC
      reform" verdict FALSIFIED (07_/73_ stale for the reformed article
      set)**. EVID-405..412 (two EV files); registry 111 numbered files,
-     next 115; FR corpus UNCHANGED at 1,702 (sources wave; fold-in debts
+     next 115;      FR corpus UNCHANGED at 1,702 (sources wave; fold-in debts
      registered §8.1); COVERAGE 81/9/2/20 of 112 — gate green (see §5
-     wave log).**
+     wave log). (MERGED to main at 8fe7854 via rebase-then-merge —
+     forty-first §4.6 run in root HANDOVER; one textual conflict on
+     sv/HANDOVER §1 vs the main-side W21 merge record, resolved
+     keep-both; pre-rebase SHA 10963bb superseded by 8fe7854.)**
 
 ## 2. Read order for a new session
 

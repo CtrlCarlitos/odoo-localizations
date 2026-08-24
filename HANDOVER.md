@@ -692,6 +692,49 @@ expected and absorbed by instantiating the canon, never by forking it.
        (SOQ-23) + D.L. 201-2025 text via the asamblea route. SV
        worktree clean at the merge point; no wave queued.
 
+       **SV W22 merge 2026-08-23 (§4.6 protocol, forty-first run):**
+       `sv-research` rebased onto `7ee18c7` (1 commit rewritten
+       `10963bb`→`8fe7854`: the W22 acquisition wave; ONE textual
+       conflict on sv/HANDOVER §1 — the W22 status block vs the
+       main-side W21 merge-record parenthetical, resolved keep-both)
+       then fast-forward-merged at `8fe7854`; remote branch ref fixed
+       via delete + re-push. **SV = W22 SOQ-41-RESIDUALS + SAS-HUNT
+       ACQUISITION WAVE COMPLETE (corpus UNCHANGED 1,702 FRs; registry
+       104→111 files, numbering 01-114, next 115):** asamblea up second
+       day (D.O. degraded further to NXDOMAIN; uif still DNS-absent;
+       MH formularios path 302→home) → **8 acquisitions = 107_-114_**
+       (all asamblea prints, D.O. stamps on face, 8-byte junk prefix
+       systemic — trimmed + qpdf ×8): 107_ D.L. 201-2025 Aeropuerto
+       del Pacífico (ganancia-de-capital exoneration for CEPA/MOPT
+       sellers, efectos from 8-may-2022; D.O. 21 T.446 30-ene-2025 —
+       the W18-unpinned issue now stamped) + 108_ D.L. 411-2025
+       energía eléctrica acceso-universal (BID/CEL package, vigencia →
+       26-sep-2031: IVA exención total, Art. 66 pro-rata NOT applied
+       by local suppliers, ISR 4.1 rentas no gravables, CT 260 abuso,
+       registros especiales, CEL-seller exemption + no formulario
+       duty; D.O. 181 T.448 26-sep-2025) + **the SAS-hunt discovery:
+       the post-2008 Código de Comercio reform set** — 109_ D.L.
+       153-2021 (bearer shares BANNED from 7-oct-2021; RUC-blocking),
+       110_ D.L. 295-2022 (usura 960-A nullity), **111_ D.L. 905-2023
+       = THE SAS STATUTE** (SOQ-23 RESOLVED at sources level:
+       Capítulo VIII-Bis Arts. 305-A..Z — formulario constitution,
+       unipersonal, $1 capital, free reserve, ≤180-día dividends,
+       $12,000 accounting threshold; consolidated-reprint print with
+       the 203/468 reform stamps), 112_ D.L. 972-2024 (cheque
+       truncation), 113_ D.L. 203-2025 + 114_ D.L. 468-2025
+       (SAS-gratuidad → 31-dic-2026). **SOQ-22 FALSIFIED-AND-
+       RE-RESOLVED** (the W12 "no post-2008 CC reform" verdict dead —
+       07_/73_ stale for Arts. 17/18/134/153/155/158/164/212/219/
+       315-319/337/338/358/960 + new articles; census caveat: por-anios
+       no cards 2010/2012-2015, 2019 partial); **SOQ-41 negatives
+       OWNED** (EVID-167 named set 10-of-10). EVID-405..412 (two EV
+       files); cml/04 OQ-001 sources-resolved; COVERAGE 81/9/2/20 of
+       112 gate green (+8 pending, rationale in COVERAGE_NOTES; the
+       pre-W22 "104 files" glosses corrected off-by-one). Fold-in
+       debts registered sv/HANDOVER §8.1: cml edit wave (FR-044 SAS
+       flip + acciones re-anchors + fusión transnacional + usura/
+       truncation notes) + spe/taxation wave (107/108 exemption
+       surfaces). SV worktree clean at the merge point.
 
        **GT W-GT8 + W-GT9 merge 2026-08-23 (§4.6 protocol, fortieth
        run):** `gt-research` rebased onto `4be5347` (12 commits
