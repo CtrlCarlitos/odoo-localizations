@@ -32,7 +32,7 @@ hygiene layer. Source-to-requirements coverage:
 | [04_statutory-bonuses.md](04_statutory-bonuses.md) | P3 | Bono 14 D-42-92 (100% ordinary-month June average, 1-15 July, proration; R30/R36); incentivo D-37-2001 Q250 primary (98_, W-GT8); December aguinaldo D-76-78 private-sector engine + D-1633 public standing statute acquired (97_, W-GT8; art.-11 quantum external — OQ-004; base-month OQ-003) | GT-PAY-FR-076..100 | 25 | 15 | 14 | 3 |
 | [05_vacaciones-maternidad.md](05_vacaciones-maternidad.md) | P1 | Vacaciones 15 días hábiles + 150-day gate + no-cash-out + 5-year retro + 3m/12m prepaid bases; maternidad 84d @100% (30+54, halves, adoption); inamovilidad; lactancia; nursery; menores | GT-PAY-FR-101..126 | 26 | 21 | 18 | 0 |
 | [06_contracts-termination.md](06_contracts-termination.md) | P1 | Contract taxonomy + indefinite presumption + prueba; justa causa; indemnización 1 month/year UNCAPPED (6-mo salario completo base, bono 14 at 6/12, IGSS offsets, 50% rule); preaviso WORKER-side (R37); NO cesantía/doubling (R33); finiquito | GT-PAY-FR-127..152 | 26 | 15 | 17 | 0 |
-| [07_igss-contributions.md](07_igss-contributions.md) | P4 | IGSS: 25/50/25 structure-only; ALL rates/base/tope external (GOQ-04 → Acuerdo 1124 IVS + 410 art.-85 chain; SEM set 104_-106_ acquired rateless W-GT8); cotizable components anchored (1421 art. 4); planilla due day-20 + mora tasa rule + RD interest anchored (Acuerdo 1421 = 87_, index values external); two-share delivery; base floor + NO tope (negatives); single receipt; mora/RD/nota-de-cargo; waivers; ±1% | GT-PAY-FR-153..184 | 32 | 25 | 16 | 4 |
+| [07_igss-contributions.md](07_igss-contributions.md) | P4 | IGSS: 25/50/25 structure-only; IVS rates STATUTE-ANCHORED W-GT9 (1124 art. 40: 3.67/1.83 = 5.50 pair — LB-027); SEM/accidentes rates external (410 art.-85 chain; 1002 = accidentes originals untagged); cotizable components anchored (1421 art. 4); planilla due day-20 + mora tasa rule + RD interest anchored (Acuerdo 1421 = 87_, index values external); two-share delivery; base floor + NO tope (negatives); single receipt; mora/RD/nota-de-cargo; waivers; ±1% | GT-PAY-FR-153..184 | 32 | 25 | 16 | 4 |
 | [08_irtra-intecap.md](08_irtra-intecap.md) | P5 | IRTRA flat 1% totality-of-planillas (no brackets, R32; D-1528 1962, R31); INTECAP ladder → 1% (art. 9º Reglamento-1980); 20-day deadline; 2% retention; enforcement ladder; 80% rebate | GT-PAY-FR-185..206 | 22 | 17 | 12 | 8 |
 | [09_isr-iva-interfaces.md](09_isr-iva-interfaces.md) | P6 | Pointer/file-of-feeds: wage-side value contracts into GT-TAX-FR-112/115/116/117/121/122/124/130..133/135..138/141/145/146/169 by exact id; Planilla IVA-FEL (SAT-1111) window/feed/last-wins; GT-EINV-FR-210 blocker; IGSS≠SAT planilla disambiguation | GT-PAY-FR-207..222 | 16 | 12 | 15 | 3 |
 | [10_sso-provenance.md](10_sso-provenance.md) | P7 | SSO duties money-free (R40: comité ≥10, plan 3y, exams, CT 271-272 pointer); edition-provenance citation rules (R44/GOQ-70..72/76): CT qualifier mandatory, no "current through", art. 420/421 guard, SR boundary rows | GT-PAY-FR-223..236 | 14 | 10 | 13 | 4 |
@@ -166,8 +166,8 @@ regeneration note and authority order live in the header comment.
 | 04_statutory-bonuses.md | 17 | 14 |
 | 05_vacaciones-maternidad.md | 22 | 18 |
 | 06_contracts-termination.md | 15 | 17 |
-| 07_igss-contributions.md | 26 | 16 |
+| 07_igss-contributions.md | 27 | 16 |
 | 08_irtra-intecap.md | 17 | 12 |
 | 09_isr-iva-interfaces.md | 12 | 15 |
-| 10_sso-provenance.md | 10 | 13 |
-| **Total** | **165** | **151** |
+| 10_sso-provenance.md | 11 | 13 |
+| **Total** | **167** | **151** |

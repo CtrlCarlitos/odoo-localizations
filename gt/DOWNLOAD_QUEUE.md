@@ -8,9 +8,12 @@ rename, register). Rev 11 (2026-08-23, post-W-GT8): **batches 3+4 REGISTERED (96
 resolved-in-part (art.-11 amount half open), GOQ-12 lineage settled (AG
 118-2002 primary; AG 75-2006 = SINAS, hypothesis DEAD), GOQ-04 re-refined
 (→ Acuerdo 1124 IVS), GOQ-14/145 re-scoped (calendars FLAT — no NIT-digit
-windows; JSF transcription item CLOSED).** Remaining §A priority: IGSS
-Acuerdo 1124 (IVS rates) → D-1633 art.-11 amount instruments → AG 52-2017
-(low-priority watch — mineco hunt failed; owner DCA search unsuccessful).
+windows; JSF transcription item CLOSED).** Remaining §A priority: SEM/accidentes
+rate instruments (410 art.-85 chain) → D-1633 art.-11 amount instruments
+→ AG 52-2017 (low watch). **W-GT9 (2026-08-23, same day): owner found the
+IGSS JD library (igssgt.org/acuerdos-y-resoluciones — fetches direct) —
+1124 DELIVERED + IVS rates RESOLVED (3.67/1.83); GOQ-04 residue =
+SEM/accidentes operative rates only; rev-11 top item STRUCK.**
 Rev 10 (2026-08-23, batch 3): AG 118-2002 + D-1633 + D-37-2001 delivered
 + verified. Rev 9 (2026-08-22, post-W-GT7): batch-2 items 84_–95_
 evidenced + backfilled (GOQ-08/09(mora)/10/13/24/68/132/134/147).
@@ -19,7 +22,7 @@ evidenced + backfilled (GOQ-08/09(mora)/10/13/24/68/132/134/147).
 
 | # | Save as | Search | Why |
 |---|---------|--------|-----|
-| — | gt_sources_igss_acuerdo_1124.pdf | (see §A row below) | GOQ-04 (IGSS IVS program reglamento — cuota rates) |
+| — | gt_sources_igss_475_1243.pdf | (see §A row below) | GOQ-04 residue (SEM/accidentes operative rates — the 410 art.-85 / 1002 art. 46 reform chain) |
 
 **DELIVERED 2026-08-22 (owner batch 2 → registry 84-95): D-19-2016 (84_,
 GOQ-08 THE blocker), D-31-2024 (85_, GOQ-13), AG 125-2022 (86_, GOQ-68),
@@ -49,7 +52,8 @@ browser; "Búsqueda avanzada" → filters by organismo/tipo/año + texto)
 
 | # | Save as | Search |
 |---|---------|--------|
-| — | gt_sources_igss_acuerdo_1124.pdf | igssgt.org legislación — **Acuerdo 1124 de Junta Directiva (IVS program reglamento; the concrete GOQ-04 rate target — named by 107_'s "Artículo 22 y 23 del Acuerdo 1124 de Junta Directiva"; survivorship qualification lives in its arts. 22-24)**; kin: the Acuerdo 410 art.-85 reform chain (Acuerdos 475→1243, SEM rate history) if visible |
+| — | gt_sources_igss_475_1243.pdf | igssgt.org/acuerdos-y-resoluciones (Otros tab) — **the SEM/accidentes OPERATIVE-rate instruments: the 410 art.-85 reform chain (Acuerdos 475→1243) + any successor moving SEM/accidentes cuotas off the 1994 1002 originals (hunt JD-library titles re cuotas/contribuciones/recaudación reforms)** — GOQ-04 residue (1002 art. 46's 4%/2%/1½% prints untagged = superseded-era text) |
+| ~~—~~ | ~~gt_sources_igss_acuerdo_1124.pdf~~ | **DELIVERED W-GT9 (= 109_ Rev-2021 + 115_ intermediate print; IVS rates RESOLVED — art. 40: 3.67%/1.83%/25%-of-benefits)** |
 | — | gt_sources_aguinaldo_publico_montos.pdf | DCA/MinFin — **the D-1633 art.-11 instruments (the annually-issued acuerdos fixing each year's public-sector aguinaldo amount — payroll/04 OQ-004; ANY recent year's instrument establishes the series shape; no amount may cite D-1633 itself)** |
 | — | gt_sources_ag_52-2017.pdf | Acuerdos Gubernativos 2017 — "52-2017" (ZF reglamento AG 242-90 reformer: added art. 35 bis + reformed arts. 3/6/8/13 pre-65-2022 — tags dated 05-04-2017 in 68_; GOQ-149; **LOW-PRIORITY WATCH: mineco.gob.gt automated hunt FAILED 2026-08-23 (site rebuilt, no legislación library) + owner legal.dca search unsuccessful — try again opportunistically**) |
 

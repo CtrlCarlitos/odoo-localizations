@@ -640,3 +640,9 @@ commit. Never leave a session with evidence unmerged. Update
   "E" (D-7-2019) SUNSET 2025-08-09; SEM program reglamento set acquired
   rateless; SAT calendars carry no NIT-digit windows. **Next: §4.6 merge
   of W-GT8 commits; no further waves pending.**
+- 2026-08-23 (ii) — **W-GT9 COMPLETE (IGSS JD-library wave)**: 7 rows
+  (109_–115_), 4 evidence files (EVID-1186..1305), payroll/07+10
+  backfills, GOQ-04 IVS-rate half resolved (3.67+1.83 = 5.50 pair),
+  program-family map pinned, corpus re-closed 113/0/0, queue rev 12
+  (residue = SEM/accidentes rates via the 410 art.-85 chain). **Next:
+  §4.6 merge at session close.**

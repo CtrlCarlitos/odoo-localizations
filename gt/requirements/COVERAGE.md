@@ -4,7 +4,7 @@
 |---------|-------|
 | Country | gt |
 | Topic   | all (cross-topic) |
-| Status  | draft (S-GT1..S-GT7 synthesis waves complete; W-GT7 + W-GT8 evidence passes with targeted backfills — latest 2026-08-23 — **106 cited / 0 not-applicable / 0 pending: corpus CLOSED at 106 rows** (batch-3/4 instruments 96_–101_ + 103_–108_ evidenced EVID-952..1185 and consumed by exact GOQ resolution)) |
+| Status  | draft (S-GT1..S-GT7 synthesis waves complete; W-GT7 + W-GT8 evidence passes with targeted backfills — latest 2026-08-23 — **113 cited / 0 not-applicable / 0 pending: corpus CLOSED at 113 rows** (batch-3/4 instruments 96_–101_ + 103_–108_ evidenced EVID-952..1185; W-GT9 IGSS-library rows 109_–115_ evidenced EVID-1186..1305 — all consumed by exact GOQ resolution)) |
 | Authors | GT synthesis waves S-GT1 + S-GT2 + S-GT3 + S-GT4 + S-GT5 + S-GT6/S-GT7 + controller |
 | Updated | 2026-08-23 |
 
@@ -17,8 +17,8 @@ AG 86-2006, AG 4-2005, Código Civil, D-76-78 aguinaldo, D-38-2004,
 AG 3-2017 — verification-rejected duplicates: LET IVA-General manual =
 58_ md5-identical; certificador procedure = 22_ md5-identical)**. Every
 file in [../sources/](../sources/) (registry:
-[../sources/README.md](../sources/README.md) — 106 entries, numbering
-01–108 with gaps 27 and 102; verification-rejected duplicates are not
+[../sources/README.md](../sources/README.md) — 113 entries, numbering
+01–115 with gaps 27 and 102; verification-rejected duplicates are not
 registry rows)
 mapped against the requirements waves. Status values:
 
@@ -149,10 +149,10 @@ Numbering note: registry numbers 01–83 with gap 27 (27 never allocated);
 
 | Status | Rows |
 |--------|------|
-| cited | 106 (01–108 with gaps 27/102 — every registry row; W-GT7 closed batch 2; W-GT8 closed batches 3+4) |
+| cited | 113 (01–115 with gaps 27/102 — every registry row; W-GT7 closed batch 2; W-GT8 batches 3+4; W-GT9 the IGSS JD library) |
 | not-applicable | 0 |
 | pending | 0 |
-| **Total** | **106** |
+| **Total** | **113** |
 
 With the S-GT6/S-GT7 special-regimes wave the synthesis corpus closed:
 82 cited / 0 not-applicable / 0 pending — the first wave series to close
@@ -173,7 +173,13 @@ D-7-2019, sunset 2025-08-09) + GOQ-09 resolved-in-part (D-1633 standing
 public statute; art.-11 amount instruments open) + GOQ-12 lineage settled
 (AG 118-2002 primary; 75-2006 DEAD) + GOQ-04 re-refined (Acuerdo 1124
 IVS; SEM set rateless) + GOQ-14/145 re-scoped (flat calendars, no
-NIT-digit windows).**
+NIT-digit windows).** **2026-08-23 W-GT9 (same day): owner found the
+IGSS JD library (igssgt.org/acuerdos-y-resoluciones — fetches direct);
+controller fetched + registered 109_–115_ (1124 Rev-2021 + intermediate /
+1118 / 1002 / 468 / 466 / 1135; batch-5 rejections off-scope), evidenced
+EVID-1186..1305, backfilled payroll/07+10 — **GOQ-04 IVS-rate half
+RESOLVED (3.67% + 1.83% = 5.50% payroll pair)**, program-family map
+pinned; corpus re-closed 113 cited / 0 N-A / 0 pending.**
 
 Expected cited sets verified by grep. S-GT1: 01–22, 29, 30, 31 (+24_
 FEL-layer LB only). S-GT2: 23, 24, 25, 26, 28, 47, 48, 49, 52, 53, 54,

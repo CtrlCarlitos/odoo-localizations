@@ -616,3 +616,19 @@ total 164→165 arithmetic). Next: §4.6 merge of W-GT8 commits; idle
 awaiting owner items (Acuerdo 1124; art.-11 montos; AG 52-2017 watch) /
 accountant answers / TotalDoc W6 / watch dates (TotalDoc renewal
 02-12-2026; AML reglamento ≈17-mar-2027).
+
+### 2026-08-23 — W-GT9: IGSS JD-library wave (COMPLETE)
+
+Owner located the IGSS JD acuerdo library (igssgt.org/acuerdos-y
+-resoluciones — year-filtered, ~500 instruments, fetches DIRECT). Waves
+of record: controller direct-fetched 109_–114_; owner delivered 115_ +
+2 off-scope rejections (batch 5). IVS rates resolved at 1124 art. 40
+(3.67/1.83/25-of-benefits; two consolidation vintages byte-consistent;
+untagged → presumptive 2003-03-13 dating). Program identities pinned:
+1002 = accidentes (art. 46 = superseded-era 4/2/1½), 468 = dinero, 466 =
+servicios, 1135 = staff-only, 1118 = rateless recaudación head.
+GOQ-04 residue = SEM/accidentes operative rates (410 art.-85 chain
+475→1243 + successors; hunt the JD library). payroll/07 LB-027 +
+payroll/10 LB-011; COVERAGE 113/0/0; queue rev 12. Standing lesson
+reconfirmed: IGSS library uploads are consolidations, never originals
+(106_ + 115_).

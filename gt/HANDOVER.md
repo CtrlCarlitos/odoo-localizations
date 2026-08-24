@@ -31,7 +31,12 @@ updated 2026-08-23 (**W-GT8 COMPLETE — batches 3+4 evidence pass
 EVID-952..1185 + targeted backfills; 12 registry rows 96_–101_/103_–108_;
 GOQ-01 resolved-composite, 107/146 resolved, 09 in-part, 12 settled, 04
 re-refined→Acuerdo 1124, 14/145 re-scoped flat; corpus re-closed 106/0/0
-— see §5o + §10 addenda**).
+— see §5o + §10 addenda**); updated 2026-08-23 once more (**W-GT9
+COMPLETE — IGSS JD-library wave: owner found igssgt.org/acuerdos-y
+-resoluciones (fetches direct); 109_–115_ registered + EVID-1186..1305;
+GOQ-04 IVS-rate half RESOLVED (1124 art. 40 = 3.67% + 1.83% = 5.50%
+payroll pair); program-family map pinned; corpus re-closed 113/0/0 —
+see §5p + §10 addenda**).
 Read
 this fully before acting; it is the authoritative cross-session memory.
 **Update it at every session boundary.**
@@ -84,13 +89,13 @@ acquisition ledger delivered in 06; **COVERAGE = 82 cited / 0 N-A / 0 pending
 (R49→R72, R50→R73, R52→R75, R55→R81). **Next: ~~S-GT6/S-GT7 final whole-branch review~~ DONE + ~~batch-2 W-GT7
 evidence pass + targeted backfills~~ **DONE 2026-08-22 (§5n)** + ~~W-GT8
 batches-3+4 pass~~ **DONE 2026-08-23 (§5o)** —
-current state: synthesis 7/7 + W-GT7 + W-GT8 complete, corpus CLOSED at
-106 cited / 0 N-A / 0 pending; milestone: owner decides / controller
-drives the next §4.6 merge (the 2026-08-22 closes merged at 3250ffa +
-da47a38; W-GT8's commits ride the NEXT §4.6 run).
-Remaining acquisitions are queue-rev-11 owner-browser items (IGSS
-Acuerdo 1124 IVS top-ranked; D-1633 art.-11 montos; AG 52-2017
-low-priority watch — mineco automated hunt FAILED).**
+current state: synthesis 7/7 + W-GT7 + W-GT8 + W-GT9 complete, corpus
+CLOSED at 113 cited / 0 N-A / 0 pending; milestone: controller drives
+the next §4.6 merge at session close (W-GT8 + W-GT9 commits ride it).
+Remaining acquisitions are queue-rev-12 items (SEM/accidentes rate
+instruments — the 410 art.-85 chain 475→1243 + successors, hunt the
+igssgt.org JD library Otros tab; D-1633 art.-11 montos; AG 52-2017 low
+watch — mineco automated hunt FAILED).**
 Product architecture context: root `HANDOVER.md` §1 (SaaS thin-client + Odoo;
 Takumi consumes requirements).
 
@@ -122,9 +127,14 @@ Takumi consumes requirements).
 - Python: `~/.venvs/localizations/bin/python` (shared, absolute path — works
   from the worktree). Scripts in `shared/scripts/` (extract_text.py etc.).
 
-## 4. Corpus state (2026-08-23 — W-GT8 COMPLETE: all 106 rows evidenced)
+## 4. Corpus state (2026-08-23 — W-GT9 COMPLETE: all 113 rows evidenced)
 
-**106 registered entries** (`gt/sources/`, numbering 01–108; gaps 27/102;
+**113 registered entries** (`gt/sources/`, numbering 01–115; gaps 27/102;
+**109_–115_ = 2026-08-23 W-GT9 IGSS JD-library wave (owner found
+igssgt.org/acuerdos-y-resoluciones — fetches DIRECT, controller-fetched;
+1124 Rev-2021 + 1124 intermediate + 1118 + 1002 + 468 + 466 + 1135;
+EVID-1186..1305; GOQ-04 IVS-rate half resolved — see §5p)**; batch-5
+rejections: procurement bill registro 9323 + DCA-1975 page, off-scope): (`gt/sources/`, numbering 01–108; gaps 27/102;
 **96_–101_ + 103_–108_ = 2026-08-23 owner batches 3+4, EVIDENCED W-GT8
 same day — EVID-952..1185, 6 files; all 12 consumed by GOQ resolution +
 backfills; COVERAGE 106 cited / 0 N-A / 0 pending — corpus CLOSED**;
@@ -822,6 +832,56 @@ places — W-GT6)**. Reform chains are recorded in SOURCE_RESEARCH.md.
   re-run; **always verify each rename landed**. Mineco.gob.gt automated
   hunt for AG 52-2017 FAILED (site rebuilt as CMS, no legislación
   library) — owner-browser low-priority watch only.
+
+## 5p. W-GT9 facts a session MUST know (2026-08-23)
+
+- **Deliverables (all committed, branch gt-research)**: 4 evidence files
+  (EV09a `109_IGSS1124_IVS` EVID-1186..1225 · EV09b `110_111` 1226..1258
+  · EV09c `112_113_114` 1266..1300 · EV09d `115` controller-written
+  1301..1305) + backfills payroll/07 LB-027 + payroll/10 LB-011 + master
+  -index/COVERAGE/queue write-backs. Corpus re-closed **113/0/0**.
+- **GOQ-04 IVS-rate half RESOLVED — Acuerdo 1124 art. 40 verbatim (109_
+  Rev-2021 + 115_ intermediate, byte-consistent)**: patronos particulares
+  y el Estado como patrono **3.67%** del total de salarios /
+  trabajadores afiliados **1.83%** — payroll pair = **5.50%**, both
+  shares patrono-delivered; **Estado-como-tal 25% = OF BENEFITS PAID,
+  never a payroll line**; rates UNTAGGED in both vintages (original
+  dating 13-3-2003 / DO 19-3-2003 / AG 93-2003 = presumptive — dated-row
+  valid_from 2003-03-13 flagged, never frozen harder); NO tope/floor in
+  art. 40 (the NO-tope negative-FR stands); d)-literal struck by CC
+  732-2003 (DO 9-1-2004). payroll/07 LB-027 seeds 3.67/1.83 defaults —
+  the configurable shared-row architecture KEPT. **12.67/4.83 priors now
+  doubly-rejected (wrong values AND wrong instrument).**
+- **GOQ-04 residue = SEM/accidentes operative rates ONLY**: 1002 (111_)
+  = the ACCIDENTES program reglamento — art. 46 prints 4%/2%/1½%
+  UNTAGGED = 1994 program-originals under the 475→1243 chain
+  supersession (never cite for a rate); 1118 (110_) = recaudación family
+  head, art. 1 delegates montos (R34 CONFIRMED; 5% art. 12 recargo + 50%
+  rebaja art. 32 = the recargos layer); 410 art. 62's 4/2/1 = superseded
+  1964 Guatemala-dept originals. **Hunt = the 410-art.-85 chain
+  (Acuerdos 475→1243) + successors, at the JD library page (queue rev
+  12).**
+- **Program-family map pinned (payroll/10 LB-011)**: 410 = SEM (AG 1149,
+  DCA 11-may-1967) · 468 (112_) = Prestaciones en DINERO (AG 1304, DCA
+  5-abr-1968 — the salario-diario-base instrument 410's arts. 11/25
+  delegate to) · 466 (113_) = Asistencia Médica (AG 1248, DCA
+  7-dic-1967; unitary servicios for enfermedad+maternidad+accidentes) ·
+  1002 = Accidentes (1994) · 1124 = IVS (2003) · 1118 + 1421 (87_) =
+  recaudación line · 1135 (114_) = IGSS-STAFF pension plan (art. 24:
+  Instituto 9.0% / members 4.5%, 1362-2016 — staff-only, EXCLUDED from
+  product scope; its 60%/80% minimums never apply to general regime).
+- **115_ identity corrected at evidence (the 106_-pattern repeat)**: the
+  `acuerdo1124_jd` library upload is NOT the 2003 original — art. 40
+  prints a)–c) with no d) and no strike note → post-2004 intermediate
+  consolidation (2004–2021, unstamped). Standing lesson reconfirmed:
+  **IGSS library uploads are consolidations, never originals.**
+- **Session mechanics**: 3 reader dispatches first-pass clean + 1 backfill
+  dispatch clean; 115_ evidence controller-written at close
+  (session-end compression — quotes grep-verified directly). Batch-5
+  rejections: Registro5323 (procurement bill), gtdcx00801975 (DCA-1975
+  page). The owner-reported "missing inbox" = git-ignore artifact (the
+  folder only exists where created); both main + worktree inboxes now
+  exist.
 
 ## 5. GT facts a new session must know
 
@@ -1534,3 +1594,24 @@ convergence session; updated again at W-GT1 close)
   (IGSS Acuerdo 1124 top — the IVS cuota-rate target named by 107_;
   D-1633 art.-11 montos; AG 52-2017 low watch) / accountant answers /
   TotalDoc partner access (W6). No synthesis work remains.**
+- **W-GT9 session addenda (2026-08-23, same day as W-GT8 — IGSS JD-library
+  wave)**: owner found the gold mine (igssgt.org/acuerdos-y-resoluciones
+  with the 2026/2025/2024/Otros year filter — the JD acuerdo library,
+  ~500 instruments); igssgt.org fetches DIRECT so the controller fetched
+  targets itself. Registered 109_–115_ (7 rows): 1124 Rev-2021 (the
+  IVS-rate target) + 1124 intermediate (115_, owner-delivered; identity
+  corrected at evidence — not the 2003 original) + 1118 (recaudación
+  head, R34-named) + 1002 (accidentes) + 468 (prestaciones en dinero) +
+  466 (asistencia médica) + 1135 (IGSS-staff pension plan). Rejected:
+  acdo1243_2010ger (wrong family — 2010 Gerencia scan) + batch-5
+  Registro5323 (procurement bill) + gtdcx00801975 (DCA-1975). Evidence
+  EV09a..d (EVID-1186..1305; 115_ controller-written at close).
+  **GOQ-04 IVS-rate half RESOLVED: 1124 art. 40 = 3.67% patronal +
+  1.83% laboral = 5.50% payroll pair (Estado 25% = of benefits); residue
+  = SEM/accidentes operative rates (410 art.-85 chain 475→1243 +
+  successors — queue rev 12 top item, hunt the JD library Otros tab).**
+  payroll/07 LB-027 + payroll/10 LB-011; corpus re-closed 113/0/0.
+  Inboxes exist in BOTH main checkout and worktree (git-ignore artifact
+  explained). Commits: registration (109-114) → batch-5 (115_) →
+  evidence 3612471 → backfills → close. NEXT: §4.6 merge of W-GT8 +
+  W-GT9 commits (this session's close).
