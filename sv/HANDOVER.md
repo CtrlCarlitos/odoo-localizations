@@ -1211,7 +1211,26 @@ must grep ALL LB source columns of the new files.
    (2026-08-24): D.O. STILL unreachable (HTTP 000 — outage day 3);
    uif.gob.sv answers 403 at the HTTP layer (the Incapsula WAF block —
    no longer DNS-absent; AML reglamento watch resumes via the WAF-block
-   re-probes); factura 200; asamblea 200 (`-k` route stands).** AML
+   re-probes); factura 200; asamblea 200 (`-k` route stands).**
+   **W24-late re-probe (2026-08-24, same day — session continuation):
+   D.O. www HOST RECOVERED** — `https://www.diariooficial.gob.sv`
+   serves 200 (Imprenta Nacional | Descargas, 33KB) while the bare
+   apex label still HTTP-000s; **use the www base until the apex
+   heals**. Pinned recipe re-verified END-TO-END on the www base:
+   POST `/api/v1/diarios-disponibles` form-encoded `year=2025&month=8`
+   → diary list → `/seleccion/31583` = the 22-08-2025 gazette (D.O. 157
+   T.448, the 106_ prorroga print) served CLEAN 5.4MB
+   `application/pdf`, NO junk prefix (unlike asamblea). **Unblocks the
+   §8-item-2 optional D.O. acquisitions** (106_-114_ original prints;
+   SOQ-31 Oct-Dic-1998 micro-scan; COTRANS 617/1000/307 texts).
+   **MH formularios RE-PINNED same sweep:** the old
+   `/formularios-e-instructivos/` path still 302s to home, but the new
+   landing `/servicios/formularios-tributarios-para-descarga/` serves
+   200/165KB and lists F-11 **v18** (F11-V18.pdf) + F-14 **v17**
+   (F14-V17-1.pdf) — **NO drift** (the v19/v20 + v17-manual watches
+   continue against this landing); legacy wp-content direct URLs still
+   serve (F11-V18.pdf + F14-V17-1.pdf both 200). factura 200;
+   asamblea 200; uif unchanged (www 403 WAF, apex 000). AML
    reglamento watch interrupted; the live date is **2026-10-17 = the 71_
    12-month adaptation deadline (publication 9-oct-2025 + 12 months; 71_
    effective 2025-10-17)**; re-probe at wave cadence. MH formularios
@@ -1344,19 +1363,21 @@ must grep ALL LB source columns of the new files.
   2. **Acquisition follow-ups (residual after W22):** SOQ-46 criteria
       instrument (candidates Res. 175-2023 [derogated intermediate] /
       Res. 82-2024 — low value per SOQ-52 boundary); SOQ-31 D.O.
-      Oct-Dic-1998 micro-scan (optional — never-issued negative
-      hypothesis stands); F-11 v19/v20 + F14 v17 manual MH-page watches
-      (re-pin the wp-content route — the formularios path 302s to home
-      since 2026-08-23); ~~COTRANS Aug-2025 prorroga~~ RESOLVED W21
-      (106_; 617/1000/307 texts optional at the D.O. recovery watch);
-      ~~SAS statute hunt~~ **RESOLVED W22 (D.L. 905-2023 = 111_ + the
-      gratuidad chain 113_/114_)**; ~~D.L. 201-2025 + 411-2025 anchors~~
-      **RESOLVED W22 (107_/108_, D.O. stamps on face)**; uif.gob.sv
-      re-probe (AML reglamento watch — 2026-10-17 adaptation deadline;
-      DNS-level outage since 2026-08-22); optional D.O. original prints
-      of 106_-114_ when D.O. recovers; asamblea por-anios residual
-      census (2010/2012-2015 no cards, 2019 partial — the SOQ-22
-      negative watch).
+       Oct-Dic-1998 micro-scan (optional — never-issued negative
+       hypothesis stands); F-11 v19/v20 + F14 v17 manual MH-page watches
+       (**re-pin DONE 2026-08-24**: new landing
+       `/servicios/formularios-tributarios-para-descarga/` — no drift,
+       v18/v17 current; §6); ~~COTRANS Aug-2025 prorroga~~ RESOLVED W21
+       (106_; 617/1000/307 texts optional at the D.O. recovery watch);
+       ~~SAS statute hunt~~ **RESOLVED W22 (D.L. 905-2023 = 111_ + the
+       gratuidad chain 113_/114_)**; ~~D.L. 201-2025 + 411-2025 anchors~~
+       **RESOLVED W22 (107_/108_, D.O. stamps on face)**; uif.gob.sv
+       re-probe (AML reglamento watch — 2026-10-17 adaptation deadline;
+       DNS-level outage since 2026-08-22); optional D.O. original prints
+       of 106_-114_ (**D.O. www RECOVERED 2026-08-24 — §6; unblocked,
+       owner's call**); asamblea por-anios residual
+       census (2010/2012-2015 no cards, 2019 partial — the SOQ-22
+       negative watch).
    3. Registry note: numbering continues from **115** (W22 registered
        107_-114_; sv/sources/README is the count of record — **112 file
        rows** = 110 plain numbers + 17b + 25_×2 [W24 correction; the
