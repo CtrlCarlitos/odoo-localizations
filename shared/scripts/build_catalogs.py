@@ -137,6 +137,15 @@ def main() -> int:
         rows_written[cat] = len(entries)
 
     index = out_dir / "_INDEX.md"
+    # Preserve hand-maintained trailing sections (e.g. "## Corrections
+    # log" — the FR-003/AC-007 audit log) across regenerations; only the
+    # generated header + table above the marker are rewritten.
+    preserved = ""
+    if index.exists():
+        prev = index.read_text(encoding="utf-8")
+        marker = prev.find("## Corrections log")
+        if marker >= 0:
+            preserved = "\n" + prev[marker:]
     with index.open("w", encoding="utf-8") as f:
         f.write("# MH Catalogs — machine-readable sidecars\n\n")
         f.write(
@@ -147,6 +156,7 @@ def main() -> int:
         f.write("| Catalog | File | Rows |\n|---|---|---|\n")
         for cat, slug in all_cats.items():
             f.write(f"| {cat} | `{cat}_{slug}.csv` | {rows_written[cat]} |\n")
+        f.write(preserved)
     print(f"wrote {len(rows_written)} catalogs to {out_dir}")
     return 0
 
