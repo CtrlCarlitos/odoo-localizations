@@ -161,6 +161,11 @@ boundary.**
       corrected; 107_/108_ pending = the spe/taxation wave). Registry
       UNCHANGED (111 files, next 115).** Pushed sv-research; merge to
       main = owner decision. See §5 wave log + W23-process rulings.**
+      **(MERGED to main at b793f59 same day via rebase-then-merge —
+      forty-fourth §4.6 run in root HANDOVER, zero conflicts; pre-rebase
+      SHAs 688b4c4..5dcbda9 superseded by b816b8f..b793f59; remote
+      sv-research re-pinned via delete + re-push; both branches
+      converged.)**
 
 ## 2. Read order for a new session
 

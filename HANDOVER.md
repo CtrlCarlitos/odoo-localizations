@@ -755,7 +755,38 @@ expected and absorbed by instantiating the canon, never by forking it.
        (parallel SV bookkeeping; zero conflicts — gt/-scoped) and
        fast-forward-merged at `ffde2c5`; remote gt-research updated
        via delete + re-push; core.editor unset at close. Corpus
-       unchanged 115/0/0; no wave queued.
+        unchanged 115/0/0; no wave queued.
+
+        **SV W23 merge 2026-08-23 (§4.6 protocol, forty-fourth run):**
+        `sv-research` rebased onto `bf9d475` (10 commits rewritten
+        `688b4c4..5dcbda9` → `b816b8f..b793f59`, zero conflicts — the
+        advance was GT idle-close gt/-scoped bookkeeping only) then
+        fast-forward-merged at the rewritten W23 close `b793f59`;
+        remote sv-research updated via delete + re-push.
+        **SV W23 = the W22 cml fold-in EXECUTED:** the SAS statute
+        (111_ D.L. 905-2023) delivered as a full society-type profile
+        (FR-044 statute_pending→in_corpus; §3.8 FR-225..240 + FR-246:
+        formulario constitution, S.A.S. suffix, $1 capital, free
+        reserve, ≤180-day dividends, $12,000 accounting-mode threshold,
+        gratuidad → 31-dic-2026, 305-Q/R transform/fuse-into-SAS routes)
+        + the 109_ acciones re-anchors (nominative-ABSOLUTE from
+        7-oct-2021; FR-066/068 rewrites + FR-241..242 + CT-124 duty
+        interface) + cml/05 fusión transnacional + Art. 358 + Art. 338
+        escheat→Fondo General del Estado (FR-243..245 + four amends;
+        Arts. 317/319 REPLACED wholesale) + cml/08 usura/truncation
+        awareness LBs + the SOQ-22 falsification sweep across all nine
+        cml files. **Corpus 1,702→1,724 (cml 246/256/142/35); SOQ-23
+        FULLY CLOSED; SOQ-22 swept (census-watch residual only);
+        COVERAGE 88/9/2/14 of 113 gate green** (109_-114_ cited; W22
+        rollup off-by-one corrected; 107_/108_ pending = the next SV
+        wave, spe/taxation). Registry unchanged (111 files, next 115).
+        Process: subagent-driven 6 tasks (T4 one fix round = quote-tail
+        discipline; T1 first dispatch died zero-state, re-dispatched
+        clean), final whole-wave review USABLE-WITH-FIXES → one fix
+        wave PASS (FR-246 restored); W23-process rulings (a)-(i)
+        preserved in sv/HANDOVER.md §5. sv worktree converged to main
+        at close.
+
 
        **GT W-GT10 merge 2026-08-23 (§4.6 protocol, forty-second
        run):** `gt-research` rebased onto the SV-W22 tip `8fe7854`
