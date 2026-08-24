@@ -56,7 +56,7 @@ register).
 
 ## 4. Country instantiation registers
 
-### SV (seeded 2026-08-19 — verify at special-regimes synthesis close)
+### SV (verified 2026-08-24 — see `sv/requirements/GO_LIVE_READINESS.md`; one blocker: A11 onboarding synthesis gap)
 
 - Enrollment: MH DTE emitter registration (Normativa v2.0; 27_ certificate
   obtainment manual); contingency authorization per Normativa.

@@ -64,7 +64,7 @@ directories.
 | 2 | Credentials & certificates | JWS RS512/PKCS8; per-env vault; env separation | VERIFIED + WATCH limb | `SV-EINV-FR-136` (04: one ACTIVE cert per ambiente, cross-env refused), `SV-PROT-FR-021` (06: const RS512 opaque full-bytes), `SV-EINV-FR-054` (02: pruebas/producción separation), `SV-PROT-FR-013/023` (06: signing round-trip) | WATCH limb: 04 OQ-006 renewal/revocation procedure unobtained |
 | 3 | Test/homologation pass | minimum tests per DTE type + event; test-env windows | **BLOCKER** | Gap: master-index A11 (8 governing EVIDs: 001/036/045/080/081/077/074/083) has NO requirements file — every e-invoicing file scopes "(A11)" out to a file never synthesized (S1 plan file list 01/02/03/04/05-cat/06 has no A11; FR-138's own citation dangles: "owned by the A11 onboarding file") | Closing condition: mint the A11 onboarding requirements file (S-wave; evidence owned; GT S-GT1 Task 5 `04_mandate-onboarding.md` = pattern) |
 | 4 | Phased mandates | AT sets groups/dates; early adoption | **BLOCKER** (same root) | Gap: EVID-077 rows unsynthesized (A11) | Same closing condition as row 3 — ONE §5 inventory entry |
-| 5 | Provider contracts | SV model = MH-direct; no certified intermediary | VERIFIED (negative) | `SV-EINV-FR-138` (portal-direct acquisition flow; no certificador surface anywhere in corpus) | Contrast GT (18 certificadores) |
+| 5 | Provider contracts | SV model = MH-direct; no certified intermediary | VERIFIED (negative) | `SV-EINV-FR-138` (portal-direct acquisition flow; no DTE-emission certificador surface in corpus) | Contrast GT (18 certificadores); spe/06 customs *entidades certificadoras* = different institution, non-DTE |
 | 6 | Contingency authorization | contingencia CAT-005 tipos 1-5; clocks; invalidación deadlines | VERIFIED | `SV-EINV-FR-103` (03: 1d/10háb/4d/3mo/2y differentiated), `SV-EINV-FR-111/112` (03: contingencia 24h/72h clocks), 03 §4 map rows (event.contingencia) | NCE contingency-eligible; CLE/DCLE/CDE excluded |
 
 ## §4 Register verification (shared-docs §4 SV rows)
@@ -101,12 +101,16 @@ grep-reproducible 2026-08-24): `e-invoicing/01:30` · `01:201` ·
 `e-invoicing/04:34` · `04:77` · `04:189` · `e-invoicing/06:36`; plus
 cross-topic pointer notes in commercial-legal (cml/01:354 · cml/04:136,
 1006 · cml/05:82, 134, 213, 411, 750, 816, 823, 835 · cml/07:88, 693)
-and the COVERAGE 26_ consola-manual row (A11-wave candidate) — all
-resolve at mint.
+and the COVERAGE/COVERAGE_NOTES 26_ consola-manual rows (A11-wave
+candidate) — all resolve at mint.
 
 ### 5.2 WATCH items (each: pointer + cadence/deadline)
 
-- F-11 v19/v20 prints (MH landing; §6 recipe of the W28 handdown).
+- F-11 v19/v20 + F-14 v17 manual prints (MH landing watch; sv/HANDOVER §6
+  recipe).
+- Retorno/OpEsp endpoint publication (MOQ-05; externally blocked on AT —
+  schema-verified absent 2026-08-17, all 15 52_ files; e-invoicing/02
+  OQ-003 + 03 OQ-006; gates FR-062/FR-090 endpoints).
 - Cert renewal/revocation procedure (04 OQ-006; 27_/46_ gap).
 - AML reglamento D.L. 426 (deadline 2026-10-17; uif WAF; 128_ corroboration
   no-lineamientos).
@@ -125,6 +129,7 @@ Canonical instances cited; per-file OQ registers own the long tail:
 - 108_ operative format (spe/02 OQ-10)
 - FE receptor ≥3 SMM amount (FR-020 → OQ-007)
 - SMM-mayor-cuantía sector (SOQ-33)
+- Commission rates *usos del lugar* (cml/06 OQ-002)
 - BCR Tasa Máxima Legal (cml/08)
 
 ## §6 Gate statement
