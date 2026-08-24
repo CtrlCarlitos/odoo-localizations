@@ -46,8 +46,10 @@ in general; AFP administration commissions under the SAP-law citation note;
 and the Lotería Nacional); the Art. 174 generic-nullity gate — exemptions
 granted by other laws produce NO effect for IVA (the Ley de Imprenta
 exception noted as printed), so exemption reason codes are valid ONLY from
-Arts. 45/46 plus ratified international instruments (the Art. 66 diplomatic
-anchor); and the Rgto. Art. 16 technical-calification informe mechanism.
+the three FR-224 channels as amended: Arts. 45/46 letters, ratified
+international instruments (the Art. 66 diplomatic anchor) and REGISTERED
+specific special-law instruments of the 108_ class (FR-224(c)); and the
+Rgto. Art. 16 technical-calification informe mechanism.
 Exemption qualification, diplomatic/instrument status and every dated row
 resolve as-of the tax-point date (D15), consumed from the framework file of
 this wave by id (`taxation/07_iva-framework.md` SV-TAX-FR-176 operation
