@@ -75,6 +75,7 @@ memory (conversation context does not survive). Update it at every session
 boundary.
 
 **Bootstrap prompt for a fresh session:** `Read hn/HANDOVER.md and continue.`
+**Owner browser-assist channel:** `hn/HITLIST.md` = the current owner hit-list (what to search/download per target + intake rules; maintained at every hunt/wave boundary; drops go to `hn/sources/inbox/`).
 
 ---
 
