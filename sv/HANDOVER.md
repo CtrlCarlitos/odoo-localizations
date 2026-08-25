@@ -1808,11 +1808,11 @@ must grep ALL LB source columns of the new files.
    **uif addendum (owner-assisted, same day): the WAF block hits the
    owner's own browser too (Incapsula block page, Attack ID 20000052)
    — not bot-filtering; fiscalia.gob.sv (UIF parent) = stub page only;
-    Wayback has no 2026 marco-legal capture; news search = only the
-    D. 2-2000 reglamento (17_). NO new AML reglamento evidenced as of
-    2026-08-24 — watch rides; fallback = D.O. sumario grep when the
-    gazette-feed stall clears (registry "External checks — post-W26"
-    addendum = the record).**
+   Wayback has no 2026 marco-legal capture; news search = only the
+   D. 2-2000 reglamento (17_). NO new AML reglamento evidenced as of
+   2026-08-24 — watch rides; fallback = D.O. sumario grep when the
+   gazette-feed stall clears (registry "External checks — post-W26"
+   addendum = the record).**
     **Post-W30 watch sweep (2026-08-24, same day; registry "External
     checks — post-W30" section = the record): UIF WAF CLEARED — www
     200, /marco-legal/ live; full inventory re-checked: 71_/72_
@@ -1904,17 +1904,17 @@ must grep ALL LB source columns of the new files.
   SOQ-25 Ley
   Registro de Comercio, SOQ-26 Economía rate; 05 OQ-002 reshaped-open
   (Ley de Competencia values still config-gap; checkpoint now
-   notary/suscriptor comprobar-or-declarar per the new Art. 319); 08
-   OQ-004 narrowed-open (truncation evidenced; BCR norms/interbank
-   rules un-acquired); **SOQ-46 PARTIAL W18** —
-   NIIF authority chain acquired 76_-78_ (CVPCPA Res. 154-2024 current +
-   Res. 462-2021 adoption + Ley Reguladora D.L. 828/646), both frameworks
-   SV-ratified, but the PYMES-vs-full criteria instrument is still
-   unfound (hunt open; candidates Res. 175-2023 [derogated intermediate] /
-   Res. 82-2024, low value per SOQ-52 boundary); AML new-reglamento watch
-   (uif.gob.sv — **WAF CLEARED 2026-08-24 [post-W30 sweep]: /marco-legal/
-   re-checked, no new reglamento evidenced — D. 2-2000 still hosted,
-   71_/72_ re-served byte-identical; watch rides at cadence**;
+  notary/suscriptor comprobar-or-declarar per the new Art. 319); 08
+  OQ-004 narrowed-open (truncation evidenced; BCR norms/interbank
+  rules un-acquired); **SOQ-46 PARTIAL W18** —
+  NIIF authority chain acquired 76_-78_ (CVPCPA Res. 154-2024 current +
+  Res. 462-2021 adoption + Ley Reguladora D.L. 828/646), both frameworks
+  SV-ratified, but the PYMES-vs-full criteria instrument is still
+  unfound (hunt open; candidates Res. 175-2023 [derogated intermediate] /
+  Res. 82-2024, low value per SOQ-52 boundary); AML new-reglamento watch
+  (uif.gob.sv — **WAF CLEARED 2026-08-24 [post-W30 sweep]: /marco-legal/
+  re-checked, no new reglamento evidenced — D. 2-2000 still hosted,
+  71_/72_ re-served byte-identical; watch rides at cadence**;
   **W28 supervisor-side corroboration: Res. CVPCPA 111-2026 = 128_
   [cml/10 LB-031] — NO methodology lineamientos issued as of
   27-feb-2026; the 12-month adaptation window ⇒ 2026-10-17 stands;
@@ -2004,14 +2004,14 @@ must grep ALL LB source columns of the new files.
         — EVID-413..415; 17-A provenance resolved: 617 creates**);
         ~~SAS statute hunt~~ **RESOLVED W22 (D.L. 905-2023 = 111_ + the
         gratuidad chain 113_/114_)**; ~~D.L. 201-2025 + 411-2025 anchors~~
-         **RESOLVED W22 (107_/108_, D.O. stamps on face)**; uif.gob.sv
-         re-probe (AML reglamento watch — 2026-10-17 adaptation deadline;
-         **WAF CLEARED 2026-08-24 [post-W30 sweep]: no new reglamento
-         evidenced — D. 2-2000 still hosted, 71_/72_ byte-identical;
-         supervisor-side state
-         now instrument-evidenced: 128_/LB-031 — no lineamientos as of
-         27-feb-2026; watch = the UIF reglamento + D.O. sumario once the
-         feed stall clears**); ~~optional D.O. original
+        **RESOLVED W22 (107_/108_, D.O. stamps on face)**; uif.gob.sv
+        re-probe (AML reglamento watch — 2026-10-17 adaptation deadline;
+        **WAF CLEARED 2026-08-24 [post-W30 sweep]: no new reglamento
+        evidenced — D. 2-2000 still hosted, 71_/72_ byte-identical;
+        supervisor-side state
+        now instrument-evidenced: 128_/LB-031 — no lineamientos as of
+        27-feb-2026; watch = the UIF reglamento + D.O. sumario once the
+        feed stall clears**); ~~optional D.O. original
         prints of 106_-114_~~ **ACQUIRED W25 (115_-123_)**; asamblea
         por-anios residual
         census (2010/2012-2015 no cards, 2019 partial — the SOQ-22
