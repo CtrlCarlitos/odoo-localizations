@@ -518,6 +518,12 @@ addition [cml/06 OQ-002]) · T5 = this bookkeeping.
 4. `sv/requirements/COVERAGE.md` + the topic `00_index.md` files
    (e-invoicing, taxation, fiscal-reporting, payroll, commercial-legal,
    special-regimes, chart-of-accounts)
+4b. `sv/CORPUS_DIGEST.md` — implementation-scoping digest (post-W30,
+   corpus @ 75ecedd): shape census, by-id dependency graph → build-wave
+   order, ranked build risks, amendment surface. Input for the
+   implementation design session; NOT a requirements artifact — the
+   corpus + GO_LIVE_READINESS stay authoritative. Regenerate the census
+   greps (§6 of the digest) if the corpus moves.
 5. Root `HANDOVER.md` §5 (decisions D1–D19 + standing policies) +
    `shared/docs/` method docs (extraction procedure, requirements
    template, regulatory-change-management, odoo-localization-guide,
