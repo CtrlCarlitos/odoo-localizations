@@ -935,8 +935,45 @@ expected and absorbed by instantiating the canon, never by forking it.
           UNCHANGED.** SV residual = external watches only (uif AML
           deadline 2026-10-17; D.O. feed stall; MH formularios F-11
           v19/v20 + F-14 v17; MOQ-05 endpoints; SOQ-46 negative watch;
-          cvpcpa cadence) + census watch + owner merge decisions. sv
-          worktree converged to main at close.
+           cvpcpa cadence) + census watch + owner merge decisions. sv
+           worktree converged to main at close.
+
+        **SV post-W30 watch-sweep merge 2026-08-24 (§4.6 protocol,
+          fifty-second run):** `sv-research` rebased onto `0ff88f5` (a
+          NO-OP — main unmoved since the W30 merge-record close, so the
+          2 session commits `4ad45a1..e1e6cae` stand UNREWRITTEN — the
+          post-W30 external-check sweep + an indent-hygiene fix) then
+          fast-forward-merged at `e1e6cae`; plain fast-forward push, no
+          remote re-pin needed. **SV post-W30 = the wave-cadence watch
+          sweep (controller-direct; no subagents): (1) UIF WAF BLOCK
+          CLEARED — www.uif.gob.sv answers 200 (was 403-Incapsula since
+          2026-08-21; apex label still 000); `/marco-legal/` live, full
+          document inventory re-checked: 71_/72_ re-served
+          BYTE-IDENTICAL (sha256 matches), the hosted reglamento = a
+          6-pp damaged-but-qpdf-recoverable D. 2-2000 print (17_-class,
+          different scan) ⇒ NO new D.L.-426 reglamento/instructivo
+          evidenced; the AML watch (2026-10-17 adaptation deadline) is
+          UNBLOCKED for monitoring; (2) D.O. www + API serving but the
+          gazette feed STILL stalls at 10-ago-2026 (Aug-2026 Ids
+          31815/31816 unchanged; the successor-legislation route, the
+          AML-reglamento D.O.-sumario fallback, and the Nov/Dec-2026
+          aguinaldo-cap decree watch all stay gated on the stall
+          clearing); (3) MH formularios NO DRIFT but ROUTE CHANGE — F-11
+          v18 + F-14 v17 still current on the www landing; the apex host
+          now 302s to the www home swallowing paths (use
+          `https://www.mh.gob.sv/…` for ALL MH probes); legacy
+          wp-content deep URLs dead (the landing = the watch surface);
+          (4) factura.gob.sv NO DRIFT (Documentos Técnicos wpdmdl set
+          unchanged, max 5353 — Normativa v2.0/Catálogos v1.1/schemas
+          11-ago-2026 all still newest); (5) asamblea 200 (`-k`);
+          cvpcpa not re-probed (W28 full-enumeration SOQ-46 negative
+          earlier the same day).** ZERO corpus deltas: 1,747 FRs
+          UNCHANGED; registry UNCHANGED (126 file rows, next 129);
+          COVERAGE 93/8/2/24 of 127 gate green (no drift). Record
+          surfaces: registry "External checks — post-W30" section +
+          sv/HANDOVER §6/§7/§8 state refresh. SV residual = external
+          watches only + owner merge decisions. sv worktree converged
+          to main at close + this record.
 
         **SV W29 merge 2026-08-24 (§4.6 protocol, fiftieth
           run):** `sv-research` rebased onto `912cdde` (a NO-OP — main

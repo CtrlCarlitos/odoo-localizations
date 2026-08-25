@@ -460,8 +460,25 @@ boundary.**
            onboarding synthesis wave: +15 FRs [corpus 1,747], cluster
            A11 file minted [e-invoicing/07], every dangling pointer
            resolved, 26_ cited, COVERAGE 93/8/2/24 of 127 gate green,
-           GO_LIVE gate 17 VERIFIED / 4 WATCH / 0 BLOCKER — GREEN FOR
-           PLANNING, registry 126 file rows next 129.)**
+            GO_LIVE gate 17 VERIFIED / 4 WATCH / 0 BLOCKER — GREEN FOR
+            PLANNING, registry 126 file rows next 129.)**
+            **Post-W30 watch sweep + merge (2026-08-24, same day):
+            controller-direct cadence sweep, ZERO corpus deltas (1,747
+            FRs / 126 file rows / COVERAGE 93/8/2/24 of 127 all
+            unchanged) — UIF WAF CLEARED (no new D.L.-426 reglamento
+            evidenced: 71_/72_ re-served byte-identical, D. 2-2000
+            still the hosted reglamento; AML watch unblocked, deadline
+            2026-10-17 stands); D.O. feed still stalled at 10-ago-2026
+            (Ids 31815/31816 unchanged); MH no drift + route change
+            (use the www base; wp-content deep links dead); factura no
+            drift; asamblea 200. Registry "External checks — post-W30"
+            section = the record; §6/§7/§8 refreshed. (MERGED to main
+            at e1e6cae same day via rebase-then-merge — fifty-second
+            §4.6 run in root HANDOVER; the rebase was a NO-OP [main
+            unmoved since the W30 merge record at 0ff88f5], so the 2
+            session commits 4ad45a1..e1e6cae stand UNREWRITTEN and the
+            remote needed no re-pin; plain fast-forward push; both
+            branches converged at close + this record.)**
 
 ### W29-process rulings (2026-08-24, recorded at T5 bookkeeping from the wave ledger)
 
