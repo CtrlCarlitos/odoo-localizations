@@ -479,6 +479,16 @@ boundary.**
             session commits 4ad45a1..e1e6cae stand UNREWRITTEN and the
             remote needed no re-pin; plain fast-forward push; both
             branches converged at close + this record.)**
+            **Corpus digest + merge (2026-08-24, same day): NEW
+            `sv/CORPUS_DIGEST.md` persisted (owner-approved — the
+            implementation-scoping input: census, dependency graph →
+            build-wave order, ranked risks, amendment surface; NOT a
+            requirements artifact; §2 item 4b pointer). (MERGED to main
+            at f9397fa same day via rebase-then-merge — fifty-third
+            §4.6 run in root HANDOVER; NO-OP rebase [main unmoved at
+            75ecedd], single commit stands UNREWRITTEN, no re-pin;
+            both branches converged at close + this record. ZERO
+            corpus deltas: 1,747 FRs unchanged.)**
 
 ### W29-process rulings (2026-08-24, recorded at T5 bookkeeping from the wave ledger)
 

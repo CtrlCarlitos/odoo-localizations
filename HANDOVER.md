@@ -975,6 +975,31 @@ expected and absorbed by instantiating the canon, never by forking it.
           watches only + owner merge decisions. sv worktree converged
           to main at close + this record.
 
+        **SV corpus-digest merge 2026-08-24 (§4.6 protocol,
+          fifty-third run):** `sv-research` rebased onto `75ecedd` (a
+          NO-OP — main unmoved since the fifty-second merge-record
+          close, so the single session commit `f9397fa` stands
+          UNREWRITTEN) then fast-forward-merged at `f9397fa`; plain
+          fast-forward push, no remote re-pin needed. **SV = NEW
+          `sv/CORPUS_DIGEST.md`** (owner-approved after the digest
+          report): implementation-scoping view of the 1,747-FR corpus —
+          shape census (per-topic FR/OQ/model-entity/data volumes,
+          grep-reconciled), the by-id dependency graph → build-wave
+          order (e-invoicing+catalogs → taxation+fiscal-reporting →
+          payroll → special-regimes → chart-of-accounts; cml mostly
+          leaf; the TAX↔FREP↔PAY triangle designed as one unit), ranked
+          build risks (DTE stack, casilla engine, D15 as-of machinery,
+          IVA/ISR engines, ~102 config-gap decisions), invariants
+          condensed, amendment surface (watches), census-reproduction
+          greps. Explicitly NOT a requirements artifact — the corpus +
+          GO_LIVE_READINESS stay authoritative; digest regenerates if
+          the corpus moves. sv/HANDOVER §2 read-order pointer added
+          (item 4b). ZERO corpus deltas: 1,747 FRs / 126 file rows /
+          COVERAGE gate green all unchanged. Purpose: the standing input
+          for the SV implementation design session (GO_LIVE gate is
+          GREEN FOR PLANNING). sv worktree converged to main at close +
+          this record.
+
         **SV W29 merge 2026-08-24 (§4.6 protocol, fiftieth
           run):** `sv-research` rebased onto `912cdde` (a NO-OP — main
          unmoved since the W28 merge-record close, so the 7 session
