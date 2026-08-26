@@ -2090,3 +2090,62 @@ must grep ALL LB source columns of the new files.
   `docs/superpowers/plans/` → subagent loop (fresh implementer per task;
   every FR cites LB; reviewer verifies vs master index; fix rounds;
   ledger) → final whole-wave review → ONE fix wave → push.
+
+## 10. Implementation program (from W0; the corpus's consumption phase)
+
+Spec `docs/superpowers/specs/2026-08-24-sv-implementation-program-design.md`
+(approved 2026-08-24) + plans `2026-08-24-w0-tk-phoenix-stack.md` +
+`2026-08-24-w0-sv-scaffold.md`. Code repo: **`CtrlCarlitos/sv-implementation`**
+(private monorepo; client/ LGPL boundary, saas/, sim/, protocol/ mirror).
+Env tooling: **takumi-dream** (`tk`/`takumid`) — digest-pinned, per-worktree
+HTTPS worktrees; this canon repo = process controller + protocol author.
+
+### W0-TK (2026-08-25): COMPLETE — review-cleared, merge-pending
+
+Phoenix stack type for tk/takumid (API fields → normalizeStack + digest
+enforcement via distribution/reference → shared app-container core +
+startPhoenix → role-label List + per-stack Destroy/Ports/Exec/volumes →
+cross-stack namespace claims + createMu race closure + provenance-safe
+rollback (WithoutCancel, explicit volume pre/post-inspect) → CLI
+--stack/--app-image → cross-platform verify fixture (self-test mode,
+real-dep mix app, marker+clean repo gate, readiness loop, --noproxy
+loopback, ownership assert) → CI (vet/test/gofmt; NO docker by design)
+→ tk doctor docker-group check (daemon-first, explanatory-only, NSS-aware
+stale-vs-never diagnosis, WSL Docker-Desktop hint) → phoenix container
+user contract (root-default images run as bind-owner uid:gid with
+HOME=/tmp; image-configured non-root users untouched).
+
+- Branch `w0-tk-phoenix-stack` @ **ba5c568**; PR takumi-dream#1.
+  Pinned elixir: `hexpm/elixir:1.18.4-erlang-27.3.4.16-debian-bookworm-20260824@sha256:2e0123f…`
+  (fixture README; W0-SV copies it).
+- **Review process (binding precedent):** external adversarial review
+  REPLACED the internal final whole-branch review, at owner direction —
+  Claude partial (4 findings) + GPT-5.6-Sol 7 rounds (25 findings total);
+  every claim INDEPENDENTLY VERIFIED before fixing (owner rule: invalid
+  claims → written rebuttal report instead of fixes — none occurred);
+  every fix wave scoped-re-reviewed; controller live acceptance run on
+  WSL2 (PASS exit 0 + zero docker residue) as the owner-phase gate.
+  Reports: takumi-dream `docs/superpowers/reviews/2026-08-25-w0-tk-*`.
+- **Merge gate:** owner decision + GitHub billing/spend-limit
+  runner-allocation failure (account-level, not code — CI workflow passes
+  locally and in Sol's pinned container).
+- **W0-TK-process rulings (load-bearing for later waves):**
+  (a) TLS terminates at the EDGE everywhere — Caddy `{{upstreams 4000}}` +
+  internal TLS locally, Fly anycast edge in prod; Phoenix NEVER manages
+  certs (owner-approved).
+  (b) Phoenix container identity: uid:gid override ONLY for root-default
+  images, HOME=/tmp (never the source tree — .mix/.hex would dirty the
+  repo); image-configured users are a contract to respect.
+  (c) A worktree holds exactly ONE app container; both app names are
+  namespace claims; opposite-role = reject, not replace.
+  (d) Rollback is best-effort with explicit provenance (pre/post volume
+  inspect; never infer from container-created flags; detached ctx).
+  (e) doctor: capability first (daemon ping), explanation second — group
+  layout may never contradict a reachable daemon.
+  (f) Acceptance-environment facts: WSL supplementary groups go stale
+  until a fresh session (`wsl.exe -u carlitos -e` wrapper = working
+  route); this distro lacks myhostname NSS (fixture curl --resolve
+  loopback + --noproxy); tk/daemon must be REBUILT from the branch
+  (install-tk.sh + compose --build) when testing branch code.
+  (g) gh CLI: `gh auth switch --user CtrlCarlitos` needed for org repos
+  (default account sel-carlitos can push via SSH but not see them).
