@@ -2856,6 +2856,25 @@ W4 payroll → synthesis (master index + S-waves).
 
 ## 8. Next actions (ordered)
 
+1. **SV implementation program W0 merge 2026-08-25 (§4.6 protocol,
+   fifty-fourth run):** `sv-research` rebased onto `c0b4ace` (a NO-OP —
+   main unmoved since the fifty-third record close, so the 4 session
+   commits `a92d53d..62aadd8` stand UNREWRITTEN — the approved
+   implementation-program spec + the two W0 plans + the W0-TK close
+   bookkeeping with rulings preservation) then fast-forward-merged at
+   `62aadd8`; plain fast-forward push, no remote re-pin. **Same-day
+   external merge: takumi-dream PR #1 (the whole W0-TK phoenix-stack
+   wave + its 8 review documents, branch `w0-tk-phoenix-stack`
+   `9aaf2b5..edf5a7f`, 26 commits) MERGED at `8c16612` via a MERGE
+   COMMIT — deliberately not rebase-merged so every review-doc SHA
+   range (Claude's + Sol's seven verification rounds, 25 findings,
+   all claims verified-then-fixed) remains resolvable in history;
+   GitHub CI checks were red from an account-level
+   billing/spend-limit runner-allocation failure (external gate, owner
+   accepted the local + adversarially-verified evidence in lieu).
+   Corpus UNCHANGED: 1,747 FRs. Next: W0-SV execution (9-task plan on
+   main) creating CtrlCarlitos/sv-implementation.**
+
 1. ~~**DTE schema pass**~~ **DONE 2026-08-17** — 10 OQs + 4 MOQs closed;
    rulings 5–10 above; resolutions recorded in-file and in master-index
    Section C.

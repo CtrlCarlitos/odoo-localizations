@@ -2128,7 +2128,12 @@ HOME=/tmp; image-configured non-root users untouched).
   Reports: takumi-dream `docs/superpowers/reviews/2026-08-25-w0-tk-*`.
 - **Merge gate:** owner decision + GitHub billing/spend-limit
   runner-allocation failure (account-level, not code — CI workflow passes
-  locally and in Sol's pinned container).
+  locally and in Sol's pinned container). **RESOLVED 2026-08-25:
+  takumi-dream PR #1 MERGED at `8c16612` (merge commit, SHAs preserved;
+  owner accepted adversarially-verified evidence in lieu of hosted CI);
+  the same-day canon run (fifty-fourth §4.6, `a92d53d..62aadd8` → main)
+  carried this record. W0-SV unblocked — the tk main branch now carries
+  the phoenix stack.**
 - **W0-TK-process rulings (load-bearing for later waves):**
   (a) TLS terminates at the EDGE everywhere — Caddy `{{upstreams 4000}}` +
   internal TLS locally, Fly anycast edge in prod; Phoenix NEVER manages
